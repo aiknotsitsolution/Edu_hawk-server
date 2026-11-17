@@ -1,29 +1,46 @@
 {
-  "seo": {
-    "title": "Study Summer Courses in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Summer Courses in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
-    "title": "Summer Courses in the UK for Indian Students",
+    "title": "1. Why Study Summer Courses in the UK?",
     "subtitle": "Students who wish to acquire new skills, improve their English Study academic interests and experience British culture in the summer can take advantage of a great opportunity to attend summer courses in the UK."
   },
   "overview": [
     "Students who wish to acquire new skills, improve their English Study academic interests and experience British culture in the summer can take advantage of a great opportunity to attend summer courses in the UK.",
     "Short-term programmes are offered in a wide range of subjects from UK universities, colleges and specialist education providers.",
-    "The main benefits of taking summer courses in the UK"
+    "Edu Hawk worldwide consultation with the right preparation and direction helps learners to comprehend the \"university admission standards\", explore \"international study options\" and prepare for the \"overseas education journey\"."
+  ],
+  "universities": [
+    {
+      "name": "King’s College London",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_summer_courses_King_s_College_London-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_summer_courses_King_s_College_London-image2.png",
+      "desc": "King’s College London is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "The University of Oxford",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_summer_courses_The_University_of_Oxford-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_summer_courses_The_University_of_Oxford-image1.png",
+      "desc": "The University of Oxford is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Edinburgh",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_summer_courses_University_of_Edinburgh-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_summer_courses_University_of_Edinburgh-image3.png",
+      "desc": "University of Edinburgh is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Summer Courses in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Students who wish to acquire new skills, improve their English Study academic interests and experience British culture in the summer can take advantage of a great opportunity to attend summer courses in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students who wish to acquire new skills, improve their English Study academic interests and experience British culture in the summer can take advantage of a great opportunity to attend summer courses in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -31,10 +48,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "The main benefits of taking summer courses in the UK"
-          ]
+          "t": "h4",
+          "text": "The main benefits of taking summer courses in the UK"
         },
         {
           "t": "ul",
@@ -59,15 +74,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Summer Courses",
-      "eyebrow": "Course Guide",
+      "lead": "The UK offers summer courses for school children, college students, new graduates and working professionals. There are alternatives but they vary by institution, age group, subject and program dates.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The UK offers summer courses for school children, college students, new graduates and working professionals. There are alternatives but they vary by institution, age group, subject and program dates."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -173,31 +184,76 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
+      "title": "Top Universities to Consider in the UK",
+      "lead": "Explore the leading universities and colleges in the United Kingdom offering globally recognized degrees, historic campuses, and strong international student support.",
+      "unis": [
+        {
+          "name": "King’s College London",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_summer_courses_King_s_College_London-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_summer_courses_King_s_College_London-image2.png",
+          "desc": "King’s College London is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "The University of Oxford",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_summer_courses_The_University_of_Oxford-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_summer_courses_The_University_of_Oxford-image1.png",
+          "desc": "The University of Oxford is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Edinburgh",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_summer_courses_University_of_Edinburgh-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_summer_courses_University_of_Edinburgh-image3.png",
+          "desc": "University of Edinburgh is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "The UK's Best Universities and Institutions for Summer Courses",
-      "eyebrow": "Top Institutions",
+      "lead": "Summer schools, short courses, or summer learning opportunities are offered by a number of UK universities and specialized education providers. Before applying, students should review the most recent course catalog because the programs offered may change annually.",
       "groups": [
         {
-          "t": "universities",
+          "t": "p",
           "items": [
-            {
-              "name": "The University of Oxford provides a variety of summer learning options.",
-              "desc": "King's College London - may provide summer courses in a few professional and academic fields. The availability of academic and language-related study possibilities at the University of Edinburgh varies from year to year.",
-              "imgKey": null
-            }
+            "Institutions to explore"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The University of Oxford provides a variety of summer learning options."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "King's College London - may provide summer courses in a few professional and academic fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The availability of academic and language-related study possibilities at the University of Edinburgh varies from year to year."
           ]
         }
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Qualifications for Summer Courses in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "The course, institution, age group, and program level all affect eligibility.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The course, institution, age group, and program level all affect eligibility."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -264,20 +320,14 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "The UK's Summer Course Admission Requirements.",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Admission requirements tend to be less complicated than those for full degree programs, but they vary depending on the provider and course.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Admission requirements tend to be less complicated than those for full degree programs, but they vary depending on the provider and course."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements :"
-          ]
+          "t": "h4",
+          "text": "Academic requirements :"
         },
         {
           "t": "ul",
@@ -289,25 +339,21 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "English Language Proficiency Requirements"
-          ]
+          "t": "h4",
+          "text": "English Language Proficiency Requirements"
         },
         {
           "t": "ul",
           "items": [
-            "Applicants may be required to demonstrate adequate  English language proficiency  to qualify to be admitted to courses that are taught in English . Some programs require an intermediate or expert level, and some are open to beginners.",
+            "Applicants may be required to demonstrate adequate English language proficiency to qualify to be admitted to courses that are taught in English . Some programs require an intermediate or expert level, and some are open to beginners.",
             "Acceptable evidence may consist of: Take the IELTS or equivalent approved English language test if required",
             "Proficiency in English.",
             "additional evidence that the organization has authorized"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Additional requirements"
-          ]
+          "t": "h4",
+          "text": "Additional requirements"
         },
         {
           "t": "p",
@@ -330,15 +376,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "The cost of studying summer courses in the UK",
-      "eyebrow": "Tuition & Living",
+      "lead": "Cost of summer courses in the UK will vary depending on the provider, the subject, the length of the program, the accommodation, meals and activities.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Cost of summer courses in the UK will vary depending on the provider, the subject, the length of the program, the accommodation, meals and activities."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -349,12 +391,31 @@
           "t": "ul",
           "items": [
             "Short academic summer courses: one or two weeks, £500 to £2,500.",
-            "Depending on the school and the subject, a university summer school will cost anywhere between £1,000 and £5,000 for a period of two to four weeks.",
-            "The cost of English language tuition courses in summer is between £200 and £500 per week, depending on the provider.",
-            "Adolescent summer programs can run from £1,000 to £3,500-plus for two to four weeks, inclusive of lodging, meals and activities.",
-            "The cost of professional courses varies widely, and executive or intensive programs may be more expensive."
+            "Depending on the school and the subject, a university summer school will cost anywhere between £1,000 and £5,000 for a period of two to four weeks."
           ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "The cost of English language tuition courses in summer is between £200 and £500 per week, depending on the provider.",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Adolescent summer programs can run from £1,000 to £3,500-plus for two to four weeks, inclusive of lodging, meals and activities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "The cost of professional courses varies widely, and executive or intensive programs may be more expensive.",
+      "lead": "",
+      "groups": [
         {
           "t": "p",
           "items": [
@@ -366,11 +427,18 @@
           "items": [
             "Students who make their own travel and lodging arrangements should budget for:"
           ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of accommodation ranges from £500 to £1,200 per month, depending on the location and type of accommodation.",
+      "lead": "",
+      "groups": [
         {
           "t": "ul",
           "items": [
-            "The cost of accommodation ranges from £500 to £1,200 per month, depending on the location and type of accommodation.",
             "Food and shopping is about £150-£300 per month.",
             "Transport: £50-150/month.",
             "Personal, phone and utility costs of about £100 to £250 a month.",
@@ -398,159 +466,79 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "The UK Summer Course Admissions Process",
-      "eyebrow": "Eligibility & Process",
+      "lead": "The summer course admissions process is typically straightforward.",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "The summer course admissions process is typically straightforward."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1:Pick Your Topic"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "You can choose English, business, law, technology, architecture, arts, science or medicine related disciplines."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Provider Research"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Compare independent providers, language schools, universities and specialist summer schools."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Check Your Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Check for special conditions, dates of the course, language requirements, age limits and academic qualifications."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Assess Inclusions and Expenses"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Take into account the overall cost, lodging, meals, excursions, insurance, cancellation conditions and refund policy."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Collect Your Documents"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Collect your passport information, academic transcripts, application details and any portfolio or English language test results required."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Submit Your Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Fill out the application on the provider's official website and send the necessary documents before the deadline."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Verify yourself"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "If you are accepted, you may receive an offer or enrollment confirmation that includes course dates, costs, payment plan and arrival instructions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Pay the Fees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Pay as instructed by the provider and keep the payment confirmation. Please read the refund policy before depositing."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9: Check Your Visa Requirements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "See which UK immigration route is best for the particular course, duration and situation. Not all summer programs qualify for a student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Arrange travel and accommodations"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Plan travel, check lodging and, if necessary, arrange for supervision or parental authorization for anyone under eighteen."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 11: Attend the Summer Program"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Attend the scheduled academic and cultural events, complete registration and orientation, and comply with the program's attendance requirements."
+            {
+              "step": 1,
+              "title": "Pick Your Topic",
+              "desc": "You can choose English, business, law, technology, architecture, arts, science or medicine related disciplines."
+            },
+            {
+              "step": 2,
+              "title": "Provider Research",
+              "desc": "Compare independent providers, language schools, universities and specialist summer schools."
+            },
+            {
+              "step": 3,
+              "title": "Check Your Eligibility",
+              "desc": "Check for special conditions, dates of the course, language requirements, age limits and academic qualifications."
+            },
+            {
+              "step": 4,
+              "title": "Assess Inclusions and Expenses",
+              "desc": "Take into account the overall cost, lodging, meals, excursions, insurance, cancellation conditions and refund policy."
+            },
+            {
+              "step": 5,
+              "title": "Collect Your Documents",
+              "desc": "Collect your passport information, academic transcripts, application details and any portfolio or English language test results required."
+            },
+            {
+              "step": 6,
+              "title": "Submit Your Application",
+              "desc": "Fill out the application on the provider's official website and send the necessary documents before the deadline."
+            },
+            {
+              "step": 7,
+              "title": "Verify yourself",
+              "desc": "If you are accepted, you may receive an offer or enrollment confirmation that includes course dates, costs, payment plan and arrival instructions."
+            },
+            {
+              "step": 8,
+              "title": "Pay the Fees",
+              "desc": "Pay as instructed by the provider and keep the payment confirmation. Please read the refund policy before depositing."
+            },
+            {
+              "step": 9,
+              "title": "Check Your Visa Requirements",
+              "desc": "See which UK immigration route is best for the particular course, duration and situation. Not all summer programs qualify for a student visa."
+            },
+            {
+              "step": 10,
+              "title": "Arrange travel and accommodations",
+              "desc": "Plan travel, check lodging and, if necessary, arrange for supervision or parental authorization for anyone under eighteen."
+            },
+            {
+              "step": 11,
+              "title": "Attend the Summer Program",
+              "desc": "Attend the scheduled academic and cultural events, complete registration and orientation, and comply with the program's attendance requirements."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Recognition and Accreditation of Summer Courses in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "The academic quality and reputation of summer courses can differ enormously. Some offer a Certificate of Attendance or Completion, some offer University Credit.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The academic quality and reputation of summer courses can differ enormously. Some offer a Certificate of Attendance or Completion, some offer University Credit."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -571,15 +559,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Salaries and Employment Opportunities in the UK After Summer Courses",
-      "eyebrow": "Course Guide",
+      "lead": "Summer courses can help students build resumes, gain practical skills and explore career interests. But a short summer course alone rarely leads to a job or qualifies someone for a specialized professional position.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Summer courses can help students build resumes, gain practical skills and explore career interests. But a short summer course alone rarely leads to a job or qualifies someone for a specialized professional position."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -610,13 +594,11 @@
           "items": [
             "A short summer course doesn't automatically give you work rights or post-study visa eligibility. All work must be in accordance with the terms of the student's immigration permit."
           ]
-        }
-      ]
-    },
-    {
-      "title": "10 . Documents Required for Admission in UK Summer Courses",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
+        },
+        {
+          "t": "h4",
+          "text": "10 . Documents Required for Admission in UK Summer Courses"
+        },
         {
           "t": "p",
           "items": [
@@ -645,112 +627,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs – UK Summer Courses",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. What are summer courses in the UK?",
-              "a": "Summer courses are short-term educational programs offered by colleges, universities, language schools, and specialized providers during the summer months. They cover English, business, law, technology, science, arts and professional development."
-            },
-            {
-              "q": "Q2. How long are summer courses in the UK?",
-              "a": "Most summer courses are one to four weeks long, but some programs run six to eight weeks or longer. How long it takes depends on the course structure, subject and supplier."
-            },
-            {
-              "q": "Q3. How much do summer courses in the United Kingdom cost?",
-              "a": "Some university summer schools cost between £1,000 and £5,000 for two to four weeks, and short academic programs cost between £500 and £2,500 for one to two weeks. There may be extra fees for lodging, meals, travel and visas."
-            },
-            {
-              "q": "Q4. Do you accept international students for summer courses in the UK?",
-              "a": "Yes. Depending on their qualifying requirements and available spaces, some providers accept  international applicants. Students should check dates, costs, paperwork and any visa requirements before applying."
-            },
-            {
-              "q": "Q5. Can I get a job in the UK after completing a summer course?",
-              "a": "Taking a  summer course  does not mean that you are eligible for a  post-study visa  or permission to work in the UK. Your rights at work will depend on the rules that apply to your course and circumstances and your immigration status."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may find appropriate universities, comprehend admission requirements, arrange application materials, and organize their study-abroad journey with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "The University of Oxford provides a variety of summer learning options.",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "King's College London - may provide summer courses in a few professional and academic fields. The availability of academic and language-related study possibilities at the University of Edinburgh varies from year to year.",
-      "imgFile": null
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Summer Courses in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. What are summer courses in the UK?",
+      "q": "What are summer courses in the UK?",
       "a": "Summer courses are short-term educational programs offered by colleges, universities, language schools, and specialized providers during the summer months. They cover English, business, law, technology, science, arts and professional development."
     },
     {
-      "q": "Q2. How long are summer courses in the UK?",
+      "q": "How long are summer courses in the UK?",
       "a": "Most summer courses are one to four weeks long, but some programs run six to eight weeks or longer. How long it takes depends on the course structure, subject and supplier."
     },
     {
-      "q": "Q3. How much do summer courses in the United Kingdom cost?",
+      "q": "How much do summer courses in the United Kingdom cost?",
       "a": "Some university summer schools cost between £1,000 and £5,000 for two to four weeks, and short academic programs cost between £500 and £2,500 for one to two weeks. There may be extra fees for lodging, meals, travel and visas."
     },
     {
-      "q": "Q4. Do you accept international students for summer courses in the UK?",
-      "a": "Yes. Depending on their qualifying requirements and available spaces, some providers accept  international applicants. Students should check dates, costs, paperwork and any visa requirements before applying."
+      "q": "Do you accept international students for summer courses in the UK?",
+      "a": "Yes. Depending on their qualifying requirements and available spaces, some providers accept international applicants. Students should check dates, costs, paperwork and any visa requirements before applying."
     },
     {
-      "q": "Q5. Can I get a job in the UK after completing a summer course?",
-      "a": "Taking a  summer course  does not mean that you are eligible for a  post-study visa  or permission to work in the UK. Your rights at work will depend on the rules that apply to your course and circumstances and your immigration status."
+      "q": "Can I get a job in the UK after completing a summer course?",
+      "a": "Taking a summer course does not mean that you are eligible for a post-study visa or permission to work in the UK. Your rights at work will depend on the rules that apply to your course and circumstances and your immigration status."
     },
     {
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students may find appropriate universities, comprehend admission requirements, arrange application materials, and organize their study-abroad journey with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "1. Why Study Summer Courses in the UK? | Edu-Hawk Worldwide",
+    "description": "Students who wish to acquire new skills, improve their English Study academic interests and experience British culture in the summer can take advantage of a gre",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

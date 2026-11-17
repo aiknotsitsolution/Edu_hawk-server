@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study BEng Aerospace Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to BEng Aerospace Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Aerospace Engineering in the UK",
     "subtitle": "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerospace engineering. Aerodynamics, structures, materials, flight mechanics, propulsion, and control systems are all integrated with engineering principles."
   },
@@ -13,17 +8,47 @@
     "The UK has undergraduate Aerospace Engineering programs that include actual engineering projects, computer modeling, laboratory experiments, and theoretical learning. Students can investigate technology utilized in advanced transportation, unmanned aerial vehicles, commercial aviation, defense, and space exploration.",
     "A UK aerospace degree can offer a solid basis for future technological advancement and career prospects for Indian students interested in aircraft, flight technologies, space systems, and engineering innovation."
   ],
+  "universities": [
+    {
+      "name": "Aston University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_aero_engg_ug_Aston_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_aero_engg_ug_Aston_University-image3.png",
+      "desc": "Systems."
+    },
+    {
+      "name": "Leicester University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_aero_engg_ug_Leicester_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_aero_engg_ug_Leicester_University-image4.png",
+      "desc": "Leicester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Swansea University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_aero_engg_ug_Swansea_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_aero_engg_ug_Swansea_University-image2.png",
+      "desc": "Swansea University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "The University of Surrey",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_aero_engg_ug_The_University_of_Surrey-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_aero_engg_ug_The_University_of_Surrey-image1.png",
+      "desc": "Systems."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Aerospace Engineering in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerospace engineering. Aerodynamics, structures, materials, flight mechanics, propulsion, and control systems are all integrated with engineering principles.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerospace engineering. Aerodynamics, structures, materials, flight mechanics, propulsion, and control systems are all integrated with engineering principles."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -63,15 +88,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Courses in Aerospace Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "Depending on their academic interests, professional aspirations, and Class 12 credentials, Indian students can explore various undergraduate Aerospace Engineering pathways",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on their academic interests, professional aspirations, and Class 12 credentials, Indian students can explore various undergraduate Aerospace Engineering pathways"
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -148,445 +169,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The Top Aerospace Engineering Universities in the UK",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "The following universities offer undergraduate courses in aerospace engineering.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Academic performance that satisfies the standards for admission to the university.",
-              "desc": "The majority of programs in aircraft engineering require mathematics.",
-              "imgKey": null
-            },
-            {
-              "name": "Depending on the university, physics or another recognized STEM course may be offered.",
-              "desc": "When necessary, proof of English language competency. Mathematics and physics are heavily emphasized in many Aerospace Engineering programs. Particularly high grades in these disciplines may be required by competitive universities. Indian credentials are evaluated by universities using their own national equivalence standards. Admission to all UK universities is not guaranteed by a single Class 12 percentage.",
-              "imgKey": null
-            },
-            {
-              "name": "Subject requirements",
-              "desc": "For Aerospace Engineering, mathematics is frequently required. Additionally, many universities need or suggest physics. Under certain circumstances, another pertinent science or engineering course may be accepted into some programs.",
-              "imgKey": null
-            },
-            {
-              "name": "Language Requirements in English",
-              "desc": "Unless they are eligible for a recognized exception, foreign applicants must normally fulfill the university's English language requirements. Tests that are widely recognized include: IELTS Academic The TOEFL iBT PTE Academic Additional exams that the institution has approved For several engineering degrees, a IELTS Academic score of about 6.0–6.5 overall can serve as a starting point for planning. This isn't a universal criterion; different universities might have different minimum or greater grades for each component.",
-              "imgKey": null
-            }
-          ]
+          "name": "Aston University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_aero_engg_ug_Aston_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_aero_engg_ug_Aston_University-image3.png",
+          "desc": "Systems."
+        },
+        {
+          "name": "Leicester University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_aero_engg_ug_Leicester_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_aero_engg_ug_Leicester_University-image4.png",
+          "desc": "Leicester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Swansea University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_aero_engg_ug_Swansea_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_aero_engg_ug_Swansea_University-image2.png",
+          "desc": "Swansea University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "The University of Surrey",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_aero_engg_ug_The_University_of_Surrey-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_aero_engg_ug_The_University_of_Surrey-image1.png",
+          "desc": "Systems."
         }
       ]
     },
     {
-      "title": "Aerospace Engineering Admission Requirements in the UK",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students should go over their chosen university's application standards as well as academic eligibility."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Universities typically evaluate the following for undergraduate admission:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Results and subject combination for Class 12",
-            "Grades in physics and mathematics",
-            "Equivalency of Indian qualifications",
-            "Minimum standards for academic performance",
-            "Extra requirements unique to the course"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Different entry requirements for integrated MEng and BEng degrees are published by certain universities. Students should carefully compare these prerequisites."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In most cases, foreign applicants must present an approved English language test result or be eligible for an authorized exemption."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Many universities accept IELTS Academic, TOEFL iBT, and PTE Academic, depending on their own regulations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Personal Statement and UCAS Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Most full-time undergraduate applications are sent through the Universities and Colleges Admissions Service (UCAS), although applicants should confirm which methods are accepted by the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic background, course selections, a reference, and the necessary personal statement answers are all included in the application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In addition to highlighting pertinent academic skills, engineering projects, science activities, technical interests, or problem-solving experiences, students should explain why they are interested in Aerospace Engineering."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The cost of studying aerospace engineering in the UK",
-      "eyebrow": "Tuition & Living",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, length of the course, location, lodging, and individual lifestyle all affect the total cost of studying Aerospace Engineering in the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For the designated entering years, the published foreign tuition fee figures in Section 3 range around £18,900 to £37,500 per year."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "An integrated MEng typically takes four years, whereas a BEng typically takes three. The length of the course and the overall cost might be increased by foundation years and placement possibilities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Living Costs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The city and kind of lodging determine the cost of living in the United Kingdom. In general, the cost of living in London is higher than in many other cities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Typical costs consist of:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Accommodations and utilities",
-            "Food and groceries",
-            "Transportation within the local area",
-            "Internet and mobile services",
-            "Books and study guides"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Personal costs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Extra project materials, if needed"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "As of October 10, 2026, the official maintenance requirement for UK student visas is £1,529 per month for study in London and £1,171 per month for study outside London for a maximum of nine months. The UK government has declared that starting on November 30, 2026, applications will cost £1,570 in London and £1,203 outside London."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Extra Costs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Additionally, students should set aside money for:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Application fees for universities or UCAS, if relevant",
-            "The cost of applying for a student visa",
-            "When appropriate, the Immigration Health Surcharge",
-            "Flights abroad",
-            "The first deposits for lodging",
-            "When appropriate, engineering software or equipment",
-            "Additional expenses throughout a placement year"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Financial aid and scholarships"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Indian students could look into:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Scholarships for international students at universities",
-            "Awards for academic merit",
-            "Scholarships for engineering faculty",
-            "Funding opportunities particular to a country",
-            "Scholarships from outside sources for qualified candidates"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "There are differences in scholarship eligibility, grant value, application dates, and renewal requirements. Before adding a scholarship to their budget, students should make sure it is applicable to the undergraduate aeronautical program of their choice."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The UK's Admission Process for Aerospace Engineering",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Select Your Study Route"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose between a foundation-year route, an integrated MEng, a BEng, or a degree with an industrial placement."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the course modules, location of the university, cost of tuition, length of time, facilities, hands-on learning, and professional accreditation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the academic requirements for Class 12, the prerequisites for Physics and Mathematics, the English language requirements, and other course-specific needs."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The majority of undergraduate applicants use UCAS or another method the university specifies."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5 : Submit the supporting documentation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic credentials, transcripts, English language proficiency scores, answers to personal statements, reference data, and other specified documents should all be provided."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Accept and Examine Your Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if your offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, deposit requirements, tuition costs, and academic criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Follow the university's instructions to complete the necessary acceptance procedures and make payment arrangements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Get Your Study Acceptance Confirmation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The institution can issue a Confirmation of Acceptance for Studies (CAS) for the student visa application procedure once you have fulfilled the necessary requirements and are prepared to sponsor you."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9 : Apply for a UK student visa"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In compliance with the most recent UK immigration regulations, prepare the necessary documentation and submit your visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Make Travel and Accommodation Plans"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make travel, lodging, travel, university enrollment, and other necessary pre-departure arrangements."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Accreditation and Professional Recognition for Aerospace Engineering in the UK",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For students who wish to pursue a long-term career in aerospace engineering, professional accreditation is crucial."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accreditation for Engineering Degrees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Professional organizations like the following may accredit relevant Aerospace Engineering degrees:"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The Royal Aeronautical Society (RAeS)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The Institute of Mechanical Engineers (IMechE)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The Engineering and Technology Institution (IET)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "On behalf of the Engineering Council, these organizations accredit qualified courses in accordance with pertinent professional education criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students should confirm the following before accepting an offer:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The degree's specific accreditation",
-            "Which category of professional registration does it support?",
-            "Which years of admission are covered by the certification?",
-            "Does the intended pathway involve further academic study?"
-          ]
-        }
-      ]
-    },
-    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for UK Aerospace Engineers",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates in aerospace engineering can pursue employment in propulsion, production, testing, aircraft design, flying technologies, spacecraft systems, and engineering research.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates in aerospace engineering can pursue employment in propulsion, production, testing, aircraft design, flying technologies, spacecraft systems, and engineering research."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -663,15 +291,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed in the UK to Study Aerospace Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "The university, course, and visa arrangements determine the precise document checklist.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, course, and visa arrangements determine the precise document checklist."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -705,10 +329,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Student Visas"
-          ]
+          "t": "h4",
+          "text": "Documents for Student Visas"
         },
         {
           "t": "p",
@@ -728,136 +350,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. After Class 12, are Indian kids able to pursue a career in aerospace engineering in the UK?",
-              "a": "Yes . After Class 12, qualified Indian students can apply to undergraduate BEng or integrated MEng programs. Each institution has its own entrance criteria, and the majority of courses require mathematics and frequently physics."
-            },
-            {
-              "q": "Q2. How long do undergraduate studies in aerospace engineering take in the UK?",
-              "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. Industrial placements and foundation years can prolong the total time."
-            },
-            {
-              "q": "Q3. What is the cost of an undergraduate degree in aerospace engineering in the United Kingdom?",
-              "a": "For the designated entering years, the published tuition examples in this book range from roughly £18,900 to £37,500 per year. Budgeting must be done separately for living expenses, visa fees, medical bills, and prospective yearly tuition hikes."
-            },
-            {
-              "q": "Q4. What careers in the UK may I pursue after earning a degree in aerospace engineering?",
-              "a": "Aerospace engineers, aerodynamics engineers, aircraft design engineers, propulsion engineers, avionics engineers, manufacturing engineers, and testing and validation engineers are among the positions that graduates might consider. Technical expertise, experience, employer demands, and labor market conditions all affect the results."
-            },
-            {
-              "q": "Q5. After earning my undergraduate degree in aerospace engineering, can I remain in the UK?",
-              "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current regulations."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities with the assistance of Edu Hawk worldwide . Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Academic performance that satisfies the standards for admission to the university.",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "The majority of programs in aircraft engineering require mathematics.",
-      "imgFile": null
-    },
-    {
-      "name": "Depending on the university, physics or another recognized STEM course may be offered.",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "When necessary, proof of English language competency. Mathematics and physics are heavily emphasized in many Aerospace Engineering programs. Particularly high grades in these disciplines may be required by competitive universities. Indian credentials are evaluated by universities using their own national equivalence standards. Admission to all UK universities is not guaranteed by a single Class 12 percentage.",
-      "imgFile": null
-    },
-    {
-      "name": "Subject requirements",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "For Aerospace Engineering, mathematics is frequently required. Additionally, many universities need or suggest physics. Under certain circumstances, another pertinent science or engineering course may be accepted into some programs.",
-      "imgFile": null
-    },
-    {
-      "name": "Language Requirements in English",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Unless they are eligible for a recognized exception, foreign applicants must normally fulfill the university's English language requirements. Tests that are widely recognized include: IELTS Academic The TOEFL iBT PTE Academic Additional exams that the institution has approved For several engineering degrees, a IELTS Academic score of about 6.0–6.5 overall can serve as a starting point for planning. This isn't a universal criterion; different universities might have different minimum or greater grades for each component.",
-      "imgFile": null
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying BEng Aerospace Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. After Class 12, are Indian kids able to pursue a career in aerospace engineering in the UK?",
+      "q": "After Class 12, are Indian kids able to pursue a career in aerospace engineering in the UK?",
       "a": "Yes . After Class 12, qualified Indian students can apply to undergraduate BEng or integrated MEng programs. Each institution has its own entrance criteria, and the majority of courses require mathematics and frequently physics."
     },
     {
-      "q": "Q2. How long do undergraduate studies in aerospace engineering take in the UK?",
+      "q": "How long do undergraduate studies in aerospace engineering take in the UK?",
       "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. Industrial placements and foundation years can prolong the total time."
     },
     {
-      "q": "Q3. What is the cost of an undergraduate degree in aerospace engineering in the United Kingdom?",
+      "q": "What is the cost of an undergraduate degree in aerospace engineering in the United Kingdom?",
       "a": "For the designated entering years, the published tuition examples in this book range from roughly £18,900 to £37,500 per year. Budgeting must be done separately for living expenses, visa fees, medical bills, and prospective yearly tuition hikes."
     },
     {
-      "q": "Q4. What careers in the UK may I pursue after earning a degree in aerospace engineering?",
+      "q": "What careers in the UK may I pursue after earning a degree in aerospace engineering?",
       "a": "Aerospace engineers, aerodynamics engineers, aircraft design engineers, propulsion engineers, avionics engineers, manufacturing engineers, and testing and validation engineers are among the positions that graduates might consider. Technical expertise, experience, employer demands, and labor market conditions all affect the results."
     },
     {
-      "q": "Q5. After earning my undergraduate degree in aerospace engineering, can I remain in the UK?",
+      "q": "After earning my undergraduate degree in aerospace engineering, can I remain in the UK?",
       "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current regulations."
     },
     {
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities with the assistance of Edu Hawk worldwide . Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Aerospace Engineering in the UK | Edu-Hawk Worldwide",
+    "description": "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerosp",
+    "keywords": "Study Aerospace Engineering in the UK for Indian Students, Best Universities for Aerospace Engineering in the UK, Undergraduate Aerospace Engineering Courses in the UK, Aerospace Engineering Eligibility in the UK After Class 12, Aerospace Engineering Admission Requirements in the UK, Aerospace Engineering Fees in the UK for Indian Students, Aerospace Engineering Scholarships in the UK for International Students, Bachelor of Engineering (BEng) in Aerospace Engineering in the UK, Integrated Master of Engineering (MEng) in Aerospace Engineering in the UK, Aeronautical Engineering Courses in the UK, Aerospace Engineering with Industrial Placement in the UK"
+  }
 }

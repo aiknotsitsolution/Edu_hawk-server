@@ -6,9 +6,9 @@
   "hero": {
     "badge": "Study Abroad - Australia",
     "title": "Undergraduate Mechanical Engineering in Australia",
-    "subtitle": "Mechanical engineering is one of the oldest and broadest engineering disciplines. It focuses on the design, analysis, testing, manufacturing, and maintenance of mechanical systems, machines, and thermal devices.",
+    "subtitle": "The design, development, production, and maintenance of machines, mechanical systems, and industrial equipment are the major objectives of mechanical engineering.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/mech_engg_ug_Newcastle_University-image3.png"
   },
   "stats": [
     {
@@ -29,59 +29,552 @@
     }
   ],
   "highlights": {
-    "degree": "Bachelor of Engineering (Honours)",
+    "degree": "Bachelor of Engineering (Mechanical)",
     "duration": "4 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Undergraduate mechanical engineering programs in Australia emphasize mechanics, thermodynamics, fluid dynamics, robotics, materials science, CAD modeling, and sustainable industrial manufacturing.",
+  "overview": [
+    "The design, development, production, and maintenance of machines, mechanical systems, and industrial equipment are the major objectives of mechanical engineering.",
+    "To address practical technical issues, it integrates mathematics, physics, materials science, thermodynamics, fluid mechanics, and engineering design.",
+    "Undergraduate mechanical engineering programs in Australia involve theoretical instruction, lab work, design projects, and real-world engineering applications.",
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The design, development, production, and maintenance of machines, mechanical systems, and industrial equipment are the major objectives of mechanical engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "To address practical technical issues, it integrates mathematics, physics, materials science, thermodynamics, fluid mechanics, and engineering design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate mechanical engineering programs in Australia involve theoretical instruction, lab work, design projects, and real-world engineering applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Come to Australia to Study Mechanical Engineering?",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Practical learning: Gain technical expertise through engineering workshops, design projects, and labs.",
+            "Applications in the industry: Study manufacturing, energy systems, transportation, automation, and machinery.",
+            "Examine robotics, computer-aided design, simulation, and sustainable engineering as examples of contemporary technologies.",
+            "Opportunities for research include studying mechanical design, thermal systems, innovative materials, and renewable energy.",
+            "Develop your analytical, collaborative, project management, and problem-solving abilities as part of your professional development.",
+            "Flexible career paths: Examine prospects in mining, manufacturing, automotive, energy, aerospace, and industrial engineering."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "Newcastle University",
+          "location": "Australia",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/mech_engg_ug_Newcastle_University-image3.png",
+          "desc": ""
+        },
+        {
+          "name": "Swinburne University of Technology",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/mech_engg_ug_Swinburne_Technological_University-image2.png",
+          "desc": ""
+        },
+        {
+          "name": "University of Technology Sydney (UTS)",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/mech_engg_ug_The_University_of_Technology_Sydney-image1.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Courses in Undergraduate Mechanical Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A. Mechanical engineering bachelor's degree with honors"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "a four-year engineering program that covers mechanical system applications and fundamentals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "B. Honors Bachelor of Engineering with a major in Mechanical Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "With a specific Mechanical Engineering major, several universities provide a more comprehensive engineering degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "C. Mechanical and Mechatronic Engineering Bachelor of Engineering (Honors)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "This route integrates computing, electronics, control systems, and mechanical engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "D. Mechanical and Manufacturing Engineering Bachelor of Engineering (Honors)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanical engineering, manufacturing technologies, production systems, materials, and industrial processes are all combined in this program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "E. Aerospace Engineering Bachelor of Engineering (Honors)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For students interested in aircraft, propulsion, aerodynamics, and aerospace systems, this is a relevant choice"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations in Mechanical Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Through majors, electives, or postgraduate studies, students can investigate the following topics."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineering for Automobiles",
+            "Engineering for Aerospace",
+            "Mechatronics and Robotics",
+            "Engineering for Manufacturing",
+            "Fluid Mechanics and Thermal Engineering",
+            "Materials engineering and renewable energy engineering.",
+            "Computational Fluid Dynamics and Computer-Aided Design",
+            "Biomedical Engineering and Industrial Engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Indian Students Eligibility",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In general, students must fulfill the academic, subject, and English language requirements of the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic prerequisites"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Typically, applicants require:",
+            "earning a Class 12 diploma or its equivalent.",
+            "the necessary entrance score or academic grades.",
+            "mathematics at the university's designated level.",
+            "When necessary, take physics and other science courses.",
+            "proficiency in English.",
+            "extra criteria unique to the course, if any.",
+            "Indian school credentials are evaluated by universities in accordance with their individual admissions criteria."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International students might have to take an approved exam to prove their English language skills , like:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic IELTS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "TOEFL iBT PTE Academic"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While criteria vary, IELTS Academic 6.5 overall is a popular benchmark for various university programs. Certain courses that have minimum scores for each component may accept lower or higher marks."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate mechanical engineering applications are typically evaluated by Australian universities based on academic credentials, prerequisites in mathematics and physics, if relevant, and English language competency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Every Australian university does not have a single entry exam for mechanical engineering."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Course Duration",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Four years of full-time study are required for many Bachelor of Engineering (Honors) Mechanical Engineering programs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated cost of tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "AUD 40,000-65,000+ annually is a general planning estimate for overseas undergraduate engineering students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students ought to set up money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Internet and mobile phone",
+            "Books and study guides",
+            "Requirements for computers and software",
+            "Health Coverage for International Students",
+            "Travel and personal costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the city and lifestyle, an initial planning estimate of AUD 25,000-35,000+ annually can be helpful. The real costs can be more."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students who qualify can investigate:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Merit-based scholarships at universities",
+            "Scholarships for international students' tuition",
+            "Scholarships for engineering faculty",
+            "Awards for academic excellence",
+            "Possibilities for outside finance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships can lower college costs or offer additional perks. Academic performance, nationality, course, intake, and application deadlines may all affect eligibility."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships are not guaranteed and are competitive."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Career Opportunities",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates in mechanical engineering can pursue jobs in a variety of technical and industrial fields."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Design Engineer and Mechanical Engineer",
+            "Manufacturing Engineer",
+            "Automobile Engineer",
+            "Thermal Engineer",
+            "Maintenance Engineer",
+            "Project Engineer, Robotics",
+            "Automation Engineer",
+            "Energy Engineer",
+            "Research and Development Engineer"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "Accreditation for Professionals",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students who intend to pursue a career in professional engineering should verify whether the degree they have selected is approved by Engineers Australia and whether this accreditation is applicable to their particular program and intake."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Although it does not ensure employment, professional registration, or immigration status, accreditation can be crucial for professional recognition."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "The Admission Procedure",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Select mechanical engineering or a similar field of study."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Make a short list of colleges and contrast their curricula.",
+            "Verify the subject requirements and Class 12 grades.",
+            "fulfill the English language requirements.",
+            "Get your passport information and academic paperwork ready.",
+            "Send in your application to the university.",
+            "Examine the offer, the terms of admission, and the cost of tuition.",
+            "Look into scholarships and make financial arrangements.",
+            "Set up health insurance for international students.",
+            "Apply for the relevant student visa for Australia.",
+            "Plan your travel, lodging, and university enrollment."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Checklist of Documents",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Documents that are frequently requested could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Marksheet and certificate for Class 10",
+            "Marksheet and certificate for class 12",
+            "Test results in English, if needed",
+            "If relevant, a diploma or other academic documentation",
+            "If asked, a personal statement",
+            "Academic citations, if necessary",
+            "Scholarship documentation and, if relevant, a letter of offer from the university",
+            "Verification of Enrollment",
+            "Evidence of finances for visa purposes",
+            "Details of Overseas Student Health Coverage",
+            "Extra paperwork that the university or visa authority requests"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Australian Student Visa",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enroll in an authorized full-time course, Indian students typically require the proper Australian student visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Confirmation of enrollment, proof of financial capability, the Genuine Student requirement, Overseas Student Health Cover, identity documents, and other supporting documentation are examples of visa requirements."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "Newcastle University",
+      "location": "Australia",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/mech_engg_ug_Newcastle_University-image3.png",
+      "desc": ""
     },
     {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "Swinburne University of Technology",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/mech_engg_ug_Swinburne_Technological_University-image2.png",
+      "desc": ""
     },
     {
-      "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "University of Technology Sydney (UTS)",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/mech_engg_ug_The_University_of_Technology_Sydney-image1.png",
+      "desc": ""
     }
   ],
   "faq": [
     {
       "question": "After Class 12, are Indian students able to pursue Mechanical Engineering in Australia?",
-      "answer": "Indeed. Students that fulfill the academic, math, science, and English language requirements of the university are eligible to apply."
+      "answer": "Indeed. Students that fulfilll the academic, math, science, and English language requirements of the university are eligible to apply."
     },
     {
       "question": "Does Mechanical Engineering require mathematics?",
-      "answer": "Mathematics is a core prerequisite. Physics and chemistry are also highly recommended for admission."
+      "answer": "Physics is frequently a prerequisite, while mathematics is also required. Verify the requirements of the chosen university."
     },
     {
       "question": "What is the duration of an Australian Mechanical Engineering degree?",
-      "answer": "A standard Bachelor of Engineering (Honours) requires four years of full-time study."
+      "answer": "Four years of full-time study are required for many undergraduate honors degrees."
     },
     {
       "question": "How much does mechanical engineering tuition cost?",
-      "answer": "Annual international tuition generally ranges between AUD 38,000 and AUD 55,000, depending on the institution."
+      "answer": "Depending on the university and admission, a general planning estimate is between AUD 40,000 and AUD 65,000+ per year. 5. Edu Hawk can help Indian students who want to study mechanical engineering in Australia. Our recommendations might include: Acknowledging graduate and undergraduate programs Analyzing academic eligibility Creating a brief list of suitable colleges Comparing course structures and anticipated costs Understanding the criteria for the English language Analyzing possible scholarships Organizing the application materials Providing guidance on student visa paperwork and helping with pre-departure planning Choices regarding jobs, scholarships, admission to universities, and visas Keywords - Study Mechanical Engineering in Australia for Indian Students Undergraduate Mechanical Engineering Courses in Australia Best Universities for Mechanical Engineering in Australia Bachelor of Mechanical Engineering in Australia Mechanical Engineering in Australia After 12th Mechanical Engineering Eligibility in Australia for Indian Students Mechanical Engineering Admission Requirements in Australia Mechanical Engineering Fees in Australia for International Students Mechanical Engineering Scholarships in Australia for Indian Students Mechanical Engineering Course Duration in Australia"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to pursue Mechanical Engineering in Australia?",
+      "a": "Indeed. Students that fulfilll the academic, math, science, and English language requirements of the university are eligible to apply."
     },
     {
-      "question": "Edu Hawk can help Indian students who want to study mechanical engineering in Australia.",
-      "answer": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, scholarship assistance, and student visa application."
+      "q": "Does Mechanical Engineering require mathematics?",
+      "a": "Physics is frequently a prerequisite, while mathematics is also required. Verify the requirements of the chosen university."
+    },
+    {
+      "q": "What is the duration of an Australian Mechanical Engineering degree?",
+      "a": "Four years of full-time study are required for many undergraduate honors degrees."
+    },
+    {
+      "q": "How much does mechanical engineering tuition cost?",
+      "a": "Depending on the university and admission, a general planning estimate is between AUD 40,000 and AUD 65,000+ per year. 5. Edu Hawk can help Indian students who want to study mechanical engineering in Australia. Our recommendations might include: Acknowledging graduate and undergraduate programs Analyzing academic eligibility Creating a brief list of suitable colleges Comparing course structures and anticipated costs Understanding the criteria for the English language Analyzing possible scholarships Organizing the application materials Providing guidance on student visa paperwork and helping with pre-departure planning Choices regarding jobs, scholarships, admission to universities, and visas Keywords - Study Mechanical Engineering in Australia for Indian Students Undergraduate Mechanical Engineering Courses in Australia Best Universities for Mechanical Engineering in Australia Bachelor of Mechanical Engineering in Australia Mechanical Engineering in Australia After 12th Mechanical Engineering Eligibility in Australia for Indian Students Mechanical Engineering Admission Requirements in Australia Mechanical Engineering Fees in Australia for International Students Mechanical Engineering Scholarships in Australia for Indian Students Mechanical Engineering Course Duration in Australia"
     }
   ]
 }

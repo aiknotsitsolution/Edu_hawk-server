@@ -1,3 +1,4 @@
+import internationalBusinessData from "../../../../data/study_abroad/usa/international_business.json";
 import { formatRichText, EligibilityCtaCard, AbroadCoursePage } from "../../../../component/CoursePageKit";
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead";
@@ -477,14 +478,29 @@ const page = {
 const imgDims = { w: 900, h: 760 };
 
 // UI is rendered by the shared polished course template (CoursePageKit).
-const InternationalBusinessAbroad = () => (
-  <AbroadCoursePage
-    page={page}
-    heroImg={heroImg}
-    sideImg={sideImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/international-business"
-  />
-);
+const InternationalBusinessAbroad = () => {
+  const dynamicPage = {
+    ...page,
+    title: internationalBusinessData?.seo?.title || page.title,
+    description: internationalBusinessData?.seo?.description || page.description,
+    heroParas: internationalBusinessData?.hero?.subtitle ? [internationalBusinessData.hero.subtitle] : page.heroParas,
+    overview: internationalBusinessData?.overview ? (Array.isArray(internationalBusinessData.overview) ? internationalBusinessData.overview : internationalBusinessData.overview.split('\n\n')) : page.overview,
+    faqs: (internationalBusinessData?.faq && internationalBusinessData.faq.length > 0)
+      ? internationalBusinessData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : page.faqs,
+  };
+
+  return (
+    <AbroadCoursePage
+      page={dynamicPage}
+      heroImg={heroImg}
+      heroBgImg={typeof heroBgImg !== 'undefined' ? heroBgImg : undefined}
+      sideImg={sideImg}
+      ctaBgImg={typeof ctaBgImg !== 'undefined' ? ctaBgImg : undefined}
+      imgDims={typeof imgDims !== 'undefined' ? imgDims : undefined}
+      seoPath="/study-abroad/usa/international-business"
+    />
+  );
+};
 
 export default InternationalBusinessAbroad;

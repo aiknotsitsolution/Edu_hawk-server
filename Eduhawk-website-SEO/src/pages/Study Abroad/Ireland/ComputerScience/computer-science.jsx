@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../data/study_abroad/ireland/computer_science.json";
 
 // Page layout images
 import heroImg from "../../../../Images/Abroad/Ireland/ComputerScience/hero.webp";
@@ -397,6 +398,19 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "Trinity_College_Dublin.webp": uniImg1,
+  "University_College_Cork.webp": uniImg2,
+  "Dublin_City_University.webp": uniImg3,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function ComputerScienceIreland() {
   const images = {
     hero: heroImg,
@@ -408,7 +422,7 @@ export default function ComputerScienceIreland() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

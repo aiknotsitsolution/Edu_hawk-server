@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../data/study_abroad/ireland/physiotherapy.json";
 
 // Page layout images
 import heroImg from "../../../../Images/Abroad/Ireland/Physiotherapy/hero.webp";
@@ -385,6 +386,19 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "Trinity_College_in_Dublin.webp": uniImg1,
+  "Limerick_University.webp": uniImg2,
+  "Irelands_Royal_College_of_Surgeons.webp": uniImg3,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function PhysiotherapyAbroadIreland() {
   const images = {
     hero: heroImg,
@@ -418,7 +432,7 @@ export default function PhysiotherapyAbroadIreland() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

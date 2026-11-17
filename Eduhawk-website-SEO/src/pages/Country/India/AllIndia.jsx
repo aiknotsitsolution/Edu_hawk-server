@@ -1,3 +1,4 @@
+import cmsData from "../../../data/medical_colleges/india.json";
 import React, { useState, useMemo } from "react";
 import SeoHead from "../../../component/SeoHead.jsx";
 
@@ -6107,8 +6108,9 @@ const AllIndia = () => {
   return (
     <>
       <SeoHead
-        title="Indian Medical Colleges List 2026-27 | State Wise MBBS Seats & Fees"
-        description="Comprehensive directory of State-Wise MBBS Medical Colleges in India (AY 2026-27). Search 800+ Government and Private medical colleges, seats distribution, and state admission highlights."
+        title={cmsData?.seo?.title || "MBBS Colleges in India 2026-27 | Government & Private Medical College List"}
+        description={cmsData?.seo?.description || "Explore MBBS colleges across India by state, management type (Government, Private, Trust, Society) and seat matrix. Complete guidance for NEET-UG aspirants."}
+        keywords={cmsData?.seo?.keywords || "mbbs in india, medical colleges in india, aiims, govt medical colleges, neet ug counselling"}
         path="/allcollege"
         ogType="website"
       />

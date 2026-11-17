@@ -6,9 +6,9 @@
   "hero": {
     "badge": "Study Abroad - Australia",
     "title": "Indian Students Pursuing Undergraduate Computer Engineering in Australia",
-    "subtitle": "A branch of engineering called computer engineering blends computer science and electrical engineering to create, build, and maintain computer software, hardware, and networks.",
+    "subtitle": "Combining computer science , electronics, and hardware engineering, computer engineering is a technology-focused engineering field. It teaches students how to design, create, test, and maintain hardware-software technologies, embedded devices, and computer systems.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/comp_engg_ug_Deakin_University-image1.png"
   },
   "stats": [
     {
@@ -29,37 +29,570 @@
     }
   ],
   "highlights": {
-    "degree": "Bachelor of Engineering (Honours)",
+    "degree": "Bachelor of Engineering (Computer)",
     "duration": "4 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Undergraduate computer engineering programs in Australia emphasize designing and developing hardware, software engineering, embedded computing, microprocessors, and high-performance computing systems.",
+  "overview": [
+    "Combining computer science , electronics, and hardware engineering, computer engineering is a technology-focused engineering field. It teaches students how to design, create, test, and maintain hardware-software technologies, embedded devices, and computer systems.",
+    "For students interested in computer hardware, digital systems, robotics, computer architecture, embedded systems, and intelligent technologies, Australia offers undergraduate engineering programs.",
+    "Indian students can pursue a Bachelor of Engineering (Honors) with an appropriate specialization or s pecialized degrees in computer engineering.",
+    "A common degree is a Bachelor of Engineering (Honors) in Computer Engineering.",
+    "For many honors engineering programs, the typical duration is four years of full-time study.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Combining computer science , electronics, and hardware engineering, computer engineering is a technology-focused engineering field. It teaches students how to design, create, test, and maintain hardware-software technologies, embedded devices, and computer systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For students interested in computer hardware, digital systems, robotics, computer architecture, embedded systems, and intelligent technologies, Australia offers undergraduate engineering programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students can pursue a Bachelor of Engineering (Honors) with an appropriate specialization or s pecialized degrees in computer engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A common degree is a Bachelor of Engineering (Honors) in Computer Engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For many honors engineering programs, the typical duration is four years of full-time study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Come to Australia to Study Computer Engineering?",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Practical learning: Gain engineering knowledge through technical assignments, design projects, and laboratory work.",
+            "Industry-focused education: Examine applicable technology and real-world engineering problems.",
+            "Integration of hardware and software: Discover how software and physical computer systems work together.",
+            "Investigate embedded systems, robotics, automation, and artificial intelligence applications as emerging technologies.",
+            "Opportunities for research: Look into electronic systems, computer architecture, and cutting-edge computing technology.",
+            "Adaptable professional paths: Establish a basis for professions in electronics, computer systems, hardware, firmware, and related engineering domains.",
+            "Study with students from a variety of academic and cultural backgrounds in an international learning environment."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "Deakin University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/comp_engg_ug_Deakin_University-image1.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Melbourne",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/comp_engg_ug_Melbourne_University-image2.png",
+          "desc": ""
+        },
+        {
+          "name": "RMIT University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/comp_engg_ug_RMIT_University-image3.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Sydney",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/comp_engg_ug_University_of_Sydney-image4.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Computer Engineering Courses for Undergraduates",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A. Computer engineering bachelor's degree with honors.",
+            "B. Honors Bachelor of Engineering with a Computer Engineering Concentration",
+            "C. Bachelor of Engineering (Honors) or Bachelor of Computer Science",
+            "D. Electrical engineering bachelor's degree with honors",
+            "E. Honors Bachelor of Software Engineering",
+            "F. Computer Science Bachelor's degree"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations in Computer Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students ought to contrast the electives and specializations that each university offers."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Architecture of Computers",
+            "Systems with Embedded",
+            "Design of Digital Systems",
+            "Microcontrollers and Microprocessors",
+            "Integration of Hardware and Software",
+            "Automation and Robotics",
+            "Networks of Computers",
+            "Applications of Artificial Intelligence",
+            "Computer systems and cybersecurity"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Indian Students Eligibility",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Australia, applicants for u ndergraduate computer engineering programs must meet the academic and English language standards of the university of their choice."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic prerequisites",
+            "Typically, applicants require:",
+            "earning a Class 12 diploma or its equivalent.",
+            "the university's required minimum academic score.",
+            "typically at the necessary level of mathematics.",
+            "Where applicable, physics or other science courses.",
+            "proficiency in English.",
+            "any other prerequisites unique to the course."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Unless they are eligible for an authorized exemption, foreign applicants must often show that they are proficient in the English language."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities might approve:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic IELTS",
+            "TOEFL iBT PTE Academic",
+            "Additional recognized English-language credentials"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate engineering applications are typically evaluated by Australian institutions based on academic credentials, subject requirements, and English language proficiency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Every Australian university does not have a single entry exam for computer engineering."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Study Plan and Course Duration",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Australia, many u ndergraduate engineering honors degrees require four years of full-time study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A typical program might consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Mathematical engineering",
+            "Fundamentals of programming",
+            "Engineering science and physics",
+            "Electronics and digital logic",
+            "Architecture of computers",
+            "Algorithms and data structures",
+            "Systems that are embedded",
+            "Networks of computers",
+            "Design of engineering",
+            "Sessions in the lab",
+            "Collaborative engineering initiatives",
+            "Design or research projects for the final year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "It could take longer to earn a double degree. Each university has different prerequisites for graduation, internship possibilities, credit points, and specific disciplines."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated cost of tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university, subject, study load, and year of admission all affect the cost of international tuition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For undergraduate engineering , a preliminary planning estimate is between AUD 40,000 and AUD 65,000+ annually."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "According to official records, UNSW Sydney charges an approximate foreign tuition fee of AUD 61,500 for the first year and AUD 265,500 to finish the Bachelor of Engineering program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students ought to set up money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Internet and mobile phone",
+            "Books and study guides",
+            "Computer hardware",
+            "Health Coverage for International Students",
+            "Individual costs",
+            "Travel and upfront settlement expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the city and way of life, an initial living-cost budget of about AUD 25,000-35,000+ annually can be helpful"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students who qualify can investigate:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Merit-based scholarships at universities",
+            "Tuition-fee scholarships for international students",
+            "Awards for engineering professors",
+            "Scholarships for academic achievement",
+            "Possibilities for outside finance",
+            "Scholarships available to certain student populations or nations",
+            "Scholarships may grant a fixed tuition reduction, a portion of tuition, or other specific advantages.",
+            "Academic performance, course choice, citizenship, admission, and scholarship-specific requirements may all affect eligibility."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Career Prospects Following Computer Engineering",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Careers in computer hardware, electronic systems, embedded technology, and hardware-software integration can be built upon a degree in computer engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineers with expertise in embedded systems, hardware design, firmware development, computer systems, electronics, robotics, and research and development"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "Accreditation for Professionals",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students who wish to work in professional engineering should find out if Engineers Australia has accredited the degree they have selected and if this accreditation is relevant to their particular program and intake."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Although it may be important for professional recognition, accreditation does not ensure employment, registration, or immigration eligibility."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Indian Students' Admission Procedure",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Select your course of study",
+          "desc": "Choose between a curriculum that combines computer science and engineering, a more general engineering degree with a suitable specialization, or a dedicated computer engineering degree."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Make a short list of colleges",
+          "desc": "Examine the course material, prerequisites, costs, school location, labs, and opportunities for hands-on learning."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Verify your eligibility for Class 12",
+          "desc": "Examine your academic record to see if you have finished the necessary science and math courses."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Verify the English language requirements",
+          "desc": "Verify the minimal scores and approved tests for your intake and course."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Get the paperwork ready",
+          "desc": "Gather your passport, academic records, and any other supporting documentation that the university requests."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Send in your application",
+          "desc": "Use the official university application portal or, if appropriate, a designated representative to submit your application."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Examine your proposal",
+          "desc": "Verify the requirements, campus, length of time, cost of tuition, terms, and deadline for acceptance."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Look into scholarships",
+          "desc": "Examine the awards that are available and apply for any additional scholarships before the deadlines."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Make financial and medical arrangements",
+          "desc": "Make plans for living expenses, travel, tuition, and international student health insurance."
+        },
+        {
+          "t": "step",
+          "step": 10,
+          "title": "Submit a student visa application",
+          "desc": "Prepare the necessary paperwork in accordance with the current Australian Department of Home Affairs regulations."
+        },
+        {
+          "t": "step",
+          "step": 11,
+          "title": "Make travel and lodging arrangements",
+          "desc": "Complete your enrollment, housing, travel, and university orientation arrangements."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Checklist of Documents",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical documents that are needed could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Marksheet and certificate for Class 10",
+            "Marksheet and certificate for class 12",
+            "Test results in English, if needed",
+            "Certificates and academic transcripts",
+            "If asked, a personal statement",
+            "Academic citations, if necessary",
+            "Scholarship application materials, if any; offer letter from the university",
+            "Verification of Enrollment",
+            "Evidence of finances for visa purposes",
+            "Details of Overseas Student Health Coverage",
+            "Any extra paperwork that the university or visa authority requests",
+            "Document requirements differ depending on the applicant's circumstances and the institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Australian Student Visa",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enrolll in an authorized full-time program, Indian students often require an acceptable Australian student visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The application might need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verification of Enrollment",
+            "Proof of adequate financial resources",
+            "Authentic documentation of student requirements",
+            "Health Coverage for International Students",
+            "Identity documents",
+            "Evidence in English, where appropriate",
+            "Charge criteria, income thresholds, and health and character documents are subject to change. Consult the Australian Government directly to find out the most recent criteria."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
+      "name": "Deakin University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/comp_engg_ug_Deakin_University-image1.png",
+      "desc": ""
+    },
+    {
       "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/comp_engg_ug_Melbourne_University-image2.png",
+      "desc": ""
+    },
+    {
+      "name": "RMIT University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/comp_engg_ug_RMIT_University-image3.png",
+      "desc": ""
     },
     {
       "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/comp_engg_ug_University_of_Sydney-image4.png",
+      "desc": ""
     }
   ],
   "faq": [
@@ -77,11 +610,33 @@
     },
     {
       "question": "How much does computer engineering education cost in Australia?",
-      "answer": "AUD 40,000–65,000+ year is a general planning estimate. The university and year of admission determine the actual costs."
+      "answer": "AUD 40,000-65,000+ year is a general planning estimate. The university and year of admission determine the actual costs."
     },
     {
       "question": "How can I study overseas with the assistance of Edu Hawk Worldwide Consultancy?",
-      "answer": "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+      "answer": "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. Keywords - Study Undergraduate Computer Engineering in Australia for Indian Students Best Computer Engineering Universities in Australia Computer Engineering Courses in Australia After 12th Bachelor of Computer Engineering in Australia for International Students Computer Engineering Admission Requirements in Australia Computer Engineering Fees in Australia for Indian Students Computer Engineering Scholarships in Australia for International Students Computer Engineering Course Duration in Australia"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can students from India pursue computer engineering studies in Australia after completing their 12th grade education?",
+      "a": "Indeed. Students who fulfill the academic, subject, and English language requirements of the university are eligible to apply."
+    },
+    {
+      "q": "Does computer engineering require mathematics?",
+      "a": "Mathematics is often necessary. Depending on the school and course, physics might also be required."
+    },
+    {
+      "q": "How long does it take to earn a degree in computer engineering as an undergraduate?",
+      "a": "Four years of full-time study are required for many Bachelor of Engineering (Honors) programs. Combined degrees could require more time."
+    },
+    {
+      "q": "How much does computer engineering education cost in Australia?",
+      "a": "AUD 40,000-65,000+ year is a general planning estimate. The university and year of admission determine the actual costs."
+    },
+    {
+      "q": "How can I study overseas with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. Keywords - Study Undergraduate Computer Engineering in Australia for Indian Students Best Computer Engineering Universities in Australia Computer Engineering Courses in Australia After 12th Bachelor of Computer Engineering in Australia for International Students Computer Engineering Admission Requirements in Australia Computer Engineering Fees in Australia for Indian Students Computer Engineering Scholarships in Australia for International Students Computer Engineering Course Duration in Australia"
     }
   ]
 }

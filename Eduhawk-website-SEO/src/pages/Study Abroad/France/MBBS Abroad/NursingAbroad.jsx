@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../Images/Abroad/France/Nursing/cta_bg.webp";
 import uniImg1 from "../../../../Images/Abroad/France/Nursing/University_1.webp";
 import uniImg2 from "../../../../Images/Abroad/France/Nursing/IFSI_Lille_University_Hospital_CHU_de_Li.webp";
 import uniImg3 from "../../../../Images/Abroad/France/Nursing/IFSI_Pellegrin_Bordeaux_University_Hospi.webp";
+import cmsData from "../../../../data/study_abroad/france/nursing.json";
 
 const pageData = {
   name: "Nursing in France",
@@ -317,6 +318,23 @@ const pageData = {
 };
 
 export default function NursingAbroad() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   return (
     <AbroadCoursePage
       page={pageData}

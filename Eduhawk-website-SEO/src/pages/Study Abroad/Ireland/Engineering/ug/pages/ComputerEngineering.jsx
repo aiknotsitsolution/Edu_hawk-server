@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../../../data/study_abroad/ireland/ug_computer_engineering.json";
 
 // Page layout images
 import heroImg from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Computer/hero.webp";
@@ -363,6 +364,19 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "Dublin_City_University.webp": uniImg1,
+  "Maynooth_University.webp": uniImg2,
+  "University_of_Galway.webp": uniImg3,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function ComputerEngineeringUGIreland() {
   const images = {
     hero: heroImg,
@@ -376,7 +390,7 @@ export default function ComputerEngineeringUGIreland() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

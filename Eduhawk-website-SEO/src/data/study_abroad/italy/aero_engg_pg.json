@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Aerospace Engineering - PG in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Aerospace Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Aerospace Engineering - PG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": ""
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Aerospace Engineering in Italy for Indian Students",
-    "subtitle": "Yes. Indian students with a relevant undergraduate qualification can apply to eligible Italian universities provided they meet the academic, language and programme-specific requirements.",
+    "subtitle": "Aerospace Engineering in Italy provides Indian students with advanced technical knowledge of aircraft design, spacecraft systems, aerodynamics, propulsion, flight mechanics, and space technologies. If you're a graduate engineer looking to specialize in aviation, satellite systems, aerospace structures, computational fluid dynamics, or space exploration technologies, then a Master's in Aerospace Engineering in Italy could be an attractive proposition.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/aero_engg_pg_Bologna_University-image2.png"
   },
   "stats": [
     {
@@ -29,38 +30,674 @@
     }
   ],
   "highlights": {
-    "degree": "Postgraduate",
+    "degree": "Laurea Magistrale in Aerospace Engineering",
     "duration": "3 to 4 Years (UG) / 2 Years (PG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Yes. Indian students with a relevant undergraduate qualification can apply to eligible Italian universities provided they meet the academic, language and programme-specific requirements.",
+  "overview": [
+    "Aerospace Engineering in Italy provides Indian students with advanced technical knowledge of aircraft design, spacecraft systems, aerodynamics, propulsion, flight mechanics, and space technologies. If you're a graduate engineer looking to specialize in aviation, satellite systems, aerospace structures, computational fluid dynamics, or space exploration technologies, then a Master's in Aerospace Engineering in Italy could be an attractive proposition.",
+    "Italy has a strong aerospace research and manufacturing industry, providing opportunities to study at technical universities and to participate in advanced engineering research. Aerospace engineering and related disciplines are offered by several institutions at undergraduate and postgraduate levels (the latter in English). Indian students can also explore scholarships and career options in aerospace manufacturing, aircraft systems, space technology, research and engineering consultancy sectors."
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Aerospace Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For students interested in advanced aircraft and space systems, Italy could be a good destination."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Specialized engineering education: Aerodynamics, flight mechanics, propulsion, aerospace structures and space technologies.",
+            "Research: Experience computational modeling, aerospace materials, satellite systems, and advanced propulsion.",
+            "English-taught programs Some universities offer master's degrees in English.",
+            "Industry exposure: Italy has aerospace and defense companies, aircraft component makers and space technology organizations.",
+            "Advanced laboratory work: Depending on the program, students may work on simulations, engineering design and research projects.",
+            "Scholarship Opportunities: Students who qualify can learn about university scholarships and local financial aid.",
+            "Job opportunities: International career opportunities in aerospace design, propulsion, flight systems, space engineering and research. Subject to employment and other industry requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Aerospace Engineering Programs in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Aerospace Engineering in Italy generally covers advanced engineering theory, simulation, laboratory work and a specialized research or design project."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course or Specialization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Normal duration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Areas of Concentration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2 yrs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerodynamics, structures, flight mechanics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aeronautical Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2 Years"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft design and performance, flight systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Space Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2 years"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Orbital mechanics, satellites, space missions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Propulsion Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2 yrs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engines Jet Propulsion Combustion"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Structures"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Two years ago,"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Lightweight construction materials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flight Mechanics and Aerodynamics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2 yrs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fluid Dynamics, Aircraft Stability, Aircraft Performance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are common fields of study and associated specializations, not necessarily separate degree titles at each university ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Top Italian Universities for Aerospace Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. Politecnico di Milano"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Offers a 2-year Master's in Aeronautical Engineering taught in English. Students learn subjects like aerodynamics, aerospace structures, aircraft performance, flight dynamics and propulsion. The university also has a separate Master's in Space Engineering for students interested in satellites and space systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official websites Aeronautical Engineering Space Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. Politecnico di Torino"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Features a Master's in Aerospace Engineering with specialist areas in aerospace structures, propulsion systems, aeromechanics, aerogas dynamics and space engineering. The university states that the program language is Italian for the academic year 2026-27, so students should check their language eligibility before applying."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official website Aerodynamics Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Bologna University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "It offers a two-year, 120-ECTS Master's in Aerospace Engineering , all courses taught in English at its Forlì campus. The program covers Aeronautics and Space curricula. The program mentions restricted admission. The program has 80 places for the 2026-27 academic year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Program website: MSc Aerospace Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. How to Study Aerospace Engineering in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Generally, Indian students who wish to pursue Masters in Aerospace Engineering in Italy must satisfy the following requirements:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's degree: An accredited undergraduate degree in Aerospace Engineering, Aeronautical Engineering, Mechanical Engineering or other relevant subject accepted by the university.",
+            "Academic background: Solid grounding in mathematics, physics, mechanics, fluid dynamics, materials science and engineering fundamentals.",
+            "Academic Performance: Fulfilll the minimum grade and academic assessment requirements of the university.",
+            "English proficiency: If the program is taught in English, you will need to present an accepted language certificate.",
+            "Italian proficiency: Fulfill the language requirements for programs taught in Italian.",
+            "Subject-credit requirements: Some universities may review previous coursework and require credits in certain engineering subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Politecnico di Milano evaluates foreign-degree applicants on the basis of the suitability of their academic qualification and preparation. The University of Bologna also has specific program entrance requirements. Minimum criteria are required but do not guaranty admission."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Bologna University",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/aero_engg_pg_Bologna_University-image2.png"
+        },
+        {
+          "name": "Politecnico di Milano",
+          "location": "Milan, Italy",
+          "fee": "€1,000 – €3,900 / Year",
+          "image": "/uploads/study_abroad/italy/aero_engg_pg_Politecnico_di_Milano-image3.png"
+        },
+        {
+          "name": "Politecnico di Torino",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/aero_engg_pg_Politecnico_di_Torino-image1.png"
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Aerospace Engineering Admission Requirements in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Universities may require the following documents from applicants:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor degree certificate or provisional certificate.",
+            "Mark sheets and academic records",
+            "Proof of English or Italian language proficiency if required.",
+            "Résumé or CV if requested.",
+            "Statement of purpose or motivation letter if applicable.",
+            "Recommendation letters, if applicable.",
+            "Course description or syllabus documents for academic assessment.",
+            "Any other documents required by the official call for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The admissions committee may evaluate your academic performance, engineering subjects and suitability for chosen specialization. Some programs have limited admission or places, so applicants should check deadlines and selection criteria carefully."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. What are the costs for Aerospace Engineering in Italy?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineering Tuition Fees in Italy Tuition fees are dependent on the university, program, academic year and fee policy. If you are eligible for a scholarship or fee reduction , you can get it . Public universities may be cheaper ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following figures are example annual tuition estimates for planning purposes only, not confirmed fees for the universities listed above."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated annual tuition cost"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated amount in INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€1,000 ₹1,08,600"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€2,500 ₹2,71,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€5,000 ₹5,43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€8,000 ₹8,68,800"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Conversion used: € 1 ~ Rs. 108.60. Actual tuition fees vary depending on the university, the academic year and the student's circumstances. Check the official fee schedule before applying."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineering Scholarships"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students can look into these funding options:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Regional scholarships Financial assistance from regional student-aid programs, subject to eligibility and documentation.",
+            "University scholarships: Merit-based awards and other funding offered by individual universities.",
+            "Italian government scholarships: View current calls for scholarship and eligibility criteria for international students.",
+            "Reductions in tuition fees Some institutions provide reductions as part of their published fee policies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships can be competitive or based on eligibility. Funding is not guarantyd and award amounts, deadlines, and covered expenses vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. Admission Procedure for Aerospace Engineering in Italy"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Choose your university and course. Compare aeronautical engineering, space engineering, propulsion & other paths available.",
+            "Verify your eligibility. Verify that your bachelor's degree, fields of study and language skills fulfilll the admission requirements.",
+            "Organize your papers. Collect academic transcripts, degree certificates, language test results and other required documents.",
+            "Apply. Applicants are to apply through the university's official application portal before the deadline.",
+            "Complete academic assessment. Supplemental documents or full assessments will be requested as needed.",
+            "Accept your offer of admission. Please follow the university's instructions for enrollment and procedures for payment of tuition.",
+            "Fill out the pre-enrolment and visa formalities. Follow official requirements for international students and the Italian student visa process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For official information on pre-enrolment please visit Universitaly. Check visa requirements and deadlines with relevant Italian consular authorities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. Aerospace Engineering Degree and Accreditation in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In Italy a Master's in Aerospace Engineering generally lasts two years and is worth 120 ECTS credits. The university decides on the name of the degree, the curriculum and the language of instruction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students receive a comprehensive education in aerodynamics, flight mechanics, aircraft structures, propulsion, spacecraft and aerospace materials. Coursework differs depending on the program, but may include engineering simulations, laboratory work, design projects, research and a final thesis."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates may be employed in aerospace and related industries, or pursue doctoral studies, provided they meet the applicable requirements. For some regulated professional activities, additional examinations, registration or authorization might be required. Students should check the rules for professional recognition in the country they intend to work in."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Job and Salary Opportunities After Aerospace Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates can find employment in the aircraft manufacturing, aerospace components, satellite systems, propulsion, engineering research and advanced manufacturing industries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential job titles include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Aerospace Design Engineering",
+            "aerodynamicist",
+            "Aircraft Structures Engineer Propulsion Systems Engineer",
+            "Space Systems Engineer Flight Mechanics Engineer",
+            "Satellite System Engineer",
+            "Aerospace Test and Simulation Engineer",
+            "Engineer, Research & Development"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary Range (indicative)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Level of Experience"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Gross yearly salary indicative"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approximate INR equivalents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry-level"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€28,000-€35,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹30.41-₹38.01 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experienced"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€35,000 - €50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹ 38.01 - ₹ 54.30 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialist or senior roles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€50,000-€70,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹54.30-₹76.02 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are illustrative, general estimates for career planning only and not verified salary statistics or guarantyd earnings. Actual salaries vary depending on location, employer, experience, technical specialization, language skills and work authorization. Some aerospace and defense roles may have additional citizenship, security clearance or export control restrictions. INR equivalents $1 ≈ €0.92; €1 ≈ ₹108.60"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Required for Studying Aerospace Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Applicants should prepare the documents required by their selected university. Common needs"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport valid.",
+            "Bachelor's degree certificate or provisional certificate",
+            "Academic transcripts & mark sheets.",
+            "Certificate in English or Italian language, if required.",
+            "CV or Resume, if applicable.",
+            "Statement of purpose or motivation letter if applicable.",
+            "Letters of recommendation (as appropriate)",
+            "Course descriptions or syllabus materials as required for academic assessment.",
+            "Photographs (passport size) if needed.",
+            "Documents needed for pre-enrolment and the student visa application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university and visa process, applicants may also be required to provide certified translation, legalization or verification of academic documents, proof of financial means and insurance documentation. Always follow the official instructions for the respective intake."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
+    {
+      "name": "Bologna University",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/aero_engg_pg_Bologna_University-image2.png"
+    },
     {
       "name": "Politecnico di Milano",
       "location": "Milan, Italy",
       "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "image": "/uploads/study_abroad/italy/aero_engg_pg_Politecnico_di_Milano-image3.png"
     },
     {
-      "name": "Sapienza University of Rome",
-      "location": "Rome, Italy",
-      "fee": "€1,000 – €3,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of Bologna",
-      "location": "Bologna, Italy",
-      "fee": "€1,000 – €3,500 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "name": "Politecnico di Torino",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/aero_engg_pg_Politecnico_di_Torino-image1.png"
     }
   ],
-  "faq": []
+  "faq": [
+    {
+      "question": "Is it possible for Indian students to pursue Aerospace Engineering in Italy?",
+      "answer": "Yes. Indian students with a relevant undergraduate qualification can apply to eligible Italian universities provided they meet the academic, language and programme-specific requirements. 2. Duration of a Master of Aerospace engineering in Italy Most of the programs last two years and give 120 ECTS credits. For duration and credits requirements check the official university page."
+    },
+    {
+      "question": "Are there Aerospace Engineering courses in Italy in English?",
+      "answer": "Yes. Politecnico di Milano has a two-year English-taught Master's in Aeronautical Engineering and the University of Bologna has an English-taught Master's in Aerospace Engineering. Politecnico di Torino 2026-27 program says Italian is language."
+    },
+    {
+      "question": "What is the fee for Aerospace Engineering in Italy?",
+      "answer": "Tuition fees differ between universities and student circumstances. For illustration purposes, the estimates are between € 1,000 (₹ 1,08,600) and € 8,000 (₹ 8,68,800) per annum, however, these are not official charges for a particular program."
+    },
+    {
+      "question": "What are the career opportunities after Aerospace Engineering in Italy?",
+      "answer": "Careers for graduates are in aircraft design, aerodynamics, propulsion, aerospace structures, satellite systems, space engineering and research. Career opportunities depend on technical skills, experience, language ability, employer requirements, and work authorization."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to pursue Aerospace Engineering in Italy?",
+      "a": "Yes. Indian students with a relevant undergraduate qualification can apply to eligible Italian universities provided they meet the academic, language and programme-specific requirements. 2. Duration of a Master of Aerospace engineering in Italy Most of the programs last two years and give 120 ECTS credits. For duration and credits requirements check the official university page."
+    },
+    {
+      "q": "Are there Aerospace Engineering courses in Italy in English?",
+      "a": "Yes. Politecnico di Milano has a two-year English-taught Master's in Aeronautical Engineering and the University of Bologna has an English-taught Master's in Aerospace Engineering. Politecnico di Torino 2026-27 program says Italian is language."
+    },
+    {
+      "q": "What is the fee for Aerospace Engineering in Italy?",
+      "a": "Tuition fees differ between universities and student circumstances. For illustration purposes, the estimates are between € 1,000 (₹ 1,08,600) and € 8,000 (₹ 8,68,800) per annum, however, these are not official charges for a particular program."
+    },
+    {
+      "q": "What are the career opportunities after Aerospace Engineering in Italy?",
+      "a": "Careers for graduates are in aircraft design, aerodynamics, propulsion, aerospace structures, satellite systems, space engineering and research. Career opportunities depend on technical skills, experience, language ability, employer requirements, and work authorization."
+    }
+  ]
 }

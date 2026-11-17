@@ -12,6 +12,7 @@ import uniImg1 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Chem
 import uniImg2 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Chemical/TU_Dortmund_University_provides_eng.webp";
 import uniImg3 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Chemical/Technical_University_of_Berlin_offe.webp";
 import uniImg4 from "../../../../../../Images/Abroad/Germany/Engineering_PG/Chemical/Magdeburg_Otto_von_Guericke_Univers.webp";
+import cmsData from "../../../../../../data/study_abroad/germany/chem_engg_pg.json";
 
 const page = {
   name: "Postgraduate Chemical Engineering in Germany",
@@ -301,6 +302,23 @@ const page = {
 };
 
 export default function PostgraduateChemicalEngineering() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   return (
     <AbroadCoursePage
       heroImg={heroImg}
@@ -308,7 +326,7 @@ export default function PostgraduateChemicalEngineering() {
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
       seoPath={page.slug}
-      page={page}
+      page={dynamicPage}
     />
   );
 }

@@ -1,199 +1,642 @@
 {
-  "seo": {
-    "title": "Study Dentistry in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Dentistry in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - France",
-    "title": "DENTISTRY IN FRANCE FOR FOREIGN STUDENTS",
-    "subtitle": "**"
+    "title": "Dentistry in France for Foreign Students",
+    "subtitle": "For students who want to study Dentistry in France, it is a great option. French dental education offers a blend of scientific basis, clinical training, supervised patient care and opportunities for advanced specialisation."
   },
   "overview": [
-    "**"
+    "For students who want to study Dentistry in France, it is a great option. French dental education offers a blend of scientific basis, clinical training, supervised patient care and opportunities for advanced specialisation.",
+    "The French dental degree is the Diplôme d'État de docteur en chirurgie dentaire (Doctor of Dental Surgery).",
+    "Students who complete the required education and meet professional registration requirements can become a dental surgeon in France."
+  ],
+  "universities": [
+    {
+      "name": "University of Lille",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_University_of_Lille.webp",
+      "image": "/uploads/study_abroad/france/france_University_of_Lille.webp",
+      "desc": "Provides dental education through its health and dental training facilities."
+    },
+    {
+      "name": "University of Montpellier",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_University_of_Montpellier.webp",
+      "image": "/uploads/study_abroad/france/france_University_of_Montpellier.webp",
+      "desc": "Health sciences and dentistry programs."
+    },
+    {
+      "name": "University of Rennes",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_University_of_Rennes.webp",
+      "image": "/uploads/study_abroad/france/france_University_of_Rennes.webp",
+      "desc": "Another school to look at if you want to study dentistry."
+    }
   ],
   "sections": [
     {
-      "title": "1. In France the study of dentistry takes five years.",
-      "eyebrow": "Why Study in France",
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Dentistry in France?",
+      "lead": "For students who want to study Dentistry in France, it is a great option. French dental education offers a blend of scientific basis, clinical training, supervised patient care and opportunities for advanced specialisation.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "The normal route to the ** French state dental qualification ** is typically ** six years ** . The amount of time spent in **specialist training** can vary and depends on the specialty you choose and the training route."
+            "The French dental degree is the Diplôme d'État de docteur en chirurgie dentaire (Doctor of Dental Surgery)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who complete the required education and meet professional registration requirements can become a dental surgeon in France."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Main advantages of studying dentistry in France are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "A university-based dental education system structured."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Education in dental anatomy, diagnosis, treatment and oral health."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Clinical learning and supervised practical experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possibility of specialization in areas like orthodontics, oral surgery and oral medicine."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission to public universities where tuition and registration fees could be relatively cheaper depending on the student's fee category."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possibilities for dental practice, academic and research once the licensing requirements are met."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Through Edu Hawk worldwide study abroad advice students can get to know about these opportunities and the requirements involved in pursuing education overseas."
           ]
         }
       ]
     },
     {
-      "title": "2. Can Indian students pursue dentistry in France after Class 12?",
-      "eyebrow": "Degrees & Specializations",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Dentistry Courses in France",
+      "lead": "France's dental education is not structured around the \\\\BDS or DDS degrees\\\\ that are common in many other countries.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Yes, **Indian students can look for applications to French higher education** but they need to fulfill the **academic, language, admission and visa criteria. They must follow the correct **Campus France procedure** and understand that admission to dentistry is competitive."
+            "PASS or L.AS: Health Studies, First Year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Usually students who want to join the dentistry profession have two paths:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "PASS (\\Parcours d'accès spécifique santé\\):\\\\ First year in health, with additional academic study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "L.AS (\\Licence avec accès santé\\):\\\\ A university degree program that includes a health-access component."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "To be eligible to gain admission to \\\\odontologie\\\\, the French dental program, students must fulfill the relevant \\\\progression and selection requirements\\. Completion of PASS or L.AS does not ensure admission to dentistry."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dental Studies: Dentistry"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After getting admitted, students study subjects such as:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dental anatomy and oral biology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Human anatomy and physiology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Oral pathology and microbiology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dental materials and restorative dentistry"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Endodontics and periodontology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prosthodontics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Oral Diagnosis and Preventive Dentistry"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Clinical practice and patient managemen"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate Dental Education"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Following the completion of the appropriate stages of dental education and selection requirements, students can undertake further training in \\\\specialist dental areas\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "How long does it take to study dentistry in France"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The usual route to the French state dental qualification takes around six years - the first year of health access and then dental training ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialist training - usually means additional years in training, depending on the specialty."
           ]
         }
       ]
     },
     {
-      "title": "3. Do I need NEET to study dentistry in France?",
-      "eyebrow": "Top Institutions in France",
-      "groups": [
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Universities for Dentistry in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
         {
-          "t": "p",
-          "items": [
-            "Dental studies have their own admission rules in French universities. NEET is an Indian examination. However, Indian students should check current **Indian regulatory requirements** before choosing a foreign dental program, especially if they intend to return to India to practise."
-          ]
+          "name": "University of Lille",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_University_of_Lille.webp",
+          "image": "/uploads/study_abroad/france/france_University_of_Lille.webp",
+          "desc": "Provides dental education through its health and dental training facilities."
+        },
+        {
+          "name": "University of Montpellier",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_University_of_Montpellier.webp",
+          "image": "/uploads/study_abroad/france/france_University_of_Montpellier.webp",
+          "desc": "Health sciences and dentistry programs."
+        },
+        {
+          "name": "University of Rennes",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_University_of_Rennes.webp",
+          "image": "/uploads/study_abroad/france/france_University_of_Rennes.webp",
+          "desc": "Another school to look at if you want to study dentistry."
         }
       ]
     },
     {
-      "title": "4. Is Dentistry taught in English in France?",
-      "eyebrow": "Academic & Language Criteria",
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to study dentistry in France?",
+      "lead": "Your eligibility will depend on your \\\\previous education, nationality, language proficiency\\\\ and the entry point you intend to take.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "Eligibility Academical\\\\"
+        },
         {
           "t": "p",
           "items": [
-            "The majority of **undergraduate dental programs in France** are taught mainly in **French**, including clinical training. Students wishing to undertake an English language programme are advised to check the language of delivery with the institution and not to assume that the programme will be taught entirely in English."
+            "For students applying after secondary school the normal starting point is a qualification equivalent to the \\\\French baccalauréat\\\\ which gives entry to higher education."
           ]
-        }
-      ]
-    },
-    {
-      "title": "5. How much does dentistry tuition cost in France?",
-      "eyebrow": "Application Checklist",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Costs vary by university, student fee category and living arrangements. *Standard public-university registration fees* are relatively low, but *differentiated fees* may be charged to some non-EU students. The budget must also include **costs for living expenses, accommodation, insurance** and other costs.",
-            "How can **Edu Hawk Worldwide Consultancy** help me to study abroad?",
-            "**Edu Hawk worldwide** assists students in finding the right universities, understanding **admission requirements**, handling **application documents**, and planning their **study abroad journey**. Students should contact the relevant official bodies to verify the academic, financial, immigration and licensing requirements."
+            "Indian applicants will generally be asked to provide their \\\\Class 12 results\\\\ and such other documents as needed for the particular application route. If you are well prepared \\\\science subjects\\\\ are especially useful, particularly \\\\biology, chemistry and physics\\."
           ]
-        }
-      ]
-    },
-    {
-      "title": "6. **Complete any necessary selection steps**: Follow university instructions for assessment, admission or progression.",
-      "eyebrow": "Tuition & Cost of Living",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "French Language proficiency\\\\"
           ]
-        }
-      ]
-    },
-    {
-      "title": "7. **Admission decision:** Look for the conditions and deadlines listed in the offer.",
-      "eyebrow": "Step-by-Step Guide",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "The majority of dental teaching and \\\\clinical communication\\\\ is in French and applicants need a high level of \\\\French proficiency\\."
           ]
-        }
-      ]
-    },
-    {
-      "title": "8. **How Does Accreditation and Recognition Work for Dentistry in France?**",
-      "eyebrow": "Degrees & Recognition",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Students must follow the required curriculum and sit the necessary exams to be eligible to gain the qualification.",
-            "However, graduating from a dental program and being **licensed to practice** are two different things. **Professional registration** and other requirements must be fulfilled before a person can practice as a dentist.",
-            "****Recognition in other countries****",
-            "If you plan to return to India or practice in another country, you should check the rules of the relevant **dental regulator** **before you enrol**.",
-            "Recognition may depend on the country, the institution, the qualification, the structure of clinical training and any licensing examinations or registration procedures required.",
-            "**"
+            "Depending on the university and the application route, you may need to provide a recognized \\\\French-language certificate\\\\ such as \\\\DELF, DALF or TCF\\."
           ]
-        }
-      ]
-    },
-    {
-      "title": "9. **Dentists Salary & Job Opportunities in France****",
-      "eyebrow": "Job Roles & Industry Growth",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Graduates who have achieved the necessary qualifications and fulfilled the relevant **professional registration requirements** can seek ****dental careers in France**** and overseas, subject to the local regulations.",
-            "Opportunities",
-            "**Possible career paths:**"
+            "Good communication skills are required for clinical training and some programs may require \\\\B2 or C1-level proficiency.\\\\"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Additional Requirements\\\\"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants may also be expected to demonstrate:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- General dentists.",
-            "- **Dentist in a dental office or medical office**.",
-            "- **Dental specialist** following recognized additional training .",
-            "- **Dental academic or research professional**.",
-            "- **Oral health educator or public health professional** if suitably qualified.",
-            "- **Dental sector jobs** in research, education or industry."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "**Expectations on Salary****",
-            "**Earnings of dentists in France** vary greatly depending on experience, location, employment arrangement, working hours, specialization and whether the dentist is employed or self-employed.",
-            "**Do Foreign Students Have the Right to Work in France?****",
-            "Graduating doesn’t mean you automatically get unlimited **work rights**. International graduates also need to satisfy the **professional registration requirements for dentistry** and the **immigration conditions** that apply to their circumstances.",
-            "**"
+            "Academic preparation for demanding \\\\health sciences studies.",
+            "The capacity to satisfy \\\\university entrance and progression requirements.",
+            "The financial means to cover living expenses and tuition.",
+            "Have the appropriate \\\\French student visa or residence permission."
           ]
         }
       ]
     },
     {
-      "title": "10. Documents Required to Study Dentistry in France**",
-      "eyebrow": "Document Requirements",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission requirements Dentistry in France",
+      "lead": "Dentistry in France admission is competitive and submitted to specific rules of the French higher education system.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "The **documents required to study dentistry in France** will differ depending on the university and the application process. Typical documents include:"
+            "Post Class 12 Students Applying\\\\"
           ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The way in which students apply to start their first year of health studies usually depends on their nationality, where they live and what their secondary school qualification is."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For eligible international candidates, this could be the \\\\Études en France platform\\\\ and the \\\\preliminary admission process\\\\ known as \\\\DAP\\\\ or another prescribed route."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students Currently Studying Dentistry\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants who have started \\\\dental studies in another country\\\\ should not expect to be able to transfer directly into a later year of French odontologie. \\\\Transfers, credit for studies already completed and possible exemptions\\\\ are governed by the particular rules and decisions of the institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of studying dentistry in France",
+      "lead": "The \\\\cost of dental education in France\\\\ depends on the university, the level of study, the student's nationality or fee category and any exemption from differentiated fees.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Published standard public-university registration fees for the \\\\2026-2027 academic year\\\\ are:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "First-cycle studies in Dentistry (DFGSO)\\\\ \\",
+              "d": "€178/year"
+            },
+            {
+              "t": "Advanced dental studies (DFASO)\\\\ \\",
+              "d": "255 €/year"
+            },
+            {
+              "t": "Accommodation\\\\ \\",
+              "d": "€300-€800+"
+            },
+            {
+              "t": "Food & Groceries\\\\ \\",
+              "d": "€200-€350"
+            },
+            {
+              "t": "Transport\\\\ \\",
+              "d": "€20-€80"
+            },
+            {
+              "t": "Phone & internet\\\\ \\",
+              "d": "€15–€40"
+            },
+            {
+              "t": "Personal and study costs\\\\ \\",
+              "d": "€100-200"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "State dental qualification and some later-cycle registrations\\\\ \\| Standard rate shown normally €255 per year \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are \\\\standard published registration rates, not a guaranteed total fee for each international student\\. \\\\Non-EU students\\\\ may be subject to \\\\differentiated fees, exemptions or other applicable arrangements\\. Universities can also impose other fees approved."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\Cost of living\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of living in France\\\\ Cost of living depends on the city, accommodation and lifestyle."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students might expect \\\\€800–€1,400 per month\\\\ as a rough first planning estimate, with Paris generally more expensive than smaller university cities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "However, they are estimates, not official tariffs. \\\\Accommodation deposits, insurance, travel\\\\ and other one-off costs can increase the initial budget."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure to Dentistry in France",
+      "lead": "The \\\\application process for dentistry in France\\\\ will differ depending on whether you are applying straight out of school, transferring from another institution or looking for recognition of an existing dental qualification.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For a student applying post-Class 12, the process generally includes:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\ Research dental universities \\\\ Find schools that offer \\\\ odontologie \\\\ Check their admission procedures ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Check eligibility:\\\\ Check requirements for secondary-school qualifications, language standards and application deadlines."
+          ]
+        },
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 3,
+              "title": "Find the right platform: In India, students usually have to check the applicable \\\\Études en France procédure via Campus France India.",
+              "desc": "4. \\\\Application preparation:\\\\ Gather academic records, language certificates, identity documents and other required evidence."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Submission of application:\\\\ Follow the instructions of the respective platform and select the suitable study pathway."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Complete any necessary selection steps\\\\: Follow university instructions for assessment, admission or progression."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Admission decision:\\\\ Look for the conditions and deadlines listed in the offer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Arrange funding:\\\\ Confirm \\\\tuition fees, living expenses\\\\ and evidence of funds."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Apply for a student visa:\\\\ Follow the official \\\\French student visa process\\\\ relevant to your situation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10. \\\\Finalize your university registration:\\\\ Submit your required paperwork and enrolll administratively before classes start."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\How Does Accreditation and Recognition Work for Dentistry in France?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students must follow the required curriculum and sit the necessary exams to be eligible to gain the qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "However, graduating from a dental program and being \\\\licensed to practice\\\\ are two different things. \\\\Professional registration\\\\ and other requirements must be fulfilled before a person can practice as a dentist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Recognition in other countries\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you plan to return to India or practice in another country, you should check the rules of the relevant \\\\dental regulator\\\\ \\\\before you enrol\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recognition may depend on the country, the institution, the qualification, the structure of clinical training and any licensing examinations or registration procedures required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Dentists Salary & Job Opportunities in France\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates who have achieved the necessary qualifications and fulfilled the relevant \\\\professional registration requirements\\\\ can seek \\\\dental careers in France\\\\ and overseas, subject to the local regulations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Possible career paths:"
         },
         {
           "t": "ul",
           "items": [
-            "* - **Valid passport**.",
-            "* - Certificates and Marksheets of Class 10 and Class 12, if applicable.",
-            "* - **Academic certificates and transcripts** of any previous higher education.",
-            "* - **Certificate of proficiency in the French language**, if required.",
-            "* - **Statement of purpose/motivation letter** (if required).",
-            "* - **Resume** (if relevant).",
-            "* - **Application forms and documentation**.",
-            "* - **Certified translations** of the documents not accepted in the original language.",
-            "* - Proof of **payment of application fee**, if applicable.",
-            "* - **Letter of admission or acceptance**.",
-            "* - Proof of **funds** for the purpose of the visa.",
-            "* - Accommodation details if requested.",
-            "* - Required documents for the **student visa application**."
+            "General dentists.",
+            "\\\\Dentist in a dental office or medical office.",
+            "\\\\Dental specialist\\\\ following recognized additional training .",
+            "\\\\Dental academic or research professional.",
+            "\\\\Oral health educator or public health professional\\\\ if suitably qualified.",
+            "\\\\Dental sector jobs\\\\ in research, education or industry."
           ]
         },
         {
           "t": "p",
           "items": [
-            "**"
+            "Expectations on Salary\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Earnings of dentists in France\\\\ vary greatly depending on experience, location, employment arrangement, working hours, specialization and whether the dentist is employed or self-employed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Do Foreign Students Have the Right to Work in France?\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduating doesn't mean you automatically get unlimited \\\\work rights\\. International graduates also need to satisfy the \\\\professional registration requirements for dentistry\\\\ and the \\\\immigration conditions\\\\ that apply to their circumstances."
           ]
         }
       ]
     },
     {
-      "title": "11. Dentistry in France – Frequently Asked Questions**",
-      "eyebrow": "Frequently Asked Questions",
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Dentistry in France",
+      "lead": "The \\\\documents required to study dentistry in France\\\\ will differ depending on the university and the application process. Typical documents include:",
       "groups": [
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Details available upon request."
+            "\\\\Valid passport.",
+            "Certificates and Marksheets of Class 10 and Class 12, if applicable.",
+            "\\\\Academic certificates and transcripts\\\\ of any previous higher education.",
+            "\\\\Certificate of proficiency in the French language\\\\, if required.",
+            "\\\\Statement of purpose/motivation letter\\\\ (if required).",
+            "\\\\Resume\\\\ (if relevant).",
+            "\\\\Application forms and documentation.",
+            "\\\\Certified translations\\\\ of the documents not accepted in the original language.",
+            "Proof of \\\\payment of application fee\\\\, if applicable.",
+            "\\\\Letter of admission or acceptance.",
+            "Proof of \\\\funds\\\\ for the purpose of the visa.",
+            "Accommodation details if requested.",
+            "Required documents for the \\\\student visa application."
           ]
         }
       ]
@@ -201,12 +644,29 @@
   ],
   "faqs": [
     {
-      "question": "1. Can Indian students study Dentistry in France?",
-      "answer": "Yes, Indian students with valid academic qualifications, required English or French language proficiency, and relevant documentation can apply."
+      "q": "Can Indian students pursue dentistry in France after Class 12?",
+      "a": "Yes, \\\\Indian students can look for applications to French higher education\\\\ but they need to fulfill the \\\\academic, language, admission and visa criteria. They must follow the correct \\\\Campus France procedure\\\\ and understand that admission to dentistry is competitive."
     },
     {
-      "question": "2. How can Edu Hawk Worldwide Consultancy help me?",
-      "answer": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, Campus France procedure, visa assistance, and pre-departure briefings."
+      "q": "Do I need NEET to study dentistry in France?",
+      "a": "Dental studies have their own admission rules in French universities. NEET is an Indian examination. However, Indian students should check current \\\\Indian regulatory requirements\\\\ before choosing a foreign dental program, especially if they intend to return to India to practise."
+    },
+    {
+      "q": "Is Dentistry taught in English in France?",
+      "a": "The majority of \\\\undergraduate dental programs in France\\\\ are taught mainly in \\\\French\\\\, including clinical training. Students wishing to undertake an English language programme are advised to check the language of delivery with the institution and not to assume that the programme will be taught entirely in English."
+    },
+    {
+      "q": "How much does dentistry tuition cost in France?",
+      "a": "Costs vary by university, student fee category and living arrangements. \\Standard public-university registration fees\\ are relatively low, but \\differentiated fees\\ may be charged to some non-EU students. The budget must also include \\\\costs for living expenses, accommodation, insurance\\\\ and other costs."
+    },
+    {
+      "q": "How can Edu Hawk Worldwide Consultancy help me to study abroad?",
+      "a": "\\\\Edu Hawk worldwide\\\\ assists students in finding the right universities, understanding \\\\admission requirements\\\\, handling \\\\application documents\\\\, and planning their \\\\study abroad journey. Students should contact the relevant official bodies to verify the academic, financial, immigration and licensing requirements."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Dentistry in France for Foreign Students | Edu-Hawk Worldwide",
+    "description": "For students who want to study Dentistry in France, it is a great option. French dental education offers a blend of scientific basis, clinical training, supervi",
+    "keywords": "Study Dentistry in France, Dentistry Courses in France, Top Universities for Dentistry in France, Dentistry Eligibility Requirements in France, Dentistry Admission Requirements for Indian Students in France, Dentistry Tuition Fees in France 2026–2027, Cost of Studying Dentistry in France for International Students, Dentistry Student Visa Requirements for France, Dentist Career Opportunities and Salary in France, <"
+  }
 }

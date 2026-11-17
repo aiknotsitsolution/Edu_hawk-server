@@ -1,57 +1,107 @@
 {
   "seo": {
-    "title": "MBBS in Bangladesh for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Bangladesh. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Bangladesh for Indian Students | Fees & Admission Process",
+    "description": "MBBS in Bangladesh with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges.",
+    "keywords": "mbbs in bangladesh, bangladesh mbbs fees, study mbbs bangladesh, bangladesh medical colleges"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Bangladesh",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Bangladesh.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN BANGLADESH",
+    "subtitle": "Explore MBBS Opportunities in Bangladesh 2026–2027. High FMGE passing rates, identical disease spectrum, and Indian curriculum standards.",
+    "image": "/uploads/colleges/bangladesh_about.webp",
+    "ctaText": "Apply for Bangladesh MBBS"
   },
+  "flag": "/uploads/colleges/bangladesh_flag.webp",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "1500+",
+      "l": "Indian Students Currently Studying"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "n": "6 Years",
+      "l": "Duration (5 Years Study + 1 Year Internship)"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "Top 1",
+      "l": "Highest FMGE Passing Ratio in Abroad"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "n": "BMDC & NMC",
+      "l": "Accredited Universities"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MBBS",
+    "duration": "6 Years (5+1 Internship)",
+    "fee": "₹25 - ₹45 Lakhs Complete Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Bangladesh offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Studying MBBS in Bangladesh is an outstanding option for Indian medical aspirants because the curriculum, textbooks, disease spectrum, and pharmaceutical protocols are identical to India. With high clinical patient flow in attached tertiary hospitals, graduates consistently achieve top FMGE/NExT success rates.",
+  "universitiesHeading": "Top Medical Universities in Bangladesh for MBBS 2026-2027",
   "universities": [
     {
-      "name": "Top State Medical University (Bangladesh)",
-      "location": "Bangladesh",
-      "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "name": "Dhaka National Medical College",
+      "location": "Dhaka, Bangladesh",
+      "fee": "₹35 Lakhs Total Package",
+      "image": "https://educationvibes.in/uploads/university_banner/mbbs_abroad/dhaka-national-medical-college.webp",
+      "desc": "Located in the heart of Dhaka with an 850-bed multi-specialty teaching hospital."
+    },
+    {
+      "name": "Bangladesh Medical College",
+      "location": "Dhaka, Bangladesh",
+      "fee": "₹38 Lakhs Total Package",
+      "image": "https://brightfutureas.com/wp-content/uploads/2024/07/Bangladesh-Medical-College%E2%80%8B.jpg",
+      "desc": "The first private medical college in Bangladesh, established in 1986 with top faculty."
+    },
+    {
+      "name": "Tairunnessa Memorial Medical College",
+      "location": "Gazipur, Bangladesh",
+      "fee": "₹32 Lakhs Total Package",
+      "image": "https://shikshamed.com/wp-content/uploads/2021/08/Fff-1-1024x494-1-1.jpg",
+      "desc": "Reputed hospital campus with excellent OPD patient turnout and clinical skills training."
+    },
+    {
+      "name": "Islamic Bank Medical College",
+      "location": "Rajshahi, Bangladesh",
+      "fee": "₹30 Lakhs Total Package",
+      "image": "https://i.ytimg.com/vi/735pBvL98lg/mqdefault.jpg",
+      "desc": "State-of-the-art campus in Rajshahi providing disciplined academic training."
+    },
+    {
+      "name": "TMSS Medical College and Hospital",
+      "location": "Bogra, Bangladesh",
+      "fee": "₹34 Lakhs Total Package",
+      "image": "https://hindmbbsabroad.com/wp-content/uploads/2024/04/IMG_8003.jpg",
+      "desc": "One of North Bengal's premier 1000-bed referral healthcare centers."
+    },
+    {
+      "name": "MH Samorita Medical College and Hospital",
+      "location": "Dhaka, Bangladesh",
+      "fee": "₹33 Lakhs Total Package",
+      "image": "/uploads/colleges/mh_samorita_medical_college.jpg",
+      "desc": "Modern medical complex in Dhaka equipped with advanced diagnostic infrastructure."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Bangladesh?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "Is MBBS in Bangladesh safe for Indian students?",
+      "answer": "Yes, Bangladesh is generally considered very safe for Indian students. Hostels offer 24/7 security, CCTV monitoring, and dedicated female and male resident facilities with familiar Indian food."
     },
     {
-      "question": "Is the degree from Bangladesh valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "Is MBBS in Bangladesh recognized in India?",
+      "answer": "Yes, degrees from BMDC-recognized colleges are fully valid in India as per NMC guidelines. Indian students must qualify NExT/FMGE to practice in India."
+    },
+    {
+      "question": "Is NEET required for MBBS admission in Bangladesh?",
+      "answer": "Yes, qualifying NEET is mandatory for all Indian students pursuing MBBS abroad as per NMC regulations."
+    },
+    {
+      "question": "What is the total cost of MBBS in Bangladesh?",
+      "answer": "The complete package (tuition + hostel + food) usually ranges from ₹25 lakh to ₹45 lakh for the full 6-year course."
     }
   ]
 }

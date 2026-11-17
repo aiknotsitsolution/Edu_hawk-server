@@ -1,41 +1,93 @@
 {
-  "seo": {
-    "title": "Postgraduate Computer Engineering in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Postgraduate Computer Engineering in Switzerland in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Switzerland",
-    "title": "Postgraduate Computer Engineering in Switzerland in Switzerland for Indian Students",
-    "subtitle": "Studying a **Master’s in Computer Engineering in Switzerland for Indian Students** offers graduates the opportunity to develop advanced technical knowledge in computer systems, software development, digital electronics, embedded systems, computer networks, artificial intelligence, and hardware–software integration. Swiss universities and universities of applied sciences are known for their technical education, research facilities, and practical learning approaches.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Master’s in Computer Engineering in Switzerland for Indian Students",
+    "subtitle": "Studying a Master’s in Computer Engineering in Switzerland for Indian Students offers graduates the opportunity to develop advanced technical knowledge in computer systems, software development, digital electronics, embedded systems, computer networks, artificial intelligence, and hardware–software integration. Swiss universities and universities of applied sciences are known for their technical education, research facilities, and practical learning approaches."
   },
-  "stats": [
+  "overview": [
+    "Studying a Master’s in Computer Engineering in Switzerland for Indian Students offers graduates the opportunity to develop advanced technical knowledge in computer systems, software development, digital electronics, embedded systems, computer networks, artificial intelligence, and hardware–software integration. Swiss universities and universities of applied sciences are known for their technical education, research facilities, and practical learning approaches.",
+    "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty."
+  ],
+  "universities": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 730 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "fee": "CHF 780 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "name": "University of Zurich (UZH)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,220 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
+      "name": "University of Geneva",
+      "location": "Geneva, Switzerland",
+      "fee": "CHF 500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
     }
   ],
-  "highlights": {
-    "degree": "M.Sc. in Computer Engineering",
-    "duration": "1.5 to 2 Years (90–120 ECTS)",
-    "fee": "CHF 1,000 – CHF 3,000 / Year",
-    "eligibility": "Bachelor's degree in Engineering + English/German proficiency",
-    "medium": "English & German Taught"
-  },
-  "overview": "A **Master’s in Computer Engineering in Switzerland for Indian Students** can help graduates strengthen their technical expertise and prepare for specialised roles in the global technology sector. Edu-Hawk Worldwide helps students explore suitable postgraduate study options and understand the application process.\n\nIn Switzerland, the exact degree title may vary. Related postgraduate programmes include Computer Science, Computer Science Engineering, Electrical and Information Engineering, Information Technology, and Embedded Systems. Students should check the curriculum carefully to ensure that it includes their preferred combination of hardware and software subjects.\n\n**Important for Indian applicants:** Many Swiss postgraduate programmes are taught in English, although some programmes or individual modules may require German, French, or Italian. Admission depends on the applicant’s previous bachelor's qualification, academic background, subject knowledge, language proficiency, and institution-specific requirements.\n\nStudents who want to **Study Computer Engineering in Switzerland** can explore postgraduate programmes that combine computing, electronics, programming, research, and advanced technical systems. Choosing the right **Master’s in Computer Engineering in Switzerland for Indian Students** requires comparing programme content, teaching language, specialisations, and eligibility criteria. Students should also explore how they can **Study Computer Engineering in Switzerland** through related postgraduate programmes that match their previous academic qualifications.",
-  "universities": [],
-  "faq": []
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Swiss Universities",
+      "title": "Top Universities to Consider in Switzerland",
+      "lead": "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty.",
+      "unis": [
+        {
+          "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 730 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
+        },
+        {
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+          "location": "Lausanne, Switzerland",
+          "fee": "CHF 780 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+        },
+        {
+          "name": "University of Zurich (UZH)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 1,220 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+        },
+        {
+          "name": "University of Geneva",
+          "location": "Geneva, Switzerland",
+          "fee": "CHF 500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Master’s in Computer Engineering in Switzerland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Studying a Master’s in Computer Engineering in Switzerland for Indian Students offers graduates the opportunity to develop advanced technical knowledge in compu",
+    "keywords": "Study in Switzerland, Top Swiss Universities, Edu Hawk Worldwide"
+  }
 }

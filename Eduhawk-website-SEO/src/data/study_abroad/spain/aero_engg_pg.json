@@ -1,81 +1,523 @@
 {
-  "seo": {
-    "title": "Aerospace Engineering - PG in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Aerospace Engineering - PG in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities."
-  },
   "hero": {
-    "badge": "Study Abroad - Spain",
     "title": "Aerospace Engineering Masters in Spain for Indian Students",
-    "subtitle": "Master's in Aerospace Engineering in Spain for Indian Students provides a platform to acquire specialized knowledge in aircraft design, aerodynamics, propulsion systems, aerospace structures, flight mechanics, and space technology. Universities in Spain provide postgraduate courses in aerospace and related engineering subjects. These courses combine theory with modeling using computers, laboratory work, research and practical engineering projects. Students who want to Study Aerospace Engineering in Spain can explore different postgraduate options according to their academic background and career interests.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Master's in Aerospace Engineering in Spain for Indian Students provides a platform to acquire specialized knowledge in aircraft design, aerodynamics, propulsion systems, aerospace structures, flight mechanics, and space technology. Universities in Spain provide postgraduate courses in aerospace and related engineering subjects. These courses combine theory with modeling using computers, laboratory work, research and practical engineering projects. Students who want to Study Aerospace Engineering in Spain can explore different postgraduate options according to their academic background and career interests."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Spain is an attractive country for students wanting to study aircraft technology, aeronautical systems, space research and advanced engineering. Choosing to Study Aerospace Engineering in Spain can provide a number of professional and academic benefits.",
+    "Students interested in Aerospace Engineering Courses in Spain can explore different specializations and postgraduate study options offered by Spanish institutions."
   ],
-  "highlights": {
-    "degree": "Master of Science (M.Sc / M.Eng)",
-    "duration": "1 to 2 Years (PG)",
-    "fee": "€2,000 – €18,000 / Year",
-    "eligibility": "Recognised academic qualification + IELTS / TOEFL / Spanish proficiency",
-    "medium": "English & Spanish Taught"
-  },
-  "overview": "Master's in Aerospace Engineering in Spain for Indian Students provides a platform to acquire specialized knowledge in aircraft design, aerodynamics, propulsion systems, aerospace structures, flight mechanics, and space technology. Universities in Spain provide postgraduate courses in aerospace and related engineering subjects. These courses combine theory with modeling using computers, laboratory work, research and practical engineering projects. Students who want to Study Aerospace Engineering in Spain can explore different postgraduate options according to their academic background and career interests.\n\nMaster's in Aerospace Engineering in Spain for Indian Students usually takes between 1 to 2 years to complete, based on the program structure and the number of credits required. Most official university master's degrees are adapted to the European Credit Transfer and Accumulation System (ECTS) and programs usually have a value of 60 to 120 ECTS credits. Students can choose between English and Spanish programs and according to their academic background and professional interests.\n\nWith the help of Edu-Hawk Worldwide , Indian students can find the right universities, understand admission requirements, and plan their postgraduate study journey in Spain.",
   "universities": [
     {
-      "name": "Technical University of Madrid (UPM)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
     },
     {
-      "name": "Universitat Politècnica de Catalunya (UPC)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
     },
     {
-      "name": "Universitat Politècnica de València (UPV)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Can Indian Students Study Master's in Aerospace Engineering in Spain?",
-      "answer": "Yes Indian students are eligible to apply, provided they hold a recognized bachelor's degree and satisfy the academic, language and documentation requirements of the university of their choice. Students interested in Master's in Aerospace Engineering in Spain for Indian Students should check the specific eligibility criteria of their selected university."
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study a Master in Aerospace Engineering in Spain?",
+      "lead": "Spain is an attractive country for students wanting to study aircraft technology, aeronautical systems, space research and advanced engineering. Choosing to Study Aerospace Engineering in Spain can provide a number of professional and academic benefits.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Higher Education in Aerospace: Study aerodynamics, flight mechanics, propulsion systems, and aircraft structures.",
+            "Opportunities for specialisation: Space technology, satellite systems, aerospace materials and computational fluid dynamics.",
+            "Engineering projects in practice: Depending on the program, students may work with simulation tools, laboratories, research projects and industry-related assignments.",
+            "Research and Innovation: Acquire technical knowledge relevant to aircraft development, aerospace systems and space applications.",
+            "Academic exposure in Europe: Study in the European Higher Education Area and explore opportunities for international academic collaboration.",
+            "Career progression: Train for roles in aerospace manufacturing, aircraft systems, engineering consultancy, research and space technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in Aerospace Engineering Courses in Spain can explore different specializations and postgraduate study options offered by Spanish institutions."
+          ]
+        }
+      ]
     },
     {
-      "question": "How Long is a Master's in Aerospace Engineering in Spain?",
-      "answer": "Most programs are about 1-2 years long depending on credit requirements, curriculum and university structure."
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Aerospace Engineering Master's Degrees in Spain",
+      "lead": "Spanish universities offer postgraduate programs in several fields of aerospace and related engineering. Students may choose a program based on their undergraduate background, technical interests and desired career specialization.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "SpecializationMain Subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace EngineeringAircraft systems, aerospace design, engineering analysis"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aeronautical EngineeringStructures of aircraft, flight mechanics, aerodynamics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Space EngineeringSatellites, spacecraft systems, space flights"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Propulsion EngineeringJet engines, propulsion, combustion"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fluid mechanicsAerodynamics, airflow analysis, computational modeling"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace StructuresStructural analysis, lightweight materials, fatigue"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flight Mechanics and ControlAircraft dynamics, stability and control"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fluid Dynamics and Computational Fluid DynamicsFluid flow, numerical simulation, aerodynamic modeling"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace MaterialsComposite materials, performance of materials, design of structures"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Avionics and Aerospace SystemsNavigation, sensors, control, aircraft electronics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These subjects may be offered as stand-alone master's degrees, specializations, or modules within broader aerospace, aeronautical, mechanical or space engineering programs. Aerospace Engineering Courses in Spain are provided by various institutes and intakes. Students searching for Master's in Aerospace Engineering in Spain should compare the course curriculum and available specializations before selecting a program."
+          ]
+        }
+      ]
     },
     {
-      "question": "Is IELTS necessary to study Master's in Aerospace Engineering in Spain?",
-      "answer": "Not always. For programs taught in English, IELTS, TOEFL or other acceptable evidence of English proficiency may be required. Some programs may require proficiency in Spanish language (taught in Spanish)."
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Top Universities to Pursue Masters in Aerospace Engineering in Spain",
+      "lead": "If you're a student looking for Aerospace Engineering Universities in Spain, you should start by looking at institutions that offer postgraduate education and research opportunities in the fields of aerospace, aeronautical and space engineering. These Aerospace Engineering Universities in Spain can be explored through their official postgraduate course catalogs.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
     },
     {
-      "question": "How much is the cost to study Master in Aerospace Engineering in Spain?",
-      "answer": "As a rough guide, tuition may be between €1,000 and €8,000 per year at some public universities and €6,000 to €25,000 or more at private universities. Exact fees will vary by university, program and international-student fee category. Students should compare Aerospace Engineering Fees in Spain using the latest official university fee information."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Master's in Aerospace Engineering in Spain Requirements",
+      "lead": "Indian students are generally required to meet the following language and academic entry requirements to apply for a Master's in Aerospace Engineering in Spain:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Hold a recognized bachelor's degree in Aerospace Engineering, Aeronautical Engineering, Mechanical Engineering or a related engineering discipline.",
+            "Have relevant academic knowledge of mathematics, mechanics, fluid dynamics, thermodynamics, materials or control systems, depending on the program.",
+            "Fulfill the academic admission requirements of the university.",
+            "Submit English language proficiency proof for English taught programs (if required).",
+            "Demonstrate proficiency in Spanish language for Spanish taught programs if necessary.",
+            "Complete any other prerequisite coursework required by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For selected programs, applicants with a degree in Mechanical Engineering, Electrical Engineering or related technical fields may be eligible if their academic background meets the course requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students planning to Study Aerospace Engineering in Spain should review the eligibility criteria of their preferred university before applying."
+          ]
+        }
+      ]
     },
     {
-      "question": "What are the career options after a Master's in Aerospace Engineering?",
-      "answer": "Depending on their specialization, experience and employer requirements, graduates may apply for positions such as aerospace engineer, aeronautical engineer, aerodynamics engineer, propulsion engineer, aerospace design engineer or space systems engineer. Map Out Your Aerospace Engineering Education in Spain with Edu-Hawk Worldwide Choosing the right university and specialization is a critical step in building an international engineering career. Edu-Hawk Worldwide helps students to explore postgraduate study options, eligibility, application preparation, and study abroad planning. For studying in Spain, please contact Edu-Hawk Worldwide for guidance on Master's in Aerospace Engineering in Spain for Indian Students , university options, admission procedures and study abroad planning."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements to Study a Master in Aerospace Engineering in Spain",
+      "lead": "The universities may evaluate the application based on academic qualifications, previous engineering courses and other supporting documents.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical requirements for Aerospace Engineering Admission in Spain include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Degree diploma.",
+            "Academic mark-sheets, transcripts.",
+            "Related undergraduate engineering courses.",
+            "Proof of English or Spanish language competency as required.",
+            "Resume or CV.",
+            "Letter of motivation or personal statement.",
+            "Letters of recommendation, if asked.",
+            "Related research, technical, or professional experience as appropriate.",
+            "Syllabus or course descriptions if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should check the university specific Aerospace Engineering Admission in Spain requirements. Some programs have particular undergraduate subject or document requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Tuition Fees for a Master's in Aerospace Engineering in Spain",
+      "lead": "Aerospace Engineering Fees in Spain vary depending on the university, the program, the number of credits and the fee category applicable to international students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following figures are general estimates of annual tuition for planning purposes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University TypeApprox Tuition Per YearApprox INR Equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities€1,000-€8,000₹1.09 lakh-₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private universities€6,000-€25,000+₹6.52-₹27.15 Lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative planning estimates not confirmed fees for a particular aerospace program. Non-EU tuition may vary, and specialized engineering courses can be more expensive. Current academic year fee schedule. Students are advised to consult the official fee schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Besides tuition, students should budget for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Residential and communal services.",
+            "Food & Groceries.",
+            "Local transport.",
+            "Medical insurance.",
+            "Books, study material."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of student visa.",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Other fees and registration to university applicable.",
+            "Personal and other costs of living."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students comparing Aerospace Engineering Fees in Spain should also consider living expenses, registration charges and other costs when preparing their study budget."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission for Master's in Aerospace Engineering in Spain",
+      "lead": "Typically, the application process for Aerospace Engineering Admission in Spain involves the following steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose your area of expertise: Whether you are interested in specializing in aircraft design, aerodynamics, propulsion, aerospace structures or space technology.",
+            "Shortlist universities: Compare the program content, tuition fees, language of instruction, location and entry requirements.",
+            "Check academic suitability: Ensure that your bachelor's degree and previous studies meet the program requirements.",
+            "Gather your documents: Degree certificate, transcripts, passport, CV, motivation letter, language proficiency evidence, if applicable.",
+            "Submit online: Complete the application on the official university website.",
+            "Meet other requirements: Provide additional documents or attend an interview, if required.",
+            "Admission decision: Check the offer, fees and payment deadlines and enrollment conditions.",
+            "Apply for a Spanish student visa: Follow the applicable visa procedure and prepare the supporting documentation needed.",
+            "Register fully: Complete the university's registration and payment requirements before the start of classes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Since application deadlines vary by institution and the programs they offer, students should start their research early."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can assist students in exploring universities, understanding the application requirements and preparing for the post-graduate admission process for Master's in Aerospace Engineering in Spain."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of Degrees and Job Prospects",
+      "lead": "Before enrolling, the students should check the recognition of the university and whether the qualification is an official university master's degree or another type of postgraduate qualification. It is also important to look at the programme's accreditation and academic status.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate aerospace engineering qualifications can enable students to develop specialist knowledge in areas like aircraft design, aerodynamics, aerospace structures, propulsion, flight systems, satellite technology and engineering research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After completing Master's in Aerospace Engineering in Spain for Indian Students, graduates can look for opportunities in aerospace manufacturing, aircraft component development, engineering consultancy, research centers or space technology organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you are planning to return to India, you should check whether any of your intended employers, professional pathway or further-study institution have any requirements on recognition of your qualifications. Some specialized aerospace roles may also require security clearances, further training or specific work authorizations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Opportunities After a Master's in Aerospace Engineering in Spain",
+      "lead": "Graduates can pursue technical and research roles with aerospace manufacturers, aircraft component suppliers, engineering consultancies, research centers and space technology organizations.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following figures are illustrative gross annual salary estimates for the purposes of career planning. They don't have guarantyd salaries or confirmed current job offers. Actual compensation depends on experience, location, employer, technical skills and language proficiency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Job RoleAverage Gross Yearly Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineer€28,000 - €45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aeronautical Engineer€27,000 - €43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerodynamics Engineer€30,000 - €48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Design Engineer€28,000-€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Propulsion Engineer30,000€ - 50,000€"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Structures Engineer€28,000 – €45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flight Systems Engineer€30,000-48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Space Systems Engineer€30,000-€50,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fresh graduates typically earn at the bottom of the applicable salary range. Typically professional experience, advanced technical expertise and relevant project experience are required for specialist and senior positions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed for a Master's in Aerospace Engineering in Spain",
+      "lead": "Typical documents that students applying for postgraduate programs may need:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Bachelor's degree certificate or provisional certificate.",
+            "Educational Transcripts/Mark sheets.",
+            "Resume or CV.",
+            "Letter of motivation/statement of purpose.",
+            "Evidence of proficiency in English or Spanish if required.",
+            "Where applicable, letters of recommendation.",
+            "Course descriptions/syllabi available upon request.",
+            "Passport size photographs (if required).",
+            "Proof of payment of application fee, if applicable.",
+            "Certified translations or legalization documents, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The exact list of required documents differs for each university, program and the academic qualifications of the applicant. Students are advised to check the most recent requirements before submitting an application for Aerospace Engineering Admission in Spain."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "faqs": [
+    {
+      "q": "1. Can Indian Students Study Master's in Aerospace Engineering in Spain?",
+      "a": "Yes Indian students are eligible to apply, provided they hold a recognized bachelor's degree and satisfy the academic, language and documentation requirements of the university of their choice. Students interested in Master's in Aerospace Engineering in Spain for Indian Students should check the specific eligibility criteria of their selected university."
+    },
+    {
+      "q": "2. How Long is a Master's in Aerospace Engineering in Spain?",
+      "a": "Most programs are about 1-2 years long depending on credit requirements, curriculum and university structure."
+    },
+    {
+      "q": "3. Is IELTS necessary to study Master's in Aerospace Engineering in Spain?",
+      "a": "Not always. For programs taught in English, IELTS, TOEFL or other acceptable evidence of English proficiency may be required. Some programs may require proficiency in Spanish language (taught in Spanish)."
+    },
+    {
+      "q": "4. How much is the cost to study Master in Aerospace Engineering in Spain?",
+      "a": "As a rough guide, tuition may be between €1,000 and €8,000 per year at some public universities and €6,000 to €25,000 or more at private universities. Exact fees will vary by university, program and international-student fee category. Students should compare Aerospace Engineering Fees in Spain using the latest official university fee information."
+    },
+    {
+      "q": "5. What are the career options after a Master's in Aerospace Engineering?",
+      "a": "Depending on their specialization, experience and employer requirements, graduates may apply for positions such as aerospace engineer, aeronautical engineer, aerodynamics engineer, propulsion engineer, aerospace design engineer or space systems engineer."
+    }
+  ],
+  "seo": {
+    "title": "Aerospace Engineering Masters in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain is an attractive country for students wanting to study aircraft technology, aeronautical systems, space research and advanced engineering. Choosing to Stu",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
 }

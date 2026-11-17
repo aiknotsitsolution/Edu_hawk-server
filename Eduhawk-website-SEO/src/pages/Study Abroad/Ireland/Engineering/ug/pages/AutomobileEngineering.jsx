@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../../../data/study_abroad/ireland/auto_engg_ug.json";
 
 // Page layout images
 import heroImg from "../../../../../../Images/Abroad/Ireland/Engineering_UG/Automobile/hero.webp";
@@ -354,6 +355,18 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "University_of_Limerick.webp": uniImg1,
+  "University_of_Limerick_2.webp": uniImg2,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function AutomobileEngineeringUGIreland() {
   const images = {
     hero: heroImg,
@@ -366,7 +379,7 @@ export default function AutomobileEngineeringUGIreland() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

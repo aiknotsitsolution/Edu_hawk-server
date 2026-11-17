@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../Images/Abroad/France/MarketingManagement/cta_b
 import uniImg1 from "../../../../Images/Abroad/France/MarketingManagement/HEC_Paris.webp";
 import uniImg2 from "../../../../Images/Abroad/France/MarketingManagement/ESSEC_Business_School.webp";
 import uniImg3 from "../../../../Images/Abroad/France/MarketingManagement/ESCP_Business_School.webp";
+import cmsData from "../../../../data/study_abroad/france/marketing_management.json";
 
 const page = {
   name: "Marketing Management in France",
@@ -378,6 +379,23 @@ const page = {
 };
 
 export default function MarketingManagementPage() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -390,7 +408,7 @@ export default function MarketingManagementPage() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

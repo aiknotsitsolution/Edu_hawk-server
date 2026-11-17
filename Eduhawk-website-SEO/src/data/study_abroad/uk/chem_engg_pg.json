@@ -1,34 +1,57 @@
 {
-  "seo": {
-    "title": "Study MSc Chemical Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to MSc Chemical Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Chemical Engineering (PG) in the United Kingdom",
     "subtitle": "Students pursuing postgraduate studies in Chemical Engineering frequently choose to study in the United Kingdom. Advanced courses incorporating chemical processes, industrial chemistry, process design, energy systems, materials science, and sustainable manufacturing are available at UK universities."
   },
   "overview": [
     "Students pursuing postgraduate studies in Chemical Engineering frequently choose to study in the United Kingdom. Advanced courses incorporating chemical processes, industrial chemistry, process design, energy systems, materials science, and sustainable manufacturing are available at UK universities.",
-    "The main advantages of studying chemical engineering in the UK",
-    "Obtain a postgraduate degree from a UK university that is recognized internationally."
+    "Graduates can enhance their technical proficiency, specialize in cutting-edge process technologies, and seek employment in engineering, research, or management with a postgraduate degree in Chemical Engineering.",
+    "Edu Hawk worldwide consultancy helps students prepare for their foreign education adventure, understand university admission requirements, and investigate international study possibilities with the right preparation and direction."
+  ],
+  "universities": [
+    {
+      "name": "Birmingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_chem_engg_pg_Birmingham_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_chem_engg_pg_Birmingham_University-image1.png",
+      "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Leeds University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_chem_engg_pg_Leeds_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_chem_engg_pg_Leeds_University-image3.png",
+      "desc": "Leeds University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Nottingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_chem_engg_pg_Nottingham_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_chem_engg_pg_Nottingham_University-image2.png",
+      "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Sheffield University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_chem_engg_pg_Sheffield_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_chem_engg_pg_Sheffield_University-image4.png",
+      "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Chemical Engineering in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Students pursuing postgraduate studies in Chemical Engineering frequently choose to study in the United Kingdom. Advanced courses incorporating chemical processes, industrial chemistry, process design, energy systems, materials science, and sustainable manufacturing are available at UK universities.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Students pursuing postgraduate studies in Chemical Engineering frequently choose to study in the United Kingdom. Advanced courses incorporating chemical processes, industrial chemistry, process design, energy systems, materials science, and sustainable manufacturing are available at UK universities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The main advantages of studying chemical engineering in the UK"
-          ]
+          "t": "h4",
+          "text": "The main advantages of studying chemical engineering in the UK"
         },
         {
           "t": "ul",
@@ -58,15 +81,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Chemical Engineering Courses in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "UK universities provide postgraduate Chemical Engineering programs with a variety of titles and specializations. Most full-time taught master's degrees are finished in a single year, while research-based degrees could take longer.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "UK universities provide postgraduate Chemical Engineering programs with a variety of titles and specializations. Most full-time taught master's degrees are finished in a single year, while research-based degrees could take longer."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -122,46 +141,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The UK's Top Chemical Engineering Universities",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Postgraduate education and research in Chemical Engineering, Process Engineering, Biochemical Engineering and related fields are provided by a number of UK universities.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Birmingham University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Birmingham_University_webp"
-            },
-            {
-              "name": "Leeds University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Leeds_University_webp"
-            },
-            {
-              "name": "Nottingham University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Nottingham_University_webp"
-            },
-            {
-              "name": "Sheffield University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Sheffield_University_webp"
-            }
-          ]
+          "name": "Birmingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_chem_engg_pg_Birmingham_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_chem_engg_pg_Birmingham_University-image1.png",
+          "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Leeds University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_chem_engg_pg_Leeds_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_chem_engg_pg_Leeds_University-image3.png",
+          "desc": "Leeds University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Nottingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_chem_engg_pg_Nottingham_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_chem_engg_pg_Nottingham_University-image2.png",
+          "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Sheffield University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_chem_engg_pg_Sheffield_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_chem_engg_pg_Sheffield_University-image4.png",
+          "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Chemical Engineering Education in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "To apply for postgraduate Chemical Engineering programmes , Indian students typically need to have a relevant undergraduate degree and be proficient in the English language.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "To apply for postgraduate Chemical Engineering programmes , Indian students typically need to have a relevant undergraduate degree and be proficient in the English language."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -198,10 +223,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Extra Eligibility Factors"
-          ]
+          "t": "h4",
+          "text": "Extra Eligibility Factors"
         },
         {
           "t": "ul",
@@ -218,78 +241,92 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Chemical Engineering Admission Requirements in the United Kingdom",
-      "eyebrow": "Eligibility & Process",
+      "lead": "The university, the chosen specialization, and whether the course is taught or research-based all affect the prerequisites for admission.",
       "groups": [
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "The university, the chosen specialization, and whether the course is taught or research-based all affect the prerequisites for admission."
+            "A recognized bachelor's degree in chemical engineering or a related discipline",
+            "The minimum score usually ranges from 55% to 65%, depending on the university. ."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Academic transcripts",
+              "d": "Official transcripts and undergraduate grades"
+            },
+            {
+              "t": "English proficiency",
+              "d": "IELTS, TOEFL, PTE, or a recognized substitute, if necessary"
+            },
+            {
+              "t": "Statement of purpose",
+              "d": "Describes course selection, academic background, and professional objectives"
+            },
+            {
+              "t": "Curriculum vitae",
+              "d": "Frequently needed for research applications and pertinent courses"
+            }
           ]
         },
         {
           "t": "ul",
           "items": [
-            "A recognized bachelor's degree in chemical engineering or a related discipline",
-            "The minimum score usually ranges from 55% to 65%, depending on the university. .",
-            "Academic transcripts | Official transcripts and undergraduate grades",
-            "English proficiency | IELTS, TOEFL, PTE, or a recognized substitute, if necessary",
-            "Statement of purpose | Describes course selection, academic background, and professional objectives",
             "Academic or professional references, if necessary | Letters of recommendation |",
-            "Curriculum vitae | Frequently needed for research applications and pertinent courses",
             "Work experience is necessary for some programs, while it may not be necessary for others.",
             "Research proposals could be necessary for research degrees.",
             "Interview | May be necessary for some programs or research roles |"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "English Requirements -"
-          ]
+          "t": "h4",
+          "text": "English Requirements -"
         },
         {
           "t": "p",
           "items": [
             "The English language proficiency requirements of UK universities vary. Applicants should evaluate the required total score, accepted examinations, minimum component scores, and any exemptions on the official course page."
           ]
-        }
-      ]
-    },
-    {
-      "title": "6.How much it costs to study chemical engineering in the UK",
-      "eyebrow": "Tuition & Living",
-      "groups": [
+        },
+        {
+          "t": "p",
+          "items": [
+            "6.How much it costs to study chemical engineering in the UK"
+          ]
+        },
         {
           "t": "p",
           "items": [
             "The university, program, city, and lifestyle of the student all affect the total cost of postgraduate Chemical Engineering. Tuition, housing, food, transportation, study materials, and personal expenses are all things that students should budget for."
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For a one-year postgraduate engineering program, overseas students should budget between £20,000–£40,000 or more as a general planning estimate. Higher fees may apply to some specialized programs and institutions."
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "cost of tuition",
+      "lead": "For a one-year postgraduate engineering program, overseas students should budget between £20,000–£40,000 or more as a general planning estimate. Higher fees may apply to some specialized programs and institutions.",
+      "groups": [
         {
           "t": "p",
           "items": [
             "Projected Annual Costs"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition is between £20,000 and £40,000+."
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition is between £20,000 and £40,000+.",
+      "lead": "",
+      "groups": [
         {
           "t": "p",
           "items": [
@@ -321,10 +358,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Chemical Engineering Scholarships"
-          ]
+          "t": "h4",
+          "text": "Chemical Engineering Scholarships"
         },
         {
           "t": "p",
@@ -352,123 +387,64 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Admission Process for Chemical Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Indian students can apply for a postgraduate Chemical Engineering program in the UK by following these steps.",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Indian students can apply for a postgraduate Chemical Engineering program in the UK by following these steps."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Look Up Courses and Universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Universities with postgraduate programs in Chemical Engineering, Advanced Chemical Engineering, Process Engineering and associated specializations are on the shortlist. Examine modules, length, costs, research facilities, and employment prospects."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Verify Your Academic Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify that your academic record, prior coursework, and bachelor's degree satisfy the university's standards for admission."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3 : Prepare the necessary documents"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather academic records, degree certificates, passports, resumes, statements of purpose, references, and, if necessary, the results of English language tests."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Send in Your Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Use the application process that the university specifies or the official application portal. Applications are accepted directly through university websites for the majority of postgraduate taught programs."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Get a Decision on Admission"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After reviewing your application, the institution may make an unconditional or conditional offer. Fulfill any unfulfilled academic or paperwork requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Make Accommodation and Funding Arrangements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for living expenditures, housing, tuition, and the financial documentation needed for your student visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7 : Applying for a UK student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Apply for a student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Go to the UK and Start Your Program"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Finish registering at the university, go to orientation, and start your postgraduate studies."
+            {
+              "step": 1,
+              "title": "Look Up Courses and Universities",
+              "desc": "Universities with postgraduate programs in Chemical Engineering, Advanced Chemical Engineering, Process Engineering and associated specializations are on the shortlist. Examine modules, length, costs, research facilities, and employment prospects."
+            },
+            {
+              "step": 2,
+              "title": "Verify Your Academic Eligibility",
+              "desc": "Verify that your academic record, prior coursework, and bachelor's degree satisfy the university's standards for admission."
+            },
+            {
+              "step": 3,
+              "title": "Prepare the necessary documents",
+              "desc": "Gather academic records, degree certificates, passports, resumes, statements of purpose, references, and, if necessary, the results of English language tests."
+            },
+            {
+              "step": 4,
+              "title": "Send in Your Application",
+              "desc": "Use the application process that the university specifies or the official application portal. Applications are accepted directly through university websites for the majority of postgraduate taught programs."
+            },
+            {
+              "step": 5,
+              "title": "Get a Decision on Admission",
+              "desc": "After reviewing your application, the institution may make an unconditional or conditional offer. Fulfill any unfulfilled academic or paperwork requirements."
+            },
+            {
+              "step": 6,
+              "title": "Make Accommodation and Funding Arrangements",
+              "desc": "Make plans for living expenditures, housing, tuition, and the financial documentation needed for your student visa application."
+            },
+            {
+              "step": 7,
+              "title": "Applying for a UK student visa.",
+              "desc": "Apply for a student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
+            },
+            {
+              "step": 8,
+              "title": "Go to the UK and Start Your Program",
+              "desc": "Finish registering at the university, go to orientation, and start your postgraduate studies."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "In the UK, Chemical Engineering Accreditation and Professional Recognition",
-      "eyebrow": "Course Guide",
+      "lead": "For graduates of Chemical Engineering who want to pursue a long-term career in process design, manufacturing, energy, pharmaceuticals, or industrial engineering, professional recognition can be beneficial.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For graduates of Chemical Engineering who want to pursue a long-term career in process design, manufacturing, energy, pharmaceuticals, or industrial engineering, professional recognition can be beneficial."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -505,15 +481,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for Chemical Engineers in the United Kingdom",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates of postgraduate chemical engineering programs might investigate employment prospects in manufacturing, pharmaceuticals, energy, chemicals, food processing, biotechnology, and environmental technologies.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates of postgraduate chemical engineering programs might investigate employment prospects in manufacturing, pharmaceuticals, energy, chemicals, food processing, biotechnology, and environmental technologies."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -536,9 +508,12 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "£28,000–£35,000 | Graduate or Entry-Level Engineer"
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "£28,000–£35,000",
+              "d": "Graduate or Entry-Level Engineer"
+            }
           ]
         },
         {
@@ -582,15 +557,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed",
-      "eyebrow": "Course Guide",
+      "lead": "For university admission and the ensuing visa procedure, Indian students need to have the following paperwork ready.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For university admission and the ensuing visa procedure, Indian students need to have the following paperwork ready."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -608,10 +579,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Applications"
-          ]
+          "t": "h4",
+          "text": "Documents for Applications"
         },
         {
           "t": "ul",
@@ -627,10 +596,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents related to finances and visas"
-          ]
+          "t": "h4",
+          "text": "Documents related to finances and visas"
         },
         {
           "t": "ul",
@@ -644,144 +611,8 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "In the UK, how long does it take to finish a masters degree in chemical engineering?",
-              "a": "The majority of master's programs that are taught full-time last a year. Depending on the university and program structure, research degrees and part-time master's programs may take longer."
-            },
-            {
-              "q": "After earning a bachelor's degree in India, are Indian students able to pursue postgraduate Chemical Engineering studies in the UK?",
-              "a": "Yes . If they fulfill the academic and English language requirements of the university, Indian students with a recognized bachelor's degree in Chemical Engineering or a similar field may apply."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "How much does a postgraduate Chemical Engineering degree in the UK cost?",
-      "eyebrow": "Tuition & Living",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For a one-year master's program, international tuition costs might vary from between £20,000 to £40,000 or more. The total budget is determined by the city, lifestyle, and university. Living expenditures are extra."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "4. Does postgraduate Chemical Engineering in the UK require taking the IELTS?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Not all the time. While some colleges may accept alternative proof or provide exemptions, many others need IELTS Academic or another recognized English-language qualification. Candidates should verify the prerequisites of the curriculum they have selected."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "What kinds of jobs are accessible in the UK after obtaining a masters degree in Chemical Engineering?",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Chemical engineers, process engineers, process design engineers, pharmaceutical process engineers, energy engineers, environmental engineers, and research and development engineers are among the professions that graduates can pursue. Technical proficiency, experience, corporate demands, and professional recognition all influence opportunities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students may choose appropriate colleges, comprehend entrance standards, organize application materials, and arrange their study abroad experience with the assistance of Edu Hawk worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Birmingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Birmingham_University.webp"
-    },
-    {
-      "name": "Leeds University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Leeds_University.webp"
-    },
-    {
-      "name": "Nottingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Nottingham_University.webp"
-    },
-    {
-      "name": "Sheffield University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Sheffield_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying MSc Chemical Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
       "q": "In the UK, how long does it take to finish a masters degree in chemical engineering?",
@@ -790,6 +621,27 @@
     {
       "q": "After earning a bachelor's degree in India, are Indian students able to pursue postgraduate Chemical Engineering studies in the UK?",
       "a": "Yes . If they fulfill the academic and English language requirements of the university, Indian students with a recognized bachelor's degree in Chemical Engineering or a similar field may apply."
+    },
+    {
+      "q": "How much does a postgraduate Chemical Engineering degree in the UK cost?",
+      "a": "For a one-year master's program, international tuition costs might vary from between £20,000 to £40,000 or more. The total budget is determined by the city, lifestyle, and university. Living expenditures are extra."
+    },
+    {
+      "q": "Does postgraduate Chemical Engineering in the UK require taking the IELTS?",
+      "a": "Not all the time. While some colleges may accept alternative proof or provide exemptions, many others need IELTS Academic or another recognized English-language qualification. Candidates should verify the prerequisites of the curriculum they have selected."
+    },
+    {
+      "q": "What kinds of jobs are accessible in the UK after obtaining a masters degree in Chemical Engineering?",
+      "a": "Chemical engineers, process engineers, process design engineers, pharmaceutical process engineers, energy engineers, environmental engineers, and research and development engineers are among the professions that graduates can pursue. Technical proficiency, experience, corporate demands, and professional recognition all influence opportunities."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may choose appropriate colleges, comprehend entrance standards, organize application materials, and arrange their study abroad experience with the assistance of Edu Hawk worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Chemical Engineering (PG) in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "Students pursuing postgraduate studies in Chemical Engineering frequently choose to study in the United Kingdom. Advanced courses incorporating chemical process",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

@@ -1,71 +1,139 @@
 {
-  "seo": {
-    "title": "Study Civil Engineering (PG) in Ireland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Civil Engineering (PG) in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G)."
-  },
   "hero": {
-    "badge": "Study Abroad - Ireland",
-    "title": "CIVIL ENGINEERING POSTGRADUATE IN IRELAND",
-    "subtitle": "Civil Engineering Postgraduate in Ireland"
+    "title": "Civil Engineering Postgraduate in Ireland",
+    "subtitle": "\\\\Postgraduate study in Civil Engineering\\\\ is for graduates who wish to further their knowledge of \\\\infrastructure, structural systems, construction, transport and sustainable development\\."
   },
   "overview": [
-    "Civil Engineering Postgraduate in Ireland"
+    "\\\\Postgraduate study in Civil Engineering\\\\ is for graduates who wish to further their knowledge of \\\\infrastructure, structural systems, construction, transport and sustainable development\\.",
+    "Ireland has \\\\master's level courses\\\\ that mix specialist engineering study with design, research and practical applications.",
+    "\\\\Specialist learning:\\\\ Develop expertise in \\\\structural engineering, geotechnics, transportation, environmental engineering or construction\\\\"
+  ],
+  "universities": [
+    {
+      "name": "University of Galway",
+      "location": "Galway, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "desc": "The university offers \\\\MSc and ME programmes\\\\ separately. Compare the entry requirements and course structure before deciding which award suits your background."
+    },
+    {
+      "name": "Trinity College Dublin",
+      "location": "Dublin, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "Trinity is worth a look if you want to specialize rather than study a broad \\\\civil engineering curriculum\\."
+    },
+    {
+      "name": "University College Cork (UCC)",
+      "location": "Cork, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "desc": "UCC is an institution for investigating the study related to Civil, Structural and Environmental Engineering."
+    }
   ],
   "sections": [
     {
-      "title": "1. Why Study PG in Civil Engineering in Ireland?",
-      "eyebrow": "Why Study in Ireland",
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Study PG in Civil Engineering in Ireland?",
+      "lead": "\\\\Postgraduate study in Civil Engineering\\\\ is for graduates who wish to further their knowledge of \\\\infrastructure, structural systems, construction, transport and sustainable development\\.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Postgraduate study in Civil Engineering is for graduates who wish to further their knowledge of infrastructure, structural systems, construction, transport and sustainable development.",
-            "Ireland has master’s level courses that mix specialist engineering study with design, research and practical applications.",
-            "Some of the main reasons to consider Ireland are:"
+            "Ireland has \\\\master's level courses\\\\ that mix specialist engineering study with design, research and practical applications."
           ]
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "Specialist learning: Develop expertise in structural engineering, geotechnics, transportation, environmental engineering or construction",
-            "Infrastructure and sustainability: Explore resilient structures, sustainable construction, water systems and low carbon infrastructure.",
-            "Research and projects: A lot of programs include technical assignments and a dissertation or a major engineering project.",
-            "Career flexibility: Graduates can expect to find roles in consulting, construction, transport, infrastructure, project delivery and research.",
-            "International experience: Experience studying engineering in a English speaking European country. -",
-            "Further study: A master’s may provide a path to a PhD or specialist research"
+            "\\\\Some of the main reasons to consider Ireland are: \\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Specialist learning:\\\\ Develop expertise in \\\\structural engineering, geotechnics, transportation, environmental engineering or construction\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Infrastructure and sustainability:\\\\ Explore \\\\resilient structures, sustainable construction, water systems and low carbon infrastructure\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Research and projects:\\\\ A lot of programs include technical assignments and a \\\\dissertation or a major engineering project\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Career flexibility:\\\\ Graduates can expect to find roles in \\\\consulting, construction, transport, infrastructure, project delivery and research\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International experience:\\\\ Experience studying engineering in a \\\\English speaking European country\\. -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further study:\\\\ A master's may provide a path to a \\\\PhD or specialist research\\\\"
           ]
         }
       ]
     },
     {
-      "title": "2. Post Graduate Civil Engineering Ireland",
-      "eyebrow": "Degrees & Programs",
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Post Graduate Civil Engineering Ireland",
+      "lead": "Most postgraduate civil engineering programs in Ireland are one year full time, although the length and award of the course vary.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Most postgraduate civil engineering programs in Ireland are one year full time, although the length and award of the course vary.",
-            "MSc Civil Engineering* - Advanced technical modules, research and dissertation."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "ME/MEng Civil Engineering- Advanced engineering practice, design and specialist study"
+            "MSc Civil Engineering\\\\ - Advanced technical modules, research and dissertation."
           ]
         },
         {
           "t": "p",
           "items": [
-            "MEng in Structural and Geotechnical Engineering* - Structural analysis, foundations and ground engineering"
+            "\\\\ME/MEng Civil Engineering\\- Advanced engineering practice, design and specialist study"
           ]
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "MEng in Transportation Engineering - Transport planning, infrastructure and mobility systems",
-            "Master's by research - Research in a discipline of civil engineering",
-            "PhD Civil Engineering \\| Original research and advanced technical development"
+            "MEng in Structural and Geotechnical Engineering\\\\ - Structural analysis, foundations and ground engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\MEng in Transportation Engineering\\\\ - Transport planning, infrastructure and mobility systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's by research - Research in a discipline of civil engineering"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "PhD Civil Engineering \\",
+              "d": "Original research and advanced technical development"
+            }
           ]
         },
         {
@@ -75,270 +143,677 @@
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Structural Engineering",
-            "Geotechnical Engineer",
-            "TRANSPORTATION ENGINEERING",
-            "Civil Engineering & Management",
-            "Environmental and Water Engineering",
-            "Sustainable Infrastructure",
-            "Design of Bridges and Infrastructure",
-            "Asset and Project Management",
-            "Structural Analysis and Computational Modelling"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "3. Top Universities for Civil Engineering PG in Ireland",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            "Trinity College Dublin",
-            "Trinity College Dublin",
-            "Trinity College Dublin"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "4. Eligibility for Civil Engineering PG in Ireland",
-      "eyebrow": "Admissions Criteria",
-      "groups": [
-        {
           "t": "p",
           "items": [
-            "For the majority of the master's programs in Civil Engineering, a recognized bachelor's degree in Civil Engineering or a similar field is necessary.",
-            "Typical eligibility criteria are:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A BE, BTech or equivalent bachelor's degree.",
-            "An appropriate academic award (normally equivalent to an Irish honors degree classification).",
-            "Relevant previous study in structural analysis, mechanics, materials, geotechnics, fluid mechanics or other civil engineering disciplines.",
-            "English language skills as required. - Other requirements specific to the course"
+            "\\\\Structural Engineering\\\\"
           ]
         },
         {
           "t": "p",
           "items": [
-            "As an Indian student, eligibility",
-            "Bachelor's degree",
-            "University recognition",
-            "CGPA or percentage",
-            "Subject content and overall academic background are the common criteria to assess Indian applicants."
+            "\\\\Geotechnical Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\TRANSPORTATION ENGINEERING\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil Engineering & Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Environmental and Water Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Sustainable Infrastructure\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Design of Bridges and Infrastructure\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Asset and Project Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Structural Analysis and Computational Modelling\\\\"
           ]
         }
       ]
     },
     {
-      "title": "5. Civil Engineering PG Admission Requirements in Ireland",
-      "eyebrow": "Entry Requirements",
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Top Universities for Civil Engineering PG in Ireland",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "University of Galway",
+          "location": "Galway, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "desc": "The university offers \\\\MSc and ME programmes\\\\ separately. Compare the entry requirements and course structure before deciding which award suits your background."
+        },
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "Trinity is worth a look if you want to specialize rather than study a broad \\\\civil engineering curriculum\\."
+        },
+        {
+          "name": "University College Cork (UCC)",
+          "location": "Cork, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "desc": "UCC is an institution for investigating the study related to Civil, Structural and Environmental Engineering."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility for Civil Engineering PG in Ireland",
+      "lead": "For the majority of the master's programs in Civil Engineering, a recognized bachelor's degree in Civil Engineering or a similar field is necessary.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "Typical eligibility criteria are:"
+        },
         {
           "t": "p",
           "items": [
-            "Academic Requirements"
+            "A \\\\BE, BTech or equivalent bachelor's degree\\."
           ]
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "Universities may require:",
-            "Bachelor degree certificate or provisional certificate.",
-            "Final transcripts for all semesters/years.",
-            "Details of CGPA or percentage and grading scale, if asked.",
-            "Proof of relevant civil engineering modules.",
+            "An appropriate academic award (normally equivalent to an Irish honors degree classification)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant previous study in \\\\structural analysis, mechanics, materials, geotechnics, fluid mechanics\\\\ or other civil engineering disciplines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English language skills\\\\ as required. - Other requirements specific to the course"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "As an Indian student, eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University recognition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CGPA or percentage"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subject content and overall academic background\\\\ are the common criteria to assess Indian applicants."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Civil Engineering PG Admission Requirements in Ireland",
+      "lead": "",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Academic Requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities may require:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor degree certificate or provisional certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Final transcripts for all semesters/years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Details of CGPA or percentage and grading scale, if asked."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of relevant civil engineering modules."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Details of final year projects, internships or employment, if applicable."
           ]
         },
         {
           "t": "p",
           "items": [
-            "English language prerequisites",
-            "International applicants may be required to present IELTS Academic, TOEFL iBT, PTE Academic or an alternative accepted qualification.",
-            "The usual benchmark for postgraduate study is an overall IELTS score of around 6.5 , but the overall and individual component scores required vary between universities. Certain institutional policies might provide exemptions.",
-            "Other requirements",
-            "You may also need, depending on the course:",
-            "Personal statement or statement of purpose*."
+            "English language prerequisites"
           ]
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "References to academic or professional literature.",
-            "Résumé or curriculum vitae.",
-            "Details of technical projects or work experience Research proposals for research-based study.",
+            "International applicants may be required to present \\\\IELTS Academic, TOEFL iBT, PTE Academic\\\\ or an alternative accepted qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The usual benchmark for postgraduate study is an overall IELTS score of around \\\\ 6.5 \\\\ , but the overall and individual component scores required vary between universities. Certain institutional policies might provide exemptions."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Other requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "You may also need, depending on the course:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal statement or statement of purpose\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "References to academic or professional literature."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Résumé or curriculum vitae."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Details of technical projects or work experience Research proposals for research-based study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Application fee payment."
           ]
         }
       ]
     },
     {
-      "title": "6. Cost of studying Civil Engineering PG in Ireland",
+      "slot": "tuition",
       "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of studying Civil Engineering PG in Ireland",
+      "lead": "The total cost includes \\\\tuition, accommodation, meals, travel, insurance and personal expenses\\.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "The total cost includes tuition, accommodation, meals, travel, insurance and personal expenses.",
-            "Estimated annual cost",
-            "Tuition fees* \\| €25,000–€30,000+"
+            "Estimated annual cost\\\\"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Accommodation \\| €7,000-€14,000",
-            "Food & Groceries \\| €2,500 - €4,000",
-            "Transport \\| €600–€1,200",
-            "Books, insurance and personal expenses \\| €1,000–€2,500"
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Tuition fees\\\\ \\",
+              "d": "€25,000–€30,000+"
+            },
+            {
+              "t": "Accommodation \\",
+              "d": "€7,000-€14,000"
+            },
+            {
+              "t": "Food & Groceries \\",
+              "d": "€2,500 - €4,000"
+            },
+            {
+              "t": "Transport \\",
+              "d": "€600–€1,200"
+            },
+            {
+              "t": "Books, insurance and personal expenses \\",
+              "d": "€1,000–€2,500"
+            }
           ]
         },
         {
           "t": "p",
           "items": [
-            "Estimated total \\| €36,100–€51,700+ \\|",
+            "Estimated total\\\\ \\| \\\\€36,100–€51,700+\\\\ \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "These are estimated figures not guaranteed costs. Housing in Dublin can be expensive, actual costs vary with availability and lifestyle."
           ]
         }
       ]
     },
     {
-      "title": "7. Procedure for Admission in Postgraduate Civil Engineering in Ireland",
-      "eyebrow": "Application Steps",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Procedure for Admission in Postgraduate Civil Engineering in Ireland",
+      "lead": "International applicants can generally take these steps:",
       "groups": [
         {
-          "t": "steps",
+          "t": "p",
           "items": [
-            "01. International applicants can generally take these steps: "
+            "1. \\\\Select your specialism:\\\\ Do you want to study \\\\structural design, geotechnics, transport, construction or environmental engineering\\\\?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist programmes:\\\\ Compare modules, duration, fees, location, and accreditation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check eligibility:\\\\ Confirm that your bachelor's degree and grades fulfill the course's requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Prepare documents:\\\\ Prepare transcripts, degree certificates, passport details, CV and English language results where required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Apply online:\\\\ Submit your application via the university's official \\\\postgraduate admissions portal\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Pay any application fee\\\\: Follow the instructions of the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Respond to requests:\\\\ If asked, provide additional information or verified documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Accept your offer:\\\\ Check conditions, deposit and payment deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Funding and accommodation:\\\\ Work out the total cost and find somewhere suitable to stay."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10. \\\\Complete immigration formalities:\\\\ Check the current \\\\Irish student immigration rules\\\\ applicable to you."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "11. \\\\University Registration:\\\\ Complete your enrollment before the start of the program."
           ]
         }
       ]
     },
     {
-      "title": "8. Accept your offer: Check conditions, deposit and payment deadlines.",
+      "slot": "scope",
       "eyebrow": "Accreditation & Recognition",
+      "title": "Civil Engineering Accreditation and Recognition in Ireland",
+      "lead": "If you are aiming to work toward \\\\professional engineering recognition\\\\, then accreditation is a very important factor to consider.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
+            "In Ireland, eligible engineering programs are accredited against professional education standards by \\\\Engineers Ireland\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "However, accreditation is dependent on the particular course, award and year of graduation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before you apply :"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the \\\\accreditation status\\\\ of the award and program concerned."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "See what graduation years are included."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check if your undergraduate degree meets the academic prerequisites for the career path you want."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Know the difference between \\\\a taught master's, a research qualification and an accredited professional engineering programme\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Look into other professional requirements in the country you want to work in."
           ]
         }
       ]
     },
     {
-      "title": "9. Funding and accommodation: Work out the total cost and find somewhere suitable to stay.",
-      "eyebrow": "Career Outcomes",
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Jobs after Civil Engineering PG in Ireland",
+      "lead": "Graduates in \\\\civil engineering\\\\ can work in \\\\infrastructure design, construction, consulting, transport, environmental engineering and project delivery\\.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Detailed information on Career Outcomes will be provided during personalized counseling with Edu-Hawk Worldwide."
+            "Real opportunities depend on experience, technical skills, employer requirements and market conditions."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Possible career options -"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Structural Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Geotechnical Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Site Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transportation Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Water or Environmental Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "BIM Engineer or Coordinator"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Project Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Construction Project Manager"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INDICATIVE GROSS ANNUAL SALARY RANGES"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Entry level / Graduate \\",
+              "d": "€32,000-€42,000"
+            },
+            {
+              "t": "Experienced Engineers \\",
+              "d": "€42,000-€65,000"
+            },
+            {
+              "t": "Senior / specialist engineers \\",
+              "d": "€65,000-€85,000+"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are rough numbers for planning purposes, not official salary ranges or guaranties. Salaries vary between employers, locations, specializations, experience and responsibilities. Some design, project management and site-based jobs have different pay structures."
           ]
         }
       ]
     },
     {
-      "title": "10. Complete immigration formalities: Check the current Irish student immigration rules applicable to you.",
-      "eyebrow": "Document Checklist",
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents required for Civil Engineering PG in Ireland",
+      "lead": "The exact documents you'll need will depend on the university and the program. Documents frequently requested include:",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Detailed information on Document Checklist will be provided during personalized counseling with Edu-Hawk Worldwide."
+            "Valid Passport."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate of Bachelor's degree or provisional certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official transcripts for all the semesters or years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Explanation of CGPA or grading scale if requested. -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English-language test scores\\\\ as needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An up-to-date CV or résumé."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Purpose statement or personal statement\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "References scholarly or professional."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Details of relevant \\\\work experience/internships/projects\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research proposal for research-based programs, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of payment of application fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certified translations of documents that are not issued in an accepted language."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Proof of financial means and health insurance\\\\ for immigration purposes where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "11 FAQs"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "How long is a Master's in Civil Engineering in Ireland?",
+      "lead": "Many full-time \\\\taught masters programs are one year long\\. Some program structures (including research degrees) may take longer. Refer to the exact course page for its duration.",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Can I get admission with a BTech in Civil Engineering from India?",
+      "lead": "Yes, a recognized \\\\BE or BTech in Civil Engineering\\\\ is a common qualification for these programs. Admission is subject to the academic requirements of the university, grades and subject content and English-language conditions.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "What is the PG in Civil Engineering cost in Ireland?",
+      "lead": "University of Galway lists \\\\€28,640\\\\ for its MSc and ME Civil Engineering programs for \\\\2026/27\\\\, while Trinity College Dublin lists \\\\€27,780\\\\ for its Structural and Geotechnical Engineering and Transportation Engineering master's routes. Additional living expenses are extra.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "How can Edu Hawk worldwide Consultancy help me to study overseas?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Edu Hawk worldwide\\\\ can help students to find suitable universities, understand \\\\admission requirements\\\\, organize application documents and plan their \\\\study-abroad journey\\. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
           ]
         }
       ]
     }
   ],
-  "universities": [
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "2\\. Trinity College, Dublin",
-      "imgFile": "Trinity_College_Dublin.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "2\\. Trinity College, Dublin",
-      "imgFile": "Trinity_College_Dublin_2.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "2\\. Trinity College, Dublin",
-      "imgFile": "Trinity_College_Dublin_3.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Civil Engineering (PG) in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
-  "faqs": [
-    {
-      "q": "1\\. Postgraduate Civil Engineering in Ireland is offered by which universities?",
-      "a": "8\\. Civil Engineering Accreditation and Recognition in Ireland If you are aiming to work toward professional engineering recognition, then accreditation is a very important factor to consider. In Ireland, eligible engineering programs are accredited against professional education standards by Engineers Ireland. However, accreditation is dependent on the particular course, award and year of graduation. Before you apply : * Check the accreditation status of the award and program concerned. * See what graduation years are included. * Check if your undergraduate degree meets the academic prerequisites for the career path you want. * Know the difference between a taught master’s, a research qualification and an accredited professional engineering programme. * Look into other professional requirements in the country you want to work in. 9\\. Salary and Jobs after Civil Engineering PG in Ireland Graduates in civil engineering can work in infrastructure design, construction, consulting, transport, environmental engineering and project delivery. Real opportunities depend on experience, technical skills, employer requirements and market conditions. Possible career options - * Civil Engineer * Structural Engineer * Geotechnical Engineer * Site Engineer * Transportation Engineer * Water or Environmental Engineer * BIM Engineer or Coordinator * Project Engineer * Construction Project Manager INDICATIVE GROSS ANNUAL SALARY RANGES Entry level / Graduate \\| €32,000-€42,000 Experienced Engineers \\| €42,000-€65,000 Senior / specialist engineers \\| €65,000-€85,000+ These are rough numbers for planning purposes, not official salary ranges or guaranties. Salaries vary between employers, locations, specializations, experience and responsibilities. Some design, project management and site-based jobs have different pay structures. 10\\. Documents required for Civil Engineering PG in Ireland The exact documents you’ll need will depend on the university and the program. Documents frequently requested include: * Valid Passport. * Certificate of Bachelor’s degree or provisional certificate. * Official transcripts for all the semesters or years. * Explanation of CGPA or grading scale if requested. - * English-language test scores as needed. * An up-to-date CV or résumé. Purpose statement or personal statement * References scholarly or professional. * Details of relevant work experience/internships/projects * Research proposal for research-based programs, if applicable. * Proof of payment of application fee. * Certified translations of documents that are not issued in an accepted language. * Proof of financial means and health insurance for immigration purposes where applicable. 11 FAQs University of Galway has MSc and ME in Civil Engineering. Trinity College Dublin offers postgraduate courses in Structural and Geotechnical Engineering and Transportation Engineering. Other universities may have similar programs in infrastructure, construction or environmental engineering."
-    },
-    {
-      "q": "2\\. How long is a Master’s in Civil Engineering in Ireland?",
-      "a": "Many full-time taught masters programs are one year long. Some program structures (including research degrees) may take longer. Refer to the exact course page for its duration."
-    },
-    {
-      "q": "3\\. Can I get admission with a BTech in Civil Engineering from India?",
-      "a": "Yes, a recognized BE or BTech in Civil Engineering is a common qualification for these programs. Admission is subject to the academic requirements of the university, grades and subject content and English-language conditions."
-    },
-    {
-      "q": "4\\. What is the PG in Civil Engineering cost in Ireland?",
-      "a": "University of Galway lists €28,640 for its MSc and ME Civil Engineering programs for 2026/27, while Trinity College Dublin lists €27,780 for its Structural and Geotechnical Engineering and Transportation Engineering master’s routes. Additional living expenses are extra."
-    },
-    {
-      "q": "How can Edu Hawk worldwide Consultancy help me to study overseas?",
-      "a": "Edu Hawk worldwide can help students to find suitable universities, understand admission requirements, organize application documents and plan their study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
-    }
-  ]
+  "faqs": [],
+  "seo": {
+    "title": "Civil Engineering Postgraduate in Ireland | Edu-Hawk Worldwide",
+    "description": "\\\\Postgraduate study in Civil Engineering\\\\ is for graduates who wish to further their knowledge of \\\\infrastructure, structural systems, construction, transpor",
+    "keywords": "Study Civil Engineering PG in Ireland for Indian Students, Top Universities for Civil Engineering Master's in Ireland, MSc Civil Engineering Courses in Ireland, ME Civil Engineering Programmes in Ireland, Postgraduate Civil Engineering Specialisations in Ireland, Civil Engineering PG Eligibility Requirements in Ireland, Admission Requirements for Civil Engineering Master's in Ireland, IELTS Requirements for Civil Engineering PG in Ireland, Civil Engineering PG Tuition Fees in Ireland for International Students, Cost of Living for Civil Engineering Students in Ireland, Civil Engineering Master's Fees in Ireland 2026/27, Structural and Geotechnical Engineering Master's in Ireland, Transportation Engineering Postgraduate Courses in Ireland, Engineers Ireland Accredited Civil Engineering Programmes, Civil Engineering Jobs and Salary After Master's in Ireland, <"
+  }
 }

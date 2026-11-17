@@ -1,0 +1,121 @@
+{
+  "id": "duolingo",
+  "name": "Duolingo English Test (DET)",
+  "shortName": "Duolingo (DET)",
+  "category": "English Online Exam",
+  "badge": "Fast Online At-Home Assessment",
+  "seo": {
+    "title": "Duolingo English Test (DET) for Study Abroad: Fees, Scoring, Validity & Registration | EduHawk Worldwide",
+    "description": "Comprehensive guide to the Duolingo English Test (DET) for international university admissions. Discover the 10–160 computer-adaptive scoring scale, 48-hour result delivery, eligibility, at-home setup, and registration steps.",
+    "keywords": "Duolingo English Test, DET for study abroad, Duolingo test scoring 10-160, Duolingo test fee India, DET registration, Duolingo test validity 2 years, Duolingo at home, accepted universities Duolingo"
+  },
+  "hero": {
+    "badge": "Fast Online At-Home Assessment",
+    "heroPara": "The Duolingo English Test (DET) is an innovative, computer-adaptive online English proficiency examination that qualified candidates can take from home on a computer with an internet connection, accepted by over 5,000 university programs globally."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "1 Hour (60 Minutes)"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "10 to 160 (5-point increments)"
+    },
+    {
+      "label": "Delivery Mode",
+      "value": "100% Online from Home"
+    },
+    {
+      "label": "Result Turnaround",
+      "value": "Certified within 48 Hours"
+    },
+    {
+      "label": "Score Validity",
+      "value": "2 Years from Test Date"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "US $59 (~₹4,900) / 2 Tests for $98"
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Australia",
+    "Germany",
+    "Ireland",
+    "France",
+    "Spain",
+    "Italy",
+    "Finland"
+  ],
+  "overview": [
+    "The Duolingo English Test (DET) has emerged as an accessible and fast alternative to traditional testing center exams, designed by Duolingo to evaluate real-world academic English.",
+    "The test uses computer-adaptive technology: the difficulty of subsequent questions adjusts dynamically based on the test taker's performance in previous questions.",
+    "Upon completion, the exam undergoes a rigorous human and AI proctoring verification process before official certified results and a video interview snippet are made available to universities."
+  ],
+  "skillsAssessed": [
+    {
+      "skill": "Reading",
+      "desc": "Recognizing vocabulary, reading academic passages, filling missing letters in text, and evaluating reading comprehension."
+    },
+    {
+      "skill": "Writing",
+      "desc": "Expressing ideas clearly in structured essays, describing visual imagery, and responding to academic conversation prompts."
+    },
+    {
+      "skill": "Listening",
+      "desc": "Understanding spoken English across short audio cues, transcribing spoken sentences, and identifying real English words."
+    },
+    {
+      "skill": "Speaking",
+      "desc": "Reading sentences aloud, speaking spontaneously on designated topic cards, and articulating opinions during the recorded interview."
+    }
+  ],
+  "eligibilityCriteria": [
+    "The Duolingo English Test is open to anyone who satisfies the provider's registration, identification, and technical testing requirements.",
+    "Indian students commonly take the DET for: Undergraduate degree programs; Master's and postgraduate diploma admissions; PhD programs; and international exchange and scholarship pathways."
+  ],
+  "scoringSystem": "DET results are reported on a scale of 10 to 160 in 5-point increments. Subscores are also provided across four composite subscores: Literacy (Reading & Writing), Comprehension (Reading & Listening), Conversation (Listening & Speaking), and Production (Writing & Speaking). A score of 120–135+ is generally considered competitive for top universities.",
+  "registrationSteps": [
+    "Visit the official Duolingo English Test website (englishtest.duolingo.com).",
+    "Create an account using an active email address and valid personal details.",
+    "Read through the official hardware, camera, microphone, identification, and test-day security guidelines.",
+    "Purchase the test credit securely online using a credit/debit card or supported digital payment method.",
+    "Set up your testing environment: ensure a quiet, private room with front lighting, unobstructed background, and no external interruptions.",
+    "Launch the test using the official desktop application, keeping your front-facing camera, microphone, and speakers active.",
+    "Wait for certification: the proctoring team verifies your session recording within 48 hours.",
+    "Send certified scores instantly to an unlimited number of participating universities at zero extra charge."
+  ],
+  "validityDetails": "Certified DET results are delivered within 48 hours and remain valid for two years from the test date. Score submission to universities is free and completed directly through the Duolingo dashboard.",
+  "faqs": [
+    {
+      "q": "What is the Duolingo English Test used for?",
+      "a": "The Duolingo English Test is an accepted English proficiency credential used by thousands of universities worldwide for undergraduate and postgraduate admissions."
+    },
+    {
+      "q": "What is the cost of the Duolingo English Test in India?",
+      "a": "The single test fee is approximately US $59 (around ₹4,900), with a two-test bundle option available at $98. Always verify current exchange rates and taxes on the official website."
+    },
+    {
+      "q": "Do foreign universities accept the Duolingo English Test?",
+      "a": "Yes, over 5,000 university programs globally accept DET scores, including prestigious institutions in the USA, UK, Ireland, Germany, and Canada. Always verify your specific department's policy."
+    },
+    {
+      "q": "How long does the Duolingo English Test result remain valid?",
+      "a": "DET results are valid for two years from the examination date."
+    },
+    {
+      "q": "Am I allowed to take the Duolingo English Test at home?",
+      "a": "Yes. The exam is 100% remote and completed from home provided you comply with technical, environmental, identity, and proctoring rules (e.g. no headphones, no looking away from screen, private room)."
+    }
+  ],
+  "countryContexts": {
+    "usa": "In the United States, over 3,000 universities and colleges accept DET, with typical competitive cutoffs ranging from 115 to 135.",
+    "ireland": "In Ireland, major universities and institutes of technology accept DET with minimum cutoffs of 110 to 125.",
+    "germany": "In Germany, select private universities and international business schools accept DET for English-taught bachelor's and master's degrees.",
+    "uk": "In the UK, many universities accept DET for degree-level admission, though applicants must confirm CAS and student visa compatibility."
+  }
+}

@@ -1,57 +1,85 @@
 {
   "seo": {
-    "title": "MBBS in Belarus for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Belarus. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Belarus 2026-27 | Admissions, Fees & Universities | Edu Hawk",
+    "description": "Explore MBBS in Belarus for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs.",
+    "keywords": "mbbs in belarus, belarus mbbs fees, study mbbs belarus, belarus medical universities"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Belarus",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Belarus.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN BELARUS",
+    "subtitle": "Explore MBBS Opportunities in Belarus 2026–2027. High European educational standards, robust medical infrastructure, and safe environment.",
+    "image": "/uploads/colleges/belarus_flag.svg",
+    "ctaText": "Apply for Belarus MBBS"
   },
+  "flag": "/uploads/colleges/belarus_flag.svg",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "6 Years",
+      "l": "Course Duration"
     },
     {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "₹3.5L",
+      "l": "Starting Annual Tuition"
     },
     {
       "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "Government Universities"
+    },
+    {
+      "n": "English",
+      "l": "Language of Instruction"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MD / MBBS",
+    "duration": "6 Years",
+    "fee": "₹22 - ₹30 Lakhs Total Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Belarus offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Belarus provides world-class medical training in European state universities. The curriculum is heavily focused on hands-on practical patient diagnostics in affiliated regional teaching hospitals.",
+  "universitiesHeading": "Top Medical Universities in Belarus",
   "universities": [
     {
-      "name": "Top State Medical University (Belarus)",
-      "location": "Belarus",
+      "name": "Belarusian State Medical University",
+      "location": "Minsk, Belarus",
+      "fee": "₹4.2 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/BSMI2020.jpg",
+      "desc": "Premier state medical university situated in the capital city of Minsk."
+    },
+    {
+      "name": "Gomel State Medical University",
+      "location": "Gomel, Belarus",
+      "fee": "₹3.8 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Gomel_State_Medical_University.jpg",
+      "desc": "Highly recognized state medical academy with state-of-the-art diagnostic labs."
+    },
+    {
+      "name": "Vitebsk State Medical University",
+      "location": "Vitebsk, Belarus",
+      "fee": "₹3.6 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/%D0%92%D0%93%D0%9C%D0%A3_%28%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA%29_-_%D0%9B%D0%A2%D0%9A.jpg",
+      "desc": "Pioneer in training international students with 40+ years of English teaching expertise."
+    },
+    {
+      "name": "Grodno State Medical University",
+      "location": "Grodno, Belarus",
       "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "image": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Grodno_State_Medical_University.jpg",
+      "desc": "Modern medical institution near European borders with extensive surgical facilities."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Belarus?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "Is Belarus safe for Indian students?",
+      "answer": "Yes, Belarus is rated among the safest countries in Europe with strict campus security and dedicated international hostels."
     },
     {
-      "question": "Is the degree from Belarus valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "Is NEET compulsory for Belarus?",
+      "answer": "Yes, NEET qualification is required by NMC to validate foreign medical degrees in India."
     }
   ]
 }

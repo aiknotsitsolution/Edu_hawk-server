@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/nursing.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/Nursing/nursing_finland_hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/Nursing/nursing_finland_hero_bg.webp";
 import clinicalImg from "../../../../Images/Abroad/Finland/Nursing/nursing_finland_clinical.webp";
@@ -452,7 +453,7 @@ const page = {
 const NursingFinland = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       sideImg={sideImg}
       heroBgImg={heroBgImg}

@@ -1,14 +1,27 @@
 {
   "seo": {
     "title": "BBS in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study BBS in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study BBS in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Study BBS in Canada for Indian Students",
+      "Bachelor of Business Studies in Canada for International Students",
+      "Best Universities for Undergraduate Business Studies in Canada",
+      "BBS Equivalent Courses in Canada After Class 12",
+      "BBS Eligibility in Canada for Indian Students",
+      "Business Degree Admission Requirements in Canada",
+      "Undergraduate Business Courses Fees in Canada",
+      "Business Scholarships in Canada for International Students",
+      "Career Opportunities After Business Studies in Canada",
+      "Business Graduate Jobs in Canada for International Students",
+      "Canadian Study Permit Requirements for Undergraduate Business Students"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "BBS for Indian Students in Canada",
-    "subtitle": "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS).",
+    "subtitle": "BBS for Indian Students in Canada",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_bbs_Carleton_University-image2.png"
   },
   "stats": [
     {
@@ -35,57 +48,883 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS).\n\nThe Edu Hawk worldwide consultancy helps students understand university entrance requirements, investigate **international study options**, and prepare for the overseas education journey.\n\n1. A thorough understanding of business\n\nStudents gain knowledge of how companies run, handle resources, provide customer service, and make strategic choices.\n\n2. The Basis of Management\n\nOrganizational structures, leadership concepts, planning, collaboration, and decision-making are all introduced to students in business studies.\n\n3. Analytical and Financial Skills\n\nAccounting, economics, finance, and statistics are among the subjects that aid students in comprehending financial data and evaluating the success of businesses.\n\n4. Communication and Marketing Skills\n\nStudents gain knowledge of sales, market research, business communication, customer behavior, and promotional tactics.\n\n5. Practical Education\n\nStudents may take part in case studies, group projects, presentations, simulations, and applicable tasks, depending on the curriculum.\n\n6. A Global Viewpoint\n\nStudents can be exposed to various business methods and global viewpoints by studying in Canada's multicultural academic environment.\n\n7. Getting Ready for Work\n\nA business undergraduate degree in Canada can serve as a starting point for entry-level positions in finance support, operations, sales, marketing, administration, and related fields.\n\n8. Opportunities for Additional Study\n\nDepending on entrance requirements, graduates may pursue postgraduate studies in management, finance, marketing, business analytics, or other subjects.\n\n9. Development of Entrepreneurship\n\nStudents who study business can learn how to assess company concepts, investigate markets, create budgets, and formulate business plans.",
+  "overview": [
+    "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS).",
+    "The Edu Hawk worldwide consultancy helps students understand university entrance requirements, investigate international study options, and prepare for the overseas education journey.",
+    "Students gain knowledge of how companies run, handle resources, provide customer service, and make strategic choices."
+  ],
   "universities": [
-    {
-      "name": "Toronto Metropolitan University",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
     {
       "name": "Carleton University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Ottawa University",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_bbs_Carleton_University-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_bbs_Carleton_University-image2.png",
+      "desc": "Carleton University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "Manitoba University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_bbs_Manitoba_University-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_bbs_Manitoba_University-image4.png",
+      "desc": "Manitoba University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "Ottawa University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_bbs_Ottawa_University-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_bbs_Ottawa_University-image3.png",
+      "desc": "Ottawa University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "Toronto Metropolitan University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_bbs_Toronto_Metropolitan_University-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_bbs_Toronto_Metropolitan_University-image1.png",
+      "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Come to Canada to Study BBS?",
+      "lead": "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS).",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The Edu Hawk worldwide consultancy helps students understand university entrance requirements, investigate international study options, and prepare for the overseas education journey."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Key Advantages of Studying Business in Canada"
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "A thorough understanding of business",
+      "lead": "Students gain knowledge of how companies run, handle resources, provide customer service, and make strategic choices.",
+      "groups": []
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Top Universities to Consider in Canada",
+      "lead": "Explore the leading universities and institutions in Canada offering accredited programs, modern campuses, and strong international student support.",
+      "unis": [
+        {
+          "name": "Carleton University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_bbs_Carleton_University-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_bbs_Carleton_University-image2.png",
+          "desc": "Carleton University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Manitoba University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_bbs_Manitoba_University-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_bbs_Manitoba_University-image4.png",
+          "desc": "Manitoba University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Ottawa University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_bbs_Ottawa_University-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_bbs_Ottawa_University-image3.png",
+          "desc": "Ottawa University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Toronto Metropolitan University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_bbs_Toronto_Metropolitan_University-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_bbs_Toronto_Metropolitan_University-image1.png",
+          "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "The Basis of Management",
+      "lead": "Organizational structures, leadership concepts, planning, collaboration, and decision-making are all introduced to students in business studies.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Analytical and Financial Skills",
+      "lead": "Accounting, economics, finance, and statistics are among the subjects that aid students in comprehending financial data and evaluating the success of businesses.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Communication and Marketing Skills",
+      "lead": "Students gain knowledge of sales, market research, business communication, customer behavior, and promotional tactics.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Practical Education",
+      "lead": "Students may take part in case studies, group projects, presentations, simulations, and applicable tasks, depending on the curriculum.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "A Global Viewpoint",
+      "lead": "Students can be exposed to various business methods and global viewpoints by studying in Canada's multicultural academic environment.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Getting Ready for Work",
+      "lead": "A business undergraduate degree in Canada can serve as a starting point for entry-level positions in finance support, operations, sales, marketing, administration, and related fields.",
+      "groups": []
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Opportunities for Additional Study",
+      "lead": "Depending on entrance requirements, graduates may pursue postgraduate studies in management, finance, marketing, business analytics, or other subjects.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Development of Entrepreneurship",
+      "lead": "Students who study business can learn how to assess company concepts, investigate markets, create budgets, and formulate business plans.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Canada's BBS Programs and Specializations",
+      "lead": "The degree and institution determine the precise curriculum. Students who are thinking about enrolling in a BBS should contrast its coursework with that of Canadian undergraduate business programs",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Fundamental Business Topics"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Overview of Business",
+            "Fundamentals of Management",
+            "Accounting for finances",
+            "Accounting for Managers",
+            "Economics of Business",
+            "Microeconomics",
+            "The macroeconomic",
+            "The study of business mathematics",
+            "Business Statistics",
+            "Management of Marketing",
+            "Organizational Conduct",
+            "Management of Human Resources",
+            "Communication in Business",
+            "Business Finance",
+            "Business Law",
+            "Management of Operations",
+            "Entrepreneurship",
+            "Information Systems for Businesses",
+            "Methods of Business Research",
+            "The Management of Strategy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Study Subjects"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accounting",
+            "Promotion",
+            "Management of Human Resources",
+            "Global Commerce",
+            "Management of Businesses",
+            "Entrepreneurship",
+            "Analytics for Business",
+            "Operations and Supply Chain",
+            "Economics"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Explore BBS-Equivalent Programs at Canadian Universities",
+      "lead": "Undergraduate business or management education is available at the following universities. A Bachelor of Commerce (BCom), Bachelor of Business Administration (BBA), Bachelor of Management, or another degree instead of a BBS may be granted.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Manitoba University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the academic requirements and possible majors for undergraduate business and commerce education."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Toronto Metropolitan University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the curriculum, possibilities for hands-on learning, and admissions procedures for undergraduate degrees in business."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Carleton University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the academic areas offered by undergraduate business and management programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ottawa University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the Telfer School of Management's undergraduate management program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Qualifications for Studying BBS or a Comparable Business Degree in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Educational Background"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students often have to finish Class 12 or an equivalent secondary school qualification that is accepted by the school."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subject Prerequisites"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While some undergraduate business programs in Canada have various prerequisites, others require or recommend mathematics. Candidates should verify if the topics they took in Class 12 satisfy the requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Minimum Level of Academic Achievement"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic admission requirements are set by universities. Stronger academic performance may be necessary for competitive programs, and admission is not assured by fulfilling basic standards."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proficiency in English"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International applicants may be required to show that they are proficient in English using IELTS Academic, TOEFL, PTE Academic or another test that the school will accept."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Qualifications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the organization, candidates can require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Particular prerequisites",
+            "Additional responses to applications",
+            "Scholarly references",
+            "Information about school grades",
+            "An extra evaluation or interview, if necessary"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Canada's BBS Admission Requirements",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students might have to turn in:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Class 10 grade report and certificate",
+            "Class 12 grade report and certificate",
+            "Official transcripts of education",
+            "Predicted grades, if submitted prior to final results and approved by the school"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "TOEFL, PTE Academic, IELTS Academic, or another recognized score, if necessary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of an exemption, if applicable"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Applications"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A filled-out application form",
+            "A valid passport number",
+            "If necessary, a personal statement or further essays",
+            "Academic references, upon request",
+            "The receipt for the application fee"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "The cost of Pursuing a BBS or Comparable Business Degree in Canada",
+      "lead": "Depending on the university, degree, location, length of time, and type of tuition, the cost of studying business in Canada varies.",
+      "groups": [
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "International tuition per year",
+              "d": "CAD 20,000–55,000+"
+            },
+            {
+              "t": "Lodging",
+              "d": "CAD 800–2,000+ a month"
+            },
+            {
+              "t": "Monthly food and personal expenses",
+              "d": "CAD 300–700+"
+            },
+            {
+              "t": "Local transit",
+              "d": "CAD 80–180+ a month"
+            },
+            {
+              "t": "Books and educational resources",
+              "d": "CAD 500–1,500+ annually"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health insurance varies depending on the province and the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional Costs to Plan for"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of applying to universities",
+            "The cost of the English language exam",
+            "Campus fees and student service",
+            "Software and a laptop",
+            "Books and educational resources",
+            "Airfare",
+            "Insurance for health",
+            "Examine the costs associated with permits",
+            "Deposits for lodging",
+            "Emergency and personal costs"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Financial Support and Scholarships"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students that qualify can look into:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for admission",
+            "Awards for academic merit",
+            "Scholarships for international students",
+            "Faculty-specific honors",
+            "When available, need-based bursaries",
+            "Outside scholarships"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Admission Procedure for Canadian BBS or Comparable Programs",
+      "lead": "",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Recognize Your Degree Options",
+              "desc": "Verify if a Bachelor of Commerce, Bachelor of Business Administration, or Bachelor of Management fulfills your academic objectives or if you especially require a BBS."
+            },
+            {
+              "step": 2,
+              "title": "Choose Your Favorite Topics",
+              "desc": "Think about your interests in international business, accounting, finance, marketing, management, economics, and entrepreneurship."
+            },
+            {
+              "step": 3,
+              "title": "Research Establishments",
+              "desc": "Examine alternatives for practical learning, location, scholarship opportunities, academic prerequisites, program, and tuition."
+            },
+            {
+              "step": 4,
+              "title": "Verify Your Eligibility",
+              "desc": "Verify your Class 12 scores, the topics you need to take, your English language proficiency, and any other selection requirements."
+            },
+            {
+              "step": 5,
+              "title": "Get the Application Ready",
+              "desc": "Compile test results, certifications, passport information, academic transcripts, and additional application materials."
+            },
+            {
+              "step": 6,
+              "title": "Send in Your Application",
+              "desc": "Apply via the institution's designated application system or the official university portal."
+            },
+            {
+              "step": 7,
+              "title": "Fulfill Any Further Requirements",
+              "desc": "Before the deadline, turn in any additional essays, references, or other needed materials."
+            },
+            {
+              "step": 8,
+              "title": "Examine the offer letter",
+              "desc": "Verify the precise degree title, admission requirements, deposit amounts, tuition costs, and scholarship information."
+            },
+            {
+              "step": 9,
+              "title": "Examine Immigration Requirements",
+              "desc": "Visit Immigration, Refugees and Citizenship Canada (IRCC) to view the most recent Canadian study permit requirements"
+            },
+            {
+              "step": 10,
+              "title": "Get Ready for Enrollment",
+              "desc": "As directed by the institution, make travel, lodging, insurance, financial planning, and course registration arrangements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Immigration, Accreditation, and Recognition Issues",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Verify the Precise Qualification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The degree names BBS, BBA, BCom, and Bachelor of Management are not always interchangeable. They may have different degree programs, courses, and levels of recognition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify the precise name of the qualification and the organization giving it by visiting the official program site."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Acknowledgment of Professionals"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many general business roles may benefit from a business bachelor's degree. Additional training, tests, real-world experience, or license may be necessary for some professional occupations, such as accounting and other regulated fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transfer of Credit and Additional Research"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify the entry requirements of the receiving institution if you plan to use the degree for postgraduate admission in Canada or another nation. Recognition and credit transfer are not automatic."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Pay and career options in Canada Following BBS",
+      "lead": "A business bachelor's degree in Canada can serve as a basis for entry-level positions in a variety of industries. The real qualification, specialization, abilities, experience, and company requirements all influence career prospects.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Possible Career Paths"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Associate in Business Development",
+            "A marketing assistant",
+            "Coordinator of Sales",
+            "Coordinator of Administration",
+            "Assistant for Human Resources",
+            "Coordinator of Recruitment",
+            "Assistant for Operations",
+            "A customer service agent",
+            "A junior business analyst",
+            "Assistant for Accounts",
+            "Coordinator of Project Support",
+            "An entrepreneur"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional training, appropriate experience, technical expertise, or professional certification may be necessary for certain positions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career Prospects by Field of Study"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accounting",
+            "The financial sector",
+            "Marketing",
+            "Human Resources",
+            "Administration",
+            "International Commerce"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sectors to explore"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Financial services and banking",
+            "E-commerce and retail",
+            "Technology",
+            "The supply chain and logistics",
+            "Manufacturing",
+            "Professional services and consulting",
+            "Tourism and hospitality",
+            "Administration of healthcare",
+            "Nonprofits and education"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Documents Needed for Canadian BBS Admission",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 10 grade report and certificate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 12 grade report and certificate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic records"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated grades, if approved by the school"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If necessary, certified translations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Individual and Application Records"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A valid passport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A filled-out application form"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Test results in English, if necessary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If necessary, a personal statement or further essays"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When asked, academic references"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The receipt for the application fee"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Immigration Records, If Relevant"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A letter of acceptance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Evidence of funds"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine the application materials for permits."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Unless otherwise excepted, a provincial or territory attestation letter"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The IRCC has requested additional papers."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "What is meant by BBS?",
+      "a": "In several educational institutions, BBS stands for Bachelor of Business Studies . The institution and nation determine the precise degree structure and title.",
       "question": "What is meant by BBS?",
-      "answer": "In several educational institutions, BBS stands for Bachelor of Business Studies. The institution and nation determine the precise degree structure and title."
+      "answer": "In several educational institutions, BBS stands for Bachelor of Business Studies . The institution and nation determine the precise degree structure and title."
     },
     {
+      "q": "Does Canada have access to BBS?",
+      "a": "In Canadian universities, BBS is not a common degree title. Students can verify the precise degree granted by researching similar undergraduate business degrees in Canada , such as BBA, BCom, or Bachelor of Management.",
       "question": "Does Canada have access to BBS?",
-      "answer": "In Canadian universities, BBS is not a common degree title. Students can verify the precise degree granted by researching similar undergraduate business degrees in Canada, such as BBA, BCom, or Bachelor of Management."
+      "answer": "In Canadian universities, BBS is not a common degree title. Students can verify the precise degree granted by researching similar undergraduate business degrees in Canada , such as BBA, BCom, or Bachelor of Management."
     },
     {
+      "q": "After Class 12, are Indian students able to apply to Canadian undergraduate business programs?",
+      "a": "Yes. Candidates who fulfill the academic, subject, and English language requirements of the institution are eligible to apply.",
       "question": "After Class 12, are Indian students able to apply to Canadian undergraduate business programs?",
       "answer": "Yes. Candidates who fulfill the academic, subject, and English language requirements of the institution are eligible to apply."
     },
     {
+      "q": "What distinguishes BBA from BBS?",
+      "a": "Both may involve management and business, however the degree title, curriculum, and structure vary depending on the school. Instead of assuming the degrees are the same, compare the actual course subjects and learning objectives.",
       "question": "What distinguishes BBA from BBS?",
       "answer": "Both may involve management and business, however the degree title, curriculum, and structure vary depending on the school. Instead of assuming the degrees are the same, compare the actual course subjects and learning objectives."
     },
     {
+      "q": "After earning a degree that is comparable to a BBS, may I pursue an MBA?",
+      "a": "Yes, possibly. Admission to an MBA program is contingent upon the academic requirements of the school as well as any other prerequisites, such as test results, work experience, or other credentials.",
       "question": "After earning a degree that is comparable to a BBS, may I pursue an MBA?",
       "answer": "Yes, possibly. Admission to an MBA program is contingent upon the academic requirements of the school as well as any other prerequisites, such as test results, work experience, or other credentials."
     },
     {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs.",
       "question": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-      "answer": "Students can use Edu Hawk Worldwide to plan their **study-abroad journey**, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs. Study BBS in Canada for Indian Students Bachelor of Business Studies in Canada for International Students Best Universities for Undergraduate Business Studies in Canada BBS Equivalent Courses in Canada After Class 12 BBS Eligibility in Canada for Indian Students Business Degree Admission Requirements in Canada Undergraduate Business Courses Fees in Canada Business Scholarships in Canada for International Students Career Opportunities After Business Studies in Canada Business Graduate Jobs in Canada for International Students Canadian Study Permit Requirements for Undergraduate Business Students"
+      "answer": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is meant by BBS?",
+      "a": "In several educational institutions, BBS stands for Bachelor of Business Studies . The institution and nation determine the precise degree structure and title.",
+      "question": "What is meant by BBS?",
+      "answer": "In several educational institutions, BBS stands for Bachelor of Business Studies . The institution and nation determine the precise degree structure and title."
+    },
+    {
+      "q": "Does Canada have access to BBS?",
+      "a": "In Canadian universities, BBS is not a common degree title. Students can verify the precise degree granted by researching similar undergraduate business degrees in Canada , such as BBA, BCom, or Bachelor of Management.",
+      "question": "Does Canada have access to BBS?",
+      "answer": "In Canadian universities, BBS is not a common degree title. Students can verify the precise degree granted by researching similar undergraduate business degrees in Canada , such as BBA, BCom, or Bachelor of Management."
+    },
+    {
+      "q": "After Class 12, are Indian students able to apply to Canadian undergraduate business programs?",
+      "a": "Yes. Candidates who fulfill the academic, subject, and English language requirements of the institution are eligible to apply.",
+      "question": "After Class 12, are Indian students able to apply to Canadian undergraduate business programs?",
+      "answer": "Yes. Candidates who fulfill the academic, subject, and English language requirements of the institution are eligible to apply."
+    },
+    {
+      "q": "What distinguishes BBA from BBS?",
+      "a": "Both may involve management and business, however the degree title, curriculum, and structure vary depending on the school. Instead of assuming the degrees are the same, compare the actual course subjects and learning objectives.",
+      "question": "What distinguishes BBA from BBS?",
+      "answer": "Both may involve management and business, however the degree title, curriculum, and structure vary depending on the school. Instead of assuming the degrees are the same, compare the actual course subjects and learning objectives."
+    },
+    {
+      "q": "After earning a degree that is comparable to a BBS, may I pursue an MBA?",
+      "a": "Yes, possibly. Admission to an MBA program is contingent upon the academic requirements of the school as well as any other prerequisites, such as test results, work experience, or other credentials.",
+      "question": "After earning a degree that is comparable to a BBS, may I pursue an MBA?",
+      "answer": "Yes, possibly. Admission to an MBA program is contingent upon the academic requirements of the school as well as any other prerequisites, such as test results, work experience, or other credentials."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs.",
+      "question": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "answer": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
   ]
 }

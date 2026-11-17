@@ -1,3 +1,4 @@
+import cmsData from "../../../../../../data/study_abroad/uk/auto_engg_ug.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
 
@@ -25,7 +26,6 @@ const page = {
     "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated transportation technologies are the main objectives of automotive engineering."
   ],
   "overview": [
-    "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated transportation technologies are the main objectives of automotive engineering.",
     "Undergraduate Automotive Engineering programs in the UK integrate mechanical engineering, vehicle design, electronics, materials science, production, and control systems. Students can explore the design of automobiles, the operation of engines and electric powertrains, and the ways in which engineers enhance the performance, sustainability, safety, and efficiency of vehicles..",
     "Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore international study possibilities, and prepare for the overseas education journey with the right preparation and direction."
   ],
@@ -952,9 +952,40 @@ const page = {
 };
 
 export default function AutomobileEngineeringUK() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => ({
+          ...u,
+          img: u.img || u.image || page.universities?.[idx]?.img,
+          image: u.img || u.image || page.universities?.[idx]?.image || page.universities?.[idx]?.img
+        }))
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

@@ -1,57 +1,99 @@
 {
   "seo": {
-    "title": "MBBS in Nepal for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Nepal. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Nepal for Indian Students | Fees & Admission Process",
+    "description": "MBBS in Nepal with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges.",
+    "keywords": "mbbs in nepal, nepal mbbs fees, study mbbs nepal, nepal medical colleges"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Nepal",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Nepal.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN NEPAL",
+    "subtitle": "Explore MBBS Opportunities in Nepal 2026–2027. No visa required for Indian citizens, identical MBBS syllabus, and close proximity to home.",
+    "image": "/uploads/colleges/nepal_flag.svg",
+    "ctaText": "Apply for Nepal MBBS"
   },
+  "flag": "/uploads/colleges/nepal_flag.svg",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "5.5 Years",
+      "l": "Course Duration (4.5 + 1 Year Internship)"
     },
     {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "No Visa",
+      "l": "Required for Indian Citizens"
     },
     {
       "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "Indian Medical Syllabus Alignment"
+    },
+    {
+      "n": "NMC & MEC",
+      "l": "Accredited Medical Colleges"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MBBS",
+    "duration": "5.5 – 6 Years",
+    "fee": "₹40 - ₹60 Lakhs Total Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory for Indian students",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Nepal offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Nepal is the closest and most culturally familiar country for Indian students pursuing an MBBS degree. Colleges affiliated with Tribhuvan University (TU) and Kathmandu University (KU) follow the Indian medical curriculum, allowing seamless preparation for NExT and USMLE.",
+  "universitiesHeading": "Top Medical Universities & Colleges in Nepal",
   "universities": [
     {
-      "name": "Top State Medical University (Nepal)",
-      "location": "Nepal",
-      "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "name": "Nepalgunj Medical College",
+      "location": "Nepalgunj, Nepal",
+      "fee": "₹45 Lakhs Package",
+      "image": "https://www.edufever.com/wp-content/uploads/2022/08/Nepalgunj-Medical-College.webp",
+      "desc": "Leading medical institute close to the Indian border with expansive tertiary hospital."
+    },
+    {
+      "name": "Manipal College of Medical Sciences",
+      "location": "Pokhara, Nepal",
+      "fee": "₹55 Lakhs Package",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Manipal_Teaching_Hospital.jpg",
+      "desc": "Premier institute in Pokhara established in collaboration with Manipal Group, India."
+    },
+    {
+      "name": "Kathmandu Medical College",
+      "location": "Kathmandu, Nepal",
+      "fee": "₹50 Lakhs Package",
+      "image": "/uploads/colleges/kathmandu_medical_college.webp",
+      "desc": "Top-tier KU affiliated college in the heart of Kathmandu with high clinical volume."
+    },
+    {
+      "name": "Lumbini Medical College",
+      "location": "Palpa, Nepal",
+      "fee": "₹42 Lakhs Package",
+      "image": "/uploads/colleges/lumbini_medical_college.jpg",
+      "desc": "Modern medical complex providing rigorous clinical training and community health exposure."
+    },
+    {
+      "name": "Devdaha Medical College and Research Institute",
+      "location": "Rupandehi, Nepal",
+      "fee": "₹40 Lakhs Package",
+      "image": "https://ik.imagekit.io/lyzj6ywpw/main-images/devdaha-medical-college-and-research-institute/image1.jpg",
+      "desc": "Reputed teaching hospital near Butwal offering affordable fee structures."
+    },
+    {
+      "name": "Chitwan Medical College",
+      "location": "Bharatpur, Nepal",
+      "fee": "₹48 Lakhs Package",
+      "image": "https://mycareersview.com/afile/mcv16373_5fe0220b67856_chitawan.jpg",
+      "desc": "High clinical patient inflow hospital with super-specialty departments."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Nepal?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "Is passport or visa required for Indian students in Nepal?",
+      "answer": "Indian citizens do not require a visa to study in Nepal. A valid Indian Passport or Voter ID card is sufficient for travel and admission."
     },
     {
-      "question": "Is the degree from Nepal valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "What is the admission procedure for MBBS in Nepal?",
+      "answer": "Admissions are conducted through the Medical Education Commission (MEC) Nepal, based either on NEET scores or the MEC entrance exam."
     }
   ]
 }

@@ -1,81 +1,93 @@
 {
-  "seo": {
-    "title": "Biotechnology in Switzerland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Biotechnology in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Switzerland",
     "title": "Biotechnology in Switzerland for Indian Students",
-    "subtitle": "**Biotechnology in Switzerland for Indian Students** provides an opportunity to pursue studies in biological sciences, genetics, molecular biology, bioinformatics, biopharmaceuticals and industrial biotechnology. Swiss universities are renowned for their research in science and technology, offering students interested in laboratory research, pharmaceutical development, diagnostics, agriculture, and medical innovation the opportunity to excel.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Biotechnology in Switzerland for Indian Students provides an opportunity to pursue studies in biological sciences, genetics, molecular biology, bioinformatics, biopharmaceuticals and industrial biotechnology. Swiss universities are renowned for their research in science and technology, offering students interested in laboratory research, pharmaceutical development, diagnostics, agriculture, and medical innovation the opportunity to excel."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Biotechnology in Switzerland for Indian Students provides an opportunity to pursue studies in biological sciences, genetics, molecular biology, bioinformatics, biopharmaceuticals and industrial biotechnology. Swiss universities are renowned for their research in science and technology, offering students interested in laboratory research, pharmaceutical development, diagnostics, agriculture, and medical innovation the opportunity to excel.",
+    "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty."
   ],
-  "highlights": {
-    "degree": "B.Sc. & M.Sc. in Biotechnology",
-    "duration": "3 Yrs (UG) / 1.5–2 Yrs (M.Sc.)",
-    "fee": "CHF 1,000 – CHF 4,000 / Year",
-    "eligibility": "Class 12 / Bachelor's + German/French/English proficiency",
-    "medium": "German, French & English Taught"
-  },
-  "overview": "Those who want to **Study Biotechnology in Switzerland** have a wide variety of academic programs and research opportunities to choose from. Switzerland has a robust life-sciences sector and biotechnology graduates may find work in research institutions, pharmaceutical companies, biotechnology firms, diagnostics laboratories and academic organizations. Career prospects are affected by the degree, practical experience, specialization and work authorization.\n\n**Biotechnology in Switzerland for Indian Students** is an option worth exploring for students interested in scientific research, laboratory training and the international life-sciences industry. **Edu-Hawk Worldwide** can help students understand study options and application planning.",
   "universities": [
     {
-      "name": "ETH Zurich",
-      "location": "Basel campus | English",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 730 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
     },
     {
-      "name": "University of Zürich",
-      "location": "Zurich | English for M.Sc. Biology",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "fee": "CHF 780 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
     },
     {
-      "name": "University of Basel",
-      "location": "Basel | Subject to the program",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "University of Zurich (UZH)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,220 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+    },
+    {
+      "name": "University of Geneva",
+      "location": "Geneva, Switzerland",
+      "fee": "CHF 500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Can Indian students do Biotechnology in Switzerland after 12th?",
-      "answer": "Yes, students can look at relevant bachelor’s programs, depending on the university’s entry requirements and recognition of their school qualifications. Some programs have German or French prerequisites, so check the language prerequisites early on."
-    },
-    {
-      "question": "How Long Study Biotechnology in Switzerland?",
-      "answer": "A bachelor’s degree takes typically about three years, a master’s degree about 1.5–2 years. The MSc in Biotechnology at ETH Zurich is a 120 ECTS, two-year program."
-    },
-    {
-      "question": "Do I need IELTS for Biotechnology in Switzerland?",
-      "answer": "It is contingent upon the university and program. The MSc in Biotechnology at ETH Zurich requires C1 English proficiency, and the university publishes a list of accepted certificates and requirements. Other institutions may have different rules/exemptions."
-    },
-    {
-      "question": "How much does it cost to study biotechnology in Switzerland?",
-      "answer": "Costs vary by university and student category. As a rough estimate for planning purposes, tuition and living expenses can add up to CHF 20,000–40,000 or more per year. Before budgeting, look at the official fee schedule of the institution you have selected."
-    },
-    {
-      "question": "What are the jobs after Biotechnology in Switzerland?",
-      "answer": "Potential career opportunities include laboratory research, pharmaceutical development, quality control, bioprocessing, clinical research, bioinformatics, and biotechnology research and development. Senior research positions may require postgraduate qualifications and associated experience."
+      "slot": "universities",
+      "eyebrow": "Top Swiss Universities",
+      "title": "Top Universities to Consider in Switzerland",
+      "lead": "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty.",
+      "unis": [
+        {
+          "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 730 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
+        },
+        {
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+          "location": "Lausanne, Switzerland",
+          "fee": "CHF 780 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+        },
+        {
+          "name": "University of Zurich (UZH)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 1,220 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+        },
+        {
+          "name": "University of Geneva",
+          "location": "Geneva, Switzerland",
+          "fee": "CHF 500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+        }
+      ],
+      "groups": []
     }
-  ]
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Biotechnology in Switzerland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Biotechnology in Switzerland for Indian Students provides an opportunity to pursue studies in biological sciences, genetics, molecular biology, bioinformatics, ",
+    "keywords": "Study in Switzerland, Top Swiss Universities, Edu Hawk Worldwide"
+  }
 }

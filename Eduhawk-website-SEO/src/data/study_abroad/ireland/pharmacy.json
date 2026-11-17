@@ -1,265 +1,394 @@
 {
-  "seo": {
-    "title": "Study Pharmacy in Ireland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Pharmacy in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€18,000 – €28,000 / year), scholarships, and 2-year post-study work visa (Stamp 1G)."
-  },
   "hero": {
-    "badge": "Study Abroad - Ireland",
-    "title": "PHARMACY IN IRELAND",
-    "subtitle": "Pharmacy Studies in Ireland"
+    "title": "Pharmacy Studies in Ireland",
+    "subtitle": "In Ireland, the pharmacy education The course includes clinical practice, patient care, pharmaceutical science and practical placements. It also has a significant pharmaceutical and biopharmaceutical industry."
   },
   "overview": [
-    "Pharmacy Studies in Ireland",
     "In Ireland, the pharmacy education The course includes clinical practice, patient care, pharmaceutical science and practical placements. It also has a significant pharmaceutical and biopharmaceutical industry.",
-    "Some of the advantages of studying pharmacy in Ireland are-",
     "Students can explore these opportunities and know the requirements for study abroad with Edu Hawk worldwide study abroad guidance."
+  ],
+  "universities": [
+    {
+      "name": "The Royal College of Surgeons",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_pharmacy_The_Royal_College_of_Surgeons-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_pharmacy_The_Royal_College_of_Surgeons-image2.png",
+      "desc": "The Royal College of Surgeons is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "Trinity College Dublin",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_pharmacy_Trinity_College_Dublin-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_pharmacy_Trinity_College_Dublin-image3.png",
+      "desc": "Trinity College Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "University College Cork",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_pharmacy_University_College_Cork-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_pharmacy_University_College_Cork-image1.png",
+      "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    }
   ],
   "sections": [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "1. Why Study Pharmacy in Ireland?",
-      "items": [
-        "Pharmacy Studies in Ireland",
-        "In Ireland, the pharmacy education The course includes clinical practice, patient care, pharmaceutical science and practical placements. It also has a significant pharmaceutical and biopharmaceutical industry.",
-        "Some of the advantages of studying pharmacy in Ireland are-",
-        "Professional qualification: The approved Master of Pharmacy (MPharm) course is the path to pharmacist registration.",
-        "Students gain practical experience in pharmacy practice, filling prescriptions and counseling patients.",
-        "Graduates may work in clinical research, pharmaceutical development, regulatory affairs, quality assurance & manufacturing.",
-        "Specialization can be in clinical pharmacy, hospital pharmacy, research or pharmaceutical management.",
-        "Students are exposed to a multicultural learning environment. Pharmacy is a profession that requires a strong foundation in chemistry and biology, combined with diligence, moral judgment and good communication.",
-        "Students can explore these opportunities and know the requirements for study abroad with Edu Hawk worldwide study abroad guidance."
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Study Pharmacy in Ireland?",
+      "lead": "In Ireland, the pharmacy education The course includes clinical practice, patient care, pharmaceutical science and practical placements. It also has a significant pharmaceutical and biopharmaceutical industry.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Some of the advantages of studying pharmacy in Ireland are-"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Professional qualification: The approved Master of Pharmacy (MPharm) course is the path to pharmacist registration.",
+            "Students gain practical experience in pharmacy practice, filling prescriptions and counseling patients.",
+            "Graduates may work in clinical research, pharmaceutical development, regulatory affairs, quality assurance & manufacturing.",
+            "Specialization can be in clinical pharmacy, hospital pharmacy, research or pharmaceutical management.",
+            "Students are exposed to a multicultural learning environment. Pharmacy is a profession that requires a strong foundation in chemistry and biology, combined with diligence, moral judgment and good communication."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore these opportunities and know the requirements for study abroad with Edu Hawk worldwide study abroad guidance."
+          ]
+        }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Pharmacy courses in Ireland",
-      "items": [
-        "The right course will depend on whether you want to work as a registered pharmacist or in pharmaceutical science.",
-        "Some of the popular undergraduate pharmacy courses Ireland and further study options include:",
-        "The Master of Pharmacy (MPharm) in Ireland is a five-year integrated professional degree program designed to prepare students for registration as a pharmacist, provided all requirements are satisfied.",
-        "At many universities a fifth professional master's year follows the first four years of an undergraduate pharmacy degree.",
-        "Pharmaceutical science courses in Ireland cover the major areas of medicinal chemistry, pharmaceutical technology, drug formulation, and laboratory research.",
-        "Drug development and clinical research is concerned with the development, testing and evaluation of drugs.",
-        "Graduates interested in learning more about the pharmaceutical industry, research or other specialized careers may enrolll in postgraduate pharmacy programs.",
-        "The five-year pharmacy degree in Ireland via the MPharm route is normally the main option for students applying after Class 12 if you wish to become a pharmacist in Ireland."
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Pharmacy courses in Ireland",
+      "lead": "The right course will depend on whether you want to work as a registered pharmacist or in pharmaceutical science.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Some of the popular undergraduate pharmacy courses Ireland and further study options include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The Master of Pharmacy (MPharm) in Ireland is a five-year integrated professional degree program designed to prepare students for registration as a pharmacist, provided all requirements are satisfied.",
+            "At many universities a fifth professional master's year follows the first four years of an undergraduate pharmacy degree.",
+            "Pharmaceutical science courses in Ireland cover the major areas of medicinal chemistry, pharmaceutical technology, drug formulation, and laboratory research.",
+            "Drug development and clinical research is concerned with the development, testing and evaluation of drugs.",
+            "Graduates interested in learning more about the pharmaceutical industry, research or other specialized careers may enrolll in postgraduate pharmacy programs.",
+            "The five-year pharmacy degree in Ireland via the MPharm route is normally the main option for students applying after Class 12 if you wish to become a pharmacist in Ireland."
+          ]
+        }
       ]
     },
     {
       "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Ireland's Top Pharmacy Schools and Colleges",
-      "items": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Eligibility for Pharmacy Studies in Ireland",
-      "items": [
-        "The pharmacy eligibility requirements in Ireland are determined by the university and the credentials you have obtained.",
-        "Regarding MPharm programs that accept undergraduates:",
-        "A secondary education equivalent to the Irish Leaving Certificate is required.",
-        "outstanding academic rank in relevant fields of science.",
-        "Chemistry and other specialized science courses, as mandated by the university.",
-        "Evidence of English language competency.",
-        "any further health screening or employment criteria that the company may have.",
-        "In general, Indian students must have Class 12 qualifications with subject combinations and grades that meet the university's requirements for admission.",
-        "Depending on the school, different requirements may apply for mathematics, physics, and biology, but chemistry is particularly important.",
-        "In addition to specific courses, minimum grades, and sometimes research or job experience, an appropriate bachelor's degree may be necessary.",
-        "These courses may be designed for pharmaceutical science rather than basic pharmacist registration."
+      "eyebrow": "Top Irish Universities",
+      "title": "Ireland's Top Pharmacy Schools and Colleges",
+      "lead": "The Pharmaceutical Society of Ireland (PSI) has identified the following establishments as accredited MPharm programs..",
+      "groups": [],
+      "unis": [
+        {
+          "name": "The Royal College of Surgeons",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_pharmacy_The_Royal_College_of_Surgeons-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_pharmacy_The_Royal_College_of_Surgeons-image2.png",
+          "desc": "The Royal College of Surgeons is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "Trinity College Dublin",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_pharmacy_Trinity_College_Dublin-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_pharmacy_Trinity_College_Dublin-image3.png",
+          "desc": "Trinity College Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "University College Cork",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_pharmacy_University_College_Cork-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_pharmacy_University_College_Cork-image1.png",
+          "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        }
       ]
     },
     {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5. Admission Requirements for Pharmacy in Ireland",
-      "items": [
-        "Academic records",
-        "English language competency",
-        "Course-specific standards assessed by universities are the usual conditions for pharmacy admission for Indian students.",
-        "Scholarly publications.",
-        "For undergraduate applicants, secondary school transcripts and certifications are required.",
-        "Postgraduate applications usually require degree certificates and university transcripts.",
-        "Proficiency in the English language:",
-        "Universities may accept the TOEFL Academic, the IELTS criteria for pharmacy courses in Ireland, and other approved exams.",
-        "The requirements for scoring vary according to the course and school.",
-        "Other requirements can be:",
-        "passport and private data.",
-        "Upon request, a personal statement or references.",
-        "Verification of vaccines and health screenings prior to suitable placements,"
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements for Pharmacy in Ireland",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Academic records",
+            "English language competency",
+            "Course-specific standards assessed by universities are the usual conditions for pharmacy admission for Indian students.",
+            "Scholarly publications.",
+            "For undergraduate applicants, secondary school transcripts and certifications are required.",
+            "Postgraduate applications usually require degree certificates and university transcripts.",
+            "Proficiency in the English language:",
+            "Universities may accept the TOEFL Academic, the IELTS criteria for pharmacy courses in Ireland, and other approved exams.",
+            "The requirements for scoring vary according to the course and school."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Other requirements can be:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "passport and private data.",
+            "Upon request, a personal statement or references.",
+            "Verification of vaccines and health screenings prior to suitable placements,"
+          ]
+        }
       ]
     },
     {
       "slot": "tuition",
       "eyebrow": "Tuition & Living Costs",
-      "title": "6. The cost of Irish Pharmacy Education",
-      "items": [
-        "The total cost is influenced by the university, fee status, course design, housing and personal expenses.",
-        "The cost of pharmacy tuition in Ireland for foreign students ranges from €20,000 to €30,000 per year at certain schools.",
-        "Living and housing costs: Between €10,000 and €18,000+ per year Costs for books, equipment, and other study materials vary.",
-        "Immigration and health insurance charges | Additional fees may apply",
-        "The city, kind of housing, and individual spending patterns all affect the cost of living for pharmacy students in Ireland.",
-        "7. The Pharmacy Admission Process in Ireland",
-        "Follow these steps when applying:",
-        "1. Decide on your career goal. Choose if you want to become a licensed pharmacist or pursue a career in pharmacology or pharmaceutical science.",
-        "2. Select an appropriate software. If you want to work as a pharmacist in Ireland, be sure the training is accredited by the PSI.",
-        "3. Verify your eligibility. Check the university's minimum grades, English language requirements, foreign application regulations, and subject requirements for Class 12.",
-        "4. Prepare your documentation. Compile test results in English, diplomas, passport details, and academic records.",
-        "5. Submit the application. Follow the university's instructions. Although there are alternative ways to apply worldwide, many undergraduate pharmacy applications are sent through the Central Applications Office (CAO).",
-        "6. Accept an offer. Comply with the criteria for enrollment, deposit, and fee payment.",
-        "7. Assemble immigration and housing. If required, apply for the appropriate student permit or visa and arrange for housing and insurance. Before applying, review the Ireland student visa criteria for Indian pharmacy students.",
-        "8. Meet placement requirements. Complete any health screenings, vetting, and other processes associated with hands-on training.",
-        "9. Complete the entire professional program. If your goal is to become a pharmacist, complete the required MPharm years and practical training.",
-        "The Pharmaceutical Society of Ireland (PSI) oversees the pharmacy profession and accredits the courses and training required for pharmacist registration.",
-        "If you want to work in Ireland as a pharmacist, be sure that:",
-        "Your chosen MPharm program is accredited by PSI. You complete the entire course, including the required practical instruction. You fulfill the necessary PSI registration requirements before you begin practicing",
-        "A degree in pharmaceutical science, pharmacology, or drug development is not usually equivalent to a professional pharmacy certificate.",
-        "For pharmacists who become certified outside of Ireland:",
-        "The PSI considers applications for recognition and registration based on the rules that are relevant to the applicant's qualifications and situation."
+      "title": "The cost of Irish Pharmacy Education",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "The total cost is influenced by the university, fee status, course design, housing and personal expenses.",
+            "The cost of pharmacy tuition in Ireland for foreign students ranges from €20,000 to €30,000 per year at certain schools.",
+            "Living and housing costs: Between €10,000 and €18,000+ per year Costs for books, equipment, and other study materials vary."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Immigration and health insurance charges",
+              "d": "Additional fees may apply"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The city, kind of housing, and individual spending patterns all affect the cost of living for pharmacy students in Ireland."
+          ]
+        }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "Admission Process for Pharmacy in Ireland",
-      "items": []
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "The Pharmacy Admission Process in Ireland",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Follow these steps when applying:"
+          ]
+        },
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Decide on your career goal. Choose if you want to become a licensed pharmacist or pursue a career in pharmacology or pharmaceutical science.",
+              "desc": ""
+            },
+            {
+              "step": 2,
+              "title": "Select an appropriate software. If you want to work as a pharmacist in Ireland, be sure the training is accredited by the PSI.",
+              "desc": ""
+            },
+            {
+              "step": 3,
+              "title": "Verify your eligibility. Check the university's minimum grades, English language requirements, foreign application regulations, and subject requirements for Class 12.",
+              "desc": ""
+            }
+          ]
+        }
+      ]
     },
     {
-      "slot": "accreditation",
-      "eyebrow": "Accreditation & Recognition",
-      "title": "Accreditation and Recognition in Ireland",
-      "items": [
-        "Detailed information and course specifications will be provided during individual counseling."
+      "slot": "language",
+      "eyebrow": "Language Proficiency",
+      "title": "Prepare your documentation. Compile test results in English, diplomas, passport details, and academic records.",
+      "lead": "5. Submit the application. Follow the university's instructions. Although there are alternative ways to apply worldwide, many undergraduate pharmacy applications are sent through the Central Applications Office (CAO).",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Accept an offer. Comply with the criteria for enrollment, deposit, and fee payment.",
+      "lead": "7. Assemble immigration and housing. If required, apply for the appropriate student permit or visa and arrange for housing and insurance. Before applying, review the Ireland student visa criteria for Indian pharmacy students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "8. Meet placement requirements. Complete any health screenings, vetting, and other processes associated with hands-on training."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. Complete the entire professional program. If your goal is to become a pharmacist, complete the required MPharm years and practical training."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Pharmaceutical Society of Ireland (PSI) oversees the pharmacy profession and accredits the courses and training required for pharmacist registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you want to work in Ireland as a pharmacist, be sure that:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Your chosen MPharm program is accredited by PSI. You complete the entire course, including the required practical instruction. You fulfill the necessary PSI registration requirements before you begin practicing",
+            "A degree in pharmaceutical science, pharmacology, or drug development is not usually equivalent to a professional pharmacy certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For pharmacists who become certified outside of Ireland:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The PSI considers applications for recognition and registration based on the rules that are relevant to the applicant's qualifications and situation."
+          ]
+        }
       ]
     },
     {
       "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "9. Salary and Career Opportunities in Ireland After Pharmacy",
-      "items": [
-        "Pharmacy graduates in Ireland can find employment in community pharmacies, hospitals, pharmaceutical companies, research organizations, and regulatory or quality-focused roles.",
-        "The following are some possible job options for pharmacists in Ireland:",
-        "The community pharmacist is a hospital pharmacist.",
-        "a clinical pharmacist with the required education and experience.",
-        "A pharmaceutical quality assurance or control specialist.",
-        "A regulatory affairs associate.",
-        "a clinical research associate.",
-        "An expert in the production of pharmaceuticals",
-        "An expert in pharmacovigilance or drug safety.",
-        "A research scientist employed in the pharmaceutical or biomedical sectors.",
-        "Recently licensed pharmacist | €40,000–€55,000",
-        "Skilled pharmacist €55,000–€75,000+",
-        "Pharmaceutical quality or regulatory function €35,000–€60,000",
-        "Pharmacovigilance or clinical research job | €35,000–€65,000+",
-        "Graduates who want to work as pharmacists must receive the required PSI registration.",
-        "There may be different registration and qualifying requirements for other pharmaceutical jobs. Employment is also dependent on a person's immigration status and work permission."
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Career Opportunities in Ireland After Pharmacy",
+      "lead": "Pharmacy graduates in Ireland can find employment in community pharmacies, hospitals, pharmaceutical companies, research organizations, and regulatory or quality-focused roles.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following are some possible job options for pharmacists in Ireland:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The community pharmacist is a hospital pharmacist.",
+            "a clinical pharmacist with the required education and experience.",
+            "A pharmaceutical quality assurance or control specialist.",
+            "A regulatory affairs associate.",
+            "a clinical research associate.",
+            "An expert in the production of pharmaceuticals",
+            "An expert in pharmacovigilance or drug safety.",
+            "A research scientist employed in the pharmaceutical or biomedical sectors."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Recently licensed pharmacist",
+              "d": "€40,000–€55,000"
+            },
+            {
+              "t": "Pharmacovigilance or clinical research job",
+              "d": "€35,000–€65,000+"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Skilled pharmacist €55,000–€75,000+",
+            "Pharmaceutical quality or regulatory function €35,000–€60,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates who want to work as pharmacists must receive the required PSI registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There may be different registration and qualifying requirements for other pharmaceutical jobs. Employment is also dependent on a person's immigration status and work permission."
+          ]
+        }
       ]
     },
     {
       "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Required for Pharmacy Studies in Ireland",
-      "items": [
-        "The university may ask for some or all of the following:",
-        "A current passport",
-        "Undergraduate applicants must submit their transcripts and certificates from classes 10 and 12.",
-        "Postgraduate candidates must have a bachelor's degree diploma and transcripts.",
-        "The English language test results, as needed.",
-        "Give references and a personal statement if requested.",
-        "the application and fee payment confirmation.",
-        "Certified translations are available for papers that are not issued in English.",
-        "Provide sponsorship documentation and financial evidence if needed.",
-        "student visa documentation, if required.",
-        "Records pertaining to immunizations, background checks, and health screenings for suitable placements"
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required for Pharmacy Studies in Ireland",
+      "lead": "The university may ask for some or all of the following:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A current passport",
+            "Undergraduate applicants must submit their transcripts and certificates from classes 10 and 12.",
+            "Postgraduate candidates must have a bachelor's degree diploma and transcripts.",
+            "The English language test results, as needed.",
+            "Give references and a personal statement if requested.",
+            "the application and fee payment confirmation.",
+            "Certified translations are available for papers that are not issued in English.",
+            "Provide sponsorship documentation and financial evidence if needed.",
+            "student visa documentation, if required.",
+            "Records pertaining to immunizations, background checks, and health screenings for suitable placements"
+          ]
+        }
       ]
     }
   ],
-  "universities": [
-    {
-      "name": "The Royal College of Surgeons",
-      "city": "Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€18,000 – €28,000 / year",
-      "desc": "3. The Royal College of Surgeons (RCSI) offers an undergraduate pharmacy curriculum that combines pharmaceutical studies and pharmacy practice.",
-      "imgFile": "The_Royal_College_of_Surgeons.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€18,000 – €28,000 / year",
-      "desc": "1. Trinity College Dublin offers a thorough pharmacy program that blends scientific research with real-world application.",
-      "imgFile": "Trinity_College_Dublin.webp"
-    },
-    {
-      "name": "University College Cork",
-      "city": "Cork, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€18,000 – €28,000 / year",
-      "desc": "The pharmacy program offered, comprises an extra MPharm year following an undergraduate pharmacy degree.",
-      "imgFile": "University_College_Cork.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Pharmacy in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€18,000 – €28,000 / year",
-        "Varies by university ranking, laboratory facilities, and discipline"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€20,000 – €32,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes accommodation, food, utilities, and local transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. What is the duration of pharmacy education in Ireland?",
+      "q": "What is the duration of pharmacy education in Ireland?",
       "a": "The professional pathway normally takes five years in a PSI-accredited MPharm program, including the required practical learning."
     },
     {
-      "q": "Q2. Can Indian students continue their pharmacy education in Ireland after the 12th grade?",
+      "q": "Can Indian students continue their pharmacy education in Ireland after the 12th grade?",
       "a": "Yes, provided they meet the university's academic, subject, English-language, and other entry requirements. Every school evaluates international qualifications in line with its own policies."
     },
     {
-      "q": "Q3. What is the cost of studying pharmacy in Ireland?",
+      "q": "What is the cost of studying pharmacy in Ireland?",
       "a": "Certain programs cost between €20,000 and €30,000 per year for non-EU students. The precise costs vary according to the school and academic year, and additional housing and study expenditures must be accounted for separately."
     },
     {
-      "q": "Q4. Can I work as a pharmacist in Ireland after receiving my degree?",
+      "q": "Can I work as a pharmacist in Ireland after receiving my degree?",
       "a": "You can apply to register with the PSI after completing the required accredited MPharm program and meeting the applicable registration conditions. You also need to meet all relevant immigration and job criteria."
     },
     {
-      "q": "Q5. Are pharmacies in Ireland a good choice for international students?",
+      "q": "Are pharmacies in Ireland a good choice for international students?",
       "a": "It might be a worthwhile choice for students interested in medicines, patient care, pharmaceutical research, or the pharmaceutical industry. Compare living expenses, job goals, program accreditation, tuition costs, and entrance requirements before deciding."
     },
     {
       "q": "How may Edu Hawk Worldwide Consultancy help me study overseas?",
       "a": "With the help of Edu Hawk worldwide, students may locate suitable universities, understand admission requirements, prepare application documents, and plan their study-abroad journey. Students should inquire about their academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Pharmacy Studies in Ireland | Edu-Hawk Worldwide",
+    "description": "In Ireland, the pharmacy education The course includes clinical practice, patient care, pharmaceutical science and practical placements. It also has a significa",
+    "keywords": "Study in Ireland, Top Irish Universities, Edu Hawk Worldwide"
+  }
 }

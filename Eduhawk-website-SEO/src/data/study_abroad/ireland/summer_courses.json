@@ -1,136 +1,353 @@
 {
-  "seo": {
-    "title": "Study Summer Courses in Ireland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Summer Courses in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€13,500 – €28,640 / year), scholarships, and 2-year post-study work visa (Stamp 1G)."
-  },
   "hero": {
-    "badge": "Study Abroad - Ireland",
-    "title": "SUMMER COURSES IN IRELAND FOR INTERNATIONAL STUDENTS",
-    "subtitle": "Summer Courses in Ireland for International Students"
+    "title": "Summer Courses in Ireland for International Students",
+    "subtitle": "Study Summer courses in Ireland\\\\ are a great option for \\\\international students\\\\ who want to improve their \\\\academic knowledge\\\\, gain \\\\practical skills\\\\, learn \\\\English\\\\ or experience \\\\Irish culture\\\\ during the summer break."
   },
   "overview": [
-    "Summer Courses in Ireland for International Students"
+    "Study Summer courses in Ireland\\\\ are a great option for \\\\international students\\\\ who want to improve their \\\\academic knowledge\\\\, gain \\\\practical skills\\\\, learn \\\\English\\\\ or experience \\\\Irish culture\\\\ during the summer break.",
+    "Programs vary from short English language classes and university summer schools to business, technology, science, arts and professional development courses.",
+    "Ireland has one of the world's best education systems, is an English-speaking country, has friendly student societies and offers opportunities to explore historical cities and beautiful landscapes."
+  ],
+  "universities": [
+    {
+      "name": "Trinity College Dublin",
+      "location": "Dublin, Ireland",
+      "fee": "€18,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+    },
+    {
+      "name": "University College Dublin (UCD)",
+      "location": "Dublin, Ireland",
+      "fee": "€16,000 – €32,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+      "desc": "UCD is Ireland's largest university with a dynamic international community, renowned for innovative graduate programs and extensive industry links."
+    }
   ],
   "sections": [
     {
-      "title": "1. Why Study Summer Courses in Ireland?",
-      "eyebrow": "Why Study in Ireland",
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Study \\\\Summer Courses in Ireland\\\\?",
+      "lead": "Study Summer courses in Ireland\\\\ are a great option for \\\\international students\\\\ who want to improve their \\\\academic knowledge\\\\, gain \\\\practical skills\\\\, learn \\\\English\\\\ or experience \\\\Irish culture\\\\ during the summer break.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Study Summer courses in Ireland are a great option for international students who want to improve their academic knowledge, gain practical skills, learn English or experience Irish culture during the summer break.",
-            "Programs vary from short English language classes and university summer schools to business, technology, science, arts and professional development courses.",
-            "Ireland has one of the world’s best education systems, is an English-speaking country, has friendly student societies and offers opportunities to explore historical cities and beautiful landscapes.",
-            "Edu Hawk worldwide study abroad guidance helps students explore these opportunities and understand the requirements involved in studying abroad.",
-            "Benefits of Summer Courses in Ireland include:"
+            "Programs vary from short English language classes and university summer schools to business, technology, science, arts and professional development courses."
           ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ireland has one of the world's best education systems, is an English-speaking country, has friendly student societies and offers opportunities to explore historical cities and beautiful landscapes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Edu Hawk worldwide study abroad guidance\\\\ helps students explore these opportunities and understand the requirements involved in studying abroad."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "\\\\Benefits of Summer Courses in Ireland include:\\\\"
         },
         {
           "t": "ul",
           "items": [
-            "- Short-term learning options, usually lasting from two to eight weeks.",
-            "Opportunities to develop English communication and academic skills.",
-            "International students and methods of teaching.",
-            "Cultural activities, excursions and student life.",
-            "Options for School Students, Undergraduate Students, Graduates and Working Professionals.",
-            "Irish universities can be sampled before committing to a full-time degree."
+            "\\\\Short-term learning options\\\\, usually lasting from two to eight weeks."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities to develop \\\\English communication\\\\ and \\\\academic skills\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students and methods of teaching."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cultural activities\\\\, excursions and student life."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Options for School Students, Undergraduate Students, Graduates and Working Professionals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Irish universities\\\\ can be sampled before committing to a full-time degree."
           ]
         }
       ]
     },
     {
-      "title": "2. Summer Courses in Ireland",
-      "eyebrow": "Degrees & Programs",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Summer Courses in Ireland",
+      "lead": "Students have a range of \\\\summer programmes\\\\ to choose from depending on their age, academic background, interests and career goals.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Students have a range of summer programmes to choose from depending on their age, academic background, interests and career goals.",
-            "Summer Courses in English Language",
-            "These courses cover speaking, listening, reading, writing, grammar and everyday communication. A few providers also offer intensive English classes and IELTS preparation.",
-            "Summer Schools at University*",
-            "University summer schools give students the feel of university teaching, attend academic sessions, participate in workshops and experience Irish campus life. The programs can be for current university students or for international students visiting.",
-            "Summer Courses in Business and Management",
-            "These programs could include entrepreneurship, marketing, leadership, finance, international business and project management.",
-            "Computer Sciences & Technology Courses",
-            "Students interested in technology can find introductory or specialized courses in programming , data analytics , artificial intelligence , cybersecurity and digital innovation . Availability varies by institution and summer intake.",
-            "Culture, Arts and Humanities",
-            "Options may include: Irish history, literature, creative writing, music, film, art and cultural studies.",
-            "Science & Research Programs",
-            "Some universities and specialized institutions offer summer learning opportunities in areas including environmental science, laboratory research, engineering and health-related subjects.",
-            "School Student Summer Courses",
-            "Some providers offer supervised educational and language programs for younger learners, sometimes combining classroom teaching with sports, excursions and cultural activities."
+            "Summer Courses in English Language\\\\"
           ]
-        }
-      ]
-    },
-    {
-      "title": "3. Top Universities and Colleges for Summer Courses in Ireland",
-      "eyebrow": "Top Institutions",
-      "groups": [
+        },
         {
-          "t": "universities",
+          "t": "p",
           "items": [
-            "Dublin City University",
-            "University of Galway",
-            "Trinity College Dublin",
-            "Trinity College Dublin"
+            "These courses cover speaking, listening, reading, writing, grammar and everyday communication. A few providers also offer \\\\intensive English classes\\\\ and \\\\IELTS preparation\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\Summer Schools at University\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\University summer schools\\\\ give students the feel of university teaching, attend academic sessions, participate in workshops and experience Irish campus life. The programs can be for current university students or for international students visiting."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Summer Courses in Business and Management\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These programs could include \\\\entrepreneurship, marketing, leadership, finance, international business and project management\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Computer Sciences & Technology Courses\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in technology can find introductory or specialized courses in programming , data analytics , artificial intelligence , cybersecurity and digital innovation . Availability varies by institution and summer intake."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Culture, Arts and Humanities\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Options may include: \\\\Irish history, literature, creative writing, music, film, art and cultural studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Science & Research Programs\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities and specialized institutions offer summer learning opportunities in areas including \\\\environmental science, laboratory research, engineering and health-related subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "School Student Summer Courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some providers offer supervised educational and \\\\language programs for younger learners\\\\, sometimes combining classroom teaching with sports, excursions and cultural activities."
           ]
         }
       ]
     },
     {
-      "title": "4. Eligible to Study Summer Courses in Ireland",
-      "eyebrow": "Admissions Criteria",
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Top Universities to Consider in Ireland",
+      "lead": "Explore the leading universities and colleges in Ireland offering accredited European qualifications, vibrant campuses, and comprehensive student support.",
+      "unis": [
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin, Ireland",
+          "fee": "€18,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+        },
+        {
+          "name": "University College Dublin (UCD)",
+          "location": "Dublin, Ireland",
+          "fee": "€16,000 – €32,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+          "desc": "UCD is Ireland's largest university with a dynamic international community, renowned for innovative graduate programs and extensive industry links."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Top Universities and Colleges for Summer Courses in Ireland",
+      "lead": "While looking for \\\\summer programs in Ireland\\\\It is worth exploring the following institutions. Course availability, dates, eligibility and fees may vary each year.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Eligibility is based on type of course, duration and institution.",
-            "Common eligibility considerations involve:"
+            "Dublin City University (DCU): Offers \\\\English language programmes\\\\ and has hosted a \\\\International Summer School\\\\ for visiting university students."
           ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Maynooth University: Its \\\\International Summer School\\\\ has provided academic courses; cultural activities and field trips."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Galway: Provides \\\\summer learning opportunities\\\\ including Irish language and cultural programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Trinity College Dublin: Students can find out about \\\\summer learning, visiting student and short-term academic opportunities\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Eligible to Study Summer Courses in Ireland",
+      "lead": "Eligibility is based on \\\\type of course, duration and institution\\.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Common eligibility considerations involve:"
         },
         {
           "t": "ul",
           "items": [
-            "- Education level: Some university summer schools might require applicants to be enrolled in a degree program or to have attained a certain level of education.",
-            "Age limits: school student programs may set a minimum and maximum age. Adult courses often have different requirements.",
-            "English proficiency: You may need to provide evidence of your English language ability for English-taught academic courses. Some short English language courses will accept beginners.",
-            "Subject knowledge: You may need to have studied the subject before for technical, research or postgraduate academic courses.",
-            "Financial resources: Applicants must be able to cover tuition, accommodation, travel, insurance and living expenses.",
-            "Visa requirements: Students must satisfy the visa requirements for their nationality and course of study."
+            "\\\\Education level:\\\\ Some university summer schools might require applicants to be enrolled in a degree program or to have attained a certain level of education."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Always check the admission requirements of the particular program before you pay an application or tuition fee."
+            "\\\\Age limits:\\\\ school student programs may set a minimum and maximum age. Adult courses often have different requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English proficiency:\\\\ You may need to provide evidence of your \\\\English language ability\\\\ for English-taught academic courses. Some short English language courses will accept beginners."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Subject knowledge:\\\\ You may need to have studied the subject before for technical, research or postgraduate academic courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Financial resources\\\\: Applicants must be able to cover \\\\tuition, accommodation, travel, insurance and living expenses\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Visa requirements:\\\\ Students must satisfy the \\\\visa requirements\\\\ for their nationality and course of study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Always check the \\\\admission requirements\\\\ of the particular program before you pay an application or tuition fee."
           ]
         }
       ]
     },
     {
-      "title": "5. Summer Course Admission Requirements in Ireland",
-      "eyebrow": "Entry Requirements",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Summer Course Admission Requirements in Ireland",
+      "lead": "It is usually easier to be admitted to summer courses than to full-time degree programs, although requirements differ.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "It is usually easier to be admitted to summer courses than to full-time degree programs, although requirements differ.",
-            "You may be asked to provide:",
-            "A *filled out an online application form."
+            "You may be asked to provide:"
           ]
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "Current passport or other accepted ID.",
-            "Academic transcripts or proof of current enrollment in a university program.",
-            "Proof of English proficiency as required.",
-            "A short personal statement or statement of interest for some programs.",
-            "CV or portfolio (for specialist courses where required).",
-            "Payment of the application fee or program deposit, if applicable."
+            "A \\\\filled out an online application form."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Current passport\\\\ or other accepted ID."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Academic transcripts\\\\ or proof of current enrollment in a university program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of \\\\English proficiency\\\\ as required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A short \\\\personal statement\\\\ or statement of interest for some programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\CV or portfolio\\\\ (for specialist courses where required)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Payment of the \\\\application fee or program deposit\\\\, if applicable."
           ]
         },
         {
@@ -138,238 +355,360 @@
           "items": [
             "Some programs accept students on a rolling basis, while others have fixed application deadlines or limited places. We recommend applying early, especially if you need to arrange accommodation or visas."
           ]
-        }
-      ]
-    },
-    {
-      "title": "6. Cost to Study Summer Courses in Ireland",
-      "eyebrow": "Tuition & Living Costs",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "The cost of summer courses in Ireland will vary depending on the length of the course, the subject, the institution, the accommodation and activities included.",
-            "The following are indicative budgeting estimates and not guaranteed 2027 prices.",
-            "Short English language course* \\| €200–€400 per week",
-            "Four-week university summer programme* \\| €2,500–€4,000 or more"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Accommodation \\| €150–€350 per week"
+            "6. \\\\Cost to Study Summer Courses in Ireland\\\\"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Food and daily expenses* \\| €70–€150 per week",
-            "Local transport* \\| €20–€50 per week",
-            "Travel insurance \\| Varies by provider and coverage \\| Flights* \\| From departure city & travel dates",
-            "For a four-week program, a preliminary budget of around €3,500–€6,500 or more, excluding international flights, could be realistic depending on tuition, accommodation and activities.",
+            "The \\\\cost of summer courses in Ireland\\\\ will vary depending on the length of the course, the subject, the institution, the accommodation and activities included."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following are \\\\indicative budgeting estimates and not guaranteed 2027 prices."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Short English language course\\\\ \\",
+              "d": "€200–€400 per week"
+            },
+            {
+              "t": "Four-week university summer programme\\\\ \\",
+              "d": "€2,500–€4,000 or more"
+            },
+            {
+              "t": "\\\\Accommodation\\\\ \\",
+              "d": "€150–€350 per week"
+            },
+            {
+              "t": "Food and daily expenses\\\\ \\",
+              "d": "€70–€150 per week"
+            },
+            {
+              "t": "Local transport\\\\ \\",
+              "d": "€20–€50 per week"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Travel insurance\\\\ \\| Varies by provider and coverage \\| \\\\Flights\\\\ \\| From departure city & travel dates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For a four-week program, a preliminary budget of around \\\\€3,500–€6,500 or more\\\\, excluding international flights, could be realistic depending on tuition, accommodation and activities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Some programs include campus residence, meals, excursions or airport transfers, some charge for these separately."
           ]
-        }
-      ]
-    },
-    {
-      "title": "7. Admission Process for Summer Courses in Ireland",
-      "eyebrow": "Application Steps",
-      "groups": [
-        {
-          "t": "steps",
-          "items": [
-            "01. The application process for summer courses in Ireland usually involves the following steps: "
-          ]
-        }
-      ]
-    },
-    {
-      "title": "8. Check visa requirements: If you require a visa or immigration permission apply before you travel.",
-      "eyebrow": "Accreditation & Recognition",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Detailed information on Accreditation & Recognition will be provided during personalized counseling with Edu-Hawk Worldwide."
+            "7. \\\\Admission Process for Summer Courses in Ireland\\\\"
           ]
-        }
-      ]
-    },
-    {
-      "title": "9. Prepare for arrival: Ensure you have your offer letter, details of your accommodation, insurance information, passport and relevant financial evidence.",
-      "eyebrow": "Career Outcomes",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "As places on summer programmes in Ireland fill up fast, students need to start their research well before their intended travel date.",
-            "8\\. Recognition and Accreditation of Summer Courses in Ireland",
-            "The recognition of a summer course depends on the institution, course design and qualification awarded.",
-            "A summer program may offer a certificate of attendance, certificate of completion, academic credit or formal qualification. These outcomes are not mutually exclusive.",
+            "The \\\\application process for summer courses in Ireland\\\\ usually involves the following steps:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose your subject:\\\\ Select whether you want to study English, business, technology, arts, science or other subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Research Institutions:\\\\ Compare course, duration, fees, accommodation and teaching format."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check eligibility:\\\\ Look for age limits, academic requirements, English requirements and deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Apply:\\\\ Fill out the institution's application form and submit the necessary documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Receive an offer:\\\\ Once accepted, review the offer letter, course dates, payment schedule and cancellation policy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Pay the applicable fees:\\\\ Follow the institution's instructions and retain your receipts and confirmation documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Plan your stay and travel:\\\\ Work out where you are going to stay and how you will get there."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Check visa requirements\\\\: If you require a \\\\visa or immigration permission\\\\ apply before you travel."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Prepare for arrival:\\\\ Ensure you have your offer letter, details of your accommodation, insurance information, passport and relevant financial evidence."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "As places on \\\\summer programmes in Ireland\\\\ fill up fast, students need to start their research well before their intended travel date."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Recognition and Accreditation of Summer Courses in Ireland\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The \\\\recognition of a summer course\\\\ depends on the institution, course design and qualification awarded."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A summer program may offer a \\\\certificate of attendance, certificate of completion, academic credit or formal qualification\\. These outcomes are not mutually exclusive."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Verify prior to signing up:"
           ]
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "The recognised university or a reputable education provider delivering the course.",
-            "Availability of academic credits and acceptance by your home institution.",
-            "If the certificate includes the course content, duration and learning outcomes.",
-            "If the programme has any relevant professional accreditation",
-            "The provider’s authority to provide the course that it promotes."
+            "The \\\\recognised university\\\\ or a reputable education provider delivering the course."
           ]
         },
         {
           "t": "p",
           "items": [
-            "9\\. Career Opportunities and Benefits of Summer Courses in Ireland",
-            "Summer courses in Ireland provide an opportunity for students to improve their CVs, explore a career path, make international contacts and develop skills that complement their qualifications.",
-            "Possible benefits include:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- English language classes: Improved communication skills and confidence in academic or professional environments.",
-            "Business programmes: Introduction to the concepts of leadership, marketing, entrepreneurship and management.",
-            "Technology courses: Opportunities to acquire introductory technical skills and work on projects.",
-            "Arts and Humanities courses: Heightened cultural awareness, research skills and creative growth.",
-            "University summer schools: A chance to sample international academic life and explore possible avenues for future study."
+            "Availability of \\\\academic credits\\\\ and acceptance by your home institution."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Work and immigration rules: You cannot do paid or unpaid work on a short stay study visa for a course of 90 days or less. Other requirements apply for longer courses and students should check whether the particular program is eligible for the relevant immigration permission."
+            "If the certificate includes the \\\\course content, duration and learning outcomes\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If the programme has any relevant \\\\professional accreditation\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The provider's authority to provide the course that it promotes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Career Opportunities and Benefits of Summer Courses in Ireland\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Summer courses in Ireland\\\\ provide an opportunity for students to improve their \\\\CVs\\\\, explore a career path, make international contacts and develop skills that complement their qualifications."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Possible benefits include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\English language classes:\\\\ Improved communication skills and confidence in academic or professional environments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Business programmes:\\\\ Introduction to the concepts of leadership, marketing, entrepreneurship and management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Technology courses:\\\\ Opportunities to acquire introductory technical skills and work on projects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Arts and Humanities courses:\\\\ Heightened cultural awareness, research skills and creative growth."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\University summer schools:\\\\ A chance to sample international academic life and explore possible avenues for future study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Work and immigration rules:\\\\ You cannot do paid or unpaid work on a \\\\short stay study visa\\\\ for a course of 90 days or less. Other requirements apply for longer courses and students should check whether the particular program is eligible for the relevant \\\\immigration permission\\."
           ]
         }
       ]
     },
     {
-      "title": "10. Documents to Study Summer Courses in Ireland",
-      "eyebrow": "Document Checklist",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Documents to Study Summer Courses in Ireland",
+      "lead": "The \\\\documents you need for summer courses in Ireland\\\\ will vary depending on the program and your personal circumstances.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The documents you need for summer courses in Ireland will vary depending on the program and your personal circumstances.",
-            "Commonly requested documents are:"
-          ]
+          "t": "h4",
+          "text": "Commonly requested documents are:"
         },
         {
           "t": "ul",
           "items": [
-            "- Passport for travel.",
-            "Filled application form.",
-            "Recent passport size photo if applicable.",
-            "Proof of current study or academic transcripts.",
-            "Test results in English language, if required.",
-            "CV, portfolio or personal statement for particular courses.",
-            "Letter of offer or acceptance",
-            "Proof of tuition payment if applicable.",
-            "Confirmation of accommodation.",
-            "Proof of adequate financial resources for the visit.",
-            "Travel insurance or medical insurance as applicable.",
-            "Visa application documents, if a visa is required."
+            "\\\\Passport for travel."
           ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Filled \\\\application form\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recent passport size photo if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Proof of current study\\\\ or academic transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Test results in English language\\\\, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\CV, portfolio or personal statement\\\\ for particular courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Letter of offer or acceptance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Proof of tuition payment\\\\ if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Confirmation of accommodation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of \\\\adequate financial resources\\\\ for the visit."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Travel insurance or medical insurance\\\\ as applicable."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "\\\\Visa application documents,\\\\ if a visa is required."
         }
       ]
     }
   ],
-  "universities": [
-    {
-      "name": "Dublin City University",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "Dublin City University (DCU): Offers English language programmes and has hosted a International Summer School for visiting university students.",
-      "imgFile": "Dublin_City_University.webp"
-    },
-    {
-      "name": "University of Galway",
-      "city": "Galway, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "Dublin City University (DCU): Offers English language programmes and has hosted a International Summer School for visiting university students.",
-      "imgFile": "University_of_Galway.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "Trinity College Dublin: Students can find out about summer learning, visiting student and short-term academic opportunities",
-      "imgFile": "Trinity_College_Dublin.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€13,500 – €28,640 / year",
-      "desc": "Trinity College Dublin: Students can find out about summer learning, visiting student and short-term academic opportunities",
-      "imgFile": "Trinity_College_Dublin_2.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Summer Courses in Ireland in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€13,500 – €27,640 / year",
-        "Varies by institution ranking, laboratory facilities, and program"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€15,000 – €28,640 / year",
-        "1-year intensive master's program or 2-year research degree"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes student accommodation, meals, utilities, and public transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "1\\. Are international students eligible to apply for summer courses in Ireland?",
-      "a": "Yes. Many language schools, universities and other educational providers have programs for students from abroad. Eligibility depends on the course, the age, the academic background and the places available."
+      "q": "Are international students eligible to apply for summer courses in Ireland?",
+      "a": "Yes. Many \\\\language schools, universities and other educational providers\\\\ have programs for students from abroad. Eligibility depends on the course, the age, the academic background and the places available."
     },
     {
-      "q": "2\\. How long are summer courses in Ireland?",
-      "a": "Many programs run for between two and eight weeks but some are shorter or longer. Always check the exact dates and teaching hours with the provider."
+      "q": "How long are summer courses in Ireland?",
+      "a": "Many programs run for between \\\\two and eight weeks\\\\ but some are shorter or longer. Always check the exact dates and teaching hours with the provider."
     },
     {
-      "q": "3\\. How much do summer courses cost in Ireland?",
-      "a": "Tuition costs vary by subject and school. A short English course can cost a few hundred euros per week, a university summer programme can cost several thousand. Accommodation, food, flights and insurance may be included."
+      "q": "How much do summer courses cost in Ireland?",
+      "a": "Tuition costs vary by subject and school. A \\\\short English course\\\\ can cost a few hundred euros per week, a \\\\university summer programme\\\\ can cost several thousand. Accommodation, food, flights and insurance may be included."
     },
     {
-      "q": "4\\. Do I need a visa to take a summer course in Ireland?",
-      "a": "Visa requirements will depend on your nationality, the length of the course and the purpose of travel. If you are coming from a country which requires a visa and you want to study for 90 days or less, you will normally need to apply for a Short Stay ‘C’ visit (study) visa before you travel."
+      "q": "Do I need a visa to take a summer course in Ireland?",
+      "a": "Visa requirements will depend on your nationality, the length of the course and the purpose of travel. If you are coming from a \\\\country which requires a visa\\\\ and you want to study for \\\\90 days or less\\\\, you will normally need to apply for a \\\\Short Stay 'C' visit (study) visa\\\\ before you travel."
     },
     {
-      "q": "5\\. Am I allowed to work in Ireland during a summer course?",
-      "a": "You cannot do paid or unpaid work on a Short Stay ‘C’ visa. Just because you are in a summer program do not think you are allowed to work. You should check the immigration conditions that apply to your particular course and permission."
+      "q": "Am I allowed to work in Ireland during a summer course?\\\\",
+      "a": "You cannot do paid or unpaid work on a \\\\Short Stay 'C'\\\\ visa. Just because you are in a summer program do not think you are allowed to work. You should check the immigration conditions that apply to your particular course and permission."
     },
     {
       "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
-      "a": "Edu Hawk worldwide can help students find the right universities and understand admission requirements, arrange application documents and plan their study abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students find the right universities and understand \\\\admission requirements\\\\, arrange \\\\application documents\\\\ and plan their \\\\study abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Summer Courses in Ireland for International Students | Edu-Hawk Worldwide",
+    "description": "Study Summer courses in Ireland\\\\ are a great option for \\\\international students\\\\ who want to improve their \\\\academic knowledge\\\\, gain \\\\practical skills\\\\,",
+    "keywords": "Summer Courses in Ireland for International Students, Summer Schools in Ireland for Indian Students, Top Universities Offering Summer Courses in Ireland, Short-Term Summer Courses in Ireland, English Language Summer Courses in Ireland, University Summer Schools in Ireland, Business and Management Summer Courses in Ireland, Computer Science and Technology Summer Courses in Ireland, Science and Research Summer Programmes in Ireland, Summer Courses for School Students in Ireland, Summer Course Eligibility Requirements in Ireland, Summer Course Fees in Ireland 2027, Cost of Studying Summer Courses in Ireland, Ireland Summer Course Admission Process, Short-Term Study Visa Requirements for Summer Courses in Ireland, <"
+  }
 }

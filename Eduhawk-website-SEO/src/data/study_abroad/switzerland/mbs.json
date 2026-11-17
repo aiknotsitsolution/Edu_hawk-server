@@ -1,77 +1,93 @@
 {
-  "seo": {
-    "title": "Study MBS in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study MBS in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Switzerland",
-    "title": "Study MBS in Switzerland",
-    "subtitle": "Switzerland attracts students who wish to study at an advanced level in the fields of business, management, finance and international trade. Taking a Masters of Business Studies (MBS) or another similar postgraduate business qualification in Switzerland can help students build up leadership, analytical thinking, strategic planning and decision-making skills. The country’s international business environment is an exposure to banking, consulting, hospitality, luxury brands, multinationals and others.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "1\\. Why pursue MBS in Switzerland?",
+    "subtitle": "Switzerland attracts students who wish to study at an advanced level in the fields of business, management, finance and international trade. Taking a Masters of Business Studies (MBS) or another similar postgraduate business qualification in Switzerland can help students build up leadership, analytical thinking, strategic planning and decision-making skills. The country’s international business environment is an exposure to banking, consulting, hospitality, luxury brands, multinationals and others."
   },
-  "stats": [
-    {
-      "n": "Master of Business Studies",
-      "l": "Degree Choices"
-    },
-    {
-      "n": "1.5 to 2 Years (90–120 ECTS)",
-      "l": "Course Duration"
-    },
-    {
-      "n": "Uni of St. Gallen, UZH & Lausanne",
-      "l": "Top Institutions"
-    },
-    {
-      "n": "CHF 1,500 – CHF 4,500 / Year",
-      "l": "Indicative Fees"
-    }
+  "overview": [
+    "Switzerland attracts students who wish to study at an advanced level in the fields of business, management, finance and international trade. Taking a Masters of Business Studies (MBS) or another similar postgraduate business qualification in Switzerland can help students build up leadership, analytical thinking, strategic planning and decision-making skills. The country’s international business environment is an exposure to banking, consulting, hospitality, luxury brands, multinationals and others.",
+    "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty."
   ],
-  "highlights": {
-    "degree": "Master of Business Studies (MBS)",
-    "duration": "3–4 Yrs (UG) / 1.5–2 Yrs (PG)",
-    "fee": "CHF 1,000 – CHF 4,000 / Year",
-    "eligibility": "Class 12 / Bachelor's degree + Language Proficiency",
-    "medium": "German / French / English"
-  },
-  "overview": "**MBS in Switzerland for Indian Students** is a chance to know about global business education and acquire skills for the global career. Edu-Hawk Worldwide can assist students in comprehending the study options available to them and plan their applications. **MBS in Switzerland for Indian Students** can be a suitable pathway for graduates interested in developing their business and management knowledge.",
   "universities": [
     {
-      "name": "ETH Zurich",
+      "name": "ETH Zurich (Swiss Federal Institute of Technology)",
       "location": "Zurich, Switzerland",
-      "fee": "CHF 1,460 / Year",
-      "image": ""
+      "fee": "CHF 730 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
     },
     {
-      "name": "EPFL",
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
       "location": "Lausanne, Switzerland",
-      "fee": "CHF 1,560 / Year",
-      "image": ""
+      "fee": "CHF 780 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
     },
     {
-      "name": "University of Zurich",
+      "name": "University of Zurich (UZH)",
       "location": "Zurich, Switzerland",
-      "fee": "CHF 1,500 / Year",
-      "image": ""
+      "fee": "CHF 1,220 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+    },
+    {
+      "name": "University of Geneva",
+      "location": "Geneva, Switzerland",
+      "fee": "CHF 500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Is IELTS or TOEFL mandatory for studying MBS in Switzerland?",
-      "answer": "Requirements vary by institution and program level. English-taught programs generally require IELTS (6.5+) or TOEFL (90+), while German/French programs require proof of proficiency at B2/C1 levels."
-    },
-    {
-      "question": "Can Indian students work part-time while studying MBS in Switzerland?",
-      "answer": "Yes, international students are permitted to work up to 15 hours per week during academic semesters and full-time during official vacation periods after completing 6 months of study in Switzerland."
-    },
-    {
-      "question": "What is the average tuition fee for MBS in Swiss public universities?",
-      "answer": "Public universities in Switzerland offer highly subsidized tuition, typically ranging from CHF 1,000 to CHF 4,000 per year, making it one of the most cost-effective study destinations in Europe."
-    },
-    {
-      "question": "Are degrees from Swiss universities recognized globally and in India?",
-      "answer": "Yes, degrees awarded by Swiss cantonal and federal universities are accredited by the Swiss government and recognized globally, including by the Association of Indian Universities (AIU) and international employers."
+      "slot": "universities",
+      "eyebrow": "Top Swiss Universities",
+      "title": "Top Universities to Consider in Switzerland",
+      "lead": "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty.",
+      "unis": [
+        {
+          "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 730 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
+        },
+        {
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+          "location": "Lausanne, Switzerland",
+          "fee": "CHF 780 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+        },
+        {
+          "name": "University of Zurich (UZH)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 1,220 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+        },
+        {
+          "name": "University of Geneva",
+          "location": "Geneva, Switzerland",
+          "fee": "CHF 500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+        }
+      ],
+      "groups": []
     }
-  ]
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "1\\. Why pursue MBS in Switzerland? | Edu-Hawk Worldwide",
+    "description": "Switzerland attracts students who wish to study at an advanced level in the fields of business, management, finance and international trade. Taking a Masters of",
+    "keywords": "Study in Switzerland, Top Swiss Universities, Edu Hawk Worldwide"
+  }
 }

@@ -1,5 +1,6 @@
+import cmsData from "../../../../../../data/study_abroad/finland/chem_engg_pg.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../../../component/CoursePageKit.jsx";
 
 // Page layout images
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Chemical/chem_pg_hero.webp";
@@ -617,7 +618,7 @@ const page = {
 export default function MastersinChemicalEngineeringPGFinland() {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

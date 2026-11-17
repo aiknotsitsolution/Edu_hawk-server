@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import SeoHead from "../../component/SeoHead.jsx";
 import BannerCTA from "../../assets/BannerCTA.webp";
+import BlogHeroBg from "../../assets/blog-hero-bg.webp";
 import {
   fetchProducts,
   fetchCategories,
@@ -171,10 +172,22 @@ const Blog = () => {
         </h1>
 
         {/* ─── HERO HEADER ─────────────────────────────────────────────────── */}
-        <section className="relative bg-gradient-to-br from-[#071d38] via-[#0c2a50] to-[#0a2342] text-white py-16 sm:py-20 md:py-24 px-5 sm:px-8 lg:px-12 overflow-hidden">
+        <section className="relative bg-[#071d38] text-white py-16 sm:py-20 md:py-24 px-5 sm:px-8 lg:px-12 overflow-hidden">
+          {/* Background Image with Dark Professional Overlay */}
+          <div className="absolute inset-0 z-0">
+            <img
+              src={BlogHeroBg}
+              alt="Eduhawk Blog Insights"
+              className="w-full h-full object-cover object-center"
+              loading="eager"
+            />
+            {/* Balanced overlay to keep the photo clearly visible while maintaining text contrast */}
+            <div className="absolute inset-0 bg-gradient-to-b from-[#071d38]/70 via-[#0a2342]/55 to-[#071d38]/80" />
+          </div>
+
           {/* Atmospheric Glow Highlights */}
-          <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-amber-400/10 blur-3xl pointer-events-none" />
-          <div className="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-teal-400/10 blur-3xl pointer-events-none" />
+          <div className="absolute -top-24 -left-24 w-72 h-72 rounded-full bg-amber-400/10 blur-3xl pointer-events-none z-0" />
+          <div className="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-teal-400/10 blur-3xl pointer-events-none z-0" />
 
           <div className="relative z-10 max-w-4xl mx-auto text-center">
             <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 text-xs sm:text-sm font-semibold mb-4 shadow-xl">

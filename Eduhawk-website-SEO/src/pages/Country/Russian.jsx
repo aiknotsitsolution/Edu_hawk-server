@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/russia.json";
 import React, { useState } from "react";
 import SeoHead from "../../component/SeoHead.jsx";
 import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
@@ -20,9 +21,9 @@ const Russia = () => {
     
     
     <SeoHead
-      title="MBBS in Russia for Indian Students | Russia MBBS Fees & Admission"
-      description="Study MBBS in Russia with low fees and NMC recognized universities. Check eligibility, admission process, and top medical universities in Russia."
-      keywords="mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission"
+      title={cmsData?.seo?.title || "MBBS in Russia for Indian Students | Russia MBBS Fees & Admission"}
+      description={cmsData?.seo?.description || "Study MBBS in Russia with low fees and NMC recognized universities. Check eligibility, admission process, and top medical universities in Russia."}
+      keywords={cmsData?.seo?.keywords || "mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission"}
       path="/mbbs-abroad/russia"
       ogType="website"
     />
@@ -31,7 +32,7 @@ const Russia = () => {
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={RussiaFlag}
+            src={cmsData?.hero?.image || RussiaFlag}
             width={3000}
             height={1900}
             alt="Kremlin Bridge City"
@@ -41,7 +42,7 @@ const Russia = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN RUSSIA
+              {cmsData?.hero?.title || "STUDY MBBS IN RUSSIA"}
             </h1>
           </div>
         </div>
@@ -220,7 +221,13 @@ const Russia = () => {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {[
+            {((cmsData?.universities && cmsData.universities.length > 0)
+            ? cmsData.universities.map((u, i) => ({
+                ...u,
+                name: u.name,
+                img: u.image || u.img || (u.name === "Mari State University" ? MARISTATEUNIVERSITY : u.name === "Orel State University" ? ORELSTATEUNIVERSITY : u.name === "Orenburg State University" ? ORENBURGSTATEUNIVERSITY : u.name === "Tver State Medical University" ? TVERSTATEMEDICALUNIVERSITY : u.name === "Altai State Medical University" ? AltaiStateMedicalUniversity : u.image || u.img),
+              }))
+            : [
               {
                 name: "Mari State University",
                 img: MARISTATEUNIVERSITY,
@@ -245,17 +252,17 @@ const Russia = () => {
                 name: "Altai State Medical University",
                 img: AltaiStateMedicalUniversity,
               },
-            ].map((uni, i) => (
+            ]).map((uni, i) => (
               <div
                 key={i}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
               >
                 <img
-                  src={uni.img}
+                  src={uni.img || uni.image}
                   loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
-                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  srcSet={`${uni.img || uni.image} 1x, ${uni.img || uni.image} 2x`}
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">

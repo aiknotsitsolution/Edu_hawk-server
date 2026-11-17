@@ -9,6 +9,7 @@ import ctaBgImg from "../../../../../../Images/Abroad/Spain/Engineering_PG/Elect
 import Universitat_Politecnica_de_CatalunyaImg from "../../../../../../Images/Abroad/Spain/Engineering_UG/Mechanical/Universitat_Politecnica_de_Catalunya.webp";
 import University_of_ValenciaImg from "../../../../../../Images/Abroad/Spain/Dentistry/University_of_Valencia.webp";
 import Technical_University_of_MadridImg from "../../../../../../Images/Abroad/Spain/Engineering_PG/General/Technical_University_of_Madrid.webp";
+import cmsData from "../../../../../../data/study_abroad/spain/ece_engg_pg.json";
 
 const page = {
   "name": "Electronics & Communication - PG in Spain",
@@ -467,9 +468,36 @@ const page = {
 };
 
 export default function ElectronicsCommunicationPGSpain() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

@@ -1,0 +1,108 @@
+{
+  "id": "gmat",
+  "name": "GMAT (Graduate Management Admission Test)",
+  "shortName": "GMAT",
+  "category": "Entrance & Academic Tests",
+  "badge": "GMAC Global Business School Benchmark",
+  "seo": {
+    "title": "GMAT Exam for Study Abroad: Focus Edition Pattern, Scoring 205–805 & Prep | EduHawk Worldwide",
+    "description": "Complete guide to the GMAT Focus Edition administered by GMAC for MBA and Master's in Management programs abroad. Learn about Quantitative, Verbal, and Data Insights sections, scoring scale, fees, and preparation.",
+    "keywords": "GMAT Graduate Management Admission Test, GMAT Focus Edition, GMAT exam pattern, GMAT scoring 205 to 805, GMAT eligibility, GMAT exam fees India, GMAT exam preparation, GMAT for studying abroad, MBA abroad GMAT"
+  },
+  "hero": {
+    "badge": "GMAC Global Business School Benchmark",
+    "heroPara": "The Graduate Management Admission Test (GMAT), administered by GMAC, is the gold standard assessment designed specifically for students applying to MBA programs, Master's in Management (MiM), and graduate business degrees worldwide."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "2 Hours 15 Minutes (+ optional 10m break)"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "205 to 805 (all total scores end in 5)"
+    },
+    {
+      "label": "Section Scoring",
+      "value": "60 to 90 per section (1-point increments)"
+    },
+    {
+      "label": "Sections Count",
+      "value": "3 Equal Sections (45 mins each)"
+    },
+    {
+      "label": "Score Validity",
+      "value": "5 Years from Test Date"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "US $275 – $300 (~₹23,000 – ₹25,000)"
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Australia",
+    "Germany",
+    "France",
+    "Spain",
+    "Singapore",
+    "Ireland"
+  ],
+  "overview": [
+    "The Graduate Management Admission Test (GMAT) is administered by the Graduate Management Admission Council (GMAC) and accepted by more than 7,700 graduate business programs at 2,400+ business schools globally.",
+    "The examination evaluates analytical thinking, quantitative problem-solving, data interpretation, and critical verbal reasoning to determine academic readiness for graduate-level business education.",
+    "Under the enhanced GMAT Focus Edition, the test features three equal sections with flexible section ordering and a question edit/review feature that allows candidates to change up to three answers per section."
+  ],
+  "sections": [
+    {
+      "name": "Quantitative Reasoning",
+      "duration": "45 Minutes",
+      "questions": "21 Questions",
+      "measures": "Mathematical problem-solving ability, arithmetic, algebra, and applied quantitative reasoning. Calculators are not permitted in this section."
+    },
+    {
+      "name": "Verbal Reasoning",
+      "duration": "45 Minutes",
+      "questions": "23 Questions",
+      "measures": "Critical reasoning and reading comprehension, evaluating the ability to understand written passages, analyze arguments, and draw reasoned conclusions."
+    },
+    {
+      "name": "Data Insights",
+      "duration": "45 Minutes",
+      "questions": "20 Questions",
+      "measures": "Data analysis and interpretation, integrating Data Sufficiency, Multi-Source Reasoning, Table Analysis, Graphics Interpretation, and Two-Part Analysis. An on-screen calculator is provided."
+    }
+  ],
+  "preparationTips": [
+    "Understand the official GMAT Focus Edition syllabus, scoring structure, and section timing.",
+    "Take an official GMAT Focus Practice Exam on mba.com to benchmark your current scoring profile.",
+    "Practice Quantitative and Verbal reasoning questions systematically, mastering pacing of 2 minutes per question.",
+    "Develop specialized Data Insights skills by analyzing complex tables, multi-source tabs, and graphical displays.",
+    "Complete timed full-length GMAT mock tests under authentic exam conditions.",
+    "Review every incorrect answer, analyze alternative problem-solving shortcuts, and strengthen weaker concepts."
+  ],
+  "faqs": [
+    {
+      "q": "What is the full form of GMAT?",
+      "a": "GMAT stands for Graduate Management Admission Test, used by graduate business schools to evaluate applicants for MBA and business master's degrees."
+    },
+    {
+      "q": "Is GMAT compulsory for an MBA abroad?",
+      "a": "No. While top business schools strongly prefer or mandate GMAT scores, some institutions offer GMAT waivers, accept GRE scores, or evaluate candidates based on substantial executive experience."
+    },
+    {
+      "q": "What is a good GMAT score?",
+      "a": "On the GMAT Focus Edition scale (205–805), a score of 595–645 is competitive for good business schools, while 655–715+ places applicants in the top percentiles for elite global programs."
+    },
+    {
+      "q": "Can Indian students take the GMAT?",
+      "a": "Yes. Indian students can register at mba.com for testing at authorized Pearson VUE centers across major Indian cities or choose the online proctored exam."
+    },
+    {
+      "q": "Can I take the GMAT online?",
+      "a": "Yes, the GMAT Online examination is available to candidates worldwide, featuring identical questions, scoring, and duration as the test-center exam."
+    }
+  ]
+}

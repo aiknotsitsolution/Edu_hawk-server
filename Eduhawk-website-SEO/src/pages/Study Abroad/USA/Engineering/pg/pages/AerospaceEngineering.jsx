@@ -1,3 +1,4 @@
+import aerospaceEngineeringPGData from "../../../../../../data/study_abroad/usa/aero_engg_pg.json";
 import React from "react";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_PG/aerospace-engineering.webp";
@@ -238,21 +239,33 @@ const faqTitle = `Frequently Asked Questions — ${branch.name} in the USA`;
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content strings above are unchanged.
-const PostgraduateAerospaceEngineering = () => (
-  <EngineeringBranchPage
-    branch={branch}
-    level="PG"
-    heroImg={heroImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/pg/aerospace-engineering"
-    heroAlt={heroAlt}
-    coursesTitle={coursesTitle}
-    unisTitle={unisTitle}
-    testsEyebrow="Standardised tests"
-    testsTitle="GRE & Other Admission Tests"
-    careersTitle={careersTitle}
-    faqTitle={faqTitle}
-  />
-);
+const PostgraduateAerospaceEngineering = () => {
+  const dynamicBranch = {
+    ...branch,
+    title: aerospaceEngineeringPGData?.seo?.title || branch.title,
+    description: aerospaceEngineeringPGData?.seo?.description || branch.description,
+    heroSub: aerospaceEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    faqs: (aerospaceEngineeringPGData?.faq && aerospaceEngineeringPGData.faq.length > 0)
+      ? aerospaceEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : branch.faqs,
+  };
+
+  return (
+    <EngineeringBranchPage
+      branch={dynamicBranch}
+      level="PG"
+      heroImg={heroImg}
+      imgDims={imgDims}
+      seoPath="/study-abroad/usa/pg/aerospace-engineering"
+      heroAlt={heroAlt}
+      coursesTitle={coursesTitle}
+      unisTitle={unisTitle}
+      testsEyebrow="Standardised tests"
+      testsTitle="GRE & Other Admission Requirements"
+      careersTitle={careersTitle}
+      faqTitle={faqTitle}
+    />
+  );
+};
 
 export default PostgraduateAerospaceEngineering;

@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Electronics & Communication - UG in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Electronics & Communication - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Electronics & Communication - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": ""
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Electronic and Electronic Engineering in Italy",
-    "subtitle": "Yes. Indian students can apply provided they have Class 12 qualification meeting the university's entry requirements and also meet the relevant academic, language, entrance-test and document conditions.",
+    "subtitle": "Introduction",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/ece_engg_ug_Polytechnic_of_Milan-image2.png"
   },
   "stats": [
     {
@@ -29,38 +30,937 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate",
+    "degree": "Bachelor in Electronic Engineering",
     "duration": "3 to 4 Years (UG) / 2 Years (PG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Yes. Indian students can apply provided they have Class 12 qualification meeting the university's entry requirements and also meet the relevant academic, language, entrance-test and document conditions.",
-  "universities": [
+  "overview": [
+    "Introduction",
+    "If you are a student interested in electronic devices, semiconductor technology, circuit design, sensors, telecommunications and intelligent electronic systems, Italy is an attractive destination. At Italian universities engineering is taught as a mix of maths and physics, electronic design, lab work and practical application.",
+    "In Italy, Bachelors programs in Electronics Engineering in Italy typically refer to three-year undergraduate degrees, called Laurea, worth 180 ECTS credits. Students learn about electronic circuits, semiconductor devices, signal processing, sensors, communication systems and embedded technologies.",
+    "Bachelors programs in Electronics Engineering in Italy can be a gateway to international engineering education for Indian students after Class 12. Before applying students are advised to look at the course curriculum, language of instruction, entrance examinations, academic eligibility and tuition fees.",
+    "Edu-Hawk Worldwide helps students to explore right universities, understand admission requirements, prepare documents and plan their study abroad applications."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano",
-      "location": "Milan, Italy",
-      "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why study electronic engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Electronic engineering is at the heart of today's technologies - from smartphones and communication networks to automotive electronics, industrial automation, medical devices and connected systems. Italian universities provide a grounding in engineering that helps students learn how electronic components and systems are designed, tested and developed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Why Choose a Bachelor's in Electronics Engineering in Italy?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Strong scientific foundations Study maths, physics, electrical circuits and electronic equipment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Practical learning: Depending on the university, students may get experience with laboratory activities, electronic design exercises and technical projects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applications of modern technology: Study sensors, embedded systems, microelectronics and electronic communication."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industry relevance: Bases for careers in electronics manufacturing, automotive technology, telecommunications and automation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International academic exposure: Experience a European university environment and find out about exchange possibilities where they exist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possibilities for further education: Graduates can apply for master studies in electronics, microelectronics, telecommunications or related fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When choosing Electronics Engineering Bachelors programs in Italy , students should compare the curriculum, laboratory facilities, teaching language, entrance requirements and opportunities for postgraduate study."
+          ]
+        }
+      ]
     },
     {
-      "name": "Sapienza University of Rome",
-      "location": "Rome, Italy",
-      "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Electrical Engineering Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate courses in electronics engineering expose students to the design, development, testing and application of electronic devices, circuits and systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Core subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university, students may learn:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineering Maths",
+            "Physics , chemistry",
+            "Programming computers",
+            "Theory of electrical circuits",
+            "Electronic devices and elements",
+            "Analog electronics",
+            "Digital electronic",
+            "Electro magnetism",
+            "Electronic and electrical measurements",
+            "Systems and Signals",
+            "Microprocessors and embedded systems",
+            "Instrumentation and Sensors",
+            "Communication systems",
+            "Laboratory and electronic design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When comparing Electronics Engineering Courses in Italy , make sure to look at the official curriculum to see the balance between electronics, communications, computer systems and other engineering subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialization areas of popular"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Microelectronics : Deals with semiconductor devices, integrated circuits and miniaturized electronic components."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Digital Electronics: Covers digital circuits, logic systems and digital hardware design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded Systems : deals with electronic hardware and software embedded in products like cars, home appliances and industrial equipment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Telecommunications Examines communication networks, signal transmission and wireless systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sensors and Instrumentation: Includes electronic sensing systems, measurement devices and data acquisition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automotive Electronics: This covers the electronic control units, sensors and electronic systems that go into vehicles."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industrial Electronics Application of electronic devices, control systems and instrumentation to industrial equipment and production systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some fields are offered as electives or master's programs rather than as bachelor's specializations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Top Electronics Engineering Colleges in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following universities offer undergraduate courses in electronics engineering or closely related fields: Check the names of the program, language requirements and admission procedures for the intake you are targeting."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. Polytechnic of Milan"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronic Engineering, Three-Year Bachelor Degree - Politecnico di Milano Politecnico di Milano offers a 3 years bachelor degree in Electronic Engineering at Milano Leonardo. The course is taught in Italian and has a value of 180 credits."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The course starts with an introduction to the scientific and engineering fundamentals, then moves on to electronic devices, circuits, systems, sensors and electronic design. The university's program information indicates applications in information and communication technologies, integrated circuits and intelligent sensing systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students with an interest in semiconductor technology, electronic hardware, circuit design and advanced electronic systems may find this option of interest."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official course page: https://www.polimi.it/en/education/laurea-programmes/programme-detail/electronic-engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. University of Bologna - Electronic Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The University of Bologna is introducing a three-year Bachelor's degree in Electronics Engineering at its Cesena campus for the academic year 2026/27. The degree corresponds to 180 ECTS credits and is taught in Italian. The entry route published is open access through TOLC-I, subject to the applicable requirements of the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The program gives students an introduction to applied mathematics, physics and basic electronic design. It also covers practical design experiences and laboratory learning."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "This course might appeal to students interested in electronic devices, circuit design, and applied technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official Course Page https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6670"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Polytechnic of Milan",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/ece_engg_ug_Polytechnic_of_Milan-image2.png"
+        },
+        {
+          "name": "University of Bologna",
+          "location": "Bologna, Italy",
+          "fee": "€1,000 – €3,500 / Year",
+          "image": "/uploads/study_abroad/italy/ece_engg_ug_University_of_Bologna-image1.png"
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Electronics Engineering in Italy Eligibility",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian applicants must meet the academic, language and entry requirements of the university they are applying to."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Qualifications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants typically need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A recognized Higher Secondary School pass of Class 12 or equivalent.",
+            "A school qualification fulfilling the University's requirements for undergraduate study in Italy.",
+            "Mathematics and/or other entrance requirements specified in the program.",
+            "Academic results that meet the applicable admission requirements.",
+            "Additional documents to prove qualification upon request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university determines whether the applicant's prior education meets its entry requirements. Completion of Class 12 does not automatically ensure admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Requirements for the subject"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mathematics is important for circuit analysis, signal processing, electronic design, and engineering calculations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Physics is the basis for understanding electricity, electronic components, semiconductor devices, and electromagnetic phenomena."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should check the required subjects and any minimum academic marks directly with the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language criteria"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language requirements vary according to the program you choose:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Degrees taught in Italian: Applicants may need to demonstrate Italian language proficiency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English-taught degrees: proof of English language proficiency may be required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mixed-language programs: Students must check the language in each academic year and any additional conditions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance tests"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities require engineering entrance exams or other selection processes. For instance, the University of Bologna requires TOLC-I for the Electronics Engineering bachelor's degree program for the academic year 2026/27, while Politecnico di Torino requires a mandatory admission test."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exam formats, syllabuses and selection criteria differ. Students who want to Study Electronics Engineering in Italy Bachelors should Check the Latest Official Admission Information for the University of their Choice."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Electronics Engineering in Italy: Admission Requirements",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Admission may require academic verification, entrance examinations, language requirements and supporting documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents commonly requested are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Class 10 certificate and marksheet",
+            "Class 12 marksheet & certificate.",
+            "Matriculation certificate.",
+            "Passport (valid)",
+            "Results of entrance examinations, if required.",
+            "Evidence of knowledge of Italian or English language, where applicable.",
+            "Official translation of academic documents upon request.",
+            "Documents required for foreign qualification verification.",
+            "Sorted out my university application.",
+            "Application Fee, if any.",
+            "Other declarations or forms required by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "What do entrance exams test?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university, the engineering admission tests may assess:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Maths",
+            "Logic and rationality",
+            "Basic sciences",
+            "Problem solving skills",
+            "Other subjects in the official syllabus for the examination"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prepare for the exam required by your university of choice. Do not assume all institutions use the same test or have the same selection process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Yes, Indian students can apply post class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Yes. Indian students can apply provided their school qualifications meet the entry requirements of the university and they meet the relevant academic, language, entrance-test and documentation requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can help students with the eligibility check, shortlisting the courses and organize the application documents."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Electronics Engineering Fees in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "How much does it cost to study electronics engineering ? The cost depends on the university, the tuition rules that apply, scholarships and living arrangements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approximate fees (tuition) per year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Type of institution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated annual tuition fee"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approx. INR equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "State Universities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€900-€4,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹97,200-₹4,32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private institutions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€6,000-€20,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹6,48,000-₹21,60,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative planning figures and are not definitive fee quotes for each of the electronics engineering programs . Actual tuition may vary depending on the institution and the student's circumstances."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exchange rate example: €1 = ₹108. INR values are indicative and subject to change with exchange rates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students are encouraged to refer to the official tuition schedule of the selected university and academic year prior to making any financial commitments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated monthly living costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Spending"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Monthly cost estimate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Lodgings"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€300-€600"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Grocer and food"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€150-€250"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transport locally"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€25-€60"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal expenses and utilities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€100-€200"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Total Estimate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€700-€1,100"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Using the example exchange rate, this is an estimated living budget of about ₹75,600-₹1,18,800 a month. Real expenses will vary by city, accommodation and personal spending."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bursaries and financial help"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students who meet the criteria can explore:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "University scholarships based on merit",
+            "Student grants and regional scholarships",
+            "Tuition remission or discounts",
+            "need-based financial assistance, when available",
+            "Other funding schemes for eligible students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility, award amounts and deadlines differ. Students should budget with no assumption of scholarships as these are not guaranteed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While calculating Electronics Engineering Fees in Italy , take into account tuition, accommodation, food, transport, insurance, travel, visa-related expenses and study materials."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Electronics Engineering Admission Process in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In general students are able to follow these instructions while applying to Italian universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Choose your area of interest: Whether you want to work on electronic circuits, semiconductor devices, embedded systems, telecommunications or industrial electronics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Shortlist universities Compare course structure, teaching language, tuition and campus location."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check Eligibility: Ensure that you fulfilll the university's eligibility criteria in terms of subjects and your Class 12 qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Identify the appropriate entrance test, review the syllabus and register before the deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prepare your documents Gather academic records, passport, language evidence and any required qualification-verification documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Submit application: Complete the university's application and selection process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Receive admission decision: Follow the instructions from the institution for enrollment and acceptance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Complete pre-enrolment, if required: Students requiring an Italian study visa normally complete the applicable procedure via Universitaly."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Apply for the student visa, sending the required documents to the competent Italian diplomatic representation. Admission does not ensure visa approval."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Make arrangements for accommodation, insurance and travel before you go."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Deadlines and application procedures differ depending on the intake, applicant category and university. Keep up to date with official university and visa guidance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can assist students in comprehending the process and compare university options, as well as organize their applications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Recognition, Professional Requirements and Further Study",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A bachelor's degree in electronics engineering can be a foundation for technical employment or a starting point for further education. Professional requirements are dependent on the country, role and responsibilities involved."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further education Graduates may progress to master's programs in electronic engineering, microelectronics, telecommunications, embedded systems and related disciplines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering jobs: Employers may look for technical knowledge, lab experience, project work, and software skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional practice in Italy: Depending on the profession, some freelance professional activities may require additional testing or registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Employment in India: Graduates should check with their intended employer, role and any relevant professional authority."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International career plans Rules regarding recognition, work authorization and professional registration differ from country to country."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should verify that the curriculum meets their academic and career goals before enrolling."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Career Opportunities in Electronics Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates may find opportunities in electronic hardware, semiconductor technology, telecommunications, automotive electronics, industrial automation and technology services"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential entry-level jobs:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Electronics Engineer (Junior)",
+            "Electronic Design Assistant",
+            "Assistant Hardware Engineer",
+            "Electronics Testing Technician",
+            "Semiconductor Engineering Assistant",
+            "Embedded Systems Helper",
+            "PCB Design Assistant",
+            "Assistant Instrumenter",
+            "Telecommunications Engineer Assistant",
+            "Trainee Quality Test Engineer",
+            "Electronics Manufacturing Engineer Training",
+            "Technical Support Technician"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Required documents",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International applicants may need to submit all or some of the following documents:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Class 10 certificate and marksheet.",
+            "Class 12 marksheet & certificate.",
+            "School-leaving certificate (SSL)",
+            "The university requested academic transcripts and other school records.",
+            "Score on entrance exam (if applicable).",
+            "Proof of English or Italian language skills, if required.",
+            "Official translations of academic documents, if required.",
+            "Qualification-verification documents (if required).",
+            "Filled out the university application.",
+            "Letter of enrollment or admission.",
+            "proof of financial means, accommodation and insurance as required by the visa.",
+            "Any other documents required by the university or consular authority."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The final checklist depends on the university, applicant's qualification and applicable visa procedures. Refer to the official checklist of the selected course and intake."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "Polytechnic of Milan",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/ece_engg_ug_Polytechnic_of_Milan-image2.png"
     },
     {
       "name": "University of Bologna",
       "location": "Bologna, Italy",
       "fee": "€1,000 – €3,500 / Year",
-      "image": ""
-    },
-    {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "image": "/uploads/study_abroad/italy/ece_engg_ug_University_of_Bologna-image1.png"
     }
   ],
-  "faq": []
+  "faq": [
+    {
+      "question": "How long does a bachelor's degree in electronics engineering last in Italy?",
+      "answer": "Many Italian bachelor degrees in electronic engineering of three years are worth 180 ECTS credits. Students should check the length of the program and the syllabus of the course they have chosen."
+    },
+    {
+      "question": "Is there any Electronics Engineering bachelor's program in Italy in English?",
+      "answer": "A lot of specialized undergraduate courses in electronics engineering are taught in Italian. Language arrangements may differ for related programs. Applicants should check the language of instruction of the whole program before applying."
+    },
+    {
+      "question": "What is the cost of electronics engineering fees in Italy?",
+      "answer": "As a general rule of thumb in your planning , public universities will cost you between €900 and €4,000 per year . Private institutions may be even more expensive . Actual fees depend on the university, program and applicable fee regulations."
+    },
+    {
+      "question": "What can I do with a bachelor degree in electronics engineering in Italy?",
+      "answer": "Depending on your skills and experience you could look at jobs in electronic design, hardware testing, semiconductor technology, embedded systems, telecommunications, automotive electronics and industrial automation. Some graduates go on to a master's degree to specialize more. Top 6 High-Density SEO Keywords Electronics Engineering in Italy Bachelors programs in Electronics Engineering in Italy Electronics Engineering Courses in Italy Electronics Engineering in Italy Eligibility Electronics Engineering Fees in Italy Study Electronics Engineering in Italy Bachelors"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does a bachelor's degree in electronics engineering last in Italy?",
+      "a": "Many Italian bachelor degrees in electronic engineering of three years are worth 180 ECTS credits. Students should check the length of the program and the syllabus of the course they have chosen."
+    },
+    {
+      "q": "Is there any Electronics Engineering bachelor's program in Italy in English?",
+      "a": "A lot of specialized undergraduate courses in electronics engineering are taught in Italian. Language arrangements may differ for related programs. Applicants should check the language of instruction of the whole program before applying."
+    },
+    {
+      "q": "What is the cost of electronics engineering fees in Italy?",
+      "a": "As a general rule of thumb in your planning , public universities will cost you between €900 and €4,000 per year . Private institutions may be even more expensive . Actual fees depend on the university, program and applicable fee regulations."
+    },
+    {
+      "q": "What can I do with a bachelor degree in electronics engineering in Italy?",
+      "a": "Depending on your skills and experience you could look at jobs in electronic design, hardware testing, semiconductor technology, embedded systems, telecommunications, automotive electronics and industrial automation. Some graduates go on to a master's degree to specialize more. Top 6 High-Density SEO Keywords Electronics Engineering in Italy Bachelors programs in Electronics Engineering in Italy Electronics Engineering Courses in Italy Electronics Engineering in Italy Eligibility Electronics Engineering Fees in Italy Study Electronics Engineering in Italy Bachelors"
+    }
+  ]
 }

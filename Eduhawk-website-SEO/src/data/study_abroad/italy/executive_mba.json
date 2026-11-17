@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Executive MBA in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Executive MBA in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Executive MBA in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Executive MBA in Italy for Indian Students, Executive MBA Programs in Italy, Best Executive MBA Universities in Italy, Executive MBA Eligibility in Italy, Executive MBA Admission Requirements in Italy, Cost of Executive MBA in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Executive MBA Italy for Indian Students",
-    "subtitle": "Executive MBA programs are typically aimed at professionals who have a recognized bachelor's degree and relevant work experience. How many years will depend on the institution.",
+    "subtitle": "The Executive MBA in Italy for Indian Students is for working professionals, experienced managers, entrepreneurs and business leaders who want to boost their leadership and strategic management skills while continuing their career progression. Executive education in Italian business schools covers business strategy, finance, marketing, innovation, organizational leadership and international management.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/executive_mba_Luiss_Business_School-image3.png"
   },
   "stats": [
     {
@@ -29,38 +30,881 @@
     }
   ],
   "highlights": {
-    "degree": "Executive",
+    "degree": "Executive Master of Business Administration",
     "duration": "1 to 2 Years (PG) / 3 Years (UG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Executive MBA programs are typically aimed at professionals who have a recognized bachelor's degree and relevant work experience. How many years will depend on the institution.",
-  "universities": [
+  "overview": [
+    "The Executive MBA in Italy for Indian Students is for working professionals, experienced managers, entrepreneurs and business leaders who want to boost their leadership and strategic management skills while continuing their career progression. Executive education in Italian business schools covers business strategy, finance, marketing, innovation, organizational leadership and international management.",
+    "An Executive MBA (EMBA) is typically geared toward the needs of the working professional, as opposed to the traditional, full-time MBA. Depending on the institution, classes may be offered on weekends, in modules, part-time or a blended learning format.",
+    "Italy is an attractive destination for executive management education due to the international business environment, well-established management schools and sectors such as finance, manufacturing, fashion, luxury goods, consulting and technology. Applicants from India are advised to review the program schedules, professional experience requirements, tuition fees and the qualification awarded before applying."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano",
-      "location": "Milan, Italy",
-      "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study an Executive MBA in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "An Executive MBA in Italy is a good way for experienced professionals to get ready for senior management positions and to gain a broader understanding of international business."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Leadership development: Improved decision-making, team management, negotiation, and strategic leadership skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career progression: Be ready for jobs involving more responsibility, business planning and organizational management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International exposure: Gain an understanding of global markets, international business strategy and cross-cultural leadership."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flexible learning formats: A few programs offer modular, weekend or part-time schedules for working professionals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional Networking: Connect with managers, entrepreneurs, executives, faculty and industry experts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Practical business learning: Apply management concepts to real-world challenges through case studies, projects, business simulations and challenges."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrepreneurship and innovation: Develop the abilities to expand a company, start new enterprises, or spearhead change in an organization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industry connections: Some business schools have corporate projects, alumni networks, and career development tools."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An Executive MBA is usually best suited to people who already have a career in business and want to advance it, rather than to those who are just starting a business career."
+          ]
+        }
+      ]
     },
     {
-      "name": "Sapienza University of Rome",
-      "location": "Rome, Italy",
-      "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Executive MBA Programs in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students searching for an Executive MBA in Italy may explore programs designed for professionals seeking to upgrade their management expertise while juggling work and education."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Program Type"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Main focus"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Appropriate for"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "General Management Executive MBA"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business strategy, leadership, operations, finance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Managers preparing to take on senior roles"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Executive MBA"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International strategy, cross-cultural leadership and global business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professionals aiming for international career"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Executive MBA Finance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Corporate finance and investment, financial strategy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business executives and finance professionals"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Executive MBA in Innovation Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Development Innovation and Digital Transformation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Technology entrepreneurs and leaders"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrepreneurship Executive MBA"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business growth, innovation and start-up development"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business owners and entrepreneurs-to-be"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Executive MBA in Digital Transformation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Digital strategy, technology uptake and organizational change"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Leaders of digital initiatives"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business school programs and specializations differ. A few schools offer a general Executive MBA rather than separate degrees for these subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Best Executive MBA Universities in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian professionals may consider the following Italian business schools for executive management education ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. SDA Bocconi School of Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "SDA Bocconi offers Executive MBA formats for experienced professionals. The program's modular format is designed to allow participants to combine management education with their work responsibilities. Admission decisions are based on the candidate's professional experience, leadership potential and motivation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official website SDA Bocconi Executive MBA website"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. POLIMI Graduate School of Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "POLIMI runs executive programs in flexible formats including its International Flex Executive MBA in English. The school emphasizes leadership, decision-making, practical business learning and professional networking."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official website: POLIMI Graduate School of Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Luiss Business School"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Luiss Business School offers Executive MBA programs in Rome and Milan. Its published program information includes options for experienced professionals, with programs requiring a minimum of seven years of professional experience. The course is taught in- Check the current intake and teaching language."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official website of Luiss Business School"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Note: The formats, fees, teaching languages, admission criteria and start dates of Executive MBA programs differ by institution. Before you apply, check with the business school to make sure the information is up to date."
+          ]
+        }
+      ]
     },
     {
-      "name": "University of Bologna",
-      "location": "Bologna, Italy",
-      "fee": "€1,000 – €3,500 / Year",
-      "image": ""
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Luiss Business School",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/executive_mba_Luiss_Business_School-image3.png"
+        },
+        {
+          "name": "POLIMI Graduate School of Management",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/executive_mba_POLIMI_Graduate_School_of_Management-image1.png"
+        },
+        {
+          "name": "SDA Bocconi School of Management",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/executive_mba_SDA_Bocconi_School_of_Management-image2.png"
+        }
+      ],
+      "groups": []
     },
     {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Pursue Executive MBA in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For Indian students, the eligibility criteria for an Executive MBA in Italy is usually more geared toward professional experience rather than for a regular undergraduate or postgraduate business program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common requirements are as follows:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree: A recognized undergraduate degree or equivalent."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional experience: Several years of related work experience. Some programs need considerable managerial or leadership experience."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Leadership potential: evidence of professional development, team functions, business results or decision-making experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English proficiency Applicants to English taught programs may be asked to show English proficiency according to the school's rules."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional profile: A current résumé that shows career progression, responsibilities and accomplishments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Interview: Some business schools conduct interviews to assess the applicant's goals, experience, and fit."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance assessment: Some programs may require or accept GMAT, GRE, Executive Assessment or a specific assessment of the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Huge variations in the requirements. For example, Luiss Business School requires a minimum of seven years' work experience for its Executive MBA programs, while other schools review applications based on their own admission policies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Executive MBA in Italy admission requirements",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "As a general rule, applicants should show academic preparation, professional experience, and clear career objectives."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common admission documents and requirements are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's degree Certificate.",
+            "Transcripts from school.",
+            "Updated professional CV/resume.",
+            "Statement of purpose or application essays.",
+            "Details of work experience and professional accomplishments.",
+            "Recommendation Letters (if required)",
+            "Test results in English, if available.",
+            "GMAT, GRE or other test scores (if required).",
+            "Assessment or Interview Admission.",
+            "Valid ID and passport documents.",
+            "Proof of payment of application fee if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some institutions may need more information about management responsibilities, career progression or employer support. Applicants are expected to follow the official checklist of the chosen Executive MBA program ."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Cost of Studying an Executive MBA in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of an Executive MBA in Italy varies according to the business school, the format of the program, the duration and the services offered."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following are illustrative tuition planning ranges and are not confirmed fees for each institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Program Category"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated tuition for the program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Equivalent INR Approximate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Selected Executive Development Programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€20,000-€35,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹21.72-38.01 Lac"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Executive MBA programs - Mid-range"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€35,000-€50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹38.01 - ₹54.30 Lac"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Executive MBA programs are the best"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€50,000-€80,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹54.30L - ₹86.88L +"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR equivalents based on an illustrative exchange rate of €1 ≈ ₹108.60. Actual exchange rates and fees will vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "As a concrete point of reference, Luiss Business School has published Executive MBA tuition fees of €35,000 for its Rome program and €40,000 for its Milan program. The published formats are part-time and taught in Italian, so applicants looking for an English-taught program should also consider other options."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other expenses could include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Application & Admission Fees",
+            "Travel for face to face modules or overseas study visits.",
+            "Travel and accommodation for classroom sessions.",
+            "Learning materials & program fees specific to the program.",
+            "Visa and residence permit charges, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some schools offer scholarships, tuition waivers or funding through your employer. Availability is subject to program, applicant profile and application deadline. Students should find out what exactly is included in the tuition fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. Executive MBA in Italy - How to Apply"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Here are the general steps Indian professionals may take to apply for an Executive MBA in Italy ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "What do you want to do in your career? Decide if you want to move into senior management, change industries, grow a business or develop international leadership skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pick the right business school. Compare program format, teaching language, duration, tuition fees and specialization options."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check your eligibility Check the degree requirements, professional experience criteria, English language proficiency and any required tests."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Get your application ready. Organize your academic transcripts, professional CV, essays, letters of recommendation and any other documents required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Submit the application. Fill out the online application for the business school and pay any required application fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Go to an interview or assessment. Please describe your career path, leadership experience, professional accomplishments and why you have chosen the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Receive admission decision. Kindly check the offer, tuition fee schedule, scholarship conditions and program calendar."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Secure travel and funding if necessary. Confirm your payment plan and check whether visa arrangements are needed for your course format and circumstances."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Enrolll completely. Please submit any outstanding documentation and follow the institution's instructions before the program starts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Executive MBA students need to make sure they can attend classes while maintaining their current job. Attendance requirements and international travel obligations vary from program to program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. Recognized Executive MBA Degree In Italy -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should be aware of the qualification the institution awards on successful completion of the course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Executive MBA programs are professional management qualifications. Their academic standing may differ. Some are university level post graduate programs, others are awarded as professional qualifications by a business school. Not every Executive MBA program enjoys the same academic status, simply because it carries the name Executive MBA."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check before you apply"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The institution that grants the qualification.",
+            "The name of the qualification.",
+            "Whether it's a university degree or a professional management qualification.",
+            "Relevant institutional / program accreditation.",
+            "Length of the program and learning requirements.",
+            "If the qualification is what your prospective employer or future academic institution requires."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students planning to return to India should check to see if there are any recognition requirements for their intended career or further study. Besides the qualification, employers may also take into account professional experience, leadership achievements and the reputation of the institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Executive MBA in Italy: Salary & Job Opportunities",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "An Executive MBA is typically designed to advance the career trajectory of experienced professionals. It can help progression into leadership roles, but the outcome is dependent on prior experience, industry, company size, performance and professional network."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential career directions:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Senior Business Manager",
+            "Mgr.",
+            "Director of Operations.",
+            "Director, Strategy & Business Development.",
+            "Director of Finance.",
+            "Marketing Manager -",
+            "Director, Project or Program.",
+            "Consultant to management.",
+            "Head of Digital Transformation",
+            "Business Owner/Entrepreneur"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated salary after Executive MBA in Italy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following are illustrative gross annual salary bands for related experienced management roles. They are not verified salary statistics for Executive MBA graduates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career level or position"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indicative gross annual pay"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Seasoned manager"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€40,000 - €60,000 (₹43.44 lakh - ₹65.16 lakh)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Functional Head or Senior Manager"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€60,000-€90,000 (₹65.16-₹97.74 lakh)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Director or executive level position"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€90,000 - €130,000+ (₹97.74 lakh - ₹1.412 crore+)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR equivalents based on €1 ≈ ₹ 108.60."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are not guarantyd results or expected salary increases upon completion of an Executive MBA. Salary levels will vary according to industry, geography, company, role and prior career track record. Senior roles may also be accompanied by bonuses or other perks not reflected in these illustrative ranges."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Executive MBA in Italy - Required Documents",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Applicants may be asked to prepare:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport valid.",
+            "Bachelor degree certificate.",
+            "Transcripts from school.",
+            "Updated professional CV/resume.",
+            "Statement of purpose or application essays.",
+            "Evidence of work experience or work history.",
+            "Leadership responsibilities and professional accomplishments.",
+            "Letters of recommendation (if any).",
+            "Certificate of English language proficiency where applicable.",
+            "GMAT, GRE or other test scores (if applicable).",
+            "Passport size photographs if needed.",
+            "Proof of application fee payment.",
+            "Financial and immigration documents (if applicable)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some business schools may require an interview or other documents. Students should use the official application checklist for their program of study."
+          ]
+        }
+      ]
     }
   ],
-  "faq": []
+  "universities": [
+    {
+      "name": "Luiss Business School",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/executive_mba_Luiss_Business_School-image3.png"
+    },
+    {
+      "name": "POLIMI Graduate School of Management",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/executive_mba_POLIMI_Graduate_School_of_Management-image1.png"
+    },
+    {
+      "name": "SDA Bocconi School of Management",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/executive_mba_SDA_Bocconi_School_of_Management-image2.png"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Who is eligible for an Executive MBA in Italy?",
+      "answer": "Executive MBA programs are typically aimed at professionals who have a recognized bachelor's degree and relevant work experience. How many years will depend on the institution."
+    },
+    {
+      "question": "How Long is an Executive MBA in Italy?",
+      "answer": "How long is the school? It varies by school and format. Many programs are part-time and last around 18-24 months, but some may be shorter or longer."
+    },
+    {
+      "question": "How much does an Executive MBA cost in Italy?",
+      "answer": "Tuition fees are dependent on the institution. For example, illustrative planning range some programs could cost in the order of €20,000 to €35,000 while premium international programs could cost €50,000 or more. Please confirm the exact current fee with the Business School."
+    },
+    {
+      "question": "Can one study Executive MBA in Italy while working?",
+      "answer": "Yes. Most Executive MBA programs are aimed at people who are already working and are offered part-time, modular, on weekends or in a blended format. Applicants are urged to check the attendance schedule and travel requirements before registering."
+    },
+    {
+      "question": "Can an Executive MBA get me a Senior Management role?",
+      "answer": "An Executive MBA can enhance leadership, strategy and business management skills, potentially helping to advance your career. However, professional experience, performance, industry conditions and employer requirements will affect promotion and salary outcomes."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Who is eligible for an Executive MBA in Italy?",
+      "a": "Executive MBA programs are typically aimed at professionals who have a recognized bachelor's degree and relevant work experience. How many years will depend on the institution."
+    },
+    {
+      "q": "How Long is an Executive MBA in Italy?",
+      "a": "How long is the school? It varies by school and format. Many programs are part-time and last around 18-24 months, but some may be shorter or longer."
+    },
+    {
+      "q": "How much does an Executive MBA cost in Italy?",
+      "a": "Tuition fees are dependent on the institution. For example, illustrative planning range some programs could cost in the order of €20,000 to €35,000 while premium international programs could cost €50,000 or more. Please confirm the exact current fee with the Business School."
+    },
+    {
+      "q": "Can one study Executive MBA in Italy while working?",
+      "a": "Yes. Most Executive MBA programs are aimed at people who are already working and are offered part-time, modular, on weekends or in a blended format. Applicants are urged to check the attendance schedule and travel requirements before registering."
+    },
+    {
+      "q": "Can an Executive MBA get me a Senior Management role?",
+      "a": "An Executive MBA can enhance leadership, strategy and business management skills, potentially helping to advance your career. However, professional experience, performance, industry conditions and employer requirements will affect promotion and salary outcomes."
+    }
+  ]
 }

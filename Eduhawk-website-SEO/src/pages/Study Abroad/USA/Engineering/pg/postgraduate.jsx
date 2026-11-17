@@ -1,3 +1,4 @@
+import pgHubData from "../../../../../data/study_abroad/usa/pg_hub.json";
 import React from "react";
 import { Link } from "react-router-dom";
 import {
@@ -123,7 +124,15 @@ const overviewParas = [
   "Subject to employer requirements and pertinent employment authorization laws, graduates may follow career paths in engineering, technology, scientific research, manufacturing, and infrastructure development. Prospective candidates can also explore [Undergraduate Engineering in the USA](/study-abroad/usa/ug/engineering) or [connect with Edu Hawk Worldwide counsellors](/contact).",
 ];
 
-const PostgraduateEngineering = () => (
+const PostgraduateEngineering = () => {
+  const dynamicFaqs = (pgHubData?.faq && pgHubData.faq.length > 0)
+    ? pgHubData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+    : faqs;
+  const dynamicHighlights = (pgHubData?.stats && pgHubData.stats.length > 0)
+    ? pgHubData.stats.map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    : highlights;
+
+  return (
   <EhpShell>
     <SeoHead
       title="Postgraduate Engineering in USA for Indian Students | MS in USA | Edu Hawk"
@@ -134,7 +143,7 @@ const PostgraduateEngineering = () => (
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "FAQPage",
-          mainEntity: faqs.map((f) => ({
+          mainEntity: dynamicFaqs.map((f) => ({
             "@type": "Question",
             name: f.q,
             acceptedAnswer: { "@type": "Answer", text: f.a },
@@ -173,7 +182,7 @@ const PostgraduateEngineering = () => (
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-7">
-            <StatGrid items={highlights} />
+            <StatGrid items={dynamicHighlights} />
           </div>
           <div className="lg:col-span-5">
             <EligibilityCtaCard level="PG" />
@@ -272,5 +281,7 @@ const PostgraduateEngineering = () => (
     />
   </EhpShell>
 );
+
+};
 
 export default PostgraduateEngineering;

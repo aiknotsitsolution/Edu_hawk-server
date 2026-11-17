@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study MSc Electronics & Communication Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to MSc Electronics & Communication Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Communication and Electronics Engineering (PG)",
     "subtitle": "The UK is a popular destination for international students seeking postgraduate education in Electronics and Communication Engineering."
   },
@@ -13,17 +8,39 @@
     "Universities in the UK provide advanced programs that combine electronics, communication technologies, signal processing, wireless systems, and practical engineering applications.",
     "The primary benefits of studying electronics and communication engineering in the UK"
   ],
+  "universities": [
+    {
+      "name": "Glasgow University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ece_engg_pg_Glasgow_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_ece_engg_pg_Glasgow_University-image2.png",
+      "desc": "Glasgow University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Birmingham",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ece_engg_pg_University_of_Birmingham-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_ece_engg_pg_University_of_Birmingham-image1.png",
+      "desc": "University of Birmingham is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Nottingham",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ece_engg_pg_University_of_Nottingham-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_ece_engg_pg_University_of_Nottingham-image3.png",
+      "desc": "University of Nottingham is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Come to the UK to Study Electronics and Communication Engineering?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "The UK is a popular destination for international students seeking postgraduate education in Electronics and Communication Engineering.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The UK is a popular destination for international students seeking postgraduate education in Electronics and Communication Engineering."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -64,15 +81,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Electronics and Communication Engineering Courses in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "Postgraduate programs in electronics and communication engineering are offered under several course titles, including electronic engineering, communications engineering, telecommunications, wireless systems, and signal processing.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Postgraduate programs in electronics and communication engineering are offered under several course titles, including electronic engineering, communications engineering, telecommunications, wireless systems, and signal processing."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -128,46 +141,60 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The Best Universities in the UK for Communication and Electronics Engineering",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Glasgow University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Glasgow_University_webp"
-            },
-            {
-              "name": "University of Birmingham",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_University_of_Birmingham_webp"
-            },
-            {
-              "name": "University of Nottingham",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_University_of_Nottingham_webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Requirements for Studying Electronics and Communication Engineering in the UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Many UK universities offer postgraduate programs in Electronic Engineering, Communications Engineering, Telecommunications and related subjects.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Indian students usually need to have a suitable undergraduate degree and be fluent in English in order to apply to postgraduate Electronics and Communication Engineering programmes."
+            "University of Nottingham - The institution offers engineering study and research opportunities in embedded systems, communications technologies, electronic systems, and related engineering topics."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Educational Requirements"
+            "University of Birmingham - Students have access to postgraduate engineering opportunities in electrical systems, communications, signal processing, and cutting-edge technologies."
           ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Glasgow University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ece_engg_pg_Glasgow_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_ece_engg_pg_Glasgow_University-image2.png",
+          "desc": "Glasgow University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Birmingham",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ece_engg_pg_University_of_Birmingham-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_ece_engg_pg_University_of_Birmingham-image1.png",
+          "desc": "University of Birmingham is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Nottingham",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ece_engg_pg_University_of_Nottingham-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_ece_engg_pg_University_of_Nottingham-image3.png",
+          "desc": "University of Nottingham is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements for Studying Electronics and Communication Engineering in the UK",
+      "lead": "Indian students usually need to have a suitable undergraduate degree and be fluent in English in order to apply to postgraduate Electronics and Communication Engineering programmes.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Educational Requirements"
         },
         {
           "t": "ul",
@@ -193,10 +220,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Additional Eligibility Requirements"
-          ]
+          "t": "h4",
+          "text": "Additional Eligibility Requirements"
         },
         {
           "t": "ul",
@@ -212,35 +237,51 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Admission Requirements for Electronics and Communication Engineering in the United Kingdom",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Postgraduate admittance requirements vary depending on the university, the chosen concentration, and whether the program is taught or research-based.",
       "groups": [
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Postgraduate admittance requirements vary depending on the university, the chosen concentration, and whether the program is taught or research-based."
+            "A recognized bachelor's degree in Electronics and Communication Engineering or a related discipline",
+            "The minimum score usually ranges from 55% to 65%, depending on the university."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Academic transcripts",
+              "d": "Undergraduate grades and official transcripts"
+            },
+            {
+              "t": "English proficiency",
+              "d": "IELTS, TOEFL, PTE, or an approved alternative, if required"
+            },
+            {
+              "t": "Statement of purpose",
+              "d": "Describes academic background, course choices, and professional objectives"
+            },
+            {
+              "t": "Interview",
+              "d": "Certain programs or research positions may require it"
+            }
           ]
         },
         {
           "t": "ul",
           "items": [
-            "A recognized bachelor's degree in Electronics and Communication Engineering or a related discipline",
-            "The minimum score usually ranges from 55% to 65%, depending on the university.",
-            "Academic transcripts | Undergraduate grades and official transcripts",
-            "English proficiency | IELTS, TOEFL, PTE, or an approved alternative, if required",
-            "Statement of purpose | Describes academic background, course choices, and professional objectives",
             "Recommendation letters - Academic or professional references, if require",
             "Curriculum vitae: Often required for relevant courses and research applications",
             "Only certain programs require work experience; otherwise, it could be optional.",
-            "Research degrees may require research proposals.",
-            "Interview | Certain programs or research positions may require it"
+            "Research degrees may require research proposals."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "English Language Requirements"
-          ]
+          "t": "h4",
+          "text": "English Language Requirements"
         },
         {
           "t": "p",
@@ -251,15 +292,11 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying electronics and communication engineering in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The cost of postgraduate Electronics and Communication Engineering is influenced by the university, course duration, location, and student lifestyle. For overseas students, setting aside money for personal needs, study materials, transit, housing, food, and tuition is crucial.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The cost of postgraduate Electronics and Communication Engineering is influenced by the university, course duration, location, and student lifestyle. For overseas students, setting aside money for personal needs, study materials, transit, housing, food, and tuition is crucial."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -289,8 +326,20 @@
           "items": [
             "Tuition ranges from £20,000 to £40,000 or more.",
             "Accommodations: £6,000 to £12,000",
-            "Groceries and food: £2,000 to £3,600",
-            "The cost of local transportation ranges from £600 to £1,500.",
+            "Groceries and food: £2,000 to £3,600"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of local transportation ranges from £600 to £1,500.",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
             "Study guides and books: £300 to £800",
             "Individual expenses: £1,000–£2,400",
             "The anticipated price ranges from £29,900 to £60,300 or more."
@@ -334,123 +383,64 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The Electronics and Communication Engineering Admission Process in the United Kingdom",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Indian students must finish these procedures in order to apply to a postgraduate Electronics and Communication Engineering program in the UK.",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Indian students must finish these procedures in order to apply to a postgraduate Electronics and Communication Engineering program in the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Research Universities and Courses"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The listing includes universities offering postgraduate courses in Electronics and Communication Engineering, Electronic Engineering, Telecommunications and similar fields. Examine the modules, length, cost of tuition, admission requirements, and job opportunities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Confirm Your Academic Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make that your bachelor's degree, academic standing, and previous engineering courses meet the standards of the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: prepare the required paperwork."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Collect degree certificates, passports, resumes, declarations of purpose, references, academic records, and, if required, English language test results."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Submit Your Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Use the official application portal or the manner specified by the university. Most postgraduate taught programs allow applications directly through university websites."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Receive an Admission Decision"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The university may provide a conditional or unconditional offer after evaluating your application. Complete any outstanding coursework or documentation requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Arrange for lodging and financing"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for accommodation, living expenses, tuition, and any additional financial supporting evidence for your student visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7 : Apply for a student visa to the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Once you've completed the admission requirements and received your Confirmation of Acceptance for Studies (CAS) , apply for a student visa if needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Travel to the UK and Begin Your Program"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Complete your university registration, attend orientation, and begin your postgraduate studies."
+            {
+              "step": 1,
+              "title": "Research Universities and Courses",
+              "desc": "The listing includes universities offering postgraduate courses in Electronics and Communication Engineering, Electronic Engineering, Telecommunications and similar fields. Examine the modules, length, cost of tuition, admission requirements, and job opportunities."
+            },
+            {
+              "step": 2,
+              "title": "Confirm Your Academic Qualifications",
+              "desc": "Make that your bachelor's degree, academic standing, and previous engineering courses meet the standards of the university."
+            },
+            {
+              "step": 3,
+              "title": "prepare the required paperwork.",
+              "desc": "Collect degree certificates, passports, resumes, declarations of purpose, references, academic records, and, if required, English language test results."
+            },
+            {
+              "step": 4,
+              "title": "Submit Your Application",
+              "desc": "Use the official application portal or the manner specified by the university. Most postgraduate taught programs allow applications directly through university websites."
+            },
+            {
+              "step": 5,
+              "title": "Receive an Admission Decision",
+              "desc": "The university may provide a conditional or unconditional offer after evaluating your application. Complete any outstanding coursework or documentation requirements."
+            },
+            {
+              "step": 6,
+              "title": "Arrange for lodging and financing",
+              "desc": "Make plans for accommodation, living expenses, tuition, and any additional financial supporting evidence for your student visa application."
+            },
+            {
+              "step": 7,
+              "title": "Apply for a student visa to the UK.",
+              "desc": "Once you've completed the admission requirements and received your Confirmation of Acceptance for Studies (CAS) , apply for a student visa if needed."
+            },
+            {
+              "step": 8,
+              "title": "Travel to the UK and Begin Your Program",
+              "desc": "Complete your university registration, attend orientation, and begin your postgraduate studies."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Accreditation and Professional Recognition",
-      "eyebrow": "Course Guide",
+      "lead": "Professional recognition can be important for postgraduate students who want to work in electronics, communications, telecommunications, or related engineering fields in the long run.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Professional recognition can be important for postgraduate students who want to work in electronics, communications, telecommunications, or related engineering fields in the long run."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -493,15 +483,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Career Opportunities for Electronics and Communication",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates of postgraduate programs in electronics and communication engineering have access to opportunities in telecommunications, electronics, semiconductor technology, embedded systems, networking, and wireless communication. Career promotion is influenced by a number of factors, including technical expertise, specialization, experience, employer demands, and professional development.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates of postgraduate programs in electronics and communication engineering have access to opportunities in telecommunications, electronics, semiconductor technology, embedded systems, networking, and wireless communication. Career promotion is influenced by a number of factors, including technical expertise, specialization, experience, employer demands, and professional development."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -536,12 +522,24 @@
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Graduate or Entry-Level Engineer | £25,000–£32,000",
-            "2-5 years of experience as an engineer | £30,000 to £45,000",
-            "Skilled Electronics or Communications Engineer | £40,000–£60,000",
-            "Engineering manager or senior engineer | £50,000–£75,000+"
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Graduate or Entry-Level Engineer",
+              "d": "£25,000–£32,000"
+            },
+            {
+              "t": "2-5 years of experience as an engineer",
+              "d": "£30,000 to £45,000"
+            },
+            {
+              "t": "Skilled Electronics or Communications Engineer",
+              "d": "£40,000–£60,000"
+            },
+            {
+              "t": "Engineering manager or senior engineer",
+              "d": "£50,000–£75,000+"
+            }
           ]
         },
         {
@@ -579,15 +577,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Required to Study Electronics and Communication Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "Indian students must prepare the following documents for university admission and the subsequent visa process.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Indian students must prepare the following documents for university admission and the subsequent visa process."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -605,10 +599,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Application Documents"
-          ]
+          "t": "h4",
+          "text": "Application Documents"
         },
         {
           "t": "ul",
@@ -624,10 +616,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Financial and visa-related documents"
-          ]
+          "t": "h4",
+          "text": "Financial and visa-related documents"
         },
         {
           "t": "ul",
@@ -642,146 +632,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Frequently Asked Questions",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "1. How long does it take to complete an Electronics and Communication Engineering master's degree in the UK?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Most full-time master's programs last one year. Research degrees and part-time master's programs may take longer, depending on the university and program structure."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "2. Can Indian students pursue postgraduate education in Electronics and Communication Engineering in the UK after obtaining a bachelor's degree in India?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Yes. Indian students with a recognized bachelor's degree in Electronics and Communication Engineering or a related discipline may apply if they meet the university's academic and English language standards."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "3. What is the price of an Electronics and Communication Engineering master's degree in the United Kingdom?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "International tuition for a one-year master's degree can range from £20,000 to £40,000 or more. Living expenses are additional, and the lifestyle, city, and university dictate the entire budget."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "4. Is IELTS necessary for postgraduate degrees in Electronics and Communication Engineering in the United Kingdom?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Not every time. Many institutions need IELTS Academic or similar recognized English-language qualification, while others may accept alternative proof or grant exemptions. Applicants should confirm the requirements of the program they have chosen."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "5. After earning a master's degree in Electronics and Communication Engineering, what kinds of careers are available in the UK?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Graduates can work as Electronics Engineers, Communication Systems Engineers, Telecommunications Engineers, Embedded Systems Engineers, Signal Processing Engineers, RF Engineers, and Semiconductor Engineers. Career possibilities are influenced by technical proficiency, experience, business demands, and professional recognition."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How can Edu Hawk Worldwide Consultancy help me study overseas?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "With the help of Edu Hawk worldwidestudents may select suitable universities, understand admission requirements, organize their application materials, and plan their study abroad adventure. Students should inquire about their academic, financial, immigration, and licensing requirements with the relevant official authorities."
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
+  "faqs": [
     {
-      "name": "Glasgow University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Glasgow_University.webp"
+      "q": "How long does it take to complete an Electronics and Communication Engineering master's degree in the UK?",
+      "a": "Most full-time master's programs last one year. Research degrees and part-time master's programs may take longer, depending on the university and program structure."
     },
     {
-      "name": "University of Birmingham",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "University_of_Birmingham.webp"
+      "q": "Can Indian students pursue postgraduate education in Electronics and Communication Engineering in the UK after obtaining a bachelor's degree in India?",
+      "a": "Yes. Indian students with a recognized bachelor's degree in Electronics and Communication Engineering or a related discipline may apply if they meet the university's academic and English language standards."
     },
     {
-      "name": "University of Nottingham",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "University_of_Nottingham.webp"
+      "q": "What is the price of an Electronics and Communication Engineering master's degree in the United Kingdom?",
+      "a": "International tuition for a one-year master's degree can range from £20,000 to £40,000 or more. Living expenses are additional, and the lifestyle, city, and university dictate the entire budget."
+    },
+    {
+      "q": "Is IELTS necessary for postgraduate degrees in Electronics and Communication Engineering in the United Kingdom?",
+      "a": "Not every time. Many institutions need IELTS Academic or similar recognized English-language qualification, while others may accept alternative proof or grant exemptions. Applicants should confirm the requirements of the program they have chosen."
+    },
+    {
+      "q": "After earning a master's degree in Electronics and Communication Engineering, what kinds of careers are available in the UK?",
+      "a": "Graduates can work as Electronics Engineers, Communication Systems Engineers, Telecommunications Engineers, Embedded Systems Engineers, Signal Processing Engineers, RF Engineers, and Semiconductor Engineers. Career possibilities are influenced by technical proficiency, experience, business demands, and professional recognition."
+    },
+    {
+      "q": "How can Edu Hawk Worldwide Consultancy help me study overseas?",
+      "a": "With the help of Edu Hawk worldwidestudents may select suitable universities, understand admission requirements, organize their application materials, and plan their study abroad adventure. Students should inquire about their academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying MSc Electronics & Communication Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
-  "faqs": []
+  "seo": {
+    "title": "Communication and Electronics Engineering (PG) | Edu-Hawk Worldwide",
+    "description": "The UK is a popular destination for international students seeking postgraduate education in Electronics and Communication Engineering.",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

@@ -1,207 +1,462 @@
 {
-  "seo": {
-    "title": "Study Postgraduate Engineering in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Postgraduate Engineering in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - France",
-    "title": "MASTER OF ENGINEERING IN FRANCE",
-    "subtitle": "France is an attractive destination for international students wanting to do ****postgraduate engineering studies in France****. Through programs in **mechanical engineering, computer science, electrical engineering, civil engineering, aerospace, energy, robotics, materials science and industrial engineering**, students can specialize in technical fields while gaining exposure to research and industry."
+    "title": "Master of Engineering in France",
+    "subtitle": "France is an attractive destination for international students wanting to do \\\\postgraduate engineering studies in France\\. Through programs in \\\\mechanical engineering, computer science, electrical engineering, civil engineering, aerospace, energy, robotics, materials science and industrial engineering\\\\, students can specialize in technical fields while gaining exposure to research and industry."
   },
   "overview": [
-    "France is an attractive destination for international students wanting to do ****postgraduate engineering studies in France****. Through programs in **mechanical engineering, computer science, electrical engineering, civil engineering, aerospace, energy, robotics, materials science and industrial engineering**, students can specialize in technical fields while gaining exposure to research and industry.",
-    "****Engineering PG programs in France**** are **two-year master’s degrees** and specialist engineering-school routes. Some courses are given in English only, others require knowledge of French.",
-    "With ****Edu Hawk worldwide** study abroad guidance**, students can explore these opportunities and know about the requirements entailed in studying abroad.",
-    "**"
+    "France combines advanced engineering education, scientific research and industrial collaboration. Its engineering schools and universities offer specialized study options for graduates who want to advance their technical knowledge or prepare for a research and professional career.",
+    "\\\\Wide range of specialisations:\\\\ You can choose from \\\\mechanical, civil, electrical, chemical, aerospace, computer, environmental and industrial engineering\\.",
+    "\\\\Research and innovation:\\\\ Many institutions work with laboratories and research organizations on topics such as \\\\artificial intelligence, renewable energy, robotics, materials and advanced manufacturing\\."
+  ],
+  "universities": [
+    {
+      "name": "Grenoble INP",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+      "image": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+      "desc": "University Grenoble Alpes : offers engineering degrees and national master's degrees in the fields of energy, industrial engineering, computer science, electronics, materials, environmental engineering and applied mathematics. It also offers \\\\international taught masters\\\\ programs in English. CentraleSupélec - offers master's degrees in \\\\engineering, digital technology, energy, systems and applied sciences\\\\ . Its master's programs are typically intended for students who have completed a bachelor's degree or an equivalent qualification."
+    },
+    {
+      "name": "INSA Toulouse",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_INSA_Toulouse.webp",
+      "image": "/uploads/study_abroad/france/france_INSA_Toulouse.webp",
+      "desc": "provides education in engineering and postgraduate master's programs in the fields of \\\\mechanical engineering, materials, structures, fluid dynamics, energy, electronics\\\\ and other technical fields."
+    },
+    {
+      "name": "Sorbonne University",
+      "location": "Paris, France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+    }
   ],
   "sections": [
     {
-      "title": "1. Is it possible to do engineering PG in France after BTech or BE?",
-      "eyebrow": "Why Study in France",
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study an Engineering PG in France?",
+      "lead": "France combines advanced engineering education, scientific research and industrial collaboration. Its engineering schools and universities offer specialized study options for graduates who want to advance their technical knowledge or prepare for a research and professional career.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "Benefits are:"
+        },
         {
           "t": "p",
           "items": [
-            "Yes . Some **engineering master’s programs in France** may satisfy academic entry requirements with a relevant **BTech or BE degree.** Admission criteria are degree, subject background, grades, language proficiency and programme-specific criteria.",
-            "FAQ"
+            "\\\\Wide range of specialisations:\\\\ You can choose from \\\\mechanical, civil, electrical, chemical, aerospace, computer, environmental and industrial engineering\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Research and innovation:\\\\ Many institutions work with laboratories and research organizations on topics such as \\\\artificial intelligence, renewable energy, robotics, materials and advanced manufacturing\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industry experience.\\\\ Programs may include internships, practical projects, work placements or industry-sponsored research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English-taught programmes:\\\\ Some institutions provide \\\\international master's programs taught in English\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International recognition:\\\\ The French national master's degrees and the properly accredited engineering diplomas are integrated into the European higher education frameworks."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further research opportunities\\\\ With a relevant \\\\master's qualification\\\\ you may be eligible for doctoral study, dependent on admission requirements."
           ]
         }
       ]
     },
     {
-      "title": "2. How long is postgraduate engineering in France?",
-      "eyebrow": "Degrees & Specializations",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "PG Engineering Courses in France",
+      "lead": "In France, \\\\postgraduate engineering programmes\\\\ are mainly divided into two types: national Master's degrees and engineering-school qualifications.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "A **national Master’s degree** typically takes **two years** of study after a related bachelor’s degree. Some programs allow entry to the second year . Specialized engineering school routes differ in length .",
-            "FAQ"
+            "Most Popular Engineering Majors"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanical Engineering: product design, manufacturing, mechanics, robotics and simulation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil Engineering:\\\\ Structural engineering, construction, transport infrastructure and sustainable buildings."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Engineering:\\\\ Power systems, electric machines, energy conversion, smart grids."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Engineering.\\\\ Embedded systems, software and intelligent systems, computer architecture."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineering:\\\\ Aerodynamics, propulsion, aircraft structures and space systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemical engineering\\\\ Process design, industrial chemistry, materials, and sustainable production."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industrial Engineering:\\\\ Operations, manufacturing systems, supply chains and optimization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Energy Engineering:\\\\ Energy storage, renewable energy, thermal systems and efficiency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Materials Science and Engineering:\\\\ Advanced materials, nanotechnology, composites and materials processing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Environmental engineering includes waste treatment, pollution prevention, water management, and environmental sustainability."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration and qualification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\French national Master's degree\\\\ is usually a \\\\two-year\\\\ course after a relevant bachelor's degree and is worth \\\\120 ECTS credits\\\\ for the master's cycle."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some programs allow direct entry into the second year for those with appropriate previous study."
           ]
         }
       ]
     },
     {
-      "title": "3. Can we do engineering PG in France in English?",
-      "eyebrow": "Top Institutions in France",
-      "groups": [
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Engineering PG Colleges in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
         {
-          "t": "p",
-          "items": [
-            "Yes. There are a number of institutions offering master’s programs taught in English, including international programs at **Grenoble INP**. Availability depends on the specialization and some programs are taught in part or in full in French.",
-            "FAQ"
-          ]
+          "name": "Grenoble INP",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+          "image": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+          "desc": "University Grenoble Alpes : offers engineering degrees and national master's degrees in the fields of energy, industrial engineering, computer science, electronics, materials, environmental engineering and applied mathematics. It also offers \\\\international taught masters\\\\ programs in English. CentraleSupélec - offers master's degrees in \\\\engineering, digital technology, energy, systems and applied sciences\\\\ . Its master's programs are typically intended for students who have completed a bachelor's degree or an equivalent qualification."
+        },
+        {
+          "name": "INSA Toulouse",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_INSA_Toulouse.webp",
+          "image": "/uploads/study_abroad/france/france_INSA_Toulouse.webp",
+          "desc": "provides education in engineering and postgraduate master's programs in the fields of \\\\mechanical engineering, materials, structures, fluid dynamics, energy, electronics\\\\ and other technical fields."
+        },
+        {
+          "name": "Sorbonne University",
+          "location": "Paris, France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
         }
       ]
     },
     {
-      "title": "4. What is the cost of engineering PG in France?",
-      "eyebrow": "Academic & Language Criteria",
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Study Engineering PG in France",
+      "lead": "Usually applicants need a \\\\undergraduate qualification\\\\ relevant to their chosen specialization.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "For **2026-2027** the national reference fee for a Master at a public university is **€255 per year** for eligible French and EU students, and **€3,950 per year** for non-EU students subject to differentiated fees. Engineering schools and special programs may have different fees.",
-            "FAQ"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "5. What jobs can I get after doing engineering PG in France?",
-      "eyebrow": "Application Checklist",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on your specialization you could work in **design, software, manufacturing, energy, infrastructure, aerospace, research and development or technical consulting**. Your career success will depend on your qualifications, practical experience, technical skills, language skills and work authorization.",
-            "How can **Edu Hawk worldwide Consultancy** help me to study abroad?",
-            "**Edu Hawk worldwide** can help students find the right universities, understand the admission criteria, put together the application documents, and plan their **study-abroad journey**. Students should contact the appropriate official authority to verify academic, financial, immigration and licensing requirements."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "6. **Submit your application:** Follow the programme's instructions and deadlines.",
-      "eyebrow": "Tuition & Cost of Living",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "7. **Final selection stages:** If necessary, you may be invited for an interview or asked to provide further information.",
-      "eyebrow": "Step-by-Step Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "8. **Accept your offer:** Complete your enrollment and follow the institution's instructions for payment.",
-      "eyebrow": "Degrees & Recognition",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "9. Employment and Income",
-      "eyebrow": "Job Roles & Industry Growth",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "**Graduates of postgraduates in engineering** can work in technical, research, design, production and management positions. Opportunities depend on specialization, work experience, language skills and employment eligibility.",
-            "**Engineering career opportunities after PG in France** include:"
+            "Common \\\\eligibility criteria for engineering PG in France\\\\ are:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- **Mechanical design engineer**. - **Structural/civil engineer**.",
-            "- **Power or Electrical Systems Engineer**. - Software or embedded systems engineer. - Aerospace engineer."
+            "A \\\\bachelor's degree\\\\ in engineering, technology or a closely related discipline, from an accredited institution. - Adequate academic performance in related subjects. - Mathematics, Physics, Programming or other technical prerequisites, depending on the course. - English language competence for programs taught in English. \\\\French language skills\\\\ for programs taught in French. - Academic or research experience relevant to the program as required."
           ]
         },
         {
           "t": "p",
           "items": [
-            "* **Chemical or Process Engineer**"
+            "For Indian applicants, some programs may be suitable with a \\\\BTech, BE or relevant BSc degree\\\\ depending on the institution and course content. A bachelor's degree in a non-related field may not meet the requirements for a specialized engineering master's.\\# 5. Requirements for Admission"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic and language criteria specific to the program are used by French universities and engineering schools to choose candidates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Admission requirements for engineering master's programs in France\\\\ are typically:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- Engineer in Sustainability and Energy.",
-            "- **Industrial or manufacturing engineer."
+            "\\\\Degree certificate or provisional certificate of Undergraduate degree. - \\\\Official academic transcript and grade record\\\\ - \\\\Resume. - Letter of motivation or statement of purpose. - \\\\Letters of recommendation\\\\, if required. - \\\\Results of English language tests\\\\ (if accepted and required), e.g. IELTS, TOEFL. - \\\\Proof of French language skills\\\\ for programs taught in French. - Passport or identification document. - Portfolio, research proposal or technical work samples for selected courses. - Interview or further assessment, if applicable."
           ]
         },
         {
           "t": "p",
           "items": [
-            "**Materials and research engineering**"
+            "Some programs may allow you to apply without taking a formal English language test if you meet the institution's exemption rules. Don't assume a test is optional without checking the current admissions policy.\\# 6. Cost of Engineering PG Study in France"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The \\\\cost of studying engineering PG in France\\\\ depends on university, type of qualification, nationality, program and any applicable tuition exemption.\\#\\# Tuition fees 2026/2027"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "According to Campus France, the reference rates for public higher education establishments in application of the national fee rules are as follows:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\| \\\\Programme\\\\ \\| \\\\Eligible students (France and EU)\\\\ \\| \\\\Non-EU students with differentiated fees\\\\ \\|---\\|---\\|---\\| \\| National Master \\| €255 per year \\| €3,950 per year \\| Lots of public engineering programs \\| €630 per year \\| Check institution's rate \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are national reference rates and not guarantyd fees for all engineering programs. Some engineering colleges are under different ministries or have different fee structures. Depending on their status and the rules of the institution, international students may be eligible for exemptions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of living\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Also students should plan for the following:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- **Technical consultant** or **project engineer**."
+            "\\\\ Accommodation and services. - \\\\Food products and groceries.",
+            "\\\\Mass transport.",
+            "Books, software and technical literature. - Insurance and health-related expenses where applicable. - \\\\Visa and administrative fees."
           ]
         },
         {
           "t": "p",
           "items": [
-            "A **master's qualification** may lead to specialized technical positions and to research related work. But the degree does not guaranty a particular job title or salary. Some employers also want an accredited engineering diploma, specialist technical skills or professional experience.",
-            "**Engineering salary in France** depends on the sector, location, employer and experience. Applicants are advised to consult current vacancies and salary surveys for their chosen role in France or chosen country of employment."
+            "\\\\Cost of living in France\\\\ Depends on the city, housing situation. Paris and some other big cities can be pricier than smaller student cities. \\\\Scholarships, institutional grants and eligible work study options\\\\ may be available for select programs.\\#\\# 7. Admission Procedure"
           ]
-        }
-      ]
-    },
-    {
-      "title": "10. Required Documentation",
-      "eyebrow": "Document Requirements",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "**Documents usually required for engineering postgraduate applications in France:**"
+            "The \\\\admission process for engineering PG in France\\\\ differs based on the university, course, nationality and country of residence of the applicant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose your specialisation:\\\\ Decide which engineering discipline best matches your previous education and future career goals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Compare suitable programmes:\\\\ Compare program content, language of instruction, length, qualification awarded and costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check eligibility:\\\\ Make sure you have the required degree, academic subjects, grades and language level."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Identify the application platform:\\\\ Applications can be made on the institution's portal, \\\\Études en France\\\\, or other designated platform."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Gather your documents:\\\\ Collect transcripts, certificates, CV, motivation letter and language results."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Submit your application:\\\\ Follow the programme's instructions and deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Final selection stages:\\\\ If necessary, you may be invited for an interview or asked to provide further information."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Accept your offer:\\\\ Complete your enrollment and follow the institution's instructions for payment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Sort your visa and accommodation:\\\\ If needed, apply for the \\\\France student visa process\\\\ and get ready for your arrival.8. Accreditation and recognition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the qualification's academic standing before you enroll."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\national Master's degree\\\\ is part of the French and European higher education system. A \\Diplôme d'ingénieur\\ is a distinct engineering qualification and needs to be verified for current authorization and accreditation by the \\\\Commission des titres d'ingénieur (CTI)\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should check:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- **A valid passport**. - **Bachelor’s degree or provisional certificate of the degree**. - Academic transcripts (official). - **Abstract**.",
-            "- Motivation letter / statement of purpose. - **Recommendation letters** (if needed). - test results in English or French (if applicable). - Certified translations of documents that are not accepted in the original language. - Research proposal or portfolio (some programmes). - Application form and proof of payment if applicable. - **Financial and visa documents** at the right time."
+            "The specific \\\\type of degree\\\\ awarded and by which school. - The qualification is a \\\\national Master's degree or an engineering diploma. - Current accreditation status, if applicable - Duration of the program and \\\\Credits (ECTS). Internships, lab and industrial project requirements. - Eligibility for further education or professional recognition in the country of intended employment.\\#\\# 9. Employment and Income"
           ]
         },
         {
           "t": "p",
           "items": [
-            "The specific checklist will vary by program. Applicants should check the official admissions portal to check whether certified copies, particular translation formats or other academic documents are required."
+            "\\\\Graduates of postgraduates in engineering\\\\ can work in technical, research, design, production and management positions. Opportunities depend on specialization, work experience, language skills and employment eligibility."
           ]
-        }
-      ]
-    },
-    {
-      "title": "11. FAQs – Engineering PG in France",
-      "eyebrow": "Frequently Asked Questions",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "FAQ"
+            "\\\\Engineering career opportunities after PG in France\\\\ include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Mechanical design engineer. - \\\\Structural/civil engineer.",
+            "\\\\Power or Electrical Systems Engineer. - Software or embedded systems engineer. - Aerospace engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\ \\\\Chemical or Process Engineer\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineer in Sustainability and Energy.",
+            "\\\\Industrial or manufacturing engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Materials and research engineering\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Technical consultant\\\\ or \\\\project engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\master's qualification\\\\ may lead to specialized technical positions and to research related work. But the degree does not guaranty a particular job title or salary. Some employers also want an accredited engineering diploma, specialist technical skills or professional experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Engineering salary in France\\\\ depends on the sector, location, employer and experience. Applicants are advised to consult current vacancies and salary surveys for their chosen role in France or chosen country of employment.\\#\\# 10. Required Documentation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Documents usually required for engineering postgraduate applications in France:\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\A valid passport. - \\\\Bachelor's degree or provisional certificate of the degree. - Academic transcripts (official). - \\\\Abstract.",
+            "Motivation letter / statement of purpose. - \\\\Recommendation letters\\\\ (if needed). - test results in English or French (if applicable). - Certified translations of documents that are not accepted in the original language. - Research proposal or portfolio (some programmes). - Application form and proof of payment if applicable. - \\\\Financial and visa documents\\\\ at the right time."
           ]
         }
       ]
@@ -209,12 +464,13 @@
   ],
   "faqs": [
     {
-      "question": "1. Can Indian students study Postgraduate Engineering in France?",
-      "answer": "Yes, Indian students with valid academic qualifications, required English or French language proficiency, and relevant documentation can apply."
-    },
-    {
-      "question": "2. How can Edu Hawk Worldwide Consultancy help me?",
-      "answer": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, Campus France procedure, visa assistance, and pre-departure briefings."
+      "q": "How can \\\\Edu Hawk worldwide Consultancy\\\\ help me to study abroad?",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students find the right universities, understand the admission criteria, put together the application documents, and plan their \\\\study-abroad journey. Students should contact the appropriate official authority to verify academic, financial, immigration and licensing requirements."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Master of Engineering in France | Edu-Hawk Worldwide",
+    "description": "France combines advanced engineering education, scientific research and industrial collaboration. Its engineering schools and universities offer specialized stu",
+    "keywords": "Study Engineering PG in France for Indian Students, Postgraduate Engineering Courses in France for International Students, Best Universities for Engineering PG in France, Master's Degree in Engineering in France, Engineering PG Eligibility Requirements in France, Engineering Admission Requirements for Indian Students, Engineering PG Tuition Fees in France 2026–2027, Cost of Studying Engineering in France for International Students, English-Taught Engineering Master's Programmes in France, Mechanical Engineering Master's Courses in France, Electrical and Computer Engineering Master's Programmes in France, Aerospace and Civil Engineering Master's Courses in France, Engineering Master's Programmes at Grenoble INP France, Engineering PG at CentraleSupélec and INSA Toulouse, CTI Accredited Engineering Schools in France for International Students, <"
+  }
 }

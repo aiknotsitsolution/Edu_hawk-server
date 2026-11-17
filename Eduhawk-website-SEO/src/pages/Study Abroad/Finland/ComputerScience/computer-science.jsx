@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/computer_science.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 
 // Page layout images (preserved exactly as original)
 import heroImg from "../../../../Images/Abroad/Finland/ComputerScience/cs_hero.webp";
@@ -490,7 +491,7 @@ const page = {
 export default function ComputerScienceFinland() {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

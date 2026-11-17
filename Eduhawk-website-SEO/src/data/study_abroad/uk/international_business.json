@@ -1,29 +1,54 @@
 {
-  "seo": {
-    "title": "Study International Business in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to International Business in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study International Business in United Kingdom",
     "subtitle": "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying International Business in the UK. UK universities provide business programmes that assist students in gaining the skills necessary to operate in an ever more interconnected global economy."
   },
   "overview": [
     "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying International Business in the UK. UK universities provide business programmes that assist students in gaining the skills necessary to operate in an ever more interconnected global economy.",
     "Here are some compelling reasons to study International Business in the UK:",
-    "Internationally Recognized Qualifications: UK university degrees are recognized worldwide and can open doors to job opportunities in different countries and sectors."
+    "Edu Hawk Worldwide Consultancy helps students to know about the university entrance requirementsto know about international study options and to prepare for the overseas education journey with proper preparation and direction."
+  ],
+  "universities": [
+    {
+      "name": "Coventry University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_international_business_Coventry_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_international_business_Coventry_University-image4.png",
+      "desc": "University of Liverpool - Organizational strategy and international business environments are covered in the business and management programs offered. University of Strathclyde - offers business education, including courses related to international management."
+    },
+    {
+      "name": "University of Birmingham",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_international_business_University_of_Birmingham-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_international_business_University_of_Birmingham-image2.png",
+      "desc": "Candidates for International Business courses must meet the academic and English-language requirements of the university they choose. General requirements for eligibility are as follows: Academic requirements for bachelor's degrees are Class 12 or a recognized equivalent secondary school qualification. Minimum Marks: While the more competitive colleges may require higher marks, many undergraduate programs accept applicants with around 60%–75% or higher in Class 12 . A recognized bachelor's degree in business, commerce, economics, management or another recognized field is an academic requirement for master's degrees. Minimum UG Marks: Many PG courses require minimum 55% - 65% and above, depending on the university and the qualifications of the aspirant. Candidates may need to provide proof of their English language proficiency with IELTS Academic, PTE Academic, TOEFL iBT or another recognized qualification. Most of the general courses in international business do not require any specific subjects. Some programs in finance, economics or analysis may have further requirements. Work experience is not usually required for an undergraduate degree or traditional master's degree, but can be important for MBA programs."
+    },
+    {
+      "name": "University of Liverpool",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_international_business_University_of_Liverpool-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_international_business_University_of_Liverpool-image1.png",
+      "desc": "Candidates for International Business courses must meet the academic and English-language requirements of the university they choose. General requirements for eligibility are as follows: Academic requirements for bachelor's degrees are Class 12 or a recognized equivalent secondary school qualification. Minimum Marks: While the more competitive colleges may require higher marks, many undergraduate programs accept applicants with around 60%–75% or higher in Class 12 . A recognized bachelor's degree in business, commerce, economics, management or another recognized field is an academic requirement for master's degrees. Minimum UG Marks: Many PG courses require minimum 55% - 65% and above, depending on the university and the qualifications of the aspirant. Candidates may need to provide proof of their English language proficiency with IELTS Academic, PTE Academic, TOEFL iBT or another recognized qualification. Most of the general courses in international business do not require any specific subjects. Some programs in finance, economics or analysis may have further requirements. Work experience is not usually required for an undergraduate degree or traditional master's degree, but can be important for MBA programs."
+    },
+    {
+      "name": "University of Strathclyde",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_international_business_University_of_Strathclyde-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_international_business_University_of_Strathclyde-image3.png",
+      "desc": "Candidates for International Business courses must meet the academic and English-language requirements of the university they choose. General requirements for eligibility are as follows: Academic requirements for bachelor's degrees are Class 12 or a recognized equivalent secondary school qualification. Minimum Marks: While the more competitive colleges may require higher marks, many undergraduate programs accept applicants with around 60%–75% or higher in Class 12 . A recognized bachelor's degree in business, commerce, economics, management or another recognized field is an academic requirement for master's degrees. Minimum UG Marks: Many PG courses require minimum 55% - 65% and above, depending on the university and the qualifications of the aspirant. Candidates may need to provide proof of their English language proficiency with IELTS Academic, PTE Academic, TOEFL iBT or another recognized qualification. Most of the general courses in international business do not require any specific subjects. Some programs in finance, economics or analysis may have further requirements. Work experience is not usually required for an undergraduate degree or traditional master's degree, but can be important for MBA programs."
+    }
   ],
   "sections": [
     {
-      "title": "Why Study **International Business** in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "slot": "why-study",
+      "eyebrow": "Why UK",
+      "title": "Why Study International Business in the UK?",
+      "lead": "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying International Business in the UK. UK universities provide business programmes that assist students in gaining the skills necessary to operate in an ever more interconnected global economy.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying International Business in the UK. UK universities provide business programmes that assist students in gaining the skills necessary to operate in an ever more interconnected global economy."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -52,15 +77,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Courses in International Business in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "International business programs look at how businesses operate in international markets and the issues that come up because of global trade, cultural differences, international financing, and worldwide competition.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "International business programs look at how businesses operate in international markets and the issues that come up because of global trade, cultural differences, international financing, and worldwide competition."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -99,87 +120,68 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The UK's Top Universities for International Business",
-      "eyebrow": "Top Institutions",
-      "groups": [
-        {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Coventry University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Coventry_University_webp"
-            },
-            {
-              "name": "University of Birmingham",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_University_of_Birmingham_webp"
-            },
-            {
-              "name": "University of Liverpool",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_University_of_Liverpool_webp"
-            },
-            {
-              "name": "University of Strathclyde",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_University_of_Strathclyde_webp"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "International business study requirements in the UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Undergraduate and graduate programs in international business, international management, and related fields are available at a number of UK universities.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Candidates for International Business courses must meet the academic and English-language requirements of the university they choose."
+            "Among the universities to explore :"
           ]
         },
         {
           "t": "p",
           "items": [
-            "General requirements for eligibility are as follows:"
+            "University of Birmingham - Undergraduate and graduate business programs in management and international business are offered."
           ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Coventry University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_international_business_Coventry_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_international_business_Coventry_University-image4.png",
+          "desc": "University of Liverpool - Organizational strategy and international business environments are covered in the business and management programs offered. University of Strathclyde - offers business education, including courses related to international management."
         },
         {
-          "t": "ul",
-          "items": [
-            "Academic requirements for bachelor's degrees are Class 12 or a recognized equivalent secondary school qualification. Minimum Marks: While the more competitive colleges may require higher marks, many undergraduate programs accept applicants with around  60%–75% or higher in Class 12 .",
-            "A recognized  bachelor's degree  in business, commerce, economics, management or another recognized field is an academic requirement for master's degrees.",
-            "Minimum UG Marks: Many PG courses require minimum 55% - 65% and above, depending on the university and the qualifications of the aspirant.",
-            "Candidates may need to provide proof of their English language proficiency with IELTS Academic, PTE Academic, TOEFL iBT or another recognized qualification.",
-            "Most of the general courses in international business do not require any specific subjects. Some programs in finance, economics or analysis may have further requirements.",
-            "Work experience is not usually required for an undergraduate degree or traditional master's degree, but can be important for MBA programs.",
-            "Some colleges may ask for a personal statement, academic references, a CV or an interview."
-          ]
+          "name": "University of Birmingham",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_international_business_University_of_Birmingham-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_international_business_University_of_Birmingham-image2.png",
+          "desc": "Candidates for International Business courses must meet the academic and English-language requirements of the university they choose. General requirements for eligibility are as follows: Academic requirements for bachelor's degrees are Class 12 or a recognized equivalent secondary school qualification. Minimum Marks: While the more competitive colleges may require higher marks, many undergraduate programs accept applicants with around 60%–75% or higher in Class 12 . A recognized bachelor's degree in business, commerce, economics, management or another recognized field is an academic requirement for master's degrees. Minimum UG Marks: Many PG courses require minimum 55% - 65% and above, depending on the university and the qualifications of the aspirant. Candidates may need to provide proof of their English language proficiency with IELTS Academic, PTE Academic, TOEFL iBT or another recognized qualification. Most of the general courses in international business do not require any specific subjects. Some programs in finance, economics or analysis may have further requirements. Work experience is not usually required for an undergraduate degree or traditional master's degree, but can be important for MBA programs."
         },
         {
-          "t": "p",
-          "items": [
-            "Students should check the  eligibility criteria for the chosen course and intake before applying."
-          ]
+          "name": "University of Liverpool",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_international_business_University_of_Liverpool-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_international_business_University_of_Liverpool-image1.png",
+          "desc": "Candidates for International Business courses must meet the academic and English-language requirements of the university they choose. General requirements for eligibility are as follows: Academic requirements for bachelor's degrees are Class 12 or a recognized equivalent secondary school qualification. Minimum Marks: While the more competitive colleges may require higher marks, many undergraduate programs accept applicants with around 60%–75% or higher in Class 12 . A recognized bachelor's degree in business, commerce, economics, management or another recognized field is an academic requirement for master's degrees. Minimum UG Marks: Many PG courses require minimum 55% - 65% and above, depending on the university and the qualifications of the aspirant. Candidates may need to provide proof of their English language proficiency with IELTS Academic, PTE Academic, TOEFL iBT or another recognized qualification. Most of the general courses in international business do not require any specific subjects. Some programs in finance, economics or analysis may have further requirements. Work experience is not usually required for an undergraduate degree or traditional master's degree, but can be important for MBA programs."
+        },
+        {
+          "name": "University of Strathclyde",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_international_business_University_of_Strathclyde-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_international_business_University_of_Strathclyde-image3.png",
+          "desc": "Candidates for International Business courses must meet the academic and English-language requirements of the university they choose. General requirements for eligibility are as follows: Academic requirements for bachelor's degrees are Class 12 or a recognized equivalent secondary school qualification. Minimum Marks: While the more competitive colleges may require higher marks, many undergraduate programs accept applicants with around 60%–75% or higher in Class 12 . A recognized bachelor's degree in business, commerce, economics, management or another recognized field is an academic requirement for master's degrees. Minimum UG Marks: Many PG courses require minimum 55% - 65% and above, depending on the university and the qualifications of the aspirant. Candidates may need to provide proof of their English language proficiency with IELTS Academic, PTE Academic, TOEFL iBT or another recognized qualification. Most of the general courses in international business do not require any specific subjects. Some programs in finance, economics or analysis may have further requirements. Work experience is not usually required for an undergraduate degree or traditional master's degree, but can be important for MBA programs."
         }
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Admission requirements for UK International Business",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Admission requirements vary according to the university, the applicant's academic background and the level of qualification.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Admission requirements vary according to the university, the applicant's academic background and the level of qualification."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Typical entry requirements are:"
-          ]
+          "t": "h4",
+          "text": "Typical entry requirements are:"
         },
         {
           "t": "ul",
@@ -199,21 +201,17 @@
         {
           "t": "p",
           "items": [
-            "Some universities will also run  foundation programs  or accept other  English-language qualifications  for students who do not meet the direct entry standards."
+            "Some universities will also run foundation programs or accept other English-language qualifications for students who do not meet the direct entry standards."
           ]
         }
       ]
     },
     {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
       "title": "The price of studying international business in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "The cost of studying in the UK for international business depends on the university, the degree level, length of the course and the location.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The cost of studying in the UK for international business depends on the university, the degree level, length of the course and the location."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -265,147 +263,74 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK International Business Admission Procedure",
-      "eyebrow": "Eligibility & Process",
+      "lead": "International Business admission process The admission process generally includes the following steps:",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "International Business admission process  The admission process generally includes the following steps:"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Courses and University Search"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Look for colleges that offer programs in International Business, International Business Management or related fields. Take course modules, tuition fees, duration, location and job prospects into account."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Confirm Your Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Review minimum grades, English language proficiency, academic requirements and any program-specific requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Prepare Your Documents"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Collect your academic qualifications, transcripts, personal statement, references, ID documents and the results of any English language tests you may need to take."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Complete the application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "You usually apply for eligible undergraduate courses through UCAS. The university has an application platform, there are a large number of postgraduate applications submitted."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Get the offer letter"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Depending on whether the candidate has satisfied all requirements for admission, the university may issue a conditional or unconditional offer."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Meet the terms of the offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Submit all incomplete exam results, supporting documents in English or any other required paperwork."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Make the required deposit payment"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Pay the university deposit if this is required in the offer and payment instructions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Get a Confirmation of Acceptance for Studies (CAS)"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "International students who qualify are given a CAS for their Student visa application once they fulfill the requirements of the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9 : Apply for a UK student visa"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Fill out the visa application and submit the required documents such as proof of your finances and any other documents UK Visas and Immigration require."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Be Prepared to Leave"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make travel, lodging and other arrangements before you visit the UK."
+            {
+              "step": 1,
+              "title": "Courses and University Search",
+              "desc": "Look for colleges that offer programs in International Business, International Business Management or related fields. Take course modules, tuition fees, duration, location and job prospects into account."
+            },
+            {
+              "step": 2,
+              "title": "Confirm Your Eligibility",
+              "desc": "Review minimum grades, English language proficiency, academic requirements and any program-specific requirements."
+            },
+            {
+              "step": 3,
+              "title": "Prepare Your Documents",
+              "desc": "Collect your academic qualifications, transcripts, personal statement, references, ID documents and the results of any English language tests you may need to take."
+            },
+            {
+              "step": 4,
+              "title": "Complete the application",
+              "desc": "You usually apply for eligible undergraduate courses through UCAS. The university has an application platform, there are a large number of postgraduate applications submitted."
+            },
+            {
+              "step": 5,
+              "title": "Get the offer letter",
+              "desc": "Depending on whether the candidate has satisfied all requirements for admission, the university may issue a conditional or unconditional offer."
+            },
+            {
+              "step": 6,
+              "title": "Meet the terms of the offer",
+              "desc": "Submit all incomplete exam results, supporting documents in English or any other required paperwork."
+            },
+            {
+              "step": 7,
+              "title": "Make the required deposit payment",
+              "desc": "Pay the university deposit if this is required in the offer and payment instructions."
+            },
+            {
+              "step": 8,
+              "title": "Get a Confirmation of Acceptance for Studies (CAS)",
+              "desc": "International students who qualify are given a CAS for their Student visa application once they fulfill the requirements of the university."
+            },
+            {
+              "step": 9,
+              "title": "Apply for a UK student visa",
+              "desc": "Fill out the visa application and submit the required documents such as proof of your finances and any other documents UK Visas and Immigration require."
+            },
+            {
+              "step": 10,
+              "title": "Be Prepared to Leave",
+              "desc": "Make travel, lodging and other arrangements before you visit the UK."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "The UK's International Business Accreditation and Recognition",
-      "eyebrow": "Course Guide",
+      "lead": "When you select the option of International Business in the UK you need to select a recognized university and an appropriate curriculum.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "When you select the option of International Business in the UK you need to select a recognized university and an appropriate curriculum."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -425,15 +350,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "International Business Salary and Career Opportunities in the UK",
-      "eyebrow": "Career & Prospects",
+      "lead": "With a degree in International Business, graduates can work in the following fields:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "With a degree in International Business, graduates can work in the following fields:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -480,15 +401,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Required",
-      "eyebrow": "Course Guide",
+      "lead": "Here is a typical list of documents required for students applying to International Business programmes:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Here is a typical list of documents required for students applying to International Business programmes:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -514,136 +431,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. What is the duration of an international business degree in the UK?",
-              "a": "Most undergraduate degrees in England, Wales and Northern Ireland are three years. Full-time Master's programs usually take a year to complete."
-            },
-            {
-              "q": "Q2. What are the requirements to do business internationally in the UK?",
-              "a": "In general, undergraduate applicants require a Class 12 or equivalent degree. Master's candidates generally need an accredited bachelor's degree. Both may be required to meet English language requirements and other program-specific requirements."
-            },
-            {
-              "q": "Q3. How much does it cost to study international business in the United Kingdom?",
-              "a": "Typically, postgraduate tuition costs between £15,000 and £35,000 or more for a one-year course and undergraduate tuition fees can be between £12,000 and £30,000 or more per year. Living expenses and other charges should be budgeted separately."
-            },
-            {
-              "q": "Q4. What are the career opportunities in the UK after studying international business?",
-              "a": "International marketing, business development, import and export, logistics, supply chain management, business analysis, international sales and consulting are possible career paths for graduates."
-            },
-            {
-              "q": "Q5. Is studying international business in the UK a good idea?",
-              "a": "Students interested in global markets, international trade, multinational corporations, and cross-cultural management might want to consider International Business. Career options are influenced by the quality of the curriculum, relevant skills, work experience and personal professional objectives."
-            },
-            {
-              "q": "How does Edu Hawk Worldwide Consultancy help you to study abroad?",
-              "a": "With the help of Edu Hawk Worldwide, students can plan their study abroad journey, organize application documents, understand admission requirements and look into suitable universities. Students should contact the appropriate official authorities for academic, financial, immigration and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Coventry University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Coventry_University.webp"
-    },
-    {
-      "name": "University of Birmingham",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "University_of_Birmingham.webp"
-    },
-    {
-      "name": "University of Liverpool",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "University_of_Liverpool.webp"
-    },
-    {
-      "name": "University of Strathclyde",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "University_of_Strathclyde.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying International Business in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. What is the duration of an international business degree in the UK?",
+      "q": "What is the duration of an international business degree in the UK?",
       "a": "Most undergraduate degrees in England, Wales and Northern Ireland are three years. Full-time Master's programs usually take a year to complete."
     },
     {
-      "q": "Q2. What are the requirements to do business internationally in the UK?",
+      "q": "What are the requirements to do business internationally in the UK?",
       "a": "In general, undergraduate applicants require a Class 12 or equivalent degree. Master's candidates generally need an accredited bachelor's degree. Both may be required to meet English language requirements and other program-specific requirements."
     },
     {
-      "q": "Q3. How much does it cost to study international business in the United Kingdom?",
+      "q": "How much does it cost to study international business in the United Kingdom?",
       "a": "Typically, postgraduate tuition costs between £15,000 and £35,000 or more for a one-year course and undergraduate tuition fees can be between £12,000 and £30,000 or more per year. Living expenses and other charges should be budgeted separately."
     },
     {
-      "q": "Q4. What are the career opportunities in the UK after studying international business?",
+      "q": "What are the career opportunities in the UK after studying international business?",
       "a": "International marketing, business development, import and export, logistics, supply chain management, business analysis, international sales and consulting are possible career paths for graduates."
     },
     {
-      "q": "Q5. Is studying international business in the UK a good idea?",
+      "q": "Is studying international business in the UK a good idea?",
       "a": "Students interested in global markets, international trade, multinational corporations, and cross-cultural management might want to consider International Business. Career options are influenced by the quality of the curriculum, relevant skills, work experience and personal professional objectives."
     },
     {
       "q": "How does Edu Hawk Worldwide Consultancy help you to study abroad?",
       "a": "With the help of Edu Hawk Worldwide, students can plan their study abroad journey, organize application documents, understand admission requirements and look into suitable universities. Students should contact the appropriate official authorities for academic, financial, immigration and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study International Business in United Kingdom | Edu-Hawk Worldwide",
+    "description": "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying Intern",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

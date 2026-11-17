@@ -1,29 +1,53 @@
 {
-  "seo": {
-    "title": "Study Public Health in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Public Health in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Public Health in the United Kingdom",
     "subtitle": "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them."
   },
   "overview": [
     "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities.",
-    "Key Advantages of Studying Public Health in the United Kingdom"
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
+  "universities": [
+    {
+      "name": "Birmingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_public_health_Birmingham_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_public_health_Birmingham_University-image1.png",
+      "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Bristol University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_public_health_Bristol_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_public_health_Bristol_University-image2.png",
+      "desc": "Bristol University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Leeds University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_public_health_Leeds_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_public_health_Leeds_University-image4.png",
+      "desc": "Leeds University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Sheffield University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_public_health_Sheffield_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_public_health_Sheffield_University-image3.png",
+      "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Public Health in the United Kingdom?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -31,10 +55,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Key Advantages of Studying Public Health in the United Kingdom"
-          ]
+          "t": "h4",
+          "text": "Key Advantages of Studying Public Health in the United Kingdom"
         },
         {
           "t": "ul",
@@ -50,15 +72,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "The UK's Public Health Courses",
-      "eyebrow": "Course Guide",
+      "lead": "Undergraduate degrees, specialized master's programs, and doctorate research are just a few of the study options available at UK universities.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Undergraduate degrees, specialized master's programs, and doctorate research are just a few of the study options available at UK universities."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -135,10 +153,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Well-liked choices consist of:"
-          ]
+          "t": "h4",
+          "text": "Well-liked choices consist of:"
         },
         {
           "t": "ul",
@@ -187,472 +203,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The Best UK Universities to explore for Public Health",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "For Public Health, Global Health, Epidemiology, or similar programs, the following universities are worth exploring",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Birmingham University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Birmingham_University_webp"
-            },
-            {
-              "name": "Bristol University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Bristol_University_webp"
-            },
-            {
-              "name": "Leeds University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Leeds_University_webp"
-            },
-            {
-              "name": "Sheffield University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Sheffield_University_webp"
-            }
-          ]
+          "name": "Birmingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_public_health_Birmingham_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_public_health_Birmingham_University-image1.png",
+          "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Bristol University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_public_health_Bristol_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_public_health_Bristol_University-image2.png",
+          "desc": "Bristol University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Leeds University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_public_health_Leeds_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_public_health_Leeds_University-image4.png",
+          "desc": "Leeds University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Sheffield University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_public_health_Sheffield_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_public_health_Sheffield_University-image3.png",
+          "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
-      "title": "The UK's requirements for studying public health",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university and the course level determine the requirements for admission."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A. Eligibility for Undergraduates"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In general, Indian students require:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Completing Class 12 or a comparable degree.",
-            "Academic standing that satisfies the prerequisites for admission to the university.",
-            "Relevant topics, if the course specifies them.",
-            "The ability to communicate in English.",
-            "Extra records or evaluations, if necessary."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "While some programs welcome students from a wider range of academic fields, others favor applicants with a background in science. Biology, math, and other subjects have different requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "B. Postgraduate Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Typically, candidates for a MPH or MSc in Public Health require:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A validated bachelor's degree.",
-            "The minimal academic score that the university has set.",
-            "The ability to communicate in English.",
-            "If necessary, relevant professional or academic experience."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "C. Qualifications for Research Degrees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Candidates might require:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A master's or bachelor's degree that is applicable.",
-            "Evidence of research skills or experience.",
-            "Depending on the program, a research proposal is required.",
-            "Scholarly references.",
-            "A good research topic and a supervisor who is available when needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "D. Language Requirements in English"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "IELTS Academic, TOEFL iBT, PTE Academic, and other authorized English-language proof may be accepted by universities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Each university and course has different requirements for scores. Before scheduling an exam, candidates should review the course site and any relevant visa requirements."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The UK's Public Health Admission Requirements",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following documents can be needed for a typical application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic Writings"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Certificates and mark sheets for classes 10 and 12, if applicable.",
-            "Transcripts and a bachelor's degree certificate",
-            "Documents related to master's degrees for pertinent research applications.",
-            "If necessary, official translations of non-English-language documents."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Documents in English"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "PTE Academic, TOEFL iBT, IELTS Academic, or another recognized certification."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "When asked, provide more proof of your English language skills."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Individual and Corresponding Records"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "A statement of intent or a personal statement",
-            "Academic references or recommendation letters.",
-            "A curriculum vitae (CV) is necessary for research or postgraduate applications. .",
-            "Passport that is valid.",
-            "Information about relevant work, volunteer, or research experience, if any."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The cost of studying public health in the United Kingdom",
-      "eyebrow": "Tuition & Living",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, course level, length, location, and lifestyle all affect how much studying Public Health will cost."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A. Estimated Cost of Tuition"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Undergraduate degree in public health or a similar field | £15,000–£28,000 |",
-            "Master of Public Health (MPH) | £18,000–£38,000 |",
-            "Specialized MSc in Global Health or Public Health | £18,000–£38,000 |",
-            "Public health research degree | £18,000–£35,000 or more |"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "B. Monthly Living Expense Estimate"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Lodging | £600–£1,200 |",
-            "Groceries and food | £180–£300",
-            "Local transportation costs between £60 and £160.",
-            "Internet and mobile | £20–£50",
-            "Study materials and personal expenditures | £100–£250"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "London and other costly places can have greater living expenses. Additionally, students should set aside money for travel, lodging deposits, and other expenses during the university holidays."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "The UK's Public Health Admissions Process",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Identify Your Professional Objective"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose your career path: health research , epidemiology , health policy , community programs, global health, health data, or healthcare administration."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Choose the Type of Course"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Based on your educational background and career objectives, select an undergraduate degree, MPH, specialized MSc, or research degree."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Make a University Shortlist"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine course modules, prerequisites, tuition costs, research proficiency, employment prospects, location, and graduate results."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the university's prerequisites for English language skills, appropriate disciplines, minimum grades, and Indian qualifications."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Get Your Documents Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Organize your transcripts, degree certificates, CV, references, personal statement, English-language results, and, if necessary, a research project."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Send in Your Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A large number of postgraduate applications are sent directly via university websites. Depending on the subject and university, UCAS is frequently used for undergraduate admissions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Get an Offer and Accept It"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine any terms that are included in the offer. Final grades, English-language test results, references, and document verification are a few examples."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Set Up Finances and Lodging"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make a comprehensive budget that accounts for living expenditures, travel, tuition, and other expenses. Apply as soon as you can for qualified scholarships."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9: Submit an application for a UK student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Check the most recent student visa regulations and get the necessary paperwork after fulfilling the admission requirements and obtaining the necessary Confirmation of Acceptance for Studies (CAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Sign Up and Start Studying"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Finish your enrollment, go to the induction, and get ready for any courses, fieldwork, research projects, or practical exercises that are part of your program."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Professional Considerations, Accreditation, and Recognition",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Since public health is a large academic topic, not all public health credentials result in a regulated professional title."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic Acknowledgment"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the degree title, curriculum, research facilities, granting institution, and any professional or industry-specific recognition related to the course before submitting an application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Certain programs might be recognized or accredited by the appropriate professional associations. This varies depending on the course and should be confirmed directly with the relevant organization and the university."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Career Prospects in the UK Following Public Health Education",
-      "eyebrow": "Career & Prospects",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates in public health can work in research, policy, program coordination, data analysis, health promotion, and healthcare planning."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Possible Career Paths"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The Public Health Officer",
-            "Research Assistant in Epidemiology",
-            "A specialist in health promotion",
-            "Coordinator of the Global Health Program",
-            "A public health analyst",
-            "A researcher in health policy",
-            "Research Assistant",
-            "Officer of Monitoring and Evaluation",
-            "The analysis of health data",
-            "The project manager for healthcare",
-            "A professional in environmental health",
-            "Professionals in academia or research"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Expectations for Salary"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The job title, company, experience, location, and specialized skills all affect pay. Pay arrangements may differ for entry-level research positions, government jobs, NHS employment, charitable organizations, consultancies, and foreign organizations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Employment Prospects Following Graduation"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "The immigration route and regulations in effect at the time determine whether international graduates can stay and work in the UK. Permanent residency or employment authorization are not automatically granted by a degree."
-          ]
-        }
-      ]
-    },
-    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Documents Needed to Apply",
-      "eyebrow": "Course Guide",
+      "lead": "Get the necessary paperwork ready for the program you have selected:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Get the necessary paperwork ready for the program you have selected:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -676,154 +272,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Frequently Asked Questions",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "1. In the UK, how long does it take to study public health?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In England, Wales, and Northern Ireland, an undergraduate degree typically takes three years, however some degrees in Scotland take four. Although the length varies by school and manner of study, a full-time MPH A comparable master's program typically lasts one year."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "2. After Class 12, is it possible for Indian youngsters to pursue public health studies in the UK?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Indeed. If they meet the academic and English language standards of the institution, Indian students can pursue undergraduate degrees in Public Health, Global Health, and related fields. A recognized bachelor's degree is typically required for a master's degree."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "3. Does an MPH in the UK require an MBBS degree?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "No. Graduates from a variety of academic backgrounds, such as life sciences, nursing, pharmacy, dentistry, social sciences, statistics, and other pertinent fields, are accepted into many MPH programs. Each university has different requirements for eligibility."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "4. Are public health courses in the UK required to take the IELTS?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Not always. TOEFL iBT, PTE Academic, IELTS Academic, and other recognized proof of English competence may be accepted by universities. Students should confirm the precise course and visa requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "5. What employment is available in the UK after earning an MPH?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Potential positions include public health analyst , research assistant , health promotion specialist , program coordinator , monitoring and evaluation officer , and health policy researcher, depending on your qualifications. Certain positions call for professional registration, necessary experience, or further qualifications."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
+  "faqs": [
     {
-      "name": "Birmingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Birmingham_University.webp"
+      "q": "In the UK, how long does it take to study public health?",
+      "a": "In England, Wales, and Northern Ireland, an undergraduate degree typically takes three years, however some degrees in Scotland take four. Although the length varies by school and manner of study, a full-time MPH A comparable master's program typically lasts one year."
     },
     {
-      "name": "Bristol University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Bristol_University.webp"
+      "q": "After Class 12, is it possible for Indian youngsters to pursue public health studies in the UK?",
+      "a": "Indeed. If they meet the academic and English language standards of the institution, Indian students can pursue undergraduate degrees in Public Health, Global Health, and related fields. A recognized bachelor's degree is typically required for a master's degree."
     },
     {
-      "name": "Leeds University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Leeds_University.webp"
+      "q": "Does an MPH in the UK require an MBBS degree?",
+      "a": "No. Graduates from a variety of academic backgrounds, such as life sciences, nursing, pharmacy, dentistry, social sciences, statistics, and other pertinent fields, are accepted into many MPH programs. Each university has different requirements for eligibility."
     },
     {
-      "name": "Sheffield University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Sheffield_University.webp"
+      "q": "Are public health courses in the UK required to take the IELTS?",
+      "a": "Not always. TOEFL iBT, PTE Academic, IELTS Academic, and other recognized proof of English competence may be accepted by universities. Students should confirm the precise course and visa requirements."
+    },
+    {
+      "q": "What employment is available in the UK after earning an MPH?",
+      "a": "Potential positions include public health analyst , research assistant , health promotion specialist , program coordinator , monitoring and evaluation officer , and health policy researcher, depending on your qualifications. Certain positions call for professional registration, necessary experience, or further qualifications."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Public Health in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
-  "faqs": []
+  "seo": {
+    "title": "Study Public Health in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguar",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

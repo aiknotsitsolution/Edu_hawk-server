@@ -1,3 +1,4 @@
+import cmsData from "../../../../data/study_abroad/uk/winter_courses.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
 
@@ -25,7 +26,6 @@ const page = {
     "Winter courses in the UK are a great opportunity for international students to build their academic knowledge, develop new skills, experience British culture and travel the country in winter."
   ],
   "overview": [
-    "Winter courses in the UK are a great opportunity for international students to build their academic knowledge, develop new skills, experience British culture and travel the country in winter.",
     "These short-term programs can be a good choice for students, recent graduates and professionals who want to make the most of their winter vacations.",
     "Winter courses are available at universities, colleges, language schools and specialist training providers in the UK. Depending on the school, students can choose from English language programs, business classes, technological workshops, creative arts, academic preparation, and cultural learning opportunities."
   ],
@@ -955,9 +955,40 @@ const page = {
 };
 
 export default function wintercoursesUK() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => ({
+          ...u,
+          img: u.img || u.image || page.universities?.[idx]?.img,
+          image: u.img || u.image || page.universities?.[idx]?.image || page.universities?.[idx]?.img
+        }))
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

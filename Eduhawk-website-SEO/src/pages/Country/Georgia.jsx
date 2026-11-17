@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/georgia.json";
 // import React, { useState } from "react";
 // import Russianflag2 from "../../Images/country flag png/Georgia.svg";
 
@@ -648,18 +649,18 @@ const Georgia = () => {
     <>
     
     <SeoHead
-      title="MBBS in Georgia for Indian Students | Fees & Admission Process"
-      description="Study MBBS in Georgia with English medium and affordable fees. Check eligibility, admission process and top universities."
-      keywords="mbbs in georgia, georgia mbbs fees, study mbbs georgia, mbbs in georgia for indian students, top medical universities in georgia, mbbs in georgia eligibility, mbbs in georgia admission"
-      path="/mbbs-abroad/georgia"
-      ogType="website"
-    />
+        title={cmsData?.seo?.title || "MBBS in Georgia for Indian Students | Fees & Admission Process"}
+        description={cmsData?.seo?.description || "Study MBBS in Georgia with English medium and affordable fees. Check eligibility, admission process and top universities."}
+        keywords={cmsData?.seo?.keywords || "mbbs in georgia, georgia mbbs fees, study mbbs georgia, top medical universities in georgia"}
+        path="/mbbs-abroad/georgia"
+        ogType="website"
+      />
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg"}
             alt="Tbilisi Old Town - Georgia"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg 2x"
@@ -667,7 +668,7 @@ const Georgia = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN GEORGIA
+              {cmsData?.hero?.title || "STUDY MBBS IN GEORGIA"}
             </h1>
           </div>
         </div>
@@ -691,7 +692,7 @@ const Georgia = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Georgia 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Georgia 2026–2027"}
             </h2>
           </div>
         </div>
@@ -1149,7 +1150,7 @@ const Georgia = () => {
         <div className="py-16 bg-white mb-20">
           <div className="container mx-auto px-4 max-w-6xl">
             <h2 className="text-3xl font-bold text-blue-900 text-center mb-10">
-              Top Medical Universities in Georgia
+              {cmsData?.universitiesHeading || "Top Medical Universities in Georgia"}
             </h2>
             <div className="overflow-x-auto">
               <table className="min-w-full border border-gray-300">
@@ -1348,7 +1349,7 @@ const Georgia = () => {
             </h2>
 
             <div className="space-y-5">
-              {faqData.map((item, index) => (
+              {((cmsData?.faq && cmsData.faq.length > 0) ? cmsData.faq : faqData).map((item, index) => (
                 <div
                   key={index}
                   className={`bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-md ${

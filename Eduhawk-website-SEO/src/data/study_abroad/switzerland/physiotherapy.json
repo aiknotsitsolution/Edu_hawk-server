@@ -1,87 +1,93 @@
 {
-  "seo": {
-    "title": "Physiotherapy in Switzerland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Physiotherapy in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Switzerland",
-    "title": "Physiotherapy in Switzerland for Indian Students",
-    "subtitle": "**Physiotherapy in Switzerland for Indian Students** gives you a chance to study rehabilitation science, movement therapy, musculoskeletal care, sports rehabilitation and patient recovery. Swiss universities of applied sciences blend academic learning with practical clinical education, enabling students to learn how to assess movement problems and help patients recover from injury, surgery, illness or disability.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "title": "Physiotherapy Courses in Switzerland for Indian Students",
+    "subtitle": "Physiotherapy in Switzerland for Indian Students gives you a chance to study rehabilitation science, movement therapy, musculoskeletal care, sports rehabilitation and patient recovery. Swiss universities of applied sciences blend academic learning with practical clinical education, enabling students to learn how to assess movement problems and help patients recover from injury, surgery, illness or disability."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Physiotherapy in Switzerland for Indian Students gives you a chance to study rehabilitation science, movement therapy, musculoskeletal care, sports rehabilitation and patient recovery. Swiss universities of applied sciences blend academic learning with practical clinical education, enabling students to learn how to assess movement problems and help patients recover from injury, surgery, illness or disability.",
+    "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty."
   ],
-  "highlights": {
-    "degree": "B.Sc. in Physiotherapy",
-    "duration": "3 Years (180 ECTS)",
-    "fee": "CHF 1,000 – CHF 3,500 / Year",
-    "eligibility": "Class 12 / Bachelor's + German/French/English proficiency",
-    "medium": "German, French & English Taught"
-  },
-  "overview": "Students who want to **Study Physiotherapy in Switzerland** have the choice of professional bachelor’s degrees, related master’s programs and advanced rehabilitation studies. Physiotherapy is a regulated health-care profession in Switzerland. Programs often include local-language teaching and clinical placements, so prospective international students should check admission criteria, language requirements and professional recognition before applying.\n\n**Physiotherapy in Switzerland for Indian Students** is an opportunity that requires careful planning, especially when checking language requirements, university eligibility and professional recognition.\n\n**Edu-Hawk Worldwide** helps Indian students explore international education opportunities and understand important aspects of studying abroad, including university selection and admission procedures.",
   "universities": [
     {
-      "name": "Zurich University of Applied Science (ZHAW)",
-      "location": "Winterthur | German",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 730 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
     },
     {
-      "name": "BFH University of Applied Sciences Bern",
-      "location": "Bern | Check current program language",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "fee": "CHF 780 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
     },
     {
-      "name": "HES-SO University of Applied Sciences and Arts of Western Switzerland",
-      "location": "Western Switzerland | French-speaking part of Switzerland",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "University of Zurich (UZH)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,220 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
     },
     {
-      "name": "SUPSI",
-      "location": "Switzerland (Italian language)",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "University of Geneva",
+      "location": "Geneva, Switzerland",
+      "fee": "CHF 500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Is it possible to study physiotherapy in Switzerland after Class 12?",
-      "answer": "You can look at the routes available but each institution decides on eligibility. Some programs require specific school qualifications, additional practical modules, aptitude tests or other requirements. Contact the admissions office before you apply."
-    },
-    {
-      "question": "How long is a physiotherapy degree in Switzerland? It normally takes 3 to 4 years.",
-      "answer": "A Bachelor of Science (Physiotherapy) is generally a three-year full-time degree. The total length of the course may vary depending on extra modules or practical requirements."
-    },
-    {
-      "question": "Can I study physiotherapy in Switzerland in English?",
-      "answer": "Not always. Physiotherapy programs may require German, French or Italian due to classroom instruction and clinical placements with patients. ZHAW demands German at C1 level and English at B2–C1, for example."
-    },
-    {
-      "question": "How much does physiotherapy cost in Switzerland?",
-      "answer": "As a rough planning estimate, combined tuition and living costs may range from about CHF 20,000–40,000 or more per year. Actual costs will vary depending on university, tuition category, accommodation, insurance and lifestyle."
-    },
-    {
-      "question": "Can I work as a physiotherapist in Switzerland after graduating?",
-      "answer": "You may be, if you meet the applicable professional recognition, language, employment and immigration requirements. A degree alone does not give the right to work or practice."
+      "slot": "universities",
+      "eyebrow": "Top Swiss Universities",
+      "title": "Top Universities to Consider in Switzerland",
+      "lead": "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty.",
+      "unis": [
+        {
+          "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 730 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
+        },
+        {
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+          "location": "Lausanne, Switzerland",
+          "fee": "CHF 780 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+        },
+        {
+          "name": "University of Zurich (UZH)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 1,220 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+        },
+        {
+          "name": "University of Geneva",
+          "location": "Geneva, Switzerland",
+          "fee": "CHF 500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+        }
+      ],
+      "groups": []
     }
-  ]
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Physiotherapy Courses in Switzerland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Physiotherapy in Switzerland for Indian Students gives you a chance to study rehabilitation science, movement therapy, musculoskeletal care, sports rehabilitati",
+    "keywords": "Study in Switzerland, Top Swiss Universities, Edu Hawk Worldwide"
+  }
 }

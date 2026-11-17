@@ -8,7 +8,7 @@
     "title": "International Business in Australia for Indian Students",
     "subtitle": "A business-focused academic discipline, international business examines how businesses function in global marketplaces. Global supply chains, international trade, international marketing, cross-cultural management, international financing, and corporate strategy are all covered.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/international_business_Monash_University-image4.png"
   },
   "stats": [
     {
@@ -29,37 +29,781 @@
     }
   ],
   "highlights": {
-    "degree": "Bachelor's & Master's Degrees",
+    "degree": "Bachelor & Master of International Business",
     "duration": "1.5 to 3 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Numerous universities in Australia provide undergraduate and graduate courses in international business. Students can pursue a Master of International Business, a Bachelor of Business with an International Business major, a Bachelor of International Business, or similar degrees, depending on the school.\n\nImportant Highlights\n\nPay attention to international markets and global business operations.\n\nExamine company strategy and international trade.\n\nRecognize and manage cross-cultural communication\n\nExamine worldwide finance and marketing.\n\nDevelop your ability to think critically, negotiate, and solve problems.\n\nStudy up on global supply chains and market growth.\n\nExamine career options in international organizations and global corporations.",
+  "overview": [
+    "A business-focused academic discipline, international business examines how businesses function in global marketplaces. Global supply chains, international trade, international marketing, cross-cultural management, international financing, and corporate strategy are all covered.",
+    "Students gain knowledge about how businesses enter overseas markets, oversee worldwide operations, form multinational alliances, and adapt to cultural, legal, and economic disparities.",
+    "Numerous universities in Australia provide undergraduate and graduate courses in international business . Students can pursue a Master of International Business, a Bachelor of Business with an International Business major, a Bachelor of International Business , or similar degrees, depending on the school.",
+    "Important Highlights",
+    "Pay attention to international markets and global business operations.",
+    "Examine company strategy and international trade.",
+    "Recognize and manage cross-cultural communication",
+    "Examine worldwide finance and marketing.",
+    "Develop your ability to think critically, negotiate, and solve problems.",
+    "Study up on global supply chains and market growth.",
+    "Examine career options in international organizations and global corporations."
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A business-focused academic discipline, international business examines how businesses function in global marketplaces. Global supply chains, international trade, international marketing, cross-cultural management, international financing, and corporate strategy are all covered."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students gain knowledge about how businesses enter overseas markets, oversee worldwide operations, form multinational alliances, and adapt to cultural, legal, and economic disparities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Numerous universities in Australia provide undergraduate and graduate courses in international business . Students can pursue a Master of International Business, a Bachelor of Business with an International Business major, a Bachelor of International Business , or similar degrees, depending on the school."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important Highlights"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Pay attention to international markets and global business operations.",
+            "Examine company strategy and international trade.",
+            "Recognize and manage cross-cultural communication",
+            "Examine worldwide finance and marketing.",
+            "Develop your ability to think critically, negotiate, and solve problems.",
+            "Study up on global supply chains and market growth.",
+            "Examine career options in international organizations and global corporations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study International Business in Australia?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Australia offers access to business education spanning international markets, trade, management, and global commercial practices, as well as a multicultural learning environment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal Advantages"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Gain knowledge of global business environments",
+            "Find out how businesses enter and grow in international markets.",
+            "Learn about managing cultures.",
+            "Examine global commerce and marketing strategies.",
+            "Develop your ability to negotiate and communicate",
+            "Examine business issues using case studies and projects.",
+            "When possibilities for industry interaction arise, take advantage of them.",
+            "Get ready for additional coursework in international management or business."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university, course design, real-world experience, and personal professional objectives all affect the degree's worth."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "Monash University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/international_business_Monash_University-image4.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Sydney",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/international_business_Sydney_University-image5.png",
+          "desc": ""
+        },
+        {
+          "name": "RMIT University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/international_business_University_of_RMIT-image2.png",
+          "desc": ""
+        },
+        {
+          "name": "Western Australia University",
+          "location": "Australia",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/international_business_Western_Australia_University-image3.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Popular Courses in International Business",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International Business Bachelor's degree"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Global commerce, international management, international marketing, trade, and cross-cultural business practices are all included in this undergraduate program.",
+            "International Business Major for a Bachelor of Business degree",
+            "a more comprehensive business degree that enables students to focus on international business in addition to core courses like management, accounting, finance, and marketing.",
+            "International Business Studies and a Bachelor of Commerce degree",
+            "A pathway that emphasizes trade and may integrate international business with accounting, finance, economics, or other commercial fields.",
+            "Master's Program in International Business",
+            "a postgraduate degree intended to increase understanding of international markets, cross-border operations, international management, and global business strategy.",
+            "Master of Business Administration with Electives in International Business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university's curriculum, an MBA program may allow students to study international business through specific electives."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A more condensed postgraduate degree that can be appropriate for qualified candidates looking to gain specialized understanding of international business principles."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each institution has different course titles, prerequisites, and availability."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Majors, electives, and subject areas may be available to students in:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Global Commerce and Trade",
+            "International Marketing",
+            "Management of International Business",
+            "International Supply Chain Administration",
+            "Global Finance",
+            "Management Across Cultures",
+            "International Business Plan",
+            "Global Entrepreneurship",
+            "International Economics",
+            "Management of Exports and Imports",
+            "Management of International Human Resources",
+            "International Logistics",
+            "Development of International Business",
+            "Worldwide Risk Control"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Not every university provides each of these specializations as a stand-alone course of study."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Students from India",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The degree of study and the chosen university determine the requirements for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility for Undergraduates"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "In general, bachelor's degree applicants may require:",
+            "completing Class 12 successfully from an accredited Indian board",
+            "Academic performance that satisfies the prerequisites for admission to the university",
+            "When applicable, mathematics or other necessary courses",
+            "Evidence of English language competency, if necessary",
+            "A valid passport and the necessary paperwork"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the standards of the university, students with backgrounds in commerce, science, or the humanities may be qualified for a number of business programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Qualifications"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "In general, master's degree candidates may require:",
+            "An accredited bachelor's degree or its equivalent",
+            "Academic performance that satisfies the criteria of the course",
+            "Work experience that is relevant to the curriculum, if needed",
+            "Evidence of English language competency, if relevant",
+            "When required, a resume, a statement of purpose, or other supporting documentation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While some postgraduate programs may need prior business studies or appropriate practical experience, others may accept graduates from a variety of academic areas."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In most cases, international students must meet the English language requirements of the university they have selected."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic IELTS",
+            "iBT for the TOEFL",
+            "Academic PTE",
+            "Additional exams that the university accepts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For some business programs, an overall IELTS Academic score of about 6.5 can serve as a starting point for planning. It is not a prerequisite for all courses, and some may call for minimal performance in certain areas or greater ratings."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For their particular course and intake, students should confirm the current English language requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A separate entrance exam is not necessary for many Australian foreign business programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic credentials, English language ability, and supporting documentation may all be taken into consideration for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates may require the following, depending on the school and course level:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Certificates and academic transcripts",
+            "Results of English language tests, when needed",
+            "Statement of purpose or personal statement",
+            "Curriculum vitae or resume for postgraduate applications",
+            "Evidence of relevant job experience, if appropriate",
+            "Extra evaluations or interviews for particular programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain professional experience requirements or admission tests may apply to some postgraduate business programs. Always ask the university directly to confirm the prerequisites."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Duration of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The duration of the course is determined by the university and qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A bachelor's degree typically requires three years of full-time study, while certain programs require more time."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's degree: Depending on the curriculum, previous credentials, and credit exemptions, it typically requires one to two years of full-time study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate certificate : Depending on the university, it may be shorter than a full master's degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Project for International Business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each university has a different curriculum, and some offer industry-based learning opportunities, consulting assignments, or internships."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living Expenses and Tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, degree level, length of course, and city all affect how much it costs to study international business in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal costs consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of tuition",
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Health Coverage for International Students",
+            "Books and study guides",
+            "The cost of applying for a visa",
+            "Emergency and personal costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition costs for undergraduate and graduate degrees can differ significantly between universities. For the chosen course, students should refer to the most recent international student cost schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Lifestyle, transportation requirements, and lodging options all affect living expenses. When preparing to apply for a student visa, create a complete course budget and review the current financial capacity standards set by the Australian government."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Australian institutions may give financial aid or scholarships to Indian students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible choices consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Merit grants for international students",
+            "Awards for academic excellence",
+            "Scholarships specific to faculty",
+            "Tuition cost reductions related to a course",
+            "Funding for research related degrees that qualify",
+            "Scholarships from outside sources are offered to qualified candidates.",
+            "Scholarships might offer additional perks or partially pay for tuition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The institution, course, admission, and academic standing all affect availability and circumstances."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should review the requirements for eligibility, the deadlines for applications, the terms of renewal, and whether they need to submit a separate scholarship application."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Career opportunities Following Graduation",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Career options in companies engaged in international trade, foreign markets, international operations, and cross-border commercial activities might be supported by an international business degree."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Possible occupations include:",
+            "Executive for International Business Development",
+            "Coordinator of International Marketing",
+            "Coordinator of Exports and Imports",
+            "Coordinator of the Global Supply Chain",
+            "Executive in International Sales",
+            "Analyst for Market Research",
+            "Analyst for Business Development",
+            "Assistant for Trade Compliance",
+            "Coordinator of Procurement",
+            "Coordinator of Global Operations",
+            "Manager of International Accounts",
+            "Coordinator of Logistics",
+            "A management consultant with the necessary training and expertise",
+            "Entrepreneur or Owner of a Global Company"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain positions call for additional experience, specialized expertise, professional credentials, or familiarity with local regulations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sectors to explore"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Export and import",
+            "Supply chain and logistics",
+            "Financial services and banking",
+            "Advising",
+            "Global marketing",
+            "Production",
+            "E-commerce and retail",
+            "Technology",
+            "Travel and hospitality",
+            "Studying abroad",
+            "Multinational firms"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Individual talents, experience, language proficiency, market conditions, and employer criteria all affect employment success. Employment or migration prospects are not guaranteed by a degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These abilities might be helpful in businesses that operate in several markets and nations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Admission Procedure for Indian Students",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Determine Your Level of Study",
+          "desc": "Choose from a bachelor's, master's, or other business degree."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Courses on the Shortlist",
+          "desc": "Examine the course material, specializations, length, cost of tuition, and relevance to your career."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Verify Your Eligibility",
+          "desc": "Examine the qualifications for subjects, work experience, English language proficiency, and academic admission."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Get the paperwork ready",
+          "desc": "Gather academic records, certifications, passport information, English test scores, and other necessary paperwork."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Send in Your Application",
+          "desc": "Apply via an approved application channel or the university's official application portal."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Accept and Examine the Offer",
+          "desc": "Examine the terms of the offer, costs, due dates, and enrollment prerequisites."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Fulfill Enrollment Conditions",
+          "desc": "fulfill the requirements for acceptance set forth by the university and finish the necessary payment or confirmation procedures."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "If necessary, apply for a student visa",
+          "desc": "Assemble the required paperwork and adhere to the current Australian Government visa application procedure."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Make Travel Plans",
+          "desc": "Make travel, lodging, health insurance, money, and pre-departure arrangements."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Needed",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students may require the following, depending on the program and application:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Certificates for admission to undergraduate programs in Classes 10 and 12",
+            "Certificate of bachelor's degree for entry to postgraduate programs",
+            "Transcripts of academic work",
+            "Results of any necessary English language tests",
+            "A personal declaration or statement of purpose",
+            "Curriculum vitae or resume, if appropriate",
+            "Employment documentation, if necessary",
+            "Financial records in order to obtain a visa",
+            "Verification of Enrollment, if necessary for a student visa",
+            "Evidence of overseas student health coverage",
+            "Additional records that the university or pertinent authorities have sought"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each course and institution has different requirements. The approved checklist for the program they have chosen should be followed by students."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Student Visa for Australia",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In general, Indian students must fulfill the conditions for the Australian student visa (subclass 500) in order to enroll in an appropriate full-time study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Requirements for a visa could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Enrollment records",
+            "Proof that satisfies the Genuine Student criterion",
+            "Evidence of financial capacity",
+            "Evidence in English, if applicable",
+            "Health Coverage for International Students",
+            "Requirements for character and health",
+            "Identity and supporting documentation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documentation requirements, processing periods, and visa fees are subject to change. Before filing an application, students should visit the official website of the Australian Department of Home Affairs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Acceptance into an Australian university does not ensure that a visa will be granted."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "16. The Benefits of Edu Hawk Worldwide Consulting"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk provides individualized course shortlisting and admission assistance to Indian students investigating overseas educational prospects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our assistance may consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Evaluating educational background and professional goals",
+            "Making a list of appropriate programs for international business",
+            "Comparing tuition costs, course lengths, and universities",
+            "Outlining the English language and academic requirements",
+            "Assisting students with the application materials",
+            "Assisting students in comprehending the terms of the offer and the admissions process",
+            "Giving general advice on pre-departure preparation and visa paperwork"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our objective is to assist students in selecting appropriate programs according to their long-term objectives, preferred study level, financial constraints, and academic background."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "Monash University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/international_business_Monash_University-image4.png",
+      "desc": ""
     },
     {
       "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/international_business_Sydney_University-image5.png",
+      "desc": ""
     },
     {
-      "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "RMIT University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/international_business_University_of_RMIT-image2.png",
+      "desc": ""
     },
     {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "Western Australia University",
+      "location": "Australia",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/international_business_Western_Australia_University-image3.png",
+      "desc": ""
     }
   ],
   "faq": [
@@ -85,7 +829,33 @@
     },
     {
       "question": "Does pursuing a degree in international business ensure employment or long-term residency in Australia?",
-      "answer": "No. The results of migration and employment are not assured. They rely on personal circumstances, the state of the labor market, and existing immigration laws."
+      "answer": "No. The results of migration and employment are not assured. They rely on personal circumstances, the state of the labor market, and existing immigration laws. Keywords - Study International Business in Australia International Business in Australia for Indian Students Study Bachelor of International Business in Australia Study Master of International Business in Australia International Business Courses in Australia International Business After 12th in Australia Study International Business in Australia After Graduation International Business in Australia with Scholarships International Business at Australian Universities International Business in Australia - Fees and Admission Requirements"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is international business?",
+      "a": "Global trade, international marketing, international finance, supply chains, and cross cultural management are all aspects of international business."
+    },
+    {
+      "q": "Is it possible for Indian students to study international business in Australia?",
+      "a": "Yes . Indian students who meet the standards for university entrance may apply to undergraduate or graduate programs in international business."
+    },
+    {
+      "q": "How long does an international business course last?",
+      "a": "Master's programs often last one to two years, whereas bachelor's programs typically last three. The university and qualification determine the precise length of time."
+    },
+    {
+      "q": "Is mathematics a must for studying international business?",
+      "a": "Not all programs in international business require mathematics as a requirement. The course and institution determine the requirements."
+    },
+    {
+      "q": "Does admission require taking the IELTS?",
+      "a": "In most cases, students must meet the English language requirements of the university. IELTS is one choice; there may be recognized substitutes or exceptions."
+    },
+    {
+      "q": "Does pursuing a degree in international business ensure employment or long-term residency in Australia?",
+      "a": "No. The results of migration and employment are not assured. They rely on personal circumstances, the state of the labor market, and existing immigration laws. Keywords - Study International Business in Australia International Business in Australia for Indian Students Study Bachelor of International Business in Australia Study Master of International Business in Australia International Business Courses in Australia International Business After 12th in Australia Study International Business in Australia After Graduation International Business in Australia with Scholarships International Business at Australian Universities International Business in Australia - Fees and Admission Requirements"
     }
   ]
 }

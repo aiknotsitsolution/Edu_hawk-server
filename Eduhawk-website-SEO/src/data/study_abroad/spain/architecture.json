@@ -1,89 +1,569 @@
 {
-  "seo": {
-    "title": "Architecture in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Architecture in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities."
-  },
   "hero": {
-    "badge": "Study Abroad - Spain",
     "title": "Architecture in Spain for Indian Students",
-    "subtitle": "Studying Architecture in Spain for Indian Students is an opportunity to explore architectural design, sustainable construction, urban planning, building technology, and heritage conservation in a country known for its diverse architectural styles. In Spain, universities blend design theory, technical knowledge, studio projects and hands-on learning so students can see how buildings and urban spaces are planned and developed.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Studying Architecture in Spain for Indian Students is an opportunity to explore architectural design, sustainable construction, urban planning, building technology, and heritage conservation in a country known for its diverse architectural styles. In Spain, universities blend design theory, technical knowledge, studio projects and hands-on learning so students can see how buildings and urban spaces are planned and developed."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Studying Architecture in Spain for Indian Students is an opportunity to explore architectural design, sustainable construction, urban planning, building technology, and heritage conservation in a country known for its diverse architectural styles. In Spain, universities blend design theory, technical knowledge, studio projects and hands-on learning so students can see how buildings and urban spaces are planned and developed.",
+    "For students who want to develop creative, technical and professional skills in architecture, Spain is an interesting place to learn. Studying Architecture in Spain also gives students an opportunity to explore architectural heritage, modern construction and sustainable design."
   ],
-  "highlights": {
-    "degree": "Bachelor & Master of Architecture",
-    "duration": "3 to 4 Years (UG)",
-    "fee": "€2,000 – €18,000 / Year",
-    "eligibility": "Recognised academic qualification + IELTS / TOEFL / Spanish proficiency",
-    "medium": "English & Spanish Taught"
-  },
-  "overview": "Studying Architecture in Spain for Indian Students is an opportunity to explore architectural design, sustainable construction, urban planning, building technology, and heritage conservation in a country known for its diverse architectural styles. In Spain, universities blend design theory, technical knowledge, studio projects and hands-on learning so students can see how buildings and urban spaces are planned and developed.\n\nClass 12 students after completing relevant undergraduate qualifications can opt for a Bachelor's degree in Architecture or a Master's degree. In Spain, public universities, private institutions and specialist architecture schools all offer programs, with the language of instruction varying according to the program. Students planning to Study Architecture in Spain can explore different academic pathways based on their qualifications and professional goals.\n\nNote: In Spain the professional path to become a licensed architect may require a qualifying degree and further postgraduate study. Indian students should check the professional recognition of the program before applying.",
   "universities": [
     {
-      "name": "Polytechnic University of Catalonia (UPC)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
     },
     {
-      "name": "Universidad Politécnica de Madrid (UPM)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
     },
     {
-      "name": "UPV (Universitat Politècnica de València)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
     },
     {
-      "name": "University of Sevilla",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "The University of Navarre.",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Are Indian students allowed to study Architecture in Spain?",
-      "answer": "Yes. Eligible undergraduate and postgraduate architecture programs for Indian students (subject to academic, language and admission requirements)."
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Architecture in Spain?",
+      "lead": "For students who want to develop creative, technical and professional skills in architecture, Spain is an interesting place to learn. Studying Architecture in Spain also gives students an opportunity to explore architectural heritage, modern construction and sustainable design.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Architectural heritage: Discover historic buildings, modern design and urban planning.",
+            "Learning by design: Learn abilities through architectural studios, design projects and technical tasks.",
+            "Sustainable architecture: Explore energy efficient buildings, green building materials and eco-friendly cities.",
+            "Modern construction technology: Examine building systems, digital modeling and architectural visualization.",
+            "International exposure: Study with students from varied cultural and academic backgrounds.",
+            "Specialisation options: Urban design, landscape architecture, restoration, interior architecture and sustainable construction."
+          ]
+        }
+      ]
     },
     {
-      "question": "How long is a Bachelor's in Architecture in Spain?",
-      "answer": "Most routes to architecture qualification take around five years to complete, but the exact structure depends on the degree. Students should verify the path that meets professional needs."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Architecture Classes in Spain",
+      "lead": "Students can opt to study for an undergraduate or postgraduate program appropriate to their level of academic attainment and career goals. Architecture Courses in Spain Architecture courses in Spain include architectural design, construction principles, building materials, structures, digital design and sustainable development. Students looking for Architecture Courses in Spain for Indian Students can compare the available undergraduate and postgraduate options.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Bachelor in Architecture"
+        },
+        {
+          "t": "p",
+          "items": [
+            "A bachelor's degree in architecture will explore architectural design, the principles of construction, building materials, structures and digital design tools. The duration and professional eligibility depend on the degree structure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CourseTypical LengthMain Subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's in ArchitectureVarious pathways that qualify take approximately 5 yearsDesign of buildings, construction, structures"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture and Building TechnologyDiverseMaterials, building systems, technical design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Interior Architecture3-4 years (depending on qualification)Interior spaces, lighting, materials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Landscape ArchitectureVariousLandscape design, ecology, public spaces"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "City Planning and DesignMiscellaneousUrban planning, transportation, urban development"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A master's degree allows students with a relevant undergraduate degree to specialize in advanced design, sustainable construction, urban development or architectural research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CourseNormal DurationMain Subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in ArchitectureTypically 1–2 years, depending on entry routeAdvanced design, building technology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master in Sustainable Architecture – 1-2 years – Energy efficiency, sustainable materials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Urban DesignMaster's1-2 yearsCity planning, public spaces"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's, Landscape Architecture1-2 yearsEnvironmental design, landscape planning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Architectural Restoration1-2 yearsHeritage preservation, restoration techniques"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's Digital Architecture1-2 yearsBIM, computational design, digital modeling"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indicative durations . In Spain, the professional architecture qualification pathway may require a specific integrated academic route; a general Master's degree does not automatically qualify a graduate to practise as an architect."
+          ]
+        }
+      ]
     },
     {
-      "question": "Can you study Architecture in Spain in English?",
-      "answer": "Some architecture-related programs, particularly at postgraduate level, have English-taught courses. Many undergraduate programs are taught in Spanish or regional languages so students should check the language of instruction carefully."
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Top Architecture Schools in Spain",
+      "lead": "Students looking for Architecture Universities in Spain can consider the following institutions for architecture and related programs. The universities provide a starting point for comparison of design education, technical specializations and academic options. Students exploring Architecture Universities in Spain for Indian Students can review these institutions according to their preferred study level.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For exact course, language of instruction, entry requirements and professional recognition, please check the official university website."
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
     },
     {
-      "question": "What is the price of studying Architecture in Spain?",
-      "answer": "Costs will vary according to university and program. The budget should cover tuition, housing, daily living expenses and materials for the architecture studio. 5. Yes, you can qualify as an architect in Spain after studying there. Perhaps if you complete the necessary preparatory education and meet the applicable professional requirements. Having a general master's in architecture does not automatically qualify you to practice as a licensed architect. Start Your Career In Architecture With Edu-Hawk Worldwide Students should consider the universities offering the program, the academic requirements, the course structure and the professional eligibility when choosing the right architecture program. Edu-Hawk Worldwide guides students through study options, university comparisons, application preparation and admission process. If you are planning to pursue Architecture in Spain for Indian Students , contact Edu-Hawk Worldwide for your study abroad journey guidance."
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to study Architecture in Spain",
+      "lead": "Eligibility depends on the university you choose, the level of degree, your academic background and professional pathway. Architecture Eligibility in Spain may vary according to the institution, qualification level and admission route.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "For a bachelor's degree"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students typically need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "12th pass or equivalent.",
+            "Certificate of School Leaving and Academic Transcripts.",
+            "The university required specified subject grades.",
+            "Respect for international procedures for the recognition of qualifications or access to universities.",
+            "Spanish language proficiency for Spanish taught programs, if applicable.",
+            "English language proficiency for English taught programs as required.",
+            "Entrance exams, portfolio reviews or other evaluations, where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities require specific math, science or technical coursework The requirements vary by degree and institution."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "FOR A MASTER'S DEGREE LEVEL"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Usually, applicants need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A recognized bachelor's degree in Architecture or related discipline approved by the university.",
+            "Degree certificate and academic transcripts",
+            "Portfolio of design or architectural work as appropriate.",
+            "Language skills in English or Spanish according to the program.",
+            "CV and motivation letter as requested.",
+            "Letters of recommendation or interview (if applicable)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Completing a specialist architecture master's does not automatically make you a professional architect."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Spain Architecture Admission Requirements",
+      "lead": "Spanish Universities Documents required to be submitted by students applying:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Completed Application Form to the University.",
+            "Passport in force.",
+            "Mark sheets of Class 10 and Class 12 for admission to under graduate courses.",
+            "Certificate of Class 12.",
+            "Bachelor's degree certificate and transcripts for admission to graduate studies.",
+            "Architecture portfolio if required.",
+            "Results of English or Spanish language tests, if applicable.",
+            "Letter of purpose or motivation letter.",
+            "CV or resume for post-graduate study.",
+            "Letters of recommendation, if needed.",
+            "Results of entrance examination or interview.",
+            "Any other academic recognition documents required by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before applying, students must check portfolio requirements, application deadlines, language criteria and procedures for academic recognition. These are important Architecture Admission Requirements in Spain for Indian students planning their applications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Architectural Fees in Spain",
+      "lead": "The cost of studying architecture varies between institutions, the type of degree, the number of credits and whether the student pays domestic, EU or non-EU fees. Architecture Fees in Spain may also depend on the university and the course selected.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "CostIndicative Cost"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university tuition€1,000–€8,000/year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private university tuition€6,000–€25,000+ per year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Monthly rent for accommodation400-900 €"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and groceries: €200-€350 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public transport€30-€80/month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Materials, Models and PrintingCourse Dependent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal expenses€100-€200 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are planning estimates only and are not confirmed fees for a particular architecture program. Architecture students may have some extra costs for things like model-making materials, printing, software, studio materials and trips."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "As a rough budget, €1 is roughly ₹109, but the exchange rates do fluctuate. Students should also allow for visa costs, health insurance, travel and initial accommodation costs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "How to study Architecture in Spain",
+      "lead": "Students wanting to Study Architecture in Spain can usually follow these steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Pick your level of study: Go for an undergraduate architecture degree or a postgraduate course.",
+            "Research recognition: If you intend to become a practising architect, make sure the program meets the relevant qualifying requirements.",
+            "Check eligibility Think about academic subjects, grades, language requirements and how to apply.",
+            "Portfolio If your program requires a portfolio, include a selection of your design projects and relevant technical work.",
+            "How to Apply: The official university portal.",
+            "Complete assessments: Take entrance tests or interview if necessary.",
+            "Get a decision on admission: Examine the offer, tuition and enrollment conditions.",
+            "Arrange finances and accommodation: Plan a budget for tuition fees and living expenses.",
+            "Apply for a Spanish Student Visa: Consular requirements for Indian applicants.",
+            "Get ready for enrolment Organize travel, insurance, accommodation and registration with university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Architecture Degree Recognition & Career Scope After",
+      "lead": "Graduates in Architecture can find employment in design studios, construction companies, property development, urban planning, sustainability consultancies and building technology. Architecture Career Opportunities in Spain can include roles in architectural design, digital modeling, construction and related areas.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Possible career options are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Assistant Architect",
+            "Junior Architect Designer",
+            "AutoCAD Technician",
+            "BIM Specialist",
+            "Professional in Interior Design",
+            "Assistant Urban Designer",
+            "Expert in Landscape Design",
+            "Consultant in Sustainable Building",
+            "Specialist in Architectural Visualization",
+            "Project Coordinator, Construction"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional licensing issues: In Spain, the architect is a protected profession that requires that the appropriate qualifying education and compliance with applicable professional rules. It must not be assumed that an Indian architecture degree or a generic postgraduate qualification automatically qualify you to practice in Spain."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students intending to return to India should also check the relevant recognition and registration requirements of the Council of Architecture."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Architecture Career Opportunities in Spain: Salaries and Job Outlook",
+      "lead": "Graduates may find work in areas including architectural design, construction, digital modeling, interior design and urban development. The following figures are broad illustrative gross annual estimates for related roles, not guarantyd salaries.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Job RoleExample Annual Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architectural Assistant€22,000 - €30,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Junior Architect Designer€23,000-32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CAD / BIM Specialist€25,000 – €40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Interior Designer€22,000-€35,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Urban Design Professional€25,000 - €40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architect with experience€35,000–€55,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Design Manager / Project Architect€40,000-€60,000 +"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The actual salaries will depend on your experience, location, employer, portfolio, language and professional registration. New grads usually make less than those with experience in the field."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "What Documents Do I Need to Study Architecture in Spain?",
+      "lead": "Documents required for university admission and visa processing may include:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport (valid).",
+            "Mark sheets of class 10 and 12 for bachelors admission.",
+            "Certificate of Class 12.",
+            "Certificate of Bachelor's degree and transcripts for graduate admission.",
+            "Completed application form.",
+            "Architecture portfolio as required.",
+            "Results of English or Spanish language tests, if applicable.",
+            "CV or resume.",
+            "Letter of motivation / Statement of purpose.",
+            "Letters of recommendation (if needed).",
+            "Admission letter from the university.",
+            "Evidence of financial means for the purpose of the visa.",
+            "Health insurance and accommodation information where necessary.",
+            "Other academic recognition documents required by the university or authorities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some documents may need to be translated, legalized or apostilled. Students should check the latest instructions prior to submission."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "faqs": [
+    {
+      "q": "1. Are Indian students allowed to study Architecture in Spain?",
+      "a": "Yes. Eligible undergraduate and postgraduate architecture programs for Indian students (subject to academic, language and admission requirements)."
+    },
+    {
+      "q": "2. How long is a Bachelor's in Architecture in Spain?",
+      "a": "Most routes to architecture qualification take around five years to complete, but the exact structure depends on the degree. Students should verify the path that meets professional needs."
+    },
+    {
+      "q": "3. Can you study Architecture in Spain in English?",
+      "a": "Some architecture-related programs, particularly at postgraduate level, have English-taught courses. Many undergraduate programs are taught in Spanish or regional languages so students should check the language of instruction carefully."
+    },
+    {
+      "q": "4. What is the price of studying Architecture in Spain?",
+      "a": "Costs will vary according to university and program. The budget should cover tuition, housing, daily living expenses and materials for the architecture studio."
+    }
+  ],
+  "seo": {
+    "title": "Architecture in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Studying Architecture in Spain for Indian Students is an opportunity to explore architectural design, sustainable construction, urban planning, building technol",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
 }

@@ -1,3 +1,4 @@
+import lawData from "../../../../data/study_abroad/usa/law.json";
 import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
@@ -601,14 +602,29 @@ const imgDims = { w: 900, h: 760 };
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content in the page object above is unchanged.
-const LawAbroad = () => (
-  <AbroadCoursePage
-    page={page}
-    heroImg={heroImg}
-    sideImg={sideImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/law"
-  />
-);
+const LawAbroad = () => {
+  const dynamicPage = {
+    ...page,
+    title: lawData?.seo?.title || page.title,
+    description: lawData?.seo?.description || page.description,
+    heroParas: lawData?.hero?.subtitle ? [lawData.hero.subtitle] : page.heroParas,
+    overview: lawData?.overview ? (Array.isArray(lawData.overview) ? lawData.overview : lawData.overview.split('\n\n')) : page.overview,
+    faqs: (lawData?.faq && lawData.faq.length > 0)
+      ? lawData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : page.faqs,
+  };
+
+  return (
+    <AbroadCoursePage
+      page={dynamicPage}
+      heroImg={heroImg}
+      heroBgImg={typeof heroBgImg !== 'undefined' ? heroBgImg : undefined}
+      sideImg={sideImg}
+      ctaBgImg={typeof ctaBgImg !== 'undefined' ? ctaBgImg : undefined}
+      imgDims={typeof imgDims !== 'undefined' ? imgDims : undefined}
+      seoPath="/study-abroad/usa/law"
+    />
+  );
+};
 
 export default LawAbroad;

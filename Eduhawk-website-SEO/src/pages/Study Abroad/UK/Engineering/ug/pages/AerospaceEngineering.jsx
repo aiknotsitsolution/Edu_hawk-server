@@ -1,3 +1,4 @@
+import cmsData from "../../../../../../data/study_abroad/uk/aero_engg_ug.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../../../component/CoursePageKit.jsx";
 
@@ -22,7 +23,6 @@ const page = {
     "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerospace engineering. Aerodynamics, structures, materials, flight mechanics, propulsion, and control systems are all integrated with engineering principles."
   ],
   "overview": [
-    "The design, development, testing, and maintenance of airplanes, spacecraft, satellites, propulsion systems, and other technologies are the core topics of aerospace engineering. Aerodynamics, structures, materials, flight mechanics, propulsion, and control systems are all integrated with engineering principles.",
     "The UK has undergraduate Aerospace Engineering programs that include actual engineering projects, computer modeling, laboratory experiments, and theoretical learning. Students can investigate technology utilized in advanced transportation, unmanned aerial vehicles, commercial aviation, defense, and space exploration.",
     "A UK aerospace degree can offer a solid basis for future technological advancement and career prospects for Indian students interested in aircraft, flight technologies, space systems, and engineering innovation."
   ],
@@ -906,9 +906,40 @@ const page = {
 };
 
 export default function AerospaceEngineeringUK() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => ({
+          ...u,
+          img: u.img || u.image || page.universities?.[idx]?.img,
+          image: u.img || u.image || page.universities?.[idx]?.image || page.universities?.[idx]?.img
+        }))
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

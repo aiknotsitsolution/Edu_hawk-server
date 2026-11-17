@@ -9,6 +9,7 @@ import ctaBgImg from "../../../../Images/Abroad/Mauritius/Architecture/cta_bg.we
 
 // University images
 import uniImg1 from "../../../../Images/Abroad/Mauritius/Architecture/image1.png";
+import cmsData from "../../../../data/study_abroad/mauritius/architecture.json";
 
 const page = {
   "name": "Architecture",
@@ -391,9 +392,26 @@ const page = {
 };
 
 export default function ArchitectureMauritius() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

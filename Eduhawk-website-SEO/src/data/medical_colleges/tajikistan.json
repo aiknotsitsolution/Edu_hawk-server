@@ -1,57 +1,78 @@
 {
   "seo": {
-    "title": "MBBS in Tajikistan for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Tajikistan. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Tajikistan for Indian Students | Fees & Admission",
+    "description": "Study MBBS in Tajikistan at affordable cost. Check eligibility, admission process and recognized medical universities.",
+    "keywords": "mbbs in tajikistan, tajikistan mbbs fees, study mbbs tajikistan, tajikistan medical colleges"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Tajikistan",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Tajikistan.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN TAJIKISTAN",
+    "subtitle": "Explore MBBS Opportunities in Tajikistan 2026–2027. Government universities in Dushanbe with modern teaching hospitals and low tuition.",
+    "image": "/uploads/colleges/tajikistan_flag.svg",
+    "ctaText": "Apply for Tajikistan MBBS"
   },
+  "flag": "/uploads/colleges/tajikistan_flag.svg",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "6 Years",
+      "l": "Course Duration (5+1 Internship)"
     },
     {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "₹2.6L",
+      "l": "Starting Annual Tuition"
     },
     {
       "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "English Medium Programs"
+    },
+    {
+      "n": "NMC & WHO",
+      "l": "Recognized Government Universities"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MD / MBBS",
+    "duration": "6 Years (5+1 Internship)",
+    "fee": "₹16 - ₹22 Lakhs Complete Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory for Indian students",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Tajikistan offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Tajikistan offers affordable medical education in government institutions. The capital Dushanbe provides safe, welcoming, and scenic surroundings with direct flight connectivity from India.",
+  "universitiesHeading": "Top Medical Universities in Tajikistan",
   "universities": [
     {
-      "name": "Top State Medical University (Tajikistan)",
-      "location": "Tajikistan",
-      "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "name": "Avicenna Tajik State Medical University",
+      "location": "Dushanbe, Tajikistan",
+      "fee": "₹2.9 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Donishgohi_davlatii_tibbii_Tojikiston_ba_nomi_A_Sino.JPG",
+      "desc": "Founded in 1939, named after Abu Ali Ibn Sino, the flagship state medical university."
+    },
+    {
+      "name": "Khatlon State Medical University",
+      "location": "Khatlon, Tajikistan",
+      "fee": "₹2.6 Lakhs / Year",
+      "image": "/uploads/colleges/khatlon_state_medical_university.webp",
+      "desc": "Government medical university offering focused clinical training and dedicated Indian hostel."
+    },
+    {
+      "name": "Tajik National University",
+      "location": "Dushanbe, Tajikistan",
+      "fee": "₹2.8 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/36/Tajik_National_University_%28Main_Building%29.jpg",
+      "desc": "Prestigious national university with an expanding medical faculty and modern laboratory equipment."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Tajikistan?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "Is MBBS from Tajikistan valid in India?",
+      "answer": "Yes, degrees from NMC and WHO recognized universities in Tajikistan are valid for the NExT/FMGE licensing examination in India."
     },
     {
-      "question": "Is the degree from Tajikistan valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "What is the medium of instruction in Tajikistan?",
+      "answer": "All courses for international students are conducted in 100% English medium."
     }
   ]
 }

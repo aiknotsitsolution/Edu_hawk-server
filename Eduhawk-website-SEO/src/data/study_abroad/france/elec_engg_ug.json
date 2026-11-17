@@ -1,203 +1,619 @@
 {
-  "seo": {
-    "title": "Study UG Electrical Engineering in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to UG Electrical Engineering in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - France",
-    "title": "UG ELECTRICAL ENGINEERING IN FRANCE",
-    "subtitle": "****Undergraduate electrical engineering in France**** is a promising option for students interested in **electrical power systems, electronics, automation, renewable energy, telecommunications, and industrial technology**."
+    "title": "UG Electrical Engineering in France",
+    "subtitle": "\\\\Undergraduate electrical engineering in France\\\\ is a promising option for students interested in \\\\electrical power systems, electronics, automation, renewable energy, telecommunications, and industrial technology\\."
   },
   "overview": [
-    "****Undergraduate electrical engineering in France**** is a promising option for students interested in **electrical power systems, electronics, automation, renewable energy, telecommunications, and industrial technology**.",
-    "French universities and engineering schools offer a range of study paths, from three-year bachelor’s programs to longer engineering degrees.",
-    "****Edu Hawk worldwide study abroad guidance**** guides students on these opportunities and requirements to study abroad.",
-    "**"
+    "In France, engineering schools are associated with sectors such as energy, transportation, manufacturing, electronics, telecommunications and industrial automation.",
+    "\\\\Technical education\\\\: Study \\\\electrical circuits, electrical machines, power systems, electronics, and control systems.",
+    "\\\\Learning related to the industry:\\\\ Depending on the program, students may take part in practical laboratory sessions, design projects and work placements."
+  ],
+  "universities": [
+    {
+      "name": "INSA Lyon",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "desc": "\\\\INSA Lyon\\\\ offers a three:year \\\\Bachelor in Science and Engineering in Electrical Engineering and Civil Engineering\\\\ with a specialization in \\\\electrical network infrastructure\\."
+    },
+    {
+      "name": "### Université Grenoble Alpes",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "IUT 1 : \\\\Université Grenoble Alpes\\\\ provides a three:year \\\\BUT ( University Bachelor of Technology ) in Electrical Engineering and Industrial Computing\\\\ (\\Génie électrique et informatique industrielle\\, GEII). ### Students can choose to specialize in \\\\electricity and energy management, automation and industrial computing or electronics and embedded systems\\. The program is taught in French. ### Licence EEA : This route gives a broader academic foundation in \\\\electronics, electrical energy and automation\\\\ and can prepare students for further education at master's level. It is taught in French. ### 4. Eligibility for Undergraduate Electrical Engineering in France The \\\\entry requirements for electrical engineering in France\\\\ normally include: Completion of secondary studies equivalent to the French baccalauréat. A strong academic background in \\\\mathematics and physics\\. Chemistry or other science subjects as needed. \\\\Knowledge of the French language\\\\ for courses taught in French or \\\\knowledge of the English language\\\\ for courses taught in English. Any entrance test, interview or further assessment that may be required. Class 12 with maths and physics is typically relevant for \\\\Indian students\\. The combination of subjects and minimum marks differ from institution to institution. \\\\English taught electrical engineering courses\\\\ Students may need to apply for \\\\IELTS, TOEFL or another accepted English qualification\\. French-taught programs may ask for a recognized French language certificate."
+    },
+    {
+      "name": "Sorbonne University",
+      "location": "Paris, France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+    }
   ],
   "sections": [
     {
-      "title": "1. **Select your specialty:** Pick from electrical power, electronics, automation, renewable energy or embedded systems.",
-      "eyebrow": "Why Study in France",
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Electrical Engineering in France?",
+      "lead": "In France, engineering schools are associated with sectors such as energy, transportation, manufacturing, electronics, telecommunications and industrial automation.",
       "groups": [
+        {
+          "t": "h4",
+          "text": "Some of the main benefits are:"
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "\\\\Technical education\\\\: Study \\\\electrical circuits, electrical machines, power systems, electronics, and control systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Learning related to the industry:\\\\ Depending on the program, students may take part in practical laboratory sessions, design projects and work placements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Specialisation choices:\\\\ Look into \\\\renewable energy, smart grids, industrial automation, embedded systems, and electric mobility\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International study pathways:\\\\ Some \\\\bachelor's programs in France\\\\ are taught in English, but most traditional electrical engineering courses are in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further study:\\\\ Graduates can apply for relevant \\\\master's programmes\\\\ or engineering school pathways, after completion, subject to admission requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Career flexibility:\\\\ \\\\Electrical engineering skills\\\\ are transferable to energy, manufacturing, transportation, building systems and technology industries"
           ]
         }
       ]
     },
     {
-      "title": "2. **Make a shortlist of universities:** Compare the curriculum, length of the course, language of teaching, accreditation and fees.",
-      "eyebrow": "Degrees & Specializations",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Electrical Engineering Courses in France",
+      "lead": "\\\\Undergraduate electrical engineering programs in France\\\\ train students to design, operate, test and maintain electrical and electronic systems.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "Popular fields of study are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Electrical Engineering:\\\\ Electrical circuits, machines, power systems and electrical installations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Electronics Engineering:\\\\ designing of circuits, electronic circuits, sensors and digital systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Electrical Power Engineering:\\\\ Generation, transmission, distribution and conversion of power and energy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Renewable Energy Engineering:\\\\ Solar, wind, storage and integration with the electrical grid."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Automation and Control Engineering:\\\\ Industrial control systems, instrumentation, sensors and automated processes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Embedded Systems:\\\\ Microcontrollers, electronics hardware, real-time systems, connected devices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Signal processing, electronic communication systems, and communication networks are all included in telecommunications engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industrial Computing:\\\\ Control systems, programming, automation, and digital manufacturing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration of program typically"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree or Licence\\\\ : often three years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Traditional French engineering-school track:\\\\ usually 5 years after secondary school."
           ]
         }
       ]
     },
     {
-      "title": "3. **Check the application channel:** See if you should apply directly to the institution or via an official admissions platform or the **Études en France procédure**.",
-      "eyebrow": "Top Institutions in France",
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top UG Electrical Engineering Universities in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "INSA Lyon",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "desc": "\\\\INSA Lyon\\\\ offers a three:year \\\\Bachelor in Science and Engineering in Electrical Engineering and Civil Engineering\\\\ with a specialization in \\\\electrical network infrastructure\\."
+        },
+        {
+          "name": "### Université Grenoble Alpes",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "IUT 1 : \\\\Université Grenoble Alpes\\\\ provides a three:year \\\\BUT ( University Bachelor of Technology ) in Electrical Engineering and Industrial Computing\\\\ (\\Génie électrique et informatique industrielle\\, GEII). ### Students can choose to specialize in \\\\electricity and energy management, automation and industrial computing or electronics and embedded systems\\. The program is taught in French. ### Licence EEA : This route gives a broader academic foundation in \\\\electronics, electrical energy and automation\\\\ and can prepare students for further education at master's level. It is taught in French. ### 4. Eligibility for Undergraduate Electrical Engineering in France The \\\\entry requirements for electrical engineering in France\\\\ normally include: Completion of secondary studies equivalent to the French baccalauréat. A strong academic background in \\\\mathematics and physics\\. Chemistry or other science subjects as needed. \\\\Knowledge of the French language\\\\ for courses taught in French or \\\\knowledge of the English language\\\\ for courses taught in English. Any entrance test, interview or further assessment that may be required. Class 12 with maths and physics is typically relevant for \\\\Indian students\\. The combination of subjects and minimum marks differ from institution to institution. \\\\English taught electrical engineering courses\\\\ Students may need to apply for \\\\IELTS, TOEFL or another accepted English qualification\\. French-taught programs may ask for a recognized French language certificate."
+        },
+        {
+          "name": "Sorbonne University",
+          "location": "Paris, France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Proficiency",
+      "title": "Admission Requirements for French Undergraduate Studies in Electrical Engineering",
+      "lead": "\\\\Typical Admission requirements for electrical engineering in France\\\\ are:",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "Marksheet/academic transcript of Class 10 and Class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate of secondary school completion."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Valid Passport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of \\\\competence in French or English\\\\ if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Motivation letter or statement of purpose."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV (if required)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form completed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of entrance examination or interview where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Selective engineering programs may consider \\\\academic performance, preparation in mathematics and physics, motivation and suitability for technical study\\\\"
           ]
         }
       ]
     },
     {
-      "title": "4. **Gather your documents:** Collect your academic transcripts, passport information, language test scores, and any required motivation letter.",
-      "eyebrow": "Academic & Language Criteria",
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Electrical Engineering in France",
+      "lead": "The cost of tuition fees in electrical engineering in France varies depending on the institution, the diploma, the student status and possible exemptions.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "Public higher education tuition fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For the \\\\academic year 2026-2027\\\\, the following differentiated registration fees are published by Campus France for non-EU students subject to the relevant national rules:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree level \\| €2,902 Master's level degree \\| €3,950 \\| \\| PhD \\| €398"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The regular yearly rate for eligible students published in the French/EU category is €178 for a bachelor degree and €630 for many public engineering-degree programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other Expenses of Living"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should also plan for:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Housing and public utilities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Supplies and food."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Local transport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expenses related to insurance and health."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books, equipment and personal costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Costs related to residence and visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of living in France will depend on the city, the type of accommodation and your lifestyle."
           ]
         }
       ]
     },
     {
-      "title": "5. **Submit application:** Complete the application by the published deadline date.",
-      "eyebrow": "Application Checklist",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process of Undergraduate Electrical Engineering in France",
+      "lead": "Here is the common \\\\admission process for undergraduate electrical engineering in France\\\\:",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "1. \\\\Select your specialty:\\\\ Pick from electrical power, electronics, automation, renewable energy or embedded systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Make a shortlist of universities:\\\\ Compare the curriculum, length of the course, language of teaching, accreditation and fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check the application channel:\\\\ See if you should apply directly to the institution or via an official admissions platform or the \\\\Études en France procédure\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Gather your documents:\\\\ Collect your academic transcripts, passport information, language test scores, and any required motivation letter."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Submit application:\\\\ Complete the application by the published deadline date."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Complete selection steps:\\\\ Complete any entrance test or interview required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Accept the offer:\\\\ Follow the enrollment instructions provided by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Arrange your student visa:\\\\ Once you have received the required admission documents, proceed with the applicable \\\\French student visa procedure\\\\"
           ]
         }
       ]
     },
     {
-      "title": "6. **Complete selection steps:** Complete any entrance test or interview required.",
-      "eyebrow": "Tuition & Cost of Living",
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and recognition of Electrical Engineering in France",
+      "lead": "Accreditation of electrical engineering in France helps students to know the qualification they will receive and how it relates to further study or employment.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "The \\\\Commission des titres d'ingénieur (CTI)\\\\ assesses the quality of the French engineering programs entitled to award the \\diplôme d'ingénieur\\ and authorizes the establishments to award the title."
           ]
-        }
-      ]
-    },
-    {
-      "title": "7. **Accept the offer:** Follow the enrollment instructions provided by the institution.",
-      "eyebrow": "Step-by-Step Guide",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Details available upon request."
+            "A separate qualification is the three-year bachelor's degree or \\\\ BUT qualification \\."
           ]
-        }
-      ]
-    },
-    {
-      "title": "8. Accreditation and recognition of Electrical Engineering in France**",
-      "eyebrow": "Degrees & Recognition",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "**Accreditation of electrical engineering in France** helps students to know the qualification they will receive and how it relates to further study or employment.",
-            "The **Commission des titres d’ingénieur (CTI)** assesses the quality of the French engineering programs entitled to award the *diplôme d’ingénieur* and authorizes the establishments to award the title.",
-            "A separate qualification is the three-year bachelor's degree or ** BUT qualification **.",
             "Students are to:"
           ]
         },
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "* Check the exact qualification mentioned.",
-            "* Check **CTI accreditation** if you are looking for a French engineering diploma specifically.",
-            "* Possibility of pursuing a master’s degree or engineering cycle.",
-            "* See if there are any requirements for professional recognition in the country where you plan to work."
+            "Check the exact qualification mentioned."
           ]
         },
         {
           "t": "p",
           "items": [
-            "**"
+            "Check \\\\CTI accreditation\\\\ if you are looking for a French engineering diploma specifically."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possibility of pursuing a master's degree or engineering cycle."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "See if there are any requirements for professional recognition in the country where you plan to work."
           ]
         }
       ]
     },
     {
-      "title": "9. Salary and Job Opportunities in Electrical Engineering in France**",
-      "eyebrow": "Job Roles & Industry Growth",
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Opportunities in Electrical Engineering in France",
+      "lead": "Electrical engineering graduates in France can work in energy, electronics, manufacturing, transportation, building systems and industrial automation.",
       "groups": [
         {
-          "t": "ul",
+          "t": "p",
           "items": [
-            "* Electrical engineering graduates in France can work in energy, electronics, manufacturing, transportation, building systems and industrial automation."
+            "You need to have the right qualifications, technical skills, experience, language skills and work permit to be eligible for a job."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Possible career paths include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical design engineer or assistant."
           ]
         },
         {
           "t": "p",
           "items": [
-            "You need to have the right qualifications, technical skills, experience, language skills and work permit to be eligible for a job.",
-            "**Possible career paths include:**"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "* Electrical design engineer or assistant.",
-            "* Mechanic, electrical maintenance.",
-            "* Power systems technician or graduate professional.",
-            "* Electronics design or test professional.",
-            "* Automation and control systems specialist.",
-            "* Professional in renewable energy systems.",
-            "* Developed embedded systems",
-            "* Instrumentation or industrial systems specialist.",
-            "* Project Coordinator Electric."
+            "Mechanic, electrical maintenance."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Salary expectations: Salary varies by job, region, employer, qualification and experience.",
-            "**"
+            "Power systems technician or graduate professional."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics design or test professional."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automation and control systems specialist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional in renewable energy systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Developed embedded systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Instrumentation or industrial systems specialist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Project Coordinator Electric."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary expectations: Salary varies by job, region, employer, qualification and experience."
           ]
         }
       ]
     },
     {
-      "title": "10.",
-      "eyebrow": "Document Requirements",
-      "groups": [
-        {
-          "t": "ul",
-          "items": [
-            "* Marksheet and completion certificate of class"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "11. UG in Electrical Engineering in France FAQs**",
-      "eyebrow": "Frequently Asked Questions",
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required for UG Electrical Engineering in France",
+      "lead": "Documents to be submitted for admission to Electrical Engineering in France",
       "groups": [
         {
           "t": "p",
           "items": [
-            "**Q1. Can Indian students pursue undergraduate electrical engineering in France?",
-            "Yes. **Indian students can study electrical engineering in France** by applying to eligible bachelor’s, BUT, and engineering school programs if they meet the academic, language and application requirements.",
-            "Q2. How many years does an undergraduate electrical engineering degree take in France?",
-            "You usually study **three years** for a **bachelor’s degree or BUT in electrical engineering**. The classic **French engineering-school route** typically takes five years of study following high school.",
-            "**Q3. Are French electrical engineering courses taught in English?**",
-            "Some programs are taught in English, such as **INSA Lyon's bachelor's program on electrical engineering and electrical network infrastructure**. Many traditional electrical engineering courses are taught in French, so check the language of instruction.",
-            "Q4. What is the cost of undergraduate electrical engineering in France?",
-            "fees depend on qualification and institution The published differentiated fee for bachelor level non-EU students under the rules of the relevant public institution for **2026-2027** is €2,902 per year. There are some programs which have separate fee schedules or exceptions.",
-            "**How can Edu Hawk Worldwide Consultancy help me to study abroad?**",
-            "**Edu Hawk worldwide consultancy** can assist students in finding suitable universities, understanding admission criteria, arranging application materials and planning their **study abroad journey**. Students should contact the relevant authorities concerning academic, financial, immigration and licensing requirements."
+            "The applicants may need to prepare:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passport valid."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marksheet and Certificate of Class 10."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marksheet and completion certificate of class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Grade information and academic transcripts, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "French or English language test results\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Purpose Statement or Letter of Motivation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV available on request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation if asked for."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Certified translations of documents when applicable."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other documents as required by the university or the admissions portal."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may be required to submit additional documentation after admission, including \\\\French student visa processing\\\\, financial proof, accommodation and final enrollment"
           ]
         }
       ]
@@ -205,12 +621,29 @@
   ],
   "faqs": [
     {
-      "question": "1. Can Indian students study UG Electrical Engineering in France?",
-      "answer": "Yes, Indian students with valid academic qualifications, required English or French language proficiency, and relevant documentation can apply."
+      "q": "\\\\Q1. Can Indian students pursue undergraduate electrical engineering in France?",
+      "a": "Yes. \\\\Indian students can study electrical engineering in France\\\\ by applying to eligible bachelor's, BUT, and engineering school programs if they meet the academic, language and application requirements."
     },
     {
-      "question": "2. How can Edu Hawk Worldwide Consultancy help me?",
-      "answer": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, Campus France procedure, visa assistance, and pre-departure briefings."
+      "q": "How many years does an undergraduate electrical engineering degree take in France?",
+      "a": "You usually study \\\\three years\\\\ for a \\\\bachelor's degree or BUT in electrical engineering. The classic \\\\French engineering-school route\\\\ typically takes five years of study following high school."
+    },
+    {
+      "q": "\\\\Q3. Are French electrical engineering courses taught in English?\\\\",
+      "a": "Some programs are taught in English, such as \\\\INSA Lyon's bachelor's program on electrical engineering and electrical network infrastructure. Many traditional electrical engineering courses are taught in French, so check the language of instruction."
+    },
+    {
+      "q": "What is the cost of undergraduate electrical engineering in France?",
+      "a": "fees depend on qualification and institution The published differentiated fee for bachelor level non-EU students under the rules of the relevant public institution for \\\\2026-2027\\\\ is €2,902 per year. There are some programs which have separate fee schedules or exceptions."
+    },
+    {
+      "q": "\\\\How can Edu Hawk Worldwide Consultancy help me to study abroad?\\\\",
+      "a": "\\\\Edu Hawk worldwide consultancy\\\\ can assist students in finding suitable universities, understanding admission criteria, arranging application materials and planning their \\\\study abroad journey. Students should contact the relevant authorities concerning academic, financial, immigration and licensing requirements."
     }
-  ]
+  ],
+  "seo": {
+    "title": "UG Electrical Engineering in France | Edu-Hawk Worldwide",
+    "description": "In France, engineering schools are associated with sectors such as energy, transportation, manufacturing, electronics, telecommunications and industrial automat",
+    "keywords": "Study Electrical Engineering in France for Indian Students, Undergraduate Electrical Engineering Courses in France for International Students, Best Universities for Electrical Engineering in France, Bachelor's Degree in Electrical Engineering in France, Electrical Engineering Eligibility Requirements in France, Electrical Engineering Admission Requirements for Indian Students, Electrical Engineering Tuition Fees in France 2026–2027, Cost of Studying Electrical Engineering in France, English-Taught Electrical Engineering Programmes in France, Electrical Engineering and Industrial Computing (GEII) in France, Electrical Power Systems and Renewable Energy Courses in France, Electronics Engineering Courses in France, Automation and Control Engineering Programmes in France, Electrical Engineering Jobs and Career Opportunities in France, <"
+  }
 }

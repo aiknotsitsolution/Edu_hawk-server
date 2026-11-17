@@ -1,57 +1,99 @@
 {
   "seo": {
-    "title": "MBBS in Kazakhstan for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Kazakhstan. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Kazakhstan for Indian Students | Fees & Admission 2026",
+    "description": "MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges.",
+    "keywords": "mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Kazakhstan",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Kazakhstan.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN KAZAKHSTAN",
+    "subtitle": "Explore MBBS Opportunities in Kazakhstan 2026–2027. Fast-growing medical destination with NMC compliant 5+1 year programs and affordable costs.",
+    "image": "/uploads/colleges/kazakhstan_about.webp",
+    "ctaText": "Apply for Kazakhstan MBBS"
   },
+  "flag": "/uploads/colleges/kazakhstan_flag.svg",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "6000+",
+      "l": "Indian Medical Students"
     },
     {
-      "n": "20+",
-      "l": "Countries"
+      "n": "6 Years",
+      "l": "Duration (5+1 Year Internship)"
     },
     {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "₹3-4L",
+      "l": "Annual Tuition Range"
     },
     {
-      "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "n": "NMC & WHO",
+      "l": "Accredited Universities"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MD Physician (Equivalent to MBBS)",
+    "duration": "6 Years",
+    "fee": "₹18 - ₹26 Lakhs Total Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO approved",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Kazakhstan offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Kazakhstan has become one of the most sought-after countries for Indian students pursuing MBBS abroad. Government and national universities offer 100% English-medium instruction, modern anatomy simulation theaters, and on-campus Indian messes with hostel facilities.",
+  "universitiesHeading": "Top Medical Universities in Kazakhstan",
   "universities": [
     {
-      "name": "Top State Medical University (Kazakhstan)",
-      "location": "Kazakhstan",
+      "name": "Asfendiyarov Kazakh National Medical University",
+      "location": "Almaty, Kazakhstan",
+      "fee": "₹3.8 Lakhs / Year",
+      "image": "/uploads/colleges/asfendiyarov_kazakh_national.webp",
+      "desc": "Kazakhstan's top-ranked National medical university with over 90 years of clinical prestige."
+    },
+    {
+      "name": "Karaganda State Medical University",
+      "location": "Karaganda, Kazakhstan",
+      "fee": "₹3.4 Lakhs / Year",
+      "image": "/uploads/colleges/karaganda_state_medical.webp",
+      "desc": "Leading research academy with modern simulation training centers and large hospital affiliations."
+    },
+    {
+      "name": "Kokshetau State University",
+      "location": "Kokshetau, Kazakhstan",
+      "fee": "₹3.2 Lakhs / Year",
+      "image": "/uploads/colleges/kokshetau_state_university.webp",
+      "desc": "High quality affordable government university with strong Indian student academic support."
+    },
+    {
+      "name": "Semey State Medical University",
+      "location": "Semey, Kazakhstan",
       "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "image": "/uploads/colleges/semey_state_medical.webp",
+      "desc": "Known for extensive clinical oncology and nuclear medicine facilities with attached hospital."
+    },
+    {
+      "name": "South Kazakhstan Medical Academy",
+      "location": "Shymkent, Kazakhstan",
+      "fee": "₹3.1 Lakhs / Year",
+      "image": "/uploads/colleges/south_kazakhstan_medical_academy.webp",
+      "desc": "Highly affordable academy located in warm Southern Kazakhstan with active Indian community."
+    },
+    {
+      "name": "West Kazakhstan Marat Ospanov State Medical University",
+      "location": "Aktobe, Kazakhstan",
+      "fee": "₹3.3 Lakhs / Year",
+      "image": "/uploads/colleges/west_kazakhstan_marat_ospanov.webp",
+      "desc": "Major medical research hub in Western Kazakhstan with excellent hostel and mess amenities."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Kazakhstan?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "Is MBBS in Kazakhstan valid in India?",
+      "answer": "Yes, degrees from NMC-recognized universities in Kazakhstan are fully valid in India upon passing the NExT/FMGE exam."
     },
     {
-      "question": "Is the degree from Kazakhstan valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "What is the total fee for MBBS in Kazakhstan?",
+      "answer": "The complete package (tuition + hostel + Indian food) usually ranges from ₹18 lakh to ₹26 lakh for the full 6-year duration."
     }
   ]
 }

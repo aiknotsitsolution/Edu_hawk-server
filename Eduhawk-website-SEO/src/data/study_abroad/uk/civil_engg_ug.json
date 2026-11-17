@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study BEng Civil Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to BEng Civil Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Civil Engineering in the UK",
     "subtitle": "The design, construction, upkeep, and improvement of infrastructure, including buildings, bridges, roads, railroads, dams, water supply systems, and flood protection structures, is the subject of the technical specialty known as \"civil engineering.\""
   },
@@ -13,17 +8,47 @@
     "Engineering theory, hands-on laboratory work, design projects, surveying, building materials, and infrastructure planning are all combined in the UK's undergraduate Civil Engineering programs.",
     "Studying civil engineering in the UK can expose Indian students to cutting-edge building technology, sustainable infrastructure design, project management, and globally recognized engineering education."
   ],
+  "universities": [
+    {
+      "name": "Bristol University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_civil_engg_ug_Bristol_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_civil_engg_ug_Bristol_University-image4.png",
+      "desc": "Bristol University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "London's Imperial College-",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_civil_engg_ug_London_s_Imperial_College--image3.png",
+      "image": "/uploads/study_abroad/uk/uk_civil_engg_ug_London_s_Imperial_College--image3.png",
+      "desc": "London's Imperial College- is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "London's University College",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_civil_engg_ug_London_s_University_College-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_civil_engg_ug_London_s_University_College-image1.png",
+      "desc": "London's University College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Surrey University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_civil_engg_ug_Surrey_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_civil_engg_ug_Surrey_University-image2.png",
+      "desc": "Surrey University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Civil Engineering in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "The design, construction, upkeep, and improvement of infrastructure, including buildings, bridges, roads, railroads, dams, water supply systems, and flood protection structures, is the subject of the technical specialty known as \"civil engineering.\"",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The design, construction, upkeep, and improvement of infrastructure, including buildings, bridges, roads, railroads, dams, water supply systems, and flood protection structures, is the subject of the technical specialty known as \"civil engineering.\""
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -62,15 +87,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Courses in Civil Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "Depending on their selected course structure, academic objectives, and Class 12 credentials, Indian students can select from a number of undergraduate-entry pathways.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on their selected course structure, academic objectives, and Class 12 credentials, Indian students can select from a number of undergraduate-entry pathways."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -158,46 +179,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "UK's Top Universities for Civil Engineering",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Undergraduate Civil Engineering programs or similarly related undergraduate-entry engineering routes are offered by the following universities. This is not an official ranking; rather, it is a shortlist for course research.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Bristol University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Bristol_University_webp"
-            },
-            {
-              "name": "Londons Imperial College ",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Londons_Imperial_College__webp"
-            },
-            {
-              "name": "Londons University College",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Londons_University_College_webp"
-            },
-            {
-              "name": "Surrey University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Surrey_University_webp"
-            }
-          ]
+          "name": "Bristol University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_civil_engg_ug_Bristol_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_civil_engg_ug_Bristol_University-image4.png",
+          "desc": "Bristol University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "London's Imperial College-",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_civil_engg_ug_London_s_Imperial_College--image3.png",
+          "image": "/uploads/study_abroad/uk/uk_civil_engg_ug_London_s_Imperial_College--image3.png",
+          "desc": "London's Imperial College- is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "London's University College",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_civil_engg_ug_London_s_University_College-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_civil_engg_ug_London_s_University_College-image1.png",
+          "desc": "London's University College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Surrey University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_civil_engg_ug_Surrey_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_civil_engg_ug_Surrey_University-image2.png",
+          "desc": "Surrey University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Studying Civil Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "The university, academic standing, course design, and preferred entry route all influence the admission requirements.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, academic standing, course design, and preferred entry route all influence the admission requirements."
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -211,10 +238,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -240,20 +265,14 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK Admission Requirements for Civil Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Before applying, Indian students should study each university's academic and application requirements.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Before applying, Indian students should study each university's academic and application requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
-          ]
+          "t": "h4",
+          "text": "Academic requirements"
         },
         {
           "t": "p",
@@ -272,10 +291,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -310,27 +327,18 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying civil engineering in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, course length, location, lodging, and individual expenses all affect the total cost of studying Civil Engineering.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition",
+      "lead": "While several institutions have not yet confirmed their 2027/28 prices, the published international fee examples in Section 3 vary from roughly £21,795 to £47,800 per year for the designated entry years.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, course length, location, lodging, and individual expenses all affect the total cost of studying Civil Engineering."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "While several institutions have not yet confirmed their 2027/28 prices, the published international fee examples in Section 3 vary from roughly £21,795 to £47,800 per year for the designated entry years."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -371,8 +379,20 @@
           "t": "ul",
           "items": [
             "Additionally, students should set aside money for:",
-            "If applicable, UCAS or university application fees",
-            "The cost of applying for a student visa",
+            "If applicable, UCAS or university application fees"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of applying for a student visa",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
             "When appropriate, the Immigration Health Surcharge",
             "Flights abroad",
             "The first deposits for lodging",
@@ -380,13 +400,15 @@
             "When necessary, fieldwork attire or equipment",
             "Extra project supplies"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Financial aid and scholarships"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Aid",
+      "title": "Financial aid and scholarships",
+      "lead": "",
+      "groups": [
         {
           "t": "ul",
           "items": [
@@ -400,153 +422,81 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Admission Procedure for Civil Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Degree Route"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose between a foundation-year track, an integrated MEng, a BEng, or a degree with an industrial placement."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the course modules, location of the university, cost of tuition, length of time, practical facilities, prospects for placement, and accreditation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the prerequisites for math and physics, English language proficiency, Class 12 requirements, and any other requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The majority of undergraduate candidates apply via UCAS or another method the university specifies."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5 : Submit the supporting documentation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic credentials, transcripts, results of any necessary English tests, answers to personal statements, reference data, and other specified papers should be provided."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Accept and Examine Your Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if the offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, tuition costs, deposits, and academic requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Follow the university's instructions to complete the necessary acceptance procedures and make any tuition deposit arrangements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Get Your Study Acceptance Confirmation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The institution may issue a Confirmation of Acceptance for Studies (CAS) for your student visa application once you fulfill the necessary requirements and are prepared to sponsor you."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9 : Apply for a UK student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Prepare the necessary paperwork and submit your application in accordance with the most recent UK immigration regulations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Make Travel and Accommodation Plans"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make arrangements for lodging, money, travel, enrolling in college, and any other necessary pre-departure requirements."
+            {
+              "step": 1,
+              "title": "Select Your Degree Route",
+              "desc": "Choose between a foundation-year track, an integrated MEng, a BEng, or a degree with an industrial placement."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine the course modules, location of the university, cost of tuition, length of time, practical facilities, prospects for placement, and accreditation."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Qualifications",
+              "desc": "Examine the prerequisites for math and physics, English language proficiency, Class 12 requirements, and any other requirements."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "The majority of undergraduate candidates apply via UCAS or another method the university specifies."
+            },
+            {
+              "step": 5,
+              "title": "Submit the supporting documentation",
+              "desc": "Academic credentials, transcripts, results of any necessary English tests, answers to personal statements, reference data, and other specified papers should be provided."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine Your Offer",
+              "desc": "Verify if the offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, tuition costs, deposits, and academic requirements."
+            },
+            {
+              "step": 7,
+              "title": "Accept the Offer",
+              "desc": "Follow the university's instructions to complete the necessary acceptance procedures and make any tuition deposit arrangements."
+            },
+            {
+              "step": 8,
+              "title": "Get Your Study Acceptance Confirmation",
+              "desc": "The institution may issue a Confirmation of Acceptance for Studies (CAS) for your student visa application once you fulfill the necessary requirements and are prepared to sponsor you."
+            },
+            {
+              "step": 9,
+              "title": "Apply for a UK student visa.",
+              "desc": "Prepare the necessary paperwork and submit your application in accordance with the most recent UK immigration regulations."
+            },
+            {
+              "step": 10,
+              "title": "Make Travel and Accommodation Plans",
+              "desc": "Make arrangements for lodging, money, travel, enrolling in college, and any other necessary pre-departure requirements."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "UK Accreditation and Professional Recognition for Civil Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "For students who want to pursue a long-term career in civil engineering, professional accreditation is important.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Accreditation of Engineering Degrees",
+      "lead": "On behalf of the Engineering Council, the Joint Board of Moderators (JBM) accredits qualifying degrees in civil engineering. The Chartered Institution of Highways and Transportation (CIHT), Institute of Highway Engineers (IHE), Permanent Way Institution (PWI), Institution of Civil Engineers (ICE), and Institution of Structural Engineers (IStructE) are among its member organizations.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For students who want to pursue a long-term career in civil engineering, professional accreditation is important."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accreditation of Engineering Degrees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "On behalf of the Engineering Council, the Joint Board of Moderators (JBM) accredits qualifying degrees in civil engineering. The Chartered Institution of Highways and Transportation (CIHT), Institute of Highway Engineers (IHE), Permanent Way Institution (PWI), Institution of Civil Engineers (ICE), and Institution of Structural Engineers (IStructE) are among its member organizations."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -577,15 +527,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for UK Civil Engineers",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates in civil engineering can pursue careers in environmental initiatives, water systems, transportation, infrastructure development, construction, and structural design.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates in civil engineering can pursue careers in environmental initiatives, water systems, transportation, infrastructure development, construction, and structural design."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -663,15 +609,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed in the UK to Study Civil Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "Depending on the university, subject, and visa conditions, different documents are needed to study Civil Engineering in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on the university, subject, and visa conditions, different documents are needed to study Civil Engineering in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -719,136 +661,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. After Class 12, are Indian kids able to pursue a career in civil engineering in the UK?",
-              "a": "Yes . After Class 12, qualified Indian students can apply to BEng or integrated MEng programs. Numerous colleges evaluate Indian credentials in accordance with their own academic admission standards and mandate mathematics and physics."
-            },
-            {
-              "q": "Q2. How long do undergraduate studies in civil engineering take in the UK?",
-              "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. The total academic term may be extended by foundation years and industry placements."
-            },
-            {
-              "q": "Q3. What is the cost of a Civil Engineering undergraduate degree in the United Kingdom?",
-              "a": "For the designated entering years, the published tuition examples in this book range from roughly £21,795 to £47,800 per year. Budgeting must be done separately for living expenses, visa fees, medical costs, and potential yearly tuition hikes."
-            },
-            {
-              "q": "Q4. What careers may I pursue in the UK after completing my studies in civil engineering?",
-              "a": "Jobs like Civil Engineer , Site Engineer, Structural Engineer, Geotechnical Engineer, Transportation Engineer, Water Resources Engineer, and Construction Project Coordinator are available to graduates. Skills, experience, employer demands, and labor market variables all affect career results."
-            },
-            {
-              "q": "Q5. After earning an undergraduate degree in civil engineering, can I remain in the UK?",
-              "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current regulations."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Bristol University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Bristol_University.webp"
-    },
-    {
-      "name": "Londons Imperial College ",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Londons_Imperial_College_.webp"
-    },
-    {
-      "name": "Londons University College",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Londons_University_College.webp"
-    },
-    {
-      "name": "Surrey University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Surrey_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying BEng Civil Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. After Class 12, are Indian kids able to pursue a career in civil engineering in the UK?",
+      "q": "After Class 12, are Indian kids able to pursue a career in civil engineering in the UK?",
       "a": "Yes . After Class 12, qualified Indian students can apply to BEng or integrated MEng programs. Numerous colleges evaluate Indian credentials in accordance with their own academic admission standards and mandate mathematics and physics."
     },
     {
-      "q": "Q2. How long do undergraduate studies in civil engineering take in the UK?",
+      "q": "How long do undergraduate studies in civil engineering take in the UK?",
       "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. The total academic term may be extended by foundation years and industry placements."
     },
     {
-      "q": "Q3. What is the cost of a Civil Engineering undergraduate degree in the United Kingdom?",
+      "q": "What is the cost of a Civil Engineering undergraduate degree in the United Kingdom?",
       "a": "For the designated entering years, the published tuition examples in this book range from roughly £21,795 to £47,800 per year. Budgeting must be done separately for living expenses, visa fees, medical costs, and potential yearly tuition hikes."
     },
     {
-      "q": "Q4. What careers may I pursue in the UK after completing my studies in civil engineering?",
+      "q": "What careers may I pursue in the UK after completing my studies in civil engineering?",
       "a": "Jobs like Civil Engineer , Site Engineer, Structural Engineer, Geotechnical Engineer, Transportation Engineer, Water Resources Engineer, and Construction Project Coordinator are available to graduates. Skills, experience, employer demands, and labor market variables all affect career results."
     },
     {
-      "q": "Q5. After earning an undergraduate degree in civil engineering, can I remain in the UK?",
+      "q": "After earning an undergraduate degree in civil engineering, can I remain in the UK?",
       "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current regulations."
     },
     {
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students may plan their study-abroad journey, organize application materials, comprehend admission requirements, and research suitable universities with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Civil Engineering in the UK | Edu-Hawk Worldwide",
+    "description": "The design, construction, upkeep, and improvement of infrastructure, including buildings, bridges, roads, railroads, dams, water supply systems, and flood prote",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

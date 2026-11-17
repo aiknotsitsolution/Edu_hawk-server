@@ -1,0 +1,101 @@
+{
+  "id": "ucat",
+  "name": "UCAT (University Clinical Aptitude Test)",
+  "shortName": "UCAT",
+  "category": "Entrance & Academic Tests",
+  "badge": "UK & Commonwealth Medical Aptitude",
+  "seo": {
+    "title": "UCAT Exam Guide: 5 Subtests, Scoring, Registration & Medical Prep | EduHawk Worldwide",
+    "description": "Complete guide to the University Clinical Aptitude Test (UCAT) for medicine and dentistry courses in the UK, Australia, and New Zealand. Discover Verbal, Decision Making, Quant, Abstract, and Situational Judgement.",
+    "keywords": "UCAT University Clinical Aptitude Test, UCAT exam pattern and sections, UCAT eligibility criteria, UCAT fees and registration, preparation tips for UCAT, study medicine abroad UCAT, MBBS in UK UCAT"
+  },
+  "hero": {
+    "badge": "UK & Commonwealth Medical Aptitude",
+    "heroPara": "The University Clinical Aptitude Test (UCAT) is a computer-based admissions test used by universities in the United Kingdom, Australia, and New Zealand to select applicants for medicine and dentistry degree programs."
+  },
+  "stats": [
+    {
+      "label": "Target Courses",
+      "value": "Medicine (MBBS / MBChB) & Dentistry (BDS)"
+    },
+    {
+      "label": "Test Duration",
+      "value": "2 Hours (120 Minutes)"
+    },
+    {
+      "label": "Subtests Count",
+      "value": "5 Distinct Subtests"
+    },
+    {
+      "label": "Cognitive Scoring",
+      "value": "1200 to 3600 (300 to 900 per Cognitive Subtest)"
+    },
+    {
+      "label": "SJT Scoring",
+      "value": "Banded into Band 1 (Highest) to Band 4"
+    },
+    {
+      "label": "Delivery Mode",
+      "value": "Computer-Based at Pearson VUE Centers"
+    }
+  ],
+  "countries": [
+    "UK",
+    "Australia",
+    "New Zealand"
+  ],
+  "overview": [
+    "The UCAT is an aptitude test designed to evaluate innate cognitive abilities, professional behaviors, and critical judgment rather than knowledge of scientific curriculum facts.",
+    "Used by a consortium of over 30 leading UK medical schools (including Oxford, Cambridge, King's College London, Imperial, Edinburgh) and Australian universities.",
+    "The examination assesses high-speed decision making, logical thinking, and situational judgment under strict time pressure."
+  ],
+  "sections": [
+    {
+      "name": "Verbal Reasoning",
+      "duration": "21 Minutes (44 Questions)",
+      "measures": "Ability to critically evaluate information presented in a written format and draw logical conclusions."
+    },
+    {
+      "name": "Decision Making",
+      "duration": "31 Minutes (29 Questions)",
+      "measures": "Problem solving, evaluating arguments, and analyzing statistical/categorical information using logic."
+    },
+    {
+      "name": "Quantitative Reasoning",
+      "duration": "25 Minutes (36 Questions)",
+      "measures": "Numerical problem-solving skills, interpreting charts, graphs, and proportions using an on-screen calculator."
+    },
+    {
+      "name": "Abstract Reasoning",
+      "duration": "12 Minutes (50 Questions)",
+      "measures": "Identifying patterns, rules, and relationships between complex geometric shapes and abstract figures."
+    },
+    {
+      "name": "Situational Judgement (SJT)",
+      "duration": "26 Minutes (69 Questions)",
+      "measures": "Understanding real-world clinical situations, integrity, empathy, professional ethics, and teamwork."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the full form of UCAT?",
+      "a": "UCAT stands for University Clinical Aptitude Test, an admissions aptitude test for medicine and dentistry courses."
+    },
+    {
+      "q": "Is UCAT required for MBBS in the UK?",
+      "a": "Yes. The vast majority of UK medical schools require UCAT as an essential selection criterion alongside academic grades and interviews."
+    },
+    {
+      "q": "Can international students take the UCAT?",
+      "a": "Yes. International students take the UCAT at authorized Pearson VUE test centers across India and worldwide."
+    },
+    {
+      "q": "What subjects are tested in UCAT?",
+      "a": "The test evaluates cognitive aptitudes: Verbal Reasoning, Decision Making, Quantitative Reasoning, Abstract Reasoning, and Situational Judgement. It does not test biology or chemistry science facts."
+    },
+    {
+      "q": "How should I prepare for the UCAT?",
+      "a": "Preparation requires speed drills, learning keyboard shortcuts, practicing timing pacing, and completing official timed mock exams on the UCAT website."
+    }
+  ]
+}

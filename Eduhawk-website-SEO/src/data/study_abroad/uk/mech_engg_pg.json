@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study MSc Mechanical Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to MSc Mechanical Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Mechanical Engineering in the UK",
     "subtitle": "Students interested in postgraduate courses in Mechanical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical projects, research, and industry-focused learning are available at UK universities."
   },
@@ -13,17 +8,47 @@
     "Students can gain expertise in fields including advanced manufacturing, robotics, renewable energy, automotive engineering, aerospace systems, materials science, and computational engineering with a postgraduate degree in Mechanical Engineering",
     "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey with appropriate planning and guidance."
   ],
+  "universities": [
+    {
+      "name": "London's Imperial College",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_mech_engg_pg_London_s_Imperial_College-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_mech_engg_pg_London_s_Imperial_College-image3.png",
+      "desc": "London's Imperial College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Manchester University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_mech_engg_pg_Manchester_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_mech_engg_pg_Manchester_University-image4.png",
+      "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Nottingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_mech_engg_pg_Nottingham_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_mech_engg_pg_Nottingham_University-image2.png",
+      "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Sheffield University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_mech_engg_pg_Sheffield_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_mech_engg_pg_Sheffield_University-image1.png",
+      "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Come to the UK to Study Mechanical Engineering?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "Students interested in postgraduate courses in Mechanical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical projects, research, and industry-focused learning are available at UK universities.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students interested in postgraduate courses in Mechanical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate engineering theory, practical projects, research, and industry-focused learning are available at UK universities."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -56,8 +81,10 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Popular Courses for Postgraduate Studies",
-      "eyebrow": "Course Guide",
+      "lead": "",
       "groups": [
         {
           "t": "ul",
@@ -111,46 +138,55 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The Top UK Universities for Mechanical Engineering Postgraduate Studies",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "The following universities are worth looking into for postgraduate Mechanical Engineering and associated engineering specializations.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Manchester University - Manufacturing, materials, and mechanical engineering.",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": null
-            },
-            {
-              "name": "Sheffield University - Robotics, modern manufacturing, and mechanical engineering",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": null
-            },
-            {
-              "name": "Nottingham University - Sustainable energy, manufacturing, and mechanical engineering",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": null
-            }
-          ]
+          "name": "London's Imperial College",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_mech_engg_pg_London_s_Imperial_College-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_mech_engg_pg_London_s_Imperial_College-image3.png",
+          "desc": "London's Imperial College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Manchester University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_mech_engg_pg_Manchester_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_mech_engg_pg_Manchester_University-image4.png",
+          "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Nottingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_mech_engg_pg_Nottingham_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_mech_engg_pg_Nottingham_University-image2.png",
+          "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Sheffield University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_mech_engg_pg_Sheffield_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_mech_engg_pg_Sheffield_University-image1.png",
+          "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Postgraduate Mechanical Engineering Studies in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "A relevant undergraduate degree and proof of English-language proficiency are typically required for international applicants, including students from India",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "A relevant undergraduate degree and proof of English-language proficiency are typically required for international applicants, including students from India"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
-          ]
+          "t": "h4",
+          "text": "Academic requirements"
         },
         {
           "t": "ul",
@@ -208,15 +244,11 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Postgraduate Mechanical Engineering Admission Requirements",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Check the university's academic and English-language requirements and get the necessary paperwork ready before applying.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Check the university's academic and English-language requirements and get the necessary paperwork ready before applying."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -231,10 +263,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Supporting Documents"
-          ]
+          "t": "h4",
+          "text": "Supporting Documents"
         },
         {
           "t": "ul",
@@ -249,15 +279,11 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of Postgraduate Mechanical Engineering Education in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, program, location, lodging, and individual expenditure all affect the overall cost.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, program, location, lodging, and individual expenditure all affect the overall cost."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -277,117 +303,64 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK Postgraduate Mechanical Engineering Admissions Process",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Area of Expertise"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose between general Mechanical Engineering, manufacturing, automotive systems, robotics, energy, aerospace, or another relevant field."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine career options, research facilities, location, tuition costs, program modules, and admission criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify that your engineering background, bachelor's degree, academic standing, and English-language qualifications satisfy the course criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Documents Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather the necessary documents, such as degree certificates, academic transcripts, a CV, references, and a statement of purpose."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Send in Your Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Apply using the official postgraduate application portal of the university and adhere to all applicable dates."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Accept and Examine Your Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Carefully review the terms of the offer, including the requirements for academic verification, English language proficiency, deposits, and deadlines."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Make Accommodation and Funding Arrangements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for your living expenses, housing, tuition, and scholarship applications."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8 : Applying for a UK student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Follow the official UK government visa guidelines when you have fulfilled the relevant prerequisites and obtained your Confirmation of Acceptance for Studies (CAS)."
+            {
+              "step": 1,
+              "title": "Select Your Area of Expertise",
+              "desc": "Choose between general Mechanical Engineering, manufacturing, automotive systems, robotics, energy, aerospace, or another relevant field."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine career options, research facilities, location, tuition costs, program modules, and admission criteria."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Eligibility",
+              "desc": "Verify that your engineering background, bachelor's degree, academic standing, and English-language qualifications satisfy the course criteria."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Documents Ready",
+              "desc": "Gather the necessary documents, such as degree certificates, academic transcripts, a CV, references, and a statement of purpose."
+            },
+            {
+              "step": 5,
+              "title": "Send in Your Application",
+              "desc": "Apply using the official postgraduate application portal of the university and adhere to all applicable dates."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine Your Offer",
+              "desc": "Carefully review the terms of the offer, including the requirements for academic verification, English language proficiency, deposits, and deadlines."
+            },
+            {
+              "step": 7,
+              "title": "Make Accommodation and Funding Arrangements",
+              "desc": "Make plans for your living expenses, housing, tuition, and scholarship applications."
+            },
+            {
+              "step": 8,
+              "title": "Applying for a UK student visa.",
+              "desc": "Follow the official UK government visa guidelines when you have fulfilled the relevant prerequisites and obtained your Confirmation of Acceptance for Studies (CAS)."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Professional Recognition and Accreditation",
-      "eyebrow": "Course Guide",
+      "lead": "For students who want to pursue a long-term engineering career, professional accreditation may be a crucial factor.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For students who want to pursue a long-term engineering career, professional accreditation may be a crucial factor."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -417,10 +390,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Possible Career Paths"
-          ]
+          "t": "h4",
+          "text": "Possible Career Paths"
         },
         {
           "t": "ul",
@@ -459,8 +430,10 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed to Pursue Postgraduate Mechanical Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "",
       "groups": [
         {
           "t": "p",
@@ -485,150 +458,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs, or frequently asked questions",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": []
-        }
-      ]
-    },
-    {
-      "title": "What is the duration of a masters course in mechanical engineering in the United Kingdom?",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The duration of many full-time taught master's programs is one year. Depending on the school and program design, research-based degrees could take longer."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "2. Can Indian students pursue postgraduate studies in mechanical engineering in the United Kingdom?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Yes, as long as they fulfill the academic and English language requirements of the university, Indian students with a recognized bachelor's degree in Mechanical Engineering or a similar discipline may apply."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "How much does it cost to study mechanical engineering at the postgraduate level in the UK?",
-      "eyebrow": "Tuition & Living",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The general range of international tuition prices is £20,000 to £40,000 per year , while certain specialized programs may cost more. Budgets for living expenses and other charges must be kept apart."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Does admission require work experience?",
-      "eyebrow": "Eligibility & Process",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Many conventional MSc programs do not require work experience. Nonetheless, certain specialized or career-focused programs could favor or demand relevant experience."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "5. After earning a postgraduate degree in mechanical engineering, what careers might I pursue?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Careers in mechanical design, manufacturing, automotive engineering, robotics, energy systems, simulation, research and development, and project engineering are available to graduates. Skills, experience, employer needs, and relevant work permits all play a role in employment."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
+  "faqs": [
     {
-      "name": "Manchester University - Manufacturing, materials, and mechanical engineering.",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": null
+      "q": "What is the duration of a masters course in mechanical engineering in the United Kingdom?",
+      "a": "The duration of many full-time taught master's programs is one year. Depending on the school and program design, research-based degrees could take longer."
     },
     {
-      "name": "Sheffield University - Robotics, modern manufacturing, and mechanical engineering",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": null
+      "q": "Can Indian students pursue postgraduate studies in mechanical engineering in the United Kingdom?",
+      "a": "Yes, as long as they fulfill the academic and English language requirements of the university, Indian students with a recognized bachelor's degree in Mechanical Engineering or a similar discipline may apply."
     },
     {
-      "name": "Nottingham University - Sustainable energy, manufacturing, and mechanical engineering",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
-      "imgFile": null
+      "q": "How much does it cost to study mechanical engineering at the postgraduate level in the UK?",
+      "a": "The general range of international tuition prices is £20,000 to £40,000 per year , while certain specialized programs may cost more. Budgets for living expenses and other charges must be kept apart."
+    },
+    {
+      "q": "Does admission require work experience?",
+      "a": "Many conventional MSc programs do not require work experience. Nonetheless, certain specialized or career-focused programs could favor or demand relevant experience."
+    },
+    {
+      "q": "After earning a postgraduate degree in mechanical engineering, what careers might I pursue?",
+      "a": "Careers in mechanical design, manufacturing, automotive engineering, robotics, energy systems, simulation, research and development, and project engineering are available to graduates. Skills, experience, employer needs, and relevant work permits all play a role in employment."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying MSc Mechanical Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
-  "faqs": []
+  "seo": {
+    "title": "Mechanical Engineering in the UK | Edu-Hawk Worldwide",
+    "description": "Students interested in postgraduate courses in Mechanical Engineering frequently choose to study in the United Kingdom. Advanced programs that integrate enginee",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

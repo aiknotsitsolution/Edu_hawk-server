@@ -1,232 +1,417 @@
 {
-  "seo": {
-    "title": "Study PG Electrical Engineering in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to PG Electrical Engineering in France for Indian students: Top French universities, admission requirements, tuition fees (€255 – €3,950 / year public), scholarships, and 2-year post-study work visa."
-  },
   "hero": {
-    "badge": "Study Abroad - France",
-    "title": "ELECTRICAL ENGINEERING POST GRADUATION IN FRANCE",
-    "subtitle": "**Studying Postgraduate (PG) Electrical Engineering in France** is a great opportunity for students who want to gain advanced technical knowledge and professional skills in electrical power systems, renewable energy, automation, electronics, smart grids, and industrial control. The French universities and engineering schools offer specialized master’s programs combining theory, lab work, research projects and industry experience."
+    "title": "Electrical Engineering Post Graduation in France",
+    "subtitle": "Studying Postgraduate (PG) Electrical Engineering in France is a great opportunity for students who want to gain advanced technical knowledge and professional skills in electrical power systems, renewable energy, automation, electronics, smart grids, and industrial control. The French universities and engineering schools offer specialized master's programs combining theory, lab work, research projects and industry experience."
   },
   "overview": [
-    "**Studying Postgraduate (PG) Electrical Engineering in France** is a great opportunity for students who want to gain advanced technical knowledge and professional skills in electrical power systems, renewable energy, automation, electronics, smart grids, and industrial control. The French universities and engineering schools offer specialized master’s programs combining theory, lab work, research projects and industry experience.",
-    "France is a popular destination for students wanting to study a ****Master’s in Electrical Engineering in France**** because of its advanced electricity networks, energy efficiency initiatives, electric mobility and intelligent industrial systems. International students will be able to choose from selected **English-taught master’s programs in France** or French-taught pathways depending on their academic background and career ambitions.",
-    "Students can explore suitable ****Electrical Engineering courses in France****, understand the admission requirements and prepare for their study abroad journey with ****Edu Hawk worldwide study abroad guidance**.**",
-    "**"
+    "Studying Postgraduate (PG) Electrical Engineering in France is a great opportunity for students who want to gain advanced technical knowledge and professional skills in electrical power systems, renewable energy, automation, electronics, smart grids, and industrial control. The French universities and engineering schools offer specialized master's programs combining theory, lab work, research projects and industry experience.",
+    "Students who are planning to pursue \\\\PG Electrical Engineering in France\\\\ have a lot of benefits to opt for France."
+  ],
+  "universities": [
+    {
+      "name": "### The \\\\Master of Electrical Engineering for Smart Grids and Buildings\\\\ is offered by Grenoble INP",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+      "image": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+      "desc": "Ense3, Université Grenoble Alpes. . It is a two:year national master's program taught entirely in English. It covers electricity supply, smart grids, buildings, energy systems and the relationship between technology and energy management."
+    },
+    {
+      "name": "### 2. Grenoble INP",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+      "image": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+      "desc": "Grenoble Institute of Engineering and Management : offers postgraduate engineering courses at the crossroads of electronics, control, computing and embedded systems. Students can study specialization options in electronics in embedded systems, computing in embedded systems and control engineering in complex systems."
+    },
+    {
+      "name": "### 3. Université Grenoble Alpes",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "offers its associated university and engineering:school tracks the opportunity to pursue postgraduate study and research in the areas of engineering sciences, electronics, electrical energy and automation. ### 4. Eligibility to Pursue PG Electrical Engineering in France The eligibility criteria for Indian students who are willing to pursue \\\\PG Electrical Engineering in France\\\\ generally include: - Bachelor degree in \\\\Electrical Engineering, Electrical and Electronics Engineering, Electronics, Energy Engineering\\\\ or equivalent. A solid basis in mathematics, electrical circuits, electrical machines, electronics, power systems or control engineering depending on the program. - Good academic performance in undergraduate studies. - English language proficiency for English-taught programs, where applicable. - Language skills in French for French-taught programs if applicable. - Other academic or technical requirements as specified by the institution. Students with degrees in \\\\Instrumentation Engineering, Electronics and Communication Engineering, Mechatronics and Energy Engineering\\\\ may also be eligible for certain programs provided their previous academic work is relevant to the course requirements."
+    }
   ],
   "sections": [
     {
-      "title": "1. How long is a postgraduate electrical engineering course in France?",
-      "eyebrow": "Why Study in France",
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Electrical Engineering in France?",
+      "lead": "Students who are planning to pursue \\\\PG Electrical Engineering in France\\\\ have a lot of benefits to opt for France.",
       "groups": [
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "In France, a national **Master's degree in Electrical Engineering** usually corresponds to a two-year course (M1 and M2) for a total of 120 ECTS credits. Some programs and engineering qualifications have different structures."
+            "\\\\Recognised Qualifications:\\\\ Public universities confer nationally recognized master's degrees, engineering schools provide specialized programs with their own qualification and recognition arrangements.",
+            "\\\\Advanced Specialisations:\\\\ Students can explore \\\\electrical power engineering, renewable energy, power electronics, control systems and industrial automation.",
+            "\\\\Renewable Energy and Smart Grids:\\\\ The programs may cover electricity distribution, energy efficiency, smart grids and intelligent power networks.",
+            "\\\\Research Opportunities:\\\\ Lab projects, research internships, and industry placements may provide hands-on experience.",
+            "\\\\International Study Options:\\\\ There are several \\\\master's programs in Electrical Engineering in France\\\\ that are fully taught in English, others require knowledge of French.",
+            "\\\\Global Career Opportunities\\\\: Graduates can work in the fields of electrical design, power systems, automation, energy management, electronics and research and development."
           ]
         }
       ]
     },
     {
-      "title": "2. Can Indian students do Electrical Engineering PG in France?",
-      "eyebrow": "Degrees & Specializations",
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "PG courses in Electrical Engineering in France",
+      "lead": "A French national \\\\Master's degree in Electrical Engineering\\\\ usually lasts two years (Master 1 (M1) and Master 2 (M2)), i.e. a total of 120 ECTS credits. Some programs allow direct admission to M2 for candidates with relevant previous qualifications.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Yes **Indian students can study postgraduate Electrical Engineering in France** if they meet the academic, language and documentation criteria. University admission and student-visa approval are two different processes."
+            "\\\\Popular Electrical Engineering postgraduate specializations in France\\\\ include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Power Engineering (Electrical)",
+            "Renewable Energy Systems",
+            "Intelligent Buildings and Smart Grids",
+            "Power Electronics and Electrical Drives",
+            "Industrial Automation & Control Systems",
+            "Embedded systems and electronics",
+            "Electrical Machines and Conversion of Energy",
+            "Power Systems and High Voltage Engineering",
+            "Signal Processing and Instrumentation",
+            "Intelligent Systems and Mechatronic",
+            "Energy Efficiency & Management",
+            "Electric Vehicle Electrical Systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These \\\\postgraduate Electrical Engineering courses in France\\\\ help students to acquire specialized knowledge in modern electrical technologies, energy systems, industrial applications and intelligent engineering solutions."
           ]
         }
       ]
     },
     {
-      "title": "3. Is IELTS required for electrical engineering in masters in France?",
-      "eyebrow": "Top Institutions in France",
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Universities for Electrical Engineering PG in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "### The \\\\Master of Electrical Engineering for Smart Grids and Buildings\\\\ is offered by Grenoble INP",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+          "image": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+          "desc": "Ense3, Université Grenoble Alpes. . It is a two:year national master's program taught entirely in English. It covers electricity supply, smart grids, buildings, energy systems and the relationship between technology and energy management."
+        },
+        {
+          "name": "### 2. Grenoble INP",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+          "image": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+          "desc": "Grenoble Institute of Engineering and Management : offers postgraduate engineering courses at the crossroads of electronics, control, computing and embedded systems. Students can study specialization options in electronics in embedded systems, computing in embedded systems and control engineering in complex systems."
+        },
+        {
+          "name": "### 3. Université Grenoble Alpes",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "offers its associated university and engineering:school tracks the opportunity to pursue postgraduate study and research in the areas of engineering sciences, electronics, electrical energy and automation. ### 4. Eligibility to Pursue PG Electrical Engineering in France The eligibility criteria for Indian students who are willing to pursue \\\\PG Electrical Engineering in France\\\\ generally include: - Bachelor degree in \\\\Electrical Engineering, Electrical and Electronics Engineering, Electronics, Energy Engineering\\\\ or equivalent. A solid basis in mathematics, electrical circuits, electrical machines, electronics, power systems or control engineering depending on the program. - Good academic performance in undergraduate studies. - English language proficiency for English-taught programs, where applicable. - Language skills in French for French-taught programs if applicable. - Other academic or technical requirements as specified by the institution. Students with degrees in \\\\Instrumentation Engineering, Electronics and Communication Engineering, Mechatronics and Energy Engineering\\\\ may also be eligible for certain programs provided their previous academic work is relevant to the course requirements."
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements for PG in Electrical Engineering in France",
+      "lead": "French universities and engineering schools assess applicants on their academic background, technical preparation and program fit.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Not always. **French master’s programs taught in English** may accept IELTS, TOEFL, another approved language test or evidence of previous English-medium education where permitted. Some taught programs in French may require you to have knowledge of French."
+            "Some \\\\requirements to get into a Master's in Electrical Engineering in France\\\\ are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Relevant bachelor's degree.",
+            "Official academic transcripts",
+            "CV or résumé with education, projects, internships and employment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "– Letter of motivation/statement of purpose."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "If required, letters of recommendation.",
+            "Where applicable, test results in English or French.",
+            "An interview or further academic assessment as appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6.The Cost of a masters degree in electrical engineering in France"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of a masters degree in electrical engineering in France varies based on the university, the program format, the type of qualification, and the student category."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Annual reference registration fees at public institutions covered by the national fee system for academic year 2026–2027 are:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "National Master's degree – EU/EEA/Swiss students \\",
+              "d": "255 €"
+            },
+            {
+              "t": "Differentiated master's fees for non-EU students \\",
+              "d": "3,950€"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The fees shown are indicative and do not guarantee the amount payable for each electrical engineering program. Some specific international programs and engineering schools charge different fees. There are exceptions to differentiated fees for some students. Students should check the exact \\\\tuition fees for a Master's in Electrical Engineering in France\\\\ with the institution of their choice."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional Living Expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who intend to \\\\study Electrical Engineering in France\\\\ should also budget for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Housing and utilities.",
+            "Food and daily expenses.",
+            "Internal transport.",
+            "Other administrative expenses, such as health insurance.",
+            "Study material, engineering software, books.",
+            "Travel, personal and visa expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of living for Indian students in France\\\\ varies depending on the city and the type of accommodation. Students should research the accommodation options and scholarships available before finalizing their budget."
           ]
         }
       ]
     },
     {
-      "title": "4. What is the tuition fee for PG in Electrical Engineering in France?",
-      "eyebrow": "Academic & Language Criteria",
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure for PG in Electrical Engineering in France",
+      "lead": "Students who are interested in \\\\pursuing a Master's in Electrical Engineering in France\\\\ generally need to follow the below steps:",
       "groups": [
         {
           "t": "p",
           "items": [
-            "For 2026-2027, the reference fee for a national master’s degree in the covered public institutions is €255 per year for EU/EEA/Swiss students and €3,950 for non-EU students subject to differentiated fees. Special programs and exemptions may alter the amount payable."
+            "1. \\\\Research Programmes:\\\\ Compare universities by discipline, degree type, language of instruction and tuition fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Check Eligibility:\\\\ Verify that your undergraduate degree and prior coursework meet the academic requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Required Documents:\\\\Gather your transcripts, degree certificates, CV, motivation letter, and language certificates if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Submit the Application:\\\\ Apply via the university's official portal or through the application route relevant to your nationality and program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Complete any Assessment:\\\\ Please attend an interview or provide additional information as requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Get the Decision:\\\\ Think about the offer, fee terms, deadlines and entry requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Plan your finances:\\\\ Have a budget for tuition fees, living expenses and other costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Complete Visa Formalities\\\\ If applicable, complete the relevant Campus France and French student-visa procedures."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Prepare for Arrival:\\\\ Accommodation and travel arrangements, insurance and registration at university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Admission deadlines for Electrical Engineering in France\\\\ depend on the program and the applicant category."
           ]
         }
       ]
     },
     {
-      "title": "5. What are the career prospects after PG in Electrical Engineering in France?",
-      "eyebrow": "Application Checklist",
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation & Recognition",
+      "lead": "Students must verify the exact qualification awarded before accepting an offer for a \\\\postgraduate Electrical Engineering program in France\\.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Graduates can find jobs in **electrical design, power systems, renewable energy, power electronics, automation, smart grids, embedded systems, and research and development.** Opportunities depend on technical expertise, experience, language ability and employer requirements."
+            "A French \\\\diplôme national de master\\\\ is an officially recognized qualification in the French higher education system and in the European higher education area. It generally means five years of study beyond the secondary level when added to the previous bachelor-level study."
           ]
-        }
-      ]
-    },
-    {
-      "title": "6. Is it possible to study Electrical Engineering in France in English?",
-      "eyebrow": "Tuition & Cost of Living",
-      "groups": [
+        },
         {
           "t": "p",
           "items": [
-            "Yes. **Electrical Engineering master’s programs in English** (including specialized programs in smart grids and energy systems) are offered in selected French universities and engineering institutions. Students should check the language of instruction and language requirements for each program.",
-            "How **Edu Hawk Worldwide Consultancy** Can Help You To Study Overseas?",
-            "****Edu Hawk worldwide consultancy**** can guide students in exploring appropriate universities, finding relevant ****Electrical Engineering master's programs in France**,** knowing the admission requirements, arranging application documents, and planning their study abroad trip."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "7. **Plan your finances:** Have a budget for tuition fees, living expenses and other costs.",
-      "eyebrow": "Step-by-Step Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "8. Accreditation & Recognition**",
-      "eyebrow": "Degrees & Recognition",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students must verify the exact qualification awarded before accepting an offer for a ****postgraduate Electrical Engineering program in France**.**",
-            "A French **diplôme national de master** is an officially recognized qualification in the French higher education system and in the European higher education area. It generally means five years of study beyond the secondary level when added to the previous bachelor-level study.",
             "Check before you sign up:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- The official title of the degree.",
-            "- If the program leads to a national master degree or an engineering diploma.",
-            "- The status of recognition or accreditation of the institution.",
-            "- The academic credits and length.",
-            "- Recognition requirements for further education or employment in your destination country."
+            "The official title of the degree.",
+            "If the program leads to a national master degree or an engineering diploma.",
+            "The status of recognition or accreditation of the institution.",
+            "The academic credits and length.",
+            "Recognition requirements for further education or employment in your destination country."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Students who are planning to return to India should consult prospective employers, universities or relevant authorities to determine qualification and employment requirements.",
-            "**"
+            "Students who are planning to return to India should consult prospective employers, universities or relevant authorities to determine qualification and employment requirements."
           ]
         }
       ]
     },
     {
-      "title": "9. Salary and Job Opportunities After Electrical Engineering PG From France**",
-      "eyebrow": "Job Roles & Industry Growth",
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Opportunities After Electrical Engineering PG From France",
+      "lead": "A postgraduate qualification in \\\\Electrical Engineering in France\\\\ can prepare graduates for technical, design, energy, automation and research positions. The careers you might have will depend on your specialization, internships, experience, language proficiency and the employment market.",
       "groups": [
         {
           "t": "p",
           "items": [
-            "A postgraduate qualification in ****Electrical Engineering in France**** can prepare graduates for technical, design, energy, automation and research positions. The careers you might have will depend on your specialization, internships, experience, language proficiency and the employment market.",
             "Job opportunities after PG in Electrical Engineering in France : Potential"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "- Engineer, Electrical Design -",
-            "- Electrical Engineer, Power Systems",
-            "- Engineer – Power Electronics",
-            "- Renewable Energy Engineer",
-            "- Engineer, Smart Grid",
-            "- Automation and Control Systems Engineer",
-            "- Engineer, Electrical Drives"
+            "Engineer, Electrical Design -",
+            "Electrical Engineer, Power Systems",
+            "Engineer – Power Electronics",
+            "Renewable Energy Engineer",
+            "Engineer, Smart Grid",
+            "Automation and Control Systems Engineer",
+            "Engineer, Electrical Drives",
+            "Embedded Systems Engineer",
+            "Consultant for Energy Efficiency",
+            "Engineer Electrical R\\&D",
+            "Engineer Project",
+            "Testing & Commissioning Engineer"
           ]
         },
         {
           "t": "p",
           "items": [
-            "-Embedded Systems Engineer"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "- Consultant for Energy Efficiency",
-            "- Engineer Electrical R\\&D",
-            "- Engineer Project",
-            "- Testing & Commissioning Engineer"
+            "Graduates may find opportunities in energy utilities, renewable energy companies, industrial automation, electrical equipment manufacturing, transport, electronics, engineering consulting and research organizations."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Graduates may find opportunities in energy utilities, renewable energy companies, industrial automation, electrical equipment manufacturing, transport, electronics, engineering consulting and research organizations.",
-            "**Salary in Electrical Engineering in France**",
-            "There is no average salary for all **Electrical Engineering graduates in France**. Salary will vary depending on the position, the location, the company, your prior experience, your language skills and whether it is an internship or a permanent job.",
-            "Applicants are to compare current job advertisements and salary surveys for their preferred specialization. When looking over an offer they should also consider taxes and social contributions, accommodation and other living expenses.",
-            "**"
+            "Salary in Electrical Engineering in France"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There is no average salary for all \\\\Electrical Engineering graduates in France\\. Salary will vary depending on the position, the location, the company, your prior experience, your language skills and whether it is an internship or a permanent job."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants are to compare current job advertisements and salary surveys for their preferred specialization. When looking over an offer they should also consider taxes and social contributions, accommodation and other living expenses."
           ]
         }
       ]
     },
     {
-      "title": "10. Required documents for Electrical Engineering PG in France**",
-      "eyebrow": "Document Requirements",
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Required documents for Electrical Engineering PG in France",
+      "lead": "Students applying for \\\\Electrical Engineering postgraduate courses in France\\\\ generally need the following documents:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students applying for ****Electrical Engineering postgraduate courses in France**** generally need the following documents:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
-            "- A valid passport.",
-            "- Bachelor’s degree certificate or provisional degree certificate.",
-            "- Transcripts (official)",
-            "- CV or résumé.",
-            "- Motivation Letter (Statement of Purpose).",
-            "- Letters of recommendation, if required.",
-            "- English language test results, where applicable.",
-            "- Certificate in French, as appropriate.",
-            "- Course Syllabus or descriptions available upon request.",
-            "- Details of applicable technical projects and internships.",
-            "- Certificates of experience or employment, if any.",
-            "- Passport size photographs, if needed.",
-            "- Confirmation of application fee (where applicable)."
+            "A valid passport.",
+            "Bachelor's degree certificate or provisional degree certificate.",
+            "Transcripts (official)",
+            "CV or résumé.",
+            "Motivation Letter (Statement of Purpose).",
+            "Letters of recommendation, if required.",
+            "English language test results, where applicable.",
+            "Certificate in French, as appropriate.",
+            "Course Syllabus or descriptions available upon request.",
+            "Details of applicable technical projects and internships.",
+            "Certificates of experience or employment, if any.",
+            "Passport size photographs, if needed.",
+            "Confirmation of application fee (where applicable)."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Some universities may require certified translations in English or French. ****Applications for a French student visa**** often require additional documents, such as proof of funds and accommodation where appropriate.",
-            "**"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "11. PG Electrical Engineering in France FAQs**",
-      "eyebrow": "Frequently Asked Questions",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Details available upon request."
+            "Some universities may require certified translations in English or French. \\\\Applications for a French student visa\\\\ often require additional documents, such as proof of funds and accommodation where appropriate."
           ]
         }
       ]
@@ -234,12 +419,37 @@
   ],
   "faqs": [
     {
-      "question": "1. Can Indian students study PG Electrical Engineering in France?",
-      "answer": "Yes, Indian students with valid academic qualifications, required English or French language proficiency, and relevant documentation can apply."
+      "q": "How long is a postgraduate electrical engineering course in France?",
+      "a": "In France, a national \\\\Master's degree in Electrical Engineering\\\\ usually corresponds to a two-year course (M1 and M2) for a total of 120 ECTS credits. Some programs and engineering qualifications have different structures."
     },
     {
-      "question": "2. How can Edu Hawk Worldwide Consultancy help me?",
-      "answer": "Edu Hawk Worldwide provides end-to-end guidance including university selection, application processing, Campus France procedure, visa assistance, and pre-departure briefings."
+      "q": "Can Indian students do Electrical Engineering PG in France?",
+      "a": "Yes \\\\Indian students can study postgraduate Electrical Engineering in France\\\\ if they meet the academic, language and documentation criteria. University admission and student-visa approval are two different processes."
+    },
+    {
+      "q": "Is IELTS required for electrical engineering in masters in France?",
+      "a": "Not always. \\\\French master's programs taught in English\\\\ may accept IELTS, TOEFL, another approved language test or evidence of previous English-medium education where permitted. Some taught programs in French may require you to have knowledge of French."
+    },
+    {
+      "q": "What is the tuition fee for PG in Electrical Engineering in France?",
+      "a": "For 2026-2027, the reference fee for a national master's degree in the covered public institutions is €255 per year for EU/EEA/Swiss students and €3,950 for non-EU students subject to differentiated fees. Special programs and exemptions may alter the amount payable."
+    },
+    {
+      "q": "What are the career prospects after PG in Electrical Engineering in France?",
+      "a": "Graduates can find jobs in \\\\electrical design, power systems, renewable energy, power electronics, automation, smart grids, embedded systems, and research and development.\\\\ Opportunities depend on technical expertise, experience, language ability and employer requirements."
+    },
+    {
+      "q": "Is it possible to study Electrical Engineering in France in English?",
+      "a": "Yes. \\\\Electrical Engineering master's programs in English\\\\ (including specialized programs in smart grids and energy systems) are offered in selected French universities and engineering institutions. Students should check the language of instruction and language requirements for each program."
+    },
+    {
+      "q": "How Edu Hawk Worldwide Consultancy Can Help You To Study Overseas?",
+      "a": "\\\\Edu Hawk worldwide consultancy\\\\ can guide students in exploring appropriate universities, finding relevant \\\\Electrical Engineering master's programs in France\\\\, knowing the admission requirements, arranging application documents, and planning their study abroad trip."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Electrical Engineering Post Graduation in France | Edu-Hawk Worldwide",
+    "description": "Studying Postgraduate (PG) Electrical Engineering in France is a great opportunity for students who want to gain advanced technical knowledge and professional s",
+    "keywords": "Studying Postgraduate (PG) Electrical Engineering in France, Master's in Electrical Engineering in France, PG courses in Electrical Engineering in France, Top Universities for Electrical Engineering PG in France, Master's Degree in Electrical Engineering in France, Electrical Engineering PG Eligibility Requirements in France, Electrical Engineering Admission Requirements for Indian Students, Electrical Engineering PG Tuition Fees in France 2026–2027, The Cost of a masters degree in electrical engineering in France, Electrical Engineering Jobs and Career Opportunities in France, <"
+  }
 }

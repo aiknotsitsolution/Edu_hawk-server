@@ -3,6 +3,69 @@ import { useParams, useSearchParams, Link } from "react-router-dom";
 import SeoHead from "../../component/SeoHead.jsx";
 import { TESTS_DATA } from "../../data/testsData.js";
 
+// Decap CMS JSON data — 2-way binding for all 17 tests
+import cmsIelts       from "../../data/tests/ielts.json";
+import cmsToefl       from "../../data/tests/toefl.json";
+import cmsDuolingo    from "../../data/tests/duolingo.json";
+import cmsPte         from "../../data/tests/pte.json";
+import cmsOet         from "../../data/tests/oet.json";
+import cmsFrance      from "../../data/tests/france.json";
+import cmsSpanish     from "../../data/tests/spanish.json";
+import cmsGermany     from "../../data/tests/germany.json";
+import cmsGre         from "../../data/tests/gre.json";
+import cmsGmat        from "../../data/tests/gmat.json";
+import cmsSat         from "../../data/tests/sat.json";
+import cmsAct         from "../../data/tests/act.json";
+import cmsCmat        from "../../data/tests/cmat.json";
+import cmsImat        from "../../data/tests/imat.json";
+import cmsUcat        from "../../data/tests/ucat.json";
+import cmsMcat        from "../../data/tests/mcat.json";
+import cmsWhichTest   from "../../data/tests/which-test.json";
+
+// CMS data map — keyed by test id
+const CMS_TESTS_DATA = {
+  "ielts":      cmsIelts,
+  "toefl":      cmsToefl,
+  "duolingo":   cmsDuolingo,
+  "pte":        cmsPte,
+  "oet":        cmsOet,
+  "france":     cmsFrance,
+  "spanish":    cmsSpanish,
+  "germany":    cmsGermany,
+  "gre":        cmsGre,
+  "gmat":       cmsGmat,
+  "sat":        cmsSat,
+  "act":        cmsAct,
+  "cmat":       cmsCmat,
+  "imat":       cmsImat,
+  "ucat":       cmsUcat,
+  "mcat":       cmsMcat,
+  "which-test": cmsWhichTest,
+};
+
+// Merge CMS overrides onto base TESTS_DATA (CMS wins for editable fields)
+function mergeCmsTest(base, cms) {
+  if (!cms) return base;
+  return {
+    ...base,
+    // SEO fields
+    title:          cms.seo?.title          || base.title,
+    description:    cms.seo?.description    || base.description,
+    keywords:       cms.seo?.keywords       || base.keywords,
+    // Hero
+    badge:          cms.hero?.badge         || base.badge,
+    heroPara:       cms.hero?.heroPara      || base.heroPara,
+    // Stats
+    stats:          (cms.stats && cms.stats.length > 0) ? cms.stats : base.stats,
+    // Overview � CMS stores as [{para:"text"}], base uses ["text"]
+    overview:       (cms.overview && cms.overview.length > 0)
+                      ? cms.overview.map(item => typeof item === 'object' && item.para ? item.para : item)
+                      : base.overview,
+    // FAQs (key: faqs in CMS, faqs in base)
+    faqs:           (cms.faqs && cms.faqs.length > 0) ? cms.faqs : base.faqs,
+  };
+}
+
 // Layout & Hero assets
 import ExpertGuidance from "../../Images/Service Image/Expert Guidance.webp";
 import Globalmap from "../../Images/Service Image/global-map.webp";
@@ -103,7 +166,10 @@ export default function TestDetailPage() {
 
   // Determine active test or fallback to which-test
   const currentKey = testId ? testId.toLowerCase() : "which-test";
-  const test = TESTS_DATA[currentKey] || TESTS_DATA["which-test"];
+  const baseTest = TESTS_DATA[currentKey] || TESTS_DATA["which-test"];
+  const cmsTest  = CMS_TESTS_DATA[currentKey] || CMS_TESTS_DATA["which-test"];
+  // Merge: CMS overrides editable fields (hero, seo, stats, overview, faqs)
+  const test = mergeCmsTest(baseTest, cmsTest);
   const currentHeroBg = TEST_HERO_BG[currentKey] || TEST_HERO_BG["which-test"];
 
   const toggleFaq = (index) => {

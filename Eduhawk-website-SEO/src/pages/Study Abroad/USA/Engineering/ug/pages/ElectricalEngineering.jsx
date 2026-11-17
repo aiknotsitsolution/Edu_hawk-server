@@ -1,3 +1,4 @@
+import electricalEngineeringUGData from "../../../../../../data/study_abroad/usa/elec_engg_ug.json";
 import React from "react";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_UG/electrical-engineering.webp";
@@ -224,21 +225,33 @@ const faqTitle = `Frequently Asked Questions — ${branch.name} in the USA`;
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content strings above are unchanged.
-const ElectricalEngineeringUG = () => (
-  <EngineeringBranchPage
-    branch={branch}
-    level="UG"
-    heroImg={heroImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/ug/electrical-engineering"
-    heroAlt={heroAlt}
-    coursesTitle={coursesTitle}
-    unisTitle={unisTitle}
-    testsEyebrow="Standardised tests"
-    testsTitle="SAT & Other Admission Tests"
-    careersTitle={careersTitle}
-    faqTitle={faqTitle}
-  />
-);
+const ElectricalEngineeringUG = () => {
+  const dynamicBranch = {
+    ...branch,
+    title: electricalEngineeringUGData?.seo?.title || branch.title,
+    description: electricalEngineeringUGData?.seo?.description || branch.description,
+    heroSub: electricalEngineeringUGData?.hero?.subtitle || branch.heroSub,
+    faqs: (electricalEngineeringUGData?.faq && electricalEngineeringUGData.faq.length > 0)
+      ? electricalEngineeringUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : branch.faqs,
+  };
+
+  return (
+    <EngineeringBranchPage
+      branch={dynamicBranch}
+      level="UG"
+      heroImg={heroImg}
+      imgDims={imgDims}
+      seoPath="/study-abroad/usa/ug/electrical-engineering"
+      heroAlt={heroAlt}
+      coursesTitle={coursesTitle}
+      unisTitle={unisTitle}
+      testsEyebrow="Standardised tests"
+      testsTitle="SAT & Other Admission Tests"
+      careersTitle={careersTitle}
+      faqTitle={faqTitle}
+    />
+  );
+};
 
 export default ElectricalEngineeringUG;

@@ -1,270 +1,370 @@
 {
-  "seo": {
-    "title": "Study Dentistry in Ireland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Dentistry in Ireland for Indian students: Top Irish universities, eligibility criteria, tuition fees (€50,000 – €60,000 / year), scholarships, and 2-year post-study work visa (Stamp 1G)."
-  },
   "hero": {
-    "badge": "Study Abroad - Ireland",
-    "title": "DENTISTRY IN IRELAND",
+    "title": "Why study Dentistry in Ireland?",
     "subtitle": "Students interested in studying dentistry come to Ireland. Irish dental schools blend classroom education, clinical training and patient care."
   },
   "overview": [
-    "Students interested in studying dentistry come to Ireland. Irish dental schools blend classroom education, clinical training and patient care.",
-    "The benefits are:",
-    "Sign up for dental programs provided by well-known universities.",
-    "Students can explore these decisions. Check out the eligibility criteria to study abroad with Edu Hawk's worldwide study abroad support."
+    "2. University College Cork (UCC) - The five-year Bachelor of Dental Surgery (BDS) The program is offered.3. RCSI University of Medicine and Health Sciences - The BDS program has been introduced.",
+    "4. The University of Galway provides chances for biomedical research and health studies, however students should confirm whether any particular dental qualifications are offered."
+  ],
+  "universities": [
+    {
+      "name": "RCSI University of Medicine and Health Sciences",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_RCSI_University_of_Medicine_and_Health_Sciences-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_RCSI_University_of_Medicine_and_Health_Sciences-image3.png",
+      "desc": "RCSI University of Medicine and Health Sciences is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "The University of Galway",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_The_University_of_Galway-image4.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_The_University_of_Galway-image4.png",
+      "desc": "The University of Galway is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "Trinity College Dublin",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "Trinity College Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "University College Cork",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_University_College_Cork-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_University_College_Cork-image2.png",
+      "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    }
   ],
   "sections": [
     {
-      "slot": "why",
-      "eyebrow": "Why Study in Ireland",
-      "title": "Why study Dentistry in Ireland?",
-      "items": [
-        "Students interested in studying dentistry come to Ireland. Irish dental schools blend classroom education, clinical training and patient care.",
-        "The benefits are:",
-        "Sign up for dental programs provided by well-known universities.",
-        "Hands-on teaching.",
-        "Explore dental health, prevention, diagnosis and treatment.",
-        "Study in an environment of English.",
-        "Improve your understanding of evidence-based dentistry and patient communication.",
-        "Study. Fields of expertise for post graduates.",
-        "Students can explore these decisions. Check out the eligibility criteria to study abroad with Edu Hawk's worldwide study abroad support."
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Trinity College Dublin (TCD) - A five-year undergraduate program in dental science is offered.",
+      "lead": "2. University College Cork (UCC) - The five-year Bachelor of Dental Surgery (BDS) The program is offered.3. RCSI University of Medicine and Health Sciences - The BDS program has been introduced.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "4. The University of Galway provides chances for biomedical research and health studies, however students should confirm whether any particular dental qualifications are offered."
+          ]
+        }
       ]
     },
     {
-      "slot": "courses",
-      "eyebrow": "Degrees & Programs",
-      "title": "2. Dental Courses in Ireland",
-      "items": [
-        "If you already have a degree, Irish universities offer undergraduate and graduate dentistry degrees.",
-        "Some typical choices are:",
-        "Degree is Bachelor of Dental Surgery (BDS)",
-        "Undergraduate science degrees.",
-        "a master's degree in dentistry or related field.",
-        "Postgraduate studies in clinical dentistry.",
-        "Periodontics and dental medicine.",
-        "Pediatric dentistry and special care.",
-        "Orthodontics and oral surgery.",
-        "Research in Oral Health and Public Dental Health",
-        "Usually a dental undergraduate program lasts for five years. Postgraduate study may last for one to several years, depending on the level of certification and the field of study."
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "3. Best Dental Schools and Colleges in Ireland",
-      "items": []
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admissions Criteria",
-      "title": "4. Admission Requirements for Dentistry Course in Ireland",
-      "items": [
-        "You will be eligible depending on if you are applying for graduate or undergraduate dentistry programs.",
-        "Undergraduates:",
-        "Successful completion of secondary school to the standard required for admission to an Irish university.",
-        "Good academic standing in biology, chemistry and other required science courses.",
-        "Proficiency in English.",
-        "Any test, interview or other assessment required for admission.",
-        "Meeting the needs of university applicants",
-        "Indian applicants need to ensure that their state-board, ISC or CBSE credentials are equivalent to the university's topic and grade standards after their Class 12.",
-        "As for dentistry after graduate:",
-        "A dental degree recognized for BDS and similar programs requiring licensed dentists.",
-        "Where appropriate clinical experience is required in addition to a corresponding academic grade.",
-        "English language ability.",
-        "a CV, references and study plan for programs.",
-        "The admissions process is competitive, and institutions have rules."
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Entry Requirements",
-      "title": "5.Requirements for entry to dentistry",
-      "items": [
-        "Candidates may be required to provide:",
-        "certificates and transcripts of 10th and 12th standard.",
-        "a passport",
-        "Results of the IELTS or another English language test, if applicable.",
-        "academic references or a letter of recommendation.",
-        "If asked, send a letter or personal statement.",
-        "For those who are postgraduate students",
-        "A resume and a clinical exposure report.",
-        "admission tests results, if any.",
-        "A certified translation of documents, if necessary."
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Admission Requirements for Dentistry Course in Ireland",
+      "lead": "You will be eligible depending on if you are applying for graduate or undergraduate dentistry programs.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduates:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Successful completion of secondary school to the standard required for admission to an Irish university.",
+            "Good academic standing in biology, chemistry and other required science courses.",
+            "Proficiency in English.",
+            "Any test, interview or other assessment required for admission.",
+            "Meeting the needs of university applicants"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian applicants need to ensure that their state-board, ISC or CBSE credentials are equivalent to the university's topic and grade standards after their Class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "As for dentistry after graduate:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A dental degree recognized for BDS and similar programs requiring licensed dentists.",
+            "Where appropriate clinical experience is required in addition to a corresponding academic grade.",
+            "English language ability.",
+            "a CV, references and study plan for programs.",
+            "The admissions process is competitive, and institutions have rules."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Requirements for entry to dentistry"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates may be required to provide:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "certificates and transcripts of 10th and 12th standard.",
+            "a passport",
+            "Results of the IELTS or another English language test, if applicable.",
+            "academic references or a letter of recommendation.",
+            "If asked, send a letter or personal statement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For those who are postgraduate students"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A resume and a clinical exposure report.",
+            "admission tests results, if any.",
+            "A certified translation of documents, if necessary."
+          ]
+        }
       ]
     },
     {
       "slot": "tuition",
       "eyebrow": "Tuition & Living Costs",
-      "title": "6. The Cost of Dental Training in Ireland",
-      "items": [
-        "Dental studies are an expensive degree for international students in Ireland due to its clinical training, advanced equipment and lab work.",
-        "The cost of undergraduate dentistry courses ranges from €50,000 to €60,000 a year depending on the university and year of study.",
-        "Studying dentistry costs students between €10,000 and €18,000 a year to cover living expenses, depending on where they live and how they live.",
-        "There will also probably be costs for dental equipment and clinical fees.",
-        "How much you'll pay for dental health insurance depends on the student's situation and what's covered."
+      "title": "The Cost of Dental Training in Ireland",
+      "lead": "Dental studies are an expensive degree for international students in Ireland due to its clinical training, advanced equipment and lab work.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "The cost of undergraduate dentistry courses ranges from €50,000 to €60,000 a year depending on the university and year of study.",
+            "Studying dentistry costs students between €10,000 and €18,000 a year to cover living expenses, depending on where they live and how they live."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There will also probably be costs for dental equipment and clinical fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "How much you'll pay for dental health insurance depends on the student's situation and what's covered."
+          ]
+        }
       ]
     },
     {
-      "slot": "process",
-      "eyebrow": "Application Steps",
-      "title": "7. Admission process for Dental School in Ireland",
-      "items": []
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Admission process for Dental School in Ireland",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "RCSI University of Medicine and Health Sciences",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_RCSI_University_of_Medicine_and_Health_Sciences-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_RCSI_University_of_Medicine_and_Health_Sciences-image3.png",
+          "desc": "RCSI University of Medicine and Health Sciences is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "The University of Galway",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_The_University_of_Galway-image4.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_The_University_of_Galway-image4.png",
+          "desc": "The University of Galway is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "Trinity College Dublin",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "Trinity College Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "University College Cork",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_University_College_Cork-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_University_College_Cork-image2.png",
+          "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        }
+      ]
     },
     {
-      "slot": "accreditation",
+      "slot": "scope",
       "eyebrow": "Accreditation & Recognition",
-      "title": "8. Accreditation and recognition of Irish Dentistry",
-      "items": [
-        "Accreditation and recognition are very important for dental courses, as you have to be professionally registered if you want to practice dentistry.",
-        "Make sure before you register:",
-        "acceptance to and degree from dental school.",
-        "whether the curriculum meets the dental requirements of the Dental Council of Ireland.",
-        "Can a fresh graduate become a licensed dentist?",
-        "if the qualification will be accepted in the country where you intend to practice dentistry.",
-        "The Council of Ireland for Dentistry regulates the profession of dentistry. According to the RCSI BDS program brochures, registration and certification of graduates are contingent on them meeting the dental requirements of the program. Prospective students are advised to check the latest official position before enrolling in the dental course.",
-        "If you are an Indian student intending to return to India to practice dentistry, you should check with the appropriate Indian authorities on current recognition and registration requirements.",
-        "9. Dentists Salary and Job Prospects in Ireland",
-        "Graduates can work in dental clinics, hospitals, public dentistry services and research institutions once they have obtained the necessary registration and a recognized dental qualification.",
-        "Among the professional options are:",
-        "A general practitioner (GP).",
-        "A dentist in a hospital",
-        "A Dentist Researcher.",
-        "Local dentist.",
-        "A dental health professional.",
-        "A dentist with training in restorative dentistry.",
-        "A dentist who is an orthodontist.",
-        "A dentist who has training in oral surgery",
-        "Dental academic or teacher.",
-        "Ireland's gross profits are as follows:",
-        "Dentists at the beginning of their careers can expect to earn between 40,000 and 60,000 euros.",
-        "Expert dentists can earn between €60,000 and €100,000 or more.",
-        "Dentists who have undergone further training or run a successful private practice can earn more than 100,000 euros.",
-        "Dentists' earnings are based on many factors including type of employment, experience, location, number of patients, number of hours worked and whether they are self-employed or salaried."
+      "title": "Accreditation and recognition of Irish Dentistry",
+      "lead": "Accreditation and recognition are very important for dental courses, as you have to be professionally registered if you want to practice dentistry.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Make sure before you register:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "acceptance to and degree from dental school.",
+            "whether the curriculum meets the dental requirements of the Dental Council of Ireland.",
+            "Can a fresh graduate become a licensed dentist?",
+            "if the qualification will be accepted in the country where you intend to practice dentistry."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Council of Ireland for Dentistry regulates the profession of dentistry. According to the RCSI BDS program brochures, registration and certification of graduates are contingent on them meeting the dental requirements of the program. Prospective students are advised to check the latest official position before enrolling in the dental course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you are an Indian student intending to return to India to practice dentistry, you should check with the appropriate Indian authorities on current recognition and registration requirements."
+          ]
+        }
       ]
     },
     {
       "slot": "careers",
-      "eyebrow": "Career Outcomes",
-      "title": "Salaries and Career Opportunities After Dentistry",
-      "items": [
-        "Detailed information and course specifications will be provided during individual counseling."
+      "eyebrow": "Career Opportunities",
+      "title": "Dentists Salary and Job Prospects in Ireland",
+      "lead": "Graduates can work in dental clinics, hospitals, public dentistry services and research institutions once they have obtained the necessary registration and a recognized dental qualification.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Among the professional options are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A general practitioner (GP).",
+            "A dentist in a hospital",
+            "A Dentist Researcher.",
+            "Local dentist.",
+            "A dental health professional.",
+            "A dentist with training in restorative dentistry.",
+            "A dentist who is an orthodontist.",
+            "A dentist who has training in oral surgery",
+            "Dental academic or teacher."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ireland's gross profits are as follows:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dentists at the beginning of their careers can expect to earn between 40,000 and 60,000 euros."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expert dentists can earn between €60,000 and €100,000 or more."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dentists who have undergone further training or run a successful private practice can earn more than 100,000 euros."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dentists' earnings are based on many factors including type of employment, experience, location, number of patients, number of hours worked and whether they are self-employed or salaried."
+          ]
+        }
       ]
     },
     {
       "slot": "documents",
-      "eyebrow": "Document Checklist",
-      "title": "10. Documents Required",
-      "items": [
-        "Documents that are usually requested are:",
-        "a passport;",
-        "Certificates and transcripts of grades earned in 10th and 12th grades",
-        "confirmation of required science courses.",
-        "A certificate of an English language test, if required.",
-        "Send a letter or personal statement if requested.",
-        "academic references or letters of recommendation.",
-        "For those applying to graduate programs:",
-        "You need to have dental qualifications and a resume",
-        "certifications of experience, if any.",
-        "The results of the entrance examination, if any.",
-        "Certified translations of documents are available upon request.",
-        "Once approved, international students may also need documentation, dental health insurance and the appropriate Irish student visa or immigration authorization."
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required",
+      "lead": "",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Documents that are usually requested are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "a passport;",
+            "Certificates and transcripts of grades earned in 10th and 12th grades",
+            "confirmation of required science courses.",
+            "A certificate of an English language test, if required.",
+            "Send a letter or personal statement if requested.",
+            "academic references or letters of recommendation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For those applying to graduate programs:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "You need to have dental qualifications and a resume",
+            "certifications of experience, if any.",
+            "The results of the entrance examination, if any.",
+            "Certified translations of documents are available upon request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Once approved, international students may also need documentation, dental health insurance and the appropriate Irish student visa or immigration authorization."
+          ]
+        }
       ]
     }
   ],
-  "universities": [
-    {
-      "name": "RCSI University of Medicine and Health Sciences",
-      "city": "Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€50,000 – €60,000 / year",
-      "desc": "The five-year Bachelor of Dental Surgery (BDS) The program is offered.3. RCSI University of Medicine and Health Sciences - The BDS program has been introduced.",
-      "imgFile": "RCSI_University_of_Medicine_and_Health_Sciences.webp"
-    },
-    {
-      "name": "The University of Galway",
-      "city": "Galway, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€50,000 – €60,000 / year",
-      "desc": "4. The University of Galway provides chances for biomedical research and health studies, however students should confirm whether any particular dental qualifications are offered.",
-      "imgFile": "The_University_of_Galway.webp"
-    },
-    {
-      "name": "Trinity College Dublin",
-      "city": "Dublin, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€50,000 – €60,000 / year",
-      "desc": "A five-year undergraduate program in dental science is offered.",
-      "imgFile": "Trinity_College_Dublin.webp"
-    },
-    {
-      "name": "University College Cork",
-      "city": "Cork, Ireland",
-      "rank": "Top Ranked Irish Institution",
-      "fee": "€50,000 – €60,000 / year",
-      "desc": "The five-year Bachelor of Dental Surgery (BDS) The program is offered.3. RCSI University of Medicine and Health Sciences - The BDS program has been introduced.",
-      "imgFile": "University_College_Cork.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Dentistry in Ireland (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (€ / EUR)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "€50,000 – €60,000 / year",
-        "Varies by university ranking, laboratory facilities, and discipline"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "€25,000 – €45,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Living Expenses (Dublin)",
-        "€1,000 – €1,400 / month",
-        "Includes accommodation, food, utilities, and local transit"
-      ],
-      [
-        "Living Expenses (Outside Dublin)",
-        "€800 – €1,100 / month",
-        "Cost of living in Cork, Galway, Limerick, or Maynooth"
-      ],
-      [
-        "Student Visa & IRP Card Fee",
-        "€300 / year",
-        "Mandatory Irish Residence Permit (IRP) registration fee"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. How many years has there been a dentistry school in Ireland?",
+      "q": "How many years has there been a dentistry school in Ireland?",
       "a": "Dental programs are usually five years long. Some post graduate dentistry programs are one or more years depending on the specialty."
     },
     {
-      "q": "Q2. Can Indian students go abroad for higher studies from Ireland after 12th?",
+      "q": "Can Indian students go abroad for higher studies from Ireland after 12th?",
       "a": "Yes, that's right. Indian students can go to Ireland to study after completing their 12th grade education. Indian students can apply if they meet the university's academic, scientific and English language requirements. ways of entry. The competition for admission is fierce."
     },
     {
-      "q": "Q3. What does dental cost in Ireland for students?",
+      "q": "What does dental cost in Ireland for students?",
       "a": "Tuition for foreign students in Ireland can be €50,000 to €60,000 a year. This figure covers living costs and clinical charges."
     },
     {
-      "q": "Q4. Can I get a job as a dentist in Ireland after my studies?",
+      "q": "Can I get a job as a dentist in Ireland after my studies?",
       "a": "Graduates from authorized programs can apply for registration with the Dental Council of Ireland, subject to certain requirements. A degree does not guarantee registration."
     },
     {
-      "q": "Q5. After completing my courses in Ireland, can I return to India and continue my dentistry practice?",
+      "q": "After completing my courses in Ireland, can I return to India and continue my dentistry practice?",
       "a": "This would be subject to acceptance of the qualification and the relevant Indian registration laws. Don't think you can practice with a foreign degree. Please check with Indian dental authorities for eligibility before enrolling."
-    },
-    {
-      "q": "How Edu Hawk Worldwide Consultancy helps me to study abroad.",
-      "a": "Edu Hawk Worldwide Consultancy helps students to research universities, understand entrance requirements, organize application materials and plan their study abroad experience. Students should secure financial, academic,"
     }
-  ]
+  ],
+  "seo": {
+    "title": "Why study Dentistry in Ireland? | Edu-Hawk Worldwide",
+    "description": "2. University College Cork (UCC) - The five-year Bachelor of Dental Surgery (BDS) The program is offered.3. RCSI University of Medicine and Health Sciences - Th",
+    "keywords": "Study in Ireland, Top Irish Universities, Edu Hawk Worldwide"
+  }
 }

@@ -1,116 +1,93 @@
 {
-  "seo": {
-    "title": "Hospitality Management in Sweden for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Hospitality Management in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Sweden",
-    "title": "Hospitality Management in Sweden for Indian Students",
-    "paras": [
-      "**Hospitality Management in Sweden** is an interesting study option for students who want to build careers in hospitality, tourism, hotel operations, guest services, event planning and destination management. Although not every Swedish university offers a degree specifically titled Hospitality Management, related programmes in tourism, tourism management and service management can provide relevant preparation for the hospitality industry."
-    ]
+    "title": "Bachelor's and Master's in Hospitality Management in Sweden",
+    "subtitle": "Hospitality Management in Sweden is an interesting study option for students who want to build careers in hospitality, tourism, hotel operations, guest services, event planning and destination management. Although not every Swedish university offers a degree specifically titled Hospitality Management, related programmes in tourism, tourism management and service management can provide relevant preparation for the hospitality industry."
   },
-  "stats": [
-    {
-      "val": "SEK 80K-150K",
-      "label": "Tuition / Year"
-    },
-    {
-      "val": "Permitted",
-      "label": "Part-Time Work"
-    },
-    {
-      "val": "3-4 Years",
-      "label": "Course Duration"
-    },
-    {
-      "val": "English",
-      "label": "Medium of Study"
-    }
-  ],
-  "highlights": [
-    {
-      "icon": "FaAward",
-      "title": "World-Class Nordic Innovation",
-      "desc": "Study in Sweden's globally ranked universities renowned for pioneering scientific breakthroughs, design thinking, and sustainable research."
-    },
-    {
-      "icon": "FaGraduationCap",
-      "title": "English-Taught Degrees",
-      "desc": "Over 1,000 bachelor's and master's degree programs delivered entirely in English with international accreditation."
-    },
-    {
-      "icon": "FaFileAlt",
-      "title": "Generous Post-Study Work",
-      "desc": "Sweden offers residence permits after graduation for students to seek employment or start innovative businesses."
-    },
-    {
-      "icon": "FaCheckCircle",
-      "title": "High Quality of Life",
-      "desc": "Ranked among the top nations globally for safety, equality, environmental sustainability, and student well-being."
-    }
-  ],
   "overview": [
-    "Indian students can pursue a bachelor's degree after completing Class 12 or apply for a master's degree after obtaining a recognised undergraduate qualification. Swedish universities combine academic learning with research, projects, fieldwork and, depending on the programme, industry-related experience.",
-    "For example, Linnaeus University offers an English-taught bachelor's programme in tourism, while Mid Sweden University offers an English-taught master's programme in Tourism. These related qualifications can help students develop knowledge relevant to hospitality and tourism careers.",
-    "Through Edu Hawk worldwide study abroad guidance, students can explore suitable programmes, compare universities and understand the requirements involved in pursuing education in Sweden."
+    "Hospitality Management in Sweden is an interesting study option for students who want to build careers in hospitality, tourism, hotel operations, guest services, event planning and destination management. Although not every Swedish university offers a degree specifically titled Hospitality Management, related programmes in tourism, tourism management and service management can provide relevant preparation for the hospitality industry.",
+    "Explore world-leading Swedish public universities and institutes of technology renowned for Nobel Prize legacies, green innovation, and English-taught curricula."
   ],
   "universities": [
     {
-      "name": "\\. Linnaeus University",
-      "location": "\\. Linnaeus University, Sweden",
-      "fee": "SEK 90,000 – 160,000 / Year",
-      "desc": "* Offers a bachelor's programme in International Tourism Management. * The programme focuses on strategic and sustainable tourism. * It is taught in English and may be relevant to students interested in tourism operations, destination management and hospitality-related careers.",
-      "img_var": "null"
+      "name": "KTH Royal Institute of Technology",
+      "location": "Stockholm, Sweden",
+      "fee": "SEK 120,000 – 160,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
+      "image": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
+      "desc": "KTH is Sweden's highest-ranking technical university, responsible for one-third of Sweden's technical research capacity and Europe's innovation engine."
     },
     {
-      "name": "![][image1]",
-      "location": "![][image1], Sweden",
-      "fee": "SEK 90,000 – 160,000 / Year",
-      "desc": "Recognized institution in Sweden providing accredited degree programs and research facilities for international students.",
-      "img_var": "null"
+      "name": "Lund University",
+      "location": "Lund, Sweden",
+      "fee": "SEK 100,000 – 145,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
+      "image": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
+      "desc": "One of northern Europe's oldest and most prestigious comprehensive universities (founded 1666), consistently ranked among the world's top 100."
     },
     {
-      "name": "\\. Mid Sweden University",
-      "location": "\\. Mid Sweden University",
-      "fee": "SEK 90,000 – 160,000 / Year",
-      "desc": "* Offers one-year and two-year master's study options in Tourism, taught in English. * The curriculum covers areas such as tourism management, sustainability, research and destination development. * Graduates may explore opportunities in tourism organisations and destination planning.",
-      "img_var": "null"
+      "name": "Chalmers University of Technology",
+      "location": "Gothenburg, Sweden",
+      "fee": "SEK 140,000 – 180,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
+      "image": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
+      "desc": "Located in Sweden's industrial heartland, Chalmers is world-famous for automotive engineering, wireless communication, and sustainability."
     },
     {
-      "name": "![][image2]",
-      "location": "![][image2], Sweden",
-      "fee": "SEK 90,000 – 160,000 / Year",
-      "desc": "Recognized institution in Sweden providing accredited degree programs and research facilities for international students.",
-      "img_var": "null"
-    },
-    {
-      "name": "\\. University of Gothenburg",
-      "location": "\\. University of Gothenburg, Sweden",
-      "fee": "SEK 90,000 – 160,000 / Year",
-      "desc": "* Students interested in the business side of hospitality can explore relevant programmes and courses in management, business and service-related subjects. * Applicants should check the current course catalogue rather than assume that a dedicated Hospitality Management degree is available. ![][image3] **Important:** Programme availability and titles can change. Always verify the current course structure, language of instruction and admission requirements on the official university website.",
-      "img_var": "null"
+      "name": "Uppsala University",
+      "location": "Uppsala, Sweden",
+      "fee": "SEK 100,000 – 150,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
+      "image": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
+      "desc": "The oldest university in Sweden and the entire Nordic region (founded 1477), renowned for scientific research, medicine, and humanities."
     }
   ],
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "items": [
-      {
-        "q": "Can Indian students apply for Hospitality Management in Sweden?",
-        "a": "Yes, Indian students with qualifying credentials meeting English language proficiency (IELTS/TOEFL) and academic prerequisites can apply to recognized universities in Sweden."
-      },
-      {
-        "q": "What is the medium of instruction for Hospitality Management in Sweden?",
-        "a": "Most master's and international bachelor's degree programmes are taught entirely in English for international students across Swedish universities."
-      },
-      {
-        "q": "What are the typical tuition fees for Hospitality Management in Sweden?",
-        "a": "Tuition fees for international students generally range between SEK 80,000 and SEK 150,000 per year, depending on the institution and level of study."
-      },
-      {
-        "q": "Can international students work while studying in Sweden?",
-        "a": "Yes, non-EU international students holding a valid Swedish residence permit for higher education are permitted to work alongside their studies without a fixed hours limitation during term time."
-      }
-    ]
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Swedish Universities",
+      "title": "Top Universities to Consider in Sweden",
+      "lead": "Explore world-leading Swedish public universities and institutes of technology renowned for Nobel Prize legacies, green innovation, and English-taught curricula.",
+      "unis": [
+        {
+          "name": "KTH Royal Institute of Technology",
+          "location": "Stockholm, Sweden",
+          "fee": "SEK 120,000 – 160,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
+          "image": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
+          "desc": "KTH is Sweden's highest-ranking technical university, responsible for one-third of Sweden's technical research capacity and Europe's innovation engine."
+        },
+        {
+          "name": "Lund University",
+          "location": "Lund, Sweden",
+          "fee": "SEK 100,000 – 145,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
+          "image": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
+          "desc": "One of northern Europe's oldest and most prestigious comprehensive universities (founded 1666), consistently ranked among the world's top 100."
+        },
+        {
+          "name": "Chalmers University of Technology",
+          "location": "Gothenburg, Sweden",
+          "fee": "SEK 140,000 – 180,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
+          "image": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
+          "desc": "Located in Sweden's industrial heartland, Chalmers is world-famous for automotive engineering, wireless communication, and sustainability."
+        },
+        {
+          "name": "Uppsala University",
+          "location": "Uppsala, Sweden",
+          "fee": "SEK 100,000 – 150,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
+          "image": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
+          "desc": "The oldest university in Sweden and the entire Nordic region (founded 1477), renowned for scientific research, medicine, and humanities."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Bachelor's and Master's in Hospitality Management in Sweden | Edu-Hawk Worldwide",
+    "description": "Hospitality Management in Sweden is an interesting study option for students who want to build careers in hospitality, tourism, hotel operations, guest services",
+    "keywords": "Study in Sweden, Top Universities in Sweden, Edu Hawk Worldwide"
   }
 }

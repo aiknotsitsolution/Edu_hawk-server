@@ -1,0 +1,121 @@
+{
+  "id": "pte",
+  "name": "PTE Academic (Pearson Test of English Academic)",
+  "shortName": "PTE Academic",
+  "category": "English Online Exam",
+  "badge": "Pearson Fast AI-Scored Assessment",
+  "seo": {
+    "title": "PTE Academic Exam for Study Abroad: Fees, Pattern, Scoring 10–90 & Registration | EduHawk Worldwide",
+    "description": "Complete guide to PTE Academic for international students. Learn about the 2-hour computer-based exam format, 10–90 scoring scale, 48-hour result delivery, eligibility, 2-year validity, and test-center registration.",
+    "keywords": "PTE Academic exam for study abroad, PTE exam format, PTE scoring scale 10 to 90, PTE exam fee India, PTE Academic registration, PTE score validity, PTE vs IELTS, study abroad Pearson test"
+  },
+  "hero": {
+    "badge": "Pearson Fast AI-Scored Assessment",
+    "heroPara": "Pearson Test of English Academic (PTE Academic) is a premier computer-based English language examination that delivers objective, AI-evaluated results typically within 48 hours, widely accepted for study abroad and visa applications globally."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "2 Hours (Approx. 120 Mins)"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "10 to 90 Scale (Granular)"
+    },
+    {
+      "label": "Evaluation",
+      "value": "100% Automated AI Scoring"
+    },
+    {
+      "label": "Score Turnaround",
+      "value": "Typically Within 48 Hours"
+    },
+    {
+      "label": "Score Validity",
+      "value": "2 Years from Test Date"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "₹17,000 approximately"
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Australia",
+    "Germany",
+    "Ireland",
+    "France",
+    "Spain",
+    "Italy",
+    "Finland"
+  ],
+  "overview": [
+    "PTE Academic is developed by Pearson to measure academic English proficiency for students seeking international higher education.",
+    "The examination is conducted entirely on a computer at secure authorized test centers, utilizing patented automated AI scoring that eliminates human examiner bias.",
+    "PTE Academic assesses how fluently students can read, write, speak, and comprehend spoken English in authentic academic classroom scenarios."
+  ],
+  "sections": [
+    {
+      "name": "Speaking & Writing (Integrated)",
+      "duration": "54–67 Minutes",
+      "measures": "Oral fluency, pronunciation, grammar, and written communication through Read Aloud, Repeat Sentence, Describe Image, Re-tell Lecture, Answer Short Questions, Summarize Written Text, and Essay Writing."
+    },
+    {
+      "name": "Reading",
+      "duration": "29–30 Minutes",
+      "measures": "Comprehension, vocabulary, and syntactic analysis via Reading & Writing Fill in the Blanks, Multiple Choice, Re-order Paragraphs, and Reading Fill in the Blanks."
+    },
+    {
+      "name": "Listening",
+      "duration": "30–43 Minutes",
+      "measures": "Understanding academic lectures and dialogues via Summarize Spoken Text, Multiple Choice, Fill in the Blanks, Highlight Correct Summary, Select Missing Word, Highlight Incorrect Words, and Write from Dictation."
+    }
+  ],
+  "eligibilityCriteria": [
+    "There are no specific academic qualification prerequisites to sit for the PTE Academic exam.",
+    "Candidates must adhere to Pearson's registration guidelines, age requirements (16+ with parental consent), and present a valid passport at the test center.",
+    "PTE Academic is taken by students applying for Undergraduate degrees after Class 12, Master's and postgraduate diplomas, PhD research, and international migration visas."
+  ],
+  "scoringSystem": "Scores are reported on a scale of 10 to 90. The scorecard provides an overall score alongside individual communicative skills scores for Speaking, Writing, Reading, and Listening. Scores of 58–65 correspond roughly to IELTS 6.5, while scores of 66–75+ correspond to IELTS 7.0–7.5.",
+  "registrationSteps": [
+    "Visit the official Pearson PTE website (pearsonpte.com) and create a myPTE account.",
+    "Select PTE Academic or the specific PTE test variant matching your destination goals.",
+    "Locate an authorized Pearson testing facility near you and browse available time slots.",
+    "Pick a suitable test date and appointment time that allows sufficient prep and score submission lead time.",
+    "Provide personal identification details strictly matching your valid passport.",
+    "Complete the booking payment using an approved debit/credit card or voucher.",
+    "Review appointment confirmation details, test center directions, and test-day guidelines.",
+    "Review official Pearson practice materials and arrive at the test center 30 minutes prior to appointment."
+  ],
+  "validityDetails": "PTE Academic scores are valid for two years from the date of the test. Test takers can send their score reports to an unlimited number of universities free of charge via their Pearson portal.",
+  "faqs": [
+    {
+      "q": "What is the purpose of the PTE Academic exam?",
+      "a": "PTE Academic assesses university-level English communication skills and is accepted by thousands of universities worldwide as proof of language proficiency for undergraduate and graduate admissions."
+    },
+    {
+      "q": "How much is the PTE Academic exam fee in India?",
+      "a": "The standard registration fee is approximately ₹17,000 (inclusive of taxes). Late booking fees may apply if booking within 48 hours of test date."
+    },
+    {
+      "q": "How long are PTE Academic scores valid for?",
+      "a": "Scores are officially valid for two years from the examination date for study abroad purposes."
+    },
+    {
+      "q": "Do international universities accept PTE Academic?",
+      "a": "Yes. PTE Academic is 100% accepted by Australian and New Zealand universities, over 99% of UK universities, top Canadian institutions, and an increasing number of US and European universities."
+    },
+    {
+      "q": "Is IELTS harder than PTE Academic?",
+      "a": "Neither test is universally harder. Students who feel comfortable typing essays on a keyboard, speaking into a headset, and prefer fast automated computer scoring often favor PTE Academic over IELTS."
+    }
+  ],
+  "countryContexts": {
+    "australia": "In Australia, PTE Academic is 100% accepted by all universities and the Department of Home Affairs for Subclass 500 student visas and permanent residency points.",
+    "uk": "In the UK, virtually all universities accept PTE Academic for undergraduate and postgraduate courses, with PTE Academic UKVI accepted for Tier 4/Student Visa compliance.",
+    "canada": "In Canada, top universities accept PTE Academic for academic admissions.",
+    "germany": "In Germany, prominent public universities and private business schools accept PTE Academic scores of 58–65+ for English-taught master's programs."
+  }
+}

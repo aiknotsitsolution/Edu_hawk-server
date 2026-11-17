@@ -53,5 +53,22 @@
       "question": "How can Edu-Hawk Worldwide help with the admission process?",
       "answer": "Edu-Hawk Worldwide provides comprehensive support covering university shortlisting, prerequisite checking, SOP/CV drafting, Studyinfo filing, scholarship applications, and Finnish student visa processing."
     }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Finnish Universities",
+      "title": "Top Universities to Consider in Finland",
+      "lead": "Explore leading Finnish universities offering advanced computer science and engineering programs.",
+      "unis": [
+        {
+          "name": "Top University in Finland",
+          "location": "Finland",
+          "fee": "€10,000 – €16,000 / Year",
+          "image": ""
+        }
+      ],
+      "groups": []
+    }
   ]
 }

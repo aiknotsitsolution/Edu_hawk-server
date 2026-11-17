@@ -1,29 +1,46 @@
 {
-  "seo": {
-    "title": "Study Undergraduate Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Undergraduate Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
-    "title": "Engineering-UG-Hub-Page in the UK for Indian Students",
+    "title": "1. Why Study Engineering in the UK ?",
     "subtitle": "Students interested in engineering, technology, innovation, and scientific research are drawn to the United Kingdom. Universities in the UK provide undergraduate engineering programmes that explore industry-focused learning, practical projects, laboratory work, and theoretical knowledge."
   },
   "overview": [
     "Students interested in engineering, technology, innovation, and scientific research are drawn to the United Kingdom. Universities in the UK provide undergraduate engineering programmes that explore industry-focused learning, practical projects, laboratory work, and theoretical knowledge.",
     "Mechanical, civil, electrical, electronic, aerospace, chemical, automotive, and computer engineering are just a few of the many engineering disciplines that students can select from. Additionally, a lot of colleges offer chances to take part in research projects, industry projects, internships, and placement years.",
-    "Key Advantages of Studying Engineering in the UK"
+    "An undergraduate engineering degree in the UK can lay the groundwork for professions in technological industries, infrastructure, manufacturing, energy, computers, and research for Indian students. The chosen specialization, practical experience, abilities, and company requirements all influence career results."
+  ],
+  "universities": [
+    {
+      "name": "Bristol University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ug_hub_Bristol_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_ug_hub_Bristol_University-image1.png",
+      "desc": "Bristol University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Nottingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ug_hub_Nottingham_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_ug_hub_Nottingham_University-image2.png",
+      "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Sheffield University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_ug_hub_Sheffield_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_ug_hub_Sheffield_University-image3.png",
+      "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
   ],
   "sections": [
     {
-      "title": "Why Study **Engineering** in the UK ?",
-      "eyebrow": "Why Study in the UK",
+      "slot": "why-study",
+      "eyebrow": "Why UK",
+      "title": "Why Study Engineering in the UK ?",
+      "lead": "Students interested in engineering, technology, innovation, and scientific research are drawn to the United Kingdom. Universities in the UK provide undergraduate engineering programmes that explore industry-focused learning, practical projects, laboratory work, and theoretical knowledge.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students interested in engineering, technology, innovation, and scientific research are drawn to the United Kingdom. Universities in the UK provide undergraduate engineering programmes that explore industry-focused learning, practical projects, laboratory work, and theoretical knowledge."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -31,10 +48,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Key Advantages of Studying Engineering in the UK"
-          ]
+          "t": "h4",
+          "text": "Key Advantages of Studying Engineering in the UK"
         },
         {
           "t": "ul",
@@ -57,21 +72,17 @@
         {
           "t": "p",
           "items": [
-            "With the right preparation and direction, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore  international study possibilities, and prepare for their overseas education adventure."
+            "With the right preparation and direction, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore international study possibilities, and prepare for their overseas education adventure."
           ]
         }
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Undergraduate Engineering Programs",
-      "eyebrow": "Course Guide",
+      "lead": "A variety of undergraduate engineering qualifications are available at UK universities. The Master of Engineering (MEng) and Bachelor of Engineering (BEng) are the most popular choices.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "A variety of undergraduate engineering qualifications are available at UK universities. The Master of Engineering (MEng) and Bachelor of Engineering (BEng) are the most popular choices."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -152,41 +163,70 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
+      "title": "Top Universities to Consider in the UK",
+      "lead": "Explore the leading universities and colleges in the United Kingdom offering globally recognized degrees, historic campuses, and strong international student support.",
+      "unis": [
+        {
+          "name": "Bristol University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ug_hub_Bristol_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_ug_hub_Bristol_University-image1.png",
+          "desc": "Bristol University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Nottingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ug_hub_Nottingham_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_ug_hub_Nottingham_University-image2.png",
+          "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Sheffield University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_ug_hub_Sheffield_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_ug_hub_Sheffield_University-image3.png",
+          "desc": "Sheffield University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Top UK Universities to Consider for Undergraduate Engineering Programs",
-      "eyebrow": "Top Institutions",
+      "lead": "For undergraduate engineering education in the UK It is worthwhile to investigate the following universities. Depending on the university and subject, there are differences in program availability, admission requirements, tuition costs, and accreditation.",
       "groups": [
         {
-          "t": "universities",
+          "t": "p",
           "items": [
-            {
-              "name": "Bristol University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Bristol_University_webp"
-            },
-            {
-              "name": "Nottingham University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Nottingham_University_webp"
-            },
-            {
-              "name": "Sheffield University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Sheffield_University_webp"
-            }
+            "Bristol University - For engineering programs in aerospace, civil, mechanical, electrical, and other fields, Bristol is worth exploring."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sheffield University - Engineering programs in mechanical, civil, aerospace, electrical, and other technological fields are available to students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Nottingham University - For engineering programs in mechanical, civil, chemical, electrical, and other fields, the university is worth exploring."
           ]
         }
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Requirements for Undergraduate Engineering Programs in the UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Indian students usually need to meet academic and English language standards in order to be admitted to undergraduate engineering programs in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Indian students usually need to meet academic and English language standards in order to be admitted to undergraduate engineering programs in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -210,10 +250,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -258,15 +296,11 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK Undergraduate Engineering Admission Requirements",
-      "eyebrow": "Eligibility & Process",
+      "lead": "The following documents may be needed for a typical undergraduate engineering application in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The following documents may be needed for a typical undergraduate engineering application in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -284,10 +318,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents in English"
-          ]
+          "t": "h4",
+          "text": "Documents in English"
         },
         {
           "t": "p",
@@ -302,10 +334,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Additional Requirements for Specific Universities"
-          ]
+          "t": "h4",
+          "text": "Additional Requirements for Specific Universities"
         },
         {
           "t": "ul",
@@ -317,15 +347,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "The cost of an engineering degree in the UK",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, discipline, length of the course, laboratory requirements, and location all affect the cost of studying engineering in the UK.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, discipline, length of the course, laboratory requirements, and location all affect the cost of studying engineering in the UK."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -333,10 +359,37 @@
           ]
         },
         {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "BEng undergraduate",
+              "d": "£20,000–£38,000"
+            },
+            {
+              "t": "£22,000–£45,000",
+              "d": "Integrated MEng"
+            },
+            {
+              "t": "Lodging",
+              "d": "£600–£1,200"
+            },
+            {
+              "t": "Groceries and food",
+              "d": "£180–£300"
+            },
+            {
+              "t": "Internet and mobile",
+              "d": "£20–£50"
+            },
+            {
+              "t": "Study materials and personal expenditures",
+              "d": "£100–£250"
+            }
+          ]
+        },
+        {
           "t": "ul",
           "items": [
-            "BEng undergraduate | £20,000–£38,000",
-            "£22,000–£45,000 | Integrated MEng",
             "Year of engineering foundation | £15,000–£30,000 |"
           ]
         },
@@ -349,31 +402,7 @@
         {
           "t": "p",
           "items": [
-            "Lodging | £600–£1,200"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Groceries and food | £180–£300"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
             "Local transportation costs between £60 and £160."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Internet and mobile | £20–£50"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Study materials and personal expenditures | £100–£250"
           ]
         },
         {
@@ -409,165 +438,86 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Undergraduate Engineering Admissions Process",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Specialty in Engineering"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose an engineering specialty such as mechanical, civil, electrical, chemical, aerospace, automotive, biomedical or another."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Choose the Type of Degree"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine blended MEng and BEng programs. Examine their length, course design, accreditation, and opportunities for advancement."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Make a University Shortlist"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the location, placement options, facilities, course modules, costs, and entry requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if your Indian Class 12 diploma satisfies the direct-entry requirements of the university. Inquire about appropriate foundation-year possibilities if it doesn't."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather academic records, results in English, references, a personal statement, expected grades if relevant, and any other documents needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Use the Correct Method to Apply"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "UCAS is used for many undergraduate engineering applications. Verify the deadlines for the courses, the current application cycle, and any other prerequisites."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Participate in Any Needed Evaluation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Certain engineering courses at some universities need interviews or admission exams. Prepare in accordance with the established guidelines of the institution."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Get an Offer and Accept It"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine all terms of the deal in detail. Final grades, English-language test results, and document verification are a few examples."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9: Set Up Finances and Lodging"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify your housing, tuition, living expenses and other cost budgets."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Request a Student Visa for the UK"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the most recent visa regulations and get your application ready after fulfilling the requirements for admission and obtaining the necessary Confirmation of Acceptance for Studies (CAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 11: Sign Up and Start Your Course"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Finish the enrollment process, go to the induction, and get ready for any program-related lectures, lab sessions, design projects, and placement activities."
+            {
+              "step": 1,
+              "title": "Select Your Specialty in Engineering",
+              "desc": "Choose an engineering specialty such as mechanical, civil, electrical, chemical, aerospace, automotive, biomedical or another."
+            },
+            {
+              "step": 2,
+              "title": "Choose the Type of Degree",
+              "desc": "Examine blended MEng and BEng programs. Examine their length, course design, accreditation, and opportunities for advancement."
+            },
+            {
+              "step": 3,
+              "title": "Make a University Shortlist",
+              "desc": "Examine the location, placement options, facilities, course modules, costs, and entry requirements."
+            },
+            {
+              "step": 4,
+              "title": "Verify Your Qualifications",
+              "desc": "Verify if your Indian Class 12 diploma satisfies the direct-entry requirements of the university. Inquire about appropriate foundation-year possibilities if it doesn't."
+            },
+            {
+              "step": 5,
+              "title": "Get Your Application Ready",
+              "desc": "Gather academic records, results in English, references, a personal statement, expected grades if relevant, and any other documents needed."
+            },
+            {
+              "step": 6,
+              "title": "Use the Correct Method to Apply",
+              "desc": "UCAS is used for many undergraduate engineering applications. Verify the deadlines for the courses, the current application cycle, and any other prerequisites."
+            },
+            {
+              "step": 7,
+              "title": "Participate in Any Needed Evaluation",
+              "desc": "Certain engineering courses at some universities need interviews or admission exams. Prepare in accordance with the established guidelines of the institution."
+            },
+            {
+              "step": 8,
+              "title": "Get an Offer and Accept It",
+              "desc": "Examine all terms of the deal in detail. Final grades, English-language test results, and document verification are a few examples."
+            },
+            {
+              "step": 9,
+              "title": "Set Up Finances and Lodging",
+              "desc": "Verify your housing, tuition, living expenses and other cost budgets."
+            },
+            {
+              "step": 10,
+              "title": "Request a Student Visa for the UK",
+              "desc": "Examine the most recent visa regulations and get your application ready after fulfilling the requirements for admission and obtaining the necessary Confirmation of Acceptance for Studies (CAS)."
+            },
+            {
+              "step": 11,
+              "title": "Sign Up and Start Your Course",
+              "desc": "Finish the enrollment process, go to the induction, and get ready for any program-related lectures, lab sessions, design projects, and placement activities."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Professional Considerations, Accreditation, and Recognition",
-      "eyebrow": "Course Guide",
+      "lead": "Students who wish to pursue a long-term professional engineering career may find that engineering accreditation in the UK is crucial.",
+      "groups": []
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation for Engineering",
+      "lead": "Professional engineering schools in the UK may accredit engineering programs under the guidelines set forth by the Engineering Council. The particular degree and intake year determine accreditation.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students who wish to pursue a long-term professional engineering career may find that engineering accreditation in the UK is crucial."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accreditation for Engineering"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Professional engineering schools in the UK may accredit engineering programs under the guidelines set forth by the Engineering Council. The particular degree and intake year determine accreditation."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -583,20 +533,14 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Opportunities for Employment",
-      "eyebrow": "Course Guide",
+      "lead": "Opportunities in infrastructure, manufacturing, technology, energy, transportation, construction, and research are available to engineering graduates in the UK.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Opportunities in infrastructure, manufacturing, technology, energy, transportation, construction, and research are available to engineering graduates in the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Possible Career Paths"
-          ]
+          "t": "h4",
+          "text": "Possible Career Paths"
         },
         {
           "t": "ul",
@@ -642,15 +586,11 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Documents Needed to Apply",
-      "eyebrow": "Course Guide",
+      "lead": "Get the necessary paperwork ready for the course you have chosen:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Get the necessary paperwork ready for the course you have chosen:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -672,88 +612,33 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Detailed guidance and updated information are available through Edu-Hawk Worldwide counseling experts."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Bristol University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Bristol_University.webp"
-    },
-    {
-      "name": "Nottingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Nottingham_University.webp"
-    },
-    {
-      "name": "Sheffield University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Sheffield_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Undergraduate Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-      "a": ""
+      "q": "How long does it take to complete an undergraduate engineering degree in the UK?",
+      "a": "A BEng commonly takes three years in England, Wales, and Northern Ireland, while an integrated MEng often takes four years. Scotland and programmes with foundation or placement years may have different durations."
+    },
+    {
+      "q": "Can Indian students study engineering in the UK after Class 12?",
+      "a": "Yes. Indian students can apply if they meet the university's academic and English-language requirements. Mathematics and Physics are commonly required, while some disciplines may require Chemistry or other subjects."
+    },
+    {
+      "q": "What is the difference between BEng and MEng?",
+      "a": "BEng is generally a shorter undergraduate engineering degree, while an integrated MEng provides an extended course of study with more advanced engineering content. The right choice depends on career goals, accreditation, and course structure."
+    },
+    {
+      "q": "Is IELTS compulsory for engineering in the UK?",
+      "a": "Not in every case. Universities may accept IELTS Academic, TOEFL iBT, PTE Academic, or other approved evidence. Applicants should check the specific course and applicable visa requirements."
+    },
+    {
+      "q": "Can I work in the UK after completing my engineering degree?",
+      "a": "Potentially, depending on the job, eligibility, and immigration rules in force at the time. Graduation alone does not guarantee a job or permission to remain in the UK. Check the current UK government visa guidance before making plans."
     }
-  ]
+  ],
+  "seo": {
+    "title": "1. Why Study Engineering in the UK ? | Edu-Hawk Worldwide",
+    "description": "Students interested in engineering, technology, innovation, and scientific research are drawn to the United Kingdom. Universities in the UK provide undergraduat",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

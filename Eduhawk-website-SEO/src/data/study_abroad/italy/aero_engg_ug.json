@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Aerospace Engineering - UG in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Aerospace Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Aerospace Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Aerospace Engineering in Italy for Indian Students, Aerospace Engineering in Italy, Aerospace Engineering Courses in Italy, Top Universities for Aerospace Engineering in Italy, Aerospace Engineering Admission in Italy, Study Aerospace Engineering in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Aerospace Engineering in Italy for Indian Students",
-    "subtitle": "Yes. Indian students can apply to Italian universities offering Aerospace Engineering or related programs provided they meet the universitys academic, language and admission requirements.",
+    "subtitle": "Italy is a destination for Indian students interested in aircraft, spacecraft, aviation technology and aerospace innovation. The country offers engineering education, research opportunities and exposure to technological industries.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/aero_engg_ug_Sapienza_University_of_Rome-image2.png"
   },
   "stats": [
     {
@@ -29,20 +30,969 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate",
+    "degree": "Laurea in Aerospace Engineering",
     "duration": "3 to 4 Years (UG) / 2 Years (PG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Yes. Indian students can apply to Italian universities offering Aerospace Engineering or related programs provided they meet the universitys academic, language and admission requirements.",
-  "universities": [
+  "overview": [
+    "Italy is a destination for Indian students interested in aircraft, spacecraft, aviation technology and aerospace innovation. The country offers engineering education, research opportunities and exposure to technological industries.",
+    "Studying Aerospace Engineering in Italy for Indian Students provides an opportunity to explore education develop technical knowledge and prepare for careers in aviation, aerospace manufacturing and space technology.",
+    "With Edu-Hawk Worldwide students can explore universities understand admission requirements and receive guidance throughout their study abroad journey.",
+    "Benefits of Studying Aerospace Engineering in Italy",
+    "Access to recognized engineering institutions.",
+    "Opportunities to study aerodynamics, aircraft design, propulsion and aerospace systems.",
+    "Exposure to research, laboratories and engineering innovation.",
+    "Opportunities to explore internships and international career pathways.",
+    "Experience studying in a country with an engineering and industrial background."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano, Politecnico di Torino, Sapienza University of Rome University of Bologna and University of Padua are among the institutions students can explore for aerospace and related engineering education.",
-      "location": "Italy",
-      "fee": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships.",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Aerospace Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Italy is a destination for Indian students interested in aircraft, spacecraft, aviation technology and aerospace innovation. The country offers engineering education, research opportunities and exposure to technological industries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Studying Aerospace Engineering in Italy for Indian Students provides an opportunity to explore education develop technical knowledge and prepare for careers in aviation, aerospace manufacturing and space technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "With Edu-Hawk Worldwide students can explore universities understand admission requirements and receive guidance throughout their study abroad journey."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Benefits of Studying Aerospace Engineering in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Access to recognized engineering institutions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities to study aerodynamics, aircraft design, propulsion and aerospace systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exposure to research, laboratories and engineering innovation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities to explore internships and international career pathways."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experience studying in a country with an engineering and industrial background."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Aerospace Engineering Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Italian universities offer undergraduate and postgraduate engineering programs that allow students to explore areas of aerospace technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular Aerospace Engineering Programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's Degree in Aerospace Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's Degree in Aeronautical Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's Degree in Aerospace Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's Degree in Aeronautical Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's Degree in Space Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Major Subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerodynamics and Fluid Mechanics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft Structures and Materials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Propulsion"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flight Mechanics and Dynamics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Spacecraft and Satellite Systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft Design and Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mathematics and Physics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Program duration, language of instruction and admission requirements vary depending on the university and degree level."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Sapienza University of Rome",
+          "location": "Italy",
+          "fee": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships.",
+          "image": "/uploads/study_abroad/italy/aero_engg_ug_Sapienza_University_of_Rome-image2.png",
+          "desc": "Sapienza offers engineering programs and academic opportunities related to aerospace systems, aviation and space technology."
+        },
+        {
+          "name": "University of Bologna",
+          "location": "Italy",
+          "fee": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships.",
+          "image": "/uploads/study_abroad/italy/aero_engg_ug_University_of_Bologna-image3.png",
+          "desc": "The University of Bologna provides engineering education and opportunities to explore aeronautical and aerospace-related studies."
+        },
+        {
+          "name": "University of Padua",
+          "location": "Italy",
+          "fee": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships.",
+          "image": "/uploads/study_abroad/italy/aero_engg_ug_University_of_Padua-image1.png",
+          "desc": "The University of Padua offers engineering programs and research opportunities in engineering disciplines. Students should verify the availability of their degree teaching language and admission requirements for the specific academic year."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Study Aerospace Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students must meet the university-specific eligibility criteria before applying for Aerospace Engineering in Italy ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate Eligibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Completion of Class 12 from a recognized board."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Physics as relevant academic subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Required academic performance according to university criteria."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fulfillment of university- entrance examination requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language proficiency according to the selected program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Eligibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A bachelors degree in Aerospace Engineering, Aeronautical Engineering, Mechanical Engineering or another accepted discipline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Required academic credits in engineering subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Minimum academic performance as specified by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English or Italian language proficiency, depending on the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can guide students in understanding university eligibility and identifying programs aligned with their background."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Admission Requirements for Aerospace Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Admission requirements depend on the university, course level and language of instruction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common Admission Requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 12 qualification for bachelors programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelors degree for masters programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic. Certificates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mathematics and Physics background for engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language proficiency for English-taught programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Italian language proficiency where required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance. University assessment, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application submission within the universitys admission deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities may require academic documentation, prerequisite subjects, interviews or entrance tests."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should check the university admission guidelines before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Cost of Studying Aerospace Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of studying Aerospace Engineering in Italy depends on the university, program, city, accommodation and lifestyle."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Main Expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition Fees: Tuition fees vary according to the university, degree program and applicable fee structure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accommodation: Students may choose university residences, shared apartments or private accommodation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living Expenses: Monthly expenses include food, transportation, utilities, personal expenses and other necessities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Costs: Students should also consider visa expenses, health insurance, travel, academic materials and residence permit-related expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships and Financial Assistance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students may explore:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University merit-based scholarships."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Regional scholarships, where eligible."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition fee reductions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Need-based financial assistance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other scholarships available to students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarship eligibility, benefits and deadlines vary. Students should confirm the information through official university and regional scholarship websites."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Aerospace Engineering Admission Process in Italy",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Choose Your University",
+          "desc": "Research universities offering Aerospace Engineering or related programs according to your qualifications and career goals."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Check Eligibility",
+          "desc": "Review requirements, entrance examinations, language requirements and application deadlines."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Prepare Your Documents",
+          "desc": "Arrange certificates, transcripts, passport, language test results and other required documents."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Apply to the University",
+          "desc": "Complete the university application process. Submit the required documents."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Complete Admission Assessments",
+          "desc": "Appear for entrance examinations, interviews or other assessments if required."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Receive Your Admission Decision",
+          "desc": "If selected review your admission offer and complete the universitys enrollment requirements."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Apply for Your Student Visa",
+          "desc": "Prepare the required documents and follow the Italian student visa procedure."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Prepare for Your Journey",
+          "desc": "Arrange accommodation, travel, insurance and other necessary preparations before departure. Edu-Hawk Worldwide supports students in exploring university options understanding application requirements and preparing for their study abroad journey."
+        }
+      ]
+    },
+    {
+      "slot": "recognition",
+      "eyebrow": "Degree Recognition & Accreditation",
+      "title": "Aerospace Engineering Licensing in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineering does not have one licensing requirement for every engineering job in Italy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The requirements depend on the role, employer, professional responsibilities. Whether the position involves regulated engineering activities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important Points"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A university degree may be sufficient for engineering and technical positions, subject to employer requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain regulated professional activities may require qualifications and professional registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering professional registration may involve applicable examinations and eligibility requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft maintenance, aviation safety and other specialized roles may have certification requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students should check the requirements for their intended career before choosing a program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in engineering registration should verify the current requirements with the relevant Italian authorities and professional bodies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Salary & Job Opportunities for Aerospace Engineers in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineering graduates can explore opportunities in aviation, aerospace manufacturing, engineering research and advanced technology industries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career Opportunities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aeronautical Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft Design Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Propulsion Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flight Mechanics Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Research Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Space Systems Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft Manufacturing Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Project Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential Employment Sectors"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace manufacturing companies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft and aviation industries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Space technology organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering research institutions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft maintenance and technical services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Manufacturing and engineering companies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary Expectations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace engineering salaries in Italy depend on qualifications, experience, employer, specialization and location."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry-level salaries may differ considerably from those offered to experienced engineers and specialized professionals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should research salary information and employment requirements before making career decisions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide helps students explore education opportunities and understand potential career pathways after graduation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Required to Study Aerospace Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students applying for Aerospace Engineering in Italy may need the following documents:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 10 marksheet and certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 12. Certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelors degree certificate for masters applicants."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant entrance examination results, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal and Application Documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Valid passport."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recent passport-size photographs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University application form."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Statement of Purpose if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Curriculum Vitae for postgraduate applications if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language and Admission Documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language proficiency certificate, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Italian language certificate, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University. Acceptance letter."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional documents requested by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Visa-Related Documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Valid passport."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Financial proof."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accommodation documentation, where required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health insurance documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Visa application documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other documents specified by the authorities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Document requirements vary by university and visa category. Students should follow the instructions applicable to their application."
+          ]
+        }
+      ]
     }
   ],
-  "faq": []
+  "universities": [
+    {
+      "name": "Sapienza University of Rome",
+      "location": "Italy",
+      "fee": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships.",
+      "image": "/uploads/study_abroad/italy/aero_engg_ug_Sapienza_University_of_Rome-image2.png",
+      "desc": "Sapienza offers engineering programs and academic opportunities related to aerospace systems, aviation and space technology."
+    },
+    {
+      "name": "University of Bologna",
+      "location": "Italy",
+      "fee": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships.",
+      "image": "/uploads/study_abroad/italy/aero_engg_ug_University_of_Bologna-image3.png",
+      "desc": "The University of Bologna provides engineering education and opportunities to explore aeronautical and aerospace-related studies."
+    },
+    {
+      "name": "University of Padua",
+      "location": "Italy",
+      "fee": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships.",
+      "image": "/uploads/study_abroad/italy/aero_engg_ug_University_of_Padua-image1.png",
+      "desc": "The University of Padua offers engineering programs and research opportunities in engineering disciplines. Students should verify the availability of their degree teaching language and admission requirements for the specific academic year."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Indian students study Aerospace Engineering in Italy?",
+      "answer": "Yes. Indian students can apply to Italian universities offering Aerospace Engineering or related programs provided they meet the universitys academic, language and admission requirements."
+    },
+    {
+      "question": "Which are the universities for Aerospace Engineering in Italy?",
+      "answer": "Politecnico di Milano, Politecnico di Torino, Sapienza University of Rome University of Bologna and University of Padua are among the institutions students can explore for aerospace and related engineering education."
+    },
+    {
+      "question": "Is IELTS required to study Aerospace Engineering in Italy?",
+      "answer": "IELTS may be required for English-taught programs. Requirements vary by university. Some institutions may accept English proficiency tests or alternative proof of language proficiency."
+    },
+    {
+      "question": "What is the cost of studying Aerospace Engineering in Italy?",
+      "answer": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships."
+    },
+    {
+      "question": "How can Edu-Hawk Worldwide help students study Aerospace Engineering, in Italy?",
+      "answer": "Edu-Hawk Worldwide offers help for students who want to study in countries. This company helps students look at universities learn about the rules to get in get the papers ready for their applications and move through the process of getting admitted. Start your journey in Aerospace Engineering with Edu-Hawk Worldwide . Do you dream of studying engineering in another country? Find out about Aerospace Engineering in Italy for students with Edu-Hawk Worldwide . Edu-Hawk Worldwides help for studying lets students learn about different schools the things they need to do to get in how to fill out the forms and what to do next for education outside their home country. Start in India. Keep going in another country. Finish with a degree. Talk to Edu-Hawk Worldwide . Take the first step on your path, to studying aerospace engineering in Italy ."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Indian students study Aerospace Engineering in Italy?",
+      "a": "Yes. Indian students can apply to Italian universities offering Aerospace Engineering or related programs provided they meet the universitys academic, language and admission requirements."
+    },
+    {
+      "q": "Which are the universities for Aerospace Engineering in Italy?",
+      "a": "Politecnico di Milano, Politecnico di Torino, Sapienza University of Rome University of Bologna and University of Padua are among the institutions students can explore for aerospace and related engineering education."
+    },
+    {
+      "q": "Is IELTS required to study Aerospace Engineering in Italy?",
+      "a": "IELTS may be required for English-taught programs. Requirements vary by university. Some institutions may accept English proficiency tests or alternative proof of language proficiency."
+    },
+    {
+      "q": "What is the cost of studying Aerospace Engineering in Italy?",
+      "a": "The total cost depends on university tuition fees, accommodation, living expenses, insurance and other personal expenses. Students should check the university fee structure and available scholarships."
+    },
+    {
+      "q": "How can Edu-Hawk Worldwide help students study Aerospace Engineering, in Italy?",
+      "a": "Edu-Hawk Worldwide offers help for students who want to study in countries. This company helps students look at universities learn about the rules to get in get the papers ready for their applications and move through the process of getting admitted. Start your journey in Aerospace Engineering with Edu-Hawk Worldwide . Do you dream of studying engineering in another country? Find out about Aerospace Engineering in Italy for students with Edu-Hawk Worldwide . Edu-Hawk Worldwides help for studying lets students learn about different schools the things they need to do to get in how to fill out the forms and what to do next for education outside their home country. Start in India. Keep going in another country. Finish with a degree. Talk to Edu-Hawk Worldwide . Take the first step on your path, to studying aerospace engineering in Italy ."
+    }
+  ]
 }

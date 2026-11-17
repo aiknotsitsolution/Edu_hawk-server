@@ -1,5 +1,6 @@
+import cmsData from "../../../../data/study_abroad/finland/bbs.json";
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/BBS/bbs_finland_hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/BBS/bbs_finland_hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Finland/BBS/bbs_finland_analysis.webp";
@@ -553,7 +554,7 @@ const page = {
 export default function BBSInFinland() {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

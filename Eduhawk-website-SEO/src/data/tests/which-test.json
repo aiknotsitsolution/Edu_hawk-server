@@ -1,0 +1,161 @@
+{
+  "id": "which-test",
+  "name": "Which Test Do I Need? Complete Study Abroad Exam Selector",
+  "shortName": "Which Test Do I Need?",
+  "category": "Study Abroad Selector",
+  "badge": "Personalized Exam Decision Guide",
+  "seo": {
+    "title": "Which Test Do I Need to Study Abroad? Compare All 16 Exams | EduHawk Worldwide",
+    "description": "Unsure which exam to take for studying abroad? Compare IELTS, TOEFL, PTE, Duolingo, OET, GRE, GMAT, SAT, ACT, IMAT, UCAT & MCAT by country, degree level, and university admission cutoffs.",
+    "keywords": "Which test do I need, study abroad exams, compare IELTS vs TOEFL vs PTE, GRE vs GMAT, SAT vs ACT, IMAT vs UCAT, study abroad entrance exams, EduHawk test guidance"
+  },
+  "hero": {
+    "badge": "Personalized Exam Decision Guide",
+    "heroPara": "Navigating international exams depends on your target study destination, degree level, and medium of instruction, spanning English language proficiency, foreign language diplomas, and graduate admissions tests."
+  },
+  "stats": [
+    {
+      "label": "Total Exams Covered",
+      "value": "16 Standardized Tests"
+    },
+    {
+      "label": "Destinations Supported",
+      "value": "10+ Global Study Destinations"
+    },
+    {
+      "label": "Degree Levels",
+      "value": "UG, Master's, MBA, Medicine, PhD"
+    },
+    {
+      "label": "Guidance Fee",
+      "value": "100% Free Consultation with EduHawk"
+    },
+    {
+      "label": "Assessment Tool",
+      "value": "Interactive 3-Step Decision Finder"
+    },
+    {
+      "label": "Prep Support",
+      "value": "1-on-1 Mentoring, Mock Tests & Materials"
+    }
+  ],
+  "countries": [
+    "All Countries",
+    "USA",
+    "UK",
+    "Canada",
+    "Australia",
+    "Germany",
+    "Ireland",
+    "France",
+    "Spain",
+    "Italy",
+    "Finland"
+  ],
+  "overview": [
+    "Choosing the right study abroad examination is the crucial first milestone in your international education journey.",
+    "The required test depends strictly on your destination country, chosen course discipline, academic level (Undergraduate, Postgraduate, MBA, Medicine), and the teaching language of your degree.",
+    "Edu-Hawk Worldwide provides comprehensive diagnostic assessments, cutoff benchmarking, and personalized test selection guidance to ensure students prepare for the exact examination needed."
+  ],
+  "faqs": [
+    {
+      "q": "Should I take IELTS or TOEFL?",
+      "a": "Both tests are universally accepted by virtually all top universities. Choose IELTS if you prefer face-to-face speaking interviews, handwriting or typing, and diverse question types. Choose TOEFL if you are comfortable with an all-computer interface, integrated tasks, and typing essays."
+    },
+    {
+      "q": "Should I take GRE or GMAT for an MBA?",
+      "a": "Over 90% of top business schools now accept both GRE and GMAT equally. If you have exceptional quantitative and data analysis skills, GMAT is traditionally favored by management consulting and finance recruiters. If your vocabulary and verbal skills are stronger, GRE is often easier."
+    },
+    {
+      "q": "Can I study abroad without IELTS or English tests?",
+      "a": "Yes, in certain circumstances. Universities in Germany, France, Ireland, and the UK may waive IELTS if your undergraduate medium of instruction (MOI) was English, or if you take alternative tests like Duolingo English Test or PTE Academic."
+    },
+    {
+      "q": "Which test is the fastest to receive results?",
+      "a": "Duolingo English Test (DET) and PTE Academic deliver official certified results within 48 hours. IELTS on Computer delivers results in 1–5 days, while TOEFL iBT results take 4–8 days."
+    },
+    {
+      "q": "How does EduHawk help me choose and prepare?",
+      "a": "Edu-Hawk Worldwide offers free diagnostic profile evaluations, recommends the exact tests matching your target universities, and provides structured coaching, mock tests, and visa documentation support."
+    }
+  ],
+  "categoriesSummary": [
+    {
+      "category": "1. English Language Proficiency",
+      "exams": "IELTS Academic, TOEFL iBT, PTE Academic, Duolingo English Test (DET), and OET.",
+      "purpose": "Mandatory for non-native English speakers applying to English-medium degree programs worldwide."
+    },
+    {
+      "category": "2. Foreign Country Language & Entrance Exams",
+      "exams": "Germany (Goethe, TestDaF, telc, TestAS), France (DELF, DALF, TCF, TEF), and Spain (DELE, SIELE, PCE, UNEDasiss).",
+      "purpose": "Required for public university programs taught in the national language and undergraduate credential accreditation."
+    },
+    {
+      "category": "3. Graduate & Business Admissions",
+      "exams": "GRE (General Test), GMAT (Focus Edition), and CMAT.",
+      "purpose": "Evaluates analytical, quantitative, and verbal aptitude for MS, Master's, MBA, and PhD admissions."
+    },
+    {
+      "category": "4. Undergraduate Admissions",
+      "exams": "SAT (Digital SAT) and ACT.",
+      "purpose": "Assesses college readiness in mathematics, reading, and writing for bachelor's admissions in the USA and globally."
+    },
+    {
+      "category": "5. Clinical & Medical School Admissions",
+      "exams": "IMAT (Italy English MBBS), UCAT (UK/Australia Medicine), and MCAT (USA/Canada MD).",
+      "purpose": "Competitive admissions tests for medical, clinical, and dental degree entry."
+    }
+  ],
+  "decisionMatrix": [
+    {
+      "goal": "Bachelor's Degree in USA",
+      "recommended": "Digital SAT or ACT + IELTS or TOEFL or Duolingo",
+      "note": "SAT/ACT required by top colleges; IELTS 6.5 or TOEFL 80+."
+    },
+    {
+      "goal": "Master's (MS/STEM) in USA",
+      "recommended": "GRE General Test + IELTS or TOEFL iBT",
+      "note": "GRE Quant 160+ and TOEFL 90+ / IELTS 7.0 for top STEM universities."
+    },
+    {
+      "goal": "MBA Abroad (USA/Europe/UK)",
+      "recommended": "GMAT Focus Edition or GRE + IELTS / TOEFL",
+      "note": "GMAT 645+ or GRE 315+ with 2-5 years work experience."
+    },
+    {
+      "goal": "Tuition-Free Master's in Germany (English)",
+      "recommended": "IELTS Academic (6.5+) + Optional GRE + APS Certificate",
+      "note": "No German required for English tracks; APS mandatory for Indian applicants."
+    },
+    {
+      "goal": "Master's in France (Grand École / MSc)",
+      "recommended": "IELTS Academic (6.5) or TOEFL (85+) + Optional GMAT",
+      "note": "English tracks require no French; DELF B2 required for French tracks."
+    },
+    {
+      "goal": "Undergraduate / Master's in Ireland",
+      "recommended": "IELTS Academic (6.5) or PTE Academic (63) or Duolingo",
+      "note": "Accepted for university entry and Stamp 2 student visa."
+    },
+    {
+      "goal": "MBBS in Italy (English-Taught)",
+      "recommended": "IMAT Exam + NEET Qualification (NMC Mandatory)",
+      "note": "Public university admission based on IMAT rank; very low tuition."
+    },
+    {
+      "goal": "Medicine / MBBS in UK",
+      "recommended": "UCAT Exam + IELTS for UKVI (7.0+)",
+      "note": "UCAT test taken between July and September before UCAS Oct 15 deadline."
+    },
+    {
+      "goal": "MD in USA / Canada",
+      "recommended": "MCAT Exam + 4-Year Pre-Med Bachelor's Degree",
+      "note": "Graduate-entry only; requires pre-med science prerequisite coursework."
+    },
+    {
+      "goal": "Healthcare Professional Migration",
+      "recommended": "OET (Occupational English Test)",
+      "note": "Requires Grade B (350+) across Listening, Reading, Writing, and Speaking."
+    }
+  ]
+}

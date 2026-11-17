@@ -51,6 +51,7 @@ const Italy = lazy(() => import("../pages/Country/Italy.jsx"));
 const BlogSection = lazy(() => import("../pages/Blog/BlogSection.jsx"));
 const Blog = lazy(() => import("../pages/Component/Blog.jsx"));
 const BlogDetail = lazy(() => import("../pages/Component/BlogDetail.jsx"));
+const NewsPage = lazy(() => import("../pages/News/NewsPage.jsx"));
 const AllIndia = lazy(() => import("../pages/Country/India/AllIndia.jsx"));
 const Landingpage = lazy(() => import("../pages/Landingpage/Landingpage.jsx"));
 const TermsAndConditions = lazy(() => import("../pages/TermsAndConditions/TermsAndConditions.jsx"));
@@ -956,6 +957,14 @@ export const router = createBrowserRouter([
       {
         path: "blog",
         element: <Blog />,
+      },
+      {
+        path: "news",
+        element: <NewsPage />,
+      },
+      {
+        path: "study-abroad/news",
+        element: <NewsPage />,
       },
       {
         path: "services",

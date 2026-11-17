@@ -1,3 +1,4 @@
+import automobileEngineeringPGData from "../../../../../../data/study_abroad/usa/auto_engg_pg.json";
 import React from "react";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_PG/automobile-engineering.webp";
@@ -242,21 +243,33 @@ const faqTitle = `Frequently Asked Questions — ${branch.name} in the USA`;
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content strings above are unchanged.
-const PostgraduateAutomobileEngineering = () => (
-  <EngineeringBranchPage
-    branch={branch}
-    level="PG"
-    heroImg={heroImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/pg/automobile-engineering"
-    heroAlt={heroAlt}
-    coursesTitle={coursesTitle}
-    unisTitle={unisTitle}
-    testsEyebrow="Standardised tests"
-    testsTitle="GRE & Other Admission Tests"
-    careersTitle={careersTitle}
-    faqTitle={faqTitle}
-  />
-);
+const PostgraduateAutomobileEngineering = () => {
+  const dynamicBranch = {
+    ...branch,
+    title: automobileEngineeringPGData?.seo?.title || branch.title,
+    description: automobileEngineeringPGData?.seo?.description || branch.description,
+    heroSub: automobileEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    faqs: (automobileEngineeringPGData?.faq && automobileEngineeringPGData.faq.length > 0)
+      ? automobileEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : branch.faqs,
+  };
+
+  return (
+    <EngineeringBranchPage
+      branch={dynamicBranch}
+      level="PG"
+      heroImg={heroImg}
+      imgDims={imgDims}
+      seoPath="/study-abroad/usa/pg/automobile-engineering"
+      heroAlt={heroAlt}
+      coursesTitle={coursesTitle}
+      unisTitle={unisTitle}
+      testsEyebrow="Standardised tests"
+      testsTitle="GRE & Other Admission Requirements"
+      careersTitle={careersTitle}
+      faqTitle={faqTitle}
+    />
+  );
+};
 
 export default PostgraduateAutomobileEngineering;

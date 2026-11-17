@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../data/study_abroad/ireland/nursing.json";
 
 // Page layout images
 import heroImg from "../../../../Images/Abroad/Ireland/Nursing/hero.webp";
@@ -391,6 +392,19 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "University_College_Cork.webp": uniImg1,
+  "Trinity_College_Dublin.webp": uniImg2,
+  "University_of_Galway.webp": uniImg3,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function NursingAbroadIreland() {
   const images = {
     hero: heroImg,
@@ -424,7 +438,7 @@ export default function NursingAbroadIreland() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

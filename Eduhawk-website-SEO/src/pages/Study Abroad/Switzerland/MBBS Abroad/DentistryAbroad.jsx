@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../Images/Abroad/Switzerland/Dentistry/cta_bg.web
 import University_of_ZurichImg from "../../../../Images/Abroad/Switzerland/Dentistry/University_of_Zurich.png";
 import University_of_BaselImg from "../../../../Images/Abroad/Switzerland/Dentistry/University_of_Basel.png";
 import University_of_BernImg from "../../../../Images/Abroad/Switzerland/Dentistry/University_of_Bern.png";
+import cmsData from "../../../../data/study_abroad/switzerland/dentistry.json";
 
 const page = {
   name: "Dentistry in Switzerland",
@@ -422,9 +423,26 @@ const page = {
 };
 
 export default function DentistryAbroadSwitzerland() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

@@ -1,3 +1,4 @@
+import electronicsCommunicationUGData from "../../../../../../data/study_abroad/usa/ece_engg_ug.json";
 import React from "react";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_UG/electronics-communication.webp";
@@ -280,21 +281,33 @@ const faqTitle = `Frequently Asked Questions — ${branch.name} in the USA`;
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content strings above are unchanged.
-const ElectronicsCommunicationUG = () => (
-  <EngineeringBranchPage
-    branch={branch}
-    level="UG"
-    heroImg={heroImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/ug/electronics-communication"
-    heroAlt={heroAlt}
-    coursesTitle={coursesTitle}
-    unisTitle={unisTitle}
-    testsEyebrow="Standardised tests"
-    testsTitle="SAT & Other Admission Tests"
-    careersTitle={careersTitle}
-    faqTitle={faqTitle}
-  />
-);
+const ElectronicsCommunicationUG = () => {
+  const dynamicBranch = {
+    ...branch,
+    title: electronicsCommunicationUGData?.seo?.title || branch.title,
+    description: electronicsCommunicationUGData?.seo?.description || branch.description,
+    heroSub: electronicsCommunicationUGData?.hero?.subtitle || branch.heroSub,
+    faqs: (electronicsCommunicationUGData?.faq && electronicsCommunicationUGData.faq.length > 0)
+      ? electronicsCommunicationUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : branch.faqs,
+  };
+
+  return (
+    <EngineeringBranchPage
+      branch={dynamicBranch}
+      level="UG"
+      heroImg={heroImg}
+      imgDims={imgDims}
+      seoPath="/study-abroad/usa/ug/electronics-communication"
+      heroAlt={heroAlt}
+      coursesTitle={coursesTitle}
+      unisTitle={unisTitle}
+      testsEyebrow="Standardised tests"
+      testsTitle="SAT & Other Admission Tests"
+      careersTitle={careersTitle}
+      faqTitle={faqTitle}
+    />
+  );
+};
 
 export default ElectronicsCommunicationUG;

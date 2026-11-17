@@ -11,6 +11,7 @@ import ctaBgImg from "../../../../Images/Abroad/France/InternationalBusiness/cta
 import uniImg1 from "../../../../Images/Abroad/France/InternationalBusiness/University_1.webp";
 import uniImg2 from "../../../../Images/Abroad/France/InternationalBusiness/ESSEC_Business_School.webp";
 import uniImg3 from "../../../../Images/Abroad/France/InternationalBusiness/ESCP_Business_School.webp";
+import cmsData from "../../../../data/study_abroad/france/international_business.json";
 
 const page = {
   name: "International Business in France",
@@ -343,6 +344,23 @@ const page = {
 };
 
 export default function InternationalBusinessinFrancePage() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
   const images = {
     hero: heroImg,
     heroBg: heroBgImg,
@@ -375,7 +393,7 @@ export default function InternationalBusinessinFrancePage() {
 
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

@@ -8,7 +8,7 @@
     "title": "Australian Law for Indian Students",
     "subtitle": "The study of legal systems, laws, rules, rights, obligations, conflict resolution, and the values that guide people, organizations and governments is known as law.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/law_Adelaide_University-image1.png"
   },
   "stats": [
     {
@@ -29,37 +29,890 @@
     }
   ],
   "highlights": {
-    "degree": "Bachelor of Laws (LLB), Juris Doctor (JD) & LLM",
+    "degree": "Bachelor of Laws (LLB) & Juris Doctor (JD)",
     "duration": "3 to 4 Years (LLB/JD) / 1 Year (LLM)",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "The Bachelor of Laws, Juris Doctor, Master of Laws, and specialized programs in commercial law, international law, and legal studies are just a few of the courses available in Australian universities.\n\nYour academic background and job objectives will determine which course is best for you. Students who wish to practice law in Australia must fulfill the necessary professional entry requirements and select a suitable qualifying law track.\n\nImportant Highlights\n\nLearn about judicial decision-making and legal ideas.\n\nRecognize laws, rules, and legal organizations\n\nDevelop your analytical and legal research abilities.\n\nLearn about criminal law, contracts, and constitutional law.\n\nDevelop your ability to argue and communicate in writing.\n\nExamine corporate, business, and international law.\n\nDevelop your ability to negotiate and resolve conflicts.\n\nExamine professions in business, policy, compliance, and law.",
+  "overview": [
+    "The study of legal systems, laws, rules, rights, obligations, conflict resolution, and the values that guide people, organizations and governments is known as law.",
+    "Students can explore Australian law , legal research, advocacy, constitutional principles, commercial rules, criminal justice, and international legal frameworks when studying law in Australia.",
+    "The Bachelor of Laws, Juris Doctor, Master of Laws, and specialized programs in commercial law, international law, and legal studies are just a few of the courses available in Australian universities.",
+    "Your academic background and job objectives will determine which course is best for you. Students who wish to practice law in Australia must fulfill the necessary professional entry requirements and select a suitable qualifying law track.",
+    "Important Highlights",
+    "Learn about judicial decision-making and legal ideas.",
+    "Recognize laws, rules, and legal organizations",
+    "Develop your analytical and legal research abilities.",
+    "Learn about criminal law, contracts, and constitutional law.",
+    "Develop your ability to argue and communicate in writing.",
+    "Examine corporate, business, and international law.",
+    "Develop your ability to negotiate and resolve conflicts.",
+    "Examine professions in business, policy, compliance, and law."
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The study of legal systems, laws, rules, rights, obligations, conflict resolution, and the values that guide people, organizations and governments is known as law."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore Australian law , legal research, advocacy, constitutional principles, commercial rules, criminal justice, and international legal frameworks when studying law in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Laws, Juris Doctor, Master of Laws, and specialized programs in commercial law, international law, and legal studies are just a few of the courses available in Australian universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Your academic background and job objectives will determine which course is best for you. Students who wish to practice law in Australia must fulfill the necessary professional entry requirements and select a suitable qualifying law track."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important Highlights"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Learn about judicial decision-making and legal ideas.",
+            "Recognize laws, rules, and legal organizations",
+            "Develop your analytical and legal research abilities.",
+            "Learn about criminal law, contracts, and constitutional law.",
+            "Develop your ability to argue and communicate in writing.",
+            "Examine corporate, business, and international law.",
+            "Develop your ability to negotiate and resolve conflicts.",
+            "Examine professions in business, policy, compliance, and law."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Law in Australia?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Legal theory, research, case analysis, and hands-on learning are all combined in Australian law curricula . Additionally, students may have access to industry engagement opportunities, legal clinics, internships, and mooting competitions, depending on the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal Advantages"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Gain a thorough understanding of legal systems",
+            "Boost organized reasoning and critical thinking",
+            "Understand how to interpret laws and court rulings.",
+            "Develop your professional writing and legal research abilities.",
+            "Examine business, international, and corporate legal concerns.",
+            "When practical projects are accessible, gain experience through them.",
+            "Develop your advocacy and negotiating abilities.",
+            "Examine additional coursework and specialized legal employment options."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who like reading, research, writing, logical analysis, debate, and comprehending how institutions and laws impact society can benefit from studying law."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "University of Adelaide",
+          "location": "Adelaide, South Australia",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/law_Adelaide_University-image1.png",
+          "desc": ""
+        },
+        {
+          "name": "Griffith University",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/law_Griffith_College-image3.png",
+          "desc": ""
+        },
+        {
+          "name": "La Trobe University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/law_University_of_La_Trobe-image2.png",
+          "desc": ""
+        },
+        {
+          "name": "University of Wollongong",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/law_Wollongong_University-image4.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Australia's Most Popular Law Courses",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree in Law"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Laws is an undergraduate legal degree that is frequently called the LLB. . Legal research, court systems, legislation, and fundamental legal concepts are all introduced to pupils."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The degree may be offered as a stand-alone credential or as a component of a combined degree, depending on the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor of Laws with Honors"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Laws (Honours), which may contain advanced coursework or research components in addition to fundamental legal courses, is offered by certain Australian universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university and its authorized course arrangements determine the precise format, length, and professional recognition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Combined Bachelor of Laws Degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "With a combined law degree, students can study law in addition to another subject, like:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor of Arts and Bachelor of Laws",
+            "Bachelor of Commerce and Bachelor of Laws",
+            "Bachelor of Business and Bachelor of Laws",
+            "Bachelor of International Relations and Bachelor of Laws",
+            "Bachelor of Science and Bachelor of Laws"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Although combined degrees may necessitate lengthier study times than a single degree, they might offer more comprehensive academic understanding."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Law"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A postgraduate degree called the Master of Laws (LLM) enables qualified law graduates to specialize in fields including corporate law, international law, taxation, or human rights."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For candidates who have not yet fulfilled the relevant academic requirements for legal admission, an LLM is often not a replacement for an initial qualifying law degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's Program in International Law"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The legal concerns pertaining to nations, international organizations, treaties, human rights, international trade, and global governance are the main focus of this qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's Program in Business law"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "This course examines business-related legal matters, including contracts, corporate governance, business transactions, and regulatory compliance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate Diploma or Graduate Certificate in Law"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These credentials offer concentrated study in particular legal topics. They might be appropriate for professional growth, but students need to make sure the course satisfies any particular legal entrance requirements that are pertinent to their objectives."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Popular Specializations in Law",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students may investigate the following topics, depending on the course and university:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Commercial and Corporate Law",
+            "Criminal Law",
+            "Constitutional Law",
+            "International Law",
+            "Human Rights Law",
+            "Business Law",
+            "Contractual Law",
+            "Family Law",
+            "Workplace and Employment Law",
+            "Law Concerning Intellectual Property",
+            "Environmental Law",
+            "Tax Law",
+            "Finance and Banking Law",
+            "Consumer Law and Competition",
+            "Real Estate and Property Law",
+            "Law of Administration",
+            "Law Concerning Immigration",
+            "Arbitration and Dispute Resolution",
+            "Privacy Law and Technology",
+            "Data Protection and Cybersecurity Law"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While some disciplines are available as electives or specialized postgraduate programs , others are part of the core curriculum."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Students from India",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The course level, university, academic background, and intended qualification all influence the prerequisites for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility for Undergraduate Law"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In general, applicants for undergraduate law degrees may require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "completing Class 12 successfully from an accredited Indian board",
+            "Academic performance that satisfies the prerequisites for admission to the university",
+            "Evidence of English language competency, if necessary",
+            "Any further criteria for selection that the institution specifies",
+            "A valid passport and the necessary paperwork"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There isn't a set Class 12 percentage criterion that all Australian universities must meet. Strong academic performance may be necessary for competitive programs, and entry requirements vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the requirements set by the university, students from various academic paths could be qualified."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Qualifications for Master of Laws"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Generally speaking, candidates must have a recognized law degree or equivalent credential that the university will accept. Additional prerequisites pertaining to prior coursework or work experience may apply to some specialized programs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Strong reading, writing, communication, and English comprehension skills are necessary for law programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In most cases, foreign applicants must pass an approved exam or receive an exemption in order to meet the university's English language requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic IELTS",
+            "iBT for the TOEFL",
+            "Academic PTE",
+            "Additional exams that the university accepts"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Exams for Admission and Selection Requirements",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Every Australian law program has a different admission exam."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic performance, English proficiency, and other selection factors may be used to evaluate applicants, depending on the institution and qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible prerequisites consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic performance in class 12 for admission to undergraduate programs",
+            "Results for postgraduate-entry law courses for bachelor's degrees",
+            "Results of English language tests, when needed",
+            "If asked, a personal statement",
+            "Extra admissions evaluations, if appropriate",
+            "Certificates and academic transcripts",
+            "Additional documentation that the institution requires"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There may be competitive entry requirements or particular selection processes for some legal programs. Before applying, students should review the current course page."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Duration of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The duration of a law course varies depending on the university and degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor of Laws : Depending on the school and course design, this degree typically requires four years of full-time study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Combined Law Degree : Depending on the combination, it often takes five years or more."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After earning an undergraduate degree, a Juris Doctor typically requires three years of full-time study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Laws : Typically requires a year of full-time study, while some programs require more time."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate Certificate or Graduate Diploma: The length of time varies according to the course and amount of study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Rather than being universal durations, these are common planning ranges. The overall duration may vary according to specific course formats, credit exemptions, and part-time study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10 . Living Expenses and Tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university, degree, length of the course, location, and way of life all affect how much it costs to study law in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal costs consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of tuition",
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Health Coverage for International Students",
+            "Books and resources for legal education",
+            "A laptop and additional study tools",
+            "The cost of applying for a visa",
+            "Emergency and personal costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There are significant differences in law tuition costs between colleges and degree programs. The cost structures for a Master of Laws, an undergraduate LLB, and a Juris Doctor may differ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should determine the approximate cost of tuition for the full course by consulting the official university website for the most recent international student fee schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The city, housing arrangement, transportation requirements, and individual expenditure will all affect living expenses. The current financial-capacity requirements of the Australian government should be reviewed by students planning an application for a student visa."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students who meet the requirements may be able to apply for financial aid or scholarships at Australian universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible choices consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Merit grants for international students",
+            "Awards for academic excellence",
+            "Scholarships specific to faculty",
+            "Scholarships for law school",
+            "Tuition cost reductions related to a course",
+            "Scholarships from outside sources for qualified candidates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Institutions differ in terms of scholarship availability, grant value, eligibility, and renewal requirements. While some prizes are evaluated automatically, others demand for a special application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should verify whether the scholarship covers a portion of their tuition or other costs, as well as whether it is applicable to their particular law degree and intake."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Opportunities for Careers After Law School",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Careers in legal practice and other fields where legal knowledge, research, compliance, and policy skills are valuable can be supported by a law degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible job paths consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "After fulfilling the necessary prerequisites for admission and practice, a lawyer",
+            "Barrister, subject to applicable professional and admissions criteria",
+            "Assistant for Legal Research",
+            "Paralegal",
+            "Officer of Legal Administration",
+            "Analyst for Compliance",
+            "Officer of Contract Management",
+            "Assistant for Corporate Governance",
+            "Officer of Policy Research",
+            "Coordinator of Legal Operations",
+            "Officer of Risk and Regulatory Compliance",
+            "Professional in Mediation or Dispute Resolution Assistance",
+            "Internal Legal Team Assistance",
+            "Academic or researcher in law, with other credentials as needed",
+            "Certain positions require professional admission, registration, practicing privileges, or other credentials, especially those providing legal advice or representation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sectors to explore"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Law firms",
+            "Departments of corporate law",
+            "Financial services and banking",
+            "Public administration and government",
+            "Organizations that oversee regulations and compliance",
+            "Insurance",
+            "Advising",
+            "Technology that is legal",
+            "Non-governmental organizations",
+            "International organizations",
+            "Legal research and education"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subject to the professional recognition regulations of the jurisdiction in which they plan to work, graduates can also investigate legal positions in India or other nations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Admission Procedure",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Determine Your Career Objective",
+          "desc": "Choose if you wish to study law for a non-practicing job, specialize after an existing legal degree, pursue a postgraduate-entry law qualification, or continue your education after Class 12."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Choose the Correct Qualification",
+          "desc": "Compare the Juris Doctor, Master of Laws, LLB, combined law degrees, and similar credentials."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Make a shortlist of colleges",
+          "desc": "Examine the curriculum, cost of tuition, length of courses, campus, specializations, and professional recognition."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Verify Your Eligibility",
+          "desc": "Examine the English language proficiency requirements, academic admission requirements, and any other selection criteria."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Get Your Documents Ready",
+          "desc": "Gather academic credentials, transcripts, passport information, English language proficiency scores, and any other paperwork the university requests."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Send in Your Application",
+          "desc": "Apply via an approved method or the university's official application webpage."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Examine the Offer",
+          "desc": "Verify the requirements for enrollment, tuition costs, deadlines for payments, and admittance conditions."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Fulfill Enrollment Conditions",
+          "desc": "Accept the offer and finish the necessary paperwork and payment processes."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "If necessary, apply for a student visa",
+          "desc": "Prepare your supporting documentation and adhere to the current Australian government visa application procedure."
+        },
+        {
+          "t": "step",
+          "step": 10,
+          "title": "Make a Study and Career Plan",
+          "desc": "Verify that the course you have selected satisfies the academic standards specific to the state or territory where you plan to apply for admission if your objective is to practice law."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Needed",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Candidates may require the following, depending on the institution and qualification:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Certificates in Classes 10 and 12 for undergraduate candidates",
+            "Certificate of bachelor's degree for postgraduate applications",
+            "Transcripts of academic work",
+            "Results of any necessary English language tests",
+            "When required, a personal statement or a statement of purpose",
+            "Curriculum vitae or resume, if appropriate",
+            "Evidence of employment or professional experience, if necessary",
+            "Financial records in order to obtain a visa",
+            "Verification of Enrollment, if necessary for a student visa",
+            "Evidence of overseas student health coverage"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional records that the university or pertinent authorities have sought"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Institutions and courses have different requirements. Candidates should adhere to the official checklist and turn in correct documentation by the deadlines."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Student Visa for Australia",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In general, Indian students must fulfill the conditions for the Australian student visa (subclass 500) in order to enrolll in an authorized course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the situation, requirements could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Enrollment records",
+            "Proof that satisfies the Genuine Student criterion",
+            "Evidence of financial capacity",
+            "Evidence in English, if applicable",
+            "Health Coverage for International Students",
+            "Requirements for character and health",
+            "Identity records and corroborating information"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documentation requirements, processing periods, and visa fees are subject to change. Before applying, students should visit the official website of the Australian Department of Home Affairs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Acceptance into a university does not ensure that a visa will be granted. Additionally, a student visa by itself does not grant permission to practice law."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "assistance",
+      "eyebrow": "Edu Hawk Support",
+      "title": "How Edu Hawk Worldwide Consultancy Can Assist",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk provides individualized course shortlisting and admission assistance to Indian students who are considering studying abroad."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our assistance may consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Examining educational background and professional objectives",
+            "Making a list of appropriate law and legal studies programs",
+            "Comparing tuition costs, course lengths, and universities",
+            "Assisting students in comprehending the conditions for admission",
+            "Describe how the LLB, JD, and LLM routes differ from one another.",
+            "Assisting students with the application materials",
+            "Assisting candidates in comprehending the terms of the offer",
+            "Giving general advice on pre-departure preparation and visa paperwork"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before selecting a university or degree, students who want to practice law should look into professional recognition and admission standards."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "University of Adelaide",
+      "location": "Adelaide, South Australia",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/law_Adelaide_University-image1.png",
+      "desc": ""
     },
     {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "Griffith University",
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/law_Griffith_College-image3.png",
+      "desc": ""
     },
     {
-      "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "La Trobe University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/law_University_of_La_Trobe-image2.png",
+      "desc": ""
     },
     {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "University of Wollongong",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/law_Wollongong_University-image4.png",
+      "desc": ""
     }
   ],
   "faq": [
@@ -73,7 +926,7 @@
     },
     {
       "question": "How much time does it take to study law in Australia?",
-      "answer": "Following an undergraduate degree, an LLB typically takes four years, a JD often takes three years, and an LLM typically takes one year. The length varies depending on the course structure and the school."
+      "answer": "Following an undergraduate degree , an LLB typically takes four years, a JD often takes three years, and an LLM typically takes one year. The length varies depending on the course structure and the school."
     },
     {
       "question": "Is the IELTS necessary to practice law in Australia?",
@@ -85,7 +938,33 @@
     },
     {
       "question": "After studying law, what professional opportunities are there?",
-      "answer": "Legal practice upon admission, paralegal work, legal research, corporate governance, policy, contract management, compliance, and other law-related positions are possible options."
+      "answer": "Legal practice upon admission, paralegal work, legal research, corporate governance, policy, contract management, compliance, and other law-related positions are possible options. Keywords - Study Law in Australia for Indian Students Law Courses in Australia for Indian Students Best Universities to Study Law in Australia Bachelor of Laws (LLB) in Australia for Indian Students Master of Laws (LLM) in Australia for Indian Students Study Law in Australia After 12th Study Law in Australia After LLB in India Cost of Studying Law in Australia for Indian Students Law Scholarships in Australia for International Students Admission Requirements for Law Courses in Australia"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to study law in Australia?",
+      "a": "Yes. Subject to the academic, English language, and other requirements of the selected university, eligible Indian students may apply to undergraduate or graduate law studies."
+    },
+    {
+      "q": "What distinguishes a Juris Doctor from an LLB?",
+      "a": "Generally speaking, an LLB is a law degree for undergraduates. After earning a bachelor's degree, students typically pursue a Juris Doctor, a postgraduate-entry legal degree."
+    },
+    {
+      "q": "How much time does it take to study law in Australia?",
+      "a": "Following an undergraduate degree , an LLB typically takes four years, a JD often takes three years, and an LLM typically takes one year. The length varies depending on the course structure and the school."
+    },
+    {
+      "q": "Is the IELTS necessary to practice law in Australia?",
+      "a": "In most cases, international students must fulfill the English language requirements of the university. Relatively high scores may be required for law programs, especially in speech and writing."
+    },
+    {
+      "q": "Is it possible for an Indian lawyer to practice in Australia?",
+      "a": "Perhaps, however, the appropriate Australian admitting authorities must evaluate the graduate's credentials. There may be further courses, hands-on training, or other prerequisites."
+    },
+    {
+      "q": "After studying law, what professional opportunities are there?",
+      "a": "Legal practice upon admission, paralegal work, legal research, corporate governance, policy, contract management, compliance, and other law-related positions are possible options. Keywords - Study Law in Australia for Indian Students Law Courses in Australia for Indian Students Best Universities to Study Law in Australia Bachelor of Laws (LLB) in Australia for Indian Students Master of Laws (LLM) in Australia for Indian Students Study Law in Australia After 12th Study Law in Australia After LLB in India Cost of Studying Law in Australia for Indian Students Law Scholarships in Australia for International Students Admission Requirements for Law Courses in Australia"
     }
   ]
 }

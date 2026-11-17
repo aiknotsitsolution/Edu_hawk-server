@@ -1,3 +1,4 @@
+import chemicalEngineeringPGData from "../../../../../../data/study_abroad/usa/chem_engg_pg.json";
 import React from "react";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_PG/chemical-engineering.webp";
@@ -232,21 +233,33 @@ const faqTitle = `Frequently Asked Questions — ${branch.name} in the USA`;
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content strings above are unchanged.
-const PostgraduateChemicalEngineering = () => (
-  <EngineeringBranchPage
-    branch={branch}
-    level="PG"
-    heroImg={heroImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/pg/chemical-engineering"
-    heroAlt={heroAlt}
-    coursesTitle={coursesTitle}
-    unisTitle={unisTitle}
-    testsEyebrow="Standardised tests"
-    testsTitle="GRE & Other Admission Tests"
-    careersTitle={careersTitle}
-    faqTitle={faqTitle}
-  />
-);
+const PostgraduateChemicalEngineering = () => {
+  const dynamicBranch = {
+    ...branch,
+    title: chemicalEngineeringPGData?.seo?.title || branch.title,
+    description: chemicalEngineeringPGData?.seo?.description || branch.description,
+    heroSub: chemicalEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    faqs: (chemicalEngineeringPGData?.faq && chemicalEngineeringPGData.faq.length > 0)
+      ? chemicalEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : branch.faqs,
+  };
+
+  return (
+    <EngineeringBranchPage
+      branch={dynamicBranch}
+      level="PG"
+      heroImg={heroImg}
+      imgDims={imgDims}
+      seoPath="/study-abroad/usa/pg/chemical-engineering"
+      heroAlt={heroAlt}
+      coursesTitle={coursesTitle}
+      unisTitle={unisTitle}
+      testsEyebrow="Standardised tests"
+      testsTitle="GRE & Other Admission Requirements"
+      careersTitle={careersTitle}
+      faqTitle={faqTitle}
+    />
+  );
+};
 
 export default PostgraduateChemicalEngineering;

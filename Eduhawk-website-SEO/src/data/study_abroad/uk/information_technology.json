@@ -1,29 +1,54 @@
 {
-  "seo": {
-    "title": "Study Information Technology in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Information Technology in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Information Technology (IT) in the UK",
     "subtitle": "International students studying Information Technology (IT) frequently choose to study in the United Kingdom. To prepare students for professions in the global digital economyUK institutions offer programs that integrate technical knowledge, hands-on learning, and industry-relevant skills."
   },
   "overview": [
     "International students studying Information Technology (IT) frequently choose to study in the United Kingdom. To prepare students for professions in the global digital economyUK institutions offer programs that integrate technical knowledge, hands-on learning, and industry-relevant skills.",
     "The use, administration, development, and security of computer systems, networks, databases, cloud platforms and digital infrastructure are the main topics of information technology.",
-    "The main advantages of studying IT in the UK"
+    "Edu Hawk worldwide consultancy helps students prepare for their foreign education adventure, understand university admission requirements, and investigate international study possibilities with the right preparation and direction."
+  ],
+  "universities": [
+    {
+      "name": "Birmingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_information_technology_Birmingham_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_information_technology_Birmingham_University-image2.png",
+      "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Glasgow University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_information_technology_Glasgow_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_information_technology_Glasgow_University-image1.png",
+      "desc": "Glasgow University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Manchester University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_information_technology_Manchester_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_information_technology_Manchester_University-image4.png",
+      "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Nottingham University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_information_technology_Nottingham_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_information_technology_Nottingham_University-image3.png",
+      "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Information Technology in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "International students studying Information Technology (IT) frequently choose to study in the United Kingdom. To prepare students for professions in the global digital economyUK institutions offer programs that integrate technical knowledge, hands-on learning, and industry-relevant skills.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "International students studying Information Technology (IT) frequently choose to study in the United Kingdom. To prepare students for professions in the global digital economyUK institutions offer programs that integrate technical knowledge, hands-on learning, and industry-relevant skills."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -31,10 +56,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "The main advantages of studying IT in the UK"
-          ]
+          "t": "h4",
+          "text": "The main advantages of studying IT in the UK"
         },
         {
           "t": "ul",
@@ -58,15 +81,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Courses in Information Technology in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "Undergraduate, graduate, and research programs in information technology are available at UK universities. Related degrees may be offered under Computing, Information Systems, Information Technology Management or Digital Technology. Course titles differ.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Undergraduate, graduate, and research programs in information technology are available at UK universities. Related degrees may be offered under Computing, Information Systems, Information Technology Management or Digital Technology. Course titles differ."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -171,51 +190,55 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The UK's Top Universities for Information Technology",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Universities in the UK provide education and research connected to information technology through programs in computing, information systems, cybersecurity, networks, and digital technology.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Birmingham University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Birmingham_University_webp"
-            },
-            {
-              "name": "Glasgow University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Glasgow_University_webp"
-            },
-            {
-              "name": "Manchester University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Manchester_University_webp"
-            },
-            {
-              "name": "Nottingham University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Nottingham_University_webp"
-            }
-          ]
+          "name": "Birmingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_information_technology_Birmingham_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_information_technology_Birmingham_University-image2.png",
+          "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Glasgow University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_information_technology_Glasgow_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_information_technology_Glasgow_University-image1.png",
+          "desc": "Glasgow University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Manchester University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_information_technology_Manchester_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_information_technology_Manchester_University-image4.png",
+          "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Nottingham University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_information_technology_Nottingham_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_information_technology_Nottingham_University-image3.png",
+          "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Information Technology Studies in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "The requirements for eligibility vary according to the chosen specialization, university, and level of study.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The requirements for eligibility vary according to the chosen specialization, university, and level of study."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Eligibility for Undergraduates"
-          ]
+          "t": "h4",
+          "text": "Eligibility for Undergraduates"
         },
         {
           "t": "ul",
@@ -259,35 +282,48 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Information Technology Admission Requirements in the United Kingdom",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Depending on the university and whether the student is applying for an undergraduate, graduate, or research program, different admission requirements apply.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on the university and whether the student is applying for an undergraduate, graduate, or research program, different admission requirements apply."
-          ]
-        },
         {
           "t": "ul",
           "items": [
             "Academic background",
             "Academic grades often range from 55% to 65%, depending on the university and course.",
-            "Depending on the curriculum and technological specialization, mathematics or computers may be required or preferred for some courses.",
-            "Proficiency in English | IELTS or approved substitute, if necessary",
+            "Depending on the curriculum and technological specialization, mathematics or computers may be required or preferred for some courses."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Proficiency in English",
+              "d": "IELTS or approved substitute, if necessary"
+            },
+            {
+              "t": "Academic references",
+              "d": "May be necessary"
+            },
+            {
+              "t": "Portfolio or technical projects",
+              "d": "Beneficial for certain programs"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
             "Personal statement or mission statement",
-            "Academic references | May be necessary",
             "Work experience or CV",
-            "Portfolio or technical projects | Beneficial for certain programs",
             "Required by some colleges",
             "Research proposals are typically not necessary, but they could be for research degrees."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -298,27 +334,18 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying information technology in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The degree level, university, city, length of program, and lifestyle all affect how much studying Information Technology will cost overall.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition",
+      "lead": "The general planning estimates for international students are as follows.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The degree level, university, city, length of program, and lifestyle all affect how much studying Information Technology will cost overall."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The general planning estimates for international students are as follows."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -326,10 +353,29 @@
           ]
         },
         {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Information Technology Undergraduate",
+              "d": "£15,000–£30,000+"
+            },
+            {
+              "t": "Information Technology Postgraduate",
+              "d": "£18,000–£35,000+"
+            },
+            {
+              "t": "Books and study guides",
+              "d": "£300–£800"
+            },
+            {
+              "t": "Individual costs",
+              "d": "£1,000–£2,400"
+            }
+          ]
+        },
+        {
           "t": "ul",
           "items": [
-            "Information Technology Undergraduate | £15,000–£30,000+",
-            "Information Technology Postgraduate | £18,000–£35,000+",
             "Research degrees vary depending on the subject, university, and funding source."
           ]
         },
@@ -345,16 +391,12 @@
             "Accommodations: £6,000 to £12,000",
             "Food and groceries: £2,000–£3,600",
             "Local transportation costs between £600 and £1,500.",
-            "Books and study guides | £300–£800",
-            "Individual costs | £1,000–£2,400",
             "The estimated overall cost of living is between £9,900 and £20,300."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Information Technology Scholarships"
-          ]
+          "t": "h4",
+          "text": "Information Technology Scholarships"
         },
         {
           "t": "p",
@@ -376,115 +418,101 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Admission Procedure for Information Technology",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Whether you are applying for a research, postgraduate, or undergraduate degree will determine the application procedure.",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure for Undergraduates",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Whether you are applying for a research, postgraduate, or undergraduate degree will determine the application procedure."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Admission Procedure for Undergraduates"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Look Up Courses and Universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make a shortlist of colleges that offer degrees in Digital Technology or Information Technology, Information Systems, Cybersecurity, Computer Networks."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Verify Your Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the prerequisites for Class 12 subjects, academic grades, recognized Indian credentials, and English language proficiency."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Get the application materials ready."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather your personal statement, reference, academic records, and any English-language test results that may be needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Use UCAS to Apply"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Subject to the applicable application regulations, the majority of undergraduate applications to UK universities are sent through the Universities and Colleges Admissions Service (UCAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Accept Offers"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After reviewing your application, universities may make unconditional or conditional offers. fulfill any requirements for documentation or academics."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Make Accommodation and Funding Arrangements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for living costs, housing, tuition, and any scholarship money."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Submit a Student Visa Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Apply for a Student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Go to the United Kingdom"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Attend orientation, finish your university registration, and start your program."
+            {
+              "step": 1,
+              "title": "Look Up Courses and Universities",
+              "desc": "Make a shortlist of colleges that offer degrees in Digital Technology or Information Technology, Information Systems, Cybersecurity, Computer Networks."
+            },
+            {
+              "step": 2,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine the prerequisites for Class 12 subjects, academic grades, recognized Indian credentials, and English language proficiency."
+            },
+            {
+              "step": 3,
+              "title": "Get the application materials ready.",
+              "desc": "Gather your personal statement, reference, academic records, and any English-language test results that may be needed."
+            },
+            {
+              "step": 4,
+              "title": "Use UCAS to Apply",
+              "desc": "Subject to the applicable application regulations, the majority of undergraduate applications to UK universities are sent through the Universities and Colleges Admissions Service (UCAS)."
+            },
+            {
+              "step": 5,
+              "title": "Accept Offers",
+              "desc": "After reviewing your application, universities may make unconditional or conditional offers. fulfill any requirements for documentation or academics."
+            },
+            {
+              "step": 6,
+              "title": "Make Accommodation and Funding Arrangements",
+              "desc": "Make plans for living costs, housing, tuition, and any scholarship money."
+            },
+            {
+              "step": 7,
+              "title": "Submit a Student Visa Application",
+              "desc": "Apply for a Student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
+            },
+            {
+              "step": 8,
+              "title": "Go to the United Kingdom",
+              "desc": "Attend orientation, finish your university registration, and start your program."
+            },
+            {
+              "step": 1,
+              "title": "Selecting a Specialization",
+              "desc": "Choose Cloud Computing, Cybersecurity, IT Management, Information Technology, Information Systems, or another appropriate curriculum."
+            },
+            {
+              "step": 2,
+              "title": "Verify Academic Requirements",
+              "desc": "Verify that the university's prerequisites are met by your bachelor's degree, academic standing, and pertinent technical or business knowledge."
+            },
+            {
+              "step": 3,
+              "title": "Get Your Documents Ready",
+              "desc": "Gather academic transcripts, degree certificates, passports, resumes, references, statements of purpose, and, if needed, English-language test results."
+            },
+            {
+              "step": 4,
+              "title": "Apply online.",
+              "desc": "The official application platform of the institution is used to submit the majority of postgraduate taught applications."
+            },
+            {
+              "step": 5,
+              "title": "Get an Offer and Accept It",
+              "desc": "Before accepting your offer, go over any terms, deadlines, and deposit requirements."
+            },
+            {
+              "step": 6,
+              "title": "Make Accommodation and Funding Arrangements",
+              "desc": "Make plans for living expenses, tuition, and the financial documentation needed for your visa application."
+            },
+            {
+              "step": 7,
+              "title": "Submit a Student Visa Application",
+              "desc": "To finish your application, refer to your CAS and official UK government guidelines."
+            },
+            {
+              "step": 8,
+              "title": "Start Your Program",
+              "desc": "Arrive in the UK, finish your enrollment, and begin your studies."
+            }
           ]
         },
         {
@@ -492,115 +520,15 @@
           "items": [
             "The Process of Postgraduate Admission"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Selecting a Specialization"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose Cloud Computing, Cybersecurity, IT Management, Information Technology, Information Systems, or another appropriate curriculum."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Verify Academic Requirements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify that the university's prerequisites are met by your bachelor's degree, academic standing, and pertinent technical or business knowledge."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Get Your Documents Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather academic transcripts, degree certificates, passports, resumes, references, statements of purpose, and, if needed, English-language test results."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4 : Apply online."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The official application platform of the institution is used to submit the majority of postgraduate taught applications."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Get an Offer and Accept It"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Before accepting your offer, go over any terms, deadlines, and deposit requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Make Accommodation and Funding Arrangements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for living expenses, tuition, and the financial documentation needed for your visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Submit a Student Visa Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "To finish your application, refer to your CAS and official UK government guidelines."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Start Your Program"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Arrive in the UK, finish your enrollment, and begin your studies."
-          ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Professional recognition and accreditation for information technology",
-      "eyebrow": "Course Guide",
+      "lead": "Career advancement in IT infrastructure, information systems, technology management, cybersecurity and related digital sectors might be aided by professional recognition.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Career advancement in IT infrastructure, information systems, technology management, cybersecurity and related digital sectors might be aided by professional recognition."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -626,10 +554,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Possible routes consist of:"
-          ]
+          "t": "h4",
+          "text": "Possible routes consist of:"
         },
         {
           "t": "ul",
@@ -657,8 +583,10 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for UK Graduates in Information Technology",
-      "eyebrow": "Career & Prospects",
+      "lead": "",
       "groups": [
         {
           "t": "ul",
@@ -689,11 +617,28 @@
             "An analyst of business intelligence",
             "IT Consultant",
             "Engineer for Cloud Operations",
-            "The position is IT Security Engineer",
-            "IT Professional or Graduate | £24,000–£32,000",
-            "Professional with two to five years of experience | £32,000 to £48,000",
-            "Skilled IT Expert | £40,000–£65,000",
-            "IT manager or senior specialist | £55,000–£85,000+"
+            "The position is IT Security Engineer"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "IT Professional or Graduate",
+              "d": "£24,000–£32,000"
+            },
+            {
+              "t": "Professional with two to five years of experience",
+              "d": "£32,000 to £48,000"
+            },
+            {
+              "t": "Skilled IT Expert",
+              "d": "£40,000–£65,000"
+            },
+            {
+              "t": "IT manager or senior specialist",
+              "d": "£55,000–£85,000+"
+            }
           ]
         },
         {
@@ -728,15 +673,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed",
-      "eyebrow": "Course Guide",
+      "lead": "The documents needed vary depending on the applicant's circumstances, university and level of study.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The documents needed vary depending on the applicant's circumstances, university and level of study."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -773,10 +714,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Applications"
-          ]
+          "t": "h4",
+          "text": "Documents for Applications"
         },
         {
           "t": "ul",
@@ -794,10 +733,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents related to finances and visas"
-          ]
+          "t": "h4",
+          "text": "Documents related to finances and visas"
         },
         {
           "t": "ul",
@@ -811,154 +748,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "Frequently Asked Questions in the UK Regarding Information Technology",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "1. How long does it take to finish a degree in information technology in the United Kingdom?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In England, Wales, and Northern Ireland, undergraduate degrees typically take three years, while programs that include a placement year may require four. Many honors bachelor's degrees in Scotland require four years to complete. Master's degrees that are taught full-time typically take a year."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "2. After Class 12, are Indian students able to pursue information technology studies in the UK?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Yes . After Class 12, Indian students who fulfill the academic, subject, and English language requirements of the university can apply for undergraduate IT programs. A foundation program or another recognized qualification may be required by some universities."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Is it possible for non-IT students to apply to UK postgraduate IT courses?",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates from other fields are accepted by several universities, especially for digital transformation programs or IT management, information systems. Prior understanding of computers, arithmetic, or networking may be necessary for more technical courses. Candidates should review the precise prerequisites."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "How much does it cost to study information technology in the UK?",
-      "eyebrow": "Tuition & Living",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The annual cost of international undergraduate tuition might be anywhere from £15,000 to £30,000 or more, while postgraduate tuition can be anywhere from £18,000 to £35,000 or more. Living costs are extra and differ depending on the city and way of living."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "What kinds of jobs are accessible in the UK after studying information technology?",
-      "eyebrow": "Course Guide",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "IT support specialists, systems administrators, network administrators, cloud engineers, cybersecurity analysts, database administrators, IT consultants, and IT service managers are among the professions that graduates can pursue. Technical expertise, credentials, experience, and employer demands all influence opportunities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students may choose appropriate colleges, comprehend entrance standards, organize application materials, and arrange their study abroad experience with the assistance of Edu Hawk worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
+  "faqs": [
     {
-      "name": "Birmingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Birmingham_University.webp"
+      "q": "How long does it take to finish a degree in information technology in the United Kingdom?",
+      "a": "In England, Wales, and Northern Ireland, undergraduate degrees typically take three years, while programs that include a placement year may require four. Many honors bachelor's degrees in Scotland require four years to complete. Master's degrees that are taught full-time typically take a year."
     },
     {
-      "name": "Glasgow University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Glasgow_University.webp"
+      "q": "After Class 12, are Indian students able to pursue information technology studies in the UK?",
+      "a": "Yes . After Class 12, Indian students who fulfill the academic, subject, and English language requirements of the university can apply for undergraduate IT programs. A foundation program or another recognized qualification may be required by some universities."
     },
     {
-      "name": "Manchester University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Manchester_University.webp"
+      "q": "Is it possible for non-IT students to apply to UK postgraduate IT courses?",
+      "a": "Graduates from other fields are accepted by several universities, especially for digital transformation programs or IT management, information systems. Prior understanding of computers, arithmetic, or networking may be necessary for more technical courses. Candidates should review the precise prerequisites."
     },
     {
-      "name": "Nottingham University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Nottingham_University.webp"
+      "q": "How much does it cost to study information technology in the UK?",
+      "a": "The annual cost of international undergraduate tuition might be anywhere from £15,000 to £30,000 or more, while postgraduate tuition can be anywhere from £18,000 to £35,000 or more. Living costs are extra and differ depending on the city and way of living."
+    },
+    {
+      "q": "What kinds of jobs are accessible in the UK after studying information technology?",
+      "a": "IT support specialists, systems administrators, network administrators, cloud engineers, cybersecurity analysts, database administrators, IT consultants, and IT service managers are among the professions that graduates can pursue. Technical expertise, credentials, experience, and employer demands all influence opportunities."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may choose appropriate colleges, comprehend entrance standards, organize application materials, and arrange their study abroad experience with the assistance of Edu Hawk worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
   ],
-  "table": {
-    "title": "Estimated Cost of Studying Information Technology in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
-  "faqs": []
+  "seo": {
+    "title": "Study Information Technology (IT) in the UK | Edu-Hawk Worldwide",
+    "description": "International students studying Information Technology (IT) frequently choose to study in the United Kingdom. To prepare students for professions in the global ",
+    "keywords": "Study Information Technology in the UK for Indian Students, Best Universities for Information Technology in the UK, Undergraduate and Postgraduate IT Courses in the UK, Information Technology Eligibility in the UK for Indian Students, Information Technology Admission Requirements in the UK, Information Technology Tuition Fees in the UK for International Students, Information Technology Scholarships in the UK for Indian Students, BSc Information Technology in the UK, MSc Information Technology in the UK, IELTS Requirements for Information Technology in the UK, Information Technology Admission Process in the UK, Documents Required to Study Information Technology in the UK"
+  }
 }

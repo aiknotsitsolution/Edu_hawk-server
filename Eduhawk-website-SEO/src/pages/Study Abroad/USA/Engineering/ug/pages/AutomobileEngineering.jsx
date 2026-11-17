@@ -1,3 +1,4 @@
+import automobileEngineeringUGData from "../../../../../../data/study_abroad/usa/auto_engg_ug.json";
 import React from "react";
 import { EngineeringBranchPage } from "../../../../../../component/CoursePageKit";
 import heroImg from "../../../../../../Images/Abroad/USA/Engineering_UG/automobile-engineering.webp";
@@ -223,21 +224,33 @@ const faqTitle = `Frequently Asked Questions — ${branch.name} in the USA`;
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content strings above are unchanged.
-const AutomobileEngineeringUG = () => (
-  <EngineeringBranchPage
-    branch={branch}
-    level="UG"
-    heroImg={heroImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/usa/ug/automobile-engineering"
-    heroAlt={heroAlt}
-    coursesTitle={coursesTitle}
-    unisTitle={unisTitle}
-    testsEyebrow="Standardised tests"
-    testsTitle="SAT & Other Admission Tests"
-    careersTitle={careersTitle}
-    faqTitle={faqTitle}
-  />
-);
+const AutomobileEngineeringUG = () => {
+  const dynamicBranch = {
+    ...branch,
+    title: automobileEngineeringUGData?.seo?.title || branch.title,
+    description: automobileEngineeringUGData?.seo?.description || branch.description,
+    heroSub: automobileEngineeringUGData?.hero?.subtitle || branch.heroSub,
+    faqs: (automobileEngineeringUGData?.faq && automobileEngineeringUGData.faq.length > 0)
+      ? automobileEngineeringUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : branch.faqs,
+  };
+
+  return (
+    <EngineeringBranchPage
+      branch={dynamicBranch}
+      level="UG"
+      heroImg={heroImg}
+      imgDims={imgDims}
+      seoPath="/study-abroad/usa/ug/automobile-engineering"
+      heroAlt={heroAlt}
+      coursesTitle={coursesTitle}
+      unisTitle={unisTitle}
+      testsEyebrow="Standardised tests"
+      testsTitle="SAT & Other Admission Tests"
+      careersTitle={careersTitle}
+      faqTitle={faqTitle}
+    />
+  );
+};
 
 export default AutomobileEngineeringUG;

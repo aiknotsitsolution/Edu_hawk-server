@@ -5,10 +5,10 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Australian undergraduate communication and electronics engineering programs.",
-    "subtitle": "Electronics and communication engineering drives modern telecommunications, microelectronics, wireless networks, satellite communications, and Internet of Things (IoT) technologies.",
+    "title": "Australian undergraduates in communication and electronics engineering.",
+    "subtitle": "Electronic circuits, communication networks, signal processing, embedded systems, and contemporary digital technologies are the main topics of study in the undergraduate engineering subject of electronics and communication engineering.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/ece_engg_ug_Queensland_University_of_Technology-image3.png"
   },
   "stats": [
     {
@@ -29,59 +29,619 @@
     }
   ],
   "highlights": {
-    "degree": "Bachelor of Engineering (Honours)",
+    "degree": "Bachelor of Engineering (Electronics & Comm)",
     "duration": "4 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Undergraduate programs focus on analog and digital circuits, microprocessors, signal processing, antenna design, optical communications, and next-generation mobile networks (5G/6G).",
+  "overview": [
+    "Electronic circuits, communication networks, signal processing, embedded systems, and contemporary digital technologies are the main topics of study in the undergraduate engineering subject of electronics and communication engineering.",
+    "Students gain knowledge about the workings of electronic devices, the transmission of information through communication systems, and the interplay between hardware and software in connected technologies. Telecommunications, wireless networks, semiconductor devices, robots, the Internet of Things (IoT), satellite communication, and electronic product creation are some of the industries that use this discipline.",
+    "Undergraduate engineering programs in Australia enable students to get practical laboratory skills, design experience, analytical thinking, and engineering basics.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities"
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Electronic circuits, communication networks, signal processing, embedded systems, and contemporary digital technologies are the main topics of study in the undergraduate engineering subject of electronics and communication engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students gain knowledge about the workings of electronic devices, the transmission of information through communication systems, and the interplay between hardware and software in connected technologies. Telecommunications, wireless networks, semiconductor devices, robots, the Internet of Things (IoT), satellite communication, and electronic product creation are some of the industries that use this discipline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate engineering programs in Australia enable students to get practical laboratory skills, design experience, analytical thinking, and engineering basics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Come to Australia to Study Communication and Electronics Engineering?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Study electronic systems, digital communication, signal processing, and contemporary engineering applications through technology-focused education."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Practical Learning: Gain expertise through engineering projects, technical assignments, simulations, circuit design, and laboratory experiments.",
+            "Exposure to Emerging Technologies: Learn about embedded systems, wireless communication, connected devices, and intelligent electronic items.",
+            "Interdisciplinary Learning: Recognize the connections between software, computer systems, electronics, and communication technologies.",
+            "International Learning Environment: Develop your problem-solving, collaboration, and communication abilities by working with students from a variety of backgrounds.",
+            "Broad Career Pathways: Depending on their qualifications and experience, graduates may look into employment in embedded systems, telecommunications, electronics, testing, automation, and technology development."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/ece_engg_ug_Queensland_University_of_Technology-image3.png",
+          "desc": "Electrical engineering and associated electronic systems courses are pertinent fields of study."
+        },
+        {
+          "name": "Curtin University",
+          "location": "Perth, Western Australia",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/ece_engg_ug_University_of_Curtin-image4.png",
+          "desc": ""
+        },
+        {
+          "name": "RMIT University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/ece_engg_ug_University_of_RMIT-image1.png",
+          "desc": ""
+        },
+        {
+          "name": "UNSW Sydney (The University of New South Wales)",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/ece_engg_ug_UNSW_Sydney-image2.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Undergraduate Courses",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Electronics and communication-related courses may be offered by Australian institutions under many degree titles. Students ought to look for courses like:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Electronics and communications engineering bachelor's degree with honors",
+            "Electrical and Electronic Engineering Bachelor of Engineering (Honors)",
+            "Telecommunications Engineering Bachelor of Engineering (Honors)",
+            "Electronic Engineering Bachelor of Engineering (Honors)",
+            "The Bachelor of Engineering (Honors) major is electrical engineering.",
+            "Computer and Electronic Systems major for a Bachelor of Engineering (Honors) degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Note : A degree in Electronics and Communication Engineering is not offered by all Australian universities. Majors, electives, or specializations in related programs may cover the same topics."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations in Electronics and Communication Engineering",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Design of Electronic Circuits",
+            "Systems of Communication",
+            "Mobile and Wireless Communication",
+            "Processing Signals",
+            "Systems with Embedded",
+            "Semiconductor Technology and Microelectronics",
+            "Engineering for Telecommunications",
+            "The Internet of Things",
+            "Automation and Robotics",
+            "Digital and Computer Systems",
+            "The curriculum and elective options offered by the university determine whether these subjects are available."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International candidates might have to take an approved test to prove they are proficient in the English language."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Tests that are frequently accepted include:",
+            "Academic TOEFL iBT IELTS",
+            "English Academic Pearson Test (PTE Academic)",
+            "An IELTS Academic score of between 6.0 and 6.5 overall, frequently with minimum scores in particular components, may be required for some undergraduate engineering programs. The specific requirements vary by program and institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before applying, students should check the official course page for the most recent English language requirements. Certain university policies may allow for alternate evidence or exemptions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic credentials and the standards of the chosen university are typically the determining factors for admission to u ndergraduate engineering programs connected to electronics and communication."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "SAT or ACT: Not always necessary; for Indian applicants, see the university's policies.",
+            "Prerequisites in mathematics are frequently necessary for direct admission.",
+            "Assessments for the foundation program may be applicable to students who choose a different path to admission.",
+            "Students should confirm if there are any requirements or extra tests for the curriculum they have selected."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Duration of Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Four years of full-time study are required for several relevant Australian engineering honors degrees. Certain integrated or combination programs could take longer."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated Cost of Tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university, degree, study load, and year of admission all affect the cost of international tuition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For many undergraduate engineering programs, students can utilize an indicative range of roughly AUD 40,000-60,000 or more annually for initial planning. This is not a proven cost for all courses linked to electronics and communication; rather, it is a general estimate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additionally, students should set aside money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Study guides, software, and books",
+            "Health Coverage for International Students (OSHC)",
+            "Costs associated with applying for a visa",
+            "Emergency and personal costs",
+            "Living costs differ depending on the city, type of lodging, and lifestyle."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Australian institutions may give scholarships or tuition cost reductions to international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities that could arise include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for international merit",
+            "Awards for academic excellence",
+            "Scholarships for international students tailored to a university",
+            "Opportunities for qualified outside funding",
+            "Academic achievement, nationality, the chosen program, admission, and application deadlines may all affect one's eligibility for a scholarship.",
+            "While some scholarships require a separate application, others are evaluated automatically. Instead of paying for full living and educational expenses, several provide partial tuition fee reductions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prior to applying, confirm:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Availability of scholarships for overseas students",
+            "Give a sum or a percentage",
+            "Academic qualifications",
+            "Deadline for applications",
+            "Documents that must be supported",
+            "Conditions for academic advancement and renewal"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Career Opportunities Prospects",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates may find it easier to explore prospects in a variety of technological industries if they have an undergraduate degree in electronics, communication, or a comparable engineering subject."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible job paths consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineer in Electronics",
+            "Graduate Engineer in Communications",
+            "Engineers that work in telecommunications, embedded systems, electronic design, signal processing, network systems, hardware development, test and validation, instrumentation, and control"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "Accreditation for Professionals",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "When selecting an engineering degree, professional accreditation is crucial, especially for students who want to become professional engineers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Under its framework for professional accreditation, Engineers Australia grants accreditation to qualified engineering programs. However, the specific degree, site, manner of delivery, and relevant certification period all affect accreditation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prior to accepting an offer, students must to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verify the precise title of the course.",
+            "Verify the program's accreditation status right now.",
+            "Check if the desired campus and intake are covered by the accreditation.",
+            "Recognize any further prerequisites for registration or professional recognition in the nation where they intend to work."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Indian Students Admission Procedure",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Evaluation of Academic Profile",
+          "desc": "Examine your grades from Class 12, your knowledge in math and physics, your command of the English language, your budget, and your preferred study space."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Shortlisting courses and universities",
+          "desc": "Examine the available intakes, entrance requirements, accreditation, course title, content, and tuition costs."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Prepare the Document",
+          "desc": "Prepare academic credentials, passport information, the results of any necessary English tests, and any other supporting documentation."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Submission of the Application",
+          "desc": "Apply via an authorized representative or the university's official application system, adhering to the application process."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Letter of Offer",
+          "desc": "The university may make an unconditional or conditional offer to those who qualify. Carefully read each and every condition."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Make an Acceptance Offer",
+          "desc": "Finish the necessary acceptance procedures and pay the tuition deposit or any additional fees the university specifies."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Enrollment Confirmation",
+          "desc": "Obtain the Confirmation of Enrollment (CoE) by fulfilling the provider's requirements."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Applying for a Student Visa",
+          "desc": "Submit the necessary supporting documentation along with your application for the relevant Australian student visa."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Getting Ready Before Departure",
+          "desc": "Before leaving, make travel, lodging, health insurance, and other practical arrangements. The university's evaluation and the relevant Australian Government regulations determine admissions and visa decisions."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Needed",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "When applying to universities and applying for visas, students may require the following paperwork:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Marksheet and certificate for Class 10",
+            "Marksheet and certificate for class 12",
+            "A valid passport",
+            "Test results in English, if needed",
+            "Academic records and transcripts",
+            "If asked, a personal statement or additional documentation",
+            "When necessary, financial documentation and a letter of offer from the university",
+            "Verification of Enrollment",
+            "Health of International Students Cover the evidence",
+            "Application materials for a student visa",
+            "Any further documentation that the university or other appropriate authorities seek"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The final document checklist is determined by the student's circumstances and the chosen institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Student Visa for Australia",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enrolll in an authorized full-time program, Indian students typically need the proper Australian student visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The application might need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A legitimate Enrollment Confirmation",
+            "Proof that satisfies the Genuine Student criterion",
+            "Proof of adequate cash, when necessary",
+            "Health Coverage for International Students",
+            "Character and health checks, if relevant",
+            "Documents proving identity and further evidence",
+            "Procedures, costs, and requirements for visas are subject to change. Before submitting an application, candidates should check out the Department of Home Affairs' official website."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "assistance",
+      "eyebrow": "Edu Hawk Support",
+      "title": "How Edu Hawk Can Assist",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students looking into undergraduate engineering possibilities overseas might get advice from Edu Hawk."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our assistance could consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Initial evaluation of academic profile",
+            "Shortlisting courses pertaining to electronics and communication",
+            "Comparing universities according to funding and curriculum",
+            "Guidelines for Indian Class 12 qualifying eligibility",
+            "Budgeting and tuition fees",
+            "Guidelines for application documents",
+            "assistance in the admission process for universities",
+            "Offer letter with enrollment instructions",
+            "Guidance on student visa documentation",
+            "Planning prior to departure",
+            "Before making a final selection, students should evaluate all admission, fee, accreditation, and visa requirements as well as official institution information."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
       "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/ece_engg_ug_Queensland_University_of_Technology-image3.png",
+      "desc": "Electrical engineering and associated electronic systems courses are pertinent fields of study."
     },
     {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "Curtin University",
+      "location": "Perth, Western Australia",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/ece_engg_ug_University_of_Curtin-image4.png",
+      "desc": ""
+    },
+    {
+      "name": "RMIT University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/ece_engg_ug_University_of_RMIT-image1.png",
+      "desc": ""
+    },
+    {
+      "name": "UNSW Sydney (The University of New South Wales)",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/ece_engg_ug_UNSW_Sydney-image2.png",
+      "desc": ""
     }
   ],
   "faq": [
     {
-      "question": "Is it possible for Indian students to study communication and electronics engineering in Australia?",
-      "answer": "Yes, qualified students can apply after completing Class 12 with mathematics and physics."
+      "question": "Is it possible for Indian students to pursue communication and electronics engineering in Australia?",
+      "answer": "Yes, if they fulfill the prerequisites for admission, Indian students can apply to undergraduate programs in electronics, electrical and electronic engineering, telecommunications , or related subjects."
     },
     {
-      "question": "What is the duration of an Australian degree in communication and electronics engineering?",
-      "answer": "The standard course duration is 4 years of full-time study for an accredited honours degree."
+      "question": "Does every Australian institution offer a degree specifically in Electronics and Communication Engineering?",
+      "answer": "No, through programs in Electrical and Electronic Engineering, Electronic and Computer Systems Engineering, or Telecommunications Engineering, some colleges provide related subjects. The actual curriculum and specializations should be compared by students."
     },
     {
-      "question": "Does communication and electronics engineering require mathematics?",
-      "answer": "Yes, advanced mathematics is a compulsory prerequisite for admission."
+      "question": "What is the duration of the degree program?",
+      "answer": "Four years of full-time study are required for many relevant engineering honors degrees. Other program designs and combined degrees might require more time."
     },
     {
-      "question": "Do Australian universities require NEET for electronics engineering?",
-      "answer": "No, NEET is not required for engineering admissions in Australia."
+      "question": "Does admission require mathematics?",
+      "answer": "A significant prerequisite for many undergraduate engineering programs is mathematics. It might also be necessary to take physics or other science courses."
     },
     {
-      "question": "How much does communication and electronics engineering cost in Australia?",
-      "answer": "Annual international tuition generally ranges between AUD 39,000 and AUD 53,000."
+      "question": "What proportion of Class 12 is needed?",
+      "answer": "Not every university has the same % requirement. The institution, program, and qualifying pathway determine the entrance requirements. Keywords: Study electronics and communication engineering in Australia. Australian Undergraduate Programs in Electronics and Communication Engineering Australia's Top Universities for Electronics and Communication Engineering Australia's Bachelor of Electronics and Communication Engineering program Australia's Eligibility for Electronics and Communication Engineering After the 12th Grade Australian Admission Requirements for Electronics and Communication Engineering"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to pursue communication and electronics engineering in Australia?",
+      "a": "Yes, if they fulfill the prerequisites for admission, Indian students can apply to undergraduate programs in electronics, electrical and electronic engineering, telecommunications , or related subjects."
+    },
+    {
+      "q": "Does every Australian institution offer a degree specifically in Electronics and Communication Engineering?",
+      "a": "No, through programs in Electrical and Electronic Engineering, Electronic and Computer Systems Engineering, or Telecommunications Engineering, some colleges provide related subjects. The actual curriculum and specializations should be compared by students."
+    },
+    {
+      "q": "What is the duration of the degree program?",
+      "a": "Four years of full-time study are required for many relevant engineering honors degrees. Other program designs and combined degrees might require more time."
+    },
+    {
+      "q": "Does admission require mathematics?",
+      "a": "A significant prerequisite for many undergraduate engineering programs is mathematics. It might also be necessary to take physics or other science courses."
+    },
+    {
+      "q": "What proportion of Class 12 is needed?",
+      "a": "Not every university has the same % requirement. The institution, program, and qualifying pathway determine the entrance requirements. Keywords: Study electronics and communication engineering in Australia. Australian Undergraduate Programs in Electronics and Communication Engineering Australia's Top Universities for Electronics and Communication Engineering Australia's Bachelor of Electronics and Communication Engineering program Australia's Eligibility for Electronics and Communication Engineering After the 12th Grade Australian Admission Requirements for Electronics and Communication Engineering"
     }
   ]
 }

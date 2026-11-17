@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Pharmacy in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Pharmacy in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Pharmacy in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Pharmacy in Italy, Study Pharmacy in Italy, Pharmacy Courses in Italy, Pharmacy Universities in Italy, Pharmacy Fees in Italy, Pharmacy in Italy for Indian Students"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "1. Why Study Pharmacy in Italy?",
-    "subtitle": "A standard single-cycle Pharmacy degree in Italy generally takes five years and commonly carries 300 ECTS credits. Always confirm the duration and structure on the official programme page.",
+    "subtitle": "Choosing to Study Pharmacy in Italy can provide students with a strong foundation in pharmaceutical sciences, chemistry, biology, drug formulation and the safe use of medicines. Italian universities offer opportunities to study in established academic environments with laboratory-based learning and research-oriented education.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/pharmacy_Sapienza_University_of_Rome-image2.png"
   },
   "stats": [
     {
@@ -29,38 +30,852 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate & Postgraduate",
+    "degree": "Farmacia e Farmacia Industriale",
     "duration": "1 to 2 Years (PG) / 3 Years (UG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "A standard single-cycle Pharmacy degree in Italy generally takes five years and commonly carries 300 ECTS credits. Always confirm the duration and structure on the official programme page.",
-  "universities": [
+  "overview": [
+    "Choosing to Study Pharmacy in Italy can provide students with a strong foundation in pharmaceutical sciences, chemistry, biology, drug formulation and the safe use of medicines. Italian universities offer opportunities to study in established academic environments with laboratory-based learning and research-oriented education.",
+    "Key advantages include:",
+    "International education: Gain university experience in a European country.",
+    "English-taught options : Some programs, such as the University of Bologna's Pharmacy degree, are wholly provided in English.",
+    "Scientific education includes courses in medicine, pharmaceutical chemistry, pharmacology, and drug development.",
+    "Laboratory experience: Gain practical knowledge through lab sessions and other program-specific activities.",
+    "Investigate pharmaceutical research, biotechnology, and drug discovery.",
+    "Career flexibility: Depending on their qualifications and extra criteria, graduates may pursue careers in pharmacy, research, the pharmaceutical industry, and related disciplines.",
+    "Before enrolling, students should ensure that their selected degree qualifies them for professional registration in the nation where they plan to work."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano",
-      "location": "Milan, Italy",
-      "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Pharmacy Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Pharmacy Courses in Italy include undergraduate-level single-cycle degrees, pharmaceutical sciences programmes and postgraduate options. The best course depends on whether the student intends to be a practicing pharmacist, work in pharmaceutical research, or pursue an industry-focused career."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Single-Cycle Degree in Pharmacy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Italian Laurea Magistrale a ciclo unico in Farmacia is an integrated degree that combines undergraduate and master's-level study within one programme."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Programme feature"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical information"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Single-cycle Master's degree in Pharmacy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Generally 5 years"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Credits"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Commonly 300 ECTS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Study format"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Full-time"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Teaching language"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Italian or English, depending on the programme"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pharmaceutical sciences, chemistry, pharmacology and medicines"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University-specific selection requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Major Subjects Covered"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The curriculum may include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "General and inorganic chemistry",
+            "Organic chemistry",
+            "Analytical chemistry",
+            "Biochemistry",
+            "Human anatomy and physiology",
+            "Microbiology",
+            "Pharmacology",
+            "Toxicology",
+            "Pharmaceutical technology",
+            "Pharmaceutical chemistry",
+            "Pharmacognosy and medicinal plants",
+            "Drug formulation and quality control",
+            "Pharmaceutical legislation and ethics",
+            "Clinical pharmacy and medicines management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The precise curriculum varies by university. Students should review the official study plan to understand the balance between theory, laboratory work, internships and other practical requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pharmaceutical Sciences and Related Programmes"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in drug development, laboratory research, or pharmaceutical production can look into related degrees such as pharmaceutical biotechnology, medicinal chemistry, biotechnology, and pharmaceutical sciences."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These programs may not offer the same professional qualifications as a Pharmacy degree. Before submitting, applicants should confirm the qualification awarded and their desired career path."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. Pharmacy Universities in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When comparing Pharmacy Universities in Italy , students should consider the programme language, tuition structure, admission process, curriculum, campus location and professional recognition requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Bologna - Rimini Campus"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The University of Bologna's Rimini campus provides a five-year, single-cycle Pharmacy degree. The official course page for the 2026/27 academic year describes the program as 100% English-taught, with limited entry via the CEnT-S selection process and 100 available spots."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The program combines pharmaceutical, biological, chemical, and technological sciences to prepare students for future professional or industry-related paths, according to appropriate prerequisites."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official course page: https://www.unibo.it/en/study/first-and-single-cycle-degree/programme/2026/6342"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Milan"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The University of Milan is a public research and educational institution that focuses on pharmaceutical and biomedical sciences. Students should examine the official program catalog to confirm the availability, language, duration, and entrance requirements of the Pharmacy or pharmaceutical sciences course for which they wish to enroll."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official website: https://www.unimi.it/en"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sapienza University of Rome"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sapienza University of Rome provides programs in a wide range of scientific and healthcare subjects. Applicants can browse its current course catalog for Pharmacy and allied pharmaceutical programs, paying special attention to the teaching language and professional qualification requirements for each degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official website: https://www.uniroma1.it/en"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other Italian Universities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may look into other public and private colleges that offer Pharmacy or related pharmaceutical science degrees. Program availability, teaching language, admissions, and annual costs may vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "To search for Italian degree programs, visit the official Universitaly portal."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "https://www.universitaly.it/"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important: Do not assume that all Pharmacy degrees in Italy are taught in English. Verify the specific course page for the correct academic year before applying."
+          ]
+        }
+      ]
     },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility for Pharmacy in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Eligibility for Pharmacy in Italy for Indian Students depends on the university, the applicant's school-leaving qualification and the selection rules for the relevant intake."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common needs can include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completion of secondary education is equivalent to the Italian university entrance criteria.",
+            "Class 12 or similar academic records.",
+            "Appropriate preparation in science areas, notably chemistry and biology, as required.",
+            "Compliance with the university's entrance exam or selection process.",
+            "English language fluency is necessary for courses that are taught in English.",
+            "Italian language fluency is required for the course or associated professional activity.",
+            "Submission of the necessary academic and identification documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Requirements for Indian Applicants"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students should ensure that their Class 12 qualifications are acknowledged by the university and that they meet any subject-specific requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The official course page for the University of Bologna's 2026/27 Pharmacy program details the CEnT-S selection process as well as restricted admittance. Students should examine the university's current examination guidelines, including recognized qualifications, application dates, and ranking procedures. Requirements may change in subsequent academic years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should also confirm whether translations, legalization, a declaration of value, or other qualification paperwork are necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Sapienza University of Rome",
+          "location": "Rome, Italy",
+          "fee": "€1,000 – €3,000 / Year",
+          "image": "/uploads/study_abroad/italy/pharmacy_Sapienza_University_of_Rome-image2.png"
+        },
+        {
+          "name": "University of Bologna - Rimini Campus",
+          "location": "Bologna, Italy",
+          "fee": "€1,000 – €3,500 / Year",
+          "image": "/uploads/study_abroad/italy/pharmacy_University_of_Bologna_-_Rimini_Campus-image1.png"
+        },
+        {
+          "name": "University of Milan",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/pharmacy_University_of_Milan-image3.png"
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Admission Requirements",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students who want to Study Pharmacy in Italy should review the university's admission notice for the intended intake before submitting an application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical requirements may include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completed the online application.",
+            "Valid passport.",
+            "Certificates and marksheets from classes 10 and 12.",
+            "Academic transcripts.",
+            "Proof of English proficiency, if required.",
+            "Results of any entrance examinations or selection tests, if appropriate.",
+            "Documents for qualification assessment are available upon request.",
+            "Pre-enrollment documentation for qualified international candidates.",
+            "Payment of any applicable application or enrollment costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English-Language Requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English-taught courses may require a recognized language certificate or other proof of English competency. The institution determines the accepted tests, minimum scores, and exemptions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students applying to Italian-taught programs may be required to demonstrate Italian language fluency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance Examination"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission to certain Pharmacy degrees is competitive. CEnT-S is listed by the University of Bologna for its English-taught Pharmacy program in 2026/27. Applicants should use the university's official admissions information rather than obsolete entrance exam patterns or unapproved preparation materials."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can help students compare programmes, organise document checklists and understand application steps. Universities make the final decisions on admission and eligibility."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Pharmacy Fees in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Pharmacy Fees in Italy vary according to the institution, programme, student fee category and applicable reductions or scholarships. Public universities may offer lower tuition than private institutions, but the actual amount must be confirmed through the official fee schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "As a general guideline, public university tuition in Italy across several subjects ranges from €900 to €4,000 per year. This is a broad estimate, not a confirmed Pharmacy-specific charge. Some programs, price categories, or private institutions may charge more."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated Tuition in Indian Rupees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following examples use an illustrative exchange rate of €1 = ₹108.60 . Actual exchange rates and bank charges may vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Example annual tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approximate cost in INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€900"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹97,740"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€1,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹1,62,900"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€2,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹2,17,200"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€3,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹3,25,800"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€4,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹4,34,400"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€6,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹6,51,600"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€10,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹10,86,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These amounts are budgeting examples, not official fee quotations for any named university. Students should check the relevant programme's tuition rules, fee calculator and payment deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other Expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should budget for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accommodation and utilities.",
+            "Food and groceries.",
+            "Local transportation",
+            "Health insurance and administrative costs",
+            "Books and lab materials.",
+            "Visa and residence-related charges, if applicable.",
+            "Flights and personal expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living costs differ depending on the city and kind of accommodation. Instead of focusing solely on tuition, students should assess the whole cost of the entire five-year curriculum."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Admission Process for Pharmacy in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The application process for Pharmacy in Italy for Indian Students generally includes the following steps:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Shortlist universities: Compare the available Pharmacy degrees, teaching language, curriculum and location.",
+            "Confirm eligibility: Check your school qualifications and any required science subjects.",
+            "Check the selection process: Verify whether an entrance test, ranking or other admission procedure applies.",
+            "Prepare documents: Organise your passport, academic certificates, transcripts and language evidence.",
+            "Submit the application: Follow the official university portal and meet the published deadline.",
+            "Complete selection requirements: Take the required examination or follow the university's selection instructions.",
+            "Complete pre-enrolment: Follow the applicable procedures for international students, including Universality where required.",
+            "Arrange your visa: Review the current instructions of the competent Italian consulate.",
+            "Plan your arrival: Arrange accommodation, insurance and any remaining enrolment requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can assist students with university shortlisting, document preparation and understanding the application process. Admission decisions, visa decisions and official fee assessments remain the responsibility of the relevant institutions and authorities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "recognition",
+      "eyebrow": "Degree Recognition & Accreditation",
+      "title": "Licensing and Professional Recognition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Pharmacy is a regulated profession. Students should distinguish between earning an academic degree in pharmaceutical sciences and obtaining a qualification that permits professional practice as a pharmacist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Working as a Pharmacist in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional requirements are determined by qualification and the appropriate Italian regulations. Graduates should check the current professional eligibility requirements, as well as any practical training or examinations required, and register with the appropriate professional body."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Italian Ministry of Health also offers a formal recognition mechanism for pharmacy qualifications gained outside of the EU. This approach may necessitate special documents and may not always guaranty recognition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official information: https://www.salute.gov.it/new/en/servizi-online/profs-rtenc-xd1f/pharmacist-recognition-professional-qualification-authorising/"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Returning to India After Pharmacy in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students wishing to practice in India should check the Pharmacy Council of India's and other relevant agencies' current rules before enrolling. Recognition is based on qualification and appropriate rules. Do not assume that an international degree immediately qualifies for registration in India."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before choosing a course, confirm:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The specific qualification awarded.",
+            "Whether the program is intended to prepare graduates for pharmacist registration.",
+            "Professional requirements in Italy.",
+            "Recognition and registration requirements in India, if applicable.",
+            "Additional exams, training, or documents may be necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Career Opportunities After Pharmacy in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates with the necessary qualification may pursue a variety of career paths, subject to professional recognition, registration, and employment criteria."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Possible professional pathways include:",
+            "Community pharmacies are subject to license.",
+            "Hospital pharmacies, according to applicable standards.",
+            "Pharmaceutical production.",
+            "Drug development and pharmaceutical research.",
+            "Quality control and assurance.",
+            "Regulatory Affairs.",
+            "Clinical research.",
+            "Pharmaceutical sales and product management.",
+            "Biotechnology and Life Sciences.",
+            "Academic research and continuing education."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career options are determined by the degree, practical experience, language skills, location, and professional needs. A pharmacy degree does not guaranty employment, pay, or authorization to practice in Italy or another nation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Required",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Applicants considering Pharmacy in Italy should prepare the documents requested by their selected university. Common documents may include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Certificate and marksheet for class 10.",
+            "Certificate with marksheet from class 12.",
+            "Academic transcripts and accompanying certifications.",
+            "Proof of English proficiency, if required.",
+            "Where applicable, obtain an Italian-language certificate.",
+            "Entrance test or selection documentation.",
+            "University application and enrollment forms.",
+            "Documents for qualification assessment are available upon request.",
+            "Pre-enrolment confirmation, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The necessary authorities require visa, financial, and insurance documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents may require official translation, legalization, or apostille. Students should double-check the current checklist before submitting their application, as requirements differ per institution and authority."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
     {
       "name": "Sapienza University of Rome",
       "location": "Rome, Italy",
       "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "image": "/uploads/study_abroad/italy/pharmacy_Sapienza_University_of_Rome-image2.png"
     },
     {
-      "name": "University of Bologna",
+      "name": "University of Bologna - Rimini Campus",
       "location": "Bologna, Italy",
       "fee": "€1,000 – €3,500 / Year",
-      "image": ""
+      "image": "/uploads/study_abroad/italy/pharmacy_University_of_Bologna_-_Rimini_Campus-image1.png"
     },
     {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "name": "University of Milan",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/pharmacy_University_of_Milan-image3.png"
     }
   ],
-  "faq": []
+  "faq": [
+    {
+      "question": "How long does Pharmacy in Italy take?",
+      "answer": "A standard single-cycle Pharmacy degree in Italy generally takes five years and commonly carries 300 ECTS credits. Always confirm the duration and structure on the official programme page."
+    },
+    {
+      "question": "Can Indian students study Pharmacy in Italy in English?",
+      "answer": "Yes. Some programmes are taught in English. For example, the University of Bologna lists its five-year Pharmacy programme at Rimini as entirely English-taught for the 2026/27 academic year. Students should verify the language and admissions requirements for their intended intake."
+    },
+    {
+      "question": "What are the Pharmacy Fees in Italy?",
+      "answer": "Tuition varies by university and fee category. Public university fees may be comparatively affordable, but students should check the official course fee schedule and budget separately for accommodation, food, insurance and transport."
+    },
+    {
+      "question": "Is an entrance exam required for Pharmacy Courses in Italy?",
+      "answer": "Some programmes have restricted admission and require an entrance test or selection process. The University of Bologna lists CEnT-S for its 2026/27 Pharmacy programme. Requirements may differ at other universities and in later academic years."
+    },
+    {
+      "question": "Can I work as a pharmacist in India after completing my degree in Italy?",
+      "answer": "Do not assume automatic eligibility. Students should check the Pharmacy Council of India's current rules and the applicable recognition and registration requirements before enrolling. The qualification, curriculum and other conditions may affect eligibility."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does Pharmacy in Italy take?",
+      "a": "A standard single-cycle Pharmacy degree in Italy generally takes five years and commonly carries 300 ECTS credits. Always confirm the duration and structure on the official programme page."
+    },
+    {
+      "q": "Can Indian students study Pharmacy in Italy in English?",
+      "a": "Yes. Some programmes are taught in English. For example, the University of Bologna lists its five-year Pharmacy programme at Rimini as entirely English-taught for the 2026/27 academic year. Students should verify the language and admissions requirements for their intended intake."
+    },
+    {
+      "q": "What are the Pharmacy Fees in Italy?",
+      "a": "Tuition varies by university and fee category. Public university fees may be comparatively affordable, but students should check the official course fee schedule and budget separately for accommodation, food, insurance and transport."
+    },
+    {
+      "q": "Is an entrance exam required for Pharmacy Courses in Italy?",
+      "a": "Some programmes have restricted admission and require an entrance test or selection process. The University of Bologna lists CEnT-S for its 2026/27 Pharmacy programme. Requirements may differ at other universities and in later academic years."
+    },
+    {
+      "q": "Can I work as a pharmacist in India after completing my degree in Italy?",
+      "a": "Do not assume automatic eligibility. Students should check the Pharmacy Council of India's current rules and the applicable recognition and registration requirements before enrolling. The qualification, curriculum and other conditions may affect eligibility."
+    }
+  ]
 }

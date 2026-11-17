@@ -1,0 +1,103 @@
+{
+  "id": "act",
+  "name": "ACT (American College Testing)",
+  "shortName": "ACT",
+  "category": "Entrance & Academic Tests",
+  "badge": "Undergraduate Admissions Alternative",
+  "seo": {
+    "title": "ACT Exam for Study Abroad: Pattern, Composite Score 1–36, ACT vs SAT | EduHawk Worldwide",
+    "description": "Complete guide to the ACT examination administered by ACT, Inc. for undergraduate university admissions abroad. Discover the English, Math, and Reading core sections, optional Science & Writing, fees, and prep.",
+    "keywords": "ACT American College Testing, ACT exam for international students, ACT exam pattern, ACT composite score 1 to 36, ACT eligibility, ACT exam fees, ACT vs SAT difference, undergraduate admission USA ACT"
+  },
+  "hero": {
+    "badge": "Undergraduate Admissions Alternative",
+    "heroPara": "The ACT is a standardized examination designed for students applying to undergraduate programs and bachelor's degrees abroad, assessing competencies in English, Mathematics, and Reading, with optional Science and Writing tests."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "Approx. 2 Hours (Core Sections)"
+    },
+    {
+      "label": "Composite Scale",
+      "value": "Score 1 to 36 (Average of Core Sections)"
+    },
+    {
+      "label": "Core Sections",
+      "value": "English, Mathematics, Reading"
+    },
+    {
+      "label": "Optional Modules",
+      "value": "Science Reasoning & Writing Essay"
+    },
+    {
+      "label": "Delivery Mode",
+      "value": "Computer-based at International Centers"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "US $181.50 (Non-Writing) / $206.50 (With Writing)"
+    }
+  ],
+  "countries": [
+    "USA",
+    "Canada"
+  ],
+  "overview": [
+    "The ACT is a standardized college admissions test administered by ACT, Inc., accepted by 100% of four-year colleges and universities in the United States and recognized internationally.",
+    "The exam evaluates students' academic readiness for higher education, measuring curriculum-based skills in English grammar, mathematical reasoning, and reading comprehension.",
+    "Under the revised enhanced ACT format, the test offers a shorter core duration, with the Science section and Writing essay offered as optional components."
+  ],
+  "sections": [
+    {
+      "name": "English",
+      "measures": "Grammar, punctuation, usage, sentence structure, rhetorical skills, and organization evaluated across multiple prose passages."
+    },
+    {
+      "name": "Mathematics",
+      "measures": "Algebra, coordinate and plane geometry, functions, and trigonometry, testing problem-solving skills under timed conditions."
+    },
+    {
+      "name": "Reading",
+      "measures": "Comprehension of literary narrative, humanities, social sciences, and natural sciences passages, evaluating main ideas, supporting details, and author tone."
+    },
+    {
+      "name": "Science (Optional)",
+      "measures": "Interpretation, analysis, evaluation, reasoning, and problem-solving skills applied to scientific data representations, research summaries, and conflicting viewpoints."
+    },
+    {
+      "name": "Writing (Optional)",
+      "measures": "One prompt presenting an issue and three diverse perspectives, assessing the ability to analyze perspectives, state your own view, and construct an organized essay."
+    }
+  ],
+  "registrationSteps": [
+    "Visit the official ACT website (act.org).",
+    "Create an online account and complete required student profile information.",
+    "Select an available test date and authorized international testing center in India.",
+    "Choose your preferred test options (ACT without Writing or ACT with Writing, and Science option).",
+    "Pay the applicable examination fee using an international credit card.",
+    "Download and print your ACT Admission Ticket and review test-day security requirements."
+  ],
+  "faqs": [
+    {
+      "q": "What is the full form of ACT?",
+      "a": "ACT stands for American College Testing, a standardized examination used by colleges and universities for undergraduate admissions."
+    },
+    {
+      "q": "Is the ACT compulsory for studying in the USA?",
+      "a": "No. While some universities require or recommend standardized scores, many US universities are test-optional. A competitive ACT score strengthens admissions profiles."
+    },
+    {
+      "q": "What is a good ACT score?",
+      "a": "The national US average is around 20–21. Scores of 28–31 are competitive for strong universities, while scores of 33–36 place applicants in the top tier for Ivy League and prestigious colleges."
+    },
+    {
+      "q": "Can Indian students take the ACT?",
+      "a": "Yes. Indian students take the computer-based ACT at authorized international testing centers across major cities in India."
+    },
+    {
+      "q": "What is the difference between ACT and SAT?",
+      "a": "Both tests are equally accepted by all US colleges. ACT focuses on faster-paced questions with an optional Science section, while SAT features multi-stage adaptive testing with built-in Desmos math calculators."
+    }
+  ]
+}

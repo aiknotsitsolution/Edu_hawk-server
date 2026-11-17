@@ -1,0 +1,109 @@
+{
+  "id": "sat",
+  "name": "SAT (Scholastic Assessment Test)",
+  "shortName": "SAT",
+  "category": "Entrance & Academic Tests",
+  "badge": "College Board Undergraduate Benchmark",
+  "seo": {
+    "title": "Digital SAT Exam for Study Abroad: Pattern, 400–1600 Scoring, Prep & Dates | EduHawk Worldwide",
+    "description": "Complete guide to the Digital SAT examination conducted by College Board for undergraduate bachelor's admissions in the USA and abroad. Explore Reading & Writing, Math with Desmos, scoring, registration, and prep.",
+    "keywords": "Digital SAT exam for international students, SAT exam pattern, SAT scoring 400 to 1600, SAT eligibility criteria, SAT exam fees India, SAT registration College Board, SAT preparation tips, bachelor's degree USA SAT"
+  },
+  "hero": {
+    "badge": "College Board Undergraduate Benchmark",
+    "heroPara": "The Digital SAT, conducted by the College Board, is a computer-based standardized examination used by colleges and universities worldwide to evaluate students applying for undergraduate bachelor's degree programs."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "2 Hours 14 Minutes (+ scheduled break)"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "400 to 1600 Total Score"
+    },
+    {
+      "label": "Section Scoring",
+      "value": "200 to 800 per Section"
+    },
+    {
+      "label": "Exam Format",
+      "value": "Digital Multi-Stage Adaptive (Bluebook)"
+    },
+    {
+      "label": "Calculator Policy",
+      "value": "Built-in Desmos Calculator for Entire Math Section"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "US $68 + $43 International Fee (~₹9,200)"
+    }
+  ],
+  "countries": [
+    "USA",
+    "Canada",
+    "UK",
+    "Australia",
+    "Singapore",
+    "Germany",
+    "Italy"
+  ],
+  "overview": [
+    "The SAT is a standardized examination conducted by the College Board, taken by millions of high school students worldwide seeking undergraduate college admissions, particularly in the United States.",
+    "The Digital SAT assesses essential academic competencies in Reading, Writing, and Mathematics that are vital for success in university coursework.",
+    "The examination is administered through College Board's custom testing application (Bluebook) on laptops or tablets at authorized international test centers."
+  ],
+  "sections": [
+    {
+      "name": "Reading and Writing",
+      "duration": "64 Minutes (Two 32-minute adaptive modules)",
+      "questions": "54 Questions total",
+      "measures": "Short passage reading comprehension, vocabulary in context, textual analysis, rhetorical synthesis, grammar, and sentence structure conventions."
+    },
+    {
+      "name": "Math",
+      "duration": "70 Minutes (Two 35-minute adaptive modules)",
+      "questions": "44 Questions total",
+      "measures": "Algebra, Advanced Math, Problem-Solving and Data Analysis, and Geometry & Trigonometry. A built-in Desmos graphing calculator is available for all math questions."
+    }
+  ],
+  "preparationTips": [
+    "Familiarize yourself with the digital testing interface using the official Bluebook application.",
+    "Practice reading diverse academic passages and master standard English grammar conventions.",
+    "Master essential algebra, functions, geometry, and data interpretation formulas.",
+    "Learn how to effectively utilize the built-in Desmos graphing calculator for fast problem solving.",
+    "Take official full-length adaptive practice tests in Bluebook to measure your baseline score.",
+    "Review every incorrect response, identify patterns, and target weaker sub-skills before exam day."
+  ],
+  "registrationSteps": [
+    "Create an account on the official College Board website (collegeboard.org).",
+    "Complete your student profile with accurate high school academic and personal information.",
+    "Select an available international test date and authorized test center in India.",
+    "Upload a compliant passport-style photograph matching College Board requirements.",
+    "Pay the examination fee ($68 registration + $43 international regional fee) using an accepted digital payment method.",
+    "Download the Bluebook testing app onto your device and generate your official SAT Admission Ticket.",
+    "Review test-day guidelines and arrive with your approved device, valid passport, and admission ticket."
+  ],
+  "faqs": [
+    {
+      "q": "What is the full form of SAT?",
+      "a": "Historically expanded as the Scholastic Assessment Test (and earlier Scholastic Aptitude Test), today it is officially recognized simply as the SAT."
+    },
+    {
+      "q": "Is SAT compulsory for studying in the USA?",
+      "a": "No. While many top universities have reinstated SAT requirements (such as MIT, Dartmouth, Yale, UT Austin), others remain test-optional. However, a high SAT score significantly enhances admission and merit scholarship prospects."
+    },
+    {
+      "q": "What is a good SAT score?",
+      "a": "The average SAT score is around 1050. Scores of 1250–1350 are competitive for good universities, while scores of 1450–1550+ place candidates in the competitive range for Ivy League and top-30 US institutions."
+    },
+    {
+      "q": "Can Indian students take the SAT?",
+      "a": "Yes. Indian students can take the Digital SAT at authorized test centers in major cities across India during designated international testing dates (March, May, June, August, October, November, December)."
+    },
+    {
+      "q": "Can I take the SAT online from home?",
+      "a": "No. Although the SAT is digital, it must be taken in-person at an authorized test center on your own or a school-provided laptop/tablet running the Bluebook testing app."
+    }
+  ]
+}

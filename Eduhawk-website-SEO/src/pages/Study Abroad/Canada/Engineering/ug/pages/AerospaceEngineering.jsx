@@ -9,6 +9,7 @@ import ctaBgImg from "../../../../../../Images/Abroad/Canada/Engineering_UG/Aero
 import UniversityOfCalgaryImg from "../../../../../../Images/Abroad/Canada/Engineering_UG/Aerospace/University_of_Calgary.webp";
 import MechanicalAndAerospaceEngineeringPathwaysImg from "../../../../../../Images/Abroad/Canada/Engineering_UG/Aerospace/Mechanical_and_aerospace_engineering_pathways.webp";
 import UniversityOfManitobaImg from "../../../../../../Images/Abroad/Canada/Engineering_UG/Aerospace/University_of_Manitoba.webp";
+import cmsData from "../../../../../../data/study_abroad/canada/aero_engg_ug.json";
 
 const page = {
   "name": "Aerospace Engineering - UG in Canada",
@@ -481,9 +482,36 @@ const page = {
 };
 
 export default function AerospaceEngineeringUGCanada() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

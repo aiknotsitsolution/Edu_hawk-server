@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/armenia.json";
 import React, { useState } from "react";
 import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
 import kernal from "../../Images/top medical collages list/Bangladesh Medical College.webp";
@@ -15,8 +16,9 @@ const Armernia = () => {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       <SeoHead
-        title="Study MBBS in Armenia for Indian Students | Edu Hawk"
-        description="Plan MBBS in Armenia for Indian students: NEET-based admission, NMC & WHO-recognized universities, English-medium courses and hostel living cost details."
+        title={cmsData?.seo?.title || "Study MBBS in Armenia for Indian Students | Edu Hawk"}
+        description={cmsData?.seo?.description || "Plan MBBS in Armenia for Indian students: NEET-based admission, NMC & WHO-recognized universities, English-medium courses and hostel living cost details."}
+        keywords={cmsData?.seo?.keywords || "mbbs in armenia, armenia mbbs fees, study mbbs armenia, armenia medical colleges"}
         path="/mbbs-abroad/armenia"
         ogType="website"
       />
@@ -24,7 +26,7 @@ const Armernia = () => {
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hayq_Square%2C_Vanadzor.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hayq_Square%2C_Vanadzor.jpg"}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hayq_Square%2C_Vanadzor.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/a/a7/Hayq_Square%2C_Vanadzor.jpg 2x"
@@ -32,7 +34,7 @@ const Armernia = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN ARMENIA
+              {cmsData?.hero?.title || "STUDY MBBS IN ARMENIA"}
             </h1>
           </div>
         </div>
@@ -58,7 +60,7 @@ const Armernia = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in ARMENIA 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in ARMENIA 2026–2027"}
             </h2>
           </div>
         </div>
@@ -201,7 +203,7 @@ const Armernia = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in ARMENIA
+            {cmsData?.universitiesHeading || "Top Medical Universities in ARMENIA"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

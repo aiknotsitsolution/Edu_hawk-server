@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study BEng Mechanical Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to BEng Mechanical Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Mechanical Engineering in the UK",
     "subtitle": "The design, development, testing, and improvement of machinery, mechanical systems, automobiles, industrial procedures, and energy technologies are the main goals of the engineering discipline known as \"mechanical engineering.\" In order to tackle practical issues, it integrates mathematics, physics, materials science, thermodynamics, mechanics, and engineering design."
   },
@@ -13,17 +8,47 @@
     "In addition to theoretical instruction, the UK provides undergraduate Mechanical Engineering degrees that incorporate engineering projects, laboratory work, computer-based modeling, and hands-on design activities.",
     "Edu Hawk Worldwide Consultancy assists students in understanding university entrance requirements, researching overseas study options, and preparing for their international education journey."
   ],
+  "universities": [
+    {
+      "name": "Kent University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_mech_engg_ug_Kent_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_mech_engg_ug_Kent_University-image3.png",
+      "desc": "Kent University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "London's University College",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_mech_engg_ug_London_s_University_College-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_mech_engg_ug_London_s_University_College-image4.png",
+      "desc": "London's University College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Loughborough University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_mech_engg_ug_Loughborough_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_mech_engg_ug_Loughborough_University-image2.png",
+      "desc": "Loughborough University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Manchester University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_mech_engg_ug_Manchester_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_mech_engg_ug_Manchester_University-image1.png",
+      "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Mechanical Engineering in the UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "The design, development, testing, and improvement of machinery, mechanical systems, automobiles, industrial procedures, and energy technologies are the main goals of the engineering discipline known as \"mechanical engineering.\" In order to tackle practical issues, it integrates mathematics, physics, materials science, thermodynamics, mechanics, and engineering design.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The design, development, testing, and improvement of machinery, mechanical systems, automobiles, industrial procedures, and energy technologies are the main goals of the engineering discipline known as \"mechanical engineering.\" In order to tackle practical issues, it integrates mathematics, physics, materials science, thermodynamics, mechanics, and engineering design."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -57,15 +82,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Mechanical Engineering Courses",
-      "eyebrow": "Course Guide",
+      "lead": "Many undergraduate-entry Mechanical Engineering paths at UK universities are available to Indian students.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Many undergraduate-entry Mechanical Engineering paths at UK universities are available to Indian students."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -104,46 +125,52 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "Top Mechanical Engineering Universities",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Undergraduate Mechanical Engineering programs or similar undergraduate-entry engineering routes are offered by the following universities. This is not a formal total ranking, but rather a shortlist for course research.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Kent University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Kent_University_webp"
-            },
-            {
-              "name": "Londons University College",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Londons_University_College_webp"
-            },
-            {
-              "name": "Loughborough University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Loughborough_University_webp"
-            },
-            {
-              "name": "Manchester University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Manchester_University_webp"
-            }
-          ]
+          "name": "Kent University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_mech_engg_ug_Kent_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_mech_engg_ug_Kent_University-image3.png",
+          "desc": "Kent University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "London's University College",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_mech_engg_ug_London_s_University_College-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_mech_engg_ug_London_s_University_College-image4.png",
+          "desc": "London's University College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Loughborough University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_mech_engg_ug_Loughborough_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_mech_engg_ug_Loughborough_University-image2.png",
+          "desc": "Loughborough University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Manchester University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_mech_engg_ug_Manchester_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_mech_engg_ug_Manchester_University-image1.png",
+          "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Studying Mechanical Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "The university, degree structure, academic background, and chosen entry method all affect the admission requirements.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, degree structure, academic background, and chosen entry method all affect the admission requirements."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -186,10 +213,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -221,20 +246,14 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "UK Admission Requirements for Mechanical Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Before submitting an application, students should review each university's academic and application requirements.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Before submitting an application, students should review each university's academic and application requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
-          ]
+          "t": "h4",
+          "text": "Academic requirements"
         },
         {
           "t": "p",
@@ -259,10 +278,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -297,27 +314,18 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying mechanical engineering in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, length of the course, location, lodging, and individual lifestyle all affect the total cost of studying Mechanical Engineering in the UK.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition",
+      "lead": "Depending on the institution and admission year, the published foreign tuition fee figures in Section 3 range from roughly £19,300 to £44,400 annually for planning purposes.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, length of the course, location, lodging, and individual lifestyle all affect the total cost of studying Mechanical Engineering in the UK."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Depending on the institution and admission year, the published foreign tuition fee figures in Section 3 range from roughly £19,300 to £44,400 annually for planning purposes."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -359,13 +367,15 @@
             "Personal costs",
             "When appropriate, engineering project supplies or machinery"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Financial aid and scholarships"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Aid",
+      "title": "Financial aid and scholarships",
+      "lead": "",
+      "groups": [
         {
           "t": "p",
           "items": [
@@ -385,147 +395,81 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK Admissions Process for Mechanical Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Degree Route"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose from a foundation-year track, integrated MEng, BEng, or degree with an industrial placement."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine course length, facilities, industrial placements, professional accreditation, tuition costs, university location, and modules."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the prerequisites for math and physics, English language proficiency, Class 12 requirements, and any other requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Undergraduate candidates typically apply via UCAS or another method that the university designates."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5 : Submit the supporting documentation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Give your academic transcripts, diplomas, English language proficiency scores, answers to your personal statement, references, and any other material that is asked for."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Accept and Examine Your Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if the offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, tuition costs, deposit requirements, and academic conditions."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Follow the university's instructions to complete the necessary acceptance procedures and make any tuition deposit arrangements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Get Your Study Acceptance Confirmation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The institution can issue a Confirmation of Acceptance for Studies (CAS) for the student visa process once you fulfill the necessary requirements and are prepared to sponsor you."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9 : Apply for a UK student visa"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Prepare the necessary documentation and submit the application in accordance with the most recent UK immigration regulations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Make Travel and Accommodation Plans"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for your lodging, money, travel, university enrollment, and any pre-departure needs."
+            {
+              "step": 1,
+              "title": "Select Your Degree Route",
+              "desc": "Choose from a foundation-year track, integrated MEng, BEng, or degree with an industrial placement."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine course length, facilities, industrial placements, professional accreditation, tuition costs, university location, and modules."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Qualifications",
+              "desc": "Examine the prerequisites for math and physics, English language proficiency, Class 12 requirements, and any other requirements."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "Undergraduate candidates typically apply via UCAS or another method that the university designates."
+            },
+            {
+              "step": 5,
+              "title": "Submit the supporting documentation",
+              "desc": "Give your academic transcripts, diplomas, English language proficiency scores, answers to your personal statement, references, and any other material that is asked for."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine Your Offer",
+              "desc": "Verify if the offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, tuition costs, deposit requirements, and academic conditions."
+            },
+            {
+              "step": 7,
+              "title": "Accept the Offer",
+              "desc": "Follow the university's instructions to complete the necessary acceptance procedures and make any tuition deposit arrangements."
+            },
+            {
+              "step": 8,
+              "title": "Get Your Study Acceptance Confirmation",
+              "desc": "The institution can issue a Confirmation of Acceptance for Studies (CAS) for the student visa process once you fulfill the necessary requirements and are prepared to sponsor you."
+            },
+            {
+              "step": 9,
+              "title": "Apply for a UK student visa",
+              "desc": "Prepare the necessary documentation and submit the application in accordance with the most recent UK immigration regulations."
+            },
+            {
+              "step": 10,
+              "title": "Make Travel and Accommodation Plans",
+              "desc": "Make plans for your lodging, money, travel, university enrollment, and any pre-departure needs."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Accreditation and Professional Recognition for Mechanical Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Accreditation of Engineering Degrees",
+      "lead": "On behalf of the Engineering Council, the Institution of Mechanical Engineers (IMechE) accredits pertinent academic programs.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Accreditation of Engineering Degrees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "On behalf of the Engineering Council, the Institution of Mechanical Engineers (IMechE) accredits pertinent academic programs."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -544,15 +488,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for Mechanical Engineers in the United Kingdom",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates of undergraduate mechanical engineering programs can pursue employment in manufacturing, automotive technology, energy, industrial machinery, product design, and other engineering fields.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates of undergraduate mechanical engineering programs can pursue employment in manufacturing, automotive technology, energy, industrial machinery, product design, and other engineering fields."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -598,15 +538,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed in the UK to Study Mechanical Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "The university, credentials, and visa arrangements determine the precise document checklist.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, credentials, and visa arrangements determine the precise document checklist."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -640,10 +576,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Student Visas"
-          ]
+          "t": "h4",
+          "text": "Documents for Student Visas"
         },
         {
           "t": "p",
@@ -676,136 +610,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. After Class 12, are Indian kids able to pursue Mechanical Engineering studies in the UK?",
-              "a": "Indeed. After Class 12, qualified Indian students may apply for undergraduate BEng or integrated MEng programs. Numerous colleges evaluate Indian credentials in accordance with their own admission standards and mandate mathematics and physics."
-            },
-            {
-              "q": "Q2. How long do undergraduate studies in mechanical engineering take in the UK?",
-              "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. The term may be extended by foundation-year courses and industry placements."
-            },
-            {
-              "q": "Q3. What is the cost of an undergraduate degree in mechanical engineering in the United Kingdom?",
-              "a": "For the designated entering years, the published tuition examples in this book vary from roughly £19,300 to £44,400 annually. Budgeting must be done separately for living expenses, visa fees, medical bills, and prospective yearly tuition hikes."
-            },
-            {
-              "q": "Q4. After earning an undergraduate degree in mechanical engineering, what careers might I pursue?",
-              "a": "Mechanical engineers, design engineers, manufacturing engineers, automotive engineers, energy engineers, project engineers, and research and development engineers are among the positions that graduates might consider. Technical expertise, experience, employer demands, and labor market conditions all affect career results."
-            },
-            {
-              "q": "Q5. After earning my undergraduate degree in mechanical engineering, may I remain in the United Kingdom?",
-              "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the most recent regulations."
-            },
-            {
-              "q": "How may Edu Hawk Worldwide Consultancy help me study overseas?",
-              "a": "With Edu Hawk Worldwide's help, students may plan their study abroad experience , arrange their application materials, choose suitable universities, and understand admission requirements. Students should inquire about their academic, financial, immigration, and licensing requirements with the relevant official authorities."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Kent University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Kent_University.webp"
-    },
-    {
-      "name": "Londons University College",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Londons_University_College.webp"
-    },
-    {
-      "name": "Loughborough University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Loughborough_University.webp"
-    },
-    {
-      "name": "Manchester University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Manchester_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying BEng Mechanical Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. After Class 12, are Indian kids able to pursue Mechanical Engineering studies in the UK?",
+      "q": "After Class 12, are Indian kids able to pursue Mechanical Engineering studies in the UK?",
       "a": "Indeed. After Class 12, qualified Indian students may apply for undergraduate BEng or integrated MEng programs. Numerous colleges evaluate Indian credentials in accordance with their own admission standards and mandate mathematics and physics."
     },
     {
-      "q": "Q2. How long do undergraduate studies in mechanical engineering take in the UK?",
+      "q": "How long do undergraduate studies in mechanical engineering take in the UK?",
       "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. The term may be extended by foundation-year courses and industry placements."
     },
     {
-      "q": "Q3. What is the cost of an undergraduate degree in mechanical engineering in the United Kingdom?",
+      "q": "What is the cost of an undergraduate degree in mechanical engineering in the United Kingdom?",
       "a": "For the designated entering years, the published tuition examples in this book vary from roughly £19,300 to £44,400 annually. Budgeting must be done separately for living expenses, visa fees, medical bills, and prospective yearly tuition hikes."
     },
     {
-      "q": "Q4. After earning an undergraduate degree in mechanical engineering, what careers might I pursue?",
+      "q": "After earning an undergraduate degree in mechanical engineering, what careers might I pursue?",
       "a": "Mechanical engineers, design engineers, manufacturing engineers, automotive engineers, energy engineers, project engineers, and research and development engineers are among the positions that graduates might consider. Technical expertise, experience, employer demands, and labor market conditions all affect career results."
     },
     {
-      "q": "Q5. After earning my undergraduate degree in mechanical engineering, may I remain in the United Kingdom?",
+      "q": "After earning my undergraduate degree in mechanical engineering, may I remain in the United Kingdom?",
       "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the most recent regulations."
     },
     {
       "q": "How may Edu Hawk Worldwide Consultancy help me study overseas?",
       "a": "With Edu Hawk Worldwide's help, students may plan their study abroad experience , arrange their application materials, choose suitable universities, and understand admission requirements. Students should inquire about their academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Mechanical Engineering in the UK | Edu-Hawk Worldwide",
+    "description": "The design, development, testing, and improvement of machinery, mechanical systems, automobiles, industrial procedures, and energy technologies are the main goa",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

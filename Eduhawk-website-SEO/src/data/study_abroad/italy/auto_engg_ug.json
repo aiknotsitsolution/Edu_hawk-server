@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Automobile Engineering - UG in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Automobile Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Automobile Engineering - UG in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Automobile Engineering in Italy for Indian Students, Automotive Engineering in Italy, Automobile Engineering Courses in Italy, Best Universities for Automobile Engineering in Italy, Study Automobile Engineering in Italy After 12th, Cost of Studying Automobile Engineering in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Automobile Engineering in Italy for Indian Students",
-    "subtitle": "Yes. Students who have completed Class 12 and meet the university's academic, language and admission requirements may apply for eligible bachelor's programs in automotive, vehicle or mechanical engineering.",
+    "subtitle": "Italian Automobile Engineering is a great option for Indian students who are passionate about vehicle design, automotive technology, electric vehicles, engines, vehicle dynamics and advanced manufacturing. Italy is known worldwide for its automotive heritage and engineering industry and thus it is an interesting destination for the students who want to study automobile engineering abroad .",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/auto_engg_ug_Turin_Polytechnic_University-image1.png"
   },
   "stats": [
     {
@@ -29,38 +30,852 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate",
+    "degree": "Bachelor in Automotive Engineering",
     "duration": "3 to 4 Years (UG) / 2 Years (PG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Yes. Students who have completed Class 12 and meet the university's academic, language and admission requirements may apply for eligible bachelor's programs in automotive, vehicle or mechanical engineering.",
-  "universities": [
+  "overview": [
+    "Italian Automobile Engineering is a great option for Indian students who are passionate about vehicle design, automotive technology, electric vehicles, engines, vehicle dynamics and advanced manufacturing. Italy is known worldwide for its automotive heritage and engineering industry and thus it is an interesting destination for the students who want to study automobile engineering abroad .",
+    "Students who want to do a Bachelor's in Automobile Engineering in Italy after Class 12 should explore the undergraduate engineering courses in automotive engineering, mechanical engineering and vehicle engineering. The curriculum will vary by university but may include courses in vehicle design, powertrain systems, automotive electronics, materials, manufacturing and sustainable mobility. It is worth checking whether a university offers a specific automobile engineering bachelor's degree or a more general engineering program with automotive-related subjects."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano",
-      "location": "Milan, Italy",
-      "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Automotive Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students can use automobile engineering in Italy to establish a base for careers in the automotive and mobility industries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exposure to the automotive industry: Italy has a long tradition in vehicle manufacturing, automotive design, motorsport and engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering-oriented education: Students study mathematics, physics, materials, mechanical systems and manufacturing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electric vehicle technology: Engineering related to the automotive industry can teach students about electrification, batteries and sustainable mobility."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Vehicle Design and Performance: Depending on the program, students may explore aerodynamics, vehicle dynamics, safety and component design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "European learning environment: Students get international academic exposure and experience different engineering approaches."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships: Eligible international students can apply for university scholarships and regional financial aid."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Italy is a good place for students who want to study automotive engineering in Europe and learn about classic car technologies and today's innovations in electric and hybrid transport."
+          ]
+        }
+      ]
     },
     {
-      "name": "Sapienza University of Rome",
-      "location": "Rome, Italy",
-      "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Automobile Engineering Courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students who want to pursue automobile engineering courses in Italy after 12th should compare specialized automotive courses with bachelor's degrees in mechanical engineering with vehicle-related subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical undergraduate subjects include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automotive Engineering Fundamentals: Overview of vehicle systems, components, and engineering concepts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering Mathematics Calculus, algebra and mathematical methods for application to vehicle analysis."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Thermodynamics Principles of engines, energy and heat transfer systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanics and Materials: exploring forces, motion, material properties and component strength."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Vehicle Dynamics: Understanding vehicle handling, stability, suspension and motion."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Powertrain Technology: An overview of engines, transmissions, electric motors and drivetrains."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automotive Electronics: Sensors, electronic vehicle components, control systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Manufacturing Engineering: Industrial processes, production techniques and quality control."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CAD (Computer Aided Design): Digital design and modeling of automotive components."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The curriculum included an Introduction to vehicle electrification and energy systems for Electric and Hybrid Vehicles."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A standard Italian bachelor's degree usually lasts three years. Course content and duration, and program titles may vary between institutions."
+          ]
+        }
+      ]
     },
     {
-      "name": "University of Bologna",
-      "location": "Bologna, Italy",
-      "fee": "€1,000 – €3,500 / Year",
-      "image": ""
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "University of Modena and Reggio Emilia",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/auto_engg_ug_University_of_Modena_and_Reggio_Emilia-image2.png",
+          "desc": "Modena, Italia A good option for students interested in vehicle engineering and automotive technology. The university is in an area connected to Italy's automotive industry. Refer to the present undergraduate course catalog for the vehicle-engineering program on offer, the language in which it will be taught and the entry qualifications. University's official website"
+        },
+        {
+          "name": "Turin Polytechnic University",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/auto_engg_ug_Turin_Polytechnic_University-image1.png",
+          "desc": "Torino, Italia Undergraduate studies in engineering, such as Mechanical Engineering, that can give a background in automotive design, manufacturing, materials and vehicle systems. Kindly confirm the program curriculum and medium of instruction for your targeted intake. Official program catalog Important: Please do not assume that every university offers a separate bachelor's degree program called \"Automobile Engineering\" or that the program will be taught in English. Please verify the official degree title, language, curriculum and admission criteria prior to applying."
+        },
+        {
+          "name": "Qualifications for Studying Automobile Engineering in Italy",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
+          "image": "/uploads/study_abroad/italy/auto_engg_ug_Turin_Polytechnic_University-image1.png",
+          "desc": "Eligibility Criteria For B.E in Automobile Engineering in Italy After Class 12 The eligibility criteria to pursue B.E in Automobile Engineering in Italy for Indian students is generally as follows: Educational Qualification: Must have passed Class 12th from any recognized board or equivalent. Mathematics and Physics are the main subjects, especially for engineering courses. Other subject requirements differ from university to university. Academic performance: Meet the minimum academic requirements of the university. Language proficiency: Provide evidence of proficiency in the Italian or English language according to the teaching language of the course. Engineering Entrance Exam: If required, take the engineering entrance exam. Qualification Verification: Send documents to the university for assessment of your Indian school-leaving qualification. In preparing to study automotive engineering , it is helpful to have a good understanding of math, physics, mechanics and problem solving skills."
+        }
+      ],
+      "groups": []
     },
     {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Automobile Engineering in Italy: Eligibility Criteria",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Admission criteria for automobile engineering in Italy differ from one university to another, but generally include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10th and 12th marksheets and certificates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts showing the subjects required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Evidence of readiness for Mathematics and Science."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrance test results (if required by the uni)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate of language proficiency in Italian or English, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passport and Identity Documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Completed online application and all supporting documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other qualification verification documents as required by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities have limited admission or special admission procedures. International applicants should verify whether an entrance test, ranking process or separate application deadline is applicable for their chosen program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Cost of Studying Automobile Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of automobile engineering in Italy depends on the tuition fee policy of the institution and eligibility for scholarships or reductions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following are illustrative estimated annual tuition fees for budgetary planning purposes, not confirmed fees for any particular university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated annual tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approximate amount"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€1,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹1,08,600"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€2,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹2,71,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€5,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹5,43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Conversion was made at €1 ≈ ₹108.60. INR amounts are approximate and are subject to change with exchange rates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other expenses connected with education may include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application and university administration fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission test costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests and test preparation in language"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books, study materials and engineering resources"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Visa and residence permit charges"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health insurance and other mandatory administrative charges"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "These are in addition to tuition costs. Students should also separately plan for accommodation, food, transport and other living costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automobile Engineering Scholarships in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For the Indian students looking forward to pursue automobile engineering in Italy on scholarships , following are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University Scholarships by Merit"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Regional scholarships and aid"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition reductions for eligible students"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other schemes for overseas applicants"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility may be based on variables such as academic performance, household financial documentation, residency conditions and deadlines. Scholarship awards and amounts are not guaranteed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. Admission Procedure for Automobile Engineering in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "This is how to apply for an undergraduate engineering program in Italy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pick the right course: Automotive, vehicle and mechanical engineering degrees compared."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility check: Check if you meet the entry requirements in terms of subjects and qualifications in class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check teaching language: Check whether the course is taught in Italian, English or a mixture."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Get ready for entrance tests: Register for the necessary entrance test."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Apply: Complete the university's application process and upload the required documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Complete pre-enrolment: Follow the instructions of the university and refer to the official Universitaly portal for relevant procedures for international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applying for a study visa: Look up the current Italian student-visa requirements from the relevant Italian embassy or consulate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Complete final enrollment Follow the university's instructions for document verification, fee payment and registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Start early, as entrance tests, language preparation, application deadlines and visa processing can all take additional time."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "recognition",
+      "eyebrow": "Degree Recognition & Accreditation",
+      "title": "Recognition and Certification of Automobile Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A recognized Bachelor's degree in Automobile or Vehicle Engineering in Italy provides a strong academic foundation for careers that include automotive design, manufacturing, vehicle systems, and mobility technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Be sure of these things before accepting an offer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The official title of the degree and level of qualification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university's recognized status"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration of program and credits needed"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Whether the qualification provides access to relevant postgraduate programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Any professional registration or other qualification requirements for your career of choice"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A bachelor's degree can open doors to entry-level opportunities, but some specialized research, development and advanced design roles may require further study or professional experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students intending to return to India should verify the qualification recognition requirements for the specific employer, institution or professional role."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Automobile Engineering in Italy: Pay and Career Opportunities",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Italy graduates in automobile engineering can seek employment in the fields of vehicle manufacturing, automotive components, electric mobility, product design, testing and industrial engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential career options are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automotive Design Engineer: Assists in the design and development of vehicle parts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Vehicle Dynamics Engineer: Works on handling, suspension, stability and vehicle performance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Powertrain Engineer: Works on engines, transmissions, drivetrains or electric propulsion systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electric Vehicle Engineer: Deals with electric vehicles and engineering applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CAD Design Engineer. Develops digital designs and technical drawings for vehicle components."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Manufacturing Engineer: Support for production processes, assembly and process improvement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Quality Engineer: Supports assessment of product reliability, quality and conformity."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automotive Testing Engineer: Assist component tests, validation and performance analysis."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary Range (indicative)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The figures below are indicative estimates of gross annual salaries in Italy for planning purposes only, and are not official salary statistics or guarantyd earnings."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Stage in career"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indicative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry level engineering career"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€25,000-€32,000 (approx. ₹27.15-₹34.75 lakh)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experienced Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€32,000-€45,000 (around ₹34.75-₹48.87 lakh)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineer with experience or specialization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€45,000-€65,000+ (~ ₹48.87-₹70.59 Lakh+)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR equivalents are based on €1 = ₹108.60. Actual salary will depend on experience, the employer, location, specialization, language skills, and job responsibilities. Figures are before taxes, deductions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates can also seek employment in related industries such as industrial automation, mechanical design, manufacturing, robotics and electric mobility. There are jobs available depending on market demand, qualifications and work authorization."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "What documents are required for Studying Automobile Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian applicants may be required to prepare the following documents:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Valid passport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 10 certificate and mark sheet"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class-XII certificate and marksheet"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University Records"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of required mathematics and science subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language proficiency certificate (if necessary)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of entrance test (if applicable)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University application form filled out"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Photographs for passport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents for qualification verification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Visa application: Financial documents and evidence of funds"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health insurance or other required visa documents"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Official translations, legalization or other academic documents if required"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The final checklist will vary on the university and the applicant's circumstance. Always check the current regulations of the university and visa."
+          ]
+        }
+      ]
     }
   ],
-  "faq": []
+  "universities": [
+    {
+      "name": "University of Modena and Reggio Emilia",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/auto_engg_ug_University_of_Modena_and_Reggio_Emilia-image2.png",
+      "desc": "Modena, Italia A good option for students interested in vehicle engineering and automotive technology. The university is in an area connected to Italy's automotive industry. Refer to the present undergraduate course catalog for the vehicle-engineering program on offer, the language in which it will be taught and the entry qualifications. University's official website"
+    },
+    {
+      "name": "Turin Polytechnic University",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/auto_engg_ug_Turin_Polytechnic_University-image1.png",
+      "desc": "Torino, Italia Undergraduate studies in engineering, such as Mechanical Engineering, that can give a background in automotive design, manufacturing, materials and vehicle systems. Kindly confirm the program curriculum and medium of instruction for your targeted intake. Official program catalog Important: Please do not assume that every university offers a separate bachelor's degree program called \"Automobile Engineering\" or that the program will be taught in English. Please verify the official degree title, language, curriculum and admission criteria prior to applying."
+    },
+    {
+      "name": "Qualifications for Studying Automobile Engineering in Italy",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
+      "image": "/uploads/study_abroad/italy/auto_engg_ug_Turin_Polytechnic_University-image1.png",
+      "desc": "Eligibility Criteria For B.E in Automobile Engineering in Italy After Class 12 The eligibility criteria to pursue B.E in Automobile Engineering in Italy for Indian students is generally as follows: Educational Qualification: Must have passed Class 12th from any recognized board or equivalent. Mathematics and Physics are the main subjects, especially for engineering courses. Other subject requirements differ from university to university. Academic performance: Meet the minimum academic requirements of the university. Language proficiency: Provide evidence of proficiency in the Italian or English language according to the teaching language of the course. Engineering Entrance Exam: If required, take the engineering entrance exam. Qualification Verification: Send documents to the university for assessment of your Indian school-leaving qualification. In preparing to study automotive engineering , it is helpful to have a good understanding of math, physics, mechanics and problem solving skills."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Indian students study Automobile Engineering in Italy after 12th?",
+      "answer": "Yes. Students who have completed Class 12 and meet the university's academic, language and admission requirements may apply for eligible bachelor's programs in automotive, vehicle or mechanical engineering."
+    },
+    {
+      "question": "How long is a Bachelor's in Automotive Engineering in Italy?",
+      "answer": "The standard Italian bachelor's degree usually takes three years. The length of time depends on the program and the qualification structure."
+    },
+    {
+      "question": "Is there an Automobile Engineering in English in Italy?",
+      "answer": "Language of instruction depends on the program. Some of the undergraduate engineering courses are taught in Italian, so students seeking English-taught courses should contact the universities directly to confirm the language of instruction."
+    },
+    {
+      "question": "How much does it cost to study Automobile Engineering in Italy?",
+      "answer": "Tuition depends on the university and the student situation. The example annual budgets are €1,000 (₹ 1,08,600), €2,500 (₹ 2,71,500) and €5,000 (₹ 5,43,000). These are estimates, not official fee quotes."
+    },
+    {
+      "question": "What are the jobs after studying Automobile Engineering in Italy?",
+      "answer": "Graduates can enter automotive design, vehicle testing, powertrain engineering, electric vehicle tech, CAD design, manufacturing and quality assurance. Some specializations may require further study or work experience."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Indian students study Automobile Engineering in Italy after 12th?",
+      "a": "Yes. Students who have completed Class 12 and meet the university's academic, language and admission requirements may apply for eligible bachelor's programs in automotive, vehicle or mechanical engineering."
+    },
+    {
+      "q": "How long is a Bachelor's in Automotive Engineering in Italy?",
+      "a": "The standard Italian bachelor's degree usually takes three years. The length of time depends on the program and the qualification structure."
+    },
+    {
+      "q": "Is there an Automobile Engineering in English in Italy?",
+      "a": "Language of instruction depends on the program. Some of the undergraduate engineering courses are taught in Italian, so students seeking English-taught courses should contact the universities directly to confirm the language of instruction."
+    },
+    {
+      "q": "How much does it cost to study Automobile Engineering in Italy?",
+      "a": "Tuition depends on the university and the student situation. The example annual budgets are €1,000 (₹ 1,08,600), €2,500 (₹ 2,71,500) and €5,000 (₹ 5,43,000). These are estimates, not official fee quotes."
+    },
+    {
+      "q": "What are the jobs after studying Automobile Engineering in Italy?",
+      "a": "Graduates can enter automotive design, vehicle testing, powertrain engineering, electric vehicle tech, CAD design, manufacturing and quality assurance. Some specializations may require further study or work experience."
+    }
+  ]
 }

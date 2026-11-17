@@ -1,29 +1,54 @@
 {
-  "seo": {
-    "title": "Study Computer Science in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to Computer Science in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Computer Science in the United Kingdom",
     "subtitle": "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical programming skills, research opportunities, and industry-focused learning to prepare students for careers in the global technology sector."
   },
   "overview": [
     "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical programming skills, research opportunities, and industry-focused learning to prepare students for careers in the global technology sector.",
     "Software development, artificial intelligence, cybersecurity, data science, cloud computing, computer systems and new digital technologies are just a few of the many fields that are part of computer science.",
-    "The main advantages of studying computer science in the UK are:"
+    "Graduate from a UK university that is recognized around the world by employers and other academic institutions."
+  ],
+  "universities": [
+    {
+      "name": "Cambridge University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_computer_science_Cambridge_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_computer_science_Cambridge_University-image1.png",
+      "desc": "Cambridge University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "London's Imperial College",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_computer_science_London_s_Imperial_College-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_computer_science_London_s_Imperial_College-image2.png",
+      "desc": "London's Imperial College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "London's University College",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_computer_science_London_s_University_College-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_computer_science_London_s_University_College-image3.png",
+      "desc": "London's University College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Oxford",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_computer_science_University_of_Oxford-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_computer_science_University_of_Oxford-image4.png",
+      "desc": "University of Oxford is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
   ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Computer Science in UK?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical programming skills, research opportunities, and industry-focused learning to prepare students for careers in the global technology sector.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical programming skills, research opportunities, and industry-focused learning to prepare students for careers in the global technology sector."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -31,10 +56,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "The main advantages of studying computer science in the UK are:"
-          ]
+          "t": "h4",
+          "text": "The main advantages of studying computer science in the UK are:"
         },
         {
           "t": "p",
@@ -81,15 +104,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "Computer Science Courses in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "Computer Science programmes are offered at the undergraduate, graduate and research levels in UK universities. Students can choose a degree program based on their academic background, desired specialization, and career goals.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Computer Science programmes are offered at the undergraduate, graduate and research levels in UK universities. Students can choose a degree program based on their academic background, desired specialization, and career goals."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -191,51 +210,55 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "The UK's Top Computer Science Universities",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Numerous universities in the UK provide computer science education, advanced computing research, and specialized courses in fields including data science, artificial intelligence, cybersecurity, and software engineering.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Cambridge University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Cambridge_University_webp"
-            },
-            {
-              "name": "Londons Imperial College",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Londons_Imperial_College_webp"
-            },
-            {
-              "name": "Londons University College",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Londons_University_College_webp"
-            },
-            {
-              "name": "University of Oxford",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_University_of_Oxford_webp"
-            }
-          ]
+          "name": "Cambridge University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_computer_science_Cambridge_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_computer_science_Cambridge_University-image1.png",
+          "desc": "Cambridge University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "London's Imperial College",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_computer_science_London_s_Imperial_College-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_computer_science_London_s_Imperial_College-image2.png",
+          "desc": "London's Imperial College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "London's University College",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_computer_science_London_s_University_College-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_computer_science_London_s_University_College-image3.png",
+          "desc": "London's University College is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Oxford",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_computer_science_University_of_Oxford-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_computer_science_University_of_Oxford-image4.png",
+          "desc": "University of Oxford is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Computer Science Studying in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "The requirements for eligibility vary according to the chosen specialization, university, and level of study.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The requirements for eligibility vary according to the chosen specialization, university, and level of study."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Eligibility for Undergraduates"
-          ]
+          "t": "h4",
+          "text": "Eligibility for Undergraduates"
         },
         {
           "t": "ul",
@@ -288,15 +311,11 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Computer Science Admission Requirements in the United Kingdom",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Depending on whether a student is applying for an undergraduate, graduate, or research program, different admission standards apply.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Depending on whether a student is applying for an undergraduate, graduate, or research program, different admission standards apply."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -308,9 +327,25 @@
           "items": [
             "Academic grades often range from 55% to 65%, depending on the university and course.",
             "Mathematics is important for many advanced technical specializations and is either required or desirable for many programs.",
-            "Knowledge of programming is useful but not necessarily necessary. It may be necessary for technical programs.",
-            "Proficiency in English, if necessary | IELTS or approved substitute,",
-            "Personal statement or mission statement | Frequently needed",
+            "Knowledge of programming is useful but not necessarily necessary. It may be necessary for technical programs."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Proficiency in English, if necessary",
+              "d": "IELTS or approved substitute,"
+            },
+            {
+              "t": "Personal statement or mission statement",
+              "d": "Frequently needed"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
             "Academic references are frequently needed for certain programs."
           ]
         },
@@ -327,10 +362,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Language Requirements in English"
-          ]
+          "t": "h4",
+          "text": "Language Requirements in English"
         },
         {
           "t": "p",
@@ -347,37 +380,33 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying computer science in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The degree level, university, city, length of program, and lifestyle all affect the overall cost of studying Computer Science.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition",
+      "lead": "The general planning estimates for international students are as follows. Actual costs differ significantly depending on the course and university.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The degree level, university, city, length of program, and lifestyle all affect the overall cost of studying Computer Science."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The cost of tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The general planning estimates for international students are as follows. Actual costs differ significantly depending on the course and university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Undergraduate Computer Science | £18,000–£35,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Computer Science Postgraduate | £20,000–£40,000+"
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Undergraduate Computer Science",
+              "d": "£18,000–£35,000+"
+            },
+            {
+              "t": "Computer Science Postgraduate",
+              "d": "£20,000–£40,000+"
+            },
+            {
+              "t": "Books and study guides",
+              "d": "£300–£800"
+            }
           ]
         },
         {
@@ -413,12 +442,6 @@
         {
           "t": "p",
           "items": [
-            "Books and study guides | £300–£800"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
             "Individual costs | £1,000–£2,400 |"
           ]
         },
@@ -429,10 +452,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Computer Science Scholarships"
-          ]
+          "t": "h4",
+          "text": "Computer Science Scholarships"
         },
         {
           "t": "p",
@@ -454,115 +475,101 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Computer Science Admissions Process",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Whether you are applying for a research, postgraduate, or undergraduate degree will determine the application procedure.",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure for Undergraduates",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Whether you are applying for a research, postgraduate, or undergraduate degree will determine the application procedure."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Admission Procedure for Undergraduates"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1: Look Up Courses and Universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make a shortlist of colleges that offer degrees in Computer Science, Software Engineering, Artificial Intelligence, Data Science or similar fields."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Verify Your Eligibility"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the criteria for mathematics, approved Indian credentials, English language proficiency, and Class 12 subject requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Get the application materials ready."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Gather your personal statement, reference, academic records, and any English-language test results that may be needed."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Use UCAS to Apply"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Subject to the applicable application regulations, the majority of undergraduate applications to UK universities are sent through the Universities and Colleges Admissions Service (UCAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Accept Offers"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After reviewing your application, universities may make unconditional or conditional offers. fulfill any requirements for documentation or academics."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Make Accommodation and Funding Arrangements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for living costs, housing, tuition, and any scholarship money."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Submit a Student Visa Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Apply for a Student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Go to the United Kingdom"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Attend orientation, finish the university registration process, and start your degree."
+            {
+              "step": 1,
+              "title": "Look Up Courses and Universities",
+              "desc": "Make a shortlist of colleges that offer degrees in Computer Science, Software Engineering, Artificial Intelligence, Data Science or similar fields."
+            },
+            {
+              "step": 2,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine the criteria for mathematics, approved Indian credentials, English language proficiency, and Class 12 subject requirements."
+            },
+            {
+              "step": 3,
+              "title": "Get the application materials ready.",
+              "desc": "Gather your personal statement, reference, academic records, and any English-language test results that may be needed."
+            },
+            {
+              "step": 4,
+              "title": "Use UCAS to Apply",
+              "desc": "Subject to the applicable application regulations, the majority of undergraduate applications to UK universities are sent through the Universities and Colleges Admissions Service (UCAS)."
+            },
+            {
+              "step": 5,
+              "title": "Accept Offers",
+              "desc": "After reviewing your application, universities may make unconditional or conditional offers. fulfill any requirements for documentation or academics."
+            },
+            {
+              "step": 6,
+              "title": "Make Accommodation and Funding Arrangements",
+              "desc": "Make plans for living costs, housing, tuition, and any scholarship money."
+            },
+            {
+              "step": 7,
+              "title": "Submit a Student Visa Application",
+              "desc": "Apply for a Student visa if necessary after fulfilling the requirements for admission and obtaining your Confirmation of Acceptance for Studies (CAS)."
+            },
+            {
+              "step": 8,
+              "title": "Go to the United Kingdom",
+              "desc": "Attend orientation, finish the university registration process, and start your degree."
+            },
+            {
+              "step": 1,
+              "title": "Selecting a Specialization",
+              "desc": "Choose an appropriate program, such as Computer Science, Advanced Computer Science, Software Engineering, Artificial Intelligence, Cybersecurity, or Data Science."
+            },
+            {
+              "step": 2,
+              "title": "Verify Academic Requirements",
+              "desc": "Verify if the university's prerequisites are met by your bachelor's degree, academic standing, programming expertise, and background in mathematics."
+            },
+            {
+              "step": 3,
+              "title": "Get Your Documents Ready",
+              "desc": "When necessary, gather academic transcripts, degree certificates, passports, resumes, statements of purpose, references, and English-language test results."
+            },
+            {
+              "step": 4,
+              "title": "Apply online.",
+              "desc": "The official application platform of the institution is used to submit the majority of postgraduate taught applications."
+            },
+            {
+              "step": 5,
+              "title": "Get an Offer and Accept It",
+              "desc": "Before accepting your offer, go over any terms, deadlines, and deposit requirements."
+            },
+            {
+              "step": 6,
+              "title": "Make Accommodation and Funding Arrangements",
+              "desc": "Make plans for living expenses, tuition, and the financial documentation needed for the visa application."
+            },
+            {
+              "step": 7,
+              "title": "Submit a Student Visa Application",
+              "desc": "To finish your application, go to the official UK government guidelines and your CAS."
+            },
+            {
+              "step": 8,
+              "title": "Start Your Program",
+              "desc": "Arrive in the UK, finish your enrollment, and begin your studies."
+            }
           ]
         },
         {
@@ -570,115 +577,15 @@
           "items": [
             "The Process of Postgraduate Admission"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 1 : Selecting a Specialization"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose an appropriate program, such as Computer Science, Advanced Computer Science, Software Engineering, Artificial Intelligence, Cybersecurity, or Data Science."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Verify Academic Requirements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if the university's prerequisites are met by your bachelor's degree, academic standing, programming expertise, and background in mathematics."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Get Your Documents Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "When necessary, gather academic transcripts, degree certificates, passports, resumes, statements of purpose, references, and English-language test results."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4 : Apply online."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The official application platform of the institution is used to submit the majority of postgraduate taught applications."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5: Get an Offer and Accept It"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Before accepting your offer, go over any terms, deadlines, and deposit requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Make Accommodation and Funding Arrangements"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make plans for living expenses, tuition, and the financial documentation needed for the visa application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Submit a Student Visa Application"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "To finish your application, go to the official UK government guidelines and your CAS."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Start Your Program"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Arrive in the UK, finish your enrollment, and begin your studies."
-          ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "UK Computer Science Accreditation and Professional Recognition",
-      "eyebrow": "Course Guide",
+      "lead": "Career advancement in software engineering, computing, IT systems, cybersecurity and allied technical sectors might be aided by professional recognition.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Career advancement in software engineering, computing, IT systems, cybersecurity and allied technical sectors might be aided by professional recognition."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -733,15 +640,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for UK Computer Science Graduates",
-      "eyebrow": "Career & Prospects",
+      "lead": "A job in software development, financial technology, cybersecurity, data analytics, artificial intelligence, cloud computing, and digital services is available to graduates of computer science programs.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "A job in software development, financial technology, cybersecurity, data analytics, artificial intelligence, cloud computing, and digital services is available to graduates of computer science programs."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -776,11 +679,28 @@
             "The administrator of the database",
             "Systems Analyst",
             "The UX Engineer",
-            "Research Engineer",
-            "Professional or Graduate | £25,000–£35,000",
-            "Professional with two to five years of experience | £35,000 to £55,000",
-            "Professional with Experience in Computing | £45,000–£70,000",
-            "Technology Manager or Senior Specialist | £65,000–£100,000+"
+            "Research Engineer"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Professional or Graduate",
+              "d": "£25,000–£35,000"
+            },
+            {
+              "t": "Professional with two to five years of experience",
+              "d": "£35,000 to £55,000"
+            },
+            {
+              "t": "Professional with Experience in Computing",
+              "d": "£45,000–£70,000"
+            },
+            {
+              "t": "Technology Manager or Senior Specialist",
+              "d": "£65,000–£100,000+"
+            }
           ]
         },
         {
@@ -815,15 +735,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed in the UK to Pursue Computer Science Education",
-      "eyebrow": "Course Guide",
+      "lead": "The documents needed vary depending on the applicant's circumstances, university, and degree level.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The documents needed vary depending on the applicant's circumstances, university, and degree level."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -860,10 +776,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Applications"
-          ]
+          "t": "h4",
+          "text": "Documents for Applications"
         },
         {
           "t": "ul",
@@ -881,10 +795,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents related to finances and visas"
-          ]
+          "t": "h4",
+          "text": "Documents related to finances and visas"
         },
         {
           "t": "ul",
@@ -898,112 +810,8 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "In the UK, how long does it take to finish a degree in computer science?",
-              "a": "In England, Wales, and Northern Ireland, undergraduate degrees typically take three years, while certain programs require four. Many honors bachelor's degrees in Scotland require four years to complete. Master's degrees that are taught full-time typically take a year."
-            },
-            {
-              "q": "After Class 12, are Indian students able to pursue computer science studies in the UK?",
-              "a": "Yes . After Class 12, Indian students who fulfill the academic, subject, and English language requirements of the university can apply for undergraduate Computer Science programmes. A foundation program or another recognized qualification may be required by some universities."
-            },
-            {
-              "q": "Is it possible for students without a background in computer science to apply for an MSc in computer science in the UK?",
-              "a": "Yes, several universities provide graduates from other fields with admission or conversion pathways. Advanced programs, however, might call for a degree in computing, programming, or mathematics. Before applying, confirm the precise prerequisites for admission."
-            },
-            {
-              "q": "How much does it cost to study computer science in the UK?",
-              "a": "The annual cost of international undergraduate tuition might be anywhere from £18,000 to £35,000 or more, while postgraduate tuition can be anywhere from £20,000 to £40,000 or more. Living costs are extra and differ depending on the city and way of living."
-            },
-            {
-              "q": "What kinds of jobs are accessible in the UK after completing a computer science degree?",
-              "a": "Graduates can work as Network Engineers, Software Developers, Software Engineers, Data Analysts, Data Scientists, AI Engineers, Cybersecurity Analysts, and Cloud Engineers. Technical proficiency, experience, specialization, and company needs all influence career options."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students may choose appropriate colleges, comprehend entrance standards, organize application materials, and arrange their study abroad experience with the assistance of Edu Hawk worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Cambridge University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Cambridge_University.webp"
-    },
-    {
-      "name": "Londons Imperial College",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Londons_Imperial_College.webp"
-    },
-    {
-      "name": "Londons University College",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Londons_University_College.webp"
-    },
-    {
-      "name": "University of Oxford",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "University_of_Oxford.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying Computer Science in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
       "q": "In the UK, how long does it take to finish a degree in computer science?",
@@ -1029,5 +837,10 @@
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students may choose appropriate colleges, comprehend entrance standards, organize application materials, and arrange their study abroad experience with the assistance of Edu Hawk worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Computer Science in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical ",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

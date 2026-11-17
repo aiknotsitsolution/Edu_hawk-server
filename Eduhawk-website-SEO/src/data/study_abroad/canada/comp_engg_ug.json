@@ -1,14 +1,29 @@
 {
   "seo": {
     "title": "Computer Engineering - UG in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Computer Engineering - UG in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study Computer Engineering - UG in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Study Computer Engineering in Canada",
+      "Computer Engineering in Canada for Indian Students",
+      "Undergraduate Computer Engineering Courses in Canada",
+      "Computer Engineering Colleges in Canada",
+      "Best Universities for Computer Engineering in Canada",
+      "Computer Engineering Admission Requirements in Canada",
+      "Computer Engineering Eligibility After Class 12",
+      "Study Computer Engineering in Canada After 12th",
+      "Bachelor of Computer Engineering in Canada",
+      "Computer Engineering Tuition Fees in Canada",
+      "Cost of Studying Computer Engineering in Canada",
+      "Computer Engineering Scholarships in Canada",
+      "Computer Engineering Career Opportunities in Canada"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "Indian Students Guide to Studying Computer Engineering in Canada",
-    "subtitle": "Indian students interested in computer engineering in Canada, which includes computer hardware, software systems, embedded technology, computer networks, robotics, and intelligent computing frequently travel to Canada. Electrical engineering, computer architecture, programming, mathematics and hardware-software integration are all combined in undergraduate computer engineering curricula.",
+    "subtitle": "Indian Students Guide to Studying Computer Engineering in Canada",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_McGill_University-image4.png"
   },
   "stats": [
     {
@@ -35,53 +50,673 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "Indian students interested in computer engineering in Canada, which includes computer hardware, software systems, embedded technology, computer networks, robotics, and intelligent computing frequently travel to Canada. Electrical engineering, computer architecture, programming, mathematics and hardware-software integration are all combined in undergraduate computer engineering curricula.\n\nEdu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  "overview": [
+    "Indian students interested in computer engineering in Canada , which includes computer hardware, software systems, embedded technology, computer networks, robotics, and intelligent computing frequently travel to Canada. Electrical engineering, computer architecture, programming, mathematics and hardware-software integration are all combined in undergraduate computer engineering curricula.",
+    "Build a solid foundation in computer architecture, digital systems, electronics, programming and engineering mathematics with a quality education.",
+    "Practical Learning through undergraduate computer engineering programs in Canada take part in lab sessions, design projects, hardware development and system testing."
+  ],
   "universities": [
+    {
+      "name": "McGill University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_comp_engg_ug_McGill_University-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_McGill_University-image4.png",
+      "desc": "McGill University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
     {
       "name": "University of British Columbia",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_British_Columbia-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_British_Columbia-image1.png",
+      "desc": "University of British Columbia is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Toronto",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_Toronto-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_Toronto-image2.png",
+      "desc": "University of Toronto is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "University of Waterloo",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_Waterloo_-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_Waterloo_-image3.png",
+      "desc": "University of Waterloo is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Study Computer Engineering in Canada?",
+      "lead": "Indian students interested in computer engineering in Canada , which includes computer hardware, software systems, embedded technology, computer networks, robotics, and intelligent computing frequently travel to Canada. Electrical engineering, computer architecture, programming, mathematics and hardware-software integration are all combined in undergraduate computer engineering curricula.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Key advantages Studying Computer Engineering in Canada"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Build a solid foundation in computer architecture, digital systems, electronics, programming and engineering mathematics with a quality education.",
+            "Practical Learning through undergraduate computer engineering programs in Canada take part in lab sessions, design projects, hardware development and system testing.",
+            "Opportunities for Co-ops and Internships: To help students obtain real-world industry experience, a few colleges provide co-ops and work-integrated learning.",
+            "Examine embedded systems, robotics, computer networks, artificial intelligence hardware, and cybersecurity-related technologies in this technology-focused curriculum.",
+            "Develop abilities that are applicable to technology firms, electronics manufacturers, telecommunications corporations, and engineering organizations through industry exposure.",
+            "Research Opportunities: Students who meet the requirements can work on projects involving computer systems, smart gadgets, and cutting-edge computing technologies.",
+            "Graduates can pursue master's degrees in computer engineering, electrical engineering, robotics, artificial intelligence, or related subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        }
+      ]
     },
     {
-      "name": "McGill University",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Courses in Computer Engineering in Canada",
+      "lead": "A wide range of undergraduate computer engineering courses in Canada are available at Canadian universities, including programs in computer systems and electronics and specialized engineering degrees.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Computer Engineering Bachelor of Applied Science",
+            "Computer Engineering Bachelor of Engineering",
+            "Electrical and computer engineering bachelor's degree",
+            "Bachelor of Engineering in Software Engineering",
+            "Electrical Engineering Bachelor of Applied Science",
+            "Mechatronics engineering bachelor's degree",
+            "Computer Systems Engineering Bachelor of Engineering",
+            "Systems Design Engineering Bachelor of Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each university has different exact degree names and durations. Before students choose computer engineering as their specialty, several universities provide a generic first-year engineering curriculum."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before selecting a program, Indian students who want to study computer engineering in Canada after Class 12 should evaluate degree structures, entrance requirements, lab facilities, and available specializations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Canada's Top Computer Engineering Universities",
+      "lead": "Undergraduate degrees in computer engineering or closely related engineering programs are offered by a number of Canadian universities. Opportunities to study computer architecture, digital systems, electronics, embedded computing, and related technical subjects are offered by these institutions.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University of Toronto - Bachelor of Applied Science in Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Waterloo - Bachelor of Applied Science in Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of British Columbia - Computer Engineering within Electrical and Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "McGill University - Bachelor of Engineering in Computer Engineering"
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "McGill University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_comp_engg_ug_McGill_University-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_McGill_University-image4.png",
+          "desc": "McGill University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of British Columbia",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_British_Columbia-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_British_Columbia-image1.png",
+          "desc": "University of British Columbia is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Toronto",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_Toronto-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_Toronto-image2.png",
+          "desc": "University of Toronto is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Waterloo",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_Waterloo_-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_University_of_Waterloo_-image3.png",
+          "desc": "University of Waterloo is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Computer Engineering Study in Canada",
+      "lead": "After completing Class 12, Indian students who meet the academic and subject standards of the institution are able to apply for computer engineering programs in Canada.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Educational requirements -"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completion of a recognized Indian education board's Class 12.",
+            "Mathematics, Physics. Chemistry, if the university requires it.",
+            "Proficiency in English or a recognized English language credential.",
+            "Academic scores that satisfy the minimal standards for admission to the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Strong performance in mathematics and physics is very helpful because computer engineering requires a lot of arithmetic. Grades considerably beyond their minimum eligibility requirements may be required by competitive universities."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Computer Engineering Subject Requirements"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Mathematics, Physics are usually required.",
+            "Chemistry - Numerous engineering programs require it",
+            "English is frequently needed for language evaluation or admission.",
+            "Informatics or computer science - Beneficial but typically not required for every program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates should confirm that the specific combination of their Class 12 subjects satisfies the standards of the universities they have chosen."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Additional Eligibility Factors"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Students enrolled in CBSE, CISCE, or accredited state board programs are evaluated in accordance with the national entrance requirements of each university.",
+            "Prior to specialization, several colleges accept candidates into a common first-year engineering curriculum.",
+            "Transcripts from the university and thorough course descriptions may be required of transfer students.",
+            "Separate policies may be used to evaluate Advanced Placement or International Baccalaureate credentials.",
+            "Certain programs may require additional exams, supplemental applications, or interviews."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Particularly at competitive universities, fulfilling the eligibility requirements for computer engineering in Canada does not ensure admission. Before submitting an application, candidates should review the most recent requirements for overseas students."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Computer Engineering Admission Requirements in Canada",
+      "lead": "Each university has different admission criteria for computer engineering in Canada",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic achievement, necessary courses, English language competency and any other application requirements are typically evaluated by universities."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completion of a recognized secondary school qualification - Class 12 Qualification",
+            "Academic transcripts - grade sheets for grades 10 and 12 or comparable documents",
+            "The majority of computer engineering programs require mathematics.",
+            "The majority of computer engineering programs require physics.",
+            "Chemistry - Numerous universities require it"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "English Language Proficiency",
+              "d": "TOEFL iBT, IELTS Academic or another recognized exam, if necessary"
+            },
+            {
+              "t": "Interview or Evaluation",
+              "d": "May be applicable to specific programs"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Minimum Academic Grades - Overall and subject requirements unique to the university",
+            "Supplemental Application - Some colleges and competitive programs need it",
+            "Personal Statement - Could be asked for in an additional application",
+            "Recommendation letters are only necessary for some programs or in particular admission situations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The application fee varies depending on the application system and the institution."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "IELTS Academic, TOEFL iBT, and other authorized English language assessments are accepted by Canadian universities. Institutions and programs have different minimum scores and exemption criteria."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Instead of depending on a single test result for each university, Indian applicants should review the current English language requirements for studying engineering in Canada. Depending on the applicant's educational history and the university's standards, certain schools may grant exemptions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The Cost of computer engineering education in Canada",
+      "lead": "The university, province, city and tuition structure all affect how much it costs for Indian students to study computer engineering in Canada. Additional laboratory, student service, or course-related costs may also apply to engineering programs.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Projected Annual Costs for Foreign Students"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Tuition Costs - CAD 35,000–75,000+",
+            "Lodging - CAD 10,000–24,000",
+            "Food and groceries - CAD 3,600–7,200",
+            "Local Transportation - CAD 1,000–2,400",
+            "Study materials, software and books - CAD 800–1,800",
+            "Personal Expenses and Health Insurance - CAD 2,000–5,000",
+            "Average Annual Total - CAD 52,400–115,400+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These numbers are not official university quotes; rather, they represent general planning estimations. Depending on the school, city, lodging options, and yearly tuition adjustments, actual costs could be greater or lower."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure for Computer Engineering in Canada",
+      "lead": "After Class 12, Indian students can apply for computer engineering admission in Canada by following these steps.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select Your Program",
+              "desc": "Choose between studying software engineering, electrical and computer engineering, computer systems engineering, or computer engineering."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of colleges",
+              "desc": "Examine tuition costs, course designs, labs, co-ops, specializations, and locations."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Academic Qualifications",
+              "desc": "Examine the prerequisites for math, physics, chemistry, English, and academic grades at each university."
+            },
+            {
+              "step": 4,
+              "title": "Verify Your English Language Proficiency",
+              "desc": "Determine the minimal scores and approved English language assessments. If necessary, set up a test."
+            },
+            {
+              "step": 5,
+              "title": "Get Your Documents Ready",
+              "desc": "Gather transcripts, passport information, academic credentials, language test results, and further application materials."
+            },
+            {
+              "step": 6,
+              "title": "Send in Your Applications",
+              "desc": "Apply using the appropriate provincial application system or the official admissions portal of each university."
+            },
+            {
+              "step": 7,
+              "title": "Fulfill Additional Requirements",
+              "desc": "Send in any additional paperwork, personal statements, or other information that the institution requests."
+            },
+            {
+              "step": 8,
+              "title": "Examine Your Offer of Admission",
+              "desc": "Verify the degree title, requirements for admission, cost of tuition, deadline for deposits, and details on scholarships."
+            },
+            {
+              "step": 9,
+              "title": "Set Up Funding",
+              "desc": "Make a budget that accounts for living expenditures, travel, insurance, tuition, and other expenses."
+            },
+            {
+              "step": 10,
+              "title": "Submit an application for a study permit in Canada",
+              "desc": "Prepare the necessary supporting documentation and adhere to the most recent guidelines provided by Immigration, Refugees and Citizenship Canada (IRCC)."
+            },
+            {
+              "step": 11,
+              "title": "Get Ready to Arrive",
+              "desc": "Make travel, lodging, health insurance and university enrollment arrangements."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students have more time to prepare paperwork, fulfill deadlines, evaluate offers, and set up funds if they begin the Canadian university application process for computer engineering early."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Professional Recognition and Accreditation",
+      "lead": "When choosing an engineering degree, accreditation is crucial, particularly for those who might want to pursue professional engineering registration in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Accreditation of Engineering Programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Through its accreditation system, Engineers Canada grants accreditation to qualified undergraduate engineering programs. The academic requirement of the Canadian professional engineering license pathway can be met in part by earning an authorized engineering degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify the program's accreditation status and whether it applies to the appropriate graduation year before accepting an offer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Licensure for Professional Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A computer engineering degree in Canada is not a requirements for becoming a licensed Professional Engineer (P.Eng)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each province or territory has different licensing requirements, which could include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A respectable educational background.",
+            "Work experience in engineering that is relevant.",
+            "Evaluation of ethical and professional competence.",
+            "Exams or other evaluations that are necessary.",
+            "Submit an application to the appropriate provincial or territorial authority."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many entry-level jobs in technology and computer engineering may not require a P.Eng. right away. signing up. However, according to relevant provincial regulations, certain professional engineering duties could call for a license."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Pay and career opportunities for Computer Engineers in Canada",
+      "lead": "Careers in hardware development, embedded systems, electronics, telecommunications, computing infrastructure, automation, and allied technical disciplines are available to graduates of computer engineering programs in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Employment Prospects Following Computer Engineering"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Hardware Engineer for Computers",
+            "Engineer for Embedded Systems",
+            "Engineer for Computer Systems",
+            "Engineer for Firmware",
+            "Engineer for Hardware Verification",
+            "Engineer in Electronics",
+            "The Network Engineer",
+            "Engineer for Robotics",
+            "Engineer for Telecommunications",
+            "A developer of software",
+            "Engineer for Cybersecurity",
+            "Research Assistant in Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expectations for Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In Canada, the pay for computer engineers varies by job title, province, employer, experience, technical skills, and type of work. Positions in networking, cybersecurity, embedded systems, hardware, and software may pay differently."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed",
+      "lead": "Different documentation may be needed by Canadian immigration officials and universities. Candidates should create distinct checklists for their study permit application and university admission.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Documents for University Applications"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A current passport.",
+            "The certificate and mark sheet for Class 10.",
+            "Mark sheets and certificates for Class 12, or anticipated grades if approved.",
+            "Academic records.",
+            "Results of any necessary English language proficiency tests.",
+            "The application for a university.",
+            "Confirmation of application fee payment.",
+            "If necessary, a further application or personal statement.",
+            "Letters of recommendation, upon request.",
+            "Information about any other academic credentials that may be relevant.",
+            "Scholarship application materials, if necessary."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Preparing Documents for Study Permits"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents may contain the following, depending on the student's situation and current"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "immigration regulations:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid travel document or passport.",
+            "The Canadian institution's admission letter.",
+            "Evidence of funding.",
+            "If necessary and not exempt, a provincial or territorial attestation letter (PAL/TAL).",
+            "Examine the application forms and supporting documentation for permits.",
+            "Biometrics, if necessary.",
+            "A medical checkup or extra paperwork, if immigration authorities demand it."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before applying, students should review the most recent university and Canadian immigration regulations. The specific documents needed to study computer engineering in Canada vary depending on the school chosen, the student's situation, and the regulations in place at the time of application."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "After Class 12, are Indian students able to pursue computer engineering studies in Canada?",
+      "a": "Indeed. If they fulfill the academic, math, physics, and other subject requirements of the university, Indian students can apply to undergraduate computer engineering programs in Canada after Class 12.",
       "question": "After Class 12, are Indian students able to pursue computer engineering studies in Canada?",
-      "answer": "Indeed. If they fulfill the academic, math, physics, and other subject requirements of the university, Indian students can apply to **undergraduate computer engineering programs in Canada after Class 12**."
+      "answer": "Indeed. If they fulfill the academic, math, physics, and other subject requirements of the university, Indian students can apply to undergraduate computer engineering programs in Canada after Class 12."
     },
     {
+      "q": "Is JEE a prerequisite for admission to computer engineering programs in Canada?",
+      "a": "JEE is typically not a prerequisite for admission to Canadian colleges. Academic achievement in Class 12 and university-specific requirements are typically used to determine admission. Students should constantly review the prerequisites of the universities they have selected.",
       "question": "Is JEE a prerequisite for admission to computer engineering programs in Canada?",
       "answer": "JEE is typically not a prerequisite for admission to Canadian colleges. Academic achievement in Class 12 and university-specific requirements are typically used to determine admission. Students should constantly review the prerequisites of the universities they have selected."
     },
     {
+      "q": "How long does computer engineering take in Canada?",
+      "a": "It typically takes four years to complete an undergraduate degree in computer engineering. Options like co-ops or internships could increase the overall time.",
       "question": "How long does computer engineering take in Canada?",
       "answer": "It typically takes four years to complete an undergraduate degree in computer engineering. Options like co-ops or internships could increase the overall time."
     },
     {
+      "q": "How much does it cost Indian students to study computer engineering in Canada?",
+      "a": "As a general planning estimate, living expenditures and tuition might come to at least CAD 52,400–115,400 annually. The actual costs differ depending on the program, city, and university.",
       "question": "How much does it cost Indian students to study computer engineering in Canada?",
-      "answer": "As a general planning estimate, living expenditures and tuition might come to at least CAD 52,400-115,400 annually. The actual costs differ depending on the program, city, and university. Q 5. After earning my computer engineering degree, can I get employment in Canada? Graduates can work in computing, electronics, embedded systems, hardware development, telecommunications, and related fields. The student's circumstances, employer needs, and the immigration laws in force at the time of application all affect their eligibility for employment and post-graduation work permits. A Canadian degree does not ensure employment, a work permit, or long-term residency. Q 6. Which Canadian institutions provide the top computer engineering programs? The University of Toronto, University of Waterloo, University of British Columbia, McGill University, University of Alberta, McMaster University, and Carleton University are among the universities that offer computer engineering or programs closely linked to it. Before making a decision, students should examine program specifics, entrance requirements, tuition costs, and accreditation."
+      "answer": "As a general planning estimate, living expenditures and tuition might come to at least CAD 52,400–115,400 annually. The actual costs differ depending on the program, city, and university."
     },
     {
+      "q": "Q 5. After earning my computer engineering degree, can I get employment in Canada?",
+      "a": "Graduates can work in computing, electronics, embedded systems, hardware development, telecommunications, and related fields. The student's circumstances, employer needs, and the immigration laws in force at the time of application all affect their eligibility for employment and post-graduation work permits.",
+      "question": "Q 5. After earning my computer engineering degree, can I get employment in Canada?",
+      "answer": "Graduates can work in computing, electronics, embedded systems, hardware development, telecommunications, and related fields. The student's circumstances, employer needs, and the immigration laws in force at the time of application all affect their eligibility for employment and post-graduation work permits."
+    },
+    {
+      "q": "Q 6. Which Canadian institutions provide the top computer engineering programs?",
+      "a": "The University of Toronto, University of Waterloo, University of British Columbia, McGill University, University of Alberta, McMaster University, and Carleton University are among the universities that offer computer engineering or programs closely linked to it. Before making a decision, students should examine program specifics, entrance requirements, tuition costs, and accreditation.",
+      "question": "Q 6. Which Canadian institutions provide the top computer engineering programs?",
+      "answer": "The University of Toronto, University of Waterloo, University of British Columbia, McGill University, University of Alberta, McMaster University, and Carleton University are among the universities that offer computer engineering or programs closely linked to it. Before making a decision, students should examine program specifics, entrance requirements, tuition costs, and accreditation."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
       "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
-      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. Study Computer Engineering in Canada Computer Engineering in Canada for Indian Students Undergraduate Computer Engineering Courses in Canada Computer Engineering Colleges in Canada Best Universities for Computer Engineering in Canada Computer Engineering Admission Requirements in Canada Computer Engineering Eligibility After Class 12 Study Computer Engineering in Canada After 12th Bachelor of Computer Engineering in Canada Computer Engineering Tuition Fees in Canada Cost of Studying Computer Engineering in Canada Computer Engineering Scholarships in Canada Computer Engineering Career Opportunities in Canada"
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to pursue computer engineering studies in Canada?",
+      "a": "Indeed. If they fulfill the academic, math, physics, and other subject requirements of the university, Indian students can apply to undergraduate computer engineering programs in Canada after Class 12.",
+      "question": "After Class 12, are Indian students able to pursue computer engineering studies in Canada?",
+      "answer": "Indeed. If they fulfill the academic, math, physics, and other subject requirements of the university, Indian students can apply to undergraduate computer engineering programs in Canada after Class 12."
+    },
+    {
+      "q": "Is JEE a prerequisite for admission to computer engineering programs in Canada?",
+      "a": "JEE is typically not a prerequisite for admission to Canadian colleges. Academic achievement in Class 12 and university-specific requirements are typically used to determine admission. Students should constantly review the prerequisites of the universities they have selected.",
+      "question": "Is JEE a prerequisite for admission to computer engineering programs in Canada?",
+      "answer": "JEE is typically not a prerequisite for admission to Canadian colleges. Academic achievement in Class 12 and university-specific requirements are typically used to determine admission. Students should constantly review the prerequisites of the universities they have selected."
+    },
+    {
+      "q": "How long does computer engineering take in Canada?",
+      "a": "It typically takes four years to complete an undergraduate degree in computer engineering. Options like co-ops or internships could increase the overall time.",
+      "question": "How long does computer engineering take in Canada?",
+      "answer": "It typically takes four years to complete an undergraduate degree in computer engineering. Options like co-ops or internships could increase the overall time."
+    },
+    {
+      "q": "How much does it cost Indian students to study computer engineering in Canada?",
+      "a": "As a general planning estimate, living expenditures and tuition might come to at least CAD 52,400–115,400 annually. The actual costs differ depending on the program, city, and university.",
+      "question": "How much does it cost Indian students to study computer engineering in Canada?",
+      "answer": "As a general planning estimate, living expenditures and tuition might come to at least CAD 52,400–115,400 annually. The actual costs differ depending on the program, city, and university."
+    },
+    {
+      "q": "Q 5. After earning my computer engineering degree, can I get employment in Canada?",
+      "a": "Graduates can work in computing, electronics, embedded systems, hardware development, telecommunications, and related fields. The student's circumstances, employer needs, and the immigration laws in force at the time of application all affect their eligibility for employment and post-graduation work permits.",
+      "question": "Q 5. After earning my computer engineering degree, can I get employment in Canada?",
+      "answer": "Graduates can work in computing, electronics, embedded systems, hardware development, telecommunications, and related fields. The student's circumstances, employer needs, and the immigration laws in force at the time of application all affect their eligibility for employment and post-graduation work permits."
+    },
+    {
+      "q": "Q 6. Which Canadian institutions provide the top computer engineering programs?",
+      "a": "The University of Toronto, University of Waterloo, University of British Columbia, McGill University, University of Alberta, McMaster University, and Carleton University are among the universities that offer computer engineering or programs closely linked to it. Before making a decision, students should examine program specifics, entrance requirements, tuition costs, and accreditation.",
+      "question": "Q 6. Which Canadian institutions provide the top computer engineering programs?",
+      "answer": "The University of Toronto, University of Waterloo, University of British Columbia, McGill University, University of Alberta, McMaster University, and Carleton University are among the universities that offer computer engineering or programs closely linked to it. Before making a decision, students should examine program specifics, entrance requirements, tuition costs, and accreditation."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+      "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ]
 }

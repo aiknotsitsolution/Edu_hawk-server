@@ -18,7 +18,6 @@ import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
     "Mauritius",
     "Denmark",
     "Sweden",
-    "Other",
   ];
 
 const Navbar = () => {
@@ -31,6 +30,7 @@ const Navbar = () => {
   const [openSection, setOpenSection] = useState(null);
   // Mobile nested toggles
   const [isEngineeringOpen, setIsEngineeringOpen] = useState(false);
+  const [isEngFlyoutPinned, setIsEngFlyoutPinned] = useState(false);
   const [isBusinessOpen, setIsBusinessOpen] = useState(false);
 
   // Helper to detect country from URL
@@ -425,7 +425,7 @@ const Navbar = () => {
     },
     {
       name: "News",
-      path: "/blog",
+      path: "/news",
       icon: "M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z",
     },
   ];
@@ -592,49 +592,51 @@ const Navbar = () => {
 
               {/* Mega Menu Panel - Country Sidebar + Original Courses */}
               <div
-                className={`absolute left-1/2 -translate-x-1/2 top-full mt-3 w-[1200px] max-w-[95vw] bg-white rounded-2xl shadow-2xl border border-gray-100 transition-all duration-200 z-50 overflow-hidden ${
+                className={`absolute left-1/2 -translate-x-1/2 top-full mt-3 w-[1200px] max-w-[95vw] bg-white rounded-2xl shadow-2xl border border-gray-100 transition-all duration-200 z-50 ${
                   isStudyAbroadOpen
                     ? "opacity-100 visible"
                     : "opacity-0 invisible group-hover:opacity-100 group-hover:visible"
                 }`}
               >
-                <div className="flex min-h-[480px]">
+                <div className="flex h-[390px]">
                   {/* ========== LEFT SIDEBAR - Countries ========== */}
-                  <div className="w-44 bg-[#1e293b] text-white shrink-0 flex flex-col py-2">
+                  <div className="w-44 bg-[#1e293b] text-white shrink-0 flex flex-col py-2 rounded-l-2xl border-r border-slate-800">
                     <a
                       href="/study-abroad"
-                      className="px-4 py-2 text-[12px] font-semibold text-amber-400 hover:bg-slate-700/60 transition-colors border-b border-slate-700/60 mb-1 flex items-center justify-between"
+                      className="px-4 py-2 text-[12px] font-semibold text-amber-400 hover:bg-slate-700/60 transition-colors border-b border-slate-700/60 mb-1 flex items-center justify-between shrink-0"
                     >
                       <span>All Countries</span>
                       <span className="text-xs">→</span>
                     </a>
-                    {studyAbroadCountries.map((country) => (
-                      <button
-                        key={country}
-                        onClick={() => setSelectedCountry(country)}
-                        onMouseEnter={() => setSelectedCountry(country)}
-                        className={`w-full text-left px-4 py-3 text-sm font-medium flex items-center justify-between transition-colors ${
-                          selectedCountry === country
-                            ? "bg-[#334155] text-white"
-                            : "text-gray-300 hover:bg-[#334155] hover:text-white"
-                        }`}
-                      >
-                        <span>{country}</span>
-                        <svg
-                          className="w-3.5 h-3.5 opacity-70"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
+                    <div className="flex-1 overflow-y-auto country-scroll pr-0.5">
+                      {studyAbroadCountries.map((country) => (
+                        <button
+                          key={country}
+                          onClick={() => setSelectedCountry(country)}
+                          onMouseEnter={() => setSelectedCountry(country)}
+                          className={`w-full text-left px-4 py-2 text-sm font-medium flex items-center justify-between transition-colors ${
+                            selectedCountry === country
+                              ? "bg-[#334155] text-white"
+                              : "text-gray-300 hover:bg-[#334155] hover:text-white"
+                          }`}
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M9 5l7 7-7 7"
-                          />
-                        </svg>
-                      </button>
-                    ))}
+                          <span>{country}</span>
+                          <svg
+                            className="w-3.5 h-3.5 opacity-70"
+                            fill="none"
+                            stroke="currentColor"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth={2}
+                              d="M9 5l7 7-7 7"
+                            />
+                          </svg>
+                        </button>
+                      ))}
+                    </div>
                   </div>
 
                   {/* ========== RIGHT CONTENT - Original Courses (same for every country) ========== */}
@@ -696,11 +698,12 @@ const Navbar = () => {
                           </h4>
                         </div>
                         <ul className="space-y-0.5">
-                          {/* Engineering → UG & PG → Branches */}
+                          {/* Engineering → UG & PG → Branches (click toggles submenu, no redirect) */}
                           <li className="relative group/eng">
-                            <a
-                              href={getCourseHref("engineering", "/courses")}
-                              className="flex items-center justify-between gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item"
+                            <button
+                              type="button"
+                              onClick={() => setIsEngFlyoutPinned(!isEngFlyoutPinned)}
+                              className="w-full flex items-center justify-between gap-2.5 px-2 py-1.5 rounded-lg text-[#2F327D] hover:bg-orange-50 hover:text-[#F48C06] transition-colors group/item cursor-pointer"
                             >
                               <div className="flex items-center gap-2.5">
                                 <span className="w-6 h-6 rounded-md bg-orange-50 flex items-center justify-center text-[#F48C06] group-hover/item:bg-[#F48C06] group-hover/item:text-white transition-colors shrink-0">
@@ -723,7 +726,9 @@ const Navbar = () => {
                                 </span>
                               </div>
                               <svg
-                                className="w-3.5 h-3.5 text-gray-400 group-hover/eng:text-[#F48C06] transition-transform group-hover/eng:rotate-90"
+                                className={`w-3.5 h-3.5 text-gray-400 group-hover/eng:text-[#F48C06] transition-transform group-hover/eng:rotate-90 ${
+                                  isEngFlyoutPinned ? "rotate-90" : ""
+                                }`}
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
@@ -735,9 +740,15 @@ const Navbar = () => {
                                   d="M9 5l7 7-7 7"
                                 />
                               </svg>
-                            </a>
+                            </button>
                             {/* Level 1: UG & PG */}
-                            <div className="absolute left-full top-0 ml-1 w-52 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/eng:opacity-100 group-hover/eng:visible transition-all duration-200 z-50 py-2">
+                            <div
+                              className={`absolute left-full top-0 ml-1 w-52 bg-white rounded-xl shadow-xl border border-gray-100 transition-all duration-200 z-50 py-2 ${
+                                isEngFlyoutPinned
+                                  ? "opacity-100 visible"
+                                  : "opacity-0 invisible group-hover/eng:opacity-100 group-hover/eng:visible"
+                              }`}
+                            >
                               {/* UG */}
                               <div className="relative group/ug">
                                 <a
@@ -799,7 +810,7 @@ const Navbar = () => {
                                   </svg>
                                 </a>
                                 {/* Level 2: PG Branches */}
-                                <div className="absolute left-full top-0 ml-1 w-60 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/pg:opacity-100 group-hover/pg:visible transition-all duration-200 z-50 py-2">
+                                <div className="absolute left-full -top-8 ml-1 w-60 bg-white rounded-xl shadow-2xl border border-gray-100 opacity-0 invisible group-hover/pg:opacity-100 group-hover/pg:visible transition-all duration-200 z-50 py-2">
                                   {engineeringBranches.map((branch) => (
                                     <a
                                       key={`pg-${branch.path}`}
@@ -917,7 +928,7 @@ const Navbar = () => {
                               </svg>
                             </a>
                             {/* Nested Business Courses */}
-                            <div className="absolute left-full top-0 ml-1 w-64 bg-white rounded-xl shadow-xl border border-gray-100 opacity-0 invisible group-hover/biz:opacity-100 group-hover/biz:visible transition-all duration-200 z-50 py-2">
+                            <div className="absolute left-full -top-16 ml-1 w-64 bg-white rounded-xl shadow-2xl border border-gray-100 opacity-0 invisible group-hover/biz:opacity-100 group-hover/biz:visible transition-all duration-200 z-50 py-2">
                               {getBusinessCoursesForCountry(selectedCountry).map((course) => (
                                 <a
                                   key={course.path}
@@ -946,7 +957,6 @@ const Navbar = () => {
                             },
                             { name: "Architecture", path: "architecture" },
                             { name: "Law", path: "law" },
-                            { name: "Other Courses", path: "other-courses" },
                           ].map((course) => (
                             <li key={course.path}>
                               <a
@@ -990,7 +1000,7 @@ const Navbar = () => {
                             <li key={item.path}>
                               <a
                                 href={
-                                  item.path === "/blog"
+                                  item.path === "/news" || item.path === "/blog"
                                     ? item.path
                                     : getCourseHref(item.path.replace("/study-abroad/", ""), "/study-abroad")
                                 }
@@ -1021,7 +1031,7 @@ const Navbar = () => {
                       </div>
 
                       {/* Column 4: Tests & Exams */}
-                      <div className="pl-3">
+                      <div className="pl-3 overflow-y-auto max-h-full">
                         <div className="flex items-center gap-2 mb-3">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
                           <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
@@ -1074,7 +1084,7 @@ const Navbar = () => {
                             </button>
 
                             {openSection === "english" && (
-                              <ul className="mt-1 ml-2 space-y-0.5 border-l border-orange-100 pl-2">
+                              <ul className="mt-1 ml-2 space-y-0.5 border-l border-orange-100 pl-2 max-h-36 overflow-y-auto">
                                 {englishTests.map((test) => (
                                   <li key={test.path}>
                                     <a
@@ -1151,7 +1161,7 @@ const Navbar = () => {
                             </button>
 
                             {openSection === "foreign" && (
-                              <ul className="mt-1 ml-2 space-y-0.5 border-l border-orange-100 pl-2">
+                              <ul className="mt-1 ml-2 space-y-0.5 border-l border-orange-100 pl-2 max-h-36 overflow-y-auto">
                                 {foreignTests.map((test) => (
                                   <li key={test.path}>
                                     <a
@@ -1228,7 +1238,7 @@ const Navbar = () => {
                             </button>
 
                             {openSection === "entrance" && (
-                              <ul className="mt-1 ml-2 space-y-0.5 border-l border-orange-100 pl-2">
+                              <ul className="mt-1 ml-2 space-y-0.5 border-l border-orange-100 pl-2 max-h-36 overflow-y-auto">
                                 {entranceTests.map((test) => (
                                   <li key={test.path}>
                                     <a
@@ -1293,22 +1303,22 @@ const Navbar = () => {
                     </div>
 
                     {/* Right Promo Card */}
-                    <div className="w-[180px] bg-gradient-to-b from-[#1e3a5f] to-[#0f172a] p-5 flex flex-col justify-between text-white shrink-0">
+                    <div className="w-[180px] bg-gradient-to-b from-[#1e3a5f] to-[#0f172a] p-4 flex flex-col justify-between text-white shrink-0 rounded-r-2xl">
                       <div>
-                        <span className="inline-block px-2.5 py-1 bg-[#F48C06] text-white text-[10px] font-bold rounded-full uppercase tracking-wide mb-4">
+                        <span className="inline-block px-2.5 py-1 bg-[#F48C06] text-white text-[10px] font-bold rounded-full uppercase tracking-wide mb-3">
                           Free
                         </span>
-                        <h3 className="text-[15px] font-semibold leading-snug mb-2">
+                        <h3 className="text-[14px] font-semibold leading-snug mb-1.5">
                           Studying in {selectedCountry}?
                         </h3>
-                        <p className="text-sm text-gray-300 leading-relaxed">
+                        <p className="text-xs text-gray-300 leading-relaxed">
                           Get a free profile evaluation from an Eduhawk
                           counsellor.
                         </p>
                       </div>
                       <a
                         href={`/contact?country=${selectedCountry.toLowerCase()}`}
-                        className="mt-6 block w-full text-center bg-[#F48C06] hover:bg-[#e07b00] text-white font-semibold text-sm py-2.5 px-4 rounded-full transition-colors"
+                        className="mt-3 block w-full text-center bg-[#F48C06] hover:bg-[#e07b00] text-white font-semibold text-xs py-2 px-3 rounded-full transition-colors"
                       >
                         Book free session
                       </a>
@@ -1643,7 +1653,6 @@ const Navbar = () => {
                       "Hospitality Management",
                       "Architecture",
                       "Law",
-                      "Other Courses",
                     ].map((name) => (
                       <a
                         key={name}
@@ -1678,7 +1687,7 @@ const Navbar = () => {
                     </a>
 
                     <a
-                      href="/blog"
+                      href="/news"
                       className="block py-2.5 px-8 text-[#2F327D]"
                     >
                       News

@@ -5,10 +5,10 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Australia&#39;s postgraduate computer engineering program",
-    "subtitle": "Australia&#39;s postgraduate computer engineering program",
+    "title": "Australia's postgraduate computer engineering program",
+    "subtitle": "Advanced computing systems, computer hardware, software integration, embedded systems, networking, and intelligent technologies are the main topics of postgraduate computer engineering studies in Australia . These courses assist students in gaining technical proficiency for jobs in telecommunications, electronics, computing, and other technology-related fields.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/comp_engg_pg_Monash_University-image1.png"
   },
   "stats": [
     {
@@ -29,50 +29,625 @@
     }
   ],
   "highlights": {
-    "degree": "Master of Engineering (M.Eng / M.Sc)",
+    "degree": "Master of Engineering (Computer)",
     "duration": "1 to 2 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Australian universities deliver globally recognized postgraduate computer engineering education accredited by Engineers Australia under the Washington Accord. Students gain advanced design skills, research expertise, and international employment opportunities.",
-  "universities": [
+  "overview": [
+    "Advanced computing systems, computer hardware, software integration, embedded systems, networking, and intelligent technologies are the main topics of postgraduate computer engineering studies in Australia . These courses assist students in gaining technical proficiency for jobs in telecommunications, electronics, computing, and other technology-related fields.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
+  "sections": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "OVERVIEW OF THE COURSE",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Advanced computing systems, computer hardware, software integration, embedded systems, networking, and intelligent technologies are the main topics of postgraduate computer engineering studies in Australia . These courses assist students in gaining technical proficiency for jobs in telecommunications, electronics, computing, and other technology-related fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+          ]
+        }
+      ]
     },
     {
-      "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "WHY STUDY AUSTRALIAN COMPUTER ENGINEERING?",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Australian credentials with international recognition",
+            "Learning and engineering initiatives with an industry focus",
+            "Access to cutting-edge research facilities and computer labs",
+            "Possibilities for investigating new technology",
+            "exposure to professional and academic settings abroad",
+            "Possible job paths in the engineering and technology fields"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. COMMON COURSE CHOICES"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The following postgraduate programs are available for students to investigate:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Computer engineering master's degree",
+            "Master of Professional Engineering with a pertinent focus",
+            "Electrical and Electronic Engineering Master's degree",
+            "Mechatronic Engineering Master's",
+            "Information Technology Master's degree",
+            "Master of Cybersecurity Master of Computer Science",
+            "Master's degree in robotics and intelligent systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Note: Information technology, computer science, and computer engineering are distinct fields. Before selecting a program, students should thoroughly compare the curricula."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. COMPUTER ENGINEERING SKILLS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer hardware engineering - Computer architecture, digital systems, processors, and hardware design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded systems - Microcontrollers, real-time systems, and hardware-software integration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Artificial Intelligence and Machine Learning: Data-driven applications and intelligent computing systems, where available."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cybersecurity includes secure computing, network security, and computer system security."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer networks include connected technologies, communication systems, and network architecture."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automation and robotics : Intelligent machines, embedded computing, control systems, and sensors."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Internet of Things (IoT): Smart systems, embedded platforms, and connected devices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "VLSI and Digital Design: When accessible, integrated circuits, digital logic, and design linked to semiconductors."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The availability of electives and specializations varies by university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "Monash University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/comp_engg_pg_Monash_University-image1.png",
+          "desc": "Examine engineering postgraduate programs in telecommunications, electrical engineering, and associated computing technologies."
+        },
+        {
+          "name": "UNSW Sydney (The University of New South Wales)",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/comp_engg_pg_New_South_Wales_University-image4.png",
+          "desc": "Examine postgraduate engineering programs and pertinent electrical systems and computer specializations."
+        },
+        {
+          "name": "The University of Melbourne",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/comp_engg_pg_University_of_Melbourne-image2.png",
+          "desc": "Examine postgraduate engineering programs in computer systems, electrical engineering, and related fields."
+        },
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/comp_engg_pg_University_of_Queensland-image3.png",
+          "desc": "Examine choices for postgraduate engineering in computer systems, electrical engineering, and associated technology."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "INDIAN STUDENTS ELIGIBILITY",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Depending on the curriculum, a recognized bachelor's degree in computer science, computer engineering, electrical engineering, electronics, or a similar field.",
+            "The university's basic academic requirements.",
+            "requirements in engineering, programming, or mathematics as needed.",
+            "proof of English language competency, unless there is an exception.",
+            "extra professional or academic prerequisites for some programs.",
+            "Depending on the standards of the university, students with varied academic backgrounds might be qualified for some information technology or conversion programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. LANGUAGE AND ENGLISH REQUIREMENTS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "IELTS Academic, TOEFL iBT, PTE Academic, and other recognized exams may be accepted by universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A typical general benchmark for postgraduate study is an IELTS Academic score of about 6.5 overall, while specific programs may have varying minimum component scores or overall scores."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Always confirm the most recent English language requirements for the course you have selected."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. EXAMS FOR ENTRANCE"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate applications are often evaluated by Australian institutions on the basis of academic credentials, subject requirements, and English language competency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Not all universities require a typical admission exam."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates may require extra tests, relevant work experience, or proof of prior technical expertise, depending on the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exams like the GRE should only be taken when the chosen institution expressly requires it or recommends it."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "CURRICULUM AND COURSE DURATION",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Depending on the degree, course design, and prior academic experience, postgraduate computer engineering programs often last one to two years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fundamental Topics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The curriculum could consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Advanced Architecture for Computers",
+            "Design of Embedded Systems",
+            "Engineering of Digital Systems",
+            "Networks of Computers",
+            "Systems of Operations",
+            "Integration of Hardware and Software",
+            "Signal processing and electronics",
+            "Project management and engineering design",
+            "Methods of Research",
+            "Research Project or Capstone"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition fees",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, program length, location, and way of life all affect the overall cost."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition Fees : For the particular degree and intake, consult the most recent foreign student pricing schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living Expenses : Set aside money for lodging, food, transportation, utilities, study supplies, mobile services, and personal costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Expenses : Students should additionally think about travel, initial settling costs, visa-related fees, and Overseas Student Health Cover (OSHC)."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students who qualify may explore"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Merit grants for international students",
+            "Scholarships for academic achievement",
+            "Engineering scholarships tailored to a certain faculty",
+            "Tuition fee reductions at universities",
+            "Opportunities for qualified outside funding"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships may offer additional advantages or partially reimburse the cost of tuition. Academic achievement, course eligibility, deadlines, and specific scholarship requirements all influence awards."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify if the scholarship is evaluated automatically or if a separate application is needed."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "OPPORTUNITIES FOR CAREERS",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates might explore technical and engineering positions in the technology, communications, electronics, and computing sectors."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible Job Positions"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineer for Computer Systems",
+            "Engineer for Embedded Systems",
+            "Engineer for Hardware Design",
+            "Network Engineer; Systems Integration Engineer; Electronics Engineer; Robotics Engineer",
+            "Engineer for Firmware",
+            "Engineer for Cybersecurity",
+            "Engineer for Research and Development",
+            "Engineer for Computer Architecture",
+            "Engineer for Technical Projects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The degree, practical skills, prior experience, workplace needs, and relevant professional standards all influence career prospects."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Details",
+      "title": "ACCREDITATION AS A PROFESSION",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For students who want to work in professional engineering, accreditation could be crucial."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Verify whether the particular curriculum is recognized by an appropriate accreditation pathway or is accredited by Engineers Australia. Verify the necessary graduation year, campus, accreditation status, and course title."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional registration and employment are not always guaranteed by a qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "The admission procedure",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Select an appropriate postgraduate program in computer engineering.",
+          "desc": "Select an appropriate postgraduate program in computer engineering."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Examine prerequisite courses and academic eligibility.",
+          "desc": "Examine prerequisite courses and academic eligibility."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Evaluate scholarships, tuition costs, course offerings, and universities.",
+          "desc": "Evaluate scholarships, tuition costs, course offerings, and universities."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Prepare results in English, passport information, certifications, and academic transcripts.",
+          "desc": "Prepare results in English, passport information, certifications, and academic transcripts."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Use an authorized education agent or the university's official portal to submit the application.",
+          "desc": "Use an authorized education agent or the university's official portal to submit the application."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Examine the terms, costs, acceptance deadlines, and offer letter.",
+          "desc": "Examine the terms, costs, acceptance deadlines, and offer letter."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Finish the necessary payment and enrollment procedures.",
+          "desc": "Finish the necessary payment and enrollment procedures."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Prepare the student visa application and, if necessary, obtain the Confirmation of Enrollment (CoE).",
+          "desc": "Prepare the student visa application and, if necessary, obtain the Confirmation of Enrollment (CoE)."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Make travel, lodging, health insurance, and arrival arrangements.",
+          "desc": "Make travel, lodging, health insurance, and arrival arrangements."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "NEEDED DOCUMENTS",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Documents that are frequently needed include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Certificates for Classes 10 and 12, upon request",
+            "Certificate of bachelor's degree or temporary certificate",
+            "Marksheets and transcripts from the university; results of any necessary English language tests",
+            "updated curriculum vitae or resume",
+            "If asked, a personal statement or a statement of purpose",
+            "Letters of recommendation, if necessary",
+            "Certificates of employment or internship, if applicable; portfolio or project information, if requested",
+            "Supporting documentation for scholarships, if applicable",
+            "Extra documents that the university has specified",
+            "Institutions and programs have different requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Australian student visa",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enrolll in an appropriate full-time course, Indian students often require an Australian student visa (subclass 500)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates should check the most recent specifications regarding:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verification of Enrollment",
+            "Requirement for genuine students",
+            "Capacity to pay",
+            "Evidence in English, where appropriate",
+            "Health Coverage for International Students",
+            "Requirements for character and health",
+            "Identity and supporting documentation",
+            "The requirements for a visa are subject to change."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For up-to-date instructions, visit the official Australian Department of Home Affairs website."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps Indian students organize their postgraduate studies in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our advice could consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Shortlisting for courses and universities",
+            "Evaluation of academic eligibility",
+            "Comparison of courses and specializations",
+            "Advice on tuition and scholarships",
+            "Preparing applications and documents",
+            "Guidance on offer letters",
+            "Advice on applying for a student visa",
+            "Planning prior to departure",
+            "Universities decide who gets admitted, and the Australian government decides who gets a visa."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/comp_engg_pg_Monash_University-image1.png",
+      "desc": "Examine engineering postgraduate programs in telecommunications, electrical engineering, and associated computing technologies."
+    },
+    {
+      "name": "UNSW Sydney (The University of New South Wales)",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/comp_engg_pg_New_South_Wales_University-image4.png",
+      "desc": "Examine postgraduate engineering programs and pertinent electrical systems and computer specializations."
+    },
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/comp_engg_pg_University_of_Melbourne-image2.png",
+      "desc": "Examine postgraduate engineering programs in computer systems, electrical engineering, and related fields."
     },
     {
       "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/comp_engg_pg_University_of_Queensland-image3.png",
+      "desc": "Examine choices for postgraduate engineering in computer systems, electrical engineering, and associated technology."
     }
   ],
   "faq": [
     {
       "question": "Is it possible for Indian students to pursue graduate studies in computer engineering in Australia?",
-      "answer": "Yes, subject to the university&#39;s admission requirements, qualified Indian students may apply for postgraduate engineering programs in computer engineering or related fields."
+      "answer": "Yes, subject to the university's admission requirements, qualified Indian students may apply for postgraduate engineering programs in computer engineering or related fields."
     },
     {
       "question": "How long does a postgraduate degree in computer engineering take?",
       "answer": "Depending on the requirements and prior academic experience, many programs last between one and two years."
     },
     {
-      "question": "What kind of bachelor&#39;s degree is necessary?",
+      "question": "What kind of bachelor's degree is necessary?",
       "answer": "It can be necessary to have a degree in computer science, computer engineering, electrical engineering, electronics, or another recognized field. Program-specific requirements differ."
     },
     {
@@ -81,7 +656,29 @@
     },
     {
       "question": "Can I get a degree in artificial intelligence or cybersecurity?",
-      "answer": "Relevant courses or specializations are offered by certain postgraduate programs. The precise curriculum and accessible electives should be confirmed with the students. Keywords - Postgraduate Computer Engineering in Australia for Indian Students Best Universities for Computer Engineering in Australia Master&#39;s in Computer Engineering Fees in Australia Computer Engineering Eligibility and Admission Requirements in Australia Computer Engineering Scholarships in Australia for Indian Students Career Opportunities After a Master&#39;s in Computer Engineering in Australia"
+      "answer": "Relevant courses or specializations are offered by certain postgraduate programs. The precise curriculum and accessible electives should be confirmed with the students. Keywords - Postgraduate Computer Engineering in Australia for Indian Students Best Universities for Computer Engineering in Australia Master's in Computer Engineering Fees in Australia Computer Engineering Eligibility and Admission Requirements in Australia Computer Engineering Scholarships in Australia for Indian Students Career Opportunities After a Master's in Computer Engineering in Australia"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to pursue graduate studies in computer engineering in Australia?",
+      "a": "Yes, subject to the university's admission requirements, qualified Indian students may apply for postgraduate engineering programs in computer engineering or related fields."
+    },
+    {
+      "q": "How long does a postgraduate degree in computer engineering take?",
+      "a": "Depending on the requirements and prior academic experience, many programs last between one and two years."
+    },
+    {
+      "q": "What kind of bachelor's degree is necessary?",
+      "a": "It can be necessary to have a degree in computer science, computer engineering, electrical engineering, electronics, or another recognized field. Program-specific requirements differ."
+    },
+    {
+      "q": "Is taking the IELTS required?",
+      "a": "Proof of English competence is required by several universities. The institution determines which tests are accepted and under what circumstances."
+    },
+    {
+      "q": "Can I get a degree in artificial intelligence or cybersecurity?",
+      "a": "Relevant courses or specializations are offered by certain postgraduate programs. The precise curriculum and accessible electives should be confirmed with the students. Keywords - Postgraduate Computer Engineering in Australia for Indian Students Best Universities for Computer Engineering in Australia Master's in Computer Engineering Fees in Australia Computer Engineering Eligibility and Admission Requirements in Australia Computer Engineering Scholarships in Australia for Indian Students Career Opportunities After a Master's in Computer Engineering in Australia"
     }
   ]
 }

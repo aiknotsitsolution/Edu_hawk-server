@@ -1,77 +1,529 @@
 {
-  "seo": {
-    "title": "Computer Engineering - UG in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Computer Engineering - UG in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities."
-  },
   "hero": {
-    "badge": "Study Abroad - Spain",
     "title": "Computer Engineering in Spain for Indian Students",
-    "subtitle": "Computer Engineering in Spain for Indian Students offers an opportunity to gain technical knowledge and practical skills in computer hardware, software development, programming, computer architecture, networks and intelligent systems. Universities in Spain offer bachelor's degrees in Computer Engineering and similar fields of study, which train students to work in the technology sector, software industry, telecommunications sector, cyber security, and computing research.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Computer Engineering in Spain for Indian Students offers an opportunity to gain technical knowledge and practical skills in computer hardware, software development, programming, computer architecture, networks and intelligent systems. Universities in Spain offer bachelor's degrees in Computer Engineering and similar fields of study, which train students to work in the technology sector, software industry, telecommunications sector, cyber security, and computing research."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Computer Engineering in Spain for Indian Students offers an opportunity to gain technical knowledge and practical skills in computer hardware, software development, programming, computer architecture, networks and intelligent systems. Universities in Spain offer bachelor's degrees in Computer Engineering and similar fields of study, which train students to work in the technology sector, software industry, telecommunications sector, cyber security, and computing research.",
+    "Studying Computer Engineering in Spain is a great choice for Indian students who want to gain a strong base in computing, engineering principles, software systems, and cutting-edge technologies."
   ],
-  "highlights": {
-    "degree": "Bachelor of Engineering (B.Eng)",
-    "duration": "3 to 4 Years (UG)",
-    "fee": "€2,000 – €18,000 / Year",
-    "eligibility": "Recognised academic qualification + IELTS / TOEFL / Spanish proficiency",
-    "medium": "English & Spanish Taught"
-  },
-  "overview": "Computer Engineering in Spain for Indian Students offers an opportunity to gain technical knowledge and practical skills in computer hardware, software development, programming, computer architecture, networks and intelligent systems. Universities in Spain offer bachelor's degrees in Computer Engineering and similar fields of study, which train students to work in the technology sector, software industry, telecommunications sector, cyber security, and computing research.\n\nIn Spain, a Bachelor's in Computer Engineering typically lasts four years and is worth 240 ECTS credits. Students study subjects like programming, algorithms, databases, operating systems, computer networks, embedded systems, and software engineering. Depending on the university, they can also look into robotics, artificial intelligence, cloud computing, and cybersecurity.\n\nFor students seeking European engineering education, practical learning and the opportunity to pursue postgraduate studies in Europe, Spain can be an attractive choice. Indian students should compare the program language, admission requirements, tuition fees, qualification recognition and internship opportunities before applying.\n\nEdu-Hawk Worldwide assists students to explore the options of international education and understand the process of studying abroad by selecting the right university and admission planning.",
   "universities": [
+    {
+      "name": "Polytechnic University of Valencia",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_comp_engg_ug_Polytechnic_University_of_Valencia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_comp_engg_ug_Polytechnic_University_of_Valencia-image2.png",
+      "desc": "The Polytechnic University of Valencia has undergraduate studies in computing and related engineering areas. Students can check out the academic programs, technical courses, hands-on learning resources and graduate options. Applicants should refer to the current program catalog for the specific degree, language of instruction and the international admission requirements. web site: upv.es Programs and entry requirements are subject to change. Always check the official website of the university before you apply. Edu-Hawk Worldwide can guide students in comparing suitable university alternatives and understanding the application process."
+    },
+    {
+      "name": "Universitat Pompeu Fabra",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_comp_engg_ug_Universitat_Pompeu_Fabra-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_comp_engg_ug_Universitat_Pompeu_Fabra-image1.png",
+      "desc": "The Pompeu Fabra University offers a Bachelor's Degree in Computer Engineering lasting 4 years (240 ECTS credits). The School of Engineering also offers a study-group option for the degree taught in English and is worth considering for Indian students looking for computer engineering education in English. Official website: www.upf.edu"
+    },
     {
       "name": "UPC - Universitat Politècnica de Catalunya",
       "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Universitat Pompeu Fabra (UPF)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Polytechnic University of Valencia (UPV)",
-      "location": "Spain",
-      "fee": "€2,000 – €18,000 / Year",
-      "image": ""
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_comp_engg_ug_UPC_-_Universitat_Polit_cnica_de_Catalunya-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_comp_engg_ug_UPC_-_Universitat_Polit_cnica_de_Catalunya-image3.png",
+      "desc": "The Polytechnic University of Catalonia offers undergraduate studies in Informatics Engineering and other computing disciplines. It has degree programs in computer systems, software and information technology. The university's bachelor's degree in Informatics Engineering is included in the official qualification list of the Spanish university register. Website: upc.edu"
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Can Indian students study Computer Engineering in Spain after 12th?",
-      "answer": "Yeah. Indian students can apply after class 12, if they fulfilll the requirements of academics, qualification recognition, language and university admission."
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Computer Engineering in Spain?",
+      "lead": "Studying Computer Engineering in Spain is a great choice for Indian students who want to gain a strong base in computing, engineering principles, software systems, and cutting-edge technologies.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "The benefits are"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "European Education: Learn about the Spanish higher education system and experience international academic exposure.",
+            "Technical Curriculum: Discover programming, algorithms, computer architecture, operating systems, and database management.",
+            "Emerging Technologies: Discover artificial intelligence, robotics, cloud computing, cybersecurity, and the Internet of Things.",
+            "Practical Learning: Acquire technical abilities via lab work, projects, assignments, and internships where available.",
+            "International Experience: Experience a multicultural academic environment with the opportunity to study across Europe.",
+            "Career Opportunities: Prepare for a career in software development, networking, computer systems, information security, and technology research.",
+            "Postgraduate Study: After your bachelor's degree, go on to a related master's degree or a specialized program in computing."
+          ]
+        }
+      ]
     },
     {
-      "question": "How long does a Bachelor's Degree in Computer Engineering last in Spain?",
-      "answer": "Most bachelor programs are four years long and worth 240 ECTS credits. The length varies based on university and degree structure."
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Computer Engineering Programs in Spain",
+      "lead": "Computer Engineering in Spain for Indian Students - Students interested in can explore different undergraduate programs related to computing, software, information technology and engineering.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "CourseTypical lengthCore subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Engineering4 yearsProgramming, computer architecture, algorithms"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Informatics Engineering4 YearsSoftware, computing systems, information technologies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Software EngineeringTypically 4 yearsSoftware design, development, testing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Data EngineeringDepends on the universityDatabases, data processing, analytics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Artificial IntelligenceDepends on the universityIntelligent systems, machine learning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CybersecurityVaries by universityNetwork security, information protection"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Telecommunications Engineering4 yearsCommunication networks, signal processing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Robotics Engineer4 years (typically)Automation, control systems, programming"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many undergraduate engineering programs are four years long and worth 240 ECTS credits. However, course titles, specializations, teaching languages and duration vary by institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should compare the curriculum and practical training opportunities before choosing a program."
+          ]
+        }
+      ]
     },
     {
-      "question": "Can I study Computer Engineering in English in Spain?",
-      "answer": "Yes. Some programs offer study groups in English. For example, Pompeu Fabra University has a program in which the entire degree in Computer Engineering can be studied in English. Other universities may teach some subjects in Spanish, Catalan or a combination of languages."
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Leading Universities for Computer Engineering in Spain",
+      "lead": "Students interested in Universities of Computer Engineering in Spain should examine the academic curriculum, language of instruction, laboratory facilities, tuition fees, admission requirements, and practical learning opportunities.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Below are three universities to consider. These rankings are not global and applicants should check the most up to date program information for the intake they are considering."
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Polytechnic University of Valencia",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_comp_engg_ug_Polytechnic_University_of_Valencia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_comp_engg_ug_Polytechnic_University_of_Valencia-image2.png",
+          "desc": "The Polytechnic University of Valencia has undergraduate studies in computing and related engineering areas. Students can check out the academic programs, technical courses, hands-on learning resources and graduate options. Applicants should refer to the current program catalog for the specific degree, language of instruction and the international admission requirements. web site: upv.es Programs and entry requirements are subject to change. Always check the official website of the university before you apply. Edu-Hawk Worldwide can guide students in comparing suitable university alternatives and understanding the application process."
+        },
+        {
+          "name": "Universitat Pompeu Fabra",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_comp_engg_ug_Universitat_Pompeu_Fabra-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_comp_engg_ug_Universitat_Pompeu_Fabra-image1.png",
+          "desc": "The Pompeu Fabra University offers a Bachelor's Degree in Computer Engineering lasting 4 years (240 ECTS credits). The School of Engineering also offers a study-group option for the degree taught in English and is worth considering for Indian students looking for computer engineering education in English. Official website: www.upf.edu"
+        },
+        {
+          "name": "UPC - Universitat Politècnica de Catalunya",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_comp_engg_ug_UPC_-_Universitat_Polit_cnica_de_Catalunya-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_comp_engg_ug_UPC_-_Universitat_Polit_cnica_de_Catalunya-image3.png",
+          "desc": "The Polytechnic University of Catalonia offers undergraduate studies in Informatics Engineering and other computing disciplines. It has degree programs in computer systems, software and information technology. The university's bachelor's degree in Informatics Engineering is included in the official qualification list of the Spanish university register. Website: upc.edu"
+        }
+      ]
     },
     {
-      "question": "What is the computer engineering fees in Spain for Indian students?",
-      "answer": "Public universities may cost around €1,000-€8,000 per year (broad planning estimates) while private universities may charge more. The actual fees depend on the university, the student category and the academic year. Q5. Computer Engineering Jobs in Spain Graduates may go on to work in software development, computer systems, networking, cybersecurity, cloud computing, data engineering, and embedded systems. Additional experience or post graduate qualifications may be required for higher level roles. Edu-Hawk Worldwide: Your Launchpad to Computer Engineering Study Abroad Are you thinking of studying Computer Engineering in Spain for Indian Students ? Choosing the right university, understanding the eligibility criteria, preparing documents and completing admission formalities are the important steps toward your international education goals. Edu-Hawk Worldwide assists students to explore overseas education opportunities, understand university admission requirements, and plan their overseas education journey. Start your global education journey with Edu-Hawk Worldwide . Computer Engineering in Spain for Indian Students Studying Computer Engineering in Spain Universities of Computer Engineering in Spain Admission Requirements for Computer Engineering in Spain Computer Engineering Fees in Spain Study Computer Engineering in Spain Edu-Hawk Worldwide Counts are based on exact keyword phrases in the article body, including headings, and exclude the SEO keyword list and usage-count table."
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Who can Study Computer Engineering in Spain?",
+      "lead": "To pursue a bachelor's degree in Computer Engineering in India, students need to fulfilll the academic and admission criteria of their chosen university.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Some common eligibility factors include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Qualification: Passed Class 12 from a recognized board.",
+            "Mathematics: A good grounding in mathematics is recommended and may be required.",
+            "Science subjects: Physics is especially useful but entry requirements vary between universities.",
+            "Academic Performance: Meet the university's admission score and selection requirements.",
+            "Recognition of Qualifications: Complete the process of assessment of Indian Schools' qualifications for admission to Spanish Universities.",
+            "Language requirements: Language requirements of the selected program in English, Spanish or Catalan language.",
+            "Other Admission Procedures: Take any required entrance exams, pre-enrolment or evaluation of credentials."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some public universities have selective admissions. Meeting the minimum eligibility requirements does not guaranty entry."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements for Computer Engineering in Spain",
+      "lead": "Entry requirements differ between universities and programs. Indian students need to prepare their academic records and supporting documents well in advance.",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission requirements and typical documents required are:",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Certificates and mark sheets of class 10 and class 12.",
+            "Academic transcripts with subjects and grades.",
+            "Passport must be valid."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Fees for Computer Engineering in Spain",
+      "lead": "If you are looking to plan the overall cost of an undergraduate degree, then it is important to understand Computer Engineering Fees in Spain. Tuition fees differ by university, region, program and international student fee category.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University typeExample annual tuitionApprox. INR per annum"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university€1,000 - €8,000₹1.09 - ₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private university€6,000–€20,000+₹6.52–₹21.72 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are planning level estimates. Actual fees may vary considerably especially for non EU students. Please confirm the fee for your particular program and intake."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Illustration of College Tuition Rates"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Polytechnic University of Catalonia (UPC): Lists approximate annual tuition of €1,800 for non-EU students who are not EU residents for its bachelor's degree in Informatics Engineering.",
+            "Pompeu Fabra University (UPF): Has an approximate price of €6,800.32 for non-EU students or non-residents for its bachelor's degree in Computer Engineering for 2026–27."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "With an example conversion rate of €1 &asymp; ₹108.60, these amounts would be approximately ₹1.95 lakh and ₹7.38 lakh respectively."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should budget separately for accommodation, food, transport, health insurance, books, visa expenses and personal costs. Scholarships or reduced fees may be available depending on eligibility and funding."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process for Computer Engineering in Spain",
+      "lead": "Students who want to Study Computer Engineering in Spain should follow a structured admission process to find suitable programs and apply for them.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Pick Your Programme",
+              "desc": "Select your preference : Computer Engineering , Informatics Engineering , Software Engineering or a related degree ."
+            },
+            {
+              "step": 2,
+              "title": "Shortlisting Universities",
+              "desc": "Compare curriculum, tuition, teaching language, practical training, entry requirements."
+            },
+            {
+              "step": 3,
+              "title": "Recognition of Qualification",
+              "desc": "Please confirm the process of applying to a university with your Indian Class 12 qualification."
+            },
+            {
+              "step": 4,
+              "title": "Document Preparation",
+              "desc": "Collect academic certificates, transcripts, passport details and language test results."
+            },
+            {
+              "step": 5,
+              "title": "Submit Application Through the Correct System",
+              "desc": "Apply through the university or regional pre-enrolment system as applicable."
+            },
+            {
+              "step": 6,
+              "title": "Satisfy Additional Requirements",
+              "desc": "Please attend any required assessments or submit additional documentation."
+            },
+            {
+              "step": 7,
+              "title": "Confirm Acceptance and Funding",
+              "desc": "Check your offer, tuition payment deadlines and any scholarship decisions."
+            },
+            {
+              "step": 8,
+              "title": "Obtain Student Visa",
+              "desc": "Fulfill the current specifications for Indian students studying in Spain."
+            },
+            {
+              "step": 9,
+              "title": "Get ready to enrol",
+              "desc": "Arrange accommodation, insurance, travel and university registration."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities and regions have different deadlines and admission processes. Please begin this as soon as possible especially if you need further assessment or documentation of your school qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of degrees in Computer Science in Spain",
+      "lead": "Indian students should ensure that the program they choose will meet their educational and career goals before applying.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Important considerations:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "If the university and degree are officially recognized in Spain.",
+            "In case it is an official university bachelor degree.",
+            "Whether the program prepares you for admission to the master's degree you might want to do afterward.",
+            "If the curriculum covers relevant programming, computing, systems and engineering subjects.",
+            "If you wish to gain further professional recognition for the role you are planning to take up in your destination country."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For example, the bachelor's degree in Informatics Engineering at UPC is included in the official list of degrees of the university register of Spain."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The licensing requirements for computer engineering jobs aren't all the same. However, if you plan to undertake a regulated role or further study in India or overseas, you should confirm the relevant recognition requirements with the relevant institution or authority."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salaries and Job Prospects Following Computer Engineering in Spain",
+      "lead": "A bachelor's degree in Computer Engineering can prepare students for software development, information technology, networks, computer systems, cybersecurity and technology research opportunities.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Job roleIndicative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Junior Software Developer22.000€ - 32.000€"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Systems Engineer€25,000-€38,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Network Engineer€25,000-€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cybersecurity Analyst€28,000-€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Data/Cloud Engineer€28,000-€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experienced Senior Engineer€40,000-€65,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The figures above are rough estimates provided for illustrative purposes only and do not constitute verified salary statistics or guarantyd income. Actual salaries are influenced by location, employer, experience, technical skills, language proficiency and work authorization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential careers include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software development and application engineering.",
+            "Computer systems engineering and hardware.",
+            "Network infrastructure and administration.",
+            "Information security and cybersecurity.",
+            "Distributed systems and cloud computing.",
+            "Data engineering and database.",
+            "AI, machine learning.",
+            "Embedded systems and Internet of Things IoT.",
+            "Consulting and research in technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An internship, personal project, programming experience and practical skills can help improve employability. Some international technology teams work in English, but Spanish-language skills might also provide additional opportunities with local employers."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "What Documents are Necessary to Study Computer Engineering in Spain",
+      "lead": "",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Indian students usually need the following documents:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport.",
+            "Mark Sheet & Certificate of Class 10.",
+            "Class 12 mark sheet & certificate.",
+            "Course descriptions, academic transcripts.",
+            "Documents of recognition of qualifications or of access to university, if applicable.",
+            "Test results, in English or Spanish if applicable.",
+            "Pre-enrolment and university application documents.",
+            "If required, certified translations or legalization of documents.",
+            "Passport size photographs.",
+            "Supporting financial documents for visa purposes (proof of funds).",
+            "Health insurance and other documents requested by the Spanish authorities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The final checklist is dependent on the university, admission route and visa requirements. Follow the official instructions for the intake you selected."
+          ]
+        }
+      ]
     }
-  ]
+  ],
+  "faqs": [
+    {
+      "q": "Can Indian students study Computer Engineering in Spain after 12th?",
+      "a": "Yeah. Indian students can apply after class 12, if they fulfilll the requirements of academics, qualification recognition, language and university admission."
+    },
+    {
+      "q": "How long does a Bachelor's Degree in Computer Engineering last in Spain?",
+      "a": "Most bachelor programs are four years long and worth 240 ECTS credits. The length varies based on university and degree structure."
+    },
+    {
+      "q": "Can I study Computer Engineering in English in Spain?",
+      "a": "Yes. Some programs offer study groups in English. For example, Pompeu Fabra University has a program in which the entire degree in Computer Engineering can be studied in English. Other universities may teach some subjects in Spanish, Catalan or a combination of languages."
+    },
+    {
+      "q": "What is the computer engineering fees in Spain for Indian students?",
+      "a": "Public universities may cost around €1,000-€8,000 per year (broad planning estimates) while private universities may charge more. The actual fees depend on the university, the student category and the academic year."
+    },
+    {
+      "q": "Computer Engineering Jobs in Spain",
+      "a": "Graduates may go on to work in software development, computer systems, networking, cybersecurity, cloud computing, data engineering, and embedded systems. Additional experience or post graduate qualifications may be required for higher level roles."
+    }
+  ],
+  "seo": {
+    "title": "Computer Engineering in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Computer Engineering in Spain for Indian Students offers an opportunity to gain technical knowledge and practical skills in computer hardware, software developm",
+    "keywords": "Computer Engineering in Spain for Indian Students, Studying Computer Engineering in Spain, Universities of Computer Engineering in Spain, Admission Requirements for Computer Engineering in Spain, Computer Engineering Fees in Spain, Study Computer Engineering in Spain, Edu-Hawk Worldwide, SEO Keyword Usage Count, SEO KeywordUsage Count, Computer Engineering in Spain for Indian Students4, Studying Computer Engineering in Spain1, Universities of Computer Engineering in Spain1, Admission Requirements for Computer Engineering in Spain1, Computer Engineering Fees in Spain2, Study Computer Engineering in Spain1, Edu-Hawk Worldwide4, Counts are based on exact keyword phrases in the article body, including headings, and exclude the SEO keyword list and usage-count table."
+  }
 }

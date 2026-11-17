@@ -1,0 +1,90 @@
+{
+  "id": "germany",
+  "name": "Foreign Online Exams in Germany (Goethe, TestDaF, telc, TestAS)",
+  "shortName": "Germany Online Exams",
+  "category": "Foreign Online Exam",
+  "badge": "Official German Academic & Language Assessments",
+  "seo": {
+    "title": "Foreign Online Exams in Germany: Language, TestAS & University Tests | EduHawk Worldwide",
+    "description": "Complete guide to foreign online exams for studying in Germany: Goethe-Zertifikat, TestDaF, telc Deutsch, TestAS aptitude tests, GRE/GMAT requirements, APS certificate guidelines, and preparation options.",
+    "keywords": "Foreign online exams in Germany, online exams for international students in Germany, Germany university entrance exams, study in Germany entrance exam, German language exams for international students, TestAS exam preparation, IELTS coaching for Germany, study in Germany from India"
+  },
+  "hero": {
+    "badge": "Official German Academic & Language Assessments",
+    "heroPara": "Students planning to study in Germany may need to take specific entrance examinations, German language proficiency assessments (TestDaF, Goethe, telc), aptitude tests (TestAS), or international exams (GRE, GMAT, IELTS) depending on their university and course."
+  },
+  "stats": [
+    {
+      "label": "Target Programs",
+      "value": "Bachelor's, Master's, PhD"
+    },
+    {
+      "label": "German Exams",
+      "value": "Goethe (B1–C2), TestDaF (TDN 3–5), telc"
+    },
+    {
+      "label": "Aptitude Exam",
+      "value": "TestAS (Core + Subject Modules)"
+    },
+    {
+      "label": "Standardized Tests",
+      "value": "GRE, GMAT, IELTS, TOEFL"
+    },
+    {
+      "label": "Mandatory Cert.",
+      "value": "APS Certificate (India Mandatory)"
+    },
+    {
+      "label": "Tuition in Germany",
+      "value": "€0 Tuition at Public Universities"
+    }
+  ],
+  "countries": [
+    "Germany"
+  ],
+  "overview": [
+    "Germany is Europe's economic engine and a world-renowned higher education destination offering tuition-free study at public universities, world-class research institutes, and an 18-month post-study work visa.",
+    "International students must qualify for specific examinations based on their academic background, degree level, and medium of instruction.",
+    "Examinations can include German language certifications (Goethe-Zertifikat, TestDaF, telc), English assessments (IELTS, TOEFL), aptitude exams (TestAS), and graduate standardized tests (GRE, GMAT)."
+  ],
+  "examTypes": [
+    {
+      "name": "German Language Exams",
+      "desc": "Goethe-Zertifikat (A1 to C2), TestDaF (Test Deutsch als Fremdsprache), telc Deutsch C1 Hochschule, and DSH, mandated for German-taught degree programs."
+    },
+    {
+      "name": "English Language Proficiency Tests",
+      "desc": "IELTS Academic, TOEFL iBT, and PTE Academic, universally accepted by German universities for English-taught bachelor's and master's degree programs."
+    },
+    {
+      "name": "TestAS (Test for Academic Studies)",
+      "desc": "A standardized aptitude test designed for international undergraduate applicants, assessing cognitive skills and subject aptitude across engineering, economics, or humanities."
+    },
+    {
+      "name": "GRE & GMAT Standardized Tests",
+      "desc": "Required or strongly recommended for competitive master's programs in engineering, computer science, and management (e.g. TUM, RWTH Aachen, Mannheim)."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can international students take online exams for German universities?",
+      "a": "Some universities and providers offer digital admission assessments, but many entrance tests and official German language exams require in-person attendance at accredited centers (e.g. Goethe-Institut / Max Mueller Bhavan in India)."
+    },
+    {
+      "q": "Which exams are required to study in Germany?",
+      "a": "Requirements depend on course and university. English-taught programs require IELTS (6.5) or TOEFL (85–90+). German-taught programs require TestDaF (TDN 4) or Goethe C1. Select courses require TestAS, GRE, or GMAT."
+    },
+    {
+      "q": "Can I take German language exams online from India?",
+      "a": "Online preparation and preparatory mock tests are available remotely, but official certification exams (Goethe-Zertifikat, TestDaF) generally require booking an in-person test session at authorized centers in India."
+    },
+    {
+      "q": "Is TestAS compulsory for all international students in Germany?",
+      "a": "No. TestAS is required or recommended by select universities and undergraduate programs, but it is not a universal requirement for all degrees."
+    },
+    {
+      "q": "How can I prepare for foreign exams in Germany?",
+      "a": "Students can prepare through EduHawk's structured coaching programs, practice test series, mock exams, digital study materials, and customized one-on-one reviews."
+    }
+  ]
+}

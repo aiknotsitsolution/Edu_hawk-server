@@ -6,9 +6,9 @@
   "hero": {
     "badge": "Study Abroad - Australia",
     "title": "Indian students studying in Australia for a Bachelor of Business Studies (BBS)",
-    "subtitle": "Not all Australian universities provide the precise title of Bachelor of Business Studies. Related degrees including the Bachelor of Business, Bachelor of Business Administration, and Bachelor of Commerce are available to students.",
+    "subtitle": "A foundational understanding of management, marketing, finance, accounting, business operations, and organizational strategy is the goal of the Bachelor of Business Studies (BBS), an undergraduate-level business degree.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/australia/bbs_La_Trobe_University-image3.png"
   },
   "stats": [
     {
@@ -29,38 +29,766 @@
     }
   ],
   "highlights": {
-    "degree": "Bachelor of Business Studies (BBS)",
+    "degree": "Bachelor of Business Studies",
     "duration": "3 Years Full-Time",
     "fee": "AUD 30,000 – AUD 52,000 / Year",
     "eligibility": "Recognised academic qualification + English proficiency",
-    "medium": "100% English Taught"
+    "medium": "English"
   },
-  "overview": "Although the length varies depending on the school, many relevant undergraduate business degrees require three years of full-time study.\n\nQ3. After Class 12, are Indian kids eligible to apply?\n\nYes, Indian students who meet the academic and English language standards of the university are eligible to apply.\n\nQ4. Does admittance require a background in mathematics?\n\nNot for all courses in general business. Mathematics or other prerequisite courses may be necessary for some specialized programs.\n\nQ5. Is taking the IELTS required?\n\nIn most cases, students must meet the English language requirements of the university. Other tests or waivers may be offered; IELTS is one recognized option.\n\nQ6. Is employment or permanent residency guaranteed by a business degree?\n\nNo, employment and immigration outcomes are contingent upon qualifications, experience, existing immigration laws, and market conditions.\n\nKeywords -\n\nStudy Bachelor of Business Studies in Australia\n\nStudy BBS in Australia for Indian Students\n\nStudy Bachelor of Business Administration in Australia\n\nStudy Bachelor of Business in Australia\n\nStudy Bachelor of Commerce in Australia\n\nStudy Business Management Courses in Australia\n\nStudy Undergraduate Business Courses in Australia\n\nStudy Business in Australia After 12th\n\nStudy at Australian Universities for Business Studies\n\nStudy Business Degree in Australia - Admission Requirements",
+  "overview": [
+    "A foundational understanding of management, marketing, finance, accounting, business operations, and organizational strategy is the goal of the Bachelor of Business Studies (BBS), an undergraduate-level business degree.",
+    "Similar Australian undergraduate programs, including the Bachelor of Business, Bachelor of Commerce, Bachelor of Business Administration, and Bachelor of Management, are also available to those interested in a BBS degree.",
+    "Options for Related Undergraduate Courses:",
+    "Bachelor's degree in Business Administration",
+    "Bachelor's degree in Business",
+    "Bachelor's in Commerce",
+    "Bachelor's degree in Management",
+    "Bachelor's degree in International Business",
+    "Bachelor's degree in Marketing",
+    "Bachelor's degree in Accounting",
+    "Bachelor's degree in Business Analytics",
+    "Bachelor's degree in Entrepreneurship",
+    "Bachelor's degree in Human Resource Management",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Scope",
+      "title": "Overview of the Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A foundational understanding of management, marketing, finance, accounting, business operations, and organizational strategy is the goal of the Bachelor of Business Studies (BBS), an undergraduate-level business degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Similar Australian undergraduate programs, including the Bachelor of Business, Bachelor of Commerce, Bachelor of Business Administration, and Bachelor of Management, are also available to those interested in a BBS degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Options for Related Undergraduate Courses:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's degree in Business Administration",
+            "Bachelor's degree in Business",
+            "Bachelor's in Commerce",
+            "Bachelor's degree in Management",
+            "Bachelor's degree in International Business",
+            "Bachelor's degree in Marketing",
+            "Bachelor's degree in Accounting",
+            "Bachelor's degree in Business Analytics",
+            "Bachelor's degree in Entrepreneurship",
+            "Bachelor's degree in Human Resource Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Business Studies in Australia?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Australia provides undergraduate programs in a variety of business areas, internationally recognized credentials, and a multicultural learning environment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal Advantages"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Gain a basic understanding of business and management",
+            "Study accounting, operations, marketing, and finance.",
+            "Boost your presentation and communication abilities",
+            "Develop your ability to work with others and solve problems.",
+            "Examine elective courses and business specializations.",
+            "Learn about global business practices",
+            "When available, take advantage of industrial initiatives or internships.",
+            "Establish a basis for further education"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Although employment results rely on individual skills, practical experience, specialization, and labor market conditions, a business degree can enable a variety of professional routes."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "La Trobe University",
+          "location": "Melbourne, Victoria",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/bbs_La_Trobe_University-image3.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Sydney",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/bbs_Sydney_University_of_Technology-image2.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Queensland",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/bbs_University_of_Technology_in_Queensland-image4.png",
+          "desc": ""
+        },
+        {
+          "name": "University of Wollongong",
+          "location": "Sydney, New South Wales",
+          "fee": "AUD 30,000 – AUD 55,000 / Year",
+          "image": "/uploads/study_abroad/australia/bbs_Wollongong_University-image1.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "BBS and Associated Courses",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "When available, the Bachelor of Business Studies degree covers a wide range of business-related topics, including management, marketing, accounting, finance, and business operations."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The Bachelor of Business program offers a foundation in business principles and can include majors in management, marketing, international business, or entrepreneurship.",
+            "The Bachelor of Business Administration program emphasizes leadership, organizational management, company operations, and managerial decision-making.",
+            "Accounting, finance, economics, business analytics, and related commercial courses are frequently covered in a bachelor's degree in commerce.",
+            "A bachelor's degree in management broadens one's understanding of leadership, organizational behavior, management concepts, and corporate strategy.",
+            "Global markets, international trade, cross-cultural management, and global company strategy are all included in the Bachelor of International business program .",
+            "Consumer behavior, advertising, branding, digital marketing, and market research are the main topics of study for a bachelor's degree in marketing.",
+            "Financial reporting, taxes, audits, and management accounting are all included in a bachelor's degree in accounting.",
+            "Data interpretation, analytical decision-making, and business knowledge are all integrated into a bachelor's degree in business analytics."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students may be able to choose majors, minors, or elective courses in the following areas, depending on the degree structure:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Management of Businesses",
+            "Finance and Accounting",
+            "Management of Human Resources",
+            "Global Commerce",
+            "Innovation and Entrepreneurship",
+            "Economics and Business Analytics",
+            "Logistics and Supply Chain Project Management",
+            "Information Systems for Digital Business",
+            "Management of Tourism and Hospitality",
+            "Management of Strategy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These specializations are not always offered by all institutions. Some might be available outside of a BBS program as distinct degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Indian Students Eligibility",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, the course, and the applicant's educational history all affect the requirements for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical requirements could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "completing Class 12 successfully from an accredited Indian board",
+            "Academic performance that satisfies the prerequisites for admission to the university",
+            "Subject qualifications and, if necessary, proof of English language proficiency",
+            "A valid passport and the necessary paperwork"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the board and course, universities may evaluate Indian credentials in different ways."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Unless they are excused, international applicants must typically fulfill the university's English language requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic TOEFL iBT IELTS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic PTE"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional exams that the university accepts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While not a prerequisite for all undergraduate programs, an IELTS Academic score of roughly 6.5 is a general planning reference. Certain institutions can have minimum requirements for each component or accept different scores."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For the precise degree of intake, always verify the current requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "International students are not required to take a separate entrance exam for several Australian undergraduate business programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language proficiency and academic performance in Class 12 may be taken into consideration for admission. Other prerequisites could be as follows, depending on the institution:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Certificates and academic transcripts",
+            "Results of an English language test",
+            "If necessary, a personal statement",
+            "Extra evaluations for particular programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "completion of a foundation program or authorized pathway in the event that direct entry prerequisites are not satisfied"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Course Duration",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Australia, three years of full-time study are usually required to earn a bachelor's degree in business or a related discipline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain programs, pathway arrangements, or combination degrees could require more time."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The chosen specialization and particular certification determine the curriculum. Certain universities provide work-integrated learning opportunities, internships, and industry projects."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, length of the course, city, lodging, and way of life all affect the overall cost of studying business in Australia."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal costs consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The cost of tuition",
+            "Lodging and utilities",
+            "Food and groceries",
+            "Public transportation",
+            "Health Coverage for International Students (OSHC)",
+            "Books and study guides",
+            "The cost of applying for a student visa",
+            "Emergency and personal costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of tuition varies greatly amongst schools. Students should compute the total cost of tuition for the whole degree and study the most recent foreign student fee schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living expenses vary depending on the city and personal situation. When creating a study budget, use the most recent financial-capacity guidelines from the Australian Government."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Funding",
+      "title": "Indian Students Scholarships",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students who fulfill the prerequisites might be able to apply for scholarships or tuition assistance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible choices consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Merit-based scholarships at universities",
+            "Scholarships for international students",
+            "Awards for academic excellence",
+            "Scholarships specific to faculty",
+            "tuition grants specific to a course",
+            "Scholarships from outside sources for qualified candidates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each university and course has different requirements for scholarship availability, grant value, eligibility, and renewal. While some awards automatically take eligible students into consideration, others require a separate application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before applying, students should review the rules of the scholarship and the current deadlines."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Career Prospects Following Graduation",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A bachelor's degree in business studies or a similar discipline can serve as a basis for entry-level positions in a variety of sectors."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Among the possible job pathways are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Executive in Business Development",
+            "Executive in Marketing",
+            "Executive in Sales",
+            "Coordinator or Assistant for Human Resources",
+            "Assistant for Business Operations",
+            "Coordinator of Administration",
+            "Executive in Customer Relations",
+            "Junior Accounts Assistant and Business Analyst",
+            "Assistant for Market Research and Project Coordinator",
+            "Assistant for Supply Chains",
+            "Owner of a small business or entrepreneur"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain jobs call for extra technical expertise, professional credentials, or pertinent work experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sectors to explore"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Financial services and banking",
+            "E-commerce and retail",
+            "Technology for information",
+            "Professional services and consulting",
+            "Production",
+            "Supply chain and logistics",
+            "Administration of healthcare",
+            "Learning",
+            "Tourism and hospitality",
+            "Digital marketing and advertising"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In order to gain specialized expertise, graduates may also think about pursuing professional certifications or postgraduate studies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Indian Students Admission Procedure",
+      "groups": [
+        {
+          "t": "step",
+          "step": 1,
+          "title": "Evaluation of the Profile",
+          "desc": "Examine your budget, career aspirations, academic path, English proficiency, and Class 12 scores."
+        },
+        {
+          "t": "step",
+          "step": 2,
+          "title": "Making a short list of courses",
+          "desc": "Determine which undergraduate business degrees are appropriate based on location, duration, specializations, and curriculum."
+        },
+        {
+          "t": "step",
+          "step": 3,
+          "title": "Verify Your Eligibility",
+          "desc": "Verify the prerequisites for subjects, English language proficiency, approved Indian board qualifications, and academic entry requirements."
+        },
+        {
+          "t": "step",
+          "step": 4,
+          "title": "Prepare the Document",
+          "desc": "Prepare your passport, academic credentials, transcripts, and, if necessary, your English test results."
+        },
+        {
+          "t": "step",
+          "step": 5,
+          "title": "Applying to Universities",
+          "desc": "Apply via an approved application method or the university's official website."
+        },
+        {
+          "t": "step",
+          "step": 6,
+          "title": "Letter of Offer",
+          "desc": "Examine the enrollment requirements, deadlines, tuition deposit, and terms of the offer."
+        },
+        {
+          "t": "step",
+          "step": 7,
+          "title": "Verification of Enrollment",
+          "desc": "Obtain the necessary enrollment paperwork and finish the necessary acceptance procedures."
+        },
+        {
+          "t": "step",
+          "step": 8,
+          "title": "Applying for a Student Visa",
+          "desc": "If applicable, prepare the necessary documentation and submit an application for an Australian student visa (subclass 500)."
+        },
+        {
+          "t": "step",
+          "step": 9,
+          "title": "Getting Ready Before Departure",
+          "desc": "Make travel, lodging, insurance, money, and orientation arrangements."
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Documents Needed",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students may require the following, depending on the university and visa application:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Marksheet and certificate for Class 10",
+            "Marksheet and certificate for class 12",
+            "Results of any appropriate English language tests",
+            "If necessary, a personal statement",
+            "Financial records in order to obtain a visa",
+            "When necessary for the visa application, Confirmation of Enrollment (CoE)",
+            "Evidence of overseas student health coverage"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The institution or Australian authorities have requested additional documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should adhere to the official university checklist and turn in accurate paperwork by the deadline."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Student Visa for Australia",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In order to enrolll in an appropriate full-time undergraduate program in Australia , Indian students often require an Australian student visa (subclass 500)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important factors could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verification of Enrollment from a Qualified Educational Institution",
+            "Proof that satisfies the Genuine Student criterion",
+            "Evidence of financial capacity",
+            "Evidence in English, if applicable",
+            "Health Coverage for International Students",
+            "Requirements for character and health",
+            "Identity records and corroborating information"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Charges for applying for a visa, processing times, and proof requirements are subject to change. Before applying, students should visit the official website of the Australian Department of Home Affairs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission to a university does not ensure that a visa will be granted."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "assistance",
+      "eyebrow": "Edu Hawk Support",
+      "title": "How Edu Hawk Worldwide Consulting Can Assist",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk provides individualized course shortlisting and admission assistance to Indian students who are considering studying abroad."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Our assistance may consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Examining academic performance and career objectives for Class 12",
+            "Finding appropriate business programs for undergraduates",
+            "Comparing tuition costs, course lengths, and universities",
+            "Describe the English language requirements and academic eligibility.",
+            "Assisting students with the application materials",
+            "Assisting students in comprehending admission procedures and offer letters",
+            "Giving general advice on pre-departure preparation and visa paperwork"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university's current prerequisites determine course availability and admissions decisions. The appropriate Australian authorities are still in charge of making visa decisions."
+          ]
+        }
+      ]
+    }
+  ],
   "universities": [
     {
-      "name": "The University of Melbourne",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "La Trobe University",
+      "location": "Melbourne, Victoria",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/bbs_La_Trobe_University-image3.png",
+      "desc": ""
     },
     {
       "name": "The University of Sydney",
-      "location": "Sydney, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/bbs_Sydney_University_of_Technology-image2.png",
+      "desc": ""
     },
     {
       "name": "The University of Queensland",
-      "location": "Brisbane, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "location": "Brisbane, Queensland",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/bbs_University_of_Technology_in_Queensland-image4.png",
+      "desc": ""
     },
     {
-      "name": "Monash University",
-      "location": "Melbourne, Australia",
-      "fee": "AUD 30,000 – AUD 52,000 / Year",
-      "image": ""
+      "name": "University of Wollongong",
+      "location": "Sydney, New South Wales",
+      "fee": "AUD 30,000 – AUD 55,000 / Year",
+      "image": "/uploads/study_abroad/australia/bbs_Wollongong_University-image1.png",
+      "desc": ""
     }
   ],
-  "faq": []
+  "faq": [
+    {
+      "question": "Is it possible to obtain a Bachelor of Business Studies in Australia?",
+      "answer": "Not all Australian universities provide the precise title of Bachelor of Business Studies. Related degrees including the Bachelor of Business, Bachelor of Business Administration, and Bachelor of Commerce are available to students."
+    },
+    {
+      "question": "How long does BBS last in Australia?",
+      "answer": "Although the length varies depending on the school, many relevant undergraduate business degrees require three years of full-time study."
+    },
+    {
+      "question": "After Class 12, are Indian kids eligible to apply?",
+      "answer": "Yes, Indian students who meet the academic and English language standards of the university are eligible to apply."
+    },
+    {
+      "question": "Does admittance require a background in mathematics?",
+      "answer": "Not for all courses in general business. Mathematics or other prerequisite courses may be necessary for some specialized programs."
+    },
+    {
+      "question": "Is taking the IELTS required?",
+      "answer": "In most cases, students must meet the English language requirements of the university. Other tests or waivers may be offered; IELTS is one recognized option."
+    },
+    {
+      "question": "Is employment or permanent residency guaranteed by a business degree?",
+      "answer": "No, employment and immigration outcomes are contingent upon qualifications, experience, existing immigration laws, and market conditions. Keywords - Study Bachelor of Business Studies in Australia Study BBS in Australia for Indian Students Study Bachelor of Business Administration in Australia Study Bachelor of Business in Australia Study Bachelor of Commerce in Australia Study Business Management Courses in Australia Study Undergraduate Business Courses in Australia Study Business in Australia After 12th Study at Australian Universities for Business Studies Study Business Degree in Australia - Admission Requirements"
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible to obtain a Bachelor of Business Studies in Australia?",
+      "a": "Not all Australian universities provide the precise title of Bachelor of Business Studies. Related degrees including the Bachelor of Business, Bachelor of Business Administration, and Bachelor of Commerce are available to students."
+    },
+    {
+      "q": "How long does BBS last in Australia?",
+      "a": "Although the length varies depending on the school, many relevant undergraduate business degrees require three years of full-time study."
+    },
+    {
+      "q": "After Class 12, are Indian kids eligible to apply?",
+      "a": "Yes, Indian students who meet the academic and English language standards of the university are eligible to apply."
+    },
+    {
+      "q": "Does admittance require a background in mathematics?",
+      "a": "Not for all courses in general business. Mathematics or other prerequisite courses may be necessary for some specialized programs."
+    },
+    {
+      "q": "Is taking the IELTS required?",
+      "a": "In most cases, students must meet the English language requirements of the university. Other tests or waivers may be offered; IELTS is one recognized option."
+    },
+    {
+      "q": "Is employment or permanent residency guaranteed by a business degree?",
+      "a": "No, employment and immigration outcomes are contingent upon qualifications, experience, existing immigration laws, and market conditions. Keywords - Study Bachelor of Business Studies in Australia Study BBS in Australia for Indian Students Study Bachelor of Business Administration in Australia Study Bachelor of Business in Australia Study Bachelor of Commerce in Australia Study Business Management Courses in Australia Study Undergraduate Business Courses in Australia Study Business in Australia After 12th Study at Australian Universities for Business Studies Study Business Degree in Australia - Admission Requirements"
+    }
+  ]
 }

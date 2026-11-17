@@ -1,14 +1,31 @@
 {
   "seo": {
     "title": "MBS in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study MBS in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study MBS in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Study MBS in Canada for Indian Students",
+      "Master of Business Studies Courses in Canada",
+      "Best Universities for Business Master's Programs in Canada",
+      "MBS Eligibility in Canada for International Students",
+      "Business Master's Admission Requirements in Canada",
+      "MBS Fees in Canada for Indian Students",
+      "Business Master's Scholarships in Canada for International Students",
+      "Master of Management Programs in Canada",
+      "MBA and MBS Courses in Canada",
+      "Business Management Specializations in Canada",
+      "Business Master's Admission Process in Canada",
+      "English Language Requirements for Business Master's in Canada",
+      "Career Opportunities After a Business Master's in Canada",
+      "Business Analyst Jobs in Canada for International Students",
+      "Canadian Study Permit and PGWP Requirements for Business Master's Students"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "MBS in Canada for Indian Students",
-    "subtitle": "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields.",
+    "subtitle": "MBS in Canada for Indian Students",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_mbs_Calgary_University_image4.png"
   },
   "stats": [
     {
@@ -35,53 +52,706 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields.\n\nCrucial: Not all Canadian universities offer MBS degrees. Similar postgraduate programs may be offered by Canadian universities under titles like Master of Management in Canada, Master of Business Administration (MBA), Master of Science in Management, or other specialized master's degrees. Before applying, students must verify their precise qualifications.\n\nEdu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..\n\n1. Advanced Knowledge of Business\n\nStudents can gain a deeper understanding of organizational behavior, corporate operations, management principles, and strategic decision-making through postgraduate business studies.\n\n2. The ability to analyze and solve problems\n\nStudents may gain knowledge on how to analyze business issues, analyze data, weigh options, and formulate recommendations based on solid facts.\n\n3. Exposure to International Academic Settings\n\nStudents from various origins are brought together by Canadian universities, enabling them to examine business issues from a global viewpoint.\n\n4. Opportunities for Specialization\n\nStudents may concentrate on management, finance, marketing, international business, business analytics, or entrepreneurship, depending on the specific curriculum.\n\n5. Professional Growth\n\nResearch projects, case studies, group assignments, and presentations help improve communication, teamwork, and project management abilities.\n\n6. Getting Ready for Additional Research\n\nDepending on the requirements for admission to the next program and institution, certain business master's degrees may facilitate future academic advancement.\n\n7. Flexibility in Career\n\nNumerous industries may benefit from a postgraduate business degree. The student's selected expertise, prior education, professional experience, and company requirements all influence career options.",
+  "overview": [
+    "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields.",
+    "Crucial: Not all Canadian universities offer MBS degrees. Similar postgraduate programs may be offered by Canadian universities under titles like Master of Management in Canada, Master of Business Administration (MBA), Master of Science in Management, or other specialized master's degrees. Before applying, students must verify their precise qualifications.",
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+  ],
   "universities": [
     {
-      "name": "Calgary University=image4",
+      "name": "Calgary University=",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_mbs_Calgary_University_image4.png",
+      "image": "/uploads/study_abroad/canada/canada_mbs_Calgary_University_image4.png",
+      "desc": "Calgary University= is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "Concordia University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Ottawa University",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_mbs_Concordia_University-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_mbs_Concordia_University-image1.png",
+      "desc": "Concordia University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "Manitoba University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_mbs_Manitoba_University-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_mbs_Manitoba_University-image3.png",
+      "desc": "Manitoba University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "Ottawa University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_mbs_Ottawa_University-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_mbs_Ottawa_University-image2.png",
+      "desc": "Ottawa University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Should You Pursue MBS in Canada?",
+      "lead": "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Crucial: Not all Canadian universities offer MBS degrees. Similar postgraduate programs may be offered by Canadian universities under titles like Master of Management in Canada, Master of Business Administration (MBA), Master of Science in Management, or other specialized master's degrees. Before applying, students must verify their precise qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Key Advantages of Pursuing a Master's in Business in Canada"
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Advanced Knowledge of Business",
+      "lead": "Students can gain a deeper understanding of organizational behavior, corporate operations, management principles, and strategic decision-making through postgraduate business studies.",
+      "groups": []
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Top Universities to Consider in Canada",
+      "lead": "Explore the leading universities and institutions in Canada offering accredited programs, modern campuses, and strong international student support.",
+      "unis": [
+        {
+          "name": "Calgary University=",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_mbs_Calgary_University_image4.png",
+          "image": "/uploads/study_abroad/canada/canada_mbs_Calgary_University_image4.png",
+          "desc": "Calgary University= is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Concordia University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_mbs_Concordia_University-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_mbs_Concordia_University-image1.png",
+          "desc": "Concordia University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Manitoba University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_mbs_Manitoba_University-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_mbs_Manitoba_University-image3.png",
+          "desc": "Manitoba University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Ottawa University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_mbs_Ottawa_University-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_mbs_Ottawa_University-image2.png",
+          "desc": "Ottawa University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "The ability to analyze and solve problems",
+      "lead": "Students may gain knowledge on how to analyze business issues, analyze data, weigh options, and formulate recommendations based on solid facts.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Exposure to International Academic Settings",
+      "lead": "Students from various origins are brought together by Canadian universities, enabling them to examine business issues from a global viewpoint.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Opportunities for Specialization",
+      "lead": "Students may concentrate on management, finance, marketing, international business, business analytics, or entrepreneurship, depending on the specific curriculum.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Professional Growth",
+      "lead": "Research projects, case studies, group assignments, and presentations help improve communication, teamwork, and project management abilities.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Getting Ready for Additional Research",
+      "lead": "Depending on the requirements for admission to the next program and institution, certain business master's degrees may facilitate future academic advancement.",
+      "groups": []
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Flexibility in Career",
+      "lead": "Numerous industries may benefit from a postgraduate business degree. The student's selected expertise, prior education, professional experience, and company requirements all influence career options.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "MBS Specializations and Courses in Canada",
+      "lead": "Students should compare the curricula of each equal or related master's program rather than depending just on the nomenclature because MBS is not a standard Canadian degree title.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical Business Topics"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Students may study the following, depending on the program:",
+            "Fundamentals of Management Organizational Conduct",
+            "The Management of Strategy",
+            "Economics of Business",
+            "The Management of Finances",
+            "Accounting for Managers",
+            "Management of Marketing",
+            "Management of Human Resources",
+            "Management of Operations",
+            "Methods of Business Research Communication in Business Entrepreneurship",
+            "Analytics for Business",
+            "International Commerce",
+            "Corporate Governance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Related Fields of Study for Postgraduate Business"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Administration",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Money",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Promotion",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Global Trade",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Management of Human Resources",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Analytics for Business",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Innovation and Entrepreneurship",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Supply Chain and Operations Management",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Management of Projects",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Business Studies Focused on Research",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Canadian Universities to Consider for Associated Master's Courses",
+      "lead": "Although the precise degree may not be called MBS, the schools listed below provide business or management education. Verify the program's current official name, prerequisites, and foreign student availability.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Calgary University - The Haskayne School of Business offers graduate business programs and management education. Concordia University - Examine the John Molson School of Business's and other departments' postgraduate business and management programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ottawa University - The Telfer School of Management offers graduate programs in business and management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Manitoba University - Examine graduate business and management programs and their criteria for overseas applicants."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Qualifications for Studying MBS or a Similar Master's Program in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Educational Background"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A recognized bachelor's degree or its equivalent is typically required of applicants. Depending on the program, different academic backgrounds are needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "While some programs may require prior study in business, economics, mathematics, statistics, or a similar field, others may accept graduates from a broad range of fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Achievement"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A minimum grade-point average or comparable academic standing may be set by the institution. Stronger academic achievement than the stated minimum may be required for competitive programs.## Proficiency in English"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The TOEFL, IELTS Academic, or another recognized English language exam may be required of foreign applicants. Institutions have different requirements and exclusions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Experience at Work"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain management programs may need or favor work experience. Other master's degrees are intended for candidates who plan to pursue postgraduate work shortly after earning their bachelor's degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Conditions"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Depending on the program, candidates might require:",
+            "A curriculum vitae or resume A purpose statement Recommendation letters",
+            "Results from the GMAT or GRE, if necessary A research proposal for certain initiatives focused on research An additional application or interview"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "The requirements for admission to MBS or similar programs in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Scholarly Writings"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A certificate of bachelor's degree Official transcripts of education",
+            "If requested, a grading explanation or scale If necessary, course descriptions or syllabi Evaluation of credentials, upon request"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Applications"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A purpose statement A current curriculum vitae or resume Recommendation letters Test results in English, if necessary",
+            "Results from the GMAT or GRE, if necessary Details of the passport The application cost"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Resources for Research-Based Initiatives"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A research proposal, writing sample, statement of research interests, or proof of relevant research experience may be required by certain programs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "The cost of earning an MBS or a similar business master's degree in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "table",
+          "headers": [
+            "Tuition for the entire program",
+            "CAD 20,000–65,000+"
+          ],
+          "rows": [
+            [
+              "Lodging",
+              "CAD 800–2,000+ per month"
+            ]
+          ]
+        },
+        {
+          "t": "table",
+          "headers": [
+            "Food and personal costs",
+            "CAD 300–700+ a month"
+          ],
+          "rows": [
+            [
+              "Local transportation",
+              "CAD 80–180+ per month"
+            ]
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books and school supplies | CAD 500–1,500+ annually | Health insurance | varies by province and institution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Costs"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Fees for applications",
+            "The cost of the English language exam",
+            "Fees for the GMAT or GRE, if applicable Airfare",
+            "Examine the costs associated with permits Insurance for health Deposits for lodging",
+            "Project or research costs, if any"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "The MBS or Related Master's Program Admission Process in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Verify the degree title",
+              "desc": "Find out if you really need an MBS or if you can achieve your objectives with a relevant Canadian master's degree."
+            },
+            {
+              "step": 2,
+              "title": "Establish Your Academic and Professional Goals",
+              "desc": "Decide whatever field–management, marketing, finance, analytics, or international business is your favorite."
+            },
+            {
+              "step": 3,
+              "title": "Research Initiatives",
+              "desc": "Examine curriculum, length, cost, instructional strategies, research needs, and graduate results."
+            },
+            {
+              "step": 4,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine any criteria for standardized tests, job experience requirements, English proficiency requirements, and academic prerequisites."
+            },
+            {
+              "step": 5,
+              "title": "Get Your Documents Ready",
+              "desc": "Gather a resume, a statement of purpose, recommendations, credentials, and transcripts."
+            },
+            {
+              "step": 6,
+              "title": "Send in the application",
+              "desc": "Before the deadline, finish the formal application process at the university and turn in all supporting documentation."
+            },
+            {
+              "step": 7,
+              "title": "If necessary, attend an interview.",
+              "desc": "Get ready to talk about your educational history, the reasons you chose the program, and your ambitions for the future."
+            },
+            {
+              "step": 8,
+              "title": "Evaluate Your Offer",
+              "desc": "Verify the scholarship terms, tuition, deposit deadline, course requirements, and degree title."
+            },
+            {
+              "step": 9,
+              "title": "Check the requirements for a study permit",
+              "desc": "Check Immigration, Refugees and Citizenship Canada (IRCC) for the most recent criteria."
+            },
+            {
+              "step": 10,
+              "title": "Get Ready for Enrollment",
+              "desc": "Make financial, lodging, travel, insurance, and registration arrangements in compliance with the guidelines provided by the organization."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Pay and job opportunities in Canada Following a Master's in Business",
+      "lead": "Students can learn about management, analysis, operations, marketing, finance, and organizational development with the aid of a business master's degree. The position and the student's complete credentials and experience determine their eligibility for employment.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Possible Career Paths"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A business analyst An analyst of management",
+            "Coordinator of the Project",
+            "An analyst of marketing",
+            "Coordinator of Operations",
+            "An expert in human resources",
+            "Executive in Business Development",
+            "When suitably qualified, a financial analyst",
+            "An analyst of supply chains",
+            "When qualified, a research assistant",
+            "A trainee in management",
+            "An entrepreneur"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Both a postgraduate degree and a significant amount of professional experience may be necessary for senior managerial positions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sectors to explore"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Financial services and banking Consulting Technology",
+            "Retail and consumer products The supply chain and logistics Administration of healthcare",
+            "Manufacturing",
+            "Expert services",
+            "Research and education"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pay Details"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Because the degree title and program format differ, there isn't a uniform wage range for MBS graduates. The occupation, location, experience, and employer all affect salaries."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Documents Needed for Canadian MBS Admission",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Scholarly Writings"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A certificate of bachelor's degree Official transcripts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If necessary, a grading scale Descriptions of courses, upon request"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Applications"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A purpose statement",
+            "A curriculum vitae or resume",
+            "Recommendation letters",
+            "Test results in English, if necessary",
+            "Results from the GMAT or GRE, if necessary When appropriate, a research proposal Details of the passport - Receipt for the application fee",
+            "Immigration Records, If Relevant",
+            "A letter of acceptance Evidence of funds Examine the application materials for permits. Unless otherwise excepted, a provincial or territory attestation letter The IRCC has requested additional papers."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "What is the meaning of MBS?",
+      "a": "In several educational institutions, MBS stands for Master of Business Studies. The nation and institution determine the precise structure and meaning.",
       "question": "What is the meaning of MBS?",
       "answer": "In several educational institutions, MBS stands for Master of Business Studies. The nation and institution determine the precise structure and meaning."
     },
     {
+      "q": "Is MBS accessible in Canada?",
+      "a": "In Canadian universities, MBS is not a common title. Students should research relevant master's programs in business and confirm the precise degree granted.",
       "question": "Is MBS accessible in Canada?",
       "answer": "In Canadian universities, MBS is not a common title. Students should research relevant master's programs in business and confirm the precise degree granted."
     },
     {
+      "q": "What credentials are required in Canada for a master's degree in business?",
+      "a": "In addition to any necessary academic, linguistic, and program-specific credentials, applicants typically need a recognized bachelor's degree or its equivalent.",
       "question": "What credentials are required in Canada for a master's degree in business?",
       "answer": "In addition to any necessary academic, linguistic, and program-specific credentials, applicants typically need a recognized bachelor's degree or its equivalent."
     },
     {
+      "q": "What is the cost of a master's degree in business in Canada?",
+      "a": "Programs and institutions have different costs. In addition to estimating lodging, insurance, transport, and other living expenditures, students should evaluate official overseas tuition fees.",
       "question": "What is the cost of a master's degree in business in Canada?",
-      "answer": "Programs and institutions have different costs. In addition to estimating lodging, insurance, transport, and other living expenditures, students should evaluate official overseas tuition fees. Q 5 After earning a master's degree in business, is it possible for an Indian student to obtain a work permit in Canada? Possibly, but it's not a given. Eligibility for a Post-Graduation Work Permit (PGWP) is contingent upon the particular program, institution, and current IRCC regulations."
+      "answer": "Programs and institutions have different costs. In addition to estimating lodging, insurance, transport, and other living expenditures, students should evaluate official overseas tuition fees."
     },
     {
-      "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
-      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. Study MBS in Canada for Indian Students Master of Business Studies Courses in Canada Best Universities for Business Master's Programs in Canada MBS Eligibility in Canada for International Students Business Master's Admission Requirements in Canada MBS Fees in Canada for Indian Students Business Master's Scholarships in Canada for International Students Master of Management Programs in Canada MBA and MBS Courses in Canada Business Management Specializations in Canada Business Master's Admission Process in Canada English Language Requirements for Business Master's in Canada Career Opportunities After a Business Master's in Canada Business Analyst Jobs in Canada for International Students Canadian Study Permit and PGWP Requirements for Business Master's Students"
+      "q": "Q 5 After earning a master's degree in business, is it possible for an Indian student to obtain a work permit in Canada?",
+      "a": "Possibly, but it's not a given. Eligibility for a Post-Graduation Work Permit (PGWP) is contingent upon the particular program, institution, and current IRCC regulations.",
+      "question": "Q 5 After earning a master's degree in business, is it possible for an Indian student to obtain a work permit in Canada?",
+      "answer": "Possibly, but it's not a given. Eligibility for a Post-Graduation Work Permit (PGWP) is contingent upon the particular program, institution, and current IRCC regulations."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultanc y help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+      "question": "How can Edu Hawk worldwide Consultanc y help me study abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the meaning of MBS?",
+      "a": "In several educational institutions, MBS stands for Master of Business Studies. The nation and institution determine the precise structure and meaning.",
+      "question": "What is the meaning of MBS?",
+      "answer": "In several educational institutions, MBS stands for Master of Business Studies. The nation and institution determine the precise structure and meaning."
+    },
+    {
+      "q": "Is MBS accessible in Canada?",
+      "a": "In Canadian universities, MBS is not a common title. Students should research relevant master's programs in business and confirm the precise degree granted.",
+      "question": "Is MBS accessible in Canada?",
+      "answer": "In Canadian universities, MBS is not a common title. Students should research relevant master's programs in business and confirm the precise degree granted."
+    },
+    {
+      "q": "What credentials are required in Canada for a master's degree in business?",
+      "a": "In addition to any necessary academic, linguistic, and program-specific credentials, applicants typically need a recognized bachelor's degree or its equivalent.",
+      "question": "What credentials are required in Canada for a master's degree in business?",
+      "answer": "In addition to any necessary academic, linguistic, and program-specific credentials, applicants typically need a recognized bachelor's degree or its equivalent."
+    },
+    {
+      "q": "What is the cost of a master's degree in business in Canada?",
+      "a": "Programs and institutions have different costs. In addition to estimating lodging, insurance, transport, and other living expenditures, students should evaluate official overseas tuition fees.",
+      "question": "What is the cost of a master's degree in business in Canada?",
+      "answer": "Programs and institutions have different costs. In addition to estimating lodging, insurance, transport, and other living expenditures, students should evaluate official overseas tuition fees."
+    },
+    {
+      "q": "Q 5 After earning a master's degree in business, is it possible for an Indian student to obtain a work permit in Canada?",
+      "a": "Possibly, but it's not a given. Eligibility for a Post-Graduation Work Permit (PGWP) is contingent upon the particular program, institution, and current IRCC regulations.",
+      "question": "Q 5 After earning a master's degree in business, is it possible for an Indian student to obtain a work permit in Canada?",
+      "answer": "Possibly, but it's not a given. Eligibility for a Post-Graduation Work Permit (PGWP) is contingent upon the particular program, institution, and current IRCC regulations."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultanc y help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+      "question": "How can Edu Hawk worldwide Consultanc y help me study abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ]
 }

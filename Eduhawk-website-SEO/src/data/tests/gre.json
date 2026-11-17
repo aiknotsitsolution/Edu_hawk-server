@@ -1,0 +1,106 @@
+{
+  "id": "gre",
+  "name": "GRE (Graduate Record Examination)",
+  "shortName": "GRE",
+  "category": "Entrance & Academic Tests",
+  "badge": "ETS Graduate Admissions Standard",
+  "seo": {
+    "title": "GRE Exam for Study Abroad: Pattern, Syllabus, Registration & Preparation | EduHawk Worldwide",
+    "description": "Complete guide to the GRE General Test conducted by ETS for MS, Master's, and PhD admissions abroad. Learn about Verbal, Quantitative, and Analytical Writing sections, 1h 58m format, 130–170 scoring, and fees.",
+    "keywords": "GRE Graduate Record Examination, GRE exam for international students, GRE General Test, GRE exam pattern, GRE eligibility criteria, GRE exam fees, GRE exam preparation, GRE for studying abroad, MS in USA GRE"
+  },
+  "hero": {
+    "badge": "ETS Graduate Admissions Standard",
+    "heroPara": "The Graduate Record Examination (GRE), conducted by ETS, evaluates Verbal Reasoning, Quantitative Reasoning, and Analytical Writing for students planning to pursue Master's degrees, MS programs, and PhDs abroad."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "1 Hour 58 Minutes (Shorter GRE)"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "260 to 340 (Verbal 130-170, Quant 130-170)"
+    },
+    {
+      "label": "Analytical Writing",
+      "value": "0 to 6 (0.5 point increments)"
+    },
+    {
+      "label": "Delivery Mode",
+      "value": "Computer-delivered at Center or Home"
+    },
+    {
+      "label": "Score Validity",
+      "value": "5 Years from Test Date"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "US $220 (~₹18,500 approximately)"
+    }
+  ],
+  "countries": [
+    "USA",
+    "Germany",
+    "Canada",
+    "UK",
+    "Australia",
+    "Singapore",
+    "Ireland"
+  ],
+  "overview": [
+    "The Graduate Record Examination (GRE) is a standardized test conducted by Educational Testing Service (ETS) for students pursuing master's degrees, MS programs, PhD programs, and postgraduate studies abroad.",
+    "The exam is accepted by thousands of graduate schools and universities worldwide, particularly in the United States, Canada, Germany, the UK, and Europe.",
+    "The examination evaluates three core academic competencies: Verbal Reasoning, Quantitative Reasoning, and Analytical Writing, measuring reading comprehension, mathematical problem-solving, and structured critical essay writing."
+  ],
+  "sections": [
+    {
+      "name": "Verbal Reasoning",
+      "duration": "Approx. 41 Minutes",
+      "scoring": "130 to 170 Score Scale (1-point increments)",
+      "measures": "Reading comprehension, critical reasoning, and vocabulary in context through Text Completion, Sentence Equivalence, and Reading Comprehension passages."
+    },
+    {
+      "name": "Quantitative Reasoning",
+      "duration": "Approx. 47 Minutes",
+      "scoring": "130 to 170 Score Scale (1-point increments)",
+      "measures": "Mathematical problem-solving and numerical aptitude covering arithmetic, elementary algebra, geometry, and data interpretation with an on-screen calculator."
+    },
+    {
+      "name": "Analytical Writing (AWA)",
+      "duration": "30 Minutes",
+      "scoring": "0 to 6 Score Scale (0.5-point increments)",
+      "measures": "One 'Analyze an Issue' task assessing the ability to articulate and develop complex ideas, construct a logical argument, and support claims with relevant reasons and examples."
+    }
+  ],
+  "preparationTips": [
+    "Review the official GRE syllabus, question patterns, and timing constraints.",
+    "Take an official ETS diagnostic test (POWERPREP) to identify baseline strengths and weaknesses.",
+    "Practice high-frequency vocabulary in context, reading comprehension passages, and quantitative problem sets daily.",
+    "Improve essay-writing skills through timed practice using official pool topics.",
+    "Complete regular full-length timed mock tests to develop pacing and stamina for the 1 hour 58 minute exam.",
+    "Review incorrect answers thoroughly and revise underlying algebraic, geometric, and reasoning concepts."
+  ],
+  "faqs": [
+    {
+      "q": "What is the full form of GRE?",
+      "a": "GRE stands for Graduate Record Examination, a standardized assessment used by graduate schools worldwide for postgraduate admissions."
+    },
+    {
+      "q": "Is GRE compulsory for studying abroad?",
+      "a": "No. Requirements depend on the university, department, and degree. Many US universities require it for STEM/MS programs, while others are test-optional."
+    },
+    {
+      "q": "What is a good GRE score?",
+      "a": "A score of 310–318 is solid for many universities, while scores of 320–330+ are considered competitive for top-tier institutions and STEM programs."
+    },
+    {
+      "q": "Can Indian students take the GRE?",
+      "a": "Yes. Indian students can register online via ETS for testing at authorized Pearson VUE centers across major cities or choose the GRE at Home option."
+    },
+    {
+      "q": "Can I take the GRE online from home?",
+      "a": "Yes, the GRE General Test at Home is available year-round to students with an appropriate computer, webcam, and private test room meeting ETS proctoring standards."
+    }
+  ]
+}

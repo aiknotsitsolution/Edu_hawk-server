@@ -1,14 +1,28 @@
 {
   "seo": {
     "title": "Civil Engineering - UG in Canada for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Civil Engineering - UG in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities."
+    "description": "Study Civil Engineering - UG in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Study Civil Engineering in Canada After 12th",
+      "Undergraduate Civil Engineering Courses in Canada",
+      "Best Universities for Civil Engineering in Canada",
+      "Civil Engineering Admission Requirements in Canada",
+      "Civil Engineering Eligibility After Class 12",
+      "Bachelor of Civil Engineering in Canada",
+      "Civil Engineering Tuition Fees in Canada",
+      "Cost of Studying Civil Engineering in Canada",
+      "Civil Engineering Scholarships in Canada",
+      "Civil Engineering Career Opportunities in Canada",
+      "Civil Engineering Jobs in Canada for Graduates",
+      "Civil Engineering Salary in Canada"
+    ]
   },
   "hero": {
-    "badge": "Study Abroad - Canada",
+    "badge": "Study Abroad · Canada",
     "title": "Studying Civil Engineering in Canada",
-    "subtitle": "Indian students who want to study civil engineering in Canada and pursue jobs in environmental engineering, transportation, infrastructure, and construction are drawn to Canada. Undergraduate programs in civil engineering integrate theoretical knowledge with hands-on experience, lab work, design projects, and industry exposure opportunities.",
+    "subtitle": "Studying Civil Engineering in Canada",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_Carleton_University-image3.png"
   },
   "stats": [
     {
@@ -35,53 +49,613 @@
     "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
     "medium": "English & French Taught"
   },
-  "overview": "Indian students who want to study civil engineering in Canada and pursue jobs in environmental engineering, transportation, infrastructure, and construction are drawn to Canada. Undergraduate programs in civil engineering integrate theoretical knowledge with hands-on experience, lab work, design projects, and industry exposure opportunities.\n\nEdu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
+  "overview": [
+    "Indian students who want to study civil engineering in Canada and pursue jobs in environmental engineering, transportation, infrastructure, and construction are drawn to Canada. Undergraduate programs in civil engineering integrate theoretical knowledge with hands-on experience, lab work, design projects, and industry exposure opportunities.",
+    "Industry-Relevant Education: Enrolll in extensive civil engineering courses in Canada to learn about structural analysis, building materials, geotechnical engineering, transportation, and water resources engineering.",
+    "Laboratories, design projects, fieldwork and co-ops are all available at many universities."
+  ],
   "universities": [
-    {
-      "name": "University of Manitoba",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
-    {
-      "name": "Toronto University",
-      "location": "Canada",
-      "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
-    },
     {
       "name": "Carleton University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_civil_engg_ug_Carleton_University-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_Carleton_University-image3.png",
+      "desc": "Carleton University is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
       "name": "Concordia University",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
-      "image": ""
+      "img": "/uploads/study_abroad/canada/canada_civil_engg_ug_Concordia_University-image4.png",
+      "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_Concordia_University-image4.png",
+      "desc": "Concordia University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "Toronto University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_civil_engg_ug_Toronto_University-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_Toronto_University-image2.png",
+      "desc": "Toronto University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "University of Manitoba",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_civil_engg_ug_University_of_Manitoba-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_University_of_Manitoba-image1.png",
+      "desc": "University of Manitoba is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Study Civil Engineering in Canada ?",
+      "lead": "Indian students who want to study civil engineering in Canada and pursue jobs in environmental engineering, transportation, infrastructure, and construction are drawn to Canada. Undergraduate programs in civil engineering integrate theoretical knowledge with hands-on experience, lab work, design projects, and industry exposure opportunities.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Key Advantages of studying Civil Engineering Education in Canada"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Industry-Relevant Education: Enrolll in extensive civil engineering courses in Canada to learn about structural analysis, building materials, geotechnical engineering, transportation, and water resources engineering.",
+            "Laboratories, design projects, fieldwork and co-ops are all available at many universities.",
+            "Develop skills related to buildings, bridges, roads, railroads, water systems and urban development in the infrastructure and construction sector.",
+            "Explore earthquake-resistant constructions, smart infrastructure, sustainable building and environmental engineering.",
+            "Building a basis for engineering-related careers in Canada and other countries, subject to local professional regulations, is the goal of international career exposure.",
+            "Post-Graduation Opportunities: Depending on the program, school, and relevant immigration laws, qualified graduates may be eligible for a post-graduation work permit (PGWP)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Courses in Civil Engineering",
+      "lead": "A variety of undergraduate civil engineering programs in Canada are available from Canadian universities, integrating technical design, engineering theory, and hands-on study. The majority of undergraduate degrees in civil engineering take four years.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor of Applied Science in Civil Engineering",
+            "Bachelor of Engineering in Civil Engineering",
+            "Bachelor of Science in Civil Engineering",
+            "Bachelor of Applied Science in Civil Engineering",
+            "Civil engineering foundations and industrial",
+            "Bachelor of Engineering in Civil Engineering with Co-op",
+            "Bachelor's degree in environmental engineering",
+            "Bachelor of Engineering in Structural Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each university has different degree titles, specializations, and program lengths. Civil engineering is a specialty offered by certain universities within a more general engineering degree."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Top Universities for Civil Engineering",
+      "lead": "For civil engineering in Canada for Indian students , the following universities are worth looking into. On the official websites of each university, applicants should verify the precise program title, availability of foreign entrance, accreditation status, and intake requirements.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Toronto University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Manitoba"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Concordia University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Carleton University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "How to Pick a College"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Options for specialization and curriculum.",
+            "The total cost of living and tuition.",
+            "Co-ops and internships are available.",
+            "The location of the campus and lodging expenses.",
+            "Research opportunities and laboratory facilities.",
+            "Scholarship opportunities.",
+            "Accreditation of engineering programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students looking for real-world industrial experience can be especially drawn to an institution with an appropriate co-op program."
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Carleton University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_civil_engg_ug_Carleton_University-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_Carleton_University-image3.png",
+          "desc": "Carleton University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Concordia University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_civil_engg_ug_Concordia_University-image4.png",
+          "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_Concordia_University-image4.png",
+          "desc": "Concordia University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Toronto University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_civil_engg_ug_Toronto_University-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_Toronto_University-image2.png",
+          "desc": "Toronto University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "University of Manitoba",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_civil_engg_ug_University_of_Manitoba-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_civil_engg_ug_University_of_Manitoba-image1.png",
+          "desc": "University of Manitoba is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Studying Civil Engineering in Canada",
+      "lead": "Indian students must typically finish Class 12 with the necessary science and math courses in order to be eligible for an undergraduate degree in civil engineering.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "General Qualifications"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic Requirement - Completion of Class 12 or a comparable secondary education",
+            "Required Subjects - Physics and Mathematics; Chemistry is frequently needed",
+            "Academic Performance - Requirements vary by university",
+            "English Proficiency - Depending on university policy, IELTS Academic, TOEFL iBT, PTE Academic or another recognized test",
+            "IELTS Score - Depending on the program, many colleges require an overall score of about 6.5, frequently with minimum band requirements."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Entrance Examinations",
+              "d": "Depending on the university and candidate curriculum, SAT or other tests may be mandatory, optional or taken into consideration."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission is not assured by fulfilling the minimal civil engineering qualifying standards in Canada . Stronger academic performance, especially in mathematics and physics, may be anticipated by selective universities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Canada's Civil Engineering Admission Requirements",
+      "lead": "Before submitting an application, candidates should prepare their supporting documentation, academic records and English language test scores. Each university and program has different admission requirements for civil engineering in Canada.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Educational requirements"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Transcripts or mark sheets for classes 10 and 12.",
+            "Verification that the necessary secondary education was completed.",
+            "High academic achievement in physics and mathematics.",
+            "English, chemistry and other necessary courses as needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you apply before the final Class 12 results are released, you will receive predicted grades or interim results."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "IELTS Academic, TOEFL iBT, PTE Academic, and other authorized English assessments may be accepted by universities. Institutions have different minimum scores and procedures regarding exemptions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates should visit the official admissions page of the university of their choice to verify the current English language requirements for overseas students."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Extra requirements for admission"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport and private data.",
+            "A purpose statement or additional application, upon request.",
+            "Letters of recommendation, if necessary.",
+            "The application fee.",
+            "If relevant, the results of the SAT or other academic tests.",
+            "Interviews or portfolios are only necessary when the program expressly calls for them."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Because admission requirements and dates may vary annually, it is always advisable to evaluate the requirements for overseas applicants for the anticipated intake."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of studying civil engineering in Canada",
+      "lead": "The university, province, kind of housing and way of life all affect how much it costs for Indian students to study civil engineering in Canada. The following numbers are not official university fee quotes; rather, they represent general planning estimates for overseas undergraduate students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Projected Annual Costs for Foreign Students"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Annual Tuition Costs - CAD 35,000–75,000+",
+            "Lodging - CAD 8,000–18,000 annually",
+            "Food and groceries - CAD 3,000–6,000 annually",
+            "Transportation - CAD 800–2,000 annually",
+            "Academic costs, books and supplies - CAD 800–2,000 annually",
+            "Personal Expenses and Health Insurance - CAD 1,500–4,000 annually",
+            "Estimated Annual Budget: CAD 49,100–107,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In pricey cities or at universities with greater international tuition costs, the total can be higher. Co-op terms may also have an impact on program duration, living expenditures, and tuition costs."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Financial Aid and Scholarships"
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students may qualify for faculty scholarships, entry scholarships, merit-based rewards or financial aid particular to their university. There are differences in eligibility, reward values, and deadlines. While some scholarships require a separate application, others are given out automatically based on academic achievement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before making any financial commitments, check the official scholarship and financial aid pages of each university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Canada's Admission Procedure for Civil Engineering",
+      "lead": "These processes can usually be followed by Indian students who want to study civil engineering in Canada after Class 12.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Make a shortlist of colleges",
+              "desc": "Examine civil engineering programs according to their location, co-ops, tuition costs, curriculum, accreditation, and eligibility."
+            },
+            {
+              "step": 2,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine the prerequisites for Class 12 subjects, academic performance standards, English language proficiency, and any program-specific needs."
+            },
+            {
+              "step": 3,
+              "title": "Get Documents Ready",
+              "desc": "Gather passport information, English test results, academic transcripts, and any other documentation the university requests."
+            },
+            {
+              "step": 4,
+              "title": "Send in Your Applications",
+              "desc": "Use the appropriate provincial application system, if applicable, or the university's own application portal. Pay the necessary application cost."
+            },
+            {
+              "step": 5,
+              "title": "Get a Decision on Admission",
+              "desc": "Depending on whether all requirements for admission have been satisfied, the university may make an unconditional or conditional offer."
+            },
+            {
+              "step": 6,
+              "title": "Set Up Funds",
+              "desc": "Examine tuition deposits, scholarship choices, housing expenses, and proof of funds needed to apply for a study permit."
+            },
+            {
+              "step": 7,
+              "title": "Submit an application for a study permit in Canada",
+              "desc": "Check the most recent requirements from Immigration, Refugees and Citizenship Canada (IRCC) after obtaining the necessary admission documents. Unless there is an exception, a provincial or territorial attestation letter may be necessary, depending on the applicant and program."
+            },
+            {
+              "step": 8,
+              "title": "Get Ready to Leave",
+              "desc": "Make travel, housing, health insurance, and university registration arrangements as needed. Bring the original paperwork required for enrollment and travel."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Professional Recognition and Accreditation",
+      "lead": "When choosing a civil engineering degree in Canada , accreditation is crucial, especially for students who want to become licensed professionals.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Important Information for Students"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verify whether the particular undergraduate program is accredited by Engineers Canada's Canadian Engineering Accreditation Board (CEAB).",
+            "Program-Specific Verification: Don't assume that a university's engineering programs are all accredited.",
+            "A graduate does not instantly become a licensed Professional Engineer (P.Eng.) just because they have earned an authorized degree.",
+            "Each province or territory's engineering regulators set the standards for licensing, which may include professional practice exams, work experience, academic credentials, and other factors."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The acceptance of a Canadian degree in another nation is contingent upon the regulations of that nation and the demands of the employer."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Pay and Career Opportunities for Canadian Graduates in Civil Engineering",
+      "lead": "Careers in infrastructure development, construction, consulting, transportation, environmental initiatives, and project coordination are available to graduates of civil engineering programs in Canada . Qualifications, experience, location, market conditions, and professional license requirements all influence actual job opportunities.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Possible Career Paths"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Graduate in Civil Engineering",
+            "Junior Civil Engineer",
+            "Structural engineering assistant",
+            "Geotechnical engineering assistant.",
+            "Transportation Engineering Assistant.",
+            "Municipal Engineering Assistant",
+            "Environmental Engineering Assistant"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the province and company, certain jobs might call for specific training, related experience, or registration as an Engineer-in-Training or something similar. The usage of protected professional titles and certain duties are governed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expectations for Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "All graduates in civil engineering do not receive the same income. Canada's pay for civil engineers varies depending on the province, company, job title, level of experience, and if the position calls for professional registration."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed",
+      "lead": "The university and the Canadian study permit requirements in effect at the time of application determine the precise documents required to study civil engineering in Canada.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Scholarly Writings"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The certificate and mark sheet for Class 10.",
+            "The available interim results or the class 12 mark sheet and certificate.",
+            "Grading information and school transcripts.",
+            "If necessary, projected grades.",
+            "Evidence of secondary school completion.",
+            "If documents are not in a recognized language or format, certified translations can be provided."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Admission"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A current passport.",
+            "The results of any necessary English language competency tests.",
+            "A purpose statement or further answers, if needed.",
+            "Letters of recommendation, if necessary.",
+            "SAT or other test results, if relevant.",
+            "A completed application and a confirmation of payment.",
+            "Applications for scholarships, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Financial Records and Study Permit"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The acceptance letter from the specified educational institution in Canada.",
+            "If necessary and not exempt, a provincial or territorial attestation letter.",
+            "As required by current IRCC regulations, proof of funds for living expenses, travel and tuition.",
+            "Documents proving identity and civil status, upon request.",
+            "Forms and supporting documentation for immigration applications.",
+            "A police certificate or medical examination, if necessary given the applicant's circumstances.",
+            "When appropriate, biometrics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For your circumstances, use the official IRCC checklist. Acceptance of a Canadian study permit is not always ensured by university admission."
+          ]
+        }
+      ]
     }
   ],
   "faq": [
     {
+      "q": "After Class 12, is it possible for Indian students to explore career in civil engineering in Canada?",
+      "a": "Yes. After finishing Class 12, Indian students are eligible to apply as long as they fulfill the academic requirements of the university, which include Physics, Mathematics, and any other necessary courses.",
       "question": "After Class 12, is it possible for Indian students to explore career in civil engineering in Canada?",
       "answer": "Yes. After finishing Class 12, Indian students are eligible to apply as long as they fulfill the academic requirements of the university, which include Physics, Mathematics, and any other necessary courses."
     },
     {
+      "q": "What is the duration of a Canadian undergraduate degree in civil engineering?",
+      "a": "The majority of undergraduate degrees in civil engineering take four years. Depending on the program format, programs involving internships or co-ops may take longer.",
       "question": "What is the duration of a Canadian undergraduate degree in civil engineering?",
       "answer": "The majority of undergraduate degrees in civil engineering take four years. Depending on the program format, programs involving internships or co-ops may take longer."
     },
     {
+      "q": "Does Canada require IELTS to pursue a career in civil engineering?",
+      "a": "Not always. Although acceptable exams, minimum scores, and exemption policies differ, many universities need evidence of English competence. The official requirements of the universities on their short list should be reviewed by applicants.",
       "question": "Does Canada require IELTS to pursue a career in civil engineering?",
       "answer": "Not always. Although acceptable exams, minimum scores, and exemption policies differ, many universities need evidence of English competence. The official requirements of the universities on their short list should be reviewed by applicants."
     },
     {
+      "q": "How much does it cost Indian students to study civil engineering in Canada?",
+      "a": "With additional housing and personal costs, the annual cost of foreign tuition could be anywhere between CAD 35,000 and CAD 75,000 or more. The university, city, and way of life all affect actual costs.",
       "question": "How much does it cost Indian students to study civil engineering in Canada?",
-      "answer": "With additional housing and personal costs, the annual cost of foreign tuition could be anywhere between CAD 35,000 and CAD 75,000 or more. The university, city, and way of life all affect actual costs. Question 5. After earning my degree in Canada, is it possible for me to obtain a license as a civil engineer? Although it is not a prerequisite for obtaining a P.Eng., graduating from an appropriate engineering program can be a significant step toward professional licensure. license. The engineering regulator's requirements in the province or territory where they plan to practice must be met by applicants."
+      "answer": "With additional housing and personal costs, the annual cost of foreign tuition could be anywhere between CAD 35,000 and CAD 75,000 or more. The university, city, and way of life all affect actual costs."
     },
     {
+      "q": "Question 5. After earning my degree in Canada, is it possible for me to obtain a license as a civil engineer?",
+      "a": "Although it is not a prerequisite for obtaining a P.Eng., graduating from an appropriate engineering program can be a significant step toward professional licensure. license. The engineering regulator's requirements in the province or territory where they plan to practice must be met by applicants.",
+      "question": "Question 5. After earning my degree in Canada, is it possible for me to obtain a license as a civil engineer?",
+      "answer": "Although it is not a prerequisite for obtaining a P.Eng., graduating from an appropriate engineering program can be a significant step toward professional licensure. license. The engineering regulator's requirements in the province or territory where they plan to practice must be met by applicants."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
       "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
-      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities. Study Civil Engineering in Canada After 12th Undergraduate Civil Engineering Courses in Canada Best Universities for Civil Engineering in Canada Civil Engineering Admission Requirements in Canada Civil Engineering Eligibility After Class 12 Bachelor of Civil Engineering in Canada Civil Engineering Tuition Fees in Canada Cost of Studying Civil Engineering in Canada Civil Engineering Scholarships in Canada Civil Engineering Career Opportunities in Canada Civil Engineering Jobs in Canada for Graduates Civil Engineering Salary in Canada"
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, is it possible for Indian students to explore career in civil engineering in Canada?",
+      "a": "Yes. After finishing Class 12, Indian students are eligible to apply as long as they fulfill the academic requirements of the university, which include Physics, Mathematics, and any other necessary courses.",
+      "question": "After Class 12, is it possible for Indian students to explore career in civil engineering in Canada?",
+      "answer": "Yes. After finishing Class 12, Indian students are eligible to apply as long as they fulfill the academic requirements of the university, which include Physics, Mathematics, and any other necessary courses."
+    },
+    {
+      "q": "What is the duration of a Canadian undergraduate degree in civil engineering?",
+      "a": "The majority of undergraduate degrees in civil engineering take four years. Depending on the program format, programs involving internships or co-ops may take longer.",
+      "question": "What is the duration of a Canadian undergraduate degree in civil engineering?",
+      "answer": "The majority of undergraduate degrees in civil engineering take four years. Depending on the program format, programs involving internships or co-ops may take longer."
+    },
+    {
+      "q": "Does Canada require IELTS to pursue a career in civil engineering?",
+      "a": "Not always. Although acceptable exams, minimum scores, and exemption policies differ, many universities need evidence of English competence. The official requirements of the universities on their short list should be reviewed by applicants.",
+      "question": "Does Canada require IELTS to pursue a career in civil engineering?",
+      "answer": "Not always. Although acceptable exams, minimum scores, and exemption policies differ, many universities need evidence of English competence. The official requirements of the universities on their short list should be reviewed by applicants."
+    },
+    {
+      "q": "How much does it cost Indian students to study civil engineering in Canada?",
+      "a": "With additional housing and personal costs, the annual cost of foreign tuition could be anywhere between CAD 35,000 and CAD 75,000 or more. The university, city, and way of life all affect actual costs.",
+      "question": "How much does it cost Indian students to study civil engineering in Canada?",
+      "answer": "With additional housing and personal costs, the annual cost of foreign tuition could be anywhere between CAD 35,000 and CAD 75,000 or more. The university, city, and way of life all affect actual costs."
+    },
+    {
+      "q": "Question 5. After earning my degree in Canada, is it possible for me to obtain a license as a civil engineer?",
+      "a": "Although it is not a prerequisite for obtaining a P.Eng., graduating from an appropriate engineering program can be a significant step toward professional licensure. license. The engineering regulator's requirements in the province or territory where they plan to practice must be met by applicants.",
+      "question": "Question 5. After earning my degree in Canada, is it possible for me to obtain a license as a civil engineer?",
+      "answer": "Although it is not a prerequisite for obtaining a P.Eng., graduating from an appropriate engineering program can be a significant step toward professional licensure. license. The engineering regulator's requirements in the province or territory where they plan to practice must be met by applicants."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+      "question": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "answer": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
     }
   ]
 }

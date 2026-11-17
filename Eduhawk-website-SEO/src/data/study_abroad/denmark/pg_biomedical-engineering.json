@@ -1,454 +1,94 @@
 {
-  "name": "Biomedical Engineering",
-  "country": "Denmark",
-  "slug": "pg/biomedical-engineering",
-  "title": "Biomedical Engineering in Denmark for Indian Students | Edu-Hawk Worldwide",
-  "description": "Study Biomedical Engineering in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
-  "keywords": "Study Biomedical Engineering in Denmark, Biomedical Engineering in Denmark for Indian Students, Best Universities in Denmark, Denmark Biomedical Engineering Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
-  "introTitle": "Biomedical Engineering in Denmark for Indian Students",
-  "heroParas": [
-    "Comprehensive guide to studying Biomedical Engineering in Denmark for Indian students."
-  ],
+  "hero": {
+    "title": "Master of Science in Biomedical Engineering in Denmark",
+    "subtitle": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses."
+  },
   "overview": [
-    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Biomedical Engineering."
-  ],
-  "level": "M.Eng / M.Sc. Biomedical Engineering",
-  "crumb": "Engineering / PG Engineering",
-  "stats": [
-    {
-      "val": "DKK 60K-130K",
-      "label": "Tuition / Year"
-    },
-    {
-      "val": "English",
-      "label": "Medium of Study"
-    },
-    {
-      "val": "2 Years",
-      "label": "Course Duration"
-    },
-    {
-      "val": "20 Hrs/Week",
-      "label": "Part-Time Work"
-    }
-  ],
-  "highlights": [
-    {
-      "icon": "FaAward",
-      "title": "World Top-100 Universities",
-      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
-    },
-    {
-      "icon": "FaGraduationCap",
-      "title": "Innovative PBL Learning",
-      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
-    },
-    {
-      "icon": "FaFileAlt",
-      "title": "High Living Standard & Safety",
-      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
-    },
-    {
-      "icon": "FaCheckCircle",
-      "title": "Post-Study Work Visa",
-      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
-    }
-  ],
-  "sections": [
-    {
-      "slot": "why",
-      "eyebrow": "Why Denmark",
-      "title": "Why Study Biomedical Engineering in Denmark?",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Denmark is an attractive student destination for those interested in health technology, medical devices, biotechnology and engineering innovation. Danish universities focus on research, learning through doing and working across disciplines between engineering, healthcare and life sciences. Pursuing a **Master of Science in Biomedical Engineering in Denmark** can be an opportunity for students interested in combining engineering knowledge with healthcare innovation.",
-            "The master\u2019s degree program in biomedical engineering trains students to apply engineering principles to improve the diagnosis, treatment and care of patients. Students can study medical imaging, biomaterials, rehabilitation technology, biosensors and medical device development. Also, Denmark\u2019s strong healthcare and life science sectors give opportunities to learn about innovative medical technologies. These areas form an important part of advanced **Biomedical Engineering courses in Denmark**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "courses",
-      "eyebrow": "Degrees & Pathways",
-      "title": "Denmark Biomedical Engineering Programs",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Students can also check out **Master\u2019s programs in Biomedical Engineering in Denmark** and related fields. Specializations may include (depending on the university):"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Medical Imaging & Diagnostic Technologies",
-            "Biomedical Instrumentation",
-            "Biomaterials & Tissue Engineering",
-            "Medical Device & Product Development",
-            "Biomechanics and Rehabilitation Engineering",
-            "Biosensors & Bioelectronics",
-            "Computational Biology and Analysis of Medical Data",
-            "Biomedical Research and Biotechnology"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The most relevant Master\u2019s programs are two-year long and include theoretical teaching, laboratory work, research projects and a final thesis. Exact course names and specializations vary between universities. Students exploring **Biomedical Engineering programs in Denmark** should compare the available specializations and course structures offered by different institutions."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "Best Universities for Biomedical Engineering in Denmark",
-      "lead": "Explore leading universities and institutions in Denmark offering accredited Biomedical Engineering programmes, modern campuses, and international student support.",
-      "unis": [
-        {
-          "name": "University of Copenhagen (UCPH)",
-          "location": "Copenhagen, Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image1.png"
-        },
-        {
-          "name": "Technical University of Denmark (DTU)",
-          "location": "Kongens Lyngby, Denmark",
-          "fee": "DKK 75,000 \u2013 115,000 / Year",
-          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image2.png"
-        },
-        {
-          "name": "Aarhus University (AU)",
-          "location": "Aarhus, Denmark",
-          "fee": "DKK 60,000 \u2013 110,000 / Year",
-          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image3.png"
-        },
-        {
-          "name": "Aalborg University (AAU)",
-          "location": "Aalborg, Denmark",
-          "fee": "DKK 58,000 \u2013 105,000 / Year",
-          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image1.png"
-        },
-        {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Odense, Denmark",
-          "fee": "DKK 62,000 \u2013 115,000 / Year",
-          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image2.png"
-        }
-      ],
-      "unis_data": [
-        {
-          "name": "University of Copenhagen (UCPH)",
-          "location": "Copenhagen, Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image1.png"
-        },
-        {
-          "name": "Technical University of Denmark (DTU)",
-          "location": "Kongens Lyngby, Denmark",
-          "fee": "DKK 75,000 \u2013 115,000 / Year",
-          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image2.png"
-        },
-        {
-          "name": "Aarhus University (AU)",
-          "location": "Aarhus, Denmark",
-          "fee": "DKK 60,000 \u2013 110,000 / Year",
-          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image3.png"
-        },
-        {
-          "name": "Aalborg University (AAU)",
-          "location": "Aalborg, Denmark",
-          "fee": "DKK 58,000 \u2013 105,000 / Year",
-          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image1.png"
-        },
-        {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Odense, Denmark",
-          "fee": "DKK 62,000 \u2013 115,000 / Year",
-          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-          "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image2.png"
-        }
-      ],
-      "note": [
-        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
-        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Eligibility Criteria",
-      "title": "Who Is Eligible to Study Biomedical Engineering in Denmark?",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "International students usually need:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Relevant BSc degree in biomedical engineering, biotechnology, electrical engineering, mechanical engineering, biomedical sciences or other accepted discipline.",
-            "Academic grade requirements for university admission.",
-            "Relevant courses in mathematics, biology, physics, engineering or programming, depending on the program.",
-            "Proficiency in the English language (IELTS, TOEFL or equivalent accepted where required).",
-            "Additional subject-specific prerequisites as required by the University."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students with a life sciences or engineering background should check whether their previous studies meet the academic requirements of their chosen program. Understanding the **Biomedical Engineering eligibility requirements in Denmark** is essential for students planning postgraduate admission, including those interested in **Biomedical Engineering in Denmark for Indian students**."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "requirements",
-      "eyebrow": "Admission Requirements",
-      "title": "Entry Requirements for Biomedical Engineering in Denmark",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Universities typically look at undergraduate qualifications, academic achievement, subject knowledge and English language skills. The **Biomedical Engineering admission requirements in Denmark** may differ according to the university and the chosen specialization.",
-            "Some programs may require previous coursework in anatomy, physiology, electronics, materials science, biotechnology, signal processing or programming. Applicants might be asked to submit detailed transcripts and course descriptions for prerequisite evaluation.",
-            "Students should check application deadlines and specific program requirements before applying, especially when moving from a life sciences background to an engineering focused degree. Reviewing the **Biomedical Engineering admission process in Denmark** in advance can help applicants prepare their academic documents."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "What Is the Cost of Studying Biomedical Engineering in Denmark?",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Costs vary depending on the university, the program and your lifestyle. Here are the approximate numbers for planning for Indian students considering **Biomedical Engineering fees in Denmark**."
-          ]
-        },
-        {
-          "t": "table",
-          "headers": [
-            "Cost",
-            "Approximate cost in INR"
-          ],
-          "rows": [
-            [
-              "Annual tuition",
-              "\u20b98 lakh-\u20b918 lakh"
-            ],
-            [
-              "Monthly Cost of Living",
-              "\u20b980,000-\u20b91.3 lakh"
-            ],
-            [
-              "Yearly Expenses",
-              "\u20b99.6 lakh \\- \u20b915.6 lakh"
-            ],
-            [
-              "Books, travel and personal costs",
-              "Varies"
-            ]
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimated total for two years: \u20b935 lakh\u2013\u20b970 lakh (including tuition and living expenses).",
-            "These are indicative planning figures and not formal quotations from the university. Real tuition fees and living expenses differ. Before finalizing their budget students should check the current university fee schedules, available scholarships and the financial requirements of the Danish residence permit. Understanding the **cost of studying Biomedical Engineering in Denmark** can help students plan their education expenses."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "timeline",
-      "eyebrow": "Admission Procedure",
-      "title": "Denmark: Admission Process for Biomedical Engineering",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The **Biomedical Engineering admission process in Denmark** generally involves the following steps:",
-            "**Select a program:** Select a biomedical engineering or related course that corresponds with your academic background.",
-            "**Check if you qualify:** Check academic requirements, language requirements, tuition fees and application deadlines.",
-            "**Prepare documentation:** Please gather your degree certificate, transcripts, CV and English language test results if applicable.",
-            "**Submit application:** Apply on the official university admissions website.",
-            "**Get the admission decision:** The university verifies your eligibility and supporting documents.",
-            "**Take the offer:** Confirm your admission by following the instructions from the university and paying any required deposit.",
-            "**Apply for a residence permit:** Complete the student residence-permit procedure applicable to you.",
-            "**Get ready to leave:** Arrange accommodation, transport and other needs before the program commences.",
-            "Students planning **Biomedical Engineering in Denmark for Indian students** should prepare their applications according to the selected university's requirements. **Edu-Hawk Worldwide** can guide students through study-abroad planning and application preparation."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Further Studies & Scope",
-      "title": "Recognition and Accreditation",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Prior to enrollment, students must confirm that the university is officially recognized in Denmark and learn about the program curriculum, laboratory facilities, research opportunities and industry connections.",
-            "Especially in the case of biomedical engineering, it is useful to look at training in medical device development, quality standards, clinical applications, and healthcare technology. Students intending to work in India or elsewhere should also check the relevant local requirements for their intended roles. Those considering a **Master of Science in Biomedical Engineering in Denmark** should evaluate the academic curriculum and practical learning opportunities before choosing a program."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "careers",
-      "eyebrow": "Career Opportunities",
-      "title": "Salary and Career Opportunities After a Master's in Biomedical Engineering",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Jobs are available in medical technology, healthcare equipment, biotechnology, pharmaceutical research, diagnostics and medical device manufacturing. Graduates of **Biomedical Engineering programs in Denmark** may explore opportunities across healthcare technology and related industries.",
-            "Potential job titles might be:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Biomedical Engineering",
-            "Design Engineer (Medical Device)",
-            "Clinical Technician Specialist",
-            "Biomedical Research Engineer",
-            "Medical Imaging Scientist",
-            "Biomaterials Scientist",
-            "Healthcare Technology Consultant",
-            "Development and Research Engineer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Salary levels vary based on experience, technical specialization, employer, and location. Students should look at current Danish job offers and salary expectations to keep their expectations realistic. Experience with medical instruments, data analysis, device design and regulatory quality systems can help you get a job."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Required Documentation",
-      "title": "Required Documents",
-      "lead": "Essential details regarding biomedical engineering in Denmark, covering key requirements, procedures, and guidance for international applicants.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Generally, the applicants need the following documents:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Valid passport",
-            "Bachelor\u2019s degree certificate or provisional certificate",
-            "Subject Details & Academic Transcripts",
-            "Current CV or resume",
-            "Motivation Letter or Statement of Purpose, if required",
-            "IELTS, TOEFL or proof of English language accepted, if required",
-            "Letters of recommendation, if required",
-            "Course descriptions or course syllabus for prerequisite determination",
-            "Relevant academic projects, lab work, internships, or research information",
-            "Financial Documents and Residence Permit Documents after Admission"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The final list of documents depends on the program and university. **Edu-Hawk Worldwide** can help students understand the documentation and application preparation required for studying abroad."
-          ]
-        }
-      ]
-    }
+    "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses.",
+    "Studying in Denmark offers Indian students high-quality Scandinavian higher education with innovative problem-based learning, vibrant student cities, and excellent work-life balance.",
+    "Edu Hawk Worldwide Consultancy guides Indian students through Optagelse.dk centralized admissions, Danish residence permits for study, document translation, and post-study establishment cards."
   ],
   "universities": [
     {
       "name": "University of Copenhagen (UCPH)",
       "location": "Copenhagen, Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image1.png"
+      "fee": "€10,000 – €16,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+      "desc": "UCPH is Denmark's oldest and highest-ranking research university, celebrated across Scandinavia for medicine, life sciences, environmental law, and physics."
     },
     {
       "name": "Technical University of Denmark (DTU)",
-      "location": "Kongens Lyngby, Denmark",
-      "fee": "DKK 75,000 \u2013 115,000 / Year",
-      "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image2.png"
+      "location": "Lyngby, Denmark",
+      "fee": "€13,500 – €15,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+      "desc": "DTU is a leading European technical university renowned for sustainable energy, biotech engineering, wind turbine technology, and high startup spin-offs."
     },
     {
-      "name": "Aarhus University (AU)",
+      "name": "Aarhus University",
       "location": "Aarhus, Denmark",
-      "fee": "DKK 60,000 \u2013 110,000 / Year",
-      "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image3.png"
+      "fee": "€8,000 – €15,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+      "desc": "A globally top-100 public research university with an attractive yellow-brick park campus, acclaimed for business, computer science, and agricultural sciences."
     },
     {
-      "name": "Aalborg University (AAU)",
-      "location": "Aalborg, Denmark",
-      "fee": "DKK 58,000 \u2013 105,000 / Year",
-      "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image1.png"
-    },
-    {
-      "name": "University of Southern Denmark (SDU)",
-      "location": "Odense, Denmark",
-      "fee": "DKK 62,000 \u2013 115,000 / Year",
-      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-      "img": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/image2.png"
+      "name": "Copenhagen Business School (CBS)",
+      "location": "Frederiksberg, Copenhagen, Denmark",
+      "fee": "€12,500 – €18,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+      "image": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+      "desc": "One of Europe's largest triple-crown accredited business schools (EQUIS, AMBA, AACSB), leading in international management, finance, and green leadership."
     }
   ],
-  "faqs": [
+  "sections": [
     {
-      "q": "Q1. How long does it take to finish a master in biomedical engineering in Denmark?",
-      "a": "The most relevant master\u2019s programs last for about two years, depending on the university and the way the program is structured."
-    },
-    {
-      "q": "Q2. Tuition fee for biomedical engineering in Denmark?",
-      "a": "For non-EU/EEA students, a broad planning figure is \u20b98 lakh-\u20b918 lakh per annum. Fees will differ by institution and program."
-    },
-    {
-      "q": "Q3. Is biomedical engineering in Denmark open for Indian students?",
-      "a": "Yes. Indian students are eligible to apply if they meet the academic, English language and program specific admission requirements. **Biomedical Engineering in Denmark for Indian students** can be explored through relevant postgraduate programs offered by Danish universities."
-    },
-    {
-      "q": "Q4. Do biomedical engineering students have scholarships available to them?",
-      "a": "Danish universities sometimes provide scholarships or waive tuition fees for qualified international students. Availability and selection criteria differ between institutions and intakes."
-    },
-    {
-      "q": "Q5. What are the career prospects after graduation?",
-      "a": "Depending on the specialization and experience of the graduates, they may find employment in medical device development, healthcare technology, biomedical research, diagnostics, biotechnology and medical imaging. Students planning a **Master of Science in Biomedical Engineering in Denmark** can explore university options, eligibility criteria, fees and admission procedures with guidance from **Edu-Hawk Worldwide**."
+      "slot": "universities",
+      "eyebrow": "Top Danish Universities",
+      "title": "Top Universities to Consider in Denmark",
+      "lead": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses.",
+      "unis": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "€10,000 – €16,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+          "desc": "UCPH is Denmark's oldest and highest-ranking research university, celebrated across Scandinavia for medicine, life sciences, environmental law, and physics."
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Lyngby, Denmark",
+          "fee": "€13,500 – €15,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+          "desc": "DTU is a leading European technical university renowned for sustainable energy, biotech engineering, wind turbine technology, and high startup spin-offs."
+        },
+        {
+          "name": "Aarhus University",
+          "location": "Aarhus, Denmark",
+          "fee": "€8,000 – €15,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+          "desc": "A globally top-100 public research university with an attractive yellow-brick park campus, acclaimed for business, computer science, and agricultural sciences."
+        },
+        {
+          "name": "Copenhagen Business School (CBS)",
+          "location": "Frederiksberg, Copenhagen, Denmark",
+          "fee": "€12,500 – €18,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+          "image": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+          "desc": "One of Europe's largest triple-crown accredited business schools (EQUIS, AMBA, AACSB), leading in international management, finance, and green leadership."
+        }
+      ],
+      "groups": []
     }
   ],
-  "faqTitle": "Frequently Asked Questions",
-  "hero_image": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/hero.webp",
-  "hero_bg": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/hero_bg.webp",
-  "side_image": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/side.webp",
-  "cta_bg": "/uploads/study_abroad/denmark/Engineering_PG/Biomedical/cta_bg.webp"
+  "faqs": [],
+  "seo": {
+    "title": "Master of Science in Biomedical Engineering in Denmark | Edu-Hawk Worldwide",
+    "description": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and m",
+    "keywords": "Study in Denmark, Top Universities in Denmark, Edu Hawk Worldwide"
+  }
 }

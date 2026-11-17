@@ -1,3 +1,4 @@
+import cmsData from "../../../../data/study_abroad/uk/dentistry.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
 
@@ -22,7 +23,6 @@ const page = {
     "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health."
   ],
   "overview": [
-    "The prevention, diagnosis, and treatment of illnesses and disorders affecting the teeth, gums, mouth and other structures are the main goals of the medical field of dentistry. Through examinations, preventive care, restoration procedures, and treatment planning, dentists assist patients in maintaining oral health.",
     "Students considering professional dental education frequently travel to the United Kingdom. Dental schools in the UK offer structured academic and clinical training programs that foster the development of scientific knowledge, practical skills, patient communication, and professional accountability.",
     "Edu Hawk Worldwide Consultancy helps students understand university admissions requirements, explore  foreign study options , and prepare for their international education adventure."
   ],
@@ -983,9 +983,40 @@ const page = {
 };
 
 export default function DentistryAbroadUK() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => ({
+          ...u,
+          img: u.img || u.image || page.universities?.[idx]?.img,
+          image: u.img || u.image || page.universities?.[idx]?.image || page.universities?.[idx]?.img
+        }))
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

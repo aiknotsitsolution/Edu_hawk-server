@@ -1,3 +1,4 @@
+import languageCoursesData from "../../../../data/study_abroad/usa/language_courses.json";
 import { formatRichText, EligibilityCtaCard } from "../../../../component/CoursePageKit";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit";
@@ -574,14 +575,29 @@ const imgDims = { w: 900, h: 760 };
 
 // UI is rendered by the shared polished course template (CoursePageKit).
 // All content in the page object above is unchanged.
-const LanguageCoursesAbroad = () => (
-  <AbroadCoursePage
-    page={page}
-    heroImg={heroImg}
-    sideImg={sideImg}
-    imgDims={imgDims}
-    seoPath="/study-abroad/language-courses"
-  />
-);
+const LanguageCoursesAbroad = () => {
+  const dynamicPage = {
+    ...page,
+    title: languageCoursesData?.seo?.title || page.title,
+    description: languageCoursesData?.seo?.description || page.description,
+    heroParas: languageCoursesData?.hero?.subtitle ? [languageCoursesData.hero.subtitle] : page.heroParas,
+    overview: languageCoursesData?.overview ? (Array.isArray(languageCoursesData.overview) ? languageCoursesData.overview : languageCoursesData.overview.split('\n\n')) : page.overview,
+    faqs: (languageCoursesData?.faq && languageCoursesData.faq.length > 0)
+      ? languageCoursesData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : page.faqs,
+  };
+
+  return (
+    <AbroadCoursePage
+      page={dynamicPage}
+      heroImg={heroImg}
+      heroBgImg={typeof heroBgImg !== 'undefined' ? heroBgImg : undefined}
+      sideImg={sideImg}
+      ctaBgImg={typeof ctaBgImg !== 'undefined' ? ctaBgImg : undefined}
+      imgDims={typeof imgDims !== 'undefined' ? imgDims : undefined}
+      seoPath="/study-abroad/usa/language-courses"
+    />
+  );
+};
 
 export default LanguageCoursesAbroad;

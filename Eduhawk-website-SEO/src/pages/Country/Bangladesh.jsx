@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/bangladesh.json";
 import React, { useState } from "react";
 import SeoHead from "../../component/SeoHead.jsx";
 import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
@@ -69,19 +70,19 @@ const Bangladesh = () => {
     <>
 
      <SeoHead
-      title="MBBS in Bangladesh for Indian Students | Fees & Admission Process"
-      description="MBBS in Bangladesh with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."
-      keywords=" mbbs in bangladesh, bangladesh mbbs fees, study mbbs bangladesh, bangladesh medical colleges"
-      path="/mbbs-abroad/bangladesh"
-      ogType="website"
-    />
+        title={cmsData?.seo?.title || "MBBS in Bangladesh for Indian Students | Fees & Admission Process"}
+        description={cmsData?.seo?.description || "MBBS in Bangladesh with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."}
+        keywords={cmsData?.seo?.keywords || "mbbs in bangladesh, bangladesh mbbs fees, study mbbs bangladesh, bangladesh medical colleges"}
+        path="/mbbs-abroad/bangladesh"
+        ogType="website"
+      />
 
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg"}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg 2x"
@@ -89,7 +90,7 @@ const Bangladesh = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN Bangladesh
+              {cmsData?.hero?.title || "STUDY MBBS IN Bangladesh"}
             </h1>
           </div>
         </div>
@@ -115,7 +116,7 @@ const Bangladesh = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Bangladesh 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Bangladesh 2026–2027"}
             </h2>
           </div>
         </div>
@@ -279,7 +280,7 @@ const Bangladesh = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities"className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Bangladesh for MBBS 2026-2027
+            {cmsData?.universitiesHeading || "Top Medical Universities in Bangladesh for MBBS 2026-2027"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -737,7 +738,7 @@ const Bangladesh = () => {
           </h2>
 
           <div className="space-y-5">
-            {faqData.map((item, index) => (
+            {((cmsData?.faq && cmsData.faq.length > 0) ? cmsData.faq : faqData).map((item, index) => (
               <div
                 key={index}
                 className={`bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-md ${

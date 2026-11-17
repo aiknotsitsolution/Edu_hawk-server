@@ -1,14 +1,15 @@
 {
   "seo": {
     "title": "Computer Science in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Computer Science in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities."
+    "description": "Study Computer Science in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
+    "keywords": "Computer Science Engineering in Italy for Indian Students, Bachelor's in Computer Science Engineering in Italy, Master's in Computer Science Engineering in Italy, Computer Science Engineering Courses in Italy, Best Universities for Computer Science Engineering in Italy, Cost of Studying Computer Science Engineering in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Computer Science Engineering in Italy for Indian Students",
-    "subtitle": "Yes. Indian students who have successfully completed Class 12 or an equivalent qualification are eligible to apply for Bachelor's programs. They have to meet the academic, language and entrance-test requirements of the university they have chosen.",
+    "subtitle": "Computer Science Engineering in Italy is a great option for Indian students who are looking to build a career in software development, artificial intelligence, data science, cybersecurity, cloud computing, and advanced computing technologies. Undergraduate and postgraduate degrees in Italian universities are designed to integrate the fundamentals of computer science with practical learning, research, and technical skills.",
     "ctaText": "Book Free Counselling",
-    "image": ""
+    "image": "/uploads/study_abroad/italy/computer_science_Bologna_University-image3.png"
   },
   "stats": [
     {
@@ -29,38 +30,891 @@
     }
   ],
   "highlights": {
-    "degree": "Undergraduate & Postgraduate",
+    "degree": "Bachelor & Master in Computer Science",
     "duration": "1 to 2 Years (PG) / 3 Years (UG)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
     "eligibility": "Recognised academic qualification + English / Italian proficiency",
-    "medium": "English & Italian Taught"
+    "medium": "English / Italian"
   },
-  "overview": "Yes. Indian students who have successfully completed Class 12 or an equivalent qualification are eligible to apply for Bachelor's programs. They have to meet the academic, language and entrance-test requirements of the university they have chosen.",
-  "universities": [
+  "overview": [
+    "Computer Science Engineering in Italy is a great option for Indian students who are looking to build a career in software development, artificial intelligence, data science, cybersecurity, cloud computing, and advanced computing technologies. Undergraduate and postgraduate degrees in Italian universities are designed to integrate the fundamentals of computer science with practical learning, research, and technical skills.",
+    "Students can pursue a Bachelor's in Computer Science Engineering in Italy after Class 12 or a Master's in Computer Science Engineering in Italy after a related undergraduate degree. Depending on the university the program titles could be Computer Engineering, Computer Science, Artificial Intelligence and Information Technology.",
+    "Italy provides to study in an international academic environment, search for scholarship opportunities, and develop skills relevant to the global technology industry. But course language, tuition fees, admission requirements and degree structures vary from institution to institution."
+  ],
+  "sections": [
     {
-      "name": "Politecnico di Milano",
-      "location": "Milan, Italy",
-      "fee": "€1,000 – €3,900 / Year",
-      "image": ""
+      "slot": "why-study",
+      "eyebrow": "Key Benefits",
+      "title": "Why Study Computer Science Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students opt for Italy for computer science and computer engineering studies for a number of reasons."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "International education: Study in Italian universities for recognized undergraduate and postgraduate degrees.",
+            "Technology specializations: Artificial intelligence, machine learning, software engineering, cyber security, data science, computer networks.",
+            "English-taught programs Some universities offer English-taught Bachelor's and Master's programs, but choices depend on the degree and the university.",
+            "Hands-on learning: Selected courses include programming labs, group projects, research and industry related assignments.",
+            "Scholarships: Students who may be eligible can search for university scholarships and local financial aid programs.",
+            "International career paths: Graduates can pursue roles in software companies, technology consultancies, fintech, research, and other industries based on their skills and work authorization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "It is important to choose a program that suits your intended career. Computer Science is generally more about algorithms, software and computing theory. Computer Engineering may have more of a focus on computer hardware, embedded systems, electronics and integrated computing technologies."
+          ]
+        }
+      ]
     },
     {
-      "name": "Sapienza University of Rome",
-      "location": "Rome, Italy",
-      "fee": "€1,000 – €3,000 / Year",
-      "image": ""
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Computer Science Engineering courses in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students can choose from undergraduate and postgraduate programs according to their academic credentials and career aspirations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A. Bachelors in Science in Computer Science Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After 12th Class/"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Average duration: 3 years"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Bachelor's degree in Computer Engineering or a related field provides the foundational knowledge in programming, algorithms, mathematics, computer architecture, operating systems, electronics and networking."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common subjects are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Programming and data structure",
+            "Discrete mathematics and mathematics",
+            "Architecture of computers",
+            "Database Management System",
+            "Networking and operating system",
+            "Software Engineering Basics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "B. Master's in Computer Science & Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After Bachelor's degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Average length: 2 years"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Computer Science Engineering in Italy offers advanced training in computing, software systems, computer engineering and specialist technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular subjects and specialisms include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Machine learning and artificial intelligence",
+            "Big data and data science",
+            "Cyber Security",
+            "Software Eng. Advanced",
+            "Distributed systems and cloud computing",
+            "Embedded Systems and Robotics",
+            "Computer Network",
+            "High performance computing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The degree system used by Italian universities is in general the following:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical time"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical entry requirement"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\"Bachelor's\" (Laurea)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3 yrs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class XII or equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Laurea Magistrale (Master's degree)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2 yrs ago"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelors degree in related field"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are normal lengths. Students should check the language, entry criteria and exact qualification for each program before applying."
+          ]
+        }
+      ]
     },
     {
-      "name": "University of Bologna",
-      "location": "Bologna, Italy",
-      "fee": "€1,000 – €3,500 / Year",
-      "image": ""
+      "slot": "universities",
+      "eyebrow": "Top Italian Universities",
+      "title": "Top Universities in Italy",
+      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "unis": [
+        {
+          "name": "Bologna University",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/computer_science_Bologna_University-image3.png"
+        },
+        {
+          "name": "Polytechnic of Milan",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/computer_science_Polytechnic_of_Milan-image2.png"
+        },
+        {
+          "name": "Università di Padova",
+          "location": "Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "image": "/uploads/study_abroad/italy/computer_science_Universita_di_Padova-image1.png"
+        }
+      ],
+      "groups": []
     },
     {
-      "name": "University of Padua",
-      "location": "Padua, Italy",
-      "fee": "€1,000 – €2,800 / Year",
-      "image": ""
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Who Can Study Computer Science Engineering in Italy?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Bachelors Eligibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students generally must meet the following criteria:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "12th Pass or equivalent recognized school leaving qualification.",
+            "An appropriate educational background, particularly in mathematics and other relevant scientific subjects.",
+            "Entrance exam or selection process organized by the university.",
+            "Knowledge of the Italian language for courses taught in Italian.",
+            "English language proficiency at the level required for an English taught program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities may require an entrance test like TOLC-I or a specific university test. The test and selection process varies from course to course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master Qualifications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Generally, applicants must have:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A Bachelor's degree in Computer Science, Computer Engineering, Information Technology, Software Engineering or related field.",
+            "Sufficient credits in relevant subjects such as programming, algorithms, mathematics, computer systems and engineering.",
+            "Academic performance satisfactory to the program.",
+            "Demonstrated English-language proficiency, where required.",
+            "Any other documents, assessments or requirements stated by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants with degrees in other engineering disciplines may be considered if their prior coursework meets the necessary prerequisites. Admission is not automatic and will be subject to an academic evaluation of the program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Admission Requirements for Computer Science Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The requirements are different for Bachelor's and Master's programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prerequisite"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "BSc (Hons)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Masters"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Educational Qualification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "12th grade or equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelors degree related"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Background in mathematics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Of general interest"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mathematics at the University level"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Assessment for entry"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "May require"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Could include academic assessment or selection"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate of Language"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depends on university and language of instruction"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "It is contingent upon the language of instruction and the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Records"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "School mark sheets"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV and letter of motivation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you ask"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Often requested by some programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For a Masters program, the universities may look at the subjects you have undertaken during the Bachelors degree and not just the final percentage. For example, Politecnico di Milano evaluates applicants' previous qualifications, academic preparation and English proficiency for its Master's program in Computer Science and Engineering."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Computer Science Engineering in Italy Cost of Studying",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The Cost of Studying Computer Science Engineering in Italy depends on the university, level of degree, fee category, family-income documentation, and whether you are eligible for scholarships or tuition reductions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The figures below are illustrative annual tuition estimates, not official fees for the universities listed above."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated tuition Per year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition fee"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approximate INR equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€1,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹1,08,600"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€2,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹2,71,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€5,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹5,43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€8,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹8,68,800"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Conversion rate: €1 ~ Rs. 108.60 University fees and real exchange rates can vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional charges"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should budget separately for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "University application and enrollment fees",
+            "Visa and residence permit costs",
+            "Medical insurance",
+            "Accommodation and daily costs",
+            "Books, software and study materials",
+            "Costs of travel and initial settlement"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships for Indian Students"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore (depending on their eligibility):"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Regional level - Need-based scholarships and financial aid",
+            "University Merit Scholarships",
+            "Reductions or exemptions in tuition fees",
+            "Other government or institutional funding also eligible"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Availability of scholarships, amounts of awards, academic requirements, income documentation, and application deadlines will differ. Students should check the official rules of the chosen university and region."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "Computer Science Engineering Admission In Italy",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Pick your degree level: You'll have to decide whether you want to pursue a Bachelor's post Class 12 or a Master's after an under-graduate degree.",
+            "University selection: Check the course content, language of instruction, course duration, tuition fees and specializations.",
+            "Check eligibility: School subject requirements for Bachelor's programs or subject credit requirements for Master's programs.",
+            "Gather Documents: Collect academic transcripts, identification, language test scores, and other necessary documents.",
+            "Entrance test / academic evaluation: Follow pattern given by university.",
+            "Apply: Complete your application on the university's official portal before the deadline.",
+            "Accept your offer and scholarships: Follow the instructions to accept your offer, enroll and apply for funding.",
+            "Visa requirements You need to follow the proper Italian student-visa procedure and check if you have to pre-enrol through Universitaly."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For the 2026-2027 intake, please contact the university directly for the most up-to-date application dates and procedures. If you're applying for a Bachelor's, you need to pay attention to entrance tests and language of instruction requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "recognition",
+      "eyebrow": "Degree Recognition & Accreditation",
+      "title": "Degree in Computer Science Engineering and Recognition in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Italian Universities award qualifications recognized in the Italian higher education system. A Bachelor's degree usually provides basic knowledge and may be required for further education. A Master's degree provides advanced technical and specialized training."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should be able to differentiate between the following qualifications:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's in Computer Engineering: This includes fundamental concepts related to computing and engineering.",
+            "Master's in Computer Science and Engineering: Develop advanced skills in software systems, AI, computing infrastructure, and more.",
+            "Master's in Computer Science: Usually has a stronger focus on computing theory, algorithms, software and specialized computer science research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional opportunities and curriculum vary by degree. Students who plan to return to India should see whether any qualification-recognition requirements apply to their intended employment or further education."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Prospects",
+      "title": "Salary and Job Opportunities After Computer Science Engineering in Italy",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The Computer Science Engineering graduates can work in software development, data analytics, cybersecurity, artificial intelligence, cloud infrastructure, and technology consulting."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career prospects for Bachelor's degree holders"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software Engineer Intern",
+            "Web Developer @",
+            "Application Developer",
+            "Technical Support Engineer",
+            "Junior Systems Engineer",
+            "Software Testing & QA Engineer",
+            "Data Analyst (Junior)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career options after a Master's degree"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software Engineer -",
+            "AI / Machine Learning Engineer",
+            "Data, Scientist",
+            "Cyber Security Engineer",
+            "Cloud Engineer",
+            "Data Engineer",
+            "System Architecture",
+            "Research Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary ranges in Italy (samples)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The figures below are indicative planning estimates of gross annual salaries and are not verified salary statistics nor do they represent guarantyd employment outcomes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career level"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indicative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Approx. INR equivalents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry level"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€28,000-€35,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹30.41 - 38.01 lac"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional experienced"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€35,000-€50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹38.01-54.30 Lacs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Senior / specialist professional"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€50,000-€70,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "₹54.30 - ₹76.02 Lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Conversion to INR: €1 ≈ ₹108.60 Actual salaries will vary according to location, employer, technical specialization, experience, language skills and work authorization. Figures are gross and before tax and deductions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Master's degree could help students to qualify for specialized positions, but it doesn't guaranty a higher pay or employment. Programming ability, internships, projects, communication skills and practical experience in recruiting may all be considered significant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10. Document Needed to Study Computer Science Engineering in Italy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For applicants for a Bachelors Degree"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport (valide)",
+            "Class 10 and Class 12 Marksheets or Certificates as required",
+            "School leaving certificate or equivalent qualification",
+            "Entrance test marks (if applicable)",
+            "Certificate of language proficiency (if applicable)",
+            "If required, academic translations or legalization",
+            "Documents required for pre-enrolment and student visa application"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Master's Students"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Bachelor's degree or provisional degree certificate",
+            "Academic transcripts and mark sheets",
+            "Resume or CV",
+            "Certificate of proficiency in English if required",
+            "Statement of purpose/motivation letter (if applicable)",
+            "Letters of recommendation (if required)",
+            "Course descriptions or syllabus documents, if required for academic assessment",
+            "Details of project or work experience where applicable",
+            "Scholarship and financial documents, if applicable",
+            "Documents for pre-enrolment and application for student visa."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The exact list will depend on the university, the applicant's qualifications and the procedures in force. Always use the official checklist for the intended intake."
+          ]
+        }
+      ]
     }
   ],
-  "faq": []
+  "universities": [
+    {
+      "name": "Bologna University",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/computer_science_Bologna_University-image3.png"
+    },
+    {
+      "name": "Polytechnic of Milan",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/computer_science_Polytechnic_of_Milan-image2.png"
+    },
+    {
+      "name": "Università di Padova",
+      "location": "Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "image": "/uploads/study_abroad/italy/computer_science_Universita_di_Padova-image1.png"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long does it take to do Master in Computer Science Engineering in Italy?",
+      "answer": "A standard Italian Master's degree usually takes two years and usually gives 120 ECTS credits."
+    },
+    {
+      "question": "Does Computer Science Engineering have English programs in Italy?",
+      "answer": "A number of programs are taught in English, especially at Masters level. Many Bachelor engineering programs are however taught in Italian. Politecnico di Milano's Master's in Computer Science and Engineering is taught in English, while its Bachelor's in Engineering of Computing Systems is listed as Italian-taught."
+    },
+    {
+      "question": "How much is it to study Computer Science Engineering in Italy?",
+      "answer": "Tuition varies according to university, level of degree, and applicable fee. Students should review official fee schedules and inquire concerning scholarships or reductions in tuition for which they might be eligible."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does it take to do Master in Computer Science Engineering in Italy?",
+      "a": "A standard Italian Master's degree usually takes two years and usually gives 120 ECTS credits."
+    },
+    {
+      "q": "Does Computer Science Engineering have English programs in Italy?",
+      "a": "A number of programs are taught in English, especially at Masters level. Many Bachelor engineering programs are however taught in Italian. Politecnico di Milano's Master's in Computer Science and Engineering is taught in English, while its Bachelor's in Engineering of Computing Systems is listed as Italian-taught."
+    },
+    {
+      "q": "How much is it to study Computer Science Engineering in Italy?",
+      "a": "Tuition varies according to university, level of degree, and applicable fee. Students should review official fee schedules and inquire concerning scholarships or reductions in tuition for which they might be eligible."
+    }
+  ]
 }

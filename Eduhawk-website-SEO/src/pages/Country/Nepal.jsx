@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/nepal.json";
 
 
 import React, { useState } from "react";
@@ -15,19 +16,19 @@ const Nepal = () => {
   return (
     <>
          <SeoHead
-      title="MBBS in Nepal for Indian Students | Fees & Admission Process"
-      description="MBBS in Nepal with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."
-      keywords=" mbbs in nepal, nepal mbbs fees, study mbbs nepal, nepal medical colleges"
-      path="/mbbs-abroad/nepal"
-      ogType="website"
-    />
+        title={cmsData?.seo?.title || "MBBS in Nepal for Indian Students | Fees & Admission Process"}
+        description={cmsData?.seo?.description || "MBBS in Nepal with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."}
+        keywords={cmsData?.seo?.keywords || "mbbs in nepal, nepal mbbs fees, study mbbs nepal, nepal medical colleges"}
+        path="/mbbs-abroad/nepal"
+        ogType="website"
+      />
    
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg"
+            src={cmsData?.hero?.image || "https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg"}
             alt="Nepal Landscape / Medical Campus"
             className="w-full h-full object-cover brightness-75"
                   srcSet="https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg 1x, https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg 2x"
@@ -35,7 +36,7 @@ const Nepal = () => {
                 />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN NEPAL
+              {cmsData?.hero?.title || "STUDY MBBS IN NEPAL"}
             </h1>
           </div>
         </div>
@@ -59,7 +60,7 @@ const Nepal = () => {
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Nepal 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Nepal 2026–2027"}
             </h2>
           </div>
         </div>
@@ -225,7 +226,7 @@ const Nepal = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities" className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Nepal
+            {cmsData?.universitiesHeading || "Top Medical Universities in Nepal"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">

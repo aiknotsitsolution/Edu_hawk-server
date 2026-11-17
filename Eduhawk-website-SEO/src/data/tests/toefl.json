@@ -1,0 +1,139 @@
+{
+  "id": "toefl",
+  "name": "TOEFL iBT (Test of English as a Foreign Language)",
+  "shortName": "TOEFL",
+  "category": "English Online Exam",
+  "badge": "ETS Official Academic Assessment",
+  "seo": {
+    "title": "TOEFL Exam for Study Abroad: Pattern, Scoring, Registration & Eligibility | EduHawk Worldwide",
+    "description": "Complete guide to the TOEFL iBT and TOEFL ITP exams by ETS for study abroad applicants. Learn about the 4 test sections, enhanced scoring scale, eligibility criteria, test center vs Home Edition, and registration steps.",
+    "keywords": "TOEFL exam for study abroad, TOEFL iBT, TOEFL ITP, TOEFL test types, TOEFL eligibility, TOEFL exam pattern, TOEFL scoring system, TOEFL registration ETS, TOEFL score validity, TOEFL home edition, TOEFL preparation"
+  },
+  "hero": {
+    "badge": "ETS Official Academic Assessment",
+    "heroPara": "The TOEFL iBT exam, developed by the Educational Testing Service (ETS), assesses English proficiency in academic contexts at the university level and is accepted by more than 12,000 institutions across more than 160 countries worldwide."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "Under 2 Hours (Enhanced Format)"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "0 – 120 Total (or 1–6 Band Scale)"
+    },
+    {
+      "label": "Test Formats",
+      "value": "Test Center iBT, Home Edition, ITP"
+    },
+    {
+      "label": "Score Validity",
+      "value": "2 Years from Test Date"
+    },
+    {
+      "label": "Target Score",
+      "value": "80 – 100+ out of 120"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "US $190 – $220 (~₹16,500 – ₹18,500)"
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Australia",
+    "Germany",
+    "Ireland",
+    "France",
+    "Spain",
+    "Italy",
+    "Finland"
+  ],
+  "overview": [
+    "The TOEFL exam is a leading standardized test of English language proficiency developed by ETS (Educational Testing Service).",
+    "It measures international students' English proficiency across academic university scenarios, assessing readiness to write research assignments, follow lectures, comprehend advanced literature, and communicate in academic seminars.",
+    "Universities use TOEFL scores to judge whether foreign applicants have sufficient communicative aptitude to succeed in rigorous degree programs taught in English."
+  ],
+  "examTypes": [
+    {
+      "title": "TOEFL iBT (Internet-Based Test)",
+      "desc": "The primary examination taken by international students applying for undergraduate, master's, and PhD admissions worldwide. Delivered on computer at authorized testing centers or as the TOEFL iBT Home Edition."
+    },
+    {
+      "title": "TOEFL ITP (Institutional Testing Program)",
+      "desc": "Used primarily by colleges and language academies for internal evaluation, placement, or specific scholarship grants. It is not generally equivalent to TOEFL iBT for standard direct university admissions."
+    }
+  ],
+  "sections": [
+    {
+      "name": "Reading",
+      "duration": "35 Minutes",
+      "timeExtra": "(2 reading passages, 10 questions each)",
+      "measures": "Comprehension of written academic material, university-level textbooks, vocabulary in context, inference, and argumentative structure."
+    },
+    {
+      "name": "Listening",
+      "duration": "36 Minutes",
+      "timeExtra": "(3 lectures and 2 conversations)",
+      "measures": "Ability to understand spoken English, lecture concepts, pragmatic understanding, student-professor discussions, and classroom interactions."
+    },
+    {
+      "name": "Speaking",
+      "duration": "16 Minutes",
+      "timeExtra": "(4 tasks: 1 independent, 3 integrated)",
+      "measures": "Reacting to academic tasks, synthesizing information from reading/listening passages, and articulating opinions clearly into a microphone."
+    },
+    {
+      "name": "Writing",
+      "duration": "29 Minutes",
+      "timeExtra": "(2 tasks: Integrated + Academic Discussion)",
+      "measures": "Communicating ideas in structured academic written English, synthesizing listening/reading materials, and contributing to an online academic classroom discussion."
+    }
+  ],
+  "eligibilityCriteria": [
+    "Generally, candidates do not need any specific educational background or minimum qualification to take the TOEFL iBT.",
+    "Any student who satisfies the identification (valid international passport) and ETS registration criteria may appear.",
+    "Common applicant profiles include: High school students applying for undergraduate degrees after 12th; Bachelor's graduates applying for Master's programs; PhD and postgraduate research aspirants; and study-abroad scholarship and exchange students."
+  ],
+  "scoringSystem": "The TOEFL iBT awards scores for each of the four sections (0–30 per section) totaling 0–120 points. Under recent ETS enhancements, scores are also mapped onto a 1–6 scale with half-point increments reflecting CEFR performance levels.",
+  "registrationSteps": [
+    "Create an official ETS account on the official ETS TOEFL website and verify personal contact details.",
+    "Choose the appropriate TOEFL test variant matching your destination university requirements.",
+    "Select your preferred examination format: authorized in-person Test Center appointment or TOEFL iBT Home Edition.",
+    "Browse appointment calendars to pick an optimal test date and location with adequate score reporting lead time.",
+    "Enter identification details strictly matching your valid passport.",
+    "Pay the registration fee using a secure international credit/debit card, PayPal, or accepted electronic payment.",
+    "Confirm your test booking and download appointment confirmation details and test-day security instructions."
+  ],
+  "validityDetails": "TOEFL scores are officially valid for two years from the test date. Official score reports can be sent directly to university admissions offices through your ETS account.",
+  "faqs": [
+    {
+      "q": "What is the purpose of the TOEFL test?",
+      "a": "The TOEFL exam measures English proficiency for academic university admissions and scholarship consideration, demonstrating an international applicant's readiness for English-medium university courses."
+    },
+    {
+      "q": "Do universities outside of the U.S. accept TOEFL?",
+      "a": "Yes. Thousands of top universities in the UK, Canada, Australia, Germany, Ireland, France, and Europe accept TOEFL iBT scores alongside IELTS."
+    },
+    {
+      "q": "How long are TOEFL scores valid?",
+      "a": "TOEFL scores are officially valid for two years from the test date. Students must ensure their scores remain valid through their university intake date."
+    },
+    {
+      "q": "Can Indian students take the TOEFL at home?",
+      "a": "Yes, the TOEFL iBT Home Edition is accessible to Indian students with an appropriate computer, webcam, microphone, reliable internet, and private testing space meeting ETS security standards."
+    },
+    {
+      "q": "Is the TOEFL easier than the IELTS?",
+      "a": "Neither exam is objectively easier. TOEFL is completely computer-administered and features multiple-choice format reading/listening and integrated tasks, whereas IELTS includes a human examiner speaking interview and varied question formats."
+    }
+  ],
+  "countryContexts": {
+    "usa": "In the United States, TOEFL iBT is universally accepted by 100% of universities, with Ivy League and top-50 colleges typically asking for scores between 90 and 105+.",
+    "germany": "In Germany, public universities accept TOEFL iBT scores (typical requirement: 80–92 points) for English-taught master's in engineering, science, and business.",
+    "canada": "In Canada, major universities including Toronto, UBC, and McGill accept TOEFL iBT for direct academic entry (standard cutoff: 86–100).",
+    "uk": "In the United Kingdom, Russell Group universities accept TOEFL iBT for degree-level courses meeting UKVI B2/C1 English language thresholds."
+  }
+}

@@ -1,57 +1,99 @@
 {
   "seo": {
-    "title": "MBBS in Kyrgyzstan for Indian Students 2026-27 | Edu Hawk Worldwide",
-    "description": "Complete guide to MBBS in Kyrgyzstan. Eligibility, low tuition fees, top medical universities, NMC recognition and visa process."
+    "title": "MBBS in Kyrgyzstan for Indian Students | Fees & Admission 2026-27",
+    "description": "Study MBBS in Kyrgyzstan at low cost with top NMC recognized universities. Get details on fees, eligibility, admission process and medical colleges.",
+    "keywords": "mbbs in kyrgyzstan, kyrgyzstan mbbs fees, study mbbs kyrgyzstan, kyrgyzstan medical colleges"
   },
   "hero": {
     "badge": "MBBS Admissions 2026-27",
-    "title": "MBBS in Kyrgyzstan",
-    "subtitle": "Pursue your dream medical career with NMC & WHO accredited universities in Kyrgyzstan.",
-    "ctaText": "Apply for 2026-27 Intake",
-    "image": ""
+    "title": "STUDY MBBS IN KYRGYZSTAN",
+    "subtitle": "Explore MBBS Opportunities in Kyrgyzstan 2026–2027. Pocket-friendly tuition fees, safe campuses in Bishkek, and dedicated Indian hostels.",
+    "image": "/uploads/colleges/kyrgyzstan_about.webp",
+    "ctaText": "Apply for Kyrgyzstan MBBS"
   },
+  "flag": "/uploads/colleges/kyrgyzstan_flag.svg",
   "stats": [
     {
-      "n": "1000+",
-      "l": "Students Placed Globally"
+      "n": "6 Years",
+      "l": "Course Duration (5+1 Internship)"
     },
     {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
+      "n": "₹2.5L",
+      "l": "Starting Annual Tuition"
     },
     {
       "n": "100%",
-      "l": "Support (Visa & End-to-End Guidance)"
+      "l": "English Medium Programs"
+    },
+    {
+      "n": "NMC & WHO",
+      "l": "Recognized Medical Universities"
     }
   ],
   "highlights": {
-    "degree": "MD / MBBS (Equivalent)",
-    "duration": "5 to 6 Years",
-    "fee": "15 - 35 Lakhs Total Package",
-    "eligibility": "50% in PCB (Class 12) + NEET Qualified",
-    "medium": "100% English Medium"
+    "degree": "MD Physician",
+    "duration": "6 Years",
+    "fee": "₹15 - ₹22 Lakhs Total Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO approved",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
   },
-  "overview": "MBBS in Kyrgyzstan offers high quality medical education, advanced clinical training in affiliated government hospitals, and globally recognized medical degrees.",
+  "overview": "Kyrgyzstan is the most cost-effective study destination for Indian medical aspirants. Located in scenic Central Asia, medical universities in Bishkek, Osh, and Jalal-Abad offer direct admissions, English-medium lectures, and extensive FMGE/NExT preparation modules.",
+  "universitiesHeading": "Top Medical Universities in Kyrgyzstan",
   "universities": [
     {
-      "name": "Top State Medical University (Kyrgyzstan)",
-      "location": "Kyrgyzstan",
-      "fee": "₹3.5 Lakhs / Year",
-      "image": ""
+      "name": "International Medical College",
+      "location": "Bishkek, Kyrgyzstan",
+      "fee": "₹2.8 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg",
+      "desc": "International Higher School of Medicine (IHSM), premier international institute in Bishkek."
+    },
+    {
+      "name": "Kyrgyz Russian Slavic University",
+      "location": "Bishkek, Kyrgyzstan",
+      "fee": "₹3.0 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/Kyrgyz-Russian_Slavic_University.jpg",
+      "desc": "Top-tier joint Kyrgyz-Russian government university with high academic rankings."
+    },
+    {
+      "name": "Jalal-Abad State Medical University",
+      "location": "Jalal-Abad, Kyrgyzstan",
+      "fee": "₹2.5 Lakhs / Year",
+      "image": "https://www.ruseducation.in/wp-content/uploads/2022/01/Jalalabad-State-Medical-University.webp",
+      "desc": "Highly affordable government medical academy with large Indian student batch."
+    },
+    {
+      "name": "Asian Medical Institute",
+      "location": "Kant, Kyrgyzstan",
+      "fee": "₹2.6 Lakhs / Year",
+      "image": "https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg",
+      "desc": "Known as ASMI, offering dedicated Indian food mess and FMGE mentorship on campus."
+    },
+    {
+      "name": "Osh State University",
+      "location": "Osh, Kyrgyzstan",
+      "fee": "₹2.9 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Osh_state_university.jpg",
+      "desc": "Historic state university in southern Kyrgyzstan with 25+ affiliated teaching hospitals."
+    },
+    {
+      "name": "Kyrgyz State Medical Academy",
+      "location": "Bishkek, Kyrgyzstan",
+      "fee": "₹3.2 Lakhs / Year",
+      "image": "https://www.ruseducation.in/wp-content/uploads/2022/01/Kyrgyz-State-Medical-Academy.webp",
+      "desc": "Oldest government medical university in Kyrgyzstan with rich academic heritage."
     }
   ],
   "faq": [
     {
-      "question": "Is NEET mandatory for MBBS in Kyrgyzstan?",
-      "answer": "Yes, qualifying NEET in the year of admission or preceding two years is mandatory as per NMC guidelines."
+      "question": "What is the total cost of MBBS in Kyrgyzstan?",
+      "answer": "The complete 6-year package typically ranges between ₹15 lakh and ₹22 lakh including tuition, hostel, and food."
     },
     {
-      "question": "Is the degree from Kyrgyzstan valid in India?",
-      "answer": "Yes, all our partner medical universities comply fully with NMC gazette guidelines, making graduates eligible for the NExT/FMGE exam."
+      "question": "Is Indian food available in Kyrgyzstan medical colleges?",
+      "answer": "Yes, all major campuses have Indian cooks preparing authentic North and South Indian vegetarian and non-vegetarian food."
     }
   ]
 }

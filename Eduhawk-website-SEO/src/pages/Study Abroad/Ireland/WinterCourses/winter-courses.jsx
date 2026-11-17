@@ -1,5 +1,6 @@
 import React from "react";
-import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, withCmsData } from "../../../../component/CoursePageKit.jsx";
+import cmsData from "../../../../data/study_abroad/ireland/winter_courses.json";
 
 // Page layout images
 import heroImg from "../../../../Images/Abroad/Ireland/WinterCourses/hero.webp";
@@ -404,10 +405,24 @@ const page = {
   ]
 };
 
+const uniImages = {
+  "hero.webp": heroImg,
+  "hero_bg.webp": heroBgImg,
+  "side.webp": sideImg,
+  "cta_bg.webp": ctaBgImg,
+  "Dublin_City_University.webp": uniImg1,
+  "Trinity_College_Dublin.webp": uniImg2,
+  "Maynooth_University.webp": uniImg3,
+  "University_of_Galway.webp": uniImg4,
+};
+
+const cmsPage = withCmsData(page, cmsData, uniImages);
+
+
 export default function WinterCoursesIreland() {
   return (
     <AbroadCoursePage
-      page={page}
+      page={cmsPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

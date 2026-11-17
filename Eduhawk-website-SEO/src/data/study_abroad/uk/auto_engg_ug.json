@@ -1,10 +1,5 @@
 {
-  "seo": {
-    "title": "Study BEng Automobile Engineering in the UK for Indian Students | Edu-Hawk Worldwide",
-    "description": "Complete guide to BEng Automobile Engineering in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route)."
-  },
   "hero": {
-    "badge": "Study Abroad - United Kingdom",
     "title": "Study Automobile Engineering in the United Kingdom",
     "subtitle": "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated transportation technologies are the main objectives of automotive engineering."
   },
@@ -13,17 +8,47 @@
     "Undergraduate Automotive Engineering programs in the UK integrate mechanical engineering, vehicle design, electronics, materials science, production, and control systems. Students can explore the design of automobiles, the operation of engines and electric powertrains, and the ways in which engineers enhance the performance, sustainability, safety, and efficiency of vehicles..",
     "Edu Hawk Worldwide Consultancy helps students understand university admission requirements, explore international study possibilities, and prepare for the overseas education journey with the right preparation and direction."
   ],
+  "universities": [
+    {
+      "name": "Coventry University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_auto_engg_ug_Coventry_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_auto_engg_ug_Coventry_University-image3.png",
+      "desc": "Coventry University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Hallam University in Sheffield",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_auto_engg_ug_Hallam_University_in_Sheffield-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_auto_engg_ug_Hallam_University_in_Sheffield-image4.png",
+      "desc": "Hallam University in Sheffield is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Loughborough University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_auto_engg_ug_Loughborough_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_auto_engg_ug_Loughborough_University-image1.png",
+      "desc": "Loughborough University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Warwick University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_auto_engg_ug_Warwick_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_auto_engg_ug_Warwick_University-image2.png",
+      "desc": "Warwick University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
   "sections": [
     {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
       "title": "Why Study Automotive Engineering in the UK ?",
-      "eyebrow": "Why Study in the UK",
+      "lead": "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated transportation technologies are the main objectives of automotive engineering.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated transportation technologies are the main objectives of automotive engineering."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -37,17 +62,15 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "The key advantages of studying automotive engineering in the UK"
-          ]
+          "t": "h4",
+          "text": "The key advantages of studying automotive engineering in the UK"
         },
         {
           "t": "ul",
           "items": [
             "Learn about vehicle dynamics, powertrains, automotive systems, manufacturing, and vehicle design through specialized engineering education.",
             "Develop skills through design projects, computer simulations, vehicle testing, and engineering workshops.",
-            "Electric vehicle technologies: Examine battery systems, hybrid technologies, electric powertrains, and environmentally friendly transportation.",
+            "- Electric vehicle technologies: Examine battery systems, hybrid technologies, electric powertrains, and environmentally friendly transportation.",
             "Opportunities for motorsports: Formula student projects, race vehicle design, and performance engineering activities are among the programs that have been chosen.",
             "In order to obtain appropriate workplace experience, some colleges offer optional industrial placement years.",
             "Certain degrees can facilitate professional registration processes and are accredited by reputable engineering universities.",
@@ -57,15 +80,11 @@
       ]
     },
     {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
       "title": "UK Courses in Automotive Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "Instead of using Automobile Engineering, the title Automotive Engineering is frequently used in the UK. After Class 12, Indian students might consider a number of undergraduate-entry pathways.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Instead of using Automobile Engineering, the title Automotive Engineering is frequently used in the UK. After Class 12, Indian students might consider a number of undergraduate-entry pathways."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -151,51 +170,55 @@
       ]
     },
     {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
       "title": "Top UK Universities for Automotive Engineering",
-      "eyebrow": "Top Institutions",
-      "groups": [
+      "lead": "Undergraduate Automotive Engineering or closely related vehicle engineering programs are offered by the following universities. This is not a formal total ranking, but rather a shortlist for course research.",
+      "groups": [],
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "Coventry University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Coventry_University_webp"
-            },
-            {
-              "name": "Hallam University in Sheffield",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Hallam_University_in_Sheffield_webp"
-            },
-            {
-              "name": "Loughborough University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Loughborough_University_webp"
-            },
-            {
-              "name": "Warwick University",
-              "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-              "imgKey": "uniImg_Warwick_University_webp"
-            }
-          ]
+          "name": "Coventry University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_auto_engg_ug_Coventry_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_auto_engg_ug_Coventry_University-image3.png",
+          "desc": "Coventry University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Hallam University in Sheffield",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_auto_engg_ug_Hallam_University_in_Sheffield-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_auto_engg_ug_Hallam_University_in_Sheffield-image4.png",
+          "desc": "Hallam University in Sheffield is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Loughborough University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_auto_engg_ug_Loughborough_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_auto_engg_ug_Loughborough_University-image1.png",
+          "desc": "Loughborough University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Warwick University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_auto_engg_ug_Warwick_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_auto_engg_ug_Warwick_University-image2.png",
+          "desc": "Warwick University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
         }
       ]
     },
     {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
       "title": "Qualifications for Studying Automotive Engineering in the United Kingdom",
-      "eyebrow": "Course Guide",
+      "lead": "The university, course, academic background, and selected degree program all influence the prerequisites for admission.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "The university, course, academic background, and selected degree program all influence the prerequisites for admission."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After Class 12, Academic Eligibility"
-          ]
+          "t": "h4",
+          "text": "After Class 12, Academic Eligibility"
         },
         {
           "t": "p",
@@ -215,10 +238,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Subject Requirements"
-          ]
+          "t": "h4",
+          "text": "Subject Requirements"
         },
         {
           "t": "p",
@@ -233,10 +254,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "English Language Requirements"
-          ]
+          "t": "h4",
+          "text": "English Language Requirements"
         },
         {
           "t": "p",
@@ -262,20 +281,14 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "Automotive Engineering Admission Requirements in the UK",
-      "eyebrow": "Eligibility & Process",
+      "lead": "Before applying, students should check their academic eligibility and the university's admission requirements.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Before applying, students should check their academic eligibility and the university's admission requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic requirements"
-          ]
+          "t": "h4",
+          "text": "Academic requirements"
         },
         {
           "t": "p",
@@ -300,10 +313,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "English Language Requirements"
-          ]
+          "t": "h4",
+          "text": "English Language Requirements"
         },
         {
           "t": "p",
@@ -356,15 +367,11 @@
       ]
     },
     {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of studying automotive engineering in the United Kingdom",
-      "eyebrow": "Tuition & Living",
+      "lead": "The university, length of the course, location, lodging, and individual lifestyle all affect the final cost.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, length of the course, location, lodging, and individual lifestyle all affect the final cost."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -413,13 +420,15 @@
             "Personal costs",
             "Extra project materials, if necessary"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Financial aid and scholarships"
-          ]
-        },
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Aid",
+      "title": "Financial aid and scholarships",
+      "lead": "",
+      "groups": [
         {
           "t": "p",
           "items": [
@@ -439,153 +448,81 @@
       ]
     },
     {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
       "title": "The UK's Admission Procedure for Automotive Engineering",
-      "eyebrow": "Eligibility & Process",
+      "lead": "",
       "groups": [
         {
-          "t": "p",
+          "t": "steps",
           "items": [
-            "Step 1: Select Your Degree Route"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Choose from a BEng, integrated MEng, foundation-year route, or degree with an industry placement."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 2: Make a shortlist of universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine course modules, facilities connected to cars, chances for motorsports, location, cost of tuition, length of degree, and accreditation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 3: Verify Your Qualifications"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Examine the academic requirements for Class 12, the prerequisites for math and physics, the English language requirements, and any other criteria unique to the course."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 4: Get Your Application Ready"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The majority of undergraduate applicants use UCAS or another method the university specifies."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 5 : Submit the supporting documentation."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic credentials, transcripts, English language proficiency scores, answers to personal statements, reference data, and other requested documents should be provided."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 6: Accept and Examine Your Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Verify if your offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, deposit requirements, tuition costs, and academic criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 7: Accept the Offer"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Follow the university's instructions to complete the necessary acceptance procedures and make any tuition deposit arrangements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 8: Get Your Study Acceptance Confirmation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The university can provide a Confirmation of Acceptance for Studies (CAS) for the student visa procedure if you have fulfilled the necessary requirements and are prepared to sponsor you."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 9 : Apply for a UK student visa."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "In accordance with the most recent UK immigration regulations, prepare the necessary paperwork and submit your application."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Step 10: Make Travel and Accommodation Plans"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Make travel, lodging, travel, university enrollment, and other necessary pre-departure arrangements."
+            {
+              "step": 1,
+              "title": "Select Your Degree Route",
+              "desc": "Choose from a BEng, integrated MEng, foundation-year route, or degree with an industry placement."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine course modules, facilities connected to cars, chances for motorsports, location, cost of tuition, length of degree, and accreditation."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Qualifications",
+              "desc": "Examine the academic requirements for Class 12, the prerequisites for math and physics, the English language requirements, and any other criteria unique to the course."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "The majority of undergraduate applicants use UCAS or another method the university specifies."
+            },
+            {
+              "step": 5,
+              "title": "Submit the supporting documentation.",
+              "desc": "Academic credentials, transcripts, English language proficiency scores, answers to personal statements, reference data, and other requested documents should be provided."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine Your Offer",
+              "desc": "Verify if your offer is unconditional or conditional. Examine the enrollment guidelines, deadlines, deposit requirements, tuition costs, and academic criteria."
+            },
+            {
+              "step": 7,
+              "title": "Accept the Offer",
+              "desc": "Follow the university's instructions to complete the necessary acceptance procedures and make any tuition deposit arrangements."
+            },
+            {
+              "step": 8,
+              "title": "Get Your Study Acceptance Confirmation",
+              "desc": "The university can provide a Confirmation of Acceptance for Studies (CAS) for the student visa procedure if you have fulfilled the necessary requirements and are prepared to sponsor you."
+            },
+            {
+              "step": 9,
+              "title": "Apply for a UK student visa.",
+              "desc": "In accordance with the most recent UK immigration regulations, prepare the necessary paperwork and submit your application."
+            },
+            {
+              "step": 10,
+              "title": "Make Travel and Accommodation Plans",
+              "desc": "Make travel, lodging, travel, university enrollment, and other necessary pre-departure arrangements."
+            }
           ]
         }
       ]
     },
     {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
       "title": "Accreditation and Professional Recognition for Automotive Engineering in the UK",
-      "eyebrow": "Course Guide",
+      "lead": "For students who intend to pursue a long-term engineering career, professional accreditation is crucial.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Accreditation for Engineering Degrees",
+      "lead": "Professional organizations like the following may accredit degrees in automotive engineering:",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "For students who intend to pursue a long-term engineering career, professional accreditation is crucial."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accreditation for Engineering Degrees"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Professional organizations like the following may accredit degrees in automotive engineering:"
-          ]
-        },
         {
           "t": "ul",
           "items": [
@@ -613,15 +550,11 @@
       ]
     },
     {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
       "title": "Pay and Employment Prospects for UK Automotive Engineers",
-      "eyebrow": "Career & Prospects",
+      "lead": "Graduates in automotive engineering can pursue jobs in vehicle design, manufacturing, testing, motorsports, electric mobility, and transport technology.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Graduates in automotive engineering can pursue jobs in vehicle design, manufacturing, testing, motorsports, electric mobility, and transport technology."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -700,15 +633,11 @@
       ]
     },
     {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
       "title": "Documents Needed in the UK to Study Automotive Engineering",
-      "eyebrow": "Course Guide",
+      "lead": "The university, course, and visa arrangements determine the precise paperwork checklist.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "The university, course, and visa arrangements determine the precise paperwork checklist."
-          ]
-        },
         {
           "t": "p",
           "items": [
@@ -736,10 +665,8 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Documents for Student Visas"
-          ]
+          "t": "h4",
+          "text": "Documents for Student Visas"
         },
         {
           "t": "p",
@@ -766,136 +693,37 @@
           ]
         }
       ]
-    },
-    {
-      "title": "FAQs",
-      "eyebrow": "Got Questions?",
-      "groups": [
-        {
-          "t": "faqs",
-          "items": [
-            {
-              "q": "Q1. After Class 12, are Indian kids able to pursue a degree in automotive engineering in the UK?",
-              "a": "Yes After Class 12, qualified Indian students may apply to undergraduate BEng or integrated MEng programs. Mathematics and frequently physics or another pertinent science topic are prerequisites for most programs. Each university has different prerequisites for admission."
-            },
-            {
-              "q": "Q2. How long do undergraduate studies in automotive engineering take in the UK?",
-              "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. Industrial placements and foundation years can prolong the total time."
-            },
-            {
-              "q": "Q3. What is the cost of studying automotive engineering in the United Kingdom?",
-              "a": "For the designated entering years, published samples of overseas tuition in this guidance vary from roughly £18,900 to £37,310 per year. Budgeting must be done separately for living expenses, visa fees, medical bills, and possible annual tuition hikes."
-            },
-            {
-              "q": "Q4. What careers may I pursue in the UK after completing my studies in automotive engineering?",
-              "a": "Automotive Engineer, Vehicle Design Engineer, Vehicle Dynamics Engineer, Powertrain Engineer, Electric Vehicle Engineer, Motorsport Engineer, or Automotive Test Engineer are among the positions that graduates may consider. Technical expertise, experience, employer demands, and labor market conditions all affect career results."
-            },
-            {
-              "q": "Q5. After earning my undergraduate degree in automotive engineering, may I remain in the UK?",
-              "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current regulations."
-            },
-            {
-              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
-              "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
-            }
-          ]
-        }
-      ]
     }
   ],
-  "universities": [
-    {
-      "name": "Coventry University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Coventry_University.webp"
-    },
-    {
-      "name": "Hallam University in Sheffield",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Hallam_University_in_Sheffield.webp"
-    },
-    {
-      "name": "Loughborough University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Loughborough_University.webp"
-    },
-    {
-      "name": "Warwick University",
-      "city": "United Kingdom",
-      "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "Top-ranked institution in the UK offering world-class education, research facilities, and global career opportunities.",
-      "imgFile": "Warwick_University.webp"
-    }
-  ],
-  "table": {
-    "title": "Estimated Cost of Studying BEng Automobile Engineering in the UK (Tuition & Living)",
-    "headers": [
-      "Category / Level",
-      "Estimated Cost (£ / GBP)",
-      "Details / Scope"
-    ],
-    "rows": [
-      [
-        "Undergraduate Degree (Annual)",
-        "£14,000 – £28,000 / year",
-        "Varies by university ranking, laboratory access, and course type"
-      ],
-      [
-        "Postgraduate Degree (Annual)",
-        "£16,000 – £35,000 / year",
-        "1-year intensive master's program or research dissertation"
-      ],
-      [
-        "Monthly Living Costs (Outside London)",
-        "£900 – £1,100 / month",
-        "Includes private/student accommodation, groceries, and utilities"
-      ],
-      [
-        "Monthly Living Costs (London)",
-        "£1,250 – £1,450 / month",
-        "Mandated UKVI maintenance requirement for London study"
-      ],
-      [
-        "Health Surcharge (IHS)",
-        "£776 / year",
-        "Access to UK National Health Service (NHS) for student visa holders"
-      ]
-    ]
-  },
   "faqs": [
     {
-      "q": "Q1. After Class 12, are Indian kids able to pursue a degree in automotive engineering in the UK?",
+      "q": "After Class 12, are Indian kids able to pursue a degree in automotive engineering in the UK?",
       "a": "Yes After Class 12, qualified Indian students may apply to undergraduate BEng or integrated MEng programs. Mathematics and frequently physics or another pertinent science topic are prerequisites for most programs. Each university has different prerequisites for admission."
     },
     {
-      "q": "Q2. How long do undergraduate studies in automotive engineering take in the UK?",
+      "q": "How long do undergraduate studies in automotive engineering take in the UK?",
       "a": "An integrated MEng typically takes four years, whereas a BEng typically takes three. Industrial placements and foundation years can prolong the total time."
     },
     {
-      "q": "Q3. What is the cost of studying automotive engineering in the United Kingdom?",
+      "q": "What is the cost of studying automotive engineering in the United Kingdom?",
       "a": "For the designated entering years, published samples of overseas tuition in this guidance vary from roughly £18,900 to £37,310 per year. Budgeting must be done separately for living expenses, visa fees, medical bills, and possible annual tuition hikes."
     },
     {
-      "q": "Q4. What careers may I pursue in the UK after completing my studies in automotive engineering?",
+      "q": "What careers may I pursue in the UK after completing my studies in automotive engineering?",
       "a": "Automotive Engineer, Vehicle Design Engineer, Vehicle Dynamics Engineer, Powertrain Engineer, Electric Vehicle Engineer, Motorsport Engineer, or Automotive Test Engineer are among the positions that graduates may consider. Technical expertise, experience, employer demands, and labor market conditions all affect career results."
     },
     {
-      "q": "Q5. After earning my undergraduate degree in automotive engineering, may I remain in the UK?",
+      "q": "After earning my undergraduate degree in automotive engineering, may I remain in the UK?",
       "a": "Graduates who meet the requirements may apply for a Graduate visa. An 18-month graduate visa is granted to qualified bachelor's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current regulations."
     },
     {
       "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
       "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
     }
-  ]
+  ],
+  "seo": {
+    "title": "Study Automobile Engineering in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "The design, development, testing, and enhancement of automobiles, electric vehicles , hybrid vehicles, commercial vehicles, vehicle components, and associated t",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
 }

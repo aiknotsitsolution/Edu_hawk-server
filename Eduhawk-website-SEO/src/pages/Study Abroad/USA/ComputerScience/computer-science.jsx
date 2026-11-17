@@ -1,3 +1,4 @@
+import csData from "../../../../data/study_abroad/usa/computer_science.json";
 import React from "react";
 import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/USA/ComputerScience/cs_hero.webp";
@@ -582,9 +583,23 @@ const page = {
 };
 
 const ComputerScienceUSA = () => {
+  const dynamicPage = {
+    ...page,
+    title: csData?.seo?.title || page.title,
+    description: csData?.seo?.description || page.description,
+    heroParas: csData?.hero?.subtitle ? [csData.hero.subtitle] : page.heroParas,
+    stats: (csData?.stats && csData.stats.length > 0)
+      ? csData.stats.map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    overview: csData?.overview ? csData.overview.split('\n\n') : page.overview,
+    faqs: (csData?.faq && csData.faq.length > 0)
+      ? csData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : page.faqs,
+  };
+
   return (
     <AbroadCoursePage
-      page={page}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

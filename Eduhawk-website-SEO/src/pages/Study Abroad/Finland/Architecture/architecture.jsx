@@ -1,3 +1,4 @@
+import cmsData from "../../../../data/study_abroad/finland/architecture.json";
 import React from "react";
 import { AbroadCoursePage, formatRichText } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/Architecture/architecture_finland_hero.webp";
@@ -474,7 +475,7 @@ const page = {
 const ArchitectureFinland = () => {
   return (
     <AbroadCoursePage
-      page={page}
+      page={withCmsData(page, cmsData)}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

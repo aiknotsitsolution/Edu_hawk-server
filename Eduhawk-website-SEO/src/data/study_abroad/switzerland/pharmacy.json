@@ -1,81 +1,93 @@
 {
-  "seo": {
-    "title": "Pharmacy in Switzerland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Pharmacy in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students."
-  },
   "hero": {
-    "badge": "Study Abroad - Switzerland",
     "title": "Pharmacy in Switzerland for Indian Students",
-    "subtitle": "**Pharmacy in Switzerland for Indian Students** is a chance to learn about medicines, pharmaceutical sciences, drug development, clinical pharmacy, pharmacology and patient care in a country recognized for its pharmaceutical and life-sciences industries. Swiss universities offer in-depth academic education, laboratory-based learning and research opportunities.",
-    "ctaText": "Book Free Counselling",
-    "image": ""
+    "subtitle": "Pharmacy in Switzerland for Indian Students is a chance to learn about medicines, pharmaceutical sciences, drug development, clinical pharmacy, pharmacology and patient care in a country recognized for its pharmaceutical and life-sciences industries. Swiss universities offer in-depth academic education, laboratory-based learning and research opportunities."
   },
-  "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Support (Visa & Post-Study Work Guidance)"
-    }
+  "overview": [
+    "Pharmacy in Switzerland for Indian Students is a chance to learn about medicines, pharmaceutical sciences, drug development, clinical pharmacy, pharmacology and patient care in a country recognized for its pharmaceutical and life-sciences industries. Swiss universities offer in-depth academic education, laboratory-based learning and research opportunities.",
+    "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty."
   ],
-  "highlights": {
-    "degree": "B.Sc. & M.Sc. in Pharmacy",
-    "duration": "5 Years (3 Yrs UG + 2 Yrs M.Sc.)",
-    "fee": "CHF 1,000 – CHF 4,000 / Year",
-    "eligibility": "Class 12 / Bachelor's + German/French/English proficiency",
-    "medium": "German, French & English Taught"
-  },
-  "overview": "Students wishing to **Study Pharmacy in Switzerland** have options like bachelor’s degrees, master’s programs, pharmaceutical research and specialized postgraduate education. Pharmacy is however a regulated profession in Switzerland. The language of instruction, eligibility of international applicants, recognition of degrees and requirements to practise as a pharmacist depend on the university and the relevant Swiss authorities. Indian students should check admission eligibility and professional licensing requirements before applying.\n\n**Edu-Hawk Worldwide** helps Indian students explore international education opportunities and understand important aspects of studying abroad, including university selection and admission procedures.",
   "universities": [
     {
-      "name": "Geneva University",
-      "location": "Geneva | Français",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 730 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
     },
     {
-      "name": "Basel University",
-      "location": "Basel | German for Master of Pharmacy",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "fee": "CHF 780 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
     },
     {
-      "name": "ETH Zurich",
-      "location": "Zurich | Wissenschaft & Forschung",
-      "fee": "CHF 1,000 – CHF 4,000 / Year",
-      "image": ""
+      "name": "University of Zurich (UZH)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,220 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+    },
+    {
+      "name": "University of Geneva",
+      "location": "Geneva, Switzerland",
+      "fee": "CHF 500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
     }
   ],
-  "faq": [
+  "sections": [
     {
-      "question": "Is Pharmacy in Switzerland after 12th possible for Indian students?",
-      "answer": "But they can explore available routes, admission is not automatic. Swiss universities have their own criteria for evaluating foreign school leaving certificates. Applicants should check eligibility with the institution directly."
-    },
-    {
-      "question": "How long does it take to become a pharmacist in Switzerland?",
-      "answer": "The professional line is usually university study in pharmacy and the relevant Swiss federal examination. The Master in Pharmacy at the University of Geneva is a two-year program and is part of the route to becoming a registered pharmacist."
-    },
-    {
-      "question": "Is it possible to study pharmacy in Switzerland in English?",
-      "answer": "Not necessarily. The Pharmacy Master’s at the University of Geneva is taught in French, while the Pharmacy Master’s at the University of Basel is taught in German. Requirements vary by program and local-language skills can be important for practical placements."
-    },
-    {
-      "question": "Pharmacy Prices in Switzerland",
-      "answer": "Costs depend on university and city. As a rough guide as to what to expect in terms of planning, students can expect to require between CHF 20,000 and CHF 40,000 (or more) per year to cover both tuition and living costs. Always check the fees published by the institution and current guidance on living costs."
-    },
-    {
-      "question": "Does the pharmacy degree from Switzerland hold good in India?",
-      "answer": "Recognition does not come by itself. Students who wish to practice in India should check the status of their specific qualification with the Pharmacy Council of India and the relevant State Pharmacy Council before registering."
+      "slot": "universities",
+      "eyebrow": "Top Swiss Universities",
+      "title": "Top Universities to Consider in Switzerland",
+      "lead": "Explore world-leading Swiss cantonal universities and federal institutes of technology offering globally renowned degrees, modern research labs, and international faculty.",
+      "unis": [
+        {
+          "name": "ETH Zurich (Swiss Federal Institute of Technology)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 730 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
+        },
+        {
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+          "location": "Lausanne, Switzerland",
+          "fee": "CHF 780 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+        },
+        {
+          "name": "University of Zurich (UZH)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 1,220 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+        },
+        {
+          "name": "University of Geneva",
+          "location": "Geneva, Switzerland",
+          "fee": "CHF 500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+        }
+      ],
+      "groups": []
     }
-  ]
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Pharmacy in Switzerland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Pharmacy in Switzerland for Indian Students is a chance to learn about medicines, pharmaceutical sciences, drug development, clinical pharmacy, pharmacology and",
+    "keywords": "Study in Switzerland, Top Swiss Universities, Edu Hawk Worldwide"
+  }
 }

@@ -311,6 +311,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -365,6 +367,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -419,6 +423,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -473,6 +479,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -527,6 +535,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -581,6 +591,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -635,6 +647,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -689,6 +703,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -743,6 +759,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -797,6 +815,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -851,6 +871,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -905,6 +927,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -959,6 +983,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -1013,6 +1039,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -1067,6 +1095,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -1121,6 +1151,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -1175,6 +1207,8 @@ collections:
               - { label: "Location / City", name: "location", widget: "string" }
               - { label: "Tuition Fee / Package", name: "fee", widget: "string" }
               - { label: "Campus Photo", name: "image", widget: "image", required: false }
+              - { label: "Description", name: "desc", widget: "text", required: false }
+              - { label: "Official Link", name: "link", widget: "string", required: false }
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -2974,6 +3008,60 @@ collections:
       - label: "BBS (Bachelor of Business Studies)"
         name: "usa_bbs"
         file: "src/data/study_abroad/usa/bbs.json"
+        media_folder: "public/uploads/study_abroad/usa"
+        public_folder: "/uploads/study_abroad/usa"
+        fields:
+          - label: "SEO Metadata"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Page Title", name: "title", widget: "string" }
+              - { label: "Meta Description", name: "description", widget: "text" }
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Badge Tag", name: "badge", widget: "string" }
+              - { label: "Page Heading", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Hero Image", name: "image", widget: "image", required: false }
+              - { label: "Button CTA Text", name: "ctaText", widget: "string" }
+          - label: "Key Statistics"
+            name: "stats"
+            widget: "list"
+            fields:
+              - { label: "Value (e.g. 1000+)", name: "n", widget: "string" }
+              - { label: "Label", name: "l", widget: "string" }
+          - label: "Program Highlights & Fees"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - { label: "Degree Awarded", name: "degree", widget: "string" }
+              - { label: "Duration", name: "duration", widget: "string" }
+              - { label: "Tuition / Fee Structure", name: "fee", widget: "string" }
+              - { label: "Eligibility Criteria", name: "eligibility", widget: "string" }
+              - { label: "Medium of Instruction", name: "medium", widget: "string" }
+          - label: "Course & Specialization Overview"
+            name: "overview"
+            widget: "markdown"
+          - label: "Top US Universities"
+            name: "universities"
+            widget: "list"
+            fields:
+              - { label: "University Name", name: "name", widget: "string" }
+              - { label: "Location / State", name: "location", widget: "string" }
+              - { label: "Annual Tuition", name: "fee", widget: "string" }
+              - { label: "Campus Photo", name: "image", widget: "image", required: false }
+          - label: "Frequently Asked Questions"
+            name: "faq"
+            widget: "list"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+
+      - label: "Master of Business Studies"
+        name: "usa_mbs"
+        file: "src/data/study_abroad/usa/mbs.json"
         media_folder: "public/uploads/study_abroad/usa"
         public_folder: "/uploads/study_abroad/usa"
         fields:
@@ -14763,26 +14851,6 @@ collections:
             fields:
               - {"label": "Question", "name": "question", "widget": "string"}
               - {"label": "Answer", "name": "answer", "widget": "text"}
-
-  - name: "tests_exams"
-    label: "Tests & Online Exams (Common)"
-    folder: "src/data/common/tests"
-    create: true
-    delete: true
-    slug: "{{slug}}"
-    media_folder: "public/uploads/tests"
-    public_folder: "/uploads/tests"
-    fields:
-      - { label: "Exam Name (e.g. IELTS, TOEFL, GRE, NEET)", name: "title", widget: "string" }
-      - { label: "Exam Category", name: "category", widget: "select", options: ["English Online Exam", "Foreign Online Exam", "Entrance & Academic Tests"] }
-      - { label: "Target Countries", name: "countries", widget: "list", default: ["USA", "UK", "Canada", "Australia", "Germany"] }
-      - { label: "Exam Format / Mode", name: "format", widget: "string" }
-      - { label: "Minimum Score / Cutoff", name: "score_needed", widget: "string" }
-      - { label: "Fees / Exam Registration Cost", name: "fee", widget: "string" }
-      - { label: "Exam Logo / Banner", name: "image", widget: "image", required: false }
-      - { label: "Overview & Syllabus", name: "overview", widget: "markdown" }
-      - { label: "Preparation Guidance & Tips", name: "preparation", widget: "markdown" }
-      - { label: "Official Booking Link / CTA", name: "official_link", widget: "string" }
 
   - name: "study_abroad_uk"
     label: "Study Abroad - UK"
@@ -31873,3 +31941,586 @@ collections:
             fields:
               - {"label": "Question", "name": "question", "widget": "string"}
               - {"label": "Answer", "name": "answer", "widget": "text"}
+
+  - name: "tests"
+    label: "Tests & Online Exams"
+    delete: false
+    files:
+      - label: "IELTS"
+        name: "tests_ielts"
+        file: "src/data/tests/ielts.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "TOEFL iBT"
+        name: "tests_toefl"
+        file: "src/data/tests/toefl.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "Duolingo English Test"
+        name: "tests_duolingo"
+        file: "src/data/tests/duolingo.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "PTE Academic"
+        name: "tests_pte"
+        file: "src/data/tests/pte.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "OET"
+        name: "tests_oet"
+        file: "src/data/tests/oet.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "France Exams (DELF/DALF/TCF)"
+        name: "tests_france"
+        file: "src/data/tests/france.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "Spain Exams (DELE/SIELE/PCE)"
+        name: "tests_spanish"
+        file: "src/data/tests/spanish.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "Germany Exams (Goethe/TestDaF)"
+        name: "tests_germany"
+        file: "src/data/tests/germany.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "GRE"
+        name: "tests_gre"
+        file: "src/data/tests/gre.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "GMAT"
+        name: "tests_gmat"
+        file: "src/data/tests/gmat.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "SAT"
+        name: "tests_sat"
+        file: "src/data/tests/sat.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "ACT"
+        name: "tests_act"
+        file: "src/data/tests/act.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "CMAT"
+        name: "tests_cmat"
+        file: "src/data/tests/cmat.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "IMAT (Italy Medicine)"
+        name: "tests_imat"
+        file: "src/data/tests/imat.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "UCAT"
+        name: "tests_ucat"
+        file: "src/data/tests/ucat.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "MCAT"
+        name: "tests_mcat"
+        file: "src/data/tests/mcat.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
+      - label: "Which Test Do I Need?"
+        name: "tests_which_test"
+        file: "src/data/tests/which-test.json"
+        media_folder: "public/uploads/tests"
+        public_folder: "/uploads/tests"
+        fields:
+          - label: "SEO"
+            name: "seo"
+            widget: "object"
+            fields:
+              - {label: "Page Title", name: "title", widget: "string"}
+              - {label: "Meta Description", name: "description", widget: "text"}
+              - {label: "Keywords", name: "keywords", widget: "text"}
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Badge", name: "badge", widget: "string"}
+              - {label: "Hero Paragraph", name: "heroPara", widget: "text"}
+          - label: "Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "Label", name: "label", widget: "string"}
+              - {label: "Value", name: "value", widget: "string"}
+          - label: "Overview Paragraphs"
+            name: "overview"
+            widget: "list"
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - {label: "Question", name: "q", widget: "string"}
+              - {label: "Answer", name: "a", widget: "text"}
