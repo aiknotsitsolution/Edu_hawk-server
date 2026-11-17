@@ -496,6 +496,13 @@ collections:
             fields:
               - { label: "Question", name: "question", widget: "string" }
               - { label: "Answer", name: "answer", widget: "text" }
+          - label: "Quick Comparison Table"
+            name: "comparisonTable"
+            widget: "list"
+            fields:
+              - { label: "Feature", name: "feature", widget: "string" }
+              - { label: "MBBS in India (Govt vs. Private)", name: "india", widget: "text" }
+              - { label: "MBBS in Bangladesh", name: "bangladesh", widget: "text" }
 
       - label: "MBBS in Nepal"
         name: "college_nepal"

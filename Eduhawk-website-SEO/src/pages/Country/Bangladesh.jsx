@@ -671,59 +671,79 @@ const Bangladesh = () => {
             MBBS in Bangladesh vs MBBS in India – Quick Comparison (2026-2027)
           </h2>
 
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto shadow-md rounded-lg">
             <table className="min-w-full border-collapse border border-gray-300 text-left">
               <thead>
                 <tr className="bg-blue-900 text-white">
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
-                    Criteria
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                    Feature
                   </th>
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                    MBBS in India (Govt vs. Private)
+                  </th>
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                     MBBS in Bangladesh
-                  </th>
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
-                    MBBS in India
                   </th>
                 </tr>
               </thead>
-              <tbody className="text-gray-700">
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">
-                    Tuition Fees (Total Course)
-                  </td>
-                  <td className="p-4 border">₹25 – 45 Lakhs</td>
-                  <td className="p-4 border">
-                    Govt: ₹1-10 Lakhs (rare seats)
-                    <br />
-                    Private: ₹50 Lakhs – 1.5 Cr+
-                  </td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">Course Duration</td>
-                  <td className="p-4 border">
-                    6 years (5 years study + 1 year internship)
-                  </td>
-                  <td className="p-4 border">5.5 years + 1 year internship</td>
-                </tr>
-                <tr>
-                  <td className="p-4 border font-medium">Class Strength</td>
-                  <td className="p-4 border">25–50 students</td>
-                  <td className="p-4 border">100–150+ (especially private)</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">Global Recognition</td>
-                  <td className="p-4 border">NMC, WHO, BMDC recognized</td>
-                  <td className="p-4 border">
-                    NMC recognized (govt better recognized)
-                  </td>
-                </tr>
-                <tr>
-                  <td className="p-4 border font-medium">
-                    Medium of Instruction
-                  </td>
-                  <td className="p-4 border">English</td>
-                  <td className="p-4 border">English</td>
-                </tr>
+              <tbody className="text-gray-700 divide-y divide-gray-200">
+                {(cmsData?.comparisonTable || [
+                  {
+                    feature: "Tuition (Total)",
+                    india: "₹1L – ₹8L (Govt) / ₹60L – ₹1.5Cr+ (Private)",
+                    bangladesh: "₹30L – ₹50L"
+                  },
+                  {
+                    feature: "Course Duration",
+                    india: "5.5 Years (incl. internship)",
+                    bangladesh: "5 Years + 1 Year Internship"
+                  },
+                  {
+                    feature: "Class Strength",
+                    india: "Larger batches (100–250+ students)",
+                    bangladesh: "More controlled batch sizes"
+                  },
+                  {
+                    feature: "Global Recognition",
+                    india: "NMC, WHO, global standard",
+                    bangladesh: "NMC, WHO, BMDC, WDOMS"
+                  },
+                  {
+                    feature: "Medium of Instruction",
+                    india: "English",
+                    bangladesh: "English"
+                  },
+                  {
+                    feature: "Hostel & Food / Yr",
+                    india: "₹1K–₹2K (Govt) to ₹1.5L–₹2L (Private)",
+                    bangladesh: "₹1L – ₹1.5L per year"
+                  },
+                  {
+                    feature: "Licensing / Exam in India",
+                    india: "None (Direct registration)",
+                    bangladesh: "NEET (entry) + FMGE/NExT (exit/practice in India)"
+                  },
+                  {
+                    feature: "Visa & Insurance",
+                    india: "Not applicable (Domestic)",
+                    bangladesh: "~₹1L – ₹2L combined over course"
+                  }
+                ]).map((row, index) => (
+                  <tr
+                    key={index}
+                    className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                  >
+                    <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                      {row.feature || row.parameter}
+                    </td>
+                    <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                      {row.india}
+                    </td>
+                    <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                      {row.bangladesh}
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
