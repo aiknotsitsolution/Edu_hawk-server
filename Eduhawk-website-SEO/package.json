@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "vite",
     "cms": "decap-server",
-    "build": "npm run generate-sitemap && vite build && npm run prerender",
+    "build": "npm run generate-sitemap && node --max-old-space-size=4096 ./node_modules/vite/bin/vite.js build && npm run prerender",
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-sitemap": "node generate-sitemap.cjs",
-    "prerender": "node prerender.mjs",
+    "prerender": "node --max-old-space-size=4096 prerender.mjs",
     "prerender:all": "npm run build"
   },
   "dependencies": {

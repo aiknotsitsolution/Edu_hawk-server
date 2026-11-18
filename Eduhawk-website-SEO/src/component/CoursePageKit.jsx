@@ -46,7 +46,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 
 
@@ -5388,11 +5388,31 @@ export const AbroadCoursePage = ({
 
 
 
-  const courseBase = (page.name || "")
+  let courseBase = (page.name || "")
     .replace(new RegExp(`\\s+(in|for)\\s+(the\\s+)?${country}(\\s+for\\s+Indian\\s+Students)?$`, 'i'), '')
     .replace(/\s+for\s+Indian\s+Students$/i, '')
     .replace(new RegExp(`\\s+(in|for)\\s+(the\\s+)?${country}$`, 'i'), '')
-    .trim() || page.name || "";
+    .replace(/^Study\s+/i, '')
+    .trim();
+
+  // Generic course recovery: if courseBase is empty or was reduced to generic "Study" / "Study in" (e.g. from cmsData.hero.title "Study in Germany")
+  if (!courseBase || /^Study$/i.test(courseBase) || /^(Study\s+in|Courses?\s+in)$/i.test(courseBase)) {
+    const slug = page.slug || seoPath || "";
+    const slugMatch = slug.match(/([a-zA-Z0-9-]+)\/?$/);
+    const countryNames = /^(germany|usa|uk|canada|australia|ireland|denmark|sweden|finland|france|switzerland|mauritius|italy|russia)$/i;
+    if (slugMatch && slugMatch[1] && !countryNames.test(slugMatch[1])) {
+      courseBase = slugMatch[1]
+        .split('-')
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(' ');
+    } else if (page.title) {
+      const titleMatch = page.title.match(/^([^|•\-–]+?)\s+(?:in|for)\s+/i);
+      if (titleMatch && titleMatch[1]) {
+        courseBase = titleMatch[1].replace(/^Study\s+/i, '').trim();
+      }
+    }
+  }
+  if (!courseBase) courseBase = page.name || "Course";
 
 
 
@@ -5440,11 +5460,19 @@ export const AbroadCoursePage = ({
 
   const secondary = { href: "#faq", label: "Read FAQs" };
 
+  let locationPath = null;
+  try {
+    const loc = useLocation();
+    if (loc?.pathname && loc.pathname !== "/") {
+      locationPath = loc.pathname.replace(/\/+$/, "");
+    } else if (loc?.pathname === "/") {
+      locationPath = "/";
+    }
+  } catch {
+    // Graceful fallback if rendered outside a router context
+  }
 
-
-
-
-
+  const effectiveSeoPath = seoPath || page?.seoPath || locationPath;
 
   return (
 
@@ -5454,7 +5482,7 @@ export const AbroadCoursePage = ({
 
 
 
-      <SeoHead title={page.title} description={page.description} path={seoPath}>
+      <SeoHead title={page.title} description={page.description} path={effectiveSeoPath}>
 
 
 
@@ -5612,7 +5640,7 @@ export const AbroadCoursePage = ({
 
 
 
-            <EhpHead eyebrow="Overview" title={page.introTitle} />
+            <EhpHead eyebrow={page.overviewEyebrow || "Overview"} title={page.introTitle} />
 
 
 
@@ -6053,34 +6081,21 @@ export const AbroadCoursePage = ({
 
 
 
-              <EhpHead eyebrow={s.eyebrow} title={s.title} />
-
-
-
-              {boxed ? (
-
-
-
-                <Panel className="max-w-4xl">
-
-
-
+              <EhpHead eyebrow={s.eyebrow} title={s.title} desc={s.lead || s.desc} />
+              {(s.items || s.paras) && (!s.groups || s.groups.length === 0) && (
+                <Paragraphs
+                  items={s.items || s.paras}
+                  className="max-w-4xl text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
+                />
+              )}
+              {s.groups && s.groups.length > 0 && (
+                boxed ? (
+                  <Panel className="max-w-4xl">
+                    <AbroadGroups groups={s.groups} />
+                  </Panel>
+                ) : (
                   <AbroadGroups groups={s.groups} />
-
-
-
-                </Panel>
-
-
-
-              ) : (
-
-
-
-                <AbroadGroups groups={s.groups} />
-
-
-
+                )
               )}
 
 
@@ -6123,6 +6138,12 @@ export const AbroadCoursePage = ({
             </div>
             <div className="max-w-3xl mx-auto">
               <FaqList faqs={effectiveFaqs} />
+              {(page.faqNote || page.faqClosing || faqSection?.note) && (
+                <Paragraphs
+                  items={page.faqNote || page.faqClosing || faqSection?.note}
+                  className="mt-8 text-slate-500 text-[15px] leading-relaxed space-y-3"
+                />
+              )}
             </div>
           </div>
         </section>
@@ -6187,39 +6208,356 @@ const heroImgDims = { w: 1600, h: 1065 };
 
 
 
-export const withCmsData = (page, cmsData, uniImages) => {
-  if (!cmsData) return page;
+export const withCmsData = (page = {}, cmsData = {}, uniImages = {}) => {
+  if (!cmsData || (typeof cmsData === "object" && Object.keys(cmsData).length === 0)) return page;
+
+  // Safeguard 1: Country detection without silent USA defaulting
+  const detectCountry = (p, c) => {
+    if (p?.country && typeof p.country === "string" && p.country.trim()) {
+      return p.country.trim();
+    }
+    if (c?.country && typeof c.country === "string" && c.country.trim()) {
+      return c.country.trim();
+    }
+    const slug = p?.slug || p?.seoPath || "";
+    const match = slug.match(/(?:study-abroad|mbbs-abroad)\/([a-zA-Z-]+)/i);
+    if (match && match[1]) {
+      const raw = match[1].toLowerCase();
+      const countryMap = {
+        usa: "USA", uk: "UK", uae: "UAE",
+        germany: "Germany", denmark: "Denmark", sweden: "Sweden",
+        ireland: "Ireland", australia: "Australia", canada: "Canada",
+        france: "France", switzerland: "Switzerland", mauritius: "Mauritius",
+        finland: "Finland", italy: "Italy", russia: "Russia",
+        kazakhstan: "Kazakhstan", uzbekistan: "Uzbekistan", kyrgyzstan: "Kyrgyzstan",
+        georgia: "Georgia", armenia: "Armenia", belarus: "Belarus",
+        china: "China", egypt: "Egypt", iran: "Iran", nepal: "Nepal",
+        tajikistan: "Tajikistan", vietnam: "Vietnam", bangladesh: "Bangladesh"
+      };
+      if (countryMap[raw]) return countryMap[raw];
+      return raw.charAt(0).toUpperCase() + raw.slice(1);
+    }
+    return "";
+  };
+
+  const country = detectCountry(page, cmsData);
+
+  // Safeguard 5 & Issue 1: Clean course name (never allow hero.title to pollute page.name)
+  let cleanName = (page?.name || "").trim();
+  if (country) {
+    cleanName = cleanName
+      .replace(new RegExp(`\\s+(in|for)\\s+(the\\s+)?${country}(\\s+for\\s+Indian\\s+Students)?$`, 'i'), '')
+      .replace(/\s+for\s+Indian\s+Students$/i, '')
+      .replace(new RegExp(`\\s+(in|for)\\s+(the\\s+)?${country}$`, 'i'), '')
+      .replace(/^Study\s+/i, '')
+      .trim();
+  }
+  // Generic course recovery: if cleanName ended up empty or generic "Study" / "Study in [Country]"
+  if (!cleanName || /^Study$/i.test(cleanName) || /^(Study\s+in|Courses?\s+in)$/i.test(cleanName)) {
+    const slug = page?.slug || page?.seoPath || "";
+    const slugMatch = slug.match(/([a-zA-Z0-9-]+)\/?$/);
+    const countryNames = /^(germany|usa|uk|canada|australia|ireland|denmark|sweden|finland|france|switzerland|mauritius|italy|russia)$/i;
+    if (slugMatch && slugMatch[1] && !countryNames.test(slugMatch[1])) {
+      cleanName = slugMatch[1]
+        .split('-')
+        .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(' ');
+    } else if (page?.title) {
+      const titleMatch = page.title.match(/^([^|•\-–]+?)\s+(?:in|for)\s+/i);
+      if (titleMatch && titleMatch[1]) {
+        cleanName = titleMatch[1].replace(/^Study\s+/i, '').trim();
+      }
+    }
+  }
+  if (!cleanName) cleanName = (page?.name || "").trim() || "Course";
+
+  // Safeguard 5 (cont.): IntroTitle flow verification
+  const resolvedIntroTitle = cmsData?.introTitle ||
+    page?.introTitle ||
+    (cmsData?.hero?.title && !/^study\s+in\s+/i.test(cmsData.hero.title) ? cmsData.hero.title : "") ||
+    (country ? `Study ${cleanName} in ${country}` : cleanName);
+
+  // Safeguard 7: Safe Overview with full JSX fallback
+  let resolvedOverview = page?.overview;
+  if (cmsData?.overview) {
+    if (Array.isArray(cmsData.overview)) {
+      const filtered = cmsData.overview.filter(item => typeof item === "string" ? item.trim().length > 0 : Boolean(item));
+      if (filtered.length > 0) resolvedOverview = filtered;
+    } else if (typeof cmsData.overview === "string" && cmsData.overview.trim().length > 0) {
+      const splitParas = cmsData.overview.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+      if (splitParas.length > 0) resolvedOverview = splitParas;
+    }
+  }
+
+  // Safeguard 6: Stats normalization preserving numeric values including 0
+  const isValidStatVal = (val) => {
+    if (val === null || val === undefined) return false;
+    if (typeof val === "number") return true;
+    if (typeof val === "string") return val.trim().length > 0;
+    return false;
+  };
+
+  let resolvedStats = page?.stats;
+  const rawCmsStats = cmsData?.stats;
+  if (Array.isArray(rawCmsStats) && rawCmsStats.length > 0) {
+    const normalized = rawCmsStats
+      .map((s) => {
+        if (!s || typeof s !== "object") return null;
+        const rawLabel = (s.l !== undefined ? s.l : s.label);
+        const rawVal = (s.n !== undefined ? s.n : (s.val !== undefined ? s.val : s.value));
+        const label = typeof rawLabel === "string" ? rawLabel.trim() : (rawLabel !== null && rawLabel !== undefined ? String(rawLabel).trim() : "");
+        if (!label || !isValidStatVal(rawVal)) return null;
+        const valStr = typeof rawVal === "string" ? rawVal.trim() : String(rawVal);
+        return {
+          label,
+          value: valStr,
+          val: valStr,
+          l: label,
+          n: valStr,
+        };
+      })
+      .filter(Boolean);
+    if (normalized.length >= 2) {
+      resolvedStats = normalized;
+    }
+  }
+
+  // Issue 2: Stable University Matching using Name/ID Lookup (Never attach unrelated image)
+  const normalizeUniName = (name) => {
+    if (!name || typeof name !== "string") return "";
+    return name
+      .toLowerCase()
+      .replace(/\s*\([^)]*\)/g, "") // remove parenthetical abbreviations e.g. (TUM), (UCD), (MIT)
+      .replace(/[^a-z0-9]/g, "") // remove punctuation and whitespace
+      .trim();
+  };
+
+  const fallbackUnis = Array.isArray(page?.universities) && page.universities.length > 0
+    ? page.universities
+    : (Array.isArray(page?.unis) && page.unis.length > 0 ? page.unis : []);
+  const cmsUnis = Array.isArray(cmsData?.universities) && cmsData.universities.length > 0
+    ? cmsData.universities
+    : [];
+
+  const buildUniLookup = (unis) => {
+    const byId = new Map();
+    const byNorm = new Map();
+    unis.forEach((u) => {
+      if (u.id) byId.set(String(u.id).trim().toLowerCase(), u);
+      const norm = normalizeUniName(u.name);
+      if (norm) byNorm.set(norm, u);
+    });
+    return {
+      find: (target) => {
+        if (!target || typeof target !== "object") return null;
+        if (target.id) {
+          const match = byId.get(String(target.id).trim().toLowerCase());
+          if (match) return match;
+        }
+        const norm = normalizeUniName(target.name);
+        if (norm) {
+          if (byNorm.has(norm)) return byNorm.get(norm);
+          for (const [key, val] of byNorm.entries()) {
+            if (norm.length >= 6 && key.length >= 6 && (norm.includes(key) || key.includes(norm))) {
+              return val;
+            }
+          }
+        }
+        return null;
+      }
+    };
+  };
+
+  const resolveUniImage = (cmsItem = {}, fallback = {}) => {
+    const cItem = cmsItem || {};
+    const fb = fallback || {};
+    const rawImg = cItem.image || cItem.img || cItem.src || fb.image || fb.img || fb.src;
+    const name = cItem.name || fb.name || "";
+    let mappedImg = null;
+    if (uniImages && typeof uniImages === "object") {
+      mappedImg = uniImages[name] ||
+        (rawImg && uniImages[rawImg]) ||
+        (fallback.name && uniImages[fallback.name]);
+    }
+    return mappedImg || rawImg || fallback.image || fallback.img || fallback.src;
+  };
+
+  const mergeSingleUni = (cmsItem, fallback = {}) => {
+    const merged = { ...fallback };
+    if (cmsItem && typeof cmsItem === "object") {
+      for (const [k, v] of Object.entries(cmsItem)) {
+        if (v !== null && v !== undefined && v !== "") {
+          merged[k] = v;
+        }
+      }
+    }
+    const finalImg = resolveUniImage(cmsItem, fallback);
+    return {
+      ...merged,
+      image: finalImg,
+      img: finalImg,
+      src: finalImg,
+    };
+  };
+
+  let resolvedUnis = [];
+  if (cmsUnis.length > 0) {
+    const fallbackLookup = buildUniLookup(fallbackUnis);
+    const matchedFallbacks = new Set();
+    cmsUnis.forEach((cmsItem) => {
+      const matchedFallback = fallbackLookup.find(cmsItem);
+      if (matchedFallback) {
+        matchedFallbacks.add(matchedFallback);
+        resolvedUnis.push(mergeSingleUni(cmsItem, matchedFallback));
+      } else {
+        // Unmatched CMS university - never attach an unrelated fallback's image
+        resolvedUnis.push(mergeSingleUni(cmsItem, {}));
+      }
+    });
+    // Retain any fallback universities not mentioned in CMS
+    fallbackUnis.forEach((fb) => {
+      if (!matchedFallbacks.has(fb)) {
+        resolvedUnis.push(mergeSingleUni(null, fb));
+      }
+    });
+  } else {
+    fallbackUnis.forEach((fb) => {
+      resolvedUnis.push(mergeSingleUni(null, fb));
+    });
+  }
+
+  // Issue 4: Section Merge Fallback (An empty CMS property must not overwrite a populated JSX property)
+  const isUniSec = (sec) => Boolean(
+    sec && (
+      sec.slot === "universities" ||
+      sec.id === "universities" ||
+      /universit/i.test(sec.eyebrow || sec.title || "")
+    )
+  );
+
+  const attachUnis = (sec) => {
+    if (isUniSec(sec) && resolvedUnis && resolvedUnis.length > 0) {
+      return {
+        ...sec,
+        unis: (Array.isArray(sec.unis) && sec.unis.length > 0) ? sec.unis : resolvedUnis,
+      };
+    }
+    return sec;
+  };
+
+  const mergeSectionProps = (pageSec = {}, cmsSec = {}) => {
+    const merged = { ...pageSec };
+    if (!cmsSec || typeof cmsSec !== "object") return merged;
+    for (const [k, v] of Object.entries(cmsSec)) {
+      if (v === null || v === undefined) continue;
+      if (typeof v === "string") {
+        if (v.trim().length > 0) merged[k] = v.trim();
+      } else if (Array.isArray(v)) {
+        if (v.length > 0) merged[k] = v;
+      } else if (typeof v === "object") {
+        if (Object.keys(v).length > 0) merged[k] = v;
+      } else {
+        merged[k] = v;
+      }
+    }
+    return merged;
+  };
+
+  const validPageSecs = Array.isArray(page?.sections) ? page.sections.filter(Boolean) : [];
+  const validCmsSecs = Array.isArray(cmsData?.sections) ? cmsData.sections.filter(Boolean) : [];
+
+  let resolvedSections = [];
+  if (validPageSecs.length === 0 && validCmsSecs.length === 0) {
+    resolvedSections = [];
+  } else if (validCmsSecs.length === 0) {
+    resolvedSections = validPageSecs.map(attachUnis);
+  } else if (validPageSecs.length === 0) {
+    resolvedSections = validCmsSecs.map(attachUnis);
+  } else {
+    // Merge matching sections sequentially to handle duplicate slots and preserve all JSX sections
+    const usedCmsIndices = new Set();
+    resolvedSections = validPageSecs.map((pageSec) => {
+      const pKey = pageSec.slot || pageSec.id;
+      let matchedCmsIdx = -1;
+      if (pKey) {
+        matchedCmsIdx = validCmsSecs.findIndex((cSec, cIdx) =>
+          !usedCmsIndices.has(cIdx) && (cSec.slot === pKey || cSec.id === pKey)
+        );
+      }
+      if (matchedCmsIdx === -1 && pageSec.title) {
+        const pTitleNorm = pageSec.title.trim().toLowerCase();
+        matchedCmsIdx = validCmsSecs.findIndex((cSec, cIdx) =>
+          !usedCmsIndices.has(cIdx) && cSec.title && cSec.title.trim().toLowerCase() === pTitleNorm
+        );
+      }
+      if (matchedCmsIdx !== -1) {
+        usedCmsIndices.add(matchedCmsIdx);
+        return attachUnis(mergeSectionProps(pageSec, validCmsSecs[matchedCmsIdx]));
+      }
+      return attachUnis(pageSec);
+    });
+
+    // Append any CMS sections that were not matched to a JSX slot
+    validCmsSecs.forEach((cSec, cIdx) => {
+      if (!usedCmsIndices.has(cIdx)) {
+        resolvedSections.push(attachUnis(cSec));
+      }
+    });
+  }
+
+  // Issue 3: Fix FAQ source selection (Independently sanitize both arrays, select first non-empty, preserve page.faqs)
+  const sanitizeFaqs = (list) => {
+    if (!Array.isArray(list)) return [];
+    return list
+      .map((item) => {
+        if (!item || typeof item !== "object") return null;
+        const rawQ = item.question !== undefined ? item.question : item.q;
+        const rawA = item.answer !== undefined ? item.answer : item.a;
+        const q = typeof rawQ === "string" ? rawQ.trim() : (rawQ !== null && rawQ !== undefined ? String(rawQ).trim() : "");
+        const a = typeof rawA === "string" ? rawA.trim() : (rawA !== null && rawA !== undefined ? String(rawA).trim() : "");
+        if (!q || !a) return null;
+        return { q, a, question: q, answer: a };
+      })
+      .filter(Boolean);
+  };
+
+  const validCmsFaq = sanitizeFaqs(cmsData?.faq);
+  const validCmsFaqs = sanitizeFaqs(cmsData?.faqs);
+  const validPageFaqs = sanitizeFaqs(page?.faqs);
+
+  let resolvedFaqs = validPageFaqs;
+  if (validCmsFaq.length > 0) {
+    resolvedFaqs = validCmsFaq;
+  } else if (validCmsFaqs.length > 0) {
+    resolvedFaqs = validCmsFaqs;
+  }
+
+  // Safeguard 7 (cont.): Missing or empty CMS data strictly retains existing JSX content
   return {
     ...page,
+    name: cleanName,
+    country: country || page?.country,
     title: cmsData?.seo?.title || page?.title,
     description: cmsData?.seo?.description || page?.description,
-    introTitle: cmsData?.hero?.title || page?.introTitle || page?.name,
-    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page?.heroParas,
+    keywords: cmsData?.seo?.keywords || page?.keywords,
+    introTitle: resolvedIntroTitle,
+    overviewEyebrow: cmsData?.overviewEyebrow || page?.overviewEyebrow || "Overview",
+    heroParas: (cmsData?.hero?.subtitle && typeof cmsData.hero.subtitle === "string" && cmsData.hero.subtitle.trim().length > 0)
+      ? [cmsData.hero.subtitle.trim()]
+      : page?.heroParas,
     heroImg: cmsData?.hero?.image || cmsData?.heroImg || page?.heroImg,
     heroBgImg: cmsData?.hero?.bgImage || cmsData?.heroBgImg || page?.heroBgImg,
     sideImg: cmsData?.sideImg || page?.sideImg,
     ctaBgImg: cmsData?.ctaBgImg || page?.ctaBgImg,
-    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
-      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
-      : page?.overview,
-    sections: (cmsData?.sections && cmsData.sections.length > 0)
-      ? cmsData.sections
-      : page?.sections,
-    universities: (cmsData?.universities && cmsData.universities.length > 0)
-      ? cmsData.universities.map((u, idx) => {
-          const resolvedImg = u.image || u.img || (uniImages && (uniImages[u.name] || uniImages[u.image] || uniImages[u.img])) || page?.universities?.[idx]?.image || page?.universities?.[idx]?.img;
-          return {
-            ...u,
-            image: resolvedImg,
-            img: resolvedImg,
-          };
-        })
-      : page?.universities,
-    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
-      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
-      : (cmsData?.faq && cmsData.faq.length > 0)
-        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
-        : page?.faqs,
+    overview: resolvedOverview,
+    stats: resolvedStats,
+    highlights: (Array.isArray(cmsData?.highlights) && cmsData.highlights.length > 0) ? cmsData.highlights : page?.highlights,
+    universities: resolvedUnis,
+    unis: resolvedUnis,
+    sections: resolvedSections,
+    faqs: resolvedFaqs,
+    faqClosing: cmsData?.faqClosing || page?.faqClosing || page?.faqNote,
+    faqNote: cmsData?.faqClosing || page?.faqNote || page?.faqClosing,
     seo: {
       title: cmsData?.seo?.title || page?.title,
       description: cmsData?.seo?.description || page?.description,

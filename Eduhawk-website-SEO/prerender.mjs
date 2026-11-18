@@ -786,7 +786,8 @@ async function prerender() {
     }
   };
 
-  const CONCURRENCY = 8;
+  const startTime = Date.now();
+  const CONCURRENCY = 4;
   for (let i = 0; i < routes.length; i += CONCURRENCY) {
     const chunk = routes.slice(i, i + CONCURRENCY);
     await Promise.all(chunk.map(renderRoute));
@@ -824,10 +825,14 @@ async function prerender() {
 
   await vite.close();
 
+  const durationSec = ((Date.now() - startTime) / 1000).toFixed(1);
+  const mem = process.memoryUsage();
   console.log("\n==========================================");
-  console.log(`🎉 Static prerender complete!`);
+  console.log(`🎉 Static prerender complete in ${durationSec}s!`);
   console.log(`✅ Successful: ${successCount}`);
   console.log(`❌ Failed:     ${failCount}`);
+  console.log(`📊 Peak heapUsed: ${(mem.heapUsed / 1024 / 1024).toFixed(1)} MB`);
+  console.log(`📊 Peak RSS:      ${(mem.rss / 1024 / 1024).toFixed(1)} MB`);
   console.log("==========================================");
 
   if (failures.length > 0) {

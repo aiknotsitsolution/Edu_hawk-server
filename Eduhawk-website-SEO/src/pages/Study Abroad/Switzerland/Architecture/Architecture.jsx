@@ -17,7 +17,7 @@ const page = {
   name: "Study Architecture in Switzerland",
   country: "Switzerland",
   slug: "architecture",
-  title: "Study Architecture in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
+  title: "Study Architecture in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study Architecture in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study Architecture in Switzerland, Architecture in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland Architecture Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
   introTitle: "Architecture in Switzerland for Indian Students",

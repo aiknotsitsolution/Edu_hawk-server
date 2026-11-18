@@ -36,11 +36,7 @@
     "eligibility": "10+2 with Math/Science (UG) | Bachelor's in CS/Related + GRE (MS)",
     "medium": "English"
   },
-  "overview": [
-    "The United States' cutting-edge technology ecosystem, internationally renowned universities, research facilities, and industry-focused education make it a popular choice for international students pursuing Computer Science in the USA. Artificial Intelligence, Machine Learning, Cybersecurity, Data Science, Software Engineering, Cloud Computing, and Computer Systems are just a few of the many specialties available to students.",
-    "Depending on their prior education and future goals, students can choose among undergraduate, graduate, doctoral, and specific diploma or certificate programs. U.S. universities offer access to an internationally acknowledged academic curriculum, cutting-edge technology expertise, world-class research facilities, and practical industry internships.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
-  ],
+  "overview": "Artificial Intelligence, Machine Learning, Cybersecurity, Data Science, Software Engineering, Cloud Computing, and Computer Systems are just a few of the many specialties available to students.\", \"Depending on their prior education and future goals, students can choose among undergraduate, graduate, doctoral, and specific diploma or certificate programs.\n\nU.S. universities offer access to an internationally acknowledged academic curriculum, cutting-edge technology expertise, world-class research facilities, and practical industry internships.\", \"Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities.",
   "universities": [
     {
       "name": "Massachusetts Institute of Technology (MIT)",

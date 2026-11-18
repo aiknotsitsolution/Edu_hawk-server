@@ -369,7 +369,7 @@ export default function HeroSection() {
                     {/* Admissions Badge */}
                     <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-400/15 border border-teal-300/25 text-teal-300 text-[11px] font-semibold uppercase tracking-wider mb-3">
                       <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
-                      2026 Admissions Open
+                      2026-27 Admissions Open
                     </div>
 
                     <h2 className="text-2xl sm:text-[26px] font-extrabold mb-2.5 leading-tight tracking-tight text-white drop-shadow-sm">

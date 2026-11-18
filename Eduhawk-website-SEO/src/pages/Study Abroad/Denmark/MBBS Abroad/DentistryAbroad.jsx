@@ -398,6 +398,8 @@ export default function DentistryDenmark() {
   const dynamicPage = {
     ...page,
     name: "Dentistry",
+    introTitle: cmsData.introTitle || page.introTitle || "Studying Dentistry in Denmark",
+    overviewEyebrow: cmsData.overviewEyebrow || "Overview & Why Denmark",
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
@@ -440,6 +442,8 @@ export default function DentistryDenmark() {
           a: f.answer || f.a
         })).filter(f => f.q && f.a)
       : page.faqs,
+    faqClosing: cmsData.faqClosing || page.faqClosing,
+    faqNote: cmsData.faqClosing || page.faqClosing,
     seo: {
       title: cmsData.seo?.title || page.title,
       description: cmsData.seo?.description || page.description,
