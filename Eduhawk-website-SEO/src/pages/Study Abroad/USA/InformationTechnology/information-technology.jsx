@@ -622,7 +622,18 @@ const InformationTechnologyUSA = () => {
     stats: (itData?.stats && itData.stats.length > 0)
       ? itData.stats.map(s => ({ label: s.l || s.label, value: s.n || s.value }))
       : page.stats,
-    overview: itData?.overview ? itData.overview.split('\n\n') : page.overview,
+    overview: (() => {
+      if (!itData?.overview) return page.overview;
+      if (Array.isArray(itData.overview)) {
+        const filtered = itData.overview.filter(p => typeof p === "string" ? p.trim().length > 0 : Boolean(p));
+        return filtered.length > 0 ? filtered : page.overview;
+      }
+      if (typeof itData.overview === "string" && itData.overview.trim().length > 0) {
+        const split = itData.overview.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+        return split.length > 0 ? split : page.overview;
+      }
+      return page.overview;
+    })(),
     faqs: (itData?.faq && itData.faq.length > 0)
       ? itData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

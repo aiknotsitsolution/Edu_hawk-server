@@ -1,6 +1,6 @@
 import cmsData from "../../../../data/study_abroad/finland/international_business.json";
 import React from "react";
-import { AbroadCoursePage, formatRichText } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, formatRichText, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/InternationalBusiness/ib_finland_hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/InternationalBusiness/ib_finland_hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Finland/InternationalBusiness/ib_finland_global.webp";

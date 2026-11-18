@@ -13,7 +13,7 @@ import uniImg2 from "../../../../Images/Abroad/France/Dentistry/University_of_Mo
 import uniImg3 from "../../../../Images/Abroad/France/Dentistry/University_of_Rennes.webp";
 import cmsData from "../../../../data/study_abroad/france/dentistry.json";
 
-const pageData = {
+const page = {
   name: "Dentistry in France",
   country: "France",
   slug: "dentistry",
@@ -340,7 +340,7 @@ export default function DentistryAbroad() {
 
   return (
     <AbroadCoursePage
-      page={pageData}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

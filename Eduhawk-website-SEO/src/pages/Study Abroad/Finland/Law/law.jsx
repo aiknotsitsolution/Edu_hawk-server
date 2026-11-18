@@ -1,6 +1,6 @@
 import cmsData from "../../../../data/study_abroad/finland/law.json";
 import React from "react";
-import { AbroadCoursePage, formatRichText } from "../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, formatRichText, withCmsData } from "../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../Images/Abroad/Finland/Law/law_finland_hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Finland/Law/law_finland_hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Finland/Law/law_finland_legal.webp";

@@ -1,6 +1,6 @@
 import cmsData from "../../../../../../data/study_abroad/finland/biomed_engg_pg.json";
 import React from "react";
-import { AbroadCoursePage, formatRichText } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, formatRichText, withCmsData } from "../../../../../../component/CoursePageKit.jsx";
 
 // Page layout images
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/Biomedical/bme_pg_hero.webp";

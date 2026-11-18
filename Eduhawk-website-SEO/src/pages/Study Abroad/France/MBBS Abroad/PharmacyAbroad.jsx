@@ -13,7 +13,7 @@ import uniImg2 from "../../../../Images/Abroad/France/Pharmacy/pharmaceutical_re
 import uniImg3 from "../../../../Images/Abroad/France/Pharmacy/Aix.webp";
 import cmsData from "../../../../data/study_abroad/france/pharmacy.json";
 
-const pageData = {
+const page = {
   name: "Pharmacy in France",
   country: "France",
   slug: "pharmacy",
@@ -339,7 +339,7 @@ export default function PharmacyAbroad() {
 
   return (
     <AbroadCoursePage
-      page={pageData}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

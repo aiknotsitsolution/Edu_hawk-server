@@ -1,5 +1,7 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+
+const ReCaptchaComponent = (ReCAPTCHA && (ReCAPTCHA.default?.default || ReCAPTCHA.default || ReCAPTCHA)) || "div";
 import SeoHead from "../../component/SeoHead.jsx";
 import contactHero from "../../Images/Contact Us/contact-hero.webp";
 import contactData from "../../data/main_pages/contact.json";
@@ -38,6 +40,11 @@ export default function Contact() {
   const [errors, setErrors] = useState({});
 
   const recaptchaRef = useRef(null);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const validateForm = () => {
     const nextErrors = {};
@@ -445,13 +452,20 @@ export default function Contact() {
                   </div>
 
                   {/* ReCAPTCHA */}
-                  <div className="pt-2 flex justify-start">
-                    <ReCAPTCHA
-                      ref={recaptchaRef}
-                      sitekey="6LczDtQsAAAAAFPaJwLYrIPrE6FI69tzbXnFYodI"
-                      theme="light"
-                      size="normal"
-                    />
+                  <div className="pt-2 flex justify-start min-h-[78px]">
+                    {isMounted ? (
+                      <ReCaptchaComponent
+                        ref={recaptchaRef}
+                        sitekey="6LczDtQsAAAAAFPaJwLYrIPrE6FI69tzbXnFYodI"
+                        theme="light"
+                        size="normal"
+                      />
+                    ) : (
+                      <div
+                        className="w-[304px] h-[78px] bg-slate-50 border border-slate-200 rounded-md animate-pulse"
+                        aria-hidden="true"
+                      />
+                    )}
                   </div>
 
                   {/* Status message */}

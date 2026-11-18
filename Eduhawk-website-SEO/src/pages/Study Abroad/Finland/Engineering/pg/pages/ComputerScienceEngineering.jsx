@@ -1,6 +1,6 @@
 import cmsData from "../../../../../../data/study_abroad/finland/cs_engg_pg.json";
 import React from "react";
-import { AbroadCoursePage, formatRichText } from "../../../../../../component/CoursePageKit.jsx";
+import { AbroadCoursePage, formatRichText, withCmsData } from "../../../../../../component/CoursePageKit.jsx";
 import heroImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/ComputerScience/cs_pg_hero.webp";
 import heroBgImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/ComputerScience/cs_pg_hero_bg.webp";
 import sideImg from "../../../../../../Images/Abroad/Finland/Engineering_PG/ComputerScience/cs_pg_code.webp";

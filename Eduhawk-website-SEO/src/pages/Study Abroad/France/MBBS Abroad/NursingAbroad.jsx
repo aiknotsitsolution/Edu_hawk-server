@@ -13,7 +13,7 @@ import uniImg2 from "../../../../Images/Abroad/France/Nursing/IFSI_Lille_Univers
 import uniImg3 from "../../../../Images/Abroad/France/Nursing/IFSI_Pellegrin_Bordeaux_University_Hospi.webp";
 import cmsData from "../../../../data/study_abroad/france/nursing.json";
 
-const pageData = {
+const page = {
   name: "Nursing in France",
   country: "France",
   slug: "nursing",
@@ -337,7 +337,7 @@ export default function NursingAbroad() {
 
   return (
     <AbroadCoursePage
-      page={pageData}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

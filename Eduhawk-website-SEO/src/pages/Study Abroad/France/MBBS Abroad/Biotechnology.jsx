@@ -13,7 +13,7 @@ import uniImg2 from "../../../../Images/Abroad/France/Biotechnology/Grenoble_Alp
 import uniImg3 from "../../../../Images/Abroad/France/Biotechnology/Universit_Paris.webp";
 import cmsData from "../../../../data/study_abroad/france/biotechnology.json";
 
-const pageData = {
+const page = {
   name: "Biotechnology in France",
   country: "France",
   slug: "biotechnology",
@@ -343,7 +343,7 @@ export default function Biotechnology() {
 
   return (
     <AbroadCoursePage
-      page={pageData}
+      page={dynamicPage}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}
