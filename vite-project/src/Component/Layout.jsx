@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import Sidebar from "./Sidebar";
 
@@ -22,14 +22,21 @@ const Layout = () => {
             </h2>
           </div>
 
-          <div className="ml-3 flex shrink-0 items-center gap-2 sm:gap-4">
+          <Link
+            to="/profile"
+            className="group ml-3 flex shrink-0 items-center gap-2 sm:gap-4 rounded-xl p-1 transition hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-indigo-500 cursor-pointer"
+            title="View Profile"
+            aria-label="View Profile"
+          >
             <div className="hidden text-right text-sm text-gray-500 sm:block">
               <span className="hidden md:inline">Welcome back, </span>
-              <span className="font-medium text-gray-700">{displayName}</span>
+              <span className="font-medium text-gray-700 group-hover:text-indigo-600 transition">
+                {displayName}
+              </span>
             </div>
 
             <div
-              className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-indigo-600 text-xs font-semibold text-white sm:h-10 sm:w-10"
+              className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full bg-indigo-600 text-xs font-semibold text-white shadow-xs transition ring-2 ring-transparent group-hover:ring-indigo-500 group-hover:shadow-md sm:h-10 sm:w-10"
               title={displayName}
               aria-label={`Signed in as ${displayName}`}
             >
@@ -43,7 +50,7 @@ const Layout = () => {
                 initials
               )}
             </div>
-          </div>
+          </Link>
         </header>
 
         {/* Page Content */}

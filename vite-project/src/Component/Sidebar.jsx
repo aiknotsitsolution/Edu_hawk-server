@@ -421,7 +421,6 @@ import {
   Eye,
   Contact2,
   MessageSquare,
-  User,
   LogOut,
   Menu,
   X,
@@ -458,11 +457,6 @@ const navItems = [
     path: "/query",
     label: "Query",
     icon: MessageSquare,
-  },
-  {
-    path: "/profile",
-    label: "My Profile",
-    icon: User,
   },
 ];
 
@@ -520,24 +514,19 @@ export default function Sidebar() {
         )}
       >
         {/* Logo */}
-        <div className="flex h-[72px] items-center gap-3 border-b border-white/5 px-5">
-          <img
-            src="/logo.png" // apna logo path yahan daalo
-            alt="Edu-Hawk"
-            className="h-10 w-auto object-contain"
-            onError={(e) => {
-              e.currentTarget.style.display = "none";
-            }}
-          />
-          <div className="leading-tight">
-            <p className="text-[15px] font-bold tracking-tight text-white">
-              EDU-HAWK
-            </p>
-            <p className="text-[10px] font-medium uppercase tracking-wider text-slate-500">
-              Admin Panel
-            </p>
+        <NavLink
+          to="/dashboard"
+          className="flex h-[84px] items-center justify-center border-b border-white/5 px-3.5 transition hover:opacity-95"
+          title="Edu-Hawk Admin Dashboard"
+        >
+          <div className="flex h-16 w-full items-center justify-center rounded-xl bg-white px-3 py-1.5 shadow-xs transition hover:shadow-md">
+            <img
+              src="/eduhawk_logo.png?v=2"
+              alt="Edu-Hawk"
+              className="h-full w-auto max-w-full object-contain"
+            />
           </div>
-        </div>
+        </NavLink>
 
         {/* Navigation */}
         <nav className="flex-1 overflow-y-auto px-3 py-5">

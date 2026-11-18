@@ -151,7 +151,100 @@ const CreateProduct = () => {
         {/* Full Width Unified Blog Form */}
         <form onSubmit={handleSubmit} className="w-full">
           <div className="rounded-2xl border border-slate-200 bg-white p-6 sm:p-8 shadow-xs space-y-7">
-            {/* 1. Featured Media (Top) */}
+            {/* 1. Blog Title */}
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <label className="text-sm font-semibold text-slate-800 flex items-center gap-1.5">
+                  <FileText size={16} className="text-indigo-600" />
+                  Blog Title <span className="text-rose-500">*</span>
+                </label>
+                <span className="text-xs text-slate-400">
+                  {name.length}/120 characters
+                </span>
+              </div>
+              <input
+                type="text"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
+                placeholder="Enter an engaging and clear blog title..."
+                required
+                maxLength={120}
+                className="h-12 w-full rounded-xl border border-slate-200 bg-slate-50/50 px-4 text-base font-medium text-slate-800 outline-none transition placeholder:text-slate-400 placeholder:font-normal focus:border-indigo-500 focus:bg-white focus:ring-4 focus:ring-indigo-500/10"
+              />
+            </div>
+
+            {/* 2. Metadata & Classification (Author & Category) */}
+            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 rounded-xl border border-slate-100 bg-slate-50/60 p-4 sm:p-5">
+              {/* Author Field */}
+              <div>
+                <label className="mb-1.5 flex items-center gap-1.5 text-xs font-semibold text-slate-700">
+                  <User size={14} className="text-indigo-600" />
+                  Author Name <span className="text-rose-500">*</span>
+                </label>
+                <input
+                  type="text"
+                  value={author}
+                  onChange={(e) => setAuthor(e.target.value)}
+                  placeholder="e.g. Dr. Rajesh Kumar"
+                  required
+                  className="h-11 w-full rounded-xl border border-slate-200 bg-white px-3.5 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10"
+                />
+              </div>
+
+              {/* Category Field */}
+              <div>
+                <label className="mb-1.5 flex items-center gap-1.5 text-xs font-semibold text-slate-700">
+                  <FolderTree size={14} className="text-indigo-600" />
+                  Category <span className="text-rose-500">*</span>
+                </label>
+                {fetchingCategories ? (
+                  <div className="flex h-11 items-center gap-2 rounded-xl border border-slate-200 bg-white px-3.5 text-xs text-slate-500">
+                    <Loader2 size={14} className="animate-spin" />
+                    Loading categories...
+                  </div>
+                ) : categories.length === 0 ? (
+                  <div className="flex h-11 items-center rounded-xl border border-rose-200 bg-rose-50 px-3.5 text-xs text-rose-600">
+                    No categories found
+                  </div>
+                ) : (
+                  <select
+                    value={category}
+                    onChange={(e) => setCategory(e.target.value)}
+                    required
+                    className="h-11 w-full rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-800 outline-none transition focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 cursor-pointer"
+                  >
+                    <option value="">-- Choose Category --</option>
+                    {categories.map((cat) => (
+                      <option key={cat._id} value={cat._id}>
+                        {cat.name}
+                      </option>
+                    ))}
+                  </select>
+                )}
+              </div>
+            </div>
+
+            {/* 3. Blog Description / Rich Text Editor */}
+            <div>
+              <div className="flex items-center justify-between mb-2">
+                <label className="text-sm font-semibold text-slate-800">
+                  Article Content & Tables <span className="text-rose-500">*</span>
+                </label>
+                <span className="text-xs text-slate-400">
+                  Use table stretch handles to resize columns
+                </span>
+              </div>
+
+              <div className="overflow-hidden rounded-xl border border-slate-200 shadow-2xs">
+                <DescriptionEditor
+                  value={description}
+                  onChange={setDescription}
+                  placeholder="Write your article here... Insert tables, stretch columns, add headings, and preview anytime."
+                />
+              </div>
+            </div>
+
+            {/* 4. Featured Media (Below Blog Editor) */}
             <div>
               <div className="flex items-center justify-between mb-2">
                 <label className="text-sm font-semibold text-slate-800 flex items-center gap-1.5">
@@ -276,99 +369,6 @@ const CreateProduct = () => {
                   </div>
                 </div>
               )}
-            </div>
-
-            {/* 2. Blog Title */}
-            <div>
-              <div className="flex items-center justify-between mb-2">
-                <label className="text-sm font-semibold text-slate-800 flex items-center gap-1.5">
-                  <FileText size={16} className="text-indigo-600" />
-                  Blog Title <span className="text-rose-500">*</span>
-                </label>
-                <span className="text-xs text-slate-400">
-                  {name.length}/120 characters
-                </span>
-              </div>
-              <input
-                type="text"
-                value={name}
-                onChange={(e) => setName(e.target.value)}
-                placeholder="Enter an engaging and clear blog title..."
-                required
-                maxLength={120}
-                className="h-12 w-full rounded-xl border border-slate-200 bg-slate-50/50 px-4 text-base font-medium text-slate-800 outline-none transition placeholder:text-slate-400 placeholder:font-normal focus:border-indigo-500 focus:bg-white focus:ring-4 focus:ring-indigo-500/10"
-              />
-            </div>
-
-            {/* 3. Metadata & Classification (Author & Category - Below Title) */}
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 rounded-xl border border-slate-100 bg-slate-50/60 p-4 sm:p-5">
-              {/* Author Field */}
-              <div>
-                <label className="mb-1.5 flex items-center gap-1.5 text-xs font-semibold text-slate-700">
-                  <User size={14} className="text-indigo-600" />
-                  Author Name <span className="text-rose-500">*</span>
-                </label>
-                <input
-                  type="text"
-                  value={author}
-                  onChange={(e) => setAuthor(e.target.value)}
-                  placeholder="e.g. Dr. Rajesh Kumar"
-                  required
-                  className="h-11 w-full rounded-xl border border-slate-200 bg-white px-3.5 text-sm text-slate-800 outline-none transition placeholder:text-slate-400 focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10"
-                />
-              </div>
-
-              {/* Category Field */}
-              <div>
-                <label className="mb-1.5 flex items-center gap-1.5 text-xs font-semibold text-slate-700">
-                  <FolderTree size={14} className="text-indigo-600" />
-                  Category <span className="text-rose-500">*</span>
-                </label>
-                {fetchingCategories ? (
-                  <div className="flex h-11 items-center gap-2 rounded-xl border border-slate-200 bg-white px-3.5 text-xs text-slate-500">
-                    <Loader2 size={14} className="animate-spin" />
-                    Loading categories...
-                  </div>
-                ) : categories.length === 0 ? (
-                  <div className="flex h-11 items-center rounded-xl border border-rose-200 bg-rose-50 px-3.5 text-xs text-rose-600">
-                    No categories found
-                  </div>
-                ) : (
-                  <select
-                    value={category}
-                    onChange={(e) => setCategory(e.target.value)}
-                    required
-                    className="h-11 w-full rounded-xl border border-slate-200 bg-white px-3 text-sm text-slate-800 outline-none transition focus:border-indigo-500 focus:ring-4 focus:ring-indigo-500/10 cursor-pointer"
-                  >
-                    <option value="">-- Choose Category --</option>
-                    {categories.map((cat) => (
-                      <option key={cat._id} value={cat._id}>
-                        {cat.name}
-                      </option>
-                    ))}
-                  </select>
-                )}
-              </div>
-            </div>
-
-            {/* 4. Blog Description / Rich Text Editor */}
-            <div>
-              <div className="flex items-center justify-between mb-2">
-                <label className="text-sm font-semibold text-slate-800">
-                  Article Content & Tables <span className="text-rose-500">*</span>
-                </label>
-                <span className="text-xs text-slate-400">
-                  Use table stretch handles to resize columns
-                </span>
-              </div>
-
-              <div className="overflow-hidden rounded-xl border border-slate-200 shadow-2xs">
-                <DescriptionEditor
-                  value={description}
-                  onChange={setDescription}
-                  placeholder="Write your article here... Insert tables, stretch columns, add headings, and preview anytime."
-                />
-              </div>
             </div>
 
             {/* 5. Bottom Action Bar */}

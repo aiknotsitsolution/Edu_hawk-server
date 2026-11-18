@@ -41,17 +41,23 @@ Welcome to the Edu-Hawk Admin Panel version tracking and changelog document. Thi
 * **Spacious Full-Width Layout:**
   * Clean unified full-width card providing maximum horizontal space for comfortable writing and table stretching.
 * **Top-to-Bottom Editorial Hierarchy:**
-  * **Featured Media (Top):** Dedicated upload box that transforms directly into an inline cover image banner upon upload, with built-in "Change Image" and "Remove" controls, plus a secondary gallery strip for multiple images.
   * **Blog Title:** Prominent title field with character counter.
   * **Metadata & Classification (Below Title):** Clean 2-column input row for Author Name and Category.
   * **Article Content & Tables:** Full-width rich editor with table stretching, cell properties, headings, and preview.
+  * **Featured Media (Below Blog Editor):** Dedicated upload box that transforms directly into an inline cover image banner upon upload, with built-in "Change Image" and "Remove" controls, plus a secondary gallery strip for multiple images.
 * **Unified Bottom Action Bar:**
   * Clean footer actions bar at the bottom containing "Ready to draft" status, "Reset Form", "Preview Blog", and "Create Blog" (eliminating duplicate buttons).
 * **Seamless Full Post Preview Modal:**
   * Added "Preview Blog" modal displaying the complete article (Category badge, Title, Author avatar, Cover image, and full HTML Description).
   * Removed nested cards, double borders, and outer grey paddings for a clean, seamless, full-canvas preview experience.
 
-#### 🧭 Sidebar Version Management (`Sidebar.jsx`)
+#### 🧭 Navigation & Brand Identity (`Sidebar.jsx` & `Layout.jsx`)
+* **Brand Logo Header:**
+  * Replaced text title with full-width official Edu-Hawk brand logo (`/eduhawk_logo.png`) in the sidebar header with direct link to Dashboard.
+* **Top Navbar Profile Access:**
+  * Made the top-right profile avatar/welcome area clickable to navigate directly to `/profile` with hover states.
+* **Streamlined Sidebar Menu:**
+  * Removed redundant "My Profile" menu item from sidebar navigation.
 * **Version Footer Indicator:**
   * Added version badge (`v1.2.0`) with active status dot at the bottom of the sidebar.
   * Added interactive "Changelog" button opening a release notes summary directly in the admin panel.
