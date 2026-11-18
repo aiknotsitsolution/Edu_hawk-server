@@ -19,14 +19,14 @@ const REFRESH_TOKEN_TTL = 7 * 24 * 60 * 60 * 1000;
 
 const authCookieOptions = {
   httpOnly: true,
-  sameSite: "lax",
+  sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
   secure: process.env.NODE_ENV === "production",
   maxAge: ACCESS_TOKEN_TTL,
 };
 
 const refreshCookieOptions = {
   httpOnly: true,
-  sameSite: "lax",
+  sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
   secure: process.env.NODE_ENV === "production",
   maxAge: REFRESH_TOKEN_TTL,
 };
@@ -61,8 +61,17 @@ const publicUser = (user) => ({
   profilePhoto: user.profilePhoto || "",
 });
 
+const extractToken = (req) => {
+  if (req.cookies?.auth_token) return req.cookies.auth_token;
+  const authHeader = req.headers?.authorization || req.headers?.Authorization;
+  if (authHeader && authHeader.startsWith("Bearer ")) {
+    return authHeader.split(" ")[1];
+  }
+  return null;
+};
+
 const getUserFromCookie = async (req) => {
-  const token = req.cookies?.auth_token;
+  const token = extractToken(req);
   if (!token) return null;
   const { userId } = jwt.verify(token, process.env.JWT_SECRET || "mysecretkey");
   return User.findById(userId);
@@ -140,11 +149,13 @@ const loginUser = async (req, res) => {
       });
     }
 
+    const accessToken = signAccessToken(user._id);
     setAuthCookies(res, user._id);
 
     res.status(200).json({
       success: true,
       message: "Login successful",
+      token: accessToken,
       user: {
         ...publicUser(user),
       },
@@ -158,10 +169,10 @@ const loginUser = async (req, res) => {
   }
 };
 
-// Return the user attached to the HttpOnly cookie.
+// Return the user attached to the HttpOnly cookie or Authorization header.
 const getCurrentUser = async (req, res) => {
   try {
-    const token = req.cookies?.auth_token;
+    const token = extractToken(req);
     if (!token) {
       return res
         .status(401)

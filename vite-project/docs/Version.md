@@ -52,6 +52,12 @@ Welcome to the Edu-Hawk Admin Panel version tracking and changelog document. Thi
   * Removed nested cards, double borders, and outer grey paddings for a clean, seamless, full-canvas preview experience.
   * Fixed mobile preview viewport centering and contained table overflows with responsive display formatting.
 
+#### 🔐 Authentication & Session Persistence (`authSlice.js`, `ProtectedRoute.jsx` & Backend)
+* **Page Refresh Session Preservation:**
+  * Implemented dual-layer persistence with client-side localStorage session caching (`eduhawk_admin_user` & `eduhawk_admin_token`).
+  * Fixed unwanted logout on page refresh (F5) by immediately restoring user session on application mount.
+  * Enhanced cross-origin auth with Bearer token authorization header and backend SameSite=None support.
+
 #### 🧭 Navigation & Brand Identity (`Sidebar.jsx` & `Layout.jsx`)
 * **Brand Logo Header:**
   * Replaced text title with full-width official Edu-Hawk brand logo (`/eduhawk_logo.png`) in the sidebar header with direct link to Dashboard.

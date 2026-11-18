@@ -11,10 +11,12 @@ const ProtectedRoute = () => {
   );
 
   useEffect(() => {
-    if (!authChecked) dispatch(restoreSession());
-  }, [authChecked, dispatch]);
+    // Check or refresh session with backend
+    dispatch(restoreSession());
+  }, [dispatch]);
 
-  if (!authChecked || isLoading) {
+  // Only block with loader on cold start when no session is cached yet
+  if (!authChecked && isLoading) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-gray-50 text-sm text-gray-500">
         Checking your session...
