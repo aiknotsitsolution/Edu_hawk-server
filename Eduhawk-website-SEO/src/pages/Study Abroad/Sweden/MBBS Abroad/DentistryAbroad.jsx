@@ -90,45 +90,31 @@ const page = {
       "eyebrow": "Top Institutions",
       "title": "Top Universities for Dentistry in Sweden",
       "lead": "Explore leading universities and institutions in Sweden offering accredited Dentistry in Sweden programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "unis": [
         {
           "name": "Karolinska Institutet",
           "location": "Stockholm, Sweden",
-          "fee": "SEK 140,000 \u2013 200,000 / Year",
-          "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
+          "fee": "SEK 1,900,000 (5-Year Total Tuition)",
+          "desc": "One of the world's foremost medical universities and dental institutions, offering a comprehensive 5-year dental surgery program (300 ECTS) with world-class clinical research.",
+          "image": "/uploads/study_abroad/sweden/karolinska_institutet.webp"
         },
         {
-          "name": "KTH Royal Institute of Technology",
-          "location": "Stockholm, Sweden",
-          "fee": "SEK 120,000 \u2013 160,000 / Year",
-          "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
+          "name": "Malmö University",
+          "location": "Malmö, Sweden",
+          "fee": "Approx. SEK 220,000 – 300,000 / Year",
+          "desc": "Renowned for its internationally recognized Faculty of Odontology, problem-based learning approach, and extensive clinical dental care training facilities.",
+          "image": "/uploads/study_abroad/sweden/malmo_university.webp"
         },
         {
-          "name": "Lund University",
-          "location": "Lund, Sweden",
-          "fee": "SEK 90,000 \u2013 150,000 / Year",
-          "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
-        },
-        {
-          "name": "Uppsala University",
-          "location": "Uppsala, Sweden",
-          "fee": "SEK 90,000 \u2013 145,000 / Year",
-          "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
-        },
-        {
-          "name": "Chalmers University of Technology",
+          "name": "University of Gothenburg",
           "location": "Gothenburg, Sweden",
-          "fee": "SEK 130,000 \u2013 170,000 / Year",
-          "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "fee": "Approx. SEK 220,000 – 300,000 / Year",
+          "desc": "The prestigious Institute of Odontology at Sahlgrenska Academy is a global pioneer in dental implantology, periodontology, and oral health research.",
+          "image": "/uploads/study_abroad/sweden/university_of_gothenburg.webp"
         }
       ],
       "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
+        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and Swedish language requirements before submitting their applications."
       ]
     },
     {
@@ -355,37 +341,23 @@ const page = {
     {
       "name": "Karolinska Institutet",
       "location": "Stockholm, Sweden",
-      "fee": "SEK 140,000 \u2013 200,000 / Year",
-      "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-      "img_var": "null"
+      "fee": "SEK 1,900,000 Total (5 Years)",
+      "image": "/uploads/study_abroad/sweden/karolinska_institutet.webp",
+      "desc": "Located in the Stockholm area, Karolinska Institutet offers a five-year dentistry programme with 300 higher education credits. Its education emphasises scientific knowledge, clinical practice, and patient-centred dental care."
     },
     {
-      "name": "KTH Royal Institute of Technology",
-      "location": "Stockholm, Sweden",
-      "fee": "SEK 120,000 \u2013 160,000 / Year",
-      "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-      "img_var": "null"
+      "name": "Malmö University",
+      "location": "Malmö, Sweden",
+      "fee": "SEK 180,000 – 260,000 / Year",
+      "image": "/uploads/study_abroad/sweden/malmo_university.webp",
+      "desc": "Malmö University provides dental education through its Faculty of Odontology. Students can explore professional dental training and research in oral health, with clinical learning integrated into the educational environment."
     },
     {
-      "name": "Lund University",
-      "location": "Lund, Sweden",
-      "fee": "SEK 90,000 \u2013 150,000 / Year",
-      "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-      "img_var": "null"
-    },
-    {
-      "name": "Uppsala University",
-      "location": "Uppsala, Sweden",
-      "fee": "SEK 90,000 \u2013 145,000 / Year",
-      "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-      "img_var": "null"
-    },
-    {
-      "name": "Chalmers University of Technology",
+      "name": "University of Gothenburg",
       "location": "Gothenburg, Sweden",
-      "fee": "SEK 130,000 \u2013 170,000 / Year",
-      "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-      "img_var": "null"
+      "fee": "SEK 190,000 – 280,000 / Year",
+      "image": "/uploads/study_abroad/sweden/university_of_gothenburg.webp",
+      "desc": "Through the Sahlgrenska Academy, the university offers education and research related to dentistry and oral health. Its academic environment includes clinical sciences, oral biology, and dental research."
     }
   ],
   "faqs": [
@@ -425,6 +397,27 @@ export default function DentistrySweden() {
       .filter(s => s.label && s.value).length > 0
       ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
       : page.stats,
+    universities: (cmsData.universities && cmsData.universities.length > 0)
+      ? cmsData.universities
+      : page.universities,
+    sections: (page.sections || []).map((sec) => {
+      if (sec.slot === "universities" && cmsData.universities && cmsData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: cmsData.universities,
+        };
+      }
+      return sec;
+    }),
+    faqs: (cmsData.faq || cmsData.faqs || []).map(f => ({
+      q: f.question || f.q,
+      a: f.answer || f.a
+    })).filter(f => f.q && f.a).length > 0
+      ? (cmsData.faq || cmsData.faqs || []).map(f => ({
+          q: f.question || f.q,
+          a: f.answer || f.a
+        })).filter(f => f.q && f.a)
+      : page.faqs,
     seo: {
       title: cmsData.seo?.title || page.title,
       description: cmsData.seo?.description || page.description,
