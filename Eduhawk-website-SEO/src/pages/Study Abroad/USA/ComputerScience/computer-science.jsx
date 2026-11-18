@@ -351,86 +351,42 @@ const page = {
       ]
     },
     {
-      slot: "unis",
-      eyebrow: "Institutions",
+      slot: "universities",
+      eyebrow: "Top US Universities",
       title: "9. USA's Top Computer Science Universities",
-      groups: [
+      lead: "The following establishments are acknowledged for their outstanding work in computer science research and instruction. Prospective students should use official university websites to confirm program offers, admission requirements, prices, and areas of expertise.",
+      unis: [
         {
-          t: "p",
-          items: [
-            "The following establishments are acknowledged for their outstanding work in computer science research and instruction. Prospective students should use official university websites to confirm program offers, admission requirements, prices, and areas of expertise."
-          ]
+          name: "Massachusetts Institute of Technology (MIT)",
+          location: "Cambridge, Massachusetts, USA",
+          fee: "$58,000 – $62,000 / Year",
+          desc: "Computer science, artificial intelligence, algorithms, and computer systems are all taught at the Massachusetts Institute of Technology (MIT).",
+          image: "/uploads/study_abroad/usa/mit.webp"
         },
         {
-          t: "h3",
-          text: "1. Massachusetts Institute of Technology (MIT)"
+          name: "Stanford University",
+          location: "Stanford, California, USA",
+          fee: "$59,000 – $64,000 / Year",
+          desc: "Computer science, machine learning, systems, and technology innovation are all taught at Stanford University.",
+          image: "/uploads/study_abroad/usa/stanford.webp"
         },
         {
-          t: "img",
-          src: u0Img,
-          alt: "Massachusetts Institute of Technology (MIT)",
-          link: "https://www.mit.edu"
+          name: "Carnegie Mellon University",
+          location: "Pittsburgh, Pennsylvania, USA",
+          fee: "$58,000 – $62,000 / Year",
+          desc: "Computer science, robotics, software engineering, and artificial intelligence are all taught at Carnegie Mellon University.",
+          image: "/uploads/study_abroad/usa/cmu.webp"
         },
         {
-          t: "p",
-          items: [
-            "Computer science, artificial intelligence, algorithms, and computer systems are all taught at the Massachusetts Institute of Technology (MIT)."
-          ]
-        },
-        {
-          t: "h3",
-          text: "2. Stanford University"
-        },
-        {
-          t: "img",
-          src: u1Img,
-          alt: "Stanford University",
-          link: "https://www.stanford.edu"
-        },
-        {
-          t: "p",
-          items: [
-            "Computer science, machine learning, systems, and technology innovation are all taught at Stanford University."
-          ]
-        },
-        {
-          t: "h3",
-          text: "3. Carnegie Mellon University"
-        },
-        {
-          t: "img",
-          src: u2Img,
-          alt: "Carnegie Mellon University",
-          link: "https://www.cmu.edu"
-        },
-        {
-          t: "p",
-          items: [
-            "Computer science, robotics, software engineering, and artificial intelligence are all taught at Carnegie Mellon University."
-          ]
-        },
-        {
-          t: "h3",
-          text: "4. University of California, Berkeley"
-        },
-        {
-          t: "img",
-          src: u3Img,
-          alt: "University of California, Berkeley",
-          link: "https://www.berkeley.edu"
-        },
-        {
-          t: "p",
-          items: [
-            "Computer science, data science, computer systems, and theoretical computing are taught at the University of California, Berkeley."
-          ]
-        },
-        {
-          t: "p",
-          items: [
-            "These universities continue to have different financing structures and entrance requirements. Instead of relying solely on institutional rankings, prospective students should consider the specific program, curriculum design, research opportunities, geographic location, overall expenses, and financial aid availability."
-          ]
+          name: "University of California, Berkeley",
+          location: "Berkeley, California, USA",
+          fee: "$44,000 – $48,000 / Year",
+          desc: "Computer science, data science, computer systems, and theoretical computing are taught at the University of California, Berkeley.",
+          image: "/uploads/study_abroad/usa/berkeley.webp"
         }
+      ],
+      note: [
+        "These universities continue to have different financing structures and entrance requirements. Instead of relying solely on institutional rankings, prospective students should consider the specific program, curriculum design, research opportunities, geographic location, overall expenses, and financial aid availability."
       ]
     },
     {
@@ -591,9 +547,24 @@ const ComputerScienceUSA = () => {
     stats: (csData?.stats && csData.stats.length > 0)
       ? csData.stats.map(s => ({ label: s.l || s.label, value: s.n || s.value }))
       : page.stats,
-    overview: csData?.overview ? csData.overview.split('\n\n') : page.overview,
-    faqs: (csData?.faq && csData.faq.length > 0)
-      ? csData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+    overview: csData?.overview
+      ? (Array.isArray(csData.overview) ? csData.overview : csData.overview.split('\n\n'))
+      : page.overview,
+    universities: (csData?.universities && csData.universities.length > 0)
+      ? csData.universities
+      : page.universities,
+    sections: (page.sections || []).map((sec) => {
+      if ((sec.slot === "universities" || sec.slot === "unis") && csData?.universities && csData.universities.length > 0) {
+        return {
+          ...sec,
+          slot: "universities",
+          unis: csData.universities,
+        };
+      }
+      return sec;
+    }),
+    faqs: ((csData?.faq || csData?.faqs) && (csData?.faq || csData?.faqs).length > 0)
+      ? (csData.faq || csData.faqs).map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,
   };
 
