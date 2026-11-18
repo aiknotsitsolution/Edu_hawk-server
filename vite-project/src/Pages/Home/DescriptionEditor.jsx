@@ -380,17 +380,17 @@ const DescriptionEditor = ({ value = "", onChange, placeholder }) => {
             </div>
 
             {/* Modal Content (Seamless) */}
-            <div className="flex-1 overflow-y-auto bg-white p-6 sm:p-10">
+            <div className="flex-1 overflow-y-auto bg-white p-4 sm:p-8 flex justify-center">
               <div
-                className={`mx-auto transition-all duration-200 ${
+                className={`w-full transition-all duration-200 ${
                   previewDevice === "mobile"
-                    ? "max-w-sm rounded-2xl border border-slate-200 p-5 shadow-xs"
+                    ? "max-w-[400px] rounded-2xl border border-slate-200 bg-white p-5 shadow-md"
                     : "max-w-3xl"
                 }`}
               >
                 {value && value.trim() ? (
                   <div
-                    className="ck-content"
+                    className="ck-content overflow-x-auto max-w-full"
                     dangerouslySetInnerHTML={{
                       __html: DOMPurify.sanitize(value, {
                         ADD_ATTR: ["style", "target"],

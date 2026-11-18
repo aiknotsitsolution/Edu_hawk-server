@@ -30,6 +30,8 @@
   line-height: 1.65;
   color: #1e293b;
   font-weight: 400;
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .ck-content p {
@@ -83,16 +85,23 @@
 /* Table container & table element */
 .ck-content .table,
 .ck-content figure.table {
-  display: table;
-  width: 100%;
-  max-width: 100%;
-  margin: 1.25rem auto;
-  overflow-x: auto;
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 1.25rem 0 !important;
+  overflow-x: auto !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.ck-content img {
+  max-width: 100% !important;
+  height: auto !important;
 }
 
 .ck-content table {
   border-collapse: collapse;
   width: 100%;
+  max-width: 100%;
   margin: 0;
   border: 1px solid #cbd5e1;
 }

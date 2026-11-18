@@ -50,6 +50,7 @@ Welcome to the Edu-Hawk Admin Panel version tracking and changelog document. Thi
 * **Seamless Full Post Preview Modal:**
   * Added "Preview Blog" modal displaying the complete article (Category badge, Title, Author avatar, Cover image, and full HTML Description).
   * Removed nested cards, double borders, and outer grey paddings for a clean, seamless, full-canvas preview experience.
+  * Fixed mobile preview viewport centering and contained table overflows with responsive display formatting.
 
 #### 🧭 Navigation & Brand Identity (`Sidebar.jsx` & `Layout.jsx`)
 * **Brand Logo Header:**

@@ -488,12 +488,12 @@ const CreateProduct = () => {
             </div>
 
             {/* Modal Scrollable Content (Seamless Full Preview) */}
-            <div className="flex-1 overflow-y-auto bg-white p-6 sm:p-10">
+            <div className="flex-1 overflow-y-auto bg-white p-4 sm:p-8 flex justify-center">
               <div
-                className={`mx-auto space-y-6 transition-all duration-200 ${
+                className={`w-full transition-all duration-200 ${
                   previewDevice === "mobile"
-                    ? "max-w-sm rounded-2xl border border-slate-200 p-5 shadow-xs"
-                    : "max-w-3xl"
+                    ? "max-w-[400px] rounded-2xl border border-slate-200 bg-white p-5 sm:p-6 shadow-md space-y-5"
+                    : "max-w-3xl space-y-6"
                 }`}
               >
                 {/* Category & Date */}
@@ -538,7 +538,7 @@ const CreateProduct = () => {
                 <div className="pt-2">
                   {description && description.trim() ? (
                     <div
-                      className="ck-content"
+                      className="ck-content overflow-x-auto max-w-full"
                       dangerouslySetInnerHTML={{
                         __html: DOMPurify.sanitize(description, {
                           ADD_ATTR: ["style", "target"],
