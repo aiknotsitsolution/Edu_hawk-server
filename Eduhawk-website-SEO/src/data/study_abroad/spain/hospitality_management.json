@@ -1,0 +1,620 @@
+{
+  "hero": {
+    "title": "Managing Hotels in Spain for Indian Students",
+    "subtitle": "Hospitality Management in Spain for Indian Students is all about gaining professional skills in hotel operations, tourism, guest services, food and beverage management, event planning and international hospitality. Spain is one of the famous destinations in Europe for tourism, hotels, resorts, restaurants and event management. Students interested in Studying Hospitality Management in Spain can explore programs related to hotel administration, tourism and hospitality services."
+  },
+  "overview": [
+    "Hospitality Management in Spain for Indian Students is all about gaining professional skills in hotel operations, tourism, guest services, food and beverage management, event planning and international hospitality. Spain is one of the famous destinations in Europe for tourism, hotels, resorts, restaurants and event management. Students interested in Studying Hospitality Management in Spain can explore programs related to hotel administration, tourism and hospitality services.",
+    "Spain provides an international learning environment for students who want to pursue a career in hospitality, tourism and hotel administration. Choosing to Study Hospitality Management in Spain can help students explore different areas of the hospitality industry."
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Hospitality Management in Spain?",
+      "lead": "Spain provides an international learning environment for students who want to pursue a career in hospitality, tourism and hotel administration. Choosing to Study Hospitality Management in Spain can help students explore different areas of the hospitality industry.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Strong tourism environment: Study in a country with a robust tourism and hospitality industry.",
+            "Experiential learning: Certain programs include internships, industry projects and hotel operations training.",
+            "International exposure: Meet students and professionals from around the world.",
+            "Specialisation options: You can specialize in luxury hospitality, hotel management, tourism, events and food & beverage operations.",
+            "Industry links: Some institutions have links with hotels, resorts, tourism organizations and hospitality businesses.",
+            "Career flexibility: Get ready for a job in hotels, resorts, restaurants, cruise services, tourism and event management."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Hospitality Management Studies in Spain",
+      "lead": "Students have the option of choosing undergraduate or postgraduate programs based on their academic qualifications and career goals. Hospitality Management Courses in Spain are hotel administration, guest relations, tourism planning, event management and hospitality leadership.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Bachelor's degree in hospitality management"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree is for those who have completed Class 12 or equivalent."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "ProgramTypical DurationMain Areas of Study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's in Hospitality Management3-4 yearsHotel operations, guest services, management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's in Hotel Management3-4 yearsFront office, housekeeping, hotel administration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's in Tourism Management3-4 yearsTourism planning, destination management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's in International Hospitality3-4 yearsGlobal hotel operations, service management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's in Event Management3-4 yearsConferences, events, event planning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's in Food and Beverage Management3-4 yearsRestaurant operations, service, cost control"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Master of Hospitality Management"
+        },
+        {
+          "t": "p",
+          "items": [
+            "A master's degree is the best option for graduates who want to obtain advanced management and leadership skills in hospitality and tourism."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "ProgramTypical DurationMajor Areas of Study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Hospitality Management1-2 yearsHospitality strategy, hotel operations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Hotel Management1-2 yearsHotel leadership, revenue management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Tourism Management1-2 yearsTourism strategy, destination development"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in International Hospitality Management1-2 yearsGlobal hospitality, international operations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Luxury Hospitality Management1-2 yearsLuxury hotels, premium guest experiences"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Event Management1-2 yearsBusiness events, conferences, event strategy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Revenue Management1-2 yearsPricing, forecasting, hospitality analytics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration and program titles are subject to institution. Some specialized courses are diplomas at postgraduate level or school qualifications, rather than formal university masters degrees. Students should check the qualification type on application."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Hospitality Management Universities and Colleges in Spain",
+      "lead": "Students looking at Hospitality Management Universities in Spain may want to begin their search for an undergraduate or postgraduate course in hospitality or tourism at the institutions below. These Hospitality Management Colleges in Spain can also be explored by students comparing hospitality and tourism education options.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Please check the official website for the exact course, type of degree, language of instruction, intake, and admission requirements."
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility for Hospitality Management in Spain",
+      "lead": "Eligibility criteria vary from institution to institution and from program level and academic background of the applicant. Hospitality Management Eligibility in Spain depends on the course level and the admission criteria of the selected institution.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Bachelor's Degree"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students generally require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completion of Class 12 or equivalent qualification.",
+            "Leaving certificates and academic transcripts.",
+            "Marks meeting the admission criteria of the chosen institution.",
+            "Good English language for programs taught in English, as required.",
+            "Proficiency in the Spanish language, for Spanish-taught programs, where required.",
+            "Any other entrance tests or qualification recognition documents, if applicable."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "For a Master's Degree"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An accredited Bachelor's Degree.",
+            "Academic transcripts and degree certificate.",
+            "Language skills in English or Spanish, as appropriate.",
+            "CV or Resume",
+            "Motivation letter or statement of purpose (if required).",
+            "Professional experience relevant for programs which require it.",
+            "Letters of recommendation or interviews, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some hospitality schools will accept students from a variety of academic backgrounds. Others may prefer students with a background in hospitality, tourism, business or management."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements to enter the hospitality management studies in Spain",
+      "lead": "The documents required for the application process may vary depending on whether students are applying for a bachelor's or master's program. Students should review the Hospitality Management Admission Requirements in Spain before submitting their applications.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "For a Bachelor's Degree"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Mark sheets of Class 10th & Class 12th.",
+            "Certificate of Class 12 pass.",
+            "Passport valid.",
+            "Filled in application form.",
+            "English or Spanish language test scores (if applicable)",
+            "Personal statement/statement of purpose where requested.",
+            "Entrance examination or interview (if applicable)."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "For a Master's Program"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor Degree Certificate & Transcripts.",
+            "CV updated.",
+            "Purpose statement.",
+            "Passport is valid.",
+            "Results of language test, if applicable.",
+            "Letters of recommendation, if required.",
+            "Relevant work experience documents where applicable.",
+            "Interview or admissions assessment if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission requirements differ between universities and hospitality schools. Students should always check the official program page before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Fees of Hospitality Management in Spain",
+      "lead": "The cost of studying hospitality can vary greatly depending on whether you study at a public university, a private university or a specialized hospitality school. Hospitality Management Fees in Spain depend on the institution, program and type of qualification.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "ExpenseIndicative Cost"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university tuition€1,000–€8,000 per year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private university tuition€6,000–€20,000+ per year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialized hospitality school€15,000–€30,000+ per year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accommodation€400–€900 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and groceries€200–€350 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Local transportation€30–€80 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal expenses€100–€200 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative planning figures and are not confirmed fees for a particular course. Specialized hospitality schools may charge extra fees for practical training, uniforms, materials, accommodation packages or industry modules."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "It's about €1 to ₹109, but currency exchange rates vary. Students should also allow for health insurance, travel, visa costs and initial accommodation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "How to get into Hospitality Management in Spain",
+      "lead": "Students who are interested in Studying Hospitality Management in Spain can usually follow these steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose the level of study: Select a bachelor's program after Class 12 or a master's program after graduation.",
+            "Shortlist institutions Compare course structure, practical training, fees and language of instruction.",
+            "Check eligibility: Review academic qualifications and language requirements.",
+            "Documents ready: collect transcripts, certificates, passport and other required materials.",
+            "Submit online: Submit the application on the official university/school portal.",
+            "Undergo assessments: If needed, go through interviews or entrance assessments.",
+            "Receive an offer: Review admission requirements, fees and fee deadlines.",
+            "Budget and accommodation: Plan budget and accommodation.",
+            "Apply for Spanish student visa: Please adhere to the latest requirements as stipulated by the relevant Spanish consular authorities in India.",
+            "Registration Prep: Book travel, insurance, accommodation and register at the university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of Hospitality Management Degree and Career Scope",
+      "lead": "A recognized hospitality qualification can prepare graduates for a career in the hotel, tourism, restaurant, event and travel industries. Students completing Hospitality Management in Spain for Indian Students can explore different career areas depending on their qualifications and experience.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "What can you do with a bachelor's degree?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Front Office Officer- Executive Guest Services"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Intern Hotel Operations",
+            "Supervisor, Food & Beverage",
+            "Event Coordinator",
+            "Executive Services Tourism",
+            "Manager of Reservations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career opportunities with a master's degree and experience:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Hotel Operations Management- Revenue Management",
+            "Marketing Manager, Hospitality",
+            "Event Manager",
+            "Manager, Tourism Development",
+            "Manager, Guest Experience",
+            "Resort General Manager",
+            "Consultant H&ocirc;tellerie"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The evolution of a career depends on practical experience, communication skills, language proficiency, the demands of the employer and eligibility to work in Spain."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should check before enrolling whether the program leads to an officially recognized university qualification or a private school qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Hospitality Management Job Opportunities in Spain: Salary and Job Prospects",
+      "lead": "Students are able to work in hotels, resorts, restaurants, tourist agencies, and event management companies. Below are broad indicative gross annual salary estimates for related positions in Spain.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Job RoleIndicative Annual Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Front Office Executive€19,000–€26,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Guest Relations Executive€20,000–€28,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and Beverage Supervisor€21,000–€30,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Events Coordinator€22,000–€32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hotel Operations Manager€30,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Revenue Manager€30,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hospitality Marketing Manager€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hotel General Manager€45,000–€80,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These ranges are estimates only and are not guarantyd People who have just graduated and have little or no experience usually start in operational or trainee positions. For senior management positions you normally require a lot of professional experience. If your job is customer-facing, being fluent in Spanish can be especially useful."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Hospitality Management in Spain",
+      "lead": "Applicants may be required to have the following documents for university admission and visa processing:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport (valid).",
+            "Mark sheets of class 10 and 12 for bachelors admission.",
+            "Certificate of Class 12.",
+            "Certificate of Bachelor's degree and transcripts for graduate admission.",
+            "Filled application form.",
+            "Results of English or Spanish language tests, if applicable.",
+            "CV or résumé for post-graduate programs.",
+            "Letter of motivation or statement of purpose (if required).",
+            "Letters of recommendation (if required).",
+            "Documents related to work experience (if applicable)",
+            "Letter of university admission.",
+            "Proof of funds to support visa application.",
+            "Details of health insurance and lodging, where applicable.",
+            "Other documents required by the university or the consular authorities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some documents might need to be translated, legalized or apostilled. Students should verify current requirements before submission."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Is Hospitality Management in Spain possible for Indian students?",
+      "a": "Yes, Indian students are eligible to apply for eligible undergraduate and postgraduate hospitality, hotel management and tourism courses, subject to meeting the admission requirements of the institution."
+    },
+    {
+      "q": "2. How long is a Bachelor's in Hospitality Management in Spain?",
+      "a": "Depending on the institution, qualification and course structure, many bachelor's programs last three to four years."
+    },
+    {
+      "q": "3. How long is a Master's in Hospitality Management in Spain?",
+      "a": "Many master's programs last one to two years. Specialized school programs vary in terms of duration and qualification structure."
+    },
+    {
+      "q": "4. Is it possible to study Hospitality Management in Spain in English?",
+      "a": "Yes. Some institutions offer hospitality programs in English, while others teach in Spanish or bilingual. Check the language of instruction before you apply."
+    },
+    {
+      "q": "5. What are the job prospects after Hospitality Management in Spain?",
+      "a": "Our graduates work in hotels and resorts, restaurants, tourism, events, guest services, revenue management and hospitality marketing. Relevant work experience is typically needed for senior positions."
+    }
+  ],
+  "seo": {
+    "title": "Managing Hotels in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Hospitality Management in Spain for Indian Students is all about gaining professional skills in hotel operations, tourism, guest services, food and beverage man",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

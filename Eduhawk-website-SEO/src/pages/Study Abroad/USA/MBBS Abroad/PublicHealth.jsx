@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import SeoHead from "../../../../component/SeoHead.jsx";
+import publicHealthData from "../../../../data/study_abroad/usa/public_health.json";
 
 const PublicHealth = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -37,12 +39,14 @@ const PublicHealth = () => {
     return () => observer.disconnect();
   }, []);
 
-  const stats = [
-    { label: "Programs", value: "BPH, MPH, MSPH, DrPH & PhD options" },
-    { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
-    { label: "Support", value: "Complete guidance from profile to arrival" },
-    { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
-  ];
+  const stats = (publicHealthData?.stats && publicHealthData.stats.length > 0)
+    ? publicHealthData.stats.map((s) => ({ label: s.l, value: s.n }))
+    : [
+        { label: "Programs", value: "BPH, MPH, MSPH, DrPH & PhD options" },
+        { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
+        { label: "Support", value: "Complete guidance from profile to arrival" },
+        { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
+      ];
 
   const features = [
     {
@@ -125,7 +129,7 @@ const PublicHealth = () => {
     "Empirical research methodologies",
   ];
 
-  const topUniversities = [
+  const defaultTopUniversities = [
     {
       name: "Johns Hopkins University",
       desc: "Bloomberg School of Public Health",
@@ -152,6 +156,14 @@ const PublicHealth = () => {
       image: "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=900&q=85",
     },
   ];
+
+  const topUniversities = (publicHealthData?.universities && publicHealthData.universities.length > 0)
+    ? publicHealthData.universities.map((u, i) => ({
+        name: u.name || defaultTopUniversities[i]?.name,
+        desc: u.location || u.fee || defaultTopUniversities[i]?.desc,
+        image: u.image || defaultTopUniversities[i]?.image,
+      }))
+    : defaultTopUniversities;
 
   const comparisonPoints = [
     "Offering of the intended degree program and area of specialization",
@@ -373,54 +385,62 @@ const PublicHealth = () => {
     },
   ];
 
-  const faqs = [
-    {
-      q: "Are Indian students eligible to pursue public health studies in the USA following completion of Class 12?",
-      a: "Yes. Students may submit applications for accredited undergraduate programmes, including bachelor's degrees in public health or cognate disciplines. Admission prerequisites differ across institutions, and prospective students must verify both academic credentials and English language proficiency standards.",
-    },
-    {
-      q: "What constitutes the MPH degree within the American higher education system?",
-      a: "MPH denotes Master of Public Health, representing a postgraduate qualification emphasizing population-level health outcomes, communicable disease mitigation, epidemiological analysis, healthcare governance, health promotion initiatives and allied disciplines. The specific course structure varies according to institutional policies and chosen specialization.",
-    },
-    {
-      q: "Are applicants from non-medical academic backgrounds permitted to enroll in MPH programmes in the USA?",
-      a: "Yes, numerous MPH programmes welcome candidates possessing diverse educational backgrounds including medicine, dentistry, nursing, pharmacy, biology, biotechnology, environmental sciences, social sciences, statistics, management and related fields. Admission eligibility remains contingent upon institutional requirements and selected concentration area.",
-    },
-    {
-      q: "What financial investment is required for public health education in the USA?",
-      a: "Expenses fluctuate based on institutional selection, programme length, fee schedules, residential arrangements and subsistence costs. Prospective students should consult the comprehensive cost-of-attendance documentation provided by their target institution and investigate scholarship opportunities or graduate assistantship positions.",
-    },
-    {
-      q: "What professional opportunities exist for graduates with public health qualifications from the USA?",
-      a: "Based on educational credentials and professional background, alumni may pursue positions encompassing epidemiological investigation, scientific inquiry, health education delivery, public health administration, programme management, environmental health protection, healthcare quality assurance and public health informatics. Certain positions may necessitate supplementary professional credentials or specialized certifications.",
-    },
-    {
-      q: "How can Edu Hawk worldwide help me study public health abroad?",
-      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
-    },
-    {
-      q: "Is GRE required for MPH in the USA?",
-      a: "The GRE is not required by every public health programme. Applicants should check the current admissions policy of each university rather than preparing for the exam automatically.",
-    },
-    {
-      q: "What is CEPH accreditation?",
-      a: "The Council on Education for Public Health (CEPH) accredits eligible schools and public health programmes in the United States. Students should verify the current accreditation status and scope of the programme they are considering.",
-    },
-    {
-      q: "Do I need a licence to work in public health in the USA?",
-      a: "There is no single universal licence required for every public health career in the USA. Requirements depend on the role and employer. Some positions may require specific professional licences, certifications, educational qualifications or work experience.",
-    },
-    {
-      q: "When should I start my application?",
-      a: "Starting 8–12 months before your intended intake gives you enough time for testing, shortlisting, documents, applications and visa preparation.",
-    },
-  ];
+  const faqs = (publicHealthData?.faq && publicHealthData.faq.length > 0)
+    ? publicHealthData.faq.map((f) => ({ q: f.question, a: f.answer }))
+    : [
+        {
+          q: "Are Indian students eligible to pursue public health studies in the USA following completion of Class 12?",
+          a: "Yes. Students may submit applications for accredited undergraduate programmes, including bachelor's degrees in public health or cognate disciplines. Admission prerequisites differ across institutions, and prospective students must verify both academic credentials and English language proficiency standards.",
+        },
+        {
+          q: "What constitutes the MPH degree within the American higher education system?",
+          a: "MPH denotes Master of Public Health, representing a postgraduate qualification emphasizing population-level health outcomes, communicable disease mitigation, epidemiological analysis, healthcare governance, health promotion initiatives and allied disciplines. The specific course structure varies according to institutional policies and chosen specialization.",
+        },
+        {
+          q: "Are applicants from non-medical academic backgrounds permitted to enroll in MPH programmes in the USA?",
+          a: "Yes, numerous MPH programmes welcome candidates possessing diverse educational backgrounds including medicine, dentistry, nursing, pharmacy, biology, biotechnology, environmental sciences, social sciences, statistics, management and related fields. Admission eligibility remains contingent upon institutional requirements and selected concentration area.",
+        },
+        {
+          q: "What financial investment is required for public health education in the USA?",
+          a: "Expenses fluctuate based on institutional selection, programme length, fee schedules, residential arrangements and subsistence costs. Prospective students should consult the comprehensive cost-of-attendance documentation provided by their target institution and investigate scholarship opportunities or graduate assistantship positions.",
+        },
+        {
+          q: "What professional opportunities exist for graduates with public health qualifications from the USA?",
+          a: "Based on educational credentials and professional background, alumni may pursue positions encompassing epidemiological investigation, scientific inquiry, health education delivery, public health administration, programme management, environmental health protection, healthcare quality assurance and public health informatics. Certain positions may necessitate supplementary professional credentials or specialized certifications.",
+        },
+        {
+          q: "How can Edu Hawk worldwide help me study public health abroad?",
+          a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+        },
+        {
+          q: "Is GRE required for MPH in the USA?",
+          a: "The GRE is not required by every public health programme. Applicants should check the current admissions policy of each university rather than preparing for the exam automatically.",
+        },
+        {
+          q: "What is CEPH accreditation?",
+          a: "The Council on Education for Public Health (CEPH) accredits eligible schools and public health programmes in the United States. Students should verify the current accreditation status and scope of the programme they are considering.",
+        },
+        {
+          q: "Do I need a licence to work in public health in the USA?",
+          a: "There is no single universal licence required for every public health career in the USA. Requirements depend on the role and employer. Some positions may require specific professional licences, certifications, educational qualifications or work experience.",
+        },
+        {
+          q: "When should I start my application?",
+          a: "Starting 8–12 months before your intended intake gives you enough time for testing, shortlisting, documents, applications and visa preparation.",
+        },
+      ];
 
   return (
     <div
       ref={pageRef}
       className="pharmacy-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
+      <SeoHead
+        title="Study Public Health in USA for Indian Students | Edu Hawk"
+        description="Explore public health courses in the USA for Indian students — bachelor’s to MPH and doctoral degrees in epidemiology, health policy and biostatistics."
+        path="/study-abroad/usa/public-health"
+        ogType="website"
+      />
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -540,12 +560,11 @@ const PublicHealth = () => {
                 </span>{" "}
                 for Indian Students
               </h1>
-              <p className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed">
-                Public health is an interdisciplinary discipline dedicated to enhancing the health status and overall well-being of communities and populations. Unlike clinical healthcare, which focuses on diagnosing and treating individual patients, public health emphasizes disease prevention, health promotion, health education, healthcare infrastructure and population-based health concerns.
-              </p>
+
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                The United States offers an extensive array of public health programmes including Bachelor of Public Health, Master of Public Health (MPH), Master of Science in Public Health and doctoral degrees. These programmes prepare students for roles in epidemiology, international health, health policy, biostatistics, environmental health, healthcare administration and public health research.
+                Studying public health in the United States empowers students with interdisciplinary training in epidemiology, biostatistics, environmental health, and healthcare policy to solve population-level health challenges globally.
               </p>
+
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
                   href="#consult"
@@ -567,7 +586,9 @@ const PublicHealth = () => {
                 src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80"
                 alt="Public health education and community health in USA"
                 className="pharmacy-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=900&q=80 2x"
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 1000+ Indian students
               </div>
@@ -636,9 +657,12 @@ const PublicHealth = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
+                loading="lazy"
                 alt="Public health research and education"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-blue-600 to-sky-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">20–45L+</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
@@ -807,6 +831,8 @@ const PublicHealth = () => {
                   alt="University campus"
                   loading="lazy"
                   className="physio-university-image absolute inset-0 h-full w-full object-cover opacity-85"
+                  srcSet={`${university.image} 1x, ${university.image} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-900/35 to-transparent" />
                 <div className="relative flex min-h-64 flex-col justify-end p-5 sm:p-6">

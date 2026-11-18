@@ -1,0 +1,78 @@
+{
+  "seo": {
+    "title": "Study MBBS in Armenia for Indian Students | Edu Hawk",
+    "description": "Plan MBBS in Armenia for Indian students: NEET-based admission, NMC & WHO-recognized universities, English-medium courses and hostel living cost details.",
+    "keywords": "mbbs in armenia, armenia mbbs fees, study mbbs armenia, armenia medical colleges"
+  },
+  "hero": {
+    "badge": "MBBS Admissions 2026-27",
+    "title": "STUDY MBBS IN ARMENIA",
+    "subtitle": "Explore MBBS Opportunities in Armenia 2026–2027. European standard medical curriculum in peaceful Yerevan at highly budget-friendly fees.",
+    "image": "/uploads/colleges/armenia_flag.webp",
+    "ctaText": "Apply for Armenia MBBS"
+  },
+  "flag": "/uploads/colleges/armenia_flag.webp",
+  "stats": [
+    {
+      "n": "6 Years",
+      "l": "Course Duration (5+1 Internship)"
+    },
+    {
+      "n": "₹2.8L",
+      "l": "Starting Annual Tuition Fee"
+    },
+    {
+      "n": "100%",
+      "l": "English Medium Programs"
+    },
+    {
+      "n": "NMC & WHO",
+      "l": "Recognized Medical Universities"
+    }
+  ],
+  "highlights": {
+    "degree": "MD Physician (Equivalent to MBBS)",
+    "duration": "6 Years",
+    "fee": "₹18 - ₹25 Lakhs Total Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
+  },
+  "overview": "Armenia offers Indian medical aspirants European curriculum standards, safe living conditions, and affordable tuition fees. Medical universities in Yerevan feature modern clinical laboratories, well-stocked medical libraries, and extensive clinical rotations in affiliated municipal hospitals.",
+  "universitiesHeading": "Top Medical Universities in Armenia",
+  "universities": [
+    {
+      "name": "Yerevan State Medical University",
+      "location": "Yerevan, Armenia",
+      "fee": "₹3.5 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3a/%D5%80%D5%A5%D6%80%D5%A1%D6%81%D5%AB_%D5%B0%D5%A1%D5%B4%D5%A1%D5%AC%D5%BD%D5%A1%D6%80%D5%A1%D5%B6.JPG",
+      "desc": "Century-old flagship government medical university with over 30 clinical hospitals."
+    },
+    {
+      "name": "Yerevan Haybusak University",
+      "location": "Yerevan, Armenia",
+      "fee": "₹3.0 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Haybusak-uni.JPG",
+      "desc": "Leading private international university with strong European partnerships."
+    },
+    {
+      "name": "Mkhitar Gosh Armenian-Russian International University",
+      "location": "Yerevan, Armenia",
+      "fee": "₹2.8 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/db/Haybusak-uni.JPG",
+      "desc": "Modern medical campus dedicated to international students with dedicated Indian mentors."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is MBBS in Armenia valid in India?",
+      "answer": "Yes, MBBS from NMC & WHO recognized universities in Armenia is valid in India upon passing the NExT/FMGE licensing exam."
+    },
+    {
+      "question": "What is the cost of studying MBBS in Armenia?",
+      "answer": "The annual tuition fee ranges from ₹2.8 to ₹3.5 Lakhs, with the total 6-year package around ₹18 to ₹25 Lakhs including hostel accommodation."
+    }
+  ]
+}

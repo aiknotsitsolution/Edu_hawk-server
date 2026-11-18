@@ -1,0 +1,475 @@
+{
+  "hero": {
+    "title": "Master's in Engineering in Spain for Indian Students",
+    "subtitle": "Master's in Engineering in Spain for Indian Students is an opportunity to enhance technical skills, specialize in new technologies and prepare for professional careers in engineering and research. Spanish universities offer postgraduate courses with topics like mechanical engineering, electrical engineering, civil engineering, computer engineering, aerospace engineering, renewable energy and industrial automation. Students planning to pursue a Master's in Engineering in Spain can explore different specializations according to their academic background and career goals."
+  },
+  "overview": [
+    "In Spain, students have a wide range of academic options to further their qualifications in engineering. Here are some of the significant reasons to check out this spot. Choosing to Study Engineering in Spain allows students to explore advanced technical education in a European academic environment.",
+    "For Indian graduates looking to gain specialized technical skills, Study Engineering in Spain can be an opportunity to gain international academic experience. A Master's in Engineering in Spain can help students develop advanced knowledge in their chosen engineering field."
+  ],
+  "universities": [
+    {
+      "name": "Polytechnic University of Catalonia",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pg_hub_Polytechnic_University_of_Catalonia-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pg_hub_Polytechnic_University_of_Catalonia-image3.png",
+      "desc": "Location: ValenciaType: Public university UPV offers a large number of official master's degrees in engineering, including mechanical engineering, chemical engineering, civil engineering, biomedical engineering, aeronautics, robotics and industrial technologies. Length of study: Depending on the program, many offer between 60 and 120 ECTS credits. Language of instruction: Spanish, Valencian or English depending on the course. Official catalog of programmes: Master's Degrees at the UPV. Students interested in Engineering Universities in Spain can explore UPV's official program catalogue to compare available postgraduate specializations and entry requirements."
+    },
+    {
+      "name": "Polytechnic University of Valencia",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pg_hub_Polytechnic_University_of_Valencia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_pg_hub_Polytechnic_University_of_Valencia-image2.png",
+      "desc": "Location: ValenciaType: Public university UPV offers a large number of official master's degrees in engineering, including mechanical engineering, chemical engineering, civil engineering, biomedical engineering, aeronautics, robotics and industrial technologies. Length of study: Depending on the program, many offer between 60 and 120 ECTS credits. Language of instruction: Spanish, Valencian or English depending on the course. Official catalog of programmes: Master's Degrees at the UPV. Students interested in Engineering Universities in Spain can explore UPV's official program catalogue to compare available postgraduate specializations and entry requirements."
+    },
+    {
+      "name": "Technical University of Madrid",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pg_hub_Technical_University_of_Madrid-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_pg_hub_Technical_University_of_Madrid-image1.png",
+      "desc": "Place: MadridType of university: State university UPM offers postgraduate studies in engineering including aerospace engineering, civil engineering, chemical engineering, industrial engineering, computer engineering and telecommunications engineering. Length of study: Depends on the program. For: Students who are seeking a specialized technical education or a qualifying engineering master's degree. Official information of the programme: University Master degrees of UPM. Indian students planning to Study Engineering in Spain can review the available programs at UPM and check whether their undergraduate qualifications meet the requirements."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study a Master's in Engineering in Spain?",
+      "lead": "In Spain, students have a wide range of academic options to further their qualifications in engineering. Here are some of the significant reasons to check out this spot. Choosing to Study Engineering in Spain allows students to explore advanced technical education in a European academic environment.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "High-level technical specialisation: Develop expertise in a selected engineering discipline.",
+            "Research and innovation: Engineering research, applied projects, and new technologies.",
+            "Industry-relevant education: You will study subjects that are directly linked to the real world of manufacturing, infrastructure, energy, computing and automation.",
+            "International exposure: Acquire experience of the Spanish academic environment and develop cross-cultural professional skills.",
+            "Career development: Preparing for specialist engineering roles or further research.",
+            "Studying in Europe: obtain a recognized qualification from a Spanish higher education institution designated for this purpose, in accordance with the official status and accreditation of the degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Indian graduates looking to gain specialized technical skills, Study Engineering in Spain can be an opportunity to gain international academic experience. A Master's in Engineering in Spain can help students develop advanced knowledge in their chosen engineering field."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Courses of Master's in Engineering in Spain",
+      "lead": "Master's in Engineering in Spain span a wide range of technical disciplines. Indian students can opt for a specialization depending on their undergraduate degree, academic background and professional interests. These Engineering Courses in Spain cover several areas of engineering, technology, research and industrial development.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Master's specializationMain areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanical EngineeringAdvanced mechanics, materials, manufacturing, thermal systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical EngineeringElectrical machines, power systems, energy technology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics EngineeringEmbedded technologies, electronic systems, instrumentation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil EngineeringStructural design, construction, geotechnique, infrastructure"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer EngineeringComputing systems, software, hardware, system architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace EngineeringAerodynamics, aircraft structures, propulsion, flight systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemical EngineeringProcess engineering, industrial chemistry, reaction systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical EngineeringMedical equipment, bio-medical systems, health technology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Renewable Energy EngineeringSolar, Wind, Sustainable Energy Systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Robotics and AutomationRobotics, control systems, industrial automation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Telecommunications EngineeringCommunication networks, signal processing, wireless systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industrial EngineeringManufacturing, Logistics, Production, Management of Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Availability of each program, its credit requirements and whether it is taught in English depends on the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students are encouraged to compare the curriculum, practical elements, research opportunities and academic requirements before choosing a specialization. Comparing different Master's in Engineering Courses in Spain can help students select a program that matches their previous degree and future career plans."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Universities in Spain for a Master's in Engineering",
+      "lead": "Students who are interested in studying at Engineering Universities in Spain can consider the following public universities for postgraduate engineering education. These Universities in Spain for Master's in Engineering offer different academic options across engineering and technology disciplines.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Polytechnic University of Catalonia",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pg_hub_Polytechnic_University_of_Catalonia-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pg_hub_Polytechnic_University_of_Catalonia-image3.png",
+          "desc": "Location: ValenciaType: Public university UPV offers a large number of official master's degrees in engineering, including mechanical engineering, chemical engineering, civil engineering, biomedical engineering, aeronautics, robotics and industrial technologies. Length of study: Depending on the program, many offer between 60 and 120 ECTS credits. Language of instruction: Spanish, Valencian or English depending on the course. Official catalog of programmes: Master's Degrees at the UPV. Students interested in Engineering Universities in Spain can explore UPV's official program catalogue to compare available postgraduate specializations and entry requirements."
+        },
+        {
+          "name": "Polytechnic University of Valencia",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pg_hub_Polytechnic_University_of_Valencia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_pg_hub_Polytechnic_University_of_Valencia-image2.png",
+          "desc": "Location: ValenciaType: Public university UPV offers a large number of official master's degrees in engineering, including mechanical engineering, chemical engineering, civil engineering, biomedical engineering, aeronautics, robotics and industrial technologies. Length of study: Depending on the program, many offer between 60 and 120 ECTS credits. Language of instruction: Spanish, Valencian or English depending on the course. Official catalog of programmes: Master's Degrees at the UPV. Students interested in Engineering Universities in Spain can explore UPV's official program catalogue to compare available postgraduate specializations and entry requirements."
+        },
+        {
+          "name": "Technical University of Madrid",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pg_hub_Technical_University_of_Madrid-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_pg_hub_Technical_University_of_Madrid-image1.png",
+          "desc": "Place: MadridType of university: State university UPM offers postgraduate studies in engineering including aerospace engineering, civil engineering, chemical engineering, industrial engineering, computer engineering and telecommunications engineering. Length of study: Depends on the program. For: Students who are seeking a specialized technical education or a qualifying engineering master's degree. Official information of the programme: University Master degrees of UPM. Indian students planning to Study Engineering in Spain can review the available programs at UPM and check whether their undergraduate qualifications meet the requirements."
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements to Study a Master's in Engineering in Spain",
+      "lead": "In general, the requirements for Indian students are as follows. Students planning Master's in Engineering in Spain for Indian Students should review the eligibility conditions of their chosen university and specialization.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's degree: A recognized undergraduate qualification in engineering or closely related discipline.",
+            "Academic background: Your previous degree should meet the prerequisites of the chosen specialization.",
+            "Academic performance: Meet the minimum academic and selection criteria of the university.",
+            "Language skills: Show the required level of English, Spanish or other language of instruction, if applicable.",
+            "Additional requirements: Some courses may require relevant coursework, professional experience, a portfolio or other supporting evidence."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of qualifications: Meet the university's requirements for acceptance of an international degree.",
+      "lead": "A few specialized or qualifying masters programs have stricter subject requirements. Not all master's programs in engineering will accept with a bachelor's degree. Therefore, checking the eligibility criteria is an important part of the Engineering Admission in Spain process.",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission to a Master's in Engineering in Spain",
+      "lead": "Students applying for Admission to a Master's in Engineering in Spain may be required to provide the following documents. The Master's in Engineering Admission in Spain requirements can vary according to the university, specialization and applicant's academic background.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor degree certificate.",
+            "Mark sheets and academic transcripts.",
+            "Detailed syllabus or course descriptions, if required.",
+            "CV/Résumé",
+            "Statement of purpose/motivation letter, if required.",
+            "Certificate of proficiency in English or Spanish, if applicable.",
+            "Passport is valid.",
+            "Letter(s) of recommendation if applicable.",
+            "Certified translations and apostille or legalization where necessary.",
+            "Other documents required by the university/programme."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some engineering master's degrees that qualify professionally may require a specific recognition or homologation of an overseas qualification. Check the rules for exact degree before applying. Students should carefully understand the Engineering Admission in Spain requirements before submitting their applications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Master's Engineering Tuition Fees in Spain",
+      "lead": "The price of an Engineering Master's in Spain will depend on the university, the specialization, the number of ECTS credits and whether you are an EU or non-EU student. Public and private universities may have different tuition structures. Understanding Engineering Fees in Spain is important when planning a postgraduate study budget.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Type of UniversityTuition fee for one academic year (Illustrative)Approximate INR equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public University€1,000-€8,000INR 1.09 Lakh-INR 8.69 Lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private University€6,000–€25,000+₹6.52 lakh – ₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are broad planning estimates, not confirmed fees for all engineering programs. Non-EU tuition fees can be higher for some courses. For example, UPV publishes different credit prices for different student categories for its Master's Degree in Industrial Engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR conversion is at an indicative exchange rate of €1 &asymp; Rs. 108.60. Actual fees and exchange rates might apply."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When you receive an offer, check the official fee schedule for your academic year of entry and verify the total tuition according to the programme's credit requirements. Students comparing Master's in Engineering Fees in Spain should also consider additional academic expenses and their overall study budget."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process for a Master's in Engineering in Spain",
+      "lead": "The general Engineering Admission in Spain process consists of:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Select a specialisation: Look for an area that suits your bachelor's degree and career goals.",
+            "Compare universities: Explore curricula, program accreditation, language of instruction, tuition and deadlines.",
+            "Check academic eligibility: Make sure your undergraduate qualification meets the programme's entry requirements.",
+            "Prepare your application documents: Collect your degree certificate, transcripts, CV, language evidence and any other documents requested.",
+            "How to apply: Apply through the official university admissions or pre-enrolment portal.",
+            "Get your admission decision: Make sure to read about any conditions, documents you need to show and when you have to make your payment.",
+            "Apply for a Spanish study visa: Gather the documentation required by the corresponding Spanish consular authority.",
+            "Final enrolment: Finalize registration, accommodation, insurance and travel."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application periods vary by program and university. UPV, for instance, has different pre-enrolment phases for international and other candidates. Students planning a Master's in Engineering in Spain for Indian Students should check university deadlines and complete each admission step within the specified period."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Master's in Engineering in Spain: Recognition of Degrees",
+      "lead": "A Master's from an accredited Spanish university can be beneficial for applications for specialist jobs and further study. However, recognition depends on the official status of the degree, the country where you want to use it and the purpose for which recognition is sought.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students intending to work in India should verify the relevant requirements for recognition with the relevant authorities and employers. Students who wish to work in Spain or other European countries should check local professional registration, immigration and employment requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "To qualify for a regulated engineering profession, check that the course is an official qualifying master's degree and not a university-specific continuing education or professional certificate. Degree recognition is an important consideration when choosing a Master's in Engineering in Spain and planning your future career."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Engineering Job Opportunities in Spain After a Master's Degree",
+      "lead": "Engineering Jobs in Spain depend on your specialization, previous qualifications, technical skills, work experience and language skills. A Master's in Engineering in Spain for Indian Students can provide postgraduate academic experience for students interested in specialist engineering roles.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Career options for graduates are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career optionExample gross yearly salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanical Engineer€28k-€42k"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Engineer€28,000-€42,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil Engineer27.000 - 42.000 EUR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineer€30,000 – €48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemical Engineer€28,000–45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer or Systems Engineer€32,000-€50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Renewable Energy Engineer€28,000-€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering Project Management€35,000 – €55,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary numbers are broad illustrative estimates and are not verified current statistics or guarantyd earnings. The actual salaries will depend on the location, industry, experience, employer and specialization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates can find employment in engineering consultancy, manufacturing, infrastructure, energy, aerospace, software and technology, research or industrial project management. Engineering Jobs in Spain may vary according to the selected specialization, technical expertise and relevant work authorization."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed for Studying a Master's in Engineering in Spain",
+      "lead": "Indian students should prepare the following documents as per the chosen university checklist. Preparing the documents in advance can help students complete the Master's in Engineering Admission in Spain process smoothly.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport is valid.",
+            "Bachelor's degree diploma.",
+            "Mark Sheets and Transcripts (Academic).",
+            "Full course descriptions as requested.",
+            "Curriculum vitae or resume.",
+            "Purpose statement, if applicable.",
+            "Language proficiency certificate, if applicable.",
+            "Letters of recommendation, if necessary.",
+            "Certified translations and apostille or legalization as required.",
+            "Letter of admission, when issued.",
+            "Financial proof and other documents required for study visa.",
+            "Evidence of health insurance and accommodation if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Always check latest requirements with the university and relevant Spanish consular authorities."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Can Indian students do a Master's in Engineering in Spain after BTech?",
+      "a": "Yeah. Applications are invited from Indian students with a relevant recognized bachelor's degree. Admission is subject to the academic and other requirements of the program applied for. Indian students interested in a Master's in Engineering in Spain for Indian Students should check the entry requirements of their selected specialization."
+    },
+    {
+      "q": "2. How Long Does a Master's in Engineering Take in Spain?",
+      "a": "Many programs are for 1–2 years and require 60–120 ECTS credits. The exact time will depend on the specialization and structure of the program."
+    },
+    {
+      "q": "3. What is the cost of studying a Master's in Engineering in Spain?",
+      "a": "As a very rough estimate of the planning, public university tuition may be in the range of € 1000-8000 per year, private university tuition may be in the range of € 6000-25000 or more. Exact fees vary according to the program and the student's status. Students should check the latest Engineering Fees in Spain directly with their selected university."
+    },
+    {
+      "q": "4. Can Indian students study in English Engineering master's programs in Spain?",
+      "a": "Yes, some programs are taught in English. Others speak Spanish, Catalan or a blend of languages. Students should check the language of instruction and language certificate requirements of each course."
+    },
+    {
+      "q": "5. What are the career options after a Master's in Engineering in Spain?",
+      "a": "Graduates can enter specialized fields such as mechanical, electrical, civil, aerospace, chemical, computer, renewable energy or industrial engineering. Career opportunities will depend on the specialization chosen, skills, experience and relevant work authorization. Students exploring Engineering Jobs in Spain should consider their technical skills and the requirements of their preferred industry."
+    }
+  ],
+  "seo": {
+    "title": "Master's in Engineering in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "In Spain, students have a wide range of academic options to further their qualifications in engineering. Here are some of the significant reasons to check out t",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

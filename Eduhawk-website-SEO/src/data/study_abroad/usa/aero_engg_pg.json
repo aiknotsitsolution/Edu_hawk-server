@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Postgraduate Aerospace Engineering in the USA for Indian Students",
+    "subtitle": "Explore world-renowned Ivy League institutions, premier public research universities, and leading tech institutes across the United States."
+  },
+  "overview": [
+    "Explore world-renowned Ivy League institutions, premier public research universities, and leading tech institutes across the United States.",
+    "Studying in the USA offers Indian students unmatched academic prestige, cutting-edge research facilities, flexible curriculums, and access to the world's largest job market.",
+    "Edu Hawk Worldwide Consultancy guides Indian students through Common App and university portals, GRE/GMAT/IELTS prep, I-20 procurement, DS-160 and F-1 visa interview preparation, and 3-year STEM OPT employment pathways."
+  ],
+  "universities": [
+    {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "location": "Cambridge, Massachusetts, USA",
+      "fee": "$58,000 – $62,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
+      "image": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
+      "desc": "MIT is a world leader in science and engineering education, renowned for groundbreaking research, venture creation, and technological innovation."
+    },
+    {
+      "name": "Stanford University",
+      "location": "Stanford, California, USA",
+      "fee": "$59,000 – $64,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
+      "image": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
+      "desc": "Located in the heart of Silicon Valley, Stanford is internationally celebrated for entrepreneurship, computing, engineering, and medical sciences."
+    },
+    {
+      "name": "Harvard University",
+      "location": "Cambridge, Massachusetts, USA",
+      "fee": "$56,000 – $60,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+      "image": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+      "desc": "The oldest higher education institution in the United States, globally recognized for academic distinction, world-class faculties, and influential alumni network."
+    },
+    {
+      "name": "University of California, Berkeley",
+      "location": "Berkeley, California, USA",
+      "fee": "$44,000 – $48,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
+      "image": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
+      "desc": "UC Berkeley is America's premier public research university, leading globally in computer science, engineering, business, and physical sciences."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top US Universities",
+      "title": "Top Universities to Consider in the USA",
+      "lead": "Explore world-renowned Ivy League institutions, premier public research universities, and leading tech institutes across the United States.",
+      "unis": [
+        {
+          "name": "Massachusetts Institute of Technology (MIT)",
+          "location": "Cambridge, Massachusetts, USA",
+          "fee": "$58,000 – $62,000 / Year",
+          "img": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
+          "image": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
+          "desc": "MIT is a world leader in science and engineering education, renowned for groundbreaking research, venture creation, and technological innovation."
+        },
+        {
+          "name": "Stanford University",
+          "location": "Stanford, California, USA",
+          "fee": "$59,000 – $64,000 / Year",
+          "img": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
+          "image": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
+          "desc": "Located in the heart of Silicon Valley, Stanford is internationally celebrated for entrepreneurship, computing, engineering, and medical sciences."
+        },
+        {
+          "name": "Harvard University",
+          "location": "Cambridge, Massachusetts, USA",
+          "fee": "$56,000 – $60,000 / Year",
+          "img": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+          "image": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+          "desc": "The oldest higher education institution in the United States, globally recognized for academic distinction, world-class faculties, and influential alumni network."
+        },
+        {
+          "name": "University of California, Berkeley",
+          "location": "Berkeley, California, USA",
+          "fee": "$44,000 – $48,000 / Year",
+          "img": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
+          "image": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
+          "desc": "UC Berkeley is America's premier public research university, leading globally in computer science, engineering, business, and physical sciences."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Postgraduate Aerospace Engineering in the USA for Indian Students | Edu-Hawk Worldwide",
+    "description": "Explore world-renowned Ivy League institutions, premier public research universities, and leading tech institutes across the United States.",
+    "keywords": "Study in USA, Top Universities in USA, Edu Hawk Worldwide"
+  }
+}

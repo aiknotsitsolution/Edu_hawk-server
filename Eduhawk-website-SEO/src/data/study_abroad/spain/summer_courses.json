@@ -1,0 +1,593 @@
+{
+  "hero": {
+    "title": "Summer Courses for Indian Students in Spain",
+    "subtitle": "Summer Courses in Spain for Indian Students offer the chance to acquire new skills, experience European culture, enhance language abilities, and gain international academic exposure during the summer break. Spanish universities and other higher education institutions provide short-term courses in business, Spanish language, engineering, architecture, hospitality, arts, international relations and technology. These Summer Courses in Spain for Indian Students allow learners to explore different academic interests during their summer break."
+  },
+  "overview": [
+    "Summer Courses in Spain for Indian Students offer the chance to acquire new skills, experience European culture, enhance language abilities, and gain international academic exposure during the summer break. Spanish universities and other higher education institutions provide short-term courses in business, Spanish language, engineering, architecture, hospitality, arts, international relations and technology. These Summer Courses in Spain for Indian Students allow learners to explore different academic interests during their summer break.",
+    "\"Spain allows students to combine a short-term academic study experience with cultural immersion and international engagement.\" Some of the main advantages are:"
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why study in Spain during the summer?",
+      "lead": "\"Spain allows students to combine a short-term academic study experience with cultural immersion and international engagement.\" Some of the main advantages are:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Short-term international education: Get an international learning experience without committing to a full degree program.",
+            "Cultural immersion: Learn about Spanish traditions, history, food, architecture and lifestyle.",
+            "Language development: Practice your English or improve your Spanish in an international language-learning environment.",
+            "Discover academic interests: Try out a subject before deciding on a bachelor's or master's specialization.",
+            "International Networking: Connect with students, educators & professionals across the globe.",
+            "Hands-on learning: Get involved in workshops, group projects, lectures and field visits when they are available.",
+            "International academic exposure: Get exposure to the European academic environment and teaching methodologies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Types of Summer Courses Offered in Spain",
+      "lead": "Students can try out summer programs in a wide range of academic, cultural and professional fields. They will make the decision based on their interests, academic background and future goals.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The Summer Study Programs in Spain may include the following options. Students exploring Summer Study Programs in Spain can compare different subjects and course durations before selecting a program:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Summer CourseNormal TimeCore Learning Topics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Spanish Language2-8 weeksSpeaking, grammar, reading and cultural communication"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business and Management – 2 to 6 weeks – Leadership, marketing, strategy and entrepreneurship"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Business2-6 weeksDeveloping international business, global trade and international markets"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering and Technology2–8 weeksInnovation, robotics, sustainability and new technologies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Science and AI2-8 weeksProgramming, AI and digital innovation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture and Design2–6 weeksUrban design, architecture and creative projects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hospitality and Tourism2–6 weeksHotel management, tourism, and destination marketing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Arts & Culture1-6 weeksArt history, music, design and cultural studies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Relations2-6 weeksDiplomacy, European affairs and global policy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Law and Human Rights2–6 weeksInternational law, human rights and legal systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medicine and Public HealthVariousPublic health, health care issues, research-based learning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Environmental Studies2-8 weeksSustainability, climate action and environmental management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Durations and availability are indicative. Some of the programs are academic courses, some are workshops or cultural events. Eligibility requirements may also apply to clinical placements and regulated professional training."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Top Universities and Schools to Consider for Summer Courses in Spain",
+      "lead": "Students interested in Summer Course Universities in Spain can begin by looking at universities that provide academic, international, and short-term learning opportunities. However, the range of programs offered can vary from year to year and not all institutions will offer all the subjects listed above. Exploring Summer Course Universities in Spain can help students compare possible academic and international learning opportunities.",
+      "groups": []
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Universitat de Barcelona",
+      "lead": "&lt;text color=\"secondary\" size=\"sm\"&gt;Location: Barcelona&lt;/text&gt;",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The University of Barcelona is a useful place to investigate academic and international learning opportunities in one of Spain's major university cities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Website: https://www.ub.edu/"
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Eligibility for Summer Courses in Spain",
+      "lead": "Eligibility varies by institution, level of program, subject and duration. Many short-term programs have less rigid academic requirements than full degree courses. Understanding Summer Course Eligibility in Spain can help Indian students identify programs that match their academic background and interests.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Eligibility in General"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students may have to meet the following criteria:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Possess a valid passport;",
+            "Satisfy the minimum educational requirements for the chosen program.",
+            "Show an interest in the selected subject.",
+            "Meet English language requirements if the course is taught in English and the provider asks for proof of proficiency.",
+            "Fluent in Spanish for classes that require prior knowledge.",
+            "Meet the minimum age requirement of the institution.",
+            "Possess the appropriate academic background for advanced/specialised programs."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Age and Education Requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Summer schools vary: some are open to high school students, while others are restricted to college students, graduates or working professionals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For graduate study in engineering, business, research and other specialized fields, prior academic knowledge or related experience may be required. Students are encouraged to check the eligibility requirements for the program before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Spanish Summer Course Admission Requirements",
+      "lead": "The application process varies from university to university. Applicants may be required to submit the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Completed application form on-line.",
+            "Copy of valid passport.",
+            "Recent photo if necessary.",
+            "Academic transcripts or school certificates if applicable.",
+            "CV/résumé for specialized programs.",
+            "Statement of motivation, if required.",
+            "Certificate of English or Spanish language, if required.",
+            "Proof of application fee or payment of course.",
+            "Parental consent of eligible minors, where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some courses, particularly technical or research-based or of a higher academic level, may require previous studies in the relevant subject. Students are required to read the official program instructions prior to applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Price of Summer Courses in Spain",
+      "lead": "Total cost varies depending on the duration of the program, subject, institution and city as well as whether accommodation, meals or cultural activities are included in the tuition fee. Understanding Summer Course Fees in Spain can help students plan their budgets and compare different programs before applying.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "ExpenseIndicative Cost"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Short summer course€300-€1.500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialized or university summer school€1,000-€3,500+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accommodation€400-€900 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food & groceries€200-350 / month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Local transport€30-€80 a month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal costs€100-€200 a month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flights from IndiaVaries with dates and airline"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Visa, insurance and administrationDepending on the circumstances"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative budget estimates and are not confirmed prices for a particular program. Some of the top-rated summer schools include accommodation, meals, excursions or course materials in the course fee, while others make a separate charge for such extras."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For rough financial planning, 1€ is about ₹109. Exchange rates may fluctuate and students should check the current conversion rate when drawing up their final budget."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "How to enrolll in summer courses in Spain",
+      "lead": "Below are some general steps Indian students can use while applying for a summer program:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Select a subject: Indicate your career goals, field of study or academic interests.",
+            "Choose a programme: Compare course length, syllabus, location, language of instruction and fees.",
+            "Check eligibility: Check the age limit, academic background and language skills.",
+            "Check application deadlines: Summer programs can have early deadlines or limited space, so look up the schedule ahead of time.",
+            "Apply: Fill out the official application form and submit the required documentation.",
+            "Confirm Admission: Go through the admission offer, payment details and course schedule.",
+            "Find accommodation: Determine whether the institution provides student housing or partner accommodation.",
+            "Check whether you need a visa: Check the relevant consular information for Spain depending on your nationality and length of course.",
+            "Book Flights, Insurance and Arrival Details: Verify the requirements and complete your flight, insurance and arrival arrangements.",
+            "Participate in the programme: Attend classes, workshops, academic activities and approved extra-curricular programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important Visa Note: Visa requirements vary according to the nature and duration of the program and the individual circumstances of the student. Indian students are advised to check the latest official Spanish consular instructions before making any non-refundable payments for travel or accommodation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Benefits of summer classes: academics and career",
+      "lead": "Summer programs can help students to enhance their academic records, explore potential career interests and gain skills that can help them to pursue higher education or professional advancement.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Some of the potential benefits include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Knowledge building about the subject(s).",
+            "Enhancing communication and intercultural skills.",
+            "Studying a possible bachelor's or master's specialization",
+            "Creating international academic links.",
+            "Hands-on learning through workshops and group projects.",
+            "Knowledge of European industries and professional practices.",
+            "Certificate of completion, if provided by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advantages of summer course in Spain can be of benefit to students if they pick up programs which match their academic interests and future plans."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A summer-course certificate, however, is not a full university degree. It does not automatically guaranty admission into university, employment or professional recognition. The credit transfer will depend on the student's home institution and program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "When is the best time to apply for Summer Courses in Spain?",
+      "lead": "The majority of summer programs take place during the European summer, typically from June until August. However, exact dates and application deadlines vary by institution and academic year.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "PeriodSuggested Activity"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "January to MarchResearch programs, compare fees, and prepare documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "March-MaySubmit applications when deadlines allow and plan travel"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "May–JuneConfirm admission, accommodation and any applicable visa requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "June–AugustTake part in the chosen summer program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are recommended planning windows, not everyone's deadline. Some institutions open applications earlier and popular programs can fill their available places quickly."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should consult the official program calendar and apply as early as possible to allow adequate time for admission and travel arrangements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Documentation Required for Spain Summer Courses",
+      "lead": "The documents required will depend on the course, institution and the student's circumstances. You could be asked for documents like",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport in order.",
+            "Application form completed.",
+            "School certificates or academic transcripts.",
+            "Results of language skills, if applicable.",
+            "CV or letter of motivation if required.",
+            "Confirmation of course admission/enrolment.",
+            "Proof of payment of course fee.",
+            "Lodging information, if available.",
+            "Travel or health insurance, if applicable.",
+            "Financial and other supporting documents for visa application, as applicable.",
+            "Parental consent forms for minors where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should consult the official course checklist and Spanish consular instructions to confirm final documentation requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Popular Questions About Summer Courses in Spain",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Can Indian students apply for summer courses in Spain?",
+      "lead": "Sure. Indian students are eligible to apply for suitable short-term programs offered by Spanish universities and educational institutions, subject to the admission requirements of the program and the applicable visa regulations.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "How long are summer courses in Spain?",
+      "lead": "The majority of programs last from two to eight weeks but some are shorter or may last several months. How long that takes varies by subject and institution.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "What is the price of summer courses in Spain?",
+      "lead": "The price will vary depending on the institution, the subject and the length of the course. Short programs might cost in the region of €300-€1,500, while specialized university summer schools can be in the region of €1,000-€3,500 or more. There may be additional living expenses not included in the program fee.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Will I need IELTS to join a summer course in Spain?",
+      "lead": "Not always. IELTS might not be required for all short-term programs. Some institutions will accept alternative evidence of English proficiency and others may not require a formal language test. Students must check the requirements for the specific course.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Can I get college credit for a summer school course in Spain?",
+      "lead": "Some programs grant academic credits, while others just a certificate of completion. Students should check the credit structure with the Spanish institution and their home university before enrolling.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Can high school students apply for summer programs in Spain?",
+      "lead": "Some summer programs are for high school students, while others are only for university students or graduates. There may be age restrictions, parental consents and supervision arrangements.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Edu-Hawk Worldwide – Plan Your Summer Study Experience",
+      "lead": "A summer program in Spain can provide an opportunity to study new subjects, gain practical skills, experience another culture and build international connections. Selecting the right institution and course is important to ensure the experience is valuable both academically and personally.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide guides students in the international education opportunity and study-abroad application process. We assist students throughout the journey, from finding the right programs to preparing the eligibility and admission documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Reach out to Edu-Hawk Worldwide to find out about summer learning programs in Spain and start your journey to an international academic experience."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Summer Courses for Indian Students in Spain | Edu-Hawk Worldwide",
+    "description": "Summer Courses in Spain for Indian Students offer the chance to acquire new skills, experience European culture, enhance language abilities, and gain internatio",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

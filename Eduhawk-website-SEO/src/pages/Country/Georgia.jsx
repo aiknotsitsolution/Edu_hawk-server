@@ -1,3 +1,4 @@
+import cmsData from "../../data/medical_colleges/georgia.json";
 // import React, { useState } from "react";
 // import Russianflag2 from "../../Images/country flag png/Georgia.svg";
 
@@ -213,7 +214,7 @@
 //         <div className="grid md:grid-cols-2 gap-12 mb-20">
 //           <div>
 //             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-//               Advantages of Studying MBBS in Russia 2025–2026
+//               Advantages of Studying MBBS in Russia 2026–2027
 //             </h2>
 
 //             <div className="space-y-6">
@@ -322,7 +323,7 @@
 //             </ul>
 
 //             <p className="mt-6">
-//               <strong>Approximate monthly living expenses (2025–2026):</strong>
+//               <strong>Approximate monthly living expenses (2026–2027):</strong>
 //             </p>
 //             <ul className="list-disc pl-6 mt-4 space-y-2">
 //               <li>Hostel / Accommodation: ₹8,000 – ₹18,000</li>
@@ -345,7 +346,7 @@
 //       <div className="py-16 bg-white">
 //         <div className="container mx-auto px-4 max-w-6xl">
 //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-10">
-//             Admission Process for MBBS in Russia 2025–2026
+//             Admission Process for MBBS in Russia 2026–2027
 //           </h2>
 
 //           <div className="max-w-4xl mx-auto">
@@ -424,7 +425,7 @@
 //             {/* Left - Required Documents */}
 //             <div>
 //               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-//                 Required Documents for MBBS in Russia 2025–2026
+//                 Required Documents for MBBS in Russia 2026–2027
 //               </h2>
 
 //               <div className="space-y-6">
@@ -512,7 +513,7 @@
 //       <div className="py-16 bg-white">
 //         <div className="container mx-auto px-4 max-w-5xl">
 //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-//             MBBS in Russia vs MBBS in India – Quick Comparison (2025–2026)
+//             MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
 //           </h2>
 
 //           <div className="overflow-x-auto">
@@ -592,8 +593,8 @@
 
 import React, { useState } from "react";
 import GeorgiaFlag from "../../Images/country flag png/Georgia.svg"; // Correct path – update if needed
-import { FiPlus, FiMinus } from "react-icons/fi";
-import { Helmet } from "react-helmet-async";
+import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
 
 const Georgia = () => {
@@ -647,29 +648,27 @@ const Georgia = () => {
   return (
     <>
     
-    <Helmet>
-            <title>MBBS in Georgia for Indian Students | Fees & Admission Process</title>
-            <meta
-              name="description"
-              content="Study MBBS in Georgia with English medium and affordable fees. Check eligibility, admission process and top universities."
-            />
-            <meta
-              name="keywords"
-              content="mbbs in georgia, georgia mbbs fees, study mbbs georgia, mbbs in georgia for indian students, top medical universities in georgia, mbbs in georgia eligibility, mbbs in georgia admission"
-            />
-          </Helmet>
+    <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Georgia for Indian Students | Fees & Admission Process"}
+        description={cmsData?.seo?.description || "Study MBBS in Georgia with English medium and affordable fees. Check eligibility, admission process and top universities."}
+        keywords={cmsData?.seo?.keywords || "mbbs in georgia, georgia mbbs fees, study mbbs georgia, top medical universities in georgia"}
+        path="/mbbs-abroad/georgia"
+        ogType="website"
+      />
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg"}
             alt="Tbilisi Old Town - Georgia"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/5/50/2014_Kutaisi%2C_Fontanna_na_centralnym_placu_%2806%29.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN GEORGIA
+              {cmsData?.hero?.title || "STUDY MBBS IN GEORGIA"}
             </h1>
           </div>
         </div>
@@ -682,13 +681,18 @@ const Georgia = () => {
           <div>
             <img
               src={GeorgiaFlag}
+              loading="lazy"
+              width={30}
+              height={20}
               alt="Georgia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-            />
+                  srcSet={`${GeorgiaFlag} 1x, ${GeorgiaFlag} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Georgia 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Georgia 2026–2027"}
             </h2>
           </div>
         </div>
@@ -752,9 +756,12 @@ const Georgia = () => {
           <div>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Kasbek_from_Tsminda_Gergeti_%2810600419415%29.jpg"
+              loading="lazy"
               alt="Tbilisi - Georgia"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/d/d3/Kasbek_from_Tsminda_Gergeti_%2810600419415%29.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/d/d3/Kasbek_from_Tsminda_Gergeti_%2810600419415%29.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -801,7 +808,7 @@ const Georgia = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -867,7 +874,7 @@ const Georgia = () => {
                 </h5>
                 <p className="text-gray-700">
                   Georgia provides economical medical training as well as
-                  dependable, high-quality education. MCI and WHO acknowledge a
+                  dependable, high-quality education. NMC and WHO recognize a
                   number of government-funded medical schools. Both living
                   expenses and tuition are rather inexpensive.
                 </p>
@@ -919,7 +926,7 @@ const Georgia = () => {
                   6. Opportunities and International Recognition
                 </h5>
                 <p className="text-gray-700">
-                  WHO and MCI support Georgia's MBBS degrees. Students can
+                  WHO and NMC recognize Georgia's MBBS degrees. Students can
                   acquire exposure to the world by taking part in international
                   conferences and classes.
                 </p>
@@ -1143,7 +1150,7 @@ const Georgia = () => {
         <div className="py-16 bg-white mb-20">
           <div className="container mx-auto px-4 max-w-6xl">
             <h2 className="text-3xl font-bold text-blue-900 text-center mb-10">
-              Top Medical Universities in Georgia
+              {cmsData?.universitiesHeading || "Top Medical Universities in Georgia"}
             </h2>
             <div className="overflow-x-auto">
               <table className="min-w-full border border-gray-300">
@@ -1219,57 +1226,91 @@ const Georgia = () => {
         <div className="py-16 bg-white mb-20">
           <div className="container mx-auto px-4 max-w-5xl">
             <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-              MBBS in India vs MBBS in Georgia
+              MBBS in Georgia vs MBBS in India – Quick Comparison (2026–2027)
             </h2>
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto shadow-md rounded-lg">
               <table className="min-w-full border-collapse border border-gray-300 text-left">
                 <thead>
                   <tr className="bg-blue-900 text-white">
-                    <th className="p-4 border">Criteria</th>
-                    <th className="p-4 border">MBBS in India</th>
-                    <th className="p-4 border">MBBS in Georgia</th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Feature
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in Georgia
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India
+                    </th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-700">
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Admission</td>
-                    <td className="p-4 border">
-                      NEET and high cut-off required
-                    </td>
-                    <td className="p-4 border">
-                      Admission based on NEET qualification
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">
-                      Seats Availability
-                    </td>
-                    <td className="p-4 border">
-                      Government seats very limited
-                    </td>
-                    <td className="p-4 border">
-                      More seats available for international students
-                    </td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Fees</td>
-                    <td className="p-4 border">Private: ₹50–90 lakh</td>
-                    <td className="p-4 border">
-                      Total MBBS cost around ₹30–45 lakh
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">Course Duration</td>
-                    <td className="p-4 border">Around 5.5 years</td>
-                    <td className="p-4 border">Around 6 years</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">
-                      Admission Competition
-                    </td>
-                    <td className="p-4 border">Very high</td>
-                    <td className="p-4 border">Easier</td>
-                  </tr>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      feature: "Tuition Fees (per year)",
+                      georgia: "₹5 Lakhs – ₹8 Lakhs ($5000 – $8,000 USD)",
+                      india: "Govt: ₹10,000 – ₹50,000\nPrivate: ₹8 Lakhs – ₹25 Lakhs+"
+                    },
+                    {
+                      feature: "Course Duration",
+                      georgia: "6 years (including clinical internship)",
+                      india: "5.5 years (4.5 years academic study + 1-year internship)"
+                    },
+                    {
+                      feature: "Degree Awarded",
+                      georgia: "MD (equivalent to MBBS, following European/Bologna system)",
+                      india: "MBBS"
+                    },
+                    {
+                      feature: "Class Strength",
+                      georgia: "Smaller, more controlled batches with moderate international/Indian student ratios",
+                      india: "Larger batch sizes in most government and private medical colleges"
+                    },
+                    {
+                      feature: "Global Recognition",
+                      georgia: "Recognized by WHO, NMC, WDOMS, and listed internationally",
+                      india: "Recognized by NMC and national authorities (Indian recognition primary)"
+                    },
+                    {
+                      feature: "Licensing in India",
+                      georgia: "Must qualify the FMGE / NExT exam after returning to practice in India",
+                      india: "Direct eligibility for state medical council registration post-internship/NExT"
+                    },
+                    {
+                      feature: "Medium of Instruction",
+                      georgia: "English (dedicated English-medium batches for foreign students)",
+                      india: "English (local regional languages may be used in patient interactions)"
+                    },
+                    {
+                      feature: "Hostel & Food",
+                      georgia: "University-provided or rented hostels; Indian mess/food options available in major cities",
+                      india: "On-campus or local private mess/hostel facilities tailored to regional tastes"
+                    },
+                    {
+                      feature: "Insurance & Visa Costs",
+                      georgia: "Mandatory annual health insurance and student residence permit/visa renewals (~₹15,000 – ₹30,000/yr combined)",
+                      india: "Local student setup costs apply (negligible visa/residence costs domestically)"
+                    },
+                    {
+                      feature: "Other Living Costs",
+                      georgia: "~₹1.5 Lakhs – ₹3 Lakhs per year (approx. ₹15,000 – ₹25,000/month)",
+                      india: "~₹1.5 Lakhs – ₹3.5 Lakhs per year depending on the city"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.feature || row.parameter}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.georgia}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
@@ -1314,8 +1355,11 @@ const Georgia = () => {
                 >
                   <img
                     src={uni.img}
+                    loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
+                    srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                     onError={(e) => {
                       e.target.src = "https://via.placeholder.com/400x300?text=" + encodeURIComponent(uni.name);
                     }}
@@ -1339,7 +1383,7 @@ const Georgia = () => {
             </h2>
 
             <div className="space-y-5">
-              {faqData.map((item, index) => (
+              {((cmsData?.faq && cmsData.faq.length > 0) ? cmsData.faq : faqData).map((item, index) => (
                 <div
                   key={index}
                   className={`bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-md ${

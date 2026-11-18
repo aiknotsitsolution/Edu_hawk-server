@@ -1,0 +1,664 @@
+{
+  "hero": {
+    "title": "Aerospace Engineering in Ireland",
+    "subtitle": "Ireland provides specialized engineering education for students who are interested in \\\\aircraft design, aerodynamics, propulsion, avionics, flight systems and aviation technology.\\\\"
+  },
+  "overview": [
+    "Ireland provides specialized engineering education for students who are interested in \\\\aircraft design, aerodynamics, propulsion, avionics, flight systems and aviation technology.\\\\",
+    "Aerospace Engineering involves the application of mechanical, electrical, materials and computing principles to the design and analysis of aircraft and other flight vehicles.",
+    "\\\\Specialised education:\\\\ Learn \\\\aircraft structures, aerodynamics, propulsion, flight mechanics and avionics\\."
+  ],
+  "universities": [
+    {
+      "name": "University of Limerick",
+      "location": "Limerick, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_physiotherapy_Limerick_University-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_physiotherapy_Limerick_University-image1.png",
+      "desc": "The \\\\ University of Limerick \\\\ has a \\\\ Bachelor of Engineering in Aeronautical Engineering \\\\ , with a progression to a master 's qualification . This is a good option for students who are interested in \\\\aircraft design and analysis\\\\ and hands-on \\\\design-build-test projects\\\\"
+    },
+    {
+      "name": "Trinity College Dublin",
+      "location": "Dublin, Ireland",
+      "fee": "€18,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Study Aerospace Engineering in Ireland?",
+      "lead": "Ireland provides specialized engineering education for students who are interested in \\\\aircraft design, aerodynamics, propulsion, avionics, flight systems and aviation technology.\\\\",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Engineering involves the application of mechanical, electrical, materials and computing principles to the design and analysis of aircraft and other flight vehicles."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Best reasons to study Aerospace Engineering in Ireland:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Specialised education:\\\\ Learn \\\\aircraft structures, aerodynamics, propulsion, flight mechanics and avionics\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Practical experience:\\\\ Some programs include aircraft facilities, \\\\design projects, laboratory work and industry placements\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Career versatility:\\\\ Work in \\\\aircraft systems, aerospace manufacturing, drones, engineering analysis, and aviation services.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further study:\\\\ Proceed to postgraduate specializations in \\\\flight testing, aeronautical engineering, propulsion or aerospace systems\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Transferable skills:\\\\ You will acquire skills that are applicable to \\\\mechanical engineering, simulation, advanced manufacturing and control systems\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ireland has undergraduate programs in \\\\aerospace and aeronautical engineering\\\\ but less dedicated courses than in some of the bigger countries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Edu Hawk worldwide study abroad guidance\\\\ which guides students on these opportunities and requirements to study abroad."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Aerospace Engineering courses Ireland",
+      "lead": "Irish institutions provide dedicated \\\\Aerospace or Aeronautical Engineering degrees\\\\, as well as related pathways in aircraft systems and mechanical engineering.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Courses for Undergraduates"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Bachelor of Engineering (Honours)\\\\: The traditional four-year path to becoming a professional engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Integrated Master of Engineering (MEng or ME):\\\\ Some universities allow students to take an additional year of advanced study. -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Aircraft Systems Engineering:\\\\ More about aircraft systems, avionics, maintenance, and airworthiness rather than the complete design of aircraft."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Topics in common"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Aerospace Engineering courses\\\\ could include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Applied mathematics and engineering mechanics\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Aerodynamics and computational analysis\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Aircraft Structures and Materials",
+            "\\\\Propulsive systems\\\\",
+            "\\\\Aircraft stability and flight dynamics\\\\",
+            "\\\\Conceptual design of aircraft",
+            "\\\\Embedded systems and avionics\\\\",
+            "\\\\Flight control system\\\\",
+            "\\\\Systems for airplanes and spaceships\\\\",
+            "\\\\CAD and simulation\\\\",
+            "\\\\Research and design work in engineering\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Best Universities and Institutions for Aerospace Engineering in Ireland",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "South East Technological University (SETU)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\SETU\\\\ offers the dedicated \\\\Bachelor of Engineering (Honours) in Aerospace Engineering\\\\ course code SE714."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "SETU is especially relevant for students looking for a specific \\\\undergraduate aerospace engineering degree in Ireland\\."
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "University of Limerick",
+          "location": "Limerick, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_physiotherapy_Limerick_University-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_physiotherapy_Limerick_University-image1.png",
+          "desc": "The \\\\ University of Limerick \\\\ has a \\\\ Bachelor of Engineering in Aeronautical Engineering \\\\ , with a progression to a master 's qualification . This is a good option for students who are interested in \\\\aircraft design and analysis\\\\ and hands-on \\\\design-build-test projects\\\\"
+        },
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin, Ireland",
+          "fee": "€18,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Study Aerospace Engineering in Ireland",
+      "lead": "\\\\Who can study Aerospace Engineering in Ireland\\\\ ?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The requirements vary from institution to institution, level of study and the education of the applicant"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Undergraduate Eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students applying after Class 12 are usually required to:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A recognized secondary school qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Excellent academic record in \\\\Mathematics\\. - Physics or other science subjects as appropriate."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "University academic entry requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of \\\\English language skills\\\\, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Class 12 board, subject combination and marks\\\\ evaluation criteria are for Indian applicants."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some students may require a \\\\foundation programme\\\\ or other approved qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Aerospace Engineering Admission Requirements in Ireland",
+      "lead": "International applicants need to check the \\\\requirements for admission for Aerospace Engineering in Ireland\\\\ for the course they have chosen.Academic requirements (schooling)",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Universities will look at your -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic grades"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Subject requirements and equivalence of qualifications."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mathematics \\\\ is especially important , and often \\\\ Physics \\\\ is relevant to aero study"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "English language requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants may be required to have \\\\IELTS Academic, TOEFL iBT, PTE Academic\\\\ or another accepted English language qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scores required depend on university and program. Some institutions accept alternative evidence of \\\\English language proficiency\\\\"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Further requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants may need: depending on the program:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Academic transcripts and certificates\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\statement of purpose or personal statement\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Reference letters\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "CV or resume for postgraduate admission",
+            "Proof of relevant projects or work experience (if requested)",
+            "\\\\Proof of payment of application fee\\\\, if applicable"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Aerospace Engineering Course, Fees, Duration & Scholarships",
+      "lead": "\\\\Tuition fees for Aerospace Engineering in Ireland\\\\ will be based on the institution, program, year of study and fee status of the applicant.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "SETU's published international fee guidance indicates undergraduate program fees of \\\\€13,500-€14,500 per year\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "This is general university fee guidance and is not a confirmed Aerospace Engineering fee for all intakes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In addition to tuition, students should plan to cover:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Housing and utilities\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Groceries and food"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public transportation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books, laptop & engineering software/materials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Medical Insurance\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "fees for immigration and registration (if applicable)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Emergency money and personal expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of living in Ireland depends on the city and accommodation arrangement. Compare accommodation options before accepting an offer and remember that fees and living costs may vary each academic year."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Aerospace Engineering Entry Requirements in Ireland",
+      "lead": "The \\\\Admission Process for Aerospace Engineering in Ireland\\\\ -",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Choose your course.\\\\ Compare Aerospace Engineering and Aeronautical Engineering courses, modules, length, accreditation, fees and placement opportunities.",
+              "desc": ""
+            },
+            {
+              "step": 2,
+              "title": "Check Eligibility.\\\\ Look through the academic requirements, \\\\English Language requirements\\\\ and the international qualifications that are accepted.",
+              "desc": ""
+            },
+            {
+              "step": 3,
+              "title": "Prepare your documents.\\\\ Collect your passport, academic certificates, transcripts, English language test results and any required statements or references.",
+              "desc": ""
+            },
+            {
+              "step": 4,
+              "title": "Apply.Many applicants from outside the EU apply directly through the university's \\\\online international application portal. Follow the instructions of the applicant category of the institution.",
+              "desc": ""
+            },
+            {
+              "step": 5,
+              "title": ". Follow up with your application.Stay updated and submit all other documents required by the admissions team.",
+              "desc": ""
+            },
+            {
+              "step": 6,
+              "title": "Accept your offer.\\\\ Check the conditions of offers, deposits, payment deadlines and fees terms before accepting your place.",
+              "desc": ""
+            },
+            {
+              "step": 7,
+              "title": "Prepare to travel.\\\\ If you require a \\\\student visa for Ireland\\\\",
+              "desc": "Apply early enough to allow for admission decisions, funding arrangements and \\\\visa processing\\\\"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Recognition and Accreditation of Aerospace Engineering in Ireland",
+      "lead": "\\\\Accreditation\\\\ is a crucial factor when choosing an engineering degree as it affects professional development and future registration opportunities.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Engineers Ireland accredits eligible engineering programs to recognized educational and professional standards."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check before you enroll:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If the specific program is \\\\accredited\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "What level of qualification the accreditation is for."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If the accreditation is current for the year you are expected to graduate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you require additional education or work experience for your career goals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An \\\\accredited engineering degree\\\\ does not automatically guarantee a job, professional registration or recognition in every country. If you are planning to work in India or elsewhere after graduation, check the relevant professional and qualification recognition requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Aerospace Engineer Salary and Job Opportunities in Ireland",
+      "lead": "\\\\Aerospace Engineering graduates in Ireland\\\\ can be employed in \\\\aircraft design, aviation systems, engineering analysis, manufacturing, testing and related technical fields\\.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Common career paths"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Aerospace Engineer",
+            "Aeronautical Designer Engineer",
+            "\\\\Systems Engineer - Aircraft",
+            "\\\\Engineer (Avionics)",
+            "\\\\Flight Test Engineer\\\\",
+            "Aircraft Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft Structures Engineer"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Propulsion Systems Engineer",
+            "\\\\Engineering of UAV and Drone Systems\\\\",
+            "Aerospace Manufacturing Engineer",
+            "\\\\Simulation Analyst, Engineering\\\\",
+            "\\\\Engineer, Research and Development"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expected salary in Ireland"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are rough planning estimates for \\\\gross annual salaries\\\\, not official salary scales or guaranteed job offers."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Entry level graduate \\",
+              "d": "€30,000-€42,000"
+            },
+            {
+              "t": "Early-career engineer \\",
+              "d": "€42,000 - €58,000"
+            },
+            {
+              "t": "Specialist \\",
+              "d": "€58,000 – €80,000+"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Actual salaries depend on the employer, location, role, experience and technical specialization. Aerospace specific job opportunities may be more limited than general engineering vacancies, so check out current job ads and salary surveys before making financial plans"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents need to Study Aerospace Engineering in Ireland",
+      "lead": "The required documents will vary for each university and course, but generally international students prepare:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Active Passport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Class 10 and Class 12 certificates and mark sheets\\\\ for admission to undergraduate courses"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Bachelor's degree certificate and transcripts\\\\ for admission in postgraduate courses",
+            "\\\\Results of an English-language test\\\\, if required",
+            "Personal statement / statement of purpose, if applicable",
+            "\\\\Letters of recommendation\\\\ (if needed)",
+            "CV or resume for some selected postgraduate programs",
+            "Proof of relevant projects or work experience upon request",
+            "\\\\Proof of payment of application fee\\\\ if applicable",
+            "\\\\Proof of funds for immigration\\\\",
+            "\\\\Health insurance\\\\ and other documents required for visa and registration"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Aerospace Engineering available in Ireland after 12th?",
+      "a": "Yes. \\\\SETU\\\\ has a four year BEng (Honours) in Aerospace Engineering. \\\\University of Limerick\\\\ has Aeronautical Engineering. International applicants must meet country-specific academic and English language requirements for each university."
+    },
+    {
+      "q": "\\\\Q2. How long is the Aerospace Engineering degree in Ireland?",
+      "a": "The dedicated undergraduate programs described in this guide generally take \\\\four years\\\\ for a bachelor's qualification. Some routes allow an additional year for an integrated master's degree."
+    },
+    {
+      "q": "\\\\Q3. What is the tuition fee for international students?\\\\",
+      "a": "SETU has published general guidance on international undergraduate fees suggesting \\\\€13,500–€14,500 per year. Aerospace Engineering fee structure for your intake. Fees at the University of Limerick to be checked separately. Living costs are additional."
+    },
+    {
+      "q": "\\\\Q4. What are the essential subjects for Aerospace Engineering admissions?\\\\",
+      "a": "Mathematics is of special importance and Physics is of great relevance. Please see the official entry requirements of the university for the subjects and grades required from your school qualification."
+    },
+    {
+      "q": "\\\\Q5. What are the jobs that I can get in Ireland after doing Aerospace Engineering?",
+      "a": "Graduates can seek employment in \\\\aircraft design, aerodynamics, aircraft structures, avionics, propulsion, flight testing, UAV technology and aerospace manufacturing. Career outcomes are a function of technical skills, experience, vacancies and employability."
+    },
+    {
+      "q": "\\\\How can Edu Hawk Worldwide Consultancy help me to study abroad?\\\\",
+      "a": "\\\\Edu Hawk worldwide\\\\ can assist students in finding suitable universities, knowing \\\\admission requirements\\\\, organizing application documents and planning their \\\\study-abroad journey. Students should check academic, financial, immigration and licensing requirements with the relevant official authorities."
+    }
+  ],
+  "seo": {
+    "title": "Aerospace Engineering in Ireland | Edu-Hawk Worldwide",
+    "description": "Ireland provides specialized engineering education for students who are interested in \\\\aircraft design, aerodynamics, propulsion, avionics, flight systems and ",
+    "keywords": "Study Aerospace Engineering in Ireland for Indian Students, Top Universities for Aerospace Engineering in Ireland, Aeronautical Engineering Courses in Ireland, Bachelor of Aerospace Engineering in Ireland, Undergraduate Aerospace Engineering Programmes in Ireland, Aerospace Engineering Eligibility Requirements in Ireland, Aerospace Engineering Admission Requirements for Indian Students, IELTS Requirements for Aerospace Engineering in Ireland, Aerospace Engineering Tuition Fees in Ireland for International Students, Cost of Living for Aerospace Engineering Students in Ireland, Engineers Ireland Accredited Aerospace Engineering Courses, Aerospace Engineering Jobs and Career Opportunities in Ireland, Aerospace Engineer Salary in Ireland for Graduates, <"
+  }
+}

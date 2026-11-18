@@ -1,0 +1,499 @@
+{
+  "hero": {
+    "title": "Master's in Electronics Engineering in Spain for Indian Students",
+    "subtitle": "Master's in Electronics Engineering in Spain for Indian Students will help you to get advanced knowledge in electronic circuit design, semiconductor devices, embedded systems, microelectronics, telecommunications, signal processing and electronic instrumentation. Spanish universities offer postgraduate programs combining theory with lab experiments, simulation, research and practical engineering projects."
+  },
+  "overview": [
+    "Spain has opportunities for students interested in electronic devices, semiconductor technology, communications and intelligent electronic systems. Students who want to Study Electronics Engineering in Spain can look at the following educational and professional benefits.",
+    "Choosing to Study Electronics Engineering in Spain can also help students explore different technical specialisations and understand the European engineering education system."
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why to Study Master's in Electronics Engineering in Spain?",
+      "lead": "Spain has opportunities for students interested in electronic devices, semiconductor technology, communications and intelligent electronic systems. Students who want to Study Electronics Engineering in Spain can look at the following educational and professional benefits.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Advanced engineering studies: Learn about electronic circuits, microprocessors, semiconductor devices and system design.",
+            "Specialisation opportunities: Specialize in embedded systems, microelectronics, digital electronics, telecommunications and signal processing.",
+            "Practical experience: Students may use electronic laboratories, simulation tools, technical projects and research facilities, depending on the program.",
+            "Emerging technologies: Gain knowledge of IoT devices, smart sensors, automation and intelligent electronic products.",
+            "European academic landscape: Many programs are based on the ECTS model, thus favoring academic mobility within the European Higher Education Area.",
+            "Career development: Look for jobs in electronics manufacturing, semiconductor-related domains, telecommunications, automotive electronics and research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Choosing to Study Electronics Engineering in Spain can also help students explore different technical specialisations and understand the European engineering education system."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Master Studies in Electronics Engineering in Spain",
+      "lead": "Students can explore different Electronics Engineering Courses in Spain based on their undergraduate degree, technical interests and preferred career pathway.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "SpecialisationKey areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics EngineeringElectronic systems, circuit design, instrumentation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "MicroelectronicsSemiconductor devices, integrated circuits"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded SystemsMicrocontrollers, firmware, hardware-software integration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "VLSI DesignDigital integrated circuits, chip design, verification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Digital ElectronicsLogic design, digital systems, programmable devices"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Analog ElectronicsAnalog circuits, amplifiers, electronic components"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Signal ProcessingDigital signal processing, filtering, signal analysis"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Telecommunications EngineeringCommunication systems, wireless technologies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Internet of Things (IoT)Connected devices, sensors, embedded platforms"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronic InstrumentationMeasurement systems, sensors, industrial electronics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics Engineering Courses in Spain can be offered as standalone master's degrees or as specializations within general electronics, telecommunications, electrical engineering or electronic systems programs. Students should check the exact program name, syllabus and language of instruction on the official website of each university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These Electronics Engineering Courses in Spain can help students develop technical knowledge in areas such as electronic design, semiconductor technology and embedded systems."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Master's in Electronics Engineering Universities in Spain",
+      "lead": "Indian students have a wide range of Electronics Engineering Universities in Spain to choose from for their postgraduation degrees in electronics, electronic systems, telecommunications and allied technologies.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Who Can Study Master's in Spain for Electronics Engineering?",
+      "lead": "Eligibility Criteria for Master's in Electronics Engineering in Spain for Indian Students",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students who desire to pursue a Master's in Electronics Engineering in Spain are generally required to fulfill the following criteria:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's degree in Electronics Engineering, Electronics and Communication Engineering, Electrical Engineering or related discipline.",
+            "Relevant academic knowledge in electronic circuits, digital systems, mathematics, signals or semiconductor fundamentals depending on the program.",
+            "Academic transcripts that meet the university's admission standards.",
+            "Proficiency in English language for English-taught programs if applicable.",
+            "Spanish language skills for programs taught in Spanish, if needed.",
+            "Additional prerequisite coursework required by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other degrees: Graduates of Computer Engineering, Telecommunications Engineering and Electrical and Electronics Engineering may be eligible for some programs depending on previous academic background."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students planning to pursue a Master's in Electronics Engineering in Spain for Indian Students should review the eligibility requirements of each university before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Entry Requirements for a Master's in Electronics Engineering in Spain",
+      "lead": "The Electronics Engineering Admission in Spain process may include an evaluation of the candidate's academic record, prior coursework and language proficiency. Universities may consider applications on the basis of:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's degree certificate.",
+            "Mark sheets and academic transcripts.",
+            "Pertinence of previous coursework.",
+            "English or Spanish language proficiency if required.",
+            "Curriculum vitae or résumé.",
+            "Motivation letter or statement of purpose.",
+            "Letters of recommendation, if required.",
+            "Relevant technical projects, research or professional experience if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain programs may have specific prerequisites and/or require additional documentation. Students should check the official admissions page for specific requirements. Edu-Hawk Worldwide can assist applicants in understanding admission criteria and organizing their application documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Understanding Electronics Engineering Admission in Spain requirements in advance can help students prepare their academic documents and application materials on time."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "What Is the Cost of Studying a Master's in Electronics Engineering in Spain?",
+      "lead": "Electronics Engineering Fees in Spain: Fees for Electronics Engineering in Spain depend on the university, program, credits required and the fee category for international students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Type of UniversityTuition Fees (per year)Approximate INR Equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities€1,000–€8,000₹1.09–₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private universities€6,000–€25,000+₹6.52–₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are very broad planning estimates, not confirmed fees for a specific course. Fees for non-EU students vary and specialized courses may be more expensive. Students are advised to refer to the official fee structure for the corresponding academic year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other costs may include accommodation, food, transport, health insurance, study materials, costs related to the visa and university registration fees. Students should budget for these additional costs in addition to tuition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The overall Electronics Engineering Fees in Spain will depend on the selected university, course duration and individual living expenses. Students should compare tuition fees and additional costs before making their final decision."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "How to Apply for a Master's in Electronics Engineering in Spain",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The process of applying is typically as follows:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Pick your specialization: You can specialize in microelectronics, embedded systems, VLSI, signal processing or telecommunications.",
+            "Shortlist universities: Compare curriculum, fees, medium of instruction, location and eligibility.",
+            "Assess academic fit: Ensure your undergraduate degree and prior coursework align with entry requirements.",
+            "Collect documents: Get your degree certificate, transcripts, passport, CV, motivation letter and proof of language, if necessary.",
+            "Apply online: Fill out the application form on the university's official website.",
+            "Meet further requirements: Provide any further documents or attend an interview if requested.",
+            "Receive an admission decision: Look through the offer, tuition fees, payment deadlines and conditions for enrollment.",
+            "Apply for a Spanish student visa: Complete the appropriate visa application and collect the necessary supporting documents.",
+            "Finish your enrollment: Complete the university's registration and payment requirements before classes start."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application deadlines vary from university to program, so it is recommended to plan ahead. A clear understanding of Electronics Engineering Admission in Spain can help applicants organize each step of the application process."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Degree Recognition and Career Scope",
+      "lead": "Edu-Hawk Worldwide assists students in university shortlisting, application preparation and admission-related steps.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students should verify the university's recognition prior to enrolling and confirm whether the qualification is an official university master's degree or another type of postgraduate qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Electronics Engineering in Spain for Indian Students can assist in careers in electronic product development, embedded systems, semiconductor-related work, telecommunications, industrial automation, instrumentation and research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students planning to return to India should check any qualification recognition requirements of employers, professional pathways or institutions of further study. Some particular roles may also require specialized technical knowledge or industry certifications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Prospects after a Master's in Electronics Engineering in Spain",
+      "lead": "Graduates can pursue Electronics Engineering Careers in Spain with electronics corporations, telecom operators, engineering consultancies, automotive technology firms, industrial automation companies and research organizations.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Job roleIndicative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics Engineer€25,000–€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded Systems Engineer€30,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hardware Design Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Microelectronics Engineer€30,000–€50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Semiconductor Design Engineer€32,000–€55,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Signal Processing Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Telecommunications Engineer€27,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics Research Engineer€28,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are representative career-planning estimates, not guaranteed or verified current salary offers. Actual compensation will vary based on experience, location, employer, technical skills and language skills. Some roles also require specialist knowledge or appropriate working authorization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students exploring Electronics Engineering Jobs in Spain can consider opportunities in electronics manufacturing, telecommunications, embedded systems, semiconductor technology and industrial automation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Necessary Documents for Studying a Master's in Electronics Engineering in Spain",
+      "lead": "The following documents may often be required from students applying for postgraduate electronics programs:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Provisional certificate / Bachelor's degree certificate.",
+            "Academic certificates and mark sheets.",
+            "CV / résumé.",
+            "Purpose statement / letter of motivation.",
+            "Evidence of proficiency in English or Spanish if required.",
+            "Where applicable, letters of recommendation.",
+            "Course descriptions/syllabi available upon request.",
+            "Passport-size photographs, if required.",
+            "Proof of payment of application fee, if applicable.",
+            "Certified translations or legalization documents, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The precise list will depend on the university and on the qualifications of the applicant. Students are suggested to refer to the official university application checklist before uploading their documents."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Are Indian students eligible for a Master's in Electronics Engineering in Spain?",
+      "a": "Yes. Indian students with a recognized bachelor's degree and who meet the university-specific academic, language and documentation requirements of the university of their choice can apply."
+    },
+    {
+      "q": "2. How long does a Master's in Electronics Engineering last in Spain?",
+      "a": "Most programs are 1–2 years long depending on their credit requirements and curriculum."
+    },
+    {
+      "q": "3. Is IELTS necessary for a Master's in Electronics Engineering in Spain?",
+      "a": "Not always. For programs taught in English, IELTS, TOEFL or other acceptable evidence of English proficiency may be required. Spanish language may be required for programs taught in Spanish."
+    },
+    {
+      "q": "4. How much does it cost to study a Master's in Electronics Engineering in Spain?",
+      "a": "A rough guide for tuition fees is €1,000 to €8,000 per year in some public universities, and €6,000 to €25,000 or more in private ones. Exact fees vary depending on the university and program."
+    }
+  ],
+  "seo": {
+    "title": "Master's in Electronics Engineering in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain has opportunities for students interested in electronic devices, semiconductor technology, communications and intelligent electronic systems. Students who",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

@@ -1,0 +1,628 @@
+{
+  "hero": {
+    "title": "Postgraduate in Computer Engineering in France",
+    "subtitle": "France is an attractive destination for students looking to study postgraduate in computer engineering, computer science, embedded systems, artificial intelligence, cybersecurity and advanced computing technologies. French universities and engineering schools provide specialized \\\\master's programs\\\\ that integrate theoretical knowledge with practical projects and research opportunities."
+  },
+  "overview": [
+    "\\\\ Computer engineering \\\\ integrates computer hardware , software , digital systems , networks and computing architecture . \\\\France\\\\ provides the chance to learn advanced technical skills in these areas via \\\\university master programmes\\\\ and \\\\engineering-school education\\.",
+    "\\\\Advanced technical specialisations:\\\\ Develop expertise in \\\\embedded systems\\\\, \\\\artificial intelligence\\\\, \\\\computer architecture\\\\, \\\\cybersecurity\\\\, \\\\robotics\\\\, and \\\\distributed computing\\.",
+    "\\\\Research opportunities:\\\\ Some programs have good contacts with research laboratories and collaborative projects."
+  ],
+  "universities": [
+    {
+      "name": "\\\\Postgraduate programs in France\\\\ are offered by the following institutions",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Course titles, languages of instruction and entry requirements vary so please check the individual program page before applying."
+    },
+    {
+      "name": "### Grenoble INP",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+      "image": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+      "desc": "Ensimag, Université Grenoble Alpes : offers computer science and applied mathematics master's programs. The relevant options include \\\\cybersecurity\\\\, computer science, communication engineering and data science, and other specializations related to computing."
+    },
+    {
+      "name": "### Paris",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_Paris.webp",
+      "desc": "Saclay University : Université Paris:Saclay\\\\ offers postgraduate education in \\\\computer science\\\\, \\\\artificial intelligence\\\\, \\\\data science\\\\, electronics and related technical fields. It benefits from the university and partner:school network."
+    },
+    {
+      "name": "### INSA Lyon",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "desc": "offers a wide range of engineering education and advanced study possibilities in computing, electronics, telecommunications and related fields. Students interested in \\\\computer engineering\\\\ can choose from the following programs: \\\\embedded systems\\\\, \\\\computer science\\\\, \\\\information technology\\\\ and \\\\digital engineering\\. ### ### 4. Eligibility criteria for computer engineering PG in France Normally applicants should have a \\\\bachelor's degree\\\\ in a relevant subject, and adequate preparation in computing and mathematics. The common \\\\eligibility criteria for computer engineering PG in France\\\\ include: A recognized \\\\Bachelor's degree\\\\ in \\\\computer engineering\\\\, \\\\computer science\\\\, \\\\information technology\\\\, \\\\electronics\\\\, \\\\electrical engineering\\\\ or a related discipline. Outstanding academic results in relevant subject matter. Knowledge of \\\\programming\\\\, \\\\algorithms\\\\, \\\\data structures\\\\, \\\\computer architecture\\\\ or mathematics as appropriate to the program. \\\\English language skills\\\\ for programs delivered in English. \\\\French language skills\\\\ for programs taught in French. Any other requirements imposed by the institution. For Indian applicants, a \\\\BTech\\\\, \\\\BE\\\\, \\\\BSc\\\\ or equivalent degree may be acceptable, depending on the academic requirements for the program. A degree in an unrelated discipline may not adequately prepare someone for an advanced computing specialization."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Computer Engineering PG in France?",
+      "lead": "\\\\ Computer engineering \\\\ integrates computer hardware , software , digital systems , networks and computing architecture . \\\\France\\\\ provides the chance to learn advanced technical skills in these areas via \\\\university master programmes\\\\ and \\\\engineering-school education\\.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Main benefits include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Advanced technical specialisations:\\\\ Develop expertise in \\\\embedded systems\\\\, \\\\artificial intelligence\\\\, \\\\computer architecture\\\\, \\\\cybersecurity\\\\, \\\\robotics\\\\, and \\\\distributed computing\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Research opportunities:\\\\ Some programs have good contacts with research laboratories and collaborative projects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industry-oriented learning:\\\\ Depending on the program, students may engage in technical projects, internships or co-op placements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Programmes taught in English\\\\: Many institutions offer \\\\master's programs in English\\\\ for international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Study in Europe:\\\\ French qualifications are within the \\\\European higher education framework\\\\, depending on the degree and its recognition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further academic studies:\\\\ A relevant \\\\master's degree\\\\ can be a pathway to \\\\doctoral research\\\\, depending on the admission requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should choose a program based on their preferred specialization, academic background, language of instruction and career objectives."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Computer Engineering Postgraduate Courses in France",
+      "lead": "The title of each concerned French program may not contain the word \"Computer Engineering\". Applicants should also look for \\\\master's degrees in computer science\\\\, \\\\electronics\\\\, \\\\embedded systems\\\\ and \\\\digital engineering\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical specializations are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Computer Engineering:\\\\ \\\\Computer architecture\\\\, hardware/software integration, digital systems and computing platforms."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Computer Science:\\\\ Algorithms, software engineering, operating systems, databases and distributed systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Embedded Systems:\\\\ Firmware, IoT devices, real-time systems, microcontrollers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cybersecurity:\\\\ Network security, cryptography, secure software and systems security."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Artificial Intelligence:\\\\ Machine learning, data science, intelligent systems, deep learning."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cloud Computing and Networks:\\\\ \\\\Distributed systems\\\\, virtualization, network infrastructure, cloud platforms."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Robotics and Autonomous Systems: Control, perception, embedded computing, and automation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Electronics and Digital Systems:\\\\ Digital circuit design, signal processing, semiconductor technologies, hardware design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\national Master's degree\\\\ usually lasts for two years after a relevant Bachelor's degree and is worth \\\\120 ECTS credits\\\\ in the master's cycle. Some programs will accept applicants directly into year 2 if they have appropriate preparation at postgraduate level."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Best Universities for Postgraduate Computer Engineering",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "\\\\Postgraduate programs in France\\\\ are offered by the following institutions",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Course titles, languages of instruction and entry requirements vary so please check the individual program page before applying."
+        },
+        {
+          "name": "### Grenoble INP",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+          "image": "/uploads/study_abroad/france/france_Grenoble_INP.webp",
+          "desc": "Ensimag, Université Grenoble Alpes : offers computer science and applied mathematics master's programs. The relevant options include \\\\cybersecurity\\\\, computer science, communication engineering and data science, and other specializations related to computing."
+        },
+        {
+          "name": "### Paris",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_Paris.webp",
+          "desc": "Saclay University : Université Paris:Saclay\\\\ offers postgraduate education in \\\\computer science\\\\, \\\\artificial intelligence\\\\, \\\\data science\\\\, electronics and related technical fields. It benefits from the university and partner:school network."
+        },
+        {
+          "name": "### INSA Lyon",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "desc": "offers a wide range of engineering education and advanced study possibilities in computing, electronics, telecommunications and related fields. Students interested in \\\\computer engineering\\\\ can choose from the following programs: \\\\embedded systems\\\\, \\\\computer science\\\\, \\\\information technology\\\\ and \\\\digital engineering\\. ### ### 4. Eligibility criteria for computer engineering PG in France Normally applicants should have a \\\\bachelor's degree\\\\ in a relevant subject, and adequate preparation in computing and mathematics. The common \\\\eligibility criteria for computer engineering PG in France\\\\ include: A recognized \\\\Bachelor's degree\\\\ in \\\\computer engineering\\\\, \\\\computer science\\\\, \\\\information technology\\\\, \\\\electronics\\\\, \\\\electrical engineering\\\\ or a related discipline. Outstanding academic results in relevant subject matter. Knowledge of \\\\programming\\\\, \\\\algorithms\\\\, \\\\data structures\\\\, \\\\computer architecture\\\\ or mathematics as appropriate to the program. \\\\English language skills\\\\ for programs delivered in English. \\\\French language skills\\\\ for programs taught in French. Any other requirements imposed by the institution. For Indian applicants, a \\\\BTech\\\\, \\\\BE\\\\, \\\\BSc\\\\ or equivalent degree may be acceptable, depending on the academic requirements for the program. A degree in an unrelated discipline may not adequately prepare someone for an advanced computing specialization."
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Requirements for Admission",
+      "lead": "Applications to French universities and engineering schools are evaluated on the basis of the \\\\admissions criteria\\\\ of each school.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Common admission requirements for postgraduate degrees in computer engineering in France\\\\ are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Certificate of Bachelor's degree\\\\ or provisional certificate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts (official). - \\\\Curriculum Vitae (CV)\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Statement of purpose (SOP) or letter of motivation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English language test results\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of \\\\French language skills\\\\ for courses taught in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Recommendation letters\\\\, if requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Passport\\\\ or other accepted forms of ID."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Portfolio, programming projects or research experience for chosen programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Interview or technical evaluation as appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some courses may require \\\\algorithms\\\\, \\\\programming languages\\\\, \\\\computer systems\\\\, \\\\electronics\\\\ or advanced math as a prerequisite."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of studying Computer Engineering in France",
+      "lead": "\\\\Computer Engineering PG tuition fees in France\\\\ vary from one institution to another, depending on the program type, nationality and eligibility for exemptions.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Tuition Fees 2026-2027"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Campus France indicates the following reference tuition rates for public higher education institutions under the applicable national fee rules:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Master's degree at a public university \\",
+              "d": "€255 per year to €3,950 per year"
+            },
+            {
+              "t": "Specialized international master's programs \\",
+              "d": "Varies."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of living\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should budget for \\\\accommodation\\\\, food, local travel, books, computing equipment, health related costs and administrative costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of living in France\\\\ depends on the city and type of accommodation. Students should research housing costs before selecting a university. \\\\Scholarships\\\\, financial aid from the institution and work-study options may be available for select programs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process",
+      "lead": "The PG admission process for computer engineering in France depends on the university, course, nationality and present country of residence.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Pick a specialisation:\\\\ Decide if you want to specialize in \\\\computer science\\\\, \\\\embedded systems\\\\, \\\\cybersecurity\\\\, \\\\artificial intelligence\\\\ or some other computing field."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist programs\\\\: Compare curriculum, language of instruction, qualification, duration, fees and career opportunities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check the requirements:\\\\ Make sure that your bachelor degree and previous subjects satisfy the entry requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Identify the application platform:\\\\ Depending on the program, applications may be submitted through the institution's portal, through Études en France, or on another platform."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Prepare your documents:\\\\ Have your transcripts, certificates, CV, motivation letter and language test results ready."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Submit the application:\\\\ Adhere to the official instructions and deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Selection Process\\\\: Attend interviews or submit further technical documentation if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Accept the offer\\\\: Follow the instructions to enroll and arrange tuition payments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Prepare for arrival:\\\\ Complete any required \\\\student visa formalities\\\\ and arrange for accommodation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Recognition and Accreditation",
+      "lead": "Students should check the \\\\degree awarded\\\\ and its recognition status before enrolling.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A \\\\Master's degree\\\\ is a degree in the French and European system of higher education. A \\Diplôme d'ingénieur\\ is a separate qualification and its current authorization and accreditation should be checked with the \\\\Commission des titres d'ingénieur (CTI)\\\\, where appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the following prior to applying:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The exact title of the degree and the institution that granted it."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Whether the degree is a \\\\national Master's\\\\ or a \\\\engineering diploma\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration of the program and ECTS credits."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Current \\\\accreditation status\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Internship and research possibilities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission to doctoral study or to further professional education."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Opportunities",
+      "lead": "Postgraduate computer engineering graduates in \\\\France\\\\ can find jobs in software, computing infrastructure, embedded technologies, digital security and research.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Potential \\\\job roles in computer engineering\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Computer Engineering.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Software Development Engineer.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded systems engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architect of computer systems.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineer, Cybersecurity\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Infrastructure or cloud engineer.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Artificial intelligence engineer.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineer in robotics and automation."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Systems and network engineer.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Engineer, Research and Development.\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Required Documents",
+      "lead": "\\\\Documents required to apply for post graduation in computer engineering in France\\\\ are normally:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Passport in order"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate of Bachelor's degree\\\\ or provisional certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certified copies of academic transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Curriculum vitae (CV)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Statement of purpose (SOP)\\\\ or motivation letter."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of English or French test\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation (if requested)."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Certified translations of documents where appropriate."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Portfolio, programming projects or research proposal, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form and proof of payment, if applicable."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Financial and visa documents\\\\ at the appropriate time."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I do PG in computer engineering in France after BTech or BE?",
+      "a": "Yes. A relevant \\\\BTech or BE\\\\ can make you eligible to apply for a \\\\master's program in computer engineering\\\\, \\\\computer science\\\\, \\\\embedded systems\\\\ or related fields. Entry is determined by your academic history and the programme's entry requirements."
+    },
+    {
+      "q": "What is the duration of PG in computer engineering in France?",
+      "a": "A national Master's degree is usually two years after the relevant bachelor's degree. Some programs offer applicants who meet the advanced-entry criteria direct entry to second-year status"
+    },
+    {
+      "q": "Can I do a PG in computer engineering in France in English?",
+      "a": "Yes. Some institutes, such as \\\\Grenoble INP – Ensimag\\\\, offer \\\\master's programs in computer science and related disciplines taught in English."
+    },
+    {
+      "q": "What are the computer engineering PG tuition fees in France?",
+      "a": "For \\\\2026-2027\\\\, the public-university Master's reference fee is \\\\€255 per year\\\\ for eligible French and EU students and \\\\€3,950 per year\\\\ for non-EU students subject to differentiated fees. Different prices may apply for Specialized international programs and private institutions."
+    },
+    {
+      "q": "After doing PG in computer engineering in France, what kind of jobs can I get?",
+      "a": "Depending on your specialization, career options may include \\\\software engineering\\\\, \\\\embedded systems\\\\, \\\\cybersecurity\\\\, \\\\cloud infrastructure\\\\, \\\\computer architecture\\\\, \\\\artificial intelligence\\\\, \\\\robotics\\\\, and \\\\research and development."
+    },
+    {
+      "q": "How can \\\\Edu Hawk worldwide Consultancy\\\\ Help me study abroad?",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students to explore suitable universities, understand admission requirements, organize application documents and plan their \\\\study abroad journey. Students are responsible for confirming academic, financial, immigration, and licensing requirements with the appropriate official authorities."
+    }
+  ],
+  "seo": {
+    "title": "Postgraduate in Computer Engineering in France | Edu-Hawk Worldwide",
+    "description": "\\\\ Computer engineering \\\\ integrates computer hardware , software , digital systems , networks and computing architecture . \\\\France\\\\ provides the chance to l",
+    "keywords": "Study postgraduate in computer engineering, Postgraduate Computer Engineering Courses in France for International Students, Best Universities for Postgraduate Computer Engineering, Eligibility criteria for computer engineering PG in France, Computer Engineering Admission Requirements for Indian Students, The cost of studying Computer Engineering in France, Computer Engineering Jobs and Career Opportunities in France, <"
+  }
+}

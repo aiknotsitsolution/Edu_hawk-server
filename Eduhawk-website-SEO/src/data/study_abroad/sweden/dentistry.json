@@ -1,0 +1,88 @@
+{
+  "seo": {
+    "title": "Dentistry in Sweden for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Dentistry in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+    "keywords": "Study Dentistry in Sweden, Dentistry in Sweden for Indian Students, Best Universities in Sweden, Sweden Dentistry Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide"
+  },
+  "hero": {
+    "badge": "Study Abroad - Sweden",
+    "title": "Dentistry in Sweden for Indian Students",
+    "subtitle": "In Sweden you will find quality dental education, modern clinical facilities and a strong emphasis on preventive oral health care. Students benefit from research oriented teaching, practical clinical training and exposure to cutting-edge dental technologies.",
+    "image": "/uploads/study_abroad/sweden/karolinska_institutet.webp",
+    "ctaText": "Apply for Sweden Dentistry"
+  },
+  "stats": [
+    {
+      "n": "5 Years",
+      "l": "Course Duration (300 ECTS Credits)"
+    },
+    {
+      "n": "SEK 1.9M",
+      "l": "Total Tuition (Karolinska Institutet)"
+    },
+    {
+      "n": "Top 10",
+      "l": "World Dentistry Global Ranking"
+    },
+    {
+      "n": "Swedish & Eng",
+      "l": "Medium of Instruction"
+    }
+  ],
+  "highlights": {
+    "degree": "Dentist Degree Programme (Tandläkarexamen)",
+    "duration": "5 Years (300 Higher Education Credits)",
+    "fee": "SEK 1.9M total (~SEK 380,000/year for non-EU/EEA)",
+    "eligibility": "10+2 with PCB + Advanced Swedish Proficiency (TISUS) + English",
+    "medium": "Swedish (Clinical & Dental practice) + English (Research/Specialization)"
+  },
+  "overview": "Dentistry in Sweden for Indian Students can be an attractive option to build their career in the profession of Dentistry. Students interested in choosing to study Dentistry in Sweden can explore its modern dental education system, clinical facilities, and research opportunities. However, the main undergraduate dentistry programmes are taught in Swedish, so students from India should plan for language preparation alongside academic eligibility. The five-year dentistry programme at Karolinska Institutet is a prominent option for students who meet the entry requirements. With guidance from Edu-Hawk Worldwide, students can understand the available study options and prepare for the application process.",
+  "universities": [
+    {
+      "name": "Karolinska Institutet",
+      "location": "Stockholm, Sweden",
+      "fee": "SEK 1,900,000 Total (5 Years)",
+      "image": "/uploads/study_abroad/sweden/karolinska_institutet.webp",
+      "img": "/uploads/study_abroad/sweden/karolinska_institutet.webp",
+      "desc": "Located in the Stockholm area, Karolinska Institutet offers a five-year dentistry programme with 300 higher education credits. Its education emphasises scientific knowledge, clinical practice, and patient-centred dental care."
+    },
+    {
+      "name": "Malmö University",
+      "location": "Malmö, Sweden",
+      "fee": "SEK 180,000 – 260,000 / Year",
+      "image": "/uploads/study_abroad/sweden/malmo_university.webp",
+      "img": "/uploads/study_abroad/sweden/malmo_university.webp",
+      "desc": "Malmö University provides dental education through its Faculty of Odontology. Students can explore professional dental training and research in oral health, with clinical learning integrated into the educational environment."
+    },
+    {
+      "name": "University of Gothenburg",
+      "location": "Gothenburg, Sweden",
+      "fee": "SEK 190,000 – 280,000 / Year",
+      "image": "/uploads/study_abroad/sweden/university_of_gothenburg.webp",
+      "img": "/uploads/study_abroad/sweden/university_of_gothenburg.webp",
+      "desc": "Through the Sahlgrenska Academy, the university offers education and research related to dentistry and oral health. Its academic environment includes clinical sciences, oral biology, and dental research."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are Indian students eligible to study dentistry in Sweden?",
+      "answer": "Yes. Indian students can apply provided they meet the academic and language requirements. However, most professional dentistry programs are taught in Swedish, so language preparation (TISUS/level C1) is essential alongside Class 12 Physics, Chemistry, Biology, and Mathematics credentials."
+    },
+    {
+      "question": "Do they have dental care in English in Sweden?",
+      "answer": "The main professional qualifying dentistry programs at Karolinska Institutet, Malmö University, and the University of Gothenburg are taught in Swedish. Some individual courses or postgraduate research are available in English, but they are not replacements for a qualifying dental surgery degree."
+    },
+    {
+      "question": "What is the duration of dentistry study in Sweden?",
+      "answer": "Karolinska Institutet and other Swedish universities offer a five-year program in dentistry covering 300 higher education (ECTS) credits, combining theoretical education, laboratory work, and supervised clinical training."
+    },
+    {
+      "question": "How much does tuition fee for dentistry in Sweden cost?",
+      "answer": "For its five-year dentistry program, Karolinska Institutet charges a total tuition fee of SEK 1.9 million (~SEK 380,000 per year) for non-EU/EEA students. Application fees are usually SEK 900. Other institutions have comparable fee schedules."
+    },
+    {
+      "question": "Can Indian dental graduates work in Sweden after BDS?",
+      "answer": "Yes, potentially. Indian dental graduates must complete the applicable qualification assessment and licensing process with Socialstyrelsen, which includes evaluation of dental credentials, a proficiency test of competence, training in Swedish healthcare legislation, clinical practical training, and Swedish C1 language certification."
+    }
+  ]
+}

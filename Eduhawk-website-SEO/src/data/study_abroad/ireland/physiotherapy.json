@@ -1,0 +1,153 @@
+{
+  "hero": {
+    "title": "Physiotherapy Ireland - Learn about Physiotherapy in Ireland",
+    "subtitle": "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training."
+  },
+  "overview": [
+    "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training.",
+    "Students who like biology, anatomy, exercise science, problem solving and direct patient interaction will find physiotherapy a good career choice .",
+    "Students can use Edu Hawk worldwide study abroad advice to look at these options and see what it takes to study abroad."
+  ],
+  "universities": [
+    {
+      "name": "Ireland's Royal College of Surgeons",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_physiotherapy_Ireland_s_Royal_College_of_Surgeons-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_physiotherapy_Ireland_s_Royal_College_of_Surgeons-image2.png",
+      "desc": "Ireland's Royal College of Surgeons is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "Limerick University",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_physiotherapy_Limerick_University-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_physiotherapy_Limerick_University-image1.png",
+      "desc": "Limerick University is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "Trinity College in Dublin",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_physiotherapy_Trinity_College_in_Dublin-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_physiotherapy_Trinity_College_in_Dublin-image3.png",
+      "desc": "Trinity College in Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why study physiotherapy in Ireland?",
+      "lead": "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "The top advantages of studying physiotherapy in Ireland are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Professional recognition: If you meet the requirements you may be able to register with CORU, the Irish regulator of health and social care professions.",
+            "Students gain hands-on experience in hospitals, rehabilitation centers and other health care settings.",
+            "Graduates may find employment in a variety of areas including pulmonary physiotherapy, neurological rehabilitation, musculoskeletal rehabilitation, community health and sports injury management.",
+            "Research opportunities: Further research can lead to a career in advanced clinical practice, education or rehabilitation research.",
+            "Students interact with people of different backgrounds and experience a health care system that serves a diverse population."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who like biology, anatomy, exercise science, problem solving and direct patient interaction will find physiotherapy a good career choice ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can use Edu Hawk worldwide study abroad advice to look at these options and see what it takes to study abroad."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Physiotherapy courses in Ireland",
+      "lead": "Physiotherapy degrees are offered by Irish universities at both undergraduate and graduate level, depending on your previous qualifications.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Common choices of courses are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The BSc (Hons) Physiotherapy is a professional undergraduate degree that usually takes four years and contains clinical placements.",
+            "The Professional Master of Physiotherapy is a graduate entry qualification for those with the appropriate bachelor degree.",
+            "Some programs take approximately two years to complete.",
+            "The aim of the graduate-entry MSc Physiotherapy (Pre-registration) is to prepare students for their first professional registration.",
+            "MSc Sports and Exercise Physiotherapy or equivalent:",
+            "Specialized courses, which may require a physiotherapy degree and previous clinical experience.",
+            "Students who want to do research or work in other health care fields are encouraged to take graduate degrees in movement science and rehabilitation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Top Colleges and Physical Therapy Clinics in Ireland",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Ireland's Royal College of Surgeons",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_physiotherapy_Ireland_s_Royal_College_of_Surgeons-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_physiotherapy_Ireland_s_Royal_College_of_Surgeons-image2.png",
+          "desc": "Ireland's Royal College of Surgeons is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "Limerick University",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_physiotherapy_Limerick_University-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_physiotherapy_Limerick_University-image1.png",
+          "desc": "Limerick University is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "Trinity College in Dublin",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_physiotherapy_Trinity_College_in_Dublin-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_physiotherapy_Trinity_College_in_Dublin-image3.png",
+          "desc": "Trinity College in Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the duration of physical therapy education in Ireland?",
+      "a": "The majority of undergraduate degrees in physiotherapy last four years. Although this varies by school and program subject, graduate-entry professional master's programs typically take two years to finish."
+    },
+    {
+      "q": "After the 12th grade, are Indian students able to study physiotherapy in Ireland?",
+      "a": "In addition to any additional requirements, candidates must fulfill the academic, science, and English language admission standards of the university.Each university evaluates Indian qualifications independently."
+    },
+    {
+      "q": "How much does physiotherapy cost in Ireland?",
+      "a": "The annual cost of certain overseas bachelor's programs ranges from €25,000 to €35,000. Trinity College Dublin, for instance, offers €26,880 for the first year in 2026–2027. The program and educational expenses are not the same."
+    },
+    {
+      "q": "Will I be able to work as a physiotherapist in Ireland when I graduate?",
+      "a": "You must have the required approved qualification, CORU registration, and any applicable work or immigration permissions in order to work as a physiotherapist."
+    }
+  ],
+  "seo": {
+    "title": "Physiotherapy Ireland - Learn about Physiotherapy in Ireland | Edu-Hawk Worldwide",
+    "description": "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy ",
+    "keywords": "Study in Ireland, Top Irish Universities, Edu Hawk Worldwide"
+  }
+}

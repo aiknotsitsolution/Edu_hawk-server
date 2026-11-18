@@ -8,9 +8,9 @@ const organizationSchema = {
   "@type": "EducationalOrganization",
   name: "Edu-Hawk Worldwide",
   url: "https://www.eduhawk.in/",
-  logo: "https://www.eduhawk.in/Eduhawk.svg",
+  logo: "https://www.eduhawk.in/Eduhawk.png",
   description:
-    "Edu-Hawk Worldwide helps Indian students secure MBBS admissions abroad in NMC-approved universities with expert counselling and complete support.",
+    "Edu-Hawk Worldwide helps Indian students secure MBBS admissions abroad in NMC-recognized universities with expert counselling and complete support.",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "customer support",
@@ -28,11 +28,6 @@ const websiteSchema = {
   "@type": "WebSite",
   name: "Edu-Hawk Worldwide",
   url: "https://www.eduhawk.in/",
-  potentialAction: {
-    "@type": "SearchAction",
-    target: "https://www.eduhawk.in/search?q={search_term_string}",
-    "query-input": "required name=search_term_string",
-  },
 };
 
 const App = () => {

@@ -1,0 +1,107 @@
+{
+  "seo": {
+    "title": "MBBS Abroad Counselling for Indian Students | EduHawk",
+    "description": "EduHawk is a premier MBBS abroad consultancy in India offering expert counselling, NMC recognized university selection, transparent fees, and end-to-end admission guidance."
+  },
+  "heroSlides": [
+    {
+      "id": 1,
+      "title": "Study MBBS in Russia",
+      "subtitle": "Top NMC-recognized universities • Affordable fees • Safe & Recognized",
+      "cta": "Get Free Counselling",
+      "image": "/uploads/home/hero-russia.webp"
+    },
+    {
+      "id": 2,
+      "title": "MBBS in Georgia – Modern & Affordable",
+      "subtitle": "English medium • European standards • Low cost of living",
+      "cta": "Explore Georgia Options",
+      "image": "/uploads/home/hero-georgia.webp"
+    },
+    {
+      "id": 3,
+      "title": "Kazakhstan & Kyrgyzstan – Best Value",
+      "subtitle": "₹15–32 Lakh total • No entrance exam • Direct admission",
+      "cta": "Compare Packages",
+      "image": "/uploads/home/hero-kazakhstan.webp"
+    },
+    {
+      "id": 4,
+      "title": "Your Trusted MBBS Abroad Partner",
+      "subtitle": "1000+ students placed globally • Transparent process • End-to-end support",
+      "cta": "Start Your Journey Today",
+      "image": "/uploads/home/hero-trusted.webp"
+    }
+  ],
+  "stats": [
+    { "n": "1000+", "l": "Students Placed Globally" },
+    { "n": "20+", "l": "Countries Covered" },
+    { "n": "200+", "l": "Partner Medical Universities" },
+    { "n": "100%", "l": "Visa & Admission Success" }
+  ],
+  "countries": [
+    { "name": "Russia", "flag": "🇷🇺", "seats": "600+ seats", "fee": "₹20-30L total", "link": "/mbbs-abroad/russia", "tag": "#1 Choice" },
+    { "name": "Georgia", "flag": "🇬🇪", "seats": "200+ seats", "fee": "₹25-35L total", "link": "/mbbs-abroad/georgia", "tag": "European Standard" },
+    { "name": "Uzbekistan", "flag": "🇺🇿", "seats": "400+ seats", "fee": "₹18-28L total", "link": "/mbbs-abroad/uzbekistan", "tag": "Best Budget" },
+    { "name": "Kazakhstan", "flag": "🇰🇿", "seats": "300+ seats", "fee": "₹22-32L total", "link": "/mbbs-abroad/kazakhstan", "tag": "Top Rated" },
+    { "name": "Kyrgyzstan", "flag": "🇰🇬", "seats": "250+ seats", "fee": "₹15-25L total", "link": "/mbbs-abroad/kyrgyzstan", "tag": "Affordable Package" },
+    { "name": "Nepal", "flag": "🇳🇵", "seats": "150+ seats", "fee": "₹35-50L total", "link": "/mbbs-abroad/nepal", "tag": "Close to India" }
+  ],
+  "mbbsOptions": [
+    { "country": "Bangladesh", "fees": "24 Lakhs to 41 Lakhs", "link": "/mbbs-abroad/bangladesh" },
+    { "country": "Russia", "fees": "24 Lakhs to 41 Lakhs", "link": "/mbbs-abroad/russia" },
+    { "country": "Uzbekistan", "fees": "16 Lakhs to 21 Lakhs", "link": "/mbbs-abroad/uzbekistan" },
+    { "country": "Kyrgyzstan", "fees": "14 Lakhs to 21 Lakhs", "link": "/mbbs-abroad/kyrgyzstan" },
+    { "country": "Egypt", "fees": "31 Lakhs to 36 Lakhs", "link": "/mbbs-abroad/egypt" },
+    { "country": "Kazakhstan", "fees": "16 Lakhs to 23 Lakhs", "link": "/mbbs-abroad/kazakhstan" },
+    { "country": "Tajikistan", "fees": "17 Lakhs to 25 Lakhs", "link": "/mbbs-abroad/tajikistan" },
+    { "country": "Nepal", "fees": "20 Lakhs to 35 Lakhs", "link": "/mbbs-abroad/nepal" },
+    { "country": "Georgia", "fees": "18 Lakhs to 28 Lakhs", "link": "/mbbs-abroad/georgia" },
+    { "country": "Vietnam", "fees": "21 Lakhs to 30 Lakhs", "link": "/mbbs-abroad/vietnam" }
+  ],
+  "testimonials": [
+    {
+      "name": "Priya Sharma",
+      "loc": "Delhi → Russia",
+      "university": "Bashkir State Medical University",
+      "text": "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-recognized university in Russia!",
+      "stars": 5
+    },
+    {
+      "name": "Rahul Verma",
+      "loc": "Mumbai → Georgia",
+      "university": "Tbilisi State Medical University",
+      "text": "The counsellors were transparent and genuinely cared about my future. Best decision to trust Edu-Hawk for my MBBS abroad journey.",
+      "stars": 5
+    },
+    {
+      "name": "Ananya Patel",
+      "loc": "Ahmedabad → Kazakhstan",
+      "university": "Kazakh National Medical University",
+      "text": "From application to post-arrival, they supported me fully. I feel confident about my FMGE preparation with their guidance.",
+      "stars": 5
+    }
+  ],
+  "faq": [
+    {
+      "question": "How can I study MBBS abroad with low fees?",
+      "answer": "Edu-Hawk helps students compare affordable MBBS options in countries like Russia, Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan and Nepal based on fees, eligibility, and career goals."
+    },
+    {
+      "question": "What guidance do you provide for MBBS admission abroad?",
+      "answer": "We provide step-by-step counselling for university selection, application support, documentation, visa guidance, and pre-departure preparation for overseas education."
+    },
+    {
+      "question": "Is MBBS abroad a good option for Indian students?",
+      "answer": "Yes, many Indian students choose foreign medical universities for quality medical education, internationally recognized programs, and cost-effective study options in lakhs."
+    },
+    {
+      "question": "Do I need to clear NEET for studying MBBS abroad?",
+      "answer": "Yes, NEET qualification is mandatory for Indian students who wish to pursue MBBS abroad and later practice medicine in India after clearing the FMGE/NExT exam."
+    },
+    {
+      "question": "What is the total cost of studying MBBS abroad?",
+      "answer": "Total costs usually range from ₹15 Lakhs to ₹35 Lakhs depending on the chosen country, university tuition, hostel, and personal expenses."
+    }
+  ]
+}

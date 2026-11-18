@@ -1,7 +1,8 @@
+import cmsData from "../../data/medical_colleges/egypt.json";
 import React, { useState } from "react";
 import EgyptFlag from "../../Images/country flag png/Egypt.svg"; // Correct path to Egypt flag
-import { FiPlus, FiMinus } from "react-icons/fi";
-import { Helmet } from "react-helmet-async";
+import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
+import SeoHead from "../../component/SeoHead.jsx";
 const Egypt = () => {
   const [showMoreAbout, setShowMoreAbout] = useState(false);
   const [showMoreClimate, setShowMoreClimate] = useState(false);
@@ -62,26 +63,24 @@ const Egypt = () => {
   return (
     <>
     
-      <Helmet>
-        <title>MBBS in Egypt for Indian Students | Fees & Top Universities</title>
-        <meta
-          name="description"
-          content="MBBS in Egypt with globally recognized universities. Get details on fees, eligibility and admission process for Indian students."
-        />
-        <meta
-          name="keywords"
-          content="mbbs in egypt, egypt mbbs fees, study mbbs egypt, mbbs in egypt for indian students, top medical universities in egypt, mbbs in egypt eligibility, mbbs in egypt admission"
-        />
-      </Helmet>
+      <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Egypt for Indian Students | Fees & Top Universities"}
+        description={cmsData?.seo?.description || "MBBS in Egypt with globally recognized universities. Get details on fees, eligibility and admission process for Indian students."}
+        keywords={cmsData?.seo?.keywords || "mbbs in egypt, egypt mbbs fees, study mbbs egypt, mbbs in egypt for indian students, top medical universities in egypt"}
+        path="/mbbs-abroad/egypt"
+        ogType="website"
+      />
       <div className="min-h-screen bg-gray-50 font-sans">
         {/* ==================== HEADER CAROUSEL ==================== */}
         <div className="relative h-screen overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG"
+              src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG"}
               alt="Alexandria University"
               className="w-full h-full object-cover brightness-75"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Alexandria_University.JPG/1280px-Alexandria_University.JPG 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 flex items-center justify-center">
               <h2 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
                 STUDY MBBS IN EGYPT
@@ -97,13 +96,18 @@ const Egypt = () => {
             <div>
               <img
                 src={EgyptFlag}
+                loading="lazy"
+                width={900}
+                height={600}
                 alt="Egypt flag"
                 className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-              />
+                  srcSet={`${EgyptFlag} 1x, ${EgyptFlag} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
             </div>
             <div>
               <h1 className="text-4xl md:text-5xl font-bold text-blue-900">
-                Explore MBBS Opportunities in Egypt 2025–2026
+                Explore MBBS Opportunities in Egypt 2026–2027
               </h1>
             </div>
           </div>
@@ -149,9 +153,12 @@ const Egypt = () => {
             <div>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Egyptian_Museum_in_Cairo_in_May_2015.JPG"
+                loading="lazy"
                 alt="Egyptian Museum"
                 className="rounded-xl shadow-2xl w-full h-auto object-cover"
-              />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/a/a8/Egyptian_Museum_in_Cairo_in_May_2015.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/a/a8/Egyptian_Museum_in_Cairo_in_May_2015.JPG 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             </div>
           </div>
 
@@ -166,7 +173,7 @@ const Egypt = () => {
                   <tbody>
                     <tr className="bg-gray-100">
                       <td className="p-4 font-semibold">Recognition</td>
-                      <td className="p-4">NMC & WHO approved</td>
+                      <td className="p-4">NMC & WHO Recognized</td>
                     </tr>
                     <tr>
                       <td className="p-4 font-semibold">Eligibility</td>
@@ -227,13 +234,13 @@ const Egypt = () => {
           {/* UNIVERSITIES GRID */}
           <div className="mb-20">
             <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-              Top Medical Universities in Egypt
+              {cmsData?.universitiesHeading || "Top Medical Universities in Egypt"}
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
                   name: "Cairo University",
-                  img: "https://upload.wikimedia.org/wikipedia/commons/5/57/CairoUniv.jpg",
+                  img: "https://upload.wikimedia.org/wikipedia/commons/5/57/CairoUniv.webp",
                 },
                 {
                   name: "Ain Shams University",
@@ -262,9 +269,12 @@ const Egypt = () => {
                 >
                   <img
                     src={uni.img}
+                    loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
-                  />
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
                   <div className="p-6 text-center">
                     <h4 className="text-xl font-bold text-blue-900">
                       {uni.name}
@@ -279,7 +289,7 @@ const Egypt = () => {
           <div className="grid md:grid-cols-2 gap-12 mb-20">
             <div>
               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-                Advantages of Studying MBBS in Egypt 2025–2026
+                Advantages of Studying MBBS in Egypt 2026–2027
               </h2>
               <div className="space-y-6">
                 <div>
@@ -419,7 +429,7 @@ const Egypt = () => {
                 </ul>
                 <p className="mt-8">
                   <strong>
-                    Approximate monthly living expenses (2025–2026):
+                    Approximate monthly living expenses (2026–2027):
                   </strong>
                 </p>
                 <ul className="list-disc pl-6 mt-4 space-y-2">
@@ -444,6 +454,102 @@ const Egypt = () => {
             </div>
           </div>
 
+          {/* ==================== COMPARISON TABLE ==================== */}
+          <div className="py-16 bg-white">
+            <div className="container mx-auto px-4 max-w-5xl">
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
+                MBBS in Egypt vs MBBS in India – Quick Comparison (2026–2027)
+              </h2>
+
+              <div className="overflow-x-auto shadow-md rounded-lg">
+                <table className="min-w-full border-collapse border border-gray-300 text-left">
+                  <thead>
+                    <tr className="bg-blue-900 text-white">
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                        Parameter
+                      </th>
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                        MBBS in Egypt
+                      </th>
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                        MBBS in India
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-700 divide-y divide-gray-200">
+                    {(cmsData?.comparisonTable || [
+                      {
+                        parameter: "Tuition Fees (per year)",
+                        egypt: "Government: ~$6,000 to $7,500/yr (approx. ₹5 to ₹6.7 Lakhs)\nPrivate: Higher (up to ₹6.6+ Lakhs/yr)",
+                        india: "Government: ₹10,000 to ₹2 Lakhs/yr\nPrivate / Deemed: ₹7 Lakhs to ₹25+ Lakhs/yr"
+                      },
+                      {
+                        parameter: "Total Course Budget",
+                        egypt: "₹25 Lakhs to ₹45–52 Lakhs (including living costs)",
+                        india: "Government: ₹2 Lakhs to ₹10 Lakhs\nPrivate: ₹40 Lakhs to ₹1.5+ Crores"
+                      },
+                      {
+                        parameter: "Course Duration",
+                        egypt: "5 years of academic/clinical study + 2 years of compulsory clinical rotations/internship (Total: 7 years)",
+                        india: "4.5 years of academic study + 1 year of compulsory rotating internship (Total: 5.5 years)"
+                      },
+                      {
+                        parameter: "Class Strength",
+                        egypt: "Moderate / controlled batch sizes for international programs",
+                        india: "Varies widely (government colleges typically have 100–250+ students per batch)"
+                      },
+                      {
+                        parameter: "Global Recognition",
+                        egypt: "Listed in WDOMS, recognized by WHO, ECFMG, NMC (subject to FMGL compliance), and regional Gulf/Middle East boards",
+                        india: "Recognized by NMC and globally (subject to individual country licensing)"
+                      },
+                      {
+                        parameter: "Medium of Instruction",
+                        egypt: "English-medium programs for international students (conversational Arabic taught for local patient interactions)",
+                        india: "English"
+                      },
+                      {
+                        parameter: "Hostel & Food",
+                        egypt: "Hostel: ~$1,000/yr (~₹89,000)\nFood/Meals: ~$1,200/yr (~₹1.06 Lakhs)\nTotal living/food roughly ₹15,000–₹22,000 per month",
+                        india: "Varies heavily by city and college campus (approx. ₹15,000 to ₹40,000 per month)"
+                      },
+                      {
+                        parameter: "Insurance",
+                        egypt: "Medical insurance is nominal: ~$150/yr (~₹13,350)",
+                        india: "Varies by institution/private plans"
+                      },
+                      {
+                        parameter: "Visa & Registration Costs",
+                        egypt: "Initial entry visa + annual residency/registration fees: ~$250 (~₹22,250)",
+                        india: "Not applicable for domestic students"
+                      },
+                      {
+                        parameter: "Other Costs",
+                        egypt: "Annual flights (~₹71,000), books/materials (~₹17,800/yr)",
+                        india: "Local travel, books, stationery, exam fees"
+                      }
+                    ]).map((row, index) => (
+                      <tr
+                        key={index}
+                        className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                      >
+                        <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                          {row.parameter || row.feature}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.egypt}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.india}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
           {/* ==================== FAQ SECTION (without s.no) ==================== */}
           <div className="py-16 bg-gray-50">
             <div className="container mx-auto px-4 max-w-4xl">
@@ -452,7 +558,7 @@ const Egypt = () => {
               </h2>
 
               <div className="space-y-5">
-                {faqData.map((item, index) => (
+                {((cmsData?.faq && cmsData.faq.length > 0) ? cmsData.faq : faqData).map((item, index) => (
                   <div
                     key={index}
                     className={`bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-md ${

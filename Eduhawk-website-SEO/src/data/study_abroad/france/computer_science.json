@@ -1,0 +1,648 @@
+{
+  "hero": {
+    "title": "Computer Science in France",
+    "subtitle": "If you are looking to pursue UG or PG in programming, software engineering, artificial intelligence, cyber security, data science and computer systems, then Studying Computer Science in France is a lucrative choice."
+  },
+  "overview": [
+    "If you are looking to pursue UG or PG in programming, software engineering, artificial intelligence, cyber security, data science and computer systems, then Studying Computer Science in France is a lucrative choice.",
+    "France has public universities, engineering schools and specialized institutions offering a variety of academic routes. Students can start with a bachelor's degree and then progress to a master's program, or apply for postgraduate studies with a relevant bachelor's degree.",
+    "Through Edu Hawk worldwide study abroad guidance students get to know about these opportunities and the requirements for studying abroad."
+  ],
+  "universities": [
+    {
+      "name": "Paris",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Universit_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_Universit_Paris.webp",
+      "desc": "Saclay University : At Université Paris:Saclay you can study Informatique at undergraduate level and follow a wide variety of computer science programs at master's level. Its postgraduate tracks are artificial intelligence, data science, networks, security, distributed systems, theoretical computing and quantum computing."
+    },
+    {
+      "name": "University of Grenoble Alpes",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_University_of_Grenoble_Alpes.webp",
+      "image": "/uploads/study_abroad/france/france_University_of_Grenoble_Alpes.webp",
+      "desc": "Université Grenoble Alpes provides computer science teaching and research opportunities such as the \\\\Master of Science in Informatics at Grenoble (MoSIG)\\. MoSIG is a postgraduate program delivered in English for students who have an appropriate computing background."
+    },
+    {
+      "name": "Sorbonne University",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Sorbonne Université is a research university in Paris where students can discover undergraduate scientific programs and postgraduate pathways in the fields of computer science, mathematics and computing research."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Computer Science in France?",
+      "lead": "If you are looking to pursue UG or PG in programming, software engineering, artificial intelligence, cyber security, data science and computer systems, then Studying Computer Science in France is a lucrative choice.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "France has public universities, engineering schools and specialized institutions offering a variety of academic routes. Students can start with a bachelor's degree and then progress to a master's program, or apply for postgraduate studies with a relevant bachelor's degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Through Edu Hawk worldwide study abroad guidance students get to know about these opportunities and the requirements for studying abroad."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Studying computer science in France has the following benefits:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Quality education and research opportunities in computer science."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specializations in AI, machine learning, big data, cyber security and software engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possibility for technical projects, research work and internships depending on the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relations with European technological companies and research centers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Opportunities to progress to PhD study after a relevant master's degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university tuition rates are affordable depending on student status and eligibility for exemptions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "France Computer Science Courses",
+      "lead": "French universities offer several \\\\France Computer Science courses\\\\ at undergraduate and postgraduate levels.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Computer Science Courses for Undergraduates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The standard undergraduate route is a three year \\\\Licence Informatique\\\\ which is equivalent to a bachelor's level qualification, and is generally worth 180 ECTS credits."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical topics include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software Development and Programming",
+            "Data Structures and Algorithms",
+            "Mathematics and Combinatorics",
+            "Architecture of Computers",
+            "System functionality",
+            "Information Systems and Databases",
+            "Computer networking",
+            "Web Design & Software Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can also choose a \\\\Bachelor or a BUT Informatique\\\\ according to the institution and the balance between theoretical and applied learning."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Science Postgraduate Courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A national master's degree is normally a two-year program after a bachelor's degree and awards 120 ECTS credits over the master's cycle."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular \\\\Master's specializations in Computer Science in France\\\\ are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Artificial Intelligence and Machine Learning",
+            "Big Data and Data Science",
+            "Software Engineering",
+            "Information Security & Cyber Security"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "– Computer Networks and Distributed Systems"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Cloud Computing and High Performance Computing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Robotics and Computer Vision"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Human Computer Interaction"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Quantum Computing"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Theory of Computing (TCS)"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top universities for UG and PG in Computer Science in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Paris",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Universit_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_Universit_Paris.webp",
+          "desc": "Saclay University : At Université Paris:Saclay you can study Informatique at undergraduate level and follow a wide variety of computer science programs at master's level. Its postgraduate tracks are artificial intelligence, data science, networks, security, distributed systems, theoretical computing and quantum computing."
+        },
+        {
+          "name": "University of Grenoble Alpes",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_University_of_Grenoble_Alpes.webp",
+          "image": "/uploads/study_abroad/france/france_University_of_Grenoble_Alpes.webp",
+          "desc": "Université Grenoble Alpes provides computer science teaching and research opportunities such as the \\\\Master of Science in Informatics at Grenoble (MoSIG)\\. MoSIG is a postgraduate program delivered in English for students who have an appropriate computing background."
+        },
+        {
+          "name": "Sorbonne University",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Sorbonne Université is a research university in Paris where students can discover undergraduate scientific programs and postgraduate pathways in the fields of computer science, mathematics and computing research."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility criteria to study computer science in France",
+      "lead": "\\\\The eligibility criteria for Computer Science in France\\\\ depends on the qualification, entry year, university and language of instruction.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Undergraduate Eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants are usually expected to hold a secondary-school qualification equivalent to the French baccalauréat."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completion of secondary school."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Solid math background."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Relevant science or computing subjects where available.",
+            "Knowledge of French is required for courses taught in French.",
+            "English language skills for courses taught in English, where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "First year Licence admissions have different criteria for advanced entry applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "PG Qualification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants typically require a recognized Bachelor degree or equivalent in computer science, computer engineering, software engineering, IT, mathematics or a related discipline acceptable to the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities may ask for previous study in:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Algorithms and Programming",
+            "Data Structures",
+            "Math and linear geometry",
+            "Databases and Operating Systems",
+            "Computer Networking and Architecture",
+            "Other subjects related to the selected specialization"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Computer Science in France Admission Requirements",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate Criteria"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate study Applicants should collect together their secondary-school qualifications and find out the admission route for their nationality and course."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Typical requirements are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Secondary school leaving certificates and academic transcripts.",
+            "Mathematics and other relevant subjects results.",
+            "Proof of proficiency in French or English, where required.",
+            "Passport or identity document in force.",
+            "Filled application forms and supporting documents."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "PG Eligibility Criteria"
+        },
+        {
+          "t": "p",
+          "items": [
+            "For \\\\Master's in Computer Science in France\\\\, students usually need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Recognized Bachelor degree or equivalent.",
+            "Academic transcripts and certificates of degree.",
+            "Proof of relevant computing and mathematics courses.",
+            "Results of English language tests for eligible English language programs where required.",
+            "Proof of French language for French-taught programs, if required.",
+            "CV or resume and a letter of motivation.",
+            "Letters of recommendation, if requested.",
+            "Details of any projects/ research/ internships as applicable."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Computer Science Tuition Fees in France",
+      "lead": "The \\\\tuition fees for Computer Science in France\\\\ are going to depend on if the institution is public or private, the level of qualification, the status of the student and the possibility of exemption.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The reference tuition fee per annum at public institutions in the national fee system for the \\\\2026 – 2027 academic year\\\\ is as follows."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "UG – Licence \\| €178 / year \\| €2,902 / year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "PG - National Master's \\| €255 / year \\| €3,950 / year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative rates and are not guaranteed fees for all courses. Some international students are exempted and private institutions, engineering schools and specialized programs may have different fees."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure to Computer Science in France",
+      "lead": "The \\\\process of admission to study Computer Science in France\\\\ varies depending on the course, institution and the country where the applicant lives.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose the level of degree\\\\ Decide whether you would like to apply for an undergraduate Licence or a postgraduate master's program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist Universities:\\\\ Compare specializations, language of instruction, curriculum, location and qualification type."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check eligibility:\\\\ Ensure you meet the academic requirements and have a valid language certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Check the Application Channel:\\\\ Confirm if the application is made via Parcoursup, Études en France, or the university's website."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Prepare Documents:\\\\ Gather academic transcripts, certificates, identity documents and any necessary motivational letter or CV."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Submit the Application\\\\ Follow the official instructions and deadlines for the intake that applies to you."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Final Selection Process:\\\\ Submit any additional paperwork or interview if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Review the Offer of Admission:\\\\ Make sure the qualification, tuition fees, conditions of enrollment and deadlines are correct."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Visa and Accommodation:\\\\ Follow the relevant student visa procedures and get ready the necessary supporting documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10. \\\\Complete Enrolment:\\\\ Provide any outstanding documents and finalize university registration."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Recognition and Registration",
+      "lead": "Students are encouraged to check the qualification offered by the institution and its academic accreditation before applying.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Common degrees for higher education in France are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Licence:\\\\ A standard three-year undergraduate degree, usually comprising 180 ECTS credits.",
+            "\\\\National Master's Degree:\\\\ Master's-cycle degree, normally two years and 120 ECTS credits.",
+            "\\\\Engineering Diploma:\\\\ A diploma issued by an accredited engineering school.",
+            "\\\\MSc or Specialized Postgraduate Qualification:\\\\ The precise recognition and academic standing depends on the institution and award."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Computer Science Salary and Job Opportunities in France",
+      "lead": "\\\\Computer Science graduates in France\\\\ can find employment in software development, IT services, finance, telecommunications, research, cybersecurity and other industries that rely on technology.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Career Opportunities Post Graduation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate graduates may pursue roles such as: Depending on the skills and experience"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software Developer (Junior)",
+            "Web Developer",
+            "Software Developer",
+            "Junior Software Tester / QA Engineer",
+            "Support technician IT",
+            "Junior Database/Systems Technician",
+            "Associate Technical Support"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Job Opportunities After PG Course"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on your background and technical skills, the right master's degree could be useful for more specialized positions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible roles include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software Engineering",
+            "Data Engineer / Data Scientist",
+            "AI/Machine Learning Engineer",
+            "Engineer for cybersecurity",
+            "Distributed Systems or Cloud Engineer",
+            "Computer Vision Engineer",
+            "Relevant experience as a Software or Systems Architect",
+            "Research and Development Engineer",
+            "PhD Researcher"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary Expectations:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Your earnings will depend on the job title, your experience, the employer, the location, your technical specialization and your language skills. Students should not rely on a single salary figure but rather check current French job advertisements and salary surveys for their desired position."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required",
+      "lead": "The list of required documents will be long and will differ from institution to institution and from channel to channel.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "UG Documentation"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Legitimate passport or identity document.",
+            "Secondary-school certificates or forecast results if accepted.",
+            "Academic transcripts and mark sheets;",
+            "Results of proficiency in French or English language, where applicable.",
+            "Filled application form.",
+            "Certified translations, if needed.",
+            "Any other documents that the university or the application platform requires."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "PG Documentation"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Identity document or valid passport.",
+            "Certificate of Graduation or provisional certificate.",
+            "Transcripts.",
+            "Resume or curriculum vitae.",
+            "Statement of purpose (SOP) or letter of motivation.",
+            "Language-test results, if needed.",
+            "Recommendation letters, if requested.",
+            "Relevant project, research or internship information.",
+            "Upon request: Course descriptions or syllabus.",
+            "Certified translations as required.",
+            "Application form and fee receipt if applicable."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does Computer Science take at UG and PG levels in France?\\\\",
+      "a": "A standard Licence usually lasts for three years. After the qualification for the bachelor's degree, a national master's degree usually takes another two years."
+    },
+    {
+      "q": "Yes, international students can study Computer Science in English in France.\\\\",
+      "a": "Yes. Selected courses are taught in English, particularly at the post-graduate level. Many undergraduate Licence programs are taught in French and applicants need to check the language requirements for each course."
+    },
+    {
+      "q": "What is the tuition fee for Computer Science in France?\\\\",
+      "a": "The public-sector reference rates for 2026-2027 are €178 per year for a Licence and €255 per year for a national master's for EU/EEA/Swiss students. Non-EU students pay differential tuition fees, usually €2,902 per year for a Licence and €3,950 per year for a master's at participating schools. Exemptions and alternative program fee structures may apply."
+    },
+    {
+      "q": "What are the best universities to study Computer Science in France?\\\\",
+      "a": "Students can explore Université Paris-Saclay, Université Grenoble Alpes, Sorbonne Université and Université de Strasbourg. Don't just pick a university by name – compare the actual course, language of teaching, entry requirements and fees."
+    },
+    {
+      "q": "Yes, you can pursue a Master's in France after completing an undergraduate degree in Computer Science.\\\\",
+      "a": "Yes. A relevant bachelor's degree may provide a route to postgraduate study, provided the applicant meets the academic prerequisites and selection criteria for the program."
+    },
+    {
+      "q": "How Edu Hawk Worldwide Consultancy Can Assist You to Study Abroad?",
+      "a": "\\\\Edu Hawk worldwide Consultancy\\\\ assists students in finding suitable universities, understanding admission requirements, preparing documents for application and planning their study-abroad journey."
+    }
+  ],
+  "seo": {
+    "title": "Computer Science in France | Edu-Hawk Worldwide",
+    "description": "If you are looking to pursue UG or PG in programming, software engineering, artificial intelligence, cyber security, data science and computer systems, then Stu",
+    "keywords": "Studying Computer Science in France, France Computer Science Courses, Top universities for UG and PG in Computer Science in France, Bachelor's Degree in Computer Science in France, Master's Degree in Computer Science in France, Eligibility criteria to study computer science in France, Computer Science in France Admission Requirements, Computer Science Jobs and Career Opportunities in France, <"
+  }
+}

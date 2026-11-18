@@ -1,0 +1,118 @@
+{
+  "id": "oet",
+  "name": "OET (Occupational English Test)",
+  "shortName": "OET",
+  "category": "English Online Exam",
+  "badge": "Healthcare Professionals Standard",
+  "seo": {
+    "title": "OET Exam for Healthcare Professionals Abroad: Syllabus, Scoring, Registration & Validity | EduHawk Worldwide",
+    "description": "Comprehensive guide to the Occupational English Test (OET) for doctors, nurses, and healthcare professionals planning to study, register, and work abroad. Explore the 4 medical subtests, A–E scoring scale, and registration procedure.",
+    "keywords": "OET test for overseas study and employment, Occupational English Test, OET scoring 0 to 500, OET grade A to E, OET registration India, OET eligibility healthcare, OET for nurses doctors, OET validity"
+  },
+  "hero": {
+    "badge": "Healthcare Professionals Standard",
+    "heroPara": "The Occupational English Test (OET) is the leading international English language assessment specifically engineered for healthcare professionals, evaluating medical communication skills across realistic clinical workplace scenarios."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "Approx. 2 Hours 45 Minutes"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "0 to 500 (Grades A to E)"
+    },
+    {
+      "label": "Target Professions",
+      "value": "Doctors, Nurses, Pharmacists, Dentists, etc."
+    },
+    {
+      "label": "Delivery Formats",
+      "value": "On Paper, On Computer, at Home (OET@Home)"
+    },
+    {
+      "label": "Score Validity",
+      "value": "2 Years from Test Date"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "AU $587 (~₹32,000 approximately)"
+    }
+  ],
+  "countries": [
+    "UK",
+    "USA",
+    "Australia",
+    "Canada",
+    "Ireland",
+    "New Zealand"
+  ],
+  "overview": [
+    "The Occupational English Test (OET) is an international English language assessment tailored exclusively for 12 healthcare professions, including Medicine, Nursing, Dentistry, Pharmacy, Physiotherapy, and Radiography.",
+    "Unlike general English proficiency exams, OET uses authentic healthcare scenarios to evaluate communication skills directly relevant to clinical practice, hospital wards, and patient consultations.",
+    "OET is recognized by major healthcare regulatory councils, hospital trusts, medical councils, and immigration authorities in the UK, USA, Australia, Canada, Ireland, and New Zealand."
+  ],
+  "sections": [
+    {
+      "name": "Listening",
+      "duration": "Approx. 45 Minutes",
+      "measures": "Understanding spoken consultations, patient-doctor dialogues, and clinical lectures across three parts: Part A (consultation extracts), Part B (workplace dialogues), and Part C (presentation extracts)."
+    },
+    {
+      "name": "Reading",
+      "duration": "60 Minutes",
+      "measures": "Comprehending health-related texts and clinical literature across three parts: Part A (expeditious reading/matching across 4 short medical texts), Part B (workplace memos/protocols), and Part C (long analytical articles)."
+    },
+    {
+      "name": "Writing",
+      "duration": "45 Minutes",
+      "measures": "Drafting a professional healthcare communication based on clinical case notes—typically a referral letter, transfer letter, or discharge letter tailored to the recipient's role."
+    },
+    {
+      "name": "Speaking",
+      "duration": "Approx. 20 Minutes",
+      "measures": "Delivering two recorded clinical role-plays with an interlocutor acting as a patient or caregiver, assessing clinical communication, empathy, reassurance, and professional language accuracy."
+    }
+  ],
+  "scoringSystem": "OET scores are reported on a scale of 0 to 500 for each of the four subtests, mapped to letter grades: Grade A (450–500: Very high fluency), Grade B (350–440: High fluency), Grade C+ (300–340), Grade C (200–290), Grade D (100–190), Grade E (0–90). Most healthcare councils (e.g. GMC, NMC in the UK, NMBI in Ireland) require Grade B (350+) in all four subtests.",
+  "registrationSteps": [
+    "Visit the official OET booking portal (oet.com).",
+    "Create your profile and enter your personal and contact information accurately.",
+    "Select your healthcare discipline (e.g. Medicine, Nursing, Dentistry, Pharmacy).",
+    "Choose your preferred test format: OET on Paper, OET on Computer at a test venue, or OET@Home where eligible.",
+    "Browse and select an available test date, time, and authorized test city.",
+    "Enter your valid passport or authorized national ID information.",
+    "Complete the payment using a recognized international credit card.",
+    "Check your booking confirmation email and download test-day instructions.",
+    "Prepare using profession-specific official mock practice tests and clinical communication materials."
+  ],
+  "validityDetails": "OET score release depends on the provider's official schedule (typically 12–16 days). Scores are valid for two years for healthcare council registration, overseas fellowship training, and medical visa applications.",
+  "faqs": [
+    {
+      "q": "Why do healthcare professionals choose OET?",
+      "a": "OET uses authentic clinical scenarios that healthcare professionals encounter daily, making preparation directly relevant to clinical practice compared to general academic topics."
+    },
+    {
+      "q": "Who is eligible to take the OET exam in India?",
+      "a": "Qualified healthcare professionals and students in 12 covered professions (Medicine, Nursing, Dentistry, Pharmacy, Physiotherapy, Dietetics, Occupational Therapy, Optometry, Podiatry, Radiography, Speech Pathology, Veterinary Science) are eligible."
+    },
+    {
+      "q": "What is the OET score needed to work overseas?",
+      "a": "Most medical and nursing regulators (such as the UK General Medical Council and Nursing and Midwifery Council) require a minimum Grade B (score of 350 or higher) in each of the four subtests."
+    },
+    {
+      "q": "How much does the OET exam cost in India?",
+      "a": "The exam registration fee is set in Australian Dollars at AU $587 (approximately ₹32,000 depending on current exchange rates and transaction charges)."
+    },
+    {
+      "q": "Is OET better than IELTS for medical professionals?",
+      "a": "Neither test is universally superior, but healthcare professionals often feel more confident with OET because the vocabulary, case notes, and speaking role-plays reflect everyday hospital and clinic environments."
+    }
+  ],
+  "countryContexts": {
+    "uk": "In the UK, OET is recognized by the General Medical Council (GMC) for doctor registration (PLAB exemption routes) and the Nursing and Midwifery Council (NMC) for nurse registration.",
+    "ireland": "In Ireland, the Medical Council of Ireland and the Nursing and Midwifery Board of Ireland (NMBI) accept OET Grade B for medical registration.",
+    "usa": "In the USA, ECFMG (Educational Commission for Foreign Medical Graduates) accepts OET Medicine scores for clinical communication certification.",
+    "australia": "In Australia, AHPRA (Australian Health Practitioner Regulation Agency) recognizes OET across all healthcare boards."
+  }
+}

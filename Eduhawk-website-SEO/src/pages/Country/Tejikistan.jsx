@@ -1,10 +1,11 @@
+import cmsData from "../../data/medical_colleges/tajikistan.json";
 
 
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
 import Russianflag2 from "../../Images/country flag png/Tajikistan.svg";
-import MARISTATEUNIVERSITY from "../../Images/tajikistan/Khatlon-State-Medical-University-Tajikistan.jpg";
-import { Helmet } from "react-helmet-async";
+import MARISTATEUNIVERSITY from "../../Images/tajikistan/Khatlon-State-Medical-University-Tajikistan.webp";
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
 
 
@@ -15,30 +16,28 @@ const Tajikistan = () => {
 
   return (
     <>
-      <Helmet>
-        <title>MBBS in Tajikistan for Indian Students | Fees & Admission</title>
-        <meta
-          name="description"
-          content="Study MBBS in Tajikistan at affordable cost. Check eligibility, admission process and recognized medical universities."
-        />
-        <meta
-          name="keywords"
-          content="mbbs in tajikistan, tajikistan mbbs fees, study mbbs tajikistan, tajikistan medical colleges, mbbs tajikistan admission"
-        />
-      </Helmet>
+      <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Tajikistan for Indian Students | Fees & Admission"}
+        description={cmsData?.seo?.description || "Study MBBS in Tajikistan at affordable cost. Check eligibility, admission process and recognized medical universities."}
+        keywords={cmsData?.seo?.keywords || "mbbs in tajikistan, tajikistan mbbs fees, study mbbs tajikistan, tajikistan medical colleges"}
+        path="/mbbs-abroad/tajikistan"
+        ogType="website"
+      />
       <div className="min-h-screen bg-gray-50 font-sans">
         {/* ==================== HEADER CAROUSEL ==================== */}
         <div className="relative h-screen overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://www.edurizon.in/_next/image?url=%2Fassets%2FImages%2Fmbbs-in-tajikistan%2Ftajik-national-university%2Ftnu.jpg&w=3840&q=75"
+              src={cmsData?.hero?.image || "https://www.edurizon.in/_next/image?url=%2Fassets%2FImages%2Fmbbs-in-tajikistan%2Ftajik-national-university%2Ftnu.jpg&w=3840&q=75"}
               alt="Tajikistan Landscape"
               className="w-full h-full object-cover brightness-75"
-            />
+                  srcSet="https://www.edurizon.in/_next/image?url=%2Fassets%2FImages%2Fmbbs-in-tajikistan%2Ftajik-national-university%2Ftnu.jpg&w=3840&q=75 1x, https://www.edurizon.in/_next/image?url=%2Fassets%2FImages%2Fmbbs-in-tajikistan%2Ftajik-national-university%2Ftnu.jpg&w=3840&q=75 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 flex items-center justify-center">
               <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-                STUDY MBBS IN TAJIKISTAN
-              </h1>
+              {cmsData?.hero?.title || "STUDY MBBS IN TAJIKISTAN"}
+            </h1>
             </div>
           </div>
         </div>
@@ -50,13 +49,18 @@ const Tajikistan = () => {
             <div>
               <img
                 src={Russianflag2}
+                loading="lazy"
+                width={1400}
+                height={700}
                 alt="Tajikistan flag"
                 className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-              />
+                  srcSet={`${Russianflag2} 1x, ${Russianflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
             </div>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-                Explore MBBS Opportunities in Tajikistan 2026–2027
+                {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Tajikistan 2026–2027"}
               </h2>
             </div>
           </div>
@@ -120,9 +124,12 @@ const Tajikistan = () => {
             <div>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/6/63/Tajik_Parliament_House%2C_Dushanbe%2C_Tajikistan.JPG"
+                loading="lazy"
                 alt="Tajikistan Parliament House, Dushanbe"
                 className="rounded-xl shadow-2xl w-full h-auto object-cover"
-              />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/6/63/Tajik_Parliament_House%2C_Dushanbe%2C_Tajikistan.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/6/63/Tajik_Parliament_House%2C_Dushanbe%2C_Tajikistan.JPG 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             </div>
           </div>
 
@@ -139,7 +146,7 @@ const Tajikistan = () => {
                   <tbody>
                     <tr className="bg-gray-100">
                       <td className="p-4 font-semibold">Recognition</td>
-                      <td className="p-4">NMC & WHO approved</td>
+                      <td className="p-4">NMC & WHO Recognized</td>
                     </tr>
                     <tr>
                       <td className="p-4 font-semibold">Eligibility</td>
@@ -174,7 +181,7 @@ const Tajikistan = () => {
               <p className="text-lg leading-relaxed text-gray-700">
                 Tajikistan's MBBS program is gaining popularity among Indian
                 students due to its very low tuition fees and quality medical
-                education at MCI/NMC-affiliated universities.
+                education at NMC-recognized universities.
               </p>
 
               {showMoreClimate ? (
@@ -203,7 +210,7 @@ const Tajikistan = () => {
           {/* ==================== UNIVERSITIES GRID ==================== */}
           <div className="mb-20">
             <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-              Top Medical Universities in Tajikistan
+              {cmsData?.universitiesHeading || "Top Medical Universities in Tajikistan"}
             </h2>
 
             <div className="grid md:grid-cols-3 gap-8">
@@ -227,9 +234,12 @@ const Tajikistan = () => {
                 >
                   <img
                     src={uni.img}
+                    loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
-                  />
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
                   <div className="p-6 text-center">
                     <h4 className="text-xl font-bold text-blue-900">
                       {uni.name}
@@ -287,7 +297,7 @@ const Tajikistan = () => {
                     5. Globally Recognized Degrees
                   </h5>
                   <p className="text-gray-700">
-                    Approved by NMC, WHO — eligible for FMGE/NEXT and practice
+                    Recognized by NMC, WHO — eligible for FMGE/NEXT and practice
                     worldwide.
                   </p>
                 </div>
@@ -476,61 +486,84 @@ const Tajikistan = () => {
                 (2026–2027)
               </h2>
 
-              <div className="overflow-x-auto">
+              <div className="overflow-x-auto shadow-md rounded-lg">
                 <table className="min-w-full border-collapse border border-gray-300 text-left">
                   <thead>
                     <tr className="bg-blue-900 text-white">
-                      <th className="p-4 border border-gray-300 text-center font-semibold">
-                        Criteria
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                        Feature
                       </th>
-                      <th className="p-4 border border-gray-300 text-center font-semibold">
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                         MBBS in Tajikistan
                       </th>
-                      <th className="p-4 border border-gray-300 text-center font-semibold">
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                         MBBS in India
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="text-gray-700">
-                    <tr className="bg-gray-50">
-                      <td className="p-4 border font-medium">Entrance Exams</td>
-                      <td className="p-4 border">
-                        Admission based on NEET qualification
-                      </td>
-                      <td className="p-4 border">NEET + high competition</td>
-                    </tr>
-                    <tr>
-                      <td className="p-4 border font-medium">
-                        Course Duration
-                      </td>
-                      <td className="p-4 border">
-                        6 years (including internship)
-                      </td>
-                      <td className="p-4 border">
-                        5.5 years + 1 year internship
-                      </td>
-                    </tr>
-                    <tr className="bg-gray-50">
-                      <td className="p-4 border font-medium">Total Cost</td>
-                      <td className="p-4 border">₹15–25 lakhs</td>
-                      <td className="p-4 border">Private: ₹20–80+ lakhs</td>
-                    </tr>
-                    <tr>
-                      <td className="p-4 border font-medium">
-                        Seats Availability
-                      </td>
-                      <td className="p-4 border">
-                        More seats for international students
-                      </td>
-                      <td className="p-4 border">
-                        Limited in government colleges
-                      </td>
-                    </tr>
-                    <tr className="bg-gray-50">
-                      <td className="p-4 border font-medium">Infrastructure</td>
-                      <td className="p-4 border">Modern labs & facilities</td>
-                      <td className="p-4 border">Varies between colleges</td>
-                    </tr>
+                  <tbody className="text-gray-700 divide-y divide-gray-200">
+                    {(cmsData?.comparisonTable || [
+                      {
+                        feature: "Tuition Fees (Per Year)",
+                        tajikistan: "₹3 lakh to ₹5 lakh ($3,000–$5,000) per year",
+                        india: "Government: Very low (₹10,000–₹50,000/year)\nPrivate: ₹10 lakh to ₹25+ lakh/year (₹50L–₹1.5+ Cr total)"
+                      },
+                      {
+                        feature: "Course Duration",
+                        tajikistan: "6 years (typically 6 years including clinical/internship components)",
+                        india: "5.5 years (4.5 years academic + 1 year compulsory rotating internship)"
+                      },
+                      {
+                        feature: "Class Strength",
+                        tajikistan: "Moderate / controlled batches for international students",
+                        india: "Large lecture halls (100–250+ students per batch)"
+                      },
+                      {
+                        feature: "Global Recognition",
+                        tajikistan: "Recognized by NMC (India), WHO, and regional bodies; subject to university compliance",
+                        india: "Recognized globally by NMC, WHO, and premier international health bodies"
+                      },
+                      {
+                        feature: "Medium of Instruction",
+                        tajikistan: "English (though clinical/patient interaction may use Tajik or Russian)",
+                        india: "English"
+                      },
+                      {
+                        feature: "Hostel & Food",
+                        tajikistan: "₹40,000 to ₹80,000 ($500–$1,000) per year for hostel; food/living approx. $1,200/year",
+                        india: "Varies widely; government hostels are cheap/subsidized, private/metro housing can be expensive"
+                      },
+                      {
+                        feature: "Health Insurance",
+                        tajikistan: "Approx. ₹15,000 to ₹30,000 ($150–$300) per year",
+                        india: "Nominal (varies by state or college clinic)"
+                      },
+                      {
+                        feature: "Visa & Extension Costs",
+                        tajikistan: "One-time/annual visa and residence permit costs approx. $500–$1,000 total",
+                        india: "Not applicable for domestic students"
+                      },
+                      {
+                        feature: "Other Costs (Travel, Misc)",
+                        tajikistan: "One-way/return flights (₹25k–₹50k/yr), personal expenses (₹3k–₹8k/mo), FMGE coaching (₹50k–₹2.0L)",
+                        india: "Local travel, books, exam fees, and living costs depending on the city"
+                      }
+                    ]).map((row, index) => (
+                      <tr
+                        key={index}
+                        className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                      >
+                        <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                          {row.feature || row.parameter}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.tajikistan}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.india}
+                        </td>
+                      </tr>
+                    ))}
                   </tbody>
                 </table>
               </div>

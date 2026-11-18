@@ -1,0 +1,47 @@
+{
+  "seo": {
+    "title": "Our Services | Edu Hawk Worldwide",
+    "description": "Comprehensive study abroad counselling, university admission, visa guidance, pre-departure briefing and scholarship assistance."
+  },
+  "hero": {
+    "title": "Comprehensive Study Abroad & Medical Admission Services",
+    "subtitle": "Guiding ambitious Indian students to world-class universities across 20+ countries with complete transparency and 100% visa assistance.",
+    "ctaText": "Book Free Counselling"
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "services": [
+    {
+      "title": "University & Course Selection",
+      "desc": "Personalized profiling based on academic background, budget, NEET score and long-term career aspirations."
+    },
+    {
+      "title": "Application & Admission Support",
+      "desc": "Error-free documentation, SOP assistance, university application submission and prompt offer letter issuance."
+    },
+    {
+      "title": "Visa Filing & Mock Interviews",
+      "desc": "End-to-end visa dossier preparation, financial documentation verification and intensive mock interview rounds."
+    },
+    {
+      "title": "Pre-Departure & Airport Assistance",
+      "desc": "Hostel booking, flight booking guidance, foreign exchange, SIM cards and local guardian support upon arrival."
+    }
+  ]
+}

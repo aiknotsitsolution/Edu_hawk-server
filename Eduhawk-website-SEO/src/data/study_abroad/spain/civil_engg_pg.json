@@ -1,0 +1,465 @@
+{
+  "hero": {
+    "title": "Master's in Civil Engineering in Spain for Indian Students",
+    "subtitle": "Master's in Civil Engineering in Spain – A Master's in Civil Engineering in Spain enables Indian students to gain in-depth knowledge of structural engineering, construction management, geotechnical engineering, transportation systems, water resources, and sustainable infrastructure. The postgraduate programs in Spanish universities combine engineering theory with technical projects, computational modeling, laboratory and research."
+  },
+  "overview": [
+    "Spain is an attractive place for students interested in the development of infrastructure, construction technology, sustainable cities and advanced engineering. There are several educational and professional advantages for students who want to Study Civil Engineering in Spain.",
+    "A Master's in Civil Engineering in Spain for Indian Students can provide opportunities to develop technical knowledge and explore different areas of the civil engineering sector."
+  ],
+  "universities": [
+    {
+      "name": "Polytechnical University of Valencia",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_civil_engg_pg_Polytechnical_University_of_Valencia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_civil_engg_pg_Polytechnical_University_of_Valencia-image2.png",
+      "desc": "UPV offers postgraduate programs in engineering and technology. Students can specialize in civil engineering, construction, transportation and water-related areas. Official website: https://www.upv.es/estudios/master/index-en.html"
+    },
+    {
+      "name": "Seville University",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_civil_engg_pg_Seville_University-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_civil_engg_pg_Seville_University-image3.png",
+      "desc": "The University of Seville has engineering programs and is worth looking into for postgraduate study related to civil engineering, structures, construction and transportation. Website: https://www.us.es/ These universities are starting points for research, not a confirmation that every institution currently offers a degree titled exactly \"Master's in Civil Engineering\". Check the official program title, teaching language, entry requirements and availability for the intended intake before selecting from the available Civil Engineering Universities in Spain."
+    },
+    {
+      "name": "Universidad Politécnica de Madrid",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_civil_engg_pg_Universidad_Polit_cnica_de_Madrid-image4.png",
+      "image": "/uploads/study_abroad/spain/spain_civil_engg_pg_Universidad_Polit_cnica_de_Madrid-image4.png",
+      "desc": "UPM offers postgraduate courses in engineering, construction and infrastructure-related fields. Applicants should refer to its current master's catalog for suitable civil engineering programs. Official website: https://www.upm.es/internacional/Students/StudiesDegrees/UniversityMasters/"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Master's in Civil Engineering in Spain?",
+      "lead": "Spain is an attractive place for students interested in the development of infrastructure, construction technology, sustainable cities and advanced engineering. There are several educational and professional advantages for students who want to Study Civil Engineering in Spain.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Higher technical education: You will study structural analysis, construction materials, geotechnical systems and infrastructure design.",
+            "Specialisation options: You can specialize in transportation engineering, water management, earthquake engineering and construction project management.",
+            "Hands-on learning: Students will, depending on the program, tackle design projects, lab work, research and industry-related assignments.",
+            "Sustainable construction: Look into energy-efficient buildings, resilient infrastructure, and green building practices.",
+            "European academic environment: Most programs are structured according to the ECTS framework, enabling academic mobility within the European Higher Education Area.",
+            "Professional development: Get ready for careers in construction companies, engineering consultancies, infrastructure projects and research organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Civil Engineering in Spain for Indian Students can provide opportunities to develop technical knowledge and explore different areas of the civil engineering sector."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Civil Engineering Master's Degrees in Spain",
+      "lead": "Students can choose from a variety of Civil Engineering Courses in Spain based on their undergraduate qualifications, technical interests, and career goals. These Civil Engineering Courses in Spain cover different areas of infrastructure, structural design, construction and environmental development.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "SpecializationKey areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil EngineeringEngineering analysis, Design of infrastructure, Construction"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Structural EngineeringStructural mechanics, Reinforced concrete, Steel structures"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Geotechnical EngineeringFoundations, soil mechanics, underground structures"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Construction ManagementProject planning, cost control, construction operations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transportation EngineeringRoads, railroads, traffic systems, transportation planning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Water Resources EngineeringHydraulics, hydrology, water management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Environmental EngineeringPollution control, environmental assessment, sustainability"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Earthquake EngineeringSeismic analysis, structural resilience, risk assessment"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Urban InfrastructureUrban systems, resilient cities, public infrastructure"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computational Civil EngineeringNumerical Modeling, Simulation, Engineering Software"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These Civil Engineering Courses in Spain can be given as standalone master's degrees, specializations or modules within larger civil and structural engineering programs. Students are advised to check the exact program title, curriculum, credit requirements and language of instruction at the official website of each university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Universities for Master's in Civil Engineering in Spain",
+      "lead": "Indian students have a wide range of Civil Engineering Universities in Spain to choose from for doing postgraduate studies in civil engineering, structural engineering and related infrastructure subjects. The following institutions are worthy of investigation for students looking for Civil Engineering Universities in Spain:",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Polytechnical University of Valencia",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_civil_engg_pg_Polytechnical_University_of_Valencia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_civil_engg_pg_Polytechnical_University_of_Valencia-image2.png",
+          "desc": "UPV offers postgraduate programs in engineering and technology. Students can specialize in civil engineering, construction, transportation and water-related areas. Official website: https://www.upv.es/estudios/master/index-en.html"
+        },
+        {
+          "name": "Seville University",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_civil_engg_pg_Seville_University-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_civil_engg_pg_Seville_University-image3.png",
+          "desc": "The University of Seville has engineering programs and is worth looking into for postgraduate study related to civil engineering, structures, construction and transportation. Website: https://www.us.es/ These universities are starting points for research, not a confirmation that every institution currently offers a degree titled exactly \"Master's in Civil Engineering\". Check the official program title, teaching language, entry requirements and availability for the intended intake before selecting from the available Civil Engineering Universities in Spain."
+        },
+        {
+          "name": "Universidad Politécnica de Madrid",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_civil_engg_pg_Universidad_Polit_cnica_de_Madrid-image4.png",
+          "image": "/uploads/study_abroad/spain/spain_civil_engg_pg_Universidad_Polit_cnica_de_Madrid-image4.png",
+          "desc": "UPM offers postgraduate courses in engineering, construction and infrastructure-related fields. Applicants should refer to its current master's catalog for suitable civil engineering programs. Official website: https://www.upm.es/internacional/Students/StudiesDegrees/UniversityMasters/"
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements to Study MSc Civil Engineering in Spain",
+      "lead": "Civil Engineering Master's in Spain for Indian Students usually requires students to have the following qualifications:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Recognized Bachelor's degree in Civil Engineering or a related engineering discipline.",
+            "Knowledge of structural analysis, construction materials, mathematics, mechanics or geotechnical engineering at academic level depending on the program.",
+            "Academic transcripts that meet the minimum admission standards of the university.",
+            "Good command of English for English-taught programs, if applicable.",
+            "Knowledge of Spanish, where applicable, for programs taught in Spanish.",
+            "Other requirements imposed by the University."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Selected programs may be eligible for applicants who hold degrees in Structural Engineering, Construction Engineering, Environmental Engineering or similar fields, depending on the university's admission requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important: Some Spanish master's degrees allow graduates to enter regulated professional engineering pathways, while others are specialized academic degrees. Applicants who wish to obtain a professional qualification should check the legal and professional status of the program before making an application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in Study Civil Engineering in Spain should review the eligibility criteria carefully before applying to their preferred university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Conditions for Enrolling in a Master's in Civil Engineering in Spain",
+      "lead": "The Civil Engineering Admission in Spain process could include an evaluation of the applicant's academic background, prior engineering studies, and language skills. Universities may judge applications on the basis of:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor degree certificate.",
+            "Academic records and mark sheets.",
+            "Previous engineering classes relevant.",
+            "Proof of English or Spanish language proficiency, where applicable.",
+            "Resume or CV.",
+            "Letter of motivation or personal statement.",
+            "Letters of recommendation if necessary.",
+            "Research experience (if applicable).",
+            "Relevant work experience.",
+            "Course descriptions or syllabi as appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission is subject to academic requirements of the program, availability of places and assessment criteria. Students are advised to review the official admission policies of the university before applying. Applicants can approach Edu-Hawk Worldwide to understand the requirements and prepare their application documents for Civil Engineering Admission in Spain."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Study Cost of Master's in Civil Engineering in Spain",
+      "lead": "Civil Engineering Fees in Spain differ depending on the university, the number of credits, the program type, and the fee category applicable to international students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Type of UniversityEstimated Tuition Per YearApprox INR Equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities€1,000–€8,000₹1.09–₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private universities€6,000–€25,000+₹6.52–₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are very broad planning estimates - not confirmed fees for a particular course. Tuition fees vary for students from outside the EU, and some specialist courses may be more expensive. Students should consult the official fee schedule for the academic year they intend to attend."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other expenses may include accommodation, food, local transport, health insurance, study materials, visa application and university registration fees. Apart from tuition fees, students will need to consider these extra costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Understanding Civil Engineering Fees in Spain can help Indian students plan their education budget and compare postgraduate study options at different universities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission to Master's in Civil Engineering in Spain",
+      "lead": "In general, the Civil Engineering Admission in Spain process includes the following steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose your specialty: Decide whether you want to specialize in structures, geotechnical engineering, construction management, transportation, or water resources.",
+            "Shortlist universities: Compare course curriculum, tuition fees, location, language of instruction and admission criteria.",
+            "Check eligibility of your degree: Verify that your undergraduate degree meets the program requirements.",
+            "Gather your documents: Gather your degree certificate, transcripts, passport, CV, motivation letter and language evidence, as appropriate.",
+            "Apply Online: Apply online via the official university admission portal.",
+            "Meet other requirements: Provide additional documents or attend an interview, if required.",
+            "Admission decision: Check the offer, tuition fees and deadlines for enrollment.",
+            "Apply for a Spanish student visa: Follow the applicable visa procedure and prepare the supporting documentation needed.",
+            "Full enrollment: Meet the university's payment and registration requirements before classes begin."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Deadlines vary by institution, so students should check deadlines well in advance. Edu-Hawk Worldwide can help students to shortlist universities, prepare applications and admission-related steps for Civil Engineering Admission in Spain."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Degree Recognition and Career Opportunities",
+      "lead": "Indian students should check that the university is recognized before applying and also find out if the qualification is a formal university master's degree or some other type of postgraduate qualification.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Civil Engineering in Spain for Indian Students can help careers in structural design, construction planning, infrastructure development, transportation systems, water resources and engineering consultancy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who wish to return to India should check any qualification recognition requirements imposed by employers, professional bodies or institutions providing further study. Additional qualifications or recognition may be required for professional engineering duties depending on the jurisdiction and role."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Opportunities After Earning a Master's in Civil Engineering in Spain",
+      "lead": "Civil Engineering Career Opportunities in Spain for graduates are available with construction companies, infrastructure developers, engineering consultancies, transport organizations, environmental consultancies and research institutions.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Job titleIndicative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil Engineer€25,000–€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Structural Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Geotechnical Engineer€27,000–€43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Construction Project Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transportation Engineer50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Water Resources Engineer€27,000–€43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "BIM Engineer or Coordinator€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Infrastructure Project Manager€35,000–€55,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are illustrative estimates of career planning and are not current salary offers, guaranteed or verified. Actual compensation will vary based on experience, location, employer, technical skills, and language proficiency. You may need to have Spanish language skills and the right work authorization for construction and infrastructure jobs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Civil Engineering Jobs in Spain available to graduates may depend on their specialization, technical expertise and professional experience. A Master's in Civil Engineering in Spain for Indian Students can help graduates explore career paths in construction, infrastructure development, structural engineering and transportation planning."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "What Documents to Study a Master's in Civil Engineering in Spain?",
+      "lead": "Students applying for postgraduate civil engineering programs generally need the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Provisional degree certificate or bachelor's degree.",
+            "Academic transcripts and mark sheets.",
+            "Resume or CV.",
+            "Letter of motivation/statement of purpose.",
+            "Evidence of proficiency in English or Spanish if required.",
+            "Where applicable, letters of recommendation.",
+            "Course descriptions/syllabi available upon request.",
+            "Passport size photographs (if required).",
+            "Proof of payment of application fee, if applicable.",
+            "Certified translations or legalization documents, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The exact list of documents depends on the applicant's qualifications and the university. For the final reference, please refer to the university's official application checklist."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Can Indian students do a Master's in Civil Engineering in Spain?",
+      "a": "Yes. Indian students must hold a recognized bachelor's degree and meet the university's academic, language and documentation requirements to apply for a Master's in Civil Engineering in Spain for Indian Students."
+    },
+    {
+      "q": "2. How long is a Master's in Civil Engineering in Spain?",
+      "a": "Most programs last between 1–2 years, depending on their credit requirements and curriculum."
+    },
+    {
+      "q": "3. Do I need IELTS for a Master's in Civil Engineering in Spain?",
+      "a": "Not always so. For programs taught in English, IELTS, TOEFL or other acceptable evidence of English proficiency may be required. Some programs may require proficiency in Spanish language (taught in Spanish)."
+    },
+    {
+      "q": "4. What is the tuition fee for a Master's in Civil Engineering in Spain?",
+      "a": "Generally, tuition fees at public universities range from €1,000 to €8,000 per year, while private universities may charge between €6,000 and €25,000 or more. Fees vary between universities and programs. Students should check the Civil Engineering Fees in Spain for their chosen university and academic year."
+    },
+    {
+      "q": "5. What are the job opportunities after completing a Master's in Civil Engineering?",
+      "a": "Graduates may find work as civil engineers, structural engineers, geotechnical engineers, construction project engineers, transportation engineers or BIM engineers, depending on their area of specialization and experience. These are some of the Civil Engineering Jobs in Spain that graduates may explore."
+    }
+  ],
+  "seo": {
+    "title": "Master's in Civil Engineering in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain is an attractive place for students interested in the development of infrastructure, construction technology, sustainable cities and advanced engineering.",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

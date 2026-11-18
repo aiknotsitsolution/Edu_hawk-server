@@ -1,0 +1,330 @@
+{
+  "hero": {
+    "title": "Spanish Law for Indian Students",
+    "subtitle": "Law in Spain for Indian Students The course offers you the opportunity to study civil law, international law, European Union law, business law, human rights and international dispute resolution. Spain's legal education system is influenced by the continental European civil-law traditions, thus making it a possible destination for students interested in legal systems, global business and cross-border legal issues. Law in Spain for Indian Students can be an option for those who want to explore European and international legal systems."
+  },
+  "overview": [
+    "The choice of undergraduate law degrees and specialist postgraduate courses depends on the student's previous education and career ambitions. Law Courses in Spain cover different areas of legal practice, research, international regulations and business-related legal issues. Students who wish to Study Law in Spain can compare these Law Courses in Spain according to their academic interests and preferred specialization.",
+    "| Course | Duration | Main Areas of Study | |---|---|---| | Bachelor in Law (Grado en Derecho) | ~4 years | Civil, criminal, constitutional and administrative law | | Master's in International Law | 1-2 years | International treaties, disputes and global legal systems | | Master's in Business Law | 1-2 years | Corporate law, contracts, mergers and compliance | | Master's in European Union Law | 1-2 years | EU institutions, regulations and competition law | | Master's in Human Rights Law | 1-2 years | Human rights protection and international conventions | | Master's in Intellectual Property Law | 1-2 years | Copyright, patents, trademarks and licensing | | Master's in International Arbitration | 1-2 years | Commercial disputes and arbitration procedures | | Master's in Criminal Law | 1-2 years | Criminal justice, criminal procedure and criminology |"
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Legal Studies in Spain",
+      "lead": "The choice of undergraduate law degrees and specialist postgraduate courses depends on the student's previous education and career ambitions. Law Courses in Spain cover different areas of legal practice, research, international regulations and business-related legal issues. Students who wish to Study Law in Spain can compare these Law Courses in Spain according to their academic interests and preferred specialization.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "| Course | Duration | Main Areas of Study | |---|---|---| | Bachelor in Law (Grado en Derecho) | ~4 years | Civil, criminal, constitutional and administrative law | | Master's in International Law | 1-2 years | International treaties, disputes and global legal systems | | Master's in Business Law | 1-2 years | Corporate law, contracts, mergers and compliance | | Master's in European Union Law | 1-2 years | EU institutions, regulations and competition law | | Master's in Human Rights Law | 1-2 years | Human rights protection and international conventions | | Master's in Intellectual Property Law | 1-2 years | Copyright, patents, trademarks and licensing | | Master's in International Arbitration | 1-2 years | Commercial disputes and arbitration procedures | | Master's in Criminal Law | 1-2 years | Criminal justice, criminal procedure and criminology |"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Durations are approximate only. For precise qualification, teaching language, entry requirements and duration, students should check the official program catalog of each institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Top Law Schools in Spain",
+      "lead": "Students interested in Law Universities in Spain may find the list below a useful starting point for exploring undergraduate law degrees and associated postgraduate programs. Exploring Law Universities in Spain helps students compare available programs, locations and academic options.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Not all institutions offer all of the above specializations and students should check the official course catalog for the relevant intake.1. Universidad Complutense de Madrid"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Location: Madrid, Spain"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "This public university is worth considering for undergraduate legal education and specialist legal studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Web site: http://www.ucm.es/2. Universidad Carlos III de Madrid"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Location: Region of Madrid"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "UC3M is worth checking out if you're looking at law, legal studies related to business, and academic international opportunities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Website: https://www.uc3m.es/3. Universitat de Barcelona"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Place: Barcelona"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you are looking into legal studies and postgraduate academic programs, the University of Barcelona is one option you might want to look at."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Website: https://www.ub.edu/4. Universidad de Navarra"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Place: Pamplona"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can browse its law-related programs and learn about the teaching language and entry requirements of each degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Website: https://www.unav.edu/5. Universidad de IE"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Place: Madrid and Segovia"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you are looking for law and law-related programs with an international focus, IE University is worth a look. It is a private university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Website: www.ie.edu"
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Legal Costs in Spain",
+      "lead": "The cost of studying law depends on the type of university (public or private), the program itself and the fee category for international students. Understanding Law Fees in Spain can help students plan their tuition and living expenses before applying. | Cost | Estimated Cost | | --- | --- | | Public university tuition | €1,000–€8,000 per year | | Private university tuition | €6,000–€25,000+ per year | | Accommodation | €400–€900 per month | | Food and groceries | €200–€350 per month | | Local transport | €30–€80 per month | | Books and study materials | Varies by course | | Personal expenses | €100–€200 per month |",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "These are indicative planning figures and are not confirmed fees for any particular law program. Some private or specialist postgraduate programs can be substantially more costly. Public university fees can also vary depending on the region, degree and student status."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "€1 is about ₹109 but rates fluctuate , so this is a rough budget . Students should also factor in the cost of visas, insurance, travel and initial accommodation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Law Admission Procedure in Spain",
+      "lead": "Students who wish to Study Law in Spain can generally follow these steps. Knowing the admission procedure can help students understand how to apply for Law in Spain for Indian Students:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose your course: Determine whether you want to study an undergraduate law degree or a specific master's program.",
+            "Shortlist universities: Compare the curriculum, language of instruction, tuition fees, location, and admission requirements.",
+            "Check eligibility: Verify academic requirements and any qualification recognition process.",
+            "Gather documents: Get transcripts, certificates, passport details, and language results.",
+            "Apply: Apply through the university's official admissions portal.",
+            "Full assessments: Carry out interviews or entrance tests if necessary.",
+            "Get an offer Check the terms of admission, fees and closing dates.",
+            "Sort out finances Tuition fees, accommodation and living expenses to think about.",
+            "Apply for a student visa: Check the latest Spanish Consular requirements for Indian applicants.",
+            "Enrolment completion: Make travel arrangements and complete the university registration formalities. ## 8. Career Scope and Degree Recognition After Law"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There are a number of careers you can pursue with a law degree, and the qualifications you will need to do so will depend on the job and the country you want to work in."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career possibilities include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Legal Research",
+            "Legal Counsel Assistant-Corporate Compliance Analyst",
+            "Professional in Contract Management- Business & Regulatory Analyst",
+            "Researcher, Human Rights",
+            "International Relations/Policy Research",
+            "Intellectual Property Support AgentLegal Operations Specialist",
+            "Additional Academic Study or Legal Research"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional qualification in Spain: In Spain, the practice of law is regulated by certain requirements concerning legal education and professional qualification. The professional route usually requires a qualifying Spanish law degree, the appropriate qualifying master's, a professional assessment and professional registration. Having a foreign degree does not automatically confer the right to practise as a lawyer in Spain."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For students coming back to India: A Spanish law qualification by itself does not confer any right to practice law in India. Students must check the current rules of the Bar Council of India and seek advice about recognition and eligibility before enrolling."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Spain: Jobs, Salaries and Opportunities in the Law",
+      "lead": "Graduates may find employment in legal research, corporate compliance, contract management, international business and related fields. The following figures are illustrative gross annual salary estimates for similar roles. | Job Role | Illustrative Annual Salary | |---|---:| | Legal Assistant | €20,000-€28,000 Junior Legal Researcher | €22,000-€32,000 | | Compliance Analyst | €25,000-€40,000 | | Contract Management Specialist | €28,000-€45,000 | | Corporate Legal Professional | €30,000-€50,000+ | | Experienced Lawyer | €35,000-€65,000+ | | Legal or Compliance Manager | €45,000-€75,000+ |",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "These are not guarantyd salaries or verified current market averages. Entry level jobs may be lower paid. For roles involving the practice of regulated law you'll need the appropriate professional qualifications. Actual salaries will vary depending on employer, city, language skills and qualifications and experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10. Documents needed to study law in Spain You may need the following documents for university admission and for visa processing:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport valid.",
+            "Mark sheet and certificates of class 10th and class 12th.",
+            "Graduate admission: Bachelor's degree certificate and transcripts.",
+            "Application form.",
+            "Results of language proficiency test (if applicable).",
+            "CV or résumé for post-graduate courses.",
+            "Letter of motivation or letter of purpose.",
+            "Letters of recommendation, if applicable.",
+            "Admission letter.Proof of funds for visa- Information on health insurance and accommodation, where applicable.",
+            "Academic recognition documents, translations or legalization if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should always consult the university's document checklist and the latest official visa instructions."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Spanish Law for Indian Students | Edu-Hawk Worldwide",
+    "description": "The choice of undergraduate law degrees and specialist postgraduate courses depends on the student's previous education and career ambitions. Law Courses in Spa",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

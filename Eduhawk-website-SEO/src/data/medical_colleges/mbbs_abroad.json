@@ -1,0 +1,85 @@
+{
+  "seo": {
+    "title": "MBBS Abroad for Indian Students 2026-27 | Fees, Countries & NMC Guidelines",
+    "description": "Compare accredited medical colleges in Russia, Georgia, Kazakhstan, and Uzbekistan. 100% transparent fee structures & NMC compliance.",
+    "keywords": "mbbs abroad, study mbbs abroad, best country for mbbs abroad, mbbs fees abroad"
+  },
+  "hero": {
+    "badge": "2026-27 Global Admissions Open",
+    "title": "Global Study Abroad Hub",
+    "subtitle": "Your Gateway to Premier Overseas Education. Compare accredited medical colleges across Russia, Georgia, Kazakhstan, and Uzbekistan with 100% transparent fee structures & NMC compliance.",
+    "image": "/uploads/colleges/russia_header.webp",
+    "ctaText": "Book Free MBBS Counselling"
+  },
+  "stats": [
+    {
+      "n": "5000+",
+      "l": "Students Guided Successfully"
+    },
+    {
+      "n": "15+",
+      "l": "Countries Available"
+    },
+    {
+      "n": "100+",
+      "l": "NMC Recognized Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Visa & Admission Success Support"
+    }
+  ],
+  "highlights": {
+    "degree": "MD / MBBS (NMC & WHO Recognized)",
+    "duration": "5.5 - 6 Years",
+    "fee": "₹15 Lakhs - ₹45 Lakhs Complete Package",
+    "eligibility": "50% in PCB + NEET Qualified",
+    "medium": "100% English Medium"
+  },
+  "overview": "Pursuing MBBS abroad has become the preferred pathway for thousands of Indian students who qualify NEET but seek world-class government medical education at affordable fees. NMC compliant curriculum, full English medium instruction, modern hospital rotations, and guaranteed global recognition make studying abroad a smart medical career investment.",
+  "universitiesHeading": "Popular Medical Universities Abroad",
+  "universities": [
+    {
+      "name": "Mari State University (Russia)",
+      "location": "Yoshkar-Ola, Russia",
+      "fee": "₹3.5 Lakhs / Year",
+      "image": "/uploads/colleges/mari_state_university.webp",
+      "desc": "Top Russian medical university with active Indian student association and safe hostels."
+    },
+    {
+      "name": "Tbilisi State Medical University (Georgia)",
+      "location": "Tbilisi, Georgia",
+      "fee": "₹5.5 Lakhs / Year",
+      "image": "https://images.shiksha.com/mediadata/images/1702625100phpu2Kbnu.jpeg",
+      "desc": "European accredited state university with prestigious 90-year medical legacy."
+    },
+    {
+      "name": "Asfendiyarov Kazakh National Medical University (Kazakhstan)",
+      "location": "Almaty, Kazakhstan",
+      "fee": "₹3.8 Lakhs / Year",
+      "image": "/uploads/colleges/asfendiyarov_kazakh_national.webp",
+      "desc": "Leading national university in Central Asia with world-class medical simulation wards."
+    },
+    {
+      "name": "Tashkent Medical Academy (Uzbekistan)",
+      "location": "Tashkent, Uzbekistan",
+      "fee": "₹3.2 Lakhs / Year",
+      "image": "https://tashkentmedicalacademy.in/wp-content/uploads/2025/03/Second-Tashkent-State-Medical-Institute.webp",
+      "desc": "Premier academy in Uzbekistan, only 3 hours direct flight away from New Delhi."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is NEET compulsory for studying MBBS abroad?",
+      "answer": "Yes, according to National Medical Commission (NMC) regulations, qualifying NEET-UG is compulsory for all Indian students who wish to pursue MBBS abroad."
+    },
+    {
+      "question": "Are MBBS degrees from abroad recognized in India?",
+      "answer": "Yes, degrees from NMC-compliant foreign universities that meet the minimum course duration (54 months study + 12 months internship in English medium) are fully valid for taking the NExT/FMGE licensing exam."
+    },
+    {
+      "question": "Can I get education loan for MBBS abroad?",
+      "answer": "Yes, leading nationalized and private banks in India provide education loans for accredited medical universities abroad."
+    }
+  ]
+}

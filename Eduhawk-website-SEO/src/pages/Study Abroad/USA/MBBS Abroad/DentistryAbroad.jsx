@@ -1,28 +1,35 @@
 import React, { useState, useEffect, useRef } from "react";
-import Michigan_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/Michigan_School_of_Dentistr.jpg.png";
-import San_Francisco_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/San_Francisco_School_of_Dentistry.jpg.png";
-import Pennsylvania_School_of_Dental_Medicine from "../../../../Images/Abroad/USA/Dentistry_USA/Pennsylvania_School_of_Dental_Medicine.jpg.png";
+import SeoHead from "../../../../component/SeoHead.jsx";
+import Michigan_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/Michigan_School_of_Dentistr.webp";
+import San_Francisco_School_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/San_Francisco_School_of_Dentistry.webp";
+import Pennsylvania_School_of_Dental_Medicine from "../../../../Images/Abroad/USA/Dentistry_USA/Pennsylvania_School_of_Dental_Medicine.webp";
 
-import University_College_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.jpg.png";
+import University_College_of_Dentistry from "../../../../Images/Abroad/USA/Dentistry_USA/University_College_of_Dentistry.webp";
+import dentistryData from "../../../../data/study_abroad/usa/dentistry.json";
 
 
-const DentistryAbroad = () => {
+const DentistryAbroad = () =>
+{
   const [openFaq, setOpenFaq] = useState(null);
   const [visibleSections, setVisibleSections] = useState({});
 
   const sectionRefs = useRef({});
 
-  const toggleFaq = (index) => {
+  const toggleFaq = (index) =>
+  {
     setOpenFaq(openFaq === index ? null : index);
   };
 
-  useEffect(() => {
+  useEffect(() =>
+  {
     if (
       !("IntersectionObserver" in window) ||
       window.matchMedia("(prefers-reduced-motion: reduce)").matches
-    ) {
+    )
+    {
       setVisibleSections(
-        Object.keys(sectionRefs.current).reduce((sections, id) => {
+        Object.keys(sectionRefs.current).reduce((sections, id) =>
+        {
           sections[id] = true;
           return sections;
         }, {}),
@@ -31,9 +38,12 @@ const DentistryAbroad = () => {
     }
 
     const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+      (entries) =>
+      {
+        entries.forEach((entry) =>
+        {
+          if (entry.isIntersecting)
+          {
             setVisibleSections((prev) => ({
               ...prev,
               [entry.target.id]: true,
@@ -44,29 +54,33 @@ const DentistryAbroad = () => {
       { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
     );
 
-    Object.values(sectionRefs.current).forEach((el) => {
+    Object.values(sectionRefs.current).forEach((el) =>
+    {
       if (el) observer.observe(el);
     });
 
     return () => observer.disconnect();
   }, []);
 
-  const setRef = (id) => (el) => {
+  const setRef = (id) => (el) =>
+  {
     sectionRefs.current[id] = el;
   };
 
-  const stats = [
-    { label: "Programs", value: "BDS, MDS & Allied Dental Courses" },
-    {
-      label: "Countries",
-      value: "12+ destinations with NMC-recognised options",
-    },
-    { label: "Support", value: "End-to-end guidance from profile to arrival" },
-    {
-      label: "Approach",
-      value: "Transparent fees, honest counselling & outcome focus",
-    },
-  ];
+  const stats = (dentistryData?.stats && dentistryData.stats.length > 0)
+    ? dentistryData.stats.map((s) => ({ label: s.l, value: s.n }))
+    : [
+        { label: "Programs", value: "BDS, MDS & Allied Dental Courses" },
+        {
+          label: "Countries",
+          value: "12+ destinations with NMC-recognised options",
+        },
+        { label: "Support", value: "End-to-end guidance from profile to arrival" },
+        {
+          label: "Approach",
+          value: "Transparent fees, honest counselling & outcome focus",
+        },
+      ];
 
   const features = [
     {
@@ -176,28 +190,30 @@ const DentistryAbroad = () => {
     },
   ];
 
-  const faqs = [
-    {
-      q: "Is NEET mandatory for BDS abroad?",
-      a: "Yes. As per current NMC guidelines, Indian students must qualify NEET to pursue BDS abroad. Without NEET, the degree will not be valid for registration or practice in India.",
-    },
-    {
-      q: "Which countries are best for BDS abroad in 2025-26?",
-      a: "Russia, Georgia, Kazakhstan, Uzbekistan and Kyrgyzstan are currently the most preferred destinations for Indian students due to NMC recognition, reasonable fees and good clinical exposure. The best choice depends on your budget and NEET score.",
-    },
-    {
-      q: "What is the total cost of BDS abroad?",
-      a: "The total cost (tuition + hostel + living expenses) usually ranges between ₹15–38 lakhs for the complete course. We provide a transparent year-wise cost sheet before you apply.",
-    },
-    {
-      q: "Will my BDS degree be valid in India?",
-      a: "Yes, provided you study at an NMC-recognised university, complete the required duration and clear the licensing exam. We only recommend eligible universities.",
-    },
-    {
-      q: "When should I start the process?",
-      a: "Ideally 6–10 months before the intake. Most intakes start in September/October. Early application helps with better hostel options and smoother visa processing.",
-    },
-  ];
+  const faqs = (dentistryData?.faq && dentistryData.faq.length > 0)
+    ? dentistryData.faq.map((f) => ({ q: f.question, a: f.answer }))
+    : [
+        {
+          q: "Is NEET mandatory for BDS abroad?",
+          a: "Yes. As per current NMC guidelines, Indian students must qualify NEET to pursue BDS abroad. Without NEET, the degree will not be valid for registration or practice in India.",
+        },
+        {
+          q: "Which countries are best for BDS abroad in 2026-27?",
+          a: "Russia, Georgia, Kazakhstan, Uzbekistan and Kyrgyzstan are currently the most preferred destinations for Indian students due to NMC recognition, reasonable fees and good clinical exposure. The best choice depends on your budget and NEET score.",
+        },
+        {
+          q: "What is the total cost of BDS abroad?",
+          a: "The total cost (tuition + hostel + living expenses) usually ranges between ₹15–38 lakhs for the complete course. We provide a transparent year-wise cost sheet before you apply.",
+        },
+        {
+          q: "Will my BDS degree be valid in India?",
+          a: "Yes, provided you study at an NMC-recognised university, complete the required duration and clear the licensing exam. We only recommend eligible universities.",
+        },
+        {
+          q: "When should I start the process?",
+          a: "Ideally 6–10 months before the intake. Most intakes start in September/October. Early application helps with better hostel options and smoother visa processing.",
+        },
+      ];
 
   const specializations = [
     "Orthodontics",
@@ -289,6 +305,12 @@ const DentistryAbroad = () => {
 
   return (
     <div className="dentistry-page font-sans text-slate-800 bg-white min-h-screen antialiased">
+      <SeoHead
+        title={dentistryData?.seo?.title || "Study Dentistry Abroad for Indian Students | Edu Hawk"}
+        description={dentistryData?.seo?.description || "Planning to study dentistry abroad? EduHawk shortlists NMC-recognised universities for BDS, explains real costs and guides you through admission and visas."}
+        path="/study-abroad/usa/dentistry"
+        ogType="website"
+      />
       <style>{`
         @keyframes fadeUp {
           from { opacity: 0; transform: translateY(30px); }
@@ -455,13 +477,13 @@ const DentistryAbroad = () => {
               </div>
 
               <div className="text-xs font-semibold tracking-wider uppercase text-teal-300 mb-3">
-                Study Dentistry · Abroad
+                {dentistryData?.hero?.badge || "Study Dentistry · Abroad"}
               </div>
 
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
                 <span className="bg-gradient-to-r from-teal-400 to-amber-300 bg-clip-text text-transparent">
-                  Dentistry Abroad
+                  {dentistryData?.hero?.title || "Dentistry Abroad"}
                 </span>{" "}
                 with confidence
               </h1>
@@ -483,7 +505,7 @@ const DentistryAbroad = () => {
                   href="#consult"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline shadow-lg shadow-teal-600/25"
                 >
-                  Book free counselling
+                  {dentistryData?.hero?.ctaText || "Book free counselling"}
                 </a>
                 <a
                   href="#destinations"
@@ -502,7 +524,9 @@ const DentistryAbroad = () => {
                 src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80"
                 alt="Dentistry students abroad"
                 className="dentistry-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px] hover:scale-[1.02] transition-transform duration-700"
-              />
+                  srcSet="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80 1x, https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=900&q=80 2x"
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium border border-white/20">
                 Trusted by 1000+ Indian students
               </div>
@@ -515,11 +539,10 @@ const DentistryAbroad = () => {
       <section
         id="stats"
         ref={setRef("stats")}
-        className={`bg-slate-50 pt-12 pb-16 transition-all duration-700 ${
-          visibleSections.stats
+        className={`bg-slate-50 pt-12 pb-16 transition-all duration-700 ${visibleSections.stats
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-9">
@@ -554,11 +577,10 @@ const DentistryAbroad = () => {
       <section
         id="overview"
         ref={setRef("overview")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections.overview
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections.overview
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
@@ -596,8 +618,11 @@ const DentistryAbroad = () => {
               <div className="dentistry-photo-frame rounded-2xl">
                 <img
                   src="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80"
+                  loading="lazy"
                   alt="Dental education abroad"
                   className="dentistry-photo-image rounded-2xl shadow-xl object-cover w-full h-[390px] group-hover:scale-[1.02] transition-transform duration-700"
+                  srcSet="https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80 1x, https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
               </div>
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-teal-600 to-cyan-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block hover:scale-105 transition-transform duration-300">
@@ -650,11 +675,10 @@ const DentistryAbroad = () => {
       <section
         id="why-usa"
         ref={setRef("why-usa")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections["why-usa"]
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections["why-usa"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -718,11 +742,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-courses"
         ref={setRef("usa-courses")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections["usa-courses"]
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections["usa-courses"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -874,15 +897,130 @@ const DentistryAbroad = () => {
         </div>
       </section>
 
+      {/* ================= DESTINATIONS ================= */}
+      <section
+        id="destinations"
+        ref={setRef("destinations")}
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections.destinations
+            ? "opacity-100 translate-y-0"
+            : "opacity-0 translate-y-8"
+          }`}
+      >
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-8">
+            <div className="text-xs font-semibold tracking-wider uppercase text-teal-600 mb-1.5">
+              Where to study
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
+              Top Dental Universities in the USA
+            </h2>
+            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+              Choosing among the top dental universities in the USA requires
+              comparing academic requirements, tuition fees, clinical
+              facilities, programme structure, and international admission
+              policies.
+            </p>
+            <p>Some well-known dental schools include:</p>
+          </div>
+
+
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {((dentistryData?.universities && dentistryData.universities.length > 0)
+              ? dentistryData.universities.map((u, i) => {
+                  const fallbackList = [
+                    {
+                      img: Michigan_School_of_Dentistry,
+                      name: "Michigan_School_of_Dentistry",
+                      desc: "University of Michigan School of Dentistry",
+                    },
+                    {
+                      img: San_Francisco_School_of_Dentistry,
+                      name: "San_Francisco_School_of_Dentistry",
+                      desc: "English medium & modern campuses",
+                    },
+                    {
+                      img: Pennsylvania_School_of_Dental_Medicine,
+                      name: "Pennsylvania_School_of_Dental_Medicine",
+                      desc: "Affordable with good clinical exposure",
+                    },
+                    {
+                      img: University_College_of_Dentistry,
+                      name: "University_College_of_Dentistry",
+                      desc: "Affordable with good clinical exposure",
+                    },
+                  ];
+                  const imgMap = {
+                    "Michigan_School_of_Dentistry": Michigan_School_of_Dentistry,
+                    "San_Francisco_School_of_Dentistry": San_Francisco_School_of_Dentistry,
+                    "Pennsylvania_School_of_Dental_Medicine": Pennsylvania_School_of_Dental_Medicine,
+                    "University_College_of_Dentistry": University_College_of_Dentistry,
+                  };
+                  return {
+                    name: u.name || fallbackList[i]?.name,
+                    desc: u.location || u.fee || fallbackList[i]?.desc,
+                    img: imgMap[u.name] || u.image || fallbackList[i]?.img,
+                  };
+                })
+              : [
+                  {
+                    img: Michigan_School_of_Dentistry,
+                    name: "Michigan_School_of_Dentistry",
+                    desc: "University of Michigan School of Dentistry",
+                  },
+                  {
+                    img: San_Francisco_School_of_Dentistry,
+                    name: "San_Francisco_School_of_Dentistry",
+                    desc: "English medium & modern campuses",
+                  },
+                  {
+                    img: Pennsylvania_School_of_Dental_Medicine,
+                    name: "Pennsylvania_School_of_Dental_Medicine",
+                    desc: "Affordable with good clinical exposure",
+                  },
+                  {
+                    img: University_College_of_Dentistry,
+                    name: "University_College_of_Dentistry",
+                    desc: "Affordable with good clinical exposure",
+                  },
+                ]
+            ).map((dest, i) => (
+              <div
+                key={i}
+                className="dentistry-animated-card dentistry-photo-frame dentistry-university-card relative rounded-2xl overflow-hidden h-60 group cursor-pointer shadow-md hover:shadow-xl"
+                style={{ "--card-delay": `${i * 100}ms` }}
+              >
+                <img
+                  src={dest.img}
+                  alt={`Study Dentistry in ${dest.name}`}
+                  loading="lazy"
+                  className="dentistry-photo-image dentistry-university-image w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  srcSet={`${dest.img} 1x, ${dest.img} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
+                  <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">
+                    <h4 className="text-white font-semibold text-lg">
+                      {dest.name}
+                    </h4>
+                    <p className="text-white/80 text-sm">{dest.desc}</p>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
       {/* ================= 4. ELIGIBILITY FOR USA ================= */}
       <section
         id="usa-eligibility"
         ref={setRef("usa-eligibility")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections["usa-eligibility"]
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections["usa-eligibility"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1028,11 +1166,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-admission"
         ref={setRef("usa-admission")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections["usa-admission"]
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections["usa-admission"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10 text-center">
@@ -1082,11 +1219,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-cost"
         ref={setRef("usa-cost")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections["usa-cost"]
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections["usa-cost"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1214,11 +1350,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-licensing"
         ref={setRef("usa-licensing")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections["usa-licensing"]
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections["usa-licensing"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1299,11 +1434,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-careers"
         ref={setRef("usa-careers")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections["usa-careers"]
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections["usa-careers"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1377,11 +1511,10 @@ const DentistryAbroad = () => {
       <section
         id="usa-documents"
         ref={setRef("usa-documents")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections["usa-documents"]
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections["usa-documents"]
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="mb-10">
@@ -1443,92 +1576,15 @@ const DentistryAbroad = () => {
         </div>
       </section>
 
-      {/* ================= DESTINATIONS ================= */}
-      <section
-        id="destinations"
-        ref={setRef("destinations")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections.destinations
-            ? "opacity-100 translate-y-0"
-            : "opacity-0 translate-y-8"
-        }`}
-      >
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-8">
-            <div className="text-xs font-semibold tracking-wider uppercase text-teal-600 mb-1.5">
-              Where to study
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-              Top Dental Universities in the USA
-            </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              Choosing among the top dental universities in the USA requires
-              comparing academic requirements, tuition fees, clinical
-              facilities, programme structure, and international admission
-              policies.
-            </p>
-            <p>Some well-known dental schools include:</p>
-          </div>
-
-          
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {[
-              {
-                img: Michigan_School_of_Dentistry,
-                name: "Michigan_School_of_Dentistry",
-                desc: "University of Michigan School of Dentistry",
-              },
-              {
-                img: San_Francisco_School_of_Dentistry,
-                name: "San_Francisco_School_of_Dentistry",
-                desc: "English medium & modern campuses",
-              },
-              {
-                img: Pennsylvania_School_of_Dental_Medicine,
-                name: "Pennsylvania_School_of_Dental_Medicine",
-                desc: "Affordable with good clinical exposure",
-              },
-              {
-                img: University_College_of_Dentistry,
-                name: "University_College_of_Dentistry",
-                desc: "Affordable with good clinical exposure",
-              },
-            ].map((dest, i) => (
-              <div
-                key={i}
-                className="dentistry-animated-card dentistry-photo-frame dentistry-university-card relative rounded-2xl overflow-hidden h-60 group cursor-pointer shadow-md hover:shadow-xl"
-                style={{ "--card-delay": `${i * 100}ms` }}
-              >
-                <img
-                  src={dest.img}
-                  alt={`Study Dentistry in ${dest.name}`}
-                  loading="lazy"
-                  className="dentistry-photo-image dentistry-university-image w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent flex items-end p-5">
-                  <div className="transform group-hover:translate-y-[-4px] transition-transform duration-300">
-                    <h4 className="text-white font-semibold text-lg">
-                      {dest.name}
-                    </h4>
-                    <p className="text-white/80 text-sm">{dest.desc}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* ================= PROCESS ================= */}
       <section
         id="process"
         ref={setRef("process")}
-        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${
-          visibleSections.process
+        className={`py-16 sm:py-20 bg-slate-50 transition-all duration-700 ${visibleSections.process
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
@@ -1571,11 +1627,10 @@ const DentistryAbroad = () => {
       <section
         id="faq"
         ref={setRef("faq")}
-        className={`py-16 sm:py-20 transition-all duration-700 ${
-          visibleSections.faq
+        className={`py-16 sm:py-20 transition-all duration-700 ${visibleSections.faq
             ? "opacity-100 translate-y-0"
             : "opacity-0 translate-y-8"
-        }`}
+          }`}
       >
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-10">
@@ -1599,17 +1654,15 @@ const DentistryAbroad = () => {
                 >
                   <span>{faq.q}</span>
                   <span
-                    className={`text-xl text-slate-400 font-normal flex-shrink-0 transition-transform duration-300 ${
-                      openFaq === i ? "rotate-180 text-teal-600" : ""
-                    }`}
+                    className={`text-xl text-slate-400 font-normal flex-shrink-0 transition-transform duration-300 ${openFaq === i ? "rotate-180 text-teal-600" : ""
+                      }`}
                   >
                     {openFaq === i ? "−" : "+"}
                   </span>
                 </button>
                 <div
-                  className={`overflow-hidden transition-all duration-300 ease-in-out ${
-                    openFaq === i ? "max-h-48 opacity-100" : "max-h-0 opacity-0"
-                  }`}
+                  className={`overflow-hidden transition-all duration-300 ease-in-out ${openFaq === i ? "max-h-48 opacity-100" : "max-h-0 opacity-0"
+                    }`}
                 >
                   <div className="px-5 pb-5 text-sm text-slate-500 leading-relaxed">
                     {faq.a}
@@ -1621,7 +1674,7 @@ const DentistryAbroad = () => {
         </div>
       </section>
 
-     
+
     </div>
   );
 };

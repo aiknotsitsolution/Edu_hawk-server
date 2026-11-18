@@ -1,0 +1,148 @@
+{
+  "id": "ielts",
+  "name": "IELTS (International English Language Testing System)",
+  "shortName": "IELTS",
+  "category": "English Online Exam",
+  "badge": "Most Widely Accepted English Test",
+  "seo": {
+    "title": "IELTS Exam for Study Abroad: Types, Syllabus, Registration & Validity | EduHawk Worldwide",
+    "description": "Complete guide to IELTS Academic, General Training, UKVI and IELTS Online for Indian students. Explore exam format, band score system (1–9), registration steps, 2-year validity, preparation tips, and university requirements.",
+    "keywords": "IELTS for studying abroad, IELTS Academic, IELTS General Training, IELTS for UKVI, IELTS Online, IELTS syllabus, IELTS exam pattern, IELTS registration India, IELTS score validity, IELTS band score, IELTS preparation tips, study abroad English test"
+  },
+  "hero": {
+    "badge": "Most Widely Accepted English Test",
+    "heroPara": "The International English Language Testing System (IELTS) is the world's most widely recognized English language proficiency test, accepted by more than 12,500 universities, employers, and immigration authorities across the UK, USA, Canada, Australia, Germany, Ireland, and New Zealand."
+  },
+  "stats": [
+    {
+      "label": "Test Duration",
+      "value": "2 Hours 45 Minutes"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "Band 1.0 to 9.0 (0.5 increments)"
+    },
+    {
+      "label": "Test Formats",
+      "value": "Computer-delivered, Paper-based, Online"
+    },
+    {
+      "label": "Score Validity",
+      "value": "2 Years from Test Date"
+    },
+    {
+      "label": "Target Band",
+      "value": "6.5 – 7.5 (Course Dependent)"
+    },
+    {
+      "label": "Approx. Fee",
+      "value": "₹17,000 approximately"
+    }
+  ],
+  "countries": [
+    "USA",
+    "UK",
+    "Canada",
+    "Australia",
+    "Germany",
+    "Ireland",
+    "France",
+    "Spain",
+    "Italy",
+    "Finland"
+  ],
+  "overview": [
+    "IELTS (International English Language Testing System) is among the most widely recognized English language proficiency tests accepted by employers, universities, and immigration departments globally.",
+    "Indian students who wish to study abroad may have to take the IELTS to prove their English language proficiency in academic and professional communication.",
+    "The entire examination evaluates four fundamental communicative proficiencies: Listening, Reading, Writing, and Speaking, replicating real-world academic scenarios in global university classrooms."
+  ],
+  "examTypes": [
+    {
+      "title": "IELTS Academic",
+      "desc": "Generally needed for students applying to colleges, undergraduate programs, master's degrees, and other higher education institutions abroad."
+    },
+    {
+      "title": "IELTS General Training",
+      "desc": "Mainly designed for employment, permanent residency, migration, and other non-academic vocational training routes."
+    },
+    {
+      "title": "IELTS for UKVI",
+      "desc": "An approved Secure English Language Test (SELT) specifically designated for direct student visas and immigration pathways into the United Kingdom."
+    },
+    {
+      "title": "IELTS Online",
+      "desc": "A remote, computer-based exam option available in select countries, accepted by participating universities subject to institutional admission policies."
+    }
+  ],
+  "sections": [
+    {
+      "name": "Listening",
+      "duration": "30 Minutes",
+      "timeExtra": "(+10 minutes transfer time for paper-based test)",
+      "measures": "Listening comprehension of spoken English across four recorded monologues and conversations with diverse global English accents (British, Australian, American, Canadian)."
+    },
+    {
+      "name": "Reading",
+      "duration": "60 Minutes",
+      "timeExtra": "(No additional transfer time)",
+      "measures": "Comprehension of written academic material through 3 long factual, descriptive, analytical, and scholarly articles taken from books, journals, magazines, and newspapers."
+    },
+    {
+      "name": "Writing",
+      "duration": "60 Minutes",
+      "timeExtra": "(2 Tasks: Task 1 - 20 mins; Task 2 - 40 mins)",
+      "measures": "Task 1 requires describing visual data, graphs, charts, or diagrams (minimum 150 words). Task 2 requires a formal discursive essay presenting an argument or solution (minimum 250 words)."
+    },
+    {
+      "name": "Speaking",
+      "duration": "11–14 Minutes",
+      "timeExtra": "(Face-to-face or video call with examiner)",
+      "measures": "Fluency, spoken communication, grammatical range, lexical accuracy, and pronunciation evaluated across three interactive parts: general introduction, topic card monologue, and two-way discussion."
+    }
+  ],
+  "preparationTips": [
+    "Get accustomed to diverse native English accents, including British, Australian, North American, and Irish speech patterns.",
+    "Read scholarly articles, peer-reviewed journals, international newspapers, and academic publications regularly.",
+    "Improve your vocabulary, idiomatic language range, grammar structure, and complex sentence construction.",
+    "Get comfortable writing essays that summarize factual data accurately and construct logically reasoned arguments under time constraints.",
+    "Engage in regular academic English conversations to build speaking fluency, natural confidence, and lexical precision.",
+    "Take official practice mock exams under timed conditions to get thoroughly accustomed to the test timing and computer/paper interface."
+  ],
+  "registrationSteps": [
+    "Visit an approved official booking center or the official IELTS booking portal (IDP India / British Council).",
+    "Select the appropriate IELTS test variant (Academic, General Training, or IELTS for UKVI).",
+    "Choose a convenient test date, authorized test location/venue, and format (Computer-delivered or Paper-based).",
+    "Fill in accurate personal, educational, and contact details matching your official passport.",
+    "Upload or enter valid identification information (valid international passport details as directed).",
+    "Pay the applicable test registration fee using secure digital payment options.",
+    "Review the booking confirmation receipt, download your admission notice, and adhere to all test-day guidelines."
+  ],
+  "validityDetails": "Many global universities and immigration authorities accept IELTS scores as valid for a period of two years from the test date. Score acceptability, required overall band, and minimum sub-section band cutoffs are determined by each receiving institution.",
+  "faqs": [
+    {
+      "q": "Do you need to take IELTS to study abroad?",
+      "a": "No single test is universal. While thousands of prestigious universities require IELTS, others accept alternative English tests (such as TOEFL, PTE Academic, or Duolingo English Test) or waive the requirement for students whose medium of instruction (MOI) was English."
+    },
+    {
+      "q": "Which IELTS exam should I take for university entrance?",
+      "a": "IELTS Academic is generally taken for undergraduate, master's, and doctoral university admissions. Students applying for UK Foundation or Pre-sessional pathways should specifically verify if IELTS for UKVI Academic is mandated."
+    },
+    {
+      "q": "What is the IELTS score required to study abroad?",
+      "a": "Required scores differ by university, degree level, and subject. Most undergraduate programs require an overall band of 6.0–6.5, while competitive master's, law, management, and medicine programs require 6.5–7.5 with no band less than 6.0."
+    },
+    {
+      "q": "How long does the IELTS score remain valid?",
+      "a": "IELTS test results remain valid for exactly two years from the examination date. Candidates should verify the score validity timelines and application deadlines of their target universities prior to booking."
+    }
+  ],
+  "countryContexts": {
+    "germany": "In Germany, English-taught bachelor's and master's programs at public universities typically require an IELTS band of 6.5 (minimum 6.0 in each section). IELTS is also accepted during APS certificate processing and German student visa applications.",
+    "france": "In France, top Grand Écoles and public universities offering English-taught Master of Science (MSc) and MBA programs accept IELTS Academic with minimum cutoffs of 6.0 to 7.0, exempting students from French language exams for English tracks.",
+    "ireland": "In Ireland, major universities such as Trinity College Dublin and University College Dublin require IELTS 6.5 overall (minimum 6.0 per component). IELTS is fully accepted for Irish Stamp 2 student visa processing.",
+    "usa": "In the United States, over 3,400 universities accept IELTS Academic alongside TOEFL, with top tier institutions requiring scores between 7.0 and 7.5.",
+    "uk": "In the United Kingdom, IELTS and IELTS for UKVI are the premier Secure English Language Tests (SELT) required for CAS letter issuance and Student Visa route entry.",
+    "australia": "In Australia, IELTS is universally accepted across the Group of Eight universities and for Australian Subclass 500 student visa compliance.",
+    "canada": "In Canada, IELTS Academic is universally required by universities and colleges, while IELTS General Training is the benchmark for Express Entry and PR."
+  }
+}

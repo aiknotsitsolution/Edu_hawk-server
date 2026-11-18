@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "title": "Aerospace Engineering in Switzerland for Indian Students",
+    "subtitle": "Study Aerospace Engineering in Switzerland for Indian Students"
+  },
+  "overview": [
+    "Study Aerospace Engineering in Switzerland for Indian Students",
+    "After Class 12, you can go for relevant engineering studies, but dedicated bachelor’s programs specifically called Aerospace Engineering are limited. Mechanical engineering is a common alternative basis for later aerospace specialization."
+  ],
+  "universities": [
+    {
+      "name": "For engineering foundations and advanced specialization one can look at strong institutions like ETH Zurich and EPFL. Compare the exact curriculum, admission requirements, language of instruction, and availability of aerospace",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 500 – CHF 1,500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "related research opportunities. 5. What possibilities does Aerospace Engineering offer in Switzerland? You might work on aircraft design, aerodynamics, propulsion, simulation, satellite systems, flight controls, or research and development. Your possibilities are determined by your qualifications, your practical experience and the entry requirements of employers and countries in which you want to work."
+    },
+    {
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+      "location": "Lausanne, Switzerland",
+      "fee": "CHF 780 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+      "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+    },
+    {
+      "name": "University of Zurich (UZH)",
+      "location": "Zurich, Switzerland",
+      "fee": "CHF 1,220 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+      "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+    },
+    {
+      "name": "University of Geneva",
+      "location": "Geneva, Switzerland",
+      "fee": "CHF 500 / Semester",
+      "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+      "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Guide",
+      "title": "Can I study Aerospace Engineering in Switzerland after 12th?",
+      "lead": "After Class 12, you can go for relevant engineering studies, but dedicated bachelor’s programs specifically called Aerospace Engineering are limited. Mechanical engineering is a common alternative basis for later aerospace specialization.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Guide",
+      "title": "How long will it take to become an aerospace engineer in Switzerland?",
+      "lead": "A typical route is a three-year bachelor’s degree followed by a specialized master’s degree, which can take another 1.5–2 years depending on the program.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Guide",
+      "title": "Does Aerospace Engineering require IELTS in Switzerland?",
+      "lead": "No, not at all. Many bachelor’s programs are mainly taught in German or French, so you may need the corresponding language certificate instead. English-language requirements vary according to program, especially at master’s level.",
+      "groups": []
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Swiss Universities",
+      "title": "What is the best Swiss university for aerospace studies?",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "For engineering foundations and advanced specialization one can look at strong institutions like ETH Zurich and EPFL. Compare the exact curriculum, admission requirements, language of instruction, and availability of aerospace",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 500 – CHF 1,500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "related research opportunities. 5. What possibilities does Aerospace Engineering offer in Switzerland? You might work on aircraft design, aerodynamics, propulsion, simulation, satellite systems, flight controls, or research and development. Your possibilities are determined by your qualifications, your practical experience and the entry requirements of employers and countries in which you want to work."
+        },
+        {
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
+          "location": "Lausanne, Switzerland",
+          "fee": "CHF 780 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
+          "desc": "EPFL is a dynamic European research institute celebrated for computer science, robotics, biomedical innovation, and global startup spin-offs."
+        },
+        {
+          "name": "University of Zurich (UZH)",
+          "location": "Zurich, Switzerland",
+          "fee": "CHF 1,220 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Dentistry_University_of_Zurich.png",
+          "desc": "The largest university in Switzerland, renowned for medical research, life sciences, banking and finance, and law."
+        },
+        {
+          "name": "University of Geneva",
+          "location": "Geneva, Switzerland",
+          "fee": "CHF 500 / Semester",
+          "img": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "image": "/uploads/study_abroad/switzerland/switz_Architecture_image1.png",
+          "desc": "Located near UN and WHO headquarters, world-famous for international relations, biomedical sciences, and multilateral diplomacy."
+        }
+      ]
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Aerospace Engineering in Switzerland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Aerospace Engineering in Switzerland for Indian Students",
+    "keywords": "Study in Switzerland, Top Swiss Universities, Edu Hawk Worldwide"
+  }
+}

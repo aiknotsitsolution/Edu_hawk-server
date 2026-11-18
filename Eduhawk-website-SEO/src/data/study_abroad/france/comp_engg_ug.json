@@ -1,0 +1,725 @@
+{
+  "hero": {
+    "title": "UG Computer Engineering in France",
+    "subtitle": "Studying \\\\undergraduate computer engineering in France\\\\ is a better option for \\\\international students\\\\ who want to make a career in \\\\software development, computer systems, artificial intelligence, cybersecurity, robotics, or information technology."
+  },
+  "overview": [
+    "There are a number of \\\\higher-education options\\\\ in France for students who want to study computing, digital technology and engineering. The programs mix theoretical fundamentals with programming, practical projects, lab work and industry experience.",
+    "\\\\Technical specialisations:\\\\ Students can study \\\\software engineering, computer networks, artificial intelligence, embedded systems and cyber security.\\\\",
+    "\\\\Learning through doing:\\\\ Depending on the program, students may work on projects, internships and group assignments. \\\\Qualifications recognised:\\\\"
+  ],
+  "universities": [
+    {
+      "name": "EPITA",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_EPITA.webp",
+      "image": "/uploads/study_abroad/france/france_EPITA.webp",
+      "desc": "School of Engineering and Computer Science : EPITA : School of Engineering and Computer Science\\\\ offers a three:year \\\\Bachelor of Science in Computer Science\\\\ entirely in English."
+    },
+    {
+      "name": "ESIEE Paris",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_Paris.webp",
+      "desc": "\\\\ESIEE Paris\\\\ is a graduate school of engineering offering education in \\\\computer science, data science, artificial intelligence, embedded systems\\\\ and other technical disciplines."
+    },
+    {
+      "name": "INSA Lyon",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "desc": "\\\\INSA Lyon\\\\ is an engineering school providing a selection of science and technology tracks. Students interested in studying \\\\computer engineering\\\\ should check the current admissions catalog for information on entry routes, available computing specializations, language of instruction, and whether the course accepts applications directly after secondary school."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Computer Engineering in France?",
+      "lead": "There are a number of \\\\higher-education options\\\\ in France for students who want to study computing, digital technology and engineering. The programs mix theoretical fundamentals with programming, practical projects, lab work and industry experience.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Key benefits are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Study abroad options:\\\\ Some institutions offer \\\\undergraduate computer science programs fully taught in English.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Technical specialisations:\\\\ Students can study \\\\software engineering, computer networks, artificial intelligence, embedded systems and cyber security.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Learning through doing:\\\\ Depending on the program, students may work on projects, internships and group assignments. \\\\Qualifications recognised:\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some programs lead to a \\\\national bachelor's degree or grade de licence\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligible engineering schools offer a \\\\CTI-accredited engineering diploma\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further study opportunities:\\\\ Graduates can apply for relevant \\\\master's degrees\\\\ or other advanced qualifications, subject to the admission requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International career exposure:\\\\ Students studying in France acquire technical and intercultural skills that employers seek."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Computer Engineering Courses in France",
+      "lead": "\\\\Computer engineering courses in France\\\\ are closely related to computer science, but tend to focus more on computer systems, hardware, electronics, and the integration of software and physical devices.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "At undergraduate level, popular choices are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Computer Science:\\\\ Programming, algorithms, data structures, software development, databases."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Computer Engineering:\\\\ Computer architecture, digital systems, embedded computing systems and software-hardware integration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Software Engineering:\\\\ Application development, software design, testing and project management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Artificial Intelligence:\\\\ Fundamentals of machine learning, data analysis, intelligent systems, programming."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cybersecurity:\\\\ Network security, secure software, digital risk, system protection."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Data Science\\\\: statistics, databases, programming, data processing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Networks & Telecommunications:\\\\ Computer networks, communication systems, distributed computing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Embedded Systems and Robotics:\\\\ Micro-controllers, sensors, automation, real-time software."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical duration of program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Licence or Bachelor's degree:\\\\ typically 3 years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Bachelor of Science in Computer Science:\\\\ typically 3 years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\French engineering school track:\\\\ normally 5 years after high school, depending on the entry route."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Universities for B.E. in Computer Engineering in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "EPITA",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_EPITA.webp",
+          "image": "/uploads/study_abroad/france/france_EPITA.webp",
+          "desc": "School of Engineering and Computer Science : EPITA : School of Engineering and Computer Science\\\\ offers a three:year \\\\Bachelor of Science in Computer Science\\\\ entirely in English."
+        },
+        {
+          "name": "ESIEE Paris",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_Paris.webp",
+          "desc": "\\\\ESIEE Paris\\\\ is a graduate school of engineering offering education in \\\\computer science, data science, artificial intelligence, embedded systems\\\\ and other technical disciplines."
+        },
+        {
+          "name": "INSA Lyon",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "desc": "\\\\INSA Lyon\\\\ is an engineering school providing a selection of science and technology tracks. Students interested in studying \\\\computer engineering\\\\ should check the current admissions catalog for information on entry routes, available computing specializations, language of instruction, and whether the course accepts applications directly after secondary school."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility for Computer Engineering UG in France",
+      "lead": "International candidates generally need to meet the following \\\\computer engineering eligibility criteria\\\\:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Possess a secondary school diploma equivalent to the French baccalaureate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Good academic record, especially in \\\\mathematics\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Physics or Science subjects as per the program requirement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English proficiency\\\\ for English-taught courses or \\\\French proficiency\\\\ for French-taught courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Any program specific entrance test, interview or additional assessment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you are applying from India, \\\\Class 12 with mathematics\\\\ is frequently relevant for undergraduate admissions in computing and engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Different courses in different institutions have different compulsory subjects and minimum marks."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission requirements for UG Computer Engineering in France",
+      "lead": "The exact \\\\admission requirements for computer engineering in France\\\\ will vary depending on the institution and the degree. Applicants may be asked to provide:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Class 10 and Class 12 marksheets or transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Diploma of Secondary School Completion."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passport or valid ID"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of proficiency in English or French, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letter of motivation or statement of purpose."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV (if required). - Letters of recommendation (if required)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form and proof of payment of application fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Any other document required by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Selective schools may also consider your maths preparation, academic performance, motivation and suitability for the program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of studying UG in Computer Engineering in France",
+      "lead": "The overall \\\\cost of studying computer engineering in France\\\\ depends on the choice of either a public university, a public engineering school, or a private institute.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Tuition fees for public institutions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For the \\\\2026–2027 academic year\\\\, Campus France publishes the following differentiated registration fees for non-EU students subject to the relevant national rules:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor degree \\| €2,902 \\| \\| Master's degree \\| €3,950 \\| Doctorate degree \\| 398 €"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The normal published annual rate for an eligible French/EU-category undergraduate student is €178."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For eligible students on covered engineering-degree courses the normal rate is €630."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The actual fees charged will depend on the qualification, the institution, the student status and any exemption that may apply. These rates aren't the same for all schools."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Tuition for private school\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private schools can be much more expensive than public schools."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For example, \\\\EPITA\\\\ quotes a total program price of €30,250 for its \\\\three-year BSc Computer Science\\\\ for candidates who do not hold a French \\baccalauréat\\ and are applying via international admissions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should look forward to:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Housing and communal services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food & Groceries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Local transport Medical and insurance costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books, equipment and personal costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Visa and residency fees\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of living in France\\\\ It all depends on the city and the type of accommodation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission procedure UG in Computer Engineering",
+      "lead": "The \\\\procedure to get admission in computer engineering in France for undergraduate\\\\ usually comprises of the following steps:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Select a specialization:\\\\ Determine if you want to pursue \\\\computer science, computer engineering, software development, AI or embedded systems\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist universities:\\\\ Compare the qualifications, language of instruction, tuition and admission requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\See how to apply:\\\\ Find out if the school takes direct applications or if you need to use an official admissions platform or the \\\\Études en France procédure\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Prepare your documents:\\\\ Gather your academic transcripts, passport information, language test results, and any necessary motivation letter."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Submit Application:\\\\ Fill out the application form and submit documents before the deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Go through the selection process:\\\\ Take any entrance exams that may be required or attend an interview."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Accept the offer:\\\\ Follow the instructions of the university to confirm and enroll."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Student Visa Application:\\\\ Once admitted, follow the right \\\\French student visa process\\."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and Recognition of Computer Engineering in France",
+      "lead": "The \\\\accreditation of computer engineering programs in France\\\\ is an important factor when deciding between a bachelor's program and an engineering-school qualification.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The \\\\Commission des titres d'ingénieur (CTI)\\\\ assesses qualifying engineering programs and authorizes institutions to award the French \\diplôme d'ingénieur."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A three-year bachelor degree with the \\grade de licence\\ is not the same as a five-year engineering degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students must: Before registration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the exact degree awarded at graduation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check whether the engineering diploma is \\\\CTI-accredited\\\\ (if that's what they're after)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check that the qualification is accepted for admission to their chosen master's program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the professional or degree recognition requirements in the country where they plan to work."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Career Opportunities and Salary after UG in Computer Engineering in France",
+      "lead": "\\\\Computer engineering graduates in France\\\\ are able to pursue technology professions in France and abroad.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "\\\\Possible career paths in computer engineering\\\\ include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Software engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Junior Software Developer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Developer of web or apps."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Network or systems administrator."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "QA, Software Testing Engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cybersecurity analyst"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Data analysis."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded systems developer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "IT systems support professional."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pay will depend on the job, the company, the location, your degree level, and your experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should research the current job advertisements and salary surveys for their chosen specialization and not rely on one fixed estimate of salary."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed for UG Computer Engineering in France",
+      "lead": "The following \\\\documents required for computer engineering admission in France\\\\ should be prepared by candidates according to the school of their choice requirements:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Passport valid."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marksheet and certificate of class 10.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "12th marksheet and completion certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts and any grading explanation needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English or French language test results\\\\, if applicable"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letter of motivation or purpose statement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV available on request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation if asked for."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Translations of documents that require certification."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Any other documents required by the institution or admissions site."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After an offer, students may need to provide further documents for \\\\French student visa processing\\\\, financial evidence, accommodation and final enrollment."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Indian students do computer engineering at undergraduate level in France?",
+      "a": "Yes. \\\\Indian students can study undergraduate computer engineering in France\\\\ at eligible bachelor's and engineering-school programs, if they meet the academic, language and application criteria."
+    },
+    {
+      "q": "How many years is an undergraduate computer engineering degree in France?",
+      "a": "A \\\\Bachelor's Degree in Computer Science or related field\\\\ is usually three years. The \\\\traditional path\\\\ of an engineering school is usually five years after secondary school."
+    },
+    {
+      "q": "\\\\Q3. Are the undergraduate computer engineering programs in France taught in English?\\\\",
+      "a": "Some are. \\\\EPITA offers a Bachelor of Science in Computer Science for three years taught in English. Many other computing undergraduate programs are taught in French so check carefully the language of instruction."
+    },
+    {
+      "q": "\\\\Q4. What is the cost of a bachelor's degree in computer engineering in France?",
+      "a": "Fees vary by institution. For \\\\2026–2027\\\\The published differentiated fee for students outside the EU and under the rules of the national public institution is €2,902 per year at the bachelor level. Private school programs may be significantly more. Check with the institution for the current fee schedule."
+    },
+    {
+      "q": "\\\\Q5. What is the difference between computer science and computer engineering?",
+      "a": "\\\\Computer science\\\\ is more about programming, software, algorithms and theory of computing in general. \\\\Computer engineering\\\\ may be more focused on computer architecture, embedded systems, electronics, and hardware-software integration. This varies between universities so look carefully at the course modules."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
+      "a": "\\\\Edu Hawk worldwide Consultancy\\\\ can help students in finding suitable universities to study, knowing \\\\computer engineering admission requirements\\\\, organizing application documents and planning their \\\\study-abroad journey. Students are responsible for verifying academic, financial, immigration and licensing requirements with the appropriate official bodies."
+    }
+  ],
+  "seo": {
+    "title": "UG Computer Engineering in France | Edu-Hawk Worldwide",
+    "description": "There are a number of \\\\higher-education options\\\\ in France for students who want to study computing, digital technology and engineering. The programs mix theo",
+    "keywords": "Study Computer Engineering in France for Indian Students, Computer Engineering Courses in France for International Students, Best Universities for Computer Engineering in France, Undergraduate Computer Science Courses in France, Bachelor of Science in Computer Science in France, Computer Engineering Eligibility Requirements in France, Computer Engineering Admission Requirements for Indian Students, Computer Engineering Tuition Fees in France 2026–2027, Cost of Studying Computer Engineering in France, English-Taught Computer Science Programmes in France, Software Engineering Undergraduate Courses in France, Artificial Intelligence and Cybersecurity Courses in France, Embedded Systems and Robotics Courses in France, CTI Accredited Engineering Schools in France, Computer Engineering Jobs and Career Opportunities in France, <"
+  }
+}

@@ -1,0 +1,606 @@
+{
+  "hero": {
+    "title": "Chemical Engineering UG France",
+    "subtitle": "France is an attractive destination for students interested in Study chemical engineering in France due to its strong \\\\chemical, pharmaceutical, energy, materials and environmental industries\\."
+  },
+  "overview": [
+    "Study Chemical engineering in France can offer a mix of scientific knowledge, laboratory training, industrial experience and possibilities for further education.",
+    "\\\\Strong industrial links\\\\: France has developed \\\\chemical, pharmaceutical, energy, food-processing and materials industries\\.",
+    "\\\\Hands-on learning:\\\\ \\\\Many engineering programs include laboratory work, industrial projects, internships and work-study options\\."
+  ],
+  "universities": [
+    {
+      "name": "Ecole Nationale Supérieure de Chimie de Montpellier (ENSCM)",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "\\\\ENSCM\\\\ is a specialist school in \\\\chemistry and chemical engineering\\. It is attached to the University of Montpellier. Its engineering curriculum includes \\\\materials, environmental chemistry, health:related chemistry and sustainable development\\."
+    },
+    {
+      "name": "École Nationale Supérieure des Industries Chimiques (ENSIC), Université de Lorraine",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_ENSIC.webp",
+      "image": "/uploads/study_abroad/france/france_ENSIC.webp",
+      "desc": "Based in Nancy, \\\\ENSIC\\\\ trains in \\\\chemical and process engineering\\. Its curriculum covers process, energy and environmental subjects, innovative products and biotechnologies. Toulouse INSA : \\\\INSA Toulouse\\\\ proposes an engineering curriculum in \\\\process engineering and environmental engineering\\. The topics covered include chemical reactions, separation processes, thermodynamics, process simulation and industrial applications."
+    },
+    {
+      "name": "Sorbonne University",
+      "location": "Paris, France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Chemical Engineering in France?",
+      "lead": "Study Chemical engineering in France can offer a mix of scientific knowledge, laboratory training, industrial experience and possibilities for further education.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "The main benefits are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Strong industrial links\\\\: France has developed \\\\chemical, pharmaceutical, energy, food-processing and materials industries\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Hands-on learning:\\\\ \\\\Many engineering programs include laboratory work, industrial projects, internships and work-study options\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Specialisation choices:\\\\ Students can explore \\\\chemical processes, reaction engineering, bioprocessing, sustainable chemistry and environmental technologies\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International exposure:\\\\ Some institutions offer exchange programs, international partnerships and opportunities to study or work abroad."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Other study opportunities: A bachelor's degree can lead to a route to a specialized engineering qualification or to masters-level study, depending on entry requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should also think about the \\\\language of instruction. Preparing the language may be essential, since the majority of the undergraduate degrees offered by French public institutions are mainly taught in French."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Chemical Engineering courses in France",
+      "lead": "The precise name of the program may differ from the term \"Chemical Engineering\" used in other countries. \\\\ chemical engineering courses in France\\\\ are:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Chemical Engineering:\\\\ It is the branch of engineering that deals with industrial chemical processes, plant operations, reaction systems and process design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Process Engineering and Environment:\\\\ Process simulation, separation methods, energy efficiency, environmental protection."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industrial Chemistry:\\\\ Chemistry, materials, industrial production and laboratory applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Bachelor's Degree in Chemistry:\\\\ A three-year program of study that may prepare students for advanced study in chemical engineering or related fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\BUT Chemistry:\\\\ A three-year \\\\University Bachelor of Technology\\\\ program, focusing on applied chemistry, practical skills and industrial applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students are advised to check the qualification, duration, language and progression routes offered by each program before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Chemical Engineering UG Universities/Colleges in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Ecole Nationale Supérieure de Chimie de Montpellier (ENSCM)",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "\\\\ENSCM\\\\ is a specialist school in \\\\chemistry and chemical engineering\\. It is attached to the University of Montpellier. Its engineering curriculum includes \\\\materials, environmental chemistry, health:related chemistry and sustainable development\\."
+        },
+        {
+          "name": "École Nationale Supérieure des Industries Chimiques (ENSIC), Université de Lorraine",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_ENSIC.webp",
+          "image": "/uploads/study_abroad/france/france_ENSIC.webp",
+          "desc": "Based in Nancy, \\\\ENSIC\\\\ trains in \\\\chemical and process engineering\\. Its curriculum covers process, energy and environmental subjects, innovative products and biotechnologies. Toulouse INSA : \\\\INSA Toulouse\\\\ proposes an engineering curriculum in \\\\process engineering and environmental engineering\\. The topics covered include chemical reactions, separation processes, thermodynamics, process simulation and industrial applications."
+        },
+        {
+          "name": "Sorbonne University",
+          "location": "Paris, France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Study UG Chemical Engineering in France",
+      "lead": "Eligibility to study chemical engineering in France depends on the institution, the program, and the qualification you are seeking. You would expect to see things like:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Secondary school graduation, equivalent to the French baccalaureate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Strong academic background in \\\\mathematics, chemistry and physics\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Good marks in science subjects relevant to the course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "French language proficiency\\\\ for programs offered in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language proficiency\\\\ where the program is taught in English."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional entrance exams, interviews or competitive selection for some engineering schools."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For \\\\students applying from India\\\\Class 12 with science subjects may be relevant for admission to a bachelor's-level program. However, fulfilling the general academic requirements does not automatically qualify you for admission into a French engineering school."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission requirements",
+      "lead": "\\\\Admission requirements for chemical engineering in France\\\\ may look at your academic record, subject preparation, language ability and the selectivity of the program.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Common requirements are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "A recognized secondary school certificate for first year entry to an undergraduate degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Good results in mathematics and chemistry (often supported by physics)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "French proficiency, often B2 for programs taught in French, where specified."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of an English language test if the program is delivered in English."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts and, if applicable, translated documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\statement of purpose or motivation letter\\\\ for particular programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An interview or entrance test where appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should check the official program page for accepted language tests, minimum scores and application deadlines."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Study Chemical Engineering in France",
+      "lead": "The \\\\cost of studying chemical engineering in France\\\\ varies according to the institution, degree structure, nationality, exemption status and city of residence.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For the \\\\academic year 2026–2027\\\\, Campus France indicates the following annual tuition benchmarks for public institutions, according to the national fee rules applicable:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Public university Licence – eligible French and EU students \\",
+              "d": "€178"
+            },
+            {
+              "t": "Public university Licence – non-EU students subject to differentiated fees \\",
+              "d": "€2,902"
+            },
+            {
+              "t": "Eligible French and EU students \\",
+              "d": "€630"
+            },
+            {
+              "t": "Private institutions and specialized schools \\",
+              "d": "Varies by institution"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should also budget for \\\\accommodation, food, transport, health-related expenses, books, insurance\\\\ where applicable and other living costs. Costs vary greatly from city to city."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Scholarships, institutional financial aid and eligible work-study programs\\\\ can help to ease the financial burden, depending on their individual conditions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure",
+      "lead": "International applicants should follow the admission procedure for chemical engineering in France as specified for their nationality, country of residence and intended program.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Programme selection:\\\\ Choose if you want to study for a bachelor's degree, BUT, a preparatory course or a qualification from an engineering school."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Check entry requirements:\\\\ Investigate academic entry requirements, language of instruction, fees and recognition of qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check the application platform\\\\: Depending on the circumstances, applications can be submitted via \\\\Études en France, Parcours Up\\\\ or the institution's own application portal."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Prepare documents:\\\\ Gather all transcripts, certificates, language results and any required motivation letter."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Apply:\\\\ Complete the application form by the deadline and pay the application fee, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Final interview rounds:\\\\ Attend interviews or entrance tests if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Accept the Offer:\\\\ Follow the school's instructions for enrollment and tuition payments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Arrange immigration formalities:\\\\ If necessary, get the right \\\\French student visa\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Recognition and Accreditation",
+      "lead": "Before registering, students are advised to check the status of the \\\\chemical engineering qualification in France\\\\ they want to obtain it.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Check that the \\Diplôme d'ingénieur\\ is authorized and accredited by the \\\\Commission des titres d'ingénieur (CTI)\\\\ for \\\\French engineering education\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For bachelor level qualifications, verify if the program offers a recognized national degree or an officially recognized bachelor level grade."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "See also:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The exact title of the degree and awarding institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\ECTS credits and duration of the programme\\."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Internship and Industrial training requirements."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possibility of studies in France or abroad."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional recognition requirements in the country you plan to work in."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost and Employment Opportunities",
+      "lead": "\\\\In France, chemical engineering graduates\\\\ are employed in \\\\manufacturing, pharmaceuticals, energy, food processing, materials, environmental services and industrial research\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Possible job titles include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Process or chemical engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Manufacturing/production engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Process development assistant or engineer\\\\, based on your experience."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Quality control or quality assurance professional."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expert in environment and sustainability."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research or laboratory technician."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Materials or industrial chemistry specialist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\engineering diploma or master's level qualification\\\\ is required for some engineering positions and technical and laboratory jobs might have other entry qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Salary expectations:\\\\ Salary expectations vary depending on the qualification, experience, employer, location, industry and language skills."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed",
+      "lead": "Here are the \\\\documents typically needed for undergraduate chemical engineering applications in France\\\\:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A valid passport."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Secondary school certificate or equivalent qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificates and transcripts of class 10 and 12, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of preparation in \\\\math, chemistry and physics.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of language tests in French or English, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Curriculum Vitae if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letter of motivation or statement of purpose, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If needed, letters of recommendation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certified translations of documents not accepted in original language."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application forms and any applicable application fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further financial, accommodation and visa documentation at the appropriate time."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Requirements vary by institution and by type of applicant. Only submit the documents required by the official admission portal."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I do chemical engineering in France after the 12th?",
+      "a": "Yes, you can apply to eligible \\\\bachelor's programs, programs or preparatory pathways in science. The decision to allow direct entry to a specific engineering school is based on the admission rules of that school."
+    },
+    {
+      "q": "How many years does it take to study chemical engineering in France?",
+      "a": "A \\\\bachelor's degree programme\\\\ usually takes three years. The French engineering qualification is generally a longer track, usually five years of higher education after secondary school."
+    },
+    {
+      "q": "Is French necessary to study chemistry engineering in France?",
+      "a": "Many undergraduate programs are taught in French and may require proof of \\\\French language proficiency. Some programs or pathways have English taught components, so check the language requirements for each course."
+    },
+    {
+      "q": "How much do you pay for tuition fees for chemical engineering in France?",
+      "a": "Fees vary depending on institution and qualification. \\\\For 2026-2027\\\\ The published Licence reference for public universities is \\\\€178 per year for eligible French and EU students\\\\ and \\\\€2,902 for non-EU students subject to differentiated fees. Engineering schools may charge different amounts, or be exempt."
+    },
+    {
+      "q": "What can I do with a chemical engineering degree after graduation?",
+      "a": "As a graduate you can go into \\\\process engineering, production, quality assurance, environmental management, industrial chemistry or research support\\\\ Some specialist engineering roles will require further study or an accepted engineering qualification."
+    }
+  ],
+  "seo": {
+    "title": "Chemical Engineering UG France | Edu-Hawk Worldwide",
+    "description": "Study Chemical engineering in France can offer a mix of scientific knowledge, laboratory training, industrial experience and possibilities for further education",
+    "keywords": "Study Chemical Engineering in France, Chemical Engineering courses in France, Top Chemical Engineering UG Universities/Colleges in France, Bachelor's Degree in Chemical Engineering in France, Chemical Engineering Eligibility Requirements in France, Chemical Engineering Admission Requirements for Indian Students, Chemical Engineering Tuition Fees in France 2026–2027, Cost of Studying Chemical Engineering in France, English-Taught Chemical Engineering Programmes in France, Chemical Engineering and Process Engineering Courses in France, Chemical Engineering Scholarships for International Students in France, Chemical Engineering Jobs and Career Opportunities in France, <"
+  }
+}

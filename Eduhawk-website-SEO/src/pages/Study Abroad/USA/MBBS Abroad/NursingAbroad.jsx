@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import SeoHead from "../../../../component/SeoHead.jsx";
+import nursingData from "../../../../data/study_abroad/usa/nursing.json";
 
 const NursingAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -42,12 +44,14 @@ const NursingAbroad = () => {
     return () => observer.disconnect();
   }, []);
 
-  const stats = [
-    { label: "Programs", value: "BSc Nursing, GNM, MSc Nursing & Allied" },
-    { label: "Countries", value: "12+ destinations with good recognition" },
-    { label: "Support", value: "End-to-end guidance from profile to arrival" },
-    { label: "Approach", value: "Transparent fees, honest counselling & outcome focus" },
-  ];
+  const stats = (nursingData?.stats && nursingData.stats.length > 0)
+    ? nursingData.stats.map((s) => ({ label: s.l, value: s.n }))
+    : [
+        { label: "Programs", value: "BSc Nursing, GNM, MSc Nursing & Allied" },
+        { label: "Countries", value: "12+ destinations with good recognition" },
+        { label: "Support", value: "End-to-end guidance from profile to arrival" },
+        { label: "Approach", value: "Transparent fees, honest counselling & outcome focus" },
+      ];
 
   const features = [
     {
@@ -126,13 +130,15 @@ const NursingAbroad = () => {
     "Specialised Nursing Programs",
   ];
 
-  const topUniversities = [
-    "University of Pennsylvania",
-    "Johns Hopkins University",
-    "Duke University",
-    "University of California, San Francisco",
-    "University of Washington",
-  ];
+  const topUniversities = (nursingData?.universities && nursingData.universities.length > 0)
+    ? nursingData.universities.map((u) => u.name)
+    : [
+        "University of Pennsylvania",
+        "Johns Hopkins University",
+        "Duke University",
+        "University of California, San Francisco",
+        "University of Washington",
+      ];
 
   const comparisonPoints = [
     "Nursing program curriculum",
@@ -343,58 +349,66 @@ const NursingAbroad = () => {
     },
   ];
 
-  const faqs = [
-    {
-      q: "Is NEET required for Nursing abroad?",
-      a: "No. NEET is not mandatory for Nursing courses abroad. Admission is mainly based on Class 12 marks and English proficiency scores.",
-    },
-    {
-      q: "Which countries are best for Nursing abroad?",
-      a: "Philippines, Germany, Canada, UK and Australia are among the most preferred destinations. Philippines is popular for affordable fees, while Germany, Canada and UK offer strong job opportunities after graduation.",
-    },
-    {
-      q: "What is the total cost of Nursing abroad?",
-      a: "Total cost usually ranges between ₹12–45 lakhs depending on the country and university. Philippines is more affordable, while Canada, UK and Australia are higher. We provide a clear cost sheet before you apply.",
-    },
-    {
-      q: "Can I work while studying Nursing abroad?",
-      a: "Yes. Most popular countries allow part-time work (usually 20 hours per week during studies). This helps students manage living expenses.",
-    },
-    {
-      q: "When should I start the process?",
-      a: "Ideally 8–12 months before the intake. Early application helps with better university options, scholarships and smoother visa processing.",
-    },
-    {
-      q: "Can Indian students study nursing in the USA?",
-      a: "Yes. Indian students can apply to eligible nursing programs in the USA if they meet the academic, English-language and university-specific admission requirements.",
-    },
-    {
-      q: "After 12th grade, can I pursue a BSN in the United States?",
-      a: "Yes, eligible international students can explore Bachelor of Science in Nursing (BSN) programs after Class 12. However, admission requirements, prerequisite subjects and international student eligibility vary by university.",
-    },
-    {
-      q: "Is NCLEX-RN required to work as a nurse in the USA?",
-      a: "Generally, candidates seeking Registered Nurse licensure need to meet the relevant state Board of Nursing requirements and pass the NCLEX-RN. Licensing requirements vary by state.",
-    },
-    {
-      q: "What is the average nursing salary in USA?",
-      a: "The U.S. Bureau of Labor Statistics reported a median annual wage of $97,550 for Registered Nurses in May 2025. Actual salary depends on location, experience, specialty, employer and work setting.",
-    },
-    {
-      q: "Can Indian nurses work in the USA?",
-      a: "Yes, Indian-trained nurses may pursue U.S. nursing licensure, but an Indian nursing qualification does not automataically provide authorization to practise in the USA. Candidates must satisfy the requirements of the relevant state Board of Nursing and complete the applicable licensing process.",
-    },
-    {
-      q: "How can Edu Hawk worldwide help me study abroad?",
-      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
-    },
-  ];
+  const faqs = (nursingData?.faq && nursingData.faq.length > 0)
+    ? nursingData.faq.map((f) => ({ q: f.question, a: f.answer }))
+    : [
+        {
+          q: "Is NEET required for Nursing abroad?",
+          a: "No. NEET is not mandatory for Nursing courses abroad. Admission is mainly based on Class 12 marks and English proficiency scores.",
+        },
+        {
+          q: "Which countries are best for Nursing abroad?",
+          a: "Philippines, Germany, Canada, UK and Australia are among the most preferred destinations. Philippines is popular for affordable fees, while Germany, Canada and UK offer strong job opportunities after graduation.",
+        },
+        {
+          q: "What is the total cost of Nursing abroad?",
+          a: "Total cost usually ranges between ₹12–45 lakhs depending on the country and university. Philippines is more affordable, while Canada, UK and Australia are higher. We provide a clear cost sheet before you apply.",
+        },
+        {
+          q: "Can I work while studying Nursing abroad?",
+          a: "Yes. Most popular countries allow part-time work (usually 20 hours per week during studies). This helps students manage living expenses.",
+        },
+        {
+          q: "When should I start the process?",
+          a: "Ideally 8–12 months before the intake. Early application helps with better university options, scholarships and smoother visa processing.",
+        },
+        {
+          q: "Can Indian students study nursing in the USA?",
+          a: "Yes. Indian students can apply to eligible nursing programs in the USA if they meet the academic, English-language and university-specific admission requirements.",
+        },
+        {
+          q: "After 12th grade, can I pursue a BSN in the United States?",
+          a: "Yes, eligible international students can explore Bachelor of Science in Nursing (BSN) programs after Class 12. However, admission requirements, prerequisite subjects and international student eligibility vary by university.",
+        },
+        {
+          q: "Is NCLEX-RN required to work as a nurse in the USA?",
+          a: "Generally, candidates seeking Registered Nurse licensure need to meet the relevant state Board of Nursing requirements and pass the NCLEX-RN. Licensing requirements vary by state.",
+        },
+        {
+          q: "What is the average nursing salary in USA?",
+          a: "The U.S. Bureau of Labor Statistics reported a median annual wage of $97,550 for Registered Nurses in May 2025. Actual salary depends on location, experience, specialty, employer and work setting.",
+        },
+        {
+          q: "Can Indian nurses work in the USA?",
+          a: "Yes, Indian-trained nurses may pursue U.S. nursing licensure, but an Indian nursing qualification does not automataically provide authorization to practise in the USA. Candidates must satisfy the requirements of the relevant state Board of Nursing and complete the applicable licensing process.",
+        },
+        {
+          q: "How can Edu Hawk worldwide help me study abroad?",
+          a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
+        },
+      ];
 
   return (
     <div
       ref={pageRef}
       className="nursing-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
+      <SeoHead
+        title="Study Nursing Abroad for Indian Students | Edu Hawk"
+        description="Nursing is one of the most in-demand professions worldwide. Edu Hawk helps you choose nursing courses abroad with clear costs and complete admission support."
+        path="/study-abroad/usa/nursing"
+        ogType="website"
+      />
       <style>{`
         @keyframes nursing-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -516,15 +530,11 @@ const NursingAbroad = () => {
                 </span>{" "}
                 with confidence
               </h1>
-              
-              <p className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed">
-                Nursing is one of the most in-demand professions worldwide. Studying Nursing abroad opens doors to better clinical training, international exposure and strong career opportunities.
-              </p>
-              
+
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                Edu Hawk helps you choose the right country and university, understand real costs, and complete the entire admission + visa process with complete transparency.
+                Studying Nursing abroad opens doors to advanced clinical training, global healthcare exposure, and high-demand international career opportunities, backed by Edu Hawk's end-to-end admission, university selection, and visa support.
               </p>
-              
+
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
                   href="#consult"
@@ -546,7 +556,9 @@ const NursingAbroad = () => {
                 src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
                 alt="Nursing students abroad"
                 className="nursing-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 2x"
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 1000+ Indian students
               </div>
@@ -621,9 +633,12 @@ const NursingAbroad = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80"
+                loading="lazy"
                 alt="Nursing education abroad"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80 1x, https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-indigo-600 to-violet-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">12–45L</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
@@ -755,6 +770,96 @@ const NursingAbroad = () => {
                     {prog}
                   </div>
                 ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================= DESTINATIONS ================= */}
+      <section className="py-16 sm:py-20" id="destinations">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="mb-8">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
+              Where to study
+            </div>
+            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
+              Popular destinations for Nursing
+            </h2>
+            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+              We help you compare fees, clinical exposure, job opportunities, safety and recognition so you can choose the right country.
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-2.5 mb-10">
+            {destinations.map((d, i) => (
+              <span
+                key={i}
+                className={`inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium border ${
+                  d.highlight
+                    ? "bg-indigo-50 border-indigo-200 text-indigo-700"
+                    : "bg-white border-slate-200 text-slate-800"
+                }`}
+              >
+                {d.highlight && (
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" className="mr-1.5">
+                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                )}
+                {d.name}
+              </span>
+            ))}
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
+              <img
+                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
+                alt="Study Nursing in Philippines"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  srcSet="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
+                <div>
+                  <h4 className="text-white font-semibold text-lg">Philippines</h4>
+                  <p className="text-white/80 text-sm">Most popular & affordable</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
+              <img
+                src="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80"
+                alt="Study Nursing in Germany"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  srcSet="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80 1x, https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
+                <div>
+                  <h4 className="text-white font-semibold text-lg">Germany</h4>
+                  <p className="text-white/80 text-sm">Strong job opportunities</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
+              <img
+                src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
+                alt="Study Nursing in Canada"
+                loading="lazy"
+                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  srcSet="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80 1x, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
+                <div>
+                  <h4 className="text-white font-semibold text-lg">Canada</h4>
+                  <p className="text-white/80 text-sm">High demand & PR pathway</p>
+                </div>
               </div>
             </div>
           </div>
@@ -1231,89 +1336,7 @@ const NursingAbroad = () => {
         </div>
       </section>
 
-      {/* ================= DESTINATIONS ================= */}
-      <section className="py-16 sm:py-20" id="destinations">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-8">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Where to study
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-              Popular destinations for Nursing
-            </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
-              We help you compare fees, clinical exposure, job opportunities, safety and recognition so you can choose the right country.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap gap-2.5 mb-10">
-            {destinations.map((d, i) => (
-              <span
-                key={i}
-                className={`inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium border ${
-                  d.highlight
-                    ? "bg-indigo-50 border-indigo-200 text-indigo-700"
-                    : "bg-white border-slate-200 text-slate-800"
-                }`}
-              >
-                {d.highlight && (
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" className="mr-1.5">
-                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                )}
-                {d.name}
-              </span>
-            ))}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
-                alt="Study Nursing in Philippines"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
-                <div>
-                  <h4 className="text-white font-semibold text-lg">Philippines</h4>
-                  <p className="text-white/80 text-sm">Most popular & affordable</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80"
-                alt="Study Nursing in Germany"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
-                <div>
-                  <h4 className="text-white font-semibold text-lg">Germany</h4>
-                  <p className="text-white/80 text-sm">Strong job opportunities</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
-                alt="Study Nursing in Canada"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
-                <div>
-                  <h4 className="text-white font-semibold text-lg">Canada</h4>
-                  <p className="text-white/80 text-sm">High demand & PR pathway</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      
 
       {/* ================= PROCESS ================= */}
       <section className="py-16 sm:py-20 bg-slate-50" id="process">

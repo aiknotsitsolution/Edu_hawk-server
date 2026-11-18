@@ -1,0 +1,538 @@
+{
+  "hero": {
+    "title": "Aerospace Engineering Undergraduate in France",
+    "subtitle": "France is a popular destination for students interested in studying aerospace engineering, aviation technology, aircraft design, propulsion systems and space exploration."
+  },
+  "overview": [
+    "In France you can study \\\\aerodynamics, aircraft systems, propulsion, materials and flight mechanics, space technology\\. Its aerospace sector comprises aircraft manufacturers, engine developers, satellite companies, research organizations and aviation service providers.",
+    "\\\\Major reasons to opt for aerospace engineering in France are:\\\\",
+    "Specialised education:\\\\ Students can study \\\\aircraft design, aerospace structures, propulsion, avionics and space systems.\\\\"
+  ],
+  "universities": [
+    {
+      "name": "The following institutions offer relevant \\\\undergraduate/engineering",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "school pathways\\\\: Lengths of program, degree status, language and route of entry all vary."
+    },
+    {
+      "name": "INSA Lyon",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+      "desc": "\\\\INSA Lyon\\\\ has a \\\\International Bachelor's degree in Mechanical, Materials and Aerospace Engineering\\. The program is taught in English and combines mechanical engineering with materials and aerospace related subjects. It is a \\\\3:year pathway at the bachelor's level\\\\ that gives the grade of licence."
+    },
+    {
+      "name": "IPSA",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_IPSA.webp",
+      "image": "/uploads/study_abroad/france/france_IPSA.webp",
+      "desc": "Institut Polytechnique des Sciences Avancées : \\\\IPSA : Institut Polytechnique des Sciences Avancées\\\\ is specialized in \\\\aeronautics and space engineering\\. It offers a three:year bachelor program in aerospace and a separate five:year engineering program. ELISA Aerospace - \\\\ELISA Aerospace\\\\ offers specialized training in \\\\aeronautical and space engineering\\\\, with a preparatory pathway and an engineering qualification. Its curriculum is applicable to \\\\aircraft design, aerospace systems, embedded technologies and engineering applications\\."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Aerospace Engineering in France?",
+      "lead": "In France you can study \\\\aerodynamics, aircraft systems, propulsion, materials and flight mechanics, space technology\\. Its aerospace sector comprises aircraft manufacturers, engine developers, satellite companies, research organizations and aviation service providers.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Major reasons to opt for aerospace engineering in France are:\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialised education:\\\\ Students can study \\\\aircraft design, aerospace structures, propulsion, avionics and space systems.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industry exposure:\\\\ Engineering programs often have lab work, projects, internships, and industry partnerships."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International environment:\\\\ Some institutions provide \\\\courses in English\\\\ and the chance for international exchange."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Various study tracks:\\\\ Students may choose a \\\\bachelor level programme\\\\ or a longer \\\\engineering-school track\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career flexibility:\\\\ \\\\Mechanical engineering, automotive systems, robotics, simulation and advanced manufacturing\\\\ are also areas where aerospace skills can be relevant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace engineering is a demanding discipline that combines \\\\mathematics, physics, mechanics, computing and engineering design\\."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Aerospace Engineering Courses in France",
+      "lead": "Course names and the qualifications they lead to are different in French institutions.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical \\\\aerospace engineering courses in France\\\\ are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Aerospace Engineering:\\\\ Design of aircraft, aerodynamics, flight mechanics, structures and propulsion.",
+            "\\\\Aeronautical Engineering:\\\\ Technologies related to aircraft systems, flight performance, aircraft construction, and maintenance.",
+            "\\\\Mechanical, Materials and Aerospace Engineering:\\\\ Mechanical design, materials science, aerospace structures and manufacturing.",
+            "\\\\Autonomous Aeronautical Systems:\\\\ Unmanned aerial systems, autonomous systems, control technologies and applications.",
+            "\\\\Space Engineering: Satellites, spacecraft systems, orbital technologies and space mission engineering.",
+            "\\\\Aircraft Technology:\\\\ Practical experience in aircraft systems, production, inspection and maintenance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A 3-year bachelor's degree is normally \\\\180 ECTS credits\\. \\\\French engineering schools\\\\ usually require five years of study after secondary school, leading to a \\Diplôme d'ingénieur\\, provided the program is accredited."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Universities for UG in Aerospace Engineering in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "The following institutions offer relevant \\\\undergraduate/engineering",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "school pathways\\\\: Lengths of program, degree status, language and route of entry all vary."
+        },
+        {
+          "name": "INSA Lyon",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "image": "/uploads/study_abroad/france/france_INSA_Lyon.webp",
+          "desc": "\\\\INSA Lyon\\\\ has a \\\\International Bachelor's degree in Mechanical, Materials and Aerospace Engineering\\. The program is taught in English and combines mechanical engineering with materials and aerospace related subjects. It is a \\\\3:year pathway at the bachelor's level\\\\ that gives the grade of licence."
+        },
+        {
+          "name": "IPSA",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_IPSA.webp",
+          "image": "/uploads/study_abroad/france/france_IPSA.webp",
+          "desc": "Institut Polytechnique des Sciences Avancées : \\\\IPSA : Institut Polytechnique des Sciences Avancées\\\\ is specialized in \\\\aeronautics and space engineering\\. It offers a three:year bachelor program in aerospace and a separate five:year engineering program. ELISA Aerospace - \\\\ELISA Aerospace\\\\ offers specialized training in \\\\aeronautical and space engineering\\\\, with a preparatory pathway and an engineering qualification. Its curriculum is applicable to \\\\aircraft design, aerospace systems, embedded technologies and engineering applications\\."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to study UG Aerospace Engineering in France",
+      "lead": "Academic and language requirements of the selected program usually apply for \\\\first-year entry after secondary school\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Some normal eligibility criteria for aerospace engineering in France\\\\ are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Completion of 12th grade\\\\ or recognized equivalent secondary school qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Good results in \\\\mathematics, physics\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Preparation in chemistry or computing where required by the curriculum."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English language proficiency\\\\ for English language programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\French-language skills\\\\ for programs taught in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Successful performance in any entrance tests, interviews or selection procedures."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Indian applicants, a \\\\Class 12 science with mathematics and physics\\\\ is applicable. However, requirements differ by institution, and some schools have selective admissions or specific subject-grade thresholds."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should also check whether the program is \\\\meant for direct entry after school\\\\ or whether some university study is required before."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Entry Requirements",
+      "lead": "\\\\Admission requirements for aerospace engineering in France\\\\ can be competitive especially in specialized engineering schools. Admissions teams may evaluate your academic performance, scientific preparation, language skills and motivation.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Typical requirements include"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Recognized \\\\secondary school certificate and academic transcripts.",
+            "Good \\\\marks in mathematics and physics.",
+            "Proof of \\\\language proficiency in English or French\\\\, depending on the program."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "– Completed application form and supporting documents."
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A \\\\motivation letter or personal statement\\\\ (if applicable).",
+            "An interview (online or in-person) for selected programs.",
+            "Subject to entrance examinations or other assessments where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some universities have minimum grades or language scores, while others look at the entire application to judge candidates."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of aerospace engineering in France",
+      "lead": "The \\\\cost of aerospace engineering in France\\\\ depends on the type of the program, whether it is offered by a public university, public engineering institution or a private specialized school.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Tuition fee"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For the \\\\2026-2027 academic year\\\\public institutions may apply national tuition fees or differentiated fees for certain non-EU students, depending on exemptions and the institution's status. \\\\Private specialized aerospace schools\\\\ usually set their own fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "To demonstrate the variation, Onisep cited the total tuition for the \\\\INSA Lyon International Bachelor's program in Mechanical, Materials and Aerospace Engineering\\\\ as €21,900 in its 2024 fee schedule."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For \\\\ELISA Aerospace\\\\ the Onisep estimates an annual salary of €9,200 for the 2026 engineering cycle (3 years)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "This is about the engineering cycle, not the full cost of the complete pathway from secondary school."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students need to set aside money for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Housing and utilities.",
+            "\\\\Eating and shopping.",
+            "\\\\Public transport.",
+            "Books, study materials and software.",
+            "Health expenses and insurance where applicable.",
+            "\\\\Visa, residence and other administrative costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of living in France\\\\ depends on the city and housing arrangement. Paris or other big cities can be more expensive than smaller student cities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Scholarships and eligible work-study options may be available depending on the program and student's circumstances."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Application process",
+      "lead": "For international applicants, the procedure is determined by the institution and the French application system depending on their situation.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose your pathway:\\\\ Choose between a \\\\three-year bachelor's programme\\\\ and a longer \\\\engineering qualification\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Compare programmes:\\\\ Compare length of study, language of instruction, degree recognition, curriculum and tuition fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check you're eligible:\\\\ Look at the subject requirements, your grades, language skills and entry level."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Identify the application platform:\\\\ Depending on the school and applicant category, applications can be submitted through the institution's portal."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Get your documents ready:\\\\ Gather your academic transcripts, diplomas, passport information and language test scores."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Submit the Application:\\\\ Fill out all required fields by the deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Full selection steps:\\\\ Attend interviews or entrance assessments, where relevant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Accept your offer:\\\\ Follow the school's instructions on enrollment and payment of fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Book visa and accommodation:\\\\ If you need a \\\\France student visa\\\\international students should start the required preparations well in advance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Institutions will have different application routes and deadlines. Consult the school's admissions page and the official \\\\Campus France\\\\ guidance for your country."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation & Recognition",
+      "lead": "\\\\Accreditation and Degree Recognition\\\\ These are also important when selecting an aerospace engineering program.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In France, the \\Diplôme d'ingénieur\\ is a recognized engineering qualification if it is awarded by a program that is authorized by the relevant French authorities under the accreditation process of the \\\\Commission des titres d'ingénieur (CTI)\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before you apply, make sure you:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "the type of degree awarded by the program (a \\\\bachelor's degree\\\\, a \\\\licence grade\\\\ or a \\Diplôme d'ingénieur\\)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Is the qualification officially recognized?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Is the engineering program \\\\currently accredited by CTI\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The total number of \\\\ECTS credits\\\\ and the length of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recognition for further education or for professional recognition in your country of employment."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Opportunities",
+      "lead": "\\\\Aerospace engineering graduates\\\\ are qualified for positions in \\\\aircraft manufacturing, aviation systems, space technology, engineering consulting, testing, simulation, and advanced materials\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Possible \\\\aerospace engineering job opportunities\\\\ are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Engineer of aerospace design.",
+            "\\\\Flight mechanics or aerodynamics engineer",
+            "\\\\Aircraft structures engineer.",
+            "\\\\Embedded systems and avionics engineer.",
+            "\\\\A satellite or space systems engineer.",
+            "Simulation Test engineer",
+            "Manufacturing engineer, quality engineer or production engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A graduate's job prospects are influenced by their degree level, technical skills, internships, language abilities and work authorization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A three-year bachelor's degree can be a stepping stone to further study, as many professional aerospace engineering jobs require a \\\\engineering diploma or master's-level education\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Aerospace engineering salary\\\\ levels are dependent on employer, location, specialization and experience. But to compare apples with apples you need to look at current vacancies and salary surveys for the exact role and country you want to work in."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Required Documents",
+      "lead": "The \\\\documents required for aerospace engineering applications in France\\\\ are usually:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Valid passport.",
+            "Class 10 and Class 12 certificates and transcripts, as applicable.",
+            "Evidence of \\\\math and physics preparation.",
+            "Test results (in English or French), if applicable.",
+            "Curriculum vitae, if required.",
+            "\\\\Letter of motivation or statement of purpose\\\\, if applicable.",
+            "\\\\Letters of recommendation\\\\ if applicable.",
+            "Certified translations of academic documents, if required.",
+            "Application forms and/or payment of the application fees, if applicable.",
+            "Additional \\\\financial and visa documentation\\\\ where appropriate."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I do aerospace engineering in France after 12th?",
+      "a": "Yes. Some institutions have \\\\bachelor's-level programmes\\\\ or \\\\five-year engineering pathways\\\\ from after secondary school. The entry requirements and structure of each program must be checked."
+    },
+    {
+      "q": "How many years of aerospace engineering in France?",
+      "a": "A \\\\bachelor's programme\\\\ typically lasts three years. A \\\\French engineering-school pathway\\\\ usually takes five years after secondary school, but students who already have some higher education may do a shorter part of the pathway."
+    },
+    {
+      "q": "FAQ Are there any aerospace engineering courses taught in English in France?",
+      "a": "The \\\\International Bachelor's program at INSA Lyon\\\\ is one of the English-taught programs. Other programs may be taught in French or have language requirements for entry. Always check the current teaching language."
+    },
+    {
+      "q": "What is the salary of an aerospace engineer in France?",
+      "a": "The tuition fees for aerospace engineering in France vary greatly. Public institutions may charge national tuition rates or differential fees, while private specialist schools charge their own fees. Living expenses are extra, and applicants should consult the official fee schedules for the latest information."
+    },
+    {
+      "q": "How \\\\Edu Hawk worldwide Consultancy\\\\ Can help me study abroad?",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students to find the right universities, know admission requirements, arrange application documents and prepare their \\\\study-abroad journey. Students should check with the appropriate official authorities to determine requirements for academic, financial, immigration and licensing purposes."
+    }
+  ],
+  "seo": {
+    "title": "Aerospace Engineering Undergraduate in France | Edu-Hawk Worldwide",
+    "description": "In France you can study \\\\aerodynamics, aircraft systems, propulsion, materials and flight mechanics, space technology\\. Its aerospace sector comprises aircraft",
+    "keywords": "Study Aerospace Engineering in France for Indian Students, Undergraduate Aerospace Engineering Courses in France, Best Universities for Aerospace Engineering in France, Bachelor's Degree in Aerospace Engineering in France, Aerospace Engineering Eligibility Requirements in France, Aerospace Engineering Admission Requirements for Indian Students, Aerospace Engineering Tuition Fees in France 2026–2027, Cost of Studying Aerospace Engineering in France, English-Taught Aerospace Engineering Programmes in France, Aeronautical Engineering Courses in France, Aircraft Design and Propulsion Engineering in France, Space Engineering and Satellite Technology Courses in France, INSA Lyon Aerospace Engineering Bachelor's Programme, IPSA and ELISA Aerospace Engineering Courses in France, Aerospace Engineering Jobs and Career Opportunities in France, <"
+  }
+}

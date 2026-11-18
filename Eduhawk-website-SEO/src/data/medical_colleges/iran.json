@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "MBBS in Iran 2026-27 | Admissions, Fees & Universities | Edu Hawk",
+    "description": "Explore MBBS in Iran for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs.",
+    "keywords": "mbbs in iran, iran mbbs fees, study mbbs iran, iran medical universities"
+  },
+  "hero": {
+    "badge": "MBBS Admissions 2026-27",
+    "title": "STUDY MBBS IN IRAN",
+    "subtitle": "Explore MBBS Opportunities in Iran 2026–2027. World-class medical research faculties, affordable fee structures, and rich clinical heritage.",
+    "image": "/uploads/colleges/iran_flag.svg",
+    "ctaText": "Apply for Iran MBBS"
+  },
+  "flag": "/uploads/colleges/iran_flag.svg",
+  "stats": [
+    {
+      "n": "6 Years",
+      "l": "Course Duration"
+    },
+    {
+      "n": "Top 1%",
+      "l": "Clinical Research Publications in Asia"
+    },
+    {
+      "n": "₹3.5L",
+      "l": "Starting Annual Tuition"
+    },
+    {
+      "n": "English",
+      "l": "Medium for International Batches"
+    }
+  ],
+  "highlights": {
+    "degree": "Doctor of Medicine (MD / MBBS)",
+    "duration": "6 Years",
+    "fee": "₹22 - ₹30 Lakhs Complete Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
+  },
+  "overview": "Iran is globally known for its excellence in clinical medicine, organ transplants, and advanced neuroscience research. Government medical universities provide extensive patient interaction and clinical training in attached tertiary hospitals.",
+  "universitiesHeading": "Top Medical Universities in Iran",
+  "universities": [
+    {
+      "name": "Tehran University of Medical Sciences",
+      "location": "Tehran, Iran",
+      "fee": "₹4.2 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/TUMS_medicine.jpg",
+      "desc": "Iran's premier medical academy ranked among the world's top research institutions."
+    },
+    {
+      "name": "Shiraz University of Medical Sciences",
+      "location": "Shiraz, Iran",
+      "fee": "₹3.8 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Shiraz-University-of-Medical-Sciences_Central-Building.jpg",
+      "desc": "World-famous center for liver transplantation, cardiac surgery, and medical science."
+    },
+    {
+      "name": "Islamic Azad University",
+      "location": "Tehran, Iran",
+      "fee": "₹3.5 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/JIA_enterance.jpg",
+      "desc": "Large medical network with nationwide hospital affiliations and English training."
+    },
+    {
+      "name": "Shahid Beheshti University of Medical Science",
+      "location": "Tehran, Iran",
+      "fee": "₹4.0 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/SBMU_School_of_Medicine.jpg",
+      "desc": "Elite public medical faculty in Tehran with modern diagnostic and simulation labs."
+    },
+    {
+      "name": "Isfahan University of Medical Sciences",
+      "location": "Isfahan, Iran",
+      "fee": "₹3.6 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Voroodi.jpg",
+      "desc": "Historic and scientific hub providing rigorous clinical education to global students."
+    },
+    {
+      "name": "Iran University of Medical Sciences",
+      "location": "Tehran, Iran",
+      "fee": "₹3.9 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Iran_University_of_Medical_Sciences%28IUMS%29.jpg",
+      "desc": "Renowned for oncology, stem cell research, and large teaching hospitals."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is NEET compulsory for studying MBBS in Iran?",
+      "answer": "Yes, NEET qualification is mandatory as per NMC guidelines to study medicine abroad and practice in India."
+    },
+    {
+      "question": "Is the medical degree from Iran recognized by NMC?",
+      "answer": "Yes, degrees from WHO and NMC recognized universities in Iran are valid for taking the licensing NExT/FMGE exam in India."
+    }
+  ]
+}

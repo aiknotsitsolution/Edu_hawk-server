@@ -1,4 +1,5 @@
 import React from "react";
+import SeoHead from "../../component/SeoHead.jsx";
 
 const CookiesPolicy = () => {
   const lastUpdated = new Date().toLocaleDateString("en-US", {
@@ -9,6 +10,11 @@ const CookiesPolicy = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4">
+      <SeoHead
+        title="Cookies Policy | Edu-Hawk Worldwide"
+        description="Learn how EduHawk Worldwide uses essential, analytical, functional, and marketing cookies, and how to manage them in your browser settings."
+        path="/cookies-policy"
+      />
       <div className="max-w-4xl mx-auto bg-white shadow-lg rounded-2xl overflow-hidden">
         <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white py-12 px-8 text-center">
           <h1 className="text-4xl font-bold mb-3">Cookies Policy</h1>

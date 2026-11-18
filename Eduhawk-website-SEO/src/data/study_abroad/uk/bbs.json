@@ -1,0 +1,731 @@
+{
+  "hero": {
+    "title": "Study Bachelor of Business Studies (BBS) in the UK",
+    "subtitle": "Developing understanding of business operations, management, marketing, finance, economics, and organizational strategy is the main goal of the Bachelor of Business Studies (BBS) undergraduate business degree. Undergraduate programs in the UK that offer comparable academic foundations are available to those interested in careers in business."
+  },
+  "overview": [
+    "Developing understanding of business operations, management, marketing, finance, economics, and organizational strategy is the main goal of the Bachelor of Business Studies (BBS) undergraduate business degree. Undergraduate programs in the UK that offer comparable academic foundations are available to those interested in careers in business.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities with the right preparation and direction."
+  ],
+  "universities": [
+    {
+      "name": "Coventry University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_bbs_Coventry_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_bbs_Coventry_University-image3.png",
+      "desc": "Coventry University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Liverpool=",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_bbs_University_of_Liverpool_image1.png",
+      "image": "/uploads/study_abroad/uk/uk_bbs_University_of_Liverpool_image1.png",
+      "desc": "University of Liverpool= is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Strathclyde",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_bbs_University_of_Strathclyde-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_bbs_University_of_Strathclyde-image2.png",
+      "desc": "University of Strathclyde is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "University of Sussex",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_bbs_University_of_Sussex-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_bbs_University_of_Sussex-image4.png",
+      "desc": "University of Sussex is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
+      "title": "Why Study Bachelor of Business Studies (BBS) in the UK?",
+      "lead": "Developing understanding of business operations, management, marketing, finance, economics, and organizational strategy is the main goal of the Bachelor of Business Studies (BBS) undergraduate business degree. Undergraduate programs in the UK that offer comparable academic foundations are available to those interested in careers in business.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Principal Advantages of Studying Business in the UK"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Studying business at a UK university with a recognized degree-awarding status will provide you with internationally recognized qualifications.",
+            "Gain information through case studies, presentations, group projects, and business initiatives.",
+            "Acquire knowledge about company strategy, marketing, finance, and organizational management.",
+            "Studying in a multicultural academic setting will provide you with international exposure.",
+            "Career Flexibility: Get ready for entry-level positions in company development, marketing, sales, operations, and administration.",
+            "Explore international business, entrepreneurship, human resources, and business analytics as options for specialization.",
+            "Opportunities for Further Study: When qualified, advance to master's programs in management, marketing, finance, international business, or similar subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities with the right preparation and direction."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "UK Bachelor of Business Studies Programs",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor of Business Studies (BBS)",
+            "BA in Business Management",
+            "BSc in Business Management",
+            "BA International Business",
+            "BA Management and Business",
+            "BSc in Business and Marketing",
+            "BSc in Business Analytics",
+            "BA in Innovation and Entrepreneurship",
+            "BA Human Resource Management",
+            "Business Management with Year of Placement"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Specializations"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The field of business management",
+            "The field of international business",
+            "The management of marketing",
+            "Accounting and Finance",
+            "The management of human resources",
+            "Entrepreneurship",
+            "Business Analytics",
+            "Supply Chain Management and Operations",
+            "\"Digital Business\"",
+            "The management of projects",
+            "Business and Economics",
+            "Retail Management"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
+      "title": "Top Universities to Consider in the UK",
+      "lead": "Explore the leading universities and colleges in the United Kingdom offering globally recognized degrees, historic campuses, and strong international student support.",
+      "unis": [
+        {
+          "name": "Coventry University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_bbs_Coventry_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_bbs_Coventry_University-image3.png",
+          "desc": "Coventry University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Liverpool=",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_bbs_University_of_Liverpool_image1.png",
+          "image": "/uploads/study_abroad/uk/uk_bbs_University_of_Liverpool_image1.png",
+          "desc": "University of Liverpool= is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Strathclyde",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_bbs_University_of_Strathclyde-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_bbs_University_of_Strathclyde-image2.png",
+          "desc": "University of Strathclyde is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "University of Sussex",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_bbs_University_of_Sussex-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_bbs_University_of_Sussex-image4.png",
+          "desc": "University of Sussex is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "UK's Top Universities for BBS and Associated Business Programs",
+      "lead": "Students might look into undergraduate business or management courses offered by the universities listed below. This is a list of schools to look into, not a rating or verification that each one provides a degree with the exact name BBS.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University of Liverpool - Business Management and associated courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Sussex - Programs in business and management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Strathclyde -Courses in business and management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Coventry University - Undergraduate degree in business management and related subjects."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "UK Bachelor of Business Studies Program Qualifications",
+      "lead": "Eligibility varies depending on the undergraduate course and the university.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Qualifications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completion of Class 12 or a recognized equivalent credential.",
+            "Academic credentials that satisfy the prerequisites for admission to the university.",
+            "Requirements in mathematics or other subjects, if the course specifies them.",
+            "Proficiency in English is necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the student's board, results, and selected course, some UK colleges may require a foundation program, while others may take Indian Class 12 credentials for straight admission."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Indian Students' Eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "The country-specific academic criteria for CBSE, CISCE, and pertinent state boards should be reviewed by Indian students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Courses and universities have different minimum score requirements. Candidates should find out if they are eligible for straight undergraduate admission."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students may be required to confirm their English proficiency using a university-approved test or another technique."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical tests consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS Academic",
+            "The TOEFL iBT",
+            "The Pearson Academic English Test (PTE Academic)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each university has different minimum scores and acceptable requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "BBS Admission Requirements in the UK",
+      "lead": "Academic credentials, English language abilities, and the applicant's fit for the chosen course are all evaluated by UK universities.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates might have to supply:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "When requested, the Class 10 marksheet and certificate",
+            "Class 12 grade report and certificate",
+            "Estimated grades, if applicable and accepted",
+            "When applicable, proof of further academic credentials"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "The university's English-language requirements must be fulfilled by students using an approved alternative form of evidence or an accepted test."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before applying, check the specific course page for accepted tests and minimum scores."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Conditions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the program, candidates might require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport number",
+            "Results of an English language exam",
+            "Extra academic credentials",
+            "If necessary, an interview or other evaluation",
+            "Additional course-specific materials"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of studying BBS in the United Kingdom",
+      "lead": "The university, program, location, lodging, and way of life all affect the total cost of studying BBS in the UK.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Projected Cost of Tuition"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Business Management Undergraduate",
+              "d": "£13,000–£25,000"
+            },
+            {
+              "t": "Business degrees at some more expensive universities",
+              "d": "£25,000 to £35,000 or more"
+            },
+            {
+              "t": "Lodging",
+              "d": "£500–£1,200"
+            },
+            {
+              "t": "Groceries and food",
+              "d": "£180–£300"
+            },
+            {
+              "t": "Phone and utilities",
+              "d": "£60–£150"
+            },
+            {
+              "t": "Study and personal costs",
+              "d": "£100–£250"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Projected Monthly Living Costs"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Local transportation costs between £60 and £150."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra Costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students need to set up money for:"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of applying for a student visa",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "When appropriate, the Immigration Health Surcharge",
+            "Traveling locally and by air",
+            "Deposits for lodging",
+            "Books and educational resources",
+            "The expense of an English language test if necessary",
+            "Any applicable application fees or university deposits"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Scholarships"
+        },
+        {
+          "t": "p",
+          "items": [
+            "University scholarships, academic merit prizes, country-specific scholarships, or external financial opportunities may be available to international students."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Award values and scholarship availability differ. Students should verify whether the scholarship is applicable to the chosen undergraduate course, as well as deadlines and eligibility requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "The UK's BBS Admission Procedure",
+      "lead": "",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select the Appropriate Program",
+              "desc": "Look for courses like BA Business Management, BSc Business Management, or BA International Business and Bachelor of Business Studies."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of colleges",
+              "desc": "Examine colleges according to their academic standards, cost of tuition, location, course design, career assistance, and scholarships."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine the English language requirements, application dates, prerequisites for any subjects, and entry requirements for Indian applicants."
+            },
+            {
+              "step": 4,
+              "title": "Get Documents Ready",
+              "desc": "Gather Class 10 and Class 12 records, passport information, results of any necessary English tests, a personal statement, references, and any other documents that are needed."
+            },
+            {
+              "step": 5,
+              "title": "Send in Your Application",
+              "desc": "Depending on the subject and school, apply via UCAS or the official application portal."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine Your Offer",
+              "desc": "A conditional or unconditional offer may be made by the university. To accept the offer, fulfill any remaining requirements and adhere to the guidelines."
+            },
+            {
+              "step": 8,
+              "title": "Request a Student Visa for the UK",
+              "desc": "Before submitting an application for a student visaeligible students typically need the necessary university sponsorship paperwork."
+            },
+            {
+              "step": 9,
+              "title": "Get Ready to Leave",
+              "desc": "Make travel and lodging arrangements, go over enrollment guidelines, and maintain easy access to your academic and immigration records."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "### Step 7: Set Up Finances and Lodging"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Create a budget for your living expenses and tuition, look into scholarships, and make appropriate housing arrangements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "BBS Degree Accreditation and Recognition in the UK",
+      "lead": "An academic credential is a BBS or comparable business bachelor's degree. In the UK, the majority of typical commercial positions do not call for a professional license.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Before enrolling, students should confirm the course's quality and the degree-granting institution's recognition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "What Do Students Need to Verify?"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Degree-Granting Organization",
+      "lead": "Verify the university's or institution's official recognition and authorization to provide the degree.",
+      "groups": []
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Title of Exact Qualification",
+      "lead": "Verify if the degree granted is a BBS, BA, BSc, or another designation. All degree titles are not the same just because the course material is similar.",
+      "groups": []
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Recognition for Additional Research",
+      "lead": "The admission requirements of the postgraduate universities they desire to attend should be reviewed by students who intend to pursue a master's degree or MBA.",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Acknowledgment in Other Nations",
+      "lead": "Check the requirements of relevant businesses, universities, professional associations, or credential evaluation authorities if you intend to use the degree in India or another nation.",
+      "groups": []
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Pay and Employment Prospects in the UK Following BBS",
+      "lead": "Graduates with a business bachelor's degree can be prepared for entry-level positions in a variety of industries. Practical skills, internships, job experience, communication skills, and company criteria all influence career options.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Common Career Choices"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Executive in Business Development",
+            "Executive in Marketing",
+            "Trainee Business Analyst",
+            "Assistant for Human Resources",
+            "Coordinator of Operations",
+            "Sales Executive",
+            "Coordinator of the Project",
+            "Customer Success Executive",
+            "The Administrative Officer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "UK Indicative Salary Ranges"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For planning purposes, the following are general indicative yearly gross income ranges; graduation earnings are not guaranteed."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Business entry-level positions | £23,000–£30,000 |"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Marketing Executive",
+              "d": "Between £24,000 and £35,000"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Executive in Business Development | £24,000–£35,000 |",
+            "Assistant in Human Resources | £23,000–£30,000 |",
+            "Coordinator of Operations | £24,000–£33,000 |",
+            "Skilled Business Analyst | £28,000–£45,000 |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate Industries"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Financial services and banking",
+            "Consumer goods and retail",
+            "Digital business and technology",
+            "Advertising and marketing",
+            "Professional services and consulting",
+            "The supply chain and logistics",
+            "Manufacturing",
+            "The administration of healthcare",
+            "The human resources department",
+            "Entrepreneurship and start-ups"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed in the UK to Study BBS",
+      "lead": "The university, program, and applicant's situation all influence the specific documents.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Class 10 grade report and certificate",
+            "Class 12 grade report and certificate",
+            "Estimated grades, if applicable and accepted",
+            "Extra academic credentials, upon request"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Applications"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "\"Personal statement\"",
+            "Academic citation, if necessary",
+            "When necessary, the results of the English language test",
+            "Evidence of extra credentials, if any",
+            "Additional course-specific materials that the institution has requested"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents related to finances and visas"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on their unique situation and the demands of the moment, pupils could require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Confirmation of Acceptance for Research (CAS)",
+            "Proof of cash for living expenses and tuition",
+            "Proof of tuition payments, if any",
+            "Test results for tuberculosis, if necessary",
+            "Payment of the Immigration Health Surcharge, if applicable",
+            "Additional documents listed in the official guidelines for visas"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to pursue BBS studies in the UK?",
+      "a": "After Class 12, students who fulfill the academic and English-language requirements of the university are eligible to apply for undergraduate business programs. Students should look at similar business bachelor's degrees as BBS is not a typical degree title among UK universities."
+    },
+    {
+      "q": "Does every university in the UK offer a Bachelor of Business Studies?",
+      "a": "No. Business-related courses with titles like BA Business Management, BSc Business Management, or BA International Business are offered by numerous UK universities. Visit the official course page to verify the precise qualification granted."
+    },
+    {
+      "q": "In the UK, how long does it take to finish BBS?",
+      "a": "The length is determined by the specific program. In England, Wales, and Northern Ireland, many undergraduate business degrees need three years to complete. It may take longer to complete courses with foundation or placement years."
+    },
+    {
+      "q": "How much does it cost to study BBS in the UK?",
+      "a": "International tuition costs for relevant undergraduate business courses can range from £13,000 to £25,000 annually, with certain colleges charging more, according to a general planning estimate. Additional costs include living expenses, travel, and visa-related fees. Always ask the university to confirm the precise cost."
+    },
+    {
+      "q": "After earning my BBS in the UK, what can I do?",
+      "a": "Entry-level positions in marketing, sales, business development, operations, human resources, administration and similar disciplines are available to graduates. If they fulfilll the prerequisites, they can also apply to postgraduate business programs. Current immigration regulations and individual circumstances determine employment and post-study opportunities."
+    },
+    {
+      "q": "How may I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ],
+  "seo": {
+    "title": "Study Bachelor of Business Studies (BBS) in the UK | Edu-Hawk Worldwide",
+    "description": "Developing understanding of business operations, management, marketing, finance, economics, and organizational strategy is the main goal of the Bachelor of Busi",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
+}

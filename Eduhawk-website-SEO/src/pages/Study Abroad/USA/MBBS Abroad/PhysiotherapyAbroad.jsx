@@ -1,4 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
+import SeoHead from "../../../../component/SeoHead.jsx";
+import physiotherapyData from "../../../../data/study_abroad/usa/physiotherapy.json";
 
 const PhysiotherapyAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -37,12 +39,14 @@ const PhysiotherapyAbroad = () => {
     return () => observer.disconnect();
   }, []);
 
-  const stats = [
-    { label: "Programs", value: "DPT, Pre-PT pathways, MSc & research options" },
-    { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
-    { label: "Support", value: "Complete guidance from profile to arrival" },
-    { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
-  ];
+  const stats = (physiotherapyData?.stats && physiotherapyData.stats.length > 0)
+    ? physiotherapyData.stats.map((s) => ({ label: s.l, value: s.n }))
+    : [
+        { label: "Programs", value: "DPT, Pre-PT pathways, MSc & research options" },
+        { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
+        { label: "Support", value: "Complete guidance from profile to arrival" },
+        { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
+      ];
 
   const features = [
     {
@@ -122,7 +126,7 @@ const PhysiotherapyAbroad = () => {
     "Specialized academic pathways",
   ];
 
-  const topUniversities = [
+  const defaultTopUniversities = [
     {
       name: "University of Southern California",
       desc: "USC Division of Biokinesiology and Physical Therapy",
@@ -154,6 +158,14 @@ const PhysiotherapyAbroad = () => {
         "https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=900&q=85",
     },
   ];
+
+  const topUniversities = (physiotherapyData?.universities && physiotherapyData.universities.length > 0)
+    ? physiotherapyData.universities.map((u, i) => ({
+        name: u.name || defaultTopUniversities[i]?.name,
+        desc: u.location || u.fee || defaultTopUniversities[i]?.desc,
+        image: u.image || defaultTopUniversities[i]?.image,
+      }))
+    : defaultTopUniversities;
 
   const comparisonPoints = [
     "Current programme accreditation and status",
@@ -368,58 +380,66 @@ const PhysiotherapyAbroad = () => {
     },
   ];
 
-  const faqs = [
-    {
-      q: "After Class 12, are Indian students able to pursue physiotherapy in the United States?",
-      a: "Yes. After completing the necessary undergraduate degree or prerequisite coursework, Indian students can apply to a DPT programme. Most professional DPT programmes do not offer direct admission right after Class 12.",
-    },
-    {
-      q: "What is the primary degree in physiotherapy in the United States?",
-      a: "In the United States, the typical professional entry-level degree for becoming a physical therapist is the Doctor of Physical Therapy (DPT). Related degrees in exercise science or rehabilitation may support other career paths but do not always lead to physical therapist licensure.",
-    },
-    {
-      q: "How long does it take to become a physical therapist in the USA?",
-      a: "The professional DPT programme commonly takes about three years after the required undergraduate preparation. The overall pathway is longer because students usually need to complete undergraduate education or prerequisite coursework first.",
-    },
-    {
-      q: "What is the salary of a physical therapist in the USA?",
-      a: "According to the U.S. Bureau of Labor Statistics, the median annual wage for physical therapists was $102,760 in May 2025. Actual earnings vary by location, experience, employer, specialty and work setting. Employment is projected to grow 12% from 2025 to 2035.",
-    },
-    {
-      q: "Can Indian BPT graduates work as physical therapists in the USA?",
-      a: "An Indian BPT does not automatically grant the right to practise. Graduates generally need to complete the foreign-educated physical therapist pathway, including credential evaluation, examinations (such as the NPTE) and state-specific requirements. Requirements differ by state.",
-    },
-    {
-      q: "How can Edu Hawk worldwide help me study physiotherapy abroad?",
-      a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
-    },
-    {
-      q: "Which country is best for Physiotherapy abroad?",
-      a: "There is no single best country. The right choice depends on your budget, academic profile, preferred course (DPT / MPT / related programmes), licensing pathway and long-term career plans. USA, UK, Canada and Australia are among the most popular with Indian students.",
-    },
-    {
-      q: "How much does it cost to study Physiotherapy abroad?",
-      a: "Costs vary by country and university. Your total budget includes tuition, accommodation, living expenses, insurance, travel and visa costs. We share a realistic estimate before you apply.",
-    },
-    {
-      q: "Do I need IELTS or another English test?",
-      a: "Most universities in the USA, UK, Canada and Australia ask for IELTS, PTE or TOEFL. Some universities offer waivers based on your previous medium of instruction. Requirements are checked university by university.",
-    },
-    {
-      q: "Can I work while studying Physiotherapy abroad?",
-      a: "Yes. Most popular destinations allow international students to work part-time during the course (usually 20 hours per week) and full-time during holidays, subject to visa conditions.",
-    },
-    {
-      q: "When should I start my application?",
-      a: "Starting 8–12 months before your intended intake gives you enough time for testing, shortlisting, documents, applications and visa preparation.",
-    },
-  ];
+  const faqs = (physiotherapyData?.faq && physiotherapyData.faq.length > 0)
+    ? physiotherapyData.faq.map((f) => ({ q: f.question, a: f.answer }))
+    : [
+        {
+          q: "After Class 12, are Indian students able to pursue physiotherapy in the United States?",
+          a: "Yes. After completing the necessary undergraduate degree or prerequisite coursework, Indian students can apply to a DPT programme. Most professional DPT programmes do not offer direct admission right after Class 12.",
+        },
+        {
+          q: "What is the primary degree in physiotherapy in the United States?",
+          a: "In the United States, the typical professional entry-level degree for becoming a physical therapist is the Doctor of Physical Therapy (DPT). Related degrees in exercise science or rehabilitation may support other career paths but do not always lead to physical therapist licensure.",
+        },
+        {
+          q: "How long does it take to become a physical therapist in the USA?",
+          a: "The professional DPT programme commonly takes about three years after the required undergraduate preparation. The overall pathway is longer because students usually need to complete undergraduate education or prerequisite coursework first.",
+        },
+        {
+          q: "What is the salary of a physical therapist in the USA?",
+          a: "According to the U.S. Bureau of Labor Statistics, the median annual wage for physical therapists was $102,760 in May 2025. Actual earnings vary by location, experience, employer, specialty and work setting. Employment is projected to grow 12% from 2025 to 2035.",
+        },
+        {
+          q: "Can Indian BPT graduates work as physical therapists in the USA?",
+          a: "An Indian BPT does not automatically grant the right to practise. Graduates generally need to complete the foreign-educated physical therapist pathway, including credential evaluation, examinations (such as the NPTE) and state-specific requirements. Requirements differ by state.",
+        },
+        {
+          q: "How can Edu Hawk worldwide help me study physiotherapy abroad?",
+          a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration and licensing requirements with the relevant official authorities.",
+        },
+        {
+          q: "Which country is best for Physiotherapy abroad?",
+          a: "There is no single best country. The right choice depends on your budget, academic profile, preferred course (DPT / MPT / related programmes), licensing pathway and long-term career plans. USA, UK, Canada and Australia are among the most popular with Indian students.",
+        },
+        {
+          q: "How much does it cost to study Physiotherapy abroad?",
+          a: "Costs vary by country and university. Your total budget includes tuition, accommodation, living expenses, insurance, travel and visa costs. We share a realistic estimate before you apply.",
+        },
+        {
+          q: "Do I need IELTS or another English test?",
+          a: "Most universities in the USA, UK, Canada and Australia ask for IELTS, PTE or TOEFL. Some universities offer waivers based on your previous medium of instruction. Requirements are checked university by university.",
+        },
+        {
+          q: "Can I work while studying Physiotherapy abroad?",
+          a: "Yes. Most popular destinations allow international students to work part-time during the course (usually 20 hours per week) and full-time during holidays, subject to visa conditions.",
+        },
+        {
+          q: "When should I start my application?",
+          a: "Starting 8–12 months before your intended intake gives you enough time for testing, shortlisting, documents, applications and visa preparation.",
+        },
+      ];
 
   return (
     <div
       ref={pageRef}
       className="pharmacy-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
+      <SeoHead
+        title="Study Physiotherapy in USA for Indian Students | Edu Hawk"
+        description="Study physiotherapy in the USA for Indian students — the DPT degree, eligibility, admission process, costs and physiotherapy career pathways explained."
+        path="/study-abroad/usa/physiotherapy"
+        ogType="website"
+      />
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -539,12 +559,11 @@ const PhysiotherapyAbroad = () => {
                 </span>{" "}
                 for Indian Students
               </h1>
-              <p className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed">
-                Students interested in patient care, rehabilitation science and advanced healthcare education frequently travel to the United States. Physiotherapy (called physical therapy in the USA) helps patients recover from illness, surgery and injury by improving mobility, managing pain and restoring physical function.
-              </p>
+
               <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                Studying physiotherapy in the USA gives Indian students access to advanced rehabilitation facilities, clinical education, research opportunities and diverse career pathways. The Doctor of Physical Therapy (DPT) is the standard professional entry-level degree for licensed physical therapists.
+                Studying physiotherapy in the USA gives international students access to advanced rehabilitation facilities, cutting-edge clinical education, and diverse healthcare career pathways across leading American medical institutions.
               </p>
+
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
                   href="#consult"
@@ -566,7 +585,9 @@ const PhysiotherapyAbroad = () => {
                 src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
                 alt="Physiotherapy students and clinical training in USA"
                 className="pharmacy-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 2x"
+                  sizes="100vw"
+                />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 1000+ Indian students
               </div>
@@ -635,9 +656,12 @@ const PhysiotherapyAbroad = () => {
             <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&q=80"
+                loading="lazy"
                 alt="Physiotherapy education and rehabilitation training"
                 className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-              />
+                  srcSet="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&q=80 1x, https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=900&q=80 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-blue-600 to-sky-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
                 <div className="text-3xl font-bold leading-none">25–50L+</div>
                 <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
@@ -803,6 +827,8 @@ const PhysiotherapyAbroad = () => {
                   alt="University campus"
                   loading="lazy"
                   className="physio-university-image absolute inset-0 h-full w-full object-cover opacity-85"
+                  srcSet={`${university.image} 1x, ${university.image} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-900/35 to-transparent" />
                 <div className="relative flex min-h-64 flex-col justify-end p-5 sm:p-6">

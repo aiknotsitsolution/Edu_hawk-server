@@ -1,0 +1,103 @@
+{
+  "id": "mcat",
+  "name": "MCAT (Medical College Admission Test)",
+  "shortName": "MCAT",
+  "category": "Entrance & Academic Tests",
+  "badge": "US & Canada Medical School Benchmark",
+  "seo": {
+    "title": "MCAT Exam Guide: 4 Sections, Scoring 472–528, AAMC Registration & Prep | EduHawk Worldwide",
+    "description": "Complete guide to the Medical College Admission Test (MCAT) conducted by the AAMC for MD programs in the United States and Canada. Explore CARS, Biological/Biochemical Foundations, Chemical/Physical, and prep tips.",
+    "keywords": "MCAT Medical College Admission Test, MCAT exam pattern and sections, MCAT eligibility criteria, MCAT fees and registration, MCAT preparation tips, study medicine in USA Canada MCAT, MD in USA MCAT"
+  },
+  "hero": {
+    "badge": "US & Canada Medical School Benchmark",
+    "heroPara": "The Medical College Admission Test (MCAT), administered by the Association of American Medical Colleges (AAMC), is a rigorous standardized examination required for admission to Doctor of Medicine (MD) programs in the United States and Canada."
+  },
+  "stats": [
+    {
+      "label": "Target Degree",
+      "value": "Doctor of Medicine (MD) / DO Programs"
+    },
+    {
+      "label": "Test Duration",
+      "value": "Approx. 7.5 Hours (Seated Time)"
+    },
+    {
+      "label": "Scoring Scale",
+      "value": "472 to 528 (Midpoint: 500)"
+    },
+    {
+      "label": "Section Scoring",
+      "value": "118 to 132 per Section"
+    },
+    {
+      "label": "Delivery Mode",
+      "value": "Computer-Based at Pearson VUE Centers"
+    },
+    {
+      "label": "Conducting Body",
+      "value": "Association of American Medical Colleges (AAMC)"
+    }
+  ],
+  "countries": [
+    "USA",
+    "Canada"
+  ],
+  "overview": [
+    "The MCAT is a standardized multiple-choice examination developed by the AAMC, used by medical school admissions committees across the United States and Canada.",
+    "The exam evaluates candidates' problem-solving, critical thinking, and knowledge of natural, behavioral, and social science concepts fundamental to the study of medicine.",
+    "Medical education in the US and Canada is graduate-level: students first complete a 4-year undergraduate pre-med bachelor's degree before applying to 4-year MD medical programs."
+  ],
+  "sections": [
+    {
+      "name": "Chemical and Physical Foundations of Biological Systems",
+      "duration": "95 Minutes (59 Questions)",
+      "measures": "General chemistry, organic chemistry, introductory physics, and biochemistry applied to living systems."
+    },
+    {
+      "name": "Critical Analysis and Reasoning Skills (CARS)",
+      "duration": "90 Minutes (53 Questions)",
+      "measures": "Reading comprehension, rhetorical analysis, and critical reasoning across complex ethics, philosophy, social sciences, and humanities passages."
+    },
+    {
+      "name": "Biological and Biochemical Foundations of Living Systems",
+      "duration": "95 Minutes (59 Questions)",
+      "measures": "Cell biology, molecular biology, biochemistry, genetics, microbiology, and human organ system physiology."
+    },
+    {
+      "name": "Psychological, Social, and Biological Foundations of Behaviour",
+      "duration": "95 Minutes (59 Questions)",
+      "measures": "Psychology, sociology, behavioral biology, socioeconomic determinants of health, and epidemiological principles."
+    }
+  ],
+  "preparationTips": [
+    "Build deep scientific foundations in biochemistry, biology, organic chemistry, and physics.",
+    "Practice daily CARS passages to develop high-speed reading comprehension and argument dissection.",
+    "Familiarize yourself with the authentic interface using official AAMC practice question packs.",
+    "Take full-length 7.5-hour practice exams to build cognitive endurance and test-day pacing.",
+    "Analyze mistakes in depth, identifying conceptual gaps versus timing errors.",
+    "Allocate 300 to 500 hours of structured study time over a 3 to 6 month preparation timeline."
+  ],
+  "faqs": [
+    {
+      "q": "What is the full form of MCAT?",
+      "a": "MCAT stands for Medical College Admission Test, required for admission to medical schools in the US and Canada."
+    },
+    {
+      "q": "Which countries accept the MCAT?",
+      "a": "The MCAT is primarily used in the United States and Canada, though select medical programs in Australia and international graduate-entry schools also accept it."
+    },
+    {
+      "q": "What subjects are included in the MCAT?",
+      "a": "The exam covers Biology, Biochemistry, General Chemistry, Organic Chemistry, Physics, Psychology, Sociology, and Critical Analysis and Reasoning Skills (CARS)."
+    },
+    {
+      "q": "Can international students take the MCAT?",
+      "a": "Yes. International students can register through AAMC for testing at authorized Pearson VUE centers worldwide."
+    },
+    {
+      "q": "Is the MCAT required for MBBS in every country?",
+      "a": "No. The MCAT is specific to graduate-entry medical programs in North America. European countries (e.g. Italy uses IMAT, UK uses UCAT) have their own admission systems."
+    }
+  ]
+}

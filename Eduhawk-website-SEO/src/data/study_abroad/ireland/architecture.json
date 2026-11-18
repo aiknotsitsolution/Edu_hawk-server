@@ -1,0 +1,614 @@
+{
+  "hero": {
+    "title": "Ireland Architecture Courses",
+    "subtitle": "Architecture is a popular option for students who are interested in building design, sustainable construction, urban development and the creative use of space. \\\\Architecture programmes\\\\ in \\\\Ireland\\\\ combine design with technical knowledge, architectural history, environmental awareness and professional practice."
+  },
+  "overview": [
+    "Ireland is an attractive destination for architecture students because of its architectural heritage, contemporary construction industry and emphasis on sustainable development.",
+    "\\\\Design-led education:\\\\ Students acquire skills in \\\\architectural drawing, design studios, model-making\\\\ and \\\\spatial planning.\\\\",
+    "\\\\Career flexibility:\\\\ With their qualifications, graduates can go on to careers in \\\\architecture, design consultancy, building technology, urban design\\\\ and related construction fields."
+  ],
+  "universities": [
+    {
+      "name": "University College Dublin (UCD)",
+      "location": "Dublin, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+      "desc": "University College Dublin - \\\\Master of Architecture\\\\ The \\\\Master of Architecture\\\\ at \\\\University College Dublin (UCD)\\\\ is a postgraduate program for students who want to develop advanced design and professional architecture skills. Dublin Institute of Technology (DIT) - \\\\Technological University Dublin (TU Dublin)\\\\ Bachelor of Architecture (Honours) Master of Architecture. The undergraduate program is a \\\\five-year, 300 ECTS degree programme\\. The postgraduate \\\\MArch\\\\ is a \\\\Level 9 qualification\\\\ of 90 ECTS and is listed as a \\\\1.5 year full-time programme\\."
+    },
+    {
+      "name": "University College Cork (UCC)",
+      "location": "Cork, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "desc": "University College Cork (UCC) offers programs in the wider \\\\built environment\\\\ and associated disciplines."
+    },
+    {
+      "name": "Trinity College Dublin",
+      "location": "Dublin, Ireland",
+      "fee": "€18,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Study Architecture in Ireland?",
+      "lead": "Ireland is an attractive destination for architecture students because of its architectural heritage, contemporary construction industry and emphasis on sustainable development.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "The main benefits are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Design-led education:\\\\ Students acquire skills in \\\\architectural drawing, design studios, model-making\\\\ and \\\\spatial planning.\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Technical knowledge:\\\\ Courses include \\\\building materials, structural principles, construction methods\\\\ and \\\\building performance.",
+            "\\\\Sustainable architecture:\\\\ Students can learn about \\\\energy efficient buildings, climate responsive design\\\\ and \\\\sustainable construction.",
+            "\\\\International exposure:\\\\ Studying in Ireland can give you a taste of European architectural approaches, planning systems and building standards.",
+            "\\\\Practical project work:\\\\ A lot of \\\\architecture courses\\\\ include \\\\design portfolios, studio projects, presentations\\\\ and \\\\technical assignments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Career flexibility:\\\\ With their qualifications, graduates can go on to careers in \\\\architecture, design consultancy, building technology, urban design\\\\ and related construction fields."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Architecture Courses in Ireland",
+      "lead": "\\\\Architecture courses in Ireland\\\\ can be accessed through a range of academic pathways. Which option is correct depends on your previous education and whether you want to work in professional architectural practice or a related design career.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Architecture Courses for Undergraduates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Undergraduate architecture programmes\\\\ are for students who have completed secondary school or the equivalent."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Options might be:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\B.Arch.\\\\",
+            "\\\\B.Arch (Honours)\\\\",
+            "\\\\Architecture and Built Environment degrees\\\\",
+            "Architectural Technology",
+            "Interior Design",
+            "\\\\Built Environment and Sustainable Design programmes\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Five year undergraduate architecture degrees are available and may form part of a pathway to a professional qualification. Other courses, such as \\\\architectural technology\\\\, are more focused on the technical design and construction of buildings and do not automatically mean that graduates become architects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate courses in architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate architecture courses are generally aimed at students who already have the relevant undergraduate degree."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Some common options include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Architecture (M.Arch)"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Postgraduate courses in Architecture and designing\\\\",
+            "\\\\Architecture for Sustainability\\\\",
+            "\\\\City Design and Planning\\\\",
+            "\\\\Preservation of Buildings\\\\",
+            "\\\\Environmental Design and Building Performance\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The \\\\Master of Architecture\\\\ can take anything from \\\\1.5 to two years\\\\, depending on the institution and structure of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specializations in architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students also can explore:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Design of sustainable and green buildings\\\\",
+            "\\\\Urban Planning/Urban Design\\\\",
+            "Landscape architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Conservation architecture\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Building information modeling (BIM) and digital architecture",
+            "\\\\Structure technology\\\\",
+            "\\\\Interior design\\\\",
+            "\\\\Sustainable building design\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Top Universities for Architecture in Ireland",
+      "lead": "\\\\ Irish institutions \\\\ provide a variety of \\\\ architecture degrees \\\\ and \\\\ postgraduate qualifications \\.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "University College Dublin (UCD)",
+          "location": "Dublin, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+          "desc": "University College Dublin - \\\\Master of Architecture\\\\ The \\\\Master of Architecture\\\\ at \\\\University College Dublin (UCD)\\\\ is a postgraduate program for students who want to develop advanced design and professional architecture skills. Dublin Institute of Technology (DIT) - \\\\Technological University Dublin (TU Dublin)\\\\ Bachelor of Architecture (Honours) Master of Architecture. The undergraduate program is a \\\\five-year, 300 ECTS degree programme\\. The postgraduate \\\\MArch\\\\ is a \\\\Level 9 qualification\\\\ of 90 ECTS and is listed as a \\\\1.5 year full-time programme\\."
+        },
+        {
+          "name": "University College Cork (UCC)",
+          "location": "Cork, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "desc": "University College Cork (UCC) offers programs in the wider \\\\built environment\\\\ and associated disciplines."
+        },
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin, Ireland",
+          "fee": "€18,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Study Architecture in Ireland",
+      "lead": "\\\\Architecture eligibility criteria in Ireland\\\\ differ based on course level, institution and the applicant's academic background.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Undergraduate courses eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants typically require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A recognized \\\\secondary-school qualification\\\\, e.g. \\\\Class 12 for Indian students.",
+            "\\\\Academic results\\\\ that satisfies the university's country specific entry requirements.",
+            "\\\\English language proficiency\\\\ evidence, where required.",
+            "A \\\\portfolio\\\\ or additional assessment, where required by the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Not all undergraduate courses require a portfolio, so students should check individual course requirements."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Post Graduate Courses Eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "In general, applicants need:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A recognized \\\\bachelor's degree in architecture\\\\ or an equivalent qualification is accepted."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Academic grades\\\\ that meet the minimum standard required by the program."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A \\\\design portfolio.",
+            "\\\\Proof of proficiency\\\\ in English (if required).",
+            "Further documentation or an interview, as applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For example, the \\\\UCD Master of Architecture\\\\ says that the \\\\entry requirements\\\\ are a relevant degree in architecture, or an approved equivalent, a minimum level of academic attainment and a portfolio. International applicants should check the recognition of their qualification."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "English language requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities can accept \\\\IELTS Academic, TOEFL iBT, PTE Academic\\\\ or other accepted tests. Minimum scores and exemptions vary from institution to institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements for Architecture in Ireland",
+      "lead": "\\\\Architecture admissions in Ireland\\\\ could require an academic assessment and an assessment of \\\\design ability\\.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Common requirements are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Certificates & Transcripts:\\\\ Academic certificates and transcripts showing completed qualifications and grades.",
+            "\\\\Design portfolio:\\\\ A portfolio of creative or architectural work demonstrating \\\\design thinking, drawing ability, spatial awareness\\\\ and \\\\visual communication\\\\, where applicable.",
+            "\\\\English language test scores:\\\\ Evidence of proficiency if the applicant is not eligible for an exemption.",
+            "\\\\Purpose statement:\\\\ Some postgraduate courses require you to state your interests, previous experience and future aims.",
+            "\\\\CV or résumé:\\\\ You may be asked to submit this for postgraduate or specialist programs.",
+            "\\\\References:\\\\ You may be asked to provide academic or professional references.",
+            "\\\\Interview or further assessment:\\\\ Some institutions may want applicants to talk about their portfolio, design interests or academic background."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying Architecture in Ireland",
+      "lead": "The cost of architecture tuition in Ireland varies based on the student's price category, the length of the program, and the school.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Tuition fees (estimated)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture Undergraduate\\\\ \\\\€12,000-€25,000 per year\\\\"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Postgraduate architecture \\",
+              "d": "€15,000–€30,000 a year"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examples of published fees outside the EU"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor of Architecture (Honours) - TU Dublin\\\\ \\| \\\\€14,500 per annum\\\\ \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "TU Dublin Master of Architecture\\\\ \\| \\\\€21,750 overall\\\\ \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "UCD Master of Architecture\\\\ \\| \\\\€29,500 for first year as per published fee schedule\\\\ \\|"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should also make plans for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Housing and utilities\\\\",
+            "Groceries and food",
+            "\\\\Public transport",
+            "\\\\Computer & software\\\\",
+            "Materials for drawing and model making",
+            "\\\\Printing and portfolio creation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Field trips and site visits,\\\\ where applicable"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Health insurance and immigration expenses, if applicable"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process for Architecture in Ireland",
+      "lead": "Generally, students are able to follow the following procedures when applying for a \\\\architecture program in Ireland\\\\:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Choose the right route:\\\\ Decide if you want a \\\\undergraduate architecture degree, an MArch\\\\ or a related built-environment course."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Check professional recognition:\\\\ Ensure the program meets your desired \\\\professional path.",
+            "\\\\Check entry requirements:\\\\ Review \\\\academic qualifications, English language skills\\\\ and \\\\portfolio requirements.",
+            "\\\\Portfolio preparation:\\\\ Follow the institution's format and submission guidelines to the letter.",
+            "\\\\Gather documents:\\\\ Get \\\\academic transcripts, certificates, passport details\\\\ and other necessary documents ready.",
+            "\\\\Apply:\\\\ Use the university's designated application platform or the appropriate application process.",
+            "\\\\Complete further assessments:\\\\ If asked, take part in an interview or provide further material.",
+            "\\\\Check your offer:\\\\ Look at the conditions, fees, deposits and deadlines.",
+            "\\\\Finances and accommodation:\\\\ Be prepared for \\\\tuition, living costs\\\\ and \\\\course-related materials.",
+            "\\\\Complete immigration formalities:\\\\ If necessary, comply with the current \\\\Irish student visa\\\\ and immigration rules."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Architecture courses\\\\ often have limited places and specific portfolio deadlines, so students should prepare their applications early."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Architectural Accreditation and Recognition in Ireland",
+      "lead": "Professional recognition is a particularly important issue for architecture students, as the completion of a degree does not always mean that a graduate can immediately use the professional title of architect.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Before you sign up, make sure you check:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Institution recognition:\\\\ Check that the institution provides the qualification stated on the course page.",
+            "\\\\National Framework of Qualifications (NFQ):\\\\ Check level of qualification where relevant.",
+            "\\\\Professional Accreditation:\\\\ Verify that the program is recognized for the \\\\professional architecture route in Ireland.",
+            "\\\\Registration requirements:\\\\ Check for any additional education, practical experience, examinations or other requirements for \\\\professional registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The \\\\Royal Institute of the Architects of Ireland (RIAI)\\\\ has details of recognised architecture qualifications and \\\\registration pathways\\."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Prospects of Studying Architecture in Ireland",
+      "lead": "\\\\Architecture graduates\\\\ can find work in \\\\design practices, construction companies, property development, public-sector organisations\\\\ and multidisciplinary engineering or planning companies.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Popular career choices"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Architectural Assistant\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Graduate Architect\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Architectural Designer\\\\",
+            "\\\\BIM Technician or Coordinator\\\\",
+            "\\\\Architectural Technician\\\\",
+            "\\\\Urban Design Assistant\\\\",
+            "Consultant on Sustainable Design",
+            "\\\\Coordinator of Building Design\\\\",
+            "\\\\Project Coordinator, Architecture\\\\",
+            "\\\\Conservation / Heritage Design Assistant\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some roles, such as \\\\architectural technologist\\\\ or \\\\BIM specialist\\\\ have different professional requirements to the registered architect."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expected salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary depends on level of qualification, experience, location, employer and whether you are registered as a professional."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "As a general planning figure, \\\\graduate level architecture and design positions\\\\ may pay in the region of \\\\€30,000-€40,000 per annum\\\\, with experienced architects and project leads earning more. These are not guaranteed salaries but salary ranges."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career prospects after graduation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An \\\\architecture qualification\\\\ can help with job applications in Ireland and other countries, depending on the requirements of the employer and \\\\rules on professional recognition\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Completion of a course does not automatically lead to employment or permission to remain in Ireland. Depending on the existing conditions, \\\\Third Level Graduate Programme\\\\ may be available for eligible graduates from relevant Irish higher education courses."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documentation Needed to Study Architecture in Ireland",
+      "lead": "Required documents vary by university and program. Typical requirements are:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Valid passport",
+            "\\\\Certificates and transcripts of studies\\\\",
+            "Applicable Class 10 and Class 12 documents for undergraduate candidates",
+            "\\\\Bachelor's degree certificate and transcripts\\\\ if you are applying for postgraduate study",
+            "\\\\Portfolio of design\\\\ if needed",
+            "\\\\English language test results\\\\, if applicable",
+            "\\\\Statement of purpose\\\\ where needed",
+            "\\\\Résumé or CV\\\\, if applicable",
+            "\\\\References\\\\ (academic or professional, if required)",
+            "\\\\Filled out application form\\\\",
+            "\\\\Proof of payment for application fee\\\\, if applicable",
+            "Financial evidence and other documents required for visa process, if applicable"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants may be required to submit certified copies or official translations of documents. Portfolio requirements can differ widely so check the university's guidance before submitting any work."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it worth studying Architecture in Ireland?",
+      "a": "Ireland is a good option for students interested in \\\\design-led education, sustainable buildings\\\\ and the \\\\built environment. Before you choose a university, look at the \\\\quality of the course, professional recognition, tuition fees\\\\ and \\\\portfolio requirements."
+    },
+    {
+      "q": "What is the Architecture course duration in Ireland?",
+      "a": "An \\\\undergraduate architecture programme\\\\ can take around \\\\five years\\\\ to complete depending on the qualification. Postgraduate \\\\ Master of Architecture\\\\ can take about \\\\ 1.5 to two years. Completion time varies by institution and by pathway."
+    },
+    {
+      "q": "Can I study Architecture in Ireland after 12th?",
+      "a": "Yeah. Students who have completed \\\\Class 12\\\\ or an equivalent qualification and who meet the academic, English-language and any portfolio requirements, are eligible for \\\\undergraduate architecture programmes."
+    },
+    {
+      "q": "How much are the fees for studying Architecture in Ireland?",
+      "a": "Tuition fees vary by institution and program. Undergraduate fees average \\\\€12,000 to €25,000 per year\\\\ and post-graduate fees average \\\\€15,000 to €30,000 per year.\\\\ Additional living costs, equipment and studio materials."
+    },
+    {
+      "q": "Can I qualify as an architect after studying in Ireland?",
+      "a": "Yes, potentially, but depends on your qualification and the requirements for \\\\professional registration. Students should ensure that the program they choose is accredited for the relevant pathway and consult the \\\\RIAI's\\\\ current requirements for education, experience and registration."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy assist me to study abroad?",
+      "a": "\\\\Edu Hawk worldwide\\\\ assists students in finding the right universities, understanding \\\\admission requirements\\\\, handling \\\\application documents\\\\, and planning their \\\\study abroad journey. Students should contact the relevant official bodies to verify the academic, financial, immigration and licensing requirements."
+    }
+  ],
+  "seo": {
+    "title": "Ireland Architecture Courses | Edu-Hawk Worldwide",
+    "description": "Ireland is an attractive destination for architecture students because of its architectural heritage, contemporary construction industry and emphasis on sustain",
+    "keywords": "Study Architecture in Ireland for Indian Students, Architecture Courses in Ireland for International Students, Top Universities for Architecture in Ireland, Bachelor of Architecture in Ireland, Master of Architecture (MArch) in Ireland, Undergraduate Architecture Courses in Ireland, Postgraduate Architecture Programmes in Ireland, Architecture Eligibility Requirements in Ireland, Architecture Admission Requirements for Indian Students, Architecture Tuition Fees in Ireland 2026/27, Cost of Studying Architecture in Ireland, Architecture Portfolio Requirements for Irish Universities, Architecture Jobs and Salary in Ireland, <"
+  }
+}

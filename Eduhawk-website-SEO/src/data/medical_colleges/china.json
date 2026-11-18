@@ -1,0 +1,99 @@
+{
+  "seo": {
+    "title": "MBBS in China 2026-27 | Admissions, Fees & Universities | Edu Hawk",
+    "description": "Explore MBBS in China for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs.",
+    "keywords": "mbbs in china, china mbbs fees, study mbbs china, china medical colleges"
+  },
+  "hero": {
+    "badge": "MBBS Admissions 2026-27",
+    "title": "STUDY MBBS IN CHINA",
+    "subtitle": "Explore MBBS Opportunities in China 2026–2027. World-class medical infrastructure, mega hospital campuses, and globally ranked universities.",
+    "image": "/uploads/colleges/china_flag.svg",
+    "ctaText": "Apply for China MBBS"
+  },
+  "flag": "/uploads/colleges/china_flag.svg",
+  "stats": [
+    {
+      "n": "6 Years",
+      "l": "Duration (5+1 Internship)"
+    },
+    {
+      "n": "MOE Listed",
+      "l": "English Medium Programs"
+    },
+    {
+      "n": "World Top 500",
+      "l": "Ranked Universities"
+    },
+    {
+      "n": "NMC Compliant",
+      "l": "Clinical Training"
+    }
+  ],
+  "highlights": {
+    "degree": "MBBS",
+    "duration": "6 Years",
+    "fee": "₹25 - ₹35 Lakhs Total Package",
+    "eligibility": "50% in PCB aggregate + NEET Qualified",
+    "medium": "English",
+    "recognition": "NMC & WHO Recognized",
+    "neet": "Compulsory",
+    "ielts": "Not Required"
+  },
+  "overview": "China boasts some of the most technologically advanced medical institutions in the world. Attached hospitals routinely have 2,000 to 5,000 beds, giving Indian medical students exposure to high-volume clinical cases and state-of-the-art robotic medical technology.",
+  "universitiesHeading": "Top Medical Universities in China",
+  "universities": [
+    {
+      "name": "Nanjing Medical University",
+      "location": "Nanjing, China",
+      "fee": "₹3.8 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/de/Dormitory_of_Bainiantang.jpg",
+      "desc": "Elite Chinese medical university with global research citations and large hospital network."
+    },
+    {
+      "name": "Southern Medical University",
+      "location": "Guangzhou, China",
+      "fee": "₹4.0 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Qilingang_campus.jpg",
+      "desc": "Formerly first military medical university, offering world-class biomechanical training."
+    },
+    {
+      "name": "Tianjin Medical University",
+      "location": "Tianjin, China",
+      "fee": "₹3.9 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/2014%E5%B9%B46%E6%9C%88%E5%A4%A9%E6%B4%A5%E5%8C%BB%E7%A7%91%E5%A4%A7%E5%AD%A6%E6%A0%A1%E5%9B%AD.jpg",
+      "desc": "National '211 Project' university with prestigious oncology and cardiovascular departments."
+    },
+    {
+      "name": "China Medical University",
+      "location": "Shenyang, China",
+      "fee": "₹4.2 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/00/CMU_20061030.jpg",
+      "desc": "Historic institution recognized internationally for medical pedagogy and patient care."
+    },
+    {
+      "name": "Dalian Medical University",
+      "location": "Dalian, China",
+      "fee": "₹4.1 Lakhs / Year",
+      "image": "https://images.shiksha.com/mediadata/images/1597819161phpzHqyKj_g.png",
+      "desc": "Beautiful coastal campus with high international enrollment and English-medium clinical mentors."
+    },
+    {
+      "name": "Shandong University of Traditional Chinese Medicine",
+      "location": "Jinan, China",
+      "fee": "₹3.5 Lakhs / Year",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/%E5%B1%B1%E4%B8%9C%E5%A4%A7%E5%AD%A6%EF%BC%88%E4%B8%AD%E5%BF%83%E6%A0%A1%E5%8C%BA%EF%BC%89%E5%8D%97%E9%97%A8%EF%BC%88%E6%AD%A3%E9%97%A8%EF%BC%89.jpg",
+      "desc": "Comprehensive clinical sciences with integration of modern and traditional diagnostics."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is MBBS in China taught in English?",
+      "answer": "Yes, MOE-listed universities teach the full MBBS curriculum in English medium for international cohorts."
+    },
+    {
+      "question": "What is the duration of MBBS in China?",
+      "answer": "The course duration is 6 years, consisting of 5 years academic medicine plus 1 year rotatory hospital internship."
+    }
+  ]
+}

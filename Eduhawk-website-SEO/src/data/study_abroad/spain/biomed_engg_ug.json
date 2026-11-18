@@ -1,0 +1,425 @@
+{
+  "hero": {
+    "title": "Biomedical Engineering Degree in Spain for Indian Students",
+    "subtitle": "Bachelor's in Biomedical Engineering in Spain for Indian Students offers a chance to merge engineering, biology, medicine and technology to create healthcare solutions. The field includes medical devices, diagnostic equipment, biomedical imaging, biomaterials, rehabilitation technology and healthcare instrumentation."
+  },
+  "overview": [
+    "Spain is a potentially interesting destination for students wishing to combine engineering knowledge with healthcare technology. Some of the important benefits are:",
+    "After Class 12, students seeking an international technical education may consider studying Biomedical Engineering in Spain as a viable option. Students interested in healthcare innovation can explore the opportunities available through Biomedical Engineering in Spain and related engineering disciplines."
+  ],
+  "universities": [
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biomed_engg_ug_Universitat_Polit_cnica_de_Catalunya-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_biomed_engg_ug_Universitat_Polit_cnica_de_Catalunya-image3.png",
+      "desc": "Place: CataloniaType of university: Public university UPC is a technical university that is worth exploring for engineering related study in biomedical technology, instrumentation, electronics and healthcare systems. Students should check the current degree catalog for the exact options available in biomedical engineering at the bachelor's level. Official site: UPC"
+    },
+    {
+      "name": "Universitat Politècnica de València",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biomed_engg_ug_Universitat_Polit_cnica_de_Val_ncia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biomed_engg_ug_Universitat_Polit_cnica_de_Val_ncia-image2.png",
+      "desc": "Place: CataloniaType of university: Public university UPC is a technical university that is worth exploring for engineering related study in biomedical technology, instrumentation, electronics and healthcare systems. Students should check the current degree catalog for the exact options available in biomedical engineering at the bachelor's level. Official site: UPC"
+    },
+    {
+      "name": "University of Barcelona",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biomed_engg_ug_University_of_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biomed_engg_ug_University_of_Barcelona-image1.png",
+      "desc": "Place: BarcelonaUniversity type: Public University The University of Barcelona provides education in health sciences and other related scientific disciplines. Biomedical technology is an area of student interest and the current undergraduate catalog should be examined to differentiate biomedical engineering degrees from biomedical sciences or other health related qualifications. Official website: Universitat de Barcelona Before applying, check that the particular program leads to an engineering qualification."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Biomedical Engineering Bachelors in Spain?",
+      "lead": "Spain is a potentially interesting destination for students wishing to combine engineering knowledge with healthcare technology. Some of the important benefits are:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Interdisciplinary education: Integrate engineering principles with biology, physiology and medical sciences.",
+            "Healthcare technology: Study medical devices, diagnostic systems and healthcare instrumentation.",
+            "Research opportunities: Look for biomedical labs, engineering projects and research work, if they exist.",
+            "Emerging technologies: Explore medical imaging, biomaterials, biosensors and rehabilitation systems.",
+            "European education experience: acquire technical and professional skills within an international academic environment.",
+            "Further study opportunities: Progression to specialist postgraduate programs in biomedical engineering, medical imaging, biomaterials or bioinformatics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After Class 12, students seeking an international technical education may consider studying Biomedical Engineering in Spain as a viable option. Students interested in healthcare innovation can explore the opportunities available through Biomedical Engineering in Spain and related engineering disciplines."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Biomedical Engineering Bachelor's Courses in Spain",
+      "lead": "For those students who are interested in innovation and engineering in the health sector, the path to acquire knowledge in a variety of technical subjects could be to Study Biomedical Engineering in Spain.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Biomedical Engineering Courses in Spain cover a variety of topics related to medical technology, engineering systems and healthcare applications. Students may explore the following areas depending on the university. When comparing Biomedical Engineering Courses in Spain, students should carefully review the curriculum and available specializations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course or specializationKey subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical EngineeringBiomedical systems, physiology, engineering design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medical Devices EngineeringMedical equipment, instrumentation, device design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical ImagingMedical imaging principles, image processing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomaterials EngineeringMaterials used in medical implants and devices"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "BioinstrumentationBiosensors, measurement systems, diagnostic equipment"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "BiomechanicsHuman movement, mechanical modeling, rehabilitation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medical RoboticsRobotics, automation, healthcare applications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are common places to study, not a promise that all universities have separate bachelor's degrees. Some specializations can be taken as single modules or as post-graduate programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should study the curriculum closely to understand how engineering, biological sciences and medical technology are distributed."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Universities for Biomedical Engineering in Spain",
+      "lead": "Students looking for Biomedical Engineering Universities in Spain can start by looking at universities that provide biomedical engineering or related technical and healthcare courses. Comparing Biomedical Engineering Universities in Spain can help Indian students identify suitable academic pathways and explore available undergraduate options.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biomed_engg_ug_Universitat_Polit_cnica_de_Catalunya-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_biomed_engg_ug_Universitat_Polit_cnica_de_Catalunya-image3.png",
+          "desc": "Place: CataloniaType of university: Public university UPC is a technical university that is worth exploring for engineering related study in biomedical technology, instrumentation, electronics and healthcare systems. Students should check the current degree catalog for the exact options available in biomedical engineering at the bachelor's level. Official site: UPC"
+        },
+        {
+          "name": "Universitat Politècnica de València",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biomed_engg_ug_Universitat_Polit_cnica_de_Val_ncia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biomed_engg_ug_Universitat_Polit_cnica_de_Val_ncia-image2.png",
+          "desc": "Place: CataloniaType of university: Public university UPC is a technical university that is worth exploring for engineering related study in biomedical technology, instrumentation, electronics and healthcare systems. Students should check the current degree catalog for the exact options available in biomedical engineering at the bachelor's level. Official site: UPC"
+        },
+        {
+          "name": "University of Barcelona",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biomed_engg_ug_University_of_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biomed_engg_ug_University_of_Barcelona-image1.png",
+          "desc": "Place: BarcelonaUniversity type: Public University The University of Barcelona provides education in health sciences and other related scientific disciplines. Biomedical technology is an area of student interest and the current undergraduate catalog should be examined to differentiate biomedical engineering degrees from biomedical sciences or other health related qualifications. Official website: Universitat de Barcelona Before applying, check that the particular program leads to an engineering qualification."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to study bachelor in Biomedical Engineering in Spain",
+      "lead": "Generally, Indian students are required to meet the following conditions:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Academic Qualifications: Class 12 or equivalent recognized secondary qualification.",
+            "Relevant subjects: Mathematics. Physics and Biology or Chemistry may be relevant, depending on the program.",
+            "Academic performance: Satisfy the university's academic and selection requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Entry to Biomedical Engineering in Spain",
+      "lead": "Students applying for Biomedical Engineering Admission in Spain may be required to submit the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Class 10 and Class 12 mark sheet and certificate.",
+            "Academic transcripts with relevant science and math subjects.",
+            "Proof of eligibility for admission to a university or recognition of a qualification (if applicable).",
+            "Certificate of proficiency in Spanish or English language, if applicable.",
+            "A valid passport.",
+            "Certified translations and apostille or legalization if required.",
+            "University application forms and supporting documentation.",
+            "Results of examinations, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some applicants may need to have UNEDasiss accreditation or another recognized university access procedure. Make sure you have the right route by checking with the university you're applying to, and the regional admission office you're applying through. Understanding Biomedical Engineering Admission in Spain requirements can help Indian students prepare their academic documents and application in advance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Biomedical Engineering Tuition Fees in Spain",
+      "lead": "Biomedical Engineering Fees in Spain depend on the university, program, credit hours, student status and regional fee policies. Tuition structures may differ in public and private universities. Comparing Biomedical Engineering Fees in Spain can help students estimate their annual tuition expenses.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University TypeSample Annual TuitionApproximate INR Equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university€1,000 - €8,000₹1.09 Lakh - ₹8.69 Lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private university€6,000 - €20,000+₹6.52 Lakh - ₹21.72 Lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are general planning figures and are not verified fees for a specific biomedical engineering program. Non-EU students may be charged different tuition fees by some universities and there might be extra academic charges."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "INR conversions are at illustrative exchange rate of €1 &asymp; ₹108.60. Actual fees and exchange rates may vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should consult the official fee schedule of the university when budgeting for their education. Edu-Hawk Worldwide understands the application stages and helps students plan their study abroad journey."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "How to Enrolll in a Bachelor's in Biomedical Engineering in Spain",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The general admission process is as follows:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Select the correct degree: Compare biomedical engineering degrees to other engineering and health technology degrees.",
+            "Eligibility Check: Check Class 12 subject requirements, qualification recognition, and language criteria.",
+            "Documents preparation: Gather academic records, language certificates, translations and legalization where necessary.",
+            "Apply: Follow the university's or region's admission procedure and be aware of application deadlines.",
+            "Review your offer: Check the admission conditions, tuition payment instructions, and enrollment deadlines.",
+            "Solicitar un visado de estudiante en Espa&ntilde;a: Recopilar la documentaci&oacute;n necesaria en materia de estudios, finanzas, seguros y alojamiento.",
+            "Finish Enrolment: Ensure you have completed your registration, accommodation, and travel arrangements before classes begin."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application processes and closing dates can vary between universities and regions. Students are requested to follow the latest instructions issued by the institution of their choice. Students preparing for Biomedical Engineering Admission in Spain should also allow enough time for qualification recognition and document preparation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Is Biomedical Engineering Degree Bachelor Recognized in Spain?",
+      "lead": "Having a degree from a recognized university in Spain can be an advantage when you apply for further education or a job abroad. But recognition of degrees depends on the country, the qualification and the profession for which it is intended.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students wishing to return to India should check applicable recognition requirements with relevant authorities and employers. Students who wish to work in Spain (or in another European country) should check the local employment, immigration and professional regulations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical engineering should also be differentiated from medicine and other regulated health professions. An engineering degree does not automatically qualify a graduate to practice as a doctor or any other licensed healthcare professional."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Career Opportunities for Biomedical Engineers in Spain",
+      "lead": "Biomedical Engineering Jobs in Spain may include jobs in medical technology, healthcare equipment, biomedical research support, medical device development and engineering services. Students exploring Biomedical Engineering Jobs in Spain can consider opportunities related to healthcare technology, medical equipment and engineering research.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Graduates may pursue career options such as:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career optionIndicative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate Biomedical Engineer€24,000–32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Medical Device Engineer€27,000–40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical Equipment Engineer€24,000–36,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Clinical Engineering Support Specialist€25,000–38,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical Systems Engineer€28,000–42,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The salary ranges are representative and may vary by location and are not guarantyd actual earnings. Actual salaries depend on location, employer, experience, language skills and technical specialization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates may also proceed to study for postgraduate degrees in biomedical engineering, medical imaging, biomaterials, bioinformatics, medical robotics and related fields, subject to admission requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Required Documents to Study Biomedical Engineering in Spain",
+      "lead": "Indian students should prepare following documents as per the university they have selected:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport valid.",
+            "Certificates and mark sheets of Class 10 and Class 12.",
+            "Transcripts of Academic Records.",
+            "Documents proving university access or recognition of the qualification, if applicable.",
+            "Certificate of proficiency in Spanish or English language, if applicable.",
+            "Certified translations and apostille or legalization, if required.",
+            "Filled out university application forms.",
+            "Admission letter/Offer letter, if issued.",
+            "Financial evidence and other documents needed for the study visa.",
+            "Health insurance and accommodation papers if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Always follow the official checklist of the university and the current indications of the Spanish consulate."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Can Indian students pursue Biomedical Engineering in Spain after Class 12?",
+      "a": "Yes. Indian students can apply as long as they meet the university's academic, subject, qualification recognition and language requirements."
+    },
+    {
+      "q": "2. How long is Bachelor's in Biomedical Engineering in Spain?",
+      "a": "Many Spanish engineering bachelor's degrees are four years long and require 240 ECTS credits. The exact duration depends on the chosen program."
+    },
+    {
+      "q": "3. How much is the tuition fee for Biomedical Engineering in Spain?",
+      "a": "Generally, tuition fees at a public university could be somewhere between €1,000 and €8,000 a year, and between €6,000 and €20,000 or more at a private university. The actual fees depend on the institution and the student status."
+    },
+    {
+      "q": "4. Do I need to know Spanish to be able to study Biomedical Engineering in Spain?",
+      "a": "It is contingent upon the program. The vast majority of undergraduate degrees are taught in Catalan or Spanish, although some programs may be taught in English. Check the language requirements with the university."
+    },
+    {
+      "q": "5. What are the career opportunities after a Bachelor's in Biomedical Engineering in Spain?",
+      "a": "Graduates may find jobs in medical device development, biomedical equipment, healthcare technology, engineering support, and biomedical research. With further study, they may be able to specialize in advanced medical technologies."
+    }
+  ],
+  "seo": {
+    "title": "Biomedical Engineering Degree in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain is a potentially interesting destination for students wishing to combine engineering knowledge with healthcare technology. Some of the important benefits ",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

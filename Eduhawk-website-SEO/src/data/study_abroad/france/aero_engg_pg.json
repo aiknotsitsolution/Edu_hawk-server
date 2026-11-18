@@ -1,0 +1,674 @@
+{
+  "hero": {
+    "title": "Aerospace Engineering PG in France for Indian Students",
+    "subtitle": "Studying Postgraduate Aerospace Engineering in France\\\\ can give students advanced knowledge and technical skills in fields like aircraft design, aerodynamics, propulsion, aerospace structures, flight dynamics and space systems. \\\\French universities and engineering specialist schools\\\\ offer \\\\Master's programs in Aerospace Engineering\\\\ that blend scientific fundamentals, laboratory research, hands-on design projects and industrial experience."
+  },
+  "overview": [
+    "Benefits of \\\\Master's in Aerospace Engineering in France\\\\ for Students France offers many benefits to the students who want to pursue",
+    "\\\\International programmes:\\\\ International students have a choice of several postgraduate pathways, offered in English."
+  ],
+  "universities": [
+    {
+      "name": "ISAE",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_ISAE.webp",
+      "image": "/uploads/study_abroad/france/france_ISAE.webp",
+      "desc": "SUPAERO, Toulouse : offers a \\\\two:year Master's Degree in Aerospace Engineering\\\\ fully taught in English. Graduates with an appropriate science or engineering background are targeted for the program, which offers advanced education in aeronautics and space technology."
+    },
+    {
+      "name": "University of Toulouse",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_University_of_Toulouse.webp",
+      "image": "/uploads/study_abroad/france/france_University_of_Toulouse.webp",
+      "desc": "The Université de Toulouse and its member institutions offer postgraduate study and research in the areas of engineering and science related to aeronautics and space."
+    },
+    {
+      "name": "University Paris",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_Paris.webp",
+      "desc": "Saclay : Université Paris:Saclay offers graduate study and research in the areas of engineering sciences, mechanics, electronics, control systems and other technical areas. Students with an interest in aerospace engineering can explore relevant master's tracks in mechanics, modeling, materials and systems engineering."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Aerospace Engineering PG in France?",
+      "lead": "Benefits of \\\\Master's in Aerospace Engineering in France\\\\ for Students France offers many benefits to the students who want to pursue",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Specialised education:\\\\ Learn in depth about aerodynamics, aircraft structures, propulsion, flight mechanics and spacecraft engineering.",
+            "\\\\Industry links:\\\\ Selected programs have internships, research projects and links with aerospace companies.",
+            "\\\\Research opportunities:\\\\ Advanced materials, computational fluid dynamics, space systems, propulsion technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International programmes:\\\\ International students have a choice of several postgraduate pathways, offered in English."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Technical specialisations:\\\\ Choose to specialize in aircraft design, space engineering, control systems or aerospace structures.",
+            "\\\\Career opportunities:\\\\ Graduates can find employment in the fields of aircraft manufacturing, space technology, aviation systems, simulation, testing and research."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "PG Courses in Aerospace Engineering in France",
+      "lead": "In France, a national master's degree usually lasts \\\\two years\\\\ , with Master 1 (M1) and Master 2 (M2) , totaling 120 ECTS credits.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Some specialist postgraduate courses are shorter and require appropriate prior qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular \\\\postgraduate specializations in Aerospace Engineering in France\\\\ are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerodynamics and Computational Fluid Dynamics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft Design and Aircraft Performance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Structures and Materials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft Propulsion and Turbomachinery"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Space Systems Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flight Mechanics and Control Systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Avionics and Embedded Systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Helicopter and Rotorcraft Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Manufacturing and Maintenance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Numerical Simulation and Engineering Design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Guidance, Navigation and Control"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Satellite Technology and Space Applications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These \\\\master's courses in Aerospace Engineering in France\\\\ give students the chance to gain specialized knowledge for a career in the aviation, aircraft manufacturing and space technology industries."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Universities for Aerospace Engineering PG in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "ISAE",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_ISAE.webp",
+          "image": "/uploads/study_abroad/france/france_ISAE.webp",
+          "desc": "SUPAERO, Toulouse : offers a \\\\two:year Master's Degree in Aerospace Engineering\\\\ fully taught in English. Graduates with an appropriate science or engineering background are targeted for the program, which offers advanced education in aeronautics and space technology."
+        },
+        {
+          "name": "University of Toulouse",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_University_of_Toulouse.webp",
+          "image": "/uploads/study_abroad/france/france_University_of_Toulouse.webp",
+          "desc": "The Université de Toulouse and its member institutions offer postgraduate study and research in the areas of engineering and science related to aeronautics and space."
+        },
+        {
+          "name": "University Paris",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_Paris.webp",
+          "desc": "Saclay : Université Paris:Saclay offers graduate study and research in the areas of engineering sciences, mechanics, electronics, control systems and other technical areas. Students with an interest in aerospace engineering can explore relevant master's tracks in mechanics, modeling, materials and systems engineering."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Study Aerospace Engineering PG in France",
+      "lead": "The eligibility criteria for students applying for \\\\Aerospace Engineering PG in France\\\\ is generally as follows:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree in Aerospace Engineering, Aeronautical Engineering, Mechanical Engineering or any other science or engineering field related to the position."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Solid background in mathematics, physics, mechanics, thermodynamics and fluid mechanics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Good academic results during undergraduate studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language proficiency for English-taught programs, where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "French language proficiency if required for French taught programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other academic prerequisites required by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the program, graduates in electrical engineering, electronics, computer science, mechatronics or applied physics may also be considered."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirement in Aerospace Engineering",
+      "lead": "French universities and engineering schools evaluate candidates on academic results, preparation in the subjects and aptitude for the specialization chosen.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical \\\\Aerospace Engineering admission requirements in France\\\\ are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Relevant bachelor degree or accepted equivalent qualification.",
+            "Official academic transcripts",
+            "A CV or résumé with details of education, technical skills, projects and internships.",
+            "Statement of purpose or motivation letter.",
+            "Letters of recommendation (if required).",
+            "Test results, if applicable, in English or French.",
+            "Interview or further assessment as required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some specialized programs require a four-year bachelor's degree or equivalent preparation, while others may accept a relevant three-year bachelor's degree. Applicants should check the entry level requirements of the course they have chosen."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying PG in Aerospace Engineering in France",
+      "lead": "The \\\\cost of studying Aerospace Engineering in France\\\\ depends on the institution, the type of degree, the category of student, and the fee structure for each program.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For the academic year 2026-2027, the annual indicative tuition fees for public institutions applying the national fee system are as follows, as set by Campus France:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "EU/EEA/Swiss students - national master's degree \\",
+              "d": "€255"
+            },
+            {
+              "t": "Non-EU Students (Differentiated Master's fees) \\",
+              "d": "€3,950"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional Living Expenses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should also plan for \\\\tuition fees of Aerospace Engineering in France\\\\ and:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Housing and utility.",
+            "Daily expenses and food.",
+            "Local transport.",
+            "Health insurance and other relevant administrative costs",
+            "Books, software and study material.",
+            "Visa and travel and personal costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of living varies by city and type of accommodation. Before setting their study budget, students should look into their housing options, scholarships and other funding."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Process of Admission in France for PG in Aerospace Engineering",
+      "lead": "The \\\\Aerospace Engineering PG admission process in France\\\\ generally follows the below-mentioned steps:",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Research programs: Compare universities, specializations, types of degree, languages of teaching and tuition fees.",
+      "lead": "2. \\\\Eligibility:\\\\ Ensure that your subjects of study and your bachelor's degree are eligible for admission.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Prepare documents:\\\\ Gather transcripts, degree certificates, CV, motivation letter, and language certificates if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Apply:\\\\ Apply through the institution's official portal or through the application route applicable to your nationality and program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Complete assessments:\\\\ Participate in an interview or provide additional documents if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Review your offer:\\\\ Review your offer, tuition arrangements and enrollment deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Fundraise:\\\\ Get ready for tuition, accommodation and living expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Complete visa formalities:\\\\ If you are subject to visa requirements, follow the Campus France and French student-visa formalities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Prepare for arrival\\\\: Book accommodation, travel, insurance and registration at university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition and Accreditation of Aerospace Engineering Degrees",
+      "lead": "Students should check what qualification is actually awarded by the institution before accepting an offer.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A \\\\diplôme national de master\\\\, the French national master's degree, is recognized within the French higher education system and the European higher education framework. This usually corresponds to five years of higher education, in addition to what came before at the bachelor's level."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Another qualification is the engineering diploma ( \\ diplôme d'ingénieur \\ ) . Applicants for engineering-school programs should verify that the institution is authorized and, where relevant, recognized by the Commission des titres d'ingénieur (CTI)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check before you apply:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Title of the degree and the awarding institution.",
+            "whether the program leads to a national master's degree, an engineering diploma or a specialization.",
+            "The institution's accreditation or recognition status.",
+            "The length and academic credit.",
+            "Recognition requirements for employment or further study in your country of choice."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students from India who want to go back after graduation should check qualification requirements with potential employers, universities or the appropriate authorities."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Aerospace Engineering PG Salary & Job Opportunities in France",
+      "lead": "A \\\\Master's in Aerospace Engineering in France\\\\ can help you find career opportunities in aircraft design, space systems, propulsion, simulation, aerospace structures, and engineering research.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Employment results depend on technical skills, internships, professional experience, language skills, security or export-control restrictions where applicable and the hiring market."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Potential jobs after doing a PG in Aerospace Engineering in France are\\\\:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Design Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerodynamics Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computational Fluid Dynamics Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Structures Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Propulsion Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flight Dynamics Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Space Systems Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Avionics or Control Systems Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aircraft Performance Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace Testing and Validation Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research and Development Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Simulation Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible employers are aircraft manufacturing, space systems, aviation, defense, engineering consultancies, advanced materials and research organizations. Certain positions may require citizenship, security clearance, or export control qualifications, especially those related to defense contracts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expected Salary in France after PG in Aerospace Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There is not a one salary for all aerospace engineering graduates. Compensation varies by employer, role, location, experience, technical specialization and contract type."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students are to compare current job advertisements and salary surveys for the field they have chosen. When you are evaluating a job offer, take into account gross salary, taxes and social contributions, housing costs and other living expenses."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents for PG in Aerospace Engineering in France",
+      "lead": "Common documents students need to submit when applying for \\\\Aerospace Engineering master's programs in France\\\\",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Valid Passport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree certificate or provisional degree certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transcripts (official)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV or résumé."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Motivation Letter (Statement of Purpose)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language test results, where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate in French, as appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course Syllabus or descriptions available upon request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Details of applicable technical projects and internships."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificates of experience or employment, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passport size photographs, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of payment of application fee, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some institutions require translations to be certified and in French or English. Additional documentation may be required for visa applications, such as proof of finances and accommodation where relevant."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long is a postgraduate aerospace engineering course in France?",
+      "a": "A national master's degree usually lasts two years, consisting of M1 and M2, with 120 ECTS credits. Postgraduate qualifications for specialists vary in length and entry requirements."
+    },
+    {
+      "q": "Can Indian students do Aerospace Engineering PG in France?",
+      "a": "Yeah. Indian students can apply for \\\\Aerospace Engineering PG in France\\\\ if they meet the academic, language, and documentation requirements. Being accepted to a university and being issued a student visa are two separate things."
+    },
+    {
+      "q": "Do I have to take IELTS for aerospace engineering masters in France?",
+      "a": "Not every time. English taught programs may require IELTS, TOEFL or an equivalent accepted test or approved proof of previous education in English. Some of the programs are taught in French and may require proficiency in French."
+    },
+    {
+      "q": "Aerospace Engineering PG Tuition Fee in France?",
+      "a": "For 2026-2027 the indicative annual fee for a national master's degree at covered public institutions is €255 for EU/EEA/Swiss students and €3,950 for non-EU students liable to differential fees. Specialist aerospace programs and engineering schools may have different tuition arrangements ."
+    },
+    {
+      "q": "5: What are the jobs after PG in Aerospace Engineering in France?",
+      "a": "Graduates may be employed in aircraft design, aerodynamics, propulsion, aerospace structures, space systems, flight dynamics, avionics and research and development. Opportunities will depend on technical skills, experience, language ability and employer needs."
+    },
+    {
+      "q": "How Edu Hawk Worldwide Consultancy Can Help Me To Study Abroad?",
+      "a": "Students can explore suitable universities, understand \\\\Aerospace Engineering admission requirements in France\\\\ , organize application documents and plan their study abroad journey with Edu Hawk worldwide. Students should check academic, financial, immigration and qualification-recognition requirements with the relevant official authorities."
+    }
+  ],
+  "seo": {
+    "title": "Aerospace Engineering PG in France for Indian Students | Edu-Hawk Worldwide",
+    "description": "Benefits of \\\\Master's in Aerospace Engineering in France\\\\ for Students France offers many benefits to the students who want to pursue",
+    "keywords": "Studying Postgraduate Aerospace Engineering in France, Master's programs in Aerospace Engineering, Master's in Aerospace Engineering in France, PG Courses in Aerospace Engineering in France, Top Universities for Aerospace Engineering PG in France, Master's Degree in Aerospace Engineering in France, Eligibility to Study Aerospace Engineering PG in France, Aerospace Engineering Admission Requirements for Indian Students, Cost of Studying Aerospace Engineering in France, English-Taught Aerospace Engineering Master's Programmes in France, Space Systems Engineering and Satellite Technology Master's Programmes in France, Aircraft Propulsion and Turbomachinery Courses in France, Aerospace Engineering Master's Specialisations in France, Aerospace Engineering Jobs and Career Opportunities in France, <"
+  }
+}

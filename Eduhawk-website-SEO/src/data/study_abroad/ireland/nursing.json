@@ -1,0 +1,296 @@
+{
+  "hero": {
+    "title": "Nursing education in Ireland",
+    "subtitle": "Ireland attracts students who want to study in ireland.. Its nursing programs blend classroom education with hands-on training and supervised clinical placements in medical settings."
+  },
+  "overview": [
+    "Ireland attracts students who want to study in ireland.. Its nursing programs blend classroom education with hands-on training and supervised clinical placements in medical settings.",
+    "The main advantages of studying nursing in Ireland are as follows:",
+    "Students can explore these possibilities and learn about the requirements to study abroad with the help of Edu Hawk worldwide study abroad guidance."
+  ],
+  "universities": [
+    {
+      "name": "Trinity College Dublin",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_nursing_Trinity_College_Dublin-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_nursing_Trinity_College_Dublin-image2.png",
+      "desc": "Trinity College Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "University College Cork",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_nursing_University_College_Cork-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_nursing_University_College_Cork-image3.png",
+      "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "University of Galway",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_nursing_University_of_Galway-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_nursing_University_of_Galway-image1.png",
+      "desc": "University of Galway is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why should you study nursing in Ireland?",
+      "lead": "Ireland attracts students who want to study in ireland.. Its nursing programs blend classroom education with hands-on training and supervised clinical placements in medical settings.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The main advantages of studying nursing in Ireland are as follows:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "If you have completed an approved nursing program you may be entitled to registration with the Nursing and Midwifery Board of Ireland (NMBI).",
+            "Students receive clinical experience in hospitals and other healthcare settings.",
+            "Students can choose to specialize in areas that include general nursing, mental health, intellectual disability and children's nursing.",
+            "Career opportunities: Depending on registration and corporate requirements, graduates can be employed in hospitals, community healthcare, nursing homes and special services. Irish universities have students from a wide range of other countries.",
+            "Nursing in Ireland is a challenging job that requires strong communication skills, empathy, attention to detail and the ability to work under pressure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore these possibilities and learn about the requirements to study abroad with the help of Edu Hawk worldwide study abroad guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Ireland Nursing Courses",
+      "lead": "Nursing undergraduate, graduate and continuing professional education is provided by Irish institutions.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Nursing programs in demand:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The students of the Bachelor of Science (BSc) program in General Nursing are trained to take care of patients in various health care settings.",
+            "Children's and general integrated nursing is the combination of general and pediatric nursing education.",
+            "The purpose of mental health nursing is to assist people suffering from mental health problems.",
+            "The aim of intellectual disability nursing is to provide the required skills to help people with intellectual disabilities and their healthcare needs.",
+            "It prepares competent graduates who choose to pursue additional study, research, leadership or specialized expertise for a master's degree in nursing or a related field.",
+            "Postgraduate certificates and diplomas offer further training in specific clinical and professional areas."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The average undergraduate nursing degree in Ireland is four years, while programs combining pediatric and general nursing can take up to four and a half years. Postgraduate programs duration varies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Best Nursing Colleges and Universities in Ireland",
+      "lead": "Nursing courses in Ireland are offered by the following institutions:",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Trinity College Dublin",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_nursing_Trinity_College_Dublin-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_nursing_Trinity_College_Dublin-image2.png",
+          "desc": "Trinity College Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "University College Cork",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_nursing_University_College_Cork-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_nursing_University_College_Cork-image3.png",
+          "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "University of Galway",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_nursing_University_of_Galway-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_nursing_University_of_Galway-image1.png",
+          "desc": "University of Galway is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Requirements for Nursing Admission in Ireland",
+      "lead": "Universities consider applications based on academic credentials, English language proficiency, and course-specific requirements.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A recognized secondary school diploma is generally required for undergraduate courses and a similar degree is usually required for postgraduate studies.",
+            "English language requirements: TOEFL, IELTS Academic and other approved tests are acceptable for admission to universities.",
+            "Minimum score will depend on the subject and the school."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Other requirements may be:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic records and certificates",
+            "Personal statement or additional proof upon request.",
+            "References for use particularly in post-graduate courses.",
+            "Evidence of vaccinations, occupational health screening or health declaration should be obtained prior to clinical placements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "You may be accepted to university but this does not always guaranty prerequisites for clinical placement or professional registration."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of nursing education in Ireland",
+      "lead": "The overall cost will depend on your course, university, accommodation, lifestyle and fee status.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated costs for international students:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Undergraduate nursing tuition",
+              "d": "Some schools charge between €23,000 and €30,000 per year."
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Costs of living and accommodation: about €10,000 to €18,000+ per year Costs for books, clothes, equipment and placement vary according to the course.",
+            "Additional costs may include immigration and health insurance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "The Nursing Admissions Process in Ireland",
+      "lead": "This is the usual nursing application process in Ireland.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select a nursing specialty. Choose from general nursing, mental health, intellectual disability, and children's and general integrated nursing.",
+              "desc": ""
+            },
+            {
+              "step": 2,
+              "title": "Check the course length, clinical placements, costs, entry requirements and whether the course leads to professional registration.",
+              "desc": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Check qualification equivalency to understand how your current academic qualifications are assessed.",
+      "lead": "4. Gather documents: Collect passport data, transcripts, certifications, English language test scores, and other necessary documents.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "5. Submit your application. Follow the organization's directions. Some undergraduate applicants apply through the Central Applicants Office (CAO) but international application procedures vary."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required",
+      "lead": "While each university has its own list, applicants often need:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "a current passport",
+            "secondary school diplomas and academic degrees.",
+            "You need a bachelor's degree diploma and transcripts to apply for postgraduate study.",
+            "The results of the English language test, if it is required.",
+            "References or personal statements as requested.",
+            "A current resume (if applicable).",
+            "\"the payment and application of fees.",
+            "Submit sponsorship documents and proof of funds (if needed).",
+            "documentation needed for student visas."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Show proof of private health insurance as required. Clinical placements require health, immunization and vetting documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain documents that are not provided in English may require certified translations. Always keep to the deadlines and forms laid out by the university."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to study nursing in Ireland after Class 12?",
+      "a": "If they meet the academic, subject, English-language and other entrance requirements of the university they prefer. It is important to check with the university about qualification equivalency and course requirements."
+    },
+    {
+      "q": "How much does it cost to study nursing in Ireland?",
+      "a": "The annual fees for a number of undergraduate programs for non-EU students range from €23,000 to €30,000. For example, UCC has a number of nursing degrees on offer for €24,400 a year in 2026-2027."
+    },
+    {
+      "q": "Can I practice as a nurse in Ireland after graduation?",
+      "a": "If you successfully complete a suitable program, meet the NMBI registration requirements , secure employment and comply with the relevant immigration or work-permission regulations ."
+    },
+    {
+      "q": "Is nursing a good career in Ireland?",
+      "a": "It's a great choice for people who care about patients and are ready for rigorous academic and clinical training."
+    },
+    {
+      "q": "How can Edu Hawk Worldwide Consultancy help me to study abroad?",
+      "a": "With the help of Edu Hawk worldwide students can search for the suitable universities, know about the admission requirements and prepare application documents and plan their study-abroad journey. Students should check with their academic, financial, immigration, and licensing authorities to determine these requirements."
+    }
+  ],
+  "seo": {
+    "title": "Nursing education in Ireland | Edu-Hawk Worldwide",
+    "description": "Ireland attracts students who want to study in ireland.. Its nursing programs blend classroom education with hands-on training and supervised clinical placement",
+    "keywords": "Study in Ireland, Top Irish Universities, Edu Hawk Worldwide"
+  }
+}

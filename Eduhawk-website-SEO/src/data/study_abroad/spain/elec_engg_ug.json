@@ -1,0 +1,441 @@
+{
+  "hero": {
+    "title": "BSc Electrical Engineering in Spain for Indian Students",
+    "subtitle": "Bachelor's in Electrical Engineering in Spain for Indian Students is a great opportunity to gain technical knowledge and practical skills in electrical systems, power generation, electronics, automation and renewable energy. Spain is well known for its engineering education, industrial research and growing focus on sustainable energy and smart technologies. Students interested in studying engineering in Europe have the option to choose between public and private universities, depending on their academic background, budget, language proficiency, and career goals."
+  },
+  "overview": [
+    "Bachelor's in Electrical Engineering in Spain for Indian Students is a great opportunity to gain technical knowledge and practical skills in electrical systems, power generation, electronics, automation and renewable energy. Spain is well known for its engineering education, industrial research and growing focus on sustainable energy and smart technologies. Students interested in studying engineering in Europe have the option to choose between public and private universities, depending on their academic background, budget, language proficiency, and career goals.",
+    "Electrical Engineering in Spain can offer students strong foundation in electrical concepts, circuit design, power systems, and modern energy technologies. Spanish universities combine academic learning with technical subjects and practical laboratory work, depending on the program."
+  ],
+  "universities": [
+    {
+      "name": "Polytechnic University of Catalonia",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_elec_engg_ug_Polytechnic_University_of_Catalonia-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_elec_engg_ug_Polytechnic_University_of_Catalonia-image3.png",
+      "desc": "Place: Barcelona, Spain The Polytechnic University of Catalonia has an undergraduate program in Electrical Engineering with specialization in electrical energy generation and distribution, electrical systems, industrial automation and renewable energy applications. Length: 4 years Credits: 240 ECTS Illustrative annual fee: ~€1,800 for non-EU residents, based on university fee information provided. Official program: Electrical Engineering in UPC. Students should review the appropriate fee, campus and language requirements for the intake they wish to join."
+    },
+    {
+      "name": "Polytechnic University of Valencia",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_elec_engg_ug_Polytechnic_University_of_Valencia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_elec_engg_ug_Polytechnic_University_of_Valencia-image2.png",
+      "desc": "Place: Barcelona, Spain The Polytechnic University of Catalonia has an undergraduate program in Electrical Engineering with specialization in electrical energy generation and distribution, electrical systems, industrial automation and renewable energy applications. Length: 4 years Credits: 240 ECTS Illustrative annual fee: ~€1,800 for non-EU residents, based on university fee information provided. Official program: Electrical Engineering in UPC. Students should review the appropriate fee, campus and language requirements for the intake they wish to join."
+    },
+    {
+      "name": "UPC Terrassa - ESEIAAT",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_elec_engg_ug_UPC_Terrassa_-_ESEIAAT-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_elec_engg_ug_UPC_Terrassa_-_ESEIAAT-image1.png",
+      "desc": "Location: Terrassa, Spain The ESEIAAT of UPC Terrassa offers a degree of bachelor in Electrical Engineering. The program covers electrical machines, generation and distribution of energy, control of systems and industrial automation. Period: 4 years Credits: 240 ECTS Estimated annual fee: around 1,800 € for non-EU residents (based on the information about the university fee). Official program: Electrical Engineering at UPC Terrassa Please check the current fee schedule, program availability and language requirements before applying. The universities mentioned here are just some to look at, not a universal ranking. Program details and fees may be subject to change and applicants should check the official university websites for the most up-to-date information."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Electrical Engineering in Spain?",
+      "lead": "Electrical Engineering in Spain can offer students strong foundation in electrical concepts, circuit design, power systems, and modern energy technologies. Spanish universities combine academic learning with technical subjects and practical laboratory work, depending on the program.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Some key benefits include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Good engineering education: Study electrical principles, circuit design, electrical machines and energy systems.",
+            "Renewable energy opportunities: Investigate solar power, wind power, and sustainable electricity technologies.",
+            "Learning in practice: Develop technical knowledge through lab sessions, projects and if possible industry connected learning.",
+            "Exposure to Europe: Familiarize yourself with the academic context in Spain and the broader European education system.",
+            "Flexible career path: Prepare for careers in power systems, automation, electrical design, energy and related industries.",
+            "International experience: Gain technical, communication and cross-cultural skills in a European environment."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Electrical Engineering Bachelor's Degree Courses in Spain",
+      "lead": "Electrical engineering programs in Spain can be found as different degree titles such as electrical engineering, electrical technologies and electrical engineering with energy related specializations.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Course or specializationMain areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical EngineeringCircuits, electrical machines, power systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Energy SystemsElectricity generation, transmission, distribution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Renewable Energy TechnologiesSolar, wind, sustainable energy systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Control and AutomationControl systems, industrial automation, sensors"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical and Electronic SystemsElectrical circuits, instrumentation, electronic systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industrial Electrical EngineeringElectrical installations, industry equipment, Energy efficiency"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are the common subject areas and program types, they are not a guaranty that each specialization is offered as a separate bachelor's degree at every Spanish university. Students are advised to check the official syllabus before applying."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some common topics may be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Theory of Electrical Circuits",
+            "Mathematics and Physics for Engineering",
+            "Electrical Machines and Drives",
+            "Generation and Distribution of Power",
+            "Systems of Electronics and Devices",
+            "Automation & Control Systems",
+            "Renewable Energy Technologies",
+            "Electrical Measurements & Instrumentation",
+            "Power Electronics",
+            "Installations électriques industrielles"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Universities for Electrical Engineering in Spain",
+      "lead": "Students looking for Electrical Engineering Universities in Spain can compare the universities on the basis of their program structure, language of teaching, tuition fees, laboratory facilities, admission requirements etc. Regarding UG studies, here are some places to consider.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Polytechnic University of Catalonia",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_elec_engg_ug_Polytechnic_University_of_Catalonia-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_elec_engg_ug_Polytechnic_University_of_Catalonia-image3.png",
+          "desc": "Place: Barcelona, Spain The Polytechnic University of Catalonia has an undergraduate program in Electrical Engineering with specialization in electrical energy generation and distribution, electrical systems, industrial automation and renewable energy applications. Length: 4 years Credits: 240 ECTS Illustrative annual fee: ~€1,800 for non-EU residents, based on university fee information provided. Official program: Electrical Engineering in UPC. Students should review the appropriate fee, campus and language requirements for the intake they wish to join."
+        },
+        {
+          "name": "Polytechnic University of Valencia",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_elec_engg_ug_Polytechnic_University_of_Valencia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_elec_engg_ug_Polytechnic_University_of_Valencia-image2.png",
+          "desc": "Place: Barcelona, Spain The Polytechnic University of Catalonia has an undergraduate program in Electrical Engineering with specialization in electrical energy generation and distribution, electrical systems, industrial automation and renewable energy applications. Length: 4 years Credits: 240 ECTS Illustrative annual fee: ~€1,800 for non-EU residents, based on university fee information provided. Official program: Electrical Engineering in UPC. Students should review the appropriate fee, campus and language requirements for the intake they wish to join."
+        },
+        {
+          "name": "UPC Terrassa - ESEIAAT",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_elec_engg_ug_UPC_Terrassa_-_ESEIAAT-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_elec_engg_ug_UPC_Terrassa_-_ESEIAAT-image1.png",
+          "desc": "Location: Terrassa, Spain The ESEIAAT of UPC Terrassa offers a degree of bachelor in Electrical Engineering. The program covers electrical machines, generation and distribution of energy, control of systems and industrial automation. Period: 4 years Credits: 240 ECTS Estimated annual fee: around 1,800 € for non-EU residents (based on the information about the university fee). Official program: Electrical Engineering at UPC Terrassa Please check the current fee schedule, program availability and language requirements before applying. The universities mentioned here are just some to look at, not a universal ranking. Program details and fees may be subject to change and applicants should check the official university websites for the most up-to-date information."
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Who Can Study Bachelor's Degree In Electrical Engineering In Spain",
+      "lead": "Here are the general requirements for Indian students to apply for an undergraduate electrical engineering program:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Educational Qualifications: Completed Class 12 or equivalent recognized secondary qualification.",
+            "Relevant subjects: Mathematics and Physics are highly relevant, some programs may have other subject requirements.",
+            "Academic achievement: Satisfy the admission and selection criteria of the university.",
+            "Recognize qualifications: Carry out the corresponding process of access to Spanish university studies, recognition of titles or homologation.",
+            "Language proficiency: Fulfill the language requirements of the program in Spanish, Catalan or English, if applicable.",
+            "Other requirements: Some universities or admission paths may require entrance exams or certain documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Meeting minimum eligibility requirements does not assure admission. The exact requirements will vary by university, program and application route."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Admission Requirements for a Bachelor's Degree in Electrical Engineering in Spain",
+      "lead": "Students applying for a degree in electrical engineering may be required to provide the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Marksheets and certificates of class 10 and class 12.",
+            "Proof of accepted qualifications for entry into university.",
+            "Academic transcripts and course outlines.",
+            "Proof of proficiency in Spanish or English language as required.",
+            "Valid passport and ID documents.",
+            "Certified translation and legalization or apostille, if required.",
+            "Results of the entrance examination or a document proving the recognition of qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students need to verify whether the university they have chosen requires a Spanish university entrance qualification, such as an applicable UNEDasiss accreditation, or another recognized admission route. Requirements vary among autonomous regions and institutions."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Electrical Engineering in Spain Fees",
+      "lead": "If you are looking to study abroad, you need to know the Electrical Engineering fees in Spain. Tuition rates vary by institution, campus, credit load, student status and regional fee rules applicable.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Type of UniversitySample Yearly TuitionRough INR Equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public€1,000-€8,000₹1.09 Lakh-₹8.69 Lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private university€6,000-€20,000+₹6.52 lakh-₹21.72 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are not confirmed fees per each electrical engineering program and are general planning estimates. The actual costs may vary depending on the university, the academic year and the international student fee category."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The INR conversions are based on an illustrative exchange rate of €1 = ₹108.60. Actual exchange rates and any additional fees may vary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students are advised to ask the university for an official fee schedule for the year of intended study and to check if non-EU tuition fees apply before applying. They also need to budget for accommodation, food, transport, health insurance, study materials and visa fees."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Bachelor's in Electrical Engineering in Spain Admission Process",
+      "lead": "Here are the general steps Indian students can follow while applying to Spanish universities:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Select an appropriate university: Check the course description, the language of instruction, the admission requirements, the tuition fees and the application deadlines.",
+            "Check qualification recognition: Check the evaluation of your Indian Class 12 qualification for entry to the program you have chosen.",
+            "Gather your documents: Collect your academic records, language certificates, translations and legalization if needed.",
+            "Submit your application Follow the university's application or regional pre-enrolment procedure.",
+            "Get and review admission offer: Review admission conditions, deadlines and tuition payment instructions.",
+            "Apply for a Spanish student visa: Prepare your visa application and supporting documents as per the current requirements.",
+            "Arrange accommodation and travel: Check housing, insurance and arrival arrangements prior to the start of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The application deadlines and processes differ by university and region. Students should start early so that they have plenty of time to get qualified and get their papers in order and get their visas."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of Degrees After a Bachelor's Degree in Electrical Engineering in Spain",
+      "lead": "A bachelor's degree from a recognized Spanish university can help with further study and job applications abroad. That said, recognition of degrees is not automatic for all purposes or countries .",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students who plan to work in India should check the relevant recognition and professional requirements with Indian authorities and employers. Some electrical engineering jobs may also require further qualifications, registration or approval, especially if they involve regulated professional duties."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students planning to work in Spain or another European country should also check local employment, professional registration and immigration requirements. The professional rights attached to a qualification are determined by the respective degree and the relevant regulations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Opportunities with a Bachelor's in Electrical Engineering in Spain",
+      "lead": "Graduates can look for jobs in the energy sector, electrical equipment manufacturing, industrial automation, engineering consultancy, renewable energy and infrastructure.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Career OptionExample Gross Annual Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate Electrical Engineer€24,000 - €32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Design Engineer€28,000-€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Power Systems Engineer€30,000-€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automation Engineer€28k - €42k"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Renewable Energy Engineer28.000-45.000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary figures are average estimates, not guarantyd current or future salaries, and are for illustrative purposes only. Actual pay will vary depending on experience, location, employer, language skills and specialization."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Possible career options include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Electrical design and engineering.",
+            "Generation and distribution of energy.",
+            "Renewable energy systems;",
+            "Industrial automation & control.",
+            "Manufacture of electrical equipment.",
+            "Analysis of power systems.",
+            "Electrical infrastructure and maintenance.",
+            "Engineering consulting and technical services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates may also pursue further studies in power engineering, renewable energy, control systems, industrial automation or related engineering disciplines. \"Internships, technical projects and hands-on experience can help students build their professional profiles."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents for studying Bachelor of Electrical Engineering in Spain",
+      "lead": "Indian students should prepare the following documents according to the requirements of the university they choose:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport is OK.",
+            "Class 10 and class 12 marksheets and certificates.",
+            "Academic Records Transcripts.",
+            "Documents of recognition of university access credential or qualification, if required.",
+            "Certificate of Spanish or English language knowledge, as appropriate.",
+            "Certified translations and apostille/legalisation if necessary.",
+            "Form support and university application.",
+            "Admission/offer letter (if issued).",
+            "Financial evidence and other documents you will need for your student visa.",
+            "Health insurance and accommodation details as required for visa process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Always follow the official document checklist of the university and the current Spanish consular instructions for your application."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Ques. Can Indian students do Electrical Engineering in Spain after Class 12?",
+      "a": "Yes. Indian students can apply if they meet the university's academic requirements, recognition of qualifications, language and admission requirements."
+    },
+    {
+      "q": "2. What is the length of a Bachelor's in Electrical Engineering in Spain?",
+      "a": "Most programs are four years long and require 240 ECTS credits. Students are advised to consider the length of the degree they are applying for."
+    },
+    {
+      "q": "3. How much to study Electrical Engineering in Spain?",
+      "a": "Fees vary according to the university and the student's status. Roughly speaking, tuition for a public university can vary from €1,000 to €8,000 per year, and tuition for a private university can be even higher."
+    },
+    {
+      "q": "4. Is being proficient in the Spanish language a must?",
+      "a": "Depends on the program. Some courses may be taught in Spanish or Catalan, and English language courses may have separate language requirements. Applicants should check the language of instruction of each program."
+    },
+    {
+      "q": "5. What are my options after getting a Bachelor's in Electrical Engineering in Spain?",
+      "a": "Graduates can work in electrical design, power systems, renewable energy, industrial automation, or engineering services. They may also apply for relevant postgraduate programs, provided they meet eligibility criteria."
+    }
+  ],
+  "seo": {
+    "title": "BSc Electrical Engineering in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Bachelor's in Electrical Engineering in Spain for Indian Students is a great opportunity to gain technical knowledge and practical skills in electrical systems,",
+    "keywords": "Bachelor's in Electrical Engineering in Spain for Indian Students, Electrical Engineering in Spain, Electrical Engineering Universities in Spain, Electrical Engineering fees in Spain, Admission Requirements for a Bachelor's Degree in Electrical Engineering in Spain, Bachelor's in Electrical Engineering in Spain Admission Process, Edu-Hawk Worldwide, SEO Keyword Usage Count, SEO KeywordUsage Count, Bachelor's in Electrical Engineering in Spain for Indian Students2, Electrical Engineering in Spain8, Electrical Engineering Universities in Spain1, Electrical Engineering fees in Spain1, Admission Requirements for a Bachelor's Degree in Electrical Engineering in Spain1, Bachelor's in Electrical Engineering in Spain Admission Process1, Edu-Hawk Worldwide5, Counts are based on exact phrase matches in the article body, including headings, and exclude the keyword list and usage-count table."
+  }
+}

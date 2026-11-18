@@ -1,0 +1,676 @@
+{
+  "hero": {
+    "title": "Electronics and Communication Engineering in France",
+    "subtitle": "Study Electronics and Communication Engineering (ECE) in France is a field of study for students interested in electronic devices, wireless communication, telecommunications, signal processing, embedded systems and connected technologies."
+  },
+  "overview": [
+    "engineering education in telecommunications , electronics , aerospace , transportation , digital infrastructure , and industrial technology in France .",
+    "Technical foundations: Study electronics, circuit design, signals, communication systems, and computer networks.",
+    "Specialisation options: Study wireless communication, embedded systems, microelectronics, optical communication, and connected devices."
+  ],
+  "universities": [
+    {
+      "name": "IUT 1",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Universit_Grenoble_Alpes_IUT_1.webp",
+      "image": "/uploads/study_abroad/france/france_Universit_Grenoble_Alpes_IUT_1.webp",
+      "desc": "Université de Grenoble Alpes : Proposes a three:year \\\\BUT in Networks and Telecommunications\\. The course will focus on \\\\computer networking, communications infrastructure, internet technologies and other related technical skills\\."
+    },
+    {
+      "name": "Université d'Aix",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Aix.webp",
+      "image": "/uploads/study_abroad/france/france_Aix.webp",
+      "desc": "Marseille : Aix:Marseille Université, at the Marseille Luminy campus, offers a three:year BUT in Networks and Telecommunications. The program includes \\\\network administration, telecommunications, internet technologies, and cybersecurity choices\\. It has hands:on projects and work placement opportunities."
+    },
+    {
+      "name": "IUT, University of Côte d'Azur",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "\\\\Cote d'Azur University\\\\: \\\\BUT Networks and Telecommunications\\\\ (3 years). Students will learn about \\\\networks, computing, telecommunications and connected systems\\."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Electronics and Communication Engineering in France?",
+      "lead": "engineering education in telecommunications , electronics , aerospace , transportation , digital infrastructure , and industrial technology in France .",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Benefits include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Technical foundations: Study electronics, circuit design, signals, communication systems, and computer networks."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialisation options: Study wireless communication, embedded systems, microelectronics, optical communication, and connected devices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hands-on learning: Some programs have laboratories, technical projects and internships."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International opportunities: Some of the programs offer international study options, but many undergraduate courses are taught in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further study options: Graduates can apply for suitable master's programmes or engineering-school programs, subject to the admission requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career flexibility: ECE-related skills can be used in telecommunications, electronics manufacturing, embedded technology, networking and digital systems."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Electronics and Communication Engineering courses in France",
+      "lead": "The actual degree name might be different from Indian BTech in Electronics and Communication Engineering. The programs to look for are the ones in electronics, telecommunications, electrical engineering and networks.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Popular areas of study:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics Engineering: Electronics circuits, components, instrumentation, digital electronics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Communication Engineering: Communication systems, signal transmission, modulation, wireless technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Telecommunications Engineering: Mobile networks, fiber-optic communications, network infrastructure, and data transmission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Signal Processing: digital signal processing, audio and image processing, communication signals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded Systems: Microcontrollers, Internet of Things, hardware/software co-design, real-time systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Microelectronics: Semiconductor Devices, Integrated Circuits & Electronic System Design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Wireless and Radio-Frequency Engineering : Antennas, radio-frequency circuits, wireless networks, communication systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Networks: Internet technologies and systems on net, network management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Program Duration -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Licence or Bachelor : normally 3 years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor University of Technology (BUT): 3 years."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Traditional French engineering-school route: usually 5 years after secondary school."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top UG Universities to Study Electronics and Communication Engineering in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "IUT 1",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Universit_Grenoble_Alpes_IUT_1.webp",
+          "image": "/uploads/study_abroad/france/france_Universit_Grenoble_Alpes_IUT_1.webp",
+          "desc": "Université de Grenoble Alpes : Proposes a three:year \\\\BUT in Networks and Telecommunications\\. The course will focus on \\\\computer networking, communications infrastructure, internet technologies and other related technical skills\\."
+        },
+        {
+          "name": "Université d'Aix",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Aix.webp",
+          "image": "/uploads/study_abroad/france/france_Aix.webp",
+          "desc": "Marseille : Aix:Marseille Université, at the Marseille Luminy campus, offers a three:year BUT in Networks and Telecommunications. The program includes \\\\network administration, telecommunications, internet technologies, and cybersecurity choices\\. It has hands:on projects and work placement opportunities."
+        },
+        {
+          "name": "IUT, University of Côte d'Azur",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "\\\\Cote d'Azur University\\\\: \\\\BUT Networks and Telecommunications\\\\ (3 years). Students will learn about \\\\networks, computing, telecommunications and connected systems\\."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility for UG in Electronics and Communication Engineering in France",
+      "lead": "The \\\\eligibility requirements for ECE in France\\\\ that international students typically have to meet are:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Secondary education (French \\baccalauréat\\ or equivalent)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A solid academic record in \\\\math and physics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further science subjects as required by the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English language proficiency\\\\ for programs in English or \\\\French language proficiency\\\\ for courses in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Any entrance test, interview or further assessment that may be required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Indian students\\\\ generally require Class 12 with Mathematics and Physics. Exact subject combinations and minimum grades vary from university to university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission requirement for UG Admission for Electronics and Communication Engineering in France",
+      "lead": "The following are the general qualifying requirements for Electronics and Communication Engineering in France:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Marksheets or academic transcripts of Class 10 and Class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate of secondary school completion."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Valid Passport"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of a test in French or English language\\\\, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letter of motivation or statement of purpose."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV (if required)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Filled application form."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of entrance test or interview, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Candidates should verify whether they can get in directly after Class 12 or need to do a preparatory program first."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of study Electronics and Communication Engineering",
+      "lead": "Electronics and communication engineering tuition fees in France\\\\ depend on the college, degree, student's status and available exemptions.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Tuition fees in public higher education"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For the \\\\academic year 2026-2027\\\\, the following differentiated registration fees are published by Campus France for non-EU students subject to the relevant national rules:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Bachelor's degree level \\",
+              "d": "€2,902"
+            },
+            {
+              "t": "Master's level degree \\",
+              "d": "€3,950"
+            },
+            {
+              "t": "PhD \\",
+              "d": "€398"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The published annual rate for eligible students from France/EU categories is €178 at the bachelor degree level."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some institutions have different fee arrangements and some international students may be exempt if they qualify."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other living costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should make separate budgets for:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accommodation and services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Supplies and food. Local transport Medical and insurance costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books, equipment and personal expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Visa and costs related to residence."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Cost of living in France\\\\ varies by city and type of residence."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process for UG in Electronics and Communication Engineering in France",
+      "lead": "The normal \\\\process for admission to the undergraduate ECE in France\\\\ is as follows:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Select your specialisation:\\\\ Select electronics, telecommunications, signal processing, embedded systems or computer networks."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist institutions:\\\\ Compare the curriculum, the qualification awarded, the language of teaching, the fees and the career paths."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Verify the application route:\\\\ Confirm if applications are submitted directly to the university or through the appropriate admissions platform or \\\\Études en France procédure\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Gather your documents:\\\\ Compile your academic records, passport information, language test results, and any other documents that may be required, like a motivation letter."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Apply:\\\\ Submit application by deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Selection stages completed:\\\\ Interview or entrance assessment, where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\ Accept the offer \\\\ Follow the institution's enrollment instructions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Get your student visa:\\\\ Once you have received the necessary admission documents, begin the \\\\French student visa process\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and Recognition of Electronics and Communication Engineering in France",
+      "lead": "\\\\Accreditation for ECE in France\\\\ is an important consideration when comparing a three-year bachelor's-level program with a longer engineering-school qualification.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The \\\\Commission des titres d'ingénieur (CTI)\\\\ assesses eligible French engineering programs and grants authorization to institutions to deliver the \\diplôme d'ingénieur."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should, before enrolling:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "See what precise qualification is awarded."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check \\\\CTI accreditation\\\\ ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ensure the qualification is accepted for entry to relevant postgraduate programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the requirements for recognition of degrees in the country where they plan to work."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Prospects in Electronics and Communication Engineering in France",
+      "lead": "Graduates may look for opportunities in \\\\electronics, telecommunications, networking, embedded systems and digital technology\\\\",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Possible career paths:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics design or test engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Telecommunications engineer or technology specialist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Network support or network administrator specialist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded systems engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Signal processing assistant or Signal processing engineer (subject to qualification)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Radio frequency or wireless systems specialist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "IoT systems developer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Quality assurance and electronics testing specialist."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Technical support specialist in communication systems."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Required Documents",
+      "lead": "\\\\Documents to be ready for ECE admission in France for applicants may include:\\\\",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Valid Passports."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marksheet and Certificate of Class 10."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marksheet and completion certificate of class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts and grading information, upon request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of a test in French or English if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letter of motivation/purpose statement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV available on request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation if asked for."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Certified translations of documents when applicable."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional documents required from the university or admissions platform."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After getting an offer, students may have to submit more documents to proceed with \\\\French student visa processing\\\\, such as financial proof, accommodation, and final enrollment."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Indian students study Electronics and Communication Engineering at the undergraduate level in France?",
+      "a": "Yes. \\\\Indian students can study ECE in France\\\\ by applying to related bachelor's, BUT, and engineering-school programs if they meet the academic, language and application requirements."
+    },
+    {
+      "q": "\\\\Q3. Are courses in ECE in France taught in English?\\\\",
+      "a": "Some engineering programs in France are taught in English, but a lot of electronics and telecommunication bachelors programs are taught in French. Please check the language of instruction of the entire program before applying."
+    },
+    {
+      "q": "\\\\Q4. What is the cost of undergraduate ECE in France?\\\\",
+      "a": "Costs depend on institution and qualification. The differentiated fee for non-EU students under the relevant public-institution rules for \\\\2026–2027\\\\ is \\\\€2,902 per year at bachelor level\\\\ in the published version. Fees and exemptions vary by institution."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
+      "a": "\\\\Edu Hawk worldwide consultancy\\\\ can assist students in finding suitable universities, understanding admission criteria, arranging application materials and planning their \\\\study abroad journey. Students should contact the relevant authorities concerning academic, financial, immigration and licensing requirements."
+    }
+  ],
+  "seo": {
+    "title": "Electronics and Communication Engineering in France | Edu-Hawk Worldwide",
+    "description": "engineering education in telecommunications , electronics , aerospace , transportation , digital infrastructure , and industrial technology in France .",
+    "keywords": "Study Electronics and Communication Engineering in France, ECE Courses in France, Best Universities for Electronics and Communication Engineering in France, Bachelor's Degree in Electronics and Communication Engineering in France, Eligibility for UG in Electronics and Communication Engineering in France, ECE Admission Requirements for Indian Students, Electronics and Communication Engineering Tuition Fees in France 2026–2027, Cost of study Electronics and Communication Engineering, English-Taught Electronics and Telecommunications Programmes in France, Electronics Engineering Courses in France, <"
+  }
+}

@@ -1,13 +1,14 @@
+import cmsData from "../../data/medical_colleges/kazakhstan.json";
 // // import React, { useState } from "react";
-// // import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-// // import kernal from "../../Images/university-image/kazakistan.jpg";
+// // import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+// // import kernal from "../../Images/university-image/kazakistan.webp";
 // // import Russianflag2 from "../../Images/country flag png/Kazakhstan.svg";
-// // import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.jpg";
-// // import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.jpg";
-// // import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.jpg";
-// // import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.jpg";
-// // import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.jpg";
-// // import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.jpg";
+// // import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.webp";
+// // import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.webp";
+// // import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.webp";
+// // import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.webp";
+// // import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.webp";
+// // import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
 
 // // const Kazakhstan = () => {
 // //   const [showMoreAbout, setShowMoreAbout] = useState(false);
@@ -243,7 +244,7 @@
 // //         <div className="grid md:grid-cols-2 gap-12 mb-20">
 // //           <div>
 // //             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-// //               Advantages of Studying MBBS in Russia 2025–2026
+// //               Advantages of Studying MBBS in Russia 2026–2027
 // //             </h2>
 
 // //             <div className="space-y-6">
@@ -352,7 +353,7 @@
 // //             </ul>
 
 // //             <p className="mt-6">
-// //               <strong>Approximate monthly living expenses (2025–2026):</strong>
+// //               <strong>Approximate monthly living expenses (2026–2027):</strong>
 // //             </p>
 // //             <ul className="list-disc pl-6 mt-4 space-y-2">
 // //               <li>Hostel / Accommodation: ₹8,000 – ₹18,000</li>
@@ -375,7 +376,7 @@
 // //       <div className="py-16 bg-white">
 // //         <div className="container mx-auto px-4 max-w-6xl">
 // //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-10">
-// //             Admission Process for MBBS in Russia 2025–2026
+// //             Admission Process for MBBS in Russia 2026–2027
 // //           </h2>
 
 // //           <div className="max-w-4xl mx-auto">
@@ -454,7 +455,7 @@
 // //             {/* Left - Required Documents */}
 // //             <div>
 // //               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-// //                 Required Documents for MBBS in Russia 2025–2026
+// //                 Required Documents for MBBS in Russia 2026–2027
 // //               </h2>
 
 // //               <div className="space-y-6">
@@ -542,7 +543,7 @@
 // //       <div className="py-16 bg-white">
 // //         <div className="container mx-auto px-4 max-w-5xl">
 // //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-// //             MBBS in Russia vs MBBS in India – Quick Comparison (2025–2026)
+// //             MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
 // //           </h2>
 
 // //           <div className="overflow-x-auto">
@@ -621,15 +622,15 @@
 // // export default Kazakhstan;
 
 // import React, { useState } from "react";
-// import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-// import kernal from "../../Images/university-image/kazakistan.jpg";
+// import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+// import kernal from "../../Images/university-image/kazakistan.webp";
 // import Russianflag2 from "../../Images/country flag png/Kazakhstan.svg";
-// import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.jpg";
-// import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.jpg";
-// import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.jpg";
-// import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.jpg";
-// import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.jpg";
-// import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.jpg";
+// import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.webp";
+// import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.webp";
+// import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.webp";
+// import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.webp";
+// import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.webp";
+// import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
 
 // const Kazakhstan = () => {
 //   const [showMoreAbout, setShowMoreAbout] = useState(false);
@@ -1013,17 +1014,17 @@
 // export default Kazakhstan;
 
 import React, { useState } from "react";
-import { Helmet } from 'react-helmet-async';
+import SeoHead from "../../component/SeoHead.jsx";
 
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/university-image/kazakistan.jpg";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/university-image/kazakistan.webp";
 import Russianflag2 from "../../Images/country flag png/Kazakhstan.svg";
-import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.jpg";
-import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.jpg";
-import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.jpg";
-import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.jpg";
+import MARISTATEUNIVERSITY from "../../Images/Kazakhstan/Asfendiyarov Kazakh National Medical University.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Kazakhstan/Karaganda State Medical University.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Kazakhstan/Kokshetau State University.webp";
+import TVERSTATEMEDICALUNIVERSITY from "../../Images/Kazakhstan/Semey State Medical University.webp";
+import AltaiStateMedicalUniversity from "../../Images/Kazakhstan/South-Kazakhstan-Medical-Academy.webp";
+import AltaiStateMedicalUniversity2 from "../../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
 import { useNavigate } from "react-router-dom";
 
 
@@ -1035,24 +1036,28 @@ const Kazakhstan = () => {
 
   return (
     <>
-      <Helmet>
-                  <title>MBBS in Kazakhstan for Indian Students | Fees & Admission 2026</title>
-                  <meta name="description" content="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges." />
-                  <meta name="keywords" content="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission" />
-                </Helmet>
+      <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Kazakhstan for Indian Students | Fees & Admission 2026"}
+        description={cmsData?.seo?.description || "MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges."}
+        keywords={cmsData?.seo?.keywords || "mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges"}
+        path="/mbbs-abroad/kazakhstan"
+        ogType="website"
+      />
     
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://www.ruseducation.in/wp-content/uploads/2022/01/Kazakh-National-Medical-University.webp"
+            src={cmsData?.hero?.image || "https://www.ruseducation.in/wp-content/uploads/2022/01/Kazakh-National-Medical-University.webp"}
             alt="Kazakhstan Landscape"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://www.ruseducation.in/wp-content/uploads/2022/01/Kazakh-National-Medical-University.webp 1x, https://www.ruseducation.in/wp-content/uploads/2022/01/Kazakh-National-Medical-University.webp 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN KAZAKHSTAN
+              {cmsData?.hero?.title || "STUDY MBBS IN KAZAKHSTAN"}
             </h1>
           </div>
         </div>
@@ -1065,13 +1070,18 @@ const Kazakhstan = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={1000}
+              height={500}
               alt="Kazakhstan flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-            />
+                  srcSet={`${Russianflag2} 1x, ${Russianflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Kazakhstan 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Kazakhstan 2026–2027"}
             </h2>
           </div>
         </div>
@@ -1142,9 +1152,14 @@ const Kazakhstan = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={640}
+              height={427}
               alt="Kazakhstan"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet={`${kernal} 1x, ${kernal} 2x`}
+                  sizes="(max-width: 768px) 100vw, 500px"
+                />
           </div>
         </div>
 
@@ -1161,7 +1176,7 @@ const Kazakhstan = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -1234,7 +1249,7 @@ const Kazakhstan = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities" className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Kazakhstan
+            {cmsData?.universitiesHeading || "Top Medical Universities in Kazakhstan"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -1270,8 +1285,11 @@ const Kazakhstan = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">
@@ -1489,6 +1507,92 @@ const Kazakhstan = () => {
                   check-up → Start course
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ==================== COMPARISON TABLE ==================== */}
+        <div className="py-16 bg-white">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
+              MBBS in Kazakhstan vs MBBS in India – Quick Comparison (2026–2027)
+            </h2>
+
+            <div className="overflow-x-auto shadow-md rounded-lg">
+              <table className="min-w-full border-collapse border border-gray-300 text-left">
+                <thead>
+                  <tr className="bg-blue-900 text-white">
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Parameter
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in Kazakhstan
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      parameter: "Tuition Fees (per year)",
+                      kazakhstan: "₹3,00,000 – ₹5,00,000 per year (Total course approx. ₹18 – ₹30+ lakhs)",
+                      india: "Government Colleges: Very low (₹10,000 – ₹50,000/year)\nPrivate/Deemed Colleges: ₹60,000,000 – ₹1,20,000,000+ (₹60 lakhs – ₹1.2+ crore)"
+                    },
+                    {
+                      parameter: "Course Duration",
+                      kazakhstan: "5 Years study + 1 Year internship (Total 6 years)",
+                      india: "4.5 Years study + 1 Year mandatory rotating internship (Total 5.5 years)"
+                    },
+                    {
+                      parameter: "Class Strength",
+                      kazakhstan: "Usually smaller, batch-controlled international student groups (10–15 students per practical/clinical batch)",
+                      india: "Larger lecture halls, often 100–250+ students per batch depending on the medical college"
+                    },
+                    {
+                      parameter: "Global Recognition",
+                      kazakhstan: "Recognized by NMC, WHO, WDOMS, ECFMG, and FAIMER (eligible for USMLE, FMGE/NExT)",
+                      india: "Recognized by NMC, WHO, and WDOMS (Globally accepted; mandatory NEET-UG for entry)"
+                    },
+                    {
+                      parameter: "Medium of Instruction",
+                      kazakhstan: "100% English medium for international/Indian student cohorts",
+                      india: "English (with local patient interaction in regional languages during clinical postings)"
+                    },
+                    {
+                      parameter: "Hostel & Food (Mess)",
+                      kazakhstan: "Hostel: ₹50,000 – ₹1,00,000/year\nIndian Mess/Food: ₹80,000 – ₹1,40,000/year (optional Indian mess available)",
+                      india: "Hostel: ₹10,000 – ₹1,00,000+/year\nMess/Food: ₹30,000 – ₹1,00,000+/year (varies by city and college type)"
+                    },
+                    {
+                      parameter: "Medical Insurance",
+                      kazakhstan: "Approx. ₹10,000/year (mandatory health coverage)",
+                      india: "Nominal institutional or private health insurance costs (often covered or minimal)"
+                    },
+                    {
+                      parameter: "Visa & Other Costs",
+                      kazakhstan: "1st Year Visa, Documentation & One-time Registration: ₹60,000 – ₹1,00,000; annual visa extensions cost extra",
+                      india: "Standard domestic documentation and state/central counseling registration fees (₹1,000 – ₹50,000 depending on quota)"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.parameter || row.feature}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.kazakhstan}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </div>
         </div>

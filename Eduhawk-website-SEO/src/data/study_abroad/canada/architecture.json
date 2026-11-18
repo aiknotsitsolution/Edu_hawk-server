@@ -1,0 +1,786 @@
+{
+  "seo": {
+    "title": "Architecture in Canada for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Architecture in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
+    "keywords": [
+      "Architectural Designer The intern architect",
+      "Architectural Technologist",
+      "A BIM specialist",
+      "A CAD technician",
+      "The Urban Designer",
+      "The landscape designer",
+      "Consultant for Sustainable Design",
+      "Interior Designer",
+      "The coordinator of the project",
+      "Consultant in Building Science",
+      "Architectural Visualization Expert"
+    ]
+  },
+  "hero": {
+    "badge": "Study Abroad · Canada",
+    "title": "Study architecture in Canada",
+    "subtitle": "Study architecture in Canada",
+    "ctaText": "Book Free Counselling",
+    "image": "/uploads/study_abroad/canada/canada_architecture_Dalhousie_University-image1.png"
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & PGWP Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Undergraduate & Postgraduate",
+    "duration": "1 to 2 Years (PG) / 3 to 4 Years (UG)",
+    "fee": "CAD $18,000 – $45,000 / Year",
+    "eligibility": "Recognised academic qualification + IELTS / TOEFL / PTE proficiency",
+    "medium": "English & French Taught"
+  },
+  "overview": [
+    "To create buildings and living areas, architecture blends engineering principles, creativity, design, and technology. Students can acquire design thinking, technical expertise, sustainable planning abilities, and an awareness of contemporary construction methods by studying architecture in Canada.",
+    "Design-Focused Education: Use model-making, design projects, and studio-based learning to develop architectural design concepts.",
+    "Modern Technology - Examine computer-aided design (CAD), 3D visualization, digital drafting, and Building Information Modeling (BIM)."
+  ],
+  "universities": [
+    {
+      "name": "Dalhousie University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_architecture_Dalhousie_University-image1.png",
+      "image": "/uploads/study_abroad/canada/canada_architecture_Dalhousie_University-image1.png",
+      "desc": "Dalhousie University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "The University of Manitoba",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_architecture_The_University_of_Manitoba-image2.png",
+      "image": "/uploads/study_abroad/canada/canada_architecture_The_University_of_Manitoba-image2.png",
+      "desc": "The University of Manitoba is one of Canada's top recognized institutions offering advanced academic and research programs."
+    },
+    {
+      "name": "Toronto Metropolitan University",
+      "location": "Canada",
+      "fee": "CAD $18,000 – $45,000 / Year",
+      "img": "/uploads/study_abroad/canada/canada_architecture_Toronto_Metropolitan_University-image3.png",
+      "image": "/uploads/study_abroad/canada/canada_architecture_Toronto_Metropolitan_University-image3.png",
+      "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Canada",
+      "title": "Why Come to Canada to Study Architecture?",
+      "lead": "To create buildings and living areas, architecture blends engineering principles, creativity, design, and technology. Students can acquire design thinking, technical expertise, sustainable planning abilities, and an awareness of contemporary construction methods by studying architecture in Canada.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Principal Advantages of Studying Architecture in Canada"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Design-Focused Education: Use model-making, design projects, and studio-based learning to develop architectural design concepts.",
+            "Modern Technology - Examine computer-aided design (CAD), 3D visualization, digital drafting, and Building Information Modeling (BIM).",
+            "Sustainable Architecture: Discover environmental design, sustainable construction, and energy-efficient buildings.",
+            "International Exposure: Collaborate with students from diverse origins while studying in a multicultural academic setting.",
+            "Career Opportunities: - Look into jobs in building technology, urban design, architecture firms, construction, and planning."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional registration entails additional education, experience, and exam requirements, and architecture programs often have rigorous studio workloads."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students understand university entrance standards, explore international study options, and prepare for the journey of studying abroad."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can make well-informed decisions regarding their schooling and future careers with the right preparation and direction."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Canadian Architecture Courses",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Architecture Courses for Undergraduates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Architectural Studies degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Environmental Design Bachelor's degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Science in Architecture degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A bachelor's degree in design with a focus on architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Architectural Science degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Interior Design degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor of Landscape Architecture degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Courses in Architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Master of Architecture (M.Arch) programme"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Master of Science in Architecture degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Master of Environmental Design degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Master of Landscape Architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Master of Urban Design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Master of Building Science degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Master of Sustainable Design degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Urban Planning"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Canadian Universities",
+      "title": "Canada's Best Universities for Architecture",
+      "lead": "For architecture courses in Canada and similar programs, it is worthwhile to investigate the following establishments. It is necessary to check official university websites for precise degree names, prerequisites, portfolio criteria, and professional accreditation.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The University of Manitoba"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dalhousie University"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Toronto Metropolitan University"
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Dalhousie University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_architecture_Dalhousie_University-image1.png",
+          "image": "/uploads/study_abroad/canada/canada_architecture_Dalhousie_University-image1.png",
+          "desc": "Dalhousie University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "The University of Manitoba",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_architecture_The_University_of_Manitoba-image2.png",
+          "image": "/uploads/study_abroad/canada/canada_architecture_The_University_of_Manitoba-image2.png",
+          "desc": "The University of Manitoba is one of Canada's top recognized institutions offering advanced academic and research programs."
+        },
+        {
+          "name": "Toronto Metropolitan University",
+          "location": "Canada",
+          "fee": "CAD $18,000 – $45,000 / Year",
+          "img": "/uploads/study_abroad/canada/canada_architecture_Toronto_Metropolitan_University-image3.png",
+          "image": "/uploads/study_abroad/canada/canada_architecture_Toronto_Metropolitan_University-image3.png",
+          "desc": "Toronto Metropolitan University is one of Canada's top recognized institutions offering advanced academic and research programs."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Studying Architecture in Canada",
+      "lead": "The requirements for studying architecture in Canada differ depending on the school, the kind of degree, and the applicant's background.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Eligibility for Undergraduates"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants require:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The accomplishment of Class 12 or an equivalent qualification. - Academic performance that satisfies the requirements for admission to the university. - Physics, math, or other required courses as needed. The ability to communicate in English. If necessary, a portfolio of artistic or design work. Extra evaluations or interviews, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Strong academic performance is expected by many universities. There isn't a single percentage need for all Canadian institutions, however competitive programs might need roughly 75–85% or higher"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Qualifications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typically, applicants require:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the program, an accredited bachelor's degree in architecture or a similar discipline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The necessary level of education."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A design portfolio that showcases technical and artistic aptitude."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The ability to communicate in English."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A declaration of purpose or intent."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation, if necessary. If indicated,"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant work experience. - Writing samples or study proposals for particular research programs"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "The TOEFL iBT, IELTS Academic, and other authorized tests are accepted by numerous universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "IELTS Academic: Generally around 6.5 overall, with minimal grades in some sections."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "With program-specific score requirements, the TOEFL iBT is widely accepted."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other Tests: Each university has different minimum marks and acceptable selections."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Canadian Architecture Admission Requirements",
+      "lead": "Compared to admissions for many other undergraduate degrees, architecture admissions in Canada might be more specialized.## Scholarly Writings",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Candidates might require:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificates and marksheets for classes 10 and 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transcripts and a bachelor's degree certificate are required for postgraduate applications. Information from the grading scale and official transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Test results in English, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents that are not recognized in their original language can be translated with certification."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Extra Documents"
+        },
+        {
+          "t": "p",
+          "items": [
+            "A statement of intent or intention."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of endorsement. -CV or resume."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A research proposal, if relevant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Interview or additional application. - If necessary, documentation of prior employment"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of Studying Architecture in Canada",
+      "lead": "The general budgeting estimates for international students are shown in the following numbers.",
+      "groups": [
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Undergraduate Tuition",
+              "d": "CAD 25,000–55,000+ annually"
+            },
+            {
+              "t": "Postgraduate Tuition",
+              "d": "CAD 20,000–60,000+ annually"
+            },
+            {
+              "t": "Accommodations",
+              "d": "CAD 8,000–18,000 annually"
+            },
+            {
+              "t": "Food and groceries",
+              "d": "CAD 3,000–6,000 annually"
+            },
+            {
+              "t": "Transportation",
+              "d": "CAD 800–2,000 annually"
+            },
+            {
+              "t": "Books, software, and studio supplies",
+              "d": "CAD 1,000–3,000+ annually"
+            },
+            {
+              "t": "Personal Expenses and Insurance",
+              "d": "CAD 1,000–3,000+ annually"
+            }
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Financial Support and Scholarships"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible sources of funding consist include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for university admission. Awards for international students based on merit. Faculty-specific honors. Graduate students who meet the requirements can apply for research assistantships. Graduate students who meet the requirements can apply for teaching assistantships. Indian students are eligible for external scholarships."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Canada's Architecture Admission Procedure",
+      "lead": "",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select Your Study Route",
+              "desc": "Choose between a professional Master of Architecture, a specialized postgraduate program, or an undergraduate degree connected to architecture."
+            },
+            {
+              "step": 2,
+              "title": "Explore Universities",
+              "desc": "Examine professional registration pathways, location, tuition costs, curriculum, and accreditation."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine the application dates, portfolio guidelines, English language requirements, and academic criteria."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Portfolio Ready",
+              "desc": "Make a architecture portfolio that complies with the submission requirements of the chosen university.\\"
+            },
+            {
+              "step": 5,
+              "title": "Get Supporting Documents Ready",
+              "desc": "Gather test results, certificates, recommendations, statements, and transcripts."
+            },
+            {
+              "step": 6,
+              "title": "Send in Your Application",
+              "desc": "Pay the relevant application fee and submit your application using the university's official application portal."
+            },
+            {
+              "step": 7,
+              "title": "Finish Any Further Evaluations",
+              "desc": "Participate in interviews or provide further documentation upon request."
+            },
+            {
+              "step": 8,
+              "title": "Accept and Examine Your Offer",
+              "desc": "Verify the requirements for admission, the length of the program, the tuition deposit, and the details of the scholarship."
+            },
+            {
+              "step": 9,
+              "title": "Submit a Study Permit Application",
+              "desc": "Examine any province or territorial attestation letter requirements or exemptions, financial documentation, and current Canadian immigration regulations."
+            },
+            {
+              "step": 10,
+              "title": "Get Ready to Arrive",
+              "desc": "If professional registration is your aim, make travel, lodging, health insurance, and necessary design equipment arrangements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Pay and career Prospects Following Architecture",
+      "lead": "Graduates of architecture programs in Canada can work in design, construction, sustainability, urban planning, and building technology. The qualifications, portfolio, software abilities, experience, and employer needs determine entry-level opportunities.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Career Choices"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Architectural Designer The intern architect",
+            "Architectural Technologist",
+            "A BIM specialist",
+            "A CAD technician",
+            "The Urban Designer",
+            "The landscape designer",
+            "Consultant for Sustainable Design",
+            "Interior Designer",
+            "The coordinator of the project",
+            "Consultant in Building Science",
+            "Architectural Visualization Expert"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expectations for Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Provinces, employers, experience, specialty, and professional standing all affect earnings. In general, experienced registered architects or project managers make more money than interns and young grads."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Learn Architecture in Canada",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For Applications from Undergraduates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The certificate and marksheet for Class 10."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The marksheet and certificate for Class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A current passport. Test results in English, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A portfolio, if necessary. A declaration of purpose, upon request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When necessary, academic references or letters of recommendation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The application form and application fee have been completed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Regarding Postgraduate Candidates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A certificate of bachelor's degree. Official transcripts from the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A collection of creative or design work. -CV or resume."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A declaration of intent or goal. Letters of endorsement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Test results in English, if necessary. When appropriate, a research proposal or writing sample."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documentation of work experience, if necessary"
+          ]
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it possible for Indian students to pursue architecture studies in Canada after the 12th grade?",
+      "a": "yes. Applications for undergraduate architecture or related design programs are accepted from students who fulfill academic and linguistic requirements. Additionally, some universities demand certain prerequisite courses or a portfolio.",
+      "question": "Is it possible for Indian students to pursue architecture studies in Canada after the 12th grade?",
+      "answer": "yes. Applications for undergraduate architecture or related design programs are accepted from students who fulfill academic and linguistic requirements. Additionally, some universities demand certain prerequisite courses or a portfolio."
+    },
+    {
+      "q": "How long does it take to study architecture in Canada?",
+      "a": "Typically, undergraduate degrees in architecture take three to four years to complete. Depending on the applicant's prior education and the university's pathway, a professional Master of Architecture in Canada could take two to three years or more.",
+      "question": "How long does it take to study architecture in Canada?",
+      "answer": "Typically, undergraduate degrees in architecture take three to four years to complete. Depending on the applicant's prior education and the university's pathway, a professional Master of Architecture in Canada could take two to three years or more."
+    },
+    {
+      "q": "Does admission to architecture programs in Canada require a portfolio?",
+      "a": "Many degrees in architecture and design need one, though not all programs do. Applicants should adhere to the official submission rules as portfolio requirements vary by institution.",
+      "question": "Does admission to architecture programs in Canada require a portfolio?",
+      "answer": "Many degrees in architecture and design need one, though not all programs do. Applicants should adhere to the official submission rules as portfolio requirements vary by institution."
+    },
+    {
+      "q": "Is it possible for foreign students to obtain a license to practice architecture in Canada?",
+      "a": "Yes, possibly. They must fulfill the relevant requirements for provincial or territorial registration, experience, examination, and academic certification. Professional licensing is not assured by earning a degree in architecture alone.",
+      "question": "Is it possible for foreign students to obtain a license to practice architecture in Canada?",
+      "answer": "Yes, possibly. They must fulfill the relevant requirements for provincial or territorial registration, experience, examination, and academic certification. Professional licensing is not assured by earning a degree in architecture alone."
+    },
+    {
+      "q": "How much does it cost to study architecture in Canada?",
+      "a": "While postgraduate tuition varies greatly, undergraduate tuition can range from between CAD 25,000 to CAD 55,000 or more each year. It is necessary to budget separately for living expenses, studio supplies, software, and other charges",
+      "question": "How much does it cost to study architecture in Canada?",
+      "answer": "While postgraduate tuition varies greatly, undergraduate tuition can range from between CAD 25,000 to CAD 55,000 or more each year. It is necessary to budget separately for living expenses, studio supplies, software, and other charges"
+    },
+    {
+      "q": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs.",
+      "question": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
+      "answer": "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is it possible for Indian students to pursue architecture studies in Canada after the 12th grade?",
+      "a": "yes. Applications for undergraduate architecture or related design programs are accepted from students who fulfill academic and linguistic requirements. Additionally, some universities demand certain prerequisite courses or a portfolio.",
+      "question": "Is it possible for Indian students to pursue architecture studies in Canada after the 12th grade?",
+      "answer": "yes. Applications for undergraduate architecture or related design programs are accepted from students who fulfill academic and linguistic requirements. Additionally, some universities demand certain prerequisite courses or a portfolio."
+    },
+    {
+      "q": "How long does it take to study architecture in Canada?",
+      "a": "Typically, undergraduate degrees in architecture take three to four years to complete. Depending on the applicant's prior education and the university's pathway, a professional Master of Architecture in Canada could take two to three years or more.",
+      "question": "How long does it take to study architecture in Canada?",
+      "answer": "Typically, undergraduate degrees in architecture take three to four years to complete. Depending on the applicant's prior education and the university's pathway, a professional Master of Architecture in Canada could take two to three years or more."
+    },
+    {
+      "q": "Does admission to architecture programs in Canada require a portfolio?",
+      "a": "Many degrees in architecture and design need one, though not all programs do. Applicants should adhere to the official submission rules as portfolio requirements vary by institution.",
+      "question": "Does admission to architecture programs in Canada require a portfolio?",
+      "answer": "Many degrees in architecture and design need one, though not all programs do. Applicants should adhere to the official submission rules as portfolio requirements vary by institution."
+    },
+    {
+      "q": "Is it possible for foreign students to obtain a license to practice architecture in Canada?",
+      "a": "Yes, possibly. They must fulfill the relevant requirements for provincial or territorial registration, experience, examination, and academic certification. Professional licensing is not assured by earning a degree in architecture alone.",
+      "question": "Is it possible for foreign students to obtain a license to practice architecture in Canada?",
+      "answer": "Yes, possibly. They must fulfill the relevant requirements for provincial or territorial registration, experience, examination, and academic certification. Professional licensing is not assured by earning a degree in architecture alone."
+    },
+    {
+      "q": "How much does it cost to study architecture in Canada?",
+      "a": "While postgraduate tuition varies greatly, undergraduate tuition can range from between CAD 25,000 to CAD 55,000 or more each year. It is necessary to budget separately for living expenses, studio supplies, software, and other charges",
+      "question": "How much does it cost to study architecture in Canada?",
+      "answer": "While postgraduate tuition varies greatly, undergraduate tuition can range from between CAD 25,000 to CAD 55,000 or more each year. It is necessary to budget separately for living expenses, studio supplies, software, and other charges"
+    },
+    {
+      "q": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs.",
+      "question": "How Can I Study Abroad with the Assistance of Edu Hawk Worldwide Consultancy?",
+      "answer": "Students may plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk globally. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ]
+}

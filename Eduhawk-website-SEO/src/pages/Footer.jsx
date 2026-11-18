@@ -1,6 +1,6 @@
 // import React from "react";
 // import { Link } from "react-router-dom"; // Make sure to install & import react-router-dom
-// import Eduhawk from "../assets/icon.jpg"; // Your logo path
+// import Eduhawk from "../assets/icon.webp"; // Your logo path
 // import {
 //   FaFacebookF,
 //   FaTwitter,
@@ -14,42 +14,42 @@
 //     {
 //       name: "Russia",
 //       flag: "🇷🇺",
-//       path: "/mbbsabroad/russia",
+//       path: "/mbbs-abroad/russia",
 //       seats: "600+",
 //       fee: "₹20-35L",
 //     },
 //     {
 //       name: "Georgia",
 //       flag: "🇬🇪",
-//       path: "/mbbsabroad/georgia",
+//       path: "/mbbs-abroad/georgia",
 //       seats: "200+",
 //       fee: "₹25-40L",
 //     },
 //     {
 //       name: "Uzbekistan",
 //       flag: "🇺🇿",
-//       path: "/mbbsabroad/uzbekistan",
+//       path: "/mbbs-abroad/uzbekistan",
 //       seats: "400+",
 //       fee: "₹15-30L",
 //     },
 //     {
 //       name: "Kazakhstan",
 //       flag: "🇰🇿",
-//       path: "/mbbsabroad/kazakhstan",
+//       path: "/mbbs-abroad/kazakhstan",
 //       seats: "300+",
 //       fee: "₹18-32L",
 //     },
 //     {
 //       name: "Kyrgyzstan",
 //       flag: "🇰🇬",
-//       path: "/mbbsabroad/kyrgyzstan",
+//       path: "/mbbs-abroad/kyrgyzstan",
 //       seats: "250+",
 //       fee: "₹15-27L",
 //     },
 //     {
 //       name: "Nepal",
 //       flag: "🇳🇵",
-//       path: "/mbbsabroad/nepal",
+//       path: "/mbbs-abroad/nepal",
 //       seats: "150+",
 //       fee: "₹35-50L",
 //     },
@@ -57,14 +57,14 @@
 //     {
 //       name: "Bangladesh",
 //       flag: "🇧🇩",
-//       path: "/mbbsabroad/bangladesh",
+//       path: "/mbbs-abroad/bangladesh",
 //       seats: "200+",
 //       fee: "₹22-40L",
 //     },
 //     {
 //       name: "Vietnam",
 //       flag: "🇻🇳",
-//       path: "/mbbsabroad/vietnam",
+//       path: "/mbbs-abroad/vietnam",
 //       seats: "100+",
 //       fee: "₹25-35L",
 //     },
@@ -93,7 +93,7 @@
 //             </div>
 
 //             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
-//               Trusted & ethical counselling for MBBS abroad — helping 2000+
+//               Trusted & ethical counselling for MBBS abroad — helping 400+
 //               Indian students since inception.
 //             </p>
 
@@ -102,25 +102,25 @@
 //                 href="https://www.facebook.com/eduhawkglobal"
 //                 className="hover:text-amber-400 transition-colors duration-200"
 //               >
-//                 <FaFacebookF />
+//                 <Facebook />
 //               </a>
 //               <a
 //                 href="https://www.youtube.com/@Eduhawkteam"
 //                 className="hover:text-amber-400 transition-colors duration-200"
 //               >
-//                 <FaYoutube />
+//                 <Youtube />
 //               </a>
 //               <a
 //                 href="https://www.instagram.com/eduhawk_global/"
 //                 className="hover:text-amber-400 transition-colors duration-200"
 //               >
-//                 <FaInstagram />
+//                 <Instagram />
 //               </a>
 //               <a
 //                 href="https://www.linkedin.com/company/edu-hawk-worldwide/?viewAsMember=true"
 //                 className="hover:text-amber-400 transition-colors duration-200"
 //               >
-//                 <FaLinkedinIn />
+//                 <Linkedin />
 //               </a>
 //             </div>
 //           </div>
@@ -205,7 +205,7 @@
 //           <p className="mt-1">
 //             Powered By{" "}
 //             <a
-//               href="http://aiknotsit.com/"
+//               href="https://aiknotsit.com/"
 //               target="_blank"
 //               rel="noopener noreferrer"
 //             >
@@ -239,19 +239,19 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-import Eduhawk from "../assets/icon.jpg";
+import Eduhawk from "../assets/icon.webp";
 import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaYoutube,
-} from "react-icons/fa";
+  Facebook,
+  Youtube,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 
 export default function Footer() {
   const COUNTRIES = [
     {
       name: "Russia",
-      path: "/mbbsabroad/russia",
+      path: "/mbbs-abroad/russia",
       seats: "600+",
       fee: "₹20-35L",
       flag: (
@@ -267,7 +267,7 @@ export default function Footer() {
     },
     {
       name: "Georgia",
-      path: "/mbbsabroad/georgia",
+      path: "/mbbs-abroad/georgia",
       seats: "200+",
       fee: "₹25-40L",
       flag: (
@@ -296,7 +296,7 @@ export default function Footer() {
     },
     {
       name: "Uzbekistan",
-      path: "/mbbsabroad/uzbekistan",
+      path: "/mbbs-abroad/uzbekistan",
       seats: "400+",
       fee: "₹15-30L",
       flag: (
@@ -330,7 +330,7 @@ export default function Footer() {
     },
     {
       name: "Kazakhstan",
-      path: "/mbbsabroad/kazakhstan",
+      path: "/mbbs-abroad/kazakhstan",
       seats: "300+",
       fee: "₹18-32L",
       flag: (
@@ -353,7 +353,7 @@ export default function Footer() {
     },
     {
       name: "Kyrgyzstan",
-      path: "/mbbsabroad/kyrgyzstan",
+      path: "/mbbs-abroad/kyrgyzstan",
       seats: "250+",
       fee: "₹15-27L",
       flag: (
@@ -374,7 +374,7 @@ export default function Footer() {
     },
     {
       name: "Nepal",
-      path: "/mbbsabroad/nepal",
+      path: "/mbbs-abroad/nepal",
       seats: "150+",
       fee: "₹35-50L",
       flag: (
@@ -395,7 +395,7 @@ export default function Footer() {
     },
     {
       name: "Bangladesh",
-      path: "/mbbsabroad/bangladesh",
+      path: "/mbbs-abroad/bangladesh",
       seats: "200+",
       fee: "₹22-40L",
       flag: (
@@ -410,7 +410,7 @@ export default function Footer() {
     },
     {
       name: "Vietnam",
-      path: "/mbbsabroad/vietnam",
+      path: "/mbbs-abroad/vietnam",
       seats: "100+",
       fee: "₹25-35L",
       flag: (
@@ -437,9 +437,13 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-5">
               <img
                 src={Eduhawk}
+                width={1280}
+                height={720}
                 alt="Edu-Hawk Logo"
                 className="w-15 h-15 rounded-full object-cover"
-              />
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="(max-width: 640px) 180px, 244px"
+                />
               <div>
                 <h3 className="text-white font-bold text-xl tracking-tight">
                   Edu-Hawk Worldwide
@@ -451,34 +455,46 @@ export default function Footer() {
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
-              Trusted & ethical counselling for MBBS abroad — helping 2000+
-              Indian students since inception.
+              Trusted & ethical counselling for MBBS abroad — helping 1000+
+              Indian students globally since inception.
             </p>
 
             <div className="flex gap-4 text-xl">
               <a
                 href="https://www.facebook.com/eduhawkglobal"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Edu-Hawk Worldwide on Facebook"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
-                <FaFacebookF />
+                <Facebook />
               </a>
               <a
                 href="https://www.youtube.com/@Eduhawkteam"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Edu-Hawk Worldwide on YouTube"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
-                <FaYoutube />
+                <Youtube />
               </a>
               <a
                 href="https://www.instagram.com/eduhawk_global/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Edu-Hawk Worldwide on Instagram"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
-                <FaInstagram />
+                <Instagram />
               </a>
               <a
                 href="https://www.linkedin.com/company/edu-hawk-worldwide/?viewAsMember=true"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Edu-Hawk Worldwide on LinkedIn"
                 className="hover:text-amber-400 transition-colors duration-200"
               >
-                <FaLinkedinIn />
+                <Linkedin />
               </a>
             </div>
           </div>
@@ -562,7 +578,7 @@ export default function Footer() {
           <p className="mt-1">
             Powered By{" "}
             <a
-              href="http://aiknotsit.com/"
+              href="https://aiknotsit.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -571,7 +587,7 @@ export default function Footer() {
               </span>
             </a>
             <a className="font-small text-gray-400"> version 5.0.0 </a>
-            Trusted by 2000+ Indian Students
+            Trusted by 1000+ Indian Students Globally
           </p>
 
           <div className="mt-4 flex justify-center gap-6 text-xs flex-wrap">

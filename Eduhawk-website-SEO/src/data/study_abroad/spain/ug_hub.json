@@ -1,0 +1,505 @@
+{
+  "hero": {
+    "title": "Engineering Bachelor's in Spain for Indian Students",
+    "subtitle": "Bachelor's in Engineering in Spain for Indian Students is an opportunity for Indian students to build technical knowledge, problem-solving skills and practical abilities in fields like mechanical, civil, computer, electrical, electronics, and industrial engineering."
+  },
+  "overview": [
+    "Bachelor's in Engineering in Spain for Indian Students is an opportunity for Indian students to build technical knowledge, problem-solving skills and practical abilities in fields like mechanical, civil, computer, electrical, electronics, and industrial engineering.",
+    "Students who opt to study engineering in Spain will be able to lay a strong foundation in mathematics, physics, design, technology and hands on engineering applications."
+  ],
+  "universities": [
+    {
+      "name": "Polytechnic University of Catalunya",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_ug_hub_Polytechnic_University_of_Catalunya-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_ug_hub_Polytechnic_University_of_Catalunya-image3.png",
+      "desc": "UPC offers undergraduate engineering degrees, for example Civil Engineering in Barcelona. Its Civil Engineering program is in English and is listed as four years and 240 ECTS credits. The university also provides courses in mechanical and electronic engineering. Official website: www.upc.edu"
+    },
+    {
+      "name": "Pompeu Fabra University",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_ug_hub_Pompeu_Fabra_University-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_ug_hub_Pompeu_Fabra_University-image1.png",
+      "desc": "The UPF presents the Bachelor's Degree in Computer Engineering, with a duration of four years and 240 ECTS credits. It has a School of Engineering, and the degree has an English-taught study-group option, so it could be worth considering for students looking for computer engineering education in English. Website oficial: upf.edu Program availability, language, tuition, and admission requirements may change each academic year. Refer to the official course page for the intended intake. Edu-Hawk Worldwide can help students compare universities and understand the application requirements to study abroad."
+    },
+    {
+      "name": "Universitat Politècnica de València",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_ug_hub_Universitat_Polit_cnica_de_Val_ncia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_ug_hub_Universitat_Polit_cnica_de_Val_ncia-image2.png",
+      "desc": "UPV provides bachelor's degrees in Civil Engineering and Mechanical Engineering, usually for a period of four years with 240 credits. Its engineering programs also offer technical courses and options for further education. Official site: upv.es"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study Engineering in Spain?",
+      "lead": "Students who opt to study engineering in Spain will be able to lay a strong foundation in mathematics, physics, design, technology and hands on engineering applications.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Major benefits include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Higher education in Europe: Learn about the Spanish university system and other study opportunities in the rest of Europe.",
+            "Learn through the following methods: Pick up technical skills in labs, projects, design assignments, and internships where possible.",
+            "Specialisations: Pick from computer, mechanical, civil, electrical, electronics, robotics or industrial engineering.",
+            "Research and innovation: Investigate areas like automation, renewable energy, smart infrastructure and advanced manufacturing.",
+            "International exposure: Experience a multicultural academic environment and opportunities for international mobility.",
+            "Further study: Progress to a master's degree or a specialized engineering program after obtaining the required bachelor's qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Bachelor's Degree in Engineering Courses in Spain",
+      "lead": "Students looking for Bachelor's in Engineering in Spain for Indian Students can opt for a variety of undergraduate disciplines. Most bachelor programs are structured over four years and 240 ECTS. Some qualifications and professional routes may vary.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Course of EngineeringDurationMain areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Engineering4 yearsProgramming, algorithms, computer systems, software"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanical Engineering4 yearsMechanics, materials, machine design, manufacturing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil Engineering4 yearsStructures, transportation, construction, infrastructure"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical Engineering4 yearsElectrical systems, power generation, circuits"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics Engineering4 yearsElectronic circuits, sensors, embedded systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industrial Engineering4 yearsManufacturing, automation, production, process design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Robotics Engineering4 yearsRobotics, control systems, automation, programming"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemical Engineering4Chemical processes, materials, industrial production"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace EngineeringUsually 4 yearsAerodynamics, aircraft systems, propulsion"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biomedical EngineeringOften 4 yearsMedical devices, biomechanics, healthcare technology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course availability, degree titles, teaching languages and duration differ from university to university. Please check the details of the program before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Top Engineering Colleges in Spain",
+      "lead": "When comparing Engineering Universities in Spain, students should take into account the curriculum, the language of instruction, the laboratory equipment, the tuition fees, the conditions for international admission and the professional recognition of each program.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Here are some examples of universities with relevant undergrad engineering options. They are not offered as a general ranking."
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Polytechnic University of Catalunya",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_ug_hub_Polytechnic_University_of_Catalunya-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_ug_hub_Polytechnic_University_of_Catalunya-image3.png",
+          "desc": "UPC offers undergraduate engineering degrees, for example Civil Engineering in Barcelona. Its Civil Engineering program is in English and is listed as four years and 240 ECTS credits. The university also provides courses in mechanical and electronic engineering. Official website: www.upc.edu"
+        },
+        {
+          "name": "Pompeu Fabra University",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_ug_hub_Pompeu_Fabra_University-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_ug_hub_Pompeu_Fabra_University-image1.png",
+          "desc": "The UPF presents the Bachelor's Degree in Computer Engineering, with a duration of four years and 240 ECTS credits. It has a School of Engineering, and the degree has an English-taught study-group option, so it could be worth considering for students looking for computer engineering education in English. Website oficial: upf.edu Program availability, language, tuition, and admission requirements may change each academic year. Refer to the official course page for the intended intake. Edu-Hawk Worldwide can help students compare universities and understand the application requirements to study abroad."
+        },
+        {
+          "name": "Universitat Politècnica de València",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_ug_hub_Universitat_Polit_cnica_de_Val_ncia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_ug_hub_Universitat_Polit_cnica_de_Val_ncia-image2.png",
+          "desc": "UPV provides bachelor's degrees in Civil Engineering and Mechanical Engineering, usually for a period of four years with 240 credits. Its engineering programs also offer technical courses and options for further education. Official site: upv.es"
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Who can study engineering in Spain?",
+      "lead": "In general, applicants who want to study engineering at the bachelor's level need to meet the university's academic admission criteria. Some common factors to look out for are:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Class 12 qualification: Passing of Class 12 from a recognized board.",
+            "Related topics: Mathematics and Physics are especially relevant. Depending on the specialization chemistry may be required or recommended.",
+            "Grades: Fulfilll the university's required grades and admission score.",
+            "Qualification recognition: Carry out any required Indian school qualification evaluation, equivalency or recognition process.",
+            "Language proficiency: Fulfilll the language requirements of the chosen program: Spanish, Catalan or English.",
+            "Additional admission procedures: Complete any required entrance examination, credential evaluation, or university pre-enrolment process."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Meeting the minimum eligibility criteria does not guaranty admission as admission scores are competitive at some universities. Requirements vary by school and location."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Engineering Admission Requirements in Spain",
+      "lead": "The admission criteria vary from one university and engineering discipline to another. Typical documents and procedures that are requested include:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Class 10 and Class 12 Marksheets.",
+            "Academic Transcripts, Mark Sheets.",
+            "Passport and identity documents.",
+            "Evidence of Mathematics and Physics coursework, if requested.",
+            "Spanish or English language test results if applicable."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Recognition of foreign qualifications or documents of equivalence.",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Forms for university application and pre-enrolment.",
+            "Legalization of documents or certified translations, if necessary.",
+            "Other entrance-test results and supporting documents as required by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students who want to study at a public university in Spain may have to complete the relevant recognition and university entrance procedures for international school qualifications. Please consult the university's official international admissions guidance prior to application."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Engineering Fees in Spain",
+      "lead": "When planning the overall cost of an undergraduate degree, be aware of the Engineering Fees in Spain. Tuition fees vary depending on the university, engineering specialization, number of credits, region and fee category (for international students).",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University TypeSample Annual TuitionApprox. INR per annum"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university€1,000 - €8,000₹1.09 - ₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private University€6,000-€20,000+₹6.52-₹21.72 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are broad planning estimates and are not guarantyd fees for individual universities. Non-EU students may be charged different rates to EU students, and some programs are outside these ranges."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For instance, the Polytechnic University of Catalonia offers its standard Civil Engineering program in Barcelona for around €1,800 per academic year to non-EU residents. Its separate English-taught program has a different fee structure published so students need to check the exact course page when budgeting."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "You should also include accommodation, food, transport, health insurance, visa expenses, books and other personal expenses in the total study budget. Scholarships or reduced tuition may be available, depending on the program and eligibility criteria."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Spain Bachelor's Engineering Admission Process",
+      "lead": "Students who want to Study Engineering in Spain can follow the following general steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose your engineering stream: Choose from computer, mechanical, civil, electrical, electronics, robotics or any other specialization.",
+            "Shortlist universities: Compare course content, language of instruction, tuition, laboratory facilities, entry requirements.",
+            "Look into academic recognition: See how your Indian Class 12 qualification needs to be evaluated for admission.",
+            "Prepare documents: Prepare academic transcripts, certificates, passport details and required language test scores.",
+            "Complete the admission process: Apply through the university portal or the respective regional university pre-enrolment system.",
+            "Get an admission decision: Complete any additional entry or documentation requirements.",
+            "Get your finances in order: Check your tuition, funding and any scholarship award.",
+            "Apply for Student Visa: Check the latest Spanish student visa requirements for Indian applicants.",
+            "Get ready to enrol: Reserve accommodation, insurance, travel and university registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application deadlines vary from institution to institution. Start the process early, especially if your credentials need to be recognized, translated or further verified."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of Engineering Degrees in Spain",
+      "lead": "Indian students should ensure that the engineering degree they choose is appropriate for their educational and career goals before they enroll.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Key considerations include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The university and the program have official recognition in Spain.",
+            "Is it a university degree of any kind?",
+            "Does the program have relevant engineering accreditation or quality certification?",
+            "If the degree is a requirement for the master's program you want to attend.",
+            "Whether the qualification meets requirements for professional registration or licensing in the country where you plan to work."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some Spanish engineering degrees provide access to some regulated professional paths, others may require further study or qualifications. For example, the Polytechnic University of Valencia points out that its Civil Engineering degree is a degree that qualifies for a regulated professional pathway."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you intend to return to India, please check with the appropriate Indian authorities, employers and professional bodies to confirm their current requirements for your intended engineering role. Not all foreign engineering degrees are recognized or eligible for professional status equally."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Career Opportunities and Salary after Engineering in Spain",
+      "lead": "A bachelor's degree in engineering can open doors to careers in technology, manufacturing, construction, infrastructure, energy and industrial sectors.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "OccupationSample gross annual income"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate / Junior Engineer&pound;22,000 - &pound;30,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanical Engineer€25,000-€38,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Civil Engineer24,000€-38,000€"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electrical/Electronics Engineer€25,000 - €40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Engineer / Software28.000€ - 45.000€"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Robotics or Automation Engineer28.000-45.000 €"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Senior Engineer€40,000-€60,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary ranges are broad estimates for illustrative purposes and are not audited salary statistics or guarantyd earnings. Actual salaries vary depending on city, employer, experience, specialization, language skills and work authorization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible fields of employment are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software and tech companies.",
+            "Automotive and manufacturing sectors.",
+            "Companies active in construction and infrastructure.",
+            "Power & Renewable energy systems.",
+            "Robotics and industrial automation.",
+            "Telecommunications and electronic equipment.",
+            "Aerospace and advanced engineering.",
+            "Research and development organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you speak Spanish, local employers may have more opportunities for you. Other international technology and engineering companies also hire English-speaking graduates, but eligibility and hiring requirements differ."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed for Study in Engineering in Spain",
+      "lead": "Indian students generally have to prepare the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport (valid).",
+            "Mark Sheet & Certificate of Class 10.",
+            "Class 12 mark sheet & certificate.",
+            "Details of subjects and academic transcripts.",
+            "Documents of recognition or equivalence of qualifications, where applicable.",
+            "Results of Spanish or English language proficiency, as applicable.",
+            "College application and admission documents.",
+            "Certified translations and legalization of documents if required.",
+            "Passport size pictures.",
+            "Visa financial documentation and proof of funds.",
+            "Documentation requested by Spanish authorities, including health insurance."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The precise list will vary depending on the university, route of admission and visa process. Follow the official checklist of the intake you want to apply for."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Most asked questions about Bachelor's in Engineering in Spain",
+      "lead": "",
+      "groups": []
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Indian students pursue engineering in Spain after 12th?",
+      "a": "Yes. Indian students can apply post Class 12 after fulfilling the academic criteria, subject prerequisites, qualification recognition procedures and language requirements of their chosen university."
+    },
+    {
+      "q": "How long does it take to study engineering in Spain?",
+      "a": "Most engineering bachelor programs take four years to complete and are worth 240 ECTS credits. The amount of time can differ depending on the qualification or career path."
+    },
+    {
+      "q": "Is IELTS required for engineering in Spain?",
+      "a": "Not always. English taught courses may require IELTS, TOEFL or recognized equivalent. Spanish-taught programs may need Spanish proficiency and some programs use Catalan or a combination of languages. Check the exact language requirements before you apply."
+    },
+    {
+      "q": "What are Engineering Fees in Spain for Indian Students?",
+      "a": "Public universities charge a wide range of fees, from about €1,000 to €8,000 a year. Private universities charge more. Non-EU tuition fees vary according to the university, region, course and academic year."
+    },
+    {
+      "q": "What is the job outlook for a bachelor's in engineering in Spain?",
+      "a": "Graduates work in software development, mechanical design, civil infrastructure, electrical systems, robotics, manufacturing, renewable energy and research. Some positions may require additional qualifications, local language skills or professional recognition."
+    }
+  ],
+  "seo": {
+    "title": "Engineering Bachelor's in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Bachelor's in Engineering in Spain for Indian Students is an opportunity for Indian students to build technical knowledge, problem-solving skills and practical ",
+    "keywords": "Bachelor's in Engineering in Spain for Indian Students, Study Engineering in Spain, Engineering Universities in Spain, Engineering Admission Requirements in Spain, Engineering Fees in Spain, Bachelor's Degree in Engineering Courses in Spain, Edu-Hawk Worldwide, SEO Keyword Usage Count, SEO KeywordUsage Count, Bachelor's in Engineering in Spain for Indian Students3, Study Engineering in Spain2, Engineering Universities in Spain1, Engineering Admission Requirements in Spain1, Engineering Fees in Spain2, Bachelor's Degree in Engineering Courses in Spain1, Edu-Hawk Worldwide5, Counts are based on exact keyword phrases in the article body, including headings, and exclude the SEO keyword list and usage-count table."
+  }
+}

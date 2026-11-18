@@ -6,174 +6,67 @@ import icon1 from "../Images/icons/ux-design_2998253.svg";
 import icon2 from "../Images/icons/selling_12091247.svg";
 import icon3 from "../Images/icons/ux-design_2998253.svg";
 import icon4 from "../Images/icons/selling_12091247.svg";
-import personalized from "../assets/personalized.png";
-import support from "../assets/support.png";
-import checkup from "../assets/checkup.png";
-import charges from "../assets/charges.png";
-import Kathmandu from "../../src/Images/Kathmandu.jpg";
-import Eduhawk from "../assets/Eduhawk.png"; // ← adjust path if needed
-import { X, ChevronDown } from "lucide-react";
+import personalized from "../assets/personalized.webp";
+import support from "../assets/support.webp";
+import checkup from "../assets/checkup.webp";
+import charges from "../assets/charges.webp";
+import Kathmandu from "../../src/Images/Kathmandu.webp";
+import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
+import heroRussia from "../Images/hero/hero-russia.webp";
+import heroGeorgia from "../Images/hero/hero-georgia.webp";
+import heroKazakhstan from "../Images/hero/hero-kazakhstan.webp";
+import heroTrusted from "../Images/hero/hero-trusted.webp";
+import { X, ChevronDown, User, Mail, Phone, MapPin, GraduationCap, Globe, ArrowRight, Star, Award, CheckCircle2, Sparkles, MessageCircle } from "lucide-react";
 
-import univercity from "../Images/university-image/singapore.jpg";
-import topRanking1 from "../Images/Peking University Health Science Center.jpg";
+import univercity from "../Images/university-image/singapore.webp";
+import topRanking1 from "../Images/Peking University Health Science Center.webp";
 import topRanking2 from "../Images/Russia/Altai State Medical University.jpg";
-import topRanking3 from "../Images/Tsinghua University School of Medicine.jpg";
-import topRanking4 from "../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.jpg";
+import topRanking3 from "../Images/Tsinghua University School of Medicine.webp";
+import topRanking4 from "../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
 import topRanking5 from "../Images/Saint Petersburg State Medical University (Pavlov First Saint Petersburg State Medical University).jpeg";
-import topRanking6 from "../Images/Pirogov Russian National Research Medical University (RNRMU).jpg";
-import topRanking7 from "../Images/University of Santo Tomas Faculty of Medicine and Surgery.jpg";
+import topRanking6 from "../Images/Pirogov Russian National Research Medical University (RNRMU).webp";
+import topRanking7 from "../Images/University of Santo Tomas Faculty of Medicine and Surgery.webp";
 import topRanking8 from "../Images/University of the Philippines Manila, College of Medicine.jpeg";
 
-import globalImage from "../Images/home_page_Image/class room.jpg";
-import globalImage2 from "../Images/home_page_Image/class room 2.jpg";
+import globalImage from "../Images/home_page_Image/class room.webp";
+import globalImage2 from "../Images/home_page_Image/class room 2.webp";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SeoHead from "../component/SeoHead.jsx";
+import homeData from "../data/home.json";
+import russiaFlag from "../Images/country flag png/Russia.svg";
+import georgiaFlag from "../Images/country flag png/Georgia.svg";
+import uzbekistanFlag from "../Images/country flag png/Uzbekistan-Flag.svg";
+import kazakhstanFlag from "../Images/country flag png/Kazakhstan.svg";
+import kyrgyzstanFlag from "../Images/country flag png/Kyrgyzstan.svg";
+import nepalFlag from "../Images/country flag png/Nepal.svg";
+import bangladeshFlag from "../Images/country flag png/Bangladesh-Flag-PNG-Isolated-HD.webp";
+import egyptFlag from "../Images/country flag png/Egypt.svg";
+
+const COUNTRY_FLAGS = {
+  Russia: { flag: russiaFlag, code: "RU" },
+  Georgia: { flag: georgiaFlag, code: "GE" },
+  Uzbekistan: { flag: uzbekistanFlag, code: "UZ" },
+  Kazakhstan: { flag: kazakhstanFlag, code: "KZ" },
+  Kyrgyzstan: { flag: kyrgyzstanFlag, code: "KG" },
+  Nepal: { flag: nepalFlag, code: "NP" },
+  Bangladesh: { flag: bangladeshFlag, code: "BD" },
+  Egypt: { flag: egyptFlag, code: "EG" },
+};
+
 
 const NAV_LINKS = ["Home", "About", "Services", "Countries", "Contact"];
 
-const COUNTRIES = [
-  { name: "Russia", flag: "🇷🇺", seats: "600+ seats", fee: "₹20-30L total" },
-  { name: "Georgia", flag: "🇬🇪", seats: "200+ seats", fee: "₹25-35L total" },
-  { name: "Uzbekistan", flag: "🇺🇿", seats: "400+ seats", fee: "₹18-28L total" },
-  { name: "Kazakhstan", flag: "🇰🇿", seats: "300+ seats", fee: "₹22-32L total" },
-  { name: "Kyrgyzstan", flag: "🇰🇬", seats: "250+ seats", fee: "₹15-25L total" },
-  { name: "Nepal", flag: "🇳🇵", seats: "150+ seats", fee: "₹35-50L total" },
-];
+const HERO_SLIDE_IMAGES = [heroRussia, heroGeorgia, heroKazakhstan, heroTrusted];
 
-const TESTIMONIALS = [
-  {
-    name: "Priya Sharma",
-    loc: "Delhi → Russia",
-    text: "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-approved university in Russia!",
-    stars: 5,
-  },
-  {
-    name: "Rahul Verma",
-    loc: "Mumbai → Georgia",
-    text: "The counsellors were transparent and genuinely cared about my future. Best decision to trust Edu-Hawk for my MBBS abroad journey.",
-    stars: 5,
-  },
-  {
-    name: "Ananya Patel",
-    loc: "Ahmedabad → Kazakhstan",
-    text: "From application to post-arrival, they supported me fully. I feel confident about my FMGE preparation with their guidance.",
-    stars: 5,
-  },
-];
+const HERO_SLIDES = (homeData.heroSlides || []).map((slide, idx) => ({
+  ...slide,
+  image: slide.image || HERO_SLIDE_IMAGES[idx % HERO_SLIDE_IMAGES.length],
+}));
 
-const FAQ_ITEMS = [
-  {
-    question: "How can I study MBBS abroad with low fees?",
-    answer:
-      "Edu-Hawk helps students compare affordable MBBS options in countries like Russia, Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan and Nepal based on fees, eligibility, and career goals.",
-  },
-  {
-    question: "What guidance do you provide for MBBS admission abroad?",
-    answer:
-      "We provide step-by-step counselling for university selection, application support, documentation, visa guidance, and pre-departure preparation for overseas education.",
-  },
-  {
-    question: "Is MBBS abroad a good option for Indian students?",
-    answer:
-      "Yes, many Indian students choose foreign medical universities for quality medical education, internationally recognized programs, and cost-effective study options in lakhs.",
-  },
-  {
-    question: "Do I need to clear NEET for studying MBBS abroad?",
-    answer:
-      "Yes, NEET qualification is mandatory for Indian students who wish to pursue MBBS abroad and later practice medicine in India after clearing the FMGE/NExT exam.",
-  },
-  {
-    question: "What is the total cost of studying MBBS abroad?",
-    answer:
-      "The total cost usually ranges between ₹15–40 lakhs for the complete course, depending on the country and university. This includes tuition fees, hostel, and living expenses.",
-  },
-];
-
-const HERO_SLIDES = [
-  {
-    image:
-      "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&q=80&w=1920",
-    title: "Study MBBS in Russia",
-    subtitle:
-      "Top NMC-approved universities • Affordable fees • Safe & Recognized",
-    cta: "Get Free Counselling",
-  },
-  {
-    image:
-      "https://psgimsr.ac.in/wp-content/uploads/2024/07/20240717_220126.jpg",
-    title: "MBBS in Georgia – Modern & Affordable",
-    subtitle: "English medium • European standards • Low cost of living",
-    cta: "Explore Georgia Options",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=1920",
-    title: "Kazakhstan & Kyrgyzstan – Best Value",
-    subtitle: "₹15–32 Lakh total • No entrance exam • Direct admission",
-    cta: "Compare Packages",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&q=80&w=1920",
-    title: "Your Trusted MBBS Abroad Partner",
-    subtitle:
-      "2000+ students placed • Transparent process • End-to-end support",
-    cta: "Start Your Journey Today",
-  },
-];
-
-const mbbsOptions = [
-  {
-    country: "Bangladesh",
-    fees: "24 Lakhs to 41 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/bangladesh",
-  },
-  {
-    country: "Russia",
-    fees: "24 Lakhs to 41 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/russia",
-  },
-  {
-    country: "Uzbekistan",
-    fees: "16 Lakhs to 21 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/uzbekistan",
-  },
-  {
-    country: "Kyrgyzstan",
-    fees: "14 Lakhs to 21 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/kyrgyzstan",
-  },
-  {
-    country: "Egypt",
-    fees: "31 Lakhs to 36 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/egypt",
-  },
-  {
-    country: "Kazakhstan",
-    fees: "16 Lakhs to 23 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/kazakhstan",
-  },
-  {
-    country: "Tajikistan",
-    fees: "17 Lakhs to 25 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/tajikistan",
-  },
-  {
-    country: "Nepal",
-    fees: "20 Lakhs to 35 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/nepal",
-  },
-  {
-    country: "Georgia",
-    fees: "18 Lakhs to 28 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/georgia",
-  },
-  {
-    country: "Vietnam",
-    fees: "21 Lakhs to 30 Lakhs",
-    link: "https://eduhawk.in/mbbs-abroad/vietnam",
-  },
-];
+const COUNTRIES = homeData.countries || [];
+const TESTIMONIALS = homeData.testimonials || [];
+const FAQ_ITEMS = homeData.faq || [];
+const mbbsOptions = homeData.mbbsOptions || [];
 
 const EMPTY_MODAL_FORM = {
   name: "",
@@ -202,7 +95,7 @@ export default function HeroSection() {
 
   const [modalForm, setModalForm] = useState(EMPTY_MODAL_FORM);
   const [modalErrors, setModalErrors] = useState({});
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   const [isModalSubmitting, setIsModalSubmitting] = useState(false);
 
   const [contactForm, setContactForm] = useState(EMPTY_CONTACT_FORM);
@@ -211,6 +104,13 @@ export default function HeroSection() {
   const [exploreMenuOpen, setExploreMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
   const exploreMenuRef = useRef(null);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+    }, 2500);
+    return () => clearTimeout(timer);
+  }, []);
   // Toast Notification Functions
   const showSuccess = (message) => {
     toast.success(message, {
@@ -414,295 +314,393 @@ export default function HeroSection() {
 
   return (
     <>
-      <Helmet>
-        <title>MBBS Abroad Guidance | Indian Students Admission 2026</title>
-        <meta
-          name="description"
-          content="Study MBBS abroad with expert guidance, affordable fees, and trusted admission support in Russia, Georgia, Uzbekistan, Kazakhstan & Kyrgyzstan."
-        />
-        <meta
-          name="keywords"
-          content="study mbbs abroad, mbbs abroad, mbbs admission abroad, mbbs counselling, medical education abroad, overseas education, foreign medical universities, guidance, lakhs study mbbs, study mbbs"
-        />
-      </Helmet>
+      <SeoHead
+        title="MBBS Abroad Guidance | Indian Students Admission 2026"
+        description="Study MBBS abroad with expert guidance, affordable fees, and trusted admission support in Russia, Georgia, Uzbekistan, Kazakhstan & Kyrgyzstan."
+        keywords="study mbbs abroad, mbbs abroad, mbbs admission abroad, mbbs counselling, medical education abroad, overseas education, foreign medical universities, guidance, lakhs study mbbs, study mbbs"
+        path="/"
+        ogType="website"
+      >
+        {/* LCP hint: the first hero slide is the homepage LCP element.
+            Preload it so the browser starts fetching before JS discovers it. */}
+        <link rel="preload" as="image" href={heroRussia} fetchPriority="high" />
+      </SeoHead>
 
-      <div className="min-h-screen bg-white font-sans">
+      <div className="min-h-screen bg-white font-sans overflow-x-hidden w-full">
         {/* Toast Container */}
         <ToastContainer />
 
+        {/* Page heading — first heading in DOM order, visually hidden */}
+        <h1 className="sr-only">MBBS Abroad Counselling for Indian Students</h1>
+
         {/* POPUP MODAL */}
         {isOpen && (
-          <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/65 p-4 sm:p-6">
-            <div className="relative w-full max-w-4xl max-h-[90vh] sm:max-h-[88vh] rounded-2xl bg-white shadow-2xl overflow-hidden flex flex-col">
+          <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 sm:p-6 backdrop-blur-xs">
+            <div className="relative w-full max-w-4xl max-h-[92vh] sm:max-h-[90vh] rounded-2xl bg-white shadow-2xl overflow-hidden flex flex-col border border-slate-100">
               <button
                 onClick={() => setIsOpen(false)}
-                className="absolute top-4 right-4 z-20 w-10 h-10 flex items-center justify-center rounded-full bg-white/90 shadow-md hover:bg-gray-100 text-gray-700 hover:text-gray-900 transition-all duration-200"
+                className="absolute top-3.5 right-3.5 sm:top-4 sm:right-4 z-30 w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-slate-100/90 hover:bg-slate-200 text-slate-600 hover:text-slate-900 shadow-sm transition-all duration-200 cursor-pointer"
                 aria-label="Close"
               >
-                <X size={22} strokeWidth={2.5} />
+                <X size={20} strokeWidth={2.5} />
               </button>
 
               <div className="flex flex-col lg:flex-row h-full overflow-hidden">
-                {/* LEFT – benefits panel */}
-                <div className="lg:w-5/12 bg-gradient-to-br from-[#0a2342] via-[#1a4a7a] to-[#0d3460] text-white p-8 sm:p-10 flex flex-col justify-between hidden lg:flex">
-                  <div>
-                    <div className="mb-6 rounded-2xl border border-white/10 bg-white/10 p-4 shadow-inner backdrop-blur-sm">
+                {/* LEFT – benefits panel (modernized atmospheric card) */}
+                <div className="relative lg:w-5/12 bg-gradient-to-br from-[#071d38] via-[#0f3560] to-[#0c4077] text-white p-7 sm:p-8 flex flex-col justify-between hidden lg:flex overflow-hidden">
+                  {/* Atmospheric Glow Highlights */}
+                  <div className="absolute -top-20 -left-20 w-52 h-52 bg-teal-400/15 rounded-full blur-3xl pointer-events-none" />
+                  <div className="absolute -bottom-20 -right-20 w-52 h-52 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
+
+                  <div className="relative z-10">
+                    {/* Logo in Frosted Glass Container */}
+                    <div className="mb-5 rounded-2xl border border-white/15 bg-white/10 p-3.5 shadow-lg backdrop-blur-md">
                       <img
                         src={Eduhawk}
                         alt="MBBS Abroad"
-                        className="mx-auto h-16 w-auto object-contain brightness-110 drop-shadow-[0_0_10px_rgba(255,255,255,0.18)]"
-                      />
+                        width={244}
+                        height={72}
+                        className="mx-auto h-13 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.2)]"
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="100vw"
+                />
                     </div>
-                    <h2 className="text-2xl sm:text-3xl font-bold mb-4 leading-tight">
+
+                    {/* Admissions Badge */}
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-400/15 border border-teal-300/25 text-teal-300 text-[11px] font-semibold uppercase tracking-wider mb-3">
+                      <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
+                      2026-27 Admissions Open
+                    </div>
+
+                    <h2 className="text-2xl sm:text-[26px] font-extrabold mb-2.5 leading-tight tracking-tight text-white drop-shadow-sm">
                       Your MBBS Abroad Journey Starts Here
                     </h2>
-                    <p className="text-teal-100 text-base mb-8">
-                      Trusted by 2,000+ Indian students • Transparent process •
-                      NMC-approved universities only
+                    <p className="text-teal-100/90 text-xs sm:text-sm mb-5 leading-relaxed font-normal">
+                      Trusted by 1000+ Indian students • Transparent process •
+                      NMC-recognized universities only
                     </p>
 
-                    <ul className="space-y-5 text-base">
-                      <li className="flex items-start gap-3">
-                        <span className="text-2xl flex-shrink-0">
+                    <ul className="space-y-3.5 text-xs sm:text-sm">
+                      <li className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 shadow-sm backdrop-blur-xs">
                           <img
                             src={personalized}
+                            loading="lazy"
                             alt="Free Expert Counselling"
-                            className="w-8 h-8 brightness-0 invert"
-                          />
-                        </span>
-                        <span>Free expert 1-on-1 counselling</span>
+                            width={246}
+                            height={197}
+                            className="w-4.5 h-4.5 brightness-0 invert"
+                  srcSet={`${personalized} 1x, ${personalized} 2x`}
+                  sizes="100vw"
+                />
+                        </div>
+                        <span className="text-slate-100 font-medium">Free expert 1-on-1 counselling</span>
                       </li>
 
-                      <li className="flex items-start gap-3">
-                        <span className="text-2xl flex-shrink-0">
+                      <li className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 shadow-sm backdrop-blur-xs">
                           <img
                             src={checkup}
+                            loading="lazy"
                             alt="Best University Match"
-                            className="w-8 h-8 brightness-0 invert"
-                          />
-                        </span>
-                        <span>
-                          Best university match as per your NEET & budget
+                            width={200}
+                            height={200}
+                            className="w-4.5 h-4.5 brightness-0 invert"
+                  srcSet={`${checkup} 1x, ${checkup} 2x`}
+                  sizes="100vw"
+                />
+                        </div>
+                        <span className="text-slate-100 font-medium">
+                          Best university match as per your NEET &amp; budget
                         </span>
                       </li>
 
-                      <li className="flex items-start gap-3">
-                        <span className="text-2xl flex-shrink-0">
+                      <li className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 shadow-sm backdrop-blur-xs">
                           <img
                             src={support}
+                            loading="lazy"
                             alt="End-to-End Support"
-                            className="w-8 h-8 brightness-0 invert"
-                          />
-                        </span>
-                        <span>
+                            width={512}
+                            height={512}
+                            className="w-4.5 h-4.5 brightness-0 invert"
+                  srcSet={`${support} 1x, ${support} 2x`}
+                  sizes="100vw"
+                />
+                        </div>
+                        <span className="text-slate-100 font-medium">
                           End-to-end support: visa, travel, FMGE guidance
                         </span>
                       </li>
 
-                      <li className="flex items-start gap-3">
-                        <span className="text-2xl flex-shrink-0">
+                      <li className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 shadow-sm backdrop-blur-xs">
                           <img
                             src={charges}
+                            loading="lazy"
                             alt="Transparent Process"
-                            className="w-8 h-8 brightness-0 invert"
-                          />
-                        </span>
-                        <span>No hidden charges – 100% transparent</span>
+                            width={512}
+                            height={512}
+                            className="w-4.5 h-4.5 brightness-0 invert"
+                  srcSet={`${charges} 1x, ${charges} 2x`}
+                  sizes="100vw"
+                />
+                        </div>
+                        <span className="text-slate-100 font-medium">No hidden charges – 100% transparent</span>
                       </li>
                     </ul>
                   </div>
+
+                  {/* Trust Footer in Left Panel */}
+                  <div className="relative z-10 pt-3.5 border-t border-white/15 flex items-center justify-between text-xs text-teal-200/90">
+                    <div className="flex items-center gap-1.5 font-medium">
+                      <span className="text-amber-400">★★★★★</span>
+                      <span className="text-white font-semibold">4.9/5</span>
+                      <span className="text-teal-200/60 text-[11px]">(1000+ Reviews)</span>
+                    </div>
+                    <div className="flex items-center gap-1 text-[11px] font-medium text-emerald-300 bg-emerald-500/15 border border-emerald-400/20 px-2.5 py-0.5 rounded-full">
+                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
+                      100% NMC Verified
+                    </div>
+                  </div>
                 </div>
 
-                {/* RIGHT – scrollable form */}
-                <div className="flex-1 overflow-y-auto px-6 py-8 sm:px-10 sm:py-10 scrollbar-thin scrollbar-thumb-teal-400 scrollbar-track-transparent">
-                  <div className="lg:hidden text-center mb-6">
-                    <h2 className="text-2xl font-bold text-gray-800 mb-2">
+                {/* RIGHT – form (enhanced modern UI inputs, button and labels) */}
+                <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-6 sm:px-9 sm:py-6 flex flex-col justify-center bg-slate-50/50">
+                  <div className="lg:hidden text-center mb-4">
+                    <h2 className="text-2xl font-bold text-slate-800 mb-1">
                       MBBS Abroad Counselling
                     </h2>
-                    <p className="text-gray-600 text-sm">
-                      Free • Expert • Trusted by 2000+ students
+                    <p className="text-slate-500 text-sm">
+                      Free • Expert • Trusted by 1000+ students
                     </p>
                   </div>
 
-                  <form onSubmit={handleModalSubmit} className="space-y-5">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                  <form onSubmit={handleModalSubmit} className="space-y-3 sm:space-y-3.5">
+                    {/* Full Name & Email in 2 columns */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                          Full Name *
+                        <label htmlFor="modal-name" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                          Full Name <span className="text-rose-500 font-bold">*</span>
                         </label>
-                        <input
-                          type="text"
-                          name="name"
-                          placeholder="Enter your full name"
-                          value={modalForm.name}
-                          onChange={(e) =>
-                            updateModalField("name", e.target.value)
-                          }
-                          className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-200/40 outline-none transition bg-gray-50"
-                        />
+                        <div className="relative group">
+                          <User size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                          <input
+                            id="modal-name" type="text"
+                            name="name"
+                            placeholder="Enter your full name"
+                            value={modalForm.name}
+                            onChange={(e) =>
+                              updateModalField("name", e.target.value)
+                            }
+                            className="w-full pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                          />
+                        </div>
                         {modalErrors.name && (
-                          <p className="mt-1 text-sm text-red-500">
+                          <p className="mt-1 text-xs text-rose-500">
                             {modalErrors.name}
                           </p>
                         )}
                       </div>
+
                       <div>
-                        <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                          Email *
+                        <label htmlFor="modal-email" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                          Email <span className="text-rose-500 font-bold">*</span>
                         </label>
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="your.email@gmail.com"
-                          value={modalForm.email}
-                          onChange={(e) =>
-                            updateModalField("email", e.target.value)
-                          }
-                          className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-200/40 outline-none transition bg-gray-50"
-                        />
+                        <div className="relative group">
+                          <Mail size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                          <input
+                            id="modal-email" type="email"
+                            name="email"
+                            placeholder="your.email@gmail.com"
+                            value={modalForm.email}
+                            onChange={(e) =>
+                              updateModalField("email", e.target.value)
+                            }
+                            className="w-full pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                          />
+                        </div>
                         {modalErrors.email && (
-                          <p className="mt-1 text-sm text-red-500">
+                          <p className="mt-1 text-xs text-rose-500">
                             {modalErrors.email}
                           </p>
                         )}
                       </div>
                     </div>
 
+                    {/* Phone Number - full width */}
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                        Phone Number (+91) *
+                      <label htmlFor="modal-phone" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        Phone Number (+91) <span className="text-rose-500 font-bold">*</span>
                       </label>
-                      <input
-                        type="tel"
-                        name="phone"
-                        placeholder="+91 9630736070"
-                        value={modalForm.phone}
-                        onChange={(e) =>
-                          updateModalField("phone", e.target.value)
-                        }
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-200/40 outline-none transition bg-gray-50"
-                      />
+                      <div className="relative group">
+                        <Phone size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                        <input
+                          id="modal-phone" type="tel"
+                          name="phone"
+                          placeholder="+91 9630736070"
+                          value={modalForm.phone}
+                          onChange={(e) =>
+                            updateModalField("phone", e.target.value)
+                          }
+                          className="w-full pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                        />
+                      </div>
                       {modalErrors.phone && (
-                        <p className="mt-1 text-sm text-red-500">
+                        <p className="mt-1 text-xs text-rose-500">
                           {modalErrors.phone}
                         </p>
                       )}
                     </div>
 
+                    {/* Current City - full width */}
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                        Current City *
+                      <label htmlFor="modal-city" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        Current City <span className="text-rose-500 font-bold">*</span>
                       </label>
-                      <select
-                        name="city"
-                        value={modalForm.city}
-                        onChange={(e) =>
-                          updateModalField("city", e.target.value)
-                        }
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-200/40 outline-none bg-gray-50"
-                      >
-                        <option value="" disabled>
-                          Select city
-                        </option>
-                        {[
-                          "Indore",
-                          "Bhopal",
-                          "Delhi",
-                          "Mumbai",
-                          "Pune",
-                          "Other",
-                        ].map((c) => (
-                          <option key={c}>{c}</option>
-                        ))}
-                      </select>
+                      <div className="relative group">
+                        <MapPin size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                        <select
+                          id="modal-city" name="city"
+                          value={modalForm.city}
+                          onChange={(e) =>
+                            updateModalField("city", e.target.value)
+                          }
+                          className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none appearance-none cursor-pointer"
+                        >
+                          <option value="" disabled className="text-slate-400">
+                            Select city
+                          </option>
+                          {[
+                            "Indore",
+                            "Bhopal",
+                            "Delhi",
+                            "Mumbai",
+                            "Pune",
+                            "Other",
+                          ].map((c) => (
+                            <option key={c} value={c}>{c}</option>
+                          ))}
+                        </select>
+                        <ChevronDown size={16} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+                      </div>
                       {modalErrors.city && (
-                        <p className="mt-1 text-sm text-red-500">
+                        <p className="mt-1 text-xs text-rose-500">
                           {modalErrors.city}
                         </p>
                       )}
                     </div>
 
+                    {/* NEET Status - full width */}
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1.5">
-                        NEET Status *
+                      <label htmlFor="modal-neet" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        NEET Status <span className="text-rose-500 font-bold">*</span>
                       </label>
-                      <select
-                        name="neetStatus"
-                        value={modalForm.neetStatus}
-                        onChange={(e) =>
-                          updateModalField("neetStatus", e.target.value)
-                        }
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-200/40 outline-none bg-gray-50"
-                      >
-                        <option value="" disabled>
-                          Select NEET status
-                        </option>
-                        {["Qualified", "Not Qualified"].map((status) => (
-                          <option key={status} value={status}>
-                            {status}
+                      <div className="relative group">
+                        <GraduationCap size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                        <select
+                          id="modal-neet" name="neetStatus"
+                          value={modalForm.neetStatus}
+                          onChange={(e) =>
+                            updateModalField("neetStatus", e.target.value)
+                          }
+                          className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none appearance-none cursor-pointer"
+                        >
+                          <option value="" disabled className="text-slate-400">
+                            Select NEET status
                           </option>
-                        ))}
-                      </select>
+                          {["Qualified", "Not Qualified"].map((status) => (
+                            <option key={status} value={status}>
+                              {status}
+                            </option>
+                          ))}
+                        </select>
+                        <ChevronDown size={16} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+                      </div>
+                      {modalErrors.neetStatus && (
+                        <p className="mt-1 text-xs text-rose-500">
+                          {modalErrors.neetStatus}
+                        </p>
+                      )}
                     </div>
 
+                    {/* Interested Country - full width */}
                     <div>
-                      <label className="block text-sm font-medium text-gray-700 mb-1.5">
+                      <label htmlFor="modal-country" className="block text-xs font-semibold text-slate-700 mb-1.5">
                         Interested Country
                       </label>
-                      <select
-                        name="country"
-                        value={modalForm.country}
-                        onChange={(e) =>
-                          updateModalField("country", e.target.value)
-                        }
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-200/40 outline-none bg-gray-50"
-                      >
-                        <option value="" disabled>
-                          Select country
-                        </option>
-                        {[
-                          "Russia",
-                          "Georgia",
-                          "Kazakhstan",
-                          "Kyrgyzstan",
-                          "Uzbekistan",
-                          "Philippines",
-                          "Nepal",
-                          "Bangladesh",
-                        ].map((c) => (
-                          <option key={c}>{c}</option>
-                        ))}
-                      </select>
+                      <div className="relative group">
+                        <Globe size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                        <select
+                          id="modal-country" name="country"
+                          value={modalForm.country}
+                          onChange={(e) =>
+                            updateModalField("country", e.target.value)
+                          }
+                          className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none appearance-none cursor-pointer"
+                        >
+                          <option value="" disabled className="text-slate-400">
+                            Select country
+                          </option>
+                          {[
+                            "Russia",
+                            "Georgia",
+                            "Kazakhstan",
+                            "Kyrgyzstan",
+                            "Uzbekistan",
+                            "Philippines",
+                            "Nepal",
+                            "Bangladesh",
+                          ].map((c) => (
+                            <option key={c} value={c}>{c}</option>
+                          ))}
+                        </select>
+                        <ChevronDown size={16} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+                      </div>
                       {modalErrors.country && (
-                        <p className="mt-1 text-sm text-red-500">
+                        <p className="mt-1 text-xs text-rose-500">
                           {modalErrors.country}
                         </p>
                       )}
                     </div>
 
+                    {/* Premium CTA Button with Shimmer & Animated Arrow */}
                     <button
                       type="submit"
                       disabled={isModalSubmitting}
-                      className={`w-full py-4 bg-gradient-to-r from-teal-600 to-teal-700 text-white font-bold text-lg rounded-xl shadow-lg transition-all duration-300 mt-2 ${
+                      className={`group relative w-full py-3.5 px-6 rounded-xl font-bold text-base sm:text-lg text-white shadow-lg transition-all duration-300 mt-2 flex items-center justify-center gap-2 overflow-hidden ${
                         isModalSubmitting
-                          ? "opacity-70 cursor-not-allowed"
-                          : "hover:from-teal-700 hover:to-teal-800 hover:shadow-xl transform hover:-translate-y-0.5"
+                          ? "bg-slate-400 cursor-not-allowed opacity-75"
+                          : "bg-gradient-to-r from-teal-600 via-teal-700 to-cyan-700 hover:from-teal-500 hover:via-teal-600 hover:to-cyan-600 shadow-teal-900/20 hover:shadow-teal-600/30 hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
                       }`}
                     >
-                      {isModalSubmitting
-                        ? "Submitting..."
-                        : "Get Free Counselling Now →"}
+                      {/* Shimmer light effect sweep */}
+                      <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out pointer-events-none" />
+
+                      <span className="relative z-10 flex items-center justify-center gap-2">
+                        {isModalSubmitting ? (
+                          <>
+                            <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                            Submitting...
+                          </>
+                        ) : (
+                          <>
+                            <span>Get Free Counselling Now</span>
+                            <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-1" />
+                          </>
+                        )}
+                      </span>
                     </button>
 
-                    <p className="text-center text-sm text-teal-700 font-medium mt-3">
+                    <p className="text-center text-xs sm:text-sm text-teal-700 font-semibold mt-2">
                       Worth ₹4,999 – 100% Free Today!
                     </p>
-                    <p className="text-center text-xs text-gray-500 mt-5">
+                    <p className="text-center text-xs text-slate-500 mt-1">
                       By submitting, you agree to our Terms &amp; Privacy Policy
                     </p>
                   </form>
 
-                  <div className="mt-8 text-center text-xs text-gray-500">
+                  <div className="mt-2 text-center text-xs text-slate-500">
                     <p>Secure &amp; Confidential • We never spam</p>
                   </div>
                 </div>
@@ -713,7 +711,7 @@ export default function HeroSection() {
 
         {/* HERO CAROUSEL */}
         <section className="relative">
-          <div className="relative w-full h-[70vh] min-h-[520px] overflow-hidden">
+          <div className="relative w-full min-h-[580px] sm:min-h-[640px] lg:h-[78vh] lg:min-h-[660px] overflow-hidden">
             {HERO_SLIDES.map((slide, index) => (
               <div
                 key={index}
@@ -724,78 +722,105 @@ export default function HeroSection() {
                 <img
                   src={slide.image}
                   alt={slide.title}
-                  className="w-full h-full object-cover brightness-[0.85]"
+                  width={1920}
+                  height={1281}
+                  sizes="100vw"
+                  loading={index === 0 ? "eager" : "lazy"}
+                  fetchPriority={index === 0 ? "high" : undefined}
+                  decoding={index === 0 ? "sync" : "async"}
+                  className="w-full h-full object-cover brightness-[0.85] aspect-auto"
+                  srcSet={`${slide.image} 1x, ${slide.image} 2x`}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/65 via-black/35 to-transparent/30" />
-                <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10">
-                  <div className="text-center max-w-8xl">
-                    <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-4 md:mb-6 drop-shadow-2xl">
+                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/45 to-black/30" />
+                <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10 pb-20 sm:pb-24">
+                  <div className="text-center max-w-5xl mx-auto">
+                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/45 backdrop-blur-md border border-white/20 text-white text-xs sm:text-sm font-semibold mb-3 sm:mb-5 shadow-xl">
+                      <span className="text-amber-400">★★★★★</span>
+                      <span className="text-amber-300 font-bold">4.9/5 Rating</span>
+                      <span className="hidden sm:inline text-white/90">• 1000+ Placed • NMC &amp; WHO Recognized</span>
+                    </div>
+
+                    <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-3 md:mb-5 drop-shadow-2xl">
                       Your MBBS Abroad Journey
                       <br />
                       <span className="text-[#d4a853]">{slide.title}</span>
                     </h2>
-                    <p className="text-lg sm:text-xl md:text-2xl text-white/95 font-medium mb-8 md:mb-12 max-w-4xl mx-auto drop-shadow-lg">
+                    <p className="text-sm sm:text-base md:text-lg text-white/95 font-medium mb-5 md:mb-7 max-w-3xl mx-auto drop-shadow-lg">
                       {slide.subtitle}
                     </p>
-                    <Link
-                      to="/contact"
-                      className="inline-block"
-                      onClick={() => setCurrentHeroSlide(0)}
-                    >
-                      <button className="bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-5 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-1.5 transition-all duration-300 text-lg md:text-xl">
-                        {slide.cta} →
+
+                    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+                      <button
+                        type="button"
+                        onClick={() => setIsOpen(true)}
+                        className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm cursor-pointer"
+                      >
+                        <span>{slide.cta || "Get Free Counselling"}</span>
+                        <ArrowRight size={16} />
                       </button>
-                    </Link>
+                      <a
+                        href="#destinations"
+                        className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 text-white border border-white/30 backdrop-blur-md font-semibold px-5 sm:px-7 py-3 sm:py-3.5 rounded-xl transition-all duration-300 text-xs sm:text-sm cursor-pointer"
+                      >
+                        <span>Explore Countries</span>
+                        <ChevronDown size={16} />
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
             ))}
 
-            <div className="absolute bottom-6 sm:bottom-10 left-0 right-0 flex justify-center gap-4 z-20">
-              {HERO_SLIDES.map((_, i) => (
+            {/* Slide Indicators positioned safely above the floating stats card */}
+            <div className="absolute bottom-26 sm:bottom-30 md:bottom-34 left-0 right-0 flex justify-center gap-2.5 z-20 pointer-events-auto">
+              {HERO_SLIDES.map((slide, i) => (
                 <button
                   key={i}
+                  type="button"
+                  aria-label={`Go to slide ${i + 1}: ${slide.country || ""}`}
                   onClick={() => setCurrentHeroSlide(i)}
-                  className={`w-3.5 h-3.5 rounded-full transition-all duration-400 shadow-md ${
+                  className={`h-2 rounded-full transition-all duration-400 shadow-md ${
                     i === currentHeroSlide
-                      ? "bg-[#d4a853] scale-125 ring-2 ring-[#d4a853]/60"
-                      : "bg-white/60 hover:bg-white/90"
+                      ? "w-7 bg-[#d4a853] ring-2 ring-[#d4a853]/60"
+                      : "w-2 bg-white/60 hover:bg-white/90"
                   }`}
                 />
               ))}
             </div>
           </div>
+        </section>
 
-          {/* Stats Bar */}
-          <div className="max-w-6xl mx-auto px-6 -mt-20 sm:-mt-24 relative z-10">
-            <div className="bg-white/95 backdrop-blur-lg border border-[#d4a853]/30 rounded-2xl shadow-2xl grid grid-cols-2 md:grid-cols-4 gap-6 p-8 md:p-10">
-              {[
-                { n: "2000+", l: "Students Placed" },
-                { n: "10+", l: "Countries" },
-                { n: "100+", l: "Universities/Colleges" },
-                { n: "100%", l: "NMC Approved" },
-              ].map((s, i) => (
-                <div key={i} className="text-center">
-                  <div className="text-[#d4a853] text-4xl md:text-5xl font-extrabold">
+        {/* BANNER SECTION WITH FLOATING STATS CARD (Exactly 50% on Hero Image, 50% on Blue Banner, styled like About page) */}
+        <section className="bg-gradient-to-br from-[#0a2342] via-[#1a4a7a] to-[#0d3460] pt-0 pb-20 md:pb-28 px-5 sm:px-8 lg:px-12 text-center relative overflow-visible">
+          {/* STATS BAR: Exactly like About page, compact sleek height, 50/50 split */}
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-30 -translate-y-1/2 -mb-8 sm:-mb-10">
+            <div className="bg-white border border-[#d4a853]/30 rounded-2xl sm:rounded-3xl shadow-2xl py-4.5 px-4 sm:py-5 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
+              {(homeData.stats || [
+                { n: "1000+", l: "Students Placed Globally" },
+                { n: "20+", l: "Countries Covered" },
+                { n: "200+", l: "Partner Medical Universities" },
+                { n: "100%", l: "Visa & Admission Success" },
+              ]).map((s, i) => (
+                <div key={i} className="flex flex-col items-center justify-center text-center p-1 sm:p-2 group">
+                  <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#d4a853] tracking-tight leading-none group-hover:scale-105 transition-transform">
                     {s.n}
                   </div>
-                  <div className="text-[#0a2342] text-sm md:text-base uppercase tracking-wider mt-2 font-semibold">
+                  <div className="text-[#0a2342] font-bold text-[11px] sm:text-xs md:text-sm uppercase tracking-wider mt-1.5 sm:mt-2">
                     {s.l}
                   </div>
                 </div>
               ))}
             </div>
           </div>
-        </section>
-
-        {/* BANNER SECTION */}
-        <section className="bg-gradient-to-br from-[#0a2342] via-[#1a4a7a] to-[#0d3460] py-20 md:py-28 px-5 sm:px-8 lg:px-12 text-center relative overflow-hidden">
-          <div className="absolute -top-20 -right-20 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-[#d4a853]/10 pointer-events-none" />
-          <div className="absolute -bottom-20 -left-20 w-64 sm:w-80 h-64 sm:h-80 rounded-full bg-[#d4a853]/5 pointer-events-none" />
+          {/* Decorative background glow circles contained so they never overflow the viewport */}
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <div className="absolute -top-20 -right-20 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-[#d4a853]/10" />
+            <div className="absolute -bottom-20 -left-20 w-64 sm:w-80 h-64 sm:h-80 rounded-full bg-[#d4a853]/5" />
+          </div>
 
           <div className="max-w-5xl mx-auto relative">
             <p className="text-[#d4a853] uppercase tracking-wider text-sm md:text-base font-medium mb-6">
-              🏥 NMC-Approved Universities Abroad
+              🏥 NMC-Recognized Universities Abroad
             </p>
 
             <h2 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 md:mb-8">
@@ -811,11 +836,7 @@ export default function HeroSection() {
             </p>
 
             <div className="flex flex-col sm:flex-row justify-center items-center gap-5 md:gap-8">
-              <Link to="/landingpage">
-                <button className="bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-4 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-sm sm:text-base w-full sm:w-auto">
-                  Book Free Counselling →
-                </button>
-              </Link>
+              <Link to="/landingpage" className="inline-block bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-4 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-sm sm:text-base w-full sm:w-auto cursor-pointer">Book Free Counselling →</Link>
 
               <div
                 ref={exploreMenuRef}
@@ -830,7 +851,7 @@ export default function HeroSection() {
                 </Link>
 
                 <div
-                  className={`absolute top-0 left-full ml-3 min-w-[220px] rounded-3xl border border-white/15 bg-slate-950/95 p-3 shadow-2xl backdrop-blur-xl sm:w-max transition-opacity duration-200 ${
+                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 w-56 sm:w-64 max-w-[90vw] rounded-2xl border border-white/15 bg-slate-950/95 p-3 shadow-2xl backdrop-blur-xl transition-all duration-200 z-30 ${
                     exploreMenuOpen ? "block opacity-100" : "hidden opacity-0"
                   }`}
                 >
@@ -842,7 +863,7 @@ export default function HeroSection() {
                     MBBS India
                   </Link>
                   <Link
-                    to="/mbbsabroad/russia"
+                    to="/mbbs-abroad/russia"
                     onClick={() => setExploreMenuOpen(false)}
                     className="block w-full rounded-2xl border border-white/20 bg-white/5 text-white text-center font-semibold px-4 py-3 transition hover:bg-white/10 hover:shadow-lg"
                   >
@@ -853,6 +874,99 @@ export default function HeroSection() {
             </div>
           </div>
         </section>
+
+        {/* TOP MBBS DESTINATIONS GRID (Dynamic - auto-hides if empty in CMS) */}
+        {COUNTRIES && COUNTRIES.length > 0 && (
+        <section id="destinations" className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-gradient-to-b from-white via-slate-50 to-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center max-w-3xl mx-auto mb-14">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider mb-4 border border-amber-200">
+                <Globe size={14} className="text-amber-700" />
+                Popular Study Hubs
+              </span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">
+                Top MBBS Abroad Destinations for Indian Students
+              </h2>
+              <p className="text-gray-600 text-base sm:text-lg">
+                Compare premier medical universities, transparent fee structures, and NMC-compliant curriculums across top overseas education destinations.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+              {COUNTRIES.map((country, idx) => (
+                <div
+                  key={country.name || idx}
+                  className="group relative bg-white rounded-2xl border border-slate-200/80 shadow-md hover:shadow-2xl hover:border-amber-400/80 transition-all duration-300 p-6 flex flex-col justify-between hover:-translate-y-1.5"
+                >
+                  <div>
+                    <div className="flex items-center justify-between mb-4">
+                      <div className="flex items-center gap-2.5">
+                        {COUNTRY_FLAGS[country.name] ? (
+                          <img
+                            src={COUNTRY_FLAGS[country.name].flag}
+                            alt={`${country.name} flag`}
+                            width={36}
+                            height={24}
+                            className="w-9 h-6 sm:w-10 sm:h-6.5 object-cover rounded shadow-xs border border-slate-200/90"
+                          />
+                        ) : (
+                          <span className="text-2xl">{country.flag}</span>
+                        )}
+                        <span className="text-xs font-extrabold text-slate-700 bg-slate-100/90 px-2 py-0.5 rounded-md border border-slate-200 uppercase tracking-wider">
+                          {COUNTRY_FLAGS[country.name]?.code || (country.name || "").slice(0, 2).toUpperCase()}
+                        </span>
+                      </div>
+                      {country.tag && (
+                        <span className="px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-700 border border-amber-200/70">
+                          {country.tag}
+                        </span>
+                      )}
+                    </div>
+                    <h3 className="text-2xl font-bold text-[#0a2342] group-hover:text-amber-600 transition-colors mb-2">
+                      MBBS in {country.name}
+                    </h3>
+                    <div className="space-y-2 mb-6 text-sm">
+                      <div className="flex items-center justify-between py-1.5 border-b border-slate-100">
+                        <span className="text-slate-500 font-medium">Estimated Package</span>
+                        <span className="font-bold text-slate-900">{country.fee || "Contact for fees"}</span>
+                      </div>
+                      <div className="flex items-center justify-between py-1.5 border-b border-slate-100">
+                        <span className="text-slate-500 font-medium">Available Seats</span>
+                        <span className="font-semibold text-emerald-600 flex items-center gap-1">
+                          <CheckCircle2 size={14} />
+                          {country.seats || "Seats Available"}
+                        </span>
+                      </div>
+                      <div className="flex items-center justify-between py-1.5">
+                        <span className="text-slate-500 font-medium">Recognition</span>
+                        <span className="font-semibold text-slate-700">NMC &amp; WHO Approved</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <Link
+                    to={country.link || `/mbbs-abroad/${(country.name || "").toLowerCase()}`}
+                    className="w-full py-3 px-4 rounded-xl font-bold text-sm text-center bg-slate-900 text-white group-hover:bg-gradient-to-r group-hover:from-[#d4a853] group-hover:to-[#e0b76b] group-hover:text-[#0a2342] transition-all duration-300 flex items-center justify-center gap-2 shadow-sm"
+                  >
+                    <span>View Universities &amp; Fees</span>
+                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+              <Link
+                to="/allcollege"
+                className="inline-flex items-center gap-2 text-base font-bold text-[#0a2342] hover:text-amber-600 transition-colors border-b-2 border-amber-400 pb-1"
+              >
+                <span>View All Medical Colleges Worldwide</span>
+                <ArrowRight size={18} />
+              </Link>
+            </div>
+          </div>
+        </section>
+        )}
 
         {/* ABOUT SECTION - (kept as in original) */}
         <section className="py-8 md:py-10 px-5 sm:px-6 lg:px-10 bg-[#faf8f4]">
@@ -879,12 +993,12 @@ export default function HeroSection() {
                 </strong>{" "}
                 is a professional team of experienced education advisors
                 specializing in MBBS counselling abroad services. We guide
-                Indian students toward admission in NMC-approved medical
+                Indian students toward admission in NMC-recognized medical
                 universities through transparent &amp; ethical counselling.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4 text-base">
                 As trusted overseas{" "}
-                <Link to="/mbbsabroad/italy">
+                <Link to="/mbbs-abroad/italy">
                   <strong>medical education </strong>
                 </Link>
   consultants, we provide
@@ -906,9 +1020,14 @@ export default function HeroSection() {
                   icon: (
                     <img
                       src={personalized}
+                      loading="lazy"
                       alt="Personalized Counselling"
+                      width={246}
+                      height={197}
                       className="w-12 h-12"
-                    />
+                  srcSet={`${personalized} 1x, ${personalized} 2x`}
+                  sizes="100vw"
+                />
                   ),
                   title: "Personalized Counselling",
                   desc: "Guidance matched to your profile & budget",
@@ -917,20 +1036,30 @@ export default function HeroSection() {
                   icon: (
                     <img
                       src={checkup}
-                      alt="NMC Approved"
+                      loading="lazy"
+                      alt="NMC Recognized"
+                      width={200}
+                      height={200}
                       className="w-12 h-12"
-                    />
+                  srcSet={`${checkup} 1x, ${checkup} 2x`}
+                  sizes="100vw"
+                />
                   ),
-                  title: "NMC Approved Only",
+                  title: "NMC Recognized Only",
                   desc: "Only recognized universities recommended",
                 },
                 {
                   icon: (
                     <img
                       src={charges}
+                      loading="lazy"
                       alt="No Hidden Charges"
+                      width={512}
+                      height={512}
                       className="w-12 h-12"
-                    />
+                  srcSet={`${charges} 1x, ${charges} 2x`}
+                  sizes="100vw"
+                />
                   ),
                   title: "No Hidden Charges",
                   desc: "100% transparent fee structure",
@@ -939,9 +1068,14 @@ export default function HeroSection() {
                   icon: (
                     <img
                       src={support}
+                      loading="lazy"
                       alt="End-to-End Support"
+                      width={512}
+                      height={512}
                       className="w-12 h-12"
-                    />
+                  srcSet={`${support} 1x, ${support} 2x`}
+                  sizes="100vw"
+                />
                   ),
                   title: "End-to-End Support",
                   desc: "Application to post-arrival assistance",
@@ -952,9 +1086,9 @@ export default function HeroSection() {
                   className="bg-white rounded-xl p-5 border border-[#e8d5b0]/60 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-center max-w-xs w-full"
                 >
                   <div className="flex justify-center mb-3">{item.icon}</div>
-                  <h4 className="font-bold text-[#0a2342] mb-2 text-base">
+                  <h3 className="font-bold text-[#0a2342] mb-2 text-base">
                     {item.title}
-                  </h4>
+                  </h3>
                   <p className="text-gray-600 text-sm leading-relaxed">
                     {item.desc}
                   </p>
@@ -971,13 +1105,18 @@ export default function HeroSection() {
               <div className="bg-white rounded-xl shadow-lg overflow-hidden max-w-sm mx-auto md:max-w-none">
                 <img
                   src={univercity}
+                  loading="lazy"
                   alt="MBBS Admission Abroad"
+                  width={3264}
+                  height={2448}
                   className="w-full h-48 object-cover"
+                  srcSet={`${univercity} 1x, ${univercity} 2x`}
+                  sizes="100vw"
                 />
                 <div className="p-6">
-                  <h1 className="text-xl font-bold text-gray-800 mb-3">
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">
                     MBBS Admission in Abroad
-                  </h1>
+                  </h3>
                   <p className="text-gray-600 mb-6">
                     Expert Assistance for MBBS Admission in Renowned Abroad
                     Institutions.
@@ -1074,9 +1213,14 @@ export default function HeroSection() {
                 <div key={i} className="text-center md:text-left">
                   <img
                     src={item.icon}
+                    loading="lazy"
                     alt={item.alt}
+                    width={512}
+                    height={512}
                     className="w-24 h-24 mx-auto md:mx-0 mb-6"
-                  />
+                  srcSet={`${item.icon} 1x, ${item.icon} 2x`}
+                  sizes="100vw"
+                />
                   <h3 className="text-2xl font-bold text-gray-800 mb-4">
                     {item.title}
                   </h3>
@@ -1133,6 +1277,8 @@ export default function HeroSection() {
                 <img
                   src={college.img}
                   alt={college.name}
+                  width={400}
+                  height={224}
                   className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
@@ -1150,9 +1296,9 @@ export default function HeroSection() {
           </div>
         </div> */}
         <div className="container mx-auto px-4 py-16">
-          <h4 className="text-3xl font-bold text-center text-gray-800 mb-10">
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
             TOP MEDICAL COLLEGES
-          </h4>
+          </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
             {[
@@ -1179,12 +1325,12 @@ export default function HeroSection() {
               {
                 name: "West Kazakhstan Marat Ospanov State Medical University",
                 img: topRanking4,
-                path: "mbbs-abroad/kazakhstan",
+                path: "/mbbs-abroad/kazakhstan",
               },
               {
                 name: "Samarkand State Medical Institute",
                 img: "https://www.moksh16.com/uploads/images/samarkand1.webp",
-                path: "/mbbs-abroad/russia/pirogov-university",
+                path: "/mbbs-abroad/uzbekistan",
               },
               {
                 name: "Tajik National University",
@@ -1204,8 +1350,13 @@ export default function HeroSection() {
               >
                 <img
                   src={college.img}
+                  loading="lazy"
                   alt={college.name}
+                  width={400}
+                  height={224}
                   className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
+                  srcSet={`${college.img} 1x, ${college.img} 2x`}
+                  sizes="100vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
                   <div className="p-4 w-full">
@@ -1244,15 +1395,20 @@ export default function HeroSection() {
                   <div className="relative overflow-hidden h-64 md:h-80">
                     <img
                       src={card.img}
+                      loading="lazy"
                       alt={card.alt}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    />
+                      width={800}
+                      height={512}
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 aspect-auto"
+                  srcSet={`${card.img} 1x, ${card.img} 2x`}
+                  sizes="100vw"
+                />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-60" />
                   </div>
                   <div className="p-6 md:p-8">
-                    <h5 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 leading-tight">
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 leading-tight">
                       {card.title}
-                    </h5>
+                    </h3>
                     <p className="text-gray-700 leading-relaxed text-base">
                       {card.desc}
                     </p>
@@ -1368,6 +1524,63 @@ export default function HeroSection() {
           </div>
         </section>
 
+        
+        {/* STUDENT TESTIMONIALS SECTION (Dynamic - auto-hides if empty in CMS) */}
+        {TESTIMONIALS && TESTIMONIALS.length > 0 && (
+        <section className="py-20 md:py-24 px-5 sm:px-8 lg:px-12 bg-gradient-to-br from-[#071d38] via-[#0a2a4e] to-[#0d3460] text-white relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-96 h-96 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
+
+          <div className="max-w-7xl mx-auto relative z-10">
+            <div className="text-center max-w-3xl mx-auto mb-16">
+              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-400/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-4 border border-amber-400/30">
+                <Star size={14} className="fill-amber-400 text-amber-400" />
+                Verified Student Reviews
+              </span>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
+                Stories of Success From Our Medical Students
+              </h2>
+              <p className="text-slate-300 text-base sm:text-lg">
+                Hear directly from students and parents who placed their trust in Edu-Hawk Worldwide for their overseas medical journey.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              {TESTIMONIALS.map((review, i) => (
+                <div
+                  key={i}
+                  className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/15 p-7 flex flex-col justify-between hover:bg-white/15 hover:border-amber-400/50 transition-all duration-300 hover:-translate-y-1.5 shadow-xl"
+                >
+                  <div>
+                    <div className="flex items-center gap-1 text-amber-400 mb-4">
+                      {Array.from({ length: review.stars || 5 }).map((_, sIdx) => (
+                        <Star key={sIdx} size={18} className="fill-amber-400 text-amber-400" />
+                      ))}
+                    </div>
+                    <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 italic">
+                      "{review.text}"
+                    </p>
+                  </div>
+                  <div className="pt-4 border-t border-white/15 flex items-center justify-between">
+                    <div>
+                      <h4 className="font-bold text-white text-base">{review.name}</h4>
+                      <p className="text-xs text-amber-300 font-medium">{review.loc}</p>
+                      {review.university && (
+                        <p className="text-xs text-slate-300 mt-0.5">{review.university}</p>
+                      )}
+                    </div>
+                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-300 bg-emerald-500/20 px-2.5 py-1 rounded-full border border-emerald-400/30">
+                      <CheckCircle2 size={12} />
+                      Verified
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        )}
+
         <section className="py-16 md:py-20 px-5 sm:px-8 lg:px-12 bg-white">
           <div className="max-w-4xl mx-auto">
             <div className="mb-8 text-center">
@@ -1447,11 +1660,11 @@ export default function HeroSection() {
               <form onSubmit={handleContactSubmit} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-name" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Full Name
                     </label>
                     <input
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-name" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       placeholder="John Doe"
                       value={contactForm.name}
                       onChange={(e) =>
@@ -1465,12 +1678,12 @@ export default function HeroSection() {
                     )}
                   </div>
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-email" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Email
                     </label>
                     <input
                       type="email"
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-email" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       placeholder="you@email.com"
                       value={contactForm.email}
                       onChange={(e) =>
@@ -1487,11 +1700,11 @@ export default function HeroSection() {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-phone" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Phone Number
                     </label>
                     <input
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-phone" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       placeholder="+91 00000 00000"
                       value={contactForm.phone}
                       onChange={(e) =>
@@ -1507,11 +1720,11 @@ export default function HeroSection() {
 
                   {/* Preferred Country */}
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-country" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Preferred Country
                     </label>
                     <select
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-country" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       value={contactForm.country}
                       onChange={(e) =>
                         updateContactField("country", e.target.value)
@@ -1535,11 +1748,11 @@ export default function HeroSection() {
                 {/* New City Dropdown */}
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-city" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       Preferred City
                     </label>
                     <select
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-city" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       value={contactForm.city || ""}
                       onChange={(e) =>
                         updateContactField("city", e.target.value)
@@ -1568,11 +1781,11 @@ export default function HeroSection() {
                   </div>
 
                   <div>
-                    <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                    <label htmlFor="contact-neet" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                       NEET Status
                     </label>
                     <select
-                      className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-neet" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
                       value={contactForm.neetStatus}
                       onChange={(e) =>
                         updateContactField("neetStatus", e.target.value)
@@ -1591,11 +1804,11 @@ export default function HeroSection() {
                 </div>
 
                 <div>
-                  <label className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
+                  <label htmlFor="contact-message" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
                     Message
                   </label>
                   <textarea
-                    rows={5}
+                    id="contact-message" rows={5}
                     minLength={10}
                     className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition resize-y"
                     placeholder="Tell us about your academic profile, budget, and any queries..."
@@ -1678,6 +1891,34 @@ export default function HeroSection() {
             </div>
           </div>
         </section>
+
+        {/* MOBILE STICKY ACTION BAR */}
+        <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 p-2.5 shadow-2xl flex items-center gap-2">
+          <a
+            href="tel:+919630736070"
+            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-slate-100 text-slate-800 font-semibold text-xs border border-slate-300"
+          >
+            <Phone size={15} className="text-[#0a2342]" />
+            <span>Call Now</span>
+          </a>
+          <a
+            href="https://wa.me/919630736070?text=Hi%20EduHawk,%20I%20am%20interested%20in%20MBBS%20Abroad"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-600 text-white font-semibold text-xs shadow-md"
+          >
+            <MessageCircle size={15} />
+            <span>WhatsApp</span>
+          </a>
+          <button
+            type="button"
+            onClick={() => setIsOpen(true)}
+            className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-gradient-to-r from-[#d4a853] to-[#e0b76b] text-[#0a2342] font-bold text-xs shadow-md cursor-pointer"
+          >
+            <Sparkles size={14} />
+            <span>Apply Free</span>
+          </button>
+        </div>
       </div>
     </>
   );

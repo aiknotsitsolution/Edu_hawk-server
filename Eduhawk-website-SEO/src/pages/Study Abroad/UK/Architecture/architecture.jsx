@@ -1,0 +1,844 @@
+import cmsData from "../../../../data/study_abroad/uk/architecture.json";
+import React from "react";
+import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../Images/Abroad/UK/Architecture/hero.webp";
+import heroBgImg from "../../../../Images/Abroad/UK/Architecture/hero_bg.webp";
+import sideImg from "../../../../Images/Abroad/UK/Architecture/side.webp";
+import ctaBgImg from "../../../../Images/Abroad/UK/Architecture/cta_bg.webp";
+
+// University images
+
+
+const page = {
+  "name": "Architecture in the UK",
+  "country": "UK",
+  "slug": "architecture",
+  "title": "Study Architecture in the UK for Indian Students | Edu-Hawk Worldwide",
+  "description": "Complete guide to Architecture in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
+  "keywords": "Study Architecture in the UK, Architecture in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
+  "introTitle": "Architecture in the UK for Indian Students",
+  "heroParas": [
+    "If you're looking to gain technical knowledge, creative design skills and an understanding of sustainable building practices studying Architecture in the UK is a good choice."
+  ],
+  "overview": [
+    "The UK has new architectural projects, creative urban developments, historic buildings and internationally recognized architecture schools."
+  ],
+  "level": "BA / BArch / MArch Architecture (RIBA Accredited)",
+  "crumb": "Design & Construction / Architecture",
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "BA / BArch / MArch Architecture (RIBA Accredited)"
+    },
+    {
+      "label": "Course Duration",
+      "value": "3 to 4 Years (UG)"
+    },
+    {
+      "label": "Top Institutions",
+      "value": "University of Edinburgh -provides architecture education."
+    },
+    {
+      "label": "Post-Study Work",
+      "value": "2 Years Graduate Route Visa"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why",
+      "eyebrow": "Why Study in the UK",
+      "title": "Why Study Architecture in the UK?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "If you're looking to gain technical knowledge, creative design skills and an understanding of sustainable building practices studying Architecture in the UK is a good choice."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The UK has new architectural projects, creative urban developments, historic buildings and internationally recognized architecture schools."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The major benefits of studying architecture in the UK"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Worldwide Recognized Qualifications UK architecture degrees are recognized globally and can help you find work in a range of countries.",
+            "Strong Design Education: Students are taught building technologies, construction methods, spatial planning and architectural design.",
+            "Most programs have studio projects, design portfolios, site visits, collaborative projects and industry-related work.",
+            "Students study sustainable architecture, energy-efficient buildings, sustainable materials, climate-responsive design and environmentally conscious construction.",
+            "Exposure to Architectural Heritage: The UK's mix of modern and historic buildings gives you the chance to study many architectural styles.",
+            "Some institutions offer networking with architecture firms, professional placements and industry projects.",
+            "Graduates may find employment in interior architecture, building conservation, urban planning, architectural design and related fields.",
+            "Students are immersed in a global environment and engage with a variety of design approaches, cultures and international architectural issues."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide consultancy that aids students in discovering their study abroad opportunities, comprehending the university entry requirements, and equipping them for their foreign education adventure through proper planning and advice."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Architecture course in UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "UK universities offer degrees in architecture at undergraduate, graduate and research level."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The choice of which course is best for a student is based on his or her previous education and job goals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular Architecture Courses"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The BA (Hons) Architecture course is concerned with architectural design, design theory, building technology and studio-based learning.",
+            "The Bachelor of Science in Architecture program combines architectural design with studies of the technical, environmental and construction aspects of the discipline.",
+            "Depending on the course structure, several institutions offer a professional or academic architecture degree known as the Bachelor of Architecture (BArch).",
+            "A master's degree in architecture is generally acquired following a relevant undergraduate degree in architecture.",
+            "The Master of Architecture (MArch) program builds advanced architectural skills in design, research, technical and professional fields.",
+            "The MSc Sustainable Architecture covers energy efficiency, environmental strategy, building performance and sustainable design.",
+            "The master's program in architectural design explores design innovation, digital techniques, spatial concepts, and advanced architectural approaches.",
+            "The MSc in Urban Design includes design related to public surroundings, urban areas, and city development and planning.",
+            "The Master of Science in Architectural Technology concentrates on building systems, construction technology, technical detailing and building performance.",
+            "Students interested in academic research, teaching or specialized research careers in architecture should pursue a PhD in architecture."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Institutions",
+      "title": "The UK's Best Universities for Architecture",
+      "groups": [
+        {
+          "t": "universities",
+          "items": [
+            {
+              "name": "University of Edinburgh -provides architecture education.",
+              "desc": "Newcastle University -  offers programs in architecture and the built environment that include technical and design elements. Oxford Brookes University - provides professional development and design-focused programs in addition to architecture education.",
+              "imgKey": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Qualifications for Studying Architecture in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The university, career route, and course level all affect eligibility."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Courses for Undergraduates"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completion of Class 12 or a recognized equivalent.",
+            "Academic grades that are mandated by the university.",
+            "Proficiency with the English language is necessary.",
+            "A creative work portfolio, upon request.",
+            "While academic requirements differ by university, pertinent courses like mathematics, art, design, or physics may be helpful."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Graduate Programs"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An accredited bachelor's degree in architecture or a closely related field.",
+            "Required undergraduate degrees or a categorization that is comparable.",
+            "A design portfolio that showcases technical or visual talents, inventiveness, and design thinking.",
+            "Proficiency in English that satisfies university criteria.",
+            "Relevant work experience, if the program requires it or prefers it."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Regarding Research Initiatives"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Depending on the research degree, an appropriate undergraduate and typically postgraduate degree is required.",
+            "For numerous PhD applications, a research proposal is required.",
+            "A CV and scholarly references.",
+            "Proof of research interests and experience that is pertinent.",
+            "Proficiency in English, where necessary."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "Architecture admission requirements in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "There are sometimes specific academic, artistic and English language criteria for admission into architecture school."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic qualifications"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "To apply for undergraduate studies, you will generally need a recognized high school diploma and the required marks.",
+            "Applicants for postgraduate study will normally be expected to possess an appropriate first degree.",
+            "Some universities require minimum grades in certain disciplines.",
+            "Students applying to higher-level architecture programs may need to have an architecture degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The specifications of a portfolio"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many  architecture programs  ask for a  portfolio . May contain:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Drawings and sketches.",
+            "Architectural ideas and design projects.",
+            "Photography or research of visuals.",
+            "Models in three dimensions.",
+            "Projects in digital design.",
+            "Creative experiments and development sketches"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The portfolio should be in the form, size, file type, number of pages and submission method as required by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English Language Proficiency Requirements"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "International students need to have a recognized English language qualification such as IELTS Academic or other evidence that the university would accept.",
+            "Different score requirements for different universities and courses. Some programs may require higher scores on particular language skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "additional requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the university, candidates have to submit:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Personal statement / mission statement.",
+            "Academic certificates and transcripts.",
+            "Use a CV or resume for postgraduate applications.",
+            "References, professional or academic.",
+            "Portfolio presentation or interview.",
+            "Research proposal for particular research projects."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "cost",
+      "eyebrow": "Tuition & Living",
+      "title": "How much does it cost to study architecture in the UK?",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The cost of studying architecture in the UK is determined by the university, level of the course, location, length of the course and materials needed for studio work."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "tuition cost"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "For many overseas students undergraduate courses are from £15,000 to £30,000 per year.",
+            "Many taught master's programs cost between £16,000 and £35,000, and other programs cost more.",
+            "The cost of research degrees can vary a lot, depending on the structure of the program, the subject of research, and the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "living costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should save money for personal expenses, transport, housing, food and utilities."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accommodation costs between £500 and £1,200 per month, depending on where you live and how you live.",
+            "Food and shopping £150 - £300 per month",
+            "Monthly transport costs are between £50 and £150.",
+            "Utilities, phones and personal expenses, per month: £100-£250."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Eligibility & Process",
+      "title": "Architecture admission process in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The admission process for architecture in UK usually involves the following steps:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 1: Choose a University and Course"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Examine architecture programs by their course offerings, design approach, duration, tuition fees, facilities, and career objectives."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 2: Determine Your Eligibility"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "See the prerequisite qualifications, portfolio requirements, English language requirements and academic requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 3: Prepare Your Portfolio"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Create a portfolio that displays your creativity, problem solving, design development and visual communication. Follow the exact submission guidelines given by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 4: Gather Your Documents"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Collect supporting documents, academic transcripts, certifications, passport details, and the results of any required English language exams."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 5: Submit Your Application"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Submit an application through the relevant application system or university portal. Postgraduate applications typically go straight to the university, but a large number of applications for undergraduate courses in the UK are made through UCAS."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 6: Interview (if applicable)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some colleges may ask candidates to discuss their academic background, design interests, or portfolio."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 7: Receive an Offer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Conditional or unconditional offers may be made to successful candidates. Fulfilll any remaining requirements by the institution's deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 8: Arrange Your Financing and Accept the Offer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Follow the university's advice on how to accept the offer, pay the required deposit and investigate scholarships or other finance options."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 9: Obtain Your CAS"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After meeting the requirements, students needing a UK Student visa will need to obtain a Confirmation of Acceptance for Studies (CAS) from their licensed student sponsor."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 10: Apply for UK Student Visa"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Complete any required identity verification or biometric procedures and submit the visa application along with the necessary supporting documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Step 11: Prepare for landing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Make travel and lodging arrangements and enrolll yourself and any equipment you may need before the course begins."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Accreditation and Recognition of Architecture in the UK",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Architecture in the UK is a regulated activity. Any student who wants to use the protected title of architect must meet the necessary registration requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "What Students Should Know"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Check that the course is recognized by the current UK architecture qualification and registration system. ARB requirements.",
+            "The Architects Registration Board (ARB)  publishes information on registration and recognized qualifications and regulates the use of the title architect in the United Kingdom.",
+            "Some architecture courses are accredited by the Royal Institute of British Architects (RIBA). RIBA accreditation and ARB recognition are both about professional development, but they are not the same.",
+            "International qualifications Students from outside the UK with a degree in architecture should consult the latest ARB registration process.",
+            "A university may be accredited or recognized for a specific intake, campus or course but not for all its programs. This is also called course-specific verification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "career",
+      "eyebrow": "Career & Prospects",
+      "title": "Architecture in the UK: Salary and Employment Prospects",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates in Architecture may find employment in local authorities, design practices, engineering consultancies, building companies and property development firms."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Careers options"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Architectural Assistant Architectural Assistant, Part I",
+            "Architectural Assistant, Part II Architect, subject to applicable registration requirements",
+            "Architectural Designer",
+            "City Planner",
+            "Interior designing",
+            "A conservation specialist for buildings",
+            "Consultant",
+            "Sustainable Design",
+            "BIM Specialist / Coordinator",
+            "Project Manager-Design",
+            "Architectural technologist (based on qualifications and job description)",
+            "Architectural researcher"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated Salary Bands in the UK"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Experience, geographic location, employer, specialty area and professional standing all affect salaries.",
+            "Entry-level architectural assistant jobs pay between £23,000 and £30,000 a year.",
+            "Architectural assistants or designers with experience can expect to earn between £28,000 and £38,000 per year.",
+            "Qualified architects earn an annual salary of between £35,000 and £50,000.",
+            "Senior architects and project managers earn about £45,000 to £65,000 a year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture directors and other specialized experts can vary in salaries and can be higher depending on their duties and the company they work for."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are just estimates and are not guaranteed salaries. Some places or organizations may have lower salaries at the start, but a lot higher for senior positions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Students Work Opportunities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates with an international background might be working for design consultancies, building firms, architecture practices and similar firms."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "UK Graduate visa may be available to eligible graduates, subject to regulations at the time of application. Longer term employment could involve a sponsored role and the completion of the relevant immigration processes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should also be aware that working in a field related to architecture does not give them the right to register as architects."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "content",
+      "eyebrow": "Course Guide",
+      "title": "Documents Required to Study Architecture in the United Kingdom",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The documents needed to study architecture in the UK vary depending on the applicant's situation, the level of the course, and the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificates and Mark sheets of class 10 and 12, if applicable."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "For postgraduate applications, you will need transcripts and a bachelor's degree certificate.",
+            "A master's degree certificate and transcripts are required for relevant research applications.",
+            "Certificates of qualification, e.g. diplomas, where applicable.",
+            "Official translations of non-English papers are provided when necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal Documents & Application"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Current passport.",
+            "Completed application to university.",
+            "Personal statement or mission statement.",
+            "Portfolio of architecture, if required.",
+            "CV / Resume for professional and post graduate applications.",
+            "Write letters of academic or professional recommendation if requested.",
+            "If required, results of an English language test or recognized evidence of proficiency.",
+            "Proposals for research activities specific research"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Documents needed for UK student visa"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending upon the applicant's situation and the applicable regulations, these may include the following:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Confirmation of Acceptance for Studies (CAS)",
+            "A valid travel document (passport).",
+            "Proof of funds for living expenses and tuition, if applicable.",
+            "Proof of English language proficiency where required.",
+            "Results of a TB test, if needed based on the applicant's circumstances and country of residence.",
+            "Candidates under 18 must provide proof of relationship and parental consent.",
+            "Additional supporting documents needed for the visa application process."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "faqs",
+      "eyebrow": "Got Questions?",
+      "title": "FAQs regarding UK architecture",
+      "groups": [
+        {
+          "t": "faqs",
+          "items": [
+            {
+              "q": "Q1. Is studying architecture in the UK a better idea?",
+              "a": "yes. Established architectural schools, a varied built environment, and programs that integrate design, technical expertise, and critical thinking are all available in the UK. Before applying, students should evaluate the facilities, professional recognition, and course material."
+            },
+            {
+              "q": "Q2. How long does it take to study architecture in the United Kingdom?",
+              "a": "Although some programs are lengthier, an undergraduate degree in architecture typically takes three years. It can take several more years to complete the full path to professional registration, which often entails extra coursework, real-world experience, and professional evaluation."
+            },
+            {
+              "q": "Q3. What qualifications are needed to become an architect in the UK?",
+              "a": "A recognized secondary school degree and the necessary grades are typically prerequisites for undergraduate admissions. An appropriate bachelor's degree is typically required for postgraduate applicants. Evidence in English and a creative portfolio can also be necessary."
+            },
+            {
+              "q": "Q4. What is the price of studying architecture in the United Kingdom?",
+              "a": "While many postgraduate programs cost between £16,000 and £35,000 annually, international undergraduate tuition fees can range between £15,000 to £30,000. There are additional charges for living expenses, design supplies, and other things."
+            },
+            {
+              "q": "Q5. After graduation, are foreign students able to work as architects in the UK?",
+              "a": "If they  fulfill the necessary requirements for education, real-world experience, and assessment, international students can indeed pursue the UK architecture registration route. A person is not immediately eligible for registration just because they have completed an architecture course. The most recent requirements released by the Architects Registration Board (ARB) should be reviewed by students."
+            },
+            {
+              "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+              "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "University of Edinburgh -provides architecture education.",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£16,000 - £35,000 / yr",
+      "desc": "Newcastle University -  offers programs in architecture and the built environment that include technical and design elements. Oxford Brookes University - provides professional development and design-focused programs in addition to architecture education.",
+      "imgFile": null
+    }
+  ],
+  "table": {
+    "title": "Estimated Cost of Studying Architecture in the UK (Tuition & Living)",
+    "headers": [
+      "Category / Level",
+      "Estimated Cost (£ / GBP)",
+      "Details / Scope"
+    ],
+    "rows": [
+      [
+        "Undergraduate Degree (Annual)",
+        "£14,000 – £28,000 / year",
+        "Varies by university ranking, laboratory access, and course type"
+      ],
+      [
+        "Postgraduate Degree (Annual)",
+        "£16,000 – £35,000 / year",
+        "1-year intensive master's program or research dissertation"
+      ],
+      [
+        "Monthly Living Costs (Outside London)",
+        "£900 – £1,100 / month",
+        "Includes private/student accommodation, groceries, and utilities"
+      ],
+      [
+        "Monthly Living Costs (London)",
+        "£1,250 – £1,450 / month",
+        "Mandated UKVI maintenance requirement for London study"
+      ],
+      [
+        "Health Surcharge (IHS)",
+        "£776 / year",
+        "Access to UK National Health Service (NHS) for student visa holders"
+      ]
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Q1. Is studying architecture in the UK a better idea?",
+      "a": "yes. Established architectural schools, a varied built environment, and programs that integrate design, technical expertise, and critical thinking are all available in the UK. Before applying, students should evaluate the facilities, professional recognition, and course material."
+    },
+    {
+      "q": "Q2. How long does it take to study architecture in the United Kingdom?",
+      "a": "Although some programs are lengthier, an undergraduate degree in architecture typically takes three years. It can take several more years to complete the full path to professional registration, which often entails extra coursework, real-world experience, and professional evaluation."
+    },
+    {
+      "q": "Q3. What qualifications are needed to become an architect in the UK?",
+      "a": "A recognized secondary school degree and the necessary grades are typically prerequisites for undergraduate admissions. An appropriate bachelor's degree is typically required for postgraduate applicants. Evidence in English and a creative portfolio can also be necessary."
+    },
+    {
+      "q": "Q4. What is the price of studying architecture in the United Kingdom?",
+      "a": "While many postgraduate programs cost between £16,000 and £35,000 annually, international undergraduate tuition fees can range between £15,000 to £30,000. There are additional charges for living expenses, design supplies, and other things."
+    },
+    {
+      "q": "Q5. After graduation, are foreign students able to work as architects in the UK?",
+      "a": "If they  fulfill the necessary requirements for education, real-world experience, and assessment, international students can indeed pursue the UK architecture registration route. A person is not immediately eligible for registration just because they have completed an architecture course. The most recent requirements released by the Architects Registration Board (ARB) should be reviewed by students."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students can use Edu Hawk Worldwide to plan their study-abroad journey, organize their application materials, research appropriate universities, and comprehend admission standards. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ]
+};
+
+export default function architectureUK() {
+  const dynamicPage = {
+    ...page,
+    title: cmsData?.seo?.title || page.title,
+    description: cmsData?.seo?.description || page.description,
+    introTitle: cmsData?.hero?.title || page.introTitle || page.name,
+    heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    sections: (cmsData?.sections && cmsData.sections.length > 0)
+      ? cmsData.sections
+      : page.sections,
+    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      ? cmsData.universities.map((u, idx) => ({
+          ...u,
+          img: u.img || u.image || page.universities?.[idx]?.img,
+          image: u.img || u.image || page.universities?.[idx]?.image || page.universities?.[idx]?.img
+        }))
+      : page.universities,
+    faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
+      ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+      : (cmsData?.faq && cmsData.faq.length > 0)
+        ? cmsData.faq.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
+        : page.faqs,
+    seo: {
+      title: cmsData?.seo?.title || page.title,
+      description: cmsData?.seo?.description || page.description,
+      keywords: cmsData?.seo?.keywords || page.keywords,
+    },
+  };
+
+  return (
+    <AbroadCoursePage
+      page={dynamicPage}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      showHeroStats={false}
+      seoPath="/study-abroad/uk/architecture"
+    />
+  );
+}

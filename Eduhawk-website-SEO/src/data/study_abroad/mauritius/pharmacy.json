@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "title": "Pharmacy in Mauritius",
+    "subtitle": "Studying pharmacy in Mauritius may be an option for students interested in medicines, pharmaceutical sciences, patient care and the healthcare industry. Pharmacy in Mauritius for Indian Students can be an option to explore, but before selecting a university, students should check whether the programme is currently offered, whether it meets professional pharmacy registration requirements and whether the qualification will be recognised in their intended country of practice. Students planning to Study Pharmacy in Mauritius should carefully review these details before applying."
+  },
+  "overview": [
+    "Studying pharmacy in Mauritius may be an option for students interested in medicines, pharmaceutical sciences, patient care and the healthcare industry. Pharmacy in Mauritius for Indian Students can be an option to explore, but before selecting a university, students should check whether the programme is currently offered, whether it meets professional pharmacy registration requirements and whether the qualification will be recognised in their intended country of practice. Students planning to Study Pharmacy in Mauritius should carefully review these details before applying.",
+    "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications."
+  ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Réduit, Mauritius",
+      "fee": "$2,500 – $4,500 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
+    },
+    {
+      "name": "Université des Mascareignes (UdM)",
+      "location": "Beau-Bassin, Mauritius",
+      "fee": "$2,000 – $4,000 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+      "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic-en-Flac, Mauritius",
+      "fee": "$5,500 – $8,500 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+      "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+      "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "$5,000 – $8,000 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Mauritian Universities",
+      "title": "Top Universities to Consider in Mauritius",
+      "lead": "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Réduit, Mauritius",
+          "fee": "$2,500 – $4,500 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
+        },
+        {
+          "name": "Université des Mascareignes (UdM)",
+          "location": "Beau-Bassin, Mauritius",
+          "fee": "$2,000 – $4,000 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+          "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic-en-Flac, Mauritius",
+          "fee": "$5,500 – $8,500 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+          "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+          "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "$5,000 – $8,000 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Pharmacy in Mauritius | Edu-Hawk Worldwide",
+    "description": "Studying pharmacy in Mauritius may be an option for students interested in medicines, pharmaceutical sciences, patient care and the healthcare industry. Pharmac",
+    "keywords": "Study in Mauritius, Top Universities in Mauritius, Edu Hawk Worldwide"
+  }
+}

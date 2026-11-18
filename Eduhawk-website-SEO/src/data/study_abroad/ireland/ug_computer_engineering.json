@@ -1,0 +1,467 @@
+{
+  "hero": {
+    "title": "Computer Engineering Ireland",
+    "subtitle": "Ireland has strong engineering, computing and technology programs that attract international students. Its universities provide engineering programs that blend theoretical knowledge with practical lab work, design projects and industry exposure."
+  },
+  "overview": [
+    "Ireland has strong engineering, computing and technology programs that attract international students. Its universities provide engineering programs that blend theoretical knowledge with practical lab work, design projects and industry exposure.",
+    "Edu Hawk worldwide study abroad guidance helps students to explore these opportunities and understand the requirements to study abroad."
+  ],
+  "universities": [
+    {
+      "name": "Dublin City University",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Dublin_City_University-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Dublin_City_University-image2.png",
+      "desc": "University of Galway – Bachelor's and Master's degrees in Electrical and Computer Engineering. The curriculum encompasses both computing and electronics and holds professional accreditation from Engineers Ireland. accredited by Engineers Ireland."
+    },
+    {
+      "name": "Maynooth University",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Maynooth_University-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Maynooth_University-image3.png",
+      "desc": "Maynooth University is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "University of Galway",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_University_of_Galway-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_University_of_Galway-image1.png",
+      "desc": "University of Galway is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Study Computer Engineering in Ireland?",
+      "lead": "Ireland has strong engineering, computing and technology programs that attract international students. Its universities provide engineering programs that blend theoretical knowledge with practical lab work, design projects and industry exposure.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Benefits include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "- Industry opportunities: Ireland has technology, semiconductor, software, telecommunications and medical device companies",
+            "Hands-on learning: A lot of courses include hardware labs, engineering projects and industry placements.",
+            "International exposure: Students learn with students from different countries and backgrounds.",
+            "Career flexibility: Graduates can work in the fields of embedded systems, computer hardware, electronics, robotics and computer networks.",
+            "Continuing education: Students can continue to master's degree programs in computer engineering, electronic engineering, artificial intelligence or similar."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk worldwide study abroad guidance helps students to explore these opportunities and understand the requirements to study abroad."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Computer Engineering Degree Courses in Ireland",
+      "lead": "Irish institutions may call their courses Electronic and Computer Engineering, Computer and Communications Engineering or Computer Engineering.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The technical focus of these programs may differ"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Popular study options",
+            "Bachelor of Engineering (BEng): Typically four years for an honors engineering degree.",
+            "Master of Engineering (MEng): Usually involves an additional year of advanced study.",
+            "Master's in Computer Engineering: This is for students who have earned a bachelor's degree in a related discipline.",
+            "Specialised engineering courses: May include embedded systems, digital electronics, communications, computer architecture or mechatronics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Most popular topics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students could study:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software development and programming",
+            "Computer architecture and digital logic",
+            "Embedded systems and microprocessors",
+            "Electronics and Instrumentation",
+            "Computer networks and operating systems",
+            "Signal Processing and Communications",
+            "Control engineering and robotics",
+            "Engineering Mathematics & Project Planning"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Top Institutions for Computer Engineering in Ireland",
+      "lead": "As you compile your shortlist, consider these institutions:",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Dublin City University",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Dublin_City_University-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Dublin_City_University-image2.png",
+          "desc": "University of Galway – Bachelor's and Master's degrees in Electrical and Computer Engineering. The curriculum encompasses both computing and electronics and holds professional accreditation from Engineers Ireland. accredited by Engineers Ireland."
+        },
+        {
+          "name": "Maynooth University",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Maynooth_University-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Maynooth_University-image3.png",
+          "desc": "Maynooth University is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "University of Galway",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_University_of_Galway-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_University_of_Galway-image1.png",
+          "desc": "University of Galway is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying Computer Engineering in Ireland",
+      "lead": "Tuition fees vary depending on institution, course, fee status of applicant and academic year.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Here are published figures for 2026/27 for international/non-EU undergraduate applicants"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Dublin City University Electronic and Computer Engineering €17,900 Years"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Galway Electronic and Computer Engineering €27,640"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These amounts are tuition fees, and do not include the full cost of living in Ireland."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fees are subject to increase in subsequent years and other charges may apply."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other costs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should consider:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accommodation and services",
+            "Groceries and food",
+            "Transport public",
+            "Study material, books, laptop",
+            "Immigration & Health Insurance Related Costs",
+            "personal expenses, contingency funds."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The yearly budget overall varies a lot depending on the city and the accommodation arrangement."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process for Computer Engineering in Ireland",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The general application process goes like this:"
+          ]
+        },
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Research programs. Look for courses covering your chosen subjects like embedded systems, computer hardware or communications engineering.",
+              "desc": ""
+            },
+            {
+              "step": 2,
+              "title": "Check eligibility. Check academic requirements, English-language requirements, course length, and accepted international qualifications.",
+              "desc": ""
+            },
+            {
+              "step": 3,
+              "title": "Get your documents together. Gather transcripts, certificates, passport details, English language test results and any personal statements or references if needed.",
+              "desc": ""
+            },
+            {
+              "step": 4,
+              "title": "Apply through the right channel. Many students from outside the EU apply directly via the university's international application portal. For some applicants you will use the Central Applications Office (CAO), so follow the instructions from the institution.",
+              "desc": ""
+            },
+            {
+              "step": 5,
+              "title": "Monitor your application. Reply to requests for further documents and read any conditional offer carefully.",
+              "desc": ""
+            },
+            {
+              "step": 6,
+              "title": "Accept your offer and arrange your funding.Please adhere to the payment and deposit instructions contained in your offer.",
+              "desc": ""
+            },
+            {
+              "step": 7,
+              "title": "Prepare for your travel. If you are a student who requires a visa.",
+              "desc": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Computer Engineering Accreditation and Recognition in Ireland",
+      "lead": "Accreditation is an important consideration when selecting an engineering degree.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Engineers Ireland accredits engineering programs to professional and academic standards. Accreditation can provide a form of professional development and can show that a program meets the recognized requirements for engineering education."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Review offer before accepting"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Whether the program itself is accredited.",
+            "Accreditation covered qualification and program version.",
+            "If the accreditation is for the year you want to graduate.",
+            "How the qualification aligns with your plans for future professional registration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The fact that a qualification is recognized does not mean that you will be guaranteed to be employed, registered or licensed in each country. If you intend to go back to India or work in another country, look into the requirements of the relevant employer, professional body or qualification recognition"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Computer Engineering Salaries and Job Prospects in Ireland",
+      "lead": "Computer Engineering graduates are able to work in areas combining electronics, computing and systems design.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Popular career paths"
+        },
+        {
+          "t": "p",
+          "items": [
+            "- Computer Hardware Engineers"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "- Engineer, Embedded Systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "- Firmware Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "- Electronics Design Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "- Engineer in Communications and Computers"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "- Test/Validation Engineer (Hardware)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "- Engineer, Robotics and Automation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "-Network or System Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "- Semiconductor Test Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expected salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary will depend on the role, the employer, your experience, technical specialization and where you are based."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry level €30,000-€40,000"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Early career",
+              "d": "€40,000 - €55,000"
+            },
+            {
+              "t": "Experienced specialist",
+              "d": "€55,000 - €75,000+"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are general estimates, actual offers may be outside them. There are different salary structures for hardware, embedded, semiconductor and software related roles. Before you even begin to make financial plans, research recent vacancies and salary surveys for your specific role."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Study Computer Engineering in Ireland",
+      "lead": "International applicants typically prepare the following documents, although the specific list will vary:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport valid - For admission to the undergraduate course, Class 10 and Class 12 certificates and mark sheets",
+            "Bachelor degree certificate and transcript of admission to post graduate",
+            "English language test results (if applicable).",
+            "Personal statement or statement of purpose (if applicable)",
+            "Letters of recommendation, if needed",
+            "CV or résumé (for some postgraduate courses)",
+            "Proof of project or portfolio, if applicable",
+            "Confirmation of payment of application fee, if applicable",
+            "Evidence of finances for immigration",
+            "Health insurance and other documentation needed for the visa or registration process"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some documents may require certified translations or specific verification. Adhere to the instructions provided by the university and the relevant Irish authorities."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the duration of a Computer Engineering degree in Ireland?",
+      "a": "An undergraduate honors engineering degree usually takes four years, while some integrated engineering master's routes take five years. The length of a postgraduate degree alone depends on the program."
+    },
+    {
+      "q": "Is Computer Engineering offered under that course name in Ireland?",
+      "a": "Not always. Other degrees covering similar subjects include Electronic and Computer Engineering, Computer and Communications Engineering or Electronic Engineering. Don't just compare the title of the course modules."
+    },
+    {
+      "q": "What are the tuition fees for international students?",
+      "a": "The examples published for 2026/27 in this guide range from €17,900 per year at DCU for Year 1-4 to €27,640 per year at University of Galway for Electronic and Computer Engineering. These are institution-specific examples, not a universal range of fees. Living costs are separate."
+    },
+    {
+      "q": "What are the important subjects for admission?",
+      "a": "Mathematics is especially important. You may also need physics and other science subjects for entry onto undergraduate courses. Postgraduate applicants usually need to have a relevant bachelor's degree and appropriate academic preparation."
+    },
+    {
+      "q": "What can I do after I graduate in Computer Engineering?",
+      "a": "Graduates can be employed in embedded systems, computer hardware, firmware, electronics design, communications, robotics, semiconductor testing and other technical jobs. Your career success is dependent on the skills you have, your experience, the number of openings and your eligibility to be employed."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me to study abroad?",
+      "a": "Edu Hawk worldwide can help students to find suitable universities, understand admission requirements, organize application documents and plan their study abroad journey. Students are responsible for verifying academic, financial, immigration and licensing requirements with appropriate official authorities."
+    }
+  ],
+  "seo": {
+    "title": "Computer Engineering Ireland | Edu-Hawk Worldwide",
+    "description": "Ireland has strong engineering, computing and technology programs that attract international students. Its universities provide engineering programs that blend ",
+    "keywords": "Study in Ireland, Top Irish Universities, Edu Hawk Worldwide"
+  }
+}

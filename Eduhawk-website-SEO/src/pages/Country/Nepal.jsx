@@ -1,10 +1,11 @@
+import cmsData from "../../data/medical_colleges/nepal.json";
 
 
 import React, { useState } from "react";
 import RussiaFlag from "../../Images/country flag png/Nepal.svg";
-import { Helmet } from 'react-helmet-async';
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
-import Kathmandu from "../../../src/Images/Kathmandu.jpg";
+import Kathmandu from "../../../src/Images/Kathmandu.webp";
 import LumbiniMedicalCollege from "../../Images/Nepal/Lumbini_Medical_College.jpg";
 
 const Nepal = () => {
@@ -14,24 +15,28 @@ const Nepal = () => {
 
   return (
     <>
-         <Helmet>
-                      <title> MBBS in Nepal for Indian Students | Fees & Admission Process </title>
-                      <meta name="description" content="MBBS in Nepal with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges." />
-                      <meta name="keywords" content=" mbbs in nepal, nepal mbbs fees, study mbbs nepal, nepal medical colleges" />
-                    </Helmet>
+         <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Nepal for Indian Students | Fees & Admission Process"}
+        description={cmsData?.seo?.description || "MBBS in Nepal with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."}
+        keywords={cmsData?.seo?.keywords || "mbbs in nepal, nepal mbbs fees, study mbbs nepal, nepal medical colleges"}
+        path="/mbbs-abroad/nepal"
+        ogType="website"
+      />
    
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg"
+            src={cmsData?.hero?.image || "https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg"}
             alt="Nepal Landscape / Medical Campus"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg 1x, https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg 2x"
+                  sizes="100vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN NEPAL
+              {cmsData?.hero?.title || "STUDY MBBS IN NEPAL"}
             </h1>
           </div>
         </div>
@@ -44,13 +49,18 @@ const Nepal = () => {
           <div>
             <img
               src={RussiaFlag}
+              loading="lazy"
+              width={72}
+              height={87}
               alt="Nepal flag"
               className="w-32 md:w-40  shadow-lg"
-            />
+                  srcSet={`${RussiaFlag} 1x, ${RussiaFlag} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Nepal 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Nepal 2026–2027"}
             </h2>
           </div>
         </div>
@@ -122,9 +132,12 @@ const Nepal = () => {
           <div>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/4/40/Nepal_Patan_Mangal.jpg"
+              loading="lazy"
               alt="Patan Durbar Square, Nepal"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/4/40/Nepal_Patan_Mangal.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/4/40/Nepal_Patan_Mangal.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -141,7 +154,7 @@ const Nepal = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -169,7 +182,7 @@ const Nepal = () => {
                     <td className="p-4 font-semibold">
                       Universities Recognition
                     </td>
-                    <td className="p-4">NMC & WHO-approved</td>
+                    <td className="p-4">NMC & WHO-Recognized</td>
                   </tr>
                 </tbody>
               </table>
@@ -213,7 +226,7 @@ const Nepal = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities" className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Nepal
+            {cmsData?.universitiesHeading || "Top Medical Universities in Nepal"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -249,8 +262,11 @@ const Nepal = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">
@@ -516,59 +532,84 @@ const Nepal = () => {
               MBBS in Nepal vs MBBS in India – Quick Comparison (2026–2027)
             </h2>
 
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto shadow-md rounded-lg">
               <table className="min-w-full border-collapse border border-gray-300 text-left">
                 <thead>
                   <tr className="bg-blue-900 text-white">
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
-                      Criteria
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Parameter
                     </th>
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                       MBBS in Nepal
                     </th>
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
-                      MBBS in India
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India (Private / Govt)
                     </th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-700">
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">
-                      Entrance Requirement
-                    </td>
-                    <td className="p-4 border">NEET qualified</td>
-                    <td className="p-4 border">NEET + high cut-offs</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">Course Duration</td>
-                    <td className="p-4 border">
-                      5.5–6 years (incl. internship)
-                    </td>
-                    <td className="p-4 border">5.5 years + internship</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Total Cost</td>
-                    <td className="p-4 border">₹45–65 lakhs</td>
-                    <td className="p-4 border">Private: ₹20–80+ lakhs</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">
-                      Seats Availability
-                    </td>
-                    <td className="p-4 border">
-                      More seats for international/Indian students
-                    </td>
-                    <td className="p-4 border">Limited in govt colleges</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">
-                      Infrastructure & Exposure
-                    </td>
-                    <td className="p-4 border">
-                      Modern hospitals, good clinical training
-                    </td>
-                    <td className="p-4 border">Varies widely</td>
-                  </tr>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      parameter: "Tuition Fees (Per Year / Total)",
+                      nepal: "Approx. ₹35 lakh – ₹55 lakh total tuition (roughly ₹7–10 lakh per year)",
+                      india: "Government: ₹10,000 – ₹1.5 lakh/year\nPrivate: ₹10 lakh – ₹30+ lakh/year (Total ₹80L–₹1.5Cr+)"
+                    },
+                    {
+                      parameter: "Course Duration",
+                      nepal: "5.5 years (4.5 years study + 1 year internship)",
+                      india: "5.5 years (4.5 years study + 1 year internship)"
+                    },
+                    {
+                      parameter: "Class Strength",
+                      nepal: "Usually moderate (around 100 to 150 students per batch)",
+                      india: "Varies widely; private and government colleges can have 50–150+ students per batch"
+                    },
+                    {
+                      parameter: "Global Recognition",
+                      nepal: "Recognized by NMC, WHO, FAIMER, UNESCO",
+                      india: "Recognized by NMC, WHO, and major international bodies"
+                    },
+                    {
+                      parameter: "Medium of Instruction",
+                      nepal: "English",
+                      india: "English"
+                    },
+                    {
+                      parameter: "Hostel & Food",
+                      nepal: "₹8 lakh – ₹12 lakh for the entire course (often mandatory in private colleges)",
+                      india: "Varies by college; typically ₹6 lakh – ₹12 lakh for the full duration"
+                    },
+                    {
+                      parameter: "Visa / Travel Requirements",
+                      nepal: "No visa required for Indian citizens (open border; entry via Aadhaar or Voter ID)",
+                      india: "Not applicable (domestic)"
+                    },
+                    {
+                      parameter: "Insurance & Medical Cover",
+                      nepal: "Nominal student/health insurance costs managed via campus/local policies (approx. ₹5,000–₹15,000/year)",
+                      india: "Standard student/health or institutional medical perks within local hospitals"
+                    },
+                    {
+                      parameter: "Other Costs (Books, Exams, Misc)",
+                      nepal: "University registration, exam fees, books, and utilities add roughly ₹2 lakh – ₹4 lakh total",
+                      india: "Uniforms, books, state/university exam fees, and miscellaneous add ₹3 lakh – ₹6 lakh total"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.parameter || row.feature}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.nepal}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>

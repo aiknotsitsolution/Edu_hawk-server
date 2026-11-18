@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "title": "Hospitality Management in Finland",
+    "subtitle": "Hospitality management is an excellent study option for students interested in hotel operations, tourism, restaurant management, event planning and international customer service. Hospitality Management in Finland combines business knowledge, practical learning and service-industry skills to prepare students for careers in hotels, resorts, restaurants, tourism companies and event organisations. Finnish universities of applied sciences offer English-taught programmes that focus on hospitality operations, service design, leadership, sustainability and customer experience."
+  },
+  "overview": [
+    "Hospitality management is an excellent study option for students interested in hotel operations, tourism, restaurant management, event planning and international customer service. Hospitality Management in Finland combines business knowledge, practical learning and service-industry skills to prepare students for careers in hotels, resorts, restaurants, tourism companies and event organisations. Finnish universities of applied sciences offer English-taught programmes that focus on hospitality operations, service design, leadership, sustainability and customer experience.",
+    "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships."
+  ],
+  "universities": [
+    {
+      "name": "Aalto University",
+      "location": "Espoo, Greater Helsinki, Finland",
+      "fee": "€12,000 – €15,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
+    },
+    {
+      "name": "University of Helsinki",
+      "location": "Helsinki, Finland",
+      "fee": "€13,000 – €18,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
+    },
+    {
+      "name": "University of Oulu",
+      "location": "Oulu, Finland",
+      "fee": "€10,000 – €13,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+      "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
+    },
+    {
+      "name": "Tampere University",
+      "location": "Tampere, Finland",
+      "fee": "€10,000 – €12,000 / Year",
+      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+      "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Finnish Universities",
+      "title": "Top Universities to Consider in Finland",
+      "lead": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships.",
+      "unis": [
+        {
+          "name": "Aalto University",
+          "location": "Espoo, Greater Helsinki, Finland",
+          "fee": "€12,000 – €15,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
+        },
+        {
+          "name": "University of Helsinki",
+          "location": "Helsinki, Finland",
+          "fee": "€13,000 – €18,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
+        },
+        {
+          "name": "University of Oulu",
+          "location": "Oulu, Finland",
+          "fee": "€10,000 – €13,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
+          "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
+        },
+        {
+          "name": "Tampere University",
+          "location": "Tampere, Finland",
+          "fee": "€10,000 – €12,000 / Year",
+          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
+          "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Hospitality Management in Finland | Edu-Hawk Worldwide",
+    "description": "Hospitality management is an excellent study option for students interested in hotel operations, tourism, restaurant management, event planning and internationa",
+    "keywords": "Study in Finland, Top Universities in Finland, Edu Hawk Worldwide"
+  }
+}

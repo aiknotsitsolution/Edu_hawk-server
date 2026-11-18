@@ -1,0 +1,33 @@
+{
+  "dentistry": {
+    "title": "Dentistry Abroad (BDS / DDS / DMD)",
+    "overview": "Premier dental schools in the USA offering cutting-edge clinical infrastructure, ADA accreditation, and global practice scope.",
+    "fee": "$35,000 - $65,000 per year",
+    "eligibility": "10+2 with PCB (minimum 60%) + DAT (Dental Admission Test) / NEET qualification."
+  },
+  "nursing": {
+    "title": "Nursing Abroad (BSN / MSN)",
+    "overview": "High-demand nursing careers with global clinical rotations, NCLEX-RN preparation, and direct healthcare placement support in top US hospitals.",
+    "fee": "$22,000 - $42,000 per year"
+  },
+  "pharmacy": {
+    "title": "Pharmacy Abroad (Pharm.D / B.Pharm)",
+    "overview": "Doctor of Pharmacy (Pharm.D) degrees accredited by ACPE with comprehensive clinical rotations, pharmacotherapy research, and licensing preparation.",
+    "fee": "$28,000 - $48,000 per year"
+  },
+  "physiotherapy": {
+    "title": "Physiotherapy Abroad (DPT / BPT)",
+    "overview": "Doctor of Physical Therapy (DPT) programs offering advanced rehabilitation sciences, biomechanics, and global clinical residencies.",
+    "fee": "$25,000 - $45,000 per year"
+  },
+  "public_health": {
+    "title": "Public Health Abroad (MPH / DrPH)",
+    "overview": "Master of Public Health (MPH) programs specializing in epidemiology, health policy, and global healthcare management with CEPH accreditation.",
+    "fee": "$24,000 - $40,000 per year"
+  },
+  "biotechnology": {
+    "title": "Biotechnology Abroad (B.S. / M.S.)",
+    "overview": "STEM-designated biotechnology programs combining genetics, bioinformatics, pharmaceutical development, and 3-year OPT work visa benefits.",
+    "fee": "$26,000 - $46,000 per year"
+  }
+}

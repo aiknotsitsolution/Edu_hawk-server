@@ -1,10 +1,12 @@
+import cmsData from "../../data/medical_colleges/belarus.json";
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/Russia/about-russia.jpg";
+import SeoHead from "../../component/SeoHead.jsx";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/Russia/about-russia.webp";
 import Russianflag2 from "../../Images/country flag png/Belarus.svg";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 const Belarus = () => {
@@ -13,17 +15,26 @@ const Belarus = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Belarus 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        description={cmsData?.seo?.description || "Explore MBBS in Belarus for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
+        keywords={cmsData?.seo?.keywords || "mbbs in belarus, belarus mbbs fees, study mbbs belarus, belarus medical universities"}
+        path="/mbbs-abroad/belarus"
+        ogType="website"
+      />
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Miensk_-_Plac_Niezale%C5%BEna%C5%9Bci.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/8/8c/Miensk_-_Plac_Niezale%C5%BEna%C5%9Bci.jpg"}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/8/8c/Miensk_-_Plac_Niezale%C5%BEna%C5%9Bci.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/8/8c/Miensk_-_Plac_Niezale%C5%BEna%C5%9Bci.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN BELARUS
+              {cmsData?.hero?.title || "STUDY MBBS IN BELARUS"}
             </h1>
           </div>
         </div>
@@ -38,13 +49,18 @@ const Belarus = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={378}
+              height={189}
               alt="Russia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-            />
+                  srcSet={`${Russianflag2} 1x, ${Russianflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in BELARUS 2025–2026
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in BELARUS 2026–2027"}
             </h2>
           </div>
         </div>
@@ -98,9 +114,12 @@ const Belarus = () => {
           <div>
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/9/99/Victory_square%2C_Minsk_01.jpg"
+              loading="lazy"
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/9/99/Victory_square%2C_Minsk_01.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/9/99/Victory_square%2C_Minsk_01.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -117,7 +136,7 @@ const Belarus = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -173,7 +192,7 @@ const Belarus = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Russia
+            {cmsData?.universitiesHeading || "Top Medical Universities in Russia"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -201,8 +220,11 @@ const Belarus = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">
@@ -218,7 +240,7 @@ const Belarus = () => {
         <div className="grid md:grid-cols-2 gap-12 mb-20">
           <div>
             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-              Advantages of Studying MBBS in Russia 2025–2026
+              Advantages of Studying MBBS in Russia 2026–2027
             </h2>
 
             <div className="space-y-6">
@@ -321,7 +343,7 @@ const Belarus = () => {
             </ul>
 
             <p className="mt-6">
-              <strong>Approximate monthly living expenses (2025–2026):</strong>
+              <strong>Approximate monthly living expenses (2026–2027):</strong>
             </p>
             <ul className="list-disc pl-6 mt-4 space-y-2">
               <li>Hostel / Accommodation: ₹8,000 – ₹18,000</li>
@@ -344,7 +366,7 @@ const Belarus = () => {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-10">
-            Admission Process for MBBS in Russia 2025–2026
+            Admission Process for MBBS in Russia 2026–2027
           </h2>
 
           <div className="max-w-4xl mx-auto">
@@ -423,7 +445,7 @@ const Belarus = () => {
             {/* Left - Required Documents */}
             <div>
               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-                Required Documents for MBBS in Russia 2025–2026
+                Required Documents for MBBS in Russia 2026–2027
               </h2>
 
               <div className="space-y-6">
@@ -511,7 +533,7 @@ const Belarus = () => {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-            MBBS in Russia vs MBBS in India – Quick Comparison (2025–2026)
+            MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
           </h2>
 
           <div className="overflow-x-auto">
@@ -565,10 +587,10 @@ const Belarus = () => {
                 <tr className="bg-gray-50">
                   <td className="p-4 border font-medium">Global Recognition</td>
                   <td className="p-4 border">
-                    NMC, WHO, WFME approved universities
+                    NMC, WHO, WFME recognized universities
                   </td>
                   <td className="p-4 border">
-                    NMC approved, but private colleges vary
+                    NMC recognized, but private colleges vary
                   </td>
                 </tr>
                 <tr>

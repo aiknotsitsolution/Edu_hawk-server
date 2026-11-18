@@ -1,0 +1,441 @@
+{
+  "hero": {
+    "title": "Mechanical Engineering in Spain for Indian Students",
+    "subtitle": "A Master's in Mechanical Engineering in Spain for Indian Students enables you to gain advanced knowledge in machine design, manufacturing technology, thermodynamics, materials science, robotics, automotive systems, and industrial automation. Postgraduate engineering programs at Spanish universities combine theory with laboratory work, research, simulation and industry-oriented projects."
+  },
+  "overview": [
+    "Spain is a very interesting destination for students who want to specialize in mechanical systems, advanced manufacturing, automotive technology and industrial innovation. Students considering Study Mechanical Engineering in Spain can expect a number of professional and academic benefits.",
+    "A Master's in Mechanical Engineering in Spain for Indian Students can help students explore different technical specializations and develop knowledge relevant to international engineering industries."
+  ],
+  "universities": [
+    {
+      "name": "Universidad de Zaragoza",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_mech_engg_pg_Universidad_de_Zaragoza-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_mech_engg_pg_Universidad_de_Zaragoza-image3.png",
+      "desc": "Another university to consider for your postgraduate studies in engineering and technology is the University of Zaragoza. Applicants should consult its official catalog for up-to-date mechanical and industrial engineering offerings. Official website: http://www.unizar.es/ Important Note: These are universities to look at, not a promise that each has a degree with the exact title \"Master's in Mechanical Engineering\" at the moment. Program availability, language of instruction, fees and entry requirements are subject to change. Students are advised to refer to the latest information from the university directly when exploring Mechanical Engineering Universities in Spain."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_mech_engg_pg_Universitat_Polit_cnica_de_Catalunya-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_mech_engg_pg_Universitat_Polit_cnica_de_Catalunya-image1.png",
+      "desc": "UPC is recognized for its technical and engineering education. Students can go on to study postgraduate courses in mechanical engineering, industrial technologies, manufacturing and related subjects. Official website: https://www.upc.edu/en/masters"
+    },
+    {
+      "name": "Valencia Polytechnic University",
+      "location": "Spain",
+      "fee": "€1,500 – €8,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_mech_engg_pg_Valencia_Polytechnic_University-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_mech_engg_pg_Valencia_Polytechnic_University-image2.png",
+      "desc": "UPV provides postgraduate education in engineering and technology. Browse the official master's catalog for programs related to mechanical engineering, industrial production, materials and automation. Official website: http://www.upv.es/estudios/master/index-en.html"
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Go for a Master's in Mechanical Engineering in Spain?",
+      "lead": "Spain is a very interesting destination for students who want to specialize in mechanical systems, advanced manufacturing, automotive technology and industrial innovation. Students considering Study Mechanical Engineering in Spain can expect a number of professional and academic benefits.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Higher education in engineering: Study mechanical design, computation, materials, thermal systems, and manufacturing.",
+            "Specializations: Robotics, automotive engineering, energy systems, industrial production and product development.",
+            "Practical Learning: Students may be involved in laboratories, technical projects, simulations, research or internships, depending on the program.",
+            "European academic framework: Many courses are based on the ECTS system, which aids the European Higher Education Area in recognizing academic credits.",
+            "International experience: Acquire technical and professional skills in a multicultural academic environment.",
+            "Career development: Prepare for careers in manufacturing, automotive, energy, aerospace-related sectors, product design and engineering consultancy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Mechanical Engineering in Spain for Indian Students can help students explore different technical specializations and develop knowledge relevant to international engineering industries."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Master's in Mechanical Engineering Courses in Spain",
+      "lead": "Students can learn various Mechanical Engineering Courses in Spain based on their undergraduate qualifications, technical interests and long-term career plans. Options may include mechanical design, manufacturing, automotive systems, robotics, energy or industrial technologies. Students planning to Study Mechanical Engineering in Spain can explore the following specializations:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "SpecializationKey areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanical EngineeringAdvanced mechanics, machine design, engineering analysis"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Manufacturing EngineeringProduction technology, process optimization, quality management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automotive EngineeringVehicle systems, powertrains, vehicle design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Robotics and AutomationRobotics, control systems, industrial automation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Materials EngineeringAdvanced materials, material testing, structural performance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Energy EngineeringThermodynamics, energy conversion, thermal systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computational MechanicsFinite element analysis, modeling, engineering simulation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industrial EngineeringProduction systems, operations, industrial processes"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Aerospace-related EngineeringMechanical structures, propulsion-related systems, aerodynamics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These Mechanical Engineering Courses in Spain can be offered as stand-alone degrees, specialized master's programs or subject fields of broader engineering degrees. Students should check the exact program title, curriculum, credit requirements and teaching language on each university's official website before choosing from the available Mechanical Engineering Courses in Spain."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Universities for Master's in Mechanical Engineering in Spain",
+      "lead": "Only a few Mechanical Engineering Universities in Spain offer postgraduate courses to Indian candidates in mechanical, industrial and other engineering fields. Here are some institutions worth checking out for students looking for Mechanical Engineering Universities in Spain:",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universidad de Zaragoza",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_mech_engg_pg_Universidad_de_Zaragoza-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_mech_engg_pg_Universidad_de_Zaragoza-image3.png",
+          "desc": "Another university to consider for your postgraduate studies in engineering and technology is the University of Zaragoza. Applicants should consult its official catalog for up-to-date mechanical and industrial engineering offerings. Official website: http://www.unizar.es/ Important Note: These are universities to look at, not a promise that each has a degree with the exact title \"Master's in Mechanical Engineering\" at the moment. Program availability, language of instruction, fees and entry requirements are subject to change. Students are advised to refer to the latest information from the university directly when exploring Mechanical Engineering Universities in Spain."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_mech_engg_pg_Universitat_Polit_cnica_de_Catalunya-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_mech_engg_pg_Universitat_Polit_cnica_de_Catalunya-image1.png",
+          "desc": "UPC is recognized for its technical and engineering education. Students can go on to study postgraduate courses in mechanical engineering, industrial technologies, manufacturing and related subjects. Official website: https://www.upc.edu/en/masters"
+        },
+        {
+          "name": "Valencia Polytechnic University",
+          "location": "Spain",
+          "fee": "€1,500 – €8,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_mech_engg_pg_Valencia_Polytechnic_University-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_mech_engg_pg_Valencia_Polytechnic_University-image2.png",
+          "desc": "UPV provides postgraduate education in engineering and technology. Browse the official master's catalog for programs related to mechanical engineering, industrial production, materials and automation. Official website: http://www.upv.es/estudios/master/index-en.html"
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Who Can Do a Master's in Mechanical Engineering in Spain?",
+      "lead": "Master's in Mechanical Engineering in Spain for Indian Students generally requires students to meet the following conditions:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Accredited bachelor's degree in Mechanical Engineering or in a related engineering field.",
+            "Appropriate academic knowledge in mechanics, mathematics, materials science, thermodynamics or engineering design, according to the program.",
+            "Academic transcripts that meet the university's admission requirements.",
+            "English language proficiency for English-taught programs, where applicable.",
+            "Spanish language proficiency for programs taught in Spanish, where applicable.",
+            "Other academic requirements as established by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants with a degree in Industrial Engineering, Aerospace Engineering, Automotive Engineering or similar may qualify for selected programs, depending on prior coursework and the admission requirements of the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in Study Mechanical Engineering in Spain should review the eligibility criteria of their preferred university before starting the application process."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "What Are the Admission Requirements for a Master's in Mechanical Engineering in Spain?",
+      "lead": "The process for Mechanical Engineering Admission in Spain may involve an academic assessment and review of the applicant's prior engineering education. Universities may have a variety of criteria to assess applications for a Master's in Mechanical Engineering in Spain for Indian Students:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Undergraduate Degree Certificate",
+            "Academic records and marksheets.",
+            "Previous engineering coursework.",
+            "Evidence of proficiency in English or Spanish, if applicable.",
+            "Resume/CV.",
+            "Statement of motivation / Statement of purpose.",
+            "Letters of recommendation if required.",
+            "Technical portfolio, research experience or professional experience for selected programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some programs may have specific required prerequisite subjects or additional documentation. Before applying, students should check the requirements with the university they are interested in applying to. Edu-Hawk Worldwide can assist learners in comprehending the requirements of the application and prepare admission documents for Mechanical Engineering Admission in Spain."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Mechanical Engineering Fees in Spain",
+      "lead": "The Mechanical Engineering Fees in Spain vary for different institutions, programs, number of ECTS credits and fee category that is applicable to international students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "University typeEstimated tuition per yearApproximate INR equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities€1,000–€8,000₹1.09–₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private universities€6,000–€25,000+₹6.52–₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative planning figures and are not confirmed fees for a particular program. Tuition fees for non-EU students may vary and specialist programs may be more expensive. Students are requested to refer to the official fee schedule of the corresponding academic year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other costs may include accommodation, food, transport, health insurance, study materials, visa fees and university registration fees. Students need to budget separately for living costs besides tuition fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Understanding the Mechanical Engineering Fees in Spain in advance can help Indian students plan their study abroad budget and compare available university options."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "How to Enroll in a Master's in Mechanical Engineering in Spain",
+      "lead": "The admission process for a Master's in Mechanical Engineering in Spain for Indian Students generally comprises the following steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose Your Specialisation: Pick an area like mechanical design, manufacturing, robotics, automotive engineering, or energy systems.",
+            "Shortlist universities: Compare the course contents, tuition fees, language of instruction, location and eligibility.",
+            "Academic eligibility: Verify that your bachelor's degree and previous coursework satisfy the program prerequisites.",
+            "Prepare your documents: Get your degree certificate, transcripts, passport, CV, motivation letter and language evidence (if applicable) ready.",
+            "Fill out an application: Apply through the official admissions system of the university.",
+            "Meet any other conditions: You may need to supply extra documents or attend an interview.",
+            "Get the admission decision: Read the offer, tuition fees, deadlines for payment and conditions for enrollment.",
+            "Apply for a student visa: Upon acceptance, follow the appropriate procedure for a Spanish student visa.",
+            "Complete Enrolment: Satisfy the university's payment and registration needs before starting your studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application deadlines vary between universities and programs, therefore early planning is recommended. Edu-Hawk Worldwide can assist students in university shortlisting, application preparation and admission-related processes, helping them understand the steps involved in Mechanical Engineering Admission in Spain."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Degree Recognition and Career Scope",
+      "lead": "Students should ensure the university and the qualification are properly recognized prior to enrolling and also check whether the course is an official university master's degree or another type of postgraduate qualification.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Mechanical Engineering in Spain for Indian Students can lead to further study, research or careers in mechanical design, manufacturing, energy systems, product development, automotive technology and engineering analysis."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students should check whether their prospective employer, professional pathway or further-study institution has any specific qualification recognition requirements if they are intending to return to India. Additional requirements may apply to these and other regulated engineering roles."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Mechanical Engineering Master's in Spain: Salary and Job Opportunities",
+      "lead": "Mechanical Engineering Career Opportunities in Spain are available across engineering companies, manufacturing companies, automotive suppliers, energy companies, product-development teams and industrial consultancies. Students completing a Master's in Mechanical Engineering in Spain for Indian Students can explore different career paths depending on their specialization and experience.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Job roleIllustrative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mechanical Engineer€25,000–€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Design Engineer€27,000–€42,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Manufacturing Engineer€28,000–€43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automotive Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Robotics Engineer€30,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Thermal or Energy Systems Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research and Development Engineer€30,000–€50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative career planning estimates and not guaranteed or verified current salary offers. Actual salary will depend on experience, location, employer, technical skills and language skills. Some roles will require Spanish language skills and the correct work authorization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Mechanical Engineering Jobs in Spain available to graduates may vary according to industry demand, technical specialization and professional experience. Students can explore Mechanical Engineering Career Opportunities in Spain in manufacturing, automotive technology, robotics, energy and research-related fields."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed for Master's in Mechanical Engineering in Spain",
+      "lead": "Here are some documents which students applying for postgraduate engineering programs may commonly require:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport valid.",
+            "Provisional certificate / Bachelor degree certificate.",
+            "Academic certificates and mark sheets.",
+            "CV / resume.",
+            "Purpose statement / letter of motivation.",
+            "Evidence of proficiency in English or Spanish if required.",
+            "Where applicable, letters of recommendation.",
+            "Course descriptions/syllabi available upon request.",
+            "Passport-size photographs (if required).",
+            "Proof of payment of application fee, if applicable.",
+            "Certified translations or legalization documents, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The exact list of documents will depend on the university and the qualifications of the applicant. Applicants should follow the official university checklist prior to submitting their applications for Mechanical Engineering Admission in Spain."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Can Indian students do a Master's in Mechanical Engineering in Spain?",
+      "a": "Yes. Indian students with a recognized bachelor's degree and meeting the academic, language and documentation requirements of the chosen university are eligible to apply for a Master's in Mechanical Engineering in Spain for Indian Students."
+    },
+    {
+      "q": "3. Do You Need to Take IELTS for a Master's in Mechanical Engineering in Spain?",
+      "a": "Not at all. English language programs may require IELTS, TOEFL or other evidence of proficiency in English. Spanish language requirements apply for Spanish-taught programs. The specific rules differ by institution."
+    },
+    {
+      "q": "4. How Much Does a Master's in Mechanical Engineering Cost in Spain?",
+      "a": "Tuition at some public universities can range from €1,000 to €8,000 per year, while at private universities it can be €6,000 to €25,000 or more. Students should refer to the official fee schedule for their chosen program to understand the Mechanical Engineering Fees in Spain."
+    },
+    {
+      "q": "5. What Jobs Can I Do with This Degree?",
+      "a": "Depending on the specialization and experience of the graduate, they can apply for jobs like mechanical engineer, design engineer, manufacturing engineer, automotive engineer, robotics engineer or research and development engineer. These are some of the Mechanical Engineering Jobs in Spain that graduates may explore."
+    }
+  ],
+  "seo": {
+    "title": "Mechanical Engineering in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain is a very interesting destination for students who want to specialize in mechanical systems, advanced manufacturing, automotive technology and industrial ",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

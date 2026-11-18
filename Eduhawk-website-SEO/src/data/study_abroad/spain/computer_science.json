@@ -1,0 +1,709 @@
+{
+  "hero": {
+    "title": "Indian Students Study Computer Engineering in Spain",
+    "subtitle": "Computer Engineering in Spain for Indian Students provides great academic opportunities at bachelor's and master's level. The fundamental and advanced topics covered by these programs are computer hardware, software development, computer architecture, operating systems, computer networks, embedded systems, cybersecurity, artificial intelligence, and cloud computing. Students may choose to study for an undergraduate degree, to gain the basic engineering skills, or to go on to postgraduate study to specialize in the advanced computing technologies. Students who want to Study Computer Engineering in Spain can select programs that mix theoretical knowledge with practical technical training."
+  },
+  "overview": [
+    "Studying Computer Engineering in Spain means technical advancement, academic education and international exposure for students. In Spain students are given the opportunity to explore modern computing technologies and acquire engineering skills relevant to the international technology industry.",
+    "These opportunities make Computer Engineering in Spain a very attractive field for students interested in technology and innovation. A Computer Engineering Degree in Spain can help students to acquire technical knowledge and practical skills for different areas of the computing industry."
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why You Should Study Computer Engineering in Spain?",
+      "lead": "Studying Computer Engineering in Spain means technical advancement, academic education and international exposure for students. In Spain students are given the opportunity to explore modern computing technologies and acquire engineering skills relevant to the international technology industry.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Key Benefits:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Solid engineering education: Acquire technical knowledge from lectures, lab exercises, programming assignments, and hands-on engineering projects.",
+            "Bachelor's and Master's programs: After Class 12, students can choose to do an undergraduate course. Postgraduation courses are available to graduates with a related bachelor's degree.",
+            "Specializations in new technology: Think about specializations including artificial intelligence, computer networks, embedded systems, cybersecurity, cloud computing and hardware design.",
+            "Practical experience: Depending on the university, students may get the chance to take part in research projects, internships, lab work and industry partnerships.",
+            "International exposure: Join the European academic environment and work with students of different educational and cultural backgrounds.",
+            "Career options: Prepare for careers in software development, computer hardware, telecommunications, automation, research and technology services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These opportunities make Computer Engineering in Spain a very attractive field for students interested in technology and innovation. A Computer Engineering Degree in Spain can help students to acquire technical knowledge and practical skills for different areas of the computing industry."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Computer Engineering Courses in Spain",
+      "lead": "In Spain, Spanish universities offer undergraduate and postgraduate Courses in Computer Engineering in several areas of computing and engineering. Degree titles and specializations vary between institutions. Students exploring Computer Engineering Courses in Spain can consider the following options.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Bachelor of Engineering-Computer"
+        },
+        {
+          "t": "p",
+          "items": [
+            "The Bachelor's degree is for students after Class 12 and aims to provide a strong foundation in computer systems, programming, electronics and engineering principles."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialization or courseEssential Topics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Comp EngrComputer Architecture, Algorithms, Programming"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Software DevelopmentSoftware design, development, and testing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Systems Engineer (Computer)Operating systems, hardware, system integration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Comput. NetworksProtocols, communications, network architecture"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded SystemsMicrocontrollers Firmware Hardware / Software integration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Intelligent SystemsMachine learning, artificial intelligence, data structures"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cyber SecurityCryptography, Information Security, Secure Systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics & ComputingDigital electronics, circuits, computer hardware"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Note: These subjects may be studied as separate degrees or as specializations within a broader engineering program."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Master of Science in Computer Science"
+        },
+        {
+          "t": "p",
+          "items": [
+            "A master's is aimed at graduates who want to develop advanced technical knowledge or specialize in a particular area of computing and engineering. A Master's in Computer Engineering in Spain students can choose from a variety of specializations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course/SpecializationImportant Subjects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer EngineeringSystem design and architecture, advanced computing systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Systems AdvancedParallel Computing, Operating System, High Performance System"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Artificial IntelligenceMachine learning, neural networks, smart apps"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cyber securityNetwork security, secure architecture and digital forensics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded SystemFirmware, hardware integration, real-time systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer NetworksCommunications, distributed systems, network management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cloud ComputingCloud infrastructure, distributed platforms, virtualization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Automation & roboticsRobotics, control systems, computer vision"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Data Engg.Data architecture, processing systems, distributed databases"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Software DevelopmentSoftware architecture, development methodologies, quality assurance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Note that the actual names of courses and specializations will differ from university to university. Some postgraduate options may be offered in computer science, information technology, telecommunications or electronic engineering, rather than computer engineering per se."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students exploring Computer Engineering Courses in Spain should consider course structure, opportunities for practical learning, the length of the program and the language of instruction to find options that suit their academic and career interests."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Top Universities to Study Computer Engineering in Spain",
+      "lead": "Students can start their search for Computer Engineering Universities in Spain from the universities that offer courses in the areas of engineering, computing and technology. They provide an opportunity to explore undergraduate and postgraduate courses in relevant technical disciplines.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Visa & Residence Permit",
+      "title": "Requisitos para estudiar Ingenier&iacute;a Inform&aacute;tica en Espa&ntilde;a",
+      "lead": "The eligibility criteria for Computer Engineering in Spain for Indian Students varies depending on the degree level, university, and the program chosen. Students should check official requirements before applying.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Qualifications for Bachelor's Degree",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Generally Indian students have to:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "12th pass from a recognized education board.",
+            "Meet the university's academic requirements, typically in mathematics and appropriate science courses.",
+            "Meet the university entry or selection requirements.",
+            "Submit required academic certificates and language proficiency evidence.",
+            "Complete applicable procedures for University access, equivalency or credential recognition."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on whether the chosen course and institution belong to a public or private university, the application process can vary."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Master's Degree Requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants should generally:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Have an accredited bachelor's degree in Computer Engineering, Computer Science, Information Technology, Electronics, Electrical Engineering or other accepted related fields.",
+            "Meet program academic and prerequisite requirements.",
+            "You need your university transcripts and degree certificates.",
+            "Must have English or Spanish proficiency as required.",
+            "Submit any other university-required academic or supporting materials."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some master's programs accept graduates with relevant academic backgrounds, while others require specific technical subjects or prior coursework. Students who want to pursue a Master's in Computer Engineering in Spain need to check out the eligibility criteria of the university they choose."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Entry Requirements for Computer Engineering in Spain",
+      "lead": "The Computer Engineering admission process in Spain varies by degree level and university. The table below provides a broad overview of documents and academic requirements that may be relevant for undergraduate and postgraduate applications.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "RequirementBachelorsMaster's Program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Previous education12th standard or equivalentBachelor's degree in the relevant field"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Qualifications: academicMarksheets of Class 10 and Class 12 (If Applicable)University transcripts and degree certificate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Mathematical backgroundUsually ImportantSubject to the programme's requirements"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language abilitiesMandatory by the programProgram requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Individual profileIf necessaryUsually needed for selective programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV / RésuméNot typically required for each courseMight be needed"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Recommendation lettersDepending on the programDependent on program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Admission/selection procedureIt is contingent upon the admission methodDepends on the university and the program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students need to check the specific Computer Engineering Admission in Spain requirements of the selected university and intake. The application procedures, the format of the documents, the language requirements and the selection criteria may differ."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide helps students understand Computer Engineering Admissions in Spain, prepare application documents and find suitable programs based on their academic qualifications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying Computer Engineering in Spain",
+      "lead": "The cost of studying Computer Engineering in Spain depends on the university, the degree level, the number of credits, the type of program and the fee category for international students. If you want to Study Computer Engineering in Spain, it's best to compare the cost of tuition fees before selecting a university.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Here's a rough estimate of annual tuition (€) for your planning purposes:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Type of universityEstimated Yearly TuitionApproximate Equivalent INR"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities€1,000–€8,000₹1.09 Lakh - ₹8.69 Lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private colleges€6,000–€25,000+₹6.52–₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are only indicative figures and may not reflect the actual fees of any particular university. Tuition fees for non-EU students can vary widely - these figures may not include some specialized courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In addition to Computer Engineering Fees in Spain, students should budget for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Housing and communal services.",
+            "Food and grocery.",
+            "Transport - Local.",
+            "Health insurance.",
+            "Academic publications and books.",
+            "Costs of a student visa.",
+            "Living costs and other personal expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should contact the university of their choice for the most current tuition information before making financial arrangements. By comparing the fees of Computer Engineering in Spain from a variety of institutions, students can get a better idea of the cost of their studies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "How to Apply for Computer Engineering in Spain",
+      "lead": "For Indian Students, the Computer Engineering in Spain application process generally involves the following steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose your level of study: Decide whether you want to pursue a bachelor's degree after Class 12 or a master's degree after graduation.",
+            "Choose your specialization: Computer engineering, software systems, artificial intelligence, cybersecurity, computer networks, or embedded systems.",
+            "Shortlist universities: Compare program content, tuition fees, language of instruction, location and admission criteria.",
+            "Check Eligibility: You should check your academic qualification according to the requirements of the university you have selected.",
+            "Get your documents ready: Gather your academic transcripts, degrees, passport, language test results (if applicable) and other supporting documents.",
+            "Apply: Use the official university portal or appropriate undergraduate admission pathway to submit your application.",
+            "Review your admission decision: Review the offer letter, application deadlines, fees and enrollment requirements.",
+            "Get your student visa: Follow the current Spanish student visa procedure and collect all required financial and supporting documentation.",
+            "Complete Registration: Pay the fees and complete the registration process at the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can help students select universities, prepare application documents, and guide them through the admission process for studying abroad. Students looking for Computer Engineering Courses in Spain can be assisted with shortlisting universities and preparing applications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Recognition of Degrees & Career Scope",
+      "lead": "Students should check before enrolling whether the qualification they have chosen is a university degree or some other form of university qualification. It is also important to check the details of recognition and accreditation of the program.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Spain, a bachelor's degree in Computer Engineering provides the academic basis to start technical jobs or to study at postgraduate level. A masters degree can help graduates to build advanced knowledge and specialize in specific areas of computing and engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After completing Computer Engineering in Spain for Indian Students, graduates can explore job opportunities in various technology-related fields based on their qualifications and practical skills."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Some of the career options are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Software Engineer or Software Developer.",
+            "Systems Engineer - Computer.",
+            "Systems Engineer.",
+            "Network Engineer.",
+            "Cybersecurity Engineer or Analyst.",
+            "Infrastructure Engineer - Cloud.",
+            "Artificial Intelligence or Machine Learning Engineer with relevant skills.",
+            "Verification or Hardware Design Engineer.",
+            "Engineer, Robotics & Automation.",
+            "Research & Development Engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The opportunities one gets in their career depends on the technical knowledge, work experience, language skills, internship experience and demand of the employer. In Spain, students who choose to study Computer Engineering have a range of technology-related career options to consider, depending on their chosen specialization."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Computer Engineering Degree in Spain: Salary and Career Perspectives",
+      "lead": "In Spain, a graduate with a Computer Engineering Degree may find work in the following areas: software development, computer systems, networking, cyber security, cloud infrastructure, artificial intelligence and hardware engineering.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The following are example gross annual salary estimates for career planning purposes. These are not guaranteed salaries or verified offers of today. The actual salary will depend on location, experience, the employer and the specialization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Role of the jobFor example Yearly Gross Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Software Engineer Junior€22,000–€32,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Systems Engineer€25,000–€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Network Engineer (Nov 2002 – Apr 2003)€25,000–€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded Systems Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cyber Security Engineer€30,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cloud Enggineer€30,000–€50,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "AI Engineering or Machine Learning€32,000–€55,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Design Hardware Engineer€27,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Senior Software Engineer (Senior Software Engineer)€40,000–€65,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "New graduates tend to be the bottom of the appropriate pay scale. As a rule, senior positions require professional experience, specialized knowledge, and demonstrated technical expertise."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students who complete Computer Engineering in Spain have career opportunities in software development, cloud technology, cybersecurity, computer hardware and artificial intelligence. The availability of jobs and salary depends on the technical skills, experience and employer requirement of the candidate."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Computer Engineering in Spain",
+      "lead": "Documents needed for Computer Engineering Courses in Spain can differ depending on the university, degree level and academic background of the candidate.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Bachelor Degree"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Mark sheets and certificates of 10th and 12th.",
+            "Certificates of university entrance or recognition of qualifications.",
+            "Proof of language knowledge, if applicable.",
+            "Passport-size photographs, if required.",
+            "'Application or payment received'.",
+            "Certified translations or legalizations as applicable."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Master's Degree"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport (valid).",
+            "Certificate of Bachelor's degree or provisional certificate.",
+            "University mark sheets and transcripts.",
+            "CV or résumé, if needed.",
+            "Motivation letter or Statement of Purpose, if needed.",
+            "Proof of proficiency in English or Spanish, if applicable.",
+            "Letters of recommendation available on request.",
+            "Course description or syllabus, if applicable.",
+            "Certified translations or legalization documents as appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check with the university you are applying to for the most current document checklist. Students who want to apply for admission to Computer Engineering in Spain have to send all the required documents as demanded by the university."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Can Indian students study Computer Engineering in Spain?",
+      "a": "Yeah. Indian students can apply for bachelor's or master's programs provided they meet the academic, language and documentation requirements of their chosen university. Students are encouraged to research on suitable Computer Engineering Universities in Spain before applying."
+    },
+    {
+      "q": "3. Is IELTS compulsory for Computer Engineering in Spain?",
+      "a": "Not always. The language requirements depend on the university and the language of the program. Programs taught in English may require IELTS, TOEFL or other accepted proof. Programs taught in Spanish may require proficiency in the Spanish language."
+    },
+    {
+      "q": "4. What is the price of studying Computer Engineering in Spain?",
+      "a": "Tuition fees can vary roughly from €1,000 to €8,000 per year in a public university and €6,000 to €25,000 or more in a private university. Students are advised to confirm the actual Computer Engineering Fees in Spain for the chosen program and intakes."
+    },
+    {
+      "q": "5. What jobs can I get after studying Computer Engineering in Spain?",
+      "a": "Graduates can work in software, computer systems, networks, cybersecurity, cloud computing, embedded systems, hardware design, artificial intelligence, robotics, depending on their qualifications and skills."
+    }
+  ],
+  "seo": {
+    "title": "Indian Students Study Computer Engineering in Spain | Edu-Hawk Worldwide",
+    "description": "Studying Computer Engineering in Spain means technical advancement, academic education and international exposure for students. In Spain students are given the ",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

@@ -1,0 +1,640 @@
+{
+  "hero": {
+    "title": "Study Computer Science in the United Kingdom",
+    "subtitle": "In order to build, develop, and enhance contemporary computing technology, computer engineering integrates computer hardware, software, electronics, and digital systems. Computer architecture, embedded systems, robotics, digital electronics, computer networks, and hardware-software interaction are some of the topics it addresses."
+  },
+  "overview": [
+    "In order to build, develop, and enhance contemporary computing technology, computer engineering integrates computer hardware, software, electronics, and digital systems. Computer architecture, embedded systems, robotics, digital electronics, computer networks, and hardware-software interaction are some of the topics it addresses.",
+    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities with the right preparation and direction.",
+    "Principal Advantages of Studying Computer Engineering in the United Kingdom"
+  ],
+  "universities": [
+    {
+      "name": "Greenwich University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_comp_engg_ug_Greenwich_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_comp_engg_ug_Greenwich_University-image4.png",
+      "desc": "University of Middlesex"
+    },
+    {
+      "name": "London's Brunel University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_comp_engg_ug_London_s_Brunel_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_comp_engg_ug_London_s_Brunel_University-image2.png",
+      "desc": "University of Middlesex"
+    },
+    {
+      "name": "University of Middlesex",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_comp_engg_ug_University_of_Middlesex-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_comp_engg_ug_University_of_Middlesex-image1.png",
+      "desc": "University of Middlesex is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "York University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_comp_engg_ug_York_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_comp_engg_ug_York_University-image3.png",
+      "desc": "York University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
+      "title": "Why Study Computer Engineering in the UK?",
+      "lead": "In order to build, develop, and enhance contemporary computing technology, computer engineering integrates computer hardware, software, electronics, and digital systems. Computer architecture, embedded systems, robotics, digital electronics, computer networks, and hardware-software interaction are some of the topics it addresses.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities with the right preparation and direction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Principal Advantages of Studying Computer Engineering in the United Kingdom"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Universities in the UK provide bachelor's and master's degrees in engineering and allied technical fields, which are recognized internationally.",
+            "Laboratory sessions, programming exercises, hardware projects, and engineering design assignments are all part of many curricula' practical learning components.",
+            "Opportunities for specialization: Students can investigate cybersecurity, robotics, computer networks, embedded systems, AI hardware, and Internet of Things technologies.",
+            "Certain degrees provide options for industrial placement, internships, and sandwich years.",
+            "An undergraduate BEng, an integrated MEng, or a specialized postgraduate master's degree are the options available to students.",
+            "Advanced computer architectures, autonomous systems, digital hardware, and intelligent technologies are among the research opportunities available to postgraduate students.",
+            "Employers in computing, telecommunications, electronics, manufacturing, automotive technology, and other engineering fields may find value in the knowledge acquired."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "UK Computer Engineering Courses",
+      "lead": "Numerous degrees in Computer Engineering are offered by UK universities. Each institution has its own specific course title, structure, and prerequisites.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Computer Engineering Bachelor of Engineering (BEng)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Programming, digital systems, computer hardware, and engineering principles are all combined in the Bachelor of Engineering in Computer Engineering undergraduate degree.."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical topics include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Programming computers",
+            "Electronics that are digital",
+            "The Architecture of Computers",
+            "Microcontrollers and microprocessors",
+            "Embedded Systems",
+            "Operating Systems",
+            "Networks of Computers",
+            "Mathematics for Engineering",
+            "Design of Digital Systems",
+            "Integration of Hardware and Software"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronic and computer engineering bachelor's degree"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "This credential integrates topics from electrical and electronics engineering with computer engineering.",
+            "Digital circuits, electronic devices, signal processing, computer architecture, embedded systems, and engineering design are all possible subjects for students to study.",
+            "Students who are interested in both the software that operates computers and their physical components could find it appropriate."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
+      "title": "Leading UK Universities for Computer Engineering",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Greenwich University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_comp_engg_ug_Greenwich_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_comp_engg_ug_Greenwich_University-image4.png",
+          "desc": "University of Middlesex"
+        },
+        {
+          "name": "London's Brunel University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_comp_engg_ug_London_s_Brunel_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_comp_engg_ug_London_s_Brunel_University-image2.png",
+          "desc": "University of Middlesex"
+        },
+        {
+          "name": "University of Middlesex",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_comp_engg_ug_University_of_Middlesex-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_comp_engg_ug_University_of_Middlesex-image1.png",
+          "desc": "University of Middlesex is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "York University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_comp_engg_ug_York_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_comp_engg_ug_York_University-image3.png",
+          "desc": "York University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Computer Engineering Study in the United Kingdom",
+      "lead": "The university, qualification, prior academic performance and desired degree level all influence admission requirements.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "After Class 12, Undergraduate Eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "When applying for a BEng or an integrated MEng in Computer Engineering, Indian students often require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completing Class 12 successfully from an accredited board.",
+            "Strong academic performance that satisfies the requirements of the university.",
+            "Many computer engineering programs require mathematics as a topic.",
+            "Depending on the course, physics or another recognized STEM topic may be required.",
+            "When necessary, proof of English language competency.",
+            "Any additional requirements unique to the course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian qualification equivalencies are determined by universities. Higher grades in mathematics and other pertinent areas may be expected in competitive programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A integrated foundation year or another authorized pathway may be available to students who do not fulfill direct-entry requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Computer Engineering Admission Requirements in the United Kingdom",
+      "lead": "Students should check their chosen universities' application requirements as well as their academic qualifications.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Academic requirements"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Universities frequently evaluate Class 12 performance, subject combinations, and math readiness for undergraduate applications.",
+            "Universities typically evaluate bachelor's degree achievements, pertinent technical expertise, and the applicability of prior qualifications for postgraduate applications.",
+            "Each course and institution has a different needed percentage or grade."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Unless the university grants an exemption, international students are typically required to demonstrate English language proficiency."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS Academic",
+            "The TOEFL iBT",
+            "PTE Academic",
+            "Additional exams that the institution has approved"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For some engineering schools, an IELTS Academic score of roughly 6.0 to 6.5 overall can serve as a starting point for planning. It is not a universal prerequisite. Higher scores or minimum performance in specific components may be required by some universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exams for Admission"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "There isn't a single worldwide admission exam required for the majority of UK computer engineering programs.",
+            "Academic credentials, English language ability, and the university's application evaluation are frequently used to determine admission. Certain institutions could ask for more evaluations or proof of technological readiness."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of studying computer engineering in the United Kingdom",
+      "lead": "The university, degree level, length of the course, housing, and personal expenses all affect how much it costs to study computer engineering in the UK.",
+      "groups": []
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of tuition",
+      "lead": "For planning purposes, overseas tuition costs for the undergraduate courses connected to computer engineering mentioned above range from roughly £17,000 to £33,000 per year for the given 2026/27 instances.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For a three-year degree, the total cost of tuition can be high, and fees may go up in subsequent years. Postgraduate courses and integrated master's programs have different cost schedules."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Living Costs"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of living varies by place. In general, the cost of living in London is higher than in many other cities.",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Typical costs consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accommodations and utilities",
+            "Food and groceries",
+            "Transportation within the local area",
+            "Internet and mobile services",
+            "Books and study guides",
+            "Personal costs",
+            "Costs associated with laboratories or equipment, if relevant"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Aid",
+      "title": "Financial aid and scholarships",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indian students could explore :"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for international students at universities",
+            "Awards for academic merit",
+            "Scholarships for teachers in engineering or technology",
+            "Scholarship programs that are country-specific",
+            "Opportunities for outside funding for qualified candidates"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "The UK's Computer Engineering Admissions Process",
+      "lead": "",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select Your Level of Study",
+              "desc": "Choose between a postgraduate MSc, an integrated MEng, or an undergraduate BEng."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of colleges",
+              "desc": "Examine the course modules, practical facilities, placement options, length of the course, cost of tuition, location, and accreditation."
+            },
+            {
+              "step": 3,
+              "title": "Verify Your Eligibility",
+              "desc": "Examine the university's prerequisites for academic grades, English fluency, mathematics, physics, or other STEM disciplines, and Indian credentials."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "Undergraduate candidates typically apply via UCAS or another method that the university designates. The university's web portal is typically used by postgraduate applicants."
+            },
+            {
+              "step": 5,
+              "title": "Send in Corresponding Documents",
+              "desc": "Academic records, the results of any needed English tests, a personal statement or statement of purpose, reference information, and any other information requested should be provided."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine Your Offer",
+              "desc": "Verify if the offer is unconditional or conditional. Recognize all deadlines, criteria for deposits, tuition, and academic conditions."
+            },
+            {
+              "step": 7,
+              "title": "Accept the Offer",
+              "desc": "Follow the university's instructions to complete the necessary acceptance procedures and make preparations for the tuition deposit."
+            },
+            {
+              "step": 8,
+              "title": "Get Your Study Acceptance Confirmation",
+              "desc": "The university may issue a Confirmation of Acceptance for Studies (CAS) for the student visa procedure if you have fulfilled the necessary requirements and are prepared to sponsor you."
+            },
+            {
+              "step": 9,
+              "title": "Request a Student Visa for the UK",
+              "desc": "In compliance with the most recent UK immigration regulations, prepare the necessary documentation and submit the student visa application."
+            },
+            {
+              "step": 10,
+              "title": "Plan Your Travel and Lodging",
+              "desc": "Prior to departure, make plans for lodging, money, transport, medical needs, and university enrollment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and Professional Recognition for Computer Engineering in the United Kingdom",
+      "lead": "For students who wish to pursue a long-term engineering career, professional accreditation is crucial.",
+      "groups": []
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation in Engineering",
+      "lead": "The Institution of Engineering and Technology (IET) accredits certain degrees in Computer Engineering and Computer Systems Engineering on behalf of the Engineering Council.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A program's accreditation shows that it has been evaluated in accordance with pertinent professional engineering education requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Is Professional Registration Guaranteed by the Degree?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "No. A person cannot become a Incorporated Engineer or Chartered Engineer only by earning a degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For their preferred professional registration route, students should confirm the academic prerequisites, applicable intake years, and accreditation status."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Pay and career options for Computer Engineers in the United Kingdom",
+      "lead": "Graduates in computer engineering can work in a variety of technological sectors, including robots, embedded systems, hardware, software, electronics, and communications.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Technical expertise, real-world experience, project work, geography, employer demands, and general labor market conditions all influence employment prospects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Prospective Employment Possibilities"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A computer engineer",
+            "Engineer for Computer Systems",
+            "Engineer for Embedded Systems",
+            "A Hardware Engineer",
+            "Engineer in Electronics",
+            "A software engineer",
+            "The Network Engineer",
+            "A robotics engineer.",
+            "Engineer for Cybersecurity",
+            "Engineer for Systems Integration"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Expectations for Salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The role, employer, industry, technical specialization, experience, and location all affect salary. The earnings listed below are not guaranteed for all graduates in computer engineering; rather, they are indicative UK reference points for related occupations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Software Engineer: According to prospects, graduate earnings typically range from £30,000 to £31,000 annually. Its stated guidance provides a range of around £42,000–£69,000 with several years of experience, with top posts occasionally earning more."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics Engineer: According to the UK National Careers Service, the income range is roughly £28,000 for beginners to £60,000 for seasoned professionals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sectors Employing Graduates in Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Among the possible industries are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Technology and software",
+            "Development of semiconductors and electronics",
+            "Telecommunications",
+            "Transportation and automotive technologies",
+            "Industrial automation and robotics",
+            "Defense and aerospace",
+            "Electronics for consumers",
+            "Infrastructure for computers and the cloud",
+            "Medical equipment",
+            "Manufacturing",
+            "Investigation and advancement",
+            "Consultancy for engineering"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed",
+      "lead": "The university, course level, and visa restrictions determine the precise paperwork checklist.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Applicants who are undergraduates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students might require:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Class 10 grade report and certificate",
+            "Class 12 grade report and certificate",
+            "Academic records",
+            "The results of any necessary English language tests",
+            "The university's application form or the UCAS application details",
+            "Reactions to personal statements",
+            "A scholarly source",
+            "The institution has sought additional documents."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Student Visas"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may require the following for the visa application process:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verification of Acceptance for Research (CAS)",
+            "A valid passport or other travel paperwork",
+            "Financial proof that satisfies the necessary standards",
+            "When necessary, proof in the English language",
+            "The application's specified academic evidence",
+            "Results of a tuberculosis test, if necessary given the applicant's situation",
+            "Extra paperwork that UK Visas and Immigration has required"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The specifics of each case and the current immigration regulations determine which documents are needed. Instead of depending solely on a generic list, applicants should adhere to the official UK Government checklist."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to pursue computer engineering studies in the UK?",
+      "a": "Indeed. After Class 12, qualified Indian students can apply to appropriate BEng or integrated MEng programs. Mathematics is a prerequisite for many courses, which may also include physics or another STEM subject. Each university has different prerequisites for admission."
+    },
+    {
+      "q": "How long do computer engineering courses last in the UK?",
+      "a": "In England, Wales, and Northern Ireland, a BEng typically takes three years. An MSc typically takes one year full-time, but an integrated MEng often takes four years. The period may be extended by placement years or foundation years."
+    },
+    {
+      "q": "What is the cost of studying computer engineering in the United Kingdom?",
+      "a": "For the designated 2026–2027 entering years, published international tuition costs for the undergraduate course examples in this book vary from roughly £17,000 to £33,000 per year. Budgeting is required for living expenses, visa fees, insurance-related costs, and annual tuition hikes."
+    },
+    {
+      "q": "What careers in the UK may I pursue after earning a computer engineering degree?",
+      "a": "Graduates can work as Computer Engineers, Embedded Systems Engineers, Hardware Engineers, Electronics Engineers, Software Engineers, Network Engineers, Robotics Engineers, or Systems Integration Engineers. Opportunities are based on the labor market, company requirements, experience, and skill levels."
+    },
+    {
+      "q": "Q 5. After earning a degree in computer engineering, may I remain in the UK?",
+      "a": "Graduates who meet the requirements may apply for a Graduate visa. According to regulations released in October 2026, qualified bachelor's and master's degree holders who apply on or after January 1, 2027, will be granted an 18-month graduate visa. Students should check the current criteria on the official UK Government website since rules may change prior to future graduation dates."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may plan their study abroad experience, organize their application materials, research appropriate universities, and comprehend admission requirements with the assistance of Edu Hawk Worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ],
+  "seo": {
+    "title": "Study Computer Science in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "In order to build, develop, and enhance contemporary computing technology, computer engineering integrates computer hardware, software, electronics, and digital",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
+}

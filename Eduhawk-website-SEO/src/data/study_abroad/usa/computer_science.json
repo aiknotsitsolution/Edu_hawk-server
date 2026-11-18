@@ -1,0 +1,100 @@
+{
+  "seo": {
+    "title": "Study Computer Science in USA for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Computer Science in the USA: Top universities like MIT, Stanford, CMU, UC Berkeley. Explore undergraduate, master's (MS), PhD courses, tuition fees, eligibility, and F-1 visa guide.",
+    "keywords": "Study Bachelor's in Computer Science in USA for Indian Students, MS in Computer Science in USA, Computer Science Courses in USA for International Students, Computer Science Admission Requirements in USA, Computer Science Tuition Fees in USA for Indian Students, Computer Science Scholarships for Indian Students in USA, Top Computer Science Colleges in America, Computer Science Eligibility After 12th in India, GRE Requirements for MS in Computer Science in USA, English Language Tests for US Universities, Career Opportunities After Computer Science in USA, Artificial Intelligence and Data Science Courses in USA, USA Student Visa for Indian Computer Science Students"
+  },
+  "hero": {
+    "badge": "Study Abroad - USA",
+    "title": "Study Computer Science in the United States",
+    "subtitle": "The United States' cutting-edge technology ecosystem, internationally renowned universities, research facilities, and industry-focused education make it a popular choice for international students pursuing Computer Science in the USA.",
+    "image": "/uploads/study_abroad/usa/mit.webp",
+    "ctaText": "Apply for USA Computer Science"
+  },
+  "stats": [
+    {
+      "n": "4 Yrs / 1-2 Yrs",
+      "l": "BS (4 Yrs) / MS (1-2 Yrs) / PhD (4-6 Yrs)"
+    },
+    {
+      "n": "$20K - $60K",
+      "l": "Indicative Tuition Fees / Year"
+    },
+    {
+      "n": "3-Year STEM",
+      "l": "OPT Work Authorization Post-Study"
+    },
+    {
+      "n": "Top 1-5 Global",
+      "l": "MIT, Stanford, CMU, UC Berkeley"
+    }
+  ],
+  "highlights": {
+    "degree": "B.S. / M.S. / Ph.D. in Computer Science",
+    "duration": "4 Years (UG) / 1–2 Years (MS) / 4–6 Years (PhD)",
+    "fee": "$20,000 – $60,000 / Year (varies by public vs private)",
+    "eligibility": "10+2 with Math/Science (UG) | Bachelor's in CS/Related + GRE (MS)",
+    "medium": "English"
+  },
+  "overview": "Artificial Intelligence, Machine Learning, Cybersecurity, Data Science, Software Engineering, Cloud Computing, and Computer Systems are just a few of the many specialties available to students.\", \"Depending on their prior education and future goals, students can choose among undergraduate, graduate, doctoral, and specific diploma or certificate programs.\n\nU.S. universities offer access to an internationally acknowledged academic curriculum, cutting-edge technology expertise, world-class research facilities, and practical industry internships.\", \"Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities.",
+  "universities": [
+    {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "location": "Cambridge, Massachusetts, USA",
+      "fee": "$58,000 – $62,000 / Year",
+      "image": "/uploads/study_abroad/usa/mit.webp",
+      "img": "/uploads/study_abroad/usa/mit.webp",
+      "desc": "Computer science, artificial intelligence, algorithms, and computer systems are all taught at the Massachusetts Institute of Technology (MIT)."
+    },
+    {
+      "name": "Stanford University",
+      "location": "Stanford, California, USA",
+      "fee": "$59,000 – $64,000 / Year",
+      "image": "/uploads/study_abroad/usa/stanford.webp",
+      "img": "/uploads/study_abroad/usa/stanford.webp",
+      "desc": "Computer science, machine learning, systems, and technology innovation are all taught at Stanford University."
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "location": "Pittsburgh, Pennsylvania, USA",
+      "fee": "$58,000 – $62,000 / Year",
+      "image": "/uploads/study_abroad/usa/cmu.webp",
+      "img": "/uploads/study_abroad/usa/cmu.webp",
+      "desc": "Computer science, robotics, software engineering, and artificial intelligence are all taught at Carnegie Mellon University."
+    },
+    {
+      "name": "University of California, Berkeley",
+      "location": "Berkeley, California, USA",
+      "fee": "$44,000 – $48,000 / Year",
+      "image": "/uploads/study_abroad/usa/berkeley.webp",
+      "img": "/uploads/study_abroad/usa/berkeley.webp",
+      "desc": "Computer science, data science, computer systems, and theoretical computing are taught at the University of California, Berkeley."
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Indian students who have completed their Class 12 education pursue undergraduate studies in computer science in the United States?",
+      "answer": "Yes, after completing Class 12 or an equivalent degree, Indian students can apply to undergraduate computer science degree programs. Academic success, subject-specific prerequisites, English language proficiency, and the specific standards set by individual universities all play a role in university admissions decisions."
+    },
+    {
+      "question": "How long does it usually take to earn a degree in computer science in the US?",
+      "answer": "A master's degree usually involves one to two years of coursework and research, while an undergraduate bachelor's degree normally requires four years. After completing a bachelor's degree, doctoral programs typically take four to six years, though this time may vary based on program design and research requirements."
+    },
+    {
+      "question": "What requirements must be met in order to be admitted to a master's program in computer science in the United States?",
+      "answer": "In general, candidates must have an approved bachelor's degree in computer science or a similar field, exhibit good academic standing, show proficiency in the English language where necessary, and provide the necessary supporting paperwork. Additionally, some universities may require completion of particular prerequisite courses."
+    },
+    {
+      "question": "Are computer science courses in the US required to include mathematics?",
+      "answer": "A key component of most computer science programs is mathematics. Depending on program requirements, graduate candidates may need to have studied discrete mathematics, calculus, probability theory, or linear algebra, while undergraduate candidates could need to have completed mathematical coursework in their previous schooling."
+    },
+    {
+      "question": "Are master's programs in computer science required to take the Graduate Record Examination (GRE)?",
+      "answer": "No. There is a lot of diversity in GRE requirements between programs and universities. GRE scores are required by some universities, optional by others, and not included in their evaluation criteria by yet others. For each program of interest, prospective students should find out the current admissions policies."
+    },
+    {
+      "question": "How can Edu Hawk Worldwide Consultancy help me study abroad?",
+      "answer": "Edu Hawk Worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
+    }
+  ]
+}

@@ -1,10 +1,11 @@
+import cmsData from "../../data/medical_colleges/uzbekistan.json";
 // import React, { useState } from "react";
-// import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-// import kernal from "../../Images/Russia/about-russia.jpg";
+// import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+// import kernal from "../../Images/Russia/about-russia.webp";
 // import Russianflag2 from "../../Images/country flag png/Russia.svg";
-// import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-// import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-// import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+// import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+// import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+// import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 // import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 // import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 // const Uzbekistan = () => {
@@ -44,7 +45,7 @@
 //           </div>
 //           <div>
 //             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-//               Explore MBBS Opportunities in UZBEKISTAN 2025–2026
+//               Explore MBBS Opportunities in UZBEKISTAN 2026–2027
 //             </h2>
 //           </div>
 //         </div>
@@ -226,7 +227,7 @@
 //         <div className="grid md:grid-cols-2 gap-12 mb-20">
 //           <div>
 //             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-//               Advantages of Studying MBBS in UZBEKISTAN 2025–2026
+//               Advantages of Studying MBBS in UZBEKISTAN 2026–2027
 //             </h2>
 
 //             <div className="space-y-6">
@@ -335,7 +336,7 @@
 //             </ul>
 
 //             <p className="mt-6">
-//               <strong>Approximate monthly living expenses (2025–2026):</strong>
+//               <strong>Approximate monthly living expenses (2026–2027):</strong>
 //             </p>
 //             <ul className="list-disc pl-6 mt-4 space-y-2">
 //               <li>Hostel / Accommodation: ₹8,000 – ₹18,000</li>
@@ -358,7 +359,7 @@
 //       <div className="py-16 bg-white">
 //         <div className="container mx-auto px-4 max-w-6xl">
 //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-10">
-//             Admission Process for MBBS in Russia 2025–2026
+//             Admission Process for MBBS in Russia 2026–2027
 //           </h2>
 
 //           <div className="max-w-4xl mx-auto">
@@ -437,7 +438,7 @@
 //             {/* Left - Required Documents */}
 //             <div>
 //               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-//                 Required Documents for MBBS in Russia 2025–2026
+//                 Required Documents for MBBS in Russia 2026–2027
 //               </h2>
 
 //               <div className="space-y-6">
@@ -525,7 +526,7 @@
 //       <div className="py-16 bg-white">
 //         <div className="container mx-auto px-4 max-w-5xl">
 //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-//             MBBS in Russia vs MBBS in India – Quick Comparison (2025–2026)
+//             MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
 //           </h2>
 
 //           <div className="overflow-x-auto">
@@ -606,12 +607,13 @@
 
 
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/Russia/about-russia.jpg";
-import Russianflag2 from "../../Images/country flag png/uzebkistan.png";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import SeoHead from "../../component/SeoHead.jsx";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/Russia/about-russia.webp";
+import Russianflag2 from "../../Images/country flag png/uzebkistan.webp";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 import { useNavigate } from "react-router-dom";
@@ -624,17 +626,26 @@ const Uzbekistan = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Uzbekistan 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        description={cmsData?.seo?.description || "Explore MBBS in Uzbekistan for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
+        keywords={cmsData?.seo?.keywords || "mbbs in uzbekistan, uzbekistan mbbs fees, study mbbs uzbekistan, uzbekistan medical universities"}
+        path="/mbbs-abroad/uzbekistan"
+        ogType="website"
+      />
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840"
+            src={cmsData?.hero?.image || "https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840"}
             alt="Uzbekistan Landscape"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840 1x, https://ik.imagekit.io/syustaging/SYU_PREPROD/Campus_vYiO8Uzxk.webp?tr=w-3840 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN UZBEKISTAN
+              {cmsData?.hero?.title || "STUDY MBBS IN UZBEKISTAN"}
             </h1>
           </div>
         </div>
@@ -647,13 +658,18 @@ const Uzbekistan = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={250}
+              height={250}
               alt="Uzbekistan flag"
               className="w-32 md:w-40"
-            />
+                  srcSet={`${Russianflag2} 1x, ${Russianflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Uzbekistan 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Uzbekistan 2026–2027"}
             </h2>
           </div>
         </div>
@@ -722,9 +738,12 @@ const Uzbekistan = () => {
           <div>
             <img
               src="https://media.licdn.com/dms/image/v2/D5622AQH_NBaVS2Wr5A/feedshare-shrink_800/B56Ze8aBxrGQAg-/0/1751212639737?e=2147483647&v=beta&t=lNBxoP-lnV2mO5eyrjFmkmEY8AvTYjOmiSBrAKIkeoM"
+              loading="lazy"
               alt="Uzbekistan"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet="https://media.licdn.com/dms/image/v2/D5622AQH_NBaVS2Wr5A/feedshare-shrink_800/B56Ze8aBxrGQAg-/0/1751212639737?e=2147483647&v=beta&t=lNBxoP-lnV2mO5eyrjFmkmEY8AvTYjOmiSBrAKIkeoM 1x, https://media.licdn.com/dms/image/v2/D5622AQH_NBaVS2Wr5A/feedshare-shrink_800/B56Ze8aBxrGQAg-/0/1751212639737?e=2147483647&v=beta&t=lNBxoP-lnV2mO5eyrjFmkmEY8AvTYjOmiSBrAKIkeoM 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -741,7 +760,7 @@ const Uzbekistan = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -796,7 +815,7 @@ const Uzbekistan = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities" className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Uzbekistan
+            {cmsData?.universitiesHeading || "Top Medical Universities in Uzbekistan"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -832,8 +851,11 @@ const Uzbekistan = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">
@@ -936,6 +958,97 @@ const Uzbekistan = () => {
         {/* Admission Process, Documents, etc. - kept structure, updated country names where needed */}
         {/* ... You can paste the remaining sections from your original code here, replacing Russia → Uzbekistan and adjusting minor text as above ... */}
 
+        {/* ==================== COMPARISON TABLE ==================== */}
+        <div className="py-16 bg-white">
+          <div className="container mx-auto px-4 max-w-5xl">
+            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
+              MBBS in Uzbekistan vs MBBS in India – Quick Comparison (2026–2027)
+            </h2>
+
+            <div className="overflow-x-auto shadow-md rounded-lg">
+              <table className="min-w-full border-collapse border border-gray-300 text-left">
+                <thead>
+                  <tr className="bg-blue-900 text-white">
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Parameter
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in Uzbekistan
+                    </th>
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India (Government vs. Private)
+                    </th>
+                  </tr>
+                </thead>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      parameter: "Tuition Fees (Per Year)",
+                      uzbekistan: "$2,500 – $4,500 (~₹2.5 to ₹4.5 lakh per year)",
+                      india: "Government: ₹10,000 – ₹50,000 per year\nPrivate/Deemed: ₹10 Lakhs – ₹25+ Lakhs per year (Total ₹60L – ₹2Cr+)"
+                    },
+                    {
+                      parameter: "Course Duration",
+                      uzbekistan: "6 Years (5 years academic + 1 year clinical internship)",
+                      india: "5.5 Years (4.5 years academic + 1 year mandatory rotating internship)"
+                    },
+                    {
+                      parameter: "Class Strength",
+                      uzbekistan: "Generally larger or moderate international student batches (varies by university)",
+                      india: "Regulated by the National Medical Commission (NMC); fixed intake capacity per college"
+                    },
+                    {
+                      parameter: "Global Recognition",
+                      uzbekistan: "Recognized by NMC, WHO, and listed in the WDOMS (World Directory of Medical Schools)",
+                      india: "Recognized by NMC and globally accepted (Gold standard in India)"
+                    },
+                    {
+                      parameter: "Medium of Instruction",
+                      uzbekistan: "English for international/Indian student cohorts",
+                      india: "English"
+                    },
+                    {
+                      parameter: "Hostel & Food",
+                      uzbekistan: "Available; many universities offer Indian mess/food options or low-cost campus housing (~₹1,50,000 to ₹2 Lakh/year)",
+                      india: "Varies; government colleges have heavily subsidized mess/hostels, while private ones vary widely"
+                    },
+                    {
+                      parameter: "Insurance & Visa",
+                      uzbekistan: "Annual visa extension, medical insurance, and documentation add ₹1.5 – ₹2 Lakhs total over the course",
+                      india: "Domestic student status (no visa or international insurance required)"
+                    },
+                    {
+                      parameter: "Other Costs",
+                      uzbekistan: "Flights (Delhi to Tashkent ~3 hours, ~₹10k–₹25k one way), books, local transport (Yandex/trains), and FMGE/NExT prep (~₹15L – ₹25L total comprehensive cost)",
+                      india: "Books, uniform, local living expenses, and minimal coaching fees"
+                    },
+                    {
+                      parameter: "Licensing to Practice in India",
+                      uzbekistan: "Must qualify NEET beforehand and clear the FMGE / NExT exam upon return",
+                      india: "Direct registration with State Medical Council / NMC after internship completion"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.parameter || row.feature}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.uzbekistan}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
         {/* Example: FAQs with better design */}
         <div className="py-16 bg-white">
           <div className="container mx-auto px-4 max-w-5xl">
@@ -949,7 +1062,7 @@ const Uzbekistan = () => {
                   Why study MBBS in Uzbekistan? Is it a good option for Indian students?
                 </summary>
                 <p className="mt-4 text-gray-700">
-                  Affordable fees (~₹20–35 lakhs total), NMC/WHO approved, English medium, modern infrastructure, safe & budget-friendly living — ideal for Indian students.
+                  Affordable fees (~₹20–35 lakhs total), NMC/WHO recognized, English medium, modern infrastructure, safe & budget-friendly living — ideal for Indian students.
                 </p>
               </details>
 

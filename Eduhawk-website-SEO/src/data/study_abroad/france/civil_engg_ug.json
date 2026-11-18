@@ -1,0 +1,700 @@
+{
+  "hero": {
+    "title": "Civil Engineering UG in French",
+    "subtitle": "\\\\Undergraduate civil engineering in France\\\\ is an attractive option for students interested in \\\\construction, structural design, transportation infrastructure, bridges, roads and sustainable urban development\\."
+  },
+  "overview": [
+    "\\\\Study Civil engineering is longstanding traditions in France\\\\, including in buildings, transport infrastructure, water management, public works and urban development.",
+    "\\\\Practical experience:\\\\ Some programs include lab sessions, design projects, site related learning and industry placements.",
+    "\\\\Specialisations:\\\\ Students can choose from \\\\structural engineering, geotechnics, transport, construction management and sustainable infrastructure\\."
+  ],
+  "universities": [
+    {
+      "name": "Toulouse INSA",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Toulouse_INSA.webp",
+      "image": "/uploads/study_abroad/france/france_Toulouse_INSA.webp",
+      "desc": "INSA Toulouse provides a specialization in civil engineering in the fields of buildings, infrastructure, public works and urban development. Its civil engineering engineering:school course is taught in the French language and lasts five years."
+    },
+    {
+      "name": "INSA Strasbourg",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_INSA_Strasbourg.webp",
+      "image": "/uploads/study_abroad/france/france_INSA_Strasbourg.webp",
+      "desc": "\\\\INSA Strasbourg offers a civil engineering specialisation\\\\ in structural design, building materials, geotechnics, hydraulics, surveying and urban development. The normal route is via its engineering school and is a five:year program, depending on previous education"
+    },
+    {
+      "name": "ESTP (Special School of Public Works )",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "\\\\ESTP\\\\ is a specialist in \\\\construction, civil engineering, infrastructure and related built:environment disciplines\\."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why study Civil Engineering in France?",
+      "lead": "\\\\Study Civil engineering is longstanding traditions in France\\\\, including in buildings, transport infrastructure, water management, public works and urban development.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Key benefits include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Education oriented on engineering:\\\\ Get to know \\\\structural mechanics, construction materials, soil mechanics, hydraulics and building technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Practical experience:\\\\ Some programs include lab sessions, design projects, site related learning and industry placements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Specialisations:\\\\ Students can choose from \\\\structural engineering, geotechnics, transport, construction management and sustainable infrastructure\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Study abroad:\\\\ A few courses are taught in English but most civil engineering courses are in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further education:\\\\ Graduates can apply for relevant \\\\master's programmes\\\\ or engineering qualifications subject to admission requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\International career potential:\\\\ \\\\Civil engineering skills\\\\ can be used in construction, infrastructure, consultancy and project delivery in many countries."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Civil Engineering Courses in France",
+      "lead": "\\\\Civil engineering courses in France\\\\ deal with the planning, design, construction and maintenance of infrastructure and the built environment.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Some common fields of study include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Civil Engineering:\\\\ Principles of construction, engineering materials, surveying, and project design."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Structural Engineering:\\\\ Structural analysis, reinforced concrete, steel structures, building safety."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Construction Engineering:\\\\ Construction methods, planning, cost estimating and project management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Geotechnical Engineering:\\\\ Soil mechanics, foundation, ground investigation, slope stability."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Transportation Engineering:\\\\ Roads, rail, transportation infrastructure and mobility systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\Water and Environmental Engineering:\\\\ Water resources, drainage, hydraulics, sustainable infrastructure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Urban Infrastructure:\\\\ Public spaces, utilities, urban planning and infrastructure development."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Construction Management:\\\\ Project scheduling, contracts, cost control and site coordination."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration of program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Bachelor's degree or Licence:\\\\ usually 3 years long."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\French engineering-school route:\\\\ usually 5 years after secondary school."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on program rules, some engineering schools may confer an intermediate institutional bachelor's-level qualification after three years."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Civil Engineering Undergraduate Schools in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Toulouse INSA",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Toulouse_INSA.webp",
+          "image": "/uploads/study_abroad/france/france_Toulouse_INSA.webp",
+          "desc": "INSA Toulouse provides a specialization in civil engineering in the fields of buildings, infrastructure, public works and urban development. Its civil engineering engineering:school course is taught in the French language and lasts five years."
+        },
+        {
+          "name": "INSA Strasbourg",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_INSA_Strasbourg.webp",
+          "image": "/uploads/study_abroad/france/france_INSA_Strasbourg.webp",
+          "desc": "\\\\INSA Strasbourg offers a civil engineering specialisation\\\\ in structural design, building materials, geotechnics, hydraulics, surveying and urban development. The normal route is via its engineering school and is a five:year program, depending on previous education"
+        },
+        {
+          "name": "ESTP (Special School of Public Works )",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "\\\\ESTP\\\\ is a specialist in \\\\construction, civil engineering, infrastructure and related built:environment disciplines\\."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to study Civil Engineering UG in France",
+      "lead": "These \\\\eligibility requirements in France for civil engineering\\\\ are typically demanded from international applicants:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "completing secondary school successfully, which is similar to the French \\baccalauréat."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "a strong academic record in both physics and mathematics."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemistry or other disciplines if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language proficiency for courses taught in English, or French language proficiency for courses taught in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Any admission test, interview or other academic assessment required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 12 with mathematics and physics is often relevant for \\\\undergraduate civil engineering admission in France\\\\ for \\\\Indian students\\. Different institutions have different minimum grades and subject combinations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements for UG Civil Engineering in France",
+      "lead": "\\\\Typical civil engineering admission requirements in France\\\\ include:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Mark sheets of class X and XII or academic transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certificate of secondary school completion."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passport is valid"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of proficiency in either French or English, if appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letter of Motivation / Statement of purpose"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV on request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Filled application form."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of entrance test or interview, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Selective programs may assess \\\\mathematics and physics preparation\\\\, academic performance, motivation and suitability for engineering studies"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Tuition Fees for Civil Engineering in France",
+      "lead": "\\\\Cost of studying civil engineering in France\\\\ depends on the institution, qualification, status of a student and exemptions that apply.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Costs at public institutions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For the \\\\academic year 2026-2027\\\\, Campus France indicates the following differentiated tuition fees for non-EU students in accordance with the national regulations:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Bachelor's degree level \\",
+              "d": "€2,902"
+            },
+            {
+              "t": "Master's level degree \\",
+              "d": "€3,950"
+            },
+            {
+              "t": "Doctorate \\",
+              "d": "€398"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The published annual rate for eligible French/EU category students is €178 for a bachelor's degree and €630 for many public engineering-degree programs. Rates can differ between schools, and there may be exemptions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are indicative rates and not guaranteed fees for every program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional cost of living"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should make separate budgets for:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accommodation and services."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food & Groceries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transportation in the area."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health care and insurance expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books, study material and personal expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Visa and residency expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The \\\\cost of living in France\\\\ will depend on the city and the housing option."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Also, before making your annual budget, check out the location of the university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "France UG Admission Process for Civil Engineering",
+      "lead": "The typical \\\\admission process for undergraduate civil engineering in France\\\\ is as follows:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Select your field of study: focus on structural, construction, transport, geotechnics or environmental infrastructure."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist universities:\\\\ Compare the content of the programs, the type of degree, the language of instruction, fees and the accreditation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check the admissions route:\\\\ Find out if the school accepts direct applications or needs a national platform or \\\\Études en France procédure\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Gather your documents:\\\\ Get your academic transcripts, passport information, language proficiency test results and motivation documents ready."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Submit your application:\\\\ Complete the application process by the specified deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Last Steps:\\\\ Take an interview or entrance test if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Accept your offer:\\\\ Follow the institution's enrollment instructions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Apply for a student visa:\\\\ After you have received the required admission documents, follow the relevant \\\\French student visa procedure\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and recognition of civil engineering in France",
+      "lead": "\\\\In France, accreditation\\\\ Civil engineering is important when comparing a bachelor's program with an engineering-school diploma.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The \\\\Commission des titres d'ingénieurs (CTI)\\\\ evaluates qualifying engineering programs and authorizes institutions to award the French \\diplôme d'ingénieur\\ It is a different qualification, a three-year bachelor's degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should: Pre-enrolment"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check what qualification will be granted."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\CTI accreditation\\\\ if they want a French engineering degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The qualification must be suitable for further education."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check any requirements for professional registration or recognition in the country they intend to work."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Opportunities after Civil Engineering UG in France",
+      "lead": "\\\\Civil engineering graduates in France\\\\ can find jobs in construction, infrastructure, consultancy, transport, building design and project delivery. Your career options are dependent on your qualification, technical skills, work experience, language proficiency and work authorization.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Possible career paths include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Civil engineer by graduation.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Junior Structural Design Engineer\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Site or building engineer.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CAD or BIM Technician.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Quantity surveyor or cost-estimation assistant.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineer of transport infrastructure.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Assistant for geotechnical engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Project planning or coordination specialist"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Water & environmental infrastructure specialist.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Salary expectations\\\\ Salaries differ depending on job title, location, employer, qualification and experience."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Civil Engineering UG in France",
+      "lead": "The following documents could be needed for admission in civil engineering in France:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Passport must be valid."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marksheet and Certificate of Class 10."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 12 Mark sheet and completion certificate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic transcripts and grade information, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Language test results in French or English, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Purpose Statement or Letter of Motivation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV available on request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation if asked for."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form. - Certified translations of documents when applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other documentation required by the university or admissions platform."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After admission, students may need additional documents for \\\\French student visa processing\\\\, proof of finances, accommodation and final enrollment."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "\\\\Q1. Is it possible for Indian students to study Undergraduate Civil Engineering in France?\\\\",
+      "a": "Yes. \\\\Indian students can do civil engineering in France\\\\ if they meet academic, language and application criteria, by applying to eligible bachelor's and engineering-school courses."
+    },
+    {
+      "q": "\\\\Q2. How long is the civil engineering bachelor's degree in France?\\\\",
+      "a": "A \\\\civil engineering bachelor's degree\\\\ is usually a three-year program. A traditional \\\\ French engineering-school track \\\\ is usually five years post-high school ."
+    },
+    {
+      "q": "\\\\Q3. Are courses in civil engineering in France taught in English?\\\\",
+      "a": "Many of the traditional civil engineering engineering-school curricula are taught in French. There are some modules or exchange options taught in English, but students should verify that the entire degree is taught in English."
+    },
+    {
+      "q": "\\\\Q4. What is the cost of studying Civil Engineering undergraduate in France?",
+      "a": "Depends on the institution. For the academic year \\\\2026-2027\\\\, the published differentiated fee for non-EU students governed by the rules of the relevant public institution is \\\\€2,902 per year at bachelor level. Fee schedules can differ from engineering school to engineering school."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me to study overseas?",
+      "a": "\\\\Edu Hawk worldwide consultancy\\\\ can assist students in finding suitable universities, understanding admission requirements, organizing application documents, and planning their \\\\study-abroad journey. Students should contact the relevant authorities concerning academic, financial, immigration and licensing requirements."
+    }
+  ],
+  "seo": {
+    "title": "Civil Engineering UG in French | Edu-Hawk Worldwide",
+    "description": "\\\\Study Civil engineering is longstanding traditions in France\\\\, including in buildings, transport infrastructure, water management, public works and urban dev",
+    "keywords": "Study Civil Engineering in France for Indian Students, Civil Engineering Courses in France for International Students, Best Universities for Civil Engineering in France, Undergraduate Civil Engineering in France, Bachelor's Degree in Civil Engineering in France, Civil Engineering Eligibility Requirements in France, Civil Engineering Admission Requirements for Indian Students, Civil Engineering Tuition Fees in France 2026–2027, Cost of Studying Civil Engineering in France, English-Taught Civil Engineering Programmes in France, Structural Engineering Courses in France, Construction and Infrastructure Engineering in France, Geotechnical and Transportation Engineering in France, CTI Accredited Civil Engineering Schools in France, Civil Engineering Jobs and Career Opportunities in France, <"
+  }
+}

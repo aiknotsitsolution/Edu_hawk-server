@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "title": "Bachelor’s in Biomedical Engineering in Mauritius",
+    "subtitle": "Biomedical engineering is the fusion of engineering, biology, medicine and technology to create health care related equipment and systems. If you are a student interested in medical devices, artificial organs, rehabilitation technology, diagnostic equipment and healthcare innovation, this could be the field for you. Biomedical Engineering in Mauritius for Indian Students is a study option worth researching for students interested in combining engineering principles with healthcare technology."
+  },
+  "overview": [
+    "Biomedical engineering is the fusion of engineering, biology, medicine and technology to create health care related equipment and systems. If you are a student interested in medical devices, artificial organs, rehabilitation technology, diagnostic equipment and healthcare innovation, this could be the field for you. Biomedical Engineering in Mauritius for Indian Students is a study option worth researching for students interested in combining engineering principles with healthcare technology.",
+    "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications."
+  ],
+  "universities": [
+    {
+      "name": "University of Mauritius (UoM)",
+      "location": "Réduit, Mauritius",
+      "fee": "$2,500 – $4,500 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
+    },
+    {
+      "name": "Université des Mascareignes (UdM)",
+      "location": "Beau-Bassin, Mauritius",
+      "fee": "$2,000 – $4,000 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+      "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+    },
+    {
+      "name": "Middlesex University Mauritius",
+      "location": "Flic-en-Flac, Mauritius",
+      "fee": "$5,500 – $8,500 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+      "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+      "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
+    },
+    {
+      "name": "Curtin Mauritius",
+      "location": "Moka, Mauritius",
+      "fee": "$5,000 – $8,000 / Year",
+      "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+      "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Mauritian Universities",
+      "title": "Top Universities to Consider in Mauritius",
+      "lead": "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications.",
+      "unis": [
+        {
+          "name": "University of Mauritius (UoM)",
+          "location": "Réduit, Mauritius",
+          "fee": "$2,500 – $4,500 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
+        },
+        {
+          "name": "Université des Mascareignes (UdM)",
+          "location": "Beau-Bassin, Mauritius",
+          "fee": "$2,000 – $4,000 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
+          "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+        },
+        {
+          "name": "Middlesex University Mauritius",
+          "location": "Flic-en-Flac, Mauritius",
+          "fee": "$5,500 – $8,500 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+          "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
+          "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
+        },
+        {
+          "name": "Curtin Mauritius",
+          "location": "Moka, Mauritius",
+          "fee": "$5,000 – $8,000 / Year",
+          "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
+          "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Bachelor’s in Biomedical Engineering in Mauritius | Edu-Hawk Worldwide",
+    "description": "Biomedical engineering is the fusion of engineering, biology, medicine and technology to create health care related equipment and systems. If you are a student ",
+    "keywords": "Study in Mauritius, Top Universities in Mauritius, Edu Hawk Worldwide"
+  }
+}

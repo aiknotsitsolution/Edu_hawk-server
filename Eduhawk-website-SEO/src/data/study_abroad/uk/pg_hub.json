@@ -1,0 +1,388 @@
+{
+  "hero": {
+    "title": "Study Engineering in the United Kingdom",
+    "subtitle": "Graduates of postgraduate engineering programs in the UK can enhance their technical expertise, focus on a specific engineering field, and acquire sophisticated analytical, design, research, and problem-solving abilities."
+  },
+  "overview": [
+    "Graduates of postgraduate engineering programs in the UK can enhance their technical expertise, focus on a specific engineering field, and acquire sophisticated analytical, design, research, and problem-solving abilities.",
+    "Postgraduate engineering qualifications in mechanical, civil, electrical, chemical, aerospace, biomedical, automotive, electronic, software, and other engineering fields are available at UK institutions. Students may learn advanced engineering theory, computer-based modeling, industrial applications, laboratory techniques, research methodologies, and engineering project management, depending on the curriculum.",
+    "With proper planning and assistance, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, investigate international study possibilities, and prepare for the overseas education journey."
+  ],
+  "universities": [
+    {
+      "name": "University of Oxford",
+      "location": "Oxford, England, UK",
+      "fee": "£28,000 – £44,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_computer_science_University_of_Oxford-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_computer_science_University_of_Oxford-image1.png",
+      "desc": "The University of Oxford is one of the world's most prestigious collegiate research universities, offering cutting-edge laboratories, world-leading faculty, and unparalleled academic heritage."
+    },
+    {
+      "name": "University of Cambridge",
+      "location": "Cambridge, England, UK",
+      "fee": "£26,000 – £42,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_computer_science_Cambridge_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_computer_science_Cambridge_University-image2.png",
+      "desc": "The University of Cambridge provides world-renowned rigorous academic training, innovative research opportunities, and comprehensive global career placement."
+    },
+    {
+      "name": "Imperial College London",
+      "location": "London, England, UK",
+      "fee": "£30,000 – £46,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_computer_science_London_s_Imperial_College-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_computer_science_London_s_Imperial_College-image3.png",
+      "desc": "Imperial College London is a world-class science, engineering, business, and medicine institution celebrated for industrial innovation and impactful research."
+    },
+    {
+      "name": "University College London (UCL)",
+      "location": "London, England, UK",
+      "fee": "£24,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_computer_science_London_s_University_College__UCL_-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_computer_science_London_s_University_College__UCL_-image4.png",
+      "desc": "UCL is London's leading multidisciplinary university, renowned for disruptive research, diverse international communities, and strong clinical and corporate partnerships."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
+      "title": "Why Study Engineering in the UK?",
+      "lead": "Graduates of postgraduate engineering programs in the UK can enhance their technical expertise, focus on a specific engineering field, and acquire sophisticated analytical, design, research, and problem-solving abilities.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate engineering qualifications in mechanical, civil, electrical, chemical, aerospace, biomedical, automotive, electronic, software, and other engineering fields are available at UK institutions. Students may learn advanced engineering theory, computer-based modeling, industrial applications, laboratory techniques, research methodologies, and engineering project management, depending on the curriculum."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "With proper planning and assistance, Edu Hawk Worldwide Consultancy helps students understand university admission requirements, investigate international study possibilities, and prepare for the overseas education journey."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Key Advantages of Postgraduate Engineering Education in the United Kingdom"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Specialized technical knowledge: Gain superior proficiency in a particular engineering field.",
+            "Examine case studies, engineering design, simulation, lab work, and technical projects where available.",
+            "Industry-focused education: Some courses contain professional case studies, industrial projects, or industry partnership opportunities.",
+            "Research opportunities: Through a dissertation or research project, learn research techniques and explore engineering difficulties.",
+            "Professional development: Choose recognized courses that complement your planned approach for professional engineering registration.",
+            "Examine technical, project management, design, consulting, manufacturing, and research-related roles for career flexibility.",
+            "International exposure: Learn alongside international students and hone your teamwork and professional communication abilities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "UK Engineering Courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many postgraduate engineering qualifications are available from UK universities. Whether you want advanced technical instruction, research experience, managerial skills, or preparation for professional engineering duties will determine which option is best for you."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering Master of Science (MSc)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A MSc in technical is a postgraduate degree that provides advanced competence in a specific technical discipline. Instructional courses, technical assignments, lab work where necessary, and a dissertation or final project are usually included."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Potential topics include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The field of mechanical engineering",
+            "The field of civil and structural engineering",
+            "The field of electrical and electronic engineering",
+            "Chemical Engineering",
+            "The field of aerospace engineering",
+            "Automotive Engineering",
+            "The field of biomedical engineering",
+            "Automation and Robotics",
+            "The engineering of renewable energy",
+            "The field of materials engineering",
+            "The field of manufacturing engineering",
+            "The field of telecommunications engineering",
+            "The field of environmental engineering",
+            "The field of engineering design"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master of Engineering (MEng)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An integrated MEng is often an undergraduate-entry degree in the UK that combines advanced master's-level engineering instruction with bachelor's-level studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For candidates who have previously earned a bachelor's degree, it is typically not the typical postgraduate choice."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "After earning a bachelor's degree, graduates who want to continue their education should typically look into a MSc, MSc by Research, MRes, or another appropriate postgraduate qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "MSc (Engineering) or Master of Engineering Science"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A degree known as the Master of Engineering Science or MSc (Eng) is granted by certain universities. In addition to offering advanced engineering expertise, these programs may integrate taught modules with a significant project or dissertation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should compare the curriculum and award requirements because different institutions have different titles and structures."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Emerging Technologies and Advanced Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additionally, students can look into specialized postgraduate engineering programs in:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Artificial Intelligence in Engineering",
+            "Innovative Manufacturing",
+            "Sustainable Engineering",
+            "Intelligent Infrastructure",
+            "The Technology of Electric Vehicles",
+            "Systems of Energy",
+            "Autonomous Systems and Robotics",
+            "The field of digital engineering",
+            "Advanced Materials",
+            "Simulation of Engineering",
+            "Electronic and Semiconductor Systems",
+            "Technologies for Carbon Reduction"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Postgraduate Engineering Studies in the United Kingdom",
+      "lead": "The engineering subject, university, course design, and applicant's prior academic experience all influence the prerequisites for admission.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Academic Eligibility"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A recognized bachelor's degree in engineering or a closely related field.",
+            "Academic performance in line with the UK degree classification needed by the university.",
+            "Technical expertise pertinent to the selected field of expertise.",
+            "When necessary, proof of English language competency.",
+            "Any other prerequisites unique to the course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant Undergraduate Experience"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The chosen master's program determines the necessary bachelor's degree."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Select Mechanical Engineering for Advanced Mechanical Engineering.",
+            "Use Civil Engineer for structural engineering.",
+            "Electrical or electronic engineering is necessary for electrical power systems.",
+            "Chemical Engineering for Advanced Chemical Engineering.",
+            "For specialized aerospace training, choose Aerospace Engineering or a closely related field.",
+            "Certain interdisciplinary programs require backgrounds in engineering, science, or computers."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "English Language Requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Unless they are eligible for an authorized exemption, foreign applicants must normally fulfill the university's English language requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS Academic",
+            "The TOEFL iBT",
+            "PTE Academic",
+            "Other English language assessments that the organization accepts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "FAQs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Q1. After earning a bachelor's degree, are Indian students able to pursue postgraduate engineering studies in the UK?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Yes, MSc, MSc by Research, MRes, and other appropriate postgraduate engineering programs are open to eligible Indian graduates. The selected field, academic standing, and the applicability of the bachelor's degree all influence the prerequisites for admission."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Q2. How long do postgraduate engineering programs last in the UK?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many engineering master's programs that are taught full-time last one year. Certain program research, specialized, part-time, or longer–take longer. Students should ask the university to confirm the precise time frame."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Q3. How much does a postgraduate engineering degree cost in the UK?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Your career possibilities will depend on your area of expertise and past work experience. Potential careers include mechanical engineers, civil engineers, electrical engineers, chemical engineers, aerospace engineers, biomedical engineers, research engineers, and engineering project managers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Q4. What careers in the UK may I pursue after earning a masters degree in engineering?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Your specialization and prior experience will determine your career prospects. Mechanical engineers, civil engineers, electrical engineers, chemical engineers, aerospace engineers, biomedical engineers, research engineers, and engineering project managers are some possible positions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Q5. After earning a postgraduate degree in engineering, may I remain in the UK?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates who fit the requirements can apply for a graduate visa. An 18-month graduate visa is granted to qualified bachelor's and master's degree holders who apply on or after January 1, 2027, in accordance with regulations released in October 2026. Before applying, students should confirm the current prerequisites"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
+      "title": "Top Universities to Consider in the UK",
+      "lead": "Explore the leading universities and colleges in the United Kingdom offering globally recognized degrees, historic campuses, and strong international student support.",
+      "unis": [
+        {
+          "name": "University of Oxford",
+          "location": "Oxford, England, UK",
+          "fee": "£28,000 – £44,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_computer_science_University_of_Oxford-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_computer_science_University_of_Oxford-image1.png",
+          "desc": "The University of Oxford is one of the world's most prestigious collegiate research universities, offering cutting-edge laboratories, world-leading faculty, and unparalleled academic heritage."
+        },
+        {
+          "name": "University of Cambridge",
+          "location": "Cambridge, England, UK",
+          "fee": "£26,000 – £42,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_computer_science_Cambridge_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_computer_science_Cambridge_University-image2.png",
+          "desc": "The University of Cambridge provides world-renowned rigorous academic training, innovative research opportunities, and comprehensive global career placement."
+        },
+        {
+          "name": "Imperial College London",
+          "location": "London, England, UK",
+          "fee": "£30,000 – £46,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_computer_science_London_s_Imperial_College-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_computer_science_London_s_Imperial_College-image3.png",
+          "desc": "Imperial College London is a world-class science, engineering, business, and medicine institution celebrated for industrial innovation and impactful research."
+        },
+        {
+          "name": "University College London (UCL)",
+          "location": "London, England, UK",
+          "fee": "£24,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_computer_science_London_s_University_College__UCL_-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_computer_science_London_s_University_College__UCL_-image4.png",
+          "desc": "UCL is London's leading multidisciplinary university, renowned for disruptive research, diverse international communities, and strong clinical and corporate partnerships."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Study Engineering in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "Graduates of postgraduate engineering programs in the UK can enhance their technical expertise, focus on a specific engineering field, and acquire sophisticated",
+    "keywords": "Study in the UK, Best UK Universities, Edu Hawk Worldwide"
+  }
+}

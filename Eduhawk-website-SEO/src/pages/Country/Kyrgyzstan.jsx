@@ -1,6 +1,7 @@
+import cmsData from "../../data/medical_colleges/kyrgyzstan.json";
 // import React, { useState } from "react";
-// import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-// import kernal from "../../Images/kazakhstan student.jpg";
+// import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+// import kernal from "../../Images/kazakhstan student.webp";
 // import Russianflag2 from "../../Images/country flag png/Kyrgyzstan.svg";
 
 // const Kyrgyzstan = () => {
@@ -230,7 +231,7 @@
 //         <div className="grid md:grid-cols-2 gap-12 mb-20">
 //           <div>
 //             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-//               Advantages of Studying MBBS in Russia 2025–2026
+//               Advantages of Studying MBBS in Russia 2026–2027
 //             </h2>
 
 //             <div className="space-y-6">
@@ -339,7 +340,7 @@
 //             </ul>
 
 //             <p className="mt-6">
-//               <strong>Approximate monthly living expenses (2025–2026):</strong>
+//               <strong>Approximate monthly living expenses (2026–2027):</strong>
 //             </p>
 //             <ul className="list-disc pl-6 mt-4 space-y-2">
 //               <li>Hostel / Accommodation: ₹8,000 – ₹18,000</li>
@@ -362,7 +363,7 @@
 //       <div className="py-16 bg-white">
 //         <div className="container mx-auto px-4 max-w-6xl">
 //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-10">
-//             Admission Process for MBBS in Russia 2025–2026
+//             Admission Process for MBBS in Russia 2026–2027
 //           </h2>
 
 //           <div className="max-w-4xl mx-auto">
@@ -441,7 +442,7 @@
 //             {/* Left - Required Documents */}
 //             <div>
 //               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-//                 Required Documents for MBBS in Russia 2025–2026
+//                 Required Documents for MBBS in Russia 2026–2027
 //               </h2>
 
 //               <div className="space-y-6">
@@ -529,7 +530,7 @@
 //       <div className="py-16 bg-white">
 //         <div className="container mx-auto px-4 max-w-5xl">
 //           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-//             MBBS in Russia vs MBBS in India – Quick Comparison (2025–2026)
+//             MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
 //           </h2>
 
 //           <div className="overflow-x-auto">
@@ -608,10 +609,10 @@
 // export default Kyrgyzstan;
 
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/kazakhstan student.jpg";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/kazakhstan student.webp";
 import Russianflag2 from "../../Images/country flag png/Kyrgyzstan.svg";
-import { Helmet } from 'react-helmet-async';
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
 
 
@@ -623,24 +624,28 @@ const Kyrgyzstan = () => {
   return (
     <>
     
-         <Helmet>
-                      <title>MBBS in Kazakhstan for Indian Students | Fees & Admission 2026</title>
-                      <meta name="description" content="MBBS in Kazakhstan at low cost with top universities. Get details on fees, eligibility, admission process and medical colleges." />
-                      <meta name="keywords" content="mbbs in kazakhstan, kazakhstan mbbs fees, study mbbs kazakhstan, kazakhstan medical colleges, mbbs kazakhstan admission" />
-                    </Helmet>
+      <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Kyrgyzstan for Indian Students | Fees & Admission 2026-27"}
+        description={cmsData?.seo?.description || "Study MBBS in Kyrgyzstan at low cost with top NMC recognized universities. Get details on fees, eligibility, admission process and medical colleges."}
+        keywords={cmsData?.seo?.keywords || "mbbs in kyrgyzstan, kyrgyzstan mbbs fees, study mbbs kyrgyzstan, kyrgyzstan medical colleges"}
+        path="/mbbs-abroad/kyrgyzstan"
+        ogType="website"
+      />
 
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg"}
             alt="Kyrgyzstan Medical University Campus"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN KYRGYZSTAN
+              {cmsData?.hero?.title || "STUDY MBBS IN KYRGYZSTAN"}
             </h1>
           </div>
         </div>
@@ -653,13 +658,18 @@ const Kyrgyzstan = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={1000}
+              height={600}
               alt="Kyrgyzstan flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-            />
+                  srcSet={`${Russianflag2} 1x, ${Russianflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Kyrgyzstan 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Kyrgyzstan 2026–2027"}
             </h2>
           </div>
         </div>
@@ -726,9 +736,14 @@ const Kyrgyzstan = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={1500}
+              height={1000}
               alt="Kyrgyzstan student life / campus"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet={`${kernal} 1x, ${kernal} 2x`}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -745,7 +760,7 @@ const Kyrgyzstan = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -771,7 +786,7 @@ const Kyrgyzstan = () => {
                     <td className="p-4 font-semibold">
                       Universities Recognition
                     </td>
-                    <td className="p-4">NMC & WHO-approved</td>
+                    <td className="p-4">NMC & WHO-Recognized</td>
                   </tr>
                 </tbody>
               </table>
@@ -816,7 +831,7 @@ const Kyrgyzstan = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities" className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Kyrgyzstan
+            {cmsData?.universitiesHeading || "Top Medical Universities in Kyrgyzstan"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -852,8 +867,11 @@ const Kyrgyzstan = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">
@@ -1130,59 +1148,79 @@ const Kyrgyzstan = () => {
               MBBS in Kyrgyzstan vs MBBS in India – Quick Comparison (2026–2027)
             </h2>
 
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto shadow-md rounded-lg">
               <table className="min-w-full border-collapse border border-gray-300 text-left">
                 <thead>
                   <tr className="bg-blue-900 text-white">
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
-                      Criteria
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                      Parameter
                     </th>
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                       MBBS in Kyrgyzstan
                     </th>
-                    <th className="p-4 border border-gray-300 text-center font-semibold">
-                      MBBS in India
+                    <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                      MBBS in India (Government vs. Private)
                     </th>
                   </tr>
                 </thead>
-                <tbody className="text-gray-700">
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Entrance Exams</td>
-                    <td className="p-4 border">
-                      Admission based on NEET qualification
-                    </td>
-                    <td className="p-4 border">NEET + high competition</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">Course Duration</td>
-                    <td className="p-4 border">
-                      6 years (including internship)
-                    </td>
-                    <td className="p-4 border">
-                      5.5 years + 1 year internship
-                    </td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Total Cost</td>
-                    <td className="p-4 border">₹17–28 lakhs</td>
-                    <td className="p-4 border">Private: ₹20–80+ lakhs</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">
-                      Seats Availability
-                    </td>
-                    <td className="p-4 border">
-                      More seats for international students
-                    </td>
-                    <td className="p-4 border">
-                      Limited in government colleges
-                    </td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Infrastructure</td>
-                    <td className="p-4 border">Modern labs and hospitals</td>
-                    <td className="p-4 border">Varies between colleges</td>
-                  </tr>
+                <tbody className="text-gray-700 divide-y divide-gray-200">
+                  {(cmsData?.comparisonTable || [
+                    {
+                      parameter: "Tuition Fees (Per Year)",
+                      kyrgyzstan: "₹3,00,000 – ₹6,00,000 (approx. $3,000 – $4,000/yr)",
+                      india: "Govt: ₹10,000 – ₹1,50,000 / yr\nPrivate: ₹10,00,000 – ₹25,00,000+ / yr"
+                    },
+                    {
+                      parameter: "Course Duration",
+                      kyrgyzstan: "6 Years (5 years academic + 1 year compulsory internship)",
+                      india: "5.5 Years (4.5 years academic + 1 year compulsory rotating internship)"
+                    },
+                    {
+                      parameter: "Class Strength",
+                      kyrgyzstan: "Generally smaller batches; high concentration of international students (largely Indian, South Asian)",
+                      india: "Large batch sizes (typically 100 to 250+ students per medical college)"
+                    },
+                    {
+                      parameter: "Global Recognition",
+                      kyrgyzstan: "Recognized by NMC, WHO, WDOMS, FAIMER, ECFMG",
+                      india: "Recognized globally (NMC, WHO, WDOMS, FAIMER, etc.)"
+                    },
+                    {
+                      parameter: "Medium of Instruction",
+                      kyrgyzstan: "Offered in English (though basic local language like Russian/Kyrgyz is needed for patient interaction)",
+                      india: "English"
+                    },
+                    {
+                      parameter: "Hostel & Food",
+                      kyrgyzstan: "Separate hostels with Indian mess facilities available; costs around ₹1,80,000 – ₹2,00,000/yr",
+                      india: "On-campus or local hostels/mess; varies widely by college (₹50,000 – ₹1,50,000/yr)"
+                    },
+                    {
+                      parameter: "Insurance & Visa Costs",
+                      kyrgyzstan: "Annual medical insurance + visa/extension costs roughly ₹20,000 – ₹30,000/yr",
+                      india: "N/A (Domestic students do not pay visa/international health insurance)"
+                    },
+                    {
+                      parameter: "Other Costs (Travel, Living)",
+                      kyrgyzstan: "Flight tickets (annual), local transit, and living (~$100–$200/month); total course package often lands around ₹18 – ₹35 Lakhs",
+                      india: "Low living costs in govt colleges; overall private college investment can scale to ₹50L – ₹1Cr+"
+                    }
+                  ]).map((row, index) => (
+                    <tr
+                      key={index}
+                      className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                    >
+                      <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                        {row.parameter || row.feature}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.kyrgyzstan}
+                      </td>
+                      <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                        {row.india}
+                      </td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
@@ -1235,7 +1273,7 @@ const Kyrgyzstan = () => {
                   Is MBBS in Kyrgyzstan valid in India?
                 </summary>
                 <p className="mt-4 text-gray-700">
-                  Yes, if the university is NMC approved. Students must clear
+                  Yes, if the university is NMC recognized. Students must clear
                   FMGE or NEXT to practice in India.
                 </p>
               </details>

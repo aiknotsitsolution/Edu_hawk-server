@@ -1,29 +1,40 @@
+import cmsData from "../../data/medical_colleges/armenia.json";
 import React, { useState } from "react";
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/top medical collages list/Bangladesh Medical College.png";
-import Russianflag2 from "../../Images/country flag png/am-wave-01.png";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/top medical collages list/Bangladesh Medical College.webp";
+import Russianflag2 from "../../Images/country flag png/am-wave-01.webp";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
+import SeoHead from "../../component/SeoHead.jsx";
 const Armernia = () => {
   const [showMoreAbout, setShowMoreAbout] = useState(false);
   const [showMoreClimate, setShowMoreClimate] = useState(false);
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SeoHead
+        title={cmsData?.seo?.title || "Study MBBS in Armenia for Indian Students | Edu Hawk"}
+        description={cmsData?.seo?.description || "Plan MBBS in Armenia for Indian students: NEET-based admission, NMC & WHO-recognized universities, English-medium courses and hostel living cost details."}
+        keywords={cmsData?.seo?.keywords || "mbbs in armenia, armenia mbbs fees, study mbbs armenia, armenia medical colleges"}
+        path="/mbbs-abroad/armenia"
+        ogType="website"
+      />
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hayq_Square%2C_Vanadzor.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/a/a7/Hayq_Square%2C_Vanadzor.jpg"}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/a/a7/Hayq_Square%2C_Vanadzor.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/a/a7/Hayq_Square%2C_Vanadzor.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN ARMERNIA
+              {cmsData?.hero?.title || "STUDY MBBS IN ARMENIA"}
             </h1>
           </div>
         </div>
@@ -38,13 +49,18 @@ const Armernia = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={500}
+              height={308}
               alt="Russia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-            />
+                  srcSet={`${Russianflag2} 1x, ${Russianflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in ARMERNIA 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in ARMENIA 2026–2027"}
             </h2>
           </div>
         </div>
@@ -53,7 +69,7 @@ const Armernia = () => {
         <div className="grid md:grid-cols-2 gap-12 mb-20">
           <div>
             <h2 className="text-3xl font-bold text-center md:text-left text-blue-900 mb-6">
-              About ARMERNIA
+              About ARMENIA
             </h2>
             <p className="text-lg leading-relaxed text-gray-700">
               Russia has become popular among medical students, who are looking
@@ -100,9 +116,14 @@ const Armernia = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={585}
+              height={440}
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet={`${kernal} 1x, ${kernal} 2x`}
+                  sizes="(max-width: 768px) 100vw, 500px"
+                />
           </div>
         </div>
 
@@ -119,7 +140,7 @@ const Armernia = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -146,7 +167,7 @@ const Armernia = () => {
                     <td className="p-4 font-semibold">
                       Universities Recognition
                     </td>
-                    <td className="p-4">NMC & WHO-approved</td>
+                    <td className="p-4">NMC & WHO-Recognized</td>
                   </tr>
                 </tbody>
               </table>
@@ -156,10 +177,10 @@ const Armernia = () => {
           {/* Right – About MBBS */}
           <div>
             <h3 className="text-3xl font-bold text-blue-900 mb-6 text-center md:text-left">
-              About MBBS in ARMERNIA
+              About MBBS in ARMENIA
             </h3>
             <p className="text-lg leading-relaxed text-gray-700">
-              Studying MBBS in ARMERNIA is notably straightforward
+              Studying MBBS in ARMENIA is notably straightforward
             </p>
 
             {showMoreClimate ? (
@@ -182,7 +203,7 @@ const Armernia = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in ARMERNIA
+            {cmsData?.universitiesHeading || "Top Medical Universities in ARMENIA"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -206,8 +227,11 @@ const Armernia = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">
@@ -223,7 +247,7 @@ const Armernia = () => {
         <div className="grid md:grid-cols-2 gap-12 mb-20">
           <div>
             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-              Advantages of Studying MBBS in ARMERNIA 2025–2026
+              Advantages of Studying MBBS in ARMENIA 2026–2027
             </h2>
 
             <div className="space-y-6">
@@ -265,7 +289,7 @@ const Armernia = () => {
 
           <div>
             <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">
-              Cost of Study MBBS in ARMERNIA
+              Cost of Study MBBS in ARMENIA
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed">
               The cost of the <strong> MBBS course in Russia</strong> is very
@@ -326,7 +350,7 @@ const Armernia = () => {
             </ul>
 
             <p className="mt-6">
-              <strong>Approximate monthly living expenses (2025–2026):</strong>
+              <strong>Approximate monthly living expenses (2026–2027):</strong>
             </p>
             <ul className="list-disc pl-6 mt-4 space-y-2">
               <li>Hostel / Accommodation: ₹8,000 – ₹18,000</li>
@@ -349,7 +373,7 @@ const Armernia = () => {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-10">
-            Admission Process for MBBS in Russia 2025–2026
+            Admission Process for MBBS in Russia 2026–2027
           </h2>
 
           <div className="max-w-4xl mx-auto">
@@ -428,7 +452,7 @@ const Armernia = () => {
             {/* Left - Required Documents */}
             <div>
               <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center md:text-left">
-                Required Documents for MBBS in Russia 2025–2026
+                Required Documents for MBBS in Russia 2026–2027
               </h2>
 
               <div className="space-y-6">
@@ -516,7 +540,7 @@ const Armernia = () => {
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-5xl">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-            MBBS in Russia vs MBBS in India – Quick Comparison (2025–2026)
+            MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
           </h2>
 
           <div className="overflow-x-auto">
@@ -570,10 +594,10 @@ const Armernia = () => {
                 <tr className="bg-gray-50">
                   <td className="p-4 border font-medium">Global Recognition</td>
                   <td className="p-4 border">
-                    NMC, WHO, WFME approved universities
+                    NMC, WHO, WFME recognized universities
                   </td>
                   <td className="p-4 border">
-                    NMC approved, but private colleges vary
+                    NMC recognized, but private colleges vary
                   </td>
                 </tr>
                 <tr>

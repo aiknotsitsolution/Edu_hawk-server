@@ -1,0 +1,547 @@
+{
+  "hero": {
+    "title": "Winter Courses in Spain for Indian Students",
+    "subtitle": "Winter Courses in Spain for Indian Students are an excellent way to gain international learning experience, develop new skills, and explore Spanish culture during the winter break. Universities, language schools and educational institutions may offer short-term programs for subjects such as the Spanish language, business, international relations, engineering, technology, arts, architecture and other specialized fields."
+  },
+  "overview": [
+    "Winter Courses in Spain for Indian Students are an excellent way to gain international learning experience, develop new skills, and explore Spanish culture during the winter break. Universities, language schools and educational institutions may offer short-term programs for subjects such as the Spanish language, business, international relations, engineering, technology, arts, architecture and other specialized fields.",
+    "Spain provides short term academic learning, cultural experiences and international interaction. Some of the main benefits are:"
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Study in Spain During the Winter?",
+      "lead": "Spain provides short term academic learning, cultural experiences and international interaction. Some of the main benefits are:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Short term international exposure: Experience of studying in a European academic environment without committing to a full degree.",
+            "Flexible learning: Choose programs that fit your winter break and academic schedule.",
+            "Skill development: Gain knowledge of new concepts in business, technology, languages and other specialized fields.",
+            "Cultural immersion: Learn about Spanish traditions, history, cuisine, architecture and local communities.",
+            "International Networking: Connect with students, teachers and professionals from countries all over the world.",
+            "Academic exploration: Find potential topics for future bachelor or master studies.",
+            "Language improvement: Spanish is learned both in class and in life."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Types of Winter Courses You Can Take in Spain",
+      "lead": "Winter programs differ by subject and institution. Some are formal university courses, while others are language classes, professional workshops or cultural programs. Students exploring Winter Study Programs in Spain can consider the different academic and professional fields available.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Winter Study Programs in Spain can be offered in a wide range of educational and professional fields, including:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Winter CourseTypical LengthMain Areas of Learning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Spanish Language1–6 weeksGrammar, speaking, vocabulary and communication"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business and Management1-4 weeksLeadership, marketing, entrepreneurship & strategy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Business1-4 weeksGlobal markets, trade, international management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Science and AI1-6 weeksProgramming, artificial intelligence and digital technologies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Engineering and Technology1-6 weeksInnovation, robotics and practical applications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Architecture and Design1–4 weeksDesign concepts, urban planning and creative projects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hospitality and Tourism1-4 weeksTourism management, Hospitality and Destination Marketing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Relations1-4 weeksDiplomacy, European & global policy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Law and Human Rights1-4 weeksInternational law, legal systems and human rights"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Arts and Culture1-4 weeksArt history, music, design, cultural studies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Environmental Studies1–4 weeksSustainability, Climate Issues and Environmental Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional Development, 1 to 4 weeks, Communication, project management and workplace skills"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Times are approximate and not guarantyd to be offered. Students can contact individual institutions to find out about programs offered during the winter period."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Winter Courses in Spain: Top Universities and Institutions to Consider",
+      "lead": "Students interested in Winter Course Universities in Spain can start with universities that provide academic programs, language study, international education and specialized study opportunities. Availability in winter, however, is year- and department-specific. When researching Winter Course Universities in Spain, students should confirm the availability of their preferred programs directly with each institution.",
+      "groups": []
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Universitat de Barcelona",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\textcolor{secondary}{Barcelone} \\small"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can get information about the university's academic programs and international education opportunities, including short-term programs if any are available."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Website: https://www.ub.edu/"
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Who can do Winter Courses in Spain",
+      "lead": "Your eligibility depends on the level of study, subject, length and audience for the program. Short-term courses may have flexible entry requirements while specialist programs may require relevant academic knowledge. Winter Course Eligibility in Spain can therefore vary according to the selected institution and course.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Eligibility in general"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students may have to meet the following criteria:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport is valid.",
+            "Have the educational qualifications required for the selected course.",
+            "Show some interest in the selected topic.",
+            "Fulfill the English language requirements for English language courses, if applicable.",
+            "Possess the required Spanish-language skills for courses requiring prerequisite knowledge.",
+            "Meet the minimum age requirement of the institution.",
+            "Have prior knowledge of the subject area related to higher-level or technical programs, if applicable."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Academic and Age Requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some winter courses are open to high school students, others are for university students, graduates or working professionals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advanced programs in engineering, technology, business and research may require appropriate academic qualifications or prior experience in the subject area. Students should check the programme-specific eligibility criteria before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Admission Requirements for Winter Courses in Spain.",
+      "lead": "Admission process depends on institution and type of program. The following documents may be required from applicants:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Completed application.",
+            "Copy of a valid passport.",
+            "Academic transcripts or certificates if required.",
+            "CV or résumé for professional programs.",
+            "Statement of motivation, if appropriate.",
+            "Results of English or Spanish language tests, if required.",
+            "Recent photograph, if needed.",
+            "Evidence of payment of course fee.",
+            "Parental consent for minors, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For certain specialized programs, relevant academic qualifications or an assessment of the applicant's prior knowledge may be required. Students should refer to the official application instructions prior to submitting their applications. Students planning to Study Winter Courses in Spain should review the application requirements of their chosen institution before applying."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Winter Course Fees in Spain",
+      "lead": "The total cost depends on the duration of the program, the institution, the city, the accommodation and whether the course fee includes the meals or excursions. Winter Course Fees in Spain may differ from one institution and program to another.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Indicative CostExpense"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Short winter course€200-€1200"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialized academic program€800-€3,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accommodation€400-900 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and groceries€200-€350 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Local transport€30-€80 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal expenses€100-€200 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Flights from IndiaFlexible on dates and airline"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Insurance and visa expensesDepends on the circumstances"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are wide planning estimates, not fixed prices for particular winter programs. Some university courses may be cheaper whilst specialist courses including accommodation and activities may be more expensive."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For rough financial planning, €1 is about ₹109, although exchange rates change. Students should also consider winter clothes, accommodation deposits, travel insurance and other initial expenses."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "How to Enrolll for Winter Courses in Spain",
+      "lead": "Here are some general steps that Indian students can follow for applying to a winter program:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Choose a subject: Pick the academic subjects or skills you want to improve.",
+            "Research programs: Search for courses at the respective winter time.",
+            "Compare institutions Compare Tuition fees, course duration, language of instruction, location, curriculum.",
+            "Check eligibility: Ensure you meet the age, academic and language requirements.",
+            "Documents: Gather your passport, certificates and any other documents they require.",
+            "Apply online: Follow the application process of the institution and meet the published deadline.",
+            "Confirm admission: Go through the admission letter, course timetable and payment terms.",
+            "Figure out your accommodation: Look at student halls, shared flats or other options.",
+            "Check visa requirements: See the official Spanish consular advice for your nationality and for the length of your course.",
+            "Travel preparations: Book flights, insurance, finances and arrival information."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should apply early once the program and its eligibility requirements have been confirmed as winter programs may have limited places and different starting dates."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Benefits of Winter Courses for Career and Academics",
+      "lead": "Completing a winter program allows students to develop additional skills, explore new academic interests and be exposed to international learning methods.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Possible benefits might include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Increase in subject knowledge.",
+            "Improved communication and intercultural skills.",
+            "International teaching methods exposure.",
+            "Practical experience through projects and workshops.",
+            "Opportunities to explore specializations for future degrees.",
+            "Networking on an international level and cultural awareness.",
+            "Certificate of course completion (if issued by the institution)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Benefits of Winter Courses in Spain are useful for students who want to explore a subject, enhance their academic profile or gain experience in an international environment. Winter Courses in Spain for Indian Students can also provide an opportunity to experience a different academic environment during a short study period."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "But a short course is not a full university qualification. It does not automatically confer employment, admission to any university, professional licensure, or transfer of academic credit. Students should check availability of these benefits with the program provider and their home institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "When to Apply for Winter Courses in Spain?",
+      "lead": "Winter programs may be held at different times depending on the academic calendar of the institution. Students need to know the difference between courses that happen around December-January and short programs that happen during February or other academic breaks.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "A timeline of practical application is:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "TimeframeProposed Activity"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "August–OctoberResearch winter programs and compare course options"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "September–NovemberApply for open registration programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "October–DecemberConfirm admission, accommodation and visa requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "December–FebruaryAttend selected program as per the scheduled dates"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are recommended planning windows, not universal application deadlines. Students are advised to always adhere to the published program schedule as some institutions may open applications earlier or follow different academic calendars."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Spain Winter Courses Documents",
+      "lead": "Documents required vary depending on the institution, the course and the student's immigration status. Commonly requested documents include:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport in order.",
+            "Application filled out.",
+            "Academic transcripts or school certificates, if required.",
+            "CV or motivation letter if applicable.",
+            "Results of language proficiency tests if applicable",
+            "Proof of enrollment or admission to the course.",
+            "Proof of payment of course fee.",
+            "Lodging information, if available.",
+            "Travel or health insurance, if applicable.",
+            "Financial and other supporting documents for visa application, as applicable.",
+            "Parental consent forms for minors where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should verify the final documentation requirements with the official course checklist and latest instructions from the Spanish consulate."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "2. How long are winter courses in Spain?",
+      "a": "Most short-term programs are from a few days to four weeks, but some can be of six weeks or longer. Length of time varies depending on type of course and who is delivering it."
+    },
+    {
+      "q": "3. What do winter courses in Spain cost?",
+      "a": "Prices vary by institution, subject and length of time. Short programs might cost roughly in the region of €200–€1,200 as a planning estimate, while more specialized academic courses could cost €800–€3,000 or more. There may be extra charges if not covered in the program fee."
+    },
+    {
+      "q": "4. Do I need IELTS to study a winter course at Spain?",
+      "a": "Not a bit. Some courses will ask for evidence of your English ability, while others may accept different proof or no formal test at all. Students should verify admission policy of the concerned course."
+    },
+    {
+      "q": "5. Is it possible to get a certificate after a winter course?",
+      "a": "Many programs do offer a certificate of completion but this depends on the institution and course. Please check with the institution before enrolling to see if selected programs are eligible for academic credit."
+    }
+  ],
+  "seo": {
+    "title": "Winter Courses in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Winter Courses in Spain for Indian Students are an excellent way to gain international learning experience, develop new skills, and explore Spanish culture duri",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

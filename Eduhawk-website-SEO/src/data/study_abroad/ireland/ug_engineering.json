@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "title": "UG Engineering in Ireland",
+    "subtitle": "Ireland is a popular destination for students who want to pursue a career in engineering, technology, manufacturing, infrastructure and innovation. Undergraduate engineering courses in Ireland Irish universities are a blend of scientific fundamentals, laboratory work, design projects, and practical problem solving."
+  },
+  "overview": [
+    "Ireland is a popular destination for students who want to pursue a career in engineering, technology, manufacturing, infrastructure and innovation. Undergraduate engineering courses in Ireland Irish universities are a blend of scientific fundamentals, laboratory work, design projects, and practical problem solving.",
+    "Studying in Ireland provides Indian students with globally recognized European qualifications, exposure to leading multinational technology and healthcare hubs, and valuable post-study work opportunities.",
+    "Edu Hawk Worldwide Consultancy assists Indian students through every step of their Irish education, including program shortlisting, university entry prerequisites, Ireland student visa procedures, and career guidance."
+  ],
+  "universities": [
+    {
+      "name": "Dublin City University",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_Dublin_City_University-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_Dublin_City_University-image3.png",
+      "desc": "Engineering accreditation in Ireland is important . It can affect professional recognition and career progression . Engineers Ireland is the professional body that accredits engineering education programs in Ireland."
+    },
+    {
+      "name": "Galway University",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_Galway_University-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_Galway_University-image2.png",
+      "desc": "Engineering accreditation in Ireland is important . It can affect professional recognition and career progression . Engineers Ireland is the professional body that accredits engineering education programs in Ireland."
+    },
+    {
+      "name": "University College Cork",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_University_College_Cork-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_University_College_Cork-image1.png",
+      "desc": "Engineering accreditation in Ireland is important . It can affect professional recognition and career progression . Engineers Ireland is the professional body that accredits engineering education programs in Ireland."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Apply. Complete the official international application process or application platform of the university.",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Dublin City University",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_Dublin_City_University-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_Dublin_City_University-image3.png",
+          "desc": "Engineering accreditation in Ireland is important . It can affect professional recognition and career progression . Engineers Ireland is the professional body that accredits engineering education programs in Ireland."
+        },
+        {
+          "name": "Galway University",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_Galway_University-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_Galway_University-image2.png",
+          "desc": "Engineering accreditation in Ireland is important . It can affect professional recognition and career progression . Engineers Ireland is the professional body that accredits engineering education programs in Ireland."
+        },
+        {
+          "name": "University College Cork",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_University_College_Cork-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_engineering_ug_hub_page_University_College_Cork-image1.png",
+          "desc": "Engineering accreditation in Ireland is important . It can affect professional recognition and career progression . Engineers Ireland is the professional body that accredits engineering education programs in Ireland."
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Opportunities after Engineering in Ireland",
+      "lead": "Graduates in engineering in Ireland can expect to find employment in technology companies, manufacturing, construction, infrastructure, energy, pharmaceutical production, medical technology, telecommunications and consultancy.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Careers you could choose"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Graduate engineer.",
+            "Civil or structural engineering.",
+            "Engineer, mechanical design",
+            "Electronic or electrical engineering.",
+            "Chemical or process engineer.",
+            "Biomedical Engineering.",
+            "Manufacturing or Production Engineer",
+            "Quality Engineer",
+            "Energy or sustainability",
+            "Computer or Systems Engineer",
+            "Project coordination engineer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indicative annual gross salary range:"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Graduate engineer",
+              "d": "€32,000–€42,000"
+            },
+            {
+              "t": "Civil or mechanical engineer",
+              "d": "€35,000–€55,000"
+            },
+            {
+              "t": "Electrical or electronic engineer",
+              "d": "€38,000–€60,000"
+            },
+            {
+              "t": "Chemical or process engineer",
+              "d": "€38,000-€60,000"
+            },
+            {
+              "t": "Experienced or specialist engineer",
+              "d": "€55,000-€80,000+"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Study Engineering in Ireland",
+      "lead": "Universities may ask for some or all of the following:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport is valid.",
+            "Class 10 and 12 certificates and mark sheets.",
+            "English-language test results, if applicable.",
+            "Personal statement or references if requested.",
+            "Certified translations of documents not issued in English language.",
+            "Filled-out application form and application fee.",
+            "Extra qualification documents if asked for.",
+            "Financial evidence and sponsorship documents, as appropriate.",
+            "Student visa paperwork, if applicable. - Proof of health insurance (if required)."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long does it take to complete an undergraduate engineering degree in Ireland?",
+      "a": "Many bachelor's in engineering degrees are 4 years. Integrated Bachelor and Master of Engineering programs are generally five years in duration. The length varies by university and discipline."
+    },
+    {
+      "q": "Is it possible for Indian students to pursue engineering in Ireland after Class 12?",
+      "a": "Yes. Indian students can apply if they satisfy the university's academic, mathematics, science-subject, English-language and other criteria. Each institution has its own admission policy and evaluates Indian qualifications on its own."
+    },
+    {
+      "q": "How much is the tuition fee for UG engineering in Ireland?",
+      "a": "For non-EU students, fees can be in the region of €18,000 to €30,000 per year depending on the university and course. For example, the University of Galway will charge €27,640 for a number of engineering programs in 2026/27, while DCU will charge €17,900 for several four-year programs."
+    },
+    {
+      "q": "What engineering courses can I study in Ireland?",
+      "a": "The most popular ones include civil, mechanical, electrical, electronic, chemical, biomedical, energy and computer engineering. The disciplines offered depend on the institution and the program structure."
+    },
+    {
+      "q": "Am I able to work in Ireland after completing my engineering degree?",
+      "a": "Graduates may apply for suitable engineering jobs, subject to vacancies available, the requirements of the employer, qualifications and the immigration permission applicable. Having a degree doesn't mean you will get a job or work authorization."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me to study overseas?",
+      "a": "Edu Hawk worldwide can help students to find the right universities, to get to know the admission requirements, to prepare the application documents and to plan their study-abroad journey. Students should check academic, financial, immigration and licensing requirements with official sources."
+    }
+  ],
+  "seo": {
+    "title": "UG Engineering in Ireland | Edu-Hawk Worldwide",
+    "description": "Ireland is a popular destination for students who want to pursue a career in engineering, technology, manufacturing, infrastructure and innovation. Undergraduat",
+    "keywords": "Study in Ireland, Top Irish Universities, Edu Hawk Worldwide"
+  }
+}

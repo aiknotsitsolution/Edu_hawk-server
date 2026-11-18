@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Nursing in Denmark",
+    "subtitle": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses."
+  },
+  "overview": [
+    "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses.",
+    "Studying in Denmark offers Indian students high-quality Scandinavian higher education with innovative problem-based learning, vibrant student cities, and excellent work-life balance.",
+    "Edu Hawk Worldwide Consultancy guides Indian students through Optagelse.dk centralized admissions, Danish residence permits for study, document translation, and post-study establishment cards."
+  ],
+  "universities": [
+    {
+      "name": "University of Copenhagen (UCPH)",
+      "location": "Copenhagen, Denmark",
+      "fee": "€10,000 – €16,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+      "desc": "UCPH is Denmark's oldest and highest-ranking research university, celebrated across Scandinavia for medicine, life sciences, environmental law, and physics."
+    },
+    {
+      "name": "Technical University of Denmark (DTU)",
+      "location": "Lyngby, Denmark",
+      "fee": "€13,500 – €15,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+      "desc": "DTU is a leading European technical university renowned for sustainable energy, biotech engineering, wind turbine technology, and high startup spin-offs."
+    },
+    {
+      "name": "Aarhus University",
+      "location": "Aarhus, Denmark",
+      "fee": "€8,000 – €15,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+      "image": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+      "desc": "A globally top-100 public research university with an attractive yellow-brick park campus, acclaimed for business, computer science, and agricultural sciences."
+    },
+    {
+      "name": "Copenhagen Business School (CBS)",
+      "location": "Frederiksberg, Copenhagen, Denmark",
+      "fee": "€12,500 – €18,000 / Year",
+      "img": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+      "image": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+      "desc": "One of Europe's largest triple-crown accredited business schools (EQUIS, AMBA, AACSB), leading in international management, finance, and green leadership."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Danish Universities",
+      "title": "Top Universities to Consider in Denmark",
+      "lead": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses.",
+      "unis": [
+        {
+          "name": "University of Copenhagen (UCPH)",
+          "location": "Copenhagen, Denmark",
+          "fee": "€10,000 – €16,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
+          "desc": "UCPH is Denmark's oldest and highest-ranking research university, celebrated across Scandinavia for medicine, life sciences, environmental law, and physics."
+        },
+        {
+          "name": "Technical University of Denmark (DTU)",
+          "location": "Lyngby, Denmark",
+          "fee": "€13,500 – €15,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
+          "desc": "DTU is a leading European technical university renowned for sustainable energy, biotech engineering, wind turbine technology, and high startup spin-offs."
+        },
+        {
+          "name": "Aarhus University",
+          "location": "Aarhus, Denmark",
+          "fee": "€8,000 – €15,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+          "image": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
+          "desc": "A globally top-100 public research university with an attractive yellow-brick park campus, acclaimed for business, computer science, and agricultural sciences."
+        },
+        {
+          "name": "Copenhagen Business School (CBS)",
+          "location": "Frederiksberg, Copenhagen, Denmark",
+          "fee": "€12,500 – €18,000 / Year",
+          "img": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+          "image": "/uploads/study_abroad/denmark/den_BBA_image1.png",
+          "desc": "One of Europe's largest triple-crown accredited business schools (EQUIS, AMBA, AACSB), leading in international management, finance, and green leadership."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Nursing in Denmark | Edu-Hawk Worldwide",
+    "description": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and m",
+    "keywords": "Study in Denmark, Top Universities in Denmark, Edu Hawk Worldwide"
+  }
+}

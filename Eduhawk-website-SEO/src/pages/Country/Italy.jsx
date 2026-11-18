@@ -1,16 +1,17 @@
+import cmsData from "../../data/medical_colleges/italy.json";
 import React, { useState } from "react";
+import SeoHead from "../../component/SeoHead.jsx";
 import { Link } from "react-router-dom";
-import Banner from "../../../src/Images/Italy/UniversityPadua.png";
-import MBBSStudent from "../../../src/Images/Italy/MBBS-in-Italy.png";
-import Flowchart from "../../../src/Images/Italy/flowchart.png";
+import MBBSStudent from "../../../src/Images/Italy/MBBS-in-Italy.webp";
+import Flowchart from "../../../src/Images/Italy/flowchart.webp";
 
-import UniversitiesInMilan from "../../../src/Images/Italy/UniversitiesInMilan.png";
-import UniversityBologna from "../../../src/Images/Italy/UniversityBologna.png";
-import UniversityPadua from "../../../src/Images/Italy/UniversityPadua.png";
-import UniversityTurin from "../../../src/Images/Italy/UniversityTurin.png";
-import UniversityPavia from "../../../src/Images/Italy/UniversityPavia.png";
+import UniversitiesInMilan from "../../../src/Images/Italy/UniversitiesInMilan.webp";
+import UniversityBologna from "../../../src/Images/Italy/UniversityBologna.webp";
+import UniversityPadua from "../../../src/Images/Italy/UniversityPadua.webp";
+import UniversityTurin from "../../../src/Images/Italy/UniversityTurin.webp";
+import UniversityPavia from "../../../src/Images/Italy/UniversityPavia.webp";
 
-import UniversityRome from "../../../src/Images/Italy/UniversityRome.png";
+import UniversityRome from "../../../src/Images/Italy/UniversityRome.webp";
 
 
 
@@ -27,17 +28,29 @@ const Italy = () => {
 
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
+      <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Italy 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        description={cmsData?.seo?.description || "Explore MBBS in Italy for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
+        keywords={cmsData?.seo?.keywords || "mbbs in italy, study mbbs italy, italy medical colleges, imat exam, mbbs abroad italy"}
+        path="/mbbs-abroad/italy"
+        ogType="website"
+      />
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={Banner}
+            src={UniversityPadua}
+            width={2050}
+            height={830}
             alt="Italy Landscape"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet={`${UniversityPadua} 1x, ${UniversityPadua} 2x`}
+                  sizes="100vw"
+                  fetchPriority="high"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl text-center px-4">
-              STUDY MBBS IN ITALY
+              {cmsData?.hero?.title || "STUDY MBBS IN ITALY"}
             </h1>
           </div>
         </div>
@@ -50,13 +63,16 @@ const Italy = () => {
           <div>
                 <img
                 src="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg"
+                loading="lazy"
               alt="Italy flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg 1x, https://upload.wikimedia.org/wikipedia/en/0/03/Flag_of_Italy.svg 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Italy 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Italy 2026–2027"}
             </h2>
           </div>
         </div>
@@ -101,9 +117,14 @@ const Italy = () => {
           <div>
             <img
               src={MBBSStudent}
+              loading="lazy"
+              width={1086}
+              height={1448}
               alt="Italy University"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet={`${MBBSStudent} 1x, ${MBBSStudent} 2x`}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
           </div>
         </div>
 
@@ -380,9 +401,12 @@ const Italy = () => {
           <div className="lg:w-1/2 p-6 flex flex-col sm:flex-row gap-5">
             <img
               src={uni.img}
+              loading="lazy"
               alt={uni.name}
               className="w-full sm:w-44 h-40 object-cover rounded-xl flex-shrink-0"
-            />
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
             <div>
               <h3 className="text-xl font-bold text-blue-900 mb-2">
                 {uni.name}
@@ -1019,9 +1043,14 @@ const Italy = () => {
   <h4 className="mb-5 text-xl font-bold text-blue-900">Admission Flow</h4>
   <img
     src={Flowchart}
+    loading="lazy"
+    width={1254}
+    height={1254}
     alt="Admission Flow"
     className="mx-auto h-auto w-full max-w-3xl object-contain"
-  />
+                  srcSet={`${Flowchart} 1x, ${Flowchart} 2x`}
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
 </div>
         </div>
 

@@ -1,0 +1,840 @@
+{
+  "hero": {
+    "title": "Hospitality Management in France",
+    "subtitle": "Hospitality Management in France is an excellent choice for students who wish to pursue a career in hotel management, tourism, luxury hospitality, restaurant management, resorts and event management. France is internationally recognized for its tourism industry, cuisine, luxury brands, fine dining and high quality hospitality services."
+  },
+  "overview": [
+    "The French hospitality sector is diverse and includes international hotel groups, luxury resorts, restaurants, travel companies, catering businesses and event venues. Hospitality Management in France, Students can study hospitality management in France to obtain practical and managerial skills and experience an internationally recognized tourism and hospitality environment.",
+    "Tourism Industry Strength: Visit a country with a strong tourism, accommodation, dining, and visitor-service industry.",
+    "Exposure to Luxury Hospitality: Gain an understanding of luxury guest experiences, luxury hotels, and luxury service management."
+  ],
+  "universities": [
+    {
+      "name": "FERRAND",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_FERRANDI_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_FERRANDI_Paris.webp",
+      "desc": "Paris known for its culinary arts, gastronomy and food:service management education. Its specialist programs may be of interest to students interested in culinary hospitality, restaurant management, food:related businesses and gastronomy."
+    },
+    {
+      "name": "SKEMA Business School",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_SKEMA_Business_School.webp",
+      "image": "/uploads/study_abroad/france/france_SKEMA_Business_School.webp",
+      "desc": "Business and management school with an international vocation. Students with an interest in the commercial, strategic and business development aspects of hospitality can explore relevant management programs and electives. Programs, campuses and entry requirements may change. Students should refer to the official website of the university for details."
+    },
+    {
+      "name": "Sorbonne University",
+      "location": "Paris, France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Study Hospitality Management in France?",
+      "lead": "The French hospitality sector is diverse and includes international hotel groups, luxury resorts, restaurants, travel companies, catering businesses and event venues. Hospitality Management in France, Students can study hospitality management in France to obtain practical and managerial skills and experience an internationally recognized tourism and hospitality environment.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Key Benefits of Studying Hospitality Management in France"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tourism Industry Strength: Visit a country with a strong tourism, accommodation, dining, and visitor-service industry."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exposure to Luxury Hospitality: Gain an understanding of luxury guest experiences, luxury hotels, and luxury service management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hands-on Learning: Depending on the program, students have the option to engage in industry placements, live projects, practical workshops and workplace training."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Learning Environment: Study in a multi-national environment with students from other countries and develop cross-cultural communication skills."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Specialisation Opportunities: Explore specializations like Hotel Management, Tourism Management, Food and Beverage Management, Event Management and Luxury Hospitality."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career Flexibility: Develop transferable skills that are applicable to hotels, resorts, restaurants, cruise lines, travel companies and event organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further Study Opportunities: Move on to a Master's program or an MBA in hospitality, tourism or business management after completing a bachelor's degree."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Courses in Hospitality Management in France",
+      "lead": "Hospitality Management courses in France are offered at different levels of education. The qualification titles, length of the program, curriculum, admission criteria and practical training opportunities differ from one institution to another.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Bachelor of Science in Hospitality Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Bachelor's in Hospitality Management in France or International Hospitality Management usually takes three to four years to complete, depending on the qualification and the structure of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Typical topics might include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Hospitality Management Introduction",
+            "Management of Hotel Operations",
+            "Front Office Operations",
+            "Housekeeping Operations",
+            "Management of Food & Beverage",
+            "Finance and Accounting for Hotels",
+            "Customer Service & Guest Relations",
+            "Tourism Management",
+            "Marketing for Hospitality",
+            "Event Planning & Management",
+            "Revenue and Sales Management",
+            "Corporate Communications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some programs include \\\\industry placements, practical workshops, language training and hotel operations experience\\\\ to assist learners in comprehending the working environment of the hospitality sector."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Diplomas in Hospitality Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A Master's in Hospitality Management in France is designed for graduates who wish to develop advanced operational, commercial and leadership skills for the hospitality and tourism industries."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some common topics might be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Strategic Hospitality Management",
+            "Asset & Revenue Management for Hotels",
+            "Finance for Hospitality",
+            "Management of luxury brands",
+            "Strategy for International Tourism",
+            "Advertising and Marketing in Hospitality",
+            "Managing Customer Experience",
+            "Tourism Sustainability",
+            "Investment and Development in Hotels",
+            "Managing People"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Digital Transformation in Hospitality Industry"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Business Strategy & Leadership"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular Specialisations in Hospitality Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hospitality Management specializations in France For students who want to specialize in a particular field:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Hotel-Management",
+            "Hotel Management International",
+            "Luxury Hotel Management",
+            "Destination and Tourism Management",
+            "Management of Food and Beverage",
+            "Management of restaurant",
+            "Event Planning",
+            "Management of Resort and Spa",
+            "Management of Revenue",
+            "Management of sustainable tourism",
+            "Hospitality Business Ownership"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top Schools of Hospitality Management in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "FERRAND",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_FERRANDI_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_FERRANDI_Paris.webp",
+          "desc": "Paris known for its culinary arts, gastronomy and food:service management education. Its specialist programs may be of interest to students interested in culinary hospitality, restaurant management, food:related businesses and gastronomy."
+        },
+        {
+          "name": "SKEMA Business School",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_SKEMA_Business_School.webp",
+          "image": "/uploads/study_abroad/france/france_SKEMA_Business_School.webp",
+          "desc": "Business and management school with an international vocation. Students with an interest in the commercial, strategic and business development aspects of hospitality can explore relevant management programs and electives. Programs, campuses and entry requirements may change. Students should refer to the official website of the university for details."
+        },
+        {
+          "name": "Sorbonne University",
+          "location": "Paris, France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to Study Hospitality Management in France",
+      "lead": "Eligibility to Study Hospitality Management in France varies by level of study, institution, program structure and language of instruction.",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Requirements for a Bachelor's Degree",
+      "lead": "",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Typical requirements are:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Higher secondary education or equivalent qualification.",
+            "School-leaving certificates and academic transcripts.",
+            "Academic achievement that meets the institution's admissions standards.",
+            "Proficiency in the English language for programs taught in English.",
+            "French language skills for French-taught programs.",
+            "Statement of motivation or interview if required.",
+            "assessment of entrance or additional selection process, where applicable."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Eligibility to pursue a Master's Degree",
+      "lead": "Students wishing to pursue a \\\\Master's in Hospitality Management in France\\\\ typically need:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A recognized equivalent qualification or bachelor's degree.",
+            "Undergraduate degree certificates and transcripts.",
+            "Proficiency in English language for programs delivered in English.",
+            "CV/resume (updated).",
+            "Statement of purpose or letter of motivation.",
+            "An interview, if necessary.",
+            "Appropriate work or hospitality experience as required by the institution."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "For English-taught programs, institutions may accept tests like:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS (International English Language Testing System)",
+            "TOFEL"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "TOEIC"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Cambridge English exams",
+            "Other assessments approved by the institution"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants for programs taught in French may be required to provide evidence of proficiency in the French language by way of an accepted examination/assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements for Hospitality Management in France",
+      "lead": "Students who wish to apply for \\\\Hospitality Management courses in France\\\\ need to arrange their applications according to the requirements of the respective institution.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Common Admission Papers And Tests"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Application form filled out.",
+            "Transcripts and academic records.",
+            "Certificate of school-leaving or of bachelor's degree, depending on the program.",
+            "Valid passport or accepted ID.",
+            "Results of English or French language tests, if required.",
+            "CV or resume for post-graduate applications.",
+            "Letter of motivation or Statement of purpose.",
+            "Letters of recommendation, if needed.",
+            "Interview or motivational video, if needed.",
+            "Proof of payment of application fee."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying Hospitality Management in France",
+      "lead": "Cost of studying Hospitality Management in France depends on the type of institution, qualification, length of program and campus location. Tuition fees vary greatly depending on whether you choose to attend a public university, a private hospitality school or a business school.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Tentative 2026–27 Registration Fees at Public Universities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The national registration fee figures for covered public higher-education programs for the academic year of 2026–27 are as follows:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Licence/Bachelor's degree \\| €178 per annum \\| €2,902 per annum"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's degree \\| €255/year \\| €3,950/year"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are not representative of all hospitality school fees or all programs. Some public institutions and programs may have other arrangements, exemptions or extra conditions. Students should check with the institution to confirm the applicable fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tuition Fees Private Hospitality School"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In France, the private hospitality schools are able to charge significantly higher tuition fees compared to the public universities. Fees depend on the reputation of the school, qualification, structure of the program and arrangements for practical training."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other expenses may consist of:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Workwear and professional wear.",
+            "Kitchen or hospitality equipment.",
+            "Hands-on workshops and training materials.",
+            "Meals and work-related activities.",
+            "Internship or placement fees, if any."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should ask their chosen institution for a full breakdown of fees before they accept an offer."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "More Cost of Living in France"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students also need to plan for living costs during their studies."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Accommodation \\",
+              "d": "Student residences, shared flats or private accommodation"
+            },
+            {
+              "t": "Food and grocery \\",
+              "d": "Daily meals and products for the home"
+            },
+            {
+              "t": "Transport \\",
+              "d": "Local transport and public transport"
+            },
+            {
+              "t": "Insurance and health expenses \\",
+              "d": "Relevant insurance and health expenses"
+            },
+            {
+              "t": "Study materials \\",
+              "d": "Books, uniforms, training materials"
+            },
+            {
+              "t": "Fees for applications and administrations \\",
+              "d": "Visa and residence expenses"
+            },
+            {
+              "t": "Personal expenses \\",
+              "d": "Clothing, communication and recreation"
+            },
+            {
+              "t": "Flights & local travel \\",
+              "d": "Travel"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of living depends on the city, type of accommodation and individual lifestyle. Paris and some of the main tourist destinations may be more expensive than smaller cities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarships for Hospitality Management in France for Indian Students"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students aiming to study \\\\Hospitality Management in France with scholarship\\\\ can look into a variety of funding options."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Alternatives could be:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Institutional Scholarships:\\\\ Financial assistance provided by hospitality schools and colleges themselves.",
+            "\\\\Merit-Based Tuition Discounts:\\\\ Discounts on tuition according to academic performance or other selection criteria.",
+            "\\\\Financial Aid:\\\\ Aid provided by institutions to eligible students.",
+            "\\\\Government or International Scholarships:\\\\ Scholarship opportunities offered through relevant government or international programs.",
+            "\\\\Education Loans:\\\\ Financial assistance from eligible banks and lending institutions.",
+            "\\\\Family or Employer Sponsorship:\\\\ Self or employer sponsored funding, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility for scholarships, amounts awarded and when to apply vary by provider. Students should find out if the funding covers tuition fees, living expenses or both. Do not assume that scholarships are available until confirmed by the awarding institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Application process for studying Hospitality Management in France",
+      "lead": "The application process for studying Hospitality Management in France generally includes the following steps.",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select a Programme",
+              "desc": "Choose a bachelor's, master's or specialist hospitality qualification that matches your academic background and career goals."
+            },
+            {
+              "step": 2,
+              "title": "Check your Eligibility",
+              "desc": "Please check the academic requirements, language requirements, program length and application deadlines."
+            },
+            {
+              "step": 3,
+              "title": "Gather Your Documents",
+              "desc": "Gather academic transcripts, certificates, identification, language test results, and any other documents requested by the institution."
+            },
+            {
+              "step": 4,
+              "title": "Send Your Application",
+              "desc": "How to Apply: Apply via the college's official admissions website or through the application service designated for your applicant type."
+            },
+            {
+              "step": 5,
+              "title": "Conduct Further Assessments",
+              "desc": "You may need to attend an interview, submit a motivation statement or complete an entrance assessment."
+            },
+            {
+              "step": 6,
+              "title": "Get Your Admission Decision",
+              "desc": "Review the terms of the admission offer, tuition fees, conditions for enrollment and scholarship information available."
+            },
+            {
+              "step": 7,
+              "title": "Book Your Seat",
+              "desc": "Follow the instructions of the institution to complete the admission formalities and pay the required deposit or registration fee."
+            },
+            {
+              "step": 8,
+              "title": "Get Ready to Study in France",
+              "desc": "Arrange accommodation, finances and travel arrangements. Please consult the official French government guidance concerning the visa or residence formalities relevant to your situation."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Recognition and Accreditation",
+      "lead": "When choosing a Hospitality Management program in France, it is important to consider the accreditation and recognition of qualifications. Students need to understand the difference between institutional accreditation, professional certification and the recognition status of a particular qualification.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "What to Check as a Student?"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Institutional Recognition: Check that the institution is recognized or authorized to offer the qualification concerned."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Qualification Type: Check whether the program results in a national degree, a professional qualification or a school-specific diploma."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Grade de Licence: If applicable, verify whether the qualification at the level of the bachelor includes the French grade de licence."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's degree: If applicable, confirm the qualification is at the level of a French \\grade de master."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "RNCP Registration: If the program purports to lead to a professional qualification registered with the French National Directory of Professional Certifications (RNCP), check the exact title and level of the certification and its registration status."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Recognition: Verify that the qualification will be accepted by potential employers or the relevant authorities in your home country."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International business-school accreditations can be good indicators of institutional quality, but they are not the same as government recognition of a specific qualification."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Job Opportunities and Salary in Hospitality Management in France",
+      "lead": "Graduates of Hospitality Management courses in France can pursue careers in hotels, restaurants, tourism, events, luxury services and other customer-focused sectors.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Career outcomes are based on qualification, practical experience, language skills, location and employer requirements."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Career Paths Post Hospitality Management"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible roles:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Manager Hotel Operations",
+            "Manager, Front Office",
+            "Manager, Guest Relations",
+            "Food & Beverage Supervisor",
+            "Manager, Restaurant",
+            "Event Planning",
+            "Executive, Tourism Operations",
+            "Analyst, Reservations and Revenue",
+            "Sales Manager (Hospitality)",
+            "Guest Experience Associate",
+            "Revenue Manager",
+            "General Manager Hotel"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Hospitality Management Graduate Careers"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Possible employment areas are:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Hotels & Resorts",
+            "Services of Luxury Hotel",
+            "Restaurants and Catering Services",
+            "Travel and Tourism Companies",
+            "Event Management Companies",
+            "Leisure Services & Cruise",
+            "Convention and Meeting Facilities",
+            "Hospitality Consulting",
+            "Wellness & Health Services",
+            "Food & Beverage Companies"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary in France Hospitality Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "There is no specific salary range for all Hospitality Management graduates in France. Salaries differ by job title, professional experience, employer, city and type of hospitality establishment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry level operational roles are generally paid differently from experienced supervisory and management positions. Students should review current job openings and reliable salary surveys for the occupation and the location they are interested in."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When comparing employment opportunities look at:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Annual salary before tax.",
+            "Benefits for employees.",
+            "Hours and shifts of work.",
+            "Professional development opportunities.",
+            "Cost of living at the place of employment.",
+            "Language requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "French-language skills are especially important for guest-facing jobs, while English and other languages may be helpful for international hotels and tourism businesses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Having a hospitality qualification does not guarantee you employment or a specific salary. Important is still practical experience, communication skills and professional performance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required for Studying Hospitality Management in France",
+      "lead": "The exact document checklist will vary according to the program, institution and the applicant's academic background.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Documents for Bachelors Applicants"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Passport or acceptable identification document.",
+            "Secondary school marksheets.",
+            "School Leaving Certificate or equivalent qualification.",
+            "Results of English or French language tests, if applicable.",
+            "Cover letter or personal statement (if required)",
+            "Reference letter, if applicable.",
+            "Curriculum vitae or resume (if applicable).",
+            "Proof of payment of the application fee.",
+            "Submit a photograph if the institution requires one."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Master's applicants"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport or identification document accepted.",
+            "Bachelor's degree diploma.",
+            "Copies of undergraduate academic transcripts",
+            "If required, results of English or French language test.",
+            "Updated CV/resume.",
+            "Purpose statement or letter of motivation.",
+            "Letters of recommendation (if asked for).",
+            "Proof of work experience, where relevant.",
+            "Interview or motivational video as required.",
+            "Acknowledgment of payment of the application fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should refer to the official application checklist of the school they have chosen to make sure that they are submitting all of the required documents."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is France a good country to study Hospitality Management in?",
+      "a": "France is a country known for tourism, luxury services, food and beverage businesses and international hotel operations, so studying hospitality in France offers a unique opportunity. Program suitability depends on recognition, practical training, tuition fees, curriculum and career support."
+    },
+    {
+      "q": "What is the duration of Hospitality Management in France?",
+      "a": "A bachelor's degree, which usually takes three or four years to complete depending on the qualification and institution. Master's degrees generally take one to two years to complete, depending on the program structure and internship requirements."
+    },
+    {
+      "q": "What are the eligibility requirements for Hospitality Management in France?",
+      "a": "General recognized secondary school qualifications for bachelor's degrees. A recognized bachelor's degree is usually required for master's applicants. Academic performance, language proficiency, interviews and relevant work experience may also be taken into consideration."
+    },
+    {
+      "q": "Are there any courses in Hospitality Management in English for Indian students in France?",
+      "a": "Yes. Some French hospitality and business schools have programs in English, while others teach in French or a mix of both languages. Applicants should check the instruction language of their chosen program and campus."
+    },
+    {
+      "q": "What are the job opportunities after studying Hospitality Management in France?",
+      "a": "Career paths for graduates include hotel operations, guest relations, restaurant management, food and beverage services, tourism, events, revenue management and hospitality sales. Senior roles usually require relevant professional experience and strong leadership or operational skills."
+    },
+    {
+      "q": "Are there internships in Hospitality Management programs in France?",
+      "a": "Some programs involve internships, industry placements, practical workshops or professional projects. However, the structure and availability of these opportunities differ by institution. Students should check whether an internship is required, optional or part of the program."
+    },
+    {
+      "q": "Is there any scholarship in France for Indian students in Hospitality Management?",
+      "a": "Some institutions and outside organizations offer scholarships, tuition discounts for merit or other financial assistance. Availability, eligibility and amount of funding will vary. Prospective students should consult the official scholarship information of their chosen institution."
+    },
+    {
+      "q": "How Can Edu Hawk Worldwide Consultancy Help Me To Study Abroad?",
+      "a": "When choosing the right Hospitality Management course in France, the decision will be based on comparing institutions and understanding admission requirements, and planning for finances and travel arrangements. Edu Hawk Worldwide Consultancy assists students explore best study options and understand the application process."
+    }
+  ],
+  "seo": {
+    "title": "Hospitality Management in France | Edu-Hawk Worldwide",
+    "description": "The French hospitality sector is diverse and includes international hotel groups, luxury resorts, restaurants, travel companies, catering businesses and event v",
+    "keywords": "Study Hospitality Management in France for Indian Students, Hospitality Management Courses in France, Bachelor's Degree in Hospitality Management in France, Master's in Hospitality Management in France, Best Hospitality Management Schools in France, Top Universities for Hospitality and Tourism Management in France, Hospitality Management Eligibility Requirements in France, Hospitality Management Admission Requirements in France, Cost of Studying Hospitality Management in France, Hospitality Management Tuition Fees in France, Hospitality Management Scholarships in France for Indian Students, Hotel Management and Luxury Hospitality Courses in France, Tourism and Destination Management Courses in France, Hospitality Management Internships and Practical Training in France, Career Opportunities After Hospitality Management in France"
+  }
+}

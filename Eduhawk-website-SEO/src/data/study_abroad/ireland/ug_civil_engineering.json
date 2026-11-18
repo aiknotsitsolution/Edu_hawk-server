@@ -1,0 +1,511 @@
+{
+  "hero": {
+    "title": "Civil Engineering in Ireland",
+    "subtitle": "Ireland is a great destination for students interested in \\\\designing, building and maintaining infrastructure\\. \\\\Civil Engineering\\\\ applies technical knowledge and practical problem solving to meet the needs of roads, bridges, buildings, water systems and sustainable development of cities."
+  },
+  "overview": [
+    "Ireland is a great destination for students interested in \\\\designing, building and maintaining infrastructure\\. \\\\Civil Engineering\\\\ applies technical knowledge and practical problem solving to meet the needs of roads, bridges, buildings, water systems and sustainable development of cities.",
+    "Practical learning: learn through design projects, laboratories, fieldwork and engineering assignments.",
+    "\\\\Infrastructure Opportunities:\\\\ Find careers in \\\\construction, transportation, water management, structural design, and infrastructure development.\\\\"
+  ],
+  "universities": [
+    {
+      "name": "University of Galway",
+      "location": "Galway, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "desc": "The university offers a \\\\Bachelor of Engineering and Master of Engineering in Civil Engineering\\\\"
+    },
+    {
+      "name": "University College Cork (UCC)",
+      "location": "Cork, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "desc": "UCC's engineering program also has a \\\\Civil, Structural and Environmental Engineering\\\\ stream. Technological University Dublin (TU Dublin) - TU Dublin is a good option for \\\\practical and applied engineering study. 4. Qualification to Study Civil Engineering in Ireland Eligibility varies with the institution, qualification level and the educational background of the applicant. Eligibility for Undergraduates Students applying after Class 12 are usually required to: A recognized secondary school qualification. \\\\Mathematics\\\\ with excellent academic performance. Physics or other science subjects as required. Grades that meet the entry requirements of the university. \\\\Proof of English proficiency\\\\, if applicable. Indian students should look at how their class 12 board, marks and subject combination is treated. Some applicants may need a \\\\foundation programme\\\\ or other recognized qualification. 5. Civil Engineering Eligibility Criteria in Ireland International students should look at the \\\\admission requirements for each programme\\\\ separately. University requirements Universities evaluate academic grades, subject requirements and qualification equivalence. \\\\Mathematics\\\\ is particularly important and Physics may be required for entry to an undergraduate course. English language requirements Applicants may be required to provide results from \\\\IELTS Academic, TOEFL iBT, PTE Academic\\\\ or another recognized English language proficiency test. Scores required vary between institutions and programs. Certain universities may accept alternative proof of English competency. Further requirements Applicants may be required to: Depending on the course Certificates Academic transcripts Personal statement or statement of purpose Recommendation letters CV or resume for postgraduate application Proof of relevant work experience if requested Confirmation of application fee if applicable"
+    },
+    {
+      "name": "Trinity College Dublin",
+      "location": "Dublin, Ireland",
+      "fee": "€18,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Should You Study Civil Engineering in Ireland?",
+      "lead": "Ireland is a great destination for students interested in \\\\designing, building and maintaining infrastructure\\. \\\\Civil Engineering\\\\ applies technical knowledge and practical problem solving to meet the needs of roads, bridges, buildings, water systems and sustainable development of cities.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "\\\\Main benefits of studying Civil Engineering in Ireland:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Practical learning: learn through design projects, laboratories, fieldwork and engineering assignments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Infrastructure Opportunities:\\\\ Find careers in \\\\construction, transportation, water management, structural design, and infrastructure development.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Sustainability focus:\\\\ Study energy-efficient buildings, resilient infrastructure and environmentally responsible construction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Professional development:\\\\ Accredited engineering programs may facilitate progression to professional engineering qualifications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further education:\\\\ Proceed to specialized \\\\master's degree programmes\\\\ in structural engineering, transportation, geotechnical engineering or construction management."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Compare universities based on course content, \\\\accreditation, industry placements, tuition fees\\\\ and what type of civil engineering work you want to do."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Edu Hawk worldwide study abroad guidance\\\\ can help students explore these opportunities and understand the requirements involved in pursuing education overseas."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Civil Engineering Courses in Ireland",
+      "lead": "Irish universities offer \\\\undergraduate and postgraduate programs in Civil Engineering\\\\ and related specializations.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate courses"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Bachelor of Engineering (BEng)\\\\: A way to enter into engineering study, duration varies by qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Bachelor of Engineering (Honours):\\\\ Usually a 4-year program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Integrated Master of Engineering (MEng):\\\\ A five-year program combining undergraduate and graduate level engineering."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Civil Engineering\\\\ - Structural Engineering",
+            "\\\\Geotechnical Engineering\\\\",
+            "\\\\Transportation Engineering\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Trending topics"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineering math and mechanics.",
+            "Structural design and analysis",
+            "Building materials",
+            "Geotechnical engineering and geotechnics",
+            "Fluid mechanics and hydraulic",
+            "Transportation and highway engineering",
+            "Surveying and measuring land",
+            "Project management and construction planning",
+            "Engineer for the environment",
+            "Structural modeling and computer aided design"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Best Universities and Institutions for Civil Engineering in Ireland",
+      "lead": "Here are some institutions to consider for \\\\Civil Engineering and related undergraduate pathways:",
+      "groups": [],
+      "unis": [
+        {
+          "name": "University of Galway",
+          "location": "Galway, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "desc": "The university offers a \\\\Bachelor of Engineering and Master of Engineering in Civil Engineering\\\\"
+        },
+        {
+          "name": "University College Cork (UCC)",
+          "location": "Cork, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "desc": "UCC's engineering program also has a \\\\Civil, Structural and Environmental Engineering\\\\ stream. Technological University Dublin (TU Dublin) - TU Dublin is a good option for \\\\practical and applied engineering study. 4. Qualification to Study Civil Engineering in Ireland Eligibility varies with the institution, qualification level and the educational background of the applicant. Eligibility for Undergraduates Students applying after Class 12 are usually required to: A recognized secondary school qualification. \\\\Mathematics\\\\ with excellent academic performance. Physics or other science subjects as required. Grades that meet the entry requirements of the university. \\\\Proof of English proficiency\\\\, if applicable. Indian students should look at how their class 12 board, marks and subject combination is treated. Some applicants may need a \\\\foundation programme\\\\ or other recognized qualification. 5. Civil Engineering Eligibility Criteria in Ireland International students should look at the \\\\admission requirements for each programme\\\\ separately. University requirements Universities evaluate academic grades, subject requirements and qualification equivalence. \\\\Mathematics\\\\ is particularly important and Physics may be required for entry to an undergraduate course. English language requirements Applicants may be required to provide results from \\\\IELTS Academic, TOEFL iBT, PTE Academic\\\\ or another recognized English language proficiency test. Scores required vary between institutions and programs. Certain universities may accept alternative proof of English competency. Further requirements Applicants may be required to: Depending on the course Certificates Academic transcripts Personal statement or statement of purpose Recommendation letters CV or resume for postgraduate application Proof of relevant work experience if requested Confirmation of application fee if applicable"
+        },
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin, Ireland",
+          "fee": "€18,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying Civil Engineering in Ireland",
+      "lead": "Tuition costs for Civil Engineering in Ireland differ based on the institution, the specific program, the academic year, and the applicant's fee classification.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Published examples for \\\\international or non-EU undergraduate applicants for the academic year 2026/27\\\\ include"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University of Galway \\| Civil Engineering \\| €27,640 inclusive of listed levy"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University College Cork \\| Civil, Structural and Environmental Engineering \\| €27,000 \\+ €210 capitation"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of living",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Plus, plan for costs beyond tuition"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Housing and communal services"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Groceries and food"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Transport public"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Laptop, Books and study materials"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Healthcare insurance"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Immigration and registration fees, if applicable"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal spending and emergency savings"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The \\\\cost of living in Ireland\\\\ will depend on the city and accommodation arrangements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "How to Get Into Civil Engineering in Ireland",
+      "lead": "These are the usual steps in the \\\\application process for Civil Engineering in Ireland\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Step 1. Pick your course.\\\\ Compare modules, program length, accreditation, fees and placement opportunities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Step 2: Check eligibility\\\\ Check academic prerequisites, English language requirements and acceptable international qualifications."
+          ]
+        },
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 3,
+              "title": "Get your documents together. Pull out your passport, your academic certificates, your transcripts, and any required test results or references.",
+              "desc": "\\\\Step 4: Submit your application.\\\\ Most non-EU applicants apply directly through the university's online application portal. The route varies with institution and applicant category."
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Step 5: Monitor your application.\\\\ Keep track of updates and submit any extra paperwork required by the admissions team."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Step 6: Accept your offer.\\\\ Look over any conditions, deposits, payment deadlines and fee terms."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Step 7: Get ready for your trip.\\\\ If you need a \\\\student visa for Ireland\\\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and Recognition of Civil Engineering in Ireland",
+      "lead": "\\\\ Accreditation \\\\ is an important factor when choosing an engineering degree.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\ Engineers Ireland\\\\ accredits engineering programs against recognized educational and professional standards. Subject to the relevant requirements, an accredited program can be a basis for continuing professional development and for progression to professional engineering status."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accreditation does not automatically mean employment, professional registration or recognition in every country. If you intend to work in India or elsewhere after graduation, check the relevant professional and qualification recognition requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Opportunity for Civil Engineers in Ireland",
+      "lead": "\\\\Graduates of Civil Engineering in Ireland\\\\ can get jobs in \\\\construction, infrastructure development, engineering consultancy, environmental services and project delivery\\\\",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Typical career paths"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineer Civil Structural Engineering",
+            "Engineer, Site",
+            "Geotechnical Engineering",
+            "Engineer, Transportation",
+            "Environmental and Water Engineer",
+            "Engineer - Construction Project",
+            "Quantity Surveying / Cost-Engineering related functions, with suitable further training",
+            "Engineer, Infrastructure Designing",
+            "Project Manager"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further training, relevant experience or additional professional qualifications are required for some posts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Salary expectations in Ireland"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The figures below are indicative planning estimates of \\\\annual gross salaries\\\\ and are not official salary scales or guarantee offers"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduate \\| Junior \\| €30,000-€40,000"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Early career engineer \\",
+              "d": "€40,000–€55,000"
+            },
+            {
+              "t": "Experienced engineer \\",
+              "d": "€55,000–€75,000+"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Civil Engineering in Ireland",
+      "lead": "The precise list differs for each institution and program, but international applicants usually prepare:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Passport valid"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For admission to the undergraduate course, Class 10 and Class 12 certificates and mark sheets"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor degree certificate and transcript of admission to post graduate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language test results (if applicable)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal statement or statement of purpose (if applicable)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If necessary letters of recommendation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "CV or resume for selected post-graduate programs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of relevant experience, if necessary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Confirmation of application fee if required"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of funds for immigration purposes"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health insurance and other documents required for visa/registration"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long is a civil engineering degree in Ireland?",
+      "a": "Many undergraduate honors engineering degrees are four years long. Some integrated Master of Engineering courses are five years in duration, but this varies depending on the university and the structure of the course."
+    },
+    {
+      "q": "What are the eligibility criteria for Indian students?",
+      "a": "As a rule candidates should have a \\\\recognised Class 12 qualification with good Mathematics results\\\\ and Physics or other science subjects where these are required. Each university has its own grade and subject requirements."
+    },
+    {
+      "q": "What is the cost of Civil Engineering for international students?",
+      "a": "For \\\\2026/27\\\\The University of Galway lists €27,640 per year including its levy while UCC lists €27,000 per year plus a €210 capitation fee for the specified engineering program. Additional living expenses apply and fees may vary."
+    },
+    {
+      "q": "Is Civil Engineering accredited in Ireland?",
+      "a": "Some Irish engineering programs are accredited by \\\\Engineers Ireland. Don't assume all programs are the same – check the exact course and qualification."
+    },
+    {
+      "q": "What type of jobs can I get after studying Civil Engineering in Ireland?",
+      "a": "Graduates may apply for jobs in \\\\civil and structural design, construction, transportation, geo-technical engineering, water management and infrastructure projects. Career outcomes depend on skills, experience, availability of vacancies and employment eligibility."
+    },
+    {
+      "q": "How can Edu Hawk worldwide Consultancy help me study abroad?",
+      "a": "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities."
+    }
+  ],
+  "seo": {
+    "title": "Civil Engineering in Ireland | Edu-Hawk Worldwide",
+    "description": "Ireland is a great destination for students interested in \\\\designing, building and maintaining infrastructure\\. \\\\Civil Engineering\\\\ applies technical knowled",
+    "keywords": "Study Civil Engineering in Ireland for Indian Students, Top Universities for Civil Engineering in Ireland, Bachelor of Civil Engineering Courses in Ireland, Undergraduate Civil Engineering Programmes for International Students, Civil Engineering Eligibility Requirements in Ireland, Civil Engineering Admission Requirements for Indian Students, IELTS Requirements for Civil Engineering Courses in Ireland, Civil Engineering Tuition Fees in Ireland for International Students, Cost of Living for Civil Engineering Students in Ireland, Engineers Ireland Accredited Civil Engineering Courses, Civil Engineering Career Opportunities in Ireland, Civil Engineer Salary in Ireland for Graduates, Ireland Student Visa Requirements for Civil Engineering Students, <"
+  }
+}

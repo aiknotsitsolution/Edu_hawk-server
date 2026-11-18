@@ -1,0 +1,75 @@
+{
+  "seo": {
+    "title": "Study Accounting & Finance Abroad | Edu Hawk",
+    "description": "Study Accounting & Finance abroad with professional pathways like ACCA, CFA and CPA and complete end-to-end admission support."
+  },
+  "hero": {
+    "badge": "Study Accounting & Finance · Abroad",
+    "title": "Accounting & Finance in USA",
+    "subtitle": "Top universities, strong industry exposure, professional pathways and complete end-to-end support — from admission to pre-departure. Honest guidance by EduHawk.",
+    "ctaText": "Book free counselling",
+    "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop"
+  },
+  "stats": [
+    {
+      "l": "Programs",
+      "n": "B.Com, BSc, MSc, M.Com, MS in Accounting & Finance"
+    },
+    {
+      "l": "Countries",
+      "n": "UK, Canada, Australia, USA, Ireland, Germany & more"
+    },
+    {
+      "l": "Support",
+      "n": "Complete end-to-end guidance from profile to arrival"
+    },
+    {
+      "l": "Approach",
+      "n": "Career-focused · Transparent fees · Honest counselling"
+    }
+  ],
+  "highlights": {
+    "degree": "B.Com / BSc / MSc / MS in Finance",
+    "duration": "3–4 Years (UG) / 1–2 Years (PG)",
+    "fee": "$24,000 – $58,000 / Year",
+    "eligibility": "Class 12 Commerce/Maths (UG) / Bachelor's (PG)",
+    "medium": "English"
+  },
+  "overview": "Studying Accounting & Finance in the United States provides Indian students with direct pathways to global corporate finance, investment banking, asset management, and professional accreditations like CPA and CFA.\n\nStudents benefit from internationally accredited curricula, Wall Street and corporate business networks, cutting-edge analytical tools, and STEM OPT work opportunities.",
+  "universities": [
+    {
+      "name": "New York University (Stern)",
+      "location": "New York, NY",
+      "fee": "$58,000 / Year",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=900&q=85"
+    },
+    {
+      "name": "University of Pennsylvania (Wharton)",
+      "location": "Philadelphia, PA",
+      "fee": "$62,000 / Year",
+      "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=900&q=85"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which country is best for Accounting & Finance abroad?",
+      "answer": "UK and Canada are very popular for Accounting and Finance. Australia and Ireland also offer strong programs with good post-study work rights. USA is excellent for specialised Finance programs. The best choice depends on your budget, specialisation and long-term career plans."
+    },
+    {
+      "question": "How much does it cost to study Accounting & Finance abroad?",
+      "answer": "Costs vary by country and university. UK, Canada and Australia are moderately expensive. We provide a clear country-wise cost estimate covering tuition + living expenses before you apply."
+    },
+    {
+      "question": "Do I need ACCA / CFA / CPA for these programs?",
+      "answer": "Not mandatory for admission. However, many universities offer exemptions or pathways towards ACCA, CFA or CPA, which can be a big advantage for your career."
+    },
+    {
+      "question": "Can I work while studying Accounting & Finance?",
+      "answer": "Yes. Most popular destinations allow 20 hours/week part-time work during term and full-time during holidays (subject to visa rules). Many students also do internships in finance and accounting firms."
+    },
+    {
+      "question": "When should I start the process?",
+      "answer": "Ideally 8–12 months before your intended intake. This gives enough time for tests, shortlisting, applications and visa processing."
+    }
+  ]
+}

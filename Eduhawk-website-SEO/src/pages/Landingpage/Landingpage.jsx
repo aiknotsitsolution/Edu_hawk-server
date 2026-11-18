@@ -13,9 +13,10 @@ import {
   Star,
   X,
 } from "lucide-react";
-import Eduhawk from "../../assets/Eduhawk.png";
+import Eduhawk from "../../assets/Eduhawk.webp";
 import ReCAPTCHA from "react-google-recaptcha";
-import landingpage from "../../assets/landingpage.png";
+import landingpage from "../../assets/landingpage.webp";
+import SeoHead from "../../component/SeoHead.jsx";
 
 const NAV_LINKS = [
   "Home",
@@ -36,7 +37,7 @@ const HERO_IMAGES = [
 const COUNTRIES = [
   {
     name: "Russia",
-    path: "mbbsabroad/russia",
+    path: "mbbs-abroad/russia",
     rank: "#1 Choice",
     color: "#06b6d4",
     uniImage:
@@ -44,7 +45,7 @@ const COUNTRIES = [
   },
   {
     name: "Kazakhstan",
-    path: "mbbsabroad/kazakhstan",
+    path: "mbbs-abroad/kazakhstan",
     rank: "Top Rated",
     color: "#22d3ee",
     uniImage:
@@ -52,7 +53,7 @@ const COUNTRIES = [
   },
   {
     name: "Georgia",
-    path: "mbbsabroad/georgia",
+    path: "mbbs-abroad/georgia",
     rank: "EU Standard",
     color: "#0ea5e9",
     uniImage:
@@ -60,22 +61,22 @@ const COUNTRIES = [
   },
   {
     name: "Bangladesh",
-    path: "mbbsabroad/bangladesh",
-    rank: "NMC Approved",
+    path: "mbbs-abroad/bangladesh",
+    rank: "NMC Recognized",
     color: "#06b6d4",
     uniImage:
       "https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg",
   },
   {
     name: "Nepal",
-    path: "mbbsabroad/nepal",
+    path: "mbbs-abroad/nepal",
     rank: "Affordable",
     color: "#10b981",
     uniImage: "https://asmi.edu.kg/wp-content/uploads/slider2/DJI_0086.jpeg",
   },
   {
     name: "Kyrgyzstan",
-    path: "mbbsabroad/kyrgyzstan",
+    path: "mbbs-abroad/kyrgyzstan",
     rank: "Low Cost",
     color: "#eab308",
     uniImage:
@@ -83,7 +84,7 @@ const COUNTRIES = [
   },
   {
     name: "Uzbekistan",
-    path: "mbbsabroad/uzbekistan",
+    path: "mbbs-abroad/uzbekistan",
     rank: "Emerging",
     color: "#8b5cf6",
     uniImage:
@@ -91,7 +92,7 @@ const COUNTRIES = [
   },
   {
     name: "Tajikistan",
-    path: "mbbsabroad/tajikistan",
+    path: "mbbs-abroad/tajikistan",
     rank: "Budget Friendly",
     color: "#ec4899",
     uniImage:
@@ -99,7 +100,7 @@ const COUNTRIES = [
   },
   {
     name: "Egypt",
-    path: "mbbsabroad/egypt",
+    path: "mbbs-abroad/egypt",
     rank: "Ancient Legacy",
     color: "#f59e0b",
     uniImage:
@@ -107,7 +108,7 @@ const COUNTRIES = [
   },
   {
     name: "Vietnam",
-    path: "mbbsabroad/vietnam",
+    path: "mbbs-abroad/vietnam",
     rank: "Fast Growing",
     color: "#22c55e",
     uniImage:
@@ -123,7 +124,7 @@ const BENEFITS = [
   },
   {
     icon: Landmark,
-    title: "NMC/MCI Approved",
+    title: "NMC Recognized",
     desc: "All universities are NMC & WHO recognized",
   },
   {
@@ -164,7 +165,7 @@ const STEPS = [
   {
     num: "03",
     title: "University Selection & Admission",
-    desc: "Secure admission in best NMC-approved university",
+    desc: "Secure admission in best NMC-recognized university",
     icon: Landmark,
   },
   {
@@ -321,8 +322,23 @@ export default function Landingpage() {
 
   return (
     <div className="font-['Sora'] bg-slate-50 text-slate-950 overflow-x-hidden">
+      <SeoHead
+        title="MBBS Abroad Consultant | Edu-Hawk Worldwide"
+        description="Your dream of MBBS abroad starts here. India's trusted MBBS abroad consultancy: NMC recognized universities, low fees, no donation. 2026-27 admissions open."
+        path="/landingpage"
+      >
+        {/* Fonts loaded via proper <link> in head (preconnect hints) instead of a
+            JS-injected CSS @import. Scoped to this page only so the other 73
+            routes never fetch these font stylesheets. CSP already allows
+            fonts.googleapis.com (style-src) and fonts.gstatic.com (font-src). */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap"
+        />
+      </SeoHead>
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=Playfair+Display:ital,wght@0,700;1,600&display=swap');
         .glass {
           background: rgba(255,255,255,0.95);
           backdrop-filter: blur(16px);
@@ -348,7 +364,10 @@ export default function Landingpage() {
         }`}
       >
         <div className="flex items-center gap-3">
-          <img src={Eduhawk} alt="Eduhawk Logo" className="h-12 w-auto" />
+          <img src={Eduhawk} alt="Eduhawk Logo" className="h-12 w-auto" width={244} height={72}
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="(max-width: 640px) 180px, 244px"
+                />
         </div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-700">
           {NAV_LINKS.map((link) => (
@@ -429,7 +448,7 @@ export default function Landingpage() {
             Starts Here
           </h1>
           <p className="text-xl text-white/90 max-w-2xl mb-10">
-            India's trusted MBBS abroad consultancy. NMC approved universities •
+            India's trusted MBBS abroad consultancy. NMC recognized universities •
             Low fees • No donation
           </p>
           <button
@@ -460,9 +479,12 @@ export default function Landingpage() {
             >
               <img
                 src={country.uniImage}
+                loading="lazy"
                 alt={country.name}
                 className="uni-image w-full"
-              />
+                  srcSet={`${country.uniImage} 1x, ${country.uniImage} 2x`}
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               <div className="p-8">
                 <div
                   className="inline-block px-4 py-1 rounded-full text-xs font-bold mb-2"
@@ -578,101 +600,122 @@ export default function Landingpage() {
         </div>
       </section>
 
-      <div class="bg-white py-16">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+      <div className="bg-white py-16">
+        <div className="max-w-7xl mx-auto px-6 text-center">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             MBBS in Abroad for Indian Students
           </h2>
 
-          <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto mb-12 leading-relaxed">
             Get admission in world-ranking top medical universities approved by
             NMC, WHO at lowest fees & sophisticated education facilities.
           </p>
 
           {/* <!-- Countries Grid --> */}
-          <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
-            <div class="group flex flex-col items-center">
-              <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+            <div className="group flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/ru.png"
+                  loading="lazy"
                   alt="Russia"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/ru.png 1x, https://flagcdn.com/w320/ru.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
-              <h3 class="font-semibold text-gray-800">Russia</h3>
-              <p class="text-sm text-gray-500">42+ Universities</p>
+              <h3 className="font-semibold text-gray-800">Russia</h3>
+              <p className="text-sm text-gray-500">42+ Universities</p>
             </div>
 
-            <div class="group flex flex-col items-center">
-              <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
+            <div className="group flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/kz.png"
+                  loading="lazy"
                   alt="Kazakhstan"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/kz.png 1x, https://flagcdn.com/w320/kz.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
-              <h3 class="font-semibold text-gray-800">Kazakhstan</h3>
-              <p class="text-sm text-gray-500">13+ Universities</p>
+              <h3 className="font-semibold text-gray-800">Kazakhstan</h3>
+              <p className="text-sm text-gray-500">13+ Universities</p>
             </div>
 
-            <div class="group flex flex-col items-center">
-              <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
+            <div className="group flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/ge.png"
+                  loading="lazy"
                   alt="Georgia"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/ge.png 1x, https://flagcdn.com/w320/ge.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
-              <h3 class="font-semibold text-gray-800">Georgia</h3>
-              <p class="text-sm text-gray-500">22+ Colleges</p>
+              <h3 className="font-semibold text-gray-800">Georgia</h3>
+              <p className="text-sm text-gray-500">22+ Colleges</p>
             </div>
 
-            <div class="group flex flex-col items-center">
-              <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
+            <div className="group flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/uz.png"
+                  loading="lazy"
                   alt="Uzbekistan"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/uz.png 1x, https://flagcdn.com/w320/uz.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
-              <h3 class="font-semibold text-gray-800">Uzbekistan</h3>
-              <p class="text-sm text-gray-500">18+ Universities</p>
+              <h3 className="font-semibold text-gray-800">Uzbekistan</h3>
+              <p className="text-sm text-gray-500">18+ Universities</p>
             </div>
 
-            <div class="group flex flex-col items-center">
-              <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
+            <div className="group flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/np.png"
+                  loading="lazy"
                   alt="Nepal"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/np.png 1x, https://flagcdn.com/w320/np.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
-              <h3 class="font-semibold text-gray-800">Nepal</h3>
-              <p class="text-sm text-gray-500">18+ Colleges</p>
+              <h3 className="font-semibold text-gray-800">Nepal</h3>
+              <p className="text-sm text-gray-500">18+ Colleges</p>
             </div>
 
-            <div class="group flex flex-col items-center">
-              <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
+            <div className="group flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/bd.png"
+                  loading="lazy"
                   alt="Bangladesh"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/bd.png 1x, https://flagcdn.com/w320/bd.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
-              <h3 class="font-semibold text-gray-800">Bangladesh</h3>
-              <p class="text-sm text-gray-500">56+ Colleges</p>
+              <h3 className="font-semibold text-gray-800">Bangladesh</h3>
+              <p className="text-sm text-gray-500">56+ Colleges</p>
             </div>
 
-            <div class="group flex flex-col items-center">
-              <div class="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
+            <div className="group flex flex-col items-center">
+              <div className="w-20 h-20 rounded-full overflow-hidden border-4 border-white shadow-lg mb-3 transition-transform group-hover:scale-110">
                 <img
                   src="https://flagcdn.com/w320/kg.png"
+                  loading="lazy"
                   alt="Kyrgyzstan"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
+                  srcSet="https://flagcdn.com/w320/kg.png 1x, https://flagcdn.com/w320/kg.png 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
                 />
               </div>
-              <h3 class="font-semibold text-gray-800">Kyrgyzstan</h3>
-              <p class="text-sm text-gray-500">28+ Colleges</p>
+              <h3 className="font-semibold text-gray-800">Kyrgyzstan</h3>
+              <p className="text-sm text-gray-500">28+ Colleges</p>
             </div>
 
             {/* <!-- Extra space for more countries if needed --> */}
@@ -755,60 +798,70 @@ export default function Landingpage() {
         </div>
       </div>
 
-      <div class="relative bg-gradient-to-br from-cyan-600 to-violet-700  text-white overflow-hidden py-16 md:py-24">
+      <div className="relative bg-gradient-to-br from-cyan-600 to-violet-700  text-white overflow-hidden py-16 md:py-24">
         {/* <!-- Background Pattern --> */}
-        <div class="absolute inset-0 bg-[radial-gradient(#ffffff20_1px,transparent_1px)] [background-size:40px_40px] opacity-30"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(#ffffff20_1px,transparent_1px)] [background-size:40px_40px] opacity-30"></div>
 
-        <div class="max-w-6xl mx-auto px-6 text-center relative z-10">
-          <h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">
+        <div className="max-w-6xl mx-auto px-6 text-center relative z-10">
+          <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
             Talk to our Experts
-          </h1>
+          </h2>
 
-          <p class="text-xl md:text-2xl mb-10 max-w-3xl mx-auto">
-            for <span class="font-bold text-yellow-400">FREE</span> and get a
+          <p className="text-xl md:text-2xl mb-10 max-w-3xl mx-auto">
+            for <span className="font-bold text-yellow-400">FREE</span> and get a
             personalized admission roadmap for{" "}
-            <span class="font-semibold">2026 intake</span>
+            <span className="font-semibold">2026 intake</span>
           </p>
 
           {/* <!-- Stats --> */}
-          <div class="flex flex-wrap justify-center gap-8 md:gap-16 mb-12">
-            <div class="text-center">
-              <div class="text-4xl md:text-5xl font-bold text-yellow-400">
-                400+
+          <div className="flex flex-wrap justify-center gap-8 md:gap-16 mb-12">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-400">
+                1000+
               </div>
-              <div class="text-sm md:text-base mt-1 opacity-90">
-                Students Placed
+              <div className="text-sm md:text-base mt-1 opacity-90">
+                Students Placed Globally
               </div>
             </div>
-            <div class="text-center">
-              <div class="text-4xl md:text-5xl font-bold text-yellow-400">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-400">
+                20+
+              </div>
+              <div className="text-sm md:text-base mt-1 opacity-90">
+                Countries
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-400">
+                200+
+              </div>
+              <div className="text-sm md:text-base mt-1 opacity-90">
+                Partner Universities
+              </div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-bold text-yellow-400">
                 100%
               </div>
-              <div class="text-sm md:text-base mt-1 opacity-90">
-                Visa Support
+              <div className="text-sm md:text-base mt-1 opacity-90">
+                Visa & End-to-End Guidance
               </div>
-            </div>
-            <div class="text-center">
-              <div class="text-4xl md:text-5xl font-bold text-yellow-400">
-                10+
-              </div>
-              <div class="text-sm md:text-base mt-1 opacity-90">Countries</div>
             </div>
           </div>
 
           {/* <!-- MBBS Abroad Section --> */}
 
-          <button class="bg-white text-blue-900 hover:bg-yellow-400 hover:text-blue-950 font-semibold text-lg px-10 py-4 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95">
+          <button className="bg-white text-blue-900 hover:bg-yellow-400 hover:text-blue-950 font-semibold text-lg px-10 py-4 rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95">
             Book Your Free Counselling
           </button>
 
-          <p class="mt-6 text-sm opacity-75">
+          <p className="mt-6 text-sm opacity-75">
             Limited slots available • Hurry up!
           </p>
         </div>
 
-        <div class="absolute -top-12 -right-12 w-56 h-56 bg-white/10 rounded-full blur-3xl"></div>
-        <div class="absolute -bottom-12 -left-12 w-56 h-56 bg-white/10 rounded-full blur-3xl"></div>
+        <div className="absolute -top-12 -right-12 w-56 h-56 bg-white/10 rounded-full blur-3xl"></div>
+        <div className="absolute -bottom-12 -left-12 w-56 h-56 bg-white/10 rounded-full blur-3xl"></div>
       </div>
 
       {/* FAQ SECTION */}
@@ -961,10 +1014,13 @@ export default function Landingpage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12">
             {/* Logo & Description */}
             <div className="lg:col-span-4">
-              <img src={Eduhawk} alt="Eduhawk Logo" className="h-14 mb-6" />
+              <img src={Eduhawk} loading="lazy" alt="Eduhawk Logo" className="h-14 mb-6" width={244} height={72}
+                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
+                  sizes="(max-width: 640px) 180px, 244px"
+                />
               <p className="text-slate-300 leading-relaxed mb-6">
                 India's most trusted MBBS abroad education consultant. Helping
-                aspiring doctors get admission in top NMC-approved universities
+                aspiring doctors get admission in top NMC-recognized universities
                 worldwide.
               </p>
               <div className="space-y-2 text-sm">

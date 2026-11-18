@@ -1,0 +1,94 @@
+{
+  "hero": {
+    "title": "Electronics Engineering Bachelors in Sweden",
+    "subtitle": "Explore world-leading Swedish public universities and institutes of technology renowned for Nobel Prize legacies, green innovation, and English-taught curricula."
+  },
+  "overview": [
+    "Explore world-leading Swedish public universities and institutes of technology renowned for Nobel Prize legacies, green innovation, and English-taught curricula.",
+    "Studying in Sweden offers Indian students world-class Scandinavian education at globally top-100 institutions known for innovation, equality, independent research, and sustainability.",
+    "Edu Hawk Worldwide Consultancy guides Indian students through Universityadmissions.se centralized portal applications, Swedish residence permits for higher education, scholarship opportunities, and post-study work permits."
+  ],
+  "universities": [
+    {
+      "name": "KTH Royal Institute of Technology",
+      "location": "Stockholm, Sweden",
+      "fee": "SEK 120,000 – 160,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
+      "image": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
+      "desc": "KTH is Sweden's highest-ranking technical university, responsible for one-third of Sweden's technical research capacity and Europe's innovation engine."
+    },
+    {
+      "name": "Lund University",
+      "location": "Lund, Sweden",
+      "fee": "SEK 100,000 – 145,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
+      "image": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
+      "desc": "One of northern Europe's oldest and most prestigious comprehensive universities (founded 1666), consistently ranked among the world's top 100."
+    },
+    {
+      "name": "Chalmers University of Technology",
+      "location": "Gothenburg, Sweden",
+      "fee": "SEK 140,000 – 180,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
+      "image": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
+      "desc": "Located in Sweden's industrial heartland, Chalmers is world-famous for automotive engineering, wireless communication, and sustainability."
+    },
+    {
+      "name": "Uppsala University",
+      "location": "Uppsala, Sweden",
+      "fee": "SEK 100,000 – 150,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
+      "image": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
+      "desc": "The oldest university in Sweden and the entire Nordic region (founded 1477), renowned for scientific research, medicine, and humanities."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top Swedish Universities",
+      "title": "Top Universities to Consider in Sweden",
+      "lead": "Explore world-leading Swedish public universities and institutes of technology renowned for Nobel Prize legacies, green innovation, and English-taught curricula.",
+      "unis": [
+        {
+          "name": "KTH Royal Institute of Technology",
+          "location": "Stockholm, Sweden",
+          "fee": "SEK 120,000 – 160,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
+          "image": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
+          "desc": "KTH is Sweden's highest-ranking technical university, responsible for one-third of Sweden's technical research capacity and Europe's innovation engine."
+        },
+        {
+          "name": "Lund University",
+          "location": "Lund, Sweden",
+          "fee": "SEK 100,000 – 145,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
+          "image": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
+          "desc": "One of northern Europe's oldest and most prestigious comprehensive universities (founded 1666), consistently ranked among the world's top 100."
+        },
+        {
+          "name": "Chalmers University of Technology",
+          "location": "Gothenburg, Sweden",
+          "fee": "SEK 140,000 – 180,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
+          "image": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
+          "desc": "Located in Sweden's industrial heartland, Chalmers is world-famous for automotive engineering, wireless communication, and sustainability."
+        },
+        {
+          "name": "Uppsala University",
+          "location": "Uppsala, Sweden",
+          "fee": "SEK 100,000 – 150,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
+          "image": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
+          "desc": "The oldest university in Sweden and the entire Nordic region (founded 1477), renowned for scientific research, medicine, and humanities."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Electronics Engineering Bachelors in Sweden | Edu-Hawk Worldwide",
+    "description": "Explore world-leading Swedish public universities and institutes of technology renowned for Nobel Prize legacies, green innovation, and English-taught curricula",
+    "keywords": "Study in Sweden, Top Universities in Sweden, Edu Hawk Worldwide"
+  }
+}

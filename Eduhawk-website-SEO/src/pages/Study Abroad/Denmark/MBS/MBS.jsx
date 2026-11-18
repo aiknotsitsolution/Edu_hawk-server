@@ -1,0 +1,193 @@
+import React from "react";
+import { AbroadCoursePage } from "../../../../component/CoursePageKit.jsx";
+
+// Page layout images
+import heroImg from "../../../../Images/Abroad/Denmark/MBS/hero.webp";
+import heroBgImg from "../../../../Images/Abroad/Denmark/MBS/hero_bg.webp";
+import sideImg from "../../../../Images/Abroad/Denmark/MBS/side.webp";
+import ctaBgImg from "../../../../Images/Abroad/Denmark/MBS/cta_bg.webp";
+
+// University images
+import uniImg1 from "../../../../Images/Abroad/Denmark/MBS/image1.png";
+import uniImg2 from "../../../../Images/Abroad/Denmark/MBS/image2.png";
+import uniImg3 from "../../../../Images/Abroad/Denmark/MBS/image3.png";
+import uniImg4 from "../../../../Images/Abroad/Denmark/MBS/image4.png";
+import cmsData from "../../../../data/study_abroad/denmark/mbs.json";
+
+const page = {
+  "name": "MBS",
+  "country": "Denmark",
+  "slug": "mbs",
+  "title": "MBS in Denmark for Indian Students | Edu-Hawk Worldwide",
+  "description": "Study MBS in Denmark: Top universities, course duration, tuition fees in DKK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
+  "keywords": "Study MBS in Denmark, MBS in Denmark for Indian Students, Best Universities in Denmark, Denmark MBS Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
+  "introTitle": "MBS in Denmark for Indian Students",
+  "heroParas": [
+    "**MBS in Denmark** is a topic of interest for students looking to pursue postgraduate education in business and management. MBS is commonly used to denote **Master of Business Studies in Denmark**, a postgraduate degree in business and management. It may include business strategy, finance, marketing, economics and organizational management."
+  ],
+  "overview": [
+    "In Denmark, students will more often come across programs listed under titles such as MSc in Business Administration, International Business or Master of Business Administration (MBA). Always check the exact title of the degree and the qualification given by the institution. Students exploring **business master's programs in Denmark** should compare the curriculum and degree titles before applying.",
+    "Students can study programs in:",
+    "* Business Administration & Management  \n* International Business  \n* Strategic Management  \n* Finance and Accounting  \n* Marketing Management  \n* Innovation & Entrepreneurship  \n* Business Analytics Human Resource Management",
+    "These subjects offer different academic pathways for students interested in **MBS in Denmark** and related business qualifications.",
+    "Students researching **business universities in Denmark** can consider:",
+    "**Copenhagen Business School (CBS)** Business administration, international business and MBA programs.",
+    "**University of Southern Denmark (SDU)** has a wide range of study options related to business and management.",
+    "Program availability and entry criteria vary. These are related options not verification that each school has a degree specifically called MBS.",
+    "For postgraduate business programs students generally need:",
+    "* A recognized bachelor\u2019s degree.  \n* Relevant academic studies depending on the program.  \n* English language proficiency if needed.  \n* Work experience, as required for MBA programs.",
+    "Understanding the **MBS admission requirements in Denmark** can help applicants prepare their academic documents and check whether they meet the university's entry criteria.",
+    "Applicants may be required to submit academic transcripts, a degree certificate, a CV, a motivation letter, English test results and letters of recommendation. Some programs may also require professional experience or standardized test results.",
+    "Indicative planning estimates for Indian students:",
+    "| Price | Estimated price |\n| ----- | ----- |\n| Tuition fees | Many business master\u2019s programs \u2014 \u20b96-18 lakh per annum |\n| Cost of living | \u20b9 80,000-\u20b9 1.3 lakh/month |\n| Total value of the budget | Depending on the length of the program and tuition |",
+    "The **MBS fees in Denmark** can vary depending on the institution, degree type and duration of the course. Students should confirm the latest tuition details directly with their chosen university.",
+    "They are rough estimates, not official quotes for MBS fees. MBA tuition can be significantly higher; for example, CBS lists separate fees for its full-time MBA.",
+    "Please specify the exact degree and the university where you obtained it.  \n2. Check the academic and language requirements.  \n3. Put your papers in order.  \n4. File the application on time.  \n5. Complete any interview or further assessment.  \n6. Accept the offer and arrange to pay the tuition.  \n7. Complete the relevant student residence permit procedure.",
+    "Students planning to pursue **MBS in Denmark** should follow the university's application instructions and submit all required documents within the specified deadlines.",
+    "Check the official recognition of the institution, the qualification awarded and any programme-specific accreditation. If you are planning to work or study in India, make sure that the qualification is relevant to your future needs.",
+    "Graduates in business and management may find jobs in:",
+    "* Management Consultant  \n* Business Analyst 100%  \n* Marketing Manager  \n* Business Development Manager  \n* Finance Analyst  \n* Operations Manager  \n* Human Resource Specialist  \n* International Business Executive",
+    "The program, experience, skills and local employment requirements will determine career outcomes.",
+    "* A valid passport  \n* Bachelor\u2019s Degree Certificate  \n* Academic transcripts  \n* CV/Resume  \n* Letter of motivation  \n* English language test results, if applicable  \n* Letters of recommendation (if needed)  \n* Proof of work experience (if required)",
+    "**Q1. What is MBS?**",
+    "MBS can often mean Master of Business Studies.",
+    "**Q2. Is MBS equivalent to MBA?**",
+    "Not always. Both are postgraduate business qualifications but they vary in terms of structure, practical focus and entry requirements.",
+    "**Q3. Can Indian students pursue business master\u2019s programs in Denmark?**",
+    "Yes, if they meet the academic and language entry requirements of the university. **Edu-Hawk Worldwide** can help students understand course options and the study-abroad application process.",
+    "**Q4. Do you need work experience?**",
+    "That depends on the qualification. Other masters in business programs may not require professional experience but MBA programs often do.",
+    "**Q5. How do I find a course in mortgage business in Denmark?**",
+    "Search university catalogs for the exact title and related programs like MSc in Business Administration or International Business.",
+    "For guidance on course selection and applications, **Edu-Hawk Worldwide** supports students exploring business and management study options in Denmark."
+  ],
+  "level": "Master of Business Studies",
+  "crumb": "MBS",
+  "stats": [
+    {
+      "val": "DKK 60K-130K",
+      "label": "Tuition / Year"
+    },
+    {
+      "val": "English",
+      "label": "Medium of Study"
+    },
+    {
+      "val": "2 Years",
+      "label": "Course Duration"
+    },
+    {
+      "val": "20 Hrs/Week",
+      "label": "Part-Time Work"
+    }
+  ],
+  "highlights": [
+    {
+      "icon": "FaAward",
+      "title": "World Top-100 Universities",
+      "desc": "Study in globally respected Danish institutions including University of Copenhagen, DTU, and Aarhus University."
+    },
+    {
+      "icon": "FaGraduationCap",
+      "title": "Innovative PBL Learning",
+      "desc": "Problem-Based Learning model focusing on collaborative projects, real-world applications, and critical analysis."
+    },
+    {
+      "icon": "FaFileAlt",
+      "title": "High Living Standard & Safety",
+      "desc": "Denmark consistently ranks among the happiest, safest, and most progressive countries in the world."
+    },
+    {
+      "icon": "FaCheckCircle",
+      "title": "Post-Study Work Visa",
+      "desc": "Non-EU graduates are eligible for post-study residence permits to seek employment and build global careers."
+    }
+  ],
+  "sections": [],
+  "universities": [
+    {
+      "name": "University of Copenhagen (UCPH)",
+      "location": "Copenhagen, Denmark",
+      "fee": "DKK 65,000 \u2013 120,000 / Year",
+      "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
+      "img": uniImg1
+    },
+    {
+      "name": "Technical University of Denmark (DTU)",
+      "location": "Kongens Lyngby, Denmark",
+      "fee": "DKK 75,000 \u2013 115,000 / Year",
+      "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
+      "img": uniImg2
+    },
+    {
+      "name": "Aarhus University (AU)",
+      "location": "Aarhus, Denmark",
+      "fee": "DKK 60,000 \u2013 110,000 / Year",
+      "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
+      "img": uniImg3
+    },
+    {
+      "name": "Aalborg University (AAU)",
+      "location": "Aalborg, Denmark",
+      "fee": "DKK 58,000 \u2013 105,000 / Year",
+      "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
+      "img": uniImg4
+    },
+    {
+      "name": "University of Southern Denmark (SDU)",
+      "location": "Odense, Denmark",
+      "fee": "DKK 62,000 \u2013 115,000 / Year",
+      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
+      "img": uniImg1
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can Indian students apply for MBS in Denmark?",
+      "a": "Yes, Indian students meeting the academic eligibility prerequisites and English language proficiency requirements (IELTS/TOEFL) can apply to Danish higher education institutions."
+    },
+    {
+      "q": "What is the medium of instruction for MBS in Denmark?",
+      "a": "Programmes designed for international students across Danish universities are taught entirely in English."
+    },
+    {
+      "q": "What are the typical tuition fees for MBS in Denmark?",
+      "a": "Tuition fees for non-EU international students typically range from DKK 60,000 to DKK 120,000 per year, depending on the programme and university."
+    },
+    {
+      "q": "Can international students work part-time in Denmark?",
+      "a": "Yes, non-EU international students holding a valid Danish residence permit are legally permitted to work up to 20 hours per week during term and full-time in June, July, and August."
+    }
+  ],
+  "faqTitle": "Frequently Asked Questions"
+};
+
+export default function MBSDenmark() {
+  const dynamicPage = {
+    ...page,
+    name: cmsData.hero?.title || page.name,
+    heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    overview: cmsData.overview
+      ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
+      : page.overview,
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      .filter(s => s.label && s.value).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      : page.stats,
+    seo: {
+      title: cmsData.seo?.title || page.title,
+      description: cmsData.seo?.description || page.description,
+    },
+  };
+
+  return (
+    <AbroadCoursePage
+      page={dynamicPage}
+      heroImg={heroImg}
+      heroBgImg={heroBgImg}
+      sideImg={sideImg}
+      ctaBgImg={ctaBgImg}
+      seoPath="/study-abroad/denmark/mbs"
+    />
+  );
+}

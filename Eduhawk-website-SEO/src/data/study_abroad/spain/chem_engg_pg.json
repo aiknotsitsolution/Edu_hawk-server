@@ -1,0 +1,495 @@
+{
+  "hero": {
+    "title": "Chemical Engineering Master's in Spain for Indian Students",
+    "subtitle": "Master's in Chemical Engineering in Spain for Indian Students offers access to knowledge of chemical process design, industrial chemistry, reaction engineering, materials science, biotechnology, and sustainable manufacturing. In Spain, universities have postgraduate programs where principles of engineering are integrated with laboratory work, process simulation, research and industrial applications."
+  },
+  "overview": [
+    "Spain is a very attractive destination for students interested in industrial processes, sustainable technologies, chemicals and advanced materials. Aspiring students who are interested in Study Chemical Engineering in Spain can find various educational and professional benefits.",
+    "Students who Study Chemical Engineering in Spain can explore specialisations connected to industrial production, sustainable manufacturing and advanced chemical technologies."
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Do a Master's in Chemical Engineering in Spain?",
+      "lead": "Spain is a very attractive destination for students interested in industrial processes, sustainable technologies, chemicals and advanced materials. Aspiring students who are interested in Study Chemical Engineering in Spain can find various educational and professional benefits.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Advanced engineering education: Learn about chemical reaction engineering, process design, thermodynamics, and separation processes.",
+            "Industry-oriented learning: Learn about process optimization, industrial production, safety and quality control.",
+            "Sustainability and green technology: Discover cleaner production, waste reduction, renewable feedstocks and environmental protection.",
+            "Research opportunities: Depending on the program, you may participate in laboratory projects, process modeling and applied research.",
+            "Specialisms: Study biotechnology, materials science, energy processes and pharmaceutical manufacturing.",
+            "International exposure: Get technical and professional skills in a European academic setting."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who Study Chemical Engineering in Spain can explore specialisations connected to industrial production, sustainable manufacturing and advanced chemical technologies."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Master's in Chemical Engineering Programs in Spain",
+      "lead": "Students can choose from different Chemical Engineering Courses in Spain based on their undergraduate degree, interests, and career objectives.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "SpecialisationKey areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemical EngineeringProcess design, reaction engineering, thermodynamics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Process EngineeringProcess modelling, optimisation, plant operations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Industrial ChemistryChemical production, industrial reactions, quality control"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Biochemical EngineeringBioprocesses, fermentation, biotechnology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Environmental EngineeringWaste treatment, pollution control, sustainable processes"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Materials EngineeringPolymers, advanced materials, material characterisation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Energy and Process EngineeringEnergy conversion, process efficiency, thermal systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pharmaceutical EngineeringDrug manufacturing, process development, quality systems"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food Process EngineeringFood production, preservation, process technology"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sustainable Chemical TechnologyGreen chemistry, resource efficiency, circular production"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These Chemical Engineering Courses in Spain may be offered as individual degrees, specializations or modules within broader chemical, industrial, materials or environmental engineering programs. Students should refer to the university's official website for the exact title, curriculum, credits and language of instruction of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Exploring different Chemical Engineering Courses in Spain allows students to compare academic subjects and identify programs that match their technical interests and career objectives."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Universities for a Master's in Chemical Engineering in Spain",
+      "lead": "Indian students can explore a range of Chemical Engineering Universities in Spain for their postgraduate studies in chemical engineering, industrial processes and other related technical fields. The following institutions are worth looking into:",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Who Can Pursue a Master's in Chemical Engineering in Spain?",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements for a Master's in Chemical Engineering in Spain for Indian Students are usually:",
+      "lead": "",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Recognized bachelor's degree in Chemical Engineering or equivalent engineering discipline.",
+            "Relevant academic knowledge in Chemistry, Mathematics, Thermodynamics, Process Engineering and related subjects depending on the program.",
+            "Academic transcripts that satisfy the admission requirements of the university.",
+            "Proficiency in English language for English-taught programs if applicable.",
+            "Spanish language proficiency for Spanish-taught programs, where applicable.",
+            "Other prerequisite subjects/coursework as listed by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Applicants with degrees in Industrial Chemistry, Biotechnology, Materials Engineering or similar may be eligible for selected programs depending on their academic background and the requirements of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in a Master's in Chemical Engineering in Spain for Indian Students should check the specific academic eligibility criteria of their selected university before starting the application process."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "Requirements to Study a Master's in Chemical Engineering in Spain",
+      "lead": "The Chemical Engineering Admission in Spain process may include an evaluation of the candidate's academic background, previous courses, and language proficiency. Universities may judge applications on:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Bachelor's degree certificate.",
+            "Mark sheets and academic transcripts.",
+            "Transfer of prior engineering or science coursework.",
+            "Evidence of proficiency in English or Spanish, as applicable.",
+            "Resume or CV.",
+            "Motivation letter or statement of purpose.",
+            "Letters of recommendation, if applicable.",
+            "Relevant research, laboratory, or professional experience, as applicable.",
+            "Course syllabus or descriptions, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certain programs may have prerequisite subject requirements or require additional documentation. Students should check the exact criteria on the official admission page of the university. Edu-Hawk Worldwide can help applicants understand the requirements of the university and prepare the application documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Understanding Chemical Engineering Admission in Spain requirements can help Indian applicants organize their academic records and prepare the necessary documents before submitting their applications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Studying a Master's in Chemical Engineering in Spain",
+      "lead": "The Chemical Engineering Fees in Spain depend on the university, program, credit requirements and fee category applicable to international students.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Type of universityEstimated tuition per yearApproximate INR equivalent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities€1,000–€8,000₹1.09–₹8.69 lakh"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Private universities€6,000–€25,000+₹6.52–₹27.15 lakh+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are broad planning estimates and not confirmed fees for a specific program. Non-EU students will pay different tuition fees and some specialist degrees will cost more. Students should refer to the official fee schedule for the respective academic year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Additional costs can include accommodation, food, transport, health insurance, study materials, costs related to your visa and university registration fees. These costs should be budgeted separately from tuition fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The overall Chemical Engineering Fees in Spain can vary according to the university, program duration and individual living expenses. Students should compare tuition fees and additional costs while selecting their preferred university."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Applying for a Master's in Chemical Engineering in Spain",
+      "lead": "Usually the process of application includes the following steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Select your specialisation: Do you want to work with chemical processes, industrial chemistry, biotechnology, materials or sustainable engineering?",
+            "Shortlist universities: Compare the course content, fees, teaching language, location, and eligibility.",
+            "Check academic suitability: Ensure your bachelor's degree and previous courses meet the program requirements.",
+            "Get your documents ready: Gather your degree certificate, transcripts, passport, CV, motivation letter and language evidence if applicable.",
+            "Apply online: Use the university's official admission portal to submit your application.",
+            "Meet additional requirements: Provide additional documentation or attend an interview if required.",
+            "Receive admission decision: Review the offer, tuition, payment dates and conditions for enrollment.",
+            "Apply for Spanish student visa: Complete the applicable visa procedure and gather the necessary supporting documents.",
+            "Complete enrolment: Complete the university's enrollment and payment processes before you start your studies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Deadlines vary by institution and program, so students should plan ahead. A clear understanding of Chemical Engineering Admission in Spain can help applicants prepare for each stage of the admission process."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Degree Recognition and Career Scope",
+      "lead": "Edu-Hawk Worldwide can help students shortlist universities, prepare applications and handle admission-related processes.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students should check the university's recognition and whether the qualification is a university master's or other postgraduate qualification before enrolling."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career Opportunities: A Master's in Chemical Engineering in Spain for Indian Students can open career opportunities in chemical manufacturing, process design, pharmaceuticals, energy, biotechnology, materials development, and environmental technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students planning to return to India should verify the recognition of their qualifications by the prospective employer, professional pathway or institution of further study. Some industrial positions may also require relevant technical training or experience."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Salary and Job Opportunities After a Master's in Chemical Engineering in Spain",
+      "lead": "Graduates may explore Chemical Engineering Career Opportunities in Spain across chemical manufacturing companies, pharmaceutical businesses, energy companies, food processing industries, materials development organizations and engineering consultancies.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Job roleIllustrative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemical Engineer€25,000–€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Process Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Production Engineer€27,000–€42,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research and Development Engineer€28,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Environmental Engineer€27,000–€43,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pharmaceutical Process Engineer€30,000–€48,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Materials Engineer€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Quality Engineer€25,000–€40,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative career-planning estimates and do not represent guaranteed or verified current salary offers. Actual compensation will depend on experience, location, employer, technical and language skills. Speaking Spanish and having the right work permit might also be important for getting a job."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students exploring Chemical Engineering Jobs in Spain can consider career paths in process engineering, pharmaceutical production, research and development, environmental technologies and industrial manufacturing."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study MS in Chemical Engineering in Spain",
+      "lead": "Students applying to postgraduate chemical engineering programs are often required to submit the following documents:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Provisional certificate / Bachelor's degree certificate.",
+            "Academic certificates and mark sheets.",
+            "CV / résumé.",
+            "Purpose statement / letter of motivation.",
+            "Evidence of proficiency in English or Spanish if required.",
+            "Where applicable, letters of recommendation.",
+            "Course descriptions/syllabi available upon request.",
+            "Passport-size photographs, if required.",
+            "Proof of payment of application fee, if applicable.",
+            "Certified translations or legalization documents, if necessary."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The exact list of documents depends on the university and the qualifications of the applicant. Students should adhere to the official university application checklist."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Can Indian students do a Master's in Chemical Engineering in Spain?",
+      "a": "Yes. Indian students with a recognized bachelor's degree and who meet the academic, language and documentation requirements of their chosen university can apply."
+    },
+    {
+      "q": "3. Is IELTS required for a Master's in Chemical Engineering in Spain?",
+      "a": "Not always. For programs taught in English, IELTS, TOEFL or other acceptable evidence of English proficiency may be required. Some Spanish-taught programs may require proficiency in Spanish."
+    },
+    {
+      "q": "4. How much does a Master's in Chemical Engineering cost in Spain?",
+      "a": "In very rough terms, some public universities charge between €1,000 and €8,000 per year in tuition, while private ones range from €6,000 to €25,000 or more. Exact fees vary depending on the university and the program."
+    },
+    {
+      "q": "5. What jobs can I get with a Master's in Chemical Engineering?",
+      "a": "Graduates can choose to work as a chemical engineer, process engineer, production engineer, research and development engineer, environmental engineer or pharmaceutical process engineer depending on their specialization and experience."
+    }
+  ],
+  "seo": {
+    "title": "Chemical Engineering Master's in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain is a very attractive destination for students interested in industrial processes, sustainable technologies, chemicals and advanced materials. Aspiring stu",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

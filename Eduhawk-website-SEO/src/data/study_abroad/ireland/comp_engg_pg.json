@@ -1,0 +1,760 @@
+{
+  "hero": {
+    "title": "Computer Engineering PG Ireland",
+    "subtitle": "\\\\Computer Engineering\\\\ is the combination of computer hardware, electronics, embedded systems and software. A \\\\postgraduate degree\\\\ can help graduates gain specialist skills for careers in \\\\technology, telecommunications, semiconductor systems, automation and intelligent devices\\."
+  },
+  "overview": [
+    "\\\\Computer Engineering\\\\ is the combination of computer hardware, electronics, embedded systems and software. A \\\\postgraduate degree\\\\ can help graduates gain specialist skills for careers in \\\\technology, telecommunications, semiconductor systems, automation and intelligent devices\\.",
+    "\\\\Specialisation possibilities:\\\\ Choose modules related to \\\\robotics, signal processing, communications, Internet of Things (IoT)\\\\ or intelligent systems, depending on the program.",
+    "\\\\Exposure to the tech industry:\\\\ Ireland has a large \\\\tech industry\\\\ with opportunities in multinationals, engineering firms and research organizations."
+  ],
+  "universities": [
+    {
+      "name": "University College Dublin (UCD)",
+      "location": "Dublin, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+      "desc": "UCD is Ireland's largest university with a dynamic international community, renowned for innovative graduate programs and extensive industry links."
+    },
+    {
+      "name": "University of Galway",
+      "location": "Galway, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "desc": "The University of Galway is celebrated for high-impact research, vibrant campus culture, and pioneering biomedical and engineering faculties."
+    },
+    {
+      "name": "Trinity College Dublin",
+      "location": "Dublin, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+      "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Study Computer Engineering in Ireland?",
+      "lead": "\\\\Computer Engineering\\\\ is the combination of computer hardware, electronics, embedded systems and software. A \\\\postgraduate degree\\\\ can help graduates gain specialist skills for careers in \\\\technology, telecommunications, semiconductor systems, automation and intelligent devices\\.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "\\\\Key benefits of studying in Ireland\\\\ include:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Advanced technical education:\\\\ Learn \\\\computer architecture, embedded systems, digital design, electronic systems, and hardware-software integration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Specialisation possibilities:\\\\ Choose modules related to \\\\robotics, signal processing, communications, Internet of Things (IoT)\\\\ or intelligent systems, depending on the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Exposure to the tech industry:\\\\ Ireland has a large \\\\tech industry\\\\ with opportunities in multinationals, engineering firms and research organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Practical projects:\\\\ Many programs include \\\\laboratory work, technical assignments and a master's project\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Career flexibility:\\\\ Graduates can work in \\\\hardware engineering, embedded software, systems engineering, electronics\\\\ and other technical fields."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further research:\\\\ A masters could lay the groundwork for \\\\doctorate research\\\\ or specialized engineering development."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore these opportunities and learn about the requirements of pursuing education abroad with \\\\Edu Hawk worldwide study abroad guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Postgraduate Computer Engineering Programs in Ireland",
+      "lead": "Most \\\\postgraduate opportunities in Computer Engineering in Ireland\\\\ are master's degrees in \\\\Electronic and Computer Engineering, Electronic Information Engineering\\\\ or related engineering fields.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "MEng in Electronic and Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics, computer systems, engineering design and project"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "MSc in Electronic Information Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronic systems, communications, computing and signal processing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "MEngSc in Electronic and Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advanced technical study and engineering specialization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research masters in Computer Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research in a specific field of engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Doctor of Philosophy in Computer or Electronic Engineering"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Usual Subjects"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Computer architecture & digital systems\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Microcontrollers and embedded systems"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Signal Processing\\\\",
+            "\\\\Design of electronic circuits\\\\",
+            "\\\\Communications systems and networks\\\\",
+            "\\\\Robotics and control systems\\\\",
+            "\\\\Hardware and software integration\\\\",
+            "\\\\Connected devices and IoT\\\\",
+            "\\\\VLSI and semiconductor systems\\\\ (where available)",
+            "\\\\Design projects & engineering research\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Best Universities for Computer Engineering PG in Ireland",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "University College Dublin (UCD)",
+          "location": "Dublin, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
+          "desc": "UCD is Ireland's largest university with a dynamic international community, renowned for innovative graduate programs and extensive industry links."
+        },
+        {
+          "name": "University of Galway",
+          "location": "Galway, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "desc": "The University of Galway is celebrated for high-impact research, vibrant campus culture, and pioneering biomedical and engineering faculties."
+        },
+        {
+          "name": "Trinity College Dublin",
+          "location": "Dublin, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
+          "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility of PG in Computer Engineering in Ireland",
+      "lead": "For most \\\\postgraduate engineering courses\\\\ you will need a relevant \\\\bachelor's degree\\\\ and an appropriate academic record.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Some common requirements are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "An \\\\undergraduate degree\\\\ recognized as a \\\\BE, BTech or equivalent\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A degree in \\\\Computer Engineering, Electronics Engineering, Electrical Engineering\\\\ or any other accepted related field."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Minimum marks or required academic classification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant prior work in \\\\mathematics, electronics, digital systems or computer engineering\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English language skills\\\\, if necessary."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Indian students eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian applicants are typically evaluated on the basis of \\\\bachelor's degree, recognition of university, CGPA or percentage, duration of the course, and subject content\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\BE or BTech in Computer Engineering, Electronics and Communication Engineering, Electrical Engineering\\\\ or related discipline may be suitable for the program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements for PG Computer Engineering in Ireland",
+      "lead": "Universities will be looking at both \\\\academic suitability and supporting documents\\\\",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic accomplishments"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "You may be required to supply:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's degree certificate or provisional certificate"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official transcript for each year/semester."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A copy of the grading scale or the CGPA conversion, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Information of relevant modules or technical projects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of work experience, if applicable"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Requirements in English Language"
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students may be required to take the \\\\IELTS Academic, TOEFL iBT, PTE Academic\\\\ or an approved test."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For example, the published requirements for the UCD \\\\Electronic and Computer Engineering master's\\\\ are \\\\IELTS 6.5 overall, no band below 6.0\\\\ or accepted equivalent. Other universities and programs may have different limits.\\#\\# Additional requirements"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "You may also have to: Depending on the institution for"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Statement of purpose.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "References of academic or professional nature."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Résumé or curriculum vitae."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Details about research or engineering projects"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pay the application fee."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Other documents necessary for qualification evaluation."
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Study Computer Engineering in Ireland",
+      "lead": "The \\\\total cost of studying Computer Engineering in Ireland\\\\ includes \\\\tuition fees, accommodation, food, transport, insurance and personal expenses\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated yearly budget for international students"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Tuition fees\\\\ \\",
+              "d": "€25,000–€30,000+"
+            },
+            {
+              "t": "Accommodation \\",
+              "d": "€7,000-€14,000"
+            },
+            {
+              "t": "Food & Groceries \\",
+              "d": "€2,500 - €4,000"
+            },
+            {
+              "t": "Transport \\",
+              "d": "€600–€1,200"
+            },
+            {
+              "t": "Books, insurance and personal expenses \\",
+              "d": "€1,000–€2,500"
+            },
+            {
+              "t": "\\\\Estimated total\\\\ \\",
+              "d": "\\\\€36,100–€51,700+\\\\"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are planning estimates to give an indication and not guaranteed costs. The price of a place to live differs from city to city depending on what kind of housing and how much of it is available"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Process to PG in Computer Engineering in Ireland",
+      "lead": "International applicants can typically follow these steps:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose your specialization:\\\\ Decide if you want to specialize in \\\\embedded systems, electronics, computer architecture, communications\\\\ or something else."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist programmes\\\\ Compare course modules, duration, fees, projects and university location."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Academic eligibility\\\\: Ensure your undergrad degree and grades satisfy the criteria."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Collect your documents:\\\\ Get your transcripts, degree certificates, passport details, CV and English language scores if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Apply online:\\\\ Fill out the university's official postgraduate application and pay any application fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Monitor the application:\\\\ Answer any requests for clarification or further documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Accept your offer\\\\: Consider the terms, deadlines for deposit and tuition payment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Funding and accommodation arrangements\\\\ Study total cost calculation and identify appropriate accommodation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Complete immigration requirements:\\\\ Check the \\\\Irish student immigration rules\\\\ that applies to you."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10. \\\\Complete university enrollment:\\\\ Finish your enrollment in the university and provide any remaining documents."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Computer Engineering Accreditation & Recognition in Ireland",
+      "lead": "If you want to pursue a \\\\professional engineering career\\\\, it is important to check \\\\accreditation\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Ireland, \\\\Engineers Ireland\\\\ accredits qualifying engineering programs to professional education standards. However, accreditation is programme-specific, and not all master's programs are accredited separately."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before you sign up, make sure:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Whether the particular program and award are recognized."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The years of graduation that the accreditation covers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If the program satisfies the academic requirements for your intended \\\\professional engineering pathway\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Whether your bachelor's degree also needs to satisfy certain academic requirements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other requirements from your future employer or country of destination."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\postgraduate qualification\\\\ will enhance your technical skills, but it will not necessarily lead to professional registration or recognition in any country"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Computer Engineering PG in Ireland: Salary and Job Opportunities",
+      "lead": "Computer Engineering graduates can work in embedded systems, electronics, communications, automation and technology product development, hardware development.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Potential career option"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Computer Hardware Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Embedded Systems Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Firmware Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Electronics Design Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Systems Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "FPGA or Digital Design Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "IoT Engineer Validation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Test Engineer Research and Development Engineer"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Gross Indicative Annual Salary Ranges"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Entry level or graduate \\",
+              "d": "€32,000–€45,000"
+            },
+            {
+              "t": "Engineers with experience \\",
+              "d": "€45,000–€70,000"
+            },
+            {
+              "t": "Senior / specialist engineers \\",
+              "d": "€70k-€95k+"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students will enhance their chances of being hired by gaining hands-on experience with \\\\embedded C/C++, microcontrollers, FPGA design, PCB design, Linux, debugging tools, verification, testing and relevant engineering projects\\\\ ."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required for Doing PG in Computer Engineering in Ireland",
+      "lead": "The exact list of documents required will vary depending on the university and the program. Typical requirements are:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Passport (valid)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor degree certificate or Provisional Certificate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official academic transcripts for all years/semesters."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Explanation of grading scale or CGPA if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Test results in English\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An up-to-date CV or résumé."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Purpose statement or personal statement"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "References from academic or professional life."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Description of relevant projects, internships or research, if applicable"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research proposal for research based programs if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Payment of the application fee confirmation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certified translations of documents not issued in an acceptable language."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "proof of funds and insurance\\\\ for immigration purposes, if applicable."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What are the universities offering postgraduate Computer Engineering courses in Ireland?",
+      "a": "Options include \\\\DCU's MEng in Electronic and Computer Engineering, UCD's Master's in Electronic and Computer Engineering, the University of Galway's ME in Electronic and Computer Engineering\\\\, and \\\\Trinity College Dublin's MSc in Electronic Information Engineering."
+    },
+    {
+      "q": "How long does a postgraduate Computer Engineering course last?",
+      "a": "Many \\\\full-time taught master's in engineering programmes\\\\ take one year. Other programs and research degrees might be longer. Please check the length of your chosen program."
+    },
+    {
+      "q": "Can a B.Tech student of computer science or IT apply?",
+      "a": "It is possible, but entry is subject to the course. \\\\Engineering courses with a hardware focus\\\\ may require you to have studied electronics, circuits, signals or other engineering subjects previously. Check the programme's acceptable degree backgrounds before you apply."
+    },
+    {
+      "q": "What is the cost of PG Computer Engineering in Ireland?",
+      "a": "\\\\2026/27 Courses\\\\ : Non-EU tuition fees for the listed courses range from \\\\€25,000 at DCU to €29,500 at UCD. Living expenses are additional and fees may vary by intake."
+    },
+    {
+      "q": "\\\\How can Edu Hawk worldwide Consultancy help me to study abroad?\\\\",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students find suitable universities, understand \\\\admission requirements\\\\, organize application documents, and plan their \\\\study-abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authorities."
+    }
+  ],
+  "seo": {
+    "title": "Computer Engineering PG Ireland | Edu-Hawk Worldwide",
+    "description": "\\\\Computer Engineering\\\\ is the combination of computer hardware, electronics, embedded systems and software. A \\\\postgraduate degree\\\\ can help graduates gain ",
+    "keywords": "Study Computer Engineering PG in Ireland for Indian Students, Top Universities for Computer Engineering Master's in Ireland, MEng Electronic and Computer Engineering in Ireland, MSc Electronic Information Engineering in Ireland, Postgraduate Computer Engineering Courses in Ireland, Computer Engineering PG Eligibility Requirements in Ireland, Admission Requirements for Computer Engineering Master's in Ireland, IELTS Requirements for Computer Engineering PG in Ireland, Computer Engineering PG Tuition Fees in Ireland for International Students, Cost of Living for Postgraduate Engineering Students in Ireland, DCU Electronic and Computer Engineering Fees 2026/27, UCD Computer Engineering Master's Admission Requirements, Trinity College Dublin Electronic Information Engineering MSc, Engineers Ireland Accredited Postgraduate Engineering Courses, Computer Engineering Jobs and Salary After Master's in Ireland, <"
+  }
+}

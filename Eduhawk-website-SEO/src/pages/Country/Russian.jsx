@@ -1,11 +1,12 @@
+import cmsData from "../../data/medical_colleges/russia.json";
 import React, { useState } from "react";
-import { Helmet } from 'react-helmet-async';
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/Russia/about-russia.jpg";
+import SeoHead from "../../component/SeoHead.jsx";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/Russia/about-russia.webp";
 import Russianflag2 from "../../Images/country flag png/Russia.svg";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 import { useNavigate } from "react-router-dom";
@@ -19,23 +20,29 @@ const Russia = () => {
     <>
     
     
-    <Helmet>
-              <title>MBBS in Russia for Indian Students | Russia MBBS Fees & Admission </title>
-              <meta name="description" content="Study MBBS in Russia with low fees and NMC approved universities. Check eligibility, admission process, and top medical universities in Russia." />
-              <meta name="keywords" content="mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission" />
-            </Helmet>
+    <SeoHead
+      title={cmsData?.seo?.title || "MBBS in Russia for Indian Students | Russia MBBS Fees & Admission"}
+      description={cmsData?.seo?.description || "Study MBBS in Russia with low fees and NMC recognized universities. Check eligibility, admission process, and top medical universities in Russia."}
+      keywords={cmsData?.seo?.keywords || "mbbs in russia, russia mbbs fees, study mbbs russia, russia medical colleges, mbbs russia admission"}
+      path="/mbbs-abroad/russia"
+      ogType="website"
+    />
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src={RussiaFlag}
+            src={cmsData?.hero?.image || RussiaFlag}
+            width={3000}
+            height={1900}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet={`${RussiaFlag} 1x, ${RussiaFlag} 2x`}
+                  sizes="100vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN RUSSIA
+              {cmsData?.hero?.title || "STUDY MBBS IN RUSSIA"}
             </h1>
           </div>
         </div>
@@ -50,9 +57,14 @@ const Russia = () => {
           <div>
             <img
               src={Russianflag2}
+              loading="lazy"
+              width={9}
+              height={6}
               alt="Russia flag"
               className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-            />
+                  srcSet={`${Russianflag2} 1x, ${Russianflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
@@ -125,9 +137,14 @@ const Russia = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={626}
+              height={413}
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet={`${kernal} 1x, ${kernal} 2x`}
+                  sizes="(max-width: 768px) 100vw, 500px"
+                />
           </div>
         </div>
 
@@ -144,7 +161,7 @@ const Russia = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -204,7 +221,13 @@ const Russia = () => {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {[
+            {((cmsData?.universities && cmsData.universities.length > 0)
+            ? cmsData.universities.map((u, i) => ({
+                ...u,
+                name: u.name,
+                img: u.image || u.img || (u.name === "Mari State University" ? MARISTATEUNIVERSITY : u.name === "Orel State University" ? ORELSTATEUNIVERSITY : u.name === "Orenburg State University" ? ORENBURGSTATEUNIVERSITY : u.name === "Tver State Medical University" ? TVERSTATEMEDICALUNIVERSITY : u.name === "Altai State Medical University" ? AltaiStateMedicalUniversity : u.image || u.img),
+              }))
+            : [
               {
                 name: "Mari State University",
                 img: MARISTATEUNIVERSITY,
@@ -229,15 +252,18 @@ const Russia = () => {
                 name: "Altai State Medical University",
                 img: AltaiStateMedicalUniversity,
               },
-            ].map((uni, i) => (
+            ]).map((uni, i) => (
               <div
                 key={i}
                 className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-2xl transition-shadow duration-300"
               >
                 <img
-                  src={uni.img}
+                  src={uni.img || uni.image}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img || uni.image} 1x, ${uni.img || uni.image} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">
@@ -493,62 +519,81 @@ const Russia = () => {
             MBBS in Russia vs MBBS in India – Quick Comparison (2026–2027)
           </h2>
 
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto shadow-md rounded-lg">
             <table className="min-w-full border-collapse border border-gray-300 text-left">
               <thead>
                 <tr className="bg-blue-900 text-white">
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
-                    Criteria
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                    Parameter
                   </th>
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                     MBBS in Russia
                   </th>
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
-                    MBBS in India
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                    MBBS in India (Public & Private)
                   </th>
                 </tr>
               </thead>
-              <tbody className="text-gray-700">
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">
-                    Tuition Fees (per year)
-                  </td>
-                  <td className="p-4 border">₹2 – 5 Lakhs</td>
-                  <td className="p-4 border">
-                    Govt: ₹40k – ₹2 Lakhs
-                    <br />
-                    Private: ₹10 – 25+ Lakhs
-                  </td>
-                </tr>
-          
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">Course Duration</td>
-                  <td className="p-4 border">6 years (including internship)</td>
-                  <td className="p-4 border">5.5 years + 1 year internship</td>
-                </tr>
-                <tr>
-                  <td className="p-4 border font-medium">Class Strength</td>
-                  <td className="p-4 border">20–40 students</td>
-                  <td className="p-4 border">
-                    100–150+ students (especially private)
-                  </td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">Global Recognition</td>
-                  <td className="p-4 border">
-                    NMC, WHO, WFME approved universities
-                  </td>
-                  <td className="p-4 border">
-                    NMC approved, but private colleges vary
-                  </td>
-                </tr>
-                <tr>
-                  <td className="p-4 border font-medium">
-                    Medium of Instruction
-                  </td>
-                  <td className="p-4 border">English</td>
-                  <td className="p-4 border">English</td>
-                </tr>
+              <tbody className="text-gray-700 divide-y divide-gray-200">
+                {(cmsData?.comparisonTable || [
+                  {
+                    parameter: "Tuition Fees (Per Year)",
+                    russia: "₹3 Lakhs – ₹6 Lakhs per year (Total program: ₹18–₹40 Lakhs)",
+                    india: "Public: ₹10,000 – ₹1 Lakh/year\nPrivate: ₹10 Lakhs – ₹25+ Lakhs/year (Total private: ₹80 Lakhs – ₹1.5 Crore+)"
+                  },
+                  {
+                    parameter: "Course Duration",
+                    russia: "6 years (including a 1-year clinical internship)",
+                    india: "5.5 years (including a 1-year compulsory rotating internship)"
+                  },
+                  {
+                    parameter: "Class Strength",
+                    russia: "Smaller batches (typically 15–30 students per class for better practical interaction)",
+                    india: "Larger batches (typically 50–120+ students per lecture hall)"
+                  },
+                  {
+                    parameter: "Global Recognition",
+                    russia: "Recognized by the NMC, WHO, ECFMG, FAIMER, and WFME",
+                    india: "Recognized by the NMC, WHO, and national statutory bodies"
+                  },
+                  {
+                    parameter: "Medium of Instruction",
+                    russia: "Offered in English (though learning basic Russian is required later for patient interaction)",
+                    india: "English"
+                  },
+                  {
+                    parameter: "Hostel & Accommodation",
+                    russia: "Very affordable (₹25,000 – ₹1 Lakh per year; living/hostel combined ~₹3,000 – ₹9,000/month)",
+                    india: "Moderate to high (₹1 Lakh – ₹3 Lakhs per year in many private/city setups)"
+                  },
+                  {
+                    parameter: "Hostel Food",
+                    russia: "Varies; many hostels have Indian messes or self-cooking kitchens, costing around USD 100 –USD 150 / month",
+                    india: "Generally local/mess food included or affordable within campus setups"
+                  },
+                  {
+                    parameter: "Medical Insurance",
+                    russia: "Mandatory annual health insurance policy required by Russian universities (~₹5,000 – ₹15,000/year)",
+                    india: "Covered locally or nominal institutional charges"
+                  },
+                  {
+                    parameter: "Visa & Other Costs",
+                    russia: "Annual visa extension/processing fees, one-time flight tickets, medical checkups, and winter clothing (~₹50,000 – ₹1,50,000 total initial/annual miscellany)",
+                    india: "Standard domestic travel and minimal administrative documentation costs"
+                  }
+                ]).map((row, idx) => (
+                  <tr key={idx} className={idx % 2 === 0 ? "bg-gray-50 hover:bg-gray-100 transition" : "bg-white hover:bg-gray-50 transition"}>
+                    <td className="p-4 border font-semibold text-gray-900 align-top">
+                      {row.parameter}
+                    </td>
+                    <td className="p-4 border align-top whitespace-pre-line text-sm leading-relaxed">
+                      {row.russia}
+                    </td>
+                    <td className="p-4 border align-top whitespace-pre-line text-sm leading-relaxed">
+                      {row.india}
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>

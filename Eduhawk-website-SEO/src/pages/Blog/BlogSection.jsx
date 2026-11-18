@@ -1,6 +1,7 @@
 
 
 import React, { useState, useEffect } from 'react';
+import SeoHead from "../../component/SeoHead.jsx";
 
 const slides = [
   {
@@ -38,6 +39,13 @@ const BlogSection = () => {
 
   return (
     <>
+      <SeoHead
+        title="Medical Education Blog for Indian Students | Edu Hawk"
+        description="Your trusted guide to MBBS abroad — top medical colleges, affordable fees, English medium and global opportunities for Indian students."
+        path="/blog/education-blog"
+        ogType="website"
+        twitterCard="summary_large_image"
+      />
       {/* === Beautiful Carousel Header === */}
       <div className="relative w-full h-[450px] sm:h-[500px] md:h-[600px] overflow-hidden">
         {slides.map((slide, index) => (
@@ -51,7 +59,9 @@ const BlogSection = () => {
               src={slide.image}
               alt={slide.title}
               className="w-full h-full object-cover brightness-[0.65]"
-            />
+                  srcSet={`${slide.image} 1x, ${slide.image} 2x`}
+                  sizes="100vw"
+                />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 text-white">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight drop-shadow-lg">

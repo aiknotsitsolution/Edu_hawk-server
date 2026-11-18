@@ -1,0 +1,633 @@
+{
+  "hero": {
+    "title": "MBA in Spain for Indian Students",
+    "subtitle": "If you are an Indian student and you want to do an MBA in Spain, you will get the opportunity to gain the skills that are essential for leadership, strategic thinking, finance management, marketing, entrepreneurship, and international business. Spain has business schools and universities that offer MBA programs for students who want to advance their careers, move into management or start their own companies."
+  },
+  "overview": [
+    "Spain provides an international business environment and opportunities to develop management abilities through academic learning and professional exposure. Some important reasons to consider an MBA in Spain are:",
+    "An MBA can help professionals to broaden their business knowledge, expand their professional network and prepare for new responsibilities in their career. For Indian applicants, Studying MBA in Spain can also provide exposure to international business practices and different professional environments."
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Pursue MBA in Spain?",
+      "lead": "Spain provides an international business environment and opportunities to develop management abilities through academic learning and professional exposure. Some important reasons to consider an MBA in Spain are:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "International business environment: Explore European and global markets, international strategy and cross-cultural management.",
+            "Develop leadership skills: Improve your decision-making, communication, negotiation and team-management skills.",
+            "Industry connections: Business schools may have networking events, company projects, internships and opportunities to connect with employers.",
+            "Specialisation options: Finance, marketing, entrepreneurship, technology management and international business.",
+            "Entrepreneurship: Learn how to craft business plans, assess market opportunities, and understand startup funding and growth.",
+            "Career development: Prepare for management, consulting, business development and strategy roles.",
+            "Global networking: Connect with students, faculty, alumni and professionals from across the globe."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An MBA can help professionals to broaden their business knowledge, expand their professional network and prepare for new responsibilities in their career. For Indian applicants, Studying MBA in Spain can also provide exposure to international business practices and different professional environments."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "MBA Courses and Specializations in Spain",
+      "lead": "MBA programs usually include core business subjects, as well as optional or specialized concentrations. The options available vary by institution and program structure.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "MBA specializationMajor areas of study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "General MBAStrategy, finance, marketing, leadership, operations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Business MBAGlobal markets, international strategy, trade"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Finance MBACorporate finance, investment, finance planning"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marketing MBABrand management, consumer behavior, digital marketing"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entrepreneurship MBAStart-up development, innovation, business models"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "MBA in Business AnalyticsData-driven decision making, business intelligence, analytics"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Technology Management MBATechnology strategy, digital transformation, innovation"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Human Resources ManagementTalent strategy, organizational behavior, leadership"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "MBA in Operations and Supply ChainLogistics, procurement, process optimization"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Executive MBA (EMBA)Leadership, strategic management, decision-making at senior level"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An Executive MBA is generally targeted at experienced professionals, and may have different class schedules, teaching formats, and eligibility requirements than a full-time MBA."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The MBA courses in Spain depend on the business school. Students are encouraged to compare the curriculum, specializations, program length and professional experience expectations before applying. Exploring different MBA specializations in Spain can help applicants choose a program that matches their career interests."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Universities and Business Schools for MBA in Spain",
+      "lead": "Spain has several established business schools and universities that provide MBA programs. The right institution will depend on the student's budget, professional experience, preferred location and career objectives.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "overview",
+      "eyebrow": "Course Overview",
+      "title": "MBA Entry Requirements in Spain",
+      "lead": "Indian students need to fulfill the following requirements to apply for an MBA program:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "An accredited Bachelor's degree from a recognized institution.",
+            "Copies of academic transcripts and degree certificates.",
+            "English language skills for English-taught programs, if applicable.",
+            "Spanish language competence, where required, for programs taught in Spanish.",
+            "A CV or résumé that details educational qualifications and professional experience.",
+            "Statement of purpose, essays or personal motivation responses (as required by the business school).",
+            "Letters of reference (if requested).",
+            "GMAT or GRE results, if required by the chosen institution.",
+            "Relevant professional experience for programs where applicable or preferred."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Work experience counts: Many full-time MBA programs are tailored for professionals with previous work experience. Some specialist or early career management programs may be more appropriate for recent graduates. The experience criteria varies from program to program and applicants should not assume that all MBAs have the same criteria."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Understanding the MBA eligibility criteria in Spain before applying can help Indian students identify suitable programs and prepare their applications accordingly."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements for an MBA in Spain",
+      "lead": "Universities and business schools have different admission requirements. Indian applicants should have the following documents and information ready:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "RequirementWhat Indian applicants should prepare"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic qualificationRecognized Bachelor degree"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic credentialsDegree certificate and transcript"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proficiency in EnglishIELTS, TOEFL or accepted alternative, if required"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "GMAT/GREIf required by the business school"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Work experienceCV and work details as applicable"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Statement of intentEssays or statements of intent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "RecommendationsAcademic or professional references, upon request"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "InterviewPersonal/online interview as applicable"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "PassportValid passport for overseas study and visa application"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Different institutions have very different requirements. For instance, IESE requires GMAT or GRE results for its full-time MBA, while ESADE lists accepted evidence of English language and a requirement for a bachelor's degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Knowing the MBA admission requirements in Spain before applying can help students prepare a stronger application and avoid delays in the admission process. Indian students should always verify the latest requirements directly with their chosen business school."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "What is the Cost of an MBA in Spain?",
+      "lead": "Tuition fees for MBA programs can be far more expensive than general masters programs. The published fees for particular programs and intakes are represented in the official examples below.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Institution and intakePublished fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "UC3M MBA, 1st year for non-EU students€19,800"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "ESADE Full Time MBA, September 2027 intake€82,500"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "IESE MBA, intake September 2027€117,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are for specific programs and intakes and should not be considered a generic price for every MBA in Spain. Before deciding, students need to check the total cost of the program, the payment plan, additional charges if any, and if scholarships are available."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Additional living expenses"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should plan separately for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Accommodation and utilities.",
+            "Food and day-to-day expenses.",
+            "Local transport.",
+            "Medical insurance.",
+            "Books and study materials.",
+            "Visa and documentation processing fees.",
+            "Moving expenses (airline tickets and such)."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scholarships",
+      "eyebrow": "Scholarships & Aid",
+      "title": "Financial Aid and Scholarships",
+      "lead": "Indian students can look into the following, subject to the institution and eligibility criteria:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Scholarships for merit.",
+            "Awards for leadership and academic achievement.",
+            "Women in business scholarships.",
+            "College-specific financial aid.",
+            "Education loans and approved finance options."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For example, ESADE has school awards and external financing options, while IESE has information on scholarships and loan programs. Availability, deadlines and award amounts vary according to the application cycle to which they apply."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "When comparing MBA Fees in Spain, students should consider the tuition, living expenses, financial assistance available and overall value of the program. The cost of an MBA in Spain for Indian students can vary significantly depending on the institution, program format and location."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Spain MBA Admission Process",
+      "lead": "The application process usually involves the following steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Identify your career goal: Do you want to go into management, change industries, start a business or move into leadership?",
+            "Select your MBA format: Compare full-time, part-time, executive and specialized MBA programs.",
+            "Compare the business schools on your list: Look at the curriculum, location, tuition fees, career services, and alumni networks.",
+            "Check eligibility: Check the degree, work experience, language and entrance-test requirements.",
+            "Prepare your application: Have your CV, transcripts, essays, recommendations and test scores ready where applicable.",
+            "Apply for admission: Submit your application through the institution's official admissions portal.",
+            "Undergo interviews or tests: Participate in any selection processes required by the business school.",
+            "Check your offer: Review the tuition, deposit and payment dates, scholarship terms and enrollment deadlines.",
+            "Get your student visa: Ensure you meet the Spanish student visa requirements and have the financial and supporting documentation requested.",
+            "Complete registration: Pay the applicable fees and complete registration prior to the program start date."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many business schools have application rounds, and early preparation can help applicants meet deadlines and apply for available scholarships."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu-Hawk Worldwide can help students through the process of program shortlisting, application preparation and the key stages of their overseas admission journey. Students planning MBA admission in Spain should begin preparing their documents and checking application deadlines well in advance."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "MBA: Career Prospects and Degree Recognition",
+      "lead": "Students must check before enrolling whether the qualification is an official university degree or a qualification from a business school, and check the accreditation and recognition of the qualification. The career value of an MBA also depends on the curriculum of the program, its links with employers, its professional network and the experience the student already has.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Graduates are well positioned for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Business strategy and management.",
+            "Consulting management.",
+            "Lead sales and business development.",
+            "Marketing and brand management.",
+            "Finance and corporate planning.",
+            "Supply chain management and operations.",
+            "Product and technology management.",
+            "Startup leadership and entrepreneurship.",
+            "International business.",
+            "Managing projects and programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An MBA does not automatically lead to a management position. Employers generally seek prior work experience, leadership skills, communication skills, industry knowledge and relevant technical knowledge."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The MBA career opportunities in Spain may include roles across consulting, finance, marketing, operations, business development and strategy. Career outcomes depend on the graduate's previous experience, specialization, language skills and the professional network developed during the program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "What Salary and Job Prospects after MBA in Spain?",
+      "lead": "An MBA can prepare professionals for opportunities in management, consulting, finance, marketing, operations, and business strategy.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The figures below are examples of gross annual salary estimates and are not guaranteed results or confirmed current job offers."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Job titleIndicative gross annual salary"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Development Manager€30k–€50k"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Marketing Manager€32,000–€55,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Analyst€28,000–€45,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Operations Manager€35,000–€55,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Project Manager€35,000–€55,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Financial Planning Manager€35,000–€60,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Management Consultant€40,000–€70,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Strategy Manager€45,000–€75,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Product Manager€40,000–€70,000"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Senior Business Manager€45,000–€80,000+"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Payment depends on the company, sector, the city, past experience, language knowledge and seniority of the position. MBA graduates with limited work experience might be willing to take junior or specialist positions, while those with more experience might target more senior positions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students interested in MBA career opportunities in Spain should also consider the expectations of employers, professional networking, Spanish language skills and relevant work authorization. Understanding the potential MBA jobs in Spain can help students set realistic career expectations after graduation."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study MBA in Spain",
+      "lead": "",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Applicants might be asked to prepare the following documents:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid passport.",
+            "Bachelor's degree certificate / Provisional certificate.",
+            "University marksheets and transcripts.",
+            "Updated CV / resume.",
+            "Application essays or personal statements.",
+            "GMAT or GRE score report, if applicable.",
+            "Proof of proficiency in English or Spanish, if applicable.",
+            "Letters of recommendation (if required).",
+            "Certificates of employment or professional experience, where applicable.",
+            "Passport-size photo (if required).",
+            "Proof of payment of the application fee.",
+            "Certified translations or, if applicable, legalization documents."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The final checklist of documents will depend on the specific institution, program and the educational and professional background of the applicant."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "1. Can Indian students do MBA in Spain?",
+      "a": "Yes. Indian students can apply provided they meet the business school's academic, language and other entrance requirements. Some programs also require professional experience or scores on standardized tests."
+    },
+    {
+      "q": "2. How long does an MBA take in Spain?",
+      "a": "An MBA can take 10–24 months depending on the format of the program. Schedules may differ between executive and part-time options."
+    },
+    {
+      "q": "3. Is work experience required for an MBA in Spain?",
+      "a": "Not for all programs. Most full-time MBA courses prefer or expect applicants to have some work experience, although some management programs will accept recent graduates. Applicants should consult the particular admission requirements."
+    },
+    {
+      "q": "4. Do you need IELTS for MBA in Spain?",
+      "a": "It depends on the business school. English language programs may accept IELTS, TOEFL or other approved evidence. Spanish language courses may require a knowledge of Spanish."
+    },
+    {
+      "q": "5. What's the price of an MBA in Spain?",
+      "a": "Costs vary greatly. Some university MBA programs charge tuition fees in the tens of thousands of euros, and premium business-school programs can cost more than €80,000. Living expenses and other fees should be budgeted separately."
+    }
+  ],
+  "seo": {
+    "title": "MBA in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Spain provides an international business environment and opportunities to develop management abilities through academic learning and professional exposure. Some",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

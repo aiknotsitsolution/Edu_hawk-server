@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../../component/Navbar";
 import Footer from "../Footer";
+import RouteLoader from "../../component/RouteLoader";
 import { ChevronUp, GraduationCap, MapPin, PhoneCall } from "lucide-react";
 
 const universityDestinations = [
@@ -100,15 +101,17 @@ const MainLayout = () => {
   };
 
   const openWhatsApp = () => {
-    window.open("https://api.whatsapp.com/send?phone=919630736070", "_blank");
+    window.open("https://api.whatsapp.com/send?phone=919630736070", "_blank", "noopener,noreferrer");
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 w-full">
       <Navbar />
 
       <main className="md:pt-1">
-        <Outlet />
+        <Suspense fallback={<RouteLoader />}>
+          <Outlet />
+        </Suspense>
       </main>
 
       <Footer />
@@ -117,7 +120,7 @@ const MainLayout = () => {
         <section
           aria-live="polite"
           aria-label="Study abroad university information"
-          className="fixed bottom-24 left-4 z-40 w-[calc(100vw-2rem)] max-w-sm rounded-2xl border border-blue-100 bg-white p-4 shadow-2xl sm:bottom-6 sm:left-6"
+          className="fixed bottom-24 left-4 right-4 sm:right-auto sm:w-full z-40 max-w-sm rounded-2xl border border-blue-100 bg-white p-4 shadow-2xl sm:bottom-6 sm:left-6"
         >
           <div className="mb-3 flex items-center gap-2 text-blue-700">
             <GraduationCap size={20} aria-hidden="true" />
@@ -175,6 +178,7 @@ const MainLayout = () => {
           
           <button
             onClick={openWhatsApp}
+            aria-label="Chat with Edu-Hawk on WhatsApp"
             className="relative w-14 h-14 bg-[#25D366] hover:bg-[#20ba5c] text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95"
             title="Chat on WhatsApp"
           >
@@ -193,6 +197,7 @@ const MainLayout = () => {
         {showScrollTop && (
           <button
             onClick={scrollToTop}
+            aria-label="Scroll to top of page"
             className="w-14 h-14 bg-blue-600 hover:bg-blue-700 text-white rounded-full shadow-xl flex items-center justify-center transition-all duration-300 hover:scale-110 active:scale-95"
             title="Scroll to Top"
           >

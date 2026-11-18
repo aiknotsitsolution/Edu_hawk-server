@@ -1,17 +1,18 @@
+import cmsData from "../../data/medical_colleges/bangladesh.json";
 import React, { useState } from "react";
-import { Helmet } from 'react-helmet-async';
-import RussiaFlag from "../../Images/Russia/russia header threejpg.jpg";
-import kernal from "../../Images/top medical collages list/Bangladesh Medical College.png";
-import Bangladeshflag2 from "../../Images/country flag png/Bangladesh-Flag-PNG-Isolated-HD.png";
+import SeoHead from "../../component/SeoHead.jsx";
+import RussiaFlag from "../../Images/Russia/russia header threejpg.webp";
+import kernal from "../../Images/top medical collages list/Bangladesh Medical College.webp";
+import Bangladeshflag2 from "../../Images/country flag png/Bangladesh-Flag-PNG-Isolated-HD.webp";
 import mhsmc from "../../assets/mhsmc.jpg";
-import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.jpg";
-import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.jpg";
-import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.jpg";
+import MARISTATEUNIVERSITY from "../../Images/Russia/MARI STATE UNIVERSITY.webp";
+import ORELSTATEUNIVERSITY from "../../Images/Russia/OREL STATE UNIVERSITY.webp";
+import ORENBURGSTATEUNIVERSITY from "../../Images/Russia/ORENBURG STATE UNIVERSITY.webp";
 import TVERSTATEMEDICALUNIVERSITY from "../../Images/Russia/TVER STATE MEDICAL UNIVERSITY.jpeg";
 import AltaiStateMedicalUniversity from "../../Images/Russia/Altai State Medical University.jpg";
 import { useNavigate } from "react-router-dom";
 
-import { FiPlus, FiMinus } from "react-icons/fi";
+import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
 const faqData = [
   {
     question: "Is MBBS in Bangladesh safe for Indian students?",
@@ -68,24 +69,28 @@ const Bangladesh = () => {
   return (
     <>
 
-     <Helmet>
-                  <title> MBBS in Bangladesh for Indian Students | Fees & Admission Process </title>
-                  <meta name="description" content="MBBS in Bangladesh with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges." />
-                  <meta name="keywords" content=" mbbs in bangladesh, bangladesh mbbs fees, study mbbs bangladesh, bangladesh medical colleges" />
-                </Helmet>
+     <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Bangladesh for Indian Students | Fees & Admission Process"}
+        description={cmsData?.seo?.description || "MBBS in Bangladesh with affordable fees and Indian syllabus. Get complete details on admission process, eligibility and top medical colleges."}
+        keywords={cmsData?.seo?.keywords || "mbbs in bangladesh, bangladesh mbbs fees, study mbbs bangladesh, bangladesh medical colleges"}
+        path="/mbbs-abroad/bangladesh"
+        ogType="website"
+      />
 
     <div className="min-h-screen bg-gray-50 font-sans">
       {/* ==================== HEADER CAROUSEL ==================== */}
       <div className="relative h-screen overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg"
+            src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg"}
             alt="Kremlin Bridge City"
             className="w-full h-full object-cover brightness-75"
-          />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/f/f6/2.%E0%A6%B6%E0%A6%BE%E0%A6%AA%E0%A6%B2%E0%A6%BE_%E0%A6%9A%E0%A6%A4%E0%A7%8D%E0%A6%AC%E0%A6%B0.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
           <div className="absolute inset-0 flex items-center justify-center">
             <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-              STUDY MBBS IN Bangladesh
+              {cmsData?.hero?.title || "STUDY MBBS IN Bangladesh"}
             </h1>
           </div>
         </div>
@@ -100,13 +105,18 @@ const Bangladesh = () => {
           <div>
             <img
               src={Bangladeshflag2}
+              loading="lazy"
+              width={512}
+              height={512}
               alt="Russia flag"
               className="w-32 md:w-40  rounded shadow-lg"
-            />
+                  srcSet={`${Bangladeshflag2} 1x, ${Bangladeshflag2} 2x`}
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
           </div>
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-              Explore MBBS Opportunities in Bangladesh 2026–2027
+              {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Bangladesh 2026–2027"}
             </h2>
           </div>
         </div>
@@ -175,9 +185,14 @@ const Bangladesh = () => {
           <div>
             <img
               src={kernal}
+              loading="lazy"
+              width={585}
+              height={440}
               alt="Kremlin"
               className="rounded-xl shadow-2xl w-full h-auto object-cover"
-            />
+                  srcSet={`${kernal} 1x, ${kernal} 2x`}
+                  sizes="(max-width: 768px) 100vw, 500px"
+                />
           </div>
         </div>
 
@@ -194,7 +209,7 @@ const Bangladesh = () => {
                 <tbody>
                   <tr className="bg-gray-100">
                     <td className="p-4 font-semibold">Recognition</td>
-                    <td className="p-4">NMC & WHO approved</td>
+                    <td className="p-4">NMC & WHO Recognized</td>
                   </tr>
                   <tr>
                     <td className="p-4 font-semibold">Eligibility</td>
@@ -221,7 +236,7 @@ const Bangladesh = () => {
                     <td className="p-4 font-semibold">
                       Universities Recognition
                     </td>
-                    <td className="p-4">NMC & WHO-approved</td>
+                    <td className="p-4">NMC & WHO-Recognized</td>
                   </tr>
                 </tbody>
               </table>
@@ -265,7 +280,7 @@ const Bangladesh = () => {
         {/* ==================== UNIVERSITIES GRID ==================== */}
         <div id="universities"className="mb-20">
           <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-            Top Medical Universities in Bangladesh for MBBS 2026-2027
+            {cmsData?.universitiesHeading || "Top Medical Universities in Bangladesh for MBBS 2026-2027"}
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -302,8 +317,11 @@ const Bangladesh = () => {
               >
                 <img
                   src={uni.img}
+                  loading="lazy"
                   alt={uni.name}
                   className="w-full h-64 object-cover"
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
                   <h4 className="text-xl font-bold text-blue-900">
@@ -473,7 +491,7 @@ const Bangladesh = () => {
                   1. Research and Select a University
                 </h4>
                 <p className="text-gray-700">
-                  Research NMC-approved medical universities/colleges in
+                  Research NMC-recognized medical universities/colleges in
                   Bangladesh that offer MBBS in English medium.
                   <br />
                   <strong>Some well-known options include:</strong>
@@ -653,59 +671,79 @@ const Bangladesh = () => {
             MBBS in Bangladesh vs MBBS in India – Quick Comparison (2026-2027)
           </h2>
 
-          <div className="overflow-x-auto">
+          <div className="overflow-x-auto shadow-md rounded-lg">
             <table className="min-w-full border-collapse border border-gray-300 text-left">
               <thead>
                 <tr className="bg-blue-900 text-white">
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
-                    Criteria
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                    Feature
                   </th>
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                    MBBS in India (Govt vs. Private)
+                  </th>
+                  <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
                     MBBS in Bangladesh
-                  </th>
-                  <th className="p-4 border border-gray-300 text-center font-semibold">
-                    MBBS in India
                   </th>
                 </tr>
               </thead>
-              <tbody className="text-gray-700">
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">
-                    Tuition Fees (Total Course)
-                  </td>
-                  <td className="p-4 border">₹25 – 45 Lakhs</td>
-                  <td className="p-4 border">
-                    Govt: ₹1-10 Lakhs (rare seats)
-                    <br />
-                    Private: ₹50 Lakhs – 1.5 Cr+
-                  </td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">Course Duration</td>
-                  <td className="p-4 border">
-                    6 years (5 years study + 1 year internship)
-                  </td>
-                  <td className="p-4 border">5.5 years + 1 year internship</td>
-                </tr>
-                <tr>
-                  <td className="p-4 border font-medium">Class Strength</td>
-                  <td className="p-4 border">25–50 students</td>
-                  <td className="p-4 border">100–150+ (especially private)</td>
-                </tr>
-                <tr className="bg-gray-50">
-                  <td className="p-4 border font-medium">Global Recognition</td>
-                  <td className="p-4 border">NMC, WHO, BMDC approved</td>
-                  <td className="p-4 border">
-                    NMC approved (govt better recognized)
-                  </td>
-                </tr>
-                <tr>
-                  <td className="p-4 border font-medium">
-                    Medium of Instruction
-                  </td>
-                  <td className="p-4 border">English</td>
-                  <td className="p-4 border">English</td>
-                </tr>
+              <tbody className="text-gray-700 divide-y divide-gray-200">
+                {(cmsData?.comparisonTable || [
+                  {
+                    feature: "Tuition (Total)",
+                    india: "₹1L – ₹8L (Govt) / ₹60L – ₹1.5Cr+ (Private)",
+                    bangladesh: "₹30L – ₹50L"
+                  },
+                  {
+                    feature: "Course Duration",
+                    india: "5.5 Years (incl. internship)",
+                    bangladesh: "5 Years + 1 Year Internship"
+                  },
+                  {
+                    feature: "Class Strength",
+                    india: "Larger batches (100–250+ students)",
+                    bangladesh: "More controlled batch sizes"
+                  },
+                  {
+                    feature: "Global Recognition",
+                    india: "NMC, WHO, global standard",
+                    bangladesh: "NMC, WHO, BMDC, WDOMS"
+                  },
+                  {
+                    feature: "Medium of Instruction",
+                    india: "English",
+                    bangladesh: "English"
+                  },
+                  {
+                    feature: "Hostel & Food / Yr",
+                    india: "₹1K–₹2K (Govt) to ₹1.5L–₹2L (Private)",
+                    bangladesh: "₹1L – ₹1.5L per year"
+                  },
+                  {
+                    feature: "Licensing / Exam in India",
+                    india: "None (Direct registration)",
+                    bangladesh: "NEET (entry) + FMGE/NExT (exit/practice in India)"
+                  },
+                  {
+                    feature: "Visa & Insurance",
+                    india: "Not applicable (Domestic)",
+                    bangladesh: "~₹1L – ₹2L combined over course"
+                  }
+                ]).map((row, index) => (
+                  <tr
+                    key={index}
+                    className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                  >
+                    <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                      {row.feature || row.parameter}
+                    </td>
+                    <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                      {row.india}
+                    </td>
+                    <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                      {row.bangladesh}
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>
@@ -720,7 +758,7 @@ const Bangladesh = () => {
           </h2>
 
           <div className="space-y-5">
-            {faqData.map((item, index) => (
+            {((cmsData?.faq && cmsData.faq.length > 0) ? cmsData.faq : faqData).map((item, index) => (
               <div
                 key={index}
                 className={`bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden transition-all duration-300 hover:shadow-md ${

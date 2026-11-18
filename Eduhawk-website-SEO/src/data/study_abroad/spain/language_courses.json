@@ -1,0 +1,509 @@
+{
+  "hero": {
+    "title": "Spanish Language Courses in Spain for Students from India",
+    "subtitle": "Language courses in Spain for Indian students is a chance to learn Spanish, build communication skills and live Spanish culture while studying in an international environment. Spain is a good destination for learners of different levels of proficiency, from beginners to intermediate learners, advanced students and professionals who want to improve their language skills. Language Courses in Spain for Indian Students provide opportunities to develop language skills through different learning formats."
+  },
+  "overview": [
+    "Language courses in Spain for Indian students is a chance to learn Spanish, build communication skills and live Spanish culture while studying in an international environment. Spain is a good destination for learners of different levels of proficiency, from beginners to intermediate learners, advanced students and professionals who want to improve their language skills. Language Courses in Spain for Indian Students provide opportunities to develop language skills through different learning formats.",
+    "In Spain, students are immersed in a language environment where they can practice Spanish inside and outside the classroom. Important benefits include:"
+  ],
+  "universities": [
+    {
+      "name": "Universitat de Barcelona",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€1,500 – €4,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+      "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+    },
+    {
+      "name": "Universidad Autónoma de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+      "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+    },
+    {
+      "name": "Universitat Politècnica de Catalunya",
+      "location": "Barcelona, Catalonia, Spain",
+      "fee": "€2,500 – €6,500 / Year",
+      "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+      "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+    },
+    {
+      "name": "Universidad Complutense de Madrid",
+      "location": "Madrid, Spain",
+      "fee": "€2,000 – €5,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+      "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Spain",
+      "title": "Why Take Language Courses in Spain?",
+      "lead": "In Spain, students are immersed in a language environment where they can practice Spanish inside and outside the classroom. Important benefits include:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Learn Spanish through daily interaction: Students can engage in daily communication with native speakers and local communities.",
+            "Expand academic opportunities: Spanish proficiency can help students prepare for further education at institutions where Spanish is the language of instruction.",
+            "Build career skills: Learning Spanish can be beneficial for careers in tourism, hospitality, international business, education, and customer service.",
+            "Discover Spanish culture: By taking part in cultural activities, local experiences and interacting with people, students can improve their language skills.",
+            "Choose flexible lengths: Programs are offered for different learning objectives, ranging from short courses to longer language training.",
+            "Prepare for proficiency tests: Some courses help learners to prepare for recognized Spanish examinations such as DELE and SIELE."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Types of Spanish Language Courses in Spain",
+      "lead": "Students can choose a program based on their current level, learning goals and the amount of time they have to study. Spanish Language Courses in Spain are offered in various forms such as general communication, intensive training, academic preparation and examination-focused learning. Students planning to Study Spanish in Spain can explore these different course types to find a suitable learning format.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Course TypeTypical DurationSuitable For"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Beginner Spanish4-12 weeksStudents with little or no previous knowledge of Spanish"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Spanish General4-24 weeksFor learners looking to improve daily communication"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Intensive Spanish2–12 weeksStudents who want a structured and faster learning experience"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Advanced Spanish4-24 weeksLearners who already have some Spanish skills"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Spanish4–24 weeksStudents preparing for academic study"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Business Spanish4–12 weeksProfessionals wanting to improve their business communication skills"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "DELE/SIELE Preparation2–12 weeksStudents studying for Spanish exams"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Summer Spanish Courses2-8 weeksStudents interested in brief courses and cultural activities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University Language CoursesVariesStudents who want to learn a language at university"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Other Language CoursesVariesThose interested in other languages offered by individual institutions"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course lengths are estimates. Actual availability, entry levels and teaching formats are subject to the institution."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Best Places to Study Language Courses in Spain",
+      "lead": "Students interested in Language Course Institutions in Spain should start by looking at universities and specialized language schools that offer academic or educational programs in languages. However, specific programs available to international students must be verified with each institution directly. Exploring Language Course Institutions in Spain can help students identify institutions offering relevant language-learning opportunities.",
+      "groups": []
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "University of Salamanca",
+      "lead": "The University of Salamanca is a good place to start to explore the Spanish language education and programs for international students with a long academic tradition.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Official website: https://www.usal.es"
+          ]
+        }
+      ],
+      "unis": [
+        {
+          "name": "Universitat de Barcelona",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€1,500 – €4,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
+          "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
+        },
+        {
+          "name": "Universidad Autónoma de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
+          "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
+        },
+        {
+          "name": "Universitat Politècnica de Catalunya",
+          "location": "Barcelona, Catalonia, Spain",
+          "fee": "€2,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
+          "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
+        },
+        {
+          "name": "Universidad Complutense de Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€2,000 – €5,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
+          "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Requirements to Take Language Courses in Spain",
+      "lead": "Language courses usually have fewer academic prerequisites than degree programs. Provider, program level and course duration will determine eligibility.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Eligibility"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indian students may have to fulfilll the following conditions:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Possess a valid passport for international travel.",
+            "Provide basic educational documents when requested by the institution.",
+            "Have the minimum language level required for the selected course.",
+            "No knowledge of Spanish required for beginner level programs.",
+            "If applicable, take an online or in-person placement test for intermediate or advanced classes.Make payment of the applicable course fee/registration deposit.",
+            "Fulfill the Spanish visa and immigration requirements that are applicable."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Age Limitations"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many adult language schools accept students who are 18 years of age and older. Some summer courses and youth programs, however, have their own rules about age limits, accommodation and supervision."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should check age limitations before choosing a program."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Language Course Admission Requirements in Spain",
+      "lead": "The admission process is generally straightforward. Required documents may differ between universities and private language schools.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Applicants may be required to provide:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Filled application form.",
+            "Copy of valid passport.",
+            "Latest passport size photo, if required.",
+            "Certificate of previous Spanish proficiency for higher-level courses, if applicable.",
+            "Educational documents, if the provider requests them.",
+            "Details of course chosen and preferred start date.",
+            "Proof of payment or deposit of course fees.",
+            "Details of accommodation if needed for enrollment or visa purposes."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should carefully read the institution's official application instructions to make sure that they don't miss any required documents or deadlines."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Proficiency",
+      "title": "The Cost of Learning a Language in Spain",
+      "lead": "The total cost will depend on the length of the course, the intensity of the course, the institution, the city and your accommodation. Students should make a realistic budget and compare tuition fees and living expenses before applying.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "ExpenseIndicative Cost"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "General Spanish course€150-€400 per week"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Intensive Spanish course€200-€500+ per week"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Longer language programProvider and duration dependent"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Accommodation€400-€900 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and groceries€200-€350/month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Local transport€30-€80 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal expenses€100-€200 per month"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Study materialsMay be included or charged separately"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The above figures are indicative planning estimates and do not represent confirmed fees for any individual institute. There may be additional registration charges, examination fees, insurance, travel expenses and accommodation deposits."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For rough financial planning, €1 is just under Rs 109. Exchange rates do fluctuate so it is important for students to check the current conversion rate when preparing their budget."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Proficiency",
+      "title": "How to register for language classes in Spain",
+      "lead": "Indian students applying for a language program may comply with the following general steps:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Select the language: Choose whether you want to learn Spanish or another language offered by the selected institution.",
+            "Choose your course level: Select from beginner, intermediate, advanced, intensive or examination-preparation programs.",
+            "Compare institutions: Compare length of course, size of class, mode of teaching, timetable, fees and location.",
+            "Check available start dates: Check upcoming intakes, enrollment deadlines and program availability.",
+            "Submit your application: Complete the application process and submit the required documents.",
+            "Confirm your admission: Check course dates, payment conditions and enrollment details.",
+            "Accommodation: Look into university dormitories, shared housing, or homestays if available.",
+            "Check visa requirements Make sure you have the right Spanish visa or immigration route for your nationality, length of course and type of program.",
+            "Prepare to go: Ensure your travel, insurance, finances and arrival plans are all in order before you leave India."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Important Visa Note: Not all short term language courses require the same visa. Indian students are advised to check the latest official Spanish consular advice available for their nationality, intended length of study and type of course before any non-refundable fees are paid."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Language Courses: Career and Academic Opportunities",
+      "lead": "Learning Spanish can be a support to further education and career development, especially if combined with another academic qualification, practical experience or specialist training.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Some possibilities include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Spanish language assistant or tutor, as appropriate to qualifications.",
+            "Translation and interpretation using the necessary language skills and professional training.",
+            "Tourism and hospitality jobs.",
+            "Customer service positions with international reach.",
+            "International sales and business development.",
+            "Management positions in a multilingual context.",
+            "Further studies in university courses of the Spanish language.",
+            "Preparation for the official Spanish language certificates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The career options in the Spanish language that are available to you will depend on your level of proficiency, education, experience and other qualifications you may have."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A short language course or certificate is not in itself a guaranty of employment or admission to a degree program. Some specialized roles such as professional translation or teaching may require further qualifications or recognized certifications."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Proficiency",
+      "title": "Examinations in Spanish Language Proficiency",
+      "lead": "Students wishing to continue their education or professional development may wish to consider recognized Spanish proficiency examinations. The right test should be based on their academic or career goals.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "ExaminationPurpose"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "DELEDiploma of Spanish proficiency granted at certain levels of proficiency"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "SIELEDigital evaluation of Spanish proficiency"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Institutional Placement TestEstablishes a learner's current level of language to place them in the right class"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should check the examination provider's current process regarding registration, fees, test dates and certification requirements. Not all certificates will be accepted by every university or employer for all purposes."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Documents needed for study language courses in Spain",
+      "lead": "The documents you need to enroll will vary depending on the institution and the course. The commonly asked documents could be:",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Passport in order.",
+            "Completed application.",
+            "Recent passport size photograph if required.",
+            "Educational papers (if applicable).",
+            "Any previous Spanish language certificates you may have.",
+            "Confirmation of course or letter of enrollment.",
+            "Course fee payment proof.",
+            "Details of accommodation where applicable.",
+            "Health or travel insurance, if any.",
+            "Financial and other documents to support a visa application, as appropriate."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should consult the institution's document checklist and the relevant Spanish consular instructions for definitive requirements."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "2. Do I have to speak Spanish to apply?",
+      "a": "No. Many language providers have courses at the beginner level for students with no previous knowledge of Spanish. Intermediate and advanced programs may require placement tests or evidence of prior language proficiency."
+    },
+    {
+      "q": "3. What is the duration of your Spanish class?",
+      "a": "Short courses can be from two to twelve weeks in duration, and long courses may be of several months or more. How long it takes will depend on the institution, the course format and the learning objectives."
+    },
+    {
+      "q": "4. What is the cost of a Spanish language course in Spain?",
+      "a": "Tuition fees vary depending on the provider, the intensity of the course and the length of the course. As a rough guide, general Spanish courses can cost in the region of €150-€400 per week, with intensive courses costing more. Students should consult with the institution regarding the most current fees."
+    },
+    {
+      "q": "6. Can I study for DELE or SIELE in Spain?",
+      "a": "\"Yeah. Some language schools and institutions provide preparation programs for the DELE and SIELE examinations. Students need to check the availability of these classes and examination arrangements before registration."
+    }
+  ],
+  "seo": {
+    "title": "Spanish Language Courses in Spain for Students from India | Edu-Hawk Worldwide",
+    "description": "Language courses in Spain for Indian students is a chance to learn Spanish, build communication skills and live Spanish culture while studying in an internation",
+    "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
+  }
+}

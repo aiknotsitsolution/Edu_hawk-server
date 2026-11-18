@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://eduhawk.in/sitemap.xml
-Host: eduhawk.in
+Sitemap: https://www.eduhawk.in/sitemap.xml
+Host: www.eduhawk.in

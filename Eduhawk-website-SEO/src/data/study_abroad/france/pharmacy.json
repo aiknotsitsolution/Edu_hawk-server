@@ -1,0 +1,577 @@
+{
+  "hero": {
+    "title": "Study Pharmacy in France",
+    "subtitle": "Study Pharmacy in France combines \\\\pharmaceutical sciences\\\\, \\\\clinical knowledge\\\\, \\\\laboratory training\\\\ and \\\\professional placements\\. Students can prepare for careers in \\\\hospital pharmacy\\\\, \\\\community pharmacy\\\\, \\\\pharmaceutical research\\\\, and the \\\\pharmaceutical industry.\\\\"
+  },
+  "overview": [
+    "Study Pharmacy in France combines \\\\pharmaceutical sciences\\\\, \\\\clinical knowledge\\\\, \\\\laboratory training\\\\ and \\\\professional placements\\. Students can prepare for careers in \\\\hospital pharmacy\\\\, \\\\community pharmacy\\\\, \\\\pharmaceutical research\\\\, and the \\\\pharmaceutical industry.\\\\",
+    "Professional training : University training in pharmacy validated by a \\\\French state diploma\\.",
+    "Research opportunities: Exposure to \\\\drug development\\\\, \\\\pharmaceutical chemistry\\\\, \\\\biotechnology\\\\ and \\\\medical research\\."
+  ],
+  "universities": [
+    {
+      "name": "Université Paris",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_Paris.webp",
+      "desc": "Saclay : The Faculty of Pharmacy of Paris:Saclay offers pharmaceutical education and research in drug sciences, therapeutic innovation and related health disciplines."
+    },
+    {
+      "name": "Aix",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Aix.webp",
+      "image": "/uploads/study_abroad/france/france_Aix.webp",
+      "desc": "Marseille University : Marseille : \\\\Professional pharmacy curriculum\\\\ and programs in \\\\pharmaceutical industry\\\\, \\\\health engineering\\\\ and related scientific disciplines are offered by the Faculty of Pharmacy."
+    },
+    {
+      "name": "Sorbonne University",
+      "location": "Paris, France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+      "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why Choose To Study Pharmacy In France?",
+      "lead": "Study Pharmacy in France combines \\\\pharmaceutical sciences\\\\, \\\\clinical knowledge\\\\, \\\\laboratory training\\\\ and \\\\professional placements\\. Students can prepare for careers in \\\\hospital pharmacy\\\\, \\\\community pharmacy\\\\, \\\\pharmaceutical research\\\\, and the \\\\pharmaceutical industry.\\\\",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "The key benefits are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Professional training : University training in pharmacy validated by a \\\\French state diploma\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research opportunities: Exposure to \\\\drug development\\\\, \\\\pharmaceutical chemistry\\\\, \\\\biotechnology\\\\ and \\\\medical research\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Clinical experience:\\\\ Practical placements are included in the professional curriculum."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Career diversity:\\\\ Choices at pharmacies, hospitals, pharmaceutical companies and research organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Further study:\\\\ Possibility to specialize in areas like \\\\pharmaceutical industry\\\\, \\\\medical biology\\\\ or \\\\hospital pharmacy\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can discover these opportunities and learn about the requirements for studying abroad through \\\\Edu Hawk worldwide study abroad guidance\\."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Pharmacist courses in France",
+      "lead": "In \\\\pharmacy courses in France\\\\, there is a professional degree track and related courses in \\\\pharmaceutical and health sciences\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Common selections are:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Doctor of Pharmacy:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pharmaceutical Sciences: Research involving medicines, \\\\drug formulation, pharmacology and pharmaceutical chemistry."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's in Pharmaceutical Sciences: Further education in drug development, pharmaceutical technology, and research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pharmaceutical Industry: Courses on production, quality assurance, regulatory affairs, and drug development."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pharmacy Residency and Specialisation: Further training for qualifying students on particular specialist career paths."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Pharmacy Technician Training: Vocational training programs such as the \\\\DEUST with a professional scope different from the pharmacist qualification"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The typical \\\\pharmacist pathway in France\\\\ takes \\\\a minimum of six years\\. Some specialty tracks, like pharmacy residency, take longer to complete."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Academic Pathways",
+      "title": "Top Universities in France for Pharmacy Degree",
+      "lead": "France has faculties of pharmacy which are attached to the universities.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Université Paris",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_Paris.webp",
+          "desc": "Saclay : The Faculty of Pharmacy of Paris:Saclay offers pharmaceutical education and research in drug sciences, therapeutic innovation and related health disciplines."
+        },
+        {
+          "name": "Aix",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Aix.webp",
+          "image": "/uploads/study_abroad/france/france_Aix.webp",
+          "desc": "Marseille University : Marseille : \\\\Professional pharmacy curriculum\\\\ and programs in \\\\pharmaceutical industry\\\\, \\\\health engineering\\\\ and related scientific disciplines are offered by the Faculty of Pharmacy."
+        },
+        {
+          "name": "Sorbonne University",
+          "location": "Paris, France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
+          "desc": "Sorbonne University is a world-class multidisciplinary research university located in the heart of Paris, renowned for scientific heritage and academic excellence."
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission requirements to study pharmacy in France",
+      "lead": "Depending on your nationality, previous qualifications and the course you want to study-",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Common considerations include:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Secondary education equivalent to the French baccalauréat for admission through the first-year route."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Good background knowledge of \\\\science subjects\\\\, especially \\\\chemistry and biology\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Fulfill the university's \\\\admission and selection requirements\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sufficient \\\\French language proficiency\\\\ for academic and clinical study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official recognition / evaluation of previous qualifications (where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Entry to the professional pharmacy program is normally by a recognized first year health-studies route such as \\\\PASS or [L.AS](http://L.AS)\\\\ Progression to pharmacy is competitive and not guaranteed by simply passing the first year."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Admission requirements in a pharmacy course in France",
+      "lead": "Universities may require some or all of the following:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\High-school diploma\\\\ and transcripts of academic records."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of science subjects taken and grades obtained."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Proof of knowledge of the French language\\\\ as required by the university."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "\\\\Passport\\\\ or other acceptable identity documents."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Motivation statement or other application materials, when required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "University transcripts and course descriptions for transfer or advanced standing applications. \\\\Certified translations\\\\ of documents, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\French\\\\ You will need a good level of French to follow lectures, do placements and communicate in a professional healthcare setting."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of studying pharmacy in France",
+      "lead": "The overall \\\\cost of studying pharmacy in France\\\\ will depend on the university, the applicant category, the \\\\tuition fee policy\\\\ and the city.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Fees"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public universities publish registration fees, but international students can be exempt or pay differentiated fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For reference, the published fee schedule for the first cycle at France's standard public universities for eligible student categories has been \\\\€178 per year\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "This is \\\\not a guaranteed total fee for all international pharmacy students. Additional costs and different fee rules may apply."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Living",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Students must budget for:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Housing and utilities\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Food and day to day expenses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Public transport. - Health insurance or other applicable health care costs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Study costs (books, laboratory material etc.)"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Visa and administration fees\\\\ , if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Cost of living varies from city to city and Paris can be more expensive than other university towns. Before you accept an offer, create a truthful monthly budget."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Procedure for Pharmacy in France",
+      "lead": "\\\\Pharmacies in France\\\\ Admission depends on your qualifications and where you live.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose a program:\\\\ Decide whether you want the \\\\professional pharmacy degree\\\\, a related master's program or another pharmaceutical course."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Check eligibility:\\\\ Make sure your previous qualifications meet the requirements of the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Choose the application path:\\\\ The steps may differ for first year health studies, later year admission and master applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Gather documents:\\\\ Collect your transcripts, proof of identity, proof of language skills and any other supporting documents that may be requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Complete selection procedures:\\\\ Submit further documents or attend an interview if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Accept your offer:\\\\ Register and follow the instructions of the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Get your visa\\\\: If applicable, follow the \\\\official French student-visa procedure\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students applying from India should refer to \\\\Campus France India\\\\ and the respective university. Some of the routes available for candidates with foreign health qualifications have special procedures and deadlines."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and Recognition of Pharmacy in France",
+      "lead": "The state diploma of the \\\\professional pharmacy pathway\\\\ is the French \\\\\\Diplôme d'État de docteur en pharmacie\\\\\\ . Moreover, graduates need to meet the relevant \\\\professional registration and practice requirements\\\\ to be able to practice as a pharmacist in France.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The professional pharmacist diploma and a \\\\Master of Pharmaceutical Sciences\\\\ or a \\\\pharmacy-related technician qualification\\\\ are not the same."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Indian students:\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "If you want to practise as a pharmacist in India, find out the current \\\\qualification-recognition and registration requirements\\\\ from the \\\\Pharmacy Council of India\\\\ and the authorities concerned before enrolling."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Prospects after Pharmacy in France",
+      "lead": "\\\\Pharmacy graduates in France\\\\ have a number of career options depending on their qualification, specialization, language skills, and professional authorization.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Possible career areas include"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Community and retail pharmacy Hospital pharmacy.",
+            "\\\\Manufacturing and Production of Pharmaceuticals.",
+            "Quality assurance and quality control.",
+            "Regulatory and safety affairs of medicines.",
+            "\\\\Research and development of pharmaceuticals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Clinical Research and Medical Biology\\\\ in so far as qualified."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "University teaching and scientific research."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "What salary to expect"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Pharmacist salaries in France\\\\ vary according to position, location, experience, employer and the applicable collective agreement. Different pay structures are possible in industry roles, hospital positions, and community pharmacy work."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Study Pharmacy in France",
+      "lead": "Applicants may need: depending on the application route",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Passport is valid."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Secondary school diploma and transcripts."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Degree certificates and transcripts from the university, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certified French translations (on request)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Certificate of proficiency in French\\\\, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\motivation letter or CV\\\\ where requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Course descriptions for transfer or advanced standing applications."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Admission proof\\. - \\\\Financials for visa application.\\\\"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents of accommodation and insurance, if necessary."
+        },
+        {
+          "t": "h4",
+          "text": "\\\\Student visa\\\\ and other applicable immigration documents"
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How many years of studying Pharmacy in France?",
+      "a": "The standard \\\\professional pharmacy pathway in France\\\\ lasts \\\\at least six years. Some specialist routes may take longer."
+    },
+    {
+      "q": "Do international students study pharmacy in France?",
+      "a": "Yes, \\\\international students\\\\ may be eligible but entry requirements and application procedures are dependent on nationality, previous qualifications and the program chosen."
+    },
+    {
+      "q": "Do I need to speak French to study pharmacy in France?",
+      "a": "The majority of \\\\professional pharmacy studies\\\\ are taught primarily in French. Students should check the language requirements of the faculty they choose and be ready for professional communication during placements."
+    },
+    {
+      "q": "Is it possible to become a pharmacist in India after studying in France?",
+      "a": "You have to check the \\\\recognition and registration requirements\\\\ with the \\\\Pharmacy Council of India\\\\ and other appropriate authorities. \"A French qualification does not mean that you can automatically practice in India."
+    },
+    {
+      "q": "How could \\\\ Edu Hawk worldwide Consultancy \\\\ Help me to study abroad?",
+      "a": "Edu Hawk worldwide helps students to explore the suitable universities, understand the admission requirements, organize application documents and plan their study abroad journey. Students are responsible for checking academic, financial, immigration and licensing requirements with the appropriate official authority."
+    }
+  ],
+  "seo": {
+    "title": "Study Pharmacy in France | Edu-Hawk Worldwide",
+    "description": "Study Pharmacy in France combines \\\\pharmaceutical sciences\\\\, \\\\clinical knowledge\\\\, \\\\laboratory training\\\\ and \\\\professional placements\\. Students can prep",
+    "keywords": "Study Pharmacy in France for Indian Students, Pharmacy Courses in France for International Students, Top Universities for Pharmacy in France, Doctor of Pharmacy in France for International Students, Diplôme d'État de Docteur en Pharmacie in France, PASS and L.AS Admission Pathways for Pharmacy in France, Pharmacy Eligibility Requirements in France, French Language Requirements for Pharmacy Courses in France, Pharmacy Admission Requirements for Indian Students, Pharmacy Tuition Fees in France 2026–2027, Cost of Studying Pharmacy in France for International Students, Master's in Pharmaceutical Sciences in France, Pharmacy at Université Paris Cité and Paris-Saclay, Pharmacy Student Visa Requirements for France, Pharmacist Jobs and Career Opportunities in France, <"
+  }
+}

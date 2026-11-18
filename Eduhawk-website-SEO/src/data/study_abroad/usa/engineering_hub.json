@@ -1,0 +1,87 @@
+{
+  "seo": {
+    "title": "Engineering Abroad for Indian Students | Edu Hawk",
+    "description": "Study Engineering abroad at top universities in Germany, Canada, UK, USA and Australia with end-to-end guidance from admission to pre-departure."
+  },
+  "hero": {
+    "badge": "Study Engineering · Abroad",
+    "title": "Engineering Abroad",
+    "subtitle": "Top universities, strong industry exposure, modern labs and complete end-to-end support — from admission to pre-departure. Honest guidance by EduHawk.",
+    "ctaText": "Book free counselling",
+    "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=2070&auto=format&fit=crop"
+  },
+  "stats": [
+    {
+      "l": "Programs",
+      "n": "B.Tech, M.Tech, MS & specialised engineering courses"
+    },
+    {
+      "l": "Countries",
+      "n": "Germany, Canada, UK, USA, Australia & more"
+    },
+    {
+      "l": "Support",
+      "n": "Complete end-to-end guidance from profile to arrival"
+    },
+    {
+      "l": "Approach",
+      "n": "Industry-focused · Transparent fees · Honest counselling"
+    }
+  ],
+  "highlights": {
+    "degree": "B.Tech / B.S. / M.Tech / M.S. in Engineering",
+    "duration": "4 Years (UG) / 1.5–2 Years (PG)",
+    "fee": "$25,000 – $60,000 / Year",
+    "eligibility": "Class 12 PCM (UG) / Bachelor's in Engineering (PG)",
+    "medium": "English"
+  },
+  "overview": "Engineering education abroad provides Indian students with exposure to cutting-edge research laboratories, state-of-the-art facilities, interdisciplinary projects, and direct links to global technology and industrial leaders across the United States.\n\nFrom advanced robotics and AI to aerospace, civil infrastructure, and sustainable energy systems, prospective engineers receive comprehensive practical training and global professional pathways.",
+  "universities": [
+    {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "location": "Cambridge, MA",
+      "fee": "$57,000 / Year",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=900&q=85"
+    },
+    {
+      "name": "Stanford University",
+      "location": "Stanford, CA",
+      "fee": "$58,000 / Year",
+      "image": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=900&q=85"
+    },
+    {
+      "name": "University of California, Berkeley",
+      "location": "Berkeley, CA",
+      "fee": "$45,000 / Year",
+      "image": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=900&q=85"
+    },
+    {
+      "name": "Georgia Institute of Technology",
+      "location": "Atlanta, GA",
+      "fee": "$33,000 / Year",
+      "image": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=900&q=85"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Which country is best for Engineering abroad?",
+      "answer": "Germany is excellent for low/no tuition + strong industry links. Canada and Australia offer good post-study work rights. USA and UK are strong for research and top rankings. The best choice depends on your budget, branch and career plans."
+    },
+    {
+      "question": "How much does it cost to study Engineering abroad?",
+      "answer": "Costs vary widely. Germany can be very affordable (low or no tuition). Canada, UK, USA and Australia typically range higher. We provide a clear country-wise cost estimate before you apply."
+    },
+    {
+      "question": "Do I need IELTS for Engineering abroad?",
+      "answer": "Most universities require IELTS, PTE or TOEFL. Some universities in Germany and a few others may accept alternative proof of English or offer waivers. We check requirements for each university."
+    },
+    {
+      "question": "Can I work while studying Engineering?",
+      "answer": "Yes. Most popular destinations allow 20 hours/week part-time work during term and full-time during holidays (subject to visa rules)."
+    },
+    {
+      "question": "When should I start the process?",
+      "answer": "Ideally 8–12 months before your intended intake. This gives enough time for tests, shortlisting, applications and visa processing."
+    }
+  ]
+}

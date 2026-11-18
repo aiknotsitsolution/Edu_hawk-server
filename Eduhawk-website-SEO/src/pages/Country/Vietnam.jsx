@@ -1,7 +1,9 @@
+import cmsData from "../../data/medical_colleges/vietnam.json";
 import React, { useState } from "react";
-import { FiPlus, FiMinus } from "react-icons/fi";
-import { Helmet } from "react-helmet-async";
+import { Plus as FiPlus, Minus as FiMinus } from "lucide-react";
+import SeoHead from "../../component/SeoHead.jsx";
 import { useNavigate } from "react-router-dom";
+import CanThoUniversity from "../../assets/CanTho_University.webp";
 
 const Vietnam = () => {
   const [showMoreAbout, setShowMoreAbout] = useState(false);
@@ -53,30 +55,28 @@ const Vietnam = () => {
 
   return (
     <>
-      <Helmet>
-        <title> MBBS in Vietnam for Indian Students | Fees & Colleges</title>
-        <meta
-          name="description"
-          content="Study MBBS in Vietnam with English medium and affordable fees. Check eligibility, admission process and top universities."
-        />
-        <meta
-          name="keywords"
-          content="mbbs in vietnam, vietnam mbbs fees, study mbbs vietnam, mbbs in vietnam for indian students, top medical universities in vietnam, mbbs in vietnam eligibility, mbbs in vietnam admission"
-        />
-      </Helmet>
+      <SeoHead
+        title={cmsData?.seo?.title || "MBBS in Vietnam for Indian Students | Fees & Colleges"}
+        description={cmsData?.seo?.description || "Study MBBS in Vietnam with English medium and affordable fees. Check eligibility, admission process and top universities."}
+        keywords={cmsData?.seo?.keywords || "mbbs in vietnam, vietnam mbbs fees, study mbbs vietnam, mbbs in vietnam for indian students, top medical universities in vietnam"}
+        path="/mbbs-abroad/vietnam"
+        ogType="website"
+      />
       <div className="min-h-screen bg-gray-50 font-sans">
         {/* ==================== HEADER CAROUSEL ==================== */}
         <div className="relative h-screen overflow-hidden">
           <div className="absolute inset-0">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG"
+              src={cmsData?.hero?.image || "https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG"}
               alt="Ho Chi Minh City Opera House"
               className="w-full h-full object-cover brightness-75"
-            />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG 1x, https://upload.wikimedia.org/wikipedia/commons/2/23/%C3%93pera%2C_Ciudad_Ho_Chi_Minh%2C_Vietnam%2C_2013-08-14%2C_DD_02.JPG 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             <div className="absolute inset-0 flex items-center justify-center">
               <h1 className="text-5xl md:text-7xl font-bold text-white drop-shadow-2xl">
-                STUDY MBBS IN VIETNAM
-              </h1>
+              {cmsData?.hero?.title || "STUDY MBBS IN VIETNAM"}
+            </h1>
             </div>
           </div>
         </div>
@@ -88,13 +88,16 @@ const Vietnam = () => {
             <div>
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg"
+                loading="lazy"
                 alt="Vietnam flag"
                 className="w-32 md:w-40 border-4 border-gray-800 rounded shadow-lg"
-              />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg 1x, https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg 2x"
+                  sizes="(max-width: 768px) 120px, 160px"
+                />
             </div>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold text-blue-900">
-                Explore MBBS Opportunities in Vietnam 2026–2027
+                {cmsData?.hero?.subtitle || "Explore MBBS Opportunities in Vietnam 2026–2027"}
               </h2>
             </div>
           </div>
@@ -165,9 +168,12 @@ const Vietnam = () => {
             <div className="rounded-3xl overflow-hidden shadow-2xl border border-blue-100 bg-white">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Hanoi_dhyk.jpg"
+                loading="lazy"
                 alt="Hanoi Medical University"
                 className="w-full h-full object-cover min-h-[420px]"
-              />
+                  srcSet="https://upload.wikimedia.org/wikipedia/commons/a/ac/Hanoi_dhyk.jpg 1x, https://upload.wikimedia.org/wikipedia/commons/a/ac/Hanoi_dhyk.jpg 2x"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
             </div>
           </div>
 
@@ -332,7 +338,7 @@ const Vietnam = () => {
           {/* Top Universities Grid */}
           <div id="universities" className="mb-20">
             <h2 className="text-4xl font-bold text-center text-blue-900 mb-12">
-              Top Medical Universities in Vietnam
+              {cmsData?.universitiesHeading || "Top Medical Universities in Vietnam"}
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
@@ -350,7 +356,7 @@ const Vietnam = () => {
                 },
                 {
                   name: "Can Tho University of Medicine and Pharmacy",
-                  img: "../../../src/assets/CanTho_University.jpg",
+                  img: CanThoUniversity,
                 },
                 {
                   name: "Hai Phong University of Medicine and Pharmacy",
@@ -363,9 +369,12 @@ const Vietnam = () => {
                 >
                   <img
                     src={uni.img}
+                    loading="lazy"
                     alt={uni.name}
                     className="w-full h-64 object-cover"
-                  />
+                  srcSet={`${uni.img} 1x, ${uni.img} 2x`}
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                />
                   <div className="p-6 text-center">
                     <h4 className="text-xl font-bold text-blue-900">
                       {uni.name}
@@ -437,37 +446,86 @@ const Vietnam = () => {
 
           {/* Comparison Table */}
           <div className="py-16 bg-white mb-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-              MBBS in Vietnam vs India (Private Colleges)
-            </h2>
-            <div className="overflow-x-auto container mx-auto px-4 max-w-5xl">
-              <table className="min-w-full border-collapse border border-gray-300 text-left">
-                <thead>
-                  <tr className="bg-blue-900 text-white">
-                    <th className="p-4 border">Criteria</th>
-                    <th className="p-4 border">Vietnam</th>
-                    <th className="p-4 border">India (Private)</th>
-                  </tr>
-                </thead>
-                <tbody className="text-gray-700">
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Total Cost</td>
-                    <td className="p-4 border">₹25–35 lakhs</td>
-                    <td className="p-4 border">₹50–90+ lakhs</td>
-                  </tr>
-
-                  <tr className="bg-gray-50">
-                    <td className="p-4 border font-medium">Duration</td>
-                    <td className="p-4 border">6 years</td>
-                    <td className="p-4 border">5.5 + 1 year</td>
-                  </tr>
-                  <tr>
-                    <td className="p-4 border font-medium">Admission</td>
-                    <td className="p-4 border">NEET + simple process</td>
-                    <td className="p-4 border">High cut-offs/donation</td>
-                  </tr>
-                </tbody>
-              </table>
+            <div className="container mx-auto px-4 max-w-5xl">
+              <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
+                MBBS in Vietnam vs MBBS in India – Quick Comparison (2026–2027)
+              </h2>
+              <div className="overflow-x-auto shadow-md rounded-lg">
+                <table className="min-w-full border-collapse border border-gray-300 text-left">
+                  <thead>
+                    <tr className="bg-blue-900 text-white">
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-1/4">
+                        Parameter
+                      </th>
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                        MBBS in Vietnam
+                      </th>
+                      <th className="p-4 border border-gray-300 text-center font-semibold w-3/8">
+                        MBBS in India
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-gray-700 divide-y divide-gray-200">
+                    {(cmsData?.comparisonTable || [
+                      {
+                        parameter: "Tuition Fees (per year)",
+                        vietnam: "₹3 Lakhs – ₹6 Lakhs per year\n(Total tuition/course: ₹20 Lakhs – ₹45 Lakhs)",
+                        india: "Govt: ₹50,000 – ₹2.5 Lakhs (Total)\nPrivate: ₹15 Lakhs – ₹25 Lakhs+ per year\nDeemed/Management: ₹80 Lakhs – ₹1.65+ Crore (Total)"
+                      },
+                      {
+                        parameter: "Course Duration",
+                        vietnam: "6 Years (5 years of academic & theoretical study + 1 year of compulsory hospital internship)",
+                        india: "5.5 Years (4.5 years of academic study + 1 year of rotating compulsory internship)"
+                      },
+                      {
+                        parameter: "Class Strength",
+                        vietnam: "Moderate and controlled batch sizes for international/English-medium sections (often 30–60 students)",
+                        india: "Large lecture batches (frequently 100 to 250+ students per college in India)"
+                      },
+                      {
+                        parameter: "Global Recognition",
+                        vietnam: "Listed in WDOMS, WHO, and ECFMG-approved; complies with NMC FMGL 2021 rules (requires clearing NExT/FMGE to practice in India)",
+                        india: "Recognized globally and by the National Medical Commission (NMC) in India"
+                      },
+                      {
+                        parameter: "Medium of Instruction",
+                        vietnam: "English-medium for lectures and exams, though basic local language (Vietnamese) is learned for clinical years and patient interaction",
+                        india: "English (standard medium across all medical colleges in India)"
+                      },
+                      {
+                        parameter: "Hostel & Food",
+                        vietnam: "₹1 Lakh – ₹1.2 Lakhs per year; many campus-associated hostels provide Indian food options",
+                        india: "₹1.5 Lakhs – ₹2 Lakhs per year (varies heavily by city and private vs. govt mess)"
+                      },
+                      {
+                        parameter: "Insurance, Visa & Other Costs",
+                        vietnam: "One-time pre-departure, documentation, visa, and insurance packages total around ₹2.8 Lakhs initially, with minor annual renewals",
+                        india: "Minimal visa/international costs (local state/hostel fees apply); recurring personal/travel overhead varies"
+                      },
+                      {
+                        parameter: "Bonds / Compulsory Service",
+                        vietnam: "Zero compulsory rural service bonds upon graduation",
+                        india: "Frequently mandates 1 to 5 years of rural service bonds in government colleges (with non-fulfillment penalties up to ₹50 Lakhs)"
+                      }
+                    ]).map((row, index) => (
+                      <tr
+                        key={index}
+                        className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}
+                      >
+                        <td className="p-4 border border-gray-300 font-medium text-gray-900">
+                          {row.parameter || row.feature}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.vietnam}
+                        </td>
+                        <td className="p-4 border border-gray-300 whitespace-pre-line text-sm leading-relaxed">
+                          {row.india}
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
 
@@ -477,7 +535,7 @@ const Vietnam = () => {
               Most Searched FAQs
             </h2>
             <div className="space-y-5 container mx-auto px-4 max-w-4xl">
-              {faqData.map((item, index) => {
+              {((cmsData?.faq && cmsData.faq.length > 0) ? cmsData.faq : faqData).map((item, index) => {
                 const isOpen = openIndex === index;
 
                 return (

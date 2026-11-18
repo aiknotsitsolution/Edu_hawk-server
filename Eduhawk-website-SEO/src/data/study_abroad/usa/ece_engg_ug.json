@@ -1,0 +1,93 @@
+{
+  "hero": {
+    "title": "Study Electronics and Communication Engineering in the USA",
+    "subtitle": "Electronics and Communication Engineering (ECE) represents a significant academic discipline in the United States, providing Indian students with comprehensive educational opportunities in the domains of electronic circuit design, wireless communication systems, telecommunications infrastructure, semiconductor technology, signal processing methodologies, and embedded systems development. While American universities typically do not employ the precise Indian nomenclature of \"Electronics and Communication Engineering,\" prospective students may pursue equivalent undergraduate programmes designated as Electrical Engineering, Electrical and Computer Engineering, or Computer Engineering."
+  },
+  "overview": [
+    "Electronics and Communication Engineering (ECE) represents a significant academic discipline in the United States, providing Indian students with comprehensive educational opportunities in the domains of electronic circuit design, wireless communication systems, telecommunications infrastructure, semiconductor technology, signal processing methodologies, and embedded systems development. While American universities typically do not employ the precise Indian nomenclature of \"Electronics and Communication Engineering,\" prospective students may pursue equivalent undergraduate programmes designated as Electrical Engineering, Electrical and Computer Engineering, or Computer Engineering.",
+    "Explore world-renowned Ivy League institutions, premier public research universities, and leading tech institutes across the United States."
+  ],
+  "universities": [
+    {
+      "name": "Massachusetts Institute of Technology (MIT)",
+      "location": "Cambridge, Massachusetts, USA",
+      "fee": "$58,000 – $62,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
+      "image": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
+      "desc": "MIT is a world leader in science and engineering education, renowned for groundbreaking research, venture creation, and technological innovation."
+    },
+    {
+      "name": "Stanford University",
+      "location": "Stanford, California, USA",
+      "fee": "$59,000 – $64,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
+      "image": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
+      "desc": "Located in the heart of Silicon Valley, Stanford is internationally celebrated for entrepreneurship, computing, engineering, and medical sciences."
+    },
+    {
+      "name": "Harvard University",
+      "location": "Cambridge, Massachusetts, USA",
+      "fee": "$56,000 – $60,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+      "image": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+      "desc": "The oldest higher education institution in the United States, globally recognized for academic distinction, world-class faculties, and influential alumni network."
+    },
+    {
+      "name": "University of California, Berkeley",
+      "location": "Berkeley, California, USA",
+      "fee": "$44,000 – $48,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
+      "image": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
+      "desc": "UC Berkeley is America's premier public research university, leading globally in computer science, engineering, business, and physical sciences."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "universities",
+      "eyebrow": "Top US Universities",
+      "title": "Top Universities to Consider in the USA",
+      "lead": "Explore world-renowned Ivy League institutions, premier public research universities, and leading tech institutes across the United States.",
+      "unis": [
+        {
+          "name": "Massachusetts Institute of Technology (MIT)",
+          "location": "Cambridge, Massachusetts, USA",
+          "fee": "$58,000 – $62,000 / Year",
+          "img": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
+          "image": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
+          "desc": "MIT is a world leader in science and engineering education, renowned for groundbreaking research, venture creation, and technological innovation."
+        },
+        {
+          "name": "Stanford University",
+          "location": "Stanford, California, USA",
+          "fee": "$59,000 – $64,000 / Year",
+          "img": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
+          "image": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
+          "desc": "Located in the heart of Silicon Valley, Stanford is internationally celebrated for entrepreneurship, computing, engineering, and medical sciences."
+        },
+        {
+          "name": "Harvard University",
+          "location": "Cambridge, Massachusetts, USA",
+          "fee": "$56,000 – $60,000 / Year",
+          "img": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+          "image": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+          "desc": "The oldest higher education institution in the United States, globally recognized for academic distinction, world-class faculties, and influential alumni network."
+        },
+        {
+          "name": "University of California, Berkeley",
+          "location": "Berkeley, California, USA",
+          "fee": "$44,000 – $48,000 / Year",
+          "img": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
+          "image": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
+          "desc": "UC Berkeley is America's premier public research university, leading globally in computer science, engineering, business, and physical sciences."
+        }
+      ],
+      "groups": []
+    }
+  ],
+  "faqs": [],
+  "seo": {
+    "title": "Study Electronics and Communication Engineering in the USA | Edu-Hawk Worldwide",
+    "description": "Electronics and Communication Engineering (ECE) represents a significant academic discipline in the United States, providing Indian students with comprehensive ",
+    "keywords": "Study in USA, Top Universities in USA, Edu Hawk Worldwide"
+  }
+}

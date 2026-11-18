@@ -1,0 +1,242 @@
+{
+  "hero": {
+    "title": "Study Public Health in Ireland",
+    "subtitle": "Opportunities exist in Ireland for those interested in improving population health, preventing disease, researching health inequalities and shaping healthcare policies. Studying Public health is the practice of protecting and improving the health of communities, rather than treating individual patients."
+  },
+  "overview": [
+    "Opportunities exist in Ireland for those interested in improving population health, preventing disease, researching health inequalities and shaping healthcare policies. Studying Public health is the practice of protecting and improving the health of communities, rather than treating individual patients.",
+    "Graduates in medicine, nursing, pharmacy, biology, life sciences, social sciences, statistics, and other related fields may find public health a good fit, subject to the particular admission requirements of the program.",
+    "With the help of Edu Hawk worldwide study abroad guidancestudents can explore these options and understand the requirements to study abroad."
+  ],
+  "universities": [
+    {
+      "name": "Galway University",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_public_health_Galway_University-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_public_health_Galway_University-image2.png",
+      "desc": "Galway University is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "Ireland's Royal College of Surgeons",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_public_health_Ireland_s_Royal_College_of_Surgeons-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_public_health_Ireland_s_Royal_College_of_Surgeons-image1.png",
+      "desc": "Ireland's Royal College of Surgeons is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    },
+    {
+      "name": "University College Cork",
+      "location": "Ireland",
+      "fee": "€16,000 – €35,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_public_health_University_College_Cork-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_public_health_University_College_Cork-image3.png",
+      "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why study Public Health in Ireland?",
+      "lead": "Opportunities exist in Ireland for those interested in improving population health, preventing disease, researching health inequalities and shaping healthcare policies. Studying Public health is the practice of protecting and improving the health of communities, rather than treating individual patients.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Here are some benefits of studying public health in Ireland:"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Explore public health issues impacting Ireland and communities around the globe within an international learning environment.",
+            "Learn about health research, biostatistics, epidemiology and evidence-based decision making.",
+            "Discover career opportunities in government, healthcare, academic institutions, nonprofit organizations, and global health organizations.",
+            "Specializations offered include: Health promotion, global health, epidemiology, health policy or health protection.",
+            "Postgraduate opportunities for specialization in research, program management, health planning, and public health administration."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates in medicine, nursing, pharmacy, biology, life sciences, social sciences, statistics, and other related fields may find public health a good fit, subject to the particular admission requirements of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "With the help of Edu Hawk worldwide study abroad guidancestudents can explore these options and understand the requirements to study abroad."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Irish Health Public courses",
+      "lead": "There are many postgraduate public health courses in Ireland being offered in Irish universities.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Some common study options are;"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The Master of Public Health (MPH) program covers population health, epidemiology, research techniques, health promotion and public health policy.",
+            "An MSc Public Health could cover research, data analysis, illness prevention and health interventions at a population level.",
+            "The Master of Science in Global Health program explores global health systems, health disparities, and health issues in a variety of nations.",
+            "The MSc in Community Health is tailored to focus on health improvement, prevention and community-based health care.",
+            "The Postgraduate Diploma in Public Health program provides postgraduate level education without the necessity to take a full master degree. Public health courses are specialized and include health protection, infection prevention, health services research and health policy."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The average duration of time:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The Master's degree is usually one year full-time.",
+            "Part-time master's degrees usually take two years to complete, depending on the program.",
+            "A postgraduate diploma normally lasts for one year and can be taken either full-time or part-time."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Ireland's Top Public Health Universities and Institutions",
+      "lead": "Public health or closely related postgraduate programs in Ireland are offered by the following establishments. Visit the official university website to confirm the precise course, intake, and international eligibility.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Galway University",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_public_health_Galway_University-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_public_health_Galway_University-image2.png",
+          "desc": "Galway University is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "Ireland's Royal College of Surgeons",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_public_health_Ireland_s_Royal_College_of_Surgeons-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_public_health_Ireland_s_Royal_College_of_Surgeons-image1.png",
+          "desc": "Ireland's Royal College of Surgeons is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        },
+        {
+          "name": "University College Cork",
+          "location": "Ireland",
+          "fee": "€16,000 – €35,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_public_health_University_College_Cork-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_public_health_University_College_Cork-image3.png",
+          "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Public Health Education in Ireland",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated cost -"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A master's program in public health can cost between €16,000 to €30,000 per year.",
+            "Annual living and accommodation costs vary from €10,000 to over €18,000.",
+            "There are other costs such as literature, educational materials, travel costs, immigration fees and medical insurance.",
+            "Below are the fees for the UCC for the 2026-2027 period.",
+            "The full-time MPH program has a tuition fee of €16,700. Non-EU students will also pay a fee of €210."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "The cost of the 22-month online part-time MPH program is €11,100, plus an additional €210 for non-EU students.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "The Public Health Admission Process in Ireland",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "At the time of your application, please:"
+          ]
+        },
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select your area of expertise. Choose between epidemiology, community health, global health, health promotion, or health policy.",
+              "desc": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Check the program content, duration, pricing and eligibility of the colleges in your shortlist.",
+      "lead": "",
+      "groups": []
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Check your credentials. Your academic status and bachelor's degree should be enough to get you admission.",
+      "lead": "4. Collect transcripts, scores from tests of proficiency in language, copies of academic degrees and, where appropriate, references.",
+      "groups": []
+    }
+  ],
+  "faqs": [
+    {
+      "q": "How long is the Irish Master's Degree in Public Health?",
+      "a": "A full time MPH course in Ireland generally requires one year to complete. Depending on the university and course of study, part-time courses can be up to two years long."
+    },
+    {
+      "q": "Ireland is open for Indian students for public health.?",
+      "a": "Yes. Indian students can apply if they fulfill the academic, English proficiency and other admission requirements of the university of their choice. Educational institutions assess international qualifications in many ways."
+    },
+    {
+      "q": "What does it cost to have public health education in Ireland?",
+      "a": "Tuition is different for each school and program. The cost of tuition for a full-time MPH program at UCC is €16,700 for the academic year 2026–2027, plus a fee of €210 for non-European Union students. Such charges may be higher at other institutions and programs."
+    },
+    {
+      "q": "Can I get a job in Ireland after MPH?",
+      "a": "That is right indeed. Graduates can work in programs, public health, or health advocacy or research. Job opportunities depend on the graduate's qualifications, history and immigration status."
+    },
+    {
+      "q": "Can you work in public health if you don't have a medical degree?",
+      "a": "It might be true. There are many programs available for students of all backgrounds with different qualification requirements. Students in fields related to biology, statistics, social sciences, or similar areas can find suitable jobs that align with their interests and skills."
+    },
+    {
+      "q": "How can I achieve my goals abroad with Edu Hawk Worldwide Consultancy?",
+      "a": "Edu Hawk Worldwide helps students to choose the right universities, understand the admission process, prepare application documents and plan their study abroad programs. Students should contact the appropriate governmental authorities for their academic, financial, immigration and licensing needs."
+    }
+  ],
+  "seo": {
+    "title": "Study Public Health in Ireland | Edu-Hawk Worldwide",
+    "description": "Opportunities exist in Ireland for those interested in improving population health, preventing disease, researching health inequalities and shaping healthcare p",
+    "keywords": "Studying public health in Ireland for Indian students., Best Public Health Universities in Ireland, Master of Science in Public Health and Master of Public Health (MPH) Programs in Ireland for International Students., Ireland's Qualifications for Public Health Public Health Entry Requirements for Indian Students., Ireland Public Health Program IELTS Criteria, Cost of Living including Tuition for International Public Health Students in Ireland, Public Health Scholarships for International Students in Global Health and Epidemiology in Ireland"
+  }
+}

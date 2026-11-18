@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 .blog-description ul,
 .blog-description ol {
@@ -69,7 +70,65 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: clip;
+  max-width: 100%;
+  position: relative;
+}
+
+/* Ensure bold text is always visible on dark backgrounds across all pages */
+.text-white strong,
+.text-white\/70 strong,
+.text-white\/80 strong,
+.text-white\/90 strong,
+.bg-slate-900 strong,
+.bg-slate-800 strong,
+[class*="bg-slate-900"] strong,
+[class*="bg-slate-800"] strong,
+[class*="from-slate-900"] strong,
+[class*="from-[#0b"] strong,
+[class*="bg-[#0b"] strong,
+[class*="bg-[#0f"] strong {
+  color: #ffffff !important;
+}
+
 .gtm-noscript-frame {
   display: none;
   visibility: hidden;
 }
+
+/* Modal & clean scrollbar utilities */
+.modal-no-scrollbar::-webkit-scrollbar,
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.modal-no-scrollbar,
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Slim scrollbar for mega menu countries sidebar */
+.country-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #475569 #1e293b;
+}
+
+.country-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+
+.country-scroll::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+.country-scroll::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 9999px;
+}
+
+.country-scroll::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+

@@ -1,0 +1,315 @@
+{
+  "seo": {
+    "title": "Engineering in Australia for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Bachelor's in Engineering in Australia for Indian students. Learn about Bachelor of Engineering (Honours), top universities (UNSW, Melbourne, Sydney, Monash), eligibility, fees, Engineers Australia accreditation, and career opportunities."
+  },
+  "hero": {
+    "badge": "Study Abroad - Australia",
+    "title": "1.For Indian Students, Study Engineering in Australia",
+    "subtitle": "Yes, if they fulfill the academic, subject, and English language requirements of the university.",
+    "ctaText": "Book Free Counselling",
+    "image": "/uploads/study_abroad/australia/dentistry_The_University_of_Melbourne-image1.png"
+  },
+  "stats": [
+    {
+      "n": "1000+",
+      "l": "Students Placed Globally"
+    },
+    {
+      "n": "20+",
+      "l": "Countries"
+    },
+    {
+      "n": "200+",
+      "l": "Partner Universities"
+    },
+    {
+      "n": "100%",
+      "l": "Support (Visa & End-to-End Guidance)"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor of Engineering Programs",
+    "duration": "3 to 4 Years Full-Time",
+    "fee": "AUD 30,000 – AUD 52,000 / Year",
+    "eligibility": "Recognised academic qualification + English proficiency",
+    "medium": "English"
+  },
+  "overview": [
+    "Yes, if they fulfill the academic, subject, and English language requirements of the university.",
+    "Studying in Australia provides Indian students with access to globally recognized qualifications, world-class teaching faculties, and strong post-study work rights under the Subclass 500 visa program.",
+    "Edu-Hawk Worldwide Consultancy guides students through CRICOS-registered program selection, university applications, GTE / Genuine Student requirements, and visa processing."
+  ],
+  "sections": [
+    {
+      "slot": "specializations",
+      "eyebrow": "Specializations",
+      "title": "Specializations in Engineering",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Structural and Civil Engineering",
+            "Electrical and Electronic Engineering Mechanical Engineering",
+            "Computer engineering and software",
+            "Robotics and Mechatronics Aerospace Engineering Chemical Engineering",
+            "Environmental engineering, mining and petroleum engineering, biomedical engineering, and renewable energy engineering",
+            "Industrial and Manufacturing Engineering Telecommunications Engineering",
+            "Automation and Artificial Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Indian Students' Eligibility",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate: Completion of class 12, necessary grades, pertinent science and math courses, and fluency in English. The course determines the prerequisites."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Australian Universities",
+      "title": "Top Universities in Australia",
+      "lead": "Explore leading Group of Eight and prestigious Australian universities renowned for academic excellence, state-of-the-art research laboratories, and strong industry partnerships.",
+      "unis": [
+        {
+          "name": "The University of Melbourne",
+          "location": "Melbourne, Australia",
+          "fee": "AUD 30,000 – AUD 52,000 / Year",
+          "image": "/uploads/study_abroad/australia/dentistry_The_University_of_Melbourne-image1.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Sydney",
+          "location": "Sydney, Australia",
+          "fee": "AUD 30,000 – AUD 52,000 / Year",
+          "image": "/uploads/study_abroad/australia/dentistry_The_University_of_Sydney-image4.png",
+          "desc": ""
+        },
+        {
+          "name": "The University of Queensland",
+          "location": "Brisbane, Australia",
+          "fee": "AUD 30,000 – AUD 52,000 / Year",
+          "image": "/uploads/study_abroad/australia/winter_courses_The_University_of_Queensland-image1.png",
+          "desc": ""
+        },
+        {
+          "name": "Monash University",
+          "location": "Melbourne, Australia",
+          "fee": "AUD 30,000 – AUD 52,000 / Year",
+          "image": "/uploads/study_abroad/australia/auto_engg_pg_Monash_University-image2.png",
+          "desc": ""
+        }
+      ],
+      "groups": []
+    },
+    {
+      "slot": "language",
+      "eyebrow": "Language Requirements",
+      "title": "Language Requirements in English",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Universities may accept TOEFL iBT, PTE Academic, or IELTS Academic. IELTS Academic 6.5 overall is a popular beginning point, however specific scores and component requirements differ depending on the subject and school."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tests",
+      "eyebrow": "Entrance Exams",
+      "title": "Admission Tests",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "English language skills and academic credentials are typically evaluated in Australian engineering programs."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Popular Courses",
+      "title": "Duration of Course",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Professional engineering honors degrees often take four years, while bachelor's degrees typically take three to four years."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Costs",
+      "title": "Living expenses and tuition",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimates for indicative international tuition planning:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Undergraduate engineering: around AUD 35,000 to AUD 65,000+ annually."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "How to Apply",
+      "title": "The Admission Procedure",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Select your area of expertise in engineering."
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Make a short list of colleges and courses.",
+            "Verify the qualifications for math and academics.",
+            "fulfilll the English language requirements.",
+            "Get your passport and academic paperwork ready.",
+            "Send in your application to the university.",
+            "Examine the tuition costs and the offer.",
+            "Look into scholarships and make financial arrangements.",
+            "Obtain enrollment confirmation and set up health insurance.",
+            "Apply for the relevant student visa for Australia.",
+            "Make travel and lodging arrangements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Required Documents",
+      "title": "Checklist of Documents",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Marksheets for Classes 10 and 12",
+            "Transcripts of the bachelor's degree and, if relevant, the results of the English language exam",
+            "Curriculum vitae, if necessary",
+            "If necessary, a statement of purpose",
+            "Academic citations, if necessary",
+            "Research proposal for degrees in related fields",
+            "Financial records in order to obtain a visa",
+            "Offer letter and enrollment confirmation",
+            "Evidence of overseas student health coverage"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "visa",
+      "eyebrow": "Student Visa",
+      "title": "Visa for Students",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In general, students must have the proper student visa, an enrollment confirmation, overseas student health insurance, and any supporting documentation that the Australian government requires."
+          ]
+        }
+      ]
+    }
+  ],
+  "universities": [
+    {
+      "name": "The University of Melbourne",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": "/uploads/study_abroad/australia/dentistry_The_University_of_Melbourne-image1.png",
+      "desc": ""
+    },
+    {
+      "name": "The University of Sydney",
+      "location": "Sydney, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": "/uploads/study_abroad/australia/dentistry_The_University_of_Sydney-image4.png",
+      "desc": ""
+    },
+    {
+      "name": "The University of Queensland",
+      "location": "Brisbane, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": "/uploads/study_abroad/australia/winter_courses_The_University_of_Queensland-image1.png",
+      "desc": ""
+    },
+    {
+      "name": "Monash University",
+      "location": "Melbourne, Australia",
+      "fee": "AUD 30,000 – AUD 52,000 / Year",
+      "image": "/uploads/study_abroad/australia/auto_engg_pg_Monash_University-image2.png",
+      "desc": ""
+    }
+  ],
+  "faq": [
+    {
+      "question": "After Class 12, are Indian students able to pursue engineering studies in Australia?",
+      "answer": "Yes, if they fulfill the academic, subject, and English language requirements of the university."
+    },
+    {
+      "question": "What is the duration of an Australian engineering degree?",
+      "answer": "While master's programs typically take one to two years, many bachelor's degrees require three to four years."
+    },
+    {
+      "question": "Is it necessary to learn mathematics?",
+      "answer": "Mathematics is a prerequisite for many engineering programs, and some also call for physics or other science courses."
+    },
+    {
+      "question": "Is taking the IELTS required?",
+      "answer": "The university's English language requirements must be met by students, while there are several exceptions and acceptable tests."
+    },
+    {
+      "question": "What is the approximate cost of tuition?",
+      "answer": "Depending on the course and school, many programs cost between AUD 35,000 and AUD 70,000 or more annually."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "After Class 12, are Indian students able to pursue engineering studies in Australia?",
+      "a": "Yes, if they fulfill the academic, subject, and English language requirements of the university."
+    },
+    {
+      "q": "What is the duration of an Australian engineering degree?",
+      "a": "While master's programs typically take one to two years, many bachelor's degrees require three to four years."
+    },
+    {
+      "q": "Is it necessary to learn mathematics?",
+      "a": "Mathematics is a prerequisite for many engineering programs, and some also call for physics or other science courses."
+    },
+    {
+      "q": "Is taking the IELTS required?",
+      "a": "The university's English language requirements must be met by students, while there are several exceptions and acceptable tests."
+    },
+    {
+      "q": "What is the approximate cost of tuition?",
+      "a": "Depending on the course and school, many programs cost between AUD 35,000 and AUD 70,000 or more annually."
+    }
+  ]
+}

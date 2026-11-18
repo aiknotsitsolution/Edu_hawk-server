@@ -1,0 +1,108 @@
+{
+  "id": "imat",
+  "name": "IMAT (International Medical Admissions Test)",
+  "shortName": "IMAT",
+  "category": "Entrance & Academic Tests",
+  "badge": "Italian Public Medical University Admissions",
+  "seo": {
+    "title": "IMAT Exam for MBBS in Italy: Syllabus, Pattern, Registration & NMC Rules | EduHawk Worldwide",
+    "description": "Complete guide to the International Medical Admissions Test (IMAT) for English-taught Medicine & Surgery (MBBS) at Italian public universities. Learn about Biology, Chemistry, Physics/Math, Logical Reasoning, and NMC rules.",
+    "keywords": "IMAT International Medical Admissions Test, study MBBS in Italy through IMAT, IMAT exam pattern, IMAT eligibility criteria, IMAT registration, IMAT exam preparation tips, MBBS in Italy for Indian students, NMC guidelines Italy MBBS"
+  },
+  "hero": {
+    "badge": "Italian Public Medical University Admissions",
+    "heroPara": "The International Medical Admissions Test (IMAT) is the official entrance examination for admission into English-taught Medicine and Surgery (MBBS / MD) programs at prestigious public universities across Italy."
+  },
+  "stats": [
+    {
+      "label": "Target Degree",
+      "value": "Medicine and Surgery (6-Year MD/MBBS)"
+    },
+    {
+      "label": "Instruction Language",
+      "value": "100% English Taught"
+    },
+    {
+      "label": "Tuition Fees",
+      "value": "€500 to €3,500/year (Public Universities)"
+    },
+    {
+      "label": "Scholarships",
+      "value": "DSU Regional Scholarships (Up to €7,000/year + Tuition Waiver)"
+    },
+    {
+      "label": "Indian Recognition",
+      "value": "Fully compliant with NMC FMGL Regulations"
+    },
+    {
+      "label": "Conducting Body",
+      "value": "Italian Ministry of Universities and Research (MUR)"
+    }
+  ],
+  "countries": [
+    "Italy"
+  ],
+  "overview": [
+    "Italy's public universities offer one of the most affordable and globally respected pathways to an English-taught medical degree, with IMAT serving as the single centralized admissions gateway evaluated and administered by the Italian Ministry of Universities and Research (MUR).",
+    "Prominent participating universities include University of Milan, Sapienza University of Rome, University of Bologna, University of Padua, University of Pavia, and University of Turin.",
+    "The examination evaluates scientific proficiency in biology, chemistry, physics, and mathematics, combined with rigorous logical reasoning and general knowledge."
+  ],
+  "sections": [
+    {
+      "name": "Reading Skills & General Knowledge",
+      "measures": "Comprehension of short texts, historical/cultural general awareness, and international scientific contexts."
+    },
+    {
+      "name": "Logical Reasoning & Problem-Solving",
+      "measures": "Critical thinking, argument analysis, data problem-solving, and syllogistic deductions."
+    },
+    {
+      "name": "Biology",
+      "measures": "Bioenergetics, cell biology, genetics, human anatomy and physiology, molecular biology, and inheritance mechanisms."
+    },
+    {
+      "name": "Chemistry",
+      "measures": "Atomic structure, chemical periodicity, chemical bonds, chemical reactions, stoichiometry, thermodynamics, solutions, and organic chemistry."
+    },
+    {
+      "name": "Physics & Mathematics",
+      "measures": "Mechanics, thermodynamics, electrostatics, optics, algebraic functions, trigonometry, and probability."
+    }
+  ],
+  "eligibilityAndNMC": [
+    "Candidates must have completed 12 years of recognized formal schooling (10+2) with Physics, Chemistry, and Biology.",
+    "Minimum aggregate of 50% in PCB for general category (40% for reserved categories).",
+    "Indian students must qualify for NEET-UG in their year of admission as mandated by the National Medical Commission (NMC) Foreign Medical Graduate Licentiate (FMGL) Regulations.",
+    "Registration is completed online via the official Universitaly portal (universitaly.it) during the designated annual window."
+  ],
+  "preparationTips": [
+    "Review the official MUR IMAT syllabus and past papers.",
+    "Thoroughly master NCERT / A-Level Biology and Chemistry textbooks.",
+    "Practice medical reasoning and critical thinking questions under timed conditions.",
+    "Solve physics and math questions with focus on conceptual application without calculators.",
+    "Complete full-length 100-minute timed mock tests to manage pacing and avoid negative marking penalties.",
+    "Monitor official Italian government and Universitaly notices for test center updates in India."
+  ],
+  "faqs": [
+    {
+      "q": "What is the full form of IMAT?",
+      "a": "IMAT stands for International Medical Admissions Test, used for admission to English-taught Medicine and Surgery programs in Italy."
+    },
+    {
+      "q": "Is IMAT required to study MBBS in Italy?",
+      "a": "Yes. Admission to English-taught medical programs at Italian public universities is determined strictly by merit rank in the official IMAT exam."
+    },
+    {
+      "q": "Can Indian students take the IMAT exam?",
+      "a": "Yes. Indian students can register and sit for the IMAT exam at authorized international centers in India (typically New Delhi) or overseas."
+    },
+    {
+      "q": "What subjects should I study for IMAT?",
+      "a": "Preparation covers Biology, Chemistry, Physics, Mathematics, Logical Reasoning, and Reading Skills/General Knowledge."
+    },
+    {
+      "q": "Can I study MBBS in Italy in English?",
+      "a": "Yes, over 15 public universities in Italy offer fully English-taught 6-year single-cycle MD (MBBS equivalent) programs recognized globally and by the NMC."
+    }
+  ]
+}

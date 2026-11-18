@@ -1,0 +1,636 @@
+{
+  "hero": {
+    "title": "Study Business Management in the United Kingdom",
+    "subtitle": "International students can gain the leadership, strategic thinking, communication, and decision-making skills needed in today's global corporate climate by studying business management in the UK. Academic instruction is combined with real-world projects, case studies, presentations, and industry-focused instruction in UK universities."
+  },
+  "overview": [
+    "International students can gain the leadership, strategic thinking, communication, and decision-making skills needed in today's global corporate climate by studying business management in the UK. Academic instruction is combined with real-world projects, case studies, presentations, and industry-focused instruction in UK universities.",
+    "The main advantages of studying business management in the UK are as follows:"
+  ],
+  "universities": [
+    {
+      "name": "Coventry University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_business_hub_Coventry_University-image2.png",
+      "image": "/uploads/study_abroad/uk/uk_business_hub_Coventry_University-image2.png",
+      "desc": "Coventry University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Exeter University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_business_hub_Exeter_University-image1.png",
+      "image": "/uploads/study_abroad/uk/uk_business_hub_Exeter_University-image1.png",
+      "desc": "Exeter University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Glasgow University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_business_hub_Glasgow_University-image4.png",
+      "image": "/uploads/study_abroad/uk/uk_business_hub_Glasgow_University-image4.png",
+      "desc": "Glasgow University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    },
+    {
+      "name": "Sussex University",
+      "location": "United Kingdom",
+      "fee": "£15,000 – £38,000 / Year",
+      "img": "/uploads/study_abroad/uk/uk_business_hub_Sussex_University-image3.png",
+      "image": "/uploads/study_abroad/uk/uk_business_hub_Sussex_University-image3.png",
+      "desc": "Sussex University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why UK",
+      "title": "Why Study Business Management in the UK?",
+      "lead": "International students can gain the leadership, strategic thinking, communication, and decision-making skills needed in today's global corporate climate by studying business management in the UK. Academic instruction is combined with real-world projects, case studies, presentations, and industry-focused instruction in UK universities.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The main advantages of studying business management in the UK are as follows:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Obtain a degree that is recognized by organizations and employers all over the world.",
+            "Through case studies, group projects, and hands-on assignments, learn about actual business difficulties through industry-focused learning.",
+            "Study with students from other nations and cultural backgrounds to gain exposure to international business.",
+            "Opportunities for Specialization: Investigate finance, marketing, human resources, international business, entrepreneurship, and business analytics.",
+            "Develop transferable skills for positions in management, consulting, operations, marketing, and business development.",
+            "Flexible Study Options: Select from specialized business courses, postgraduate programs, and undergraduate degrees."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "UK Business Management Courses",
+      "lead": "Universities in the UK provide Business Management programmes at various academic levels, enabling students to select a course according to their prior education and professional objectives.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Options for Courses"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The Bachelor of Business Management degree",
+            "The Bachelor of Business Administration degree",
+            "Combining marketing and business management",
+            "Management of International Business",
+            "Placement Year and Business Management",
+            "The Master of Business Management program",
+            "The Master of Science in International Business Management",
+            "MSc Management",
+            "MSc in Human Resource Management",
+            "MSc in Marketing Management",
+            "The Master of Business Administration (MBA) program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Common Specializations in Business Management"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "The field of international business",
+            "The management of marketing",
+            "The management of human resources",
+            "The management of finances",
+            "Business Analytics",
+            "Innovation and Entrepreneurship",
+            "Supply Chain Management and Operations",
+            "The management of projects",
+            "Strategic Management",
+            "Digital Business Management"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top UK Universities",
+      "title": "The UK's Best Universities for Business Management",
+      "lead": "Undergraduate and graduate courses in business and management are available at a number of UK universities. Before applying, students should evaluate course modules, admission requirements, tuition costs, industry links, and career support.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "Coventry University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_business_hub_Coventry_University-image2.png",
+          "image": "/uploads/study_abroad/uk/uk_business_hub_Coventry_University-image2.png",
+          "desc": "Coventry University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Exeter University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_business_hub_Exeter_University-image1.png",
+          "image": "/uploads/study_abroad/uk/uk_business_hub_Exeter_University-image1.png",
+          "desc": "Exeter University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Glasgow University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_business_hub_Glasgow_University-image4.png",
+          "image": "/uploads/study_abroad/uk/uk_business_hub_Glasgow_University-image4.png",
+          "desc": "Glasgow University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        },
+        {
+          "name": "Sussex University",
+          "location": "United Kingdom",
+          "fee": "£15,000 – £38,000 / Year",
+          "img": "/uploads/study_abroad/uk/uk_business_hub_Sussex_University-image3.png",
+          "image": "/uploads/study_abroad/uk/uk_business_hub_Sussex_University-image3.png",
+          "desc": "Sussex University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Qualifications for Studying Business Management in the UK",
+      "lead": "The university, program specialization, and course level all affect eligibility.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Eligibility for Undergraduates"
+        },
+        {
+          "t": "p",
+          "items": [
+            "In general, candidates for a bachelor's degree in Business Management must:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Completing Class 12 or a comparable degree from an accredited board.",
+            "Academic performance that satisfies the requirements for admission to the university.",
+            "Proficiency with the English language is necessary.",
+            "Prerequisites in mathematics or other subjects, as indicated by the selected course.",
+            "If the applicant's current qualifications are rejected by the university for direct admission, they may need additional credentials or enrolll in a foundation program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Postgraduate Qualifications"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "In general, candidates seeking a master's degree in Business Management must:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A recognized bachelor's degree from an authorized university.",
+            "A degree classification or marks that satisfy the requirements of the course.",
+            "If the program specifies it, a pertinent academic background.",
+            "Proficiency with the English language is necessary.",
+            "Work experience that is pertinent to programs that demand it."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Eligibility for an MBA"
+        },
+        {
+          "t": "p",
+          "items": [
+            "The requirements for admission to an MBA program may be different from those for a typical master's degree in management. Professional work experience is either preferred or required by many MBA programs, and some may ask for an interview, a CV, references, and a personal statement."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "The UK's Business Management Admission Requirements",
+      "lead": "Academic credentials, English language skills, and the applicant's fit for the selected program are evaluated by universities.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Academic requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities typically evaluate Class 12 results and the applicant's school-leaving qualification for undergraduate programs. A foundation year may be advised or mandated by certain universities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities often evaluate candidates for postgraduate programs based on their bachelor's degree, academic standing, and any prerequisites particular to the course."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Language Requirements in English"
+        },
+        {
+          "t": "p",
+          "items": [
+            "International candidates may be required to verify their English proficiency using a recognized exam or another method permitted by the university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Tests that are frequently accepted include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "IELTS Academic",
+            "The TOEFL iBT",
+            "The Pearson Academic English Test (PTE Academic)",
+            "Additional credentials or proof in English that the institution accepts"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Each institution, program, and immigration situation has a different necessary score. Don't assume that every test will be accepted by every university."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Extra requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Depending on the program, candidates might have to provide:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A statement of purpose or personal statement",
+            "Academic references",
+            "Curriculum vitae for specific postgraduate courses",
+            "Details about work experience for certain MBA programs",
+            "Interview or other application materials, if needed"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of studying business management in the United Kingdom",
+      "lead": "Tuition, lodging, food, transportation, study materials, and other personal expenditures are all included in the overall cost of studying Business Management in the UK.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Estimated Cost of Tuition"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Business Management Undergraduate",
+              "d": "£13,000–£25,000"
+            },
+            {
+              "t": "Business Management Postgraduate",
+              "d": "£15,000–£30,000"
+            },
+            {
+              "t": "MBA Programs",
+              "d": "£20,000 to £50,000 or more"
+            },
+            {
+              "t": "Groceries and food",
+              "d": "£180–£300"
+            },
+            {
+              "t": "Phone and utilities",
+              "d": "£60–£150"
+            },
+            {
+              "t": "Study and personal costs",
+              "d": "£100–£250"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated Cost of Living"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Lodging | £500–£1,200 |",
+            "Local transportation costs between £60 and £150."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Business Management Scholarships"
+        },
+        {
+          "t": "p",
+          "items": [
+            "International students may qualify for some external scholarships, country-specific funds, merit-based rewards, or scholarships particular to their university."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Scholarship availability and award amounts vary depending on the intake and institution. Examine eligibility requirements, deadlines, and if the prize is applicable to undergraduate, graduate, or MBA programs by visiting each university's official funding page."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "The UK's Admission Procedure for Business Management",
+      "lead": "The admissions process often includes the following steps:",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            {
+              "step": 1,
+              "title": "Select Your Course",
+              "desc": "Choose between pursuing an MBA, a master's degree, or a bachelor's degree. Compare career objectives, length, specializations, and tuition costs."
+            },
+            {
+              "step": 2,
+              "title": "Make a shortlist of universities",
+              "desc": "Examine colleges according to their academic qualifications, course offerings, location, financial constraints, placement prospects, and assistance for overseas students."
+            },
+            {
+              "step": 3,
+              "title": "Verify Entry Requirements",
+              "desc": "Examine the academic standards, English language proficiency requirements, application due dates, and necessary paperwork of the university."
+            },
+            {
+              "step": 4,
+              "title": "Get Your Application Ready",
+              "desc": "Gather references, a personal statement, academic transcripts, certifications, English test scores when necessary, and other course-specific paperwork."
+            },
+            {
+              "step": 5,
+              "title": "Send in Your Application",
+              "desc": "Although certain courses and institutions use direct submissions, undergraduate applications are typically filed through UCAS. University application portals are frequently used for postgraduate applications."
+            },
+            {
+              "step": 6,
+              "title": "Accept and Examine Your Offer",
+              "desc": "A conditional or unconditional offer may be made by the university. Fulfilll any unfulfilled requirements and adhere to the deposit and acceptance guidelines."
+            },
+            {
+              "step": 7,
+              "title": "Make Accommodation and Funding Arrangements",
+              "desc": "Create a budget for your living expenses and tuition, look into scholarship opportunities, and make appropriate housing arrangements."
+            },
+            {
+              "step": 8,
+              "title": "Applying for a UK student visa",
+              "desc": "Eligible students may apply for a Student visa after fulfilling the university's requirements and obtaining the required sponsorship paperwork."
+            },
+            {
+              "step": 9,
+              "title": "Get Ready to Leave",
+              "desc": "Make travel plans, keep your paperwork close to hand, go over university enrollment guidelines, and comprehend the terms of your visa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Accreditation and Professional Recognition for Business Management in the United Kingdom",
+      "lead": "Graduates often do not require a professional license to operate in a typical business management function because business management is not a single regulated profession in the UK.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "However, while selecting a program, factors including course quality, university recognition, and professional accreditation may be crucial."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "What Do Students Need to Verify?"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Verify the institution's authority to grant the degree.",
+            "Certain business schools and programs are accredited by professional associations.",
+            "The Association of MBAs (AMBA), the Chartered Management Institute (CMI), and other reputable organizations may be pertinent organizations, depending on the program.",
+            "Benefits unique to the course: Find out if accreditation provides membership, exemptions, extra credentials, or other advantages.",
+            "International career plans: Find out how the qualification and any related professional accreditation are valued by employers in the country of your choice."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Pay and Employment Prospects in the UK Following Business Management",
+      "lead": "Careers in a variety of sectors, including banking, consulting, retail, technology, hospital administration, logistics, marketing, and professional services, can be supported by a Business Management qualification",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The role of the job"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "An executive in business development",
+            "Business Analyst",
+            "The marketing executive",
+            "Coordinator of Operations",
+            "The Human Resources Officer",
+            "The coordinator of the project",
+            "Consultant for Management",
+            "The manager of operations",
+            "Manager of Business"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Estimated Pay Ranges"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For planning purposes, the following are general indicative yearly gross pay ranges. Experience, geography, industry, employer, and function all affect actual compensation."
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Business entry-level positions",
+              "d": "£23,000–£30,000"
+            },
+            {
+              "t": "Business Analyst",
+              "d": "Between £28,000 and £45,000"
+            },
+            {
+              "t": "Executive in marketing or business development",
+              "d": "£24,000–£35,000"
+            },
+            {
+              "t": "Skilled Operations Manager",
+              "d": "£35,000–£60,000+"
+            },
+            {
+              "t": "Management Consultant",
+              "d": "Between £35,000 and £60,000+"
+            }
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Project Manager | £25,000–£38,000 |"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "International Students' Career Opportunities"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Graduates might look for chances abroad or apply for suitable jobs with UK firms. Skills, work experience, employer criteria, and applicable immigration laws all play a role in employment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students who plan to stay in the UK after graduation should visit the official UK government website to verify the most recent Graduate visa and Skilled Worker visa requirements. Post-study alternatives and visa eligibility are subject to change."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Needed to Learn Business Management in the United Kingdom",
+      "lead": "The university, course level, and specific situation all affect the documentation needed.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Academic Writings"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "When requested, the Class 10 certificate and marksheet",
+            "Certificate and grades from Class 12 for undergraduate applications",
+            "Transcripts and a bachelor's degree certificate for postgraduate applications",
+            "Additional academic credentials pertinent to the application"
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Documents for Applications"
+        },
+        {
+          "t": "ul",
+          "items": [
+            "A valid passport",
+            "Updated resume or CV, if needed",
+            "A statement of purpose or personal statement",
+            "When requested, academic or professional references",
+            "Test results in English, if necessary",
+            "Documentation of work experience for appropriate postgraduate or MBA programs",
+            "A portfolio or other materials, if the instructor requests them."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Financial and Visa Documents"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students may require the following, depending on the most recent visa regulations and the applicant's circumstances:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Confirmation of Acceptance for Research (CAS)",
+            "Proof of having enough money to pay for living expenses and education",
+            "Proof of tuition payment, if applicable",
+            "Results of a tuberculosis test, if necessary given the applicant's circumstances",
+            "Payment of the Immigration Health Surcharge, if applicable",
+            "Additional documents listed in the official guidelines for applying for a visa"
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "In the UK, how long does it take to study business management?",
+      "a": "In England, Wales, and Northern Ireland, a bachelor's degree normally takes three years, while some programs are longer or include a placement year. While the length of an MBA program varies depending on the school and course design, a taught master's degree typically takes one year full-time."
+    },
+    {
+      "q": "After Class 12, are Indian students able to study business management in the UK?",
+      "a": "Yes . If they fulfill the academic and English language requirements of the university, Indian students may enroll for undergraduate Business Management programs. Before pursuing a bachelor's degree, certain students might need to finish a foundation program, depending on their educational background and performance."
+    },
+    {
+      "q": "How much does it cost to study business management in the UK?",
+      "a": "The cost of tuition varies depending on the program and university. In general, postgraduate management programs may cost between £15,000 and £30,000 annually, whereas overseas undergraduate tuition may cost between £13,000 and £25,000 annually. The cost of an MBA may be higher. Additionally, living expenses and visa-related charges should be budgeted for by students."
+    },
+    {
+      "q": "Does an MBA or master's degree in business management require work experience?",
+      "a": "Not all master's programs in business management require work experience. While some MBA programs require or greatly favor professional experience, many MSc Management courses admit recent graduates. Candidates should review the particular course requirements."
+    },
+    {
+      "q": "After earning a business management degree, can I find employment in the UK?",
+      "a": "Graduates who fulfill the requirements of a relevant immigration route may be permitted to work in the UK. Before making preparations, students should check the most recent official guidelines on GOV.UK as post-study employment opportunities and visa requirements are subject to change."
+    },
+    {
+      "q": "How can I study abroad with the assistance of Edu Hawk Worldwide Consultancy?",
+      "a": "Students may choose appropriate colleges, comprehend entrance standards, organize application materials, and arrange their study abroad experience with the assistance of Edu Hawk worldwide. Students should check with the appropriate official authorities on their academic, financial, immigration, and licensing needs."
+    }
+  ],
+  "seo": {
+    "title": "Study Business Management in the United Kingdom | Edu-Hawk Worldwide",
+    "description": "International students can gain the leadership, strategic thinking, communication, and decision-making skills needed in today's global corporate climate by stud",
+    "keywords": "Study Business Management in the UK for Indian Students, Best Universities for Business Management in the UK, Undergraduate and Postgraduate Business Management Courses in the UK, Business Management Eligibility in the UK for Indian Students, Business Management Admission Requirements in the UK, Business Management Tuition Fees in the UK for International Students, Business Management Scholarships in the UK for Indian Students, Bachelor of Business Management in the UK, MSc Business Management in the UK, MBA in the UK for International Students"
+  }
+}

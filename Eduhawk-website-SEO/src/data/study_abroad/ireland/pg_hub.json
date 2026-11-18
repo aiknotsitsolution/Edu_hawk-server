@@ -1,0 +1,727 @@
+{
+  "hero": {
+    "title": "Postgraduate Engineering Courses in Ireland",
+    "subtitle": "Ireland is an attractive option for international students wishing to obtain a \\\\postgraduate engineering qualification\\. Its universities provide specialized \\\\master's programmes\\\\ that combine advanced technical knowledge, research, practical projects and \\\\industry-relevant skills\\."
+  },
+  "overview": [
+    "Ireland is an attractive option for international students wishing to obtain a \\\\postgraduate engineering qualification\\. Its universities provide specialized \\\\master's programmes\\\\ that combine advanced technical knowledge, research, practical projects and \\\\industry-relevant skills\\.",
+    "\\\\Industry exposure:\\\\ Students may avail of \\\\laboratory facilities, research centers, industry projects and work experience, depending on the program.",
+    "\\\\Global learning environment:\\\\ Students in Irish universities come from a diverse range of educational and professional backgrounds."
+  ],
+  "universities": [
+    {
+      "name": "University of Galway",
+      "location": "Galway, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+      "desc": "The University of Galway is celebrated for high-impact research, vibrant campus culture, and pioneering biomedical and engineering faculties."
+    },
+    {
+      "name": "Dublin City University (DCU)",
+      "location": "Dublin, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Dublin_City_University-image2.png",
+      "image": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Dublin_City_University-image2.png",
+      "desc": "DCU is known as Ireland's University of Enterprise, with strong corporate internships (INTRA), modern technology hubs, and practical learning."
+    },
+    {
+      "name": "University College Cork (UCC)",
+      "location": "Cork, Ireland",
+      "fee": "€16,000 – €30,000 / Year",
+      "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+      "desc": "University College Cork combines historic academic tradition with state-of-the-art research laboratories and strong graduate employment outcomes."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why Ireland",
+      "title": "Why Choose Engineering in Ireland?",
+      "lead": "Ireland is an attractive option for international students wishing to obtain a \\\\postgraduate engineering qualification\\. Its universities provide specialized \\\\master's programmes\\\\ that combine advanced technical knowledge, research, practical projects and \\\\industry-relevant skills\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Here are the main reasons to study engineering in Ireland:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Specialised Master's Programmes:\\\\ Select from \\\\mechanical, civil, electrical, electronic, chemical, biomedical, computer and other engineering disciplines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industry exposure:\\\\ Students may avail of \\\\laboratory facilities, research centers, industry projects and work experience, depending on the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Global learning environment:\\\\ Students in Irish universities come from a diverse range of educational and professional backgrounds."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Career opportunities:\\\\ \\\\Engineering graduates\\\\ have the opportunity to work in \\\\design, manufacturing, construction, technology, energy, medical devices and research\\. - \\\\Further research:\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\PhD or research career\\\\ could take you into a \\\\master's degree\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The \\\\Third Level Graduate Programme\\\\ in Ireland may be available to qualifying international graduates."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students can explore these opportunities and get to know the requirements involved in pursuing education overseas with the help of Edu Hawk worldwide study abroad guidance"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Engineering Postgraduate Courses in Ireland",
+      "lead": "\\\\Postgraduate engineering courses in Ireland\\\\ include",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Research masters and doctoral degrees\\\\"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "\\\\MSc in Engineering\\\\ \\",
+              "d": "Advanced technical study, course work and a dissertation or project work"
+            },
+            {
+              "t": "\\\\MEng or ME\\\\ \\",
+              "d": "Postgraduate engineering study; the title of the award differs by institution"
+            },
+            {
+              "t": "\\\\MEngSc or research master's\\\\ \\",
+              "d": "Research on a specific engineering topic"
+            },
+            {
+              "t": "\\\\PhD in Engineering\\\\ \\",
+              "d": "Original research and academic or industrial specialization"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Popular Engineering Specializations"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Mechanical Engineering:\\\\ - Design, manufacturing, robotics, thermal and materials systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Civil Engineering\\- geotechnical engineering, structural design, transport and construction."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Electrical and Electronic Engineering:\\\\ - Power systems, electronics, communications, and control systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Computer Engineering:\\\\ - Embedded systems, hardware, computing, smart devices. -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Chemical Engineering:\\\\ - Process engineering, pharmaceuticals, energy and sustainable manufacturing."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Biomedical Engineering:\\- Medical devices, biomaterials, biomechanics, and healthcare technology."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Environmental and Energy Engineering:\\- Decarbonization, sustainability and renewable energy, environmental systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industrial and Manufacturing Engineering:\\\\ - Automation, operations, production systems and process improvement."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Irish Universities",
+      "title": "Best Engineering PG Universities in Ireland",
+      "lead": "Here's a list of some institutions offering \\\\postgraduate engineering programmes\\\\ or master's options in engineering. It is contingent upon your specialization, academic background, budget and career plans.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "University of Galway",
+          "location": "Galway, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_of_Galway-image3.png",
+          "desc": "The University of Galway is celebrated for high-impact research, vibrant campus culture, and pioneering biomedical and engineering faculties."
+        },
+        {
+          "name": "Dublin City University (DCU)",
+          "location": "Dublin, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Dublin_City_University-image2.png",
+          "image": "/uploads/study_abroad/ireland/ireland_computer_engineering_ug_Dublin_City_University-image2.png",
+          "desc": "DCU is known as Ireland's University of Enterprise, with strong corporate internships (INTRA), modern technology hubs, and practical learning."
+        },
+        {
+          "name": "University College Cork (UCC)",
+          "location": "Cork, Ireland",
+          "fee": "€16,000 – €30,000 / Year",
+          "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Cork-image1.png",
+          "desc": "University College Cork combines historic academic tradition with state-of-the-art research laboratories and strong graduate employment outcomes."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility Criteria To Study PG Engineering In Ireland",
+      "lead": "For most \\\\Master's programs in engineering\\\\ applicants need a relevant \\\\Bachelor's degree\\. Specific academic requirements vary by institution and specialization.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Typical eligibility requirements include:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\bachelor's degree in engineering\\\\ or a related field."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic performance equivalent to the university's required honors classification (typically a second-class honors result or better)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Relevant previous subjects for the chosen specialization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English language proficiency\\\\ as required. - Any other academic or professional requirements specified by the course."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility for Indian Student",
+      "lead": "Indian applicants usually need to hold a recognized bachelor's degree such as a \\\\BE or BTech in a relevant field\\. Universities assess the awarding institution, degree duration, grading system, subject content and marks/CGPA.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For instance, a student applying for a \\\\MSc in Mechanical Engineering\\\\ would normally need to have some kind of engineering background. Applicants from other disciplines will be considered only if the course allows for it and if their prior study meets the requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Ireland Engineering PG Admission Requirements",
+      "lead": "The most frequent \\\\postgraduate admission requirements in Ireland\\\\ are academic evaluation and confirmation of supporting documents.",
+      "groups": []
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Requirements for Admission",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Universities might consider:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Academic transcript and certificate of bachelor's degree.",
+            "Aggregate Marks/CGPA.",
+            "Relevant technical experience and engineering disciplines.",
+            "Research experience or final year project (if applicable).",
+            "Work experience, if this is a requirement or preference of the program"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "English language requirement"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\IELTS Academic, TOEFL iBT, PTE Academic\\\\ or other approved English-language qualification may be required for international applicants."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many postgraduate courses will start by looking for a \\\\overall IELTS score of around 6.5\\\\, although the precise minimum scores and the requirements for each element will vary. Some programs may require higher scores or exemptions under certain conditions."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Additional requirements"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Universities may request, depending on the course:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Personal statement or purpose statement."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "References to academic or professional literature. - CV or resume."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research degree research proposal."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Portfolio or samples of relevant projects if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Payment of application fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The minimum entry criteria are not a guarantee of an offer of admission. Some programs have limited places and some applications can be competitive"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of Pursuing Engineering PG in Ireland",
+      "lead": "International students should budget for \\\\tuition and living costs\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Fees vary considerably by institution, specialization, course duration and academic year"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Tuition fees\\\\ \\",
+              "d": "€17,000–€30,000+"
+            },
+            {
+              "t": "Accommodation \\",
+              "d": "€7000–€14000"
+            },
+            {
+              "t": "Food & Groceries \\",
+              "d": "2,500 – 4,000 €"
+            },
+            {
+              "t": "Transport \\",
+              "d": "€600–€1,200"
+            },
+            {
+              "t": "Books, insurance and personal expenses \\",
+              "d": "€1,000–€2,500"
+            }
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Estimated total\\\\ \\| \\\\€28,100–€51,700+\\\\ \\|"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Ireland PG Admission Process for Engineering",
+      "lead": "Here are some general steps international students can take:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose your specialisation:\\\\ Select the engineering field that most closely matches your bachelor's degree and career goals."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Shortlist programmes:\\\\ Compare course content, university location, fees, length and accreditation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check entry requirements:\\\\ Check the required degree, grades, subject background and English language score."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Gather documents\\\\ Gather transcripts, degree certificates, passport details, references and English test results where required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Submit application:\\\\ Apply through the university's official postgraduate portal and pay the application fee (if any)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Follow up on your application:\\\\ Provide additional information or verify your qualifications if asked."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Accept your offer.\\\\ Review the terms, deposit requirements and payment deadlines."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Funding and accommodation:\\\\ Work out the total cost and organize accommodation before you travel."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Complete immigration formalities\\\\: Check the official \\\\Irish immigration requirements\\\\ for your nationality and program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "10. \\\\Register at the university:\\\\ Complete the enrollment process and submit any outstanding documents."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Recognition and Accreditation in Ireland for Engineering",
+      "lead": "\\\\Accreditation\\\\ is important for students who want \\\\a career as a professional engineer\\\\ with their degree.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In Ireland, the \\\\Engineers Ireland\\\\ accredits eligible engineering programs against professional education standards . However not all postgraduate courses are independently accredited. Accreditation of a bachelor's degree does not automatically mean that every master's program is accredited."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Before you apply:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check accreditation status for the specific program and prize."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Check the graduation years included."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Ensure that the program offers the \\\\professional engineering pathway\\\\ you wish to take- Check the recognition requirements of the country where you will be working."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For regulated or specialist roles look for any additional registration or licensing requirements."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career Opportunities",
+      "title": "Job Opportunities & Salary after Engineering PG in Ireland",
+      "lead": "Graduates with specialization in technical or leadership-oriented roles might find a \\\\postgraduate engineering qualification\\\\ useful.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "The employment prospects depend on the area of study, the practical experience obtained, the needs of employers and the skills acquired in the course."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Possible career paths -"
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Engineering Specialisations\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Mechanical Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\Civil Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Electrical and Electronic Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Computer and Electronic Systems\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Chemical and Process Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Biomedical Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Energy and Environmental Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industrial and Manufacturing Engineering\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Indicative annual salary ranges (gross)"
+          ]
+        },
+        {
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Graduate or entry level engineering jobs \\",
+              "d": "€32,000 - €42,000"
+            },
+            {
+              "t": "Experienced engineers \\",
+              "d": "€42,000 - €65,000"
+            },
+            {
+              "t": "Senior or specialist engineers \\",
+              "d": "€65,000 - €85,000+"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Documents Required to Pursue PG Engineering in Ireland",
+      "lead": "The exact checklist is dependent on the university and the program. Typical documents include:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Valid passport."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Provisional or degree certificate of Bachelor's Degree."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Academic Transcripts Official."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Explanation of the grading scale or CGPA, if needed."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Test results in English\\\\, if applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "An up-to-date CV or résumé."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Purpose statement or personal statement\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "References academic or professional."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Research proposal for research based programs (if applicable)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Work experience letters, if applicable or requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of payment of application fee."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Certified translation of documents in a language that is not accepted. -"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Proof of income and health coverage for immigration related purposes, if applicable."
+          ]
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Is Ireland a good place for a master in engineering?",
+      "a": "Ireland is for students who want \\\\specialised engineering study, research experience and access to technical industries\\\\"
+    },
+    {
+      "q": "How Long Is An Engineering Masters In Ireland For?",
+      "a": "Most full-time taught master's programs \\\\are one-year long\\\\, although some engineering masters and research programs are longer. Compare the length of the same course."
+    },
+    {
+      "q": "What is the required CGPA/percentage for PG admission in engineering?",
+      "a": "No general minimum. Universities look at your \\\\bachelor degree, academic results, subject background\\\\ and sometimes work or research experience. Check the program requirements for Indian qualifications."
+    },
+    {
+      "q": "How much does PG engineering cost in Ireland?",
+      "a": "Fees for selected programs for \\\\2026/27 non-EU tuition fees\\\\ range from €25,000 at DCU to €28,640 at the University of Galway, and Trinity lists different fees for its engineering master's programs depending on the course. Additional living costs."
+    },
+    {
+      "q": "\\\\How can Edu Hawk Worldwide Consultancy help me to study in foreign?",
+      "a": "\\\\Edu Hawk worldwide\\\\ can help students find suitable universities, understand \\\\admission requirements\\\\, organize application documents, and plan their \\\\study-abroad journey. Students are responsible for checking academic, financial."
+    }
+  ],
+  "seo": {
+    "title": "Postgraduate Engineering Courses in Ireland | Edu-Hawk Worldwide",
+    "description": "Ireland is an attractive option for international students wishing to obtain a \\\\postgraduate engineering qualification\\. Its universities provide specialized \\",
+    "keywords": "Study Engineering Postgraduate Courses in Ireland for Indian Students, Top Universities for Engineering PG in Ireland, MSc Engineering Courses in Ireland for International Students, Postgraduate Engineering Specialisations in Ireland, Admission Requirements for Engineering Master's in Ireland, IELTS Requirements for Postgraduate Engineering in Ireland, Engineering PG Tuition Fees in Ireland for International Students, Engineers Ireland Accredited Engineering Programmes, Engineering Jobs and Salary After Master's in Ireland, Ireland Student Visa Requirements for Engineering PG Students, <"
+  }
+}

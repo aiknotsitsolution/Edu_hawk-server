@@ -1,0 +1,670 @@
+{
+  "hero": {
+    "title": "Biomedical Engineering in France",
+    "subtitle": "Students interested in studying biomedical engineering, medical technology, health equipment, biotechnology and the application of engineering principles to medicine have opportunities in France."
+  },
+  "overview": [
+    "\\\\Biomedical engineering\\\\ is the use of engineering, biology, medicine, electronics, materials science, and computing to create technologies that help in health care.",
+    "\\\\Major reasons to opt for Biomedical engineering in France are:\\\\",
+    "\\\\Specialised healthcare technology education\\\\: Learn about \\\\medical devices, clinical engineering, biomedical instrumentation, imaging, biomechanics and healthcare systems\\."
+  ],
+  "universities": [
+    {
+      "name": "University Paris Cite",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_Paris.webp",
+      "desc": "\\\\Université Paris Cité\\\\ Faculty of Fundamental and Biomedical Sciences Licence Sciences biomédicales, 3 years. This program is appropriate for students who wish to gain a grounding in \\\\biomedical science\\\\ prior to further study"
+    },
+    {
+      "name": "### Université Paris",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Paris.webp",
+      "image": "/uploads/study_abroad/france/france_Paris.webp",
+      "desc": "Est Créteil (UPEC) : EPISEN : \\\\EPISEN\\\\ : Ecole publique d'ingénieurs de la santé et du numérique : offers a \\\\engineering qualification in biomedical engineering and health\\. Its program links engineering with health technologies and digital systems."
+    },
+    {
+      "name": "Aix",
+      "location": "France",
+      "fee": "€2,770 – €3,770 / Year",
+      "img": "/uploads/study_abroad/france/france_Aix.webp",
+      "image": "/uploads/study_abroad/france/france_Aix.webp",
+      "desc": "Marseille University : Polytech Marseille : \\\\Polytech Marseille\\\\ provides a \\\\biomedical engineering specialization\\\\ in its engineering studies. Relevant subject areas include \\\\medical devices, biomedical systems, and the application of engineering to healthcare\\."
+    }
+  ],
+  "sections": [
+    {
+      "slot": "why-study",
+      "eyebrow": "Why France",
+      "title": "Why study Biomedical engineering in France?",
+      "lead": "\\\\Biomedical engineering\\\\ is the use of engineering, biology, medicine, electronics, materials science, and computing to create technologies that help in health care.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Major reasons to opt for Biomedical engineering in France are:\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Specialised healthcare technology education\\\\: Learn about \\\\medical devices, clinical engineering, biomedical instrumentation, imaging, biomechanics and healthcare systems\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Research opportunities:\\\\ Some universities and engineering schools collaborate with research labs, hospitals and healthcare technology organizations."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Interdisciplinary learning:\\\\ Students can combine engineering approaches with biology, physiology, electronics, computing and materials."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Industry exposure:\\\\ The programs may include laboratory projects, internships, industrial placements and work-study options."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Further study potential:\\\\ A bachelor's level science qualification can provide a pathway to a specialized master's degree or an engineering qualification, depending on the admission criteria."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "programs",
+      "eyebrow": "Academic Pathways",
+      "title": "Biomedical Engineering courses in France",
+      "lead": "Different \\\\biomedical engineering courses in France\\\\ might have different titles. Options for explore include:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Biomedical Engineering - :\\\\ Devices for the medical sector, clinical engineering, biomedical instrumentation and health technologies."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Biomedical Science:\\\\ Human biology, human physiology, biomedical research and basic medical sciences."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Medical Technology and Health Engineering\\\\: Medical-device systems, healthcare equipment, electronics and digital health."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Biological Engineering:\\\\ Biotechnology, biological analysis, medical biology, lab application."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Health and Digital Engineering:\\\\ Biomedical uses of computing, electronics, data and connected medical systems."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top French Universities",
+      "title": "Top UG Biomedical Engineering Universities in France",
+      "lead": "",
+      "groups": [],
+      "unis": [
+        {
+          "name": "University Paris Cite",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_Paris.webp",
+          "desc": "\\\\Université Paris Cité\\\\ Faculty of Fundamental and Biomedical Sciences Licence Sciences biomédicales, 3 years. This program is appropriate for students who wish to gain a grounding in \\\\biomedical science\\\\ prior to further study"
+        },
+        {
+          "name": "### Université Paris",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Paris.webp",
+          "image": "/uploads/study_abroad/france/france_Paris.webp",
+          "desc": "Est Créteil (UPEC) : EPISEN : \\\\EPISEN\\\\ : Ecole publique d'ingénieurs de la santé et du numérique : offers a \\\\engineering qualification in biomedical engineering and health\\. Its program links engineering with health technologies and digital systems."
+        },
+        {
+          "name": "Aix",
+          "location": "France",
+          "fee": "€2,770 – €3,770 / Year",
+          "img": "/uploads/study_abroad/france/france_Aix.webp",
+          "image": "/uploads/study_abroad/france/france_Aix.webp",
+          "desc": "Marseille University : Polytech Marseille : \\\\Polytech Marseille\\\\ provides a \\\\biomedical engineering specialization\\\\ in its engineering studies. Relevant subject areas include \\\\medical devices, biomedical systems, and the application of engineering to healthcare\\."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility to study Biomedical Engineering UG in France",
+      "lead": "\\\\Your eligibility to study biomedical engineering in France\\\\ is based on the program and whether you're applying for a bachelor's program or an engineering-school pathway.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Typical requirements are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Passed \\\\Class 12\\\\ or equivalent secondary-school qualification."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Strong grounding in \\\\mathematics and physics\\\\ for engineering-based courses."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Chemistry and biology preparation for biomedical science and biotechnology programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\French language skills\\\\ for courses taught in French."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\English language skills\\\\ for programs taught in the English language."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Satisfactory academic performance and any necessary entrance assessments."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The science subjects from Class 12 may be relevant for applicants from India. Mathematics and physics are particularly important for engineering programs and biology and chemistry can be important for biomedical science programs."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Some specialized biomedical engineering programs require \\\\two years of college\\."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Admission Requirements",
+      "lead": "Universities and engineering schools have their own \\\\ admission requirements \\\\ to evaluate candidates.",
+      "groups": [
+        {
+          "t": "h4",
+          "text": "Typical requirements are:"
+        },
+        {
+          "t": "p",
+          "items": [
+            "Secondary-school qualifications and transcripts recognized."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Sufficient preparation in \\\\math, physics, biology or chemistry."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Results of the French or English language test\\\\ where applicable. \\]"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Completed application form and supporting documentation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A \\\\letter of motivation or personal statement\\\\ (if applicable)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Interview, entrance examination or academic assessment (if applicable)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Extra transcripts from higher education for applicants seeking to enter into an advanced year."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\B2-level French\\\\ is a useful planning benchmark for French-taught courses, although the exact requirement will vary by program. Courses taught in English may require an accepted \\\\English-language test.\\"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "The cost of studying biomedical engineering in France",
+      "lead": "The \\\\cost of studying biomedical engineering in France\\\\ varies according to the institution, qualification, nationality and entitlement to exemptions.\\#\\# 2026–2027 tuition fees",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "These annual reference rates for public higher education institutions are listed by Campus France, in accordance with the current national rules:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Public university Licence \\| €178 \\| \\$2,902"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's Public university \\| €255 \\| €3,950"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Many public engineering programs \\| €630 \\| Check the institution's applicable rate"
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Cost of living",
+      "lead": "",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "In addition to tuition, students should allow for:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Accommodation and utilities."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Groceries & food\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Public transport.\\\\"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Books, equipment and study materials."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Health-related costs and insurance, where relevant."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Visa and administrative fees\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The cost of living in France varies depending on the city, accommodation and lifestyle. Depending on the program and the student's circumstances, scholarships and eligible work-study can help with expenses."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "admission",
+      "eyebrow": "Application Journey",
+      "title": "Application process",
+      "lead": "International students must follow \\\\the admission process for studying in France\\\\ applicable to their nationality, current country of residence and the institution they wish to attend.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "1. \\\\Choose your study track:\\\\ Go for a \\\\biomedical science bachelor's\\\\ or a longer \\\\biomedical engineering track\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "2. \\\\Check the qualification:\\\\ Look at the degree title, duration, language of instruction and accreditation."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "3. \\\\Check entry requirements\\\\: Look at subject requirements , language requirements and direct entry after class 12."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "4. \\\\Choose the application platform:\\\\ Depending on the program, applications are submitted via the institution's own portal."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "5. \\\\Document Preparation:\\\\ Collect academic certificates, transcripts, language results, and any other documents requested."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "6. \\\\Submit the application:\\\\ Submit the application before the deadline."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "7. \\\\Go through the selection process:\\\\ If required, you may have to attend interviews or entrance exams."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "8. \\\\Accept your offer:\\\\ Follow the instructions from the institution for registration and payment."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "9. \\\\Visa and accommodation\\\\ If a \\\\France student visa\\\\ is required, make the"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "appropriate arrangements in plenty of time."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "scope",
+      "eyebrow": "Accreditation & Recognition",
+      "title": "Recognition and Accreditation",
+      "lead": "Check the exact qualification and its \\\\recognition and accreditation status\\\\ before you enroll.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "For French engineering qualifications verify that the \\Diplôme d'ingénieur\\ is licensed and accredited by the \\\\Commission des titres d'ingénieur (CTI)\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A bachelor's degree or Licence in biomedical sciences is a distinct qualification and should not be referred to as an accredited engineering diploma."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Students should check:"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The specific \\\\degree\\\\ awarded."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Official status of recognition and accreditation of the program."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Duration and \\\\ECTS credits\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Access to laboratory work, internships and industry placements."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Eligibility to undertake further study or to be granted professional recognition in the country where they intend to work."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Healthcare technology and medical-device development may also be governed by industry-specific standards and regulations."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "careers",
+      "eyebrow": "Career & Salary",
+      "title": "Salary and Job Opportunities",
+      "lead": "\\\\Biomedical engineering graduates\\\\ can find jobs in \\\\medical-device companies, healthcare technology, diagnostics, research, medical equipment services and biotechnology\\.",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "\\\\Career opportunities in biomedical engineering include:\\\\"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "\\\\Biomedical engineering."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Design/development engineer, medical devices."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Clinical engineer or hospital equipment specialist"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Engineer in biomedical instrumentation.",
+            "Associate, quality assurance or regulatory affairs"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\R\\&D (research and development) assistant or engineer\\."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "\\\\Medical imaging or health technology professional."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Digital health professional, biomedical systems."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The position offered will be based on your qualification, practical experience, technical specialization, language skills and work authorization."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Master's-level or recognized engineering qualification is required for some engineering and research positions."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Bachelor's-level graduates may be accepted for some technical and support roles."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "The biomedical engineering salary depends on the employer, location, experience and position."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "documents",
+      "eyebrow": "Documentation Checklist",
+      "title": "Required Documents",
+      "lead": "\\\\Frequently required documents for biomedical engineering applications in France\\\\ are:",
+      "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Passport valid"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Class 10 and Class 12 certificates and transcripts as applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "School records in science and mathematics in relevant subjects."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Test results of French or English language, if required."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Curriculum vitae\\\\ upon request."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Motivation letter or statement of purpose\\\\ (if required)."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Letters of recommendation\\\\ if relevant."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Certified translations of documents (if applicable)."
+        },
+        {
+          "t": "p",
+          "items": [
+            "Application form and proof of payment, where applicable."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Previous University transcripts, if applying for advanced entry."
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Financial and Visa Documents\\\\ appropriate stage."
+        }
+      ]
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I pursue biomedical engineering in France after Class 12?",
+      "a": "Yes but the routes are different. You can apply for an appropriate \\\\bachelor's degree programme\\\\ or a longer \\\\engineering route. Certain specialized courses in biomedical engineering require prior university training."
+    },
+    {
+      "q": "How long does it take to study biomedical engineering in France?",
+      "a": "A \\\\Licence in biomedical sciences\\\\ usually takes three years. A full engineering-school pathway is typically five years after high school, depending on the program and the entry route."
+    },
+    {
+      "q": "Do I need French for biomedical engineering in France?",
+      "a": "Many undergraduate courses are taught in French, and some require proof of \\\\French language proficiency. Before you apply, check the language of instruction and the tests they accept for each program."
+    },
+    {
+      "q": "How much does it cost to study biomedical engineering in France?",
+      "a": "Biomedical engineering tuition fees in France vary by institution and qualification. The published public-university Licence reference for 2026–2027 is €178 a year for eligible French and EU students and €2,902 for non-EU students subject to differentiated fees. Fees for engineering-school and private-school can vary."
+    },
+    {
+      "q": "What will I do after I study biomedical engineering?",
+      "a": "Career opportunities include medical device development, biomedical instrumentation, hospital equipment management, quality assurance, regulatory affairs, health technology, and research. Some specialist jobs require additional study or a qualification in engineering."
+    }
+  ],
+  "seo": {
+    "title": "Biomedical Engineering in France | Edu-Hawk Worldwide",
+    "description": "\\\\Biomedical engineering\\\\ is the use of engineering, biology, medicine, electronics, materials science, and computing to create technologies that help in healt",
+    "keywords": "Study Biomedical Engineering in France, Biomedical Engineering Courses in France, Top UG Biomedical Engineering Universities in France, Eligibility to study Biomedical Engineering UG in France, Admission Requirements for Indian Students, Biomedical Engineering Tuition Fees in France 2026–2027, Cost of Studying Biomedical Engineering in France, English-Taught Biomedical Engineering Programmes in France, Biomedical Sciences Bachelor's Degree in France, Biomedical Engineering Scholarships for International Students in France, Biomedical Engineering Jobs and Career Opportunities in France, <"
+  }
+}
