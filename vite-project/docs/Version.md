@@ -47,8 +47,9 @@ Welcome to the Edu-Hawk Admin Panel version tracking and changelog document. Thi
   * **Article Content & Tables:** Full-width rich editor with table stretching, cell properties, headings, and preview.
 * **Unified Bottom Action Bar:**
   * Clean footer actions bar at the bottom containing "Ready to draft" status, "Reset Form", "Preview Blog", and "Create Blog" (eliminating duplicate buttons).
-* **Full Post Preview Modal:**
+* **Seamless Full Post Preview Modal:**
   * Added "Preview Blog" modal displaying the complete article (Category badge, Title, Author avatar, Cover image, and full HTML Description).
+  * Removed nested cards, double borders, and outer grey paddings for a clean, seamless, full-canvas preview experience.
 
 #### 🧭 Sidebar Version Management (`Sidebar.jsx`)
 * **Version Footer Indicator:**
