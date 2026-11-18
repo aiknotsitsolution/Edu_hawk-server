@@ -427,6 +427,7 @@ import {
   X,
   ChevronDown,
   ChevronRight,
+  Sparkles,
 } from "lucide-react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
@@ -468,6 +469,7 @@ const navItems = [
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(false);
   const [openMenus, setOpenMenus] = useState({ Blog: true });
+  const [showVersionModal, setShowVersionModal] = useState(false);
 
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -617,18 +619,149 @@ export default function Sidebar() {
           </ul>
         </nav>
 
-        {/* Logout */}
-        <div className="border-t border-white/5 p-3">
+        {/* Footer: Logout & Version info */}
+        <div className="border-t border-white/5 p-3 space-y-2">
           <button
             type="button"
             onClick={handleLogout}
-            className="flex w-full items-center gap-3 rounded-xl px-3.5 py-2.5 text-[13.5px] font-medium text-rose-400 transition-all hover:bg-rose-500/10 hover:text-rose-300"
+            className="flex w-full items-center gap-3 rounded-xl px-3.5 py-2.5 text-[13.5px] font-medium text-rose-400 transition-all hover:bg-rose-500/10 hover:text-rose-300 cursor-pointer"
           >
             <LogOut size={18} strokeWidth={2} />
             <span>Logout</span>
           </button>
+
+          {/* Version Widget */}
+          <div className="flex items-center justify-between rounded-xl border border-white/5 bg-white/[0.03] px-3.5 py-2">
+            <div className="flex items-center gap-2">
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75"></span>
+                <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
+              </span>
+              <span className="text-[12px] font-semibold text-slate-300">
+                v1.2.0
+              </span>
+              <span className="rounded bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-medium text-indigo-300">
+                Latest
+              </span>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setShowVersionModal(true)}
+              className="text-[11px] font-medium text-indigo-400 hover:text-indigo-300 hover:underline transition cursor-pointer"
+              title="View version changelog"
+            >
+              Changelog
+            </button>
+          </div>
         </div>
       </aside>
+
+      {/* Version & Changelog Modal */}
+      {showVersionModal && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 p-4 backdrop-blur-xs animate-in fade-in duration-150"
+          onClick={() => setShowVersionModal(false)}
+        >
+          <div
+            className="flex max-h-[85vh] w-full max-w-lg flex-col overflow-hidden rounded-2xl border border-slate-700 bg-[#0f172a] text-slate-200 shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Modal Header */}
+            <div className="flex items-center justify-between border-b border-white/10 bg-white/[0.02] px-6 py-4">
+              <div className="flex items-center gap-3">
+                <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-indigo-500/20 text-indigo-400">
+                  <Sparkles size={18} />
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-white">
+                    Edu-Hawk Version Info
+                  </h3>
+                  <p className="text-xs text-slate-400">
+                    Tracked in docs/Version.md
+                  </p>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setShowVersionModal(false)}
+                className="rounded-lg p-2 text-slate-400 hover:bg-white/10 hover:text-white transition cursor-pointer"
+              >
+                <X size={18} />
+              </button>
+            </div>
+
+            {/* Modal Body */}
+            <div className="flex-1 overflow-y-auto p-6 space-y-5 text-sm">
+              {/* Current Version Card */}
+              <div className="rounded-xl border border-indigo-500/30 bg-indigo-500/10 p-4">
+                <div className="flex items-center justify-between">
+                  <span className="text-base font-bold text-white">
+                    Version 1.2.0
+                  </span>
+                  <span className="rounded-full bg-emerald-500/20 px-2.5 py-0.5 text-xs font-semibold text-emerald-400">
+                    Current Version
+                  </span>
+                </div>
+                <p className="mt-1 text-xs text-slate-400">
+                  Released: November 18, 2026
+                </p>
+              </div>
+
+              {/* What was changed */}
+              <div>
+                <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">
+                  What's New in v1.2.0:
+                </h4>
+                <ul className="space-y-2.5 text-xs text-slate-300">
+                  <li className="flex items-start gap-2.5">
+                    <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
+                    <span><strong>Table Stretching:</strong> Drag column borders to stretch/resize tables dynamically.</span>
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
+                    <span><strong>Table & Cell Properties:</strong> Customize cell padding, borders, alignment, and table width directly.</span>
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
+                    <span><strong>Table Spacing Fixed:</strong> Comfortable 12px 16px cell padding so text never touches borders.</span>
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
+                    <span><strong>Live Preview:</strong> Real-time Desktop & Mobile preview modal in editor & full post preview.</span>
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
+                    <span><strong>UI/UX Redesign:</strong> 2-column publishing studio with image management and remove actions.</span>
+                  </li>
+                  <li className="flex items-start gap-2.5">
+                    <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
+                    <span><strong>Headings & Media:</strong> H1-H4 headings and image resize handles enabled.</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Documentation Notice */}
+              <div className="rounded-xl border border-white/5 bg-white/[0.02] p-3 text-xs text-slate-400 flex items-center justify-between">
+                <span>Detailed log: <code>docs/Version.md</code></span>
+                <span className="text-indigo-400">Maintained</span>
+              </div>
+            </div>
+
+            {/* Modal Footer */}
+            <div className="border-t border-white/10 bg-white/[0.02] px-6 py-3 flex justify-end">
+              <button
+                type="button"
+                onClick={() => setShowVersionModal(false)}
+                className="rounded-lg bg-white/10 px-4 py-2 text-xs font-semibold text-white hover:bg-white/20 transition cursor-pointer"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
