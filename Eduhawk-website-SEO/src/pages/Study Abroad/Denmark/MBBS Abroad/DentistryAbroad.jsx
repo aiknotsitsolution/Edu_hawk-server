@@ -397,7 +397,7 @@ const page = {
 export default function DentistryDenmark() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: "Dentistry",
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
@@ -406,18 +406,31 @@ export default function DentistryDenmark() {
       .filter(s => s.label && s.value).length > 0
       ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
       : page.stats,
+    highlights: (cmsData.highlights && Array.isArray(cmsData.highlights) && cmsData.highlights.length > 0)
+      ? cmsData.highlights
+      : page.highlights,
     universities: (cmsData.universities && cmsData.universities.length > 0)
       ? cmsData.universities
       : page.universities,
-    sections: (page.sections || []).map((sec) => {
-      if (sec.slot === "universities" && cmsData.universities && cmsData.universities.length > 0) {
-        return {
-          ...sec,
-          unis: cmsData.universities,
-        };
-      }
-      return sec;
-    }),
+    sections: (cmsData.sections && cmsData.sections.length > 0)
+      ? cmsData.sections.map((sec) => {
+          if (sec.slot === "universities" && cmsData.universities && cmsData.universities.length > 0) {
+            return {
+              ...sec,
+              unis: cmsData.universities,
+            };
+          }
+          return sec;
+        })
+      : (page.sections || []).map((sec) => {
+          if (sec.slot === "universities" && cmsData.universities && cmsData.universities.length > 0) {
+            return {
+              ...sec,
+              unis: cmsData.universities,
+            };
+          }
+          return sec;
+        }),
     faqs: (cmsData.faq || cmsData.faqs || []).map(f => ({
       q: f.question || f.q,
       a: f.answer || f.a

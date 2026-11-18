@@ -5388,7 +5388,11 @@ export const AbroadCoursePage = ({
 
 
 
-  const courseBase = (page.name || "").replace(new RegExp(`\\s+(in|for)\\s+${country}$`, 'i'), '').trim();
+  const courseBase = (page.name || "")
+    .replace(new RegExp(`\\s+(in|for)\\s+(the\\s+)?${country}(\\s+for\\s+Indian\\s+Students)?$`, 'i'), '')
+    .replace(/\s+for\s+Indian\s+Students$/i, '')
+    .replace(new RegExp(`\\s+(in|for)\\s+(the\\s+)?${country}$`, 'i'), '')
+    .trim() || page.name || "";
 
 
 
