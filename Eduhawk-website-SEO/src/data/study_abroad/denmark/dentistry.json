@@ -1,94 +1,80 @@
 {
-  "hero": {
-    "title": "Dentistry in Denmark",
-    "subtitle": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses."
+  "seo": {
+    "title": "Dentistry in Denmark for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Dentistry in Denmark: Bachelor’s & Master’s in Odontology, top universities (University of Copenhagen, Aarhus University), tuition fees, admission requirements & visa for Indian students.",
+    "keywords": "Dentistry in Denmark, Bachelor’s and Master’s in Dentistry in Denmark, Dentistry universities in Denmark, Dentistry admission requirements in Denmark, Cost of studying dentistry in Denmark, Dentistry in Denmark for Indian students, Edu-Hawk Worldwide"
   },
-  "overview": [
-    "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses.",
-    "Studying in Denmark offers Indian students high-quality Scandinavian higher education with innovative problem-based learning, vibrant student cities, and excellent work-life balance.",
-    "Edu Hawk Worldwide Consultancy guides Indian students through Optagelse.dk centralized admissions, Danish residence permits for study, document translation, and post-study establishment cards."
-  ],
-  "universities": [
+  "hero": {
+    "badge": "Study Abroad - Denmark",
+    "title": "Dentistry in Denmark for Indian Students",
+    "subtitle": "Experience high-quality dental education, modern clinical facilities, and research-focused training in preventive and community oral healthcare at leading Danish universities.",
+    "image": "/uploads/study_abroad/denmark/university_of_copenhagen.webp",
+    "ctaText": "Apply for Denmark Dentistry"
+  },
+  "stats": [
     {
-      "name": "University of Copenhagen (UCPH)",
-      "location": "Copenhagen, Denmark",
-      "fee": "€10,000 – €16,000 / Year",
-      "img": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
-      "image": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
-      "desc": "UCPH is Denmark's oldest and highest-ranking research university, celebrated across Scandinavia for medicine, life sciences, environmental law, and physics."
+      "n": "5 Years",
+      "l": "Course Duration (3 Yr BSc + 2 Yr MSc)"
     },
     {
-      "name": "Technical University of Denmark (DTU)",
-      "location": "Lyngby, Denmark",
-      "fee": "€13,500 – €15,000 / Year",
-      "img": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
-      "image": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
-      "desc": "DTU is a leading European technical university renowned for sustainable energy, biotech engineering, wind turbine technology, and high startup spin-offs."
+      "n": "€8K - €16K",
+      "l": "Annual Tuition / Year"
+    },
+    {
+      "n": "Top 100",
+      "l": "World University Global Ranking"
+    },
+    {
+      "n": "Danish & Eng",
+      "l": "Medium of Instruction"
+    }
+  ],
+  "highlights": {
+    "degree": "Bachelor’s (3 Yrs) & Master’s (2 Yrs) in Odontology",
+    "duration": "Approx. 5 Years total",
+    "fee": "€8,000 – €16,000 / Year (Non-EU/EEA students)",
+    "eligibility": "10+2 with PCB + Danish Language Proficiency + English",
+    "medium": "Danish (Primary clinical & patient care) + English"
+  },
+  "overview": "Students have the opportunity to experience high-quality dental education, modern clinical facilities, research opportunities and a strong focus on preventive and community oral healthcare in Denmark. In Denmark, the dental education pathway is integrated into a 3-year Bachelor’s in Odontology followed by a 2-year Master’s in Odontology (approx. 5 years total). Clinical training, patient assessment, and evidence-based oral health promotion are core components. Note that the majority of qualifying dentistry programs are taught in Danish, requiring language proficiency alongside strong academic credentials in biology and chemistry.",
+  "universities": [
+    {
+      "name": "University of Copenhagen",
+      "location": "Copenhagen, Denmark",
+      "fee": "€10,000 – €16,000 / Year",
+      "image": "/uploads/study_abroad/denmark/university_of_copenhagen.webp",
+      "img": "/uploads/study_abroad/denmark/university_of_copenhagen.webp",
+      "desc": "Provides university education and research in odontology. Its academic environment comprises research, scientific study and education related to dental and oral health, associated with clinical dentistry."
     },
     {
       "name": "Aarhus University",
       "location": "Aarhus, Denmark",
       "fee": "€8,000 – €15,000 / Year",
-      "img": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
-      "image": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
-      "desc": "A globally top-100 public research university with an attractive yellow-brick park campus, acclaimed for business, computer science, and agricultural sciences."
+      "image": "/uploads/study_abroad/denmark/aarhus_university.webp",
+      "img": "/uploads/study_abroad/denmark/aarhus_university.webp",
+      "desc": "Offers dental education and research through its dental-related academic programs. Students can explore its academic information to understand the program structure, teaching language and admission conditions."
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the length of study for Dentistry in Denmark?",
+      "answer": "The university route usually takes about five years, split between a three-year bachelor's degree and a two-year master's degree in odontology."
     },
     {
-      "name": "Copenhagen Business School (CBS)",
-      "location": "Frederiksberg, Copenhagen, Denmark",
-      "fee": "€12,500 – €18,000 / Year",
-      "img": "/uploads/study_abroad/denmark/den_BBA_image1.png",
-      "image": "/uploads/study_abroad/denmark/den_BBA_image1.png",
-      "desc": "One of Europe's largest triple-crown accredited business schools (EQUIS, AMBA, AACSB), leading in international management, finance, and green leadership."
-    }
-  ],
-  "sections": [
+      "question": "Are dentistry courses in Denmark conducted in English?",
+      "answer": "Many qualifying programs in dentistry are taught in Danish. Check with the university for the language of instruction and the required Danish language proficiency before applying."
+    },
     {
-      "slot": "universities",
-      "eyebrow": "Top Danish Universities",
-      "title": "Top Universities to Consider in Denmark",
-      "lead": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and modern Scandinavian campuses.",
-      "unis": [
-        {
-          "name": "University of Copenhagen (UCPH)",
-          "location": "Copenhagen, Denmark",
-          "fee": "€10,000 – €16,000 / Year",
-          "img": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
-          "image": "/uploads/study_abroad/denmark/den_Architecture_image1.png",
-          "desc": "UCPH is Denmark's oldest and highest-ranking research university, celebrated across Scandinavia for medicine, life sciences, environmental law, and physics."
-        },
-        {
-          "name": "Technical University of Denmark (DTU)",
-          "location": "Lyngby, Denmark",
-          "fee": "€13,500 – €15,000 / Year",
-          "img": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
-          "image": "/uploads/study_abroad/denmark/den_Architecture_image2.png",
-          "desc": "DTU is a leading European technical university renowned for sustainable energy, biotech engineering, wind turbine technology, and high startup spin-offs."
-        },
-        {
-          "name": "Aarhus University",
-          "location": "Aarhus, Denmark",
-          "fee": "€8,000 – €15,000 / Year",
-          "img": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
-          "image": "/uploads/study_abroad/denmark/den_Architecture_image3.png",
-          "desc": "A globally top-100 public research university with an attractive yellow-brick park campus, acclaimed for business, computer science, and agricultural sciences."
-        },
-        {
-          "name": "Copenhagen Business School (CBS)",
-          "location": "Frederiksberg, Copenhagen, Denmark",
-          "fee": "€12,500 – €18,000 / Year",
-          "img": "/uploads/study_abroad/denmark/den_BBA_image1.png",
-          "image": "/uploads/study_abroad/denmark/den_BBA_image1.png",
-          "desc": "One of Europe's largest triple-crown accredited business schools (EQUIS, AMBA, AACSB), leading in international management, finance, and green leadership."
-        }
-      ],
-      "groups": []
+      "question": "Can Indian students study dentistry in Denmark?",
+      "answer": "Yes, if they meet the university's academic, language and other admission requirements. Indian applicants should check the qualification assessment, subject prerequisites and language requirements for the program they intend to apply for. Dentistry in Denmark for Indian students requires careful planning, particularly when reviewing language and qualification conditions."
+    },
+    {
+      "question": "What is the cost of living in Denmark as a student?",
+      "answer": "A planning estimate is ₹90,000–₹1,40,000 per month, depending on your accommodation and lifestyle. Tuition fees, travel, insurance and other initial expenses should be budgeted for separately."
+    },
+    {
+      "question": "Are international graduates allowed to work as dentists in Denmark?",
+      "answer": "They must fulfil the relevant Danish professional authorization and language requirements. Graduates are advised to consult the appropriate authority (Danish Patient Safety Authority - Styrelsen for Patientsikkerhed) to understand the current rules before undertaking professional practice."
     }
-  ],
-  "faqs": [],
-  "seo": {
-    "title": "Dentistry in Denmark | Edu-Hawk Worldwide",
-    "description": "Explore world-renowned public universities and leading research institutes in Denmark offering English-taught degrees, progressive problem-based learning, and m",
-    "keywords": "Study in Denmark, Top Universities in Denmark, Edu Hawk Worldwide"
-  }
+  ]
 }

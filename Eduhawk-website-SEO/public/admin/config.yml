@@ -27709,6 +27709,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -27762,6 +27763,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -27815,6 +27817,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -27868,6 +27871,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -27921,6 +27925,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -27974,6 +27979,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28027,6 +28033,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28080,6 +28087,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28133,6 +28141,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28186,6 +28195,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28239,6 +28249,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28292,6 +28303,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28345,6 +28357,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28398,6 +28411,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28451,6 +28465,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28504,6 +28519,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28557,6 +28573,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28610,6 +28627,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28663,6 +28681,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28716,6 +28735,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28769,6 +28789,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28822,6 +28843,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28875,6 +28897,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28928,6 +28951,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -28981,6 +29005,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29034,6 +29059,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29087,6 +29113,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29140,6 +29167,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29193,6 +29221,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29246,6 +29275,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29299,6 +29329,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29352,6 +29383,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29405,6 +29437,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29458,6 +29491,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29511,6 +29545,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29564,6 +29599,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29617,6 +29653,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29670,6 +29707,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29723,6 +29761,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29776,6 +29815,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"
@@ -29829,6 +29869,7 @@ collections:
               - {"label": "Location", "name": "location", "widget": "string"}
               - {"label": "Annual Tuition", "name": "fee", "widget": "string"}
               - {"label": "Campus Photo", "name": "image", "widget": "image", "required": false}
+              - {"label": "Description", "name": "desc", "widget": "text", "required": false}
           - label: "Frequently Asked Questions"
             name: "faq"
             widget: "list"

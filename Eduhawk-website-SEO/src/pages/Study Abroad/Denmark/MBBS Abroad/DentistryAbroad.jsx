@@ -124,76 +124,18 @@ const page = {
       "lead": "Explore leading universities and institutions in Denmark offering accredited Dentistry programmes, modern campuses, and international student support.",
       "unis": [
         {
-          "name": "University of Copenhagen (UCPH)",
+          "name": "University of Copenhagen",
           "location": "Copenhagen, Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img": uniImg1
+          "fee": "Approx. €10,000 – €16,000 / Year",
+          "desc": "Provides university education and research in odontology. Its academic environment comprises research, scientific study and education related to dental and oral health, associated with clinical dentistry.",
+          "image": "/uploads/study_abroad/denmark/university_of_copenhagen.webp"
         },
         {
-          "name": "Technical University of Denmark (DTU)",
-          "location": "Kongens Lyngby, Denmark",
-          "fee": "DKK 75,000 \u2013 115,000 / Year",
-          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img": uniImg2
-        },
-        {
-          "name": "Aarhus University (AU)",
+          "name": "Aarhus University",
           "location": "Aarhus, Denmark",
-          "fee": "DKK 60,000 \u2013 110,000 / Year",
-          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img": uniImg3
-        },
-        {
-          "name": "Aalborg University (AAU)",
-          "location": "Aalborg, Denmark",
-          "fee": "DKK 58,000 \u2013 105,000 / Year",
-          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img": uniImg1
-        },
-        {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Odense, Denmark",
-          "fee": "DKK 62,000 \u2013 115,000 / Year",
-          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-          "img": uniImg2
-        }
-      ],
-      "unis_data": [
-        {
-          "name": "University of Copenhagen (UCPH)",
-          "location": "Copenhagen, Denmark",
-          "fee": "DKK 65,000 \u2013 120,000 / Year",
-          "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-          "img": uniImg1
-        },
-        {
-          "name": "Technical University of Denmark (DTU)",
-          "location": "Kongens Lyngby, Denmark",
-          "fee": "DKK 75,000 \u2013 115,000 / Year",
-          "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-          "img": uniImg2
-        },
-        {
-          "name": "Aarhus University (AU)",
-          "location": "Aarhus, Denmark",
-          "fee": "DKK 60,000 \u2013 110,000 / Year",
-          "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-          "img": uniImg3
-        },
-        {
-          "name": "Aalborg University (AAU)",
-          "location": "Aalborg, Denmark",
-          "fee": "DKK 58,000 \u2013 105,000 / Year",
-          "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-          "img": uniImg1
-        },
-        {
-          "name": "University of Southern Denmark (SDU)",
-          "location": "Odense, Denmark",
-          "fee": "DKK 62,000 \u2013 115,000 / Year",
-          "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-          "img": uniImg2
+          "fee": "Approx. €8,000 – €15,000 / Year",
+          "desc": "Offers dental education and research through its dental-related academic programs. Students can explore its academic information to understand the program structure, teaching language and admission conditions.",
+          "image": "/uploads/study_abroad/denmark/aarhus_university.webp"
         }
       ],
       "note": [
@@ -413,39 +355,18 @@ const page = {
   ],
   "universities": [
     {
-      "name": "University of Copenhagen (UCPH)",
+      "name": "University of Copenhagen",
       "location": "Copenhagen, Denmark",
-      "fee": "DKK 65,000 \u2013 120,000 / Year",
-      "desc": "Denmark's oldest and highest-ranking research university, renowned for world-class biomedical, life science, and humanities research.",
-      "img": uniImg1
+      "fee": "€10,000 – €16,000 / Year",
+      "image": "/uploads/study_abroad/denmark/university_of_copenhagen.webp",
+      "desc": "Provides university education and research in odontology. Its academic environment comprises research, scientific study and education related to dental and oral health, associated with clinical dentistry."
     },
     {
-      "name": "Technical University of Denmark (DTU)",
-      "location": "Kongens Lyngby, Denmark",
-      "fee": "DKK 75,000 \u2013 115,000 / Year",
-      "desc": "Leading European polytechnic institution specializing in high-impact engineering, sustainable technology, and computer sciences.",
-      "img": uniImg2
-    },
-    {
-      "name": "Aarhus University (AU)",
+      "name": "Aarhus University",
       "location": "Aarhus, Denmark",
-      "fee": "DKK 60,000 \u2013 110,000 / Year",
-      "desc": "Top-100 global comprehensive university offering cutting-edge programs in sciences, business, healthcare, and engineering.",
-      "img": uniImg3
-    },
-    {
-      "name": "Aalborg University (AAU)",
-      "location": "Aalborg, Denmark",
-      "fee": "DKK 58,000 \u2013 105,000 / Year",
-      "desc": "Internationally acclaimed for its Problem-Based Learning (PBL) model and world-leading engineering, IT, and environmental programs.",
-      "img": uniImg1
-    },
-    {
-      "name": "University of Southern Denmark (SDU)",
-      "location": "Odense, Denmark",
-      "fee": "DKK 62,000 \u2013 115,000 / Year",
-      "desc": "Modern comprehensive institution renowned for robotics, health sciences, and cross-disciplinary innovation.",
-      "img": uniImg2
+      "fee": "€8,000 – €15,000 / Year",
+      "image": "/uploads/study_abroad/denmark/aarhus_university.webp",
+      "desc": "Offers dental education and research through its dental-related academic programs. Students can explore its academic information to understand the program structure, teaching language and admission conditions."
     }
   ],
   "faqs": [
@@ -485,6 +406,27 @@ export default function DentistryDenmark() {
       .filter(s => s.label && s.value).length > 0
       ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
       : page.stats,
+    universities: (cmsData.universities && cmsData.universities.length > 0)
+      ? cmsData.universities
+      : page.universities,
+    sections: (page.sections || []).map((sec) => {
+      if (sec.slot === "universities" && cmsData.universities && cmsData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: cmsData.universities,
+        };
+      }
+      return sec;
+    }),
+    faqs: (cmsData.faq || cmsData.faqs || []).map(f => ({
+      q: f.question || f.q,
+      a: f.answer || f.a
+    })).filter(f => f.q && f.a).length > 0
+      ? (cmsData.faq || cmsData.faqs || []).map(f => ({
+          q: f.question || f.q,
+          a: f.answer || f.a
+        })).filter(f => f.q && f.a)
+      : page.faqs,
     seo: {
       title: cmsData.seo?.title || page.title,
       description: cmsData.seo?.description || page.description,
