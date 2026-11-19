@@ -59,14 +59,22 @@ const uploadDescriptionImage = async (req, res) => {
   }
 };
 
-// Helper to generate unique slug
-const generateUniqueSlug = async (name) => {
+// Helper to generate unique slug (supports excludeId to avoid self-collision on update)
+const generateUniqueSlug = async (name, excludeId = null) => {
   const baseSlug =
     slugify(name || "", { lower: true, strict: true }) || `item-${Date.now()}`;
   let slug = baseSlug;
   let counter = 1;
 
-  while (await Product.findOne({ slug })) {
+  const buildQuery = (s) => {
+    const q = { slug: s };
+    if (excludeId) {
+      q._id = { $ne: excludeId };
+    }
+    return q;
+  };
+
+  while (await Product.findOne(buildQuery(slug))) {
     slug = `${baseSlug}-${counter}`;
     counter++;
   }
@@ -262,10 +270,23 @@ const updateHomeData = async (req, res) => {
     const { id } = req.params;
     const { name, description, author, category } = req.body;
 
+    const existingProduct = await Product.findById(id);
+    if (!existingProduct) {
+      return res.status(404).json({
+        success: false,
+        message: "Product not found",
+      });
+    }
+
     const updateFields = {};
 
     if (name?.trim()) {
-      updateFields.name = name.trim();
+      const trimmedName = name.trim();
+      updateFields.name = trimmedName;
+      // Only regenerate slug if the blog title (name) actually changed or blog has no slug
+      if (trimmedName !== existingProduct.name || !existingProduct.slug) {
+        updateFields.slug = await generateUniqueSlug(trimmedName, id);
+      }
     }
 
     if (description?.trim()) {
@@ -287,11 +308,6 @@ const updateHomeData = async (req, res) => {
         });
       }
       updateFields.category = category;
-    }
-
-    if (name?.trim()) {
-      updateFields.name = name.trim();
-      updateFields.slug = await generateUniqueSlug(name.trim()); // Update slug if name changes
     }
 
     // Handle image replacement (if new images sent → replace all)
