@@ -19,9 +19,11 @@ const techcategoryRoute = require("./Routes/technologyroutes/categoryRoute.js");
 const queryRoutes = require("./Routes/queryroutes/queryroutes.js");
 const blogRoutes = require("./Routes/Blogroute/categoryRoute.js");
 // const galleryRoutes = require("./Routes/galleryroutes/galleryroutes.js");
-dns.setServers(["8.8.8.8", "1.1.1.1", "0.0.0.0"]);
+const compression = require("compression");
+dns.setServers(["8.8.8.8", "1.1.1.1", "8.8.4.4"]);
 
 const app = express();
+app.use(compression());
 const PORT = process.env.PORT || 8001;
 morgan.token("body", (req) => JSON.stringify(req.body));
 app.use(

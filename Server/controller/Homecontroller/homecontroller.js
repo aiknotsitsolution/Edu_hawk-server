@@ -2,6 +2,7 @@ const imagekit = require("../../utils/imagekit.js");
 const Product = require("../../module/homemodule/homemodule");
 const Category = require("../../module/BlogModule/caetgorymodule.js");
 const slugify = require("slugify"); // ← Install: npm install slugify
+const mongoose = require("mongoose");
 
 // Store images inserted inside the rich-text description as hosted URLs.
 const uploadDescriptionImages = async (description) => {
@@ -151,23 +152,23 @@ const createContent = async (req, res) => {
 // ============================
 const getHomeData = async (req, res) => {
   try {
-    const products = await Product.find()
-      .populate("category")
+    const isFull =
+      req.query.full === "true" || req.query.includeDescription === "true";
+    let query = Product.find();
+
+    // Exclude heavy rich-text description for list/summary calls unless explicitly requested
+    if (!isFull) {
+      query = query.select("-description");
+    }
+
+    const products = await query
+      .populate("category", "name")
       .sort({ createdAt: -1 })
       .lean();
 
-    const normalizedProducts = products.map((product) => {
-      if (!product.slug && product.name) {
-        product.slug =
-          slugify(product.name, { lower: true, strict: true }) ||
-          `item-${product._id}`;
-      }
-      return product;
-    });
-
     return res.status(200).json({
       success: true,
-      data: normalizedProducts,
+      data: normalizeProducts(products),
     });
   } catch (error) {
     return res.status(500).json({
@@ -192,8 +193,16 @@ const normalizeProducts = (products) =>
 const getLatestProducts = async (req, res) => {
   try {
     const limit = Math.min(Math.max(Number(req.query.limit) || 10, 1), 50);
-    const products = await Product.find()
-      .populate("category")
+    const isFull =
+      req.query.full === "true" || req.query.includeDescription === "true";
+    let query = Product.find();
+
+    if (!isFull) {
+      query = query.select("-description");
+    }
+
+    const products = await query
+      .populate("category", "name")
       .sort({ createdAt: -1, _id: -1 })
       .limit(limit)
       .lean();
@@ -213,6 +222,7 @@ const getPaginatedProducts = async (req, res) => {
     const limit = Math.min(Math.max(Number(req.query.limit) || 10, 1), 50);
     const search = String(req.query.search || "").trim();
     const category = String(req.query.category || "").trim();
+    const excludeDesc = req.query.excludeDescription === "true";
     const filter = {};
 
     if (search) {
@@ -240,9 +250,15 @@ const getPaginatedProducts = async (req, res) => {
       filter.category = categoryDocument._id;
     }
 
+    let productQuery = Product.find(filter);
+
+    if (excludeDesc) {
+      productQuery = productQuery.select("-description");
+    }
+
     const [products, total] = await Promise.all([
-      Product.find(filter)
-        .populate("category")
+      productQuery
+        .populate("category", "name")
         .sort({ createdAt: -1, _id: -1 })
         .skip((page - 1) * limit)
         .limit(limit)
@@ -250,9 +266,20 @@ const getPaginatedProducts = async (req, res) => {
       Product.countDocuments(filter),
     ]);
 
+    // Sanitize any massive embedded base64 in description if present
+    const cleanProducts = products.map((product) => {
+      if (product.description && product.description.includes("data:image")) {
+        product.description = product.description.replace(
+          /src=(['"])data:image\/[^;]+;base64,[^'"]+\1/g,
+          'src=""',
+        );
+      }
+      return product;
+    });
+
     return res.json({
       success: true,
-      data: normalizeProducts(products),
+      data: normalizeProducts(cleanProducts),
       pagination: { page, limit, total, totalPages: Math.ceil(total / limit) },
     });
   } catch (error) {
@@ -399,48 +426,33 @@ const deletedContent = async (req, res) => {
 const getSingleContent = async (req, res) => {
   try {
     const { slug } = req.params;
-    console.log(slug, "slug received");
+    if (!slug) {
+      return res
+        .status(400)
+        .json({ success: false, message: "Blog identifier is required" });
+    }
 
     const normalizedSlug =
       slugify(slug || "", { lower: true, strict: true }) || slug;
 
-    // Build query with multiple fallback options
-    const query = {
-      $or: [
-        { slug: slug },
-        { slug: normalizedSlug },
-        // Fallback: search by name and match normalized version
-        { name: { $regex: slug, $options: "i" } },
-      ],
-    };
+    // Build targeted query conditions with index-backed searches
+    const queryConditions = [
+      { slug: slug },
+      { slug: normalizedSlug },
+      { slug: { $regex: `^${normalizedSlug}$`, $options: "i" } },
+      { name: { $regex: `^${slug}$`, $options: "i" } },
+    ];
 
-    let product = await Product.findOne(query)
+    if (mongoose.Types.ObjectId.isValid(slug)) {
+      queryConditions.push({ _id: slug });
+    }
+
+    const product = await Product.findOne({ $or: queryConditions })
       .populate({
         path: "category",
         select: "name description",
       })
       .lean();
-
-    // If not found by slug/name, fetch all and search by normalized name
-    if (!product) {
-      const allProducts = await Product.find()
-        .populate({
-          path: "category",
-          select: "name description",
-        })
-        .lean();
-
-      for (const p of allProducts) {
-        const productSlug =
-          p.slug ||
-          slugify(p.name, { lower: true, strict: true }) ||
-          `${p._id}`;
-        if (productSlug === normalizedSlug) {
-          product = p;
-          break;
-        }
-      }
-    }
 
     if (!product) {
       return res
@@ -455,9 +467,12 @@ const getSingleContent = async (req, res) => {
         `${product._id}`;
     }
 
-    res.status(200).json({ success: true, data: product });
+    return res.status(200).json({ success: true, data: product });
   } catch (error) {
     console.error("getSingleContent error:", error);
+    return res.status(500).json({ success: false, message: error.message });
+  }
+};
     res.status(500).json({ success: false, message: error.message });
   }
 };

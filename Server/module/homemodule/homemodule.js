@@ -75,7 +75,11 @@ const productSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-// Optional: Create index for faster lookup
+// Database Indexes for high-performance querying and sorting
 productSchema.index({ slug: 1 });
+productSchema.index({ createdAt: -1 });
+productSchema.index({ category: 1, createdAt: -1 });
+productSchema.index({ name: 1 });
+productSchema.index({ author: 1 });
 
 module.exports = mongoose.model("Product", productSchema);
