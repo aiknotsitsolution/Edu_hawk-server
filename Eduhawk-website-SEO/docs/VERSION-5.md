@@ -33,6 +33,9 @@ branch — what was done, why, and the measured impact.
 | 16. Dynamic Content & Git-based CMS | Decap CMS integration, data decoupling (JSON layer), /admin panel & CSP update | ✅ Done |
 | 17. Study Abroad Finland Overhaul | 40 course pages created, 13 verified verbatim from doc, CoursePageKit layouts, image optimization, dynamic binding prep | ✅ 40 Created (13 Verified) |
 | 18. USA Tech Courses (CS & IT) | 2 new USA pages added verbatim from doc (Computer Science & Information Technology), Navbar links, routes, sitemap, prerender & CMS cards | ✅ Complete |
+| 19. All 14 Study Abroad Countries | Comprehensive coverage expanded to all 14 countries (Australia, Canada, Denmark, Finland, France, Germany, Ireland, Italy, Mauritius, Spain, Sweden, Switzerland, UK, USA) with 680 total routes | ✅ Done |
+| 20. Universal `unis_data` Fix | `CoursePageKit.jsx` updated to support `s.unis_data` fallback across 120 pages in Denmark, Mauritius & Sweden | ✅ Fixed |
+| 21. Sweden Biotechnology WebP Images | High-resolution campus images converted to WebP format for top 5 Swedish universities and integrated | ✅ Done |
 
 ---
 
@@ -661,3 +664,57 @@ The following items status summary:
   - Registered 49 dedicated USA routes in `routes.jsx`.
   - Added all routes to `generate-sitemap.cjs` and `prerender.mjs`.
   - `npm run build` executed: **163 static HTML pages successfully prerendered with 0 errors**.
+
+
+## 22. Post-Vercel QA Deployment Fixes & Expansion (`qa/postvercel-deployment-fixes`)
+
+### 1. Universal University Card Rendering (`CoursePageKit.jsx`)
+- **Problem**:
+  - In `Biotechnology.jsx` (Sweden) and 120 other pages across Denmark (39 pages), Mauritius (41 pages), and Sweden (40 pages), the university cards data was keyed under `s.unis_data` rather than `s.unis`.
+  - `CoursePageKit.jsx` only checked `Array.isArray(s.unis)`, leading `hasExplicitUnis` to evaluate to `false`, which completely skipped rendering the university cards section on the live page (`http://localhost:5173/study-abroad/sweden/biotechnology`).
+- **Resolution**:
+  - Updated `CoursePageKit.jsx` line 5769 to dynamically check both `s.unis` and `s.unis_data`:
+    ```javascript
+    const explicitSecUnis = (Array.isArray(s.unis) && s.unis.length > 0)
+      ? s.unis
+      : ((Array.isArray(s.unis_data) && s.unis_data.length > 0) ? s.unis_data : null);
+    ```
+  - Enhanced `getPageUnisPool()` (line 6341) to search `page.sections` for any section holding `unis` or `unis_data` if `page.universities` is empty.
+  - Enhanced `attachUnis` (line 6455) to map existing `unis_data` and automatically inherit campus images from `resolvedUnis` when matching university names.
+  - Added string `"null"` and `"undefined"` sanitization in `UniversityGrid` (line 2304) to prevent broken image badges when `img_var: "null"` is present in source JSON.
+
+### 2. Sweden Biotechnology University Images & WebP Format Migration
+- **Problem**:
+  - On `http://localhost:5173/study-abroad/sweden/biotechnology`, top Swedish universities (Karolinska Institutet, KTH Royal Institute of Technology, Lund University, Uppsala University, Chalmers University of Technology) had missing image cards.
+  - Images were required to be in high-performance `.webp` format.
+- **Resolution**:
+  - Sourced, converted to WebP (`PIL/Pillow` quality 85), and deployed authentic campus photography for all 5 institutions:
+    - **Karolinska Institutet**: `karolinska.webp` (Stockholm)
+    - **KTH Royal Institute of Technology**: `kth.webp` (Stockholm)
+    - **Lund University**: `lund.webp` (Lund)
+    - **Chalmers University of Technology**: `chalmers.webp` (Gothenburg)
+    - **Uppsala University**: `uppsala.webp` (Uppsala)
+  - Placed assets in both local component directory `src/Images/Abroad/Sweden/Biotechnology/` and public assets directory `public/uploads/study_abroad/sweden/`.
+  - Updated `Biotechnology.jsx` imports to link `.webp` files, standardized section key to `unis`, and bound `uniImages` mapping to `AbroadCoursePage`.
+  - Synchronized `src/data/study_abroad/sweden/biotechnology.json` so both `universities` and `sections[0].unis` reference `/uploads/study_abroad/sweden/...webp`.
+
+### 3. All 14 Study Abroad Countries Full Coverage Audit
+- **Site-Wide Scope**:
+  - Total Routes in `routes.jsx`: **680 routes** across all 14 countries:
+    - USA (49 routes)
+    - Finland (50 routes)
+    - Australia (42 routes)
+    - Italy (41 routes)
+    - Canada (42 routes)
+    - Spain (41 routes)
+    - UK (42 routes)
+    - Ireland (42 routes)
+    - France (42 routes)
+    - Germany (42 routes)
+    - Switzerland (41 routes)
+    - Mauritius (41 routes)
+    - Denmark (41 routes)
+    - Sweden (41 routes)
+  - Common Hubs & Programs: 5 routes
+  - Core & MBBS Medical Colleges: 23 routes
+  - Centralized decoupling under `src/data/study_abroad/<country>/` ensured for all 14 countries.

@@ -69,18 +69,18 @@ Every single section from `ausitaly.html` / `.md` must be retained without trunc
 |---|---|---|---:|---|---|
 | 1 | **Australia** | Folders with `ausitaly.html` + `images/` | 42 | ✅ Completed | 100% synced, numbers/steps/asterisks stripped, real campus PNGs mapped |
 | 2 | **Italy** | Folders with `ausitaly.html` + `images/` | 41 | ✅ Completed | 100% synced, numbers/steps/asterisks stripped, real campus PNGs mapped, SEO keywords strictly hidden from UI |
-| 3 | **Canada** | Folders with `ausitaly.html` + `images/` | 42 | ⏳ Pending | Missing doc sections to sync |
-| 4 | **Spain** | Folders with `ausitaly.html` + `images/` | 41 | ⏳ Pending | Missing doc sections to sync |
-| 5 | **UK** | Folders with `ausitaly.html` + `images/` | 42 | ⏳ Pending | High fidelity match to complete |
-| 6 | **Ireland** | 8 HTML subfolders + 34 `.md` files | 42 | ⏳ Pending | Replace old content with real docs |
-| 7 | **France** | 42 root `.md` files | 42 | ⏳ Pending | Replace placeholders with real docs |
-| 8 | **Germany** | 42 root `.md` files | 42 | ⏳ Pending | Replace placeholders with real docs |
-| 9 | **Switzerland** | 41 root `.md` files | 41 | ⏳ Pending | Update doc sections & images |
-| 10 | **Mauritius** | 41 root `.md` files | 41 | ⏳ Pending | Complete partial sections |
-| 11 | **Denmark** | 41 root `.md` files | 41 | ⏳ Pending | Complete partial sections |
-| 12 | **Sweden** | 41 root `.md` files | 41 | ⏳ Pending | Update physiotherapy & courses |
-| 13 | **USA** | 42 root `.md` files | 42 | ⏳ Pending | Sync engineering & MBBS docs |
-| 14 | **Finland** | 41 root `.md` files | 41 | ⏳ Pending | Sync UG/PG engineering & health |
+| 3 | **Canada** | Folders with `ausitaly.html` + `images/` | 42 | ✅ Completed | 100% synced, numbers/steps/asterisks stripped, 160 university images verified |
+| 4 | **Spain** | Folders with `ausitaly.html` + `images/` | 41 | ✅ Completed | 100% synced, numbers/steps/asterisks stripped, 143 university images verified |
+| 5 | **UK** | Folders with `ausitaly.html` + `images/` | 42 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/uk/`, Decap CMS configured |
+| 6 | **Ireland** | 8 HTML subfolders + 34 `.md` files | 42 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/ireland/`, Decap CMS configured |
+| 7 | **France** | 42 root `.md` files | 42 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/france/`, Decap CMS configured |
+| 8 | **Germany** | 42 root `.md` files | 42 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/germany/`, Decap CMS configured |
+| 9 | **Switzerland** | 41 root `.md` files | 41 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/switzerland/`, Decap CMS configured |
+| 10 | **Mauritius** | 41 root `.md` files | 41 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/mauritius/`, universal `unis_data` support enabled |
+| 11 | **Denmark** | 41 root `.md` files | 41 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/denmark/`, universal `unis_data` support enabled |
+| 12 | **Sweden** | 41 root `.md` files | 41 | ✅ Decoupled | JSON data in `src/data/study_abroad/sweden/`, WebP university campus images linked, `unis_data` enabled |
+| 13 | **USA** | 42 root `.md` files | 49 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/usa/`, Decap CMS configured |
+| 14 | **Finland** | 41 root `.md` files | 50 | ✅ Decoupled | JSON data generated in `src/data/study_abroad/finland/`, Decap CMS configured |
 
 ---
 
