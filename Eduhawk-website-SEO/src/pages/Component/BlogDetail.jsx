@@ -155,6 +155,16 @@ const BlogDetail = () => {
         ogImage={postOgImage}
       />
       <article className="min-h-screen bg-gray-50 pt-8 pb-20">
+        {/* Top Back Navigation Button */}
+        <div className={`${heroImage ? "max-w-6xl" : "max-w-4xl"} mx-auto px-4 sm:px-6 mb-6`}>
+          <Link
+            to="/blog"
+            className="inline-flex items-center gap-1.5 px-4 py-2 bg-indigo-600 text-white text-xs sm:text-sm font-medium rounded-full shadow-sm hover:bg-indigo-700 hover:shadow transition-all duration-200"
+          >
+            ← View all articles
+          </Link>
+        </div>
+
         {/* Hero Image - full width (rendered only when the post has an image) */}
         {heroImage && (
           <div className="relative mx-auto mb-10 max-w-6xl overflow-hidden rounded-3xl px-4 shadow-2xl sm:px-6">
@@ -227,14 +237,24 @@ const BlogDetail = () => {
             </button>
           </div>
 
-          {/* Back Link */}
-          <div className="text-center mt-20">
-            <Link
-              to="/blog"
-              className="inline-flex items-center px-6 py-3 bg-indigo-600 text-white font-medium rounded-full hover:bg-indigo-700 transition-colors"
-            >
-              ← View all articles
-            </Link>
+          {/* Bottom CTA Section */}
+          <div className="mt-12 mb-6 rounded-3xl bg-gradient-to-r from-indigo-600 via-indigo-700 to-indigo-800 p-8 sm:p-10 text-white text-center shadow-xl relative overflow-hidden">
+            <div className="relative z-10 max-w-2xl mx-auto">
+              <h3 className="text-2xl sm:text-3xl font-extrabold mb-3">
+                Ready to Start Your Study Abroad Journey?
+              </h3>
+              <p className="text-indigo-100 text-sm sm:text-base mb-6">
+                Get expert guidance, personalized university shortlisting, and 100% free admission counselling from our certified mentors.
+              </p>
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center gap-2 px-8 py-3.5 bg-white text-indigo-700 font-bold rounded-full shadow-lg hover:bg-indigo-50 hover:shadow-2xl hover:scale-105 transition-all duration-300 text-base sm:text-lg"
+              >
+                Get Free Counselling →
+              </Link>
+            </div>
+            <div className="absolute -top-16 -right-16 w-48 h-48 bg-white/10 rounded-full blur-2xl pointer-events-none" />
+            <div className="absolute -bottom-16 -left-16 w-48 h-48 bg-purple-500/20 rounded-full blur-2xl pointer-events-none" />
           </div>
         </div>
       </article>
