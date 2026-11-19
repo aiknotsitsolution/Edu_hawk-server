@@ -9,10 +9,10 @@ import ctaBgImg from "../../../../Images/Abroad/Sweden/Biotechnology/cta_bg.webp
 
 // University images
 import karolinskaImg from "../../../../Images/Abroad/Sweden/Biotechnology/karolinska.webp";
-import kthImg from "../../../../Images/Abroad/Sweden/Biotechnology/image1.png";
-import lundImg from "../../../../Images/Abroad/Sweden/Biotechnology/image_lund.png";
-import uppsalaImg from "../../../../Images/Abroad/Sweden/Biotechnology/image3.png";
-import chalmersImg from "../../../../Images/Abroad/Sweden/Biotechnology/image2.png";
+import kthImg from "../../../../Images/Abroad/Sweden/Biotechnology/kth.webp";
+import lundImg from "../../../../Images/Abroad/Sweden/Biotechnology/lund.webp";
+import uppsalaImg from "../../../../Images/Abroad/Sweden/Biotechnology/uppsala.webp";
+import chalmersImg from "../../../../Images/Abroad/Sweden/Biotechnology/chalmers.webp";
 
 import cmsData from "../../../../data/study_abroad/sweden/biotechnology.json";
 
