@@ -2301,7 +2301,8 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
     <div className={gridLayout + className}>
       {Array.isArray(unis) &&
         unis.map((u, i) => {
-          const imgSrc = u.image || u.img || u.src;
+          const rawSrc = u.image || u.img || u.src;
+          const imgSrc = (rawSrc && rawSrc !== "null" && rawSrc !== "undefined") ? rawSrc : null;
           if (imgSrc) {
             return (
               <div
@@ -5766,21 +5767,27 @@ export const AbroadCoursePage = ({
 
 
 
-        const hasExplicitUnis = Array.isArray(s.unis) && s.unis.length > 0;
-        const isUniSlot = s.slot === "universities";
+        const explicitSecUnis = (Array.isArray(s.unis) && s.unis.length > 0)
+          ? s.unis
+          : ((Array.isArray(s.unis_data) && s.unis_data.length > 0) ? s.unis_data : null);
+        const hasExplicitUnis = Boolean(explicitSecUnis);
+        const isUniSlot = s.slot === "universities" || s.id === "universities";
+        const pageUniPool = (Array.isArray(page.universities) && page.universities.length > 0)
+          ? page.universities
+          : ((Array.isArray(page.unis) && page.unis.length > 0) ? page.unis : null);
         const canRenderUnis =
           !renderedUnis &&
           (hasExplicitUnis ||
             (isUniSlot &&
               (hasExplicitUnis ||
-                (Array.isArray(page.universities) && page.universities.length > 0) ||
+                Boolean(pageUniPool) ||
                 s.groups?.find((g) => g && (g.t === "cards" || (Array.isArray(g.items) && g.items.some((it) => it && (it.img || it.image || it.name)))))?.items)));
 
         if (canRenderUnis) {
           renderedUnis = true;
           const sectionUnis =
-            (hasExplicitUnis ? s.unis : null) ||
-            page.universities ||
+            explicitSecUnis ||
+            pageUniPool ||
             s.groups?.find((g) => g && (g.t === "cards" || (Array.isArray(g.items) && g.items.some((it) => it && (it.img || it.image || it.name)))))?.items;
 
           return (
@@ -6332,9 +6339,20 @@ export const withCmsData = (page = {}, cmsData = {}, uniImages = {}) => {
       .trim();
   };
 
-  const fallbackUnis = Array.isArray(page?.universities) && page.universities.length > 0
-    ? page.universities
-    : (Array.isArray(page?.unis) && page.unis.length > 0 ? page.unis : []);
+  const getPageUnisPool = () => {
+    if (Array.isArray(page?.universities) && page.universities.length > 0) return page.universities;
+    if (Array.isArray(page?.unis) && page.unis.length > 0) return page.unis;
+    if (Array.isArray(page?.sections)) {
+      const uSec = page.sections.find((s) => s && (
+        (Array.isArray(s.unis) && s.unis.length > 0) ||
+        (Array.isArray(s.unis_data) && s.unis_data.length > 0)
+      ));
+      if (uSec) return uSec.unis || uSec.unis_data;
+    }
+    return [];
+  };
+
+  const fallbackUnis = getPageUnisPool();
   const cmsUnis = Array.isArray(cmsData?.universities) && cmsData.universities.length > 0
     ? cmsData.universities
     : [];
@@ -6437,9 +6455,21 @@ export const withCmsData = (page = {}, cmsData = {}, uniImages = {}) => {
 
   const attachUnis = (sec) => {
     if (isUniSec(sec) && resolvedUnis && resolvedUnis.length > 0) {
+      const explicit = (Array.isArray(sec.unis) && sec.unis.length > 0)
+        ? sec.unis
+        : ((Array.isArray(sec.unis_data) && sec.unis_data.length > 0) ? sec.unis_data : null);
       return {
         ...sec,
-        unis: (Array.isArray(sec.unis) && sec.unis.length > 0) ? sec.unis : resolvedUnis,
+        unis: explicit ? explicit.map((u) => {
+          const raw = u.image || u.img || u.src;
+          if (!raw || raw === "null") {
+            const matched = resolvedUnis.find((ru) => normalizeUniName(ru.name) === normalizeUniName(u.name));
+            if (matched && (matched.image || matched.img || matched.src)) {
+              return { ...u, image: matched.image || matched.img || matched.src };
+            }
+          }
+          return u;
+        }) : resolvedUnis,
       };
     }
     return sec;
