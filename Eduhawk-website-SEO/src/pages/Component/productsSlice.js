@@ -1,21 +1,13 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-// AWS API (Uncomment when AWS backend deployment is ready):
-// const API_BASE = "https://api.eduhawk.in";
-
-// Render API (Currently active):
-const API_BASE = "https://edu-hawk-server.onrender.com";
+// Production API:
+const API_BASE = "https://api.eduhawk.in";
 
 // Fetch All Products
 export const fetchProducts = createAsyncThunk(
   "products/fetchProducts",
   async (_, { getState, rejectWithValue }) => {
     try {
-      /*
-      // When AWS API is ready, switch to:
-      // const res = await fetch("https://api.eduhawk.in/api/product");
-      */
-
       const { activeCategory, searchQuery, currentPage, itemsPerPage } =
         getState().products;
       const params = new URLSearchParams({
@@ -26,19 +18,68 @@ export const fetchProducts = createAsyncThunk(
       if (activeCategory !== "All") params.set("category", activeCategory);
       if (searchQuery) params.set("search", searchQuery);
 
-      // Render Paginated API
-      const res = await fetch(
-        `${API_BASE}/api/product/paginated?${params.toString()}`,
-      );
+      let res;
+      try {
+        res = await fetch(
+          `${API_BASE}/api/product/paginated?${params.toString()}`,
+        );
+        if (!res.ok) throw new Error("Paginated endpoint not available");
+      } catch {
+        res = await fetch(`${API_BASE}/api/product`);
+      }
 
       if (!res.ok) {
         throw new Error(`HTTP ${res.status} – ${res.statusText}`);
       }
 
       const json = await res.json();
+      let allProducts = Array.isArray(json?.data) ? json.data : [];
+
+      // If server provides pagination, return it directly
+      if (json?.pagination && json.pagination.total !== undefined) {
+        return {
+          products: allProducts,
+          pagination: json.pagination,
+        };
+      }
+
+      // Client-side filtering & pagination fallback
+      if (activeCategory && activeCategory !== "All") {
+        allProducts = allProducts.filter((p) => {
+          const catName = p.category?.name || p.category;
+          return (
+            catName &&
+            String(catName).toLowerCase() === activeCategory.toLowerCase()
+          );
+        });
+      }
+
+      if (searchQuery) {
+        const q = searchQuery.toLowerCase();
+        allProducts = allProducts.filter((p) => {
+          return (
+            (p.name && p.name.toLowerCase().includes(q)) ||
+            (p.description && p.description.toLowerCase().includes(q))
+          );
+        });
+      }
+
+      const total = allProducts.length;
+      const totalPages = Math.ceil(total / itemsPerPage) || 1;
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const paginatedProducts = allProducts.slice(
+        startIndex,
+        startIndex + itemsPerPage,
+      );
+
       return {
-        products: Array.isArray(json?.data) ? json.data : [],
-        pagination: json?.pagination ?? {},
+        products: paginatedProducts,
+        pagination: {
+          total,
+          totalPages,
+          currentPage,
+          limit: itemsPerPage,
+        },
       };
     } catch (err) {
       return rejectWithValue(err.message || "Failed to load products");
@@ -50,7 +91,14 @@ export const fetchCategories = createAsyncThunk(
   "products/fetchCategories",
   async (_, { rejectWithValue }) => {
     try {
-      const res = await fetch(`${API_BASE}/api/blogcategory`);
+      let res;
+      try {
+        res = await fetch(`${API_BASE}/api/blogcategory`);
+        if (!res.ok) throw new Error("blogcategory not ok");
+      } catch {
+        res = await fetch(`${API_BASE}/api/category`);
+      }
+
       if (!res.ok) throw new Error(`HTTP ${res.status} - ${res.statusText}`);
 
       const json = await res.json();
