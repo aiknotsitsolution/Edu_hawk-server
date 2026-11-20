@@ -109,7 +109,7 @@ export default function Contact() {
 
     try {
       const response = await fetch(
-        "https://api.eduhawk.in/api/contact/create",
+        "https://edu-hawk-server.onrender.com/api/contact/create",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

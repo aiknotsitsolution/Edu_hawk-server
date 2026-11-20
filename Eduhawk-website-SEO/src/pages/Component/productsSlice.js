@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
-// Production API:
-const API_BASE = "https://api.eduhawk.in";
+// Render API:
+const API_BASE = "https://edu-hawk-server.onrender.com";
 
 // Fetch All Products
 export const fetchProducts = createAsyncThunk(

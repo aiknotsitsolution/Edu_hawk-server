@@ -53,7 +53,7 @@ const BlogDetail = () => {
   const postOgImage = postImage
     ? postImage.startsWith("http")
       ? postImage
-      : `https://api.eduhawk.in${postImage.startsWith("/") ? "" : "/"}${postImage}`
+      : `https://edu-hawk-server.onrender.com${postImage.startsWith("/") ? "" : "/"}${postImage}`
     : null;
 
   const categoryName = post?.category?.name ?? "Uncategorised";
