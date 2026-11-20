@@ -7,6 +7,10 @@ import heroBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Aut
 import sideImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Automobile/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Automobile/cta_bg.webp";
 import cmsData from "../../../../../../data/study_abroad/sweden/pg_automobile-engineering.json";
+// University campus images
+import uniImg1 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Automobile/image1.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Automobile/image2.webp";
+
 
 const page = {
   "name": "Automobile Engineering (PG)",
@@ -140,18 +144,18 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Automobile Engineering (PG) in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. KTH Royal Institute of Technology",
-          "location": "\\. KTH Royal Institute of Technology, Sweden",
+          "name": "\KTH Royal Institute of Technology",
+          "location": "\KTH Royal Institute of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "KTH offers a two-year MSc in Vehicle Engineering, taught in English. Students can specialise in road or rail vehicles. The road-vehicle pathway is particularly relevant to students interested in cars, trucks, buses, vehicle dynamics, design, electrification and safety systems. **Location:** Stockholm, Sweden **![][image1]**",
-          "img_var": "null"
+          "desc": "KTH offers a two-year MSc in Vehicle Engineering, taught in English. Students can specialise in road or rail vehicles. The road-vehicle pathway is particularly relevant to students interested in cars, trucks, buses, vehicle dynamics, design, electrification and safety systems. **Location:** Stockholm, Sweden ",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Chalmers University of Technology",
-          "location": "\\. Chalmers University of Technology, Sweden",
+          "name": "\Chalmers University of Technology",
+          "location": "\Chalmers University of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Chalmers offers an MSc in Mobility Engineering with a specialisation in Automotive Engineering. Students can explore vehicle dynamics and control, powertrains, traffic safety, aerodynamics, electric and hybrid vehicles, and propulsion technologies. The optional Formula Student project can provide practical experience in vehicle development and engineering. **Location:** Gothenburg, Sweden **![][image2]** **Which university should you choose?** KTH offers a broader vehicle engineering education, with opportunities to focus on road or rail vehicles. Chalmers is a relevant choice for students who want to specialise in automotive engineering through its Mobility Engineering programme. Compare the curriculum, eligibility criteria and project options before making a decision.",
-          "img_var": "null"
+          "desc": "Chalmers offers an MSc in Mobility Engineering with a specialisation in Automotive Engineering. Students can explore vehicle dynamics and control, powertrains, traffic safety, aerodynamics, electric and hybrid vehicles, and propulsion technologies. The optional Formula Student project can provide practical experience in vehicle development and engineering. **Location:** Gothenburg, Sweden  **Which university should you choose?** KTH offers a broader vehicle engineering education, with opportunities to focus on road or rail vehicles. Chalmers is a relevant choice for students who want to specialise in automotive engineering through its Mobility Engineering programme. Compare the curriculum, eligibility criteria and project options before making a decision.",
+          "image": uniImg2, "img": uniImg2
         }
       ],
       "note": [
@@ -477,18 +481,18 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. KTH Royal Institute of Technology",
-      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "name": "\KTH Royal Institute of Technology",
+      "location": "\KTH Royal Institute of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "KTH offers a two-year MSc in Vehicle Engineering, taught in English. Students can specialise in road or rail vehicles. The road-vehicle pathway is particularly relevant to students interested in cars, trucks, buses, vehicle dynamics, design, electrification and safety systems. **Location:** Stockholm, Sweden **![][image1]**",
-      "img_var": "null"
+      "desc": "KTH offers a two-year MSc in Vehicle Engineering, taught in English. Students can specialise in road or rail vehicles. The road-vehicle pathway is particularly relevant to students interested in cars, trucks, buses, vehicle dynamics, design, electrification and safety systems. **Location:** Stockholm, Sweden ",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Chalmers University of Technology",
-      "location": "\\. Chalmers University of Technology, Sweden",
+      "name": "\Chalmers University of Technology",
+      "location": "\Chalmers University of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Chalmers offers an MSc in Mobility Engineering with a specialisation in Automotive Engineering. Students can explore vehicle dynamics and control, powertrains, traffic safety, aerodynamics, electric and hybrid vehicles, and propulsion technologies. The optional Formula Student project can provide practical experience in vehicle development and engineering. **Location:** Gothenburg, Sweden **![][image2]** **Which university should you choose?** KTH offers a broader vehicle engineering education, with opportunities to focus on road or rail vehicles. Chalmers is a relevant choice for students who want to specialise in automotive engineering through its Mobility Engineering programme. Compare the curriculum, eligibility criteria and project options before making a decision.",
-      "img_var": "null"
+      "desc": "Chalmers offers an MSc in Mobility Engineering with a specialisation in Automotive Engineering. Students can explore vehicle dynamics and control, powertrains, traffic safety, aerodynamics, electric and hybrid vehicles, and propulsion technologies. The optional Formula Student project can provide practical experience in vehicle development and engineering. **Location:** Gothenburg, Sweden  **Which university should you choose?** KTH offers a broader vehicle engineering education, with opportunities to focus on road or rail vehicles. Chalmers is a relevant choice for students who want to specialise in automotive engineering through its Mobility Engineering programme. Compare the curriculum, eligibility criteria and project options before making a decision.",
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -515,14 +519,15 @@ const page = {
 export default function AutomobileEngineeringPGSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

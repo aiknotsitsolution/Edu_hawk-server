@@ -7,6 +7,11 @@ import heroBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Aut
 import sideImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Automobile/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Automobile/cta_bg.webp";
 import cmsData from "../../../../../../data/study_abroad/sweden/ug_automobile-engineering.json";
+// University campus images
+import uniImg1 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Automobile/image1.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Automobile/image2.webp";
+import uniImg3 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Automobile/image3.webp";
+
 
 const page = {
   "name": "Automobile Engineering (UG)",
@@ -123,35 +128,35 @@ const page = {
           "location": "Stockholm, Sweden",
           "fee": "SEK 140,000 \u2013 200,000 / Year",
           "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "KTH Royal Institute of Technology",
           "location": "Stockholm, Sweden",
           "fee": "SEK 120,000 \u2013 160,000 / Year",
           "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Lund University",
           "location": "Lund, Sweden",
           "fee": "SEK 90,000 \u2013 150,000 / Year",
           "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
+          "image": uniImg3, "img": uniImg3
         },
         {
           "name": "Uppsala University",
           "location": "Uppsala, Sweden",
           "fee": "SEK 90,000 \u2013 145,000 / Year",
           "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "Chalmers University of Technology",
           "location": "Gothenburg, Sweden",
           "fee": "SEK 130,000 \u2013 170,000 / Year",
           "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         }
       ],
       "note": [
@@ -270,7 +275,7 @@ const page = {
             "Pay the required fee. Pay the application fee, if any.",
             "Read the ruling: Check your university\u2019s admission decision and follow the instructions.",
             "Arrange tuition and accommodation formalities: If you are admitted, pay the tuition in the required instalment and follow the applicable student residence-permit procedure.",
-            "Between 16 October 2026 and 15 January 2027 University Admissions will open the first international application round for many programs starting in Autumn 2027\\. Please check the program page for specific dates as these may vary.",
+            "Between 16 October 2026 and 15 January 2027 University Admissions will open the first international application round for many programs starting in Autumn 2027\Please check the program page for specific dates as these may vary.",
             "Sweden University Admissions official application site"
           ]
         }
@@ -345,35 +350,35 @@ const page = {
       "location": "Stockholm, Sweden",
       "fee": "SEK 140,000 \u2013 200,000 / Year",
       "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-      "img_var": "null"
+      "image": uniImg3, "img": uniImg3
     },
     {
       "name": "KTH Royal Institute of Technology",
       "location": "Stockholm, Sweden",
       "fee": "SEK 120,000 \u2013 160,000 / Year",
       "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-      "img_var": "null"
+      "image": uniImg1, "img": uniImg1
     },
     {
       "name": "Lund University",
       "location": "Lund, Sweden",
       "fee": "SEK 90,000 \u2013 150,000 / Year",
       "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-      "img_var": "null"
+      "image": uniImg2, "img": uniImg2
     },
     {
       "name": "Uppsala University",
       "location": "Uppsala, Sweden",
       "fee": "SEK 90,000 \u2013 145,000 / Year",
       "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-      "img_var": "null"
+      "image": uniImg3, "img": uniImg3
     },
     {
       "name": "Chalmers University of Technology",
       "location": "Gothenburg, Sweden",
       "fee": "SEK 130,000 \u2013 170,000 / Year",
       "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-      "img_var": "null"
+      "image": uniImg1, "img": uniImg1
     }
   ],
   "faqs": [
@@ -400,14 +405,15 @@ const page = {
 export default function AutomobileEngineeringUGSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/Dentistry/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Sweden/Dentistry/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/Dentistry/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/dentistry.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/Dentistry/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/Dentistry/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/Dentistry/image3.webp";
+
 
 const page = {
   "name": "Dentistry",
@@ -388,14 +393,15 @@ const page = {
 export default function DentistrySweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     universities: (cmsData.universities && cmsData.universities.length > 0)
       ? cmsData.universities

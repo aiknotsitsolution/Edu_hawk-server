@@ -7,6 +7,11 @@ import heroBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Mec
 import sideImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Mechanical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Mechanical/cta_bg.webp";
 import cmsData from "../../../../../../data/study_abroad/sweden/ug_mechanical-engineering.json";
+// University campus images
+import uniImg1 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Mechanical/image1.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Mechanical/image2.webp";
+import uniImg3 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Mechanical/image3.webp";
+
 
 const page = {
   "name": "Mechanical Engineering (UG)",
@@ -125,7 +130,7 @@ const page = {
           "location": "Production and manufacturing engineering, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
           "desc": "This area includes manufacturing methods, machining, production processes, quality control and industrial efficiency. Students are taught how to reliably and economically manufacture products. Mechanical Systems & Machine Design Students study forces, motion, mechanisms, machine elements, and structural performance. These topics will help them to get ready for jobs in product development, equipment design and industrial engineering.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -139,25 +144,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Mechanical Engineering (UG) in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. Jonkoping University",
-          "location": "\\. Jonkoping University, Sweden",
+          "name": "\Jonkoping University",
+          "location": "\Jonkoping University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "J\u00f6nk\u00f6ping University\u2019s School of Engineering provides a three-year bachelor\u2019s program in Mechanical Engineering and the program is taught in English. The program combines engineering fundamentals with practical learning and prepares students for further education or suitable technical careers. ![][image1]",
-          "img_var": "null"
+          "desc": "J\u00f6nk\u00f6ping University\u2019s School of Engineering provides a three-year bachelor\u2019s program in Mechanical Engineering and the program is taught in English. The program combines engineering fundamentals with practical learning and prepares students for further education or suitable technical careers. ",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Uppsala universitet",
-          "location": "\\. Uppsala universitet, Sweden",
+          "name": "\Uppsala universitet",
+          "location": "\Uppsala universitet, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Uppsala University provides education in engineering and related technical lines of study. The students are recommended to check the current bachelor catalog for mechanical engineering options and check the Swedish language requirements for each program. ![][image2]",
-          "img_var": "null"
+          "desc": "Uppsala University provides education in engineering and related technical lines of study. The students are recommended to check the current bachelor catalog for mechanical engineering options and check the Swedish language requirements for each program. ",
+          "image": uniImg3, "img": uniImg3
         },
         {
-          "name": "\\. Royal Institute of Technology KTH",
-          "location": "\\. Royal Institute of Technology KTH, Sweden",
+          "name": "\Royal Institute of Technology KTH",
+          "location": "\Royal Institute of Technology KTH, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "KTH is a large technical university in Stockholm with a large number of engineering and technology programs. Many bachelor\u2019s programs in engineering require Swedish language proficiency, so international students should check the current bachelor\u2019s listings and teaching languages. ![][image3] For the latest information on program availability, admission requirements and application deadlines, please visit University Admissions in Sweden. Please be aware that not all the universities on the list offer a bachelor\u2019s in Mechanical Engineering in English.",
-          "img_var": "null"
+          "desc": "KTH is a large technical university in Stockholm with a large number of engineering and technology programs. Many bachelor\u2019s programs in engineering require Swedish language proficiency, so international students should check the current bachelor\u2019s listings and teaching languages.  For the latest information on program availability, admission requirements and application deadlines, please visit University Admissions in Sweden. Please be aware that not all the universities on the list offer a bachelor\u2019s in Mechanical Engineering in English.",
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -452,25 +457,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. Jonkoping University",
-      "location": "\\. Jonkoping University, Sweden",
+      "name": "\Jonkoping University",
+      "location": "\Jonkoping University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "J\u00f6nk\u00f6ping University\u2019s School of Engineering provides a three-year bachelor\u2019s program in Mechanical Engineering and the program is taught in English. The program combines engineering fundamentals with practical learning and prepares students for further education or suitable technical careers. ![][image1]",
-      "img_var": "null"
+      "desc": "J\u00f6nk\u00f6ping University\u2019s School of Engineering provides a three-year bachelor\u2019s program in Mechanical Engineering and the program is taught in English. The program combines engineering fundamentals with practical learning and prepares students for further education or suitable technical careers. ",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Uppsala universitet",
-      "location": "\\. Uppsala universitet, Sweden",
+      "name": "\Uppsala universitet",
+      "location": "\Uppsala universitet, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Uppsala University provides education in engineering and related technical lines of study. The students are recommended to check the current bachelor catalog for mechanical engineering options and check the Swedish language requirements for each program. ![][image2]",
-      "img_var": "null"
+      "desc": "Uppsala University provides education in engineering and related technical lines of study. The students are recommended to check the current bachelor catalog for mechanical engineering options and check the Swedish language requirements for each program. ",
+      "image": uniImg3, "img": uniImg3
     },
     {
-      "name": "\\. Royal Institute of Technology KTH",
-      "location": "\\. Royal Institute of Technology KTH, Sweden",
+      "name": "\Royal Institute of Technology KTH",
+      "location": "\Royal Institute of Technology KTH, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "KTH is a large technical university in Stockholm with a large number of engineering and technology programs. Many bachelor\u2019s programs in engineering require Swedish language proficiency, so international students should check the current bachelor\u2019s listings and teaching languages. ![][image3] For the latest information on program availability, admission requirements and application deadlines, please visit University Admissions in Sweden. Please be aware that not all the universities on the list offer a bachelor\u2019s in Mechanical Engineering in English.",
-      "img_var": "null"
+      "desc": "KTH is a large technical university in Stockholm with a large number of engineering and technology programs. Many bachelor\u2019s programs in engineering require Swedish language proficiency, so international students should check the current bachelor\u2019s listings and teaching languages.  For the latest information on program availability, admission requirements and application deadlines, please visit University Admissions in Sweden. Please be aware that not all the universities on the list offer a bachelor\u2019s in Mechanical Engineering in English.",
+      "image": uniImg1, "img": uniImg1
     }
   ],
   "faqs": [
@@ -497,14 +502,15 @@ const page = {
 export default function MechanicalEngineeringUGSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

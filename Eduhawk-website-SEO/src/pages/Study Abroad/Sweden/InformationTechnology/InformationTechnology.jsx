@@ -9,9 +9,9 @@ import ctaBgImg from "../../../../Images/Abroad/Sweden/InformationTechnology/cta
 import cmsData from "../../../../data/study_abroad/sweden/information-technology.json";
 
 // University campus images
-import kthImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image1.png";
-import gothenburgImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image2.png";
-import borasImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image3.png";
+import kthImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image1.webp";
+import gothenburgImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image2.webp";
+import borasImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image3.webp";
 
 const page = {
   "name": "Information Technology",

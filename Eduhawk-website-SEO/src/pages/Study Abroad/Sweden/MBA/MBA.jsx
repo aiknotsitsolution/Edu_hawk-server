@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/MBA/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Sweden/MBA/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/MBA/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/mba.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/MBA/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/MBA/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/MBA/image3.webp";
+
 
 const page = {
   "name": "MBA",
@@ -153,25 +158,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited MBA in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. Stockholm School of Economics (SSE)",
-          "location": "\\. Stockholm School of Economics (SSE), Sweden",
+          "name": "\Stockholm School of Economics (SSE)",
+          "location": "\Stockholm School of Economics (SSE), Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Stockholm School of Economics is known for its Executive MBA pathway for experienced professionals. The programme is part-time, taught in English and runs for 18 months. * **Programme:** Executive MBA * **Duration:** 18 months * **Tuition fee for December 2026 intake:** SEK 645,000 if paid in full before the programme starts. * **Installment payment option:** SEK 660,000. * **Official website:** Stockholm School of Economics \u2013 SSE MBA. ![][image1] The published fee is exclusive of VAT. Applicants should confirm the applicable VAT treatment and any additional programme expenses with the school.",
-          "img_var": "null"
+          "desc": "Stockholm School of Economics is known for its Executive MBA pathway for experienced professionals. The programme is part-time, taught in English and runs for 18 months. * **Programme:** Executive MBA * **Duration:** 18 months * **Tuition fee for December 2026 intake:** SEK 645,000 if paid in full before the programme starts. * **Installment payment option:** SEK 660,000. * **Official website:** Stockholm School of Economics \u2013 SSE MBA.  The published fee is exclusive of VAT. Applicants should confirm the applicable VAT treatment and any additional programme expenses with the school.",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. J\u00f6nk\u00f6ping University",
-          "location": "\\. J\u00f6nk\u00f6ping University, Sweden",
+          "name": "\J\u00f6nk\u00f6ping University",
+          "location": "\J\u00f6nk\u00f6ping University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "J\u00f6nk\u00f6ping University offers a bachelor's programme in International Management and master's programmes in areas such as Entrepreneurship and Innovation, Strategic Marketing, and Leading Change, Organisations and People. Selected programme fees include: * **Bachelor's in International Management:** SEK 360,000 total tuition. * **Master's in Entrepreneurship and Innovation:** SEK 146,000 total tuition. * **Master's in Leading Change, Organisations and People:** SEK 288,000 total tuition. These programmes provide business and management education but should not be confused with an MBA. * **![][image2]**",
-          "img_var": "null"
+          "desc": "J\u00f6nk\u00f6ping University offers a bachelor's programme in International Management and master's programmes in areas such as Entrepreneurship and Innovation, Strategic Marketing, and Leading Change, Organisations and People. Selected programme fees include: * **Bachelor's in International Management:** SEK 360,000 total tuition. * **Master's in Entrepreneurship and Innovation:** SEK 146,000 total tuition. * **Master's in Leading Change, Organisations and People:** SEK 288,000 total tuition. These programmes provide business and management education but should not be confused with an MBA. * ",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. University of Gothenburg",
-          "location": "\\. University of Gothenburg, Sweden",
+          "name": "\University of Gothenburg",
+          "location": "\University of Gothenburg, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "The University of Gothenburg is an option for students considering undergraduate business and economics or postgraduate management studies. Its School of Business, Economics and Law offers a **Bachelor's Programme in Business and Economics** and an **Executive MBA** for professionals. **![][image3]** Students comparing the **Top Universities for MBA in Sweden** should check whether the programme is an MBA, Executive MBA or academic master's degree. They should also compare professional experience requirements, teaching format, tuition fees and programme structure.",
-          "img_var": "null"
+          "desc": "The University of Gothenburg is an option for students considering undergraduate business and economics or postgraduate management studies. Its School of Business, Economics and Law offers a **Bachelor's Programme in Business and Economics** and an **Executive MBA** for professionals.  Students comparing the **Top Universities for MBA in Sweden** should check whether the programme is an MBA, Executive MBA or academic master's degree. They should also compare professional experience requirements, teaching format, tuition fees and programme structure.",
+          "image": uniImg3, "img": uniImg3
         }
       ],
       "note": [
@@ -579,25 +584,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. Stockholm School of Economics (SSE)",
-      "location": "\\. Stockholm School of Economics (SSE), Sweden",
+      "name": "\Stockholm School of Economics (SSE)",
+      "location": "\Stockholm School of Economics (SSE), Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Stockholm School of Economics is known for its Executive MBA pathway for experienced professionals. The programme is part-time, taught in English and runs for 18 months. * **Programme:** Executive MBA * **Duration:** 18 months * **Tuition fee for December 2026 intake:** SEK 645,000 if paid in full before the programme starts. * **Installment payment option:** SEK 660,000. * **Official website:** Stockholm School of Economics \u2013 SSE MBA. ![][image1] The published fee is exclusive of VAT. Applicants should confirm the applicable VAT treatment and any additional programme expenses with the school.",
-      "img_var": "null"
+      "desc": "Stockholm School of Economics is known for its Executive MBA pathway for experienced professionals. The programme is part-time, taught in English and runs for 18 months. * **Programme:** Executive MBA * **Duration:** 18 months * **Tuition fee for December 2026 intake:** SEK 645,000 if paid in full before the programme starts. * **Installment payment option:** SEK 660,000. * **Official website:** Stockholm School of Economics \u2013 SSE MBA.  The published fee is exclusive of VAT. Applicants should confirm the applicable VAT treatment and any additional programme expenses with the school.",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. J\u00f6nk\u00f6ping University",
-      "location": "\\. J\u00f6nk\u00f6ping University, Sweden",
+      "name": "\J\u00f6nk\u00f6ping University",
+      "location": "\J\u00f6nk\u00f6ping University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "J\u00f6nk\u00f6ping University offers a bachelor's programme in International Management and master's programmes in areas such as Entrepreneurship and Innovation, Strategic Marketing, and Leading Change, Organisations and People. Selected programme fees include: * **Bachelor's in International Management:** SEK 360,000 total tuition. * **Master's in Entrepreneurship and Innovation:** SEK 146,000 total tuition. * **Master's in Leading Change, Organisations and People:** SEK 288,000 total tuition. These programmes provide business and management education but should not be confused with an MBA. * **![][image2]**",
-      "img_var": "null"
+      "desc": "J\u00f6nk\u00f6ping University offers a bachelor's programme in International Management and master's programmes in areas such as Entrepreneurship and Innovation, Strategic Marketing, and Leading Change, Organisations and People. Selected programme fees include: * **Bachelor's in International Management:** SEK 360,000 total tuition. * **Master's in Entrepreneurship and Innovation:** SEK 146,000 total tuition. * **Master's in Leading Change, Organisations and People:** SEK 288,000 total tuition. These programmes provide business and management education but should not be confused with an MBA. * ",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. University of Gothenburg",
-      "location": "\\. University of Gothenburg, Sweden",
+      "name": "\University of Gothenburg",
+      "location": "\University of Gothenburg, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "The University of Gothenburg is an option for students considering undergraduate business and economics or postgraduate management studies. Its School of Business, Economics and Law offers a **Bachelor's Programme in Business and Economics** and an **Executive MBA** for professionals. **![][image3]** Students comparing the **Top Universities for MBA in Sweden** should check whether the programme is an MBA, Executive MBA or academic master's degree. They should also compare professional experience requirements, teaching format, tuition fees and programme structure.",
-      "img_var": "null"
+      "desc": "The University of Gothenburg is an option for students considering undergraduate business and economics or postgraduate management studies. Its School of Business, Economics and Law offers a **Bachelor's Programme in Business and Economics** and an **Executive MBA** for professionals.  Students comparing the **Top Universities for MBA in Sweden** should check whether the programme is an MBA, Executive MBA or academic master's degree. They should also compare professional experience requirements, teaching format, tuition fees and programme structure.",
+      "image": uniImg3, "img": uniImg3
     }
   ],
   "faqs": [
@@ -624,14 +629,15 @@ const page = {
 export default function MBASweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

@@ -2165,13 +2165,6 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
           <UniversityArtwork theme={theme} />
         )}
 
-        {/* Floating University Initial Crest */}
-        <div className="absolute top-4 left-4 z-10 w-11 h-11 rounded-xl bg-white/15 backdrop-blur-md border border-white/30 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
-          <span className="text-white font-extrabold text-xl tracking-tight">
-            {cleanName ? (cleanName.replace(/^[^a-zA-Z0-9]+/, "").charAt(0) || "U") : "U"}
-          </span>
-        </div>
-
         {/* Official Website External Link Button */}
         {(u.link || u.url || u.website) && (
           <a

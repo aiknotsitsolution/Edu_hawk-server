@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/ExecutiveMBA/hero_bg.web
 import sideImg from "../../../../Images/Abroad/Sweden/ExecutiveMBA/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/ExecutiveMBA/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/executive-mba.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/ExecutiveMBA/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/ExecutiveMBA/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/ExecutiveMBA/image3.webp";
+
 
 const page = {
   "name": "Executive MBA",
@@ -136,25 +141,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Executive MBA in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. Stockholm School of Economics",
-          "location": "\\. Stockholm School of Economics, Sweden",
+          "name": "\Stockholm School of Economics",
+          "location": "\Stockholm School of Economics, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** SSE MBA Executive Format * **Duration:** 18 months * **Study Mode:** Part-time * **Language:** English * **Start Date Listed:** December 2026 * **Tuition Fee:** SEK 645,000 (before applicable VAT) * **Approximate Tuition Fee:** \u20b961.28 lakh (before VAT) ![][image1] The programme focuses on general management and leadership development for experienced professionals. It also includes additional certificate opportunities alongside the MBA degree. Applicants should review the official programme information for admission requirements, application dates, and applicable tax conditions.",
-          "img_var": "null"
+          "desc": "* **Programme:** SSE MBA Executive Format * **Duration:** 18 months * **Study Mode:** Part-time * **Language:** English * **Start Date Listed:** December 2026 * **Tuition Fee:** SEK 645,000 (before applicable VAT) * **Approximate Tuition Fee:** \u20b961.28 lakh (before VAT)  The programme focuses on general management and leadership development for experienced professionals. It also includes additional certificate opportunities alongside the MBA degree. Applicants should review the official programme information for admission requirements, application dates, and applicable tax conditions.",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. University of Gothenburg",
-          "location": "\\. University of Gothenburg, Sweden",
+          "name": "\University of Gothenburg",
+          "location": "\University of Gothenburg, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** Gothenburg Executive MBA * **Duration:** 21 months * **Study Mode:** Part-time * **Tuition Fee for the 2026\u20132028 Programme:** SEK 545,000 (excluding VAT) * **Approximate Tuition Fee:** \u20b951.78 lakh (before VAT) ![][image2] The programme is designed for managers working in private and public organisations. It incorporates practical learning and international study modules. Applicants should contact the provider to confirm the current intake, teaching language, schedule, and admission arrangements.",
-          "img_var": "null"
+          "desc": "* **Programme:** Gothenburg Executive MBA * **Duration:** 21 months * **Study Mode:** Part-time * **Tuition Fee for the 2026\u20132028 Programme:** SEK 545,000 (excluding VAT) * **Approximate Tuition Fee:** \u20b951.78 lakh (before VAT)  The programme is designed for managers working in private and public organisations. It incorporates practical learning and international study modules. Applicants should contact the provider to confirm the current intake, teaching language, schedule, and admission arrangements.",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Stockholm University",
-          "location": "\\. Stockholm University, Sweden",
+          "name": "\Stockholm University",
+          "location": "\Stockholm University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** Executive MBA * **Duration:** 21 months * **Study Mode:** Part-time executive learning * **Programme Fee:** SEK 489,000 (excluding VAT) * **Approximate Tuition Fee:** \u20b946.46 lakh (before VAT) ![][image3] The programme leads to the award of a **Master of Science in Business Administration**. It is taught mainly in Swedish, with some English-language elements. According to the programme information provided, the fee is paid by the employer or organisation rather than the individual participant. Applicants should confirm the current sponsorship and payment conditions directly with the institution. **Important:** Executive MBA programmes are different from standard full-time MBA or MSc degrees. They are generally designed for professionals with substantial work experience and may have different admission criteria, teaching languages, fee-payment arrangements, and immigration considerations.",
-          "img_var": "null"
+          "desc": "* **Programme:** Executive MBA * **Duration:** 21 months * **Study Mode:** Part-time executive learning * **Programme Fee:** SEK 489,000 (excluding VAT) * **Approximate Tuition Fee:** \u20b946.46 lakh (before VAT)  The programme leads to the award of a **Master of Science in Business Administration**. It is taught mainly in Swedish, with some English-language elements. According to the programme information provided, the fee is paid by the employer or organisation rather than the individual participant. Applicants should confirm the current sponsorship and payment conditions directly with the institution. **Important:** Executive MBA programmes are different from standard full-time MBA or MSc degrees. They are generally designed for professionals with substantial work experience and may have different admission criteria, teaching languages, fee-payment arrangements, and immigration considerations.",
+          "image": uniImg3, "img": uniImg3
         }
       ],
       "note": [
@@ -357,7 +362,7 @@ const page = {
             "Review Registration & Payment Terms",
             "Read the tuition agreement, applicable VAT, payment schedule, travel requirements and teaching calendar before accepting an offer.",
             "Dec 2026 Intake: Stockholm School of Economics has a Dec 2026 start date for its Executive MBA and rolling admissions. Application availability and deadlines may change, so applicants are advised to check directly with the business school for the most current information.",
-            "**8\\. Continuing Education & Professional Development**",
+            "**8\Continuing Education & Professional Development**",
             "The Executive MBA can build on existing professional experience and can be used to further develop in various areas of business and management.",
             "Professional development can take place in the following areas:"
           ]
@@ -380,7 +385,7 @@ const page = {
           "items": [
             "Participants also have access to leadership coaching, practical business projects and specialist executive courses.",
             "Executive MBA is a postgraduate professional qualification. It does not grant automatic access to doctoral studies, which have different academic and research-related admission requirements.",
-            "**9\\. Job Prospects After an EMBA**",
+            "**9\Job Prospects After an EMBA**",
             "An Executive MBA will help experienced professionals to improve their management skills and prepare for higher organizational responsibilities.",
             "Possible career paths include:"
           ]
@@ -403,7 +408,7 @@ const page = {
           "items": [
             "The career outcomes are dependent on the prior professional experience, the leadership achievements, the employer\u2019s demands and the professional network developed during the program.",
             "An Executive MBA does not guarantee promotions, salary increase or job placement. Its value depends on how the knowledge and skills acquired by participants are applied to their professional roles.",
-            "**10\\. Documents Required for Executive MBA in Sweden**",
+            "**10\Documents Required for Executive MBA in Sweden**",
             "Applicants must prepare the following documents according to the requirements of the business school they choose:"
           ]
         },
@@ -425,21 +430,21 @@ const page = {
           "t": "p",
           "items": [
             "Indian applicants wishing to travel to Sweden should also check the entry, visa and residence requirements that apply to their particular program format.",
-            "**11\\. FAQ \\- Executive MBA Sweden**",
-            "**1\\. How long does it take to get an Executive MBA in Sweden?**",
+            "**11\FAQ \\- Executive MBA Sweden**",
+            "**1\How long does it take to get an Executive MBA in Sweden?**",
             "The programs presented in this guide are of between 18 and 21 months duration. The duration varies according to the institution, module schedule and program format.",
-            "**2\\. How much is an Executive MBA in Sweden in INR?**",
+            "**2\How much is an Executive MBA in Sweden in INR?**",
             "Tuition fees for the selected programs are in the range of approximately \u20b946.46 lakh to \u20b961.28 lakh excluding VAT at an indicative exchange rate of SEK 1 \u2248 \u20b99.50. Additional taxes, travel, accommodation and other expenses may apply.",
-            "**3\\. Can Indian professionals pursue an Executive MBA in Sweden?**",
+            "**3\Can Indian professionals pursue an Executive MBA in Sweden?**",
             "Yes. Indian professionals are eligible to apply if they meet the academic, professional experience, language and admission requirements of the institution. They will also need to verify that the program format fits in with their travel and immigration arrangements.",
-            "**4\\. Can I work while pursuing an Executive MBA?**",
+            "**4\Can I work while pursuing an Executive MBA?**",
             "Many Executive MBA programs are created for working professionals and are offered part-time. However, participants should check the teaching calendar, attendance requirements and workload before enrolling.",
-            "**5\\. What is the difference between an Executive MBA and a normal MBA?**",
+            "**5\What is the difference between an Executive MBA and a normal MBA?**",
             "The Executive MBA is designed for experienced professionals, and is more likely to focus on the application of management concepts to real-world organizational problems. A regular MBA might be more inclusive of professional backgrounds and may provide full-time and part-time study options.",
             "The right one depends on the professional experience, career goals, study preferences and available time.",
-            "**6\\. Is work experience required for an Executive MBA in Sweden?**",
+            "**6\Is work experience required for an Executive MBA in Sweden?**",
             "Most Executive MBA programmes expect applicants to have relevant professional experience, often including managerial or leadership responsibilities. Exact requirements vary by institution.",
-            "**7\\. Are Executive MBA programmes in Sweden taught in English?**",
+            "**7\Are Executive MBA programmes in Sweden taught in English?**",
             "Some programmes are taught in English, such as the SSE MBA Executive Format. Others may be taught mainly in Swedish or use a combination of languages. Applicants should verify the teaching language before applying."
           ]
         }
@@ -448,25 +453,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. Stockholm School of Economics",
-      "location": "\\. Stockholm School of Economics, Sweden",
+      "name": "\Stockholm School of Economics",
+      "location": "\Stockholm School of Economics, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** SSE MBA Executive Format * **Duration:** 18 months * **Study Mode:** Part-time * **Language:** English * **Start Date Listed:** December 2026 * **Tuition Fee:** SEK 645,000 (before applicable VAT) * **Approximate Tuition Fee:** \u20b961.28 lakh (before VAT) ![][image1] The programme focuses on general management and leadership development for experienced professionals. It also includes additional certificate opportunities alongside the MBA degree. Applicants should review the official programme information for admission requirements, application dates, and applicable tax conditions.",
-      "img_var": "null"
+      "desc": "* **Programme:** SSE MBA Executive Format * **Duration:** 18 months * **Study Mode:** Part-time * **Language:** English * **Start Date Listed:** December 2026 * **Tuition Fee:** SEK 645,000 (before applicable VAT) * **Approximate Tuition Fee:** \u20b961.28 lakh (before VAT)  The programme focuses on general management and leadership development for experienced professionals. It also includes additional certificate opportunities alongside the MBA degree. Applicants should review the official programme information for admission requirements, application dates, and applicable tax conditions.",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. University of Gothenburg",
-      "location": "\\. University of Gothenburg, Sweden",
+      "name": "\University of Gothenburg",
+      "location": "\University of Gothenburg, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** Gothenburg Executive MBA * **Duration:** 21 months * **Study Mode:** Part-time * **Tuition Fee for the 2026\u20132028 Programme:** SEK 545,000 (excluding VAT) * **Approximate Tuition Fee:** \u20b951.78 lakh (before VAT) ![][image2] The programme is designed for managers working in private and public organisations. It incorporates practical learning and international study modules. Applicants should contact the provider to confirm the current intake, teaching language, schedule, and admission arrangements.",
-      "img_var": "null"
+      "desc": "* **Programme:** Gothenburg Executive MBA * **Duration:** 21 months * **Study Mode:** Part-time * **Tuition Fee for the 2026\u20132028 Programme:** SEK 545,000 (excluding VAT) * **Approximate Tuition Fee:** \u20b951.78 lakh (before VAT)  The programme is designed for managers working in private and public organisations. It incorporates practical learning and international study modules. Applicants should contact the provider to confirm the current intake, teaching language, schedule, and admission arrangements.",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Stockholm University",
-      "location": "\\. Stockholm University, Sweden",
+      "name": "\Stockholm University",
+      "location": "\Stockholm University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** Executive MBA * **Duration:** 21 months * **Study Mode:** Part-time executive learning * **Programme Fee:** SEK 489,000 (excluding VAT) * **Approximate Tuition Fee:** \u20b946.46 lakh (before VAT) ![][image3] The programme leads to the award of a **Master of Science in Business Administration**. It is taught mainly in Swedish, with some English-language elements. According to the programme information provided, the fee is paid by the employer or organisation rather than the individual participant. Applicants should confirm the current sponsorship and payment conditions directly with the institution. **Important:** Executive MBA programmes are different from standard full-time MBA or MSc degrees. They are generally designed for professionals with substantial work experience and may have different admission criteria, teaching languages, fee-payment arrangements, and immigration considerations.",
-      "img_var": "null"
+      "desc": "* **Programme:** Executive MBA * **Duration:** 21 months * **Study Mode:** Part-time executive learning * **Programme Fee:** SEK 489,000 (excluding VAT) * **Approximate Tuition Fee:** \u20b946.46 lakh (before VAT)  The programme leads to the award of a **Master of Science in Business Administration**. It is taught mainly in Swedish, with some English-language elements. According to the programme information provided, the fee is paid by the employer or organisation rather than the individual participant. Applicants should confirm the current sponsorship and payment conditions directly with the institution. **Important:** Executive MBA programmes are different from standard full-time MBA or MSc degrees. They are generally designed for professionals with substantial work experience and may have different admission criteria, teaching languages, fee-payment arrangements, and immigration considerations.",
+      "image": uniImg3, "img": uniImg3
     }
   ],
   "faqs": [
@@ -493,14 +498,15 @@ const page = {
 export default function ExecutiveMBASweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

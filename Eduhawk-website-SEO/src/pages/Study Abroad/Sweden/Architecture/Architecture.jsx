@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/Architecture/hero_bg.web
 import sideImg from "../../../../Images/Abroad/Sweden/Architecture/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/Architecture/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/architecture.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/Architecture/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/Architecture/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/Architecture/image3.webp";
+
 
 const page = {
   "name": "Architecture",
@@ -152,32 +157,32 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Architecture in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. Ume\u00e5 University",
-          "location": "\\. Ume\u00e5 University, Sweden",
+          "name": "\Ume\u00e5 University",
+          "location": "\Ume\u00e5 University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* Offers a five-year Architecture Programme worth 300 credits. * The programme is taught in English. * It combines architectural design, history, technology, sustainability and urban planning. * It leads to a professional degree in architecture according to the programme information. ![][image1] This option may suit students looking for a longer undergraduate-level architecture pathway.",
-          "img_var": "null"
+          "desc": "* Offers a five-year Architecture Programme worth 300 credits. * The programme is taught in English. * It combines architectural design, history, technology, sustainability and urban planning. * It leads to a professional degree in architecture according to the programme information.  This option may suit students looking for a longer undergraduate-level architecture pathway.",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. KTH Royal Institute of Technology",
-          "location": "\\. KTH Royal Institute of Technology, Sweden",
+          "name": "\KTH Royal Institute of Technology",
+          "location": "\KTH Royal Institute of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
           "desc": "* Offers a two-year MSc in Architecture taught in English. * The programme explores architecture through design, technology, aesthetics, social conditions and sustainability. * Applicants generally need a relevant undergraduate degree in architecture. * An architectural portfolio is an important part of the application.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "![][image2]",
-          "location": "![][image2], Sweden",
+          "name": "",
+          "location": ", Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
           "desc": "Recognized institution in Sweden providing accredited degree programs and research facilities for international students.",
-          "img_var": "null"
+          "image": uniImg3, "img": uniImg3
         },
         {
-          "name": "\\. Chalmers University of Technology",
-          "location": "\\. Chalmers University of Technology, Sweden",
+          "name": "\Chalmers University of Technology",
+          "location": "\Chalmers University of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* Offers an MSc in Architectural Design for students who want to develop advanced architectural design skills. * Applicants must meet the academic prerequisites. * A portfolio demonstrating architectural design ability is required as part of the admission process. ![][image3] **Choosing the Right University:** Ume\u00e5 University is worth exploring for its five-year architecture pathway taught in English. Students who already hold a relevant undergraduate architecture qualification can consider KTH and Chalmers for postgraduate specialisation. These institutions offer different qualification pathways. Students should verify programme availability, degree titles, language requirements and professional recognition on the official university websites.",
-          "img_var": "null"
+          "desc": "* Offers an MSc in Architectural Design for students who want to develop advanced architectural design skills. * Applicants must meet the academic prerequisites. * A portfolio demonstrating architectural design ability is required as part of the admission process.  **Choosing the Right University:** Ume\u00e5 University is worth exploring for its five-year architecture pathway taught in English. Students who already hold a relevant undergraduate architecture qualification can consider KTH and Chalmers for postgraduate specialisation. These institutions offer different qualification pathways. Students should verify programme availability, degree titles, language requirements and professional recognition on the official university websites.",
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -527,32 +532,32 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. Ume\u00e5 University",
-      "location": "\\. Ume\u00e5 University, Sweden",
+      "name": "\Ume\u00e5 University",
+      "location": "\Ume\u00e5 University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* Offers a five-year Architecture Programme worth 300 credits. * The programme is taught in English. * It combines architectural design, history, technology, sustainability and urban planning. * It leads to a professional degree in architecture according to the programme information. ![][image1] This option may suit students looking for a longer undergraduate-level architecture pathway.",
-      "img_var": "null"
+      "desc": "* Offers a five-year Architecture Programme worth 300 credits. * The programme is taught in English. * It combines architectural design, history, technology, sustainability and urban planning. * It leads to a professional degree in architecture according to the programme information.  This option may suit students looking for a longer undergraduate-level architecture pathway.",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. KTH Royal Institute of Technology",
-      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "name": "\KTH Royal Institute of Technology",
+      "location": "\KTH Royal Institute of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
       "desc": "* Offers a two-year MSc in Architecture taught in English. * The programme explores architecture through design, technology, aesthetics, social conditions and sustainability. * Applicants generally need a relevant undergraduate degree in architecture. * An architectural portfolio is an important part of the application.",
-      "img_var": "null"
+      "image": uniImg3, "img": uniImg3
     },
     {
-      "name": "![][image2]",
-      "location": "![][image2], Sweden",
+      "name": "",
+      "location": ", Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
       "desc": "Recognized institution in Sweden providing accredited degree programs and research facilities for international students.",
-      "img_var": "null"
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Chalmers University of Technology",
-      "location": "\\. Chalmers University of Technology, Sweden",
+      "name": "\Chalmers University of Technology",
+      "location": "\Chalmers University of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* Offers an MSc in Architectural Design for students who want to develop advanced architectural design skills. * Applicants must meet the academic prerequisites. * A portfolio demonstrating architectural design ability is required as part of the admission process. ![][image3] **Choosing the Right University:** Ume\u00e5 University is worth exploring for its five-year architecture pathway taught in English. Students who already hold a relevant undergraduate architecture qualification can consider KTH and Chalmers for postgraduate specialisation. These institutions offer different qualification pathways. Students should verify programme availability, degree titles, language requirements and professional recognition on the official university websites.",
-      "img_var": "null"
+      "desc": "* Offers an MSc in Architectural Design for students who want to develop advanced architectural design skills. * Applicants must meet the academic prerequisites. * A portfolio demonstrating architectural design ability is required as part of the admission process.  **Choosing the Right University:** Ume\u00e5 University is worth exploring for its five-year architecture pathway taught in English. Students who already hold a relevant undergraduate architecture qualification can consider KTH and Chalmers for postgraduate specialisation. These institutions offer different qualification pathways. Students should verify programme availability, degree titles, language requirements and professional recognition on the official university websites.",
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -579,14 +584,15 @@ const page = {
 export default function ArchitectureSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

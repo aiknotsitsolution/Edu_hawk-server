@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/LanguageCourses/hero_bg.
 import sideImg from "../../../../Images/Abroad/Sweden/LanguageCourses/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/LanguageCourses/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/language-courses.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/LanguageCourses/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/LanguageCourses/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/LanguageCourses/image3.webp";
+
 
 const page = {
   "name": "Language Courses",
@@ -163,25 +168,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Language Courses in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. Stockholm University",
-          "location": "\\. Stockholm University, Sweden",
+          "name": "\Stockholm University",
+          "location": "\Stockholm University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Stockholm University offers Swedish language courses for international students and researchers, with options ranging from beginner-level learning to more advanced communication. ![][image1] These courses are generally intended for international students and researchers affiliated with the university. They may not be available to all external applicants.",
-          "img_var": "null"
+          "desc": "Stockholm University offers Swedish language courses for international students and researchers, with options ranging from beginner-level learning to more advanced communication.  These courses are generally intended for international students and researchers affiliated with the university. They may not be available to all external applicants.",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Ume\u00e5 University",
-          "location": "\\. Ume\u00e5 University, Sweden",
+          "name": "\Ume\u00e5 University",
+          "location": "\Ume\u00e5 University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Ume\u00e5 University provides Swedish language courses for international students who want to develop basic communication skills or prepare for further studies. ![][image2] Course availability depends on the semester and student category. The university has stated that Swedish courses are not available for exchange students in Spring 2027, so applicants should check the latest course information.",
-          "img_var": "null"
+          "desc": "Ume\u00e5 University provides Swedish language courses for international students who want to develop basic communication skills or prepare for further studies.  Course availability depends on the semester and student category. The university has stated that Swedish courses are not available for exchange students in Spring 2027, so applicants should check the latest course information.",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Uppsala University",
-          "location": "\\. Uppsala University, Sweden",
+          "name": "\Uppsala University",
+          "location": "\Uppsala University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "International students at Uppsala University's Campus Gotland may find introductory and semester-based Swedish courses focused on everyday communication. Eligibility, course fees and availability depend on the particular course and the student's university status. ![][image3] **Important:** University language courses may have restrictions based on student status, exchange agreements or university affiliation. Always confirm whether external applicants can register before applying.",
-          "img_var": "null"
+          "desc": "International students at Uppsala University's Campus Gotland may find introductory and semester-based Swedish courses focused on everyday communication. Eligibility, course fees and availability depend on the particular course and the student's university status.  **Important:** University language courses may have restrictions based on student status, exchange agreements or university affiliation. Always confirm whether external applicants can register before applying.",
+          "image": uniImg3, "img": uniImg3
         }
       ],
       "note": [
@@ -191,25 +196,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. Stockholm University",
-      "location": "\\. Stockholm University, Sweden",
+      "name": "\Stockholm University",
+      "location": "\Stockholm University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Stockholm University offers Swedish language courses for international students and researchers, with options ranging from beginner-level learning to more advanced communication. ![][image1] These courses are generally intended for international students and researchers affiliated with the university. They may not be available to all external applicants.",
-      "img_var": "null"
+      "desc": "Stockholm University offers Swedish language courses for international students and researchers, with options ranging from beginner-level learning to more advanced communication.  These courses are generally intended for international students and researchers affiliated with the university. They may not be available to all external applicants.",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Ume\u00e5 University",
-      "location": "\\. Ume\u00e5 University, Sweden",
+      "name": "\Ume\u00e5 University",
+      "location": "\Ume\u00e5 University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Ume\u00e5 University provides Swedish language courses for international students who want to develop basic communication skills or prepare for further studies. ![][image2] Course availability depends on the semester and student category. The university has stated that Swedish courses are not available for exchange students in Spring 2027, so applicants should check the latest course information.",
-      "img_var": "null"
+      "desc": "Ume\u00e5 University provides Swedish language courses for international students who want to develop basic communication skills or prepare for further studies.  Course availability depends on the semester and student category. The university has stated that Swedish courses are not available for exchange students in Spring 2027, so applicants should check the latest course information.",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Uppsala University",
-      "location": "\\. Uppsala University, Sweden",
+      "name": "\Uppsala University",
+      "location": "\Uppsala University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "International students at Uppsala University's Campus Gotland may find introductory and semester-based Swedish courses focused on everyday communication. Eligibility, course fees and availability depend on the particular course and the student's university status. ![][image3] **Important:** University language courses may have restrictions based on student status, exchange agreements or university affiliation. Always confirm whether external applicants can register before applying.",
-      "img_var": "null"
+      "desc": "International students at Uppsala University's Campus Gotland may find introductory and semester-based Swedish courses focused on everyday communication. Eligibility, course fees and availability depend on the particular course and the student's university status.  **Important:** University language courses may have restrictions based on student status, exchange agreements or university affiliation. Always confirm whether external applicants can register before applying.",
+      "image": uniImg3, "img": uniImg3
     }
   ],
   "faqs": [
@@ -236,14 +241,15 @@ const page = {
 export default function LanguageCoursesSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

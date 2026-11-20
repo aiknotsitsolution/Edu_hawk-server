@@ -7,6 +7,10 @@ import heroBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Ele
 import sideImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Electrical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Electrical/cta_bg.webp";
 import cmsData from "../../../../../../data/study_abroad/sweden/pg_electrical-engineering.json";
+// University campus images
+import uniImg1 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Electrical/image1.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Electrical/image2.webp";
+
 
 const page = {
   "name": "Electrical Engineering (PG)",
@@ -76,35 +80,35 @@ const page = {
           "location": "Stockholm, Sweden",
           "fee": "SEK 140,000 \u2013 200,000 / Year",
           "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "KTH Royal Institute of Technology",
           "location": "Stockholm, Sweden",
           "fee": "SEK 120,000 \u2013 160,000 / Year",
           "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Lund University",
           "location": "Lund, Sweden",
           "fee": "SEK 90,000 \u2013 150,000 / Year",
           "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "Uppsala University",
           "location": "Uppsala, Sweden",
           "fee": "SEK 90,000 \u2013 145,000 / Year",
           "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Chalmers University of Technology",
           "location": "Gothenburg, Sweden",
           "fee": "SEK 130,000 \u2013 170,000 / Year",
           "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -120,7 +124,7 @@ const page = {
           "t": "ul",
           "items": [
             "## Advanced Technical Learning: Find out about electrical systems, circuits, signal processing and power electronics.",
-            "## Research Opportunities 1\\. Discover areas such as wireless communication, automation, smart grids and semiconductor devices.",
+            "## Research Opportunities 1\Discover areas such as wireless communication, automation, smart grids and semiconductor devices.",
             "## Sustainability Focus: Learn about renewable electricity, energy storage and efficient power systems",
             "## Industry Based Education Practical experience with lab experiments and engineering projects.",
             "## International Career Opportunities: Prepare for careers in energy, electronics, automation, telecommunications and technology research."
@@ -139,35 +143,35 @@ const page = {
           "location": "Stockholm, Sweden",
           "fee": "SEK 140,000 \u2013 200,000 / Year",
           "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "KTH Royal Institute of Technology",
           "location": "Stockholm, Sweden",
           "fee": "SEK 120,000 \u2013 160,000 / Year",
           "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "Lund University",
           "location": "Lund, Sweden",
           "fee": "SEK 90,000 \u2013 150,000 / Year",
           "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Uppsala University",
           "location": "Uppsala, Sweden",
           "fee": "SEK 90,000 \u2013 145,000 / Year",
           "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "Chalmers University of Technology",
           "location": "Gothenburg, Sweden",
           "fee": "SEK 130,000 \u2013 170,000 / Year",
           "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         }
       ],
       "note": [
@@ -202,25 +206,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Electrical Engineering (PG) in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. KTH Royal Institute of Technology",
-          "location": "\\. KTH Royal Institute of Technology, Sweden",
+          "name": "\KTH Royal Institute of Technology",
+          "location": "\KTH Royal Institute of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "KTH offers an **MSc in Electric Power Engineering** taught in English. Its programme covers power electronics, electrical machines, power system control and electricity markets. It is a two-year programme for students interested in modern power systems and sustainable energy. **![][image1]**",
-          "img_var": "null"
+          "desc": "KTH offers an **MSc in Electric Power Engineering** taught in English. Its programme covers power electronics, electrical machines, power system control and electricity markets. It is a two-year programme for students interested in modern power systems and sustainable energy. ",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Chalmers University of Technology",
-          "location": "\\. Chalmers University of Technology, Sweden",
+          "name": "\Chalmers University of Technology",
+          "location": "\Chalmers University of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Chalmers offers an **MSc in Electrical and Electronics Engineering** in English. Specialization areas include integrated circuit design, semiconductor devices and technology, systems and signals, microwave technology and photonics. It also offers Electric Power Engineering for students interested in power systems and electromobility. **![][image2]**",
-          "img_var": "null"
+          "desc": "Chalmers offers an **MSc in Electrical and Electronics Engineering** in English. Specialization areas include integrated circuit design, semiconductor devices and technology, systems and signals, microwave technology and photonics. It also offers Electric Power Engineering for students interested in power systems and electromobility. ",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Lund University",
-          "location": "\\. Lund University, Sweden",
+          "name": "\Lund University",
+          "location": "\Lund University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Lund University is worth considering for postgraduate studies in electrical engineering and related technology fields. Students interested in electronics, energy systems and engineering should consult its current programme catalogue. **![][image3]** These are some of the **Best Universities for Electrical Engineering in Sweden** to explore. Programme availability, degree titles and admission requirements should always be confirmed through the respective university websites.",
-          "img_var": "null"
+          "desc": "Lund University is worth considering for postgraduate studies in electrical engineering and related technology fields. Students interested in electronics, energy systems and engineering should consult its current programme catalogue.  These are some of the **Best Universities for Electrical Engineering in Sweden** to explore. Programme availability, degree titles and admission requirements should always be confirmed through the respective university websites.",
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -477,25 +481,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. KTH Royal Institute of Technology",
-      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "name": "\KTH Royal Institute of Technology",
+      "location": "\KTH Royal Institute of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "KTH offers an **MSc in Electric Power Engineering** taught in English. Its programme covers power electronics, electrical machines, power system control and electricity markets. It is a two-year programme for students interested in modern power systems and sustainable energy. **![][image1]**",
-      "img_var": "null"
+      "desc": "KTH offers an **MSc in Electric Power Engineering** taught in English. Its programme covers power electronics, electrical machines, power system control and electricity markets. It is a two-year programme for students interested in modern power systems and sustainable energy. ",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Chalmers University of Technology",
-      "location": "\\. Chalmers University of Technology, Sweden",
+      "name": "\Chalmers University of Technology",
+      "location": "\Chalmers University of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Chalmers offers an **MSc in Electrical and Electronics Engineering** in English. Specialization areas include integrated circuit design, semiconductor devices and technology, systems and signals, microwave technology and photonics. It also offers Electric Power Engineering for students interested in power systems and electromobility. **![][image2]**",
-      "img_var": "null"
+      "desc": "Chalmers offers an **MSc in Electrical and Electronics Engineering** in English. Specialization areas include integrated circuit design, semiconductor devices and technology, systems and signals, microwave technology and photonics. It also offers Electric Power Engineering for students interested in power systems and electromobility. ",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Lund University",
-      "location": "\\. Lund University, Sweden",
+      "name": "\Lund University",
+      "location": "\Lund University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Lund University is worth considering for postgraduate studies in electrical engineering and related technology fields. Students interested in electronics, energy systems and engineering should consult its current programme catalogue. **![][image3]** These are some of the **Best Universities for Electrical Engineering in Sweden** to explore. Programme availability, degree titles and admission requirements should always be confirmed through the respective university websites.",
-      "img_var": "null"
+      "desc": "Lund University is worth considering for postgraduate studies in electrical engineering and related technology fields. Students interested in electronics, energy systems and engineering should consult its current programme catalogue.  These are some of the **Best Universities for Electrical Engineering in Sweden** to explore. Programme availability, degree titles and admission requirements should always be confirmed through the respective university websites.",
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -522,14 +526,15 @@ const page = {
 export default function ElectricalEngineeringPGSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/ComputerScience/hero_bg.
 import sideImg from "../../../../Images/Abroad/Sweden/ComputerScience/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/ComputerScience/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/computer-science.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/ComputerScience/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/ComputerScience/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/ComputerScience/image3.webp";
+
 
 const page = {
   "name": "Computer Science",
@@ -159,25 +164,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Computer Science in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. University of Gothenburg",
-          "location": "\\. University of Gothenburg, Sweden",
+          "name": "\University of Gothenburg",
+          "location": "\University of Gothenburg, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "**Bachelor's:** The university offers a Computer Science and AI bachelor's programme taught in English, with an Autumn 2027 start. The programme covers computer science and artificial intelligence. **Master's:** The university also offers an English-taught master's programme in Computer Science, allowing students to explore advanced computing subjects. **Location:** Gothenburg, Sweden **![][image1]**",
-          "img_var": "null"
+          "desc": "**Bachelor's:** The university offers a Computer Science and AI bachelor's programme taught in English, with an Autumn 2027 start. The programme covers computer science and artificial intelligence. **Master's:** The university also offers an English-taught master's programme in Computer Science, allowing students to explore advanced computing subjects. **Location:** Gothenburg, Sweden ",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. KTH Royal Institute of Technology",
-          "location": "\\. KTH Royal Institute of Technology, Sweden",
+          "name": "\KTH Royal Institute of Technology",
+          "location": "\KTH Royal Institute of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "**Master's:** KTH offers an MSc in Computer Science, covering advanced areas such as algorithms, artificial intelligence, computer security, networks, software technology and data science. KTH is a relevant option for graduates seeking in-depth technical knowledge and research-oriented projects. **Location:** Stockholm, Sweden **![][image2]**",
-          "img_var": "null"
+          "desc": "**Master's:** KTH offers an MSc in Computer Science, covering advanced areas such as algorithms, artificial intelligence, computer security, networks, software technology and data science. KTH is a relevant option for graduates seeking in-depth technical knowledge and research-oriented projects. **Location:** Stockholm, Sweden ",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Chalmers University of Technology",
-          "location": "\\. Chalmers University of Technology, Sweden",
+          "name": "\Chalmers University of Technology",
+          "location": "\Chalmers University of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "**Master's:** Chalmers offers an MSc in Computer Science, with subjects including computational logic, algorithms, formal methods and reliable software. The university also offers an MSc in Computing Systems, with specialisation opportunities in high-performance computing, distributed systems, networks and cybersecurity. **Location:** Gothenburg, Sweden **![][image3]** **Important programme distinction:** The University of Gothenburg has an English-taught bachelor's option in Computer Science and AI listed for Autumn 2027\\. The other universities mentioned above are relevant master's options in this guide. Their bachelor's programmes may be taught in Swedish or have different degree titles. Always check the language of instruction and current programme availability.",
-          "img_var": "null"
+          "desc": "**Master's:** Chalmers offers an MSc in Computer Science, with subjects including computational logic, algorithms, formal methods and reliable software. The university also offers an MSc in Computing Systems, with specialisation opportunities in high-performance computing, distributed systems, networks and cybersecurity. **Location:** Gothenburg, Sweden  **Important programme distinction:** The University of Gothenburg has an English-taught bachelor's option in Computer Science and AI listed for Autumn 2027\The other universities mentioned above are relevant master's options in this guide. Their bachelor's programmes may be taught in Swedish or have different degree titles. Always check the language of instruction and current programme availability.",
+          "image": uniImg3, "img": uniImg3
         }
       ],
       "note": [
@@ -569,25 +574,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. University of Gothenburg",
-      "location": "\\. University of Gothenburg, Sweden",
+      "name": "\University of Gothenburg",
+      "location": "\University of Gothenburg, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "**Bachelor's:** The university offers a Computer Science and AI bachelor's programme taught in English, with an Autumn 2027 start. The programme covers computer science and artificial intelligence. **Master's:** The university also offers an English-taught master's programme in Computer Science, allowing students to explore advanced computing subjects. **Location:** Gothenburg, Sweden **![][image1]**",
-      "img_var": "null"
+      "desc": "**Bachelor's:** The university offers a Computer Science and AI bachelor's programme taught in English, with an Autumn 2027 start. The programme covers computer science and artificial intelligence. **Master's:** The university also offers an English-taught master's programme in Computer Science, allowing students to explore advanced computing subjects. **Location:** Gothenburg, Sweden ",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. KTH Royal Institute of Technology",
-      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "name": "\KTH Royal Institute of Technology",
+      "location": "\KTH Royal Institute of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "**Master's:** KTH offers an MSc in Computer Science, covering advanced areas such as algorithms, artificial intelligence, computer security, networks, software technology and data science. KTH is a relevant option for graduates seeking in-depth technical knowledge and research-oriented projects. **Location:** Stockholm, Sweden **![][image2]**",
-      "img_var": "null"
+      "desc": "**Master's:** KTH offers an MSc in Computer Science, covering advanced areas such as algorithms, artificial intelligence, computer security, networks, software technology and data science. KTH is a relevant option for graduates seeking in-depth technical knowledge and research-oriented projects. **Location:** Stockholm, Sweden ",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Chalmers University of Technology",
-      "location": "\\. Chalmers University of Technology, Sweden",
+      "name": "\Chalmers University of Technology",
+      "location": "\Chalmers University of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "**Master's:** Chalmers offers an MSc in Computer Science, with subjects including computational logic, algorithms, formal methods and reliable software. The university also offers an MSc in Computing Systems, with specialisation opportunities in high-performance computing, distributed systems, networks and cybersecurity. **Location:** Gothenburg, Sweden **![][image3]** **Important programme distinction:** The University of Gothenburg has an English-taught bachelor's option in Computer Science and AI listed for Autumn 2027\\. The other universities mentioned above are relevant master's options in this guide. Their bachelor's programmes may be taught in Swedish or have different degree titles. Always check the language of instruction and current programme availability.",
-      "img_var": "null"
+      "desc": "**Master's:** Chalmers offers an MSc in Computer Science, with subjects including computational logic, algorithms, formal methods and reliable software. The university also offers an MSc in Computing Systems, with specialisation opportunities in high-performance computing, distributed systems, networks and cybersecurity. **Location:** Gothenburg, Sweden  **Important programme distinction:** The University of Gothenburg has an English-taught bachelor's option in Computer Science and AI listed for Autumn 2027\The other universities mentioned above are relevant master's options in this guide. Their bachelor's programmes may be taught in Swedish or have different degree titles. Always check the language of instruction and current programme availability.",
+      "image": uniImg3, "img": uniImg3
     }
   ],
   "faqs": [
@@ -614,14 +619,15 @@ const page = {
 export default function ComputerScienceSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

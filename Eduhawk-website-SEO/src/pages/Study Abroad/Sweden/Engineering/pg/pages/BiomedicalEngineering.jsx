@@ -7,6 +7,10 @@ import heroBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Bio
 import sideImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Biomedical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Biomedical/cta_bg.webp";
 import cmsData from "../../../../../../data/study_abroad/sweden/pg_biomedical-engineering.json";
+// University campus images
+import uniImg1 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Biomedical/image1.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Biomedical/image2.webp";
+
 
 const page = {
   "name": "Biomedical Engineering (PG)",
@@ -138,18 +142,18 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Biomedical Engineering (PG) in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. Chalmers University of Technology",
-          "location": "\\. Chalmers University of Technology, Sweden",
+          "name": "\Chalmers University of Technology",
+          "location": "\Chalmers University of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Chalmers offers a two-year MSc programme in Biomedical Engineering, taught in English. The programme includes specialisation opportunities in areas such as Neuroengineering and Sensor Technology, AI in Healthcare, and Clinical Innovation and Implementation. Students can study medical devices, biomedical signals, imaging, artificial intelligence and digital healthcare technologies. **Location:** Gothenburg **![][image1]**",
-          "img_var": "null"
+          "desc": "Chalmers offers a two-year MSc programme in Biomedical Engineering, taught in English. The programme includes specialisation opportunities in areas such as Neuroengineering and Sensor Technology, AI in Healthcare, and Clinical Innovation and Implementation. Students can study medical devices, biomedical signals, imaging, artificial intelligence and digital healthcare technologies. **Location:** Gothenburg ",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. KTH Royal Institute of Technology",
-          "location": "\\. KTH Royal Institute of Technology, Sweden",
+          "name": "\KTH Royal Institute of Technology",
+          "location": "\KTH Royal Institute of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "KTH offers a related MSc programme in Medical Engineering, which connects engineering methods with medical and healthcare applications. It may be suitable for students interested in medical technology, healthcare systems, instrumentation and engineering solutions to clinical challenges. **Location:** Stockholm **![][image2]** **Understanding the programme differences:** Chalmers offers a direct Biomedical Engineering programme, while KTH's Medical Engineering programme is a closely related alternative. Students should review the curriculum, specialisations and eligibility criteria before applying.",
-          "img_var": "null"
+          "desc": "KTH offers a related MSc programme in Medical Engineering, which connects engineering methods with medical and healthcare applications. It may be suitable for students interested in medical technology, healthcare systems, instrumentation and engineering solutions to clinical challenges. **Location:** Stockholm  **Understanding the programme differences:** Chalmers offers a direct Biomedical Engineering programme, while KTH's Medical Engineering programme is a closely related alternative. Students should review the curriculum, specialisations and eligibility criteria before applying.",
+          "image": uniImg2, "img": uniImg2
         }
       ],
       "note": [
@@ -491,18 +495,18 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. Chalmers University of Technology",
-      "location": "\\. Chalmers University of Technology, Sweden",
+      "name": "\Chalmers University of Technology",
+      "location": "\Chalmers University of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Chalmers offers a two-year MSc programme in Biomedical Engineering, taught in English. The programme includes specialisation opportunities in areas such as Neuroengineering and Sensor Technology, AI in Healthcare, and Clinical Innovation and Implementation. Students can study medical devices, biomedical signals, imaging, artificial intelligence and digital healthcare technologies. **Location:** Gothenburg **![][image1]**",
-      "img_var": "null"
+      "desc": "Chalmers offers a two-year MSc programme in Biomedical Engineering, taught in English. The programme includes specialisation opportunities in areas such as Neuroengineering and Sensor Technology, AI in Healthcare, and Clinical Innovation and Implementation. Students can study medical devices, biomedical signals, imaging, artificial intelligence and digital healthcare technologies. **Location:** Gothenburg ",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. KTH Royal Institute of Technology",
-      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "name": "\KTH Royal Institute of Technology",
+      "location": "\KTH Royal Institute of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "KTH offers a related MSc programme in Medical Engineering, which connects engineering methods with medical and healthcare applications. It may be suitable for students interested in medical technology, healthcare systems, instrumentation and engineering solutions to clinical challenges. **Location:** Stockholm **![][image2]** **Understanding the programme differences:** Chalmers offers a direct Biomedical Engineering programme, while KTH's Medical Engineering programme is a closely related alternative. Students should review the curriculum, specialisations and eligibility criteria before applying.",
-      "img_var": "null"
+      "desc": "KTH offers a related MSc programme in Medical Engineering, which connects engineering methods with medical and healthcare applications. It may be suitable for students interested in medical technology, healthcare systems, instrumentation and engineering solutions to clinical challenges. **Location:** Stockholm  **Understanding the programme differences:** Chalmers offers a direct Biomedical Engineering programme, while KTH's Medical Engineering programme is a closely related alternative. Students should review the curriculum, specialisations and eligibility criteria before applying.",
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -529,14 +533,15 @@ const page = {
 export default function BiomedicalEngineeringPGSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

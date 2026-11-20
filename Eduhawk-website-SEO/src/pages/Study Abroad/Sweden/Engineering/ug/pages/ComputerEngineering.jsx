@@ -7,6 +7,11 @@ import heroBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Com
 import sideImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Computer/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Computer/cta_bg.webp";
 import cmsData from "../../../../../../data/study_abroad/sweden/ug_computer-engineering.json";
+// University campus images
+import uniImg1 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Computer/image1.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Computer/image2.webp";
+import uniImg3 from "../../../../../../Images/Abroad/Sweden/Engineering_UG/Computer/image3.webp";
+
 
 const page = {
   "name": "Computer Engineering (UG)",
@@ -126,25 +131,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Computer Engineering (UG) in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. KTH Royal Institute of Technology",
-          "location": "\\. KTH Royal Institute of Technology, Sweden",
+          "name": "\KTH Royal Institute of Technology",
+          "location": "\KTH Royal Institute of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "The KTH Information and Communication Technology (ICT) program is a three-year bachelor\u2019s program, taught in English, and worth 180 ECTS credits. Subjects include programming, electronics, computer science, mathematics, digital systems and communication technology. ![][image1]",
-          "img_var": "null"
+          "desc": "The KTH Information and Communication Technology (ICT) program is a three-year bachelor\u2019s program, taught in English, and worth 180 ECTS credits. Subjects include programming, electronics, computer science, mathematics, digital systems and communication technology. ",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Chalmers University of Technology",
-          "location": "\\. Chalmers University of Technology, Sweden",
+          "name": "\Chalmers University of Technology",
+          "location": "\Chalmers University of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Chalmers is a well established technical university with education in electrical engineering, computer science and related areas. Most bachelor\u2019s programs are taught in Swedish so international students should read the language requirements carefully. ![][image2]",
-          "img_var": "null"
+          "desc": "Chalmers is a well established technical university with education in electrical engineering, computer science and related areas. Most bachelor\u2019s programs are taught in Swedish so international students should read the language requirements carefully. ",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Lule\u00e5 Tekniska Universitet",
-          "location": "\\. Lule\u00e5 Tekniska Universitet, Sweden",
+          "name": "\Lule\u00e5 Tekniska Universitet",
+          "location": "\Lule\u00e5 Tekniska Universitet, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Students can see what it has to offer in terms of engineering and computing.\u201d Find bachelor programs that match with computer engineering interests in the current course catalog and verify whether the program is taught in English or Swedish. ![][image3] Important: The KTH's English-taught ICT bachelor's program is a particularly interesting option for international students. The other universities listed are worth looking at for related studies, but you need to check their current program catalogs before assuming they offer an English-taught bachelor\u2019s in computer engineering. Find available programs through University Admissions in Sweden.",
-          "img_var": "null"
+          "desc": "Students can see what it has to offer in terms of engineering and computing.\u201d Find bachelor programs that match with computer engineering interests in the current course catalog and verify whether the program is taught in English or Swedish.  Important: The KTH's English-taught ICT bachelor's program is a particularly interesting option for international students. The other universities listed are worth looking at for related studies, but you need to check their current program catalogs before assuming they offer an English-taught bachelor\u2019s in computer engineering. Find available programs through University Admissions in Sweden.",
+          "image": uniImg3, "img": uniImg3
         }
       ],
       "note": [
@@ -295,7 +300,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "For KTH's program starting in autumn 2027, the first application round opens 16 October 2026\\. The application deadline is 15 January 2027\\. If you are not an EU applicant, we recommend applying in the first round to allow time for residence permit processing. See the official program page for the latest dates."
+            "For KTH's program starting in autumn 2027, the first application round opens 16 October 2026\The application deadline is 15 January 2027\If you are not an EU applicant, we recommend applying in the first round to allow time for residence permit processing. See the official program page for the latest dates."
           ]
         }
       ]
@@ -405,25 +410,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. KTH Royal Institute of Technology",
-      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "name": "\KTH Royal Institute of Technology",
+      "location": "\KTH Royal Institute of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "The KTH Information and Communication Technology (ICT) program is a three-year bachelor\u2019s program, taught in English, and worth 180 ECTS credits. Subjects include programming, electronics, computer science, mathematics, digital systems and communication technology. ![][image1]",
-      "img_var": "null"
+      "desc": "The KTH Information and Communication Technology (ICT) program is a three-year bachelor\u2019s program, taught in English, and worth 180 ECTS credits. Subjects include programming, electronics, computer science, mathematics, digital systems and communication technology. ",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Chalmers University of Technology",
-      "location": "\\. Chalmers University of Technology, Sweden",
+      "name": "\Chalmers University of Technology",
+      "location": "\Chalmers University of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Chalmers is a well established technical university with education in electrical engineering, computer science and related areas. Most bachelor\u2019s programs are taught in Swedish so international students should read the language requirements carefully. ![][image2]",
-      "img_var": "null"
+      "desc": "Chalmers is a well established technical university with education in electrical engineering, computer science and related areas. Most bachelor\u2019s programs are taught in Swedish so international students should read the language requirements carefully. ",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Lule\u00e5 Tekniska Universitet",
-      "location": "\\. Lule\u00e5 Tekniska Universitet, Sweden",
+      "name": "\Lule\u00e5 Tekniska Universitet",
+      "location": "\Lule\u00e5 Tekniska Universitet, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Students can see what it has to offer in terms of engineering and computing.\u201d Find bachelor programs that match with computer engineering interests in the current course catalog and verify whether the program is taught in English or Swedish. ![][image3] Important: The KTH's English-taught ICT bachelor's program is a particularly interesting option for international students. The other universities listed are worth looking at for related studies, but you need to check their current program catalogs before assuming they offer an English-taught bachelor\u2019s in computer engineering. Find available programs through University Admissions in Sweden.",
-      "img_var": "null"
+      "desc": "Students can see what it has to offer in terms of engineering and computing.\u201d Find bachelor programs that match with computer engineering interests in the current course catalog and verify whether the program is taught in English or Swedish.  Important: The KTH's English-taught ICT bachelor's program is a particularly interesting option for international students. The other universities listed are worth looking at for related studies, but you need to check their current program catalogs before assuming they offer an English-taught bachelor\u2019s in computer engineering. Find available programs through University Admissions in Sweden.",
+      "image": uniImg3, "img": uniImg3
     }
   ],
   "faqs": [
@@ -450,14 +455,15 @@ const page = {
 export default function ComputerEngineeringUGSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

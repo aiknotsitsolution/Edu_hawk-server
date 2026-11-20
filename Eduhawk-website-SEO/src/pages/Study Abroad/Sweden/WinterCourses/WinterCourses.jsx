@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/WinterCourses/hero_bg.we
 import sideImg from "../../../../Images/Abroad/Sweden/WinterCourses/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/WinterCourses/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/winter-courses.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/WinterCourses/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/WinterCourses/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/WinterCourses/image3.webp";
+
 
 const page = {
   "name": "Winter Courses",
@@ -157,25 +162,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Winter Courses in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. J\u00f6nk\u00f6ping University",
-          "location": "\\. J\u00f6nk\u00f6ping University, Sweden",
+          "name": "\J\u00f6nk\u00f6ping University",
+          "location": "\J\u00f6nk\u00f6ping University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "![][image1] J\u00f6nk\u00f6ping University's **Youth Winter School**, scheduled for **7\u201318 December 2026**, is designed for high-school students aged 16\u201318. The programme focuses on Swedish heritage, sustainability, innovation, English-language skills and cultural activities. It also includes a trip to Stockholm. Students should consult the university's official Winter School webpage or contact the organiser for current application arrangements, fees and availability.",
-          "img_var": "null"
+          "desc": " J\u00f6nk\u00f6ping University's **Youth Winter School**, scheduled for **7\u201318 December 2026**, is designed for high-school students aged 16\u201318. The programme focuses on Swedish heritage, sustainability, innovation, English-language skills and cultural activities. It also includes a trip to Stockholm. Students should consult the university's official Winter School webpage or contact the organiser for current application arrangements, fees and availability.",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Link\u00f6ping University",
-          "location": "\\. Link\u00f6ping University, Sweden",
+          "name": "\Link\u00f6ping University",
+          "location": "\Link\u00f6ping University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "![][image2] Link\u00f6ping University's **Winter Programme** runs during the winter period, with the 2026\u20132027 programme scheduled from **30 November 2026 to 24 January 2027**. It includes short courses in subjects such as: * International Business * Development Economics * Environmental Monitoring * Digitalisation * Financial Markets The programme is open to eligible exchange students nominated by their home universities. Independent applicants should check the official programme conditions before considering an application.",
-          "img_var": "null"
+          "desc": " Link\u00f6ping University's **Winter Programme** runs during the winter period, with the 2026\u20132027 programme scheduled from **30 November 2026 to 24 January 2027**. It includes short courses in subjects such as: * International Business * Development Economics * Environmental Monitoring * Digitalisation * Financial Markets The programme is open to eligible exchange students nominated by their home universities. Independent applicants should check the official programme conditions before considering an application.",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Lule\u00e5 University of Technology",
-          "location": "\\. Lule\u00e5 University of Technology, Sweden",
+          "name": "\Lule\u00e5 University of Technology",
+          "location": "\Lule\u00e5 University of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "![][image3] The **Arctic Winter School** explores subjects such as snow and ice, climate change, polar environments, innovation and cultural heritage. The Spring 2027 course is offered in English in Kiruna. However, the advertised application route is intended for eligible exchange students. Applicants should confirm the nomination requirements, course dates and participation arrangements with the university.",
-          "img_var": "null"
+          "desc": " The **Arctic Winter School** explores subjects such as snow and ice, climate change, polar environments, innovation and cultural heritage. The Spring 2027 course is offered in English in Kiruna. However, the advertised application route is intended for eligible exchange students. Applicants should confirm the nomination requirements, course dates and participation arrangements with the university.",
+          "image": uniImg3, "img": uniImg3
         }
       ],
       "note": [
@@ -471,25 +476,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. J\u00f6nk\u00f6ping University",
-      "location": "\\. J\u00f6nk\u00f6ping University, Sweden",
+      "name": "\J\u00f6nk\u00f6ping University",
+      "location": "\J\u00f6nk\u00f6ping University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "![][image1] J\u00f6nk\u00f6ping University's **Youth Winter School**, scheduled for **7\u201318 December 2026**, is designed for high-school students aged 16\u201318. The programme focuses on Swedish heritage, sustainability, innovation, English-language skills and cultural activities. It also includes a trip to Stockholm. Students should consult the university's official Winter School webpage or contact the organiser for current application arrangements, fees and availability.",
-      "img_var": "null"
+      "desc": " J\u00f6nk\u00f6ping University's **Youth Winter School**, scheduled for **7\u201318 December 2026**, is designed for high-school students aged 16\u201318. The programme focuses on Swedish heritage, sustainability, innovation, English-language skills and cultural activities. It also includes a trip to Stockholm. Students should consult the university's official Winter School webpage or contact the organiser for current application arrangements, fees and availability.",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Link\u00f6ping University",
-      "location": "\\. Link\u00f6ping University, Sweden",
+      "name": "\Link\u00f6ping University",
+      "location": "\Link\u00f6ping University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "![][image2] Link\u00f6ping University's **Winter Programme** runs during the winter period, with the 2026\u20132027 programme scheduled from **30 November 2026 to 24 January 2027**. It includes short courses in subjects such as: * International Business * Development Economics * Environmental Monitoring * Digitalisation * Financial Markets The programme is open to eligible exchange students nominated by their home universities. Independent applicants should check the official programme conditions before considering an application.",
-      "img_var": "null"
+      "desc": " Link\u00f6ping University's **Winter Programme** runs during the winter period, with the 2026\u20132027 programme scheduled from **30 November 2026 to 24 January 2027**. It includes short courses in subjects such as: * International Business * Development Economics * Environmental Monitoring * Digitalisation * Financial Markets The programme is open to eligible exchange students nominated by their home universities. Independent applicants should check the official programme conditions before considering an application.",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Lule\u00e5 University of Technology",
-      "location": "\\. Lule\u00e5 University of Technology, Sweden",
+      "name": "\Lule\u00e5 University of Technology",
+      "location": "\Lule\u00e5 University of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "![][image3] The **Arctic Winter School** explores subjects such as snow and ice, climate change, polar environments, innovation and cultural heritage. The Spring 2027 course is offered in English in Kiruna. However, the advertised application route is intended for eligible exchange students. Applicants should confirm the nomination requirements, course dates and participation arrangements with the university.",
-      "img_var": "null"
+      "desc": " The **Arctic Winter School** explores subjects such as snow and ice, climate change, polar environments, innovation and cultural heritage. The Spring 2027 course is offered in English in Kiruna. However, the advertised application route is intended for eligible exchange students. Applicants should confirm the nomination requirements, course dates and participation arrangements with the university.",
+      "image": uniImg3, "img": uniImg3
     }
   ],
   "faqs": [
@@ -516,14 +521,15 @@ const page = {
 export default function WinterCoursesSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

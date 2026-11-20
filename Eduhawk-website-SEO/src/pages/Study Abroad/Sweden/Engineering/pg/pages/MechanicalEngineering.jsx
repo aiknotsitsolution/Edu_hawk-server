@@ -7,6 +7,10 @@ import heroBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Mec
 import sideImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Mechanical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Mechanical/cta_bg.webp";
 import cmsData from "../../../../../../data/study_abroad/sweden/pg_mechanical-engineering.json";
+// University campus images
+import uniImg1 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Mechanical/image1.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Mechanical/image2.webp";
+
 
 const page = {
   "name": "Mechanical Engineering (PG)",
@@ -76,35 +80,35 @@ const page = {
           "location": "Stockholm, Sweden",
           "fee": "SEK 140,000 \u2013 200,000 / Year",
           "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "KTH Royal Institute of Technology",
           "location": "Stockholm, Sweden",
           "fee": "SEK 120,000 \u2013 160,000 / Year",
           "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Lund University",
           "location": "Lund, Sweden",
           "fee": "SEK 90,000 \u2013 150,000 / Year",
           "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "Uppsala University",
           "location": "Uppsala, Sweden",
           "fee": "SEK 90,000 \u2013 145,000 / Year",
           "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Chalmers University of Technology",
           "location": "Gothenburg, Sweden",
           "fee": "SEK 130,000 \u2013 170,000 / Year",
           "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -139,35 +143,35 @@ const page = {
           "location": "Stockholm, Sweden",
           "fee": "SEK 140,000 \u2013 200,000 / Year",
           "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "KTH Royal Institute of Technology",
           "location": "Stockholm, Sweden",
           "fee": "SEK 120,000 \u2013 160,000 / Year",
           "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "Lund University",
           "location": "Lund, Sweden",
           "fee": "SEK 90,000 \u2013 150,000 / Year",
           "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Uppsala University",
           "location": "Uppsala, Sweden",
           "fee": "SEK 90,000 \u2013 145,000 / Year",
           "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "Chalmers University of Technology",
           "location": "Gothenburg, Sweden",
           "fee": "SEK 130,000 \u2013 170,000 / Year",
           "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         }
       ],
       "note": [
@@ -206,35 +210,35 @@ const page = {
           "location": "Stockholm, Sweden",
           "fee": "SEK 140,000 \u2013 200,000 / Year",
           "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "KTH Royal Institute of Technology",
           "location": "Stockholm, Sweden",
           "fee": "SEK 120,000 \u2013 160,000 / Year",
           "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Lund University",
           "location": "Lund, Sweden",
           "fee": "SEK 90,000 \u2013 150,000 / Year",
           "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "Uppsala University",
           "location": "Uppsala, Sweden",
           "fee": "SEK 90,000 \u2013 145,000 / Year",
           "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "Chalmers University of Technology",
           "location": "Gothenburg, Sweden",
           "fee": "SEK 130,000 \u2013 170,000 / Year",
           "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -335,7 +339,7 @@ const page = {
             "KTH lists SEK 385,000 as the full tuition fee for most two-year master\u2019s programmes where both years are spent at KTH, although individual programme fees may differ.",
             "Students should budget separately for living costs and explore university scholarships or other funding opportunities. Always verify the exact tuition fee for the intended programme and intake.",
             "Applicants planning a **Master\u2019s in Mechanical Engineering in Sweden** should consider tuition fees, accommodation, food, transportation, and other living expenses while preparing their study budget.",
-            "**7\\. Sweden Master\u2019s in Mechanical Engineering Admission Process**",
+            "**7\Sweden Master\u2019s in Mechanical Engineering Admission Process**",
             "A typical application process consists of the following steps:"
           ]
         },
@@ -356,10 +360,10 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The main international application period for Autumn 2027 entry runs from 15 January 2027 to 16 October 2026\\. The deadline for supporting documents and the application fee is 1 February 2027\\. Admission results are scheduled for 1 April 2027\\.",
+            "The main international application period for Autumn 2027 entry runs from 15 January 2027 to 16 October 2026\The deadline for supporting documents and the application fee is 1 February 2027\Admission results are scheduled for 1 April 2027\\.",
             "Official application portal: University Admissions Sweden",
             "Those who wish to apply for Mechanical Engineering in Sweden should carefully follow the official application instructions and deadlines to be considered for admission.",
-            "**8\\. Additional Studies and Professional Development**",
+            "**8\Additional Studies and Professional Development**",
             "After earning a Master\u2019s degree in mechanical engineering in Sweden, graduates can either continue with further research or specialize in certain technical areas.",
             "Possible paths include:"
           ]
@@ -380,7 +384,7 @@ const page = {
           "t": "p",
           "items": [
             "You can enhance your professional skills by gaining expertise in CAD, finite element analysis, computational fluid dynamics, automation and project management.",
-            "**9\\. Career and Salary Opportunities**",
+            "**9\Career and Salary Opportunities**",
             "Graduates with a Master\u2019s in Mechanical Engineering in Sweden can work in manufacturing, automotive, aerospace, energy, industrial technology, and product development.",
             "Positions possible include:"
           ]
@@ -400,7 +404,7 @@ const page = {
           "t": "p",
           "items": [
             "The pay and job opportunities depend on the level of experience, technical skills, location, the employer and the fluency in the language. Practical projects, internships and knowledge of specialist software can enhance your chances of getting a job. There may also be some local positions that benefit from skills in the Swedish language.",
-            "**10\\. Necessary Admission Documents**",
+            "**10\Necessary Admission Documents**",
             "Depending on the university and program, applicants may need the following documents:"
           ]
         },
@@ -433,35 +437,35 @@ const page = {
       "location": "Stockholm, Sweden",
       "fee": "SEK 140,000 \u2013 200,000 / Year",
       "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-      "img_var": "null"
+      "image": uniImg2, "img": uniImg2
     },
     {
       "name": "KTH Royal Institute of Technology",
       "location": "Stockholm, Sweden",
       "fee": "SEK 120,000 \u2013 160,000 / Year",
       "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-      "img_var": "null"
+      "image": uniImg1, "img": uniImg1
     },
     {
       "name": "Lund University",
       "location": "Lund, Sweden",
       "fee": "SEK 90,000 \u2013 150,000 / Year",
       "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-      "img_var": "null"
+      "image": uniImg2, "img": uniImg2
     },
     {
       "name": "Uppsala University",
       "location": "Uppsala, Sweden",
       "fee": "SEK 90,000 \u2013 145,000 / Year",
       "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-      "img_var": "null"
+      "image": uniImg1, "img": uniImg1
     },
     {
       "name": "Chalmers University of Technology",
       "location": "Gothenburg, Sweden",
       "fee": "SEK 130,000 \u2013 170,000 / Year",
       "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-      "img_var": "null"
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -488,14 +492,15 @@ const page = {
 export default function MechanicalEngineeringPGSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

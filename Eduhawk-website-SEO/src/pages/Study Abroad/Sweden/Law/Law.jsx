@@ -7,6 +7,12 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/Law/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Sweden/Law/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/Law/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/law.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/Law/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/Law/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/Law/image3.webp";
+import uniImg4 from "../../../../Images/Abroad/Sweden/Law/image4.webp";
+
 
 const page = {
   "name": "Law",
@@ -155,25 +161,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Law in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. Uppsala University",
-          "location": "\\. Uppsala University, Sweden",
+          "name": "\Uppsala University",
+          "location": "\Uppsala University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Uppsala University offers a professional Law Programme worth 270 credits, normally completed over 4.5 years. The programme is taught in Swedish, so applicants must meet the required Swedish-language proficiency. ![][image1] The university also offers the **Master's Programme in Investment Treaty Arbitration**, an English-taught postgraduate programme for eligible law graduates. It focuses on international investment law and the resolution of investment disputes.",
-          "img_var": "null"
+          "desc": "Uppsala University offers a professional Law Programme worth 270 credits, normally completed over 4.5 years. The programme is taught in Swedish, so applicants must meet the required Swedish-language proficiency.  The university also offers the **Master's Programme in Investment Treaty Arbitration**, an English-taught postgraduate programme for eligible law graduates. It focuses on international investment law and the resolution of investment disputes.",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Stockholm University",
-          "location": "\\. Stockholm University, Sweden",
+          "name": "\Stockholm University",
+          "location": "\Stockholm University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Stockholm University offers specialised English-taught master's programmes, including: * LL.M. in International Commercial Arbitration Law * LL.M. in European Intellectual Property Law ![][image2] These programmes are designed for students with a qualifying legal education who want to develop specialist knowledge in international commercial disputes or intellectual property law.",
-          "img_var": "null"
+          "desc": "Stockholm University offers specialised English-taught master's programmes, including: * LL.M. in International Commercial Arbitration Law * LL.M. in European Intellectual Property Law  These programmes are designed for students with a qualifying legal education who want to develop specialist knowledge in international commercial disputes or intellectual property law.",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Swedish Defence University",
-          "location": "\\. Swedish Defence University, Sweden",
+          "name": "\Swedish Defence University",
+          "location": "\Swedish Defence University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "The Swedish Defence University offers a one-year **Master's Programme in International Operational Law**. It covers international law relating to armed conflict, military operations, human rights and peace operations. Applicants must hold a relevant legal qualification and satisfy the programme-specific academic and admission requirements. ![][image3] **Important:** Programme availability, admission criteria, teaching language and tuition fees can change. Always confirm the latest information through the official university programme pages.",
-          "img_var": "null"
+          "desc": "The Swedish Defence University offers a one-year **Master's Programme in International Operational Law**. It covers international law relating to armed conflict, military operations, human rights and peace operations. Applicants must hold a relevant legal qualification and satisfy the programme-specific academic and admission requirements.  **Important:** Programme availability, admission criteria, teaching language and tuition fees can change. Always confirm the latest information through the official university programme pages.",
+          "image": uniImg3, "img": uniImg3
         }
       ],
       "note": [
@@ -490,25 +496,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. Uppsala University",
-      "location": "\\. Uppsala University, Sweden",
+      "name": "\Uppsala University",
+      "location": "\Uppsala University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Uppsala University offers a professional Law Programme worth 270 credits, normally completed over 4.5 years. The programme is taught in Swedish, so applicants must meet the required Swedish-language proficiency. ![][image1] The university also offers the **Master's Programme in Investment Treaty Arbitration**, an English-taught postgraduate programme for eligible law graduates. It focuses on international investment law and the resolution of investment disputes.",
-      "img_var": "null"
+      "desc": "Uppsala University offers a professional Law Programme worth 270 credits, normally completed over 4.5 years. The programme is taught in Swedish, so applicants must meet the required Swedish-language proficiency.  The university also offers the **Master's Programme in Investment Treaty Arbitration**, an English-taught postgraduate programme for eligible law graduates. It focuses on international investment law and the resolution of investment disputes.",
+      "image": uniImg4, "img": uniImg4
     },
     {
-      "name": "\\. Stockholm University",
-      "location": "\\. Stockholm University, Sweden",
+      "name": "\Stockholm University",
+      "location": "\Stockholm University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Stockholm University offers specialised English-taught master's programmes, including: * LL.M. in International Commercial Arbitration Law * LL.M. in European Intellectual Property Law ![][image2] These programmes are designed for students with a qualifying legal education who want to develop specialist knowledge in international commercial disputes or intellectual property law.",
-      "img_var": "null"
+      "desc": "Stockholm University offers specialised English-taught master's programmes, including: * LL.M. in International Commercial Arbitration Law * LL.M. in European Intellectual Property Law  These programmes are designed for students with a qualifying legal education who want to develop specialist knowledge in international commercial disputes or intellectual property law.",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Swedish Defence University",
-      "location": "\\. Swedish Defence University, Sweden",
+      "name": "\Swedish Defence University",
+      "location": "\Swedish Defence University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "The Swedish Defence University offers a one-year **Master's Programme in International Operational Law**. It covers international law relating to armed conflict, military operations, human rights and peace operations. Applicants must hold a relevant legal qualification and satisfy the programme-specific academic and admission requirements. ![][image3] **Important:** Programme availability, admission criteria, teaching language and tuition fees can change. Always confirm the latest information through the official university programme pages.",
-      "img_var": "null"
+      "desc": "The Swedish Defence University offers a one-year **Master's Programme in International Operational Law**. It covers international law relating to armed conflict, military operations, human rights and peace operations. Applicants must hold a relevant legal qualification and satisfy the programme-specific academic and admission requirements.  **Important:** Programme availability, admission criteria, teaching language and tuition fees can change. Always confirm the latest information through the official university programme pages.",
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -535,14 +541,15 @@ const page = {
 export default function LawSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

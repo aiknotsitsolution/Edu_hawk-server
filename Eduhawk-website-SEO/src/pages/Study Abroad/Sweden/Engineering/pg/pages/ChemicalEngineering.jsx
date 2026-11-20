@@ -7,6 +7,10 @@ import heroBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Che
 import sideImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Chemical/side.webp";
 import ctaBgImg from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Chemical/cta_bg.webp";
 import cmsData from "../../../../../../data/study_abroad/sweden/pg_chemical-engineering.json";
+// University campus images
+import uniImg1 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Chemical/image1.webp";
+import uniImg2 from "../../../../../../Images/Abroad/Sweden/Engineering_PG/Chemical/image2.webp";
+
 
 const page = {
   "name": "Chemical Engineering (PG)",
@@ -136,25 +140,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Chemical Engineering (PG) in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. KTH Royal Institute of Technology",
-          "location": "\\. KTH Royal Institute of Technology, Sweden",
+          "name": "\KTH Royal Institute of Technology",
+          "location": "\KTH Royal Institute of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "KTH offers an **MSc in Chemical Engineering for Energy and Environment**, taught in English. The programme focuses on industrial process design, sustainable energy, emissions reduction and circular resource flows. It is a two-year programme leading to a Master of Science degree. **![][image1]**",
-          "img_var": "null"
+          "desc": "KTH offers an **MSc in Chemical Engineering for Energy and Environment**, taught in English. The programme focuses on industrial process design, sustainable energy, emissions reduction and circular resource flows. It is a two-year programme leading to a Master of Science degree. ",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Chalmers University of Technology",
-          "location": "\\. Chalmers University of Technology, Sweden",
+          "name": "\Chalmers University of Technology",
+          "location": "\Chalmers University of Technology, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Chalmers offers **Innovative and Sustainable Chemical Engineering**, a two-year master's programme taught in English. The programme explores efficient chemical processes, sustainable production, recycling, renewable fuels and industrial resource management. **Location:** Gothenburg, Sweden **![][image2]**",
-          "img_var": "null"
+          "desc": "Chalmers offers **Innovative and Sustainable Chemical Engineering**, a two-year master's programme taught in English. The programme explores efficient chemical processes, sustainable production, recycling, renewable fuels and industrial resource management. **Location:** Gothenburg, Sweden ",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. Lund University",
-          "location": "\\. Lund University, Sweden",
+          "name": "\Lund University",
+          "location": "\Lund University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Students can explore related postgraduate opportunities in chemical sciences, process-related research, materials and sustainability. Applicants should consult the current programme catalogue to confirm the exact degree title, course structure and entry requirements for their intended intake. **![][image3]** **Important Note:** Among the universities listed above, KTH and Chalmers are the most directly relevant options for chemical engineering. Lund University and Link\u00f6ping University are alternatives for related specializations and should not automatically be considered providers of a degree specifically titled Chemical Engineering. These institutions are worth exploring when comparing the **Best Universities for Chemical Engineering in Sweden**. Always verify programme availability and degree titles through official university websites.",
-          "img_var": "null"
+          "desc": "Students can explore related postgraduate opportunities in chemical sciences, process-related research, materials and sustainability. Applicants should consult the current programme catalogue to confirm the exact degree title, course structure and entry requirements for their intended intake.  **Important Note:** Among the universities listed above, KTH and Chalmers are the most directly relevant options for chemical engineering. Lund University and Link\u00f6ping University are alternatives for related specializations and should not automatically be considered providers of a degree specifically titled Chemical Engineering. These institutions are worth exploring when comparing the **Best Universities for Chemical Engineering in Sweden**. Always verify programme availability and degree titles through official university websites.",
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -217,7 +221,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Most English-taught master's programmes require English proficiency equivalent to Swedish English 6\\. Universities may accept recognized English-language tests with specified minimum scores and other conditions.",
+            "Most English-taught master's programmes require English proficiency equivalent to Swedish English 6\Universities may accept recognized English-language tests with specified minimum scores and other conditions.",
             "Students should carefully check the **Chemical Engineering Admission Requirements in Sweden** before applying because academic prerequisites and English-language requirements vary between programmes."
           ]
         }
@@ -425,25 +429,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. KTH Royal Institute of Technology",
-      "location": "\\. KTH Royal Institute of Technology, Sweden",
+      "name": "\KTH Royal Institute of Technology",
+      "location": "\KTH Royal Institute of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "KTH offers an **MSc in Chemical Engineering for Energy and Environment**, taught in English. The programme focuses on industrial process design, sustainable energy, emissions reduction and circular resource flows. It is a two-year programme leading to a Master of Science degree. **![][image1]**",
-      "img_var": "null"
+      "desc": "KTH offers an **MSc in Chemical Engineering for Energy and Environment**, taught in English. The programme focuses on industrial process design, sustainable energy, emissions reduction and circular resource flows. It is a two-year programme leading to a Master of Science degree. ",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Chalmers University of Technology",
-      "location": "\\. Chalmers University of Technology, Sweden",
+      "name": "\Chalmers University of Technology",
+      "location": "\Chalmers University of Technology, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Chalmers offers **Innovative and Sustainable Chemical Engineering**, a two-year master's programme taught in English. The programme explores efficient chemical processes, sustainable production, recycling, renewable fuels and industrial resource management. **Location:** Gothenburg, Sweden **![][image2]**",
-      "img_var": "null"
+      "desc": "Chalmers offers **Innovative and Sustainable Chemical Engineering**, a two-year master's programme taught in English. The programme explores efficient chemical processes, sustainable production, recycling, renewable fuels and industrial resource management. **Location:** Gothenburg, Sweden ",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Lund University",
-      "location": "\\. Lund University, Sweden",
+      "name": "\Lund University",
+      "location": "\Lund University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Students can explore related postgraduate opportunities in chemical sciences, process-related research, materials and sustainability. Applicants should consult the current programme catalogue to confirm the exact degree title, course structure and entry requirements for their intended intake. **![][image3]** **Important Note:** Among the universities listed above, KTH and Chalmers are the most directly relevant options for chemical engineering. Lund University and Link\u00f6ping University are alternatives for related specializations and should not automatically be considered providers of a degree specifically titled Chemical Engineering. These institutions are worth exploring when comparing the **Best Universities for Chemical Engineering in Sweden**. Always verify programme availability and degree titles through official university websites.",
-      "img_var": "null"
+      "desc": "Students can explore related postgraduate opportunities in chemical sciences, process-related research, materials and sustainability. Applicants should consult the current programme catalogue to confirm the exact degree title, course structure and entry requirements for their intended intake.  **Important Note:** Among the universities listed above, KTH and Chalmers are the most directly relevant options for chemical engineering. Lund University and Link\u00f6ping University are alternatives for related specializations and should not automatically be considered providers of a degree specifically titled Chemical Engineering. These institutions are worth exploring when comparing the **Best Universities for Chemical Engineering in Sweden**. Always verify programme availability and degree titles through official university websites.",
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -470,14 +474,15 @@ const page = {
 export default function ChemicalEngineeringPGSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

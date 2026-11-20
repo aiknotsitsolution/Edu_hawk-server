@@ -7,6 +7,10 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/BusinessManagement/hero_
 import sideImg from "../../../../Images/Abroad/Sweden/BusinessManagement/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/BusinessManagement/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/business-management.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/BusinessManagement/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/BusinessManagement/image2.webp";
+
 
 const page = {
   "name": "Business Management",
@@ -148,25 +152,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Business Management in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. University of Gothenburg",
-          "location": "\\. University of Gothenburg, Sweden",
+          "name": "\University of Gothenburg",
+          "location": "\University of Gothenburg, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "The University of Gothenburg offers a **Bachelor of Science in Business and Economics** and a **Master of Science in Management**. The master's programme is taught in English and is listed for Autumn 2027\\. **Master's tuition fee:** SEK 194,000 for the complete programme for fee-paying students. **![][image1]**",
-          "img_var": "null"
+          "desc": "The University of Gothenburg offers a **Bachelor of Science in Business and Economics** and a **Master of Science in Management**. The master's programme is taught in English and is listed for Autumn 2027\**Master's tuition fee:** SEK 194,000 for the complete programme for fee-paying students. ",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Stockholm School of Economics",
-          "location": "\\. Stockholm School of Economics, Sweden",
+          "name": "\Stockholm School of Economics",
+          "location": "\Stockholm School of Economics, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "The Stockholm School of Economics offers a three-year **Bachelor's Programme in Business and Economics**, taught entirely in English. It provides a foundation in business, economics, finance, innovation and entrepreneurship. * **![][image2]**",
-          "img_var": "null"
+          "desc": "The Stockholm School of Economics offers a three-year **Bachelor's Programme in Business and Economics**, taught entirely in English. It provides a foundation in business, economics, finance, innovation and entrepreneurship. * ",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. M\u00e4lardalen University",
-          "location": "\\. M\u00e4lardalen University, Sweden",
+          "name": "\M\u00e4lardalen University",
+          "location": "\M\u00e4lardalen University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "M\u00e4lardalen University offers an English-taught **Bachelor's Programme in International Business Management**, focusing on business administration in an international context. **![][image3]** Students comparing the **Best Universities for Business Management in Sweden** should check the exact degree title, programme language, specialisations, tuition fees and admission requirements for their intended intake.",
-          "img_var": "null"
+          "desc": "M\u00e4lardalen University offers an English-taught **Bachelor's Programme in International Business Management**, focusing on business administration in an international context.  Students comparing the **Best Universities for Business Management in Sweden** should check the exact degree title, programme language, specialisations, tuition fees and admission requirements for their intended intake.",
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -522,25 +526,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. University of Gothenburg",
-      "location": "\\. University of Gothenburg, Sweden",
+      "name": "\University of Gothenburg",
+      "location": "\University of Gothenburg, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "The University of Gothenburg offers a **Bachelor of Science in Business and Economics** and a **Master of Science in Management**. The master's programme is taught in English and is listed for Autumn 2027\\. **Master's tuition fee:** SEK 194,000 for the complete programme for fee-paying students. **![][image1]**",
-      "img_var": "null"
+      "desc": "The University of Gothenburg offers a **Bachelor of Science in Business and Economics** and a **Master of Science in Management**. The master's programme is taught in English and is listed for Autumn 2027\**Master's tuition fee:** SEK 194,000 for the complete programme for fee-paying students. ",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. Stockholm School of Economics",
-      "location": "\\. Stockholm School of Economics, Sweden",
+      "name": "\Stockholm School of Economics",
+      "location": "\Stockholm School of Economics, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "The Stockholm School of Economics offers a three-year **Bachelor's Programme in Business and Economics**, taught entirely in English. It provides a foundation in business, economics, finance, innovation and entrepreneurship. * **![][image2]**",
-      "img_var": "null"
+      "desc": "The Stockholm School of Economics offers a three-year **Bachelor's Programme in Business and Economics**, taught entirely in English. It provides a foundation in business, economics, finance, innovation and entrepreneurship. * ",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. M\u00e4lardalen University",
-      "location": "\\. M\u00e4lardalen University, Sweden",
+      "name": "\M\u00e4lardalen University",
+      "location": "\M\u00e4lardalen University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "M\u00e4lardalen University offers an English-taught **Bachelor's Programme in International Business Management**, focusing on business administration in an international context. **![][image3]** Students comparing the **Best Universities for Business Management in Sweden** should check the exact degree title, programme language, specialisations, tuition fees and admission requirements for their intended intake.",
-      "img_var": "null"
+      "desc": "M\u00e4lardalen University offers an English-taught **Bachelor's Programme in International Business Management**, focusing on business administration in an international context.  Students comparing the **Best Universities for Business Management in Sweden** should check the exact degree title, programme language, specialisations, tuition fees and admission requirements for their intended intake.",
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -567,14 +571,15 @@ const page = {
 export default function BusinessManagementSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

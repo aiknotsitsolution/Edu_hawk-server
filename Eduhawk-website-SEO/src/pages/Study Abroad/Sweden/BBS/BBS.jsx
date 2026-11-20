@@ -7,6 +7,11 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/BBS/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Sweden/BBS/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/BBS/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/bbs.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/BBS/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/BBS/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/BBS/image3.webp";
+
 
 const page = {
   "name": "BBS",
@@ -134,25 +139,25 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited BBS in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. University of Gothenburg (G\u00f6teborgs universitet)",
-          "location": "\\. University of Gothenburg (G\u00f6teborgs universitet), Sweden",
+          "name": "\University of Gothenburg (G\u00f6teborgs universitet)",
+          "location": "\University of Gothenburg (G\u00f6teborgs universitet), Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** Bachelor's Programme in Business and Economics * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 291,000 * **Approximate Tuition Fee:** \u20b927.65 lakh ![][image1] The programme covers areas such as business, economics, commercial law, and sustainability.",
-          "img_var": "null"
+          "desc": "* **Programme:** Bachelor's Programme in Business and Economics * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 291,000 * **Approximate Tuition Fee:** \u20b927.65 lakh  The programme covers areas such as business, economics, commercial law, and sustainability.",
+          "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "\\. Ume\u00e5 University",
-          "location": "\\. Ume\u00e5 University, Sweden",
+          "name": "\Ume\u00e5 University",
+          "location": "\Ume\u00e5 University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** International Business and Economics Programme * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 289,800 * **Approximate Tuition Fee:** \u20b927.53 lakh ![][image2] Students explore international business, economics, market analysis, and data visualisation.",
-          "img_var": "null"
+          "desc": "* **Programme:** International Business and Economics Programme * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 289,800 * **Approximate Tuition Fee:** \u20b927.53 lakh  Students explore international business, economics, market analysis, and data visualisation.",
+          "image": uniImg2, "img": uniImg2
         },
         {
-          "name": "\\. J\u00f6nk\u00f6ping University",
-          "location": "\\. J\u00f6nk\u00f6ping University, Sweden",
+          "name": "\J\u00f6nk\u00f6ping University",
+          "location": "\J\u00f6nk\u00f6ping University, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** Bachelor's Programme in International Management * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 360,000 * **Approximate Tuition Fee:** \u20b934.20 lakh ![][image3] The programme focuses on areas such as business administration, management, leadership, and international business.",
-          "img_var": "null"
+          "desc": "* **Programme:** Bachelor's Programme in International Management * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 360,000 * **Approximate Tuition Fee:** \u20b934.20 lakh  The programme focuses on areas such as business administration, management, leadership, and international business.",
+          "image": uniImg3, "img": uniImg3
         }
       ],
       "note": [
@@ -345,7 +350,7 @@ const page = {
           "items": [
             "These totals cover tuition and estimated living expenses only. They exclude airfare, residence permit fees, accommodation deposits, insurance where applicable, and other one-time expenses.",
             "Students should confirm the latest tuition fees and financial requirements before making their final university selection.",
-            "**7\\. How to get admission in Sweden BBS**",
+            "**7\How to get admission in Sweden BBS**",
             "Normally, students who want to apply to bachelor programs in the area of business can take the following steps:",
             "Select Your Program",
             "Compare International Management, Business and Economics and other Business degree programs. Check the curriculum, the university and the language of instruction.",
@@ -359,8 +364,8 @@ const page = {
             "Pay the application fee, if applicable, and make sure to submit all supporting documentation by the deadline.",
             "Organize Your Arrival",
             "Once you have been admitted, pay your tuition fees according to the instructions from the university and check the current requirements for a Swedish residence permit. Book accommodation and travel packing.",
-            "Application Period: Fall 2027 According to the dates given for this guide, the main international application round for the University of Gothenburg and Ume\u00e5 University opens on 16 October 2026 and closes on 15 January 2027\\. Applicants are encouraged to check the official program pages for updates and to confirm the deadline applicable to the program of their choice.",
-            "**8\\. Further Study After BBS**",
+            "Application Period: Fall 2027 According to the dates given for this guide, the main international application round for the University of Gothenburg and Ume\u00e5 University opens on 16 October 2026 and closes on 15 January 2027\Applicants are encouraged to check the official program pages for updates and to confirm the deadline applicable to the program of their choice.",
+            "**8\Further Study After BBS**",
             "Students with a relevant **business bachelor\u2019s degree** may also consider postgraduate programs in Sweden or other countries, depending on their academic background and eligibility.",
             "Further study options may include:"
           ]
@@ -380,7 +385,7 @@ const page = {
           "t": "p",
           "items": [
             "Admission may depend on the number of credits obtained for subjects studied at bachelor level, your academic performance, your proficiency in English as well as your professional experience for certain programs.",
-            "**9\\. BBS Job Opportunities in Sweden**",
+            "**9\BBS Job Opportunities in Sweden**",
             "A bachelor\u2019s degree in business can offer a foundation for career opportunities in many industries. Graduates may pursue careers in marketing, finance, sales, consulting, business development and operations.",
             "**Job Position**"
           ]
@@ -412,7 +417,7 @@ const page = {
           "items": [
             "Career prospects Practical experience, professional skills, internships, Swedish language skills where relevant and employer requirements.",
             "A degree does not guarantee that you will get a job or make a certain amount of money. Students are also advised to be aware of any applicable work and residence regulations before planning their careers in Sweden.",
-            "**10\\. Documents Required to Study BBS in Sweden**",
+            "**10\Documents Required to Study BBS in Sweden**",
             "For university admission and, where applicable, for the residence permit process thereafter, students should prepare the following documents:"
           ]
         },
@@ -433,20 +438,20 @@ const page = {
           "t": "p",
           "items": [
             "Always check the latest university and Swedish immigration instructions for the intake you are applying for.",
-            "**11\\. FAQ for Sweden BBS**",
-            "**1\\. BBS is based in Sweden?**",
+            "**11\FAQ for Sweden BBS**",
+            "**1\BBS is based in Sweden?**",
             "Some Swedish universities have similar bachelor programs under names like Business and Economics, International Business and International Management. The subject matter of these programs may be similar to that of a BBS, but the title of the degree may be different. Students are advised to check the official qualification before application.",
-            "**2\\. Do Indian students get to study BBS in Sweden in English?**",
+            "**2\Do Indian students get to study BBS in Sweden in English?**",
             "Yes. Several relevant business programs are taught in English at Swedish universities. But students have to check the language of instruction and meet the academic and English language requirements of the university they choose.",
-            "**3\\. What are the BBS tuition fees in Sweden?**",
+            "**3\What are the BBS tuition fees in Sweden?**",
             "The example programs selected in this guide have a total tuition fee of around SEK 289,800 to SEK 360,000 which is around \u20b927.53 lakh to \u20b934.20 lakh at the illustrative exchange rate.",
-            "**4\\. What is the cost of studying BBS in Sweden?**",
+            "**4\What is the cost of studying BBS in Sweden?**",
             "The total estimated budget of the selected three-year programs, including tuition and living expenses, is in the range of \u20b961.73 lakh to \u20b982.08 lakh. The real cost will depend on tuition fees, accommodation, lifestyle and exchange rates.",
-            "**5\\. Can I do a master\u2019s degree after BBS?**",
+            "**5\Can I do a master\u2019s degree after BBS?**",
             "Yes Students with a recognized bachelor\u2019s degree can apply for suitable master\u2019s programs, as long as they meet the necessary subject-credit, academic, and English language requirements.",
-            "**6\\. What is the duration of a business bachelor\u2019s degree in Sweden?**",
+            "**6\What is the duration of a business bachelor\u2019s degree in Sweden?**",
             "Most equivalent undergraduate business programs in Sweden are 3 years long and typically have 180 ECTS credits.",
-            "**7\\. Are there any scholarships for Indian students to study business in Sweden?**",
+            "**7\Are there any scholarships for Indian students to study business in Sweden?**",
             "Some Swedish universities offer scholarships for eligible international fee-paying students. Scholarship availability, eligibility and amounts vary by institution and intake. Students should visit the official university scholarship pages for current opportunities."
           ]
         }
@@ -455,25 +460,25 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. University of Gothenburg (G\u00f6teborgs universitet)",
-      "location": "\\. University of Gothenburg (G\u00f6teborgs universitet), Sweden",
+      "name": "\University of Gothenburg (G\u00f6teborgs universitet)",
+      "location": "\University of Gothenburg (G\u00f6teborgs universitet), Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** Bachelor's Programme in Business and Economics * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 291,000 * **Approximate Tuition Fee:** \u20b927.65 lakh ![][image1] The programme covers areas such as business, economics, commercial law, and sustainability.",
-      "img_var": "null"
+      "desc": "* **Programme:** Bachelor's Programme in Business and Economics * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 291,000 * **Approximate Tuition Fee:** \u20b927.65 lakh  The programme covers areas such as business, economics, commercial law, and sustainability.",
+      "image": uniImg1, "img": uniImg1
     },
     {
-      "name": "\\. Ume\u00e5 University",
-      "location": "\\. Ume\u00e5 University, Sweden",
+      "name": "\Ume\u00e5 University",
+      "location": "\Ume\u00e5 University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** International Business and Economics Programme * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 289,800 * **Approximate Tuition Fee:** \u20b927.53 lakh ![][image2] Students explore international business, economics, market analysis, and data visualisation.",
-      "img_var": "null"
+      "desc": "* **Programme:** International Business and Economics Programme * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 289,800 * **Approximate Tuition Fee:** \u20b927.53 lakh  Students explore international business, economics, market analysis, and data visualisation.",
+      "image": uniImg2, "img": uniImg2
     },
     {
-      "name": "\\. J\u00f6nk\u00f6ping University",
-      "location": "\\. J\u00f6nk\u00f6ping University, Sweden",
+      "name": "\J\u00f6nk\u00f6ping University",
+      "location": "\J\u00f6nk\u00f6ping University, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** Bachelor's Programme in International Management * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 360,000 * **Approximate Tuition Fee:** \u20b934.20 lakh ![][image3] The programme focuses on areas such as business administration, management, leadership, and international business.",
-      "img_var": "null"
+      "desc": "* **Programme:** Bachelor's Programme in International Management * **Duration:** 3 years * **Language of Instruction:** English * **Total Tuition Fee:** SEK 360,000 * **Approximate Tuition Fee:** \u20b934.20 lakh  The programme focuses on areas such as business administration, management, leadership, and international business.",
+      "image": uniImg3, "img": uniImg3
     }
   ],
   "faqs": [
@@ -500,14 +505,15 @@ const page = {
 export default function BBSSweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

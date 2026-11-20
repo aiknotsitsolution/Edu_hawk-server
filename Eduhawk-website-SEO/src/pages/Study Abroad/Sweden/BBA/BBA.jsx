@@ -8,6 +8,11 @@ import sideImg from "../../../../Images/Abroad/Sweden/BBA/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/BBA/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/bba.json";
 
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/BBA/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/BBA/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/BBA/image3.webp";
+
 const page = {
   "name": "BBA",
   "country": "Sweden",
@@ -26,18 +31,22 @@ const page = {
   "crumb": "BBA",
   "stats": [
     {
+      "value": "SEK 80K-150K",
       "val": "SEK 80K-150K",
       "label": "Tuition / Year"
     },
     {
+      "value": "Permitted",
       "val": "Permitted",
       "label": "Part-Time Work"
     },
     {
+      "value": "3-4 Years",
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
+      "value": "English",
       "val": "English",
       "label": "Medium of Study"
     }
@@ -66,157 +75,41 @@ const page = {
   ],
   "sections": [
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "However, the exact degree title BBA may not be offered at every Swedish university. There are similar options at undergraduate level under p...",
-      "lead": "Explore leading universities and institutions in Sweden offering accredited BBA in Sweden programmes, world-class research facilities, and international student support.",
-      "unis_data": [
-        {
-          "name": "Karolinska Institutet",
-          "location": "Stockholm, Sweden",
-          "fee": "SEK 140,000 \u2013 200,000 / Year",
-          "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
-        },
-        {
-          "name": "KTH Royal Institute of Technology",
-          "location": "Stockholm, Sweden",
-          "fee": "SEK 120,000 \u2013 160,000 / Year",
-          "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
-        },
-        {
-          "name": "Lund University",
-          "location": "Lund, Sweden",
-          "fee": "SEK 90,000 \u2013 150,000 / Year",
-          "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
-        },
-        {
-          "name": "Uppsala University",
-          "location": "Uppsala, Sweden",
-          "fee": "SEK 90,000 \u2013 145,000 / Year",
-          "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
-        },
-        {
-          "name": "Chalmers University of Technology",
-          "location": "Gothenburg, Sweden",
-          "fee": "SEK 130,000 \u2013 170,000 / Year",
-          "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
-        }
-      ],
-      "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "Universities in Sweden offer different tuition fees, program structures and admission requirements for students who wish to pursue a BBA. Th...",
-      "lead": "Explore leading universities and institutions in Sweden offering accredited BBA in Sweden programmes, world-class research facilities, and international student support.",
-      "unis_data": [
-        {
-          "name": "Karolinska Institutet",
-          "location": "Stockholm, Sweden",
-          "fee": "SEK 140,000 \u2013 200,000 / Year",
-          "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
-        },
-        {
-          "name": "KTH Royal Institute of Technology",
-          "location": "Stockholm, Sweden",
-          "fee": "SEK 120,000 \u2013 160,000 / Year",
-          "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
-        },
-        {
-          "name": "Lund University",
-          "location": "Lund, Sweden",
-          "fee": "SEK 90,000 \u2013 150,000 / Year",
-          "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
-        },
-        {
-          "name": "Uppsala University",
-          "location": "Uppsala, Sweden",
-          "fee": "SEK 90,000 \u2013 145,000 / Year",
-          "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
-        },
-        {
-          "name": "Chalmers University of Technology",
-          "location": "Gothenburg, Sweden",
-          "fee": "SEK 130,000 \u2013 170,000 / Year",
-          "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
-        }
-      ],
-      "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
-      ]
-    },
-    {
-      "slot": "fees",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "The main advantages are:",
+      "slot": "why",
+      "eyebrow": "Why Sweden",
+      "title": "Why Pursue a BBA in Sweden?",
       "groups": [
+        {
+          "t": "p",
+          "items": [
+            "Sweden is an excellent choice for students wishing to study business and management, with its international learning environment, practical approach to education and exposure to international business practices.",
+            "**The main advantages are:**"
+          ]
+        },
         {
           "t": "ul",
           "items": [
-            "## International Exposure: Gain knowledge about international trade, global markets, and business practices across countries.",
-            "## Practical Education: Develop analytical, communication, teamwork and problem solving abilities through academic projects and business-related assignments.",
-            "## English-Taught Programs: Discover a range of business degrees taught in English, provided you satisfy the language requirements of the university.",
-            "## Career Flexibility Prepare for careers in marketing, finance, consulting, sales, human resources, and management."
+            "**International Exposure:** Gain knowledge about international trade, global markets, and business practices across countries.",
+            "**Practical Education:** Develop analytical, communication, teamwork and problem solving abilities through academic projects and business-related assignments.",
+            "**English-Taught Programs:** Discover a range of business degrees taught in English, provided you satisfy the language requirements of the university.",
+            "**Career Flexibility:** Prepare for careers in marketing, finance, consulting, sales, human resources, and management.",
+            "**Further Education:** Depending on academic performance and entry requirements, graduates may progress to a master's degree in business, management, finance or a comparable field."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
-      "eyebrow": "Top Institutions",
-      "title": "Each university has its own subjects and specialties. Students should consult the official curriculum to understand the course structure bef...",
-      "lead": "Explore leading universities and institutions in Sweden offering accredited BBA in Sweden programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "slot": "courses",
+      "eyebrow": "Degrees & Pathways",
+      "title": "BBA Courses and Curriculum in Sweden",
+      "groups": [
         {
-          "name": "Karolinska Institutet",
-          "location": "Stockholm, Sweden",
-          "fee": "SEK 140,000 \u2013 200,000 / Year",
-          "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
-        },
-        {
-          "name": "KTH Royal Institute of Technology",
-          "location": "Stockholm, Sweden",
-          "fee": "SEK 120,000 \u2013 160,000 / Year",
-          "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
-        },
-        {
-          "name": "Lund University",
-          "location": "Lund, Sweden",
-          "fee": "SEK 90,000 \u2013 150,000 / Year",
-          "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
-        },
-        {
-          "name": "Uppsala University",
-          "location": "Uppsala, Sweden",
-          "fee": "SEK 90,000 \u2013 145,000 / Year",
-          "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
-        },
-        {
-          "name": "Chalmers University of Technology",
-          "location": "Gothenburg, Sweden",
-          "fee": "SEK 130,000 \u2013 170,000 / Year",
-          "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "t": "p",
+          "items": [
+            "A typical bachelor's degree in business in Sweden is worth 180 ECTS credits and takes three years to complete. Common subjects include Business Administration Principles, Corporate Finance, Marketing, Human Resources, International Business, Innovation & Entrepreneurship, and Strategic Management.",
+            "Each university has its own subjects and specialties. Students should consult the official curriculum to understand the course structure before choosing a program."
+          ]
         }
-      ],
-      "note": [
-        "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
     {
@@ -226,25 +119,28 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited BBA in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. University of Gothenburg",
-          "location": "\\. University of Gothenburg, Sweden",
-          "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** Bachelor's Programme in Business and Economics * **Duration:** 3 years * **Tuition Fee:** SEK 291,000 (approximately \u20b927.65 lakh) * **Application Period for Autumn 2027:** 16 October 2026 \u2013 15 January 2027 ![][image1] Students should check the official programme page for the language of instruction, eligibility requirements, and application details for their chosen intake.",
-          "img_var": "null"
+          "name": "University of Gothenburg",
+          "location": "Gothenburg, Sweden",
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "desc": "**Programme:** Bachelor's Programme in Business and Economics | **Duration:** 3 years | **Tuition Fee:** SEK 291,000. Students should check the official programme page for the language of instruction, eligibility requirements, and application details for their chosen intake.",
+          "image": uniImg1,
+          "img": uniImg1
         },
         {
-          "name": "\\. J\u00f6nk\u00f6ping University",
-          "location": "\\. J\u00f6nk\u00f6ping University, Sweden",
-          "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** Bachelor's Programme in International Management * **Duration:** 3 years * **Language:** English * **Total Tuition Fee:** SEK 360,000 (approximately \u20b934.20 lakh) * **Entry Requirements:** Applicants must meet the academic requirements, including the specified English, mathematics, and social studies prerequisites or accepted equivalents. ![][image2] J\u00f6nk\u00f6ping University's programme offers an international business and management focus. Applicants should check the official programme page for the relevant application route and deadlines.",
-          "img_var": "null"
+          "name": "Jönköping University",
+          "location": "Jönköping, Sweden",
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "desc": "**Programme:** Bachelor's Programme in International Management | **Duration:** 3 years | **Language:** English | **Total Tuition Fee:** SEK 360,000. Focuses on international business and management. Entry requirements include specified English and mathematics prerequisites.",
+          "image": uniImg2,
+          "img": uniImg2
         },
         {
-          "name": "\\. Ume\u00e5 University",
-          "location": "\\. Ume\u00e5 University, Sweden",
-          "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "* **Programme:** International Business and Economics Programme * **Duration:** 3 years * **Total Tuition Fee:** SEK 289,800 (approximately \u20b927.53 lakh) The curriculum combines areas of business administration and economics. Students should confirm the language of instruction and admission requirements for the intended intake. **![][image3]** **Important:** Students must carefully check the language of instruction. The programme listing may be in Swedish, so applicants seeking an English-taught degree should confirm this directly with the university. *Currency conversion is for illustration only, using SEK 1 \u2248 \u20b99.50. Programme availability, tuition fees, language of instruction, and admission requirements may change by intake. Always refer to the official university website for updated information.*",
-          "img_var": "null"
+          "name": "Umeå University",
+          "location": "Umeå, Sweden",
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "desc": "**Programme:** International Business and Economics Programme | **Duration:** 3 years | **Total Tuition Fee:** SEK 289,800. The curriculum combines business administration and economics, preparing students for international careers.",
+          "image": uniImg3,
+          "img": uniImg3
         }
       ],
       "note": [
@@ -554,25 +450,28 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. University of Gothenburg",
-      "location": "\\. University of Gothenburg, Sweden",
-      "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** Bachelor's Programme in Business and Economics * **Duration:** 3 years * **Tuition Fee:** SEK 291,000 (approximately \u20b927.65 lakh) * **Application Period for Autumn 2027:** 16 October 2026 \u2013 15 January 2027 ![][image1] Students should check the official programme page for the language of instruction, eligibility requirements, and application details for their chosen intake.",
-      "img_var": "null"
+      "name": "University of Gothenburg",
+      "location": "Gothenburg, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Programme:** Bachelor's Programme in Business and Economics | **Duration:** 3 years | **Tuition Fee:** SEK 291,000. Students should check the official programme page for the language of instruction, eligibility requirements, and application details for their chosen intake.",
+      "image": uniImg1,
+      "img": uniImg1
     },
     {
-      "name": "\\. J\u00f6nk\u00f6ping University",
-      "location": "\\. J\u00f6nk\u00f6ping University, Sweden",
-      "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** Bachelor's Programme in International Management * **Duration:** 3 years * **Language:** English * **Total Tuition Fee:** SEK 360,000 (approximately \u20b934.20 lakh) * **Entry Requirements:** Applicants must meet the academic requirements, including the specified English, mathematics, and social studies prerequisites or accepted equivalents. ![][image2] J\u00f6nk\u00f6ping University's programme offers an international business and management focus. Applicants should check the official programme page for the relevant application route and deadlines.",
-      "img_var": "null"
+      "name": "Jönköping University",
+      "location": "Jönköping, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Programme:** Bachelor's Programme in International Management | **Duration:** 3 years | **Language:** English | **Total Tuition Fee:** SEK 360,000. Focuses on international business and management. Entry requirements include specified English and mathematics prerequisites.",
+      "image": uniImg2,
+      "img": uniImg2
     },
     {
-      "name": "\\. Ume\u00e5 University",
-      "location": "\\. Ume\u00e5 University, Sweden",
-      "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "* **Programme:** International Business and Economics Programme * **Duration:** 3 years * **Total Tuition Fee:** SEK 289,800 (approximately \u20b927.53 lakh) The curriculum combines areas of business administration and economics. Students should confirm the language of instruction and admission requirements for the intended intake. **![][image3]** **Important:** Students must carefully check the language of instruction. The programme listing may be in Swedish, so applicants seeking an English-taught degree should confirm this directly with the university. *Currency conversion is for illustration only, using SEK 1 \u2248 \u20b99.50. Programme availability, tuition fees, language of instruction, and admission requirements may change by intake. Always refer to the official university website for updated information.*",
-      "img_var": "null"
+      "name": "Umeå University",
+      "location": "Umeå, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Programme:** International Business and Economics Programme | **Duration:** 3 years | **Total Tuition Fee:** SEK 289,800. The curriculum combines business administration and economics, preparing students for international careers.",
+      "image": uniImg3,
+      "img": uniImg3
     }
   ],
   "faqs": [
@@ -599,14 +498,15 @@ const page = {
 export default function BBASweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: "BBA",
+    introTitle: cmsData.hero?.title || page.introTitle || "BBA in Sweden for Indian Students",
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
-      .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
+      .filter(s => s.label && (s.value || s.val)).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

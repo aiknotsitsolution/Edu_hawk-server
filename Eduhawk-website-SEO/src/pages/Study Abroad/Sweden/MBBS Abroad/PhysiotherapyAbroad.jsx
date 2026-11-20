@@ -7,6 +7,12 @@ import heroBgImg from "../../../../Images/Abroad/Sweden/Physiotherapy/hero_bg.we
 import sideImg from "../../../../Images/Abroad/Sweden/Physiotherapy/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/Physiotherapy/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/physiotherapy.json";
+// University campus images
+import uniImg1 from "../../../../Images/Abroad/Sweden/Physiotherapy/image1.webp";
+import uniImg2 from "../../../../Images/Abroad/Sweden/Physiotherapy/image2.webp";
+import uniImg3 from "../../../../Images/Abroad/Sweden/Physiotherapy/image3.webp";
+import uniImg4 from "../../../../Images/Abroad/Sweden/Physiotherapy/image4.webp";
+
 
 const page = {
   "name": "Physiotherapy",
@@ -165,35 +171,35 @@ const page = {
           "location": "University College Copenhagen (KP), Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
           "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate academic education with practical training and clinical experience.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         },
         {
           "name": "VIA University College",
           "location": "VIA University College, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
           "desc": "VIA University College is a professional higher education institution that offers courses in healthcare and other fields. Future students should consult its current physiotherapy program details, language of instruction and admission criteria.",
-          "img_var": "null"
+          "image": uniImg2, "img": uniImg2
         },
         {
           "name": "University College Lillebaelt (UCL)",
           "location": "University College Lillebaelt (UCL), Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
           "desc": "University College Lillebaelt provides professional education within several areas of healthcare. Students wishing to study physiotherapy should check the current availability of programs and the requirements for international applicants.",
-          "img_var": "null"
+          "image": uniImg3, "img": uniImg3
         },
         {
           "name": "University of Southern Sweden (SDU)",
           "location": "University of Southern Sweden (SDU)",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
           "desc": "The University of Southern Sweden offers health-related education and research. Students interested in pursuing rehabilitation research, sports science or related postgraduate study should check the requirements of individual programs rather than assuming that a professional physiotherapy degree is available in English.",
-          "img_var": "null"
+          "image": uniImg4, "img": uniImg4
         },
         {
           "name": "How to Choose the Right Institution",
           "location": "How to Choose the Right Institution, Sweden",
           "fee": "SEK 90,000 \u2013 160,000 / Year",
           "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Sweden**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
-          "img_var": "null"
+          "image": uniImg1, "img": uniImg1
         }
       ],
       "note": [
@@ -456,35 +462,35 @@ const page = {
       "location": "University College Copenhagen (KP), Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
       "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate academic education with practical training and clinical experience.",
-      "img_var": "null"
+      "image": uniImg2, "img": uniImg2
     },
     {
       "name": "VIA University College",
       "location": "VIA University College, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
       "desc": "VIA University College is a professional higher education institution that offers courses in healthcare and other fields. Future students should consult its current physiotherapy program details, language of instruction and admission criteria.",
-      "img_var": "null"
+      "image": uniImg3, "img": uniImg3
     },
     {
       "name": "University College Lillebaelt (UCL)",
       "location": "University College Lillebaelt (UCL), Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
       "desc": "University College Lillebaelt provides professional education within several areas of healthcare. Students wishing to study physiotherapy should check the current availability of programs and the requirements for international applicants.",
-      "img_var": "null"
+      "image": uniImg4, "img": uniImg4
     },
     {
       "name": "University of Southern Sweden (SDU)",
       "location": "University of Southern Sweden (SDU)",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
       "desc": "The University of Southern Sweden offers health-related education and research. Students interested in pursuing rehabilitation research, sports science or related postgraduate study should check the requirements of individual programs rather than assuming that a professional physiotherapy degree is available in English.",
-      "img_var": "null"
+      "image": uniImg1, "img": uniImg1
     },
     {
       "name": "How to Choose the Right Institution",
       "location": "How to Choose the Right Institution, Sweden",
       "fee": "SEK 90,000 \u2013 160,000 / Year",
       "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Sweden**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
-      "img_var": "null"
+      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [
@@ -515,14 +521,15 @@ const page = {
 export default function PhysiotherapySweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: page.name,
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,
