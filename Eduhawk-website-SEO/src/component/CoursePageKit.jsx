@@ -3868,66 +3868,25 @@ export const EngineeringBranchPage = ({
 
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
-
-
-
             <div>
-
-
-
               <EhpHead
-
-
-
                 eyebrow="Who can apply"
-
-
-
                 title="Eligibility Requirements for Indian Students"
-
-
-
               />
-
-
-
               <Paragraphs
-
-
-
                 items={branch.eligibilityLead}
-
-
-
-                className="text-slate-500 text-[15px] leading-relaxed space-y-4 mb-5"
-
-
-
+                className="text-slate-500 text-[15px] leading-relaxed space-y-4"
               />
-
-
-
-              <CheckList items={branch.eligibility} />
-
-
-
             </div>
-
-
-
             <div className="lg:pt-6">
-
-
-
               <EligibilityCtaCard level={level} />
-
-
-
             </div>
-
-
-
           </div>
+          {branch.eligibility && branch.eligibility.length > 0 && (
+            <div className="mt-8">
+              <CheckList items={branch.eligibility} />
+            </div>
+          )}
 
 
 
@@ -5909,69 +5868,45 @@ export const AbroadCoursePage = ({
 
 
         if (s.slot === "eligibility") {
+          let topGroups = [];
+          let restGroups = [];
 
-
+          if (Array.isArray(s.groups) && s.groups.length > 0) {
+            if (s.groups.length > 1) {
+              topGroups = [s.groups[0]];
+              restGroups = s.groups.slice(1);
+            } else {
+              const g0 = s.groups[0];
+              if (g0 && Array.isArray(g0.items) && g0.items.length > 2) {
+                topGroups = [{ ...g0, items: g0.items.slice(0, 2) }];
+                restGroups = [{ ...g0, items: g0.items.slice(2) }];
+              } else {
+                topGroups = [g0];
+                restGroups = [];
+              }
+            }
+          }
 
           return (
-
-
-
             <section key={idx} className={"py-16 sm:py-20 " + shade} id="eligibility">
-
-
-
               <div className="max-w-6xl mx-auto px-6">
-
-
-
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
-
-
-
                   <div>
-
-
-
                     <EhpHead eyebrow={s.eyebrow} title={s.title} />
-
-
-
-                    <AbroadGroups groups={s.groups} />
-
-
-
+                    {topGroups.length > 0 && <AbroadGroups groups={topGroups} />}
                   </div>
-
-
-
                   <div className="lg:pt-6">
-
-
-
                     <EligibilityCtaCard level={page.level} />
-
-
-
                   </div>
-
-
-
                 </div>
-
-
-
+                {restGroups.length > 0 && (
+                  <div className="mt-8">
+                    <AbroadGroups groups={restGroups} />
+                  </div>
+                )}
               </div>
-
-
-
             </section>
-
-
-
           );
-
-
-
         }
 
 
