@@ -382,16 +382,12 @@ const Navbar = () => {
     { name: "Executive MBA", path: "executive-mba" },
     { name: "International Business", path: "international-business" },
     { name: "Marketing Management", path: "marketing-management" },
-    { name: "Finance & Accounting", path: "accounting-finance" },
   ];
 
   const getBusinessCoursesForCountry = (country) => {
-    // USA has both Marketing Management and Finance & Accounting
-    if (country === "USA") {
-      return businessCourses;
-    }
-    // UK, Canada, Australia, Germany, France, Ireland have Marketing Management, but NOT Finance & Accounting
+    // USA, UK, Canada, Australia, Germany, France, Ireland have Marketing Management
     if (
+      country === "USA" ||
       country === "UK" ||
       country === "Canada" ||
       country === "Australia" ||
@@ -399,12 +395,10 @@ const Navbar = () => {
       country === "France" ||
       country === "Ireland"
     ) {
-      return businessCourses.filter((c) => c.path !== "accounting-finance");
+      return businessCourses;
     }
-    // Italy, Spain, Finland and others have neither Marketing Management nor Finance & Accounting
-    return businessCourses.filter(
-      (c) => c.path !== "marketing-management" && c.path !== "accounting-finance"
-    );
+    // Italy, Spain, Finland and others do not have Marketing Management
+    return businessCourses.filter((c) => c.path !== "marketing-management");
   };
 
   const programsList = [
