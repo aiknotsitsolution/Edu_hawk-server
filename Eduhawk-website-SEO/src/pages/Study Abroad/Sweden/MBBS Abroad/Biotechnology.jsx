@@ -6,6 +6,14 @@ import heroImg from "../../../../Images/Abroad/Sweden/Biotechnology/hero.webp";
 import heroBgImg from "../../../../Images/Abroad/Sweden/Biotechnology/hero_bg.webp";
 import sideImg from "../../../../Images/Abroad/Sweden/Biotechnology/side.webp";
 import ctaBgImg from "../../../../Images/Abroad/Sweden/Biotechnology/cta_bg.webp";
+
+// University images
+import karolinskaImg from "../../../../Images/Abroad/Sweden/Biotechnology/karolinska.webp";
+import kthImg from "../../../../Images/Abroad/Sweden/Biotechnology/kth.webp";
+import lundImg from "../../../../Images/Abroad/Sweden/Biotechnology/lund.webp";
+import uppsalaImg from "../../../../Images/Abroad/Sweden/Biotechnology/uppsala.webp";
+import chalmersImg from "../../../../Images/Abroad/Sweden/Biotechnology/chalmers.webp";
+
 import cmsData from "../../../../data/study_abroad/sweden/biotechnology.json";
 
 const page = {
@@ -130,41 +138,46 @@ const page = {
       "eyebrow": "Top Institutions",
       "title": "Best Universities for Biotechnology in Sweden",
       "lead": "Explore leading universities and institutions in Sweden offering accredited Biotechnology in Sweden programmes, world-class research facilities, and international student support.",
-      "unis_data": [
+      "unis": [
         {
           "name": "Karolinska Institutet",
           "location": "Stockholm, Sweden",
           "fee": "SEK 140,000 \u2013 200,000 / Year",
           "desc": "One of the world's foremost medical universities and research centers, renowned for awarding the Nobel Prize in Physiology or Medicine.",
-          "img_var": "null"
+          "image": karolinskaImg,
+          "img": karolinskaImg
         },
         {
           "name": "KTH Royal Institute of Technology",
           "location": "Stockholm, Sweden",
           "fee": "SEK 120,000 \u2013 160,000 / Year",
           "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
-          "img_var": "null"
+          "image": kthImg,
+          "img": kthImg
         },
         {
           "name": "Lund University",
           "location": "Lund, Sweden",
           "fee": "SEK 90,000 \u2013 150,000 / Year",
           "desc": "Top-100 world university offering comprehensive programs in engineering, sciences, medicine, law, and economics.",
-          "img_var": "null"
+          "image": lundImg,
+          "img": lundImg
         },
         {
           "name": "Uppsala University",
           "location": "Uppsala, Sweden",
           "fee": "SEK 90,000 \u2013 145,000 / Year",
           "desc": "The oldest university in Sweden and the Nordic region, internationally acclaimed for scientific research, pharmacy, and humanities.",
-          "img_var": "null"
+          "image": uppsalaImg,
+          "img": uppsalaImg
         },
         {
           "name": "Chalmers University of Technology",
           "location": "Gothenburg, Sweden",
           "fee": "SEK 130,000 \u2013 170,000 / Year",
           "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
-          "img_var": "null"
+          "image": chalmersImg,
+          "img": chalmersImg
         }
       ],
       "note": [
@@ -489,6 +502,14 @@ const page = {
 };
 
 export default function BiotechnologySweden() {
+  const uniImages = {
+    "Karolinska Institutet": karolinskaImg,
+    "KTH Royal Institute of Technology": kthImg,
+    "Lund University": lundImg,
+    "Uppsala University": uppsalaImg,
+    "Chalmers University of Technology": chalmersImg,
+  };
+
   const dynamicPage = {
     ...page,
     name: cmsData.hero?.title || page.name,
@@ -513,6 +534,7 @@ export default function BiotechnologySweden() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
+      uniImages={uniImages}
       seoPath="/study-abroad/sweden/biotechnology"
     />
   );

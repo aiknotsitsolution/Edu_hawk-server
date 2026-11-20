@@ -29,13 +29,13 @@
   - [ ] Test edit karna (e.g. Russia MBBS fees ya title) aur "Publish" dabana
   - [ ] Verify karna ki `src/data/about.json` automatically update hui aur browser me hot-reload hua
 
-- [x] **Step 4: Extension to Other Pages (Incremental Rollout)**
+- [x] **Step 4: Extension to Other Pages (Complete 14-Country Rollout)**
   - [x] Home Page (`HeroSection.jsx`) content ko `src/data/home.json` me shift & decouple karna
   - [x] Master grouped CMS collections configure karna (Main Pages, USA, Finland, Tests & Exams, News, Blog)
   - [x] Sub-folder organized media folders setup karna (`public/uploads/{home,about,news,tests,study_abroad}`)
   - [x] Site-wide statistics unify karna (1000+ Students, 20+ Countries, 200+ Universities, 100% Support)
   - [x] Australia program (All 42 pages) Decap CMS collection, JSON data schema & upload directories integrate karna
-  - [ ] Remaining country programs (Canada, UK, Germany, Ireland, etc.) jaise hi content receive ho tab integrate karna
+  - [x] All 14 Study Abroad Country Programs (USA, Australia, Canada, UK, Germany, Ireland, France, Finland, Italy, Spain, Switzerland, Mauritius, Denmark, Sweden) decoupled under `src/data/study_abroad/<country>/` with structured JSON schema and WebP media directories under `public/uploads/study_abroad/<country>/`
 
 - [ ] **Step 5: Production GitHub OAuth & Deployment Setup**
   - [ ] GitHub Developer Settings me OAuth App create karna (Client ID & Secret)

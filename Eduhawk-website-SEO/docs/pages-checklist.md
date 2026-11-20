@@ -1,7 +1,7 @@
 # 📋 Edu-Hawk Website Pages Master Checklist
 
-> **Total Website Pages Listed:** `478 Pages`  
-> **Covered Countries:** `10 Countries` (USA, Australia, Canada, UK, Germany, Ireland, France, Finland, Other)  
+> **Total Website Pages Listed:** `680 Pages / Routes (591 Components)`  
+> **Covered Countries:** `14 Countries` (USA, Australia, Canada, UK, Germany, Ireland, France, Finland, Italy, Spain, Switzerland, Mauritius, Denmark, Sweden) (USA, Australia, Canada, UK, Germany, Ireland, France, Finland, Other)  
 > **Status:** In Progress (Page 001 Home ✔️, Page 002 About ✔️, Page 003 Services ✔️, Page 004 Contact ✔️, Page 005 Study Abroad ✔️, Page 006 Blog ✔️)  
 > **Purpose:** Use this checklist to mark verified, approved, or pending content pages.
 
@@ -11,21 +11,24 @@
 
 1. [Main & Core Website Pages (7)](#1-main--core-pages-7)
 2. [Medical Colleges / MBBS Abroad (16)](#2-medical-colleges--mbbs-abroad-by-country-16)
-3. [Study Abroad - USA (45)](#3-study-abroad---usa-45)
-4. [Study Abroad - Australia (45)](#4-study-abroad---australia-45)
-5. [Study Abroad - Canada (45)](#5-study-abroad---canada-45)
-6. [Study Abroad - UK (45)](#6-study-abroad---uk-45)
-7. [Study Abroad - Germany (45)](#7-study-abroad---germany-45)
-8. [Study Abroad - Ireland (45)](#8-study-abroad---ireland-45)
-9. [Study Abroad - France (45)](#9-study-abroad---france-45)
-10. [Study Abroad - Finland (45)](#10-study-abroad---finland-45)
-11. [Study Abroad - Italy (41)](#11-study-abroad---italy-41)
+3. [Study Abroad - USA (49)](#3-study-abroad---usa-45)
+4. [Study Abroad - Australia (42)](#4-study-abroad---australia-45)
+5. [Study Abroad - Canada (42)](#5-study-abroad---canada-45)
+6. [Study Abroad - UK (42)](#6-study-abroad---uk-45)
+7. [Study Abroad - Germany (42)](#7-study-abroad---germany-45)
+8. [Study Abroad - Ireland (42)](#8-study-abroad---ireland-45)
+9. [Study Abroad - France (42)](#9-study-abroad---france-45)
+10. [Study Abroad - Finland (50)](#10-study-abroad---finland-45)
+11. [Study Abroad - Italy (41)](#19-study-abroad--italy--41-pages)
 12. [Study Abroad - Spain (41)](#12-study-abroad---spain-41)
-11. [Study Abroad - Other (45)](#11-study-abroad---other-45)
-12. [Common Global Programs & Seasonal Hubs (4)](#12-common-global-programs--seasonal-hubs-4)
-13. [Global Fallback / Common Courses (43)](#13-global-fallback--common-courses-43)
-14. [Legal & Policy Pages (3)](#14-legal--policy-pages-3)
-15. [📊 Grand Total Summary](#-grand-total-summary)
+13. [Study Abroad - Denmark (41)](#15-study-abroad--denmark--41-pages)
+14. [Study Abroad - Sweden (41)](#16-study-abroad--sweden--41-pages)
+15. [Study Abroad - Switzerland (41)](#17-study-abroad--switzerland--41-pages)
+16. [Study Abroad - Mauritius (41)](#18-study-abroad--mauritius--41-pages)
+17. [Common Global Programs & Seasonal Hubs (4)](#12-common-global-programs--seasonal-hubs-4)
+18. [Global Fallback / Common Courses (43)](#13-global-fallback--common-courses-43)
+19. [Legal & Policy Pages (3)](#14-legal--policy-pages-3)
+20. [📊 Grand Total Summary](#-grand-total-summary)
 
 ---
 
@@ -879,23 +882,24 @@
 | :---: | :--- | :---: |
 | **1** | Main & Core Website Pages | `7` |
 | **2** | Medical Colleges (MBBS Abroad by Country) | `16` |
-| **3** | Study Abroad - USA 🇺🇸 | `45` |
-| **4** | Study Abroad - Australia 🇦🇺 | `45` |
-| **5** | Study Abroad - Canada 🇨🇦 | `45` |
-| **6** | Study Abroad - UK 🇬🇧 | `45` |
-| **7** | Study Abroad - Germany 🇩🇪 | `45` |
-| **8** | Study Abroad - Ireland 🇮🇪 | `45` |
-| **9** | Study Abroad - France 🇫🇷 | `42` ✔️ |
-| **10** | Study Abroad - Finland 🇫🇮 | `45` |
-| **11** | Study Abroad - Other 🌍 | `45` |
-| **12** | Common Global Programs & Seasonal Hubs | `4` |
-| **13** | Global Fallback / Common Courses (`/courses/`) | `43` |
-| **14** | Legal & Policy Pages | `3` |
-| **TOTAL** | **Grand Total Website Pages** | **`478 Pages`** |
-
----
-*Created for Edu-Hawk Worldwide Website Audit & Content Verification.*  
-*Note: Dedicated routes for USA and Finland are currently live and pre-rendered; remaining countries are mapped for full coverage audit.*
+| **3** | Study Abroad - USA 🇺🇸 | `49` |
+| **4** | Study Abroad - Finland 🇫🇮 | `50` |
+| **5** | Study Abroad - Australia 🇦🇺 | `42` |
+| **6** | Study Abroad - Canada 🇨🇦 | `42` |
+| **7** | Study Abroad - UK 🇬🇧 | `42` |
+| **8** | Study Abroad - Ireland 🇮🇪 | `42` |
+| **9** | Study Abroad - France 🇫🇷 | `42` |
+| **10** | Study Abroad - Germany 🇩🇪 | `42` |
+| **11** | Study Abroad - Italy 🇮🇹 | `41` |
+| **12** | Study Abroad - Spain 🇪🇸 | `41` |
+| **13** | Study Abroad - Denmark 🇩🇰 | `41` |
+| **14** | Study Abroad - Sweden 🇸🇪 | `41` |
+| **15** | Study Abroad - Switzerland 🇨🇭 | `41` |
+| **16** | Study Abroad - Mauritius 🇲🇺 | `41` |
+| **17** | Common Global Programs & Seasonal Hubs | `4` |
+| **18** | Global Fallback / Common Courses (`/courses/`) | `43` |
+| **19** | Legal & Policy Pages | `3` |
+| **TOTAL** | **Grand Total Website Pages / Routes** | **`680 Routes (591 Components)`** |
 
 ---
 
@@ -1040,3 +1044,236 @@
 | **IRE40** | 40 | ✔️ | Language Courses in Ireland | `/study-abroad/ireland/language-courses` |
 | **IRE41** | 41 | ✔️ | Summer Courses in Ireland | `/study-abroad/ireland/summer-courses` |
 | **IRE42** | 42 | ✔️ | Winter Courses in Ireland | `/study-abroad/ireland/winter-courses` |
+
+
+---
+
+## 15. Study Abroad — Denmark 🇩🇰 (41 Pages)
+
+| ID | # | Status | Page Name | Route Path |
+| :--- | :---: | :---: | :--- | :--- |
+| **DK01** | 1 | ✔️ | Dentistry in Denmark | `/study-abroad/denmark/dentistry` |
+| **DK02** | 2 | ✔️ | Biotechnology in Denmark | `/study-abroad/denmark/biotechnology` |
+| **DK03** | 3 | ✔️ | Nursing in Denmark | `/study-abroad/denmark/nursing` |
+| **DK04** | 4 | ✔️ | Pharmacy in Denmark | `/study-abroad/denmark/pharmacy` |
+| **DK05** | 5 | ✔️ | Physiotherapy in Denmark | `/study-abroad/denmark/physiotherapy` |
+| **DK06** | 6 | ✔️ | Public Health in Denmark | `/study-abroad/denmark/public-health` |
+| **DK07** | 7 | ✔️ | Undergraduate Engineering in Denmark | `/study-abroad/denmark/ug/engineering` |
+| **DK08** | 8 | ✔️ | BEng Aerospace Engineering in Denmark | `/study-abroad/denmark/ug/aerospace-engineering` |
+| **DK09** | 9 | ✔️ | BEng Automobile Engineering in Denmark | `/study-abroad/denmark/ug/automobile-engineering` |
+| **DK10** | 10 | ✔️ | BEng Biomedical Engineering in Denmark | `/study-abroad/denmark/ug/biomedical-engineering` |
+| **DK11** | 11 | ✔️ | BEng Chemical Engineering in Denmark | `/study-abroad/denmark/ug/chemical-engineering` |
+| **DK12** | 12 | ✔️ | BEng Civil Engineering in Denmark | `/study-abroad/denmark/ug/civil-engineering` |
+| **DK13** | 13 | ✔️ | BEng Computer Engineering in Denmark | `/study-abroad/denmark/ug/computer-engineering` |
+| **DK14** | 14 | ✔️ | BEng Electrical Engineering in Denmark | `/study-abroad/denmark/ug/electrical-engineering` |
+| **DK15** | 15 | ✔️ | BEng Electronics & Communication in Denmark | `/study-abroad/denmark/ug/electronics-communication` |
+| **DK16** | 16 | ✔️ | BEng Mechanical Engineering in Denmark | `/study-abroad/denmark/ug/mechanical-engineering` |
+| **DK17** | 17 | ✔️ | Postgraduate Engineering in Denmark | `/study-abroad/denmark/pg/engineering` |
+| **DK18** | 18 | ✔️ | MSc Aerospace Engineering in Denmark | `/study-abroad/denmark/pg/aerospace-engineering` |
+| **DK19** | 19 | ✔️ | MSc Automobile Engineering in Denmark | `/study-abroad/denmark/pg/automobile-engineering` |
+| **DK20** | 20 | ✔️ | MSc Biomedical Engineering in Denmark | `/study-abroad/denmark/pg/biomedical-engineering` |
+| **DK21** | 21 | ✔️ | MSc Chemical Engineering in Denmark | `/study-abroad/denmark/pg/chemical-engineering` |
+| **DK22** | 22 | ✔️ | MSc Civil Engineering in Denmark | `/study-abroad/denmark/pg/civil-engineering` |
+| **DK23** | 23 | ✔️ | MSc Computer Engineering in Denmark | `/study-abroad/denmark/pg/computer-engineering` |
+| **DK24** | 24 | ✔️ | MSc Electrical Engineering in Denmark | `/study-abroad/denmark/pg/electrical-engineering` |
+| **DK25** | 25 | ✔️ | MSc Electronics & Communication in Denmark | `/study-abroad/denmark/pg/electronics-communication` |
+| **DK26** | 26 | ✔️ | MSc Mechanical Engineering in Denmark | `/study-abroad/denmark/pg/mechanical-engineering` |
+| **DK27** | 27 | ✔️ | Computer Science in Denmark | `/study-abroad/denmark/computer-science` |
+| **DK28** | 28 | ✔️ | Information Technology in Denmark | `/study-abroad/denmark/information-technology` |
+| **DK29** | 29 | ✔️ | Business Management in Denmark | `/study-abroad/denmark/business-management` |
+| **DK30** | 30 | ✔️ | BBA in Denmark | `/study-abroad/denmark/bba` |
+| **DK31** | 31 | ✔️ | BBS in Denmark | `/study-abroad/denmark/bbs` |
+| **DK32** | 32 | ✔️ | MBA in Denmark | `/study-abroad/denmark/mba` |
+| **DK33** | 33 | ✔️ | MBS in Denmark | `/study-abroad/denmark/mbs` |
+| **DK34** | 34 | ✔️ | Executive MBA in Denmark | `/study-abroad/denmark/executive-mba` |
+| **DK35** | 35 | ✔️ | International Business in Denmark | `/study-abroad/denmark/international-business` |
+| **DK36** | 36 | ✔️ | Hospitality Management in Denmark | `/study-abroad/denmark/hospitality-management` |
+| **DK37** | 37 | ✔️ | Architecture in Denmark | `/study-abroad/denmark/architecture` |
+| **DK38** | 38 | ✔️ | Law in Denmark | `/study-abroad/denmark/law` |
+| **DK39** | 39 | ✔️ | Language Courses in Denmark | `/study-abroad/denmark/language-courses` |
+| **DK40** | 40 | ✔️ | Summer Courses in Denmark | `/study-abroad/denmark/summer-courses` |
+| **DK41** | 41 | ✔️ | Winter Courses in Denmark | `/study-abroad/denmark/winter-courses` |
+
+## 16. Study Abroad — Sweden 🇸🇪 (41 Pages)
+
+| ID | # | Status | Page Name | Route Path |
+| :--- | :---: | :---: | :--- | :--- |
+| **SE01** | 1 | ✔️ | Dentistry in Sweden | `/study-abroad/sweden/dentistry` |
+| **SE02** | 2 | ✔️ | Biotechnology in Sweden | `/study-abroad/sweden/biotechnology` |
+| **SE03** | 3 | ✔️ | Nursing in Sweden | `/study-abroad/sweden/nursing` |
+| **SE04** | 4 | ✔️ | Pharmacy in Sweden | `/study-abroad/sweden/pharmacy` |
+| **SE05** | 5 | ✔️ | Physiotherapy in Sweden | `/study-abroad/sweden/physiotherapy` |
+| **SE06** | 6 | ✔️ | Public Health in Sweden | `/study-abroad/sweden/public-health` |
+| **SE07** | 7 | ✔️ | Undergraduate Engineering in Sweden | `/study-abroad/sweden/ug/engineering` |
+| **SE08** | 8 | ✔️ | BEng Aerospace Engineering in Sweden | `/study-abroad/sweden/ug/aerospace-engineering` |
+| **SE09** | 9 | ✔️ | BEng Automobile Engineering in Sweden | `/study-abroad/sweden/ug/automobile-engineering` |
+| **SE10** | 10 | ✔️ | BEng Biomedical Engineering in Sweden | `/study-abroad/sweden/ug/biomedical-engineering` |
+| **SE11** | 11 | ✔️ | BEng Chemical Engineering in Sweden | `/study-abroad/sweden/ug/chemical-engineering` |
+| **SE12** | 12 | ✔️ | BEng Civil Engineering in Sweden | `/study-abroad/sweden/ug/civil-engineering` |
+| **SE13** | 13 | ✔️ | BEng Computer Engineering in Sweden | `/study-abroad/sweden/ug/computer-engineering` |
+| **SE14** | 14 | ✔️ | BEng Electrical Engineering in Sweden | `/study-abroad/sweden/ug/electrical-engineering` |
+| **SE15** | 15 | ✔️ | BEng Electronics & Communication in Sweden | `/study-abroad/sweden/ug/electronics-communication` |
+| **SE16** | 16 | ✔️ | BEng Mechanical Engineering in Sweden | `/study-abroad/sweden/ug/mechanical-engineering` |
+| **SE17** | 17 | ✔️ | Postgraduate Engineering in Sweden | `/study-abroad/sweden/pg/engineering` |
+| **SE18** | 18 | ✔️ | MSc Aerospace Engineering in Sweden | `/study-abroad/sweden/pg/aerospace-engineering` |
+| **SE19** | 19 | ✔️ | MSc Automobile Engineering in Sweden | `/study-abroad/sweden/pg/automobile-engineering` |
+| **SE20** | 20 | ✔️ | MSc Biomedical Engineering in Sweden | `/study-abroad/sweden/pg/biomedical-engineering` |
+| **SE21** | 21 | ✔️ | MSc Chemical Engineering in Sweden | `/study-abroad/sweden/pg/chemical-engineering` |
+| **SE22** | 22 | ✔️ | MSc Civil Engineering in Sweden | `/study-abroad/sweden/pg/civil-engineering` |
+| **SE23** | 23 | ✔️ | MSc Computer Engineering in Sweden | `/study-abroad/sweden/pg/computer-engineering` |
+| **SE24** | 24 | ✔️ | MSc Electrical Engineering in Sweden | `/study-abroad/sweden/pg/electrical-engineering` |
+| **SE25** | 25 | ✔️ | MSc Electronics & Communication in Sweden | `/study-abroad/sweden/pg/electronics-communication` |
+| **SE26** | 26 | ✔️ | MSc Mechanical Engineering in Sweden | `/study-abroad/sweden/pg/mechanical-engineering` |
+| **SE27** | 27 | ✔️ | Computer Science in Sweden | `/study-abroad/sweden/computer-science` |
+| **SE28** | 28 | ✔️ | Information Technology in Sweden | `/study-abroad/sweden/information-technology` |
+| **SE29** | 29 | ✔️ | Business Management in Sweden | `/study-abroad/sweden/business-management` |
+| **SE30** | 30 | ✔️ | BBA in Sweden | `/study-abroad/sweden/bba` |
+| **SE31** | 31 | ✔️ | BBS in Sweden | `/study-abroad/sweden/bbs` |
+| **SE32** | 32 | ✔️ | MBA in Sweden | `/study-abroad/sweden/mba` |
+| **SE33** | 33 | ✔️ | MBS in Sweden | `/study-abroad/sweden/mbs` |
+| **SE34** | 34 | ✔️ | Executive MBA in Sweden | `/study-abroad/sweden/executive-mba` |
+| **SE35** | 35 | ✔️ | International Business in Sweden | `/study-abroad/sweden/international-business` |
+| **SE36** | 36 | ✔️ | Hospitality Management in Sweden | `/study-abroad/sweden/hospitality-management` |
+| **SE37** | 37 | ✔️ | Architecture in Sweden | `/study-abroad/sweden/architecture` |
+| **SE38** | 38 | ✔️ | Law in Sweden | `/study-abroad/sweden/law` |
+| **SE39** | 39 | ✔️ | Language Courses in Sweden | `/study-abroad/sweden/language-courses` |
+| **SE40** | 40 | ✔️ | Summer Courses in Sweden | `/study-abroad/sweden/summer-courses` |
+| **SE41** | 41 | ✔️ | Winter Courses in Sweden | `/study-abroad/sweden/winter-courses` |
+
+## 17. Study Abroad — Switzerland 🇨🇭 (41 Pages)
+
+| ID | # | Status | Page Name | Route Path |
+| :--- | :---: | :---: | :--- | :--- |
+| **CH01** | 1 | ✔️ | Dentistry in Switzerland | `/study-abroad/switzerland/dentistry` |
+| **CH02** | 2 | ✔️ | Biotechnology in Switzerland | `/study-abroad/switzerland/biotechnology` |
+| **CH03** | 3 | ✔️ | Nursing in Switzerland | `/study-abroad/switzerland/nursing` |
+| **CH04** | 4 | ✔️ | Pharmacy in Switzerland | `/study-abroad/switzerland/pharmacy` |
+| **CH05** | 5 | ✔️ | Physiotherapy in Switzerland | `/study-abroad/switzerland/physiotherapy` |
+| **CH06** | 6 | ✔️ | Public Health in Switzerland | `/study-abroad/switzerland/public-health` |
+| **CH07** | 7 | ✔️ | Undergraduate Engineering in Switzerland | `/study-abroad/switzerland/ug/engineering` |
+| **CH08** | 8 | ✔️ | BEng Aerospace Engineering in Switzerland | `/study-abroad/switzerland/ug/aerospace-engineering` |
+| **CH09** | 9 | ✔️ | BEng Automobile Engineering in Switzerland | `/study-abroad/switzerland/ug/automobile-engineering` |
+| **CH10** | 10 | ✔️ | BEng Biomedical Engineering in Switzerland | `/study-abroad/switzerland/ug/biomedical-engineering` |
+| **CH11** | 11 | ✔️ | BEng Chemical Engineering in Switzerland | `/study-abroad/switzerland/ug/chemical-engineering` |
+| **CH12** | 12 | ✔️ | BEng Civil Engineering in Switzerland | `/study-abroad/switzerland/ug/civil-engineering` |
+| **CH13** | 13 | ✔️ | BEng Computer Engineering in Switzerland | `/study-abroad/switzerland/ug/computer-engineering` |
+| **CH14** | 14 | ✔️ | BEng Electrical Engineering in Switzerland | `/study-abroad/switzerland/ug/electrical-engineering` |
+| **CH15** | 15 | ✔️ | BEng Electronics & Communication in Switzerland | `/study-abroad/switzerland/ug/electronics-communication` |
+| **CH16** | 16 | ✔️ | BEng Mechanical Engineering in Switzerland | `/study-abroad/switzerland/ug/mechanical-engineering` |
+| **CH17** | 17 | ✔️ | Postgraduate Engineering in Switzerland | `/study-abroad/switzerland/pg/engineering` |
+| **CH18** | 18 | ✔️ | MSc Aerospace Engineering in Switzerland | `/study-abroad/switzerland/pg/aerospace-engineering` |
+| **CH19** | 19 | ✔️ | MSc Automobile Engineering in Switzerland | `/study-abroad/switzerland/pg/automobile-engineering` |
+| **CH20** | 20 | ✔️ | MSc Biomedical Engineering in Switzerland | `/study-abroad/switzerland/pg/biomedical-engineering` |
+| **CH21** | 21 | ✔️ | MSc Chemical Engineering in Switzerland | `/study-abroad/switzerland/pg/chemical-engineering` |
+| **CH22** | 22 | ✔️ | MSc Civil Engineering in Switzerland | `/study-abroad/switzerland/pg/civil-engineering` |
+| **CH23** | 23 | ✔️ | MSc Computer Engineering in Switzerland | `/study-abroad/switzerland/pg/computer-engineering` |
+| **CH24** | 24 | ✔️ | MSc Electrical Engineering in Switzerland | `/study-abroad/switzerland/pg/electrical-engineering` |
+| **CH25** | 25 | ✔️ | MSc Electronics & Communication in Switzerland | `/study-abroad/switzerland/pg/electronics-communication` |
+| **CH26** | 26 | ✔️ | MSc Mechanical Engineering in Switzerland | `/study-abroad/switzerland/pg/mechanical-engineering` |
+| **CH27** | 27 | ✔️ | Computer Science in Switzerland | `/study-abroad/switzerland/computer-science` |
+| **CH28** | 28 | ✔️ | Information Technology in Switzerland | `/study-abroad/switzerland/information-technology` |
+| **CH29** | 29 | ✔️ | Business Management in Switzerland | `/study-abroad/switzerland/business-management` |
+| **CH30** | 30 | ✔️ | BBA in Switzerland | `/study-abroad/switzerland/bba` |
+| **CH31** | 31 | ✔️ | BBS in Switzerland | `/study-abroad/switzerland/bbs` |
+| **CH32** | 32 | ✔️ | MBA in Switzerland | `/study-abroad/switzerland/mba` |
+| **CH33** | 33 | ✔️ | MBS in Switzerland | `/study-abroad/switzerland/mbs` |
+| **CH34** | 34 | ✔️ | Executive MBA in Switzerland | `/study-abroad/switzerland/executive-mba` |
+| **CH35** | 35 | ✔️ | International Business in Switzerland | `/study-abroad/switzerland/international-business` |
+| **CH36** | 36 | ✔️ | Hospitality Management in Switzerland | `/study-abroad/switzerland/hospitality-management` |
+| **CH37** | 37 | ✔️ | Architecture in Switzerland | `/study-abroad/switzerland/architecture` |
+| **CH38** | 38 | ✔️ | Law in Switzerland | `/study-abroad/switzerland/law` |
+| **CH39** | 39 | ✔️ | Language Courses in Switzerland | `/study-abroad/switzerland/language-courses` |
+| **CH40** | 40 | ✔️ | Summer Courses in Switzerland | `/study-abroad/switzerland/summer-courses` |
+| **CH41** | 41 | ✔️ | Winter Courses in Switzerland | `/study-abroad/switzerland/winter-courses` |
+
+## 18. Study Abroad — Mauritius 🇲🇺 (41 Pages)
+
+| ID | # | Status | Page Name | Route Path |
+| :--- | :---: | :---: | :--- | :--- |
+| **MU01** | 1 | ✔️ | Dentistry in Mauritius | `/study-abroad/mauritius/dentistry` |
+| **MU02** | 2 | ✔️ | Biotechnology in Mauritius | `/study-abroad/mauritius/biotechnology` |
+| **MU03** | 3 | ✔️ | Nursing in Mauritius | `/study-abroad/mauritius/nursing` |
+| **MU04** | 4 | ✔️ | Pharmacy in Mauritius | `/study-abroad/mauritius/pharmacy` |
+| **MU05** | 5 | ✔️ | Physiotherapy in Mauritius | `/study-abroad/mauritius/physiotherapy` |
+| **MU06** | 6 | ✔️ | Public Health in Mauritius | `/study-abroad/mauritius/public-health` |
+| **MU07** | 7 | ✔️ | Undergraduate Engineering in Mauritius | `/study-abroad/mauritius/ug/engineering` |
+| **MU08** | 8 | ✔️ | BEng Aerospace Engineering in Mauritius | `/study-abroad/mauritius/ug/aerospace-engineering` |
+| **MU09** | 9 | ✔️ | BEng Automobile Engineering in Mauritius | `/study-abroad/mauritius/ug/automobile-engineering` |
+| **MU10** | 10 | ✔️ | BEng Biomedical Engineering in Mauritius | `/study-abroad/mauritius/ug/biomedical-engineering` |
+| **MU11** | 11 | ✔️ | BEng Chemical Engineering in Mauritius | `/study-abroad/mauritius/ug/chemical-engineering` |
+| **MU12** | 12 | ✔️ | BEng Civil Engineering in Mauritius | `/study-abroad/mauritius/ug/civil-engineering` |
+| **MU13** | 13 | ✔️ | BEng Computer Engineering in Mauritius | `/study-abroad/mauritius/ug/computer-engineering` |
+| **MU14** | 14 | ✔️ | BEng Electrical Engineering in Mauritius | `/study-abroad/mauritius/ug/electrical-engineering` |
+| **MU15** | 15 | ✔️ | BEng Electronics & Communication in Mauritius | `/study-abroad/mauritius/ug/electronics-communication` |
+| **MU16** | 16 | ✔️ | BEng Mechanical Engineering in Mauritius | `/study-abroad/mauritius/ug/mechanical-engineering` |
+| **MU17** | 17 | ✔️ | Postgraduate Engineering in Mauritius | `/study-abroad/mauritius/pg/engineering` |
+| **MU18** | 18 | ✔️ | MSc Aerospace Engineering in Mauritius | `/study-abroad/mauritius/pg/aerospace-engineering` |
+| **MU19** | 19 | ✔️ | MSc Automobile Engineering in Mauritius | `/study-abroad/mauritius/pg/automobile-engineering` |
+| **MU20** | 20 | ✔️ | MSc Biomedical Engineering in Mauritius | `/study-abroad/mauritius/pg/biomedical-engineering` |
+| **MU21** | 21 | ✔️ | MSc Chemical Engineering in Mauritius | `/study-abroad/mauritius/pg/chemical-engineering` |
+| **MU22** | 22 | ✔️ | MSc Civil Engineering in Mauritius | `/study-abroad/mauritius/pg/civil-engineering` |
+| **MU23** | 23 | ✔️ | MSc Computer Engineering in Mauritius | `/study-abroad/mauritius/pg/computer-engineering` |
+| **MU24** | 24 | ✔️ | MSc Electrical Engineering in Mauritius | `/study-abroad/mauritius/pg/electrical-engineering` |
+| **MU25** | 25 | ✔️ | MSc Electronics & Communication in Mauritius | `/study-abroad/mauritius/pg/electronics-communication` |
+| **MU26** | 26 | ✔️ | MSc Mechanical Engineering in Mauritius | `/study-abroad/mauritius/pg/mechanical-engineering` |
+| **MU27** | 27 | ✔️ | Computer Science in Mauritius | `/study-abroad/mauritius/computer-science` |
+| **MU28** | 28 | ✔️ | Information Technology in Mauritius | `/study-abroad/mauritius/information-technology` |
+| **MU29** | 29 | ✔️ | Business Management in Mauritius | `/study-abroad/mauritius/business-management` |
+| **MU30** | 30 | ✔️ | BBA in Mauritius | `/study-abroad/mauritius/bba` |
+| **MU31** | 31 | ✔️ | BBS in Mauritius | `/study-abroad/mauritius/bbs` |
+| **MU32** | 32 | ✔️ | MBA in Mauritius | `/study-abroad/mauritius/mba` |
+| **MU33** | 33 | ✔️ | MBS in Mauritius | `/study-abroad/mauritius/mbs` |
+| **MU34** | 34 | ✔️ | Executive MBA in Mauritius | `/study-abroad/mauritius/executive-mba` |
+| **MU35** | 35 | ✔️ | International Business in Mauritius | `/study-abroad/mauritius/international-business` |
+| **MU36** | 36 | ✔️ | Hospitality Management in Mauritius | `/study-abroad/mauritius/hospitality-management` |
+| **MU37** | 37 | ✔️ | Architecture in Mauritius | `/study-abroad/mauritius/architecture` |
+| **MU38** | 38 | ✔️ | Law in Mauritius | `/study-abroad/mauritius/law` |
+| **MU39** | 39 | ✔️ | Language Courses in Mauritius | `/study-abroad/mauritius/language-courses` |
+| **MU40** | 40 | ✔️ | Summer Courses in Mauritius | `/study-abroad/mauritius/summer-courses` |
+| **MU41** | 41 | ✔️ | Winter Courses in Mauritius | `/study-abroad/mauritius/winter-courses` |
+
+## 19. Study Abroad — Italy 🇮🇹 (41 Pages)
+
+| ID | # | Status | Page Name | Route Path |
+| :--- | :---: | :---: | :--- | :--- |
+| **IT01** | 1 | ✔️ | Dentistry in Italy | `/study-abroad/italy/dentistry` |
+| **IT02** | 2 | ✔️ | Nursing in Italy | `/study-abroad/italy/nursing` |
+| **IT03** | 3 | ✔️ | Pharmacy in Italy | `/study-abroad/italy/pharmacy` |
+| **IT04** | 4 | ✔️ | Physiotherapy in Italy | `/study-abroad/italy/physiotherapy` |
+| **IT05** | 5 | ✔️ | Public Health in Italy | `/study-abroad/italy/public-health` |
+| **IT06** | 6 | ✔️ | Biotechnology in Italy | `/study-abroad/italy/biotechnology` |
+| **IT07** | 7 | ✔️ | Computer Science in Italy | `/study-abroad/italy/computer-science` |
+| **IT08** | 8 | ✔️ | Information Technology in Italy | `/study-abroad/italy/information-technology` |
+| **IT09** | 9 | ✔️ | Undergraduate Engineering in Italy | `/study-abroad/italy/ug/engineering` |
+| **IT10** | 10 | ✔️ | BEng Computer Engineering in Italy | `/study-abroad/italy/ug/computer-engineering` |
+| **IT11** | 11 | ✔️ | BEng Mechanical Engineering in Italy | `/study-abroad/italy/ug/mechanical-engineering` |
+| **IT12** | 12 | ✔️ | BEng Civil Engineering in Italy | `/study-abroad/italy/ug/civil-engineering` |
+| **IT13** | 13 | ✔️ | BEng Electrical Engineering in Italy | `/study-abroad/italy/ug/electrical-engineering` |
+| **IT14** | 14 | ✔️ | BEng Electronics & Communication in Italy | `/study-abroad/italy/ug/electronics-communication` |
+| **IT15** | 15 | ✔️ | BEng Chemical Engineering in Italy | `/study-abroad/italy/ug/chemical-engineering` |
+| **IT16** | 16 | ✔️ | BEng Aerospace Engineering in Italy | `/study-abroad/italy/ug/aerospace-engineering` |
+| **IT17** | 17 | ✔️ | BEng Biomedical Engineering in Italy | `/study-abroad/italy/ug/biomedical-engineering` |
+| **IT18** | 18 | ✔️ | BEng Automobile Engineering in Italy | `/study-abroad/italy/ug/automobile-engineering` |
+| **IT19** | 19 | ✔️ | Postgraduate Engineering in Italy | `/study-abroad/italy/pg/engineering` |
+| **IT20** | 20 | ✔️ | MSc Computer Engineering in Italy | `/study-abroad/italy/pg/computer-engineering` |
+| **IT21** | 21 | ✔️ | MSc Mechanical Engineering in Italy | `/study-abroad/italy/pg/mechanical-engineering` |
+| **IT22** | 22 | ✔️ | MSc Civil Engineering in Italy | `/study-abroad/italy/pg/civil-engineering` |
+| **IT23** | 23 | ✔️ | MSc Electrical Engineering in Italy | `/study-abroad/italy/pg/electrical-engineering` |
+| **IT24** | 24 | ✔️ | MSc Electronics & Communication in Italy | `/study-abroad/italy/pg/electronics-communication` |
+| **IT25** | 25 | ✔️ | MSc Chemical Engineering in Italy | `/study-abroad/italy/pg/chemical-engineering` |
+| **IT26** | 26 | ✔️ | MSc Aerospace Engineering in Italy | `/study-abroad/italy/pg/aerospace-engineering` |
+| **IT27** | 27 | ✔️ | MSc Biomedical Engineering in Italy | `/study-abroad/italy/pg/biomedical-engineering` |
+| **IT28** | 28 | ✔️ | MSc Automobile Engineering in Italy | `/study-abroad/italy/pg/automobile-engineering` |
+| **IT29** | 29 | ✔️ | Business Management in Italy | `/study-abroad/italy/business-management` |
+| **IT30** | 30 | ✔️ | MBA in Italy | `/study-abroad/italy/mba` |
+| **IT31** | 31 | ✔️ | Executive MBA in Italy | `/study-abroad/italy/executive-mba` |
+| **IT32** | 32 | ✔️ | BBA in Italy | `/study-abroad/italy/bba` |
+| **IT33** | 33 | ✔️ | BBS in Italy | `/study-abroad/italy/bbs` |
+| **IT34** | 34 | ✔️ | MBS in Italy | `/study-abroad/italy/mbs` |
+| **IT35** | 35 | ✔️ | International Business in Italy | `/study-abroad/italy/international-business` |
+| **IT36** | 36 | ✔️ | Hospitality Management in Italy | `/study-abroad/italy/hospitality-management` |
+| **IT37** | 37 | ✔️ | Architecture in Italy | `/study-abroad/italy/architecture` |
+| **IT38** | 38 | ✔️ | Law in Italy | `/study-abroad/italy/law` |
+| **IT39** | 39 | ✔️ | Language Courses in Italy | `/study-abroad/italy/language-courses` |
+| **IT40** | 40 | ✔️ | Summer Courses in Italy | `/study-abroad/italy/summer-courses` |
+| **IT41** | 41 | ✔️ | Winter Courses in Italy | `/study-abroad/italy/winter-courses` |
