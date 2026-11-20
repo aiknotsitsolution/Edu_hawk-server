@@ -1287,6 +1287,7 @@ export const EhpHero = ({
 export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => {
   const cleanTitle = stripHeadingNumbering(title);
   const cleanEyebrow = stripHeadingNumbering(eyebrow);
+  if (!cleanEyebrow && !cleanTitle && !desc) return null;
   return (
     <div className={(center ? "text-center " : "") + "mb-9"}>
       {cleanEyebrow && (
@@ -1294,15 +1295,17 @@ export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => {
           {cleanEyebrow}
         </div>
       )}
-      <h2
-        className={
-          (as === "h3" ? "text-lg" : "text-2xl sm:text-3xl") +
-          " font-bold text-slate-900" +
-          (desc ? " mb-4" : "")
-        }
-      >
-        {formatRichText(cleanTitle)}
-      </h2>
+      {cleanTitle && (
+        <h2
+          className={
+            (as === "h3" ? "text-lg" : "text-2xl sm:text-3xl") +
+            " font-bold text-slate-900" +
+            (desc ? " mb-4" : "")
+          }
+        >
+          {formatRichText(cleanTitle)}
+        </h2>
+      )}
       {desc && <Paragraphs items={desc} className={descClass ?? "text-slate-500 text-[15px] leading-relaxed max-w-3xl"} />}
     </div>
   );
@@ -1944,7 +1947,7 @@ export const StatGrid = ({ items = [] }) => (
           {item.label}
         </span>
         <strong className="text-[15px] text-slate-900 font-semibold leading-snug relative z-10 block">
-          {formatRichText(item.value)}
+          {formatRichText(item.value ?? item.val ?? item.n)}
         </strong>
       </div>
     ))}
@@ -2125,6 +2128,10 @@ export const UniversityArtwork = ({ theme = "automotive" }) => {
 
 export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
   const u = uni;
+  const rawSrc = u.image || u.img || u.src || (u.img_var && u.img_var !== "null" ? u.img_var : null);
+  const imgSrc = (rawSrc && rawSrc !== "null" && rawSrc !== "undefined") ? rawSrc : null;
+  const cleanName = u.name ? u.name.replace(/^(\\\.?|\.)\s*/, "") : "";
+  const cleanLocation = u.location ? u.location.replace(/^(\\\.?|\.)\s*/, "") : "";
   const theme =
     u.artTheme ||
     (index % 4 === 0
@@ -2142,14 +2149,26 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
         className
       }
     >
-      {/* Top Artwork Banner */}
+      {/* Top Artwork Banner or Real Photo */}
       <div className="relative h-44 w-full overflow-hidden flex items-center justify-center bg-slate-900">
-        <UniversityArtwork theme={theme} />
+        {imgSrc ? (
+          <>
+            <img
+              src={imgSrc}
+              alt={cleanName || "University"}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/70 via-transparent to-black/30 pointer-events-none" />
+          </>
+        ) : (
+          <UniversityArtwork theme={theme} />
+        )}
 
         {/* Floating University Initial Crest */}
         <div className="absolute top-4 left-4 z-10 w-11 h-11 rounded-xl bg-white/15 backdrop-blur-md border border-white/30 flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform">
           <span className="text-white font-extrabold text-xl tracking-tight">
-            {u.name ? u.name.charAt(0) : "U"}
+            {cleanName ? (cleanName.replace(/^[^a-zA-Z0-9]+/, "").charAt(0) || "U") : "U"}
           </span>
         </div>
 
@@ -2159,10 +2178,10 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
             href={u.link || u.url || u.website}
             target="_blank"
             rel="noopener noreferrer"
-            title={`Visit ${u.name} official website`}
+            title={`Visit ${cleanName} official website`}
             className="absolute top-4 right-4 z-10 w-9 h-9 rounded-full bg-black/50 hover:bg-black/80 backdrop-blur-md border border-white/25 flex items-center justify-center text-white/90 hover:text-white hover:scale-110 transition-all duration-200 shadow-md"
             onClick={(e) => e.stopPropagation()}
-            aria-label={`Visit ${u.name} official website`}
+            aria-label={`Visit ${cleanName} official website`}
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -2182,7 +2201,7 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
         )}
 
         {/* Location pill on artwork banner */}
-        {u.location && (
+        {cleanLocation && (
           <div className="absolute bottom-3 left-4 z-10 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/20 text-xs text-white/95 font-medium shadow-sm">
             <svg
               className="w-3.5 h-3.5 text-amber-400 flex-shrink-0"
@@ -2202,7 +2221,7 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
                 d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
               />
             </svg>
-            <span className="truncate max-w-[240px]">{u.location}</span>
+            <span className="truncate max-w-[240px]">{cleanLocation}</span>
           </div>
         )}
       </div>
@@ -2212,7 +2231,7 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
         <div>
           {/* University Name */}
           <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 transition-colors leading-snug">
-            {u.name}
+            {cleanName}
           </h3>
 
           {/* Description */}
@@ -2301,9 +2320,13 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
     <div className={gridLayout + className}>
       {Array.isArray(unis) &&
         unis.map((u, i) => {
-          const rawSrc = u.image || u.img || u.src;
+          const rawSrc = u.image || u.img || u.src || (u.img_var && u.img_var !== "null" ? u.img_var : null);
           const imgSrc = (rawSrc && rawSrc !== "null" && rawSrc !== "undefined") ? rawSrc : null;
-          if (imgSrc) {
+          const hasRichContent = Boolean(u.fee || (u.desc && u.desc.length > 80));
+
+          if (imgSrc && !hasRichContent) {
+            const cleanName = u.name ? u.name.replace(/^(\\\.?|\.)\s*/, "") : "";
+            const cleanLocation = u.location ? u.location.replace(/^(\\\.?|\.)\s*/, "") : "";
             return (
               <div
                 key={u.name ?? i}
@@ -2311,7 +2334,7 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
               >
                 <img
                   src={imgSrc}
-                  alt={(typeof alt === "function" ? alt(u) : alt) ?? u.name}
+                  alt={(typeof alt === "function" ? alt(u) : alt) ?? cleanName}
                   loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   srcSet={`${imgSrc} 1x, ${imgSrc} 2x`}
@@ -2322,10 +2345,10 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
                     href={u.link || u.url || u.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    title={`Visit ${u.name} official website`}
+                    title={`Visit ${cleanName} official website`}
                     className="absolute top-3.5 right-3.5 z-20 w-8 h-8 rounded-full bg-black/60 hover:bg-black/90 backdrop-blur-md border border-white/20 flex items-center justify-center text-white/90 hover:text-white hover:scale-110 transition-all duration-200 shadow-md"
                     onClick={(e) => e.stopPropagation()}
-                    aria-label={`Visit ${u.name} official website`}
+                    aria-label={`Visit ${cleanName} official website`}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -2346,11 +2369,11 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/40 to-transparent flex items-end p-5">
                   <div className="transform group-hover:-translate-y-1 transition-transform duration-300">
                     <h3 className="text-white font-semibold text-lg leading-snug">
-                      {u.name}
+                      {cleanName}
                     </h3>
-                    {(u.desc || u.location) && (
+                    {(u.desc || cleanLocation) && (
                       <p className="text-white/85 text-sm line-clamp-3 mt-1">
-                        {formatRichText(u.desc || u.location)}
+                        {formatRichText(u.desc || cleanLocation)}
                       </p>
                     )}
                   </div>
@@ -2359,7 +2382,7 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
             );
           }
 
-          // If no campus image, render solid background card with artwork banner
+          // If rich content or no campus image, render solid background card with artwork or photo banner
           return <SolidUniversityCard key={u.name ?? i} uni={u} index={i} />;
         })}
     </div>

@@ -8,6 +8,11 @@ import sideImg from "../../../../Images/Abroad/Sweden/InformationTechnology/side
 import ctaBgImg from "../../../../Images/Abroad/Sweden/InformationTechnology/cta_bg.webp";
 import cmsData from "../../../../data/study_abroad/sweden/information-technology.json";
 
+// University campus images
+import kthImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image1.png";
+import gothenburgImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image2.png";
+import borasImg from "../../../../Images/Abroad/Sweden/InformationTechnology/image3.png";
+
 const page = {
   "name": "Information Technology",
   "country": "Sweden",
@@ -26,18 +31,22 @@ const page = {
   "crumb": "Information Technology",
   "stats": [
     {
+      "value": "SEK 80K-150K",
       "val": "SEK 80K-150K",
       "label": "Tuition / Year"
     },
     {
+      "value": "Permitted",
       "val": "Permitted",
       "label": "Part-Time Work"
     },
     {
+      "value": "3-4 Years",
       "val": "3-4 Years",
       "label": "Course Duration"
     },
     {
+      "value": "English",
       "val": "English",
       "label": "Medium of Study"
     }
@@ -161,28 +170,32 @@ const page = {
       "lead": "Explore leading universities and institutions in Sweden offering accredited Information Technology in Sweden programmes, world-class research facilities, and international student support.",
       "unis_data": [
         {
-          "name": "\\. KTH Royal Institute of Technology",
-          "location": "\\. KTH Royal Institute of Technology, Sweden",
-          "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "**Bachelor's:** KTH offers a BSc in Information and Communication Technology. The three-year programme is taught in English and includes programming, electronics, computer science, mathematics and communication technology. It is a relevant option for students interested in technical IT, digital systems, artificial intelligence and communication technologies. **Location:** Stockholm, Sweden **![][image1]**",
-          "img_var": "null"
+          "name": "KTH Royal Institute of Technology",
+          "location": "Stockholm, Sweden",
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "desc": "**Bachelor's:** KTH offers a BSc in Information and Communication Technology. The three-year programme is taught in English and includes programming, electronics, computer science, mathematics and communication technology. It is a relevant option for students interested in technical IT, digital systems, artificial intelligence and communication technologies.",
+          "image": kthImg,
+          "img": kthImg
         },
         {
-          "name": "\\. University of Gothenburg",
-          "location": "\\. University of Gothenburg, Sweden",
-          "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "**Master's:** The university offers an International Master's Programme in Information Technology and Learning. This two-year, English-taught programme focuses on digital technologies, learning environments, data analysis and the role of IT in organisations. It may suit students interested in digital learning, IT implementation, research and technology-enabled organisational development. **Location:** Gothenburg, Sweden **![][image2]**",
-          "img_var": "null"
+          "name": "University of Gothenburg",
+          "location": "Gothenburg, Sweden",
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "desc": "**Master's:** The university offers an International Master's Programme in Information Technology and Learning. This two-year, English-taught programme focuses on digital technologies, learning environments, data analysis and the role of IT in organisations. It may suit students interested in digital learning, IT implementation, research and technology-enabled organisational development.",
+          "image": gothenburgImg,
+          "img": gothenburgImg
         },
         {
-          "name": "\\. University of Bor\u00e5s",
-          "location": "\\. University of Bor\u00e5s, Sweden",
-          "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "**Master's:** The University of Bor\u00e5s offers relevant master's programmes in Information Systems, including: * **AI Management:** Relevant for students interested in artificial intelligence, management and the use of AI in organisations. * **Data-Driven IT Management:** Suitable for students interested in IT strategy, data-driven decision-making, digital transformation and technology management. The university offers different programme durations depending on the selected course, including one-year and two-year options. **Location:** Bor\u00e5s, Sweden **![][image3]** **Choosing the right university** KTH is a relevant choice for students seeking a technical bachelor's degree in Information and Communication Technology. The University of Gothenburg and University of Bor\u00e5s offer postgraduate options with different academic focuses. Students interested in digital learning, information systems, data-driven management or AI-related management should compare these master's programmes carefully. These are specialised information systems and technology management degrees rather than conventional computer engineering programmes.",
-          "img_var": "null"
+          "name": "University of Borås",
+          "location": "Borås, Sweden",
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "desc": "**Master's:** The University of Borås offers relevant master's programmes in Information Systems, including **AI Management** (relevant for students interested in artificial intelligence and AI governance) and **Data-Driven IT Management** (suitable for IT strategy, data-driven decision-making, and digital transformation). One-year and two-year options are available.",
+          "image": borasImg,
+          "img": borasImg
         }
       ],
       "note": [
+        "**Choosing the right university:** KTH is a relevant choice for students seeking a technical bachelor's degree in Information and Communication Technology. The University of Gothenburg and University of Borås offer postgraduate options with different academic focuses. Students interested in digital learning, information systems, data-driven management or AI-related management should compare these master's programmes carefully. These are specialised information systems and technology management degrees rather than conventional computer engineering programmes.",
         "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
       ]
     },
@@ -474,7 +487,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The University of Gothenburg's Information Technology and Learning master's programme also lists an application period from 16 October 2026 to 15 January 2027\\.",
+            "The University of Gothenburg's Information Technology and Learning master's programme also lists an application period from 16 October 2026 to 15 January 2027.",
             "Applicants should verify the dates and deadlines for their specific programme through the official university website before applying."
           ]
         }
@@ -596,25 +609,28 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. KTH Royal Institute of Technology",
-      "location": "\\. KTH Royal Institute of Technology, Sweden",
-      "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "**Bachelor's:** KTH offers a BSc in Information and Communication Technology. The three-year programme is taught in English and includes programming, electronics, computer science, mathematics and communication technology. It is a relevant option for students interested in technical IT, digital systems, artificial intelligence and communication technologies. **Location:** Stockholm, Sweden **![][image1]**",
-      "img_var": "null"
+      "name": "KTH Royal Institute of Technology",
+      "location": "Stockholm, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Bachelor's:** KTH offers a BSc in Information and Communication Technology. The three-year programme is taught in English and includes programming, electronics, computer science, mathematics and communication technology. It is a relevant option for students interested in technical IT, digital systems, artificial intelligence and communication technologies.",
+      "image": kthImg,
+      "img": kthImg
     },
     {
-      "name": "\\. University of Gothenburg",
-      "location": "\\. University of Gothenburg, Sweden",
-      "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "**Master's:** The university offers an International Master's Programme in Information Technology and Learning. This two-year, English-taught programme focuses on digital technologies, learning environments, data analysis and the role of IT in organisations. It may suit students interested in digital learning, IT implementation, research and technology-enabled organisational development. **Location:** Gothenburg, Sweden **![][image2]**",
-      "img_var": "null"
+      "name": "University of Gothenburg",
+      "location": "Gothenburg, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Master's:** The university offers an International Master's Programme in Information Technology and Learning. This two-year, English-taught programme focuses on digital technologies, learning environments, data analysis and the role of IT in organisations. It may suit students interested in digital learning, IT implementation, research and technology-enabled organisational development.",
+      "image": gothenburgImg,
+      "img": gothenburgImg
     },
     {
-      "name": "\\. University of Bor\u00e5s",
-      "location": "\\. University of Bor\u00e5s, Sweden",
-      "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "**Master's:** The University of Bor\u00e5s offers relevant master's programmes in Information Systems, including: * **AI Management:** Relevant for students interested in artificial intelligence, management and the use of AI in organisations. * **Data-Driven IT Management:** Suitable for students interested in IT strategy, data-driven decision-making, digital transformation and technology management. The university offers different programme durations depending on the selected course, including one-year and two-year options. **Location:** Bor\u00e5s, Sweden **![][image3]** **Choosing the right university** KTH is a relevant choice for students seeking a technical bachelor's degree in Information and Communication Technology. The University of Gothenburg and University of Bor\u00e5s offer postgraduate options with different academic focuses. Students interested in digital learning, information systems, data-driven management or AI-related management should compare these master's programmes carefully. These are specialised information systems and technology management degrees rather than conventional computer engineering programmes.",
-      "img_var": "null"
+      "name": "University of Borås",
+      "location": "Borås, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "desc": "**Master's:** The University of Borås offers relevant master's programmes in Information Systems, including **AI Management** (relevant for students interested in artificial intelligence and AI governance) and **Data-Driven IT Management** (suitable for IT strategy, data-driven decision-making, and digital transformation). One-year and two-year options are available.",
+      "image": borasImg,
+      "img": borasImg
     }
   ],
   "faqs": [
@@ -641,14 +657,15 @@ const page = {
 export default function InformationTechnologySweden() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: "Information Technology",
+    introTitle: cmsData.hero?.title || page.introTitle || "Information Technology in Sweden for Indian Students",
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
-      .filter(s => s.label && s.value).length > 0
-      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value }))
+    stats: (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
+      .filter(s => s.label && (s.value || s.val)).length > 0
+      ? (cmsData.stats || []).map(s => ({ label: s.l || s.label, value: s.n || s.value || s.val, val: s.n || s.value || s.val }))
       : page.stats,
     seo: {
       title: cmsData.seo?.title || page.title,

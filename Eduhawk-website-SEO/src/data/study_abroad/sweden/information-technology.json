@@ -12,34 +12,26 @@
     {
       "name": "KTH Royal Institute of Technology",
       "location": "Stockholm, Sweden",
-      "fee": "SEK 120,000 – 160,000 / Year",
-      "img": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
-      "image": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
-      "desc": "KTH is Sweden's highest-ranking technical university, responsible for one-third of Sweden's technical research capacity and Europe's innovation engine."
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_InformationTechnology_image1.png",
+      "image": "/uploads/study_abroad/sweden/swe_InformationTechnology_image1.png",
+      "desc": "KTH offers a premier BSc in Information and Communication Technology. The three-year programme is taught in English and covers programming, electronics, computer science, and AI."
     },
     {
-      "name": "Lund University",
-      "location": "Lund, Sweden",
-      "fee": "SEK 100,000 – 145,000 / Year",
-      "img": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
-      "image": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
-      "desc": "One of northern Europe's oldest and most prestigious comprehensive universities (founded 1666), consistently ranked among the world's top 100."
-    },
-    {
-      "name": "Chalmers University of Technology",
+      "name": "University of Gothenburg",
       "location": "Gothenburg, Sweden",
-      "fee": "SEK 140,000 – 180,000 / Year",
-      "img": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
-      "image": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
-      "desc": "Located in Sweden's industrial heartland, Chalmers is world-famous for automotive engineering, wireless communication, and sustainability."
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_InformationTechnology_image2.png",
+      "image": "/uploads/study_abroad/sweden/swe_InformationTechnology_image2.png",
+      "desc": "The University of Gothenburg offers an International Master's in Information Technology and Learning, focusing on digital technologies, learning environments, and IT implementation."
     },
     {
-      "name": "Uppsala University",
-      "location": "Uppsala, Sweden",
-      "fee": "SEK 100,000 – 150,000 / Year",
-      "img": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
-      "image": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
-      "desc": "The oldest university in Sweden and the entire Nordic region (founded 1477), renowned for scientific research, medicine, and humanities."
+      "name": "University of Borås",
+      "location": "Borås, Sweden",
+      "fee": "SEK 90,000 – 160,000 / Year",
+      "img": "/uploads/study_abroad/sweden/swe_InformationTechnology_image3.png",
+      "image": "/uploads/study_abroad/sweden/swe_InformationTechnology_image3.png",
+      "desc": "The University of Borås offers specialized master's programmes in Information Systems including AI Management and Data-Driven IT Management."
     }
   ],
   "sections": [
@@ -47,39 +39,31 @@
       "slot": "universities",
       "eyebrow": "Top Swedish Universities",
       "title": "Top Universities to Consider in Sweden",
-      "lead": "Explore world-leading Swedish public universities and institutes of technology renowned for Nobel Prize legacies, green innovation, and English-taught curricula.",
+      "lead": "Explore world-leading Swedish public universities and institutes of technology offering Information Technology programmes.",
       "unis": [
         {
           "name": "KTH Royal Institute of Technology",
           "location": "Stockholm, Sweden",
-          "fee": "SEK 120,000 – 160,000 / Year",
-          "img": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
-          "image": "/uploads/study_abroad/sweden/swe_Architecture_image1.png",
-          "desc": "KTH is Sweden's highest-ranking technical university, responsible for one-third of Sweden's technical research capacity and Europe's innovation engine."
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_InformationTechnology_image1.png",
+          "image": "/uploads/study_abroad/sweden/swe_InformationTechnology_image1.png",
+          "desc": "KTH offers a premier BSc in Information and Communication Technology. The three-year programme is taught in English and covers programming, electronics, computer science, and AI."
         },
         {
-          "name": "Lund University",
-          "location": "Lund, Sweden",
-          "fee": "SEK 100,000 – 145,000 / Year",
-          "img": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
-          "image": "/uploads/study_abroad/sweden/swe_Architecture_image2.png",
-          "desc": "One of northern Europe's oldest and most prestigious comprehensive universities (founded 1666), consistently ranked among the world's top 100."
-        },
-        {
-          "name": "Chalmers University of Technology",
+          "name": "University of Gothenburg",
           "location": "Gothenburg, Sweden",
-          "fee": "SEK 140,000 – 180,000 / Year",
-          "img": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
-          "image": "/uploads/study_abroad/sweden/swe_Architecture_image3.png",
-          "desc": "Located in Sweden's industrial heartland, Chalmers is world-famous for automotive engineering, wireless communication, and sustainability."
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_InformationTechnology_image2.png",
+          "image": "/uploads/study_abroad/sweden/swe_InformationTechnology_image2.png",
+          "desc": "The University of Gothenburg offers an International Master's in Information Technology and Learning, focusing on digital technologies, learning environments, and IT implementation."
         },
         {
-          "name": "Uppsala University",
-          "location": "Uppsala, Sweden",
-          "fee": "SEK 100,000 – 150,000 / Year",
-          "img": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
-          "image": "/uploads/study_abroad/sweden/swe_BBA_image1.png",
-          "desc": "The oldest university in Sweden and the entire Nordic region (founded 1477), renowned for scientific research, medicine, and humanities."
+          "name": "University of Borås",
+          "location": "Borås, Sweden",
+          "fee": "SEK 90,000 – 160,000 / Year",
+          "img": "/uploads/study_abroad/sweden/swe_InformationTechnology_image3.png",
+          "image": "/uploads/study_abroad/sweden/swe_InformationTechnology_image3.png",
+          "desc": "The University of Borås offers specialized master's programmes in Information Systems including AI Management and Data-Driven IT Management."
         }
       ],
       "groups": []
