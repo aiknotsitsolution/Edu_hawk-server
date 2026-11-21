@@ -427,6 +427,7 @@ import {
   ChevronDown,
   ChevronRight,
   Sparkles,
+  Newspaper,
 } from "lucide-react";
 import { useState } from "react";
 import { useDispatch } from "react-redux";
@@ -446,6 +447,15 @@ const navItems = [
       { path: "/homepage", label: "Create Blog", icon: FileText },
       { path: "/blogcategory", label: "Blog Category", icon: FolderOpen },
       { path: "/getpost", label: "Show CaseStudies", icon: Eye },
+    ],
+  },
+  {
+    label: "News",
+    icon: Newspaper,
+    children: [
+      { path: "/create-news", label: "Create News", icon: FileText },
+      { path: "/news-categories", label: "News Category", icon: FolderOpen },
+      { path: "/news-list", label: "All News", icon: Eye },
     ],
   },
   {
@@ -627,7 +637,7 @@ export default function Sidebar() {
                 <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500"></span>
               </span>
               <span className="text-[12px] font-semibold text-slate-300">
-                v1.2.0
+                v1.3.0
               </span>
               <span className="rounded bg-indigo-500/20 px-1.5 py-0.5 text-[10px] font-medium text-indigo-300">
                 Latest
@@ -687,46 +697,42 @@ export default function Sidebar() {
               <div className="rounded-xl border border-indigo-500/30 bg-indigo-500/10 p-4">
                 <div className="flex items-center justify-between">
                   <span className="text-base font-bold text-white">
-                    Version 1.2.0
+                    Version 1.3.0
                   </span>
                   <span className="rounded-full bg-emerald-500/20 px-2.5 py-0.5 text-xs font-semibold text-emerald-400">
                     Current Version
                   </span>
                 </div>
                 <p className="mt-1 text-xs text-slate-400">
-                  Released: November 18, 2026
+                  Released: November 21, 2026
                 </p>
               </div>
 
               {/* What was changed */}
               <div>
                 <h4 className="text-xs font-semibold uppercase tracking-wider text-slate-400 mb-3">
-                  What's New in v1.2.0:
+                  What's New in v1.3.0:
                 </h4>
                 <ul className="space-y-2.5 text-xs text-slate-300">
                   <li className="flex items-start gap-2.5">
                     <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
-                    <span><strong>Table Stretching:</strong> Drag column borders to stretch/resize tables dynamically.</span>
+                    <span><strong>Newsroom Studio:</strong> Full-featured News management suite with Create News, News Articles List, and Category taxonomies.</span>
                   </li>
                   <li className="flex items-start gap-2.5">
                     <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
-                    <span><strong>Table & Cell Properties:</strong> Customize cell padding, borders, alignment, and table width directly.</span>
+                    <span><strong>Author Attribution:</strong> Added Author / Written By field (with placeholder <code>e.g. your name</code>) allowing creators to attribute articles directly.</span>
                   </li>
                   <li className="flex items-start gap-2.5">
                     <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
-                    <span><strong>Table Spacing Fixed:</strong> Comfortable 12px 16px cell padding so text never touches borders.</span>
+                    <span><strong>Rich Text & Tables:</strong> CKEditor 5 DescriptionEditor integrated with table tools, formatted text, and responsive layout.</span>
                   </li>
                   <li className="flex items-start gap-2.5">
                     <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
-                    <span><strong>Live Preview:</strong> Real-time Desktop & Mobile preview modal in editor & full post preview.</span>
+                    <span><strong>Simplified Creation Workflow:</strong> Streamlined form layout matching Blog editor, with automated slug generation and preview modal.</span>
                   </li>
                   <li className="flex items-start gap-2.5">
                     <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
-                    <span><strong>UI/UX Redesign:</strong> 2-column publishing studio with image management and remove actions.</span>
-                  </li>
-                  <li className="flex items-start gap-2.5">
-                    <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-indigo-500/20 text-indigo-400 font-bold">✓</span>
-                    <span><strong>Headings & Media:</strong> H1-H4 headings and image resize handles enabled.</span>
+                    <span><strong>High-DPI Favicons:</strong> Synced official high-resolution, cropped favicon icons across the admin panel.</span>
                   </li>
                 </ul>
               </div>

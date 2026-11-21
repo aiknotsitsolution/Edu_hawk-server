@@ -18,6 +18,7 @@ const technologyRoute = require("./Routes/technologyroutes/technologyRoute.js");
 const techcategoryRoute = require("./Routes/technologyroutes/categoryRoute.js");
 const queryRoutes = require("./Routes/queryroutes/queryroutes.js");
 const blogRoutes = require("./Routes/Blogroute/categoryRoute.js");
+const newsRoutes = require("./Routes/newsroutes/newsroutes.js");
 // const galleryRoutes = require("./Routes/galleryroutes/galleryroutes.js");
 const compression = require("compression");
 dns.setServers(["8.8.8.8", "1.1.1.1", "8.8.4.4"]);
@@ -69,6 +70,8 @@ app.use("/api/blogcategory", blogRoutes);
 app.use("/api/technology/category", techcategoryRoute);
 app.use("/api/technology/product", technologyRoute);
 app.use("/tech", techRoutes);
+app.use("/api/v1/news", newsRoutes);
+app.use("/api/news", newsRoutes);
 
 app.get("/", (req, res) => {
   res.send("🚀 Server is running successfully");

@@ -13,6 +13,9 @@ import Query from "./Pages/contact/query";
 import Profile from "./Pages/authLogin/Profile";
 import ForgotPassword from "./Pages/authLogin/ForgotPassword";
 import ResetPassword from "./Pages/authLogin/ResetPassword";
+import CreateNews from "./Pages/news/CreateNews";
+import NewsList from "./Pages/news/NewsList";
+import NewsCategory from "./Pages/news/NewsCategory";
 // import Gallery from './Pages/gallery/Gallery';
 function App() {
   return (
@@ -36,6 +39,11 @@ function App() {
             <Route path="/techcategory" element={<TechCategory />} />
             <Route path="/technology" element={<Technology />} />
             <Route path="/blogcategory" element={<CategoryBlog />} />
+
+            {/* News Module Routes */}
+            <Route path="/create-news" element={<CreateNews />} />
+            <Route path="/news-list" element={<NewsList />} />
+            <Route path="/news-categories" element={<NewsCategory />} />
 
             {/* <Route path="/gallery" element={<Gallery/>}/> */}
           </Route>

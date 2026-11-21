@@ -431,54 +431,7 @@ export default function Services() {
           </div>
         </section>
 
-        {/* ─── BANNER / CTA STRIP ──────────────────────────────────────────── */}
-        <section
-          className="relative py-20 md:py-24 px-5 sm:px-8 lg:px-12 bg-cover bg-center text-center text-white"
-          style={{ backgroundImage: `url(${FixedBanner})` }}
-        >
-          {/* Rich Gradient Dark Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#071d38]/90 via-[#0a2b52]/85 to-[#0c3666]/90" />
 
-          <div className="relative z-10 max-w-4xl mx-auto">
-            <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-4">
-              <Sparkles size={14} className="text-amber-400" />
-              Free Profile Evaluation
-            </span>
-
-            <h3 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
-              Start Your Global Medical Journey Today
-            </h3>
-
-            <p className="text-base sm:text-lg md:text-xl text-teal-100/90 max-w-2xl mx-auto mb-8 font-light leading-relaxed">
-              No hidden charges • Transparent fee structure • 100% Admission &
-              Visa Guidance
-            </p>
-
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <button
-                type="button"
-                onClick={() =>
-                  window.open(
-                    "https://api.whatsapp.com/send?phone=919630736070&text=Hi%20Edu-Hawk,%20I%20would%20like%20to%20know%20more%20about%20your%20MBBS%20Abroad%20services.",
-                    "_blank"
-                  )
-                }
-                className="inline-flex items-center justify-center gap-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-600 px-8 py-4 text-sm sm:text-base font-bold text-white transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:scale-95 cursor-pointer w-full sm:w-auto"
-              >
-                <MessageCircle size={20} />
-                <span>Talk to an Expert on WhatsApp</span>
-              </button>
-
-              <button
-                type="button"
-                onClick={() => navigate("/landingpage")}
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-white/15 hover:bg-white/25 border border-white/30 backdrop-blur-md px-8 py-4 text-sm sm:text-base font-bold text-white transition-all duration-300 shadow-lg cursor-pointer w-full sm:w-auto"
-              >
-                <span>Book Free Counselling →</span>
-              </button>
-            </div>
-          </div>
-        </section>
 
         {/* ─── MOBILE STICKY ACTION BAR ────────────────────────────────────── */}
         <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 p-2.5 flex items-center justify-around sm:hidden shadow-2xl">

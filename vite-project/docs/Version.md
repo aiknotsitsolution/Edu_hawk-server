@@ -4,8 +4,8 @@ Welcome to the Edu-Hawk Admin Panel version tracking and changelog document. Thi
 
 ---
 
-## 📌 Current Version: `v1.2.0`
-- **Release Date:** November 18, 2026
+## 📌 Current Version: `v1.3.0`
+- **Release Date:** November 21, 2026
 - **Status:** Stable / Production Ready
 - **Platform:** Vite + React + Tailwind CSS + CKEditor 5
 
@@ -13,7 +13,27 @@ Welcome to the Edu-Hawk Admin Panel version tracking and changelog document. Thi
 
 ## 🚀 Version Changelog
 
-### [v1.2.0] - November 18, 2026 (Current)
+### [v1.3.0] - November 21, 2026 (Current)
+
+#### 📰 News Management Suite & Newsroom Studio (`CreateNews.jsx`, `NewsList.jsx`, `NewsCategory.jsx`)
+* **Complete News Management Module:**
+  * Integrated dedicated news system in the admin panel with routes `/create-news`, `/news-list`, and `/news-categories`.
+  * Designed streamlined creation studio matching the Blog layout without clutter or redundant input blocks.
+* **Author / Written By Attribution:**
+  * Added dedicated `Author / Written By` input field with placeholder `e.g. your name`.
+  * Replaced generic sources with personalized creator attribution.
+* **Rich Article Content with CKEditor 5:**
+  * Integrated `DescriptionEditor` with full table tools, interactive column stretching, headings, and formatting.
+* **Automated Slug Generation:**
+  * Integrated backend slug generator to automatically compute clean, SEO-friendly, unique URL slugs from the article title.
+* **Live Desktop & Mobile Preview Modal:**
+  * Built interactive responsive preview showing how notices will look to students on mobile and desktop viewports.
+* **Branding & Assets Sync:**
+  * Replaced placeholder icons with high-resolution, cropped official Edu-Hawk favicons (`favicon.png` and `favicon.ico`) in `public/` and `index.html`.
+
+---
+
+### [v1.2.0] - November 18, 2026
 
 #### 📝 Blog Editor Enhancements (`DescriptionEditor.jsx`)
 * **Table Stretching & Interactive Column Resizing:**

@@ -36,6 +36,10 @@ branch — what was done, why, and the measured impact.
 | 19. All 14 Study Abroad Countries | Comprehensive coverage expanded to all 14 countries (Australia, Canada, Denmark, Finland, France, Germany, Ireland, Italy, Mauritius, Spain, Sweden, Switzerland, UK, USA) with 680 total routes | ✅ Done |
 | 20. Universal `unis_data` Fix | `CoursePageKit.jsx` updated to support `s.unis_data` fallback across 120 pages in Denmark, Mauritius & Sweden | ✅ Fixed |
 | 21. Sweden Biotechnology WebP Images | High-resolution campus images converted to WebP format for top 5 Swedish universities and integrated | ✅ Done |
+| 22. Official Newsroom Suite & Routing | Dynamic `/news` listing with category taxonomies & dedicated `/news/:slugOrId` detail page | ✅ Done |
+| 23. News Detail Page Surface Architecture | Direct page-surface layout (removed card container, borderless hero image, max-w-5xl) | ✅ Done |
+| 24. Author Attribution System | Replaced generic source with "By : <Author Name>" across news cards and detail pages | ✅ Done |
+| 25. UI Cleanups & Brand Refinements | Removed WhatsApp CTAs from hero/contact, deleted Free Profile Evaluation, cleaned About FAQ/borders, boosted favicon scale | ✅ Done |
 
 ---
 
@@ -88,6 +92,19 @@ branch — what was done, why, and the measured impact.
     - 3-column / 4-column cards (Colleges, Universities, Blog posts): `sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"`
     - Logos / Icons: `sizes="(max-width: 640px) 180px, 244px"`
   - Key hero images (`About.jsx`, `Services.jsx`, `Contact.jsx`, `CoursePageKit.jsx`, country pages) par LCP optimization ke liye `fetchPriority="high"` aur `loading="eager"` set kiya gaya.
+- ✅ **News Module Architecture & Dedicated Detail Page (`NewsDetail.jsx` & `NewsPage.jsx`)**:
+  - **Dynamic Newsroom (`/news`)**: Clean responsive news grid with search and category filtering, eliminating modal popups.
+  - **Dedicated Article Pages (`/news/:slugOrId`)**: Registered route supporting both MongoDB ObjectId and semantic slugs.
+  - **Page Surface Layout**: Emulated `BlogDetail.jsx` by removing inner card container and outer borders so content and images sit directly on the clean page surface (`max-w-5xl`).
+  - **Hero Cover Image**: Removed image borders (`rounded-3xl shadow-xl`).
+  - **Author Attribution System**: Replaced generic source mentions with personalized `By : <Author Name>` attribution across cards and detail pages.
+  - **Consultation Action Strip**: Retained focused *"Book Free Consultation →"* action, removing intrusive WhatsApp buttons.
+- ✅ **Site-Wide UI Cleanups & Visual Polishing**:
+  - **Hero Modal (`HeroSection.jsx`)**: Removed outer white border (`border-0`), removed logo container border (`border-white/15`), updated badge from "100% NMC Verified" to "100% NMC & WHO Recognized", removed "Worth ₹4,999 – 100% Free Today!", and minimized legal text sizing.
+  - **About Page (`About.jsx`)**: Removed yellow borders and inner shadows from floating stats and quote cards; removed quote icon (`<Quote />`); removed white border from FAQ image card; cleaned yellow borders from FAQ accordion while preserving permanent black question title text; integrated official WhatsApp SVG in expert consultation card.
+  - **Contact Page (`Contact.jsx`)**: Removed "WhatsApp Available" hero button and "Connect Instantly on WhatsApp" card.
+  - **Services Page (`Services.jsx`)**: Removed "Free Profile Evaluation" section.
+  - **Favicon Upgrade**: Cropped transparent canvas padding from `favicon.png` and `favicon.ico` doubling the visible graphic scale on retina browsers and search engines.
 
 ---
 

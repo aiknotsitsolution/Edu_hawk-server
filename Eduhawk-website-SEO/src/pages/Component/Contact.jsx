@@ -264,15 +264,7 @@ export default function Contact() {
                 <Mail size={14} className="text-amber-400" />
                 <span>admin@eduhawk.in</span>
               </a>
-              <a
-                href="https://api.whatsapp.com/send?phone=919630736070"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-600/80 hover:bg-emerald-600 backdrop-blur-md border border-emerald-400/30 text-white text-xs sm:text-sm font-semibold transition"
-              >
-                <MessageCircle size={14} />
-                <span>WhatsApp Available</span>
-              </a>
+
             </div>
           </div>
         </section>
@@ -601,35 +593,7 @@ export default function Contact() {
                   </div>
                 </div>
 
-                {/* Instant WhatsApp Support Card */}
-                <div className="bg-gradient-to-br from-[#071d38] via-[#0d2e54] to-[#0a2342] text-white rounded-3xl p-6 sm:p-7 shadow-xl border border-white/10 relative overflow-hidden">
-                  <div className="relative z-10">
-                    <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-emerald-500/20 text-emerald-300 text-xs font-bold uppercase tracking-wider mb-2 border border-emerald-400/30">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                      Live Chat Available
-                    </span>
-                    <h4 className="text-xl font-bold mb-2">
-                      Connect Instantly on WhatsApp
-                    </h4>
-                    <p className="text-teal-100/90 text-xs sm:text-sm mb-4 leading-relaxed font-light">
-                      Speak directly with our senior admission counsellor for fee
-                      structure &amp; university cut-offs.
-                    </p>
-                    <button
-                      type="button"
-                      onClick={() =>
-                        window.open(
-                          "https://api.whatsapp.com/send?phone=919630736070&text=Hi%20Edu-Hawk,%20I%20have%20an%20MBBS%20Abroad%20admission%20inquiry.",
-                          "_blank"
-                        )
-                      }
-                      className="inline-flex items-center justify-center gap-2 rounded-xl bg-emerald-500 hover:bg-emerald-600 px-6 py-3.5 text-xs sm:text-sm font-bold text-white transition-all shadow-lg hover:shadow-xl cursor-pointer w-full"
-                    >
-                      <MessageCircle size={17} />
-                      <span>Chat on WhatsApp (+91 96307 36070)</span>
-                    </button>
-                  </div>
-                </div>
+
               </div>
             </div>
           </div>

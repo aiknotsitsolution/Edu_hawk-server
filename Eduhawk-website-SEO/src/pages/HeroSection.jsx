@@ -327,7 +327,7 @@ export default function HeroSection() {
         {/* POPUP MODAL */}
         {isOpen && (
           <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 sm:p-6 backdrop-blur-xs">
-            <div className="relative w-full max-w-4xl max-h-[92vh] sm:max-h-[90vh] rounded-2xl bg-white shadow-2xl overflow-hidden flex flex-col border border-slate-100">
+            <div className="relative w-full max-w-4xl max-h-[92vh] sm:max-h-[90vh] rounded-2xl bg-white lg:bg-[#071d38] shadow-2xl overflow-hidden flex flex-col border-0">
               <button
                 onClick={() => setIsOpen(false)}
                 className="absolute top-3.5 right-3.5 sm:top-4 sm:right-4 z-30 w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-slate-100/90 hover:bg-slate-200 text-slate-600 hover:text-slate-900 shadow-sm transition-all duration-200 cursor-pointer"
@@ -345,7 +345,7 @@ export default function HeroSection() {
 
                   <div className="relative z-10">
                     {/* Logo in Frosted Glass Container */}
-                    <div className="mb-5 rounded-2xl border border-white/15 bg-white/10 p-3.5 shadow-lg backdrop-blur-md">
+                    <div className="mb-5 rounded-2xl bg-white/10 p-3.5 shadow-lg backdrop-blur-md">
                       <img
                         src={Eduhawk}
                         alt="MBBS Abroad"
@@ -446,13 +446,13 @@ export default function HeroSection() {
                   <div className="relative z-10 pt-3.5 border-t border-white/15 flex items-center justify-end text-xs text-teal-200/90">
                     <div className="flex items-center gap-1 text-[11px] font-medium text-emerald-300 bg-emerald-500/15 border border-emerald-400/20 px-2.5 py-0.5 rounded-full">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                      100% NMC Verified
+                      100% NMC &amp; WHO Recognized
                     </div>
                   </div>
                 </div>
 
                 {/* RIGHT – form (enhanced modern UI inputs, button and labels) */}
-                <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-6 sm:px-9 sm:py-6 flex flex-col justify-center bg-slate-50/50">
+                <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-6 sm:px-9 sm:py-6 flex flex-col justify-center bg-white">
                   <div className="lg:hidden text-center mb-4">
                     <h2 className="text-2xl font-bold text-slate-800 mb-1">
                       MBBS Abroad Counselling
@@ -678,15 +678,12 @@ export default function HeroSection() {
                       </span>
                     </button>
 
-                    <p className="text-center text-xs sm:text-sm text-teal-700 font-semibold mt-2">
-                      Worth ₹4,999 – 100% Free Today!
-                    </p>
-                    <p className="text-center text-xs text-slate-500 mt-1">
+                    <p className="text-center text-[11px] text-slate-400 mt-2">
                       By submitting, you agree to our Terms &amp; Privacy Policy
                     </p>
                   </form>
 
-                  <div className="mt-2 text-center text-xs text-slate-500">
+                  <div className="mt-1 text-center text-[10px] text-slate-400">
                     <p>Secure &amp; Confidential • We never spam</p>
                   </div>
                 </div>

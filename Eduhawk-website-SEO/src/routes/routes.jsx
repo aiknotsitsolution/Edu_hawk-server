@@ -52,6 +52,7 @@ const BlogSection = lazy(() => import("../pages/Blog/BlogSection.jsx"));
 const Blog = lazy(() => import("../pages/Component/Blog.jsx"));
 const BlogDetail = lazy(() => import("../pages/Component/BlogDetail.jsx"));
 const NewsPage = lazy(() => import("../pages/News/NewsPage.jsx"));
+const NewsDetail = lazy(() => import("../pages/News/NewsDetail.jsx"));
 const AllIndia = lazy(() => import("../pages/Country/India/AllIndia.jsx"));
 const Landingpage = lazy(() => import("../pages/Landingpage/Landingpage.jsx"));
 const TermsAndConditions = lazy(() => import("../pages/TermsAndConditions/TermsAndConditions.jsx"));
@@ -961,6 +962,10 @@ export const router = createBrowserRouter([
       {
         path: "news",
         element: <NewsPage />,
+      },
+      {
+        path: "news/:slugOrId",
+        element: <NewsDetail />,
       },
       {
         path: "study-abroad/news",

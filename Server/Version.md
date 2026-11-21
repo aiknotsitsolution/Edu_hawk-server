@@ -4,14 +4,30 @@ This document tracks all backend feature releases, performance optimizations, bu
 
 ---
 
-## 📌 Current Version: `v1.2.1`
-- **Release Date:** November 19, 2026
+## 📌 Current Version: `v1.3.0`
+- **Release Date:** November 21, 2026
 - **Status:** Production / Stable
 - **Runtime:** Node.js + Express.js 5 + MongoDB / Mongoose 9
 
 ---
 
 ## 🚀 Version Changelog
+
+### [v1.3.0] - November 21, 2026
+#### 📰 News Management REST API & Author Engine (`newscontroller.js`, `newsmodule.js`, `newsroutes.js`)
+- **Full News REST API Suite:**
+  - Implemented `/api/v1/news` with endpoints for `GET` (paginated, filtered, search-enabled), `GET /:slug` (by unique slug or ID), `POST` (create), `PUT /:id` (update), and `DELETE /:id`.
+  - Implemented `/api/v1/news/categories` for dynamic category taxonomy management.
+- **Author Attribution Architecture:**
+  - Integrated `author` field in `newsSchema` with sanitization, backward-compatible fallback, and creator assignment.
+- **Smart Slug Engine:**
+  - Integrated collision-free `generateUniqueSlug(title, currentId)` to guarantee persistent and SEO-friendly URLs.
+- **Seamless Dual-Alias JSON Responses:**
+  - APIs respond with both `news`/`categories` and generic `data` keys to ensure client and admin panel compatibility.
+- **ImageKit Media Upload Pipeline:**
+  - Dedicated `/upload-image` endpoint and direct multipart file processing for high-speed CDN delivery of cover images.
+
+---
 
 ### [v1.2.1] - November 19, 2026
 #### 🐛 Blog Slug Persistence & Collision Fix

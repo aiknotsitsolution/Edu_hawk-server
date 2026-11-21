@@ -57,7 +57,7 @@ function mergeCmsTest(base, cms) {
     heroPara:       cms.hero?.heroPara      || base.heroPara,
     // Stats
     stats:          (cms.stats && cms.stats.length > 0) ? cms.stats : base.stats,
-    // Overview — CMS stores as [{para:"text"}], base uses ["text"]
+    // Overview ï¿½ CMS stores as [{para:"text"}], base uses ["text"]
     overview:       (cms.overview && cms.overview.length > 0)
                       ? cms.overview.map(item => typeof item === 'object' && item.para ? item.para : item)
                       : base.overview,
@@ -371,7 +371,7 @@ export default function TestDetailPage() {
                     <span>Official Verified Guidelines</span>
                   </div>
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919630736070"
                     className="p-2 rounded-lg bg-orange-500 hover:bg-orange-600 text-white transition-colors"
                     title="Call EduHawk Test Advisor"
                   >
@@ -837,8 +837,8 @@ export default function TestDetailPage() {
 
               <div className="mt-4 pt-4 border-t border-white/10 flex items-center justify-between text-xs text-gray-400">
                 <span>Direct Hotline:</span>
-                <a href="tel:+919876543210" className="text-orange-400 font-bold hover:underline">
-                  +91 98765 43210
+                <a href="tel:+919630736070" className="text-orange-400 font-bold hover:underline">
+                  +91 96307 36070
                 </a>
               </div>
             </div>
