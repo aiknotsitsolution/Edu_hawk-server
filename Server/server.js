@@ -25,6 +25,7 @@ dns.setServers(["8.8.8.8", "1.1.1.1", "8.8.4.4"]);
 const app = express();
 app.use(compression());
 const PORT = process.env.PORT || 8001;
+const HOST = "0.0.0.0";
 morgan.token("body", (req) => JSON.stringify(req.body));
 app.use(
   morgan(":method :url :status :res[content-length] - :response-time ms :body"),
@@ -73,6 +74,10 @@ app.get("/", (req, res) => {
   res.send("🚀 Server is running successfully");
 });
 
+app.get("/healthz", (req, res) => {
+  res.status(200).json({ status: "ok", timestamp: new Date().toISOString() });
+});
+
 app.use((req, res) => {
   res.status(404).json({
     success: false,
@@ -88,6 +93,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`🌐 Server running on port ${PORT}`);
+app.listen(PORT, HOST, () => {
+  console.log(`🌐 Server running on http://${HOST}:${PORT}`);
 });
