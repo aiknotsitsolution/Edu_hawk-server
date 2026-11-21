@@ -109,21 +109,6 @@ collections:
               - { label: "Banner Background Image", name: "backgroundImage", widget: "image", required: false }
               - { label: "Button Text", name: "ctaText", widget: "string" }
               - { label: "WhatsApp Phone Number", name: "whatsappPhone", widget: "string" }
-          - label: "Countries & Fees"
-            name: "countries"
-            widget: "list"
-            fields:
-              - { label: "Country Name", name: "name", widget: "string" }
-              - { label: "Flag Emoji", name: "flag", widget: "string" }
-              - { label: "Available Seats", name: "seats", widget: "string" }
-              - { label: "Package Fee", name: "fee", widget: "string" }
-          - label: "Student Testimonials"
-            name: "testimonials"
-            widget: "list"
-            fields:
-              - { label: "Student Name", name: "name", widget: "string" }
-              - { label: "Location / Country", name: "loc", widget: "string" }
-              - { label: "Testimonial Text", name: "text", widget: "text" }
           - label: "FAQ Section"
             name: "faq"
             widget: "object"

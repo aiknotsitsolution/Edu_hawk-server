@@ -63,61 +63,6 @@
     "ctaText": "Talk to an Expert →",
     "whatsappPhone": "919630736070"
   },
-  "countries": [
-    {
-      "name": "Russia",
-      "flag": "🇷🇺",
-      "seats": "600+ seats",
-      "fee": "₹20-30L total"
-    },
-    {
-      "name": "Georgia",
-      "flag": "🇬🇪",
-      "seats": "200+ seats",
-      "fee": "₹25-35L total"
-    },
-    {
-      "name": "Uzbekistan",
-      "flag": "🇺🇿",
-      "seats": "400+ seats",
-      "fee": "₹18-28L total"
-    },
-    {
-      "name": "Kazakhstan",
-      "flag": "🇰🇿",
-      "seats": "300+ seats",
-      "fee": "₹22-32L total"
-    },
-    {
-      "name": "Kyrgyzstan",
-      "flag": "🇰🇬",
-      "seats": "250+ seats",
-      "fee": "₹15-25L total"
-    },
-    {
-      "name": "Nepal",
-      "flag": "🇳🇵",
-      "seats": "150+ seats",
-      "fee": "₹35-50L total"
-    }
-  ],
-  "testimonials": [
-    {
-      "name": "Priya Sharma",
-      "loc": "Delhi → Russia",
-      "text": "Edu-Hawk guided me every step of the way. No hidden charges, clear advice. Got into a top NMC-recognized university in Russia!"
-    },
-    {
-      "name": "Rahul Verma",
-      "loc": "Mumbai → Georgia",
-      "text": "The counsellors were transparent and genuinely cared about my future. Best decision to trust Edu-Hawk for my MBBS abroad journey!"
-    },
-    {
-      "name": "Ananya Patel",
-      "loc": "Ahmedabad → Kazakhstan",
-      "text": "From application to post-arrival, they supported me fully. I feel confident about my FMGE preparation with their guidance."
-    }
-  ],
   "faq": {
     "sidebarImage": "/uploads/about-service.webp",
     "title": "Frequently Asked Questions",

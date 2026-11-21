@@ -366,52 +366,6 @@ export default function About() {
           </div>
         </section>
 
-        {/* STUDENT TESTIMONIALS (Restored & Dynamic from CMS) */}
-        {aboutData.testimonials && aboutData.testimonials.length > 0 && (
-          <section className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-white">
-            <div className="max-w-7xl mx-auto">
-              <div className="text-center max-w-3xl mx-auto mb-14">
-                <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200/70">
-                  <Star size={14} className="text-amber-600 fill-amber-500" />
-                  Student Stories
-                </span>
-                <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">
-                  What Our Students Say About Us
-                </h2>
-                <p className="text-gray-600 text-base sm:text-lg">
-                  Real experiences from Indian medical aspirants who turned their dream of becoming doctors into reality.
-                </p>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
-                {aboutData.testimonials.map((test, idx) => (
-                  <div
-                    key={idx}
-                    className="bg-white rounded-2xl p-6 sm:p-7 border border-slate-200 shadow-md hover:shadow-xl hover:border-amber-400 transition-all duration-300 flex flex-col justify-between"
-                  >
-                    <div>
-                      <p className="text-slate-700 text-sm sm:text-base leading-relaxed mb-6 italic">
-                        "{test.text}"
-                      </p>
-                    </div>
-
-                    <div className="pt-4 border-t border-slate-100 flex items-center justify-between">
-                      <div>
-                        <div className="font-bold text-slate-900 text-base">{test.name}</div>
-                        <div className="text-xs font-semibold text-amber-700 mt-0.5">{test.loc}</div>
-                      </div>
-                      <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 text-[11px] font-bold border border-emerald-200">
-                        <CheckCircle2 size={12} />
-                        Verified
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-
         {/* CTA / WHATSAPP BANNER */}
         <section
           className="relative py-20 md:py-24 px-5 sm:px-8 lg:px-12 bg-cover bg-center text-center text-white"

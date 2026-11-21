@@ -20,10 +20,8 @@ import SeoHead from "../../component/SeoHead.jsx";
 
 const NAV_LINKS = [
   "Home",
-  "Countries",
   "Process",
   "Benefits",
-  "Testimonials",
   "FAQ",
   "Contact",
 ];
@@ -460,52 +458,6 @@ export default function Landingpage() {
         </div>
       </section>
 
-      {/* COUNTRIES SECTION */}
-      <section id="countries" className="py-24 px-6 lg:px-10 bg-white">
-        <div className="text-center mb-16">
-          <p className="text-cyan-600 text-sm font-bold tracking-widest mb-3">
-            POPULAR DESTINATIONS
-          </p>
-          <h2 className="text-4xl md:text-5xl font-bold">
-            Top Countries for MBBS Abroad
-          </h2>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {COUNTRIES.map((country) => (
-            <div
-              key={country.name}
-              onClick={() => handleCountryClick(country.path)}
-              className="country-card glass rounded-3xl overflow-hidden group cursor-pointer"
-            >
-              <img
-                src={country.uniImage}
-                loading="lazy"
-                alt={country.name}
-                className="uni-image w-full"
-                  srcSet={`${country.uniImage} 1x, ${country.uniImage} 2x`}
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              <div className="p-8">
-                <div
-                  className="inline-block px-4 py-1 rounded-full text-xs font-bold mb-2"
-                  style={{
-                    backgroundColor: `${country.color}15`,
-                    color: country.color,
-                  }}
-                >
-                  {country.rank}
-                </div>
-                <h3 className="text-3xl font-bold">{country.name}</h3>
-
-                <p className="text-cyan-600 text-sm mt-4 group-hover:underline">
-                  View Details →
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* BENEFITS SECTION */}
       <section id="benefits" className="py-24 px-6 lg:px-10 bg-slate-50">
         <div className="text-center mb-16">
@@ -559,41 +511,6 @@ export default function Landingpage() {
                   {step.title}
                 </h3>
                 <p className="text-slate-600">{step.desc}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* TESTIMONIALS SECTION */}
-      <section id="testimonials" className="py-24 px-6 lg:px-10 bg-slate-50">
-        <div className="text-center mb-16">
-          <p className="text-cyan-600 text-sm font-bold tracking-widest mb-3">
-            SUCCESS STORIES
-          </p>
-          <h2 className="text-4xl md:text-5xl font-bold">Our Happy Students</h2>
-        </div>
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          {TESTIMONIALS.map((t, i) => (
-            <div key={i} className="glass rounded-3xl p-8">
-              <div className="flex gap-1 mb-6">
-                {[...Array(5)].map((_, j) => (
-                  <Star key={j} size={22} fill="#fbbf24" stroke="#fbbf24" />
-                ))}
-              </div>
-              <p className="italic text-slate-700 leading-relaxed mb-8">
-                “{t.text}”
-              </p>
-              <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-500 to-violet-600 text-white font-bold flex items-center justify-center text-xl">
-                  {t.avatar}
-                </div>
-                <div>
-                  <div className="font-semibold">{t.name}</div>
-                  <div className="text-sm text-slate-500">
-                    {t.year} • {t.city}
-                  </div>
-                </div>
               </div>
             </div>
           ))}
