@@ -74,7 +74,7 @@ app.get("/", (req, res) => {
   res.send("🚀 Server is running successfully");
 });
 
-app.get("/healthz", (req, res) => {
+app.get(["/health", "/healthz"], (req, res) => {
   res.status(200).json({ status: "ok", timestamp: new Date().toISOString() });
 });
 
