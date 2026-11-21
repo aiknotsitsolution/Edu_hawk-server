@@ -33,26 +33,6 @@ import globalImage2 from "../Images/home_page_Image/class room 2.webp";
 import { Link } from "react-router-dom";
 import SeoHead from "../component/SeoHead.jsx";
 import homeData from "../data/home.json";
-import russiaFlag from "../Images/country flag png/Russia.svg";
-import georgiaFlag from "../Images/country flag png/Georgia.svg";
-import uzbekistanFlag from "../Images/country flag png/Uzbekistan-Flag.svg";
-import kazakhstanFlag from "../Images/country flag png/Kazakhstan.svg";
-import kyrgyzstanFlag from "../Images/country flag png/Kyrgyzstan.svg";
-import nepalFlag from "../Images/country flag png/Nepal.svg";
-import bangladeshFlag from "../Images/country flag png/Bangladesh-Flag-PNG-Isolated-HD.webp";
-import egyptFlag from "../Images/country flag png/Egypt.svg";
-
-const COUNTRY_FLAGS = {
-  Russia: { flag: russiaFlag, code: "RU" },
-  Georgia: { flag: georgiaFlag, code: "GE" },
-  Uzbekistan: { flag: uzbekistanFlag, code: "UZ" },
-  Kazakhstan: { flag: kazakhstanFlag, code: "KZ" },
-  Kyrgyzstan: { flag: kyrgyzstanFlag, code: "KG" },
-  Nepal: { flag: nepalFlag, code: "NP" },
-  Bangladesh: { flag: bangladeshFlag, code: "BD" },
-  Egypt: { flag: egyptFlag, code: "EG" },
-};
-
 
 const NAV_LINKS = ["Home", "About", "Services", "Countries", "Contact"];
 
@@ -63,10 +43,22 @@ const HERO_SLIDES = (homeData.heroSlides || []).map((slide, idx) => ({
   image: slide.image || HERO_SLIDE_IMAGES[idx % HERO_SLIDE_IMAGES.length],
 }));
 
-const COUNTRIES = homeData.countries || [];
-const TESTIMONIALS = homeData.testimonials || [];
 const FAQ_ITEMS = homeData.faq || [];
 const mbbsOptions = homeData.mbbsOptions || [];
+
+const CONTACT_COUNTRY_OPTIONS = [
+  { name: "Russia", flag: "🇷🇺" },
+  { name: "Georgia", flag: "🇬🇪" },
+  { name: "Uzbekistan", flag: "🇺🇿" },
+  { name: "Kazakhstan", flag: "🇰🇿" },
+  { name: "Kyrgyzstan", flag: "🇰🇬" },
+  { name: "Nepal", flag: "🇳🇵" },
+  { name: "Egypt", flag: "🇪🇬" },
+  { name: "Bangladesh", flag: "🇧🇩" },
+  { name: "Philippines", flag: "🇵🇭" },
+  { name: "Armenia", flag: "🇦🇲" },
+  { name: "Other", flag: "🌍" },
+];
 
 const EMPTY_MODAL_FORM = {
   name: "",
@@ -91,7 +83,6 @@ export default function HeroSection() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeNav, setActiveNav] = useState("Home");
   const [currentHeroSlide, setCurrentHeroSlide] = useState(0);
-  const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
   const [modalForm, setModalForm] = useState(EMPTY_MODAL_FORM);
   const [modalErrors, setModalErrors] = useState({});
@@ -875,99 +866,6 @@ export default function HeroSection() {
           </div>
         </section>
 
-        {/* TOP MBBS DESTINATIONS GRID (Dynamic - auto-hides if empty in CMS) */}
-        {COUNTRIES && COUNTRIES.length > 0 && (
-        <section id="destinations" className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-gradient-to-b from-white via-slate-50 to-white">
-          <div className="max-w-7xl mx-auto">
-            <div className="text-center max-w-3xl mx-auto mb-14">
-              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider mb-4 border border-amber-200">
-                <Globe size={14} className="text-amber-700" />
-                Popular Study Hubs
-              </span>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">
-                Top MBBS Abroad Destinations for Indian Students
-              </h2>
-              <p className="text-gray-600 text-base sm:text-lg">
-                Compare premier medical universities, transparent fee structures, and NMC-compliant curriculums across top overseas education destinations.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-              {COUNTRIES.map((country, idx) => (
-                <div
-                  key={country.name || idx}
-                  className="group relative bg-white rounded-2xl border border-slate-200/80 shadow-md hover:shadow-2xl hover:border-amber-400/80 transition-all duration-300 p-6 flex flex-col justify-between hover:-translate-y-1.5"
-                >
-                  <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <div className="flex items-center gap-2.5">
-                        {COUNTRY_FLAGS[country.name] ? (
-                          <img
-                            src={COUNTRY_FLAGS[country.name].flag}
-                            alt={`${country.name} flag`}
-                            width={36}
-                            height={24}
-                            className="w-9 h-6 sm:w-10 sm:h-6.5 object-cover rounded shadow-xs border border-slate-200/90"
-                          />
-                        ) : (
-                          <span className="text-2xl">{country.flag}</span>
-                        )}
-                        <span className="text-xs font-extrabold text-slate-700 bg-slate-100/90 px-2 py-0.5 rounded-md border border-slate-200 uppercase tracking-wider">
-                          {COUNTRY_FLAGS[country.name]?.code || (country.name || "").slice(0, 2).toUpperCase()}
-                        </span>
-                      </div>
-                      {country.tag && (
-                        <span className="px-3 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-700 border border-amber-200/70">
-                          {country.tag}
-                        </span>
-                      )}
-                    </div>
-                    <h3 className="text-2xl font-bold text-[#0a2342] group-hover:text-amber-600 transition-colors mb-2">
-                      MBBS in {country.name}
-                    </h3>
-                    <div className="space-y-2 mb-6 text-sm">
-                      <div className="flex items-center justify-between py-1.5 border-b border-slate-100">
-                        <span className="text-slate-500 font-medium">Estimated Package</span>
-                        <span className="font-bold text-slate-900">{country.fee || "Contact for fees"}</span>
-                      </div>
-                      <div className="flex items-center justify-between py-1.5 border-b border-slate-100">
-                        <span className="text-slate-500 font-medium">Available Seats</span>
-                        <span className="font-semibold text-emerald-600 flex items-center gap-1">
-                          <CheckCircle2 size={14} />
-                          {country.seats || "Seats Available"}
-                        </span>
-                      </div>
-                      <div className="flex items-center justify-between py-1.5">
-                        <span className="text-slate-500 font-medium">Recognition</span>
-                        <span className="font-semibold text-slate-700">NMC &amp; WHO Approved</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <Link
-                    to={country.link || `/mbbs-abroad/${(country.name || "").toLowerCase()}`}
-                    className="w-full py-3 px-4 rounded-xl font-bold text-sm text-center bg-slate-900 text-white group-hover:bg-gradient-to-r group-hover:from-[#d4a853] group-hover:to-[#e0b76b] group-hover:text-[#0a2342] transition-all duration-300 flex items-center justify-center gap-2 shadow-sm"
-                  >
-                    <span>View Universities &amp; Fees</span>
-                    <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
-                  </Link>
-                </div>
-              ))}
-            </div>
-
-            <div className="mt-12 text-center">
-              <Link
-                to="/allcollege"
-                className="inline-flex items-center gap-2 text-base font-bold text-[#0a2342] hover:text-amber-600 transition-colors border-b-2 border-amber-400 pb-1"
-              >
-                <span>View All Medical Colleges Worldwide</span>
-                <ArrowRight size={18} />
-              </Link>
-            </div>
-          </div>
-        </section>
-        )}
-
         {/* ABOUT SECTION - (kept as in original) */}
         <section className="py-8 md:py-10 px-5 sm:px-6 lg:px-10 bg-[#faf8f4]">
           <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -1525,62 +1423,6 @@ export default function HeroSection() {
         </section>
 
         
-        {/* STUDENT TESTIMONIALS SECTION (Dynamic - auto-hides if empty in CMS) */}
-        {TESTIMONIALS && TESTIMONIALS.length > 0 && (
-        <section className="py-20 md:py-24 px-5 sm:px-8 lg:px-12 bg-gradient-to-br from-[#071d38] via-[#0a2a4e] to-[#0d3460] text-white relative overflow-hidden">
-          <div className="absolute top-0 right-0 w-96 h-96 bg-amber-400/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
-
-          <div className="max-w-7xl mx-auto relative z-10">
-            <div className="text-center max-w-3xl mx-auto mb-16">
-              <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-400/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-4 border border-amber-400/30">
-                <Star size={14} className="fill-amber-400 text-amber-400" />
-                Verified Student Reviews
-              </span>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-tight mb-4">
-                Stories of Success From Our Medical Students
-              </h2>
-              <p className="text-slate-300 text-base sm:text-lg">
-                Hear directly from students and parents who placed their trust in Edu-Hawk Worldwide for their overseas medical journey.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {TESTIMONIALS.map((review, i) => (
-                <div
-                  key={i}
-                  className="bg-white/10 backdrop-blur-md rounded-2xl border border-white/15 p-7 flex flex-col justify-between hover:bg-white/15 hover:border-amber-400/50 transition-all duration-300 hover:-translate-y-1.5 shadow-xl"
-                >
-                  <div>
-                    <div className="flex items-center gap-1 text-amber-400 mb-4">
-                      {Array.from({ length: review.stars || 5 }).map((_, sIdx) => (
-                        <Star key={sIdx} size={18} className="fill-amber-400 text-amber-400" />
-                      ))}
-                    </div>
-                    <p className="text-slate-200 text-sm sm:text-base leading-relaxed mb-6 italic">
-                      "{review.text}"
-                    </p>
-                  </div>
-                  <div className="pt-4 border-t border-white/15 flex items-center justify-between">
-                    <div>
-                      <h4 className="font-bold text-white text-base">{review.name}</h4>
-                      <p className="text-xs text-amber-300 font-medium">{review.loc}</p>
-                      {review.university && (
-                        <p className="text-xs text-slate-300 mt-0.5">{review.university}</p>
-                      )}
-                    </div>
-                    <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-emerald-300 bg-emerald-500/20 px-2.5 py-1 rounded-full border border-emerald-400/30">
-                      <CheckCircle2 size={12} />
-                      Verified
-                    </span>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-        )}
-
         <section className="py-16 md:py-20 px-5 sm:px-8 lg:px-12 bg-white">
           <div className="max-w-4xl mx-auto">
             <div className="mb-8 text-center">
@@ -1731,7 +1573,7 @@ export default function HeroSection() {
                       }
                     >
                       <option value="">Select country</option>
-                      {COUNTRIES.map((c) => (
+                      {CONTACT_COUNTRY_OPTIONS.map((c) => (
                         <option key={c.name} value={c.name}>
                           {c.flag} {c.name}
                         </option>
