@@ -443,12 +443,7 @@ export default function HeroSection() {
                   </div>
 
                   {/* Trust Footer in Left Panel */}
-                  <div className="relative z-10 pt-3.5 border-t border-white/15 flex items-center justify-between text-xs text-teal-200/90">
-                    <div className="flex items-center gap-1.5 font-medium">
-                      <span className="text-amber-400">★★★★★</span>
-                      <span className="text-white font-semibold">4.9/5</span>
-                      <span className="text-teal-200/60 text-[11px]">(1000+ Reviews)</span>
-                    </div>
+                  <div className="relative z-10 pt-3.5 border-t border-white/15 flex items-center justify-end text-xs text-teal-200/90">
                     <div className="flex items-center gap-1 text-[11px] font-medium text-emerald-300 bg-emerald-500/15 border border-emerald-400/20 px-2.5 py-0.5 rounded-full">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
                       100% NMC Verified
@@ -726,9 +721,7 @@ export default function HeroSection() {
                 <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10 pb-20 sm:pb-24">
                   <div className="text-center max-w-5xl mx-auto">
                     <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/45 backdrop-blur-md border border-white/20 text-white text-xs sm:text-sm font-semibold mb-3 sm:mb-5 shadow-xl">
-                      <span className="text-amber-400">★★★★★</span>
-                      <span className="text-amber-300 font-bold">4.9/5 Rating</span>
-                      <span className="hidden sm:inline text-white/90">• 1000+ Placed • NMC &amp; WHO Recognized</span>
+                      <span className="text-white/90">1000+ Placed • NMC &amp; WHO Recognized</span>
                     </div>
 
                     <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-3 md:mb-5 drop-shadow-2xl">

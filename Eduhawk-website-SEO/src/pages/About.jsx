@@ -137,10 +137,8 @@ export default function About() {
               <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10 pb-28 sm:pb-36">
                 <div className="text-center max-w-5xl mx-auto">
                   <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/45 backdrop-blur-md border border-white/20 text-white text-xs sm:text-sm font-semibold mb-4 sm:mb-6 shadow-xl">
-                    <span className="text-amber-400">★★★★★</span>
-                    <span className="text-amber-300 font-bold">4.9/5 Rating</span>
-                    <span className="hidden sm:inline text-white/90">
-                      • {aboutData.welcome?.badge || "Where Innovation Meets Excellence"}
+                    <span className="text-white/90">
+                      {aboutData.welcome?.badge || "Where Innovation Meets Excellence"}
                     </span>
                   </div>
 
@@ -392,12 +390,6 @@ export default function About() {
                     className="bg-white rounded-2xl p-6 sm:p-7 border border-slate-200 shadow-md hover:shadow-xl hover:border-amber-400 transition-all duration-300 flex flex-col justify-between"
                   >
                     <div>
-                      {/* Rating Stars */}
-                      <div className="flex items-center gap-1 mb-4">
-                        {[...Array(test.stars || 5)].map((_, i) => (
-                          <Star key={i} size={16} className="text-amber-400 fill-amber-400" />
-                        ))}
-                      </div>
                       <p className="text-slate-700 text-sm sm:text-base leading-relaxed mb-6 italic">
                         "{test.text}"
                       </p>
