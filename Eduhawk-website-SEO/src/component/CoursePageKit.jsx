@@ -5363,11 +5363,11 @@ export const AbroadCoursePage = ({
 
 
 
-        eyebrow={`Study ${courseBase} · ${country} · ${page.level}`}
+        eyebrow={`Study ${courseBase.replace(/^Study\s+/i, '')} · ${country} · ${page.level}`}
 
 
 
-        lead={`${courseBase} in`}
+        lead={`${courseBase.replace(/^Study\s+/i, '')} in`}
 
 
 

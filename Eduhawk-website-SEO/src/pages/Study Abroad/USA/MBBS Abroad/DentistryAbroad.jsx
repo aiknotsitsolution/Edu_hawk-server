@@ -483,7 +483,7 @@ const DentistryAbroad = () =>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
                 <span className="bg-gradient-to-r from-teal-400 to-amber-300 bg-clip-text text-transparent">
-                  {dentistryData?.hero?.title || "Dentistry Abroad"}
+                  {(dentistryData?.hero?.title || "Dentistry Abroad").replace(/^Study\s+/i, "")}
                 </span>{" "}
                 with confidence
               </h1>

@@ -577,7 +577,9 @@ const Biotechnology = () => {
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
                 <span className="bg-gradient-to-r from-blue-400 to-amber-300 bg-clip-text text-transparent">
-                  {biotechnologyData?.hero?.title || "Biotechnology in USA"}
+                  {(biotechnologyData?.hero?.title || "Biotechnology in USA")
+                    .replace(/^Study\s+/i, "")
+                    .replace(/\s+for\s+Indian\s+Students$/i, "")}
                 </span>{" "}
                 for Indian Students
               </h1>

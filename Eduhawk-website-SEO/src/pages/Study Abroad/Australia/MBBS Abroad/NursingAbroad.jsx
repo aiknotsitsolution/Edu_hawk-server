@@ -17,14 +17,14 @@ import deakinImg from "../../../../Images/Abroad/Australia/Nursing/Deakin_Colleg
 const sideImg = clinicalImg;
 
 const page = {
-  name: "Nursing in Australia",
+  name: "Nursing",
   country: "Australia",
   slug: "nursing",
   title: "Nursing in Australia for Indian Students | Edu-Hawk Worldwide",
   description:
     "Explore Nursing in Australia for Indian students. Learn about Bachelor of Nursing, graduate-entry pathways, top universities (Monash, Sydney, UQ, Deakin), eligibility, fees, NMBA registration, and career opportunities.",
   keywords:
-    "Study Study Nursing in Australia for Indian Students Best Universities for Nursing in Australia Nursing Courses in Australia After 12th Bachelor of Nursing in Australia for International Students Nursing Admission Requirements in Australia Nursing Fees in Australia for Indian Students Nursing Scholarships in Australia for International Students Nursing Course Duration in Australia English Language Requirements for Nursing in Australia IELTS and PTE Requirements for Nursing in Australia Nursing Graduate Entry Programs in Australia Nursing Admission Process in Australia for Indian Students Nursing Registration Requirements in Australia Career Opportunities After Studying Nursing in Australia Australian Student Visa Requirements for Nursing Students",
+    "Study Nursing in Australia for Indian Students Best Universities for Nursing in Australia Nursing Courses in Australia After 12th Bachelor of Nursing in Australia for International Students Nursing Admission Requirements in Australia Nursing Fees in Australia for Indian Students Nursing Scholarships in Australia for International Students Nursing Course Duration in Australia English Language Requirements for Nursing in Australia IELTS and PTE Requirements for Nursing in Australia Nursing Graduate Entry Programs in Australia Nursing Admission Process in Australia for Indian Students Nursing Registration Requirements in Australia Career Opportunities After Studying Nursing in Australia Australian Student Visa Requirements for Nursing Students",
   introTitle: "Indian Students Pursuing Nursing in Australia",
   heroParas: [
     "International students who wish to work in healthcare and nursing in Australia. Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments."
