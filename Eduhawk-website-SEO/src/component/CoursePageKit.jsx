@@ -1306,7 +1306,7 @@ export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => {
           {formatRichText(cleanTitle)}
         </h2>
       )}
-      {desc && <Paragraphs items={desc} className={descClass ?? "text-slate-500 text-[15px] leading-relaxed max-w-3xl"} />}
+      {desc && <Paragraphs items={desc} className={descClass ?? "text-slate-500 text-[15px] leading-relaxed w-full"} />}
     </div>
   );
 };
@@ -2539,7 +2539,7 @@ export const FaqList = ({ faqs }) => {
 
 
 
-    <div className="space-y-3 max-w-3xl">
+    <div className="space-y-3 w-full">
 
 
 
@@ -2982,7 +2982,7 @@ const RelatedBranches = ({ level, currentSlug, country = "USA" }) => {
 
 
 
-          descClass="text-slate-500 text-[15px] leading-relaxed max-w-3xl"
+          descClass="text-slate-500 text-[15px] leading-relaxed w-full"
 
 
 
@@ -3569,7 +3569,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -3617,7 +3617,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            descClass="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            descClass="text-slate-500 text-[15px] leading-relaxed w-full space-y-3"
 
 
 
@@ -3649,7 +3649,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -3928,7 +3928,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -4080,7 +4080,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="text-slate-500 text-[15px] leading-relaxed max-w-3xl mb-5"
+            className="text-slate-500 text-[15px] leading-relaxed w-full mb-5"
 
 
 
@@ -4100,7 +4100,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -4164,7 +4164,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-4 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-4 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -5621,12 +5621,12 @@ export const AbroadCoursePage = ({
                   eyebrow={s.eyebrow || "Top Universities"}
                   title={s.title}
                   desc={s.lead}
-                  descClass="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+                  descClass="text-slate-500 text-[15px] leading-relaxed w-full space-y-3"
                 />
                 <UniversityGrid unis={sectionUnis} alt={(u) => (u.name || "University") + " campus"} />
                 <Paragraphs
                   items={s.note}
-                  className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-3"
+                  className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-3"
                 />
                 {s.groups && s.groups.length > 0 && (
                   <div className="mt-10">
@@ -5684,7 +5684,7 @@ export const AbroadCoursePage = ({
 
 
 
-                  className="text-slate-500 text-[15px] leading-relaxed max-w-3xl mb-8"
+                  className="text-slate-500 text-[15px] leading-relaxed w-full mb-8"
 
 
 
@@ -5892,7 +5892,7 @@ export const AbroadCoursePage = ({
               {(s.items || s.paras) && (!s.groups || s.groups.length === 0) && (
                 <Paragraphs
                   items={s.items || s.paras}
-                  className="max-w-4xl text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
+                  className="w-full text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
                 />
               )}
               {s.groups && s.groups.length > 0 && (

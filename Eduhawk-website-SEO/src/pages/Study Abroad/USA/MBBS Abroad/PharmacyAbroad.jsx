@@ -677,7 +677,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Why Come to the USA to Study Pharmacy?
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Studying pharmacy in the US offers access to advanced pharmaceutical education and a range of career options.
             </p>
           </div>
@@ -715,7 +715,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Pharmacy Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Professional pharmacy degrees, pharmaceutical science undergraduate programs, and postgraduate study options are all available in the USA.
             </p>
           </div>
@@ -786,7 +786,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Top Universities for Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Some well-known U.S. pharmacy schools and universities include:
             </p>
           </div>
@@ -856,7 +856,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Eligibility to Study Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The eligibility for pharmacy in USA depends on the course and university.
             </p>
           </div>
@@ -913,7 +913,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Admission Requirements for Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The pharmacy admission requirements in USA vary by institution and program.
             </p>
           </div>
@@ -983,7 +983,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Cost of Studying Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The length of the program, the location, the university, and the student's residency classification all affect the cost of studying pharmacy in the United States.
             </p>
           </div>
@@ -1050,7 +1050,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Pharmacy Licensing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               State boards of pharmacy oversee the licensing of pharmacists in the United States. A degree in pharmacy does not grant one the right to work as a pharmacist.
             </p>
           </div>
@@ -1095,7 +1095,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Pharmacy Salary and Job Opportunities in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Professionals in pharmacy who are qualified can look into opportunities in a number of industries.
             </p>
           </div>
@@ -1137,7 +1137,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Documents Required to Study Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Depending on the program and university, different documents are needed to study pharmacy in the United States.
             </p>
           </div>

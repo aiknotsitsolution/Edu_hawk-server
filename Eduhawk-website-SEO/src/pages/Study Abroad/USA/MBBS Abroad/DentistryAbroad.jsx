@@ -688,7 +688,7 @@ const DentistryAbroad = () =>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Why Study Dentistry in the USA?
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The United States has a comprehensive dental education framework
               that integrates theoretical study, hands-on laboratory practice,
               clinical training, and research. Students looking to pursue dental
@@ -755,7 +755,7 @@ const DentistryAbroad = () =>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Best Dentistry Courses in the USA for Indian Students
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Individuals seeking the top dentistry courses in the USA should be
               aware of the distinctions between professional dental
               qualifications, advanced-standing programs, and postgraduate
@@ -914,7 +914,7 @@ const DentistryAbroad = () =>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Top Dental Universities in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Choosing among the top dental universities in the USA requires
               comparing academic requirements, tuition fees, clinical
               facilities, programme structure, and international admission
@@ -1030,7 +1030,7 @@ const DentistryAbroad = () =>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Eligibility for Dentistry Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               It's important to know who is qualified for dental programs in the
               US before submitting an application. The requirements vary
               depending on whether the candidate is applying for postgraduate
@@ -1232,7 +1232,7 @@ const DentistryAbroad = () =>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               The Cost of Dental Education in the United States
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The university, length of the program, type of residency, and
               living situation all affect how much it costs to study dentistry
               in the United States. Tuition, housing, health insurance, dental
@@ -1363,7 +1363,7 @@ const DentistryAbroad = () =>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Dental Licensing Requirements in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Prior to selecting a dental program, it is crucial to comprehend
               the US dental licensing requirements for international students.
               Obtaining a dental degree does not automatically entitle one to
@@ -1447,7 +1447,7 @@ const DentistryAbroad = () =>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Career Opportunities After Studying Dentistry in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Clinical practice, specialized treatment, research, teaching,
               public health, and positions in the dental industry are all
               options available to students looking into post-dentistry careers
@@ -1524,7 +1524,7 @@ const DentistryAbroad = () =>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Documents Required for Dental School Admission
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Students can prevent needless delays by preparing the paperwork
               needed for dental school admission in the USA beforehand.
               Documents that are frequently requested include:

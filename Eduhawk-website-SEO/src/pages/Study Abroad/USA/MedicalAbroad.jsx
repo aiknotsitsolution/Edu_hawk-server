@@ -364,7 +364,7 @@ const MedicalAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Popular destinations for Medical
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               We help you compare fees, climate, Indian student community, safety and NMC recognition so you can choose the right country — not just the cheapest one. Every destination has its own strengths.
             </p>
           </div>

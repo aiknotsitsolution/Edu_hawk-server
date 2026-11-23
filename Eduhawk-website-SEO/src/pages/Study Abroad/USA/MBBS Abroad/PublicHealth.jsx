@@ -699,7 +699,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Why Study Public Health in the USA?
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The United States represents a viable destination for students seeking to develop expertise in healthcare systems, implement disease prevention strategies, and participate in health initiatives at community, national or international scales.
             </p>
           </div>
@@ -737,7 +737,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Public Health Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The selection of an appropriate public health curriculum is contingent upon the student's existing educational credentials, scholarly inclinations and professional aspirations.
             </p>
           </div>
@@ -814,7 +814,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Top Universities for Public Health in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Individuals conducting comparative analysis of public health academic programs within the United States may examine the following universities. The subsequent enumeration represents institutions meriting scholarly consideration rather than a hierarchical assessment of program quality.
             </p>
           </div>
@@ -885,7 +885,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Eligibility Requirements for Pursuing Public Health Studies in the United States
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               In the United States, eligibility to pursue public health education depends on the chosen field of concentration, the specific institution and the desired academic level.
             </p>
           </div>
@@ -964,7 +964,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Admission Requirements for Public Health in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The prerequisites for admission to public health programs within United States universities demonstrate considerable variation contingent upon the specific institution and the academic degree level pursued.
             </p>
           </div>
@@ -1040,7 +1040,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Cost of Studying Public Health in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The cost required for pursuing public health education within the United States is contingent upon multiple institutional and personal variables, including the specific university, academic degree level, programme duration, geographic location and individual lifestyle choices. Institutional fee structures demonstrate considerable variation across public universities, private universities and alternative programme delivery formats.
             </p>
           </div>
@@ -1118,7 +1118,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Public Health Accreditation and Professional Certification in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Students should distinguish between university admission, academic accreditation and professional certification.
             </p>
           </div>
@@ -1157,7 +1157,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Career Opportunities and Salary After Public Health in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               A public health qualification facilitates career advancement in research, community-based programmes, epidemiological data analysis, policy development, healthcare management and international health initiatives. Specific career prospects are contingent upon the degree type, area of specialisation, professional experience, organisational requirements and immigration status.
             </p>
           </div>
@@ -1199,7 +1199,7 @@ const PublicHealth = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Documentation Requirements for Public Health Programme Admission in the United States
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The comprehensive documentation requirements vary according to institutional policies and specific programme specifications.
             </p>
           </div>

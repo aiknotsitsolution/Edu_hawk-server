@@ -676,7 +676,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Why Study Nursing in the USA?
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Choosing to study nursing in the USA can provide access to a highly developed healthcare and education system.
             </p>
           </div>
@@ -718,7 +718,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Nursing Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               There are several nursing courses in USA for students at different stages of their education.
             </p>
           </div>
@@ -786,7 +786,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Popular destinations for Nursing
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               We help you compare fees, clinical exposure, job opportunities, safety and recognition so you can choose the right country.
             </p>
           </div>
@@ -876,7 +876,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Top Universities for Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The USA is home to several internationally recognised universities offering nursing and healthcare programs.
             </p>
           </div>
@@ -936,7 +936,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Eligibility to Study Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The nursing eligibility in the USA depends on the program and university.
             </p>
           </div>
@@ -996,7 +996,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Nursing Admission Requirements in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The nursing admission requirements in USA vary according to the university and program.
             </p>
           </div>
@@ -1051,7 +1051,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Cost of Studying Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The cost of nursing in USA depends on several factors, including the university, program, location and duration of study.
             </p>
           </div>
@@ -1133,7 +1133,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Nursing Licensing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Understanding nursing licensing in USA is essential for international students. Studying nursing does not automatically mean that a student is licensed to practise as a nurse. Nursing licensure is regulated by individual U.S. states, and requirements can differ between states.
             </p>
           </div>
@@ -1179,7 +1179,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Nursing Salary and Job Opportunities in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The nursing job market in USA offers opportunities across a wide range of healthcare settings.
             </p>
           </div>
@@ -1232,7 +1232,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Documents Required to Study Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The documents required to study nursing in USA vary by university and program.
             </p>
           </div>
