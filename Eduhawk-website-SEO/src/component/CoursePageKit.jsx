@@ -2656,169 +2656,44 @@ export const FaqList = ({ faqs }) => {
 
 
 export const CtaBand = ({ title, desc, bgImg}) => (
-
-
-
   <section className="py-16 sm:py-20" id="consult">
-
-
-
     <div className="max-w-6xl mx-auto px-6">
-
-
-
       <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl px-8 py-14 sm:px-12 text-center text-white relative overflow-hidden">
-
-
-
         {bgImg && (
-
-
-
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-
-
-
             <img
-
-
-
               src={bgImg}
-
-
-
               alt="CTA background"
-
-
-
               className="w-full h-full object-cover ehp-bg-zoom opacity-65"
-
-
-
               loading="lazy"
-
-
-
             />
-
-
-
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/75 via-slate-950/45 to-slate-950/70" />
-
-
-
           </div>
-
-
-
         )}
-
-
-
         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-
-
-
         <h2 className="text-2xl sm:text-3xl font-bold mb-3 relative">
-
-
-
           {title}
-
-
-
         </h2>
-
-
-
         <p className="text-white/70 max-w-md mx-auto mb-8 leading-relaxed text-[15px] relative">
-
-
-
           {desc}
-
-
-
         </p>
-
-
-
         <div className="flex flex-col sm:flex-row flex-wrap gap-3.5 justify-center relative">
-
-
-
           <a
-
-
-
-            href="https://api.whatsapp.com/send?phone=919630736070"
-
-
-
-            target="_blank"
-
-
-
-            rel="noopener noreferrer"
-
-
-
+            href="/contact"
             className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
-
-
-
           >
-
-
-
-            Chat on WhatsApp
-
-
-
+            Book free counselling
           </a>
-
-
-
           <a
-
-
-
             href="tel:+919630736070"
-
-
-
             className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
-
-
-
           >
-
-
-
             Call +91 96307 36070
-
-
-
           </a>
-
-
-
         </div>
-
-
-
       </div>
-
-
-
     </div>
-
-
-
   </section>
-
-
-
 );
 
 
@@ -3428,21 +3303,8 @@ export const EngineeringBranchPage = ({
 
 
   const primary = {
-
-
-
-    href: "https://api.whatsapp.com/send?phone=919630736070",
-
-
-
-    external: true,
-
-
-
+    href: "/contact",
     label: "Book free counselling",
-
-
-
   };
 
 
@@ -5393,21 +5255,8 @@ export const AbroadCoursePage = ({
 
 
   const primary = {
-
-
-
-    href: "https://api.whatsapp.com/send?phone=919630736070",
-
-
-
-    external: true,
-
-
-
+    href: "/contact",
     label: "Book free counselling",
-
-
-
   };
 
 

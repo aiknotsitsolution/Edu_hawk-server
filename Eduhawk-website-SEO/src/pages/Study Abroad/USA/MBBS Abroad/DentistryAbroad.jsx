@@ -502,7 +502,7 @@ const DentistryAbroad = () =>
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline shadow-lg shadow-teal-600/25"
                 >
                   {dentistryData?.hero?.ctaText || "Book free counselling"}
@@ -511,7 +511,7 @@ const DentistryAbroad = () =>
                   href="#destinations"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white hover:scale-105 transition-all duration-300 no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -607,7 +607,7 @@ const DentistryAbroad = () =>
                 complete the entire process with full transparency.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 transition-all duration-300 no-underline"
               >
                 Get free profile evaluation
@@ -1673,7 +1673,6 @@ const DentistryAbroad = () =>
           </div>
         </div>
       </section>
-
 
     </div>
   );

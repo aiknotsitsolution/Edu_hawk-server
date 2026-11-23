@@ -537,16 +537,16 @@ const NursingAbroad = () => {
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
                 >
                   Book free counselling
                 </a>
                 <a
-                  href="#destinations"
+                  href="#usa-universities"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -623,7 +623,7 @@ const NursingAbroad = () => {
               </p>
               
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -1326,7 +1326,7 @@ const NursingAbroad = () => {
                 Share your Class 12 marks and preferred countries. We will tell you honestly which options are realistic for your profile and budget.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -1426,12 +1426,10 @@ const NursingAbroad = () => {
             
             <div className="relative flex flex-col justify-center gap-3.5 sm:flex-row sm:flex-wrap">
               <a
-                href="https://wa.me/917632949984"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
               >
-                WhatsApp us now
+                Book free counselling
               </a>
               <a
                 href="tel:+917632949984"

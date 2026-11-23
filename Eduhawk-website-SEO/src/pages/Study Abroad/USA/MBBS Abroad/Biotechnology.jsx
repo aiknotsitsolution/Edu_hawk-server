@@ -588,16 +588,16 @@ const Biotechnology = () => {
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
                 >
                   {biotechnologyData?.hero?.ctaText || "Book free counselling"}
                 </a>
                 <a
-                  href="#destinations"
+                  href="#usa-universities"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -668,7 +668,7 @@ const Biotechnology = () => {
                 Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -1359,7 +1359,7 @@ const Biotechnology = () => {
                 Share your academic background and preferred countries. We will tell you honestly which universities and programmes are realistic for your profile and budget.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -1433,8 +1433,6 @@ const Biotechnology = () => {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-     
     </div>
   );
 };

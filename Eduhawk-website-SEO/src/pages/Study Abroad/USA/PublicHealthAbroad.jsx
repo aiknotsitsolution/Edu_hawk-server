@@ -154,7 +154,7 @@ const PublicHealthAbroad = () => {
               
               <div className="flex flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-emerald-600 text-white hover:bg-emerald-700 transition-all no-underline shadow-lg shadow-emerald-600/25"
                 >
                   Book free counselling
@@ -163,7 +163,7 @@ const PublicHealthAbroad = () => {
                   href="#destinations"
                   className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -240,7 +240,7 @@ const PublicHealthAbroad = () => {
               </p>
               
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-emerald-600 text-white hover:bg-emerald-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -320,7 +320,7 @@ const PublicHealthAbroad = () => {
                 Share your academic background and preferred countries. We will tell you honestly which options are realistic for your profile and budget.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-emerald-600 text-white hover:bg-emerald-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -505,12 +505,12 @@ const PublicHealthAbroad = () => {
             
             <div className="flex flex-wrap gap-3.5 justify-center relative">
               <a
-                href="https://wa.me/917632949984"
+                href="/contact"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-emerald-600 text-white hover:bg-emerald-700 transition-all no-underline shadow-lg shadow-emerald-600/25"
               >
-                WhatsApp us now
+                Book free counselling
               </a>
               <a
                 href="tel:+917632949984"
