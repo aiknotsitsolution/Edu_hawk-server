@@ -27,10 +27,12 @@ const page = {
     "Study Nursing in Australia for Indian Students Best Universities for Nursing in Australia Nursing Courses in Australia After 12th Bachelor of Nursing in Australia for International Students Nursing Admission Requirements in Australia Nursing Fees in Australia for Indian Students Nursing Scholarships in Australia for International Students Nursing Course Duration in Australia English Language Requirements for Nursing in Australia IELTS and PTE Requirements for Nursing in Australia Nursing Graduate Entry Programs in Australia Nursing Admission Process in Australia for Indian Students Nursing Registration Requirements in Australia Career Opportunities After Studying Nursing in Australia Australian Student Visa Requirements for Nursing Students",
   introTitle: "Indian Students Pursuing Nursing in Australia",
   heroParas: [
-    "International students who wish to work in healthcare and nursing in Australia. Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments."
+    "International students who wish to work in healthcare and nursing in Australia can pursue world-class education. Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments."
   ],
   overview: [
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+    "Students can gain professional education, hands-on learning opportunities, and exposure to a multicultural healthcare setting by studying nursing in Australia.",
+    "Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments.",
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey."
   ],
   level: "Undergraduate & Postgraduate",
   crumb: "Healthcare & Nursing",

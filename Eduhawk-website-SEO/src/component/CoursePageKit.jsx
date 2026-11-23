@@ -5467,95 +5467,35 @@ export const AbroadCoursePage = ({
 
             <EhpHead eyebrow={page.overviewEyebrow || "Overview"} title={page.introTitle} />
 
-
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-
-
-
-              <Paragraphs
-
-
-
-                items={page.overview}
-
-
-
-                className="text-slate-500 text-[15px] leading-relaxed space-y-4"
-
-
-
-              />
-
-
-
-              <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[3/2]">
-
-
-
-                <img
-
-
-
-                  src={effectiveSideImg}
-
-
-
-                  width={1200}
-
-
-
-                  height={800}
-
-
-
-                  alt={`${page.name} at a university in ${inCountry}`}
-
-
-
-                  className="w-full h-full object-cover"
-
-
-
-                  loading="lazy"
-
-
-
-                  srcSet={`${effectiveSideImg} 1x, ${effectiveSideImg} 2x`}
-
-
-
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-
-
-
+            {effectiveSideImg ? (
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+                <Paragraphs
+                  items={page.overview}
+                  className="text-slate-500 text-[15px] leading-relaxed space-y-4"
                 />
-
-
-
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
-
-
-
-                <div className="absolute bottom-4 left-4 bg-white/15 backdrop-blur-md px-4 py-2 rounded-xl text-sm font-medium text-white">
-
-
-
-                  Edu Hawk Worldwide · {inCountry} admissions desk
-
-
-
+                <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[3/2]">
+                  <img
+                    src={effectiveSideImg}
+                    width={1200}
+                    height={800}
+                    alt={`${page.name} at a university in ${inCountry}`}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                    srcSet={`${effectiveSideImg} 1x, ${effectiveSideImg} 2x`}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute bottom-4 left-4 bg-white/15 backdrop-blur-md px-4 py-2 rounded-xl text-sm font-medium text-white">
+                    Edu Hawk Worldwide · {inCountry} admissions desk
+                  </div>
                 </div>
-
-
-
               </div>
-
-
-
-            </div>
-
-
+            ) : (
+              <Paragraphs
+                items={page.overview}
+                className="w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
+              />
+            )}
 
           </div>
 
@@ -6086,13 +6026,15 @@ export const withCmsData = (page = {}, cmsData = {}, uniImages = {}) => {
 
   // Safeguard 7: Safe Overview with full JSX fallback
   let resolvedOverview = page?.overview;
-  if (cmsData?.overview) {
-    if (Array.isArray(cmsData.overview)) {
-      const filtered = cmsData.overview.filter(item => typeof item === "string" ? item.trim().length > 0 : Boolean(item));
-      if (filtered.length > 0) resolvedOverview = filtered;
-    } else if (typeof cmsData.overview === "string" && cmsData.overview.trim().length > 0) {
-      const splitParas = cmsData.overview.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
-      if (splitParas.length > 0) resolvedOverview = splitParas;
+  if (!resolvedOverview || (Array.isArray(resolvedOverview) && resolvedOverview.length === 0)) {
+    if (cmsData?.overview) {
+      if (Array.isArray(cmsData.overview)) {
+        const filtered = cmsData.overview.filter(item => typeof item === "string" ? item.trim().length > 0 : Boolean(item));
+        if (filtered.length > 0) resolvedOverview = filtered;
+      } else if (typeof cmsData.overview === "string" && cmsData.overview.trim().length > 0) {
+        const splitParas = cmsData.overview.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+        if (splitParas.length > 0) resolvedOverview = splitParas;
+      }
     }
   }
 
@@ -6280,6 +6222,10 @@ export const withCmsData = (page = {}, cmsData = {}, uniImages = {}) => {
     if (!cmsSec || typeof cmsSec !== "object") return merged;
     for (const [k, v] of Object.entries(cmsSec)) {
       if (v === null || v === undefined) continue;
+      // Preserve JSX authored groups if pageSec already provides rich structured groups
+      if (k === "groups" && Array.isArray(pageSec.groups) && pageSec.groups.length > 0) {
+        continue;
+      }
       if (typeof v === "string") {
         if (v.trim().length > 0) merged[k] = v.trim();
       } else if (Array.isArray(v)) {

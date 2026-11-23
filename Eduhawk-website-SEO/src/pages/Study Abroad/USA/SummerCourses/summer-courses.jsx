@@ -392,21 +392,29 @@ const page = {
     {
       "slot": "tuition",
       "eyebrow": "Budget",
-      "title": "8 .Cost of Summer Courses in US",
+      "title": "Cost of Summer Courses in the USA",
       "groups": [
         {
           "t": "p",
           "items": [
-            "The cost depends on the length of the program, the university, the level of the course, accommodation, meals, insurance and location.",
-            "Summer short course fees",
-            "USD 500–5,000+",
-            "Intensive/University based program USD 2000-10000+",
-            "Food and accommodation",
-            "USD 1,000 – 3,500+ per month",
-            "Flights to India",
-            "USD 700-1,500+",
-            "Transport and personal costs in the local area",
-            "USD 300-1,000+"
+            "The total cost depends on program length, university tier, course format, accommodation, meal plans, medical insurance, and campus location."
+          ]
+        },
+        {
+          "t": "table",
+          "headers": ["Expense Item / Program Type", "Estimated Cost (USD)", "Duration / Remarks"],
+          "rows": [
+            ["Short-Term Summer Course Fees", "USD 500 – 5,000+", "1 – 4 Weeks"],
+            ["Intensive University-Based Summer School", "USD 2,000 – 10,000+", "4 – 8 Weeks"],
+            ["On-Campus Accommodation & Meals", "USD 1,000 – 3,500+ / month", "Dormitory / Homestay"],
+            ["Return Flights (India to USA)", "USD 700 – 1,500+", "Varies by season & airline"],
+            ["Local Transportation & Personal Expenses", "USD 300 – 1,000+ / month", "Incidentals & Transit"]
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These figures are indicative estimates for financial planning. Exact fees depend on the specific university, lab/materials fees, and summer intake."
           ]
         }
       ]
