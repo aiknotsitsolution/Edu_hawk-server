@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import {
   getAllNewsApi,
   deleteNewsApi,
-  seedNewsApi,
   getNewsCategoriesApi,
 } from "./news.api.js";
 import { ToastContainer, toast } from "react-toastify";
@@ -17,7 +16,6 @@ import {
   ExternalLink,
   Loader2,
   RefreshCw,
-  Sparkles,
   Calendar,
   Globe,
   Tag,
@@ -33,7 +31,6 @@ export default function NewsList() {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [search, setSearch] = useState("");
   const [loading, setLoading] = useState(true);
-  const [seeding, setSeeding] = useState(false);
   const [previewArticle, setPreviewArticle] = useState(null);
 
   const fetchNews = async () => {
@@ -83,23 +80,6 @@ export default function NewsList() {
     }
   };
 
-  const handleSeed = async () => {
-    if (!window.confirm("Seed initial 4 official education news items into database?")) return;
-
-    try {
-      setSeeding(true);
-      const res = await seedNewsApi();
-      toast.success(res.data?.message || "Seeding complete!");
-      fetchNews();
-      fetchCategories();
-    } catch (err) {
-      console.error(err);
-      toast.error(err.response?.data?.message || "Failed to seed news");
-    } finally {
-      setSeeding(false);
-    }
-  };
-
   return (
     <div className="space-y-6">
       <ToastContainer position="top-right" autoClose={2500} />
@@ -116,18 +96,6 @@ export default function NewsList() {
         </div>
 
         <div className="flex items-center gap-2">
-          {news.length === 0 && (
-            <button
-              onClick={handleSeed}
-              disabled={seeding}
-              className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-semibold text-amber-800 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-xl transition shadow-xs"
-              title="Populate initial articles from the website"
-            >
-              <Sparkles size={14} className={seeding ? "animate-spin" : ""} />
-              {seeding ? "Seeding..." : "Seed Default News"}
-            </button>
-          )}
-
           <button
             onClick={() => navigate("/create-news")}
             className="inline-flex items-center gap-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold rounded-xl shadow-xs transition"
@@ -184,14 +152,7 @@ export default function NewsList() {
           </div>
         ) : news.length === 0 ? (
           <div className="py-20 text-center px-4">
-            <p className="text-gray-500 text-sm mb-4">No news articles found.</p>
-            <button
-              onClick={handleSeed}
-              className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-700 text-xs font-semibold rounded-xl hover:bg-blue-100 transition"
-            >
-              <Sparkles size={16} />
-              Seed Initial 4 Education News Articles
-            </button>
+            <p className="text-gray-500 text-sm">No news articles found.</p>
           </div>
         ) : (
           <div className="overflow-x-auto">
