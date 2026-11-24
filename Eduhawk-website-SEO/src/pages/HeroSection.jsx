@@ -16,7 +16,8 @@ import heroRussia from "../Images/hero/hero-russia.webp";
 import heroGeorgia from "../Images/hero/hero-georgia.webp";
 import heroKazakhstan from "../Images/hero/hero-kazakhstan.webp";
 import heroTrusted from "../Images/hero/hero-trusted.webp";
-import { X, ChevronDown, User, Mail, Phone, MapPin, GraduationCap, Globe, ArrowRight, Star, Award, CheckCircle2, Sparkles, MessageCircle } from "lucide-react";
+import modalArtwork from "../assets/modal-artwork.png";
+import { X, ChevronDown, User, Mail, Phone, MapPin, GraduationCap, Globe, ArrowRight, Star, Award, CheckCircle2, Sparkles, MessageCircle, Calendar, MessageSquare, Plane } from "lucide-react";
 
 import univercity from "../Images/university-image/singapore.webp";
 import topRanking1 from "../Images/Peking University Health Science Center.webp";
@@ -64,10 +65,61 @@ const EMPTY_MODAL_FORM = {
   name: "",
   email: "",
   phone: "",
-  city: "",
-  neetStatus: "",
+  course: "",
   country: "",
+  intake: "",
+  qualification: "",
+  message: "",
 };
+
+const MODAL_COURSES = [
+  "MBBS / Medicine",
+  "Engineering / B.Tech",
+  "Nursing",
+  "MBA / Management",
+  "Masters / MS",
+  "Pharmacy",
+  "Physiotherapy",
+  "Public Health",
+  "Computer Science / IT",
+  "Law",
+  "Architecture",
+  "Other Course",
+];
+
+const MODAL_COUNTRIES = [
+  "Australia",
+  "Canada",
+  "United Kingdom (UK)",
+  "United States (USA)",
+  "Germany",
+  "Ireland",
+  "Russia",
+  "Georgia",
+  "Kazakhstan",
+  "Kyrgyzstan",
+  "Uzbekistan",
+  "Philippines",
+  "Other Country",
+];
+
+const MODAL_INTAKES = [
+  "Fall / Autumn 2026",
+  "Spring 2027",
+  "Winter 2027",
+  "Summer 2027",
+  "Not Decided Yet",
+];
+
+const MODAL_QUALIFICATIONS = [
+  "10th / High School",
+  "12th Appearing",
+  "12th Passed",
+  "Diploma",
+  "Bachelor's / Undergraduate",
+  "Master's / Postgraduate",
+  "Other",
+];
 
 const EMPTY_CONTACT_FORM = {
   name: "",
@@ -140,7 +192,7 @@ export default function HeroSection() {
     const errors = {};
 
     if (!form.name.trim()) {
-      errors.name = "Name is required.";
+      errors.name = "Full name is required.";
     } else if (form.name.trim().length < 2) {
       errors.name = "Name must be at least 2 characters.";
     }
@@ -157,9 +209,8 @@ export default function HeroSection() {
       errors.phone = "Phone number must be 10 digits.";
     }
 
-    if (!form.city) errors.city = "Please select your city.";
-    if (!form.neetStatus) errors.neetStatus = "Please select your NEET status.";
-    if (!form.country) errors.country = "Please select your country.";
+    if (!form.course) errors.course = "Please select your interested course.";
+    if (!form.country) errors.country = "Please select your destination country.";
 
     return errors;
   };
@@ -220,7 +271,28 @@ export default function HeroSection() {
 
     setIsModalSubmitting(true);
     try {
-      const data = await submitToApi(modalForm);
+      const payload = {
+        name: modalForm.name,
+        email: modalForm.email,
+        phone: modalForm.phone,
+        country: modalForm.country,
+        interested: modalForm.course,
+        course: modalForm.course,
+        intake: modalForm.intake,
+        qualification: modalForm.qualification,
+        message: [
+          `Interested Course: ${modalForm.course}`,
+          `Destination Country: ${modalForm.country}`,
+          modalForm.intake ? `Preferred Intake: ${modalForm.intake}` : null,
+          modalForm.qualification
+            ? `Current Qualification: ${modalForm.qualification}`
+            : null,
+          modalForm.message ? `Message: ${modalForm.message}` : null,
+        ]
+          .filter(Boolean)
+          .join("\n"),
+      };
+      const data = await submitToApi(payload);
       if (data.success) {
         showSuccess(
           "Form Submitted Successfully! Our team will contact you soon.",
@@ -326,366 +398,339 @@ export default function HeroSection() {
 
         {/* POPUP MODAL */}
         {isOpen && (
-          <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 p-4 sm:p-6 backdrop-blur-xs">
-            <div className="relative w-full max-w-4xl max-h-[92vh] sm:max-h-[90vh] rounded-2xl bg-white lg:bg-[#071d38] shadow-2xl overflow-hidden flex flex-col border-0">
+          <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/75 p-3 sm:p-4 backdrop-blur-xs overflow-y-auto">
+            <div className="relative w-full max-w-[980px] max-h-[95vh] sm:max-h-[92vh] rounded-2xl bg-white shadow-2xl overflow-hidden flex flex-col lg:flex-row border-0 my-auto">
               <button
                 onClick={() => setIsOpen(false)}
-                className="absolute top-3.5 right-3.5 sm:top-4 sm:right-4 z-30 w-9 h-9 sm:w-10 sm:h-10 flex items-center justify-center rounded-full bg-slate-100/90 hover:bg-slate-200 text-slate-600 hover:text-slate-900 shadow-sm transition-all duration-200 cursor-pointer"
+                className="absolute top-3 right-3 sm:top-3.5 sm:right-3.5 z-30 w-8 h-8 sm:w-9 sm:h-9 flex items-center justify-center rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 hover:text-slate-900 shadow-xs transition-all duration-200 cursor-pointer"
                 aria-label="Close"
               >
-                <X size={20} strokeWidth={2.5} />
+                <X size={18} strokeWidth={2.5} />
               </button>
 
-              <div className="flex flex-col lg:flex-row h-full overflow-hidden">
-                {/* LEFT – benefits panel (modernized atmospheric card) */}
-                <div className="relative lg:w-5/12 bg-gradient-to-br from-[#071d38] via-[#0f3560] to-[#0c4077] text-white p-7 sm:p-8 flex flex-col justify-between hidden lg:flex overflow-hidden">
-                  {/* Atmospheric Glow Highlights */}
-                  <div className="absolute -top-20 -left-20 w-52 h-52 bg-teal-400/15 rounded-full blur-3xl pointer-events-none" />
-                  <div className="absolute -bottom-20 -right-20 w-52 h-52 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
+              {/* LEFT – Atmospheric Card with Original Brand Theme, Live HTML Text & Composite Artwork */}
+              <div className="relative lg:w-[44%] bg-gradient-to-br from-[#071d38] via-[#0f3560] to-[#0c4077] text-white p-6 sm:p-7 flex flex-col justify-between hidden lg:flex overflow-hidden flex-shrink-0">
+                {/* Atmospheric Glow Highlights */}
+                <div className="absolute -top-20 -left-20 w-52 h-52 bg-teal-400/15 rounded-full blur-3xl pointer-events-none" />
+                <div className="absolute -bottom-20 -right-20 w-52 h-52 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
 
-                  <div className="relative z-10">
-                    {/* Logo in Frosted Glass Container */}
-                    <div className="mb-5 rounded-2xl bg-white/10 p-3.5 shadow-lg backdrop-blur-md">
-                      <img
-                        src={Eduhawk}
-                        alt="MBBS Abroad"
-                        width={244}
-                        height={72}
-                        className="mx-auto h-13 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.2)]"
-                  srcSet={`${Eduhawk} 1x, ${Eduhawk} 2x`}
-                  sizes="100vw"
-                />
-                    </div>
-
-                    {/* Admissions Badge */}
-                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-400/15 border border-teal-300/25 text-teal-300 text-[11px] font-semibold uppercase tracking-wider mb-3">
-                      <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
-                      2026-27 Admissions Open
-                    </div>
-
-                    <h2 className="text-2xl sm:text-[26px] font-extrabold mb-2.5 leading-tight tracking-tight text-white drop-shadow-sm">
-                      Your MBBS Abroad Journey Starts Here
-                    </h2>
-                    <p className="text-teal-100/90 text-xs sm:text-sm mb-5 leading-relaxed font-normal">
-                      Trusted by 1000+ Indian students • Transparent process •
-                      NMC-recognized universities only
-                    </p>
-
-                    <ul className="space-y-3.5 text-xs sm:text-sm">
-                      <li className="flex items-center gap-3">
-                        <div className="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 shadow-sm backdrop-blur-xs">
-                          <img
-                            src={personalized}
-                            loading="lazy"
-                            alt="Free Expert Counselling"
-                            width={246}
-                            height={197}
-                            className="w-4.5 h-4.5 brightness-0 invert"
-                  srcSet={`${personalized} 1x, ${personalized} 2x`}
-                  sizes="100vw"
-                />
-                        </div>
-                        <span className="text-slate-100 font-medium">Free expert 1-on-1 counselling</span>
-                      </li>
-
-                      <li className="flex items-center gap-3">
-                        <div className="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 shadow-sm backdrop-blur-xs">
-                          <img
-                            src={checkup}
-                            loading="lazy"
-                            alt="Best University Match"
-                            width={200}
-                            height={200}
-                            className="w-4.5 h-4.5 brightness-0 invert"
-                  srcSet={`${checkup} 1x, ${checkup} 2x`}
-                  sizes="100vw"
-                />
-                        </div>
-                        <span className="text-slate-100 font-medium">
-                          Best university match as per your NEET &amp; budget
-                        </span>
-                      </li>
-
-                      <li className="flex items-center gap-3">
-                        <div className="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 shadow-sm backdrop-blur-xs">
-                          <img
-                            src={support}
-                            loading="lazy"
-                            alt="End-to-End Support"
-                            width={512}
-                            height={512}
-                            className="w-4.5 h-4.5 brightness-0 invert"
-                  srcSet={`${support} 1x, ${support} 2x`}
-                  sizes="100vw"
-                />
-                        </div>
-                        <span className="text-slate-100 font-medium">
-                          End-to-end support: visa, travel, FMGE guidance
-                        </span>
-                      </li>
-
-                      <li className="flex items-center gap-3">
-                        <div className="w-8 h-8 rounded-xl bg-white/10 border border-white/15 flex items-center justify-center flex-shrink-0 shadow-sm backdrop-blur-xs">
-                          <img
-                            src={charges}
-                            loading="lazy"
-                            alt="Transparent Process"
-                            width={512}
-                            height={512}
-                            className="w-4.5 h-4.5 brightness-0 invert"
-                  srcSet={`${charges} 1x, ${charges} 2x`}
-                  sizes="100vw"
-                />
-                        </div>
-                        <span className="text-slate-100 font-medium">No hidden charges – 100% transparent</span>
-                      </li>
-                    </ul>
+                <div className="relative z-10">
+                  {/* Logo in Frosted Glass Container (Pehle jaisa) */}
+                  <div className="mb-2 rounded-2xl bg-white/10 p-2.5 sm:p-3 shadow-lg backdrop-blur-md inline-block">
+                    <img
+                      src={Eduhawk}
+                      alt="Edu-Hawk Worldwide"
+                      width={244}
+                      height={72}
+                      className="h-10 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.2)]"
+                    />
                   </div>
 
-                  {/* Trust Footer in Left Panel */}
-                  <div className="relative z-10 pt-3.5 border-t border-white/15 flex items-center justify-end text-xs text-teal-200/90">
-                    <div className="flex items-center gap-1 text-[11px] font-medium text-emerald-300 bg-emerald-500/15 border border-emerald-400/20 px-2.5 py-0.5 rounded-full">
-                      <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                      100% NMC &amp; WHO Recognized
-                    </div>
+                  <p className="text-teal-100/90 text-xs italic tracking-wide mb-3 font-light">
+                    Start in India. Continue Abroad. Graduate Globally
+                  </p>
+
+                  {/* Main Heading with Red Badge (Live HTML Text) */}
+                  <h2 className="text-2xl sm:text-[25px] font-extrabold text-white leading-tight tracking-tight mb-2 drop-shadow-sm">
+                    Turn Your{" "}
+                    <span className="inline-block bg-[#b30d1b] text-white px-2 py-0.5 rounded-lg font-black shadow-md">
+                      Study Abroad
+                    </span>{" "}
+                    Dream Into Reality
+                  </h2>
+
+                  {/* Red Bordered Callout Box */}
+                  <div className="border-l-4 border-red-500 bg-white/10 backdrop-blur-xs pl-3 py-1.5 rounded-r-lg my-2.5 text-xs sm:text-[13px] text-slate-100 font-medium leading-relaxed">
+                    Get expert guidance for MBBS, Engineering, Nursing, MBA, Masters and more!
                   </div>
+
+                  {/* 4 Feature Bullet Points with Icons */}
+                  <ul className="space-y-2 text-xs sm:text-[13px] text-slate-100 my-2">
+                    <li className="flex items-center gap-2.5">
+                      <span className="w-6 h-6 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-teal-300 shrink-0">
+                        <Globe size={13} />
+                      </span>
+                      <span>Top Universities Worldwide</span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <span className="w-6 h-6 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-teal-300 shrink-0">
+                        <GraduationCap size={13} />
+                      </span>
+                      <span>Complete Admission Support</span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <span className="w-6 h-6 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-teal-300 shrink-0">
+                        <Award size={13} />
+                      </span>
+                      <span>Visa Assistance</span>
+                    </li>
+                    <li className="flex items-center gap-2.5">
+                      <span className="w-6 h-6 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-teal-300 shrink-0">
+                        <Plane size={13} />
+                      </span>
+                      <span>Pre-departure Guidance</span>
+                    </li>
+                  </ul>
                 </div>
 
-                {/* RIGHT – form (enhanced modern UI inputs, button and labels) */}
-                <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-6 sm:px-9 sm:py-6 flex flex-col justify-center bg-white">
-                  <div className="lg:hidden text-center mb-4">
-                    <h2 className="text-2xl font-bold text-slate-800 mb-1">
-                      MBBS Abroad Counselling
-                    </h2>
-                    <p className="text-slate-500 text-sm">
-                      Free • Expert • Trusted by 1000+ students
-                    </p>
-                  </div>
+                {/* Bottom Artwork: Seamless Composite of Landmarks & Student Model */}
+                <div className="relative z-10 -mx-6 sm:-mx-7 -mb-6 sm:-mb-7 mt-auto overflow-hidden pointer-events-none select-none">
+                  <img
+                    src={modalArtwork}
+                    alt="Study Abroad Student and Landmarks"
+                    className="w-full h-auto object-cover object-bottom"
+                  />
+                </div>
+              </div>
 
-                  <form onSubmit={handleModalSubmit} className="space-y-3 sm:space-y-3.5">
-                    {/* Full Name & Email in 2 columns */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
-                      <div>
-                        <label htmlFor="modal-name" className="block text-xs font-semibold text-slate-700 mb-1.5">
-                          Full Name <span className="text-rose-500 font-bold">*</span>
-                        </label>
-                        <div className="relative group">
-                          <User size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
-                          <input
-                            id="modal-name" type="text"
-                            name="name"
-                            placeholder="Enter your full name"
-                            value={modalForm.name}
-                            onChange={(e) =>
-                              updateModalField("name", e.target.value)
-                            }
-                            className="w-full pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
-                          />
-                        </div>
-                        {modalErrors.name && (
-                          <p className="mt-1 text-xs text-rose-500">
-                            {modalErrors.name}
-                          </p>
-                        )}
-                      </div>
+              {/* Mobile Header Banner (shown only on small screens) */}
+              <div className="lg:hidden bg-gradient-to-r from-[#071d38] to-[#0c4077] text-white p-5 pr-12">
+                <div className="inline-block bg-[#b30d1b] text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded mb-1">
+                  Study Abroad
+                </div>
+                <h3 className="text-lg font-bold text-white leading-tight">
+                  Turn Your Dream Into Reality
+                </h3>
+                <p className="text-slate-300 text-xs mt-1">
+                  Get expert guidance for MBBS, Engineering, Nursing, MBA, Masters and more!
+                </p>
+              </div>
 
-                      <div>
-                        <label htmlFor="modal-email" className="block text-xs font-semibold text-slate-700 mb-1.5">
-                          Email <span className="text-rose-500 font-bold">*</span>
-                        </label>
-                        <div className="relative group">
-                          <Mail size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
-                          <input
-                            id="modal-email" type="email"
-                            name="email"
-                            placeholder="your.email@gmail.com"
-                            value={modalForm.email}
-                            onChange={(e) =>
-                              updateModalField("email", e.target.value)
-                            }
-                            className="w-full pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
-                          />
-                        </div>
-                        {modalErrors.email && (
-                          <p className="mt-1 text-xs text-rose-500">
-                            {modalErrors.email}
-                          </p>
-                        )}
-                      </div>
-                    </div>
-
-                    {/* Phone Number - full width */}
+              {/* RIGHT – Form (Matches Requirements with Spacious Inputs & Teal Theme) */}
+              <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-6 sm:px-8 sm:py-7 flex flex-col justify-center bg-white">
+                <form onSubmit={handleModalSubmit} className="space-y-3.5 sm:space-y-4">
+                  {/* Row 1: Full Name & Email in 2 columns */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
                     <div>
-                      <label htmlFor="modal-phone" className="block text-xs font-semibold text-slate-700 mb-1.5">
-                        Phone Number (+91) <span className="text-rose-500 font-bold">*</span>
+                      <label htmlFor="modal-name" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        Full Name <span className="text-red-600 font-bold">*</span>
                       </label>
                       <div className="relative group">
-                        <Phone size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                        <User size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                         <input
-                          id="modal-phone" type="tel"
-                          name="phone"
-                          placeholder="+91 9630736070"
-                          value={modalForm.phone}
-                          onChange={(e) =>
-                            updateModalField("phone", e.target.value)
-                          }
-                          className="w-full pl-10 pr-3.5 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                          id="modal-name"
+                          type="text"
+                          name="name"
+                          placeholder="Enter your full name"
+                          value={modalForm.name}
+                          onChange={(e) => updateModalField("name", e.target.value)}
+                          className="w-full pl-10 pr-3.5 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
                         />
                       </div>
-                      {modalErrors.phone && (
-                        <p className="mt-1 text-xs text-rose-500">
-                          {modalErrors.phone}
-                        </p>
+                      {modalErrors.name && (
+                        <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.name}</p>
                       )}
                     </div>
 
-                    {/* Current City - full width */}
                     <div>
-                      <label htmlFor="modal-city" className="block text-xs font-semibold text-slate-700 mb-1.5">
-                        Current City <span className="text-rose-500 font-bold">*</span>
+                      <label htmlFor="modal-email" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        Email <span className="text-red-600 font-bold">*</span>
                       </label>
                       <div className="relative group">
-                        <MapPin size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
-                        <select
-                          id="modal-city" name="city"
-                          value={modalForm.city}
-                          onChange={(e) =>
-                            updateModalField("city", e.target.value)
-                          }
-                          className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none appearance-none cursor-pointer"
-                        >
-                          <option value="" disabled className="text-slate-400">
-                            Select city
-                          </option>
-                          {[
-                            "Indore",
-                            "Bhopal",
-                            "Delhi",
-                            "Mumbai",
-                            "Pune",
-                            "Other",
-                          ].map((c) => (
-                            <option key={c} value={c}>{c}</option>
-                          ))}
-                        </select>
-                        <ChevronDown size={16} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
+                        <Mail size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                        <input
+                          id="modal-email"
+                          type="email"
+                          name="email"
+                          placeholder="your.email@gmail.com"
+                          value={modalForm.email}
+                          onChange={(e) => updateModalField("email", e.target.value)}
+                          className="w-full pl-10 pr-3.5 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                        />
                       </div>
-                      {modalErrors.city && (
-                        <p className="mt-1 text-xs text-rose-500">
-                          {modalErrors.city}
-                        </p>
+                      {modalErrors.email && (
+                        <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.email}</p>
                       )}
                     </div>
+                  </div>
 
-                    {/* NEET Status - full width */}
+                  {/* Row 2: Phone Number (+91) - full width */}
+                  <div>
+                    <label htmlFor="modal-phone" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      Phone Number (+91) <span className="text-red-600 font-bold">*</span>
+                    </label>
+                    <div className="relative group">
+                      <Phone size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                      <input
+                        id="modal-phone"
+                        type="tel"
+                        name="phone"
+                        placeholder="+91 98765 43210"
+                        value={modalForm.phone}
+                        onChange={(e) => updateModalField("phone", e.target.value)}
+                        className="w-full pl-10 pr-3.5 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                      />
+                    </div>
+                    {modalErrors.phone && (
+                      <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.phone}</p>
+                    )}
+                  </div>
+
+                  {/* Row 3: Interested Course - full width */}
+                  <div>
+                    <label htmlFor="modal-course" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      Interested Course <span className="text-red-600 font-bold">*</span>
+                    </label>
+                    <div className="relative group">
+                      <GraduationCap size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                      <select
+                        id="modal-course"
+                        name="course"
+                        value={modalForm.course}
+                        onChange={(e) => updateModalField("course", e.target.value)}
+                        className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
+                      >
+                        <option value="" disabled className="text-slate-400">
+                          Select Course
+                        </option>
+                        {MODAL_COURSES.map((course) => (
+                          <option key={course} value={course}>
+                            {course}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    {modalErrors.course && (
+                      <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.course}</p>
+                    )}
+                  </div>
+
+                  {/* Row 4: Destination Country - full width */}
+                  <div>
+                    <label htmlFor="modal-country" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      Destination Country <span className="text-red-600 font-bold">*</span>
+                    </label>
+                    <div className="relative group">
+                      <Globe size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                      <select
+                        id="modal-country"
+                        name="country"
+                        value={modalForm.country}
+                        onChange={(e) => updateModalField("country", e.target.value)}
+                        className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
+                      >
+                        <option value="" disabled className="text-slate-400">
+                          Select Country
+                        </option>
+                        {MODAL_COUNTRIES.map((c) => (
+                          <option key={c} value={c}>
+                            {c}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                    {modalErrors.country && (
+                      <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.country}</p>
+                    )}
+                  </div>
+
+                  {/* Row 5: Preferred Intake & Current Qualification */}
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
                     <div>
-                      <label htmlFor="modal-neet" className="block text-xs font-semibold text-slate-700 mb-1.5">
-                        NEET Status <span className="text-rose-500 font-bold">*</span>
+                      <label htmlFor="modal-intake" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        Preferred Intake
                       </label>
                       <div className="relative group">
-                        <GraduationCap size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                        <Calendar size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                         <select
-                          id="modal-neet" name="neetStatus"
-                          value={modalForm.neetStatus}
-                          onChange={(e) =>
-                            updateModalField("neetStatus", e.target.value)
-                          }
-                          className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none appearance-none cursor-pointer"
+                          id="modal-intake"
+                          name="intake"
+                          value={modalForm.intake}
+                          onChange={(e) => updateModalField("intake", e.target.value)}
+                          className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
                         >
                           <option value="" disabled className="text-slate-400">
-                            Select NEET status
+                            Select Intake
                           </option>
-                          {["Qualified", "Not Qualified"].map((status) => (
-                            <option key={status} value={status}>
-                              {status}
+                          {MODAL_INTAKES.map((intake) => (
+                            <option key={intake} value={intake}>
+                              {intake}
                             </option>
                           ))}
                         </select>
-                        <ChevronDown size={16} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
                       </div>
-                      {modalErrors.neetStatus && (
-                        <p className="mt-1 text-xs text-rose-500">
-                          {modalErrors.neetStatus}
-                        </p>
-                      )}
                     </div>
 
-                    {/* Interested Country - full width */}
                     <div>
-                      <label htmlFor="modal-country" className="block text-xs font-semibold text-slate-700 mb-1.5">
-                        Interested Country
+                      <label htmlFor="modal-qualification" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                        Current Qualification
                       </label>
                       <div className="relative group">
-                        <Globe size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                        <Award size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                         <select
-                          id="modal-country" name="country"
-                          value={modalForm.country}
-                          onChange={(e) =>
-                            updateModalField("country", e.target.value)
-                          }
-                          className="w-full pl-10 pr-10 py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none appearance-none cursor-pointer"
+                          id="modal-qualification"
+                          name="qualification"
+                          value={modalForm.qualification}
+                          onChange={(e) => updateModalField("qualification", e.target.value)}
+                          className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
                         >
                           <option value="" disabled className="text-slate-400">
-                            Select country
+                            Select Qualification
                           </option>
-                          {[
-                            "Russia",
-                            "Georgia",
-                            "Kazakhstan",
-                            "Kyrgyzstan",
-                            "Uzbekistan",
-                            "Philippines",
-                            "Nepal",
-                            "Bangladesh",
-                          ].map((c) => (
-                            <option key={c} value={c}>{c}</option>
+                          {MODAL_QUALIFICATIONS.map((qual) => (
+                            <option key={qual} value={qual}>
+                              {qual}
+                            </option>
                           ))}
                         </select>
-                        <ChevronDown size={16} className="absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400 pointer-events-none" />
                       </div>
-                      {modalErrors.country && (
-                        <p className="mt-1 text-xs text-rose-500">
-                          {modalErrors.country}
-                        </p>
-                      )}
                     </div>
-
-                    {/* Premium CTA Button with Shimmer & Animated Arrow */}
-                    <button
-                      type="submit"
-                      disabled={isModalSubmitting}
-                      className={`group relative w-full py-3.5 px-6 rounded-xl font-bold text-base sm:text-lg text-white shadow-lg transition-all duration-300 mt-2 flex items-center justify-center gap-2 overflow-hidden ${
-                        isModalSubmitting
-                          ? "bg-slate-400 cursor-not-allowed opacity-75"
-                          : "bg-gradient-to-r from-teal-600 via-teal-700 to-cyan-700 hover:from-teal-500 hover:via-teal-600 hover:to-cyan-600 shadow-teal-900/20 hover:shadow-teal-600/30 hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
-                      }`}
-                    >
-                      {/* Shimmer light effect sweep */}
-                      <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out pointer-events-none" />
-
-                      <span className="relative z-10 flex items-center justify-center gap-2">
-                        {isModalSubmitting ? (
-                          <>
-                            <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-                            Submitting...
-                          </>
-                        ) : (
-                          <>
-                            <span>Get Free Counselling Now</span>
-                            <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-1" />
-                          </>
-                        )}
-                      </span>
-                    </button>
-
-                    <p className="text-center text-[11px] text-slate-400 mt-2">
-                      By submitting, you agree to our Terms &amp; Privacy Policy
-                    </p>
-                  </form>
-
-                  <div className="mt-1 text-center text-[10px] text-slate-400">
-                    <p>Secure &amp; Confidential • We never spam</p>
                   </div>
+
+                  {/* Row 6: Your Message (without Optional label, larger box) */}
+                  <div>
+                    <label htmlFor="modal-message" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      Your Message
+                    </label>
+                    <div className="relative group">
+                      <MessageSquare size={16} className="absolute left-3.5 top-3 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                      <textarea
+                        id="modal-message"
+                        name="message"
+                        rows={2}
+                        placeholder="Tell us about your requirements..."
+                        value={modalForm.message}
+                        onChange={(e) => updateModalField("message", e.target.value)}
+                        className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none resize-none"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Premium CTA Button with Shimmer & Animated Arrow (Pehle jaisa teal theme) */}
+                  <button
+                    type="submit"
+                    disabled={isModalSubmitting}
+                    className={`group relative w-full py-3.5 px-6 rounded-xl font-bold text-base sm:text-lg text-white shadow-lg transition-all duration-300 mt-2 flex items-center justify-center gap-2 overflow-hidden ${
+                      isModalSubmitting
+                        ? "bg-slate-400 cursor-not-allowed opacity-75"
+                        : "bg-gradient-to-r from-teal-600 via-teal-700 to-cyan-700 hover:from-teal-500 hover:via-teal-600 hover:to-cyan-600 shadow-teal-900/20 hover:shadow-teal-600/30 hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
+                    }`}
+                  >
+                    {/* Shimmer light effect sweep */}
+                    <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out pointer-events-none" />
+
+                    <span className="relative z-10 flex items-center justify-center gap-2">
+                      {isModalSubmitting ? (
+                        <>
+                          <span className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                          Submitting...
+                        </>
+                      ) : (
+                        <>
+                          <span>Get Free Counselling Now</span>
+                          <ArrowRight size={18} className="transition-transform duration-200 group-hover:translate-x-1" />
+                        </>
+                      )}
+                    </span>
+                  </button>
+
+                  <p className="text-center text-[11px] text-slate-400 mt-2">
+                    By submitting, you agree to our Terms &amp; Privacy Policy
+                  </p>
+                </form>
+
+                <div className="mt-1 text-center text-[10px] text-slate-400">
+                  <p>Secure &amp; Confidential • We never spam</p>
                 </div>
               </div>
             </div>

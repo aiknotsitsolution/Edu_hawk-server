@@ -1,6 +1,20 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+select.appearance-none,
+.appearance-none,
+select.hide-arrow {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-image: none !important;
+}
+select.appearance-none::-ms-expand,
+.appearance-none::-ms-expand,
+select.hide-arrow::-ms-expand {
+  display: none !important;
+}
+
 .blog-description ul,
 .blog-description ol {
   display: block !important;
@@ -124,6 +138,21 @@ body {
 
 .country-scroll::-webkit-scrollbar-thumb {
   background: #475569;
+}
+
+select,
+select.appearance-none,
+.appearance-none {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-image: none !important;
+}
+select::-ms-expand,
+select.appearance-none::-ms-expand,
+.appearance-none::-ms-expand {
+  display: none !important;
+}
   border-radius: 9999px;
 }
 
