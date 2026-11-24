@@ -167,8 +167,7 @@ const UndergraduateEngineeringUG = () => {
         "Studying engineering in the USA opens doors to modern labs, hands-on learning and real research projects, with US colleges offering world-class bachelor's programs across computer, mechanical, civil, electrical, aerospace, chemical, biomedical and automobile engineering branches.",
       ]}
       primary={{
-        href: "https://api.whatsapp.com/send?phone=919630736070",
-        external: true,
+        href: "/contact",
         label: "Book free counselling",
       }}
       secondary={{ href: "#branches", label: "Explore branches" }}

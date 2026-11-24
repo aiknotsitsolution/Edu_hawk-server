@@ -1306,7 +1306,7 @@ export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => {
           {formatRichText(cleanTitle)}
         </h2>
       )}
-      {desc && <Paragraphs items={desc} className={descClass ?? "text-slate-500 text-[15px] leading-relaxed max-w-3xl"} />}
+      {desc && <Paragraphs items={desc} className={descClass ?? "text-slate-500 text-[15px] leading-relaxed w-full"} />}
     </div>
   );
 };
@@ -2539,7 +2539,7 @@ export const FaqList = ({ faqs }) => {
 
 
 
-    <div className="space-y-3 max-w-3xl">
+    <div className="space-y-3 w-full">
 
 
 
@@ -2656,169 +2656,44 @@ export const FaqList = ({ faqs }) => {
 
 
 export const CtaBand = ({ title, desc, bgImg}) => (
-
-
-
   <section className="py-16 sm:py-20" id="consult">
-
-
-
     <div className="max-w-6xl mx-auto px-6">
-
-
-
       <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl px-8 py-14 sm:px-12 text-center text-white relative overflow-hidden">
-
-
-
         {bgImg && (
-
-
-
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-
-
-
             <img
-
-
-
               src={bgImg}
-
-
-
               alt="CTA background"
-
-
-
               className="w-full h-full object-cover ehp-bg-zoom opacity-65"
-
-
-
               loading="lazy"
-
-
-
             />
-
-
-
             <div className="absolute inset-0 bg-gradient-to-t from-slate-950/75 via-slate-950/45 to-slate-950/70" />
-
-
-
           </div>
-
-
-
         )}
-
-
-
         <div className="absolute top-0 right-0 w-64 h-64 bg-blue-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-
-
-
         <h2 className="text-2xl sm:text-3xl font-bold mb-3 relative">
-
-
-
           {title}
-
-
-
         </h2>
-
-
-
         <p className="text-white/70 max-w-md mx-auto mb-8 leading-relaxed text-[15px] relative">
-
-
-
           {desc}
-
-
-
         </p>
-
-
-
         <div className="flex flex-col sm:flex-row flex-wrap gap-3.5 justify-center relative">
-
-
-
           <a
-
-
-
-            href="https://api.whatsapp.com/send?phone=919630736070"
-
-
-
-            target="_blank"
-
-
-
-            rel="noopener noreferrer"
-
-
-
+            href="/contact"
             className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
-
-
-
           >
-
-
-
-            Chat on WhatsApp
-
-
-
+            Book free counselling
           </a>
-
-
-
           <a
-
-
-
             href="tel:+919630736070"
-
-
-
             className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
-
-
-
           >
-
-
-
             Call +91 96307 36070
-
-
-
           </a>
-
-
-
         </div>
-
-
-
       </div>
-
-
-
     </div>
-
-
-
   </section>
-
-
-
 );
 
 
@@ -3107,7 +2982,7 @@ const RelatedBranches = ({ level, currentSlug, country = "USA" }) => {
 
 
 
-          descClass="text-slate-500 text-[15px] leading-relaxed max-w-3xl"
+          descClass="text-slate-500 text-[15px] leading-relaxed w-full"
 
 
 
@@ -3428,21 +3303,8 @@ export const EngineeringBranchPage = ({
 
 
   const primary = {
-
-
-
-    href: "https://api.whatsapp.com/send?phone=919630736070",
-
-
-
-    external: true,
-
-
-
+    href: "/contact",
     label: "Book free counselling",
-
-
-
   };
 
 
@@ -3707,7 +3569,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -3755,7 +3617,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            descClass="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+            descClass="text-slate-500 text-[15px] leading-relaxed w-full space-y-3"
 
 
 
@@ -3787,7 +3649,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -4066,7 +3928,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -4218,7 +4080,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="text-slate-500 text-[15px] leading-relaxed max-w-3xl mb-5"
+            className="text-slate-500 text-[15px] leading-relaxed w-full mb-5"
 
 
 
@@ -4238,7 +4100,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -4302,7 +4164,7 @@ export const EngineeringBranchPage = ({
 
 
 
-            className="mt-4 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-4"
+            className="mt-4 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
 
 
 
@@ -4889,37 +4751,14 @@ if (g.t === "ul")
 
 
                   >
-
-
-
                     <h4
-
-
-
                       className={
-
-
-
-                        "font-semibold leading-snug mb-1.5 " +
-
-
-
+                        "font-bold text-base leading-snug mb-2 flex items-center gap-2 " +
                         (tone === "dark" ? "text-white" : "text-slate-900")
-
-
-
                       }
-
-
-
                     >
-
-
-
-                      {formatRichText(p.t)}
-
-
-
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
+                      <span>{formatRichText(p.t)}</span>
                     </h4>
 
 
@@ -5064,11 +4903,12 @@ if (g.t === "ul")
             <h4
               key={i}
               className={
-                "text-xl sm:text-2xl font-bold tracking-tight mt-8 mb-3 " +
+                "text-xl sm:text-2xl font-bold tracking-tight mt-8 mb-4 flex items-center gap-2.5 " +
                 (tone === "dark" ? "text-white" : "text-slate-900")
               }
             >
-              {formatRichText(g.text || g.title || (Array.isArray(g.items) ? g.items[0] : ""))}
+              <span className="w-1.5 h-6 rounded-full bg-blue-600 inline-block shrink-0 shadow-xs" />
+              <span>{formatRichText(g.text || g.title || (Array.isArray(g.items) ? g.items[0] : ""))}</span>
             </h4>
           );
         }
@@ -5393,21 +5233,8 @@ export const AbroadCoursePage = ({
 
 
   const primary = {
-
-
-
-    href: "https://api.whatsapp.com/send?phone=919630736070",
-
-
-
-    external: true,
-
-
-
+    href: "/contact",
     label: "Book free counselling",
-
-
-
   };
 
 
@@ -5514,11 +5341,11 @@ export const AbroadCoursePage = ({
 
 
 
-        eyebrow={`Study ${courseBase} · ${country} · ${page.level}`}
+        eyebrow={`Study ${courseBase.replace(/^Study\s+/i, '')} · ${country} · ${page.level}`}
 
 
 
-        lead={`${courseBase} in`}
+        lead={`${courseBase.replace(/^Study\s+/i, '')} in`}
 
 
 
@@ -5618,95 +5445,35 @@ export const AbroadCoursePage = ({
 
             <EhpHead eyebrow={page.overviewEyebrow || "Overview"} title={page.introTitle} />
 
-
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-
-
-
-              <Paragraphs
-
-
-
-                items={page.overview}
-
-
-
-                className="text-slate-500 text-[15px] leading-relaxed space-y-4"
-
-
-
-              />
-
-
-
-              <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[3/2]">
-
-
-
-                <img
-
-
-
-                  src={effectiveSideImg}
-
-
-
-                  width={1200}
-
-
-
-                  height={800}
-
-
-
-                  alt={`${page.name} at a university in ${inCountry}`}
-
-
-
-                  className="w-full h-full object-cover"
-
-
-
-                  loading="lazy"
-
-
-
-                  srcSet={`${effectiveSideImg} 1x, ${effectiveSideImg} 2x`}
-
-
-
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-
-
-
+            {effectiveSideImg ? (
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
+                <Paragraphs
+                  items={page.overview}
+                  className="text-slate-500 text-[15px] leading-relaxed space-y-4"
                 />
-
-
-
-                <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
-
-
-
-                <div className="absolute bottom-4 left-4 bg-white/15 backdrop-blur-md px-4 py-2 rounded-xl text-sm font-medium text-white">
-
-
-
-                  Edu Hawk Worldwide · {inCountry} admissions desk
-
-
-
+                <div className="relative overflow-hidden rounded-2xl shadow-xl aspect-[3/2]">
+                  <img
+                    src={effectiveSideImg}
+                    width={1200}
+                    height={800}
+                    alt={`${page.name} at a university in ${inCountry}`}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                    srcSet={`${effectiveSideImg} 1x, ${effectiveSideImg} 2x`}
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent pointer-events-none" />
+                  <div className="absolute bottom-4 left-4 bg-white/15 backdrop-blur-md px-4 py-2 rounded-xl text-sm font-medium text-white">
+                    Edu Hawk Worldwide · {inCountry} admissions desk
+                  </div>
                 </div>
-
-
-
               </div>
-
-
-
-            </div>
-
-
+            ) : (
+              <Paragraphs
+                items={page.overview}
+                className="w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
+              />
+            )}
 
           </div>
 
@@ -5772,12 +5539,12 @@ export const AbroadCoursePage = ({
                   eyebrow={s.eyebrow || "Top Universities"}
                   title={s.title}
                   desc={s.lead}
-                  descClass="text-slate-500 text-[15px] leading-relaxed max-w-2xl space-y-3"
+                  descClass="text-slate-500 text-[15px] leading-relaxed w-full space-y-3"
                 />
                 <UniversityGrid unis={sectionUnis} alt={(u) => (u.name || "University") + " campus"} />
                 <Paragraphs
                   items={s.note}
-                  className="mt-8 max-w-3xl text-slate-500 text-[15px] leading-relaxed space-y-3"
+                  className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-3"
                 />
                 {s.groups && s.groups.length > 0 && (
                   <div className="mt-10">
@@ -5835,7 +5602,7 @@ export const AbroadCoursePage = ({
 
 
 
-                  className="text-slate-500 text-[15px] leading-relaxed max-w-3xl mb-8"
+                  className="text-slate-500 text-[15px] leading-relaxed w-full mb-8"
 
 
 
@@ -6043,7 +5810,7 @@ export const AbroadCoursePage = ({
               {(s.items || s.paras) && (!s.groups || s.groups.length === 0) && (
                 <Paragraphs
                   items={s.items || s.paras}
-                  className="max-w-4xl text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
+                  className="w-full text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
                 />
               )}
               {s.groups && s.groups.length > 0 && (
@@ -6237,13 +6004,15 @@ export const withCmsData = (page = {}, cmsData = {}, uniImages = {}) => {
 
   // Safeguard 7: Safe Overview with full JSX fallback
   let resolvedOverview = page?.overview;
-  if (cmsData?.overview) {
-    if (Array.isArray(cmsData.overview)) {
-      const filtered = cmsData.overview.filter(item => typeof item === "string" ? item.trim().length > 0 : Boolean(item));
-      if (filtered.length > 0) resolvedOverview = filtered;
-    } else if (typeof cmsData.overview === "string" && cmsData.overview.trim().length > 0) {
-      const splitParas = cmsData.overview.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
-      if (splitParas.length > 0) resolvedOverview = splitParas;
+  if (!resolvedOverview || (Array.isArray(resolvedOverview) && resolvedOverview.length === 0)) {
+    if (cmsData?.overview) {
+      if (Array.isArray(cmsData.overview)) {
+        const filtered = cmsData.overview.filter(item => typeof item === "string" ? item.trim().length > 0 : Boolean(item));
+        if (filtered.length > 0) resolvedOverview = filtered;
+      } else if (typeof cmsData.overview === "string" && cmsData.overview.trim().length > 0) {
+        const splitParas = cmsData.overview.split(/\n\n+/).map(p => p.trim()).filter(Boolean);
+        if (splitParas.length > 0) resolvedOverview = splitParas;
+      }
     }
   }
 
@@ -6431,6 +6200,10 @@ export const withCmsData = (page = {}, cmsData = {}, uniImages = {}) => {
     if (!cmsSec || typeof cmsSec !== "object") return merged;
     for (const [k, v] of Object.entries(cmsSec)) {
       if (v === null || v === undefined) continue;
+      // Preserve JSX authored groups if pageSec already provides rich structured groups
+      if (k === "groups" && Array.isArray(pageSec.groups) && pageSec.groups.length > 0) {
+        continue;
+      }
       if (typeof v === "string") {
         if (v.trim().length > 0) merged[k] = v.trim();
       } else if (Array.isArray(v)) {

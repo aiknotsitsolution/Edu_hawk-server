@@ -545,16 +545,16 @@ const PharmacyAbroad = () => {
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
                 >
                   Book free counselling
                 </a>
                 <a
-                  href="#destinations"
+                  href="#usa-universities"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -625,7 +625,7 @@ const PharmacyAbroad = () => {
                 Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -677,7 +677,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Why Come to the USA to Study Pharmacy?
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Studying pharmacy in the US offers access to advanced pharmaceutical education and a range of career options.
             </p>
           </div>
@@ -715,7 +715,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Pharmacy Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Professional pharmacy degrees, pharmaceutical science undergraduate programs, and postgraduate study options are all available in the USA.
             </p>
           </div>
@@ -786,7 +786,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Top Universities for Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Some well-known U.S. pharmacy schools and universities include:
             </p>
           </div>
@@ -856,7 +856,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Eligibility to Study Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The eligibility for pharmacy in USA depends on the course and university.
             </p>
           </div>
@@ -913,7 +913,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Admission Requirements for Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The pharmacy admission requirements in USA vary by institution and program.
             </p>
           </div>
@@ -983,7 +983,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Cost of Studying Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The length of the program, the location, the university, and the student's residency classification all affect the cost of studying pharmacy in the United States.
             </p>
           </div>
@@ -1050,7 +1050,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Pharmacy Licensing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               State boards of pharmacy oversee the licensing of pharmacists in the United States. A degree in pharmacy does not grant one the right to work as a pharmacist.
             </p>
           </div>
@@ -1095,7 +1095,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Pharmacy Salary and Job Opportunities in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Professionals in pharmacy who are qualified can look into opportunities in a number of industries.
             </p>
           </div>
@@ -1137,7 +1137,7 @@ const PharmacyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Documents Required to Study Pharmacy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Depending on the program and university, different documents are needed to study pharmacy in the United States.
             </p>
           </div>
@@ -1260,7 +1260,7 @@ const PharmacyAbroad = () => {
                 Share your Class 12 marks and preferred countries. We will tell you honestly which universities and programs are realistic for your profile and budget.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -1347,12 +1347,10 @@ const PharmacyAbroad = () => {
             </p>
             <div className="flex flex-col sm:flex-row flex-wrap gap-3.5 justify-center relative">
               <a
-                href="https://wa.me/917632949984"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
               >
-                WhatsApp us now
+                Book free counselling
               </a>
               <a
                 href="tel:+917632949984"

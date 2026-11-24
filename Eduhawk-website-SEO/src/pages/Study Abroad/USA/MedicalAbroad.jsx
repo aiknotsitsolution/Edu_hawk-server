@@ -153,7 +153,7 @@ const MedicalAbroad = () => {
               </p>
               <div className="flex flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
                 >
                   Book free counselling
@@ -162,7 +162,7 @@ const MedicalAbroad = () => {
                   href="#destinations"
                   className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -234,7 +234,7 @@ const MedicalAbroad = () => {
                 We focus on long-term outcomes. That means your degree should remain valid in India, you should be able to clear FMGE/NExT confidently, and you should feel prepared for both clinical practice and further studies.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -344,7 +344,7 @@ const MedicalAbroad = () => {
                 Share your Class 12 marks and NEET details. We will tell you honestly which countries and universities are realistic for your profile and budget. No false hopes, only practical guidance.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -364,7 +364,7 @@ const MedicalAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Popular destinations for Medical
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               We help you compare fees, climate, Indian student community, safety and NMC recognition so you can choose the right country — not just the cheapest one. Every destination has its own strengths.
             </p>
           </div>
@@ -542,12 +542,10 @@ const MedicalAbroad = () => {
             </p>
             <div className="flex flex-wrap gap-3.5 justify-center relative">
               <a
-                href="https://wa.me/917632949984"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
                 className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
               >
-                WhatsApp us now
+                Book free counselling
               </a>
               <a
                 href="tel:+917632949984"

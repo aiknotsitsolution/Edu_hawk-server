@@ -27,7 +27,7 @@ const page = {
     {
       "slot": "why",
       "eyebrow": "Why the USA",
-      "title": "What is an MBA Degree?",
+      "title": "What is an MBS Degree?",
       "groups": [
         {
           "t": "p",
@@ -208,7 +208,7 @@ const page = {
     {
       "slot": "careers",
       "eyebrow": "After graduation",
-      "title": "Career Opportunities After an MBA in the USA",
+      "title": "Career Opportunities After an MBS in the USA",
       "groups": [
         {
           "t": "p",
@@ -297,7 +297,7 @@ const MbsAbroad = () => {
     ...page,
     title: mBSData?.seo?.title || page.title,
     description: mBSData?.seo?.description || page.description,
-    heroParas: mBSData?.hero?.subtitle ? [mBSData.hero.subtitle] : page.heroParas,
+    heroParas: page.heroParas,
     overview: mBSData?.overview ? (Array.isArray(mBSData.overview) ? mBSData.overview : mBSData.overview.split('\n\n')) : page.overview,
     faqs: (mBSData?.faq && mBSData.faq.length > 0)
       ? mBSData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))

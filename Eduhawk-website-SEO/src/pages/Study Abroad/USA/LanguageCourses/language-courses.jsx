@@ -196,25 +196,19 @@ const page = {
     },
     {
       "slot": "duration",
-      "eyebrow": "How long",
-      "title": "Duration of Course Program",
+      "eyebrow": "Program Length",
+      "title": "Duration of Language Course Programs in the USA",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Typical Length",
-            "Short term language course 1.",
-            "Weeks to months (few)",
-            "Intensive English Course",
-            "Around 2-12 months depending on goals",
-            "Academic English Program",
-            "One semester to about one year",
-            "Degree (undergraduate)",
-            "~ 4 years",
-            "Master of Arts",
-            "1-2 years or so",
-            "Doctoral degree",
-            "Certificate program Typically 4 – 6 years or more"
+          "t": "table",
+          "headers": ["Language Program Type", "Typical Duration", "Target / Purpose"],
+          "rows": [
+            ["Short-Term Language Courses", "2 – 12 Weeks", "Basic Fluency & Cultural Immersion"],
+            ["Intensive English Program (IEP)", "2 – 12 Months", "Fast-track Language Competency"],
+            ["Academic English / Pathway Program", "1 – 2 Semesters (4 – 9 Months)", "Preparation for Degree Studies"],
+            ["Undergraduate Degree (B.A. Linguistics / Languages)", "4 Years (Full-Time)", "Bachelor's Degree"],
+            ["Postgraduate Degree (M.A. Applied Linguistics / TESOL)", "1 – 2 Years", "Master's Qualification"],
+            ["Doctoral Program (Ph.D. in Linguistics / Languages)", "4 – 6 Years", "Advanced Academic Research"]
           ]
         }
       ]

@@ -161,7 +161,7 @@ const AccountingFinance = () => {
           </p>
           <div className="flex flex-wrap gap-3.5">
             <a
-              href="#consult"
+              href="/contact"
               className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
             >
               Book free counselling
@@ -170,7 +170,7 @@ const AccountingFinance = () => {
               href="#destinations"
               className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/40 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
             >
-              View countries
+              View universities
             </a>
           </div>
         </div>
@@ -235,7 +235,7 @@ const AccountingFinance = () => {
                 with complete transparency on costs and realistic outcomes.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -376,7 +376,7 @@ const AccountingFinance = () => {
                 universities are realistic for your profile.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -522,12 +522,12 @@ const AccountingFinance = () => {
             </p>
             <div className="flex flex-wrap gap-3.5 justify-center relative">
               <a
-                href="https://wa.me/917632949984"
+                href="/contact"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
               >
-                WhatsApp us now
+                Book free counselling
               </a>
               <a
                 href="tel:+917632949984"

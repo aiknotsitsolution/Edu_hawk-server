@@ -17,20 +17,22 @@ import deakinImg from "../../../../Images/Abroad/Australia/Nursing/Deakin_Colleg
 const sideImg = clinicalImg;
 
 const page = {
-  name: "Nursing in Australia",
+  name: "Nursing",
   country: "Australia",
   slug: "nursing",
   title: "Nursing in Australia for Indian Students | Edu-Hawk Worldwide",
   description:
     "Explore Nursing in Australia for Indian students. Learn about Bachelor of Nursing, graduate-entry pathways, top universities (Monash, Sydney, UQ, Deakin), eligibility, fees, NMBA registration, and career opportunities.",
   keywords:
-    "Study Study Nursing in Australia for Indian Students Best Universities for Nursing in Australia Nursing Courses in Australia After 12th Bachelor of Nursing in Australia for International Students Nursing Admission Requirements in Australia Nursing Fees in Australia for Indian Students Nursing Scholarships in Australia for International Students Nursing Course Duration in Australia English Language Requirements for Nursing in Australia IELTS and PTE Requirements for Nursing in Australia Nursing Graduate Entry Programs in Australia Nursing Admission Process in Australia for Indian Students Nursing Registration Requirements in Australia Career Opportunities After Studying Nursing in Australia Australian Student Visa Requirements for Nursing Students",
+    "Study Nursing in Australia for Indian Students Best Universities for Nursing in Australia Nursing Courses in Australia After 12th Bachelor of Nursing in Australia for International Students Nursing Admission Requirements in Australia Nursing Fees in Australia for Indian Students Nursing Scholarships in Australia for International Students Nursing Course Duration in Australia English Language Requirements for Nursing in Australia IELTS and PTE Requirements for Nursing in Australia Nursing Graduate Entry Programs in Australia Nursing Admission Process in Australia for Indian Students Nursing Registration Requirements in Australia Career Opportunities After Studying Nursing in Australia Australian Student Visa Requirements for Nursing Students",
   introTitle: "Indian Students Pursuing Nursing in Australia",
   heroParas: [
-    "International students who wish to work in healthcare and nursing in Australia. Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments."
+    "International students who wish to work in healthcare and nursing in Australia can pursue world-class education. Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments."
   ],
   overview: [
-    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+    "Students can gain professional education, hands-on learning opportunities, and exposure to a multicultural healthcare setting by studying nursing in Australia.",
+    "Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments.",
+    "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey."
   ],
   level: "Undergraduate & Postgraduate",
   crumb: "Healthcare & Nursing",
@@ -51,9 +53,12 @@ const page = {
         {
           t: "p",
           items: [
-            "Students can gain professional education, hands-on learning opportunities, and exposure to a multicultural healthcare setting by studying nursing in Australia.",
-            "**Important Advantages of Studying Nursing in Australia**"
+            "Students can gain professional education, hands-on learning opportunities, and exposure to a multicultural healthcare setting by studying nursing in Australia."
           ]
+        },
+        {
+          t: "h4",
+          text: "Important Advantages of Studying Nursing in Australia"
         },
         {
           t: "dl",
@@ -87,7 +92,7 @@ const page = {
         {
           t: "p",
           items: [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey."
           ]
         }
       ]
@@ -100,12 +105,23 @@ const page = {
         {
           t: "p",
           items: [
-            "Numerous nursing credentials are offered by Australian organizations. Students should select a program depending on their desired career result and current level of education.",
-            "**Nursing Bachelor's degree**",
-            "For individuals who have finished Class 12 or an equivalent degree, the Bachelor of Nursing is a popular entry option.",
-            "Eligibility: Class 12 or above, subject to academic and English language criteria relevant to the university.",
-            "**Principal Areas of Learning:**"
+            "Numerous nursing credentials are offered by Australian organizations. Students should select a program depending on their desired career result and current level of education."
           ]
+        },
+        {
+          t: "h4",
+          text: "Bachelor of Nursing"
+        },
+        {
+          t: "p",
+          items: [
+            "For individuals who have finished Class 12 or an equivalent degree, the Bachelor of Nursing is the primary entry pathway for registered nursing registration.",
+            "Eligibility: Class 12 or equivalent with science background, subject to university academic benchmarks and NMBA-approved English requirements."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Principal Areas of Learning"
         },
         {
           t: "pills",
@@ -121,19 +137,36 @@ const page = {
           ]
         },
         {
+          t: "h4",
+          text: "Bachelor of Nursing Science"
+        },
+        {
           t: "p",
           items: [
-            "**Nursing Science Bachelor's degree**",
-            "A Bachelor of Nursing Science degree or a comparable degree is offered by some universities.",
-            "Duration: Depending on the institution, it usually lasts three years.",
-            "Eligibility: Completing high school and meeting the academic and English-language requirements of the university.",
-            "**Nursing Graduate-Entry Programs**",
-            "Students with a recognized bachelor's degree in another field may be eligible for graduate-entry nursing programs.",
-            "These programs are not offered at all universities, but they can offer qualified graduates an alternate route into nursing.",
-            "Eligibility: English language competency, a valid previous degree, and any necessary prerequisite courses.",
-            "**The D. Nursing Master's**",
-            "Candidates with a nursing degree or a related academic background could benefit from a Master of Nursing.",
-            "Postgraduate studies may concentrate on advanced practice, clinical development, leadership, nursing teaching, or research, depending on the program."
+            "A Bachelor of Nursing Science degree or a comparable scientific degree is offered by several Australian universities.",
+            "Duration: 3 years full-time study.",
+            "Eligibility: Completion of higher secondary education meeting academic and English-language requirements."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Graduate-Entry Nursing Programs"
+        },
+        {
+          t: "p",
+          items: [
+            "Students holding a recognized bachelor's degree in another field (such as biological sciences, health science, or arts) can qualify for accelerated 2-year graduate-entry nursing programs leading to RN registration.",
+            "Eligibility: Recognized prior bachelor's degree, human anatomy/physiology prerequisite units, and English language proficiency."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Master of Nursing (Postgraduate Degrees)"
+        },
+        {
+          t: "p",
+          items: [
+            "Candidates with a nursing degree or related background can advance via a Master of Nursing specializing in leadership, advanced practice, or clinical education."
           ]
         },
         {
@@ -147,27 +180,32 @@ const page = {
           ]
         },
         {
+          t: "h4",
+          text: "Nursing Bachelor's Degree with Honours & PhD"
+        },
+        {
           t: "p",
           items: [
-            "**The E. Nursing bachelor's degree with honors**",
-            "After earning a qualifying undergraduate nursing degree, an honors program typically offers more chances for research and advanced academic study.",
-            "Potential choices include of:"
+            "After earning a qualifying undergraduate nursing degree, an honours program typically offers structured research training leading to doctoral studies:"
           ]
         },
         {
           t: "ul",
           items: [
-            "Doctor of Philosophy in Nursing",
+            "Doctor of Philosophy in Nursing (PhD)",
             "Doctor of Philosophy in Midwifery and Nursing",
-            "Doctoral research programs in nursing"
+            "Doctoral research programs in clinical nursing practice"
           ]
         },
         {
           t: "p",
           items: [
-            "A relevant postgraduate or honors degree, research preparation, and, depending on the school, an appropriate research proposal or supervisor are typically requirements for eligibility.",
-            "**The certification given:**"
+            "A relevant postgraduate or honours degree, research proposal, and institutional supervisory approval are typically required."
           ]
+        },
+        {
+          t: "h4",
+          text: "Program Certification & Compliance Checklist"
         },
         {
           t: "ul",
@@ -338,11 +376,50 @@ const page = {
         {
           t: "p",
           items: [
-            "The university, program, campus, length of course, lodging, and way of life all affect the overall cost.",
-            "**Estimated Cost of Tuition**",
-            "Some undergraduate nursing programs may charge overseas students between AUD 35,000 and AUD 50,000 or more annually, as a general planning estimate.",
-            "**Additional Living and Educational Costs**",
-            "Students ought to set up money for:"
+            "The university, program, campus, length of course, lodging, and way of life all affect the overall cost."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Estimated Cost of Tuition"
+        },
+        {
+          t: "p",
+          items: [
+            "Tuition fees for international nursing students vary by university, qualification level, and whether the degree includes accelerated graduate-entry clinical training. As a general planning guide, undergraduate and postgraduate nursing programs typically range between AUD 35,000 and AUD 50,000 per year."
+          ]
+        },
+        {
+          t: "table",
+          headers: ["Nursing Program Level", "Estimated Annual Tuition (AUD)", "Standard Course Duration"],
+          rows: [
+            ["Bachelor of Nursing (Standard Entry)", "AUD 35,000 – AUD 42,000 / year", "3 Years Full-Time"],
+            ["Bachelor of Nursing (Graduate Entry)", "AUD 38,000 – AUD 46,000 / year", "2 Years Full-Time"],
+            ["Master of Nursing Practice (Entry to Practice)", "AUD 40,000 – AUD 50,000 / year", "2 Years Full-Time"],
+            ["Master of Advanced Nursing (Specialist)", "AUD 36,000 – AUD 45,000 / year", "1.5 – 2 Years Full-Time"],
+            ["Bachelor of Nursing (Honours)", "AUD 34,000 – AUD 42,000 / year", "1 Year Full-Time"]
+          ]
+        },
+        {
+          t: "h4",
+          text: "Additional Living and Educational Costs"
+        },
+        {
+          t: "p",
+          items: [
+            "In addition to tuition fees, international nursing students must budget for living expenses in Australia (as per the Department of Home Affairs financial capacity requirement) along with mandatory clinical placement, uniform, and healthcare check costs:"
+          ]
+        },
+        {
+          t: "table",
+          headers: ["Expense Category", "Estimated Cost (AUD)", "Description & Frequency"],
+          rows: [
+            ["Living & Accommodation", "AUD 20,000 – AUD 29,710 / year", "Rental housing, food, groceries, utilities, and daily public transit"],
+            ["Overseas Student Health Cover (OSHC)", "AUD 600 – AUD 850 / year", "Mandatory medical and hospital insurance for student visa holders"],
+            ["Clinical Uniforms & Scrubs", "AUD 200 – AUD 450", "Hospital-approved uniforms, clinical shoes, and lab wear"],
+            ["Personal Medical Equipment", "AUD 150 – AUD 350", "Stethoscope, sphygmomanometer, penlight, and nursing watch"],
+            ["Immunisations, Serology & CPR", "AUD 300 – AUD 650", "Mandatory vaccine record verification, police checks & WWC check"],
+            ["Books & Learning Supplies", "AUD 600 – AUD 1,200 / year", "Nursing textbooks, medical journals, and digital simulation access"]
           ]
         },
         {
@@ -673,9 +750,7 @@ export default function NursingAustralia() {
     overview: cmsData?.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : cmsData.overview.split('\n\n'))
       : page.overview,
-    sections: (cmsData?.sections && cmsData.sections.length > 0)
-      ? cmsData.sections
-      : page.sections,
+    sections: page.sections,
     universities: (cmsData?.universities && cmsData.universities.length > 0)
       ? cmsData.universities.map((u, idx) => ({
           ...u,

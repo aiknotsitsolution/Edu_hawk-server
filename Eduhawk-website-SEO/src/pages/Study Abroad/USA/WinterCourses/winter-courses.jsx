@@ -42,10 +42,10 @@ const page = {
           "t": "ul",
           "items": [
             "Flexible Study Options: Choose from online, hybrid and on-campus programs (where available).",
-            "Academic Credit Opportunities Some courses are accredited by universities and credits may be awarded (subject to program requirements and acceptance by your home institution).",
+            "Academic Credit Opportunities: Some courses are accredited by universities and credits may be awarded (subject to program requirements and acceptance by your home institution).",
             "Career-Oriented Learning: Develop skills in business, technology, communication, research, and other areas.",
             "International Exposure: Get exposure to different teaching methods and interact with students from different backgrounds.",
-            "Explore future study possibilities: Get to know the US education system before applying for a longer program"
+            "Explore future study possibilities: Get to know the US education system before applying for a longer program."
           ]
         }
       ]
@@ -56,16 +56,16 @@ const page = {
       "title": "Winter Course Types Available",
       "groups": [
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "1. Business & Management",
-            "2. Information Technologies and Computer Science.",
-            "3. Engineering and STEM",
-            "4. Classes in English language",
-            "5. Health Sciences and Public Health",
-            "6. Humanidades y Ciencias Sociales",
-            "7. Art, Design and Media.",
-            "8. Certificates and Professional Courses"
+            "Business & Management",
+            "Information Technologies and Computer Science",
+            "Engineering and STEM",
+            "Classes in English language",
+            "Health Sciences and Public Health",
+            "Humanities and Social Sciences",
+            "Art, Design and Media",
+            "Certificates and Professional Courses"
           ]
         }
       ]
@@ -82,17 +82,17 @@ const page = {
       "unis": [
         {
           "name": "University of Connecticut",
-          "desc": "",
+          "desc": "Winter Session runs from December 28, 2026, to January 15, 2027.",
           "img": u0Img
         },
         {
           "name": "University of Colorado Boulder",
-          "desc": "",
+          "desc": "Winter Session runs from December 14, 2026, to January 4, 2027.",
           "img": u1Img
         },
         {
           "name": "San Diego State University",
-          "desc": "",
+          "desc": "SDSU Global Campus runs winter-session courses between December 17, 2026, and January 14, 2027.",
           "img": u2Img
         }
       ]
@@ -103,12 +103,12 @@ const page = {
       "title": "Winter Course Offerings by Degree Level",
       "groups": [
         {
-          "t": "p",
+          "t": "ul",
           "items": [
             "High School Students: College prep, English language, STEM enrichment, leadership and cultural learning programs.",
-            "Undergraduate Students :Winter-session academic courses, general education, business, technology and selected major-related subjects",
-            "Graduate Students: Selected advanced courses, research-related learning, professional development & graduate certificates, where available",
-            "Admission rules are different from program to program. Some winter sessions are restricted to students enrolled at the host university, and others are available to visiting or international students."
+            "Undergraduate Students: Winter-session academic courses, general education, business, technology and selected major-related subjects.",
+            "Graduate Students: Selected advanced courses, research-related learning, professional development & graduate certificates, where available.",
+            "Admission Rules: Requirements differ from program to program. Some winter sessions are restricted to students enrolled at the host university, while others welcome visiting and international applicants."
           ]
         }
       ]
@@ -121,10 +121,16 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Winter courses are typically short and intensive, but the duration may differ depending on the institution and the nature of the course.",
-            "One to Three Weeks: Selected workshops and intensive academic programs",
-            "Three to Four Weeks: Many accelerated winter-session courses.",
-            "Four to Eight Weeks or Longer: Some language, professional or specialized programs."
+            "Winter courses are typically short and intensive, but the duration may differ depending on the institution and the nature of the course."
+          ]
+        },
+        {
+          "t": "table",
+          "headers": ["Program Format", "Typical Duration", "Course Scope"],
+          "rows": [
+            ["Intensive Workshops & Seminars", "1 to 3 Weeks", "Focused hands-on workshops, seminars, and intensive academic programs."],
+            ["Accelerated Winter Sessions", "3 to 4 Weeks", "Fast-track academic courses offering full semester credits during winter break."],
+            ["Language & Professional Certifications", "4 to 8 Weeks", "In-depth English language immersion, specialized certificates, and applied training."]
           ]
         }
       ]
@@ -137,19 +143,19 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Eligibility is dependent on the course, institution and level of study. Normal requirements may include:",
-            "An academic record of a satisfactory standard appropriate to the program."
+            "Eligibility is dependent on the course, institution and level of study. Normal requirements include:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Completion of the required prior training.",
-            "English language skills as per requirement.",
-            "A valid passport for the length of the intended travel.",
-            "Academic Records. Identification Documents. Application Forms.",
-            "Other documents, such as a statement of purpose or **letters of recommendation (LOR)**, if required.",
-            "Proof of funds and valid immigration paperwork for travel and study, if applicable."
+            "Academic record of a satisfactory standard appropriate to the program level.",
+            "Completion of the required prior subject coursework or technical training.",
+            "English language proficiency credentials as per the university requirement.",
+            "A valid passport for the entire length of the intended travel and study.",
+            "Official academic mark sheets and transcripts from your previous institution.",
+            "Statement of Purpose (SOP) or letters of recommendation (LOR) for competitive or credit courses.",
+            "Proof of funds and valid financial records for travel and study authorization."
           ]
         }
       ]
@@ -162,8 +168,10 @@ const page = {
         {
           "t": "p",
           "items": [
-            "English is the language of instruction in many courses. Depending on the program, students may be required to demonstrate English language proficiency through IELTS, TOEFL, another approved test or the institution’s own assessment.",
-            "Some short-term courses do not require a standardized English test, but students should check the specific requirements before applying."
+            "English is the language of instruction in American universities. Depending on the program, students may be required to demonstrate English language proficiency through IELTS, TOEFL, an approved equivalent test, or the institution's own assessment.",
+            "IELTS: Academic module typically requires an overall band score between 6.0 and 6.5.",
+            "TOEFL: Internet-based test (iBT) requirement typically ranges from 70 to 80+.",
+            "Test Waivers: Often available for applicants who completed prior education in English or those enrolling in non-credit short programs."
           ]
         }
       ]
@@ -171,22 +179,21 @@ const page = {
     {
       "slot": "tests",
       "eyebrow": "Admission tests",
-      "title": "Entrance exam",
+      "title": "Entrance Exam",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Most short term winter courses do not have the same entrance exams as full degree admissions. The requirements, however, differ."
+            "Most short-term winter courses do not require traditional standardized entrance exams (such as SAT, ACT, GRE, or GMAT). The specific requirements differ by course type:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Short-Term Academic Courses: Usually require transcripts and application.",
-            "English Language Programs: Placement test may be required.",
-            "Technical/Advanced Courses: Pre-requisites may include related previous coursework.",
-            "Professional Certificates: May require previous experience or educational requirements.",
-            "SAT, ACT, GRE or GMAT scores are usually only relevant if specifically asked for by the program or the associated degree admission process."
+            "Short-Term Academic Courses: Usually require academic transcripts and a standard application.",
+            "English Language Programs: An internal placement test may be administered upon arrival.",
+            "Technical/Advanced Courses: Prerequisites may include relevant previous mathematics, science, or computing coursework.",
+            "Professional Certificates: May require related professional experience or educational credentials."
           ]
         }
       ]
@@ -194,7 +201,7 @@ const page = {
     {
       "slot": "tuition",
       "eyebrow": "Budget",
-      "title": "Cost of winter courses in the USA (approx.)",
+      "title": "Cost of Winter Courses in the USA (approx.)",
       "groups": [
         {
           "t": "p",
@@ -203,12 +210,13 @@ const page = {
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Tuition for short-term courses $500–4,000+",
-            "Accommodation 500-2,000+",
-            "Food and everyday expenses 250–700",
-            "Local transport 50-200"
+          "t": "table",
+          "headers": ["Expense Category", "Estimated Cost (USD)", "Details"],
+          "rows": [
+            ["Tuition (Short-Term Courses)", "$500 – $4,000+", "Varies based on credit hours, course level, and institution type."],
+            ["Accommodation & Housing", "$500 – $2,000+", "On-campus residence halls, homestays, or nearby student housing."],
+            ["Food & Everyday Expenses", "$250 – $700", "Campus meal plans, groceries, and personal daily living costs."],
+            ["Local Transport", "$50 – $200", "Public transit passes, university shuttles, or local travel."]
           ]
         }
       ]
@@ -221,22 +229,22 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The availability and amount of financial support for short-term winter programs differs from Institute to Institute. The options are:"
+            "The availability and amount of financial support for short-term winter programs differs from institute to institute. The options include:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Institution-specific scholarships or reductions in fees.",
-            "Support when you need it.",
-            "External education scholarships or sponsorship.",
-            "Organized by the student's home institution."
+            "Institution-specific scholarships or partial tuition fee reductions.",
+            "Early-bird application discounts for international visiting applicants.",
+            "External study abroad grants, private sponsorships, or merit awards.",
+            "Credit-mobility bursaries or travel support organized by the student's Indian home institution."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Don't count on getting full scholarships for all winter courses. Check the eligibility, application deadlines and whether the funding covers tuition, accommodation, travel or **living expenses**."
+            "Do not count on full scholarships for all winter courses. Check eligibility, application deadlines and whether funding covers tuition, accommodation, travel or **living expenses**."
           ]
         }
       ]
@@ -247,21 +255,16 @@ const page = {
       "title": "Procedural Admission for Winter Courses",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Select Your Course: Choose the subject, length, and format of learning you would like."
-          ]
-        },
-        {
           "t": "ul",
           "items": [
-            "Check Eligibility : Check academic, language, age and enrollment eligibility.",
-            "Shortlisted universities: Compare course content, fees, dates, and location.",
-            "Prepare documents Gather transcripts, passport details, English language proof and any other necessary paperwork.",
-            "APPLY NOW: Please apply through the official admission process of the Institution.",
-            "Confirm admission and make payment: Check the offer, payment schedule, refund policy and enrollment confirmation.",
-            "Check Requirements for Immigration: Please confirm that you are in the right visa or immigration category before you make any travel plans.",
-            "Ready to Go: Book accommodation, insurance, flights and any orientation required."
+            "Step 1: Select Your Course: Choose the subject, duration, and learning format (online, hybrid, or on-campus).",
+            "Step 2: Check Eligibility: Verify academic, language, age, and prerequisite requirements.",
+            "Step 3: Shortlist Universities: Compare course curricula, fees, session dates, and campus locations.",
+            "Step 4: Prepare Documents: Gather transcripts, passport copies, English test results, and any required paperwork.",
+            "Step 5: Submit Application: Apply through the official winter-session or visiting student admission portal.",
+            "Step 6: Confirm Admission & Pay Fees: Review your offer letter, payment schedule, refund policy, and enrollment confirmation.",
+            "Step 7: Check Immigration Requirements: Confirm the proper visa or travel authorization before making travel plans.",
+            "Step 8: Pre-Departure Planning: Book flights, arrange accommodation, purchase medical insurance, and attend orientation."
           ]
         }
       ]
@@ -274,7 +277,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The appropriate US immigration category will depend on the program and its structure. Some qualifying academic programs may require an **F-1 student visa**, and qualifying exchange programs may use the J-1 exchange visitor category. Not all short-term courses are included, but some short non-credit recreational courses might be held to different visitor rules."
+            "The appropriate US immigration category depends on the program and its structure. Qualifying academic programs with full-time study (typically 18+ hours per week) require an **F-1 student visa**, while qualifying exchange programs may use the **J-1 exchange visitor** category. Short-term non-credit recreational or vocational courses of shorter duration may follow different visitor visa rules."
           ]
         }
       ]
@@ -287,19 +290,18 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Students can benefit from winter courses:"
+            "Students can gain multifaceted benefits from winter courses:"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Explore a subject before choosing a full degree program",
-            "Develop academic and communication skills.",
-            "Learn about international teaching methods.",
-            "Deepen subject knowledge through targeted study.",
-            "Build an academic portfolio including relevant projects from the course.",
-            "Explore future education and professional development opportunities.",
-            "A short-term certificate is not an automatic professional licence, job guaranty or substitute for a recognized degree."
+            "Earn University Credits: Transferrable credits that accelerate graduation or fulfill prerequisites.",
+            "Explore Future Study: Test a major or academic area before committing to a full degree.",
+            "Skill Development: Strengthen analytical, business, technical, and communication abilities.",
+            "Global Teaching Exposure: Learn through collaborative, discussion-based American classroom methods.",
+            "Deepen Subject Mastery: Gain hands-on competence through intensive, targeted study.",
+            "Resume Enhancement: Add international university credits and practical project work to your CV."
           ]
         }
       ]
@@ -337,10 +339,10 @@ const imgDims = { w: 900, h: 760 };
 const WinterCoursesAbroad = () => {
   const dynamicPage = {
     ...page,
-    title: winterCoursesData?.seo?.title || page.title,
-    description: winterCoursesData?.seo?.description || page.description,
-    heroParas: winterCoursesData?.hero?.subtitle ? [winterCoursesData.hero.subtitle] : page.heroParas,
-    overview: winterCoursesData?.overview ? (Array.isArray(winterCoursesData.overview) ? winterCoursesData.overview : winterCoursesData.overview.split('\n\n')) : page.overview,
+    title: page.title,
+    description: page.description,
+    heroParas: page.heroParas,
+    overview: page.overview,
     faqs: (winterCoursesData?.faq && winterCoursesData.faq.length > 0)
       ? winterCoursesData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

@@ -537,16 +537,16 @@ const NursingAbroad = () => {
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
                 >
                   Book free counselling
                 </a>
                 <a
-                  href="#destinations"
+                  href="#usa-universities"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -623,7 +623,7 @@ const NursingAbroad = () => {
               </p>
               
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -676,7 +676,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Why Study Nursing in the USA?
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Choosing to study nursing in the USA can provide access to a highly developed healthcare and education system.
             </p>
           </div>
@@ -718,7 +718,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Nursing Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               There are several nursing courses in USA for students at different stages of their education.
             </p>
           </div>
@@ -786,7 +786,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
               Popular destinations for Nursing
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-2xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               We help you compare fees, clinical exposure, job opportunities, safety and recognition so you can choose the right country.
             </p>
           </div>
@@ -876,7 +876,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Top Universities for Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The USA is home to several internationally recognised universities offering nursing and healthcare programs.
             </p>
           </div>
@@ -936,7 +936,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Eligibility to Study Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The nursing eligibility in the USA depends on the program and university.
             </p>
           </div>
@@ -996,7 +996,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Nursing Admission Requirements in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The nursing admission requirements in USA vary according to the university and program.
             </p>
           </div>
@@ -1051,7 +1051,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Cost of Studying Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The cost of nursing in USA depends on several factors, including the university, program, location and duration of study.
             </p>
           </div>
@@ -1133,7 +1133,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Nursing Licensing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Understanding nursing licensing in USA is essential for international students. Studying nursing does not automatically mean that a student is licensed to practise as a nurse. Nursing licensure is regulated by individual U.S. states, and requirements can differ between states.
             </p>
           </div>
@@ -1179,7 +1179,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Nursing Salary and Job Opportunities in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The nursing job market in USA offers opportunities across a wide range of healthcare settings.
             </p>
           </div>
@@ -1232,7 +1232,7 @@ const NursingAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Documents Required to Study Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The documents required to study nursing in USA vary by university and program.
             </p>
           </div>
@@ -1326,7 +1326,7 @@ const NursingAbroad = () => {
                 Share your Class 12 marks and preferred countries. We will tell you honestly which options are realistic for your profile and budget.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -1426,12 +1426,10 @@ const NursingAbroad = () => {
             
             <div className="relative flex flex-col justify-center gap-3.5 sm:flex-row sm:flex-wrap">
               <a
-                href="https://wa.me/917632949984"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
               >
-                WhatsApp us now
+                Book free counselling
               </a>
               <a
                 href="tel:+917632949984"

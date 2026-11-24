@@ -131,46 +131,46 @@ const page = {
           "t": "p",
           "items": [
             "There are a number of academic routes to architecture education in the **United States**. The right program will depend on the student’s previous education, career goals and interest in professional architectural practice.",
-            "Undergraduate Degrees",
-            "B.ARCH. (BACHELOR OF ARCHITECTURE)",
+            "**Undergraduate Degrees**",
+            "**B.Arch. (Bachelor of Architecture)**",
             "A professional degree in architecture, normally a 5-year program, which comprises architectural design, building technology, history and theory, and a studio component.",
-            "B.S. Architecture.",
+            "**B.S. Architecture**",
             "An undergraduate program that may focus on one or more of the following: architectural design, building systems, technology or fundamentals of architecture. Depending on the university it may be a pre-professional degree instead of a professional qualification.",
-            "Bachelor of Arts Architecture",
-            "A program that could mix architecture with liberal arts, design theory, history and interdisciplinary studies.",
-            "Bachelor of Science in Architectural Studies",
+            "**Bachelor of Arts in Architecture**",
+            "A program that mixes architecture with liberal arts, design theory, history and interdisciplinary studies.",
+            "**Bachelor of Science in Architectural Studies**",
             "This course addresses the concepts and techniques of architecture, building environments, and related technical topics.",
-            "Bachelor of Arts in Landscape Architecture",
+            "**Bachelor of Arts in Landscape Architecture**",
             "A program of study in outdoor environments, landscape planning, ecological design and public space.",
-            "Postgraduate Studies",
-            "Master of Architecture (M.Arch)",
+            "**Postgraduate Studies**",
+            "**Master of Architecture (M.Arch)**",
             "A professional graduate degree for students who want an architectural education that can support the path to professional licensure. The duration of the program depends on the student’s previous academic background.",
-            "M.Sc. in Architecture",
+            "**M.Sc. in Architecture**",
             "A research or specialized degree, including but not limited to specialized design, building technology, environmental performance, computation or architectural research.",
-            "MA Architecture",
+            "**MA Architecture**",
             "A degree provided by some institutions in the areas of architectural theory, history, design research, etc.",
-            "MSc. Sustainable Design",
+            "**M.Sc. Sustainable Design**",
             "A program of energy efficient buildings, environmental performance, sustainable materials, and climate responsive design.",
-            "Master in Urban Design",
+            "**Master in Urban Design**",
             "A specialized program on urban form, public spaces, neighborhood planning and the relationship between buildings and cities.",
-            "Master of Landscape Architecture",
+            "**Master of Landscape Architecture**",
             "An advanced program in landscape systems, ecological planning, public environments and sustainable outdoor design.",
-            "PhD Programs",
-            "Ph.D. in Architecture",
+            "**PhD Programs**",
+            "**Ph.D. in Architecture**",
             "A research degree for students who want to follow an academic career, undertake advanced architectural research, teach or work in a specialized research position.",
-            "Doctor of Design (D. Des.)",
+            "**Doctor of Design (D.Des.)**",
             "Professional or research doctorate sometimes available at some institutions, often emphasizing design innovation and advanced practice.",
-            "Doctor of Architecture (DArch.)",
-            "A degree title offered by few institutions. One by one, the structure, professional standing and licensure relevance need to be checked.",
-            "Most Popular Specializations of Architecture in the USA",
-            "Focuses on the planning and design of buildings, interiors, arrangements of space and functional environments.Architectural Design"
+            "**Doctor of Architecture (D.Arch.)**",
+            "A degree title offered by select institutions focusing on advanced practice and licensing pathways.",
+            "**Most Popular Specializations of Architecture in the USA**"
           ]
         },
         {
           "t": "ul",
           "items": [
+            "Architectural Design",
             "Sustainable Building",
-            "City Planning",
+            "City Planning & Urban Design",
             "Landscape Architecture",
             "Interior Architecture",
             "Housing & Community Design",
@@ -180,16 +180,19 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Duration of Course",
-            "The duration depends on the degree, the university and the previous education of the student.",
-            "Bachelor of Architecture",
-            "About 5 years",
-            "M.Arch.",
-            "Background-dependent, approximately 2-3.5 years",
-            "Master of Science – Architecture",
-            "About 1-2 years",
-            "Doctorate in Architecture",
-            "Usually 4 to 6 years"
+            "**Architecture Course Duration in the USA**",
+            "The duration depends on the degree level, university curriculum, and previous academic background of the student."
+          ]
+        },
+        {
+          "t": "table",
+          "headers": ["Degree Program", "Typical Duration"],
+          "rows": [
+            ["Bachelor of Architecture (B.Arch)", "5 Years (Full-Time)"],
+            ["Bachelor of Science / Arts in Architecture (B.S. / B.A.)", "4 Years (Full-Time)"],
+            ["Master of Architecture (M.Arch)", "2 – 3.5 Years (Background Dependent)"],
+            ["Master of Science in Architecture (M.Sc.)", "1 – 2 Years (Full-Time)"],
+            ["Doctorate in Architecture (Ph.D. / D.Des.)", "4 – 6 Years"]
           ]
         }
       ]
@@ -319,19 +322,24 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Tuition fees** vary according to university, degree level, residency classification, length of program, and academic year. Architecture students may also have to budget for studio materials, printing, model-making, specialist software and equipment.",
-            "Estimated Cost per Annum",
-            "Tuition College",
-            "USD 20,000-50,000+",
-            "Postgraduate **tuition fees**",
-            "USD 25,000–60,000+",
-            "Food and accommodation",
-            "USD 10,000 - 20,000",
-            "Building Materials and Supplies",
-            "$1,000–3,000+",
-            "Personal and local transportation costs",
-            "USD 2,000–5,000",
-            "These are indicative planning figures and are not official quotes of University fees. Actual costs may be much higher or lower. They exclude some possible costs such as flights, visa costs, deposits, and large one-off purchases."
+            "**Tuition fees** vary according to university, degree level, residency classification, length of program, and academic year. Architecture students may also have to budget for studio materials, printing, model-making, specialist software and equipment."
+          ]
+        },
+        {
+          "t": "table",
+          "headers": ["Expense Category", "Estimated Cost (Annual / Indicative)"],
+          "rows": [
+            ["Undergraduate Tuition (B.Arch / B.S.)", "USD 20,000 – 50,000+ / year"],
+            ["Postgraduate Tuition (M.Arch / M.Sc.)", "USD 25,000 – 60,000+ / year"],
+            ["Living & Accommodation", "USD 10,000 – 20,000 / year"],
+            ["Studio Materials, Model Making & Supplies", "USD 1,000 – 3,000+ / year"],
+            ["Personal & Local Transportation", "USD 2,000 – 5,000 / year"]
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are indicative planning figures and are not official quotes of University fees. Actual costs may vary by institution and location. They exclude one-off costs such as flights, visa fees, and initial deposits."
           ]
         }
       ]

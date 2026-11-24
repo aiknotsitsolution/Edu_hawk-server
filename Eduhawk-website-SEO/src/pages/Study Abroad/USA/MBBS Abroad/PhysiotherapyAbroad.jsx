@@ -566,16 +566,16 @@ const PhysiotherapyAbroad = () => {
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
                 >
                   Book free counselling
                 </a>
                 <a
-                  href="#destinations"
+                  href="#usa-universities"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -646,7 +646,7 @@ const PhysiotherapyAbroad = () => {
                 Edu Hawk worldwide assists students in exploring international study options, understanding university admission standards and preparing for the overseas education journey.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -698,7 +698,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Why Study Physiotherapy in the USA?
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Studying physiotherapy in the US offers access to advanced clinical training, research opportunities and a wide range of career pathways in rehabilitation and healthcare.
             </p>
           </div>
@@ -736,7 +736,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Physiotherapy Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The right course depends on whether a student is completing Class 12, already holds a bachelor’s degree, or has a physiotherapy qualification from India.
             </p>
           </div>
@@ -810,7 +810,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Top Universities for Physiotherapy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Students researching physiotherapy universities in the USA can explore the following institutions as starting points. Programme details, admission requirements, international applicant eligibility and accreditation status should be verified for the intended intake.
             </p>
           </div>
@@ -884,7 +884,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Eligibility to Study Physiotherapy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Physiotherapy eligibility in the USA depends on the selected programme and the student’s academic background.
             </p>
           </div>
@@ -941,7 +941,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Admission Requirements for Physiotherapy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Different universities and programmes have different requirements for admission to physiotherapy (DPT) programmes.
             </p>
           </div>
@@ -1017,7 +1017,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Cost of Studying Physiotherapy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The length of the programme, the state, the university, housing and personal expenses all affect the cost of studying physiotherapy in the United States. Students should calculate the total cost of both the professional DPT programme and any undergraduate prerequisite pathway.
             </p>
           </div>
@@ -1084,7 +1084,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Physiotherapy Licensing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               In the United States, state laws govern the licensing of physical therapists. A degree by itself does not give one the ability to work independently as a physical therapist.
             </p>
           </div>
@@ -1129,7 +1129,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Career Opportunities and Salary After Physiotherapy in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Physical therapists can work in a variety of healthcare settings after fulfilling the necessary training and licensing requirements.
             </p>
           </div>
@@ -1171,7 +1171,7 @@ const PhysiotherapyAbroad = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Documents Required for Physiotherapy Admission in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The required documents depend on the selected university and course.
             </p>
           </div>
@@ -1296,7 +1296,7 @@ const PhysiotherapyAbroad = () => {
                 Share your Class 12 marks and preferred countries. We will tell you honestly which universities and programmes are realistic for your profile and budget.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -1383,12 +1383,10 @@ const PhysiotherapyAbroad = () => {
             </p>
             <div className="flex flex-col sm:flex-row flex-wrap gap-3.5 justify-center relative">
               <a
-                href="https://wa.me/917632949984"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="/contact"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
               >
-                WhatsApp us now
+                Book free counselling
               </a>
               <a
                 href="tel:+917632949984"

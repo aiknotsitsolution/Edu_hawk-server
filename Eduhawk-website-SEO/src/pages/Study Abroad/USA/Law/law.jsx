@@ -238,22 +238,18 @@ const page = {
     },
     {
       "slot": "duration",
-      "eyebrow": "How long",
-      "title": "Course Duration:",
+      "eyebrow": "Program Length",
+      "title": "Course Duration for Law Programs in the USA",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Bachelor’s Degree in Legal Studies or related field",
-            "About 4 years ago",
-            "Juris Doctor (J.D.)",
-            "Approx. 3 years full time.",
-            "Master of Laws (LL.M.)",
-            "Typically 1 year, some programs longer",
-            "Master of Studies in Law or Master of Legal Studies",
-            "Maybe 1-2 years",
-            "Doctor of Juridical Science (SJD/JSD)",
-            "Typically 3-5 years or greater"
+          "t": "table",
+          "headers": ["Law Program / Degree", "Typical Duration", "Program Level"],
+          "rows": [
+            ["Bachelor’s Degree in Legal Studies", "4 Years (Full-Time)", "Undergraduate"],
+            ["Juris Doctor (J.D.)", "3 Years (Full-Time)", "Professional Law Degree"],
+            ["Master of Laws (LL.M.)", "1 Year (Full-Time)", "Postgraduate"],
+            ["Master of Legal Studies (MLS / MSL)", "1 – 2 Years", "Non-JD Master's"],
+            ["Doctor of Juridical Science (S.J.D. / J.S.D.)", "3 – 5 Years", "Doctoral / Research"]
           ]
         }
       ]
@@ -421,18 +417,24 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Tuition fees** vary widely depending on the institution, the program, its location and the academic year. Private universities can be especially costly for professional law degrees.",
-            "Estimated Cost per Year",
-            "Tuition for undergraduates",
-            "USD 20,000-50,000+",
-            "JD tuition",
-            "35,000-80,000+ US$",
-            "LLM **tuition fees**",
-            "$30,000–75,000+ USD",
-            "Cost of living",
-            "30,000+",
-            "Course books, materials and personal expenses",
-            "$1,000–4,000+"
+            "**Tuition fees** vary widely depending on the institution, the program, its location and the academic year. Law school tuition at premier private and public institutions represents an important investment in professional legal education."
+          ]
+        },
+        {
+          "t": "table",
+          "headers": ["Law Program / Expense Item", "Estimated Annual Cost (Indicative)"],
+          "rows": [
+            ["Undergraduate Law / Legal Studies Tuition", "USD 20,000 – 50,000+ / year"],
+            ["Juris Doctor (J.D.) Tuition", "USD 35,000 – 80,000+ / year"],
+            ["Master of Laws (LL.M.) Tuition", "USD 30,000 – 75,000+ / year"],
+            ["Estimated Living Expenses & Accommodation", "USD 15,000 – 25,000+ / year"],
+            ["Course Books, Case Materials & Study Expenses", "USD 1,000 – 4,000+ / year"]
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Actual costs vary based on city, university tier, and scholarship support. Students should verify official cost of attendance with each law school."
           ]
         }
       ]

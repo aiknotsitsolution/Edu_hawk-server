@@ -577,7 +577,9 @@ const Biotechnology = () => {
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
                 <span className="bg-gradient-to-r from-blue-400 to-amber-300 bg-clip-text text-transparent">
-                  {biotechnologyData?.hero?.title || "Biotechnology in USA"}
+                  {(biotechnologyData?.hero?.title || "Biotechnology in USA")
+                    .replace(/^Study\s+/i, "")
+                    .replace(/\s+for\s+Indian\s+Students$/i, "")}
                 </span>{" "}
                 for Indian Students
               </h1>
@@ -588,16 +590,16 @@ const Biotechnology = () => {
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <a
-                  href="#consult"
+                  href="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline shadow-lg shadow-blue-600/25"
                 >
                   {biotechnologyData?.hero?.ctaText || "Book free counselling"}
                 </a>
                 <a
-                  href="#destinations"
+                  href="#usa-universities"
                   className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
                 >
-                  View countries
+                  View universities
                 </a>
               </div>
             </div>
@@ -668,7 +670,7 @@ const Biotechnology = () => {
                 Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Get free profile evaluation
@@ -720,7 +722,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Why Study Biotechnology in the USA?
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The United States constitutes a premier academic destination for students pursuing biotechnology education, scientific investigation and life sciences advancement. Programs in basic biology, applied biotechnology, computational science and industrial applications are offered by its academic institutions.
             </p>
           </div>
@@ -758,7 +760,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Biotechnology Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Universities throughout the United States provide biotechnology educational programmes across multiple academic tiers, with programme selection contingent upon an applicant's prior educational attainment, scholarly inclinations and prospective professional trajectories.
             </p>
           </div>
@@ -841,7 +843,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Top Universities to Explore for Biotechnology in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Prospective students should conduct comprehensive evaluations of prospective institutions by examining their precise programmatic offerings, disciplinary concentrations, research laboratory infrastructure, scholarly research capabilities and professional development resources. This compilation constitutes a curated investigative list rather than a hierarchical assessment.
             </p>
           </div>
@@ -912,7 +914,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Eligibility to Study Biotechnology in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The prerequisites for pursuing biotechnology studies in the United States are contingent upon the academic level, institutional affiliation and chosen field of concentration.
             </p>
           </div>
@@ -991,7 +993,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Admission Requirements for Biotechnology in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The prerequisites for biotechnology degree programmes across American universities are contingent upon the specific institution, academic level and disciplinary focus. Prospective students are advised to consult the official programme documentation corresponding to their intended enrollment period.
             </p>
           </div>
@@ -1067,7 +1069,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Cost of Studying Biotechnology in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The cost of studying biotechnology in the United States varies according to the specific university, academic degree level, programme duration, geographic location and individual lifestyle choices. Institutional fee structures demonstrate considerable variation across public universities, private universities and alternative programme delivery formats.
             </p>
           </div>
@@ -1134,7 +1136,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Accreditation and Recognition of Biotechnology Degrees in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Before enrolling, prospective students need to find out if the school is accredited and understand the differences between professional certification, specialized program accreditation and institutional accreditation.
             </p>
           </div>
@@ -1176,7 +1178,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Career Opportunities and Salary After Biotechnology in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               Individuals completing biotechnology degree programmes may pursue professional opportunities spanning scientific investigation, laboratory management, pharmaceutical innovation, biological production systems, quality assurance, computational biology analysis and allied sectors. The specific positions available are contingent upon educational attainment level, acquired technical competencies, hands-on laboratory experience, institutional hiring criteria and relevant employment authorization status.
             </p>
           </div>
@@ -1234,7 +1236,7 @@ const Biotechnology = () => {
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
               Documents Required for Biotechnology Admission in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed max-w-3xl">
+            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
               The documentation prerequisites for biotechnology program admission in the United States are contingent upon institutional policies and academic degree classification. Prospective students are advised to compile materials as delineated in the institution's formal application requirements.
             </p>
           </div>
@@ -1359,7 +1361,7 @@ const Biotechnology = () => {
                 Share your academic background and preferred countries. We will tell you honestly which universities and programmes are realistic for your profile and budget.
               </p>
               <a
-                href="#consult"
+                href="/contact"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-blue-600 text-white hover:bg-blue-700 transition-all no-underline"
               >
                 Book free eligibility check
@@ -1433,8 +1435,6 @@ const Biotechnology = () => {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-     
     </div>
   );
 };
