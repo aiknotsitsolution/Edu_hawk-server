@@ -415,58 +415,59 @@ export default function HeroSection() {
                 <div className="absolute -bottom-20 -right-20 w-52 h-52 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
 
                 <div className="relative z-10">
-                  {/* Logo in Frosted Glass Container (Pehle jaisa) */}
-                  <div className="mb-2 rounded-2xl bg-white/10 p-2.5 sm:p-3 shadow-lg backdrop-blur-md inline-block">
-                    <img
-                      src={Eduhawk}
-                      alt="Edu-Hawk Worldwide"
-                      width={244}
-                      height={72}
-                      className="h-10 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.2)]"
-                    />
+                  {/* Logo in Frosted Glass Container (Centered & Larger) */}
+                  <div className="flex flex-col items-center text-center mb-3">
+                    <div className="rounded-2xl bg-white/10 p-3 sm:p-3.5 shadow-lg backdrop-blur-md inline-flex items-center justify-center">
+                      <img
+                        src={Eduhawk}
+                        alt="Edu-Hawk Worldwide"
+                        width={280}
+                        height={80}
+                        className="h-14 sm:h-16 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.25)]"
+                      />
+                    </div>
+                    <p className="text-teal-100/95 text-xs sm:text-[13px] italic tracking-wide mt-2 font-medium">
+                      Start in India. Continue Abroad. Graduate Globally
+                    </p>
                   </div>
 
-                  <p className="text-teal-100/90 text-xs italic tracking-wide mb-3 font-light">
-                    Start in India. Continue Abroad. Graduate Globally
-                  </p>
-
-                  {/* Main Heading with Red Badge (Live HTML Text) */}
-                  <h2 className="text-2xl sm:text-[25px] font-extrabold text-white leading-tight tracking-tight mb-2 drop-shadow-sm">
+                  {/* Main Heading with Red Badge (Larger size) */}
+                  <h2 className="text-2xl sm:text-[28px] lg:text-[30px] font-black text-white leading-tight tracking-tight mb-2.5 drop-shadow-sm">
                     Turn Your{" "}
-                    <span className="inline-block bg-[#b30d1b] text-white px-2 py-0.5 rounded-lg font-black shadow-md">
+                    <span className="inline-block bg-[#b30d1b] text-white px-2.5 py-0.5 rounded-lg font-black shadow-md">
                       Study Abroad
                     </span>{" "}
                     Dream Into Reality
                   </h2>
 
-                  {/* Red Bordered Callout Box */}
-                  <div className="border-l-4 border-red-500 bg-white/10 backdrop-blur-xs pl-3 py-1.5 rounded-r-lg my-2.5 text-xs sm:text-[13px] text-slate-100 font-medium leading-relaxed">
+                  {/* Red Bordered Callout Box (Larger text) */}
+                  <div className="border-l-4 border-red-500 bg-white/10 backdrop-blur-xs pl-3.5 py-2 rounded-r-lg my-3 text-sm sm:text-[14px] text-slate-100 font-medium leading-snug">
                     Get expert guidance for MBBS, Engineering, Nursing, MBA, Masters and more!
                   </div>
 
-                  {/* 4 Feature Bullet Points with Icons */}
-                  <ul className="space-y-2 text-xs sm:text-[13px] text-slate-100 my-2">
-                    <li className="flex items-center gap-2.5">
-                      <span className="w-6 h-6 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-teal-300 shrink-0">
-                        <Globe size={13} />
+                  {/* 4 Feature Bullet Points with Icons (Larger text & larger icons) */}
+                  <ul className="space-y-2.5 sm:space-y-3 text-sm sm:text-[14.5px] font-semibold text-slate-100 my-3">
+                    <li className="flex items-center gap-3">
+                      <span className="w-8 h-8 rounded-full bg-white/15 border border-white/25 flex items-center justify-center text-teal-300 shrink-0 shadow-xs">
+                        <Globe size={17} />
                       </span>
                       <span>Top Universities Worldwide</span>
                     </li>
-                    <li className="flex items-center gap-2.5">
-                      <span className="w-6 h-6 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-teal-300 shrink-0">
-                        <GraduationCap size={13} />
+                    <li className="flex items-center gap-3">
+                      <span className="w-8 h-8 rounded-full bg-white/15 border border-white/25 flex items-center justify-center text-teal-300 shrink-0 shadow-xs">
+                        <GraduationCap size={17} />
                       </span>
                       <span>Complete Admission Support</span>
                     </li>
-                    <li className="flex items-center gap-2.5">
-                      <span className="w-6 h-6 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-teal-300 shrink-0">
-                        <Award size={13} />
+                    <li className="flex items-center gap-3">
+                      <span className="w-8 h-8 rounded-full bg-white/15 border border-white/25 flex items-center justify-center text-teal-300 shrink-0 shadow-xs">
+                        <Award size={17} />
                       </span>
                       <span>Visa Assistance</span>
                     </li>
-                    <li className="flex items-center gap-2.5">
-                      <span className="w-6 h-6 rounded-full bg-white/10 border border-white/20 flex items-center justify-center text-teal-300 shrink-0">
-                        <Plane size={13} />
+                    <li className="flex items-center gap-3">
+                      <span className="w-8 h-8 rounded-full bg-white/15 border border-white/25 flex items-center justify-center text-teal-300 shrink-0 shadow-xs">
+                        <Plane size={17} />
                       </span>
                       <span>Pre-departure Guidance</span>
                     </li>
