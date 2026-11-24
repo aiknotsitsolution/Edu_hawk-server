@@ -769,29 +769,11 @@ export const formatRichText = (content) => {
 
 
     if (part.startsWith("**") && part.endsWith("**")) {
-
-
-
       return (
-
-
-
-        <strong key={index} className="font-bold text-inherit">
-
-
-
+        <strong key={index} className="font-bold text-slate-900">
           {part.slice(2, -2)}
-
-
-
         </strong>
-
-
-
       );
-
-
-
     }
 
 
@@ -1337,7 +1319,7 @@ export const Paragraphs = ({ items, className, tone }) => {
     <div
       className={
         className ??
-        "text-slate-500 text-[15px] leading-relaxed space-y-4"
+        "text-slate-600 text-[15px] leading-relaxed space-y-4 [&_strong]:text-slate-900 [&_strong]:font-bold"
       }
     >
       {list.map((p, i) => {
@@ -1347,7 +1329,7 @@ export const Paragraphs = ({ items, className, tone }) => {
           const desc = p.desc || p.text || p.d;
           return (
             <div key={i} className="my-3">
-              {title && <h4 className="font-semibold text-slate-900 mb-1">{formatRichText(title)}</h4>}
+              {title && <h4 className="font-bold text-slate-900 text-base mb-1">{formatRichText(title)}</h4>}
               {desc && <p className="text-[15px] text-slate-600 leading-relaxed">{formatRichText(desc)}</p>}
             </div>
           );
@@ -1358,16 +1340,24 @@ export const Paragraphs = ({ items, className, tone }) => {
           return (
             <div key={i} className="flex items-start gap-2.5 my-1.5 pl-1">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-600 mt-2 flex-shrink-0" />
-              <div className={tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : "text-[15px] text-slate-600 leading-relaxed"}>
+              <div className={tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : "text-[15px] text-slate-600 leading-relaxed [&_strong]:text-slate-900 [&_strong]:font-bold"}>
                 {formatRichText(cleanP)}
               </div>
             </div>
           );
         }
+
+        const isColonHeading = typeof cleanP === "string" && cleanP.length > 0 && cleanP.length < 85 && /:\s*$/.test(cleanP.trim());
+        const isBoldOnly = typeof cleanP === "string" && /^\*\*[^*]+\*\*$/.test(cleanP.trim());
+
         return (
           <p
             key={i}
-            className={tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : undefined}
+            className={
+              isColonHeading || isBoldOnly
+                ? "font-bold text-slate-900 text-[15px] mt-4 mb-1"
+                : (tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : "text-[15px] text-slate-600 leading-relaxed [&_strong]:text-slate-900 [&_strong]:font-bold")
+            }
           >
             {formatRichText(cleanP)}
           </p>
@@ -2386,13 +2376,14 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
 /*  Timeline / Steps                                                  */
 /* ------------------------------------------------------------------ */
 
-export const StepTimeline = ({ steps = [], center }) => (
-  <div className={(center ? "max-w-3xl mx-auto " : "") + "max-w-4xl"}>
+export const StepTimeline = ({ steps = [], center = true }) => (
+  <div className="max-w-3xl mx-auto">
     {(steps || []).map((s, i) => {
       const rawStep = (typeof s === "object" && s?.step) ? s.step : null;
       const numMatch = rawStep ? String(rawStep).match(/\d+/) : null;
       const stepNum = numMatch ? parseInt(numMatch[0], 10) : (rawStep || i + 1);
       const title = typeof s === "object" ? (s.title || s.t) : null;
+      const cleanTitle = title ? title.replace(/^Step\s*\d+[:\s.-]*/i, "").trim() : "";
       const desc = typeof s === "object" ? (s.desc || s.text || s.d) : (typeof s === "string" ? s : null);
 
       return (
@@ -2411,7 +2402,7 @@ export const StepTimeline = ({ steps = [], center }) => (
             ) : title ? (
               <div className="p-5 sm:p-6 rounded-2xl bg-white border border-slate-200/80 shadow-xs hover:border-blue-200 hover:shadow-md transition-all duration-200">
                 <h3 className="text-[17px] font-bold text-slate-900 mb-2">
-                  {formatRichText(title)}
+                  {formatRichText(cleanTitle)}
                 </h3>
                 {desc && (
                   <p className="text-[15px] text-slate-600 leading-relaxed">
@@ -2528,113 +2519,56 @@ export const Panel = ({ children, tone = "light", className = "" }) => (
 
 
 export const FaqList = ({ faqs }) => {
-
-
-
   const [open, setOpen] = useState(null);
 
-
+  if (!Array.isArray(faqs) || faqs.length === 0) return null;
 
   return (
+    <div className="space-y-3.5 w-full">
+      {faqs.map((f, i) => {
+        const q = f?.q || f?.question;
+        const a = f?.a || f?.answer;
+        if (!q) return null;
+        const isOpen = open === i;
 
-
-
-    <div className="space-y-3 w-full">
-
-
-
-      {faqs.map((f, i) => (
-
-
-
-        <div
-
-
-
-          key={i}
-
-
-
-          className="bg-white border border-slate-200 rounded-xl overflow-hidden hover:border-blue-100 transition-colors"
-
-
-
-        >
-
-
-
-          <button
-
-
-
-            onClick={() => setOpen(open === i ? null : i)}
-
-
-
-            className="w-full px-5 py-4 font-semibold text-[15px] text-left text-slate-900 flex justify-between items-center gap-3 hover:bg-slate-50 transition-colors bg-transparent border-none cursor-pointer font-sans"
-
-
-
+        return (
+          <div
+            key={i}
+            className={
+              "rounded-2xl transition-all duration-200 border " +
+              (isOpen
+                ? "bg-white border-blue-300 shadow-md ring-1 ring-blue-100"
+                : "bg-white border-slate-200/80 hover:border-blue-200 hover:shadow-xs")
+            }
           >
-
-
-
-            <span>{formatRichText(f.q)}</span>
-
-
-
-            <span className="text-xl text-slate-400 font-normal flex-shrink-0 w-6 text-center">
-
-
-
-              {open === i ? "−" : "+"}
-
-
-
-            </span>
-
-
-
-          </button>
-
-
-
-          {open === i && (
-
-
-
-            <div className="px-5 pb-5 text-sm text-slate-500 leading-relaxed">
-
-
-
-              {f.a && formatRichText(f.a)}
-
-
-
-            </div>
-
-
-
-          )}
-
-
-
-        </div>
-
-
-
-      ))}
-
-
-
+            <button
+              onClick={() => setOpen(isOpen ? null : i)}
+              className="w-full px-5 sm:px-6 py-4 sm:py-5 font-bold text-[16px] text-left text-slate-900 flex justify-between items-center gap-4 hover:bg-slate-50/60 transition-colors bg-transparent border-none cursor-pointer font-sans rounded-2xl"
+            >
+              <span className="leading-snug">{formatRichText(q)}</span>
+              <span
+                className={
+                  "w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 text-base font-bold transition-all " +
+                  (isOpen
+                    ? "bg-blue-600 text-white shadow-xs rotate-180"
+                    : "bg-slate-100 text-slate-500 hover:bg-blue-50 hover:text-blue-600")
+                }
+              >
+                <svg className="w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d={isOpen ? "M19 9l-7 7-7-7" : "M9 5l7 7-7 7"} />
+                </svg>
+              </span>
+            </button>
+            {isOpen && (
+              <div className="px-5 sm:px-6 pb-5 pt-1 text-[15px] text-slate-600 leading-relaxed border-t border-slate-100 bg-slate-50/40 rounded-b-2xl">
+                {a && formatRichText(a)}
+              </div>
+            )}
+          </div>
+        );
+      })}
     </div>
-
-
-
   );
-
-
-
 };
 
 
@@ -5085,6 +5019,52 @@ if (g.t === "ul")
         }
 
 
+        if (g.t === "cards" || g.t === "course_cards") {
+          return (
+            <div key={i} className="grid grid-cols-1 md:grid-cols-2 gap-5 my-6">
+              {Array.isArray(g.items) && g.items.map((card, j) => (
+                <div
+                  key={j}
+                  className={
+                    "rounded-2xl p-6 transition-all border flex flex-col justify-between shadow-xs hover:shadow-md " +
+                    (tone === "dark"
+                      ? "bg-white/[.06] border-white/10 hover:border-blue-400/40 text-white"
+                      : "bg-white border-slate-200/90 hover:border-blue-300 text-slate-800")
+                  }
+                >
+                  <div>
+                    <div className="flex items-center justify-between gap-3 mb-3">
+                      <span className="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200/60 shadow-xs">
+                        {card.level || card.badge || "Degree Program"}
+                      </span>
+                      {card.duration && (
+                        <span className="text-xs font-medium text-slate-500 flex items-center gap-1.5">
+                          <svg className="w-3.5 h-3.5 text-blue-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          <span>{card.duration}</span>
+                        </span>
+                      )}
+                    </div>
+                    <h4 className={"text-lg font-bold mb-2 leading-snug " + (tone === "dark" ? "text-white" : "text-slate-900")}>
+                      {formatRichText(card.title || card.name || card.t)}
+                    </h4>
+                    <p className={"text-sm leading-relaxed mb-4 " + (tone === "dark" ? "text-white/70" : "text-slate-600")}>
+                      {formatRichText(card.desc || card.d || card.description)}
+                    </p>
+                  </div>
+                  {card.eligibility && (
+                    <div className={"pt-3 border-t mt-auto text-xs leading-relaxed " + (tone === "dark" ? "border-white/10 text-white/60" : "border-slate-100 text-slate-500")}>
+                      <span className={"font-semibold " + (tone === "dark" ? "text-white/90" : "text-slate-700")}>Eligibility: </span>
+                      {formatRichText(card.eligibility)}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
+          );
+        }
+
         if (g.t === "cta" || g.t === "card") {
           return (
             <div key={i} className="my-8 relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 p-6 sm:p-8 text-white shadow-xl border border-slate-700/60">
@@ -5635,42 +5615,18 @@ export const AbroadCoursePage = ({
 
 
         if (s.slot === "eligibility") {
-          let topGroups = [];
-          let restGroups = [];
-
-          if (Array.isArray(s.groups) && s.groups.length > 0) {
-            if (s.groups.length > 1) {
-              topGroups = [s.groups[0]];
-              restGroups = s.groups.slice(1);
-            } else {
-              const g0 = s.groups[0];
-              if (g0 && Array.isArray(g0.items) && g0.items.length > 2) {
-                topGroups = [{ ...g0, items: g0.items.slice(0, 2) }];
-                restGroups = [{ ...g0, items: g0.items.slice(2) }];
-              } else {
-                topGroups = [g0];
-                restGroups = [];
-              }
-            }
-          }
-
           return (
             <section key={idx} className={"py-16 sm:py-20 " + shade} id="eligibility">
               <div className="max-w-6xl mx-auto px-6">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
-                  <div>
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12 items-start">
+                  <div className="lg:col-span-2">
                     <EhpHead eyebrow={s.eyebrow} title={s.title} />
-                    {topGroups.length > 0 && <AbroadGroups groups={topGroups} />}
+                    {s.groups && s.groups.length > 0 && <AbroadGroups groups={s.groups} />}
                   </div>
-                  <div className="lg:pt-6">
+                  <div className="lg:col-span-1 lg:pt-6 lg:sticky lg:top-24">
                     <EligibilityCtaCard level={page.level} />
                   </div>
                 </div>
-                {restGroups.length > 0 && (
-                  <div className="mt-8">
-                    <AbroadGroups groups={restGroups} />
-                  </div>
-                )}
               </div>
             </section>
           );
