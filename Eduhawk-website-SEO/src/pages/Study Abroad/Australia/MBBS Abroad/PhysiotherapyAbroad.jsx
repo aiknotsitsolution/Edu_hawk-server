@@ -102,37 +102,60 @@ const page = {
     },
     {
       slot: "courses",
-      eyebrow: "Degrees & Pathways",
+      eyebrow: "Popular Courses",
       title: "Australian Physiotherapy Courses",
       groups: [
         {
           t: "p",
           items: [
-            "**Programs for undergraduates**",
-            "**Physiotherapy Bachelor's degree**",
-            "Anatomy, physiology, biomechanics, mobility, clinical evaluation, therapeutic exercise, and rehabilitation are all included in this entry-level professional degree.",
-            "**Physiotherapy Bachelor's degree with honors**",
-            "a professional undergraduate degree that can involve advanced coursework, clinical instruction under supervision, and research components.",
-            "**Programs for postgraduate entry**",
-            "**Physiotherapy Doctor**",
-            "For candidates who have previously earned a relevant bachelor's degree, some Australian universities offer graduate-entry Doctor of Physiotherapy programs. These are not necessarily research doctorates; rather, they are professional entry-to-practice programs.",
-            "**Physiotherapy Master's degree**",
-            "Graduate-entry or other postgraduate physiotherapy programs are offered by a few universities. There are several prerequisites for admission, and some programs call for a certain set of prior coursework.",
-            "**Advanced and associated courses**"
+            "Australian universities offer globally accredited physiotherapy degrees combining biomechanics, clinical evaluation, musculoskeletal rehabilitation, and extensive hospital internships."
           ]
         },
         {
-          t: "ul",
+          t: "cards",
           items: [
-            "Clinical Physiotherapy Master's degree",
-            "Musculoskeletal Physiotherapy Master's degree",
-            "Sports Physiotherapy Master's degree",
-            "Neurological Rehabilitation Master's Program",
-            "Master of Science in Rehabilitation",
-            "Clinical Exercise Physiology Master's degree",
-            "Master of Public Health Master of Exercise Science",
-            "Physiotherapy Doctor of Philosophy",
-            "Rehabilitation Science Doctor of Philosophy"
+            {
+              level: "Undergraduate Degree",
+              duration: "Typically 4 Years",
+              title: "Physiotherapy Bachelor's Degree",
+              desc: "Anatomy, physiology, biomechanics, mobility, clinical evaluation, therapeutic exercise, and rehabilitation are all included in this entry-level professional degree.",
+              eligibility: "Completion of Class 12 or equivalent with Science subjects (Physics, Chemistry, Biology/Mathematics) and English proficiency."
+            },
+            {
+              level: "Undergraduate (Honours)",
+              duration: "Typically 4 Years",
+              title: "Physiotherapy Bachelor's Degree with Honors",
+              desc: "A professional undergraduate degree that involves advanced coursework, clinical instruction under supervision, and research components.",
+              eligibility: "High academic ranking in Class 12 science subjects or strong academic performance in initial study years."
+            },
+            {
+              level: "Graduate Entry",
+              duration: "Typically 3 Years",
+              title: "Doctor of Physiotherapy (Graduate Entry)",
+              desc: "For candidates who have previously earned a relevant bachelor's degree, professional entry-to-practice Doctor of Physiotherapy programs offered by leading Australian universities.",
+              eligibility: "Recognised bachelor's degree in exercise science, kinesiology, or health science with prerequisite human anatomy and physiology units."
+            },
+            {
+              level: "Graduate Entry",
+              duration: "Typically 2 Years",
+              title: "Physiotherapy Master's Degree (Entry to Practice)",
+              desc: "Accelerated graduate-entry physiotherapy program enabling qualified graduates to transition into professional clinical practice with comprehensive clinical placements.",
+              eligibility: "Relevant prior bachelor's degree meeting specific anatomy, biomechanics, and physiology prerequisite benchmarks."
+            },
+            {
+              level: "Postgraduate Specialist",
+              duration: "1 to 2 Years",
+              title: "Master of Clinical / Sports / Musculoskeletal Physiotherapy",
+              desc: "Advanced programs for registered physiotherapists seeking specialization in sports physiotherapy, musculoskeletal care, neurological rehabilitation, or pediatric physiotherapy.",
+              eligibility: "Recognised physiotherapy qualification, current physiotherapy registration, and documented clinical work experience."
+            },
+            {
+              level: "Doctoral Research",
+              duration: "Typically 3 to 4 Years",
+              title: "PhD in Physiotherapy & Rehabilitation Sciences",
+              desc: "Advanced research doctorate focused on evidence-based rehabilitation, musculoskeletal recovery, clinical biomechanics, and neurological physical therapy.",
+              eligibility: "Relevant Master's by research or first-class Honours degree with research proposal and institutional supervisor approval."
+            }
           ]
         }
       ]
@@ -320,15 +343,43 @@ const page = {
     {
       slot: "fees",
       eyebrow: "Tuition & Living Costs",
-      title: "Living expenses and tuition",
+      title: "Living Expenses and Tuition Fees",
       groups: [
         {
           t: "p",
           items: [
-            "The university, program, and year of admission all affect the cost of international tuition.",
-            "**An approximate yearly planning estimate**",
-            "**Estimated cost of living**",
-            "Students ought to set up money for:"
+            "The university, program level, campus location, and year of admission all affect international tuition and living expenses in Australia."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Estimated Annual Tuition Fees"
+        },
+        {
+          t: "table",
+          headers: ["Program Level", "Estimated Annual Tuition (AUD)", "Standard Course Duration"],
+          rows: [
+            ["Bachelor of Physiotherapy", "AUD 38,000 – AUD 48,000 / year", "4 Years Full-Time"],
+            ["Bachelor of Physiotherapy (Honours)", "AUD 39,000 – AUD 49,000 / year", "4 Years Full-Time"],
+            ["Doctor of Physiotherapy (DPT)", "AUD 46,000 – AUD 56,000 / year", "3 Years Full-Time"],
+            ["Master of Physiotherapy (Graduate Entry)", "AUD 44,000 – AUD 54,000 / year", "2 Years Full-Time"],
+            ["Master of Specialist Physiotherapy", "AUD 40,000 – AUD 50,000 / year", "1 – 2 Years Full-Time"],
+            ["PhD in Physiotherapy & Rehabilitation", "AUD 36,000 – AUD 46,000 / year", "3 – 4 Years Full-Time"]
+          ]
+        },
+        {
+          t: "h4",
+          text: "Estimated Living and Clinical Expenses"
+        },
+        {
+          t: "table",
+          headers: ["Expense Category", "Estimated Cost (AUD)", "Details & Notes"],
+          rows: [
+            ["Living & Accommodation", "AUD 20,000 – AUD 29,710 / year", "Rental accommodation, utilities, groceries, and daily transit"],
+            ["Overseas Student Health Cover (OSHC)", "AUD 600 – AUD 850 / year", "Mandatory medical and hospital insurance for student visa holders"],
+            ["Clinical Uniforms & Equipment", "AUD 300 – AUD 650", "Clinical polo, scrubs, reflex hammer, stethoscope & goniometer"],
+            ["Immunisations & Placement Clearances", "AUD 300 – AUD 600", "Hospital placement verification, Working with Children Check & CPR"],
+            ["Textbooks & Study Supplies", "AUD 500 – AUD 1,000 / year", "Anatomy atlases, medical journals, and digital simulation access"]
           ]
         },
         {
@@ -339,14 +390,9 @@ const page = {
             "Public transportation",
             "Internet and mobile phone",
             "Textbooks, tools, and study supplies",
-            "Health Coverage for International Students",
-            "Travel and personal costs"
-          ]
-        },
-        {
-          t: "p",
-          items: [
-            "Depending on the city and way of life, a preliminary budget of AUD 25,000–35,000 or more annually can be helpful. The real costs may be more."
+            "Health Coverage for International Students (OSHC)",
+            "Clinical placement uniforms & kits",
+            "Travel and personal emergency costs"
           ]
         }
       ]
@@ -621,9 +667,7 @@ export default function PhysiotherapyAustralia() {
     overview: cmsData?.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : cmsData.overview.split('\n\n'))
       : page.overview,
-    sections: (cmsData?.sections && cmsData.sections.length > 0)
-      ? cmsData.sections
-      : page.sections,
+    sections: page.sections,
     universities: (cmsData?.universities && cmsData.universities.length > 0)
       ? cmsData.universities.map((u, idx) => ({
           ...u,

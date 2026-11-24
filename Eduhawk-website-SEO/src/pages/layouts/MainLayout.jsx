@@ -1,30 +1,236 @@
-import React, { useState, useEffect, Suspense } from "react";
+import React, { useState, useEffect, useRef, Suspense } from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../../component/Navbar";
 import Footer from "../Footer";
 import RouteLoader from "../../component/RouteLoader";
-import { ChevronUp, GraduationCap, MapPin, PhoneCall } from "lucide-react";
+import { ChevronUp, GraduationCap, MapPin, PhoneCall, X } from "lucide-react";
 
 const universityDestinations = [
   {
-    country: "China",
-    university: "Peking University Health Science Center",
+    country: "USA",
+    university: "Harvard University / MIT",
+  },
+  {
+    country: "UK",
+    university: "University of Oxford / Cambridge",
+  },
+  {
+    country: "Canada",
+    university: "University of Toronto / McGill",
+  },
+  {
+    country: "Australia",
+    university: "University of Melbourne / Sydney",
+  },
+  {
+    country: "Germany",
+    university: "Technical University of Munich (TUM)",
+  },
+  {
+    country: "Ireland",
+    university: "Trinity College Dublin",
+  },
+  {
+    country: "France",
+    university: "Sorbonne University Paris",
+  },
+  {
+    country: "Italy",
+    university: "University of Bologna / Sapienza",
   },
   {
     country: "Russia",
     university: "First Moscow State Medical University (Sechenov)",
   },
   {
-    country: "Philippines",
-    university: "University of Santo Tomas Faculty of Medicine",
+    country: "Uzbekistan",
+    university: "Tashkent Medical Academy",
   },
   {
     country: "Kazakhstan",
     university: "West Kazakhstan Marat Ospanov State Medical University",
   },
+  {
+    country: "Georgia",
+    university: "Tbilisi State Medical University",
+  },
+  {
+    country: "Philippines",
+    university: "University of Santo Tomas Faculty of Medicine",
+  },
+  {
+    country: "Kyrgyzstan",
+    university: "Kyrgyz State Medical Academy",
+  },
+  {
+    country: "Egypt",
+    university: "Cairo University Faculty of Medicine",
+  },
+  {
+    country: "Bangladesh",
+    university: "Dhaka Medical College",
+  },
+  {
+    country: "Nepal",
+    university: "Tribhuvan University Institute of Medicine",
+  },
+  {
+    country: "China",
+    university: "Peking University Health Science Center",
+  },
 ];
 
 const countryFlags = {
+  USA: (
+    <>
+      <rect width="30" height="20" fill="#b22234" />
+      <path d="M0 1.54h30M0 4.62h30M0 7.69h30M0 10.77h30M0 13.85h30M0 16.92h30" stroke="#fff" strokeWidth="1.54" />
+      <rect width="13" height="10.77" fill="#3c3b6e" />
+      <circle cx="3" cy="2.5" r="0.6" fill="#fff" />
+      <circle cx="6.5" cy="2.5" r="0.6" fill="#fff" />
+      <circle cx="10" cy="2.5" r="0.6" fill="#fff" />
+      <circle cx="4.7" cy="5.4" r="0.6" fill="#fff" />
+      <circle cx="8.3" cy="5.4" r="0.6" fill="#fff" />
+      <circle cx="3" cy="8.3" r="0.6" fill="#fff" />
+      <circle cx="6.5" cy="8.3" r="0.6" fill="#fff" />
+      <circle cx="10" cy="8.3" r="0.6" fill="#fff" />
+    </>
+  ),
+  UK: (
+    <>
+      <rect width="30" height="20" fill="#012169" />
+      <path d="M0 0l30 20M30 0L0 20" stroke="#fff" strokeWidth="4" />
+      <path d="M0 0l30 20M30 0L0 20" stroke="#c8102e" strokeWidth="2" />
+      <path d="M15 0v20M0 10h30" stroke="#fff" strokeWidth="6" />
+      <path d="M15 0v20M0 10h30" stroke="#c8102e" strokeWidth="3.5" />
+    </>
+  ),
+  Canada: (
+    <>
+      <rect width="30" height="20" fill="#d80621" />
+      <rect x="7.5" width="15" height="20" fill="#fff" />
+      <path d="M15 4l1 3.5 2.5-.5-1.5 2.5 2 1.5-3 1 .5 3.5-1.5-2-1.5 2 .5-3.5-3-1 2-1.5-1.5-2.5 2.5.5z" fill="#d80621" />
+    </>
+  ),
+  Australia: (
+    <>
+      <rect width="30" height="20" fill="#00008b" />
+      <g transform="scale(0.5)">
+        <rect width="30" height="20" fill="#012169" />
+        <path d="M0 0l30 20M30 0L0 20" stroke="#fff" strokeWidth="4" />
+        <path d="M0 0l30 20M30 0L0 20" stroke="#c8102e" strokeWidth="2" />
+        <path d="M15 0v20M0 10h30" stroke="#fff" strokeWidth="6" />
+        <path d="M15 0v20M0 10h30" stroke="#c8102e" strokeWidth="3.5" />
+      </g>
+      <circle cx="7.5" cy="15" r="1.5" fill="#fff" />
+      <circle cx="22" cy="4" r="0.8" fill="#fff" />
+      <circle cx="20" cy="8" r="0.8" fill="#fff" />
+      <circle cx="25" cy="9" r="0.8" fill="#fff" />
+      <circle cx="22" cy="14" r="0.8" fill="#fff" />
+      <circle cx="23.5" cy="11" r="0.5" fill="#fff" />
+    </>
+  ),
+  Germany: (
+    <>
+      <rect width="30" height="6.67" fill="#000" />
+      <rect y="6.67" width="30" height="6.66" fill="#dd0000" />
+      <rect y="13.33" width="30" height="6.67" fill="#ffce00" />
+    </>
+  ),
+  Ireland: (
+    <>
+      <rect width="10" height="20" fill="#169b62" />
+      <rect x="10" width="10" height="20" fill="#fff" />
+      <rect x="20" width="10" height="20" fill="#ff883e" />
+    </>
+  ),
+  France: (
+    <>
+      <rect width="10" height="20" fill="#002395" />
+      <rect x="10" width="10" height="20" fill="#fff" />
+      <rect x="20" width="10" height="20" fill="#ed2939" />
+    </>
+  ),
+  Italy: (
+    <>
+      <rect width="10" height="20" fill="#009246" />
+      <rect x="10" width="10" height="20" fill="#fff" />
+      <rect x="20" width="10" height="20" fill="#ce2b37" />
+    </>
+  ),
+  Russia: (
+    <>
+      <rect width="30" height="6.67" fill="#fff" />
+      <rect y="6.67" width="30" height="6.66" fill="#0039a6" />
+      <rect y="13.33" width="30" height="6.67" fill="#d52b1e" />
+    </>
+  ),
+  Uzbekistan: (
+    <>
+      <rect width="30" height="6.3" fill="#0099b5" />
+      <rect y="6.3" width="30" height="0.7" fill="#ce1126" />
+      <rect y="7" width="30" height="6" fill="#fff" />
+      <rect y="13" width="30" height="0.7" fill="#ce1126" />
+      <rect y="13.7" width="30" height="6.3" fill="#1eb53a" />
+      <circle cx="5" cy="3.5" r="1.8" fill="#fff" />
+      <circle cx="5.6" cy="3.5" r="1.5" fill="#0099b5" />
+    </>
+  ),
+  Kazakhstan: (
+    <>
+      <rect width="30" height="20" fill="#00afca" />
+      <circle cx="15" cy="8" r="3" fill="#fecd00" />
+      <path d="M15 2.5v1.3m0 8.4v1.3m-5.8-5.7h1.3m9 0h1.3m-9.9-4 1 1m6.2 6.2 1 1m0-8.2-1 1m-6.2 6.2-1 1" stroke="#fecd00" strokeWidth="1" />
+      <path d="M4 0h1v20H4z" fill="#fecd00" />
+    </>
+  ),
+  Georgia: (
+    <>
+      <rect width="30" height="20" fill="#fff" />
+      <path d="M12 0h6v20h-6zM0 7h30v6H0z" fill="#ff0000" />
+      <path d="M5 2h2v4H5zM4 3h4v2H4zM23 2h2v4h-2zM22 3h4v2h-4zM5 14h2v4H5zM4 15h4v2H4zM23 14h2v4h-2zM22 15h4v2h-4z" fill="#ff0000" />
+    </>
+  ),
+  Philippines: (
+    <>
+      <rect width="30" height="10" fill="#0038a8" />
+      <rect y="10" width="30" height="10" fill="#ce1126" />
+      <path d="M0 0 14 10 0 20z" fill="#fff" />
+      <circle cx="4.5" cy="10" r="2" fill="#fcd116" />
+      <circle cx="4.5" cy="10" r="0.8" fill="#fff" />
+      <path d="m11 3 .5 1.2 1.3.1-1 .8.3 1.2L11 5.6l-1.1.7.3-1.2-.9-.8 1.2-.1zM2 2l.4.8.9.1-.7.6.2.9L2 4l-.8.5.2-.9-.7-.6.9-.1zM2 16l.4.8.9.1-.7.6.2.9L2 18l-.8.5.2-.9-.7-.6.9-.1z" fill="#fcd116" />
+    </>
+  ),
+  Kyrgyzstan: (
+    <>
+      <rect width="30" height="20" fill="#e8112d" />
+      <circle cx="15" cy="10" r="4" fill="#ffe600" />
+      <circle cx="15" cy="10" r="3" fill="#e8112d" />
+      <path d="M15 7.5v5M12.5 10h5" stroke="#ffe600" strokeWidth="0.8" />
+    </>
+  ),
+  Egypt: (
+    <>
+      <rect width="30" height="6.67" fill="#ce1126" />
+      <rect y="6.67" width="30" height="6.66" fill="#fff" />
+      <rect y="13.33" width="30" height="6.67" fill="#000" />
+      <circle cx="15" cy="10" r="1.5" fill="#c09300" />
+    </>
+  ),
+  Bangladesh: (
+    <>
+      <rect width="30" height="20" fill="#006a4e" />
+      <circle cx="13" cy="10" r="5" fill="#f42a41" />
+    </>
+  ),
+  Nepal: (
+    <>
+      <rect width="30" height="20" fill="#003893" />
+      <path d="M2 1l16 9.5-11 0 11 8.5H2z" fill="#dc143c" stroke="#003893" strokeWidth="1" />
+      <circle cx="6" cy="7" r="1.5" fill="#fff" />
+      <circle cx="6" cy="14" r="1.5" fill="#fff" />
+    </>
+  ),
   China: (
     <>
       <rect width="30" height="20" fill="#de2910" />
@@ -38,37 +244,13 @@ const countryFlags = {
       <circle cx="12" cy="14" r="0.8" fill="#ffde00" />
     </>
   ),
-  Russia: (
-    <>
-      <rect width="30" height="6.67" fill="#fff" />
-      <rect y="6.67" width="30" height="6.66" fill="#0039a6" />
-      <rect y="13.33" width="30" height="6.67" fill="#d52b1e" />
-    </>
-  ),
-  Philippines: (
-    <>
-      <rect width="30" height="10" fill="#0038a8" />
-      <rect y="10" width="30" height="10" fill="#ce1126" />
-      <path d="M0 0 14 10 0 20z" fill="#fff" />
-      <circle cx="4.5" cy="10" r="2" fill="#fcd116" />
-      <circle cx="4.5" cy="10" r="0.8" fill="#fff" />
-      <path d="m11 3 .5 1.2 1.3.1-1 .8.3 1.2L11 5.6l-1.1.7.3-1.2-.9-.8 1.2-.1zM2 2l.4.8.9.1-.7.6.2.9L2 4l-.8.5.2-.9-.7-.6.9-.1zM2 16l.4.8.9.1-.7.6.2.9L2 18l-.8.5.2-.9-.7-.6.9-.1z" fill="#fcd116" />
-    </>
-  ),
-  Kazakhstan: (
-    <>
-      <rect width="30" height="20" fill="#00afca" />
-      <circle cx="15" cy="8" r="3" fill="#fecd00" />
-      <path d="M15 2.5v1.3m0 8.4v1.3m-5.8-5.7h1.3m9 0h1.3m-9.9-4 1 1m6.2 6.2 1 1m0-8.2-1 1m-6.2 6.2-1 1" stroke="#fecd00" strokeWidth="1" />
-      <path d="M4 0h1v20H4z" fill="#fecd00" />
-    </>
-  ),
 };
 
 const MainLayout = () => {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const [showUniversityCard, setShowUniversityCard] = useState(false);
   const [destinationIndex, setDestinationIndex] = useState(0);
+  const dismissTimerRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -93,8 +275,18 @@ const MainLayout = () => {
     return () => {
       window.clearTimeout(visibilityTimeout);
       window.clearInterval(rotationInterval);
+      if (dismissTimerRef.current) clearTimeout(dismissTimerRef.current);
     };
   }, []);
+
+  const handleDismissCard = () => {
+    setShowUniversityCard(false);
+    if (dismissTimerRef.current) clearTimeout(dismissTimerRef.current);
+    // Reappear automatically after 20 seconds
+    dismissTimerRef.current = setTimeout(() => {
+      setShowUniversityCard(true);
+    }, 20000);
+  };
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -120,9 +312,19 @@ const MainLayout = () => {
         <section
           aria-live="polite"
           aria-label="Study abroad university information"
-          className="fixed bottom-24 left-4 right-4 sm:right-auto sm:w-full z-40 max-w-sm rounded-2xl border border-blue-100 bg-white p-4 shadow-2xl sm:bottom-6 sm:left-6"
+          className="fixed bottom-24 left-4 right-4 sm:right-auto sm:w-full z-40 max-w-sm rounded-2xl border border-blue-100 bg-white p-4 shadow-2xl sm:bottom-6 sm:left-6 transition-all duration-300"
         >
-          <div className="mb-3 flex items-center gap-2 text-blue-700">
+          {/* Close / Dismiss button (Re-appears automatically after ~20 seconds) */}
+          <button
+            onClick={handleDismissCard}
+            aria-label="Temporarily dismiss spotlight"
+            className="absolute top-3 right-3 w-6 h-6 rounded-full flex items-center justify-center text-gray-400 hover:text-gray-700 hover:bg-gray-100 transition-colors cursor-pointer"
+            title="Dismiss temporarily"
+          >
+            <X size={15} />
+          </button>
+
+          <div className="mb-3 flex items-center gap-2 text-blue-700 pr-6">
             <GraduationCap size={20} aria-hidden="true" />
             <p className="text-sm font-bold">Study Abroad Spotlight</p>
           </div>

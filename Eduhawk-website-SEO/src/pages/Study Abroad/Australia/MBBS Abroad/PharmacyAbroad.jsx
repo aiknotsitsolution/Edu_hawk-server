@@ -103,64 +103,60 @@ const page = {
     },
     {
       slot: "courses",
-      eyebrow: "Degrees & Pathways",
+      eyebrow: "Popular Courses",
       title: "Australian Pharmacy Courses",
       groups: [
         {
           t: "p",
           items: [
-            "Numerous degrees connected to pharmacy are offered by Australian universities. The institution determines the course title, length, and professional conclusion.",
-            "**Pharmacy Bachelor's degree with honors**",
-            "A popular route for individuals who have finished Class 12 or an equivalent degree to enter the workforce is the Bachelor of Pharmacy (Honors).",
-            "Duration: Usually four years, though some programs are structured differently.",
-            "Eligibility: Class 12 or above, subject to academic and English language criteria relevant to the university. There may be prerequisites in chemistry and other science courses.",
-            "**Pharmacy Bachelor's degree**",
-            "The title Bachelor of Pharmacy or a similarly related degree is used by several universities.",
-            "Duration: Depending on the program format and university.",
-            "Qualifications from secondary school and the academic and English language criteria of the institution are prerequisites for eligibility.",
-            "**Pharmacy Graduate-Entry Programs**",
-            "Students who already have an approved bachelor's degree or the other prerequisites may be eligible for graduate-entry pathways.",
-            "**Advanced Combined Degrees and a Bachelor of Pharmacy with Honors**",
-            "A postgraduate pharmacy degree and an undergraduate honors degree are combined in some universities' integrated pharmacy programs.",
-            "Duration: Depending on the program, the structure may vary; some integrated paths are built to last five years.",
-            "**Pharmacy Master's degree**",
-            "Graduates who fulfill the necessary and prior degree requirements of a university may be qualified for a Master of Pharmacy.",
-            "Potential Subjects for Learning:"
+            "Numerous degrees connected to pharmacy are offered by Australian universities. The institution determines the course title, length, and professional conclusion."
           ]
         },
         {
-          t: "pills",
+          t: "cards",
           items: [
-            "Clinical pharmacy",
-            "Treatments",
-            "The disciplines of pharmacology",
-            "Practice of pharmacy",
-            "Optimization of medications",
-            "Safety of patients",
-            "Research techniques"
-          ]
-        },
-        {
-          t: "p",
-          items: [
-            "**Pharmacy and Pharmaceutical Science Doctoral Programs**",
-            "Students who want to pursue professions in academia or advanced research should think about:"
-          ]
-        },
-        {
-          t: "ul",
-          items: [
-            "Pharmacy Doctor of Philosophy",
-            "Pharmaceutical Sciences Doctor of Philosophy",
-            "Pharmacology Doctor of Philosophy",
-            "PhD studies in medication delivery or discovery",
-            "PhD studies in medication safety or clinical pharmacy"
-          ]
-        },
-        {
-          t: "p",
-          items: [
-            "Duration: Depending on the university and research project, it often lasts three to four years full-time."
+            {
+              level: "Undergraduate Degree",
+              duration: "Usually 4 Years",
+              title: "Pharmacy Bachelor's Degree with Honors",
+              desc: "A popular route for individuals who have finished Class 12 or an equivalent degree to enter the workforce is the Bachelor of Pharmacy (Honors).",
+              eligibility: "Class 12 or above, subject to academic and English language criteria relevant to the university. There may be prerequisites in chemistry and other science courses."
+            },
+            {
+              level: "Undergraduate Degree",
+              duration: "Varies by University",
+              title: "Pharmacy Bachelor's Degree",
+              desc: "The title Bachelor of Pharmacy or a similarly related degree is used by several universities, focusing on foundational pharmacy training.",
+              eligibility: "Qualifications from secondary school and the academic and English language criteria of the institution are prerequisites for eligibility."
+            },
+            {
+              level: "Graduate Entry",
+              duration: "Accelerated Program",
+              title: "Pharmacy Graduate-Entry Programs",
+              desc: "Students who already have an approved bachelor's degree or the other prerequisites may be eligible for graduate-entry pathways.",
+              eligibility: "An approved bachelor's degree or specified prerequisite coursework."
+            },
+            {
+              level: "Integrated Program",
+              duration: "Up to 5 Years",
+              title: "Advanced Combined Degrees and a Bachelor of Pharmacy with Honors",
+              desc: "A postgraduate pharmacy degree and an undergraduate honors degree are combined in some universities' integrated pharmacy programs.",
+              eligibility: "Academic standards for integrated entry as specified by the university."
+            },
+            {
+              level: "Postgraduate Degree",
+              duration: "Typically 2 Years",
+              title: "Pharmacy Master's Degree",
+              desc: "Graduates who fulfill the necessary and prior degree requirements of a university may be qualified for a Master of Pharmacy covering clinical pharmacy, treatments, pharmacology, and patient safety.",
+              eligibility: "Prior degree requirements and prerequisite standards of the university."
+            },
+            {
+              level: "Doctoral Degree",
+              duration: "3 to 4 Years Full-Time",
+              title: "Pharmacy and Pharmaceutical Science Doctoral Programs",
+              desc: "Students who want to pursue professions in academia or advanced research (Pharmacy PhD, Pharmaceutical Sciences PhD, Pharmacology PhD, medication discovery/delivery).",
+              eligibility: "Depending on the university and research project, relevant postgraduate credentials."
+            }
           ]
         }
       ]
@@ -173,22 +169,22 @@ const page = {
         {
           t: "p",
           items: [
-            "Depending on their credentials and program of choice, students can investigate a variety of topics."
+            "Depending on your career goals and qualification level, Australian pharmacy education and practice encompass several specialized pathways:"
           ]
         },
         {
           t: "pills",
           items: [
-            "Pharmacy Clinical",
-            "Pharmacy in the Hospital",
-            "Local Drugstore",
-            "Sciences of Pharmacy",
-            "Pharmacology",
-            "Drug Delivery and Pharmaceutics",
-            "Drug Development and Discovery",
-            "Clinical Investigations",
-            "Regulatory Matters",
-            "Assurance of Pharmaceutical Quality"
+            "Clinical Pharmacy",
+            "Hospital Pharmacy Practice",
+            "Community & Retail Pharmacy",
+            "Industrial Pharmacy & Formulation",
+            "Pharmacology & Toxicology",
+            "Drug Discovery & Development",
+            "Clinical Trials Management",
+            "Regulatory Affairs & Pharmacovigilance",
+            "Pharmaceutical Quality Assurance",
+            "Health Economics & Outcomes Research"
           ]
         }
       ]
@@ -660,9 +656,7 @@ export default function PharmacyAustralia() {
     overview: cmsData?.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : cmsData.overview.split('\n\n'))
       : page.overview,
-    sections: (cmsData?.sections && cmsData.sections.length > 0)
-      ? cmsData.sections
-      : page.sections,
+    sections: page.sections,
     universities: (cmsData?.universities && cmsData.universities.length > 0)
       ? cmsData.universities.map((u, idx) => ({
           ...u,

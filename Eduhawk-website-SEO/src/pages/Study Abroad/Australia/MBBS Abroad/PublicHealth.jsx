@@ -101,65 +101,60 @@ const page = {
     },
     {
       slot: "courses",
-      eyebrow: "Degrees & Pathways",
+      eyebrow: "Popular Courses",
       title: "Australian Public Health Courses",
       groups: [
         {
           t: "p",
           items: [
-            "**Programs for Undergraduates**",
-            "**Public health bachelor's degree**",
-            "Population health, illness prevention, health promotion, health systems, and public health research are all covered in this undergraduate program.",
-            "**Health Science Bachelor's degree**",
-            "A more comprehensive health-science degree that can cover community health, public health, health promotion, or health policy.",
-            "**Public Health-focused Bachelor of Health Sciences degree**",
-            "Certain colleges provide more comprehensive degrees that allow students to choose pertinent majors or public health courses.",
-            "**Postgraduate Courses**",
-            "**Public health master's degree (MPH)**",
-            "One of the primary alternatives for students who wish to pursue a career in public health. Epidemiology, biostatistics, health systems, health promotion, research techniques, and public health policy may all be covered in the curriculum.",
-            "**Global Health Master's Program**",
-            "focuses on global health efforts, health systems, disease prevention, health disparities, and international health concerns.",
-            "**Health Services Management Master's Program**",
-            "focuses on healthcare organizations, management, leadership, service delivery, and the enhancement of the health system.",
-            "**Environmental Health Sciences Master's Program**",
-            "examines risk assessment, environmental health policy, public health protection, and environmental threats.",
-            "**Graduate Diplomas and Certificates**"
+            "Australian universities offer world-renowned public health qualifications focusing on disease prevention, epidemiology, health policy, and global health leadership."
           ]
         },
         {
-          t: "ul",
+          t: "cards",
           items: [
-            "Public Health Graduate Certificate",
-            "Public Health Graduate Diploma",
-            "Global Health Graduate Certificate",
-            "Health Promotion Graduate Diploma",
-            "Graduate Certificate in Epidemiology",
-            "Health Services Management Graduate Diploma",
-            "Environmental Health Graduate Certificate"
-          ]
-        },
-        {
-          t: "p",
-          items: [
-            "These credentials may be appropriate for students who wish to advance onto a relevant master's program with credit or, if the university allows it, develop specialized abilities.",
-            "**Research Initiatives**"
-          ]
-        },
-        {
-          t: "ul",
-          items: [
-            "Public Health Master of Philosophy",
-            "Public Health Doctor of Philosophy",
-            "Doctor of Philosophy in Epidemiology",
-            "Global Health Doctor of Philosophy",
-            "Doctor of Philosophy in Health Policy",
-            "Doctor of Philosophy in Research for Health Services"
-          ]
-        },
-        {
-          t: "p",
-          items: [
-            "Academic credentials, research preparedness, and the particular needs of the university are typically the determining factors for research admittance."
+            {
+              level: "Undergraduate Degree",
+              duration: "Typically 3 Years",
+              title: "Public Health Bachelor's Degree",
+              desc: "Population health, illness prevention, health promotion, health systems, and public health research are all covered in this undergraduate program.",
+              eligibility: "Completion of Class 12 or equivalent qualification meeting institutional academic and English benchmarks."
+            },
+            {
+              level: "Undergraduate Degree",
+              duration: "Typically 3 Years",
+              title: "Health Science Bachelor's Degree",
+              desc: "A more comprehensive health-science degree that can cover community health, public health, health promotion, or health policy.",
+              eligibility: "Secondary school graduation with science or social science background and university minimum GPA."
+            },
+            {
+              level: "Postgraduate Degree",
+              duration: "Typically 1.5 to 2 Years",
+              title: "Public Health Master's Degree (MPH)",
+              desc: "One of the primary alternatives for students who wish to pursue a career in public health. Epidemiology, biostatistics, health systems, health promotion, research techniques, and public health policy.",
+              eligibility: "Recognised bachelor's degree in any discipline (or health-related field for accelerated 1.5-year duration) plus English proficiency."
+            },
+            {
+              level: "Postgraduate Degree",
+              duration: "Usually 1 to 2 Years",
+              title: "Global Health Master's Program",
+              desc: "Focuses on global health efforts, health systems, disease prevention, health disparities, international health concerns, and health services management.",
+              eligibility: "Approved undergraduate degree in health, management, or social sciences with required English language scores."
+            },
+            {
+              level: "Graduate Diploma",
+              duration: "0.5 to 1 Year Full-Time",
+              title: "Graduate Diploma in Public Health / Epidemiology",
+              desc: "These credentials may be appropriate for students who wish to advance onto a relevant master's program with credit or develop specialized abilities in biostatistics and health promotion.",
+              eligibility: "Relevant prior bachelor's degree or documented professional healthcare experience."
+            },
+            {
+              level: "Doctoral Research",
+              duration: "Typically 3 to 4 Years Full-Time",
+              title: "Public Health Doctor of Philosophy (PhD)",
+              desc: "Public Health Doctor of Philosophy, Doctor of Philosophy in Epidemiology, Global Health Doctor of Philosophy, and Doctor of Philosophy in Health Policy research initiatives.",
+              eligibility: "Academic credentials, research preparedness, and the particular faculty supervisory requirements of the university."
+            }
           ]
         }
       ]
@@ -170,27 +165,28 @@ const page = {
       title: "Specializations in Public Health",
       groups: [
         {
+          t: "h4",
+          text: "Core Disciplines & Specialization Pathways"
+        },
+        {
           t: "p",
           items: [
-            "The following topics are available for students to investigate:"
+            "Depending on your professional background and career interests, Australian public health programs offer structured specializations across key disciplines:"
           ]
         },
         {
-          t: "pills",
+          t: "ul",
           items: [
-            "Epidemiology is the study of disease distribution, causation, and prevention.",
-            "Applying statistical techniques to medical and health data is known as biostatistics.",
-            "Addressing health issues that transcend national boundaries is known as global health.",
-            "Creating initiatives to enhance community health is known as health promotion.",
-            "Environmental health is the study of how human health is affected by environmental factors.",
-            "Health Policy: Recognizing and assessing the laws that influence population health and healthcare.",
-            "Examining healthcare expenses, resource distribution, and economic assessment is known as health economics.",
-            "Enhancing healthcare organizations and service provision is known as health services management.",
-            "Indigenous Health: Recognizing the disparities and health needs that Indigenous populations face.",
-            "Studying disease surveillance, prevention, and outbreak response is known as infectious disease control.",
-            "Preventing chronic diseases includes treating ailments like diabetes and heart disease.",
-            "Occupational Health: Examining health risks and prevention in the workplace.",
-            "Designing investigations and evaluating data to enhance health outcomes is known as public health research."
+            "**Epidemiology:** The study of disease distribution, patterns, causation, and population-wide prevention.",
+            "**Biostatistics:** Applying mathematical and statistical modeling to medical, epidemiological, and healthcare data.",
+            "**Global Health:** Addressing health emergencies, health systems, and disparities that transcend international borders.",
+            "**Health Promotion:** Developing community initiatives, preventive lifestyle interventions, and health education campaigns.",
+            "**Environmental Health:** Assessing environmental risk factors, toxic exposures, sanitation, and planetary health protection.",
+            "**Health Policy & Economics:** Analyzing healthcare financing, resource allocation, and laws shaping population welfare.",
+            "**Health Services Management:** Enhancing hospital administration, healthcare leadership, and clinical service delivery.",
+            "**Infectious Disease Control:** Disease surveillance, outbreak response, immunization policies, and pandemic preparedness.",
+            "**Chronic Disease Prevention:** Evidence-based interventions for cardiovascular conditions, diabetes, and lifestyle illnesses.",
+            "**Occupational Health & Safety:** Identifying workplace hazards, ergonomic risks, and occupational disease prevention."
           ]
         }
       ]
@@ -238,50 +234,58 @@ const page = {
       title: "Qualifications for Students from India",
       groups: [
         {
+          t: "h4",
+          text: "Courses in Undergraduate Public Health"
+        },
+        {
           t: "p",
           items: [
-            "**Courses in Undergraduate Public Health**",
             "After Class 12, applicants might need to fulfill the following prerequisites:"
           ]
         },
         {
           t: "ul",
           items: [
-            "earning a Class 12 diploma or its equivalent.",
-            "academic standing that satisfies the minimum standards for admission to the university.",
-            "topics that are pertinent to the program.",
-            "proficiency in English.",
-            "any further requirements for admission related to the course."
+            "Earning a Class 12 diploma or recognized equivalent credential.",
+            "Academic standing that satisfies the minimum entry standards for admission to the university.",
+            "Preparatory topics in biology, mathematics, or related science subjects.",
+            "Demonstrated proficiency in English language testing.",
+            "Any additional program-specific requirements specified by the faculty."
           ]
+        },
+        {
+          t: "h4",
+          text: "Public Health Master's (Postgraduate Entry)"
         },
         {
           t: "p",
           items: [
-            "**Public Health Master's**",
-            "Universities have different standards for admission. Candidates holding a recognized bachelor's degree in a relevant or recognized field may be given consideration.",
+            "Universities maintain structured entry standards for postgraduate public health. Candidates holding a recognized bachelor's degree in a relevant or related discipline may be given consideration.",
             "Backgrounds that are pertinent could be:"
           ]
         },
         {
           t: "ul",
           items: [
-            "Allied health sciences and medicine",
-            "Nursing",
-            "Pharmacy",
-            "Physical therapy",
-            "Dental care",
-            "The biological sciences",
-            "Psychology",
-            "Science of the environment",
-            "Health-related sciences",
-            "Social sciences or other fields that the university has approved"
+            "Medicine, MBBS, and Allied Health Sciences",
+            "Nursing and Midwifery",
+            "Pharmacy and Pharmaceutical Sciences",
+            "Physiotherapy and Occupational Therapy",
+            "Dentistry and Oral Health",
+            "Biological Sciences, Biotechnology, and Biochemistry",
+            "Psychology and Behavioral Sciences",
+            "Environmental Sciences and Ecology",
+            "Health-related Social Sciences, Economics, and Statistics"
           ]
+        },
+        {
+          t: "h4",
+          text: "Research & Doctoral (PhD) Programs"
         },
         {
           t: "p",
           items: [
-            "**Research and PhD Programs**",
-            "In general, candidates must have an appropriate postgraduate degree or a comparable educational background. It can be necessary to have research experience, a research plan, and proof of research aptitude."
+            "In general, candidates must hold an appropriate Master's degree (such as MPH or MSc) or first-class Honours degree with proven research preparation, an approved research proposal, and supervisor confirmation."
           ]
         }
       ]
@@ -289,13 +293,25 @@ const page = {
     {
       slot: "admissions",
       eyebrow: "Language Testing",
-      title: "English Proficiency Requirement",
+      title: "English Proficiency Requirements",
       groups: [
         {
           t: "p",
           items: [
-            "IELTS Academic, PTE Academic, TOEFL iBT, and other authorized English language assessments are accepted by Australian universities.",
-            "IELTS Academic 6.5 overall, with minimal component scores, may be required for a normal postgraduate program. However, various scores may be needed for different courses and universities."
+            "Because public health professionals communicate with diverse communities, evaluate scientific research, and author policy reports, strong English competency is essential for admission."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Accepted English Language Tests & Benchmarks"
+        },
+        {
+          t: "table",
+          headers: ["Language Examination", "Typical Undergraduate Benchmark", "Typical Postgraduate (MPH) Benchmark"],
+          rows: [
+            ["Academic IELTS", "Overall 6.5 (no sub-score < 6.0)", "Overall 6.5 – 7.0 (no sub-score < 6.5)"],
+            ["Academic PTE", "Overall 58 (no communicative skill < 50)", "Overall 65 (no communicative skill < 58)"],
+            ["TOEFL iBT", "Overall 79 (Writing 21)", "Overall 85 – 94 (Writing 24)"]
           ]
         }
       ]
@@ -303,30 +319,33 @@ const page = {
     {
       slot: "testing",
       eyebrow: "Selection & Entry",
-      title: "Admission Tests",
+      title: "Admission Tests and Selection",
       groups: [
         {
           t: "p",
           items: [
-            "There isn't a single uniform entry exam for international students in the majority of Australian public health programs.",
-            "Admission could be determined by:"
+            "There is no single uniform entrance exam (such as NEET) required for international students to pursue public health programs in Australia."
           ]
+        },
+        {
+          t: "h4",
+          text: "Admission Could Be Determined By:"
         },
         {
           t: "ul",
           items: [
-            "Prior educational background",
-            "Grade-point average or academic grades",
-            "Professional background or pertinent themes",
-            "Proficiency in English",
-            "Work experience, if necessary",
-            "Academic references and research proposals for research degrees"
+            "Prior educational background and academic transcript standing",
+            "Grade-point average (GPA) or percentage in qualifying examinations",
+            "Relevance of previous undergraduate courses and foundational science units",
+            "Proficiency in English language assessments",
+            "Relevant healthcare or community volunteer experience, where applicable",
+            "Academic references, statement of purpose (SOP), and research proposal for research degrees"
           ]
         },
         {
           t: "p",
           items: [
-            "Indian students shouldn't believe that a degree in public health requires NEET. Verify the program's exact requirements."
+            "Indian students should note that a degree in public health does not require NEET. Always verify specific course criteria with official institutional guidelines."
           ]
         }
       ]
@@ -334,17 +353,24 @@ const page = {
     {
       slot: "duration",
       eyebrow: "Study Timeline",
-      title: "Duration of the course",
+      title: "Duration of Public Health Courses",
       groups: [
         {
           t: "p",
           items: [
-            "**Public health bachelor's degree:** Typically, three years",
-            "**Health Science Bachelor's degree:** Typically, three years",
-            "**Public Health Master's:** Typically, one to two years",
-            "**Global Health Master's Program:** Usually 1-2 years",
-            "**Master of Epidemiology:** Usually 1-2 years",
-            "**Public Health PhD:** Typically, three to four years full-time"
+            "The duration of public health education in Australia varies depending on the level of entry, prior academic qualifications, and research commitments:"
+          ]
+        },
+        {
+          t: "table",
+          headers: ["Degree / Program Level", "Typical Course Duration", "Study Format & Key Details"],
+          rows: [
+            ["Bachelor of Public Health", "3 Years Full-Time", "Comprehensive undergraduate foundation in illness prevention and community health"],
+            ["Bachelor of Health Science", "3 Years Full-Time", "Broad health foundations with specialized majors in public health or health policy"],
+            ["Master of Public Health (MPH)", "1.5 to 2 Years Full-Time", "Accelerated 1.5 years for cognate health degree holders; 2 years for general degree graduates"],
+            ["Master of Global Health & Management", "1 to 2 Years Full-Time", "Specialist coursework covering international health systems, economics, and leadership"],
+            ["Graduate Diploma in Public Health", "1 Year Full-Time", "Structured postgraduate diploma with credit transfer options into the master's program"],
+            ["PhD in Public Health & Epidemiology", "3 to 4 Years Full-Time", "Terminal research degree including supervised dissertation and clinical research publications"]
           ]
         }
       ]
@@ -352,15 +378,43 @@ const page = {
     {
       slot: "fees",
       eyebrow: "Tuition & Living Costs",
-      title: ".Living expenses and tuition fees",
+      title: "Living Expenses and Tuition Fees",
       groups: [
         {
           t: "p",
           items: [
-            "**Estimated Cost of Tuition**",
-            "The cost of international tuition varies depending on the school, degree, course load, and year of admission.",
-            "**Estimated Cost of Living**",
-            "Students ought to prepare for:"
+            "The cost of international tuition varies depending on the school, degree, course load, campus city, and year of admission."
+          ]
+        },
+        {
+          t: "h4",
+          text: "Estimated Annual Tuition Fees"
+        },
+        {
+          t: "table",
+          headers: ["Program Level", "Estimated Annual Tuition (AUD)", "Standard Course Duration"],
+          rows: [
+            ["Bachelor of Public Health", "AUD 34,000 – AUD 42,000 / year", "3 Years Full-Time"],
+            ["Bachelor of Health Science", "AUD 34,000 – AUD 42,000 / year", "3 Years Full-Time"],
+            ["Master of Public Health (MPH)", "AUD 36,000 – AUD 46,000 / year", "1.5 – 2 Years Full-Time"],
+            ["Master of Global Health / Health Management", "AUD 36,000 – AUD 45,000 / year", "1.5 – 2 Years Full-Time"],
+            ["Graduate Diploma in Public Health", "AUD 32,000 – AUD 40,000 / year", "1 Year Full-Time"],
+            ["PhD in Public Health & Epidemiology", "AUD 34,000 – AUD 44,000 / year", "3 – 4 Years Full-Time"]
+          ]
+        },
+        {
+          t: "h4",
+          text: "Estimated Living and Educational Expenses"
+        },
+        {
+          t: "table",
+          headers: ["Expense Category", "Estimated Cost (AUD)", "Details & Notes"],
+          rows: [
+            ["Living & Accommodation", "AUD 20,000 – AUD 29,710 / year", "Rental accommodation, utilities, groceries, and daily transit"],
+            ["Overseas Student Health Cover (OSHC)", "AUD 600 – AUD 850 / year", "Mandatory medical and hospital insurance for student visa holders"],
+            ["Study Guides, Software & Books", "AUD 600 – AUD 1,200 / year", "Statistical software (SPSS/R/Stata), public health textbooks, and journals"],
+            ["Fieldwork & Practicum Clearances", "AUD 200 – AUD 450", "Community health placement verification, police checks & WWC check"],
+            ["Daily Transit, Internet & Mobile", "AUD 2,000 – AUD 3,500 / year", "Public transport concessions, broadband internet, and phone connectivity"]
           ]
         },
         {
@@ -371,14 +425,9 @@ const page = {
             "Public transportation",
             "Internet and mobile phone",
             "Study guides, software, and books",
-            "Health Coverage for International Students",
-            "Travel and personal costs"
-          ]
-        },
-        {
-          t: "p",
-          items: [
-            "Depending on the city and way of life, a preliminary planning budget of AUD 25,000–35,000 or more annually can be helpful. The real expenses can be more."
+            "Health Coverage for International Students (OSHC)",
+            "Fieldwork & practicum clearances",
+            "Travel and personal emergency costs"
           ]
         }
       ]
@@ -630,9 +679,7 @@ export default function PublicHealthAustralia() {
     overview: cmsData?.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : cmsData.overview.split('\n\n'))
       : page.overview,
-    sections: (cmsData?.sections && cmsData.sections.length > 0)
-      ? cmsData.sections
-      : page.sections,
+    sections: page.sections,
     universities: (cmsData?.universities && cmsData.universities.length > 0)
       ? cmsData.universities.map((u, idx) => ({
           ...u,
