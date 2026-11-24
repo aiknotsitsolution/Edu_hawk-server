@@ -16,7 +16,7 @@ import heroRussia from "../Images/hero/hero-russia.webp";
 import heroGeorgia from "../Images/hero/hero-georgia.webp";
 import heroKazakhstan from "../Images/hero/hero-kazakhstan.webp";
 import heroTrusted from "../Images/hero/hero-trusted.webp";
-import modalArtwork from "../assets/modal-artwork.png";
+import globalDreamsArtwork from "../assets/global-dreams-natural.webp";
 import { X, ChevronDown, User, Mail, Phone, MapPin, GraduationCap, Globe, ArrowRight, Star, Award, CheckCircle2, Sparkles, MessageCircle, Calendar, MessageSquare, Plane } from "lucide-react";
 
 import univercity from "../Images/university-image/singapore.webp";
@@ -408,31 +408,36 @@ export default function HeroSection() {
                 <X size={18} strokeWidth={2.5} />
               </button>
 
-              {/* LEFT – Atmospheric Card with Original Brand Theme, Live HTML Text & Composite Artwork */}
-              <div className="relative lg:w-[44%] bg-gradient-to-br from-[#071d38] via-[#0f3560] to-[#0c4077] text-white p-6 sm:p-7 flex flex-col justify-between hidden lg:flex overflow-hidden flex-shrink-0">
-                {/* Atmospheric Glow Highlights */}
-                <div className="absolute -top-20 -left-20 w-52 h-52 bg-teal-400/15 rounded-full blur-3xl pointer-events-none" />
-                <div className="absolute -bottom-20 -right-20 w-52 h-52 bg-blue-500/20 rounded-full blur-3xl pointer-events-none" />
+              {/* LEFT – Atmospheric Card with Seamless Natural Background Artwork */}
+              <div className="relative lg:w-[44%] bg-gradient-to-b from-[#002868] via-[#013788] to-[#014299] text-white p-5 sm:p-6 flex flex-col justify-between hidden lg:flex overflow-hidden flex-shrink-0">
+                {/* Natural Scale Bottom Artwork with Seamless Faded Sky Top (Restored to bottom-0) */}
+                <div className="absolute inset-x-0 bottom-0 pointer-events-none select-none z-0">
+                  <img
+                    src={globalDreamsArtwork}
+                    alt="Global Dreams - Landmark Skies"
+                    className="w-full h-auto object-cover object-bottom"
+                  />
+                </div>
 
-                <div className="relative z-10">
-                  {/* Logo in Frosted Glass Container (Centered & Larger) */}
-                  <div className="flex flex-col items-center text-center mb-3">
-                    <div className="rounded-2xl bg-white/10 p-3 sm:p-3.5 shadow-lg backdrop-blur-md inline-flex items-center justify-center">
+                <div className="relative z-10 flex-1 flex flex-col justify-start">
+                  {/* Logo in Frosted Glass Container (Centered, No Border) */}
+                  <div className="flex flex-col items-center text-center mb-2.5">
+                    <div className="rounded-2xl bg-white/20 p-2.5 sm:p-3 shadow-lg backdrop-blur-md inline-flex items-center justify-center">
                       <img
                         src={Eduhawk}
                         alt="Edu-Hawk Worldwide"
                         width={280}
                         height={80}
-                        className="h-14 sm:h-16 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.25)]"
+                        className="h-12 sm:h-14 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.3)]"
                       />
                     </div>
-                    <p className="text-teal-100/95 text-xs sm:text-[13px] italic tracking-wide mt-2 font-medium">
+                    <p className="text-blue-100/95 text-xs sm:text-[13px] italic tracking-wide mt-1.5 font-medium">
                       Start in India. Continue Abroad. Graduate Globally
                     </p>
                   </div>
 
-                  {/* Main Heading with Red Badge (Larger size) */}
-                  <h2 className="text-2xl sm:text-[28px] lg:text-[30px] font-black text-white leading-tight tracking-tight mb-2.5 drop-shadow-sm">
+                  {/* Main Heading with Red Badge (Spacious Top) */}
+                  <h2 className="text-2xl sm:text-[26px] font-black text-white leading-tight tracking-tight mt-3.5 sm:mt-4.5 mb-2.5 sm:mb-3 drop-shadow-sm">
                     Turn Your{" "}
                     <span className="inline-block bg-[#b30d1b] text-white px-2.5 py-0.5 rounded-lg font-black shadow-md">
                       Study Abroad
@@ -440,47 +445,38 @@ export default function HeroSection() {
                     Dream Into Reality
                   </h2>
 
-                  {/* Red Bordered Callout Box (Larger text) */}
-                  <div className="border-l-4 border-red-500 bg-white/10 backdrop-blur-xs pl-3.5 py-2 rounded-r-lg my-3 text-sm sm:text-[14px] text-slate-100 font-medium leading-snug">
+                  {/* Red Bordered Callout Box */}
+                  <div className="border-l-4 border-red-500 bg-white/15 backdrop-blur-xs pl-3.5 py-2 rounded-r-lg my-2 text-xs sm:text-[13px] text-slate-100 font-medium leading-relaxed shadow-xs">
                     Get expert guidance for MBBS, Engineering, Nursing, MBA, Masters and more!
                   </div>
 
-                  {/* 4 Feature Bullet Points with Icons (Larger text & larger icons) */}
-                  <ul className="space-y-2.5 sm:space-y-3 text-sm sm:text-[14.5px] font-semibold text-slate-100 my-3">
-                    <li className="flex items-center gap-3">
-                      <span className="w-8 h-8 rounded-full bg-white/15 border border-white/25 flex items-center justify-center text-teal-300 shrink-0 shadow-xs">
-                        <Globe size={17} />
+                  {/* 4 Feature Bullet Points sitting cleanly on the sky area */}
+                  <ul className="space-y-2 sm:space-y-2.5 text-xs sm:text-[13px] font-semibold text-white max-w-[62%] mt-2 mb-1">
+                    <li className="flex items-center gap-2.5 drop-shadow-[0_1px_4px_rgba(0,0,0,0.7)]">
+                      <span className="w-6.5 h-6.5 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white shrink-0 shadow-xs backdrop-blur-xs">
+                        <Globe size={14} />
                       </span>
                       <span>Top Universities Worldwide</span>
                     </li>
-                    <li className="flex items-center gap-3">
-                      <span className="w-8 h-8 rounded-full bg-white/15 border border-white/25 flex items-center justify-center text-teal-300 shrink-0 shadow-xs">
-                        <GraduationCap size={17} />
+                    <li className="flex items-center gap-2.5 drop-shadow-[0_1px_4px_rgba(0,0,0,0.7)]">
+                      <span className="w-6.5 h-6.5 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white shrink-0 shadow-xs backdrop-blur-xs">
+                        <GraduationCap size={14} />
                       </span>
                       <span>Complete Admission Support</span>
                     </li>
-                    <li className="flex items-center gap-3">
-                      <span className="w-8 h-8 rounded-full bg-white/15 border border-white/25 flex items-center justify-center text-teal-300 shrink-0 shadow-xs">
-                        <Award size={17} />
+                    <li className="flex items-center gap-2.5 drop-shadow-[0_1px_4px_rgba(0,0,0,0.7)]">
+                      <span className="w-6.5 h-6.5 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white shrink-0 shadow-xs backdrop-blur-xs">
+                        <Award size={14} />
                       </span>
                       <span>Visa Assistance</span>
                     </li>
-                    <li className="flex items-center gap-3">
-                      <span className="w-8 h-8 rounded-full bg-white/15 border border-white/25 flex items-center justify-center text-teal-300 shrink-0 shadow-xs">
-                        <Plane size={17} />
+                    <li className="flex items-center gap-2.5 drop-shadow-[0_1px_4px_rgba(0,0,0,0.7)]">
+                      <span className="w-6.5 h-6.5 rounded-full bg-white/20 border border-white/30 flex items-center justify-center text-white shrink-0 shadow-xs backdrop-blur-xs">
+                        <Plane size={14} />
                       </span>
                       <span>Pre-departure Guidance</span>
                     </li>
                   </ul>
-                </div>
-
-                {/* Bottom Artwork: Seamless Composite of Landmarks & Student Model */}
-                <div className="relative z-10 -mx-6 sm:-mx-7 -mb-6 sm:-mb-7 mt-auto overflow-hidden pointer-events-none select-none">
-                  <img
-                    src={modalArtwork}
-                    alt="Study Abroad Student and Landmarks"
-                    className="w-full h-auto object-cover object-bottom"
-                  />
                 </div>
               </div>
 
@@ -498,12 +494,12 @@ export default function HeroSection() {
               </div>
 
               {/* RIGHT – Form (Matches Requirements with Spacious Inputs & Teal Theme) */}
-              <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-6 sm:px-8 sm:py-7 flex flex-col justify-center bg-white">
-                <form onSubmit={handleModalSubmit} className="space-y-3.5 sm:space-y-4">
+              <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-5 sm:px-8 sm:py-5.5 flex flex-col justify-center bg-white">
+                <form onSubmit={handleModalSubmit} className="space-y-2.5 sm:space-y-3">
                   {/* Row 1: Full Name & Email in 2 columns */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-3.5">
                     <div>
-                      <label htmlFor="modal-name" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="modal-name" className="block text-xs font-semibold text-slate-700 mb-1">
                         Full Name <span className="text-red-600 font-bold">*</span>
                       </label>
                       <div className="relative group">
@@ -515,16 +511,16 @@ export default function HeroSection() {
                           placeholder="Enter your full name"
                           value={modalForm.name}
                           onChange={(e) => updateModalField("name", e.target.value)}
-                          className="w-full pl-10 pr-3.5 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                          className="w-full pl-10 pr-3.5 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
                         />
                       </div>
                       {modalErrors.name && (
-                        <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.name}</p>
+                        <p className="mt-0.5 text-xs text-red-600 font-medium">{modalErrors.name}</p>
                       )}
                     </div>
 
                     <div>
-                      <label htmlFor="modal-email" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="modal-email" className="block text-xs font-semibold text-slate-700 mb-1">
                         Email <span className="text-red-600 font-bold">*</span>
                       </label>
                       <div className="relative group">
@@ -536,18 +532,18 @@ export default function HeroSection() {
                           placeholder="your.email@gmail.com"
                           value={modalForm.email}
                           onChange={(e) => updateModalField("email", e.target.value)}
-                          className="w-full pl-10 pr-3.5 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                          className="w-full pl-10 pr-3.5 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
                         />
                       </div>
                       {modalErrors.email && (
-                        <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.email}</p>
+                        <p className="mt-0.5 text-xs text-red-600 font-medium">{modalErrors.email}</p>
                       )}
                     </div>
                   </div>
 
                   {/* Row 2: Phone Number (+91) - full width */}
                   <div>
-                    <label htmlFor="modal-phone" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                    <label htmlFor="modal-phone" className="block text-xs font-semibold text-slate-700 mb-1">
                       Phone Number (+91) <span className="text-red-600 font-bold">*</span>
                     </label>
                     <div className="relative group">
@@ -559,17 +555,17 @@ export default function HeroSection() {
                         placeholder="+91 98765 43210"
                         value={modalForm.phone}
                         onChange={(e) => updateModalField("phone", e.target.value)}
-                        className="w-full pl-10 pr-3.5 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
+                        className="w-full pl-10 pr-3.5 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
                       />
                     </div>
                     {modalErrors.phone && (
-                      <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.phone}</p>
+                      <p className="mt-0.5 text-xs text-red-600 font-medium">{modalErrors.phone}</p>
                     )}
                   </div>
 
                   {/* Row 3: Interested Course - full width */}
                   <div>
-                    <label htmlFor="modal-course" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                    <label htmlFor="modal-course" className="block text-xs font-semibold text-slate-700 mb-1">
                       Interested Course <span className="text-red-600 font-bold">*</span>
                     </label>
                     <div className="relative group">
@@ -579,7 +575,7 @@ export default function HeroSection() {
                         name="course"
                         value={modalForm.course}
                         onChange={(e) => updateModalField("course", e.target.value)}
-                        className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
+                        className="w-full pl-10 pr-4 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
                       >
                         <option value="" disabled className="text-slate-400">
                           Select Course
@@ -592,13 +588,13 @@ export default function HeroSection() {
                       </select>
                     </div>
                     {modalErrors.course && (
-                      <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.course}</p>
+                      <p className="mt-0.5 text-xs text-red-600 font-medium">{modalErrors.course}</p>
                     )}
                   </div>
 
                   {/* Row 4: Destination Country - full width */}
                   <div>
-                    <label htmlFor="modal-country" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                    <label htmlFor="modal-country" className="block text-xs font-semibold text-slate-700 mb-1">
                       Destination Country <span className="text-red-600 font-bold">*</span>
                     </label>
                     <div className="relative group">
@@ -608,7 +604,7 @@ export default function HeroSection() {
                         name="country"
                         value={modalForm.country}
                         onChange={(e) => updateModalField("country", e.target.value)}
-                        className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
+                        className="w-full pl-10 pr-4 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
                       >
                         <option value="" disabled className="text-slate-400">
                           Select Country
@@ -621,14 +617,14 @@ export default function HeroSection() {
                       </select>
                     </div>
                     {modalErrors.country && (
-                      <p className="mt-1 text-xs text-red-600 font-medium">{modalErrors.country}</p>
+                      <p className="mt-0.5 text-xs text-red-600 font-medium">{modalErrors.country}</p>
                     )}
                   </div>
 
                   {/* Row 5: Preferred Intake & Current Qualification */}
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-3.5">
                     <div>
-                      <label htmlFor="modal-intake" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="modal-intake" className="block text-xs font-semibold text-slate-700 mb-1">
                         Preferred Intake
                       </label>
                       <div className="relative group">
@@ -638,7 +634,7 @@ export default function HeroSection() {
                           name="intake"
                           value={modalForm.intake}
                           onChange={(e) => updateModalField("intake", e.target.value)}
-                          className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
+                          className="w-full pl-10 pr-4 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
                         >
                           <option value="" disabled className="text-slate-400">
                             Select Intake
@@ -653,7 +649,7 @@ export default function HeroSection() {
                     </div>
 
                     <div>
-                      <label htmlFor="modal-qualification" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                      <label htmlFor="modal-qualification" className="block text-xs font-semibold text-slate-700 mb-1">
                         Current Qualification
                       </label>
                       <div className="relative group">
@@ -663,7 +659,7 @@ export default function HeroSection() {
                           name="qualification"
                           value={modalForm.qualification}
                           onChange={(e) => updateModalField("qualification", e.target.value)}
-                          className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
+                          className="w-full pl-10 pr-4 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none cursor-pointer"
                         >
                           <option value="" disabled className="text-slate-400">
                             Select Qualification
@@ -678,13 +674,13 @@ export default function HeroSection() {
                     </div>
                   </div>
 
-                  {/* Row 6: Your Message (without Optional label, larger box) */}
+                  {/* Row 6: Your Message (without Optional label, compact) */}
                   <div>
-                    <label htmlFor="modal-message" className="block text-xs font-semibold text-slate-700 mb-1.5">
+                    <label htmlFor="modal-message" className="block text-xs font-semibold text-slate-700 mb-1">
                       Your Message
                     </label>
                     <div className="relative group">
-                      <MessageSquare size={16} className="absolute left-3.5 top-3 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
+                      <MessageSquare size={16} className="absolute left-3.5 top-2.5 text-slate-400 group-focus-within:text-teal-600 transition-colors pointer-events-none" />
                       <textarea
                         id="modal-message"
                         name="message"
@@ -692,7 +688,7 @@ export default function HeroSection() {
                         placeholder="Tell us about your requirements..."
                         value={modalForm.message}
                         onChange={(e) => updateModalField("message", e.target.value)}
-                        className="w-full pl-10 pr-4 py-2.5 sm:py-3 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none resize-none"
+                        className="w-full pl-10 pr-4 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none resize-none"
                       />
                     </div>
                   </div>
@@ -701,7 +697,7 @@ export default function HeroSection() {
                   <button
                     type="submit"
                     disabled={isModalSubmitting}
-                    className={`group relative w-full py-3.5 px-6 rounded-xl font-bold text-base sm:text-lg text-white shadow-lg transition-all duration-300 mt-2 flex items-center justify-center gap-2 overflow-hidden ${
+                    className={`group relative w-full py-2.5 sm:py-3 px-6 rounded-xl font-bold text-base sm:text-lg text-white shadow-lg transition-all duration-300 mt-1 flex items-center justify-center gap-2 overflow-hidden ${
                       isModalSubmitting
                         ? "bg-slate-400 cursor-not-allowed opacity-75"
                         : "bg-gradient-to-r from-teal-600 via-teal-700 to-cyan-700 hover:from-teal-500 hover:via-teal-600 hover:to-cyan-600 shadow-teal-900/20 hover:shadow-teal-600/30 hover:shadow-xl transform hover:-translate-y-0.5 active:translate-y-0 cursor-pointer"
