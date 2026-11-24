@@ -442,7 +442,7 @@ const NursingAbroad = () => {
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
                 <Link
-                  to="/landingpage"
+                  to="/contact"
                   className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3.5 rounded-xl font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-500 transition-all shadow-lg shadow-indigo-600/30 hover:shadow-indigo-600/40"
                 >
                   <span>Book Free Counselling</span>
@@ -552,7 +552,7 @@ const NursingAbroad = () => {
               </p>
             </div>
             <Link
-              to="/landingpage"
+              to="/contact"
               className="shrink-0 px-6 py-3 rounded-xl bg-white text-indigo-950 font-bold hover:bg-amber-300 transition-colors shadow-md text-sm whitespace-nowrap"
             >
               Get Free Evaluation
@@ -712,7 +712,7 @@ const NursingAbroad = () => {
                         <CheckCircle2 size={13} /> Accredited Nursing School
                       </span>
                       <Link
-                        to="/landingpage"
+                        to="/contact"
                         className="text-xs font-semibold text-indigo-600 hover:text-indigo-800 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform"
                       >
                         Enquire <ArrowRight size={13} />
@@ -1300,7 +1300,7 @@ const NursingAbroad = () => {
 
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Link
-                  to="/landingpage"
+                  to="/contact"
                   className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl font-bold text-base bg-indigo-600 text-white hover:bg-indigo-500 transition-all shadow-lg shadow-indigo-600/30"
                 >
                   <span>Book Free Counselling</span>
