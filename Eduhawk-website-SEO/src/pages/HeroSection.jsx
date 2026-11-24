@@ -104,11 +104,9 @@ const MODAL_COUNTRIES = [
 ];
 
 const MODAL_INTAKES = [
-  "Fall / Autumn 2026",
-  "Spring 2027",
-  "Winter 2027",
-  "Summer 2027",
-  "Not Decided Yet",
+  "August-September",
+  "January-February",
+  "May-July",
 ];
 
 const MODAL_QUALIFICATIONS = [
@@ -552,7 +550,7 @@ export default function HeroSection() {
                         id="modal-phone"
                         type="tel"
                         name="phone"
-                        placeholder="+91 98765 43210"
+                        placeholder="Enter 10-digit mobile number"
                         value={modalForm.phone}
                         onChange={(e) => updateModalField("phone", e.target.value)}
                         className="w-full pl-10 pr-3.5 py-2 sm:py-2.5 rounded-xl border border-slate-200 bg-white text-slate-800 placeholder-slate-400 text-sm shadow-xs transition-all duration-200 hover:border-slate-300 focus:border-teal-600 focus:ring-4 focus:ring-teal-500/10 outline-none"
@@ -721,8 +719,25 @@ export default function HeroSection() {
                     </span>
                   </button>
 
-                  <p className="text-center text-[11px] text-slate-400 mt-2">
-                    By submitting, you agree to our Terms &amp; Privacy Policy
+                  <p className="text-center text-[11.5px] text-slate-500 mt-2">
+                    By submitting, you agree to our{" "}
+                    <Link
+                      to="/terms-conditions"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline text-slate-700 hover:text-teal-700 font-medium transition-colors cursor-pointer"
+                    >
+                      Terms
+                    </Link>{" "}
+                    &amp;{" "}
+                    <Link
+                      to="/privacy-policy"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="underline text-slate-700 hover:text-teal-700 font-medium transition-colors cursor-pointer"
+                    >
+                      Privacy Policy
+                    </Link>
                   </p>
                 </form>
 

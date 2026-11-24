@@ -36,6 +36,9 @@ const Createquery = async (req, res) => {
       city,
       country,
       interested,
+      course,
+      intake,
+      qualification,
       neetStatus,
       message,
     } = req.body;
@@ -56,7 +59,10 @@ const Createquery = async (req, res) => {
       phone,
       city,
       country,
-      interested,
+      interested: interested || course,
+      course,
+      intake,
+      qualification,
       neetStatus,
       message: savedMessage,
     });

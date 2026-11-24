@@ -24,6 +24,15 @@ const querySchema = new mongoose.Schema(
     interested: {
       type: String,
     },
+    course: {
+      type: String,
+    },
+    intake: {
+      type: String,
+    },
+    qualification: {
+      type: String,
+    },
     neetStatus: {
       type: String,
       trim: true,
