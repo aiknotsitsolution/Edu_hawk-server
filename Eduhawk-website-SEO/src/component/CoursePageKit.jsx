@@ -4751,37 +4751,14 @@ if (g.t === "ul")
 
 
                   >
-
-
-
                     <h4
-
-
-
                       className={
-
-
-
-                        "font-semibold leading-snug mb-1.5 " +
-
-
-
+                        "font-bold text-base leading-snug mb-2 flex items-center gap-2 " +
                         (tone === "dark" ? "text-white" : "text-slate-900")
-
-
-
                       }
-
-
-
                     >
-
-
-
-                      {formatRichText(p.t)}
-
-
-
+                      <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
+                      <span>{formatRichText(p.t)}</span>
                     </h4>
 
 
@@ -4926,11 +4903,12 @@ if (g.t === "ul")
             <h4
               key={i}
               className={
-                "text-xl sm:text-2xl font-bold tracking-tight mt-8 mb-3 " +
+                "text-xl sm:text-2xl font-bold tracking-tight mt-8 mb-4 flex items-center gap-2.5 " +
                 (tone === "dark" ? "text-white" : "text-slate-900")
               }
             >
-              {formatRichText(g.text || g.title || (Array.isArray(g.items) ? g.items[0] : ""))}
+              <span className="w-1.5 h-6 rounded-full bg-blue-600 inline-block shrink-0 shadow-xs" />
+              <span>{formatRichText(g.text || g.title || (Array.isArray(g.items) ? g.items[0] : ""))}</span>
             </h4>
           );
         }

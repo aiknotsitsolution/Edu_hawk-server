@@ -42,8 +42,8 @@
   ],
   "sections": [
     {
-      "slot": "why-study",
-      "eyebrow": "Key Benefits",
+      "slot": "why",
+      "eyebrow": "Why Australia",
       "title": "Why Study Nursing in Australia?",
       "groups": [
         {
@@ -53,200 +53,49 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Important Advantages of Studying Nursing in Australia"
-          ]
+          "t": "h4",
+          "text": "Important Advantages of Studying Nursing in Australia"
         },
         {
-          "t": "ul",
-          "items": [
-            "Learn about nursing concepts, patient evaluation, clinical care, healthcare communication, and professional ethics through education that is professionally focused.",
-            "Practical Clinical Training: As part of qualified programs, gain experience through supervised clinical assignments and simulation labs.",
-            "Multiple Study Pathways: Depending on your academic background, select undergraduate nursing, qualified graduate-entry programs, or postgraduate degrees.",
-            "Opportunities for Specialization: Through suitable additional education and work experience, investigate fields like emergency nursing, mental health, critical care, pediatrics, and elder care.",
-            "Studying with students from many origins fosters communication, teamwork, and cultural awareness in a multicultural learning environment.",
-            "Career Opportunities: Graduates may pursue nursing positions in hospitals, community healthcare facilities, assisted living facilities, and other healthcare settings after obtaining the necessary training and fulfilling registration criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "2. Australian Nursing Programs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Numerous nursing credentials are offered by Australian organizations. Students should select a program depending on their desired career result and current level of education."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Nursing Bachelor's degree"
+          "t": "dl",
+          "pairs": [
+            {
+              "t": "Professionally Focused Education",
+              "d": "Learn about nursing concepts, patient evaluation, clinical care, healthcare communication, and professional ethics through education that is professionally focused."
+            },
+            {
+              "t": "Practical Clinical Training",
+              "d": "As part of qualified programs, gain experience through supervised clinical assignments and simulation labs."
+            },
+            {
+              "t": "Multiple Study Pathways",
+              "d": "Depending on your academic background, select undergraduate nursing, qualified graduate-entry programs, or postgraduate degrees."
+            },
+            {
+              "t": "Opportunities for Specialization",
+              "d": "Through suitable additional education and work experience, investigate fields like emergency nursing, mental health, critical care, pediatrics, and elder care."
+            },
+            {
+              "t": "Multicultural Learning Environment",
+              "d": "Studying with students from many origins fosters communication, teamwork, and cultural awareness in a multicultural learning environment."
+            },
+            {
+              "t": "Career Opportunities",
+              "d": "Graduates may pursue nursing positions in hospitals, community healthcare facilities, assisted living facilities, and other healthcare settings after obtaining the necessary training and fulfilling registration criteria."
+            }
           ]
         },
         {
           "t": "p",
           "items": [
-            "For individuals who have finished Class 12 or an equivalent degree, the Bachelor of Nursing is a popular entry option."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Eligibility: Class 12 or above, subject to academic and English language criteria relevant to the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Principal Areas of Learning:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Physiology and anatomy",
-            "Nursing fundamentals",
-            "Clinical care and patient evaluation",
-            "Pharmacology and the safety of medications",
-            "Professional practice and nursing ethics",
-            "Community nursing and mental health",
-            "Evidence-based medical care",
-            "Clinical assignments under supervision"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Nursing Science Bachelor's degree"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A Bachelor of Nursing Science degree or a comparable degree is offered by some universities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Duration: Depending on the institution, it usually lasts three years."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Eligibility: Completing high school and meeting the academic and English-language requirements of the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Nursing Graduate-Entry Programs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students with a recognized bachelor's degree in another field may be eligible for graduate-entry nursing programs."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These programs are not offered at all universities, but they can offer qualified graduates an alternate route into nursing."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Eligibility: English language competency, a valid previous degree, and any necessary prerequisite courses."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The D. Nursing Master's"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Candidates with a nursing degree or a related academic background could benefit from a Master of Nursing."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Postgraduate studies may concentrate on advanced practice, clinical development, leadership, nursing teaching, or research, depending on the program."
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Clinical nursing",
-            "Safety and quality of healthcare",
-            "Education in nursing",
-            "Research in nursing",
-            "Specialized or advanced practice",
-            "The E. Nursing bachelor's degree with honors"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "After earning a qualifying undergraduate nursing degree , an honors program typically offers more chances for research and advanced academic study."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Potential choices include of:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Doctor of Philosophy in Nursing",
-            "Doctor of Philosophy in Midwifery and Nursing",
-            "Doctoral research programs in nursing"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "A relevant postgraduate or honors degree, research preparation, and, depending on the school, an appropriate research proposal or supervisor are typically requirements for eligibility."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The certification given"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Whether it is intended for students from abroad or domestically",
-            "Whether foreign applicants can enroll in the course",
-            "Whether it results in the registration of registered nurses or another professional outcome",
-            "Whether the course satisfies the relevant legal criteria"
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey."
           ]
         }
       ]
     },
     {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Costs",
+      "slot": "fees",
+      "eyebrow": "Tuition & Living Costs",
       "title": "The cost of Nursing Education in Australia",
       "groups": [
         {
@@ -256,31 +105,102 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Estimated Cost of Tuition"
-          ]
+          "t": "h4",
+          "text": "Estimated Cost of Tuition"
         },
         {
           "t": "p",
           "items": [
-            "Some undergraduate nursing programs may charge overseas students between AUD 35,000 and AUD 50,000 or more annually, as a general planning estimate."
+            "Tuition fees for international nursing students vary by university, qualification level, and whether the degree includes accelerated graduate-entry clinical training. As a general planning guide, undergraduate and postgraduate nursing programs typically range between AUD 35,000 and AUD 50,000 per year."
           ]
+        },
+        {
+          "t": "table",
+          "headers": [
+            "Nursing Program Level",
+            "Estimated Annual Tuition (AUD)",
+            "Standard Course Duration"
+          ],
+          "rows": [
+            [
+              "Bachelor of Nursing (Standard Entry)",
+              "AUD 35,000 – AUD 42,000 / year",
+              "3 Years Full-Time"
+            ],
+            [
+              "Bachelor of Nursing (Graduate Entry)",
+              "AUD 38,000 – AUD 46,000 / year",
+              "2 Years Full-Time"
+            ],
+            [
+              "Master of Nursing Practice (Entry to Practice)",
+              "AUD 40,000 – AUD 50,000 / year",
+              "2 Years Full-Time"
+            ],
+            [
+              "Master of Advanced Nursing (Specialist)",
+              "AUD 36,000 – AUD 45,000 / year",
+              "1.5 – 2 Years Full-Time"
+            ],
+            [
+              "Bachelor of Nursing (Honours)",
+              "AUD 34,000 – AUD 42,000 / year",
+              "1 Year Full-Time"
+            ]
+          ]
+        },
+        {
+          "t": "h4",
+          "text": "Additional Living and Educational Costs"
         },
         {
           "t": "p",
           "items": [
-            "Additional Living and Educational Costs"
+            "In addition to tuition fees, international nursing students must budget for living expenses in Australia (as per the Department of Home Affairs financial capacity requirement) along with mandatory clinical placement, uniform, and healthcare check costs:"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Students ought to set up money for:"
+          "t": "table",
+          "headers": [
+            "Expense Category",
+            "Estimated Cost (AUD)",
+            "Description & Frequency"
+          ],
+          "rows": [
+            [
+              "Living & Accommodation",
+              "AUD 20,000 – AUD 29,710 / year",
+              "Rental housing, food, groceries, utilities, and daily public transit"
+            ],
+            [
+              "Overseas Student Health Cover (OSHC)",
+              "AUD 600 – AUD 850 / year",
+              "Mandatory medical and hospital insurance for student visa holders"
+            ],
+            [
+              "Clinical Uniforms & Scrubs",
+              "AUD 200 – AUD 450",
+              "Hospital-approved uniforms, clinical shoes, and lab wear"
+            ],
+            [
+              "Personal Medical Equipment",
+              "AUD 150 – AUD 350",
+              "Stethoscope, sphygmomanometer, penlight, and nursing watch"
+            ],
+            [
+              "Immunisations, Serology & CPR",
+              "AUD 300 – AUD 650",
+              "Mandatory vaccine record verification, police checks & WWC check"
+            ],
+            [
+              "Books & Learning Supplies",
+              "AUD 600 – AUD 1,200 / year",
+              "Nursing textbooks, medical journals, and digital simulation access"
+            ]
           ]
         },
         {
-          "t": "ul",
+          "t": "pills",
           "items": [
             "Lodging and utilities",
             "Food and groceries",
