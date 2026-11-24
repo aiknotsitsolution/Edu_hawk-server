@@ -232,34 +232,34 @@ import cmsData from "../../data/medical_colleges/uzbekistan.json";
 
 //             <div className="space-y-6">
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   1. High-Quality Education
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Globally recognized universities with strong academic
 //                   standards.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   2. Affordable Tuition Fees
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Significantly lower than many Western countries.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   3. No Additional Entrance Exams
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   (NEET required for Indian students only)
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   4. English-Medium Programs
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   No language barrier for most international students.
 //                 </p>
@@ -858,9 +858,9 @@ const Uzbekistan = () => {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
-                  <h4 className="text-xl font-bold text-blue-900">
+                  <h3 className="text-xl font-bold text-blue-900">
                     {uni.name}
-                  </h4>
+                  </h3>
                 </div>
               </div>
             ))}
@@ -876,33 +876,33 @@ const Uzbekistan = () => {
 
             <div className="space-y-6">
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   1. High-Quality Education
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Uzbekistan's medical universities are famous for providing high-quality education. Globally recognised for high standards.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   2. Affordable Tuition Fees
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Significantly lower than Western countries or private Indian colleges (total ~₹20–35 lakhs).
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   3. No Additional Entrance Exams
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   (NEET required for Indian students only)
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   4. English-Medium Programs
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   No language barrier for most international students.
                 </p>

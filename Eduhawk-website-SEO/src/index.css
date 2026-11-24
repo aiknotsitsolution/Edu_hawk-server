@@ -138,6 +138,7 @@ body {
 
 .country-scroll::-webkit-scrollbar-thumb {
   background: #475569;
+  border-radius: 9999px;
 }
 
 select,
@@ -152,8 +153,6 @@ select::-ms-expand,
 select.appearance-none::-ms-expand,
 .appearance-none::-ms-expand {
   display: none !important;
-}
-  border-radius: 9999px;
 }
 
 .country-scroll::-webkit-scrollbar-thumb:hover {

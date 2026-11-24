@@ -4804,9 +4804,9 @@ if (g.t === "ul")
               </div>
               <div className="pt-0.5">
                 {g.title && (
-                  <h4 className="text-[16px] font-semibold text-slate-900 mb-1">
+                  <h3 className="text-[16px] font-semibold text-slate-900 mb-1">
                     {formatRichText(g.title)}
-                  </h4>
+                  </h3>
                 )}
                 {(g.desc || g.text) && (
                   <p className="text-[15px] text-slate-600 leading-relaxed">

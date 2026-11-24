@@ -231,9 +231,9 @@ import cmsData from "../../data/medical_colleges/kazakhstan.json";
 // //                   className="w-full h-64 object-cover"
 // //                 />
 // //                 <div className="p-6 text-center">
-// //                   <h4 className="text-xl font-bold text-blue-900">
+// //                   <h3 className="text-xl font-bold text-blue-900">
 // //                     {uni.name}
-// //                   </h4>
+// //                   </h3>
 // //                 </div>
 // //               </div>
 // //             ))}
@@ -249,34 +249,34 @@ import cmsData from "../../data/medical_colleges/kazakhstan.json";
 
 // //             <div className="space-y-6">
 // //               <div>
-// //                 <h5 className="text-xl font-semibold">
+// //                 <h3 className="text-xl font-semibold">
 // //                   1. High-Quality Education
-// //                 </h5>
+// //                 </h3>
 // //                 <p className="text-gray-700">
 // //                   Globally recognized universities with strong academic
 // //                   standards.
 // //                 </p>
 // //               </div>
 // //               <div>
-// //                 <h5 className="text-xl font-semibold">
+// //                 <h3 className="text-xl font-semibold">
 // //                   2. Affordable Tuition Fees
-// //                 </h5>
+// //                 </h3>
 // //                 <p className="text-gray-700">
 // //                   Significantly lower than many Western countries.
 // //                 </p>
 // //               </div>
 // //               <div>
-// //                 <h5 className="text-xl font-semibold">
+// //                 <h3 className="text-xl font-semibold">
 // //                   3. No Additional Entrance Exams
-// //                 </h5>
+// //                 </h3>
 // //                 <p className="text-gray-700">
 // //                   (NEET required for Indian students only)
 // //                 </p>
 // //               </div>
 // //               <div>
-// //                 <h5 className="text-xl font-semibold">
+// //                 <h3 className="text-xl font-semibold">
 // //                   4. English-Medium Programs
-// //                 </h5>
+// //                 </h3>
 // //                 <p className="text-gray-700">
 // //                   No language barrier for most international students.
 // //                 </p>
@@ -826,9 +826,9 @@ import cmsData from "../../data/medical_colleges/kazakhstan.json";
 //                   className="w-full h-64 object-cover"
 //                 />
 //                 <div className="p-6 text-center">
-//                   <h4 className="text-xl font-bold text-blue-900">
+//                   <h3 className="text-xl font-bold text-blue-900">
 //                     {uni.name}
-//                   </h4>
+//                   </h3>
 //                 </div>
 //               </div>
 //             ))}
@@ -844,25 +844,25 @@ import cmsData from "../../data/medical_colleges/kazakhstan.json";
 
 //             <div className="space-y-6">
 //               <div>
-//                 <h5 className="text-xl font-semibold">1. Affordable Education</h5>
+//                 <h3 className="text-xl font-semibold">1. Affordable Education</h3>
 //                 <p className="text-gray-700">
 //                   Reasonable tuition fees (₹2–5 Lakhs/year), no heavy donations or capitation fees.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">2. English Medium</h5>
+//                 <h3 className="text-xl font-semibold">2. English Medium</h3>
 //                 <p className="text-gray-700">
 //                   No language barrier – fully English medium programs.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">3. Quality Education & Facilities</h5>
+//                 <h3 className="text-xl font-semibold">3. Quality Education & Facilities</h3>
 //                 <p className="text-gray-700">
 //                   Modern labs, good hospitals for clinical training, NMC & WHO recognized.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">4. Simple Admission</h5>
+//                 <h3 className="text-xl font-semibold">4. Simple Admission</h3>
 //                 <p className="text-gray-700">
 //                   Straightforward process – only NEET required for Indian students.
 //                 </p>
@@ -924,19 +924,19 @@ import cmsData from "../../data/medical_colleges/kazakhstan.json";
 
 //             <div className="max-w-4xl mx-auto space-y-8">
 //               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-//                 <h4 className="text-xl font-bold text-blue-900">1. Application</h4>
+//                 <h3 className="text-xl font-bold text-blue-900">1. Application</h3>
 //                 <p>Fill university online application form + submit documents</p>
 //               </div>
 //               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-//                 <h4 className="text-xl font-bold text-blue-900">2. Admission Letter</h4>
+//                 <h3 className="text-xl font-bold text-blue-900">2. Admission Letter</h3>
 //                 <p>Receive official admission / invitation letter</p>
 //               </div>
 //               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-//                 <h4 className="text-xl font-bold text-blue-900">3. Visa</h4>
+//                 <h3 className="text-xl font-bold text-blue-900">3. Visa</h3>
 //                 <p>Apply for student visa at Kazakhstan Embassy (Delhi) with invitation letter</p>
 //               </div>
 //               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-//                 <h4 className="text-xl font-bold text-blue-900">4. Travel & Registration</h4>
+//                 <h3 className="text-xl font-bold text-blue-900">4. Travel & Registration</h3>
 //                 <p>Travel to Kazakhstan → University registration → Medical check-up → Start course</p>
 //               </div>
 //             </div>
@@ -1292,9 +1292,9 @@ const Kazakhstan = () => {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
-                  <h4 className="text-xl font-bold text-blue-900">
+                  <h3 className="text-xl font-bold text-blue-900">
                     {uni.name}
-                  </h4>
+                  </h3>
                 </div>
               </div>
             ))}
@@ -1310,31 +1310,31 @@ const Kazakhstan = () => {
 
             <div className="space-y-6">
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   1. Affordable Education
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Reasonable tuition fees (₹2–5 Lakhs/year), no heavy donations
                   or capitation fees.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">2. English Medium</h5>
+                <h3 className="text-xl font-semibold">2. English Medium</h3>
                 <p className="text-gray-700">
                   No language barrier – fully English medium programs.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   3. Quality Education & Facilities
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Modern labs, good hospitals for clinical training, NMC & WHO
                   recognized.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">4. Simple Admission</h5>
+                <h3 className="text-xl font-semibold">4. Simple Admission</h3>
                 <p className="text-gray-700">
                   Straightforward process – only NEET required for Indian
                   students.
@@ -1373,9 +1373,9 @@ const Kazakhstan = () => {
                 students.
               </p>
 
-              <h4 className="text-2xl font-semibold mt-8 mb-4">
+              <h3 className="text-2xl font-semibold mt-8 mb-4">
                 Hostel Facilities
-              </h4>
+              </h3>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
                   On-campus hostels available in most top medical universities
@@ -1391,9 +1391,9 @@ const Kazakhstan = () => {
                 </li>
               </ul>
 
-              <h4 className="text-2xl font-semibold mt-8 mb-4">
+              <h3 className="text-2xl font-semibold mt-8 mb-4">
                 Room Facilities
-              </h4>
+              </h3>
               <p>
                 Rooms are typically shared (2–4 students per room) and come
                 fully furnished with:
@@ -1409,9 +1409,9 @@ const Kazakhstan = () => {
                 </li>
               </ul>
 
-              <h4 className="text-2xl font-semibold mt-8 mb-4">
+              <h3 className="text-2xl font-semibold mt-8 mb-4">
                 Kitchen and Food Facilities
-              </h4>
+              </h3>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
                   Common shared kitchens in hostels – very popular among Indian
@@ -1431,9 +1431,9 @@ const Kazakhstan = () => {
                 </li>
               </ul>
 
-              <h4 className="text-2xl font-semibold mt-8 mb-4">
+              <h3 className="text-2xl font-semibold mt-8 mb-4">
                 Average Living Cost (2026–2027)
-              </h4>
+              </h3>
               <p>
                 The cost of living in Kazakhstan is quite affordable for
                 international students, especially compared to Western countries
@@ -1478,30 +1478,30 @@ const Kazakhstan = () => {
 
             <div className="max-w-4xl mx-auto space-y-8">
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                <h4 className="text-xl font-bold text-blue-900">
+                <h3 className="text-xl font-bold text-blue-900">
                   1. Application
-                </h4>
+                </h3>
                 <p>
                   Fill university online application form + submit documents
                 </p>
               </div>
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                <h4 className="text-xl font-bold text-blue-900">
+                <h3 className="text-xl font-bold text-blue-900">
                   2. Admission Letter
-                </h4>
+                </h3>
                 <p>Receive official admission / invitation letter</p>
               </div>
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                <h4 className="text-xl font-bold text-blue-900">3. Visa</h4>
+                <h3 className="text-xl font-bold text-blue-900">3. Visa</h3>
                 <p>
                   Apply for student visa at Kazakhstan Embassy (Delhi) with
                   invitation letter
                 </p>
               </div>
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                <h4 className="text-xl font-bold text-blue-900">
+                <h3 className="text-xl font-bold text-blue-900">
                   4. Travel & Registration
-                </h4>
+                </h3>
                 <p>
                   Travel to Kazakhstan → University registration → Medical
                   check-up → Start course

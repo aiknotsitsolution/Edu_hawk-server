@@ -266,9 +266,9 @@ const Russia = () => {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
-                  <h4 className="text-xl font-bold text-blue-900">
+                  <h3 className="text-xl font-bold text-blue-900">
                     {uni.name}
-                  </h4>
+                  </h3>
                 </div>
               </div>
             ))}
@@ -284,34 +284,34 @@ const Russia = () => {
 
             <div className="space-y-6">
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   1. High-Quality Education
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Globally recognized universities with strong academic
                   standards.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   2. Affordable Tuition Fees
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Significantly lower than many Western countries.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   3. No Additional Entrance Exams
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   (NEET required for Indian students only)
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   4. English-Medium Programs
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   No language barrier for most international students.
                 </p>
@@ -362,9 +362,9 @@ const Russia = () => {
 
             <div className="space-y-10">
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                <h4 className="text-xl font-bold text-blue-900 mb-4">
+                <h3 className="text-xl font-bold text-blue-900 mb-4">
                   1. Research and Select a University:
-                </h4>
+                </h3>
                 <p className="text-gray-700">
                   Research the <strong>Russian universities</strong> that offer
                   MBBS courses. Some of the best universities for MBBS courses
@@ -382,9 +382,9 @@ const Russia = () => {
               </div>
 
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                <h4 className="text-xl font-bold text-blue-900 mb-4">
+                <h3 className="text-xl font-bold text-blue-900 mb-4">
                   2. Check Eligibility
-                </h4>
+                </h3>
                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
                   <li>Completed 10+2 with Physics, Chemistry, Biology</li>
                   <li>
@@ -396,9 +396,9 @@ const Russia = () => {
               </div>
 
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                <h4 className="text-xl font-bold text-blue-900 mb-4">
+                <h3 className="text-xl font-bold text-blue-900 mb-4">
                   3. Apply Online
-                </h4>
+                </h3>
                 <p className="text-gray-700">
                   Fill university application form → Submit scanned documents →
                   Receive admission/invitation letter (usually within 2–4
@@ -407,9 +407,9 @@ const Russia = () => {
               </div>
 
               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                <h4 className="text-xl font-bold text-blue-900 mb-4">
+                <h3 className="text-xl font-bold text-blue-900 mb-4">
                   4. Visa & Travel
-                </h4>
+                </h3>
                 <p className="text-gray-700">
                   Use invitation letter to apply for student visa at Russian
                   Embassy/Consulate → Book tickets → Arrive in Russia → Complete
@@ -433,9 +433,9 @@ const Russia = () => {
 
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-xl shadow-sm border">
-                  <h5 className="text-lg font-semibold text-blue-800">
+                  <h3 className="text-lg font-semibold text-blue-800">
                     Educational Documents
-                  </h5>
+                  </h3>
                   <ul className="list-disc pl-5 mt-3 text-gray-700 space-y-1">
                     <li>10th & 12th marksheets + certificates</li>
                     <li>NEET scorecard & admit card</li>
@@ -444,9 +444,9 @@ const Russia = () => {
                 </div>
 
                 <div className="bg-white p-6 rounded-xl shadow-sm border">
-                  <h5 className="text-lg font-semibold text-blue-800">
+                  <h3 className="text-lg font-semibold text-blue-800">
                     Other Important Documents
-                  </h5>
+                  </h3>
                   <ul className="list-disc pl-5 mt-3 text-gray-700 space-y-1">
                     <li>Passport size photos (white background)</li>
                     <li>HIV & medical fitness certificate</li>
@@ -466,9 +466,9 @@ const Russia = () => {
               </h2>
 
               <div className="bg-white p-6 rounded-xl shadow-sm border mb-8">
-                <h4 className="text-xl font-semibold text-blue-900 mb-4">
+                <h3 className="text-xl font-semibold text-blue-900 mb-4">
                   Basic Eligibility
-                </h4>
+                </h3>
                 <ul className="list-decimal pl-5 space-y-2 text-gray-700">
                   <li>Age 17+ by 31st Dec of admission year</li>
                   <li>50%+ in PCB in 12th (40% for SC/ST/OBC)</li>
@@ -477,9 +477,9 @@ const Russia = () => {
               </div>
 
               <div className="bg-white p-6 rounded-xl shadow-sm border">
-                <h4 className="text-xl font-semibold text-blue-900 mb-4">
+                <h3 className="text-xl font-semibold text-blue-900 mb-4">
                   Popular Scholarships
-                </h4>
+                </h3>
                 <ul className="space-y-4">
                   <li>
                     <strong>
