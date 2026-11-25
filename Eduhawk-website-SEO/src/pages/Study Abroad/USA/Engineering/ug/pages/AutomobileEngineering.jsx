@@ -16,7 +16,7 @@ const branch = {
     "Study Automobile Engineering in USA for Indian Students, Best Automotive Engineering Universities in USA, Bachelor's in Automobile Engineering in USA, Study Automobile Engineering in USA After 12th, Automotive Engineering Courses in USA, Automobile Engineering Admission Requirements in USA, Automobile Engineering Tuition Fees in USA, Automotive Engineering Scholarships for Indian Students, Top Automotive Engineering Colleges in America, Automobile Engineering Eligibility for Indian Students, SAT Requirements for Automotive Engineering in USA, English Language Tests for US Universities, Career Opportunities After Automobile Engineering, Electric Vehicle Engineering Courses in USA, USA Student Visa for Indian Engineering Students",
   heroIntro: (
     <>
-      <strong>Undergraduate engineering courses in the **United States**</strong> cover
+      <strong>Undergraduate engineering courses in the United States</strong> cover
       areas such as automotive technology, vehicle design, manufacturing, and
       mobility systems. Students gain knowledge of the design, development,
       testing, and improvement of vehicles by means of engineering principles,

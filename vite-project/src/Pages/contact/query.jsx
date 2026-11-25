@@ -494,6 +494,7 @@ const Query = () => {
   const [filterText, setFilterText] = useState("");
   const [selectedRow, setSelectedRow] = useState(null);
   const [deletingId, setDeletingId] = useState(null);
+  const [deleteTarget, setDeleteTarget] = useState(null);
 
   const fetchData = useCallback(async (showToast = false) => {
     setLoading(true);
@@ -600,8 +601,9 @@ const Query = () => {
     doc.save(`Query_Messages_${new Date().toISOString().slice(0, 10)}.pdf`);
   };
 
-  const handleDelete = async (id) => {
-    if (!window.confirm("Delete this query permanently?")) return;
+  const confirmDelete = async () => {
+    if (!deleteTarget) return;
+    const id = deleteTarget._id;
 
     setDeletingId(id);
     try {
@@ -614,6 +616,7 @@ const Query = () => {
       if (!res.ok) throw new Error("Delete failed");
       setData((prev) => prev.filter((item) => item._id !== id));
       toast.success("Query deleted successfully");
+      setDeleteTarget(null);
     } catch (err) {
       toast.error(err.message || "Failed to delete");
     } finally {
@@ -632,6 +635,8 @@ const Query = () => {
         (row.message || row.query || "").toLowerCase().includes(q) ||
         row.city?.toLowerCase().includes(q) ||
         row.country?.toLowerCase().includes(q) ||
+        row.course?.toLowerCase().includes(q) ||
+        row.interested?.toLowerCase().includes(q) ||
         row.neetStatus?.toLowerCase().includes(q),
     );
   }, [data, filterText]);
@@ -640,34 +645,34 @@ const Query = () => {
     {
       name: "#",
       selector: (row, index) => index + 1,
-      width: "60px",
+      width: "55px",
       center: true,
     },
     {
-      name: "Name",
+      name: "Student Name",
       selector: (row) => row.name || row.username || "Anonymous",
       sortable: true,
-      grow: 1.4,
+      grow: 1.3,
       cell: (row) => (
-        <span className="font-medium text-slate-800">
+        <span className="font-semibold text-slate-800">
           {row.name || row.username || "Anonymous"}
         </span>
       ),
     },
     {
       name: "Contact",
-      grow: 2,
+      grow: 1.8,
       cell: (row) => (
         <div className="py-1">
           <a
             href={`mailto:${row.email}`}
-            className="flex items-center gap-1.5 text-sm font-medium text-indigo-600 hover:underline"
+            className="flex items-center gap-1.5 text-xs sm:text-sm font-medium text-indigo-600 hover:underline"
           >
             <Mail size={13} />
             {row.email}
           </a>
           {row.phone && (
-            <p className="mt-1 flex items-center gap-1.5 text-xs text-slate-500">
+            <p className="mt-1 flex items-center gap-1.5 text-xs text-slate-500 font-medium">
               <Phone size={12} />
               {row.phone}
             </p>
@@ -676,56 +681,67 @@ const Query = () => {
       ),
     },
     {
-      name: "City",
-      selector: (row) => row.city,
+      name: "Course",
       sortable: true,
-      width: "120px",
-      cell: (row) =>
-        row.city ? (
-          <span className="inline-flex items-center gap-1 rounded-full bg-indigo-50 px-2.5 py-1 text-xs font-medium text-indigo-700">
-            <MapPin size={11} />
-            {row.city}
+      grow: 1.4,
+      cell: (row) => {
+        const course =
+          row.course ||
+          (row.message && row.message.match(/Interested Course:\s*([^\n]+)/)?.[1]) ||
+          row.interested;
+        return course ? (
+          <span className="inline-flex items-center gap-1 rounded-full bg-blue-50 border border-blue-200/60 px-2.5 py-1 text-xs font-semibold text-blue-700">
+            <GraduationCap size={12} className="shrink-0" />
+            <span className="truncate max-w-[150px]">{course}</span>
           </span>
         ) : (
           <span className="text-slate-400">—</span>
-        ),
+        );
+      },
     },
     {
       name: "Country",
-      selector: (row) => row.country,
       sortable: true,
-      width: "120px",
-      cell: (row) =>
-        row.country ? (
-          <span className="inline-flex rounded-full bg-slate-100 px-2.5 py-1 text-xs font-medium text-slate-700">
-            {row.country}
+      width: "140px",
+      cell: (row) => {
+        const country =
+          row.country ||
+          (row.message && row.message.match(/Destination Country:\s*([^\n]+)/)?.[1]);
+        return country ? (
+          <span className="inline-flex items-center gap-1 rounded-full bg-indigo-50 border border-indigo-200/60 px-2.5 py-1 text-xs font-medium text-indigo-700">
+            <MapPin size={11} className="shrink-0 text-indigo-500" />
+            <span>{country}</span>
           </span>
         ) : (
           <span className="text-slate-400">—</span>
-        ),
+        );
+      },
     },
     {
-      name: "NEET",
-      selector: (row) => row.neetStatus,
+      name: "Intake",
       sortable: true,
-      width: "110px",
-      cell: (row) =>
-        row.neetStatus ? (
-          <span className="inline-flex items-center gap-1 rounded-full bg-emerald-50 px-2.5 py-1 text-xs font-medium text-emerald-700">
-            <GraduationCap size={11} />
-            {row.neetStatus}
+      width: "135px",
+      cell: (row) => {
+        const intake =
+          row.intake ||
+          (row.message && row.message.match(/Preferred Intake:\s*([^\n]+)/)?.[1]) ||
+          row.city;
+        return intake ? (
+          <span className="inline-flex rounded-full bg-slate-100 border border-slate-200/60 px-2.5 py-1 text-xs font-medium text-slate-700">
+            {intake}
           </span>
         ) : (
           <span className="text-slate-400">—</span>
-        ),
+        );
+      },
     },
     {
       name: "Date",
       selector: (row) => row.createdAt,
       sortable: true,
-      width: "130px",
+      width: "125px",
       cell: (row) => (
-        <span className="text-sm text-slate-600">
+        <span className="text-xs font-medium text-slate-600">
           {new Date(row.createdAt).toLocaleDateString("en-IN", {
             day: "2-digit",
             month: "short",
@@ -736,22 +752,22 @@ const Query = () => {
     },
     {
       name: "Actions",
-      width: "110px",
+      width: "105px",
       center: true,
       cell: (row) => (
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5">
           <button
             onClick={() => setSelectedRow(row)}
-            className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-slate-200 text-slate-500 transition hover:border-indigo-200 hover:bg-indigo-50 hover:text-indigo-600"
+            className="inline-flex h-8.5 w-8.5 items-center justify-center rounded-lg border border-slate-200 text-slate-500 transition hover:border-indigo-300 hover:bg-indigo-50 hover:text-indigo-600 cursor-pointer"
             title="View Details"
           >
             <Eye size={15} />
           </button>
           <button
-            onClick={() => handleDelete(row._id)}
+            onClick={() => setDeleteTarget(row)}
             disabled={deletingId === row._id}
-            className="inline-flex h-9 w-9 items-center justify-center rounded-lg border border-slate-200 text-slate-500 transition hover:border-rose-200 hover:bg-rose-50 hover:text-rose-600 disabled:opacity-50"
-            title="Delete"
+            className="inline-flex h-8.5 w-8.5 items-center justify-center rounded-lg border border-slate-200 text-slate-500 transition hover:border-rose-300 hover:bg-rose-50 hover:text-rose-600 disabled:opacity-50 cursor-pointer"
+            title="Delete Inquiry"
           >
             <Trash2 size={15} />
           </button>
@@ -957,22 +973,52 @@ const Query = () => {
                 )}
               </div>
 
-              {/* Tags */}
+              {/* Tags & Key Details */}
               <div className="flex flex-wrap gap-2">
-                {selectedRow.city && (
-                  <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 px-3 py-1.5 text-xs font-medium text-indigo-700">
-                    <MapPin size={12} />
-                    {selectedRow.city}
+                {(selectedRow.course ||
+                  (selectedRow.message &&
+                    selectedRow.message.match(/Interested Course:\s*([^\n]+)/)?.[1]) ||
+                  selectedRow.interested) && (
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-50 border border-blue-200/60 px-3 py-1.5 text-xs font-semibold text-blue-700">
+                    <GraduationCap size={13} />
+                    Course:{" "}
+                    {selectedRow.course ||
+                      selectedRow.message?.match(/Interested Course:\s*([^\n]+)/)?.[1] ||
+                      selectedRow.interested}
                   </span>
                 )}
-                {selectedRow.country && (
-                  <span className="inline-flex rounded-full bg-slate-100 px-3 py-1.5 text-xs font-medium text-slate-700">
-                    {selectedRow.country}
+                {(selectedRow.country ||
+                  selectedRow.message?.match(/Destination Country:\s*([^\n]+)/)?.[1]) && (
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 border border-indigo-200/60 px-3 py-1.5 text-xs font-medium text-indigo-700">
+                    <MapPin size={12} className="text-indigo-500" />
+                    Country:{" "}
+                    {selectedRow.country ||
+                      selectedRow.message?.match(/Destination Country:\s*([^\n]+)/)?.[1]}
+                  </span>
+                )}
+                {(selectedRow.intake ||
+                  selectedRow.message?.match(/Preferred Intake:\s*([^\n]+)/)?.[1]) && (
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 border border-emerald-200/60 px-3 py-1.5 text-xs font-medium text-emerald-700">
+                    Intake:{" "}
+                    {selectedRow.intake ||
+                      selectedRow.message?.match(/Preferred Intake:\s*([^\n]+)/)?.[1]}
+                  </span>
+                )}
+                {(selectedRow.qualification ||
+                  selectedRow.message?.match(/Current Qualification:\s*([^\n]+)/)?.[1]) && (
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 border border-amber-200/60 px-3 py-1.5 text-xs font-medium text-amber-700">
+                    Qualification:{" "}
+                    {selectedRow.qualification ||
+                      selectedRow.message?.match(/Current Qualification:\s*([^\n]+)/)?.[1]}
+                  </span>
+                )}
+                {selectedRow.city && (
+                  <span className="inline-flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1.5 text-xs font-medium text-slate-700">
+                    City: {selectedRow.city}
                   </span>
                 )}
                 {selectedRow.neetStatus && (
                   <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-50 px-3 py-1.5 text-xs font-medium text-emerald-700">
-                    <GraduationCap size={12} />
                     NEET: {selectedRow.neetStatus}
                   </span>
                 )}
@@ -981,9 +1027,9 @@ const Query = () => {
               {/* Message */}
               <div>
                 <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">
-                  Message
+                  Message / Details
                 </p>
-                <div className="rounded-xl border border-slate-100 bg-slate-50 p-5 text-sm leading-relaxed text-slate-700">
+                <div className="rounded-xl border border-slate-100 bg-slate-50 p-5 text-sm leading-relaxed text-slate-700 whitespace-pre-line font-normal">
                   {selectedRow.message ||
                     selectedRow.query ||
                     "No message provided."}
@@ -1000,6 +1046,60 @@ const Query = () => {
                   ID: {selectedRow._id?.slice(-8)}
                 </span>
               </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* ==================== MODERN DELETE CONFIRMATION MODAL ==================== */}
+      {deleteTarget && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/60 p-4 backdrop-blur-sm">
+          <div className="w-full max-w-md overflow-hidden rounded-2xl bg-white p-6 shadow-2xl border border-slate-100">
+            <div className="flex items-start gap-4">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-rose-50 text-rose-600 border border-rose-100 shadow-xs">
+                <Trash2 size={24} />
+              </div>
+              <div className="flex-1">
+                <h3 className="text-lg font-bold text-slate-900 leading-snug">
+                  Delete Inquiry?
+                </h3>
+                <p className="mt-1 text-sm text-slate-500 leading-relaxed">
+                  Are you sure you want to permanently delete the inquiry from{" "}
+                  <span className="font-semibold text-slate-800">
+                    {deleteTarget.name || deleteTarget.username || "this student"}
+                  </span>
+                  ? This action cannot be undone.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-6 flex items-center justify-end gap-3 pt-3 border-t border-slate-100">
+              <button
+                type="button"
+                onClick={() => setDeleteTarget(null)}
+                disabled={deletingId === deleteTarget._id}
+                className="px-4 py-2.5 rounded-xl border border-slate-200 text-slate-700 hover:bg-slate-50 font-medium text-sm transition-all duration-150 cursor-pointer disabled:opacity-50"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={confirmDelete}
+                disabled={deletingId === deleteTarget._id}
+                className="px-5 py-2.5 rounded-xl bg-gradient-to-r from-rose-600 to-red-600 hover:from-rose-500 hover:to-red-500 text-white font-semibold text-sm shadow-md shadow-rose-600/20 hover:shadow-rose-600/30 transition-all duration-150 flex items-center gap-2 cursor-pointer disabled:opacity-50"
+              >
+                {deletingId === deleteTarget._id ? (
+                  <>
+                    <RefreshCw size={15} className="animate-spin" />
+                    <span>Deleting...</span>
+                  </>
+                ) : (
+                  <>
+                    <Trash2 size={15} />
+                    <span>Delete Permanently</span>
+                  </>
+                )}
+              </button>
             </div>
           </div>
         </div>

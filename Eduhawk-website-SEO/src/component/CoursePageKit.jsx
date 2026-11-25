@@ -645,11 +645,26 @@ export const decodeHtmlEntities = (s) => {
     .replace(/&#(\d+);/g, (m, dec) => String.fromCharCode(dec));
 };
 
+export const cleanMarkdownEscapes = (txt) => {
+  if (!txt || typeof txt !== "string") return txt;
+  let s = decodeHtmlEntities(txt);
+  // Strip Markdown reference-style base64 image definitions (e.g. [image1]: <data:image/png;base64,...>)
+  s = s.replace(/\[image\d*\]:\s*<?data:image\/[^>\s]+>?/gi, "");
+  s = s.replace(/\[image\d*\]:\s*$/gim, "");
+  // Unescape Markdown-escaped punctuation (e.g. \., \:, \-, \*, \#, \(, \))
+  s = s.replace(/\\([.!()#*_\-:[\],?~\/])/g, "$1");
+  // Remove Google Docs / CMS stray double-or-single backslash wrappers and trailing line-break backslashes
+  s = s.replace(/\\{1,2}(?=\s*$|\n)/gm, "");
+  s = s.replace(/(^|\s)\\{1,2}(?=[A-Za-z0-9])/g, "$1");
+  s = s.replace(/([A-Za-z0-9.,!?;:'")\]])\\{1,2}(?=\s|$|[.,!?;:])/g, "$1");
+  s = s.replace(/\\{2,}/g, "");
+  return s;
+};
+
 export const stripHeadingNumbering = (text) => {
   if (!text || typeof text !== "string") return text;
-  let s = decodeHtmlEntities(text.trim());
+  let s = cleanMarkdownEscapes(text.trim());
   s = s.replace(/^[#\s*]+/, "").replace(/[*#\s]+$/, "");
-  s = s.replace(/\\([.!()#*_\-])/g, "$1");
   s = s.replace(/^(?:Step\s*\d+\s*[:.\-–]?\s*)+/i, "");
   s = s.replace(/^(?:\d+(?:\.\d+)*[\.\)\:\-–]\s*)+/, "");
   s = s.replace(/^(?:Step\s*\d+\s*[:.\-–]?\s*)+/i, "");
@@ -667,7 +682,7 @@ export const formatRichText = (content) => {
       return (
         <span>
           <strong className="font-semibold text-slate-900">{formatRichText(title)}: </strong>
-          <span>{formatRichText(desc)}</span>
+          <span>{formatRichText(typeof desc === "string" ? desc.replace(/^[*\-•]\s+/, "") : desc)}</span>
         </span>
       );
     }
@@ -677,22 +692,42 @@ export const formatRichText = (content) => {
   }
   if (typeof content !== "string") return content;
 
+  const normalizedContent = cleanMarkdownEscapes(content);
 
-
-  const parts = content.split(/(\*\*\[.*?\]\(.*?\)\*\*|\*\*.*?\*\*|\[.*?\]\(.*?\)|<strong>.*?<\/strong>)/g);
-
-
+  const parts = normalizedContent.split(/(\*\*\[.*?\]\(.*?\)\*\*|<strong>.*?<\/strong>|\*\*.*?\*\*|\*[^*\n]+?\*|\[.*?\]\(.*?\))/g);
 
   const cleanPartText = (txt) => {
     if (!txt || typeof txt !== "string") return txt;
-    return decodeHtmlEntities(txt.replace(/\\([.!()#*_\-])/g, "$1").replace(/\*{1,3}/g, ""));
+    return cleanMarkdownEscapes(txt).replace(/\*{1,3}/g, "");
   };
 
-  if (parts.length === 1) return cleanPartText(content);
-
-
+  if (parts.length === 1) {
+    const raw = cleanPartText(normalizedContent);
+    if (typeof raw === "string") {
+      const colonMatch = raw.match(/^([A-Za-z0-9][A-Za-z0-9\s/&–—'().-]{1,35}):\s+(.+)$/);
+      if (colonMatch && !/^https?:/i.test(colonMatch[1]) && !/^\d+:\d+$/.test(colonMatch[1])) {
+        return (
+          <span>
+            <strong className="font-bold text-slate-900">{colonMatch[1]}: </strong>
+            <span>{colonMatch[2].replace(/^[*\-•]\s+/, "")}</span>
+          </span>
+        );
+      }
+    }
+    return raw;
+  }
 
   return parts.filter(Boolean).map((part, index) => {
+    if (index === 0 && typeof part === "string") {
+      const colonMatch = part.match(/^([A-Za-z0-9][A-Za-z0-9\s/&–—'().-]{1,35}):\s*$/);
+      if (colonMatch && !/^https?:/i.test(colonMatch[1])) {
+        return (
+          <strong key={index} className="font-bold text-slate-900">
+            {colonMatch[1]}:{" "}
+          </strong>
+        );
+      }
+    }
 
 
 
@@ -771,37 +806,25 @@ export const formatRichText = (content) => {
     if (part.startsWith("**") && part.endsWith("**")) {
       return (
         <strong key={index} className="font-bold text-slate-900">
-          {part.slice(2, -2)}
+          {cleanPartText(part.slice(2, -2))}
         </strong>
       );
     }
 
-
+    if (part.startsWith("*") && part.endsWith("*") && part.length > 2) {
+      return (
+        <em key={index} className="italic">
+          {cleanPartText(part.slice(1, -1))}
+        </em>
+      );
+    }
 
     if (part.startsWith("<strong>") && part.endsWith("</strong>")) {
-
-
-
       return (
-
-
-
         <strong key={index} className="font-bold text-inherit">
-
-
-
-          {part.slice(8, -9)}
-
-
-
+          {formatRichText(part.slice(8, -9))}
         </strong>
-
-
-
       );
-
-
-
     }
 
 
@@ -1035,73 +1058,29 @@ export const EhpHero = ({
 
 
           <div className="text-xs font-semibold tracking-wider uppercase text-blue-300 mb-3">
-
-
-
-            {eyebrow}
-
-
-
+            {typeof eyebrow === "string" ? cleanMarkdownEscapes(eyebrow) : eyebrow}
           </div>
 
-
-
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
-
-
-
-            {lead}{" "}
-
-
-
+            {typeof lead === "string" ? cleanMarkdownEscapes(lead) : lead}{" "}
             <span className="bg-gradient-to-r from-blue-400 to-amber-300 bg-clip-text text-transparent">
-
-
-
-              {accent}
-
-
-
+              {typeof accent === "string" ? cleanMarkdownEscapes(accent) : accent}
             </span>{" "}
-
-
-
-            {tail}
-
-
-
+            {typeof tail === "string" ? cleanMarkdownEscapes(tail) : tail}
           </h1>
 
 
 
-          {paras.map((p, i) => (
-
-
-
+          {paras
+            .map((p) => (typeof p === "string" ? cleanMarkdownEscapes(p).replace(/^#{1,6}\s+/, "").trim() : p))
+            .filter(Boolean)
+            .map((p, i) => (
             <p
-
-
-
               key={i}
-
-
-
               className="text-base sm:text-lg text-white/70 max-w-xl mb-5 leading-relaxed [&_strong]:text-white [&_strong]:font-bold [&_a]:text-blue-400 hover:[&_a]:text-blue-300 [&_a]:underline"
-
-
-
             >
-
-
-
               {formatRichText(p)}
-
-
-
             </p>
-
-
-
           ))}
 
 
@@ -1271,7 +1250,7 @@ export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => {
   const cleanEyebrow = stripHeadingNumbering(eyebrow);
   if (!cleanEyebrow && !cleanTitle && !desc) return null;
   return (
-    <div className={(center ? "text-center " : "") + "mb-9"}>
+    <div className={(center ? "text-center " : "") + "mb-6"}>
       {cleanEyebrow && (
         <div className="text-xs font-semibold tracking-wider uppercase text-blue-600 mb-1.5">
           {cleanEyebrow}
@@ -1311,15 +1290,127 @@ export const EhpHead = ({ eyebrow, title, desc, descClass, center, as }) => {
 
 
 
+export const isSubsectionHeading = (str) => {
+  if (typeof str !== "string") return false;
+  const s = cleanMarkdownEscapes(str).trim();
+  if (s.length < 3 || s.length > 110) return false;
+
+  // Explicit Markdown heading: ## Heading, ### Subheading, #### Heading
+  if (/^#{1,6}\s+\S/.test(s)) return true;
+
+  // Explicit markdown bold heading: **Title**
+  if (/^\*\*[^*]+\*\*$/.test(s)) return true;
+
+  // Lettered or numbered subsection: "A. Undergraduate Programs", "1. Bachelor Degree"
+  if (/^[A-Z]\.\s+[A-Za-z0-9]/.test(s) && !/[.!?]$/.test(s)) return true;
+  if (/^\d+\.\s+[A-Za-z0-9]/.test(s) && !/[.!?]$/.test(s)) return true;
+
+  // Ends with colon: "Admission Requirements:", "Key Advantages:"
+  if (/:\s*$/.test(s) && !/^(Note|Please note|Important|Tip|Disclaimer):\s*$/i.test(s)) return true;
+
+  // Specific recognized heading topics
+  if (
+    /(?:Key Advantages|Career Opportunities|Admission Requirements|Employment Prospects|Eligible Degrees|Specializations|Estimated Cost|Living Costs|Tuition Fees|Program Options|Degree Options|Academic Pathways|Course Highlights|Why Study|How to Apply|Application Process|Job Roles|Work Opportunities)\b/i.test(s) &&
+    s.length < 80 &&
+    !/[.!?]$/.test(s)
+  ) {
+    return true;
+  }
+
+  // Standalone short title without terminal punctuation (e.g. "Physiotherapy Bachelor of Science (BSc)")
+  if (
+    s.length <= 60 &&
+    /^[A-Z]/.test(s) &&
+    !/[.!?]$/.test(s) &&
+    !/^(However|Therefore|Moreover|Furthermore|In addition|For example|Note|Please|It is|This|These|They|We|You|Students|As an?)\b/i.test(s) &&
+    !s.includes(", and ") &&
+    !s.includes("; ")
+  ) {
+    const words = s.split(/\s+/);
+    if (words.length >= 2 && words.length <= 8) {
+      return true;
+    }
+  }
+
+  return false;
+};
+
+const renderMarkdownTableBlock = (text, key, tone) => {
+  const sepMatch = text.match(/\|(?:\s*[-:]{2,}\s*\|)+/);
+  if (!sepMatch) return null;
+  const firstPipe = text.indexOf("|");
+  const intro = firstPipe > 0 ? text.slice(0, firstPipe).trim() : "";
+  const tableStr = text.slice(firstPipe).trim();
+  const rawRows = tableStr
+    .replace(/\|\s+\|/g, "|\n|")
+    .split(/\n+/)
+    .map((r) => r.trim())
+    .filter((r) => r.startsWith("|"));
+  const parsedRows = [];
+  for (const r of rawRows) {
+    if (/^\|(?:\s*[-:]{2,}\s*\|)+\s*$/.test(r)) continue;
+    const cells = r
+      .replace(/^\|/, "")
+      .replace(/\|$/, "")
+      .split("|")
+      .map((c) => c.trim());
+    if (cells.length >= 2) parsedRows.push(cells);
+  }
+  if (parsedRows.length < 2) return null;
+  const headers = parsedRows[0];
+  const rows = parsedRows.slice(1);
+
+  return (
+    <div key={key} className="space-y-3 my-3">
+      {intro && (
+        <p className={tone === "dark" ? "text-white/85 text-[15px] leading-relaxed" : "text-[15px] text-slate-600 leading-relaxed"}>
+          {formatRichText(intro)}
+        </p>
+      )}
+      <div className="overflow-x-auto rounded-xl border border-slate-200 shadow-sm">
+        <table className="min-w-full divide-y divide-slate-200 text-left text-sm">
+          <thead className="bg-slate-100 font-semibold text-slate-800">
+            <tr>
+              {headers.map((h, k) => (
+                <th key={k} className="px-4 py-3 border-b border-slate-200">
+                  {formatRichText(h)}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-slate-200 bg-white">
+            {rows.map((row, rIdx) => (
+              <tr key={rIdx} className={rIdx % 2 === 1 ? "bg-slate-50/60" : ""}>
+                {row.map((cell, cIdx) => (
+                  <td key={cIdx} className="px-4 py-3 text-slate-600">
+                    {formatRichText(cell)}
+                  </td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+};
+
 export const Paragraphs = ({ items, className, tone }) => {
   if (!items) return null;
-  const list = Array.isArray(items) ? items : (typeof items === 'string' ? [items] : []);
+  const rawList = Array.isArray(items) ? items : (typeof items === 'string' ? [items] : []);
+  // Expand multi-line strings that contain embedded markdown bullets or headings
+  const list = rawList.flatMap((item) => {
+    if (typeof item === "string" && item.includes("\n") && !/\|(?:\s*[-:]{2,}\s*\|)+/.test(item)) {
+      return item.split(/\n+/).map((l) => l.trim()).filter(Boolean);
+    }
+    return [item];
+  });
   if (!list.length) return null;
   return (
     <div
       className={
         className ??
-        "text-slate-600 text-[15px] leading-relaxed space-y-4 [&_strong]:text-slate-900 [&_strong]:font-bold"
+        "text-slate-600 text-[15px] leading-relaxed space-y-3 [&_strong]:text-slate-900 [&_strong]:font-bold"
       }
     >
       {list.map((p, i) => {
@@ -1329,37 +1420,76 @@ export const Paragraphs = ({ items, className, tone }) => {
           const desc = p.desc || p.text || p.d;
           return (
             <div key={i} className="my-3">
-              {title && <h4 className="font-bold text-slate-900 text-base mb-1">{formatRichText(title)}</h4>}
+              {title && <h4 className="font-bold text-slate-900 text-base mb-1">{formatRichText(String(title).replace(/^#{1,6}\s+/, ""))}</h4>}
               {desc && <p className="text-[15px] text-slate-600 leading-relaxed">{formatRichText(desc)}</p>}
             </div>
           );
         }
-        const isBullet = typeof p === "string" && /^[*\-•]\s+/.test(p);
-        const cleanP = isBullet ? p.replace(/^[*\-•]\s+/, "") : p;
+        if (typeof p === "string" && /\|(?:\s*[-:]{2,}\s*\|)+/.test(p)) {
+          const tbl = renderMarkdownTableBlock(p, i, tone);
+          if (tbl) return tbl;
+        }
+        const cleanedRaw = typeof p === "string" ? cleanMarkdownEscapes(p).trim() : p;
+        const isBullet = typeof cleanedRaw === "string" && /^[*\-•]\s+/.test(cleanedRaw);
+        const cleanP = isBullet ? cleanedRaw.replace(/^[*\-•]\s+/, "") : cleanedRaw;
         if (isBullet) {
           return (
             <div key={i} className="flex items-start gap-2.5 my-1.5 pl-1">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-600 mt-2 flex-shrink-0" />
               <div className={tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : "text-[15px] text-slate-600 leading-relaxed [&_strong]:text-slate-900 [&_strong]:font-bold"}>
-                {formatRichText(cleanP)}
+                {formatRichText(typeof cleanP === "string" ? cleanP.replace(/^#{1,6}\s+/, "") : cleanP)}
               </div>
             </div>
           );
         }
 
-        const isColonHeading = typeof cleanP === "string" && cleanP.length > 0 && cleanP.length < 85 && /:\s*$/.test(cleanP.trim());
-        const isBoldOnly = typeof cleanP === "string" && /^\*\*[^*]+\*\*$/.test(cleanP.trim());
+        const isHeading = typeof cleanP === "string" && isSubsectionHeading(cleanP);
+
+        if (isHeading) {
+          const headingText = cleanP
+            .replace(/^#{1,6}\s+/, "")
+            .replace(/^\*\*(.*)\*\*$/, "$1")
+            .replace(/:\s*$/, "");
+          return (
+            <h4
+              key={i}
+              className={
+                tone === "dark"
+                  ? "font-bold text-white text-base sm:text-lg mt-5 mb-1.5 tracking-tight"
+                  : "font-bold text-slate-900 text-base sm:text-lg mt-5 mb-1.5 tracking-tight"
+              }
+            >
+              {formatRichText(headingText)}
+            </h4>
+          );
+        }
+
+        const isCalloutNote = typeof cleanP === "string" && /^(?:Tip:|NOTE\s*[-–:])\s+/i.test(cleanP.trim());
+        if (isCalloutNote) {
+          return (
+            <div
+              key={i}
+              className={
+                tone === "dark"
+                  ? "my-3 p-3.5 rounded-xl bg-white/10 border border-white/15 text-sm text-white/90 leading-relaxed [&_strong]:text-white [&_strong]:font-bold"
+                  : "my-3 p-3.5 rounded-xl bg-amber-50/70 border border-amber-200/70 text-sm text-slate-700 leading-relaxed [&_strong]:text-slate-900 [&_strong]:font-bold"
+              }
+            >
+              {formatRichText(cleanP)}
+            </div>
+          );
+        }
 
         return (
           <p
             key={i}
             className={
-              isColonHeading || isBoldOnly
-                ? "font-bold text-slate-900 text-[15px] mt-4 mb-1"
-                : (tone === "dark" ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold" : "text-[15px] text-slate-600 leading-relaxed [&_strong]:text-slate-900 [&_strong]:font-bold")
+              tone === "dark"
+                ? "text-white/85 text-[15px] leading-relaxed [&_strong]:text-white [&_strong]:font-bold"
+                : "text-[15px] text-slate-600 leading-relaxed [&_strong]:text-slate-900 [&_strong]:font-bold"
             }
           >
-            {formatRichText(cleanP)}
+            {formatRichText(typeof cleanP === "string" ? cleanP.replace(/^#{1,6}\s+/, "") : cleanP)}
           </p>
         );
       })}
@@ -1438,107 +1568,64 @@ export const CheckIcon = ({ size = 22, inner = 12, stroke = 2.8 }) => (
 
 
 
-export const CheckList = ({ items, cols = 1, tone = "light" }) => (
-
-
-
-  <div
-
-
-
-    className={
-
-
-
-      cols === 2
-
-
-
-        ? "grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3.5"
-
-
-
-        : "space-y-3.5"
-
-
-
-    }
-
-
-
-  >
-
-
-
-    {(items || []).map((it, i) => (
-
-
-
-      <div key={i} className="flex gap-3 text-[15px] leading-snug">
-
-
-
-        {tone === "dark" ? (
-
-
-
-          <span className="flex-shrink-0 w-[22px] h-[22px] rounded-full bg-white/10 text-blue-300 grid place-items-center mt-0.5">
-
-
-
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-
-
-
-              <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-
-
-
-            </svg>
-
-
-
-          </span>
-
-
-
-        ) : (
-
-
-
-          <CheckIcon />
-
-
-
-        )}
-
-
-
-        <span className={tone === "dark" ? "text-white/85" : "text-slate-700"}>
-
-
-
-          {formatRichText(it)}
-
-
-
-        </span>
-
-
-
+export const CheckList = ({ items, cols = 1, tone = "light" }) => {
+  const list = Array.isArray(items) ? items : [];
+  const hasIntroLead =
+    list.length > 1 &&
+    typeof list[0] === "string" &&
+    list[0].trim().length > 0 &&
+    /:\s*$/.test(list[0].trim());
+  const leadText = hasIntroLead ? list[0] : null;
+  const checkItems = hasIntroLead ? list.slice(1) : list;
+
+  return (
+    <div>
+      {leadText && (
+        <p
+          className={
+            "text-[15px] leading-relaxed mb-3 font-medium " +
+            (tone === "dark" ? "text-white/90" : "text-slate-700")
+          }
+        >
+          {formatRichText(leadText)}
+        </p>
+      )}
+      <div
+        className={
+          cols === 2
+            ? "grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2.5"
+            : "space-y-2.5"
+        }
+      >
+        {checkItems.map((it, i) => {
+          let cleanIt = typeof it === "string" ? cleanMarkdownEscapes(it).replace(/^[*\-•]\s+/, "").replace(/^#{1,6}\s+/, "") : it;
+          if (typeof cleanIt === "string" && cleanIt.includes("|") && /\|/.test(cleanIt)) {
+            const pipeCells = cleanIt.replace(/^\|/, "").replace(/\|$/, "").split("|").map((c) => c.trim()).filter(Boolean);
+            if (pipeCells.length >= 2) {
+              cleanIt = `${pipeCells[0]}: ${pipeCells.slice(1).join(" — ")}`;
+            }
+          }
+          return (
+            <div key={i} className="flex gap-3 text-[15px] leading-snug">
+              {tone === "dark" ? (
+                <span className="flex-shrink-0 w-[22px] h-[22px] rounded-full bg-white/10 text-blue-300 grid place-items-center mt-0.5">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
+                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
+                  </svg>
+                </span>
+              ) : (
+                <CheckIcon />
+              )}
+              <span className={tone === "dark" ? "text-white/85 [&_strong]:text-white [&_strong]:font-bold" : "text-slate-700 [&_strong]:text-slate-900 [&_strong]:font-bold"}>
+                {formatRichText(cleanIt)}
+              </span>
+            </div>
+          );
+        })}
       </div>
-
-
-
-    ))}
-
-
-
-  </div>
-
-
-
-);
+    </div>
+  );
+};
 
 
 
@@ -2120,8 +2207,8 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
   const u = uni;
   const rawSrc = u.image || u.img || u.src || (u.img_var && u.img_var !== "null" ? u.img_var : null);
   const imgSrc = (rawSrc && rawSrc !== "null" && rawSrc !== "undefined") ? rawSrc : null;
-  const cleanName = u.name ? u.name.replace(/^(\\\.?|\.)\s*/, "") : "";
-  const cleanLocation = u.location ? u.location.replace(/^(\\\.?|\.)\s*/, "") : "";
+  const cleanName = u.name ? cleanMarkdownEscapes(u.name).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
+  const cleanLocation = u.location ? cleanMarkdownEscapes(u.location).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
   const theme =
     u.artTheme ||
     (index % 4 === 0
@@ -2308,8 +2395,8 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
           const hasRichContent = Boolean(u.fee || (u.desc && u.desc.length > 80));
 
           if (imgSrc && !hasRichContent) {
-            const cleanName = u.name ? u.name.replace(/^(\\\.?|\.)\s*/, "") : "";
-            const cleanLocation = u.location ? u.location.replace(/^(\\\.?|\.)\s*/, "") : "";
+            const cleanName = u.name ? cleanMarkdownEscapes(u.name).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
+            const cleanLocation = u.location ? cleanMarkdownEscapes(u.location).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
             return (
               <div
                 key={u.name ?? i}
@@ -2405,9 +2492,13 @@ export const StepTimeline = ({ steps = [], center = true }) => (
                   {formatRichText(cleanTitle)}
                 </h3>
                 {desc && (
-                  <p className="text-[15px] text-slate-600 leading-relaxed">
-                    {formatRichText(desc)}
-                  </p>
+                  typeof desc === "string" ? (
+                    <Paragraphs items={desc} className="text-[15px] text-slate-600 leading-relaxed space-y-2" />
+                  ) : (
+                    <p className="text-[15px] text-slate-600 leading-relaxed">
+                      {formatRichText(desc)}
+                    </p>
+                  )
                 )}
               </div>
             ) : (
@@ -2545,7 +2636,7 @@ export const FaqList = ({ faqs }) => {
               onClick={() => setOpen(isOpen ? null : i)}
               className="w-full px-5 sm:px-6 py-4 sm:py-5 font-bold text-[16px] text-left text-slate-900 flex justify-between items-center gap-4 hover:bg-slate-50/60 transition-colors bg-transparent border-none cursor-pointer font-sans rounded-2xl"
             >
-              <span className="leading-snug">{formatRichText(q)}</span>
+              <span className="leading-snug">{formatRichText(typeof q === "string" ? cleanMarkdownEscapes(q).replace(/^#{1,6}\s+/, "") : q)}</span>
               <span
                 className={
                   "w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 text-base font-bold transition-all " +
@@ -2590,7 +2681,7 @@ export const FaqList = ({ faqs }) => {
 
 
 export const CtaBand = ({ title, desc, bgImg}) => (
-  <section className="py-16 sm:py-20" id="consult">
+  <section className="py-10 sm:py-12" id="consult">
     <div className="max-w-6xl mx-auto px-6">
       <div className="bg-gradient-to-br from-slate-900 to-slate-800 rounded-3xl px-8 py-14 sm:px-12 text-center text-white relative overflow-hidden">
         {bgImg && (
@@ -2884,7 +2975,7 @@ const RelatedBranches = ({ level, currentSlug, country = "USA" }) => {
 
 
 
-    <section className="py-16 sm:py-20 bg-slate-50">
+    <section className="py-10 sm:py-12 bg-slate-50">
 
 
 
@@ -3389,21 +3480,26 @@ export const EngineeringBranchPage = ({
 
         bgImg={heroBgImg ?? branch?.heroBgImg}
 
-
-
       />
 
-
-
-
-
-
+      {/* OVERVIEW (when provided) */}
+      {Array.isArray(branch.overview) && branch.overview.length > 0 && (
+        <section className="py-10 sm:py-12 bg-slate-50 border-b border-slate-100">
+          <div className="max-w-6xl mx-auto px-6">
+            <EhpHead eyebrow="Overview" title={`${branch.name} in ${inCountry}`} />
+            <Paragraphs
+              items={branch.overview}
+              className="w-full text-slate-600 text-[15px] leading-relaxed space-y-3 [&_strong]:text-slate-900 [&_strong]:font-bold"
+            />
+          </div>
+        </section>
+      )}
 
       {/* WHY STUDY */}
 
 
 
-      <section className="py-16 sm:py-20">
+      <section className="py-10 sm:py-12">
 
 
 
@@ -3463,7 +3559,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20 bg-slate-50">
+      <section className="py-10 sm:py-12 bg-slate-50">
 
 
 
@@ -3527,7 +3623,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20">
+      <section className="py-10 sm:py-12">
 
 
 
@@ -3576,17 +3672,8 @@ export const EngineeringBranchPage = ({
 
 
           <Paragraphs
-
-
-
             items={branch.universitiesNote}
-
-
-
-            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
-
-
-
+            className="mt-6 w-full text-slate-600 text-[15px] leading-relaxed space-y-2.5 [&_strong]:text-slate-900 [&_strong]:font-bold"
           />
 
 
@@ -3611,7 +3698,7 @@ export const EngineeringBranchPage = ({
 
 
 
-        <section className="py-16 sm:py-20 bg-slate-50">
+        <section className="py-10 sm:py-12 bg-slate-50">
 
 
 
@@ -3623,14 +3710,8 @@ export const EngineeringBranchPage = ({
 
 
 
-            <Panel tone="dark" className="max-w-4xl">
-
-
-
+            <Panel className="w-full">
               <Paragraphs items={branch.duration} />
-
-
-
             </Panel>
 
 
@@ -3655,7 +3736,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20" id="eligibility">
+      <section className="py-10 sm:py-12" id="eligibility">
 
 
 
@@ -3663,26 +3744,26 @@ export const EngineeringBranchPage = ({
 
 
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-start">
-            <div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12 items-start">
+            <div className="lg:col-span-2">
               <EhpHead
                 eyebrow="Who can apply"
                 title="Eligibility Requirements for Indian Students"
               />
               <Paragraphs
                 items={branch.eligibilityLead}
-                className="text-slate-500 text-[15px] leading-relaxed space-y-4"
+                className="text-slate-600 text-[15px] leading-relaxed space-y-3"
               />
+              {branch.eligibility && branch.eligibility.length > 0 && (
+                <div className="mt-5">
+                  <CheckList items={branch.eligibility} />
+                </div>
+              )}
             </div>
-            <div className="lg:pt-6">
+            <div className="lg:col-span-1 lg:pt-6 lg:sticky lg:top-24">
               <EligibilityCtaCard level={level} />
             </div>
           </div>
-          {branch.eligibility && branch.eligibility.length > 0 && (
-            <div className="mt-8">
-              <CheckList items={branch.eligibility} />
-            </div>
-          )}
 
 
 
@@ -3702,7 +3783,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20 bg-slate-50">
+      <section className="py-10 sm:py-12 bg-slate-50">
 
 
 
@@ -3822,7 +3903,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20">
+      <section className="py-10 sm:py-12">
 
 
 
@@ -3852,21 +3933,32 @@ export const EngineeringBranchPage = ({
 
           <TileGrid items={branch.costs} />
 
-
-
-          <Paragraphs
-
-
-
-            items={branch.costsNote}
-
-
-
-            className="mt-8 w-full text-slate-500 text-[15px] leading-relaxed space-y-4"
-
-
-
-          />
+          {(() => {
+            const leadSet = new Set(
+              (Array.isArray(branch.costsLead) ? branch.costsLead : [branch.costsLead])
+                .filter(Boolean)
+                .map((s) => String(s).trim().toLowerCase())
+            );
+            const filteredCostsNote = (
+              Array.isArray(branch.costsNote)
+                ? branch.costsNote
+                : branch.costsNote
+                ? [branch.costsNote]
+                : []
+            ).filter((item) => {
+              if (typeof item !== "string") return true;
+              const norm = item.trim().toLowerCase();
+              if (leadSet.has(norm)) return false;
+              if (/^(?:\d+\.\s*)?tuition fees and living expenses$/i.test(item.trim())) return false;
+              return true;
+            });
+            return filteredCostsNote.length > 0 ? (
+              <Paragraphs
+                items={filteredCostsNote}
+                className="mt-6 w-full text-slate-600 text-[15px] leading-relaxed space-y-3"
+              />
+            ) : null;
+          })()}
 
 
 
@@ -3886,7 +3978,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20 bg-slate-50">
+      <section className="py-10 sm:py-12 bg-slate-50">
 
 
 
@@ -3910,55 +4002,21 @@ export const EngineeringBranchPage = ({
 
 
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-
-
-
-            <Panel>
-
-
-
-              <Paragraphs
-
-
-
-                items={branch.scholarshipsLead}
-
-
-
-                className="text-slate-500 text-[15px] leading-relaxed space-y-4 mb-5"
-
-
-
-              />
-
-
-
-              <CheckList items={branch.scholarships} />
-
-
-
-            </Panel>
-
-
-
+          <Panel className="w-full">
             <Paragraphs
-
-
-
-              items={branch.scholarshipsNote}
-
-
-
-              className="text-slate-500 text-[15px] leading-relaxed space-y-4"
-
-
-
+              items={branch.scholarshipsLead}
+              className="text-slate-600 text-[15px] leading-relaxed space-y-3 mb-5"
             />
-
-
-
-          </div>
+            <CheckList items={branch.scholarships} cols={2} />
+            {branch.scholarshipsNote && branch.scholarshipsNote.length > 0 && (
+              <div className="mt-6 pt-5 border-t border-slate-100">
+                <Paragraphs
+                  items={branch.scholarshipsNote}
+                  className="text-slate-600 text-sm leading-relaxed space-y-2"
+                />
+              </div>
+            )}
+          </Panel>
 
 
 
@@ -3978,7 +4036,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20">
+      <section className="py-10 sm:py-12">
 
 
 
@@ -4058,7 +4116,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20 bg-slate-50 overflow-hidden">
+      <section className="py-10 sm:py-12 bg-slate-50 overflow-hidden">
 
 
 
@@ -4122,7 +4180,7 @@ export const EngineeringBranchPage = ({
 
 
 
-      <section className="py-16 sm:py-20" id="faq">
+      <section className="py-10 sm:py-12" id="faq">
 
 
 
@@ -4584,31 +4642,33 @@ const AbroadGroups = ({ groups, tone = "light" }) => {
           );
         }
 
-if (g.t === "pills")
-
+        if (g.t === "pills") {
+          const items = Array.isArray(g.items) ? g.items : [];
+          const hasLongItems = items.some((it) => typeof it === "string" && it.length > 45);
+          if (hasLongItems) {
+            return (
+              <div key={i} className="my-4">
+                <CheckList items={items} cols={items.length > 4 ? 2 : 1} tone={tone} />
+              </div>
+            );
+          }
           return (
-
-            <div key={i} className="flex flex-wrap gap-2.5 my-4">
-
-              {Array.isArray(g.items) && g.items.map((it, idx) => (
-
+            <div key={i} className="flex flex-wrap gap-2 my-4">
+              {items.map((it, idx) => (
                 <span
-
                   key={idx}
-
-                  className="inline-flex items-center px-4 py-2 rounded-xl text-sm font-semibold bg-blue-50 text-blue-700 border border-blue-200/70 shadow-xs hover:bg-blue-100/80 transition-colors"
-
+                  className={
+                    tone === "dark"
+                      ? "inline-flex items-center px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-white/10 text-white border border-white/15"
+                      : "inline-flex items-center px-3 py-1.5 rounded-lg text-xs sm:text-sm font-medium bg-blue-50/80 text-blue-800 border border-blue-200/60"
+                  }
                 >
-
-                  {it}
-
+                  {formatRichText(it)}
                 </span>
-
               ))}
-
             </div>
-
           );
+        }
 
 
 
@@ -4637,154 +4697,49 @@ if (g.t === "ul")
 
 
         if (g.t === "dl")
-
-
-
           return (
-
-
-
-            <div key={i} className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-
-
-
+            <div key={i} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 my-4">
               {Array.isArray(g.pairs) && g.pairs.map((p, j) =>
-
-
-
                 p && p.t ? (
-
-
-
                   <div
-
-
-
                     key={j}
-
-
-
                     className={
-
-
-
                       tone === "dark"
-
-
-
-                        ? "bg-white/[.06] border border-white/10 rounded-xl p-5"
-
-
-
-                        : "bg-slate-50 border border-slate-200 rounded-xl p-5"
-
-
-
+                        ? "bg-white/[.06] border border-white/10 rounded-xl p-4"
+                        : "bg-slate-50/80 border border-slate-200/80 rounded-xl p-4 hover:border-slate-300 transition-colors"
                     }
-
-
-
                   >
-                    <h4
+                    <div
                       className={
-                        "font-bold text-base leading-snug mb-2 flex items-center gap-2 " +
+                        "font-bold text-sm sm:text-[15px] leading-snug mb-1 flex items-center gap-2 " +
                         (tone === "dark" ? "text-white" : "text-slate-900")
                       }
                     >
                       <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0" />
                       <span>{formatRichText(p.t)}</span>
-                    </h4>
-
-
-
-                    <p
-
-
-
+                    </div>
+                    <div
                       className={
-
-
-
-                        "text-sm leading-relaxed " +
-
-
-
-                        (tone === "dark" ? "text-white/75" : "text-slate-500")
-
-
-
+                        "text-xs sm:text-sm leading-relaxed " +
+                        (tone === "dark" ? "text-white/75" : "text-slate-600")
                       }
-
-
-
                     >
-
-
-
-                      {formatRichText(p.d)}
-
-
-
-                    </p>
-
-
-
+                      {typeof p.d === "string" ? <Paragraphs items={p.d} className="space-y-1.5 text-xs sm:text-sm leading-relaxed" tone={tone} /> : formatRichText(p.d)}
+                    </div>
                   </div>
-
-
-
                 ) : (
-
-
-
                   <p
-
-
-
                     key={j}
-
-
-
                     className={
-
-
-
-                      "sm:col-span-2 text-[15px] leading-relaxed " +
-
-
-
-                      (tone === "dark" ? "text-white/80" : "text-slate-500")
-
-
-
+                      "sm:col-span-2 lg:col-span-3 text-[15px] leading-relaxed " +
+                      (tone === "dark" ? "text-white/80" : "text-slate-600")
                     }
-
-
-
                   >
-
-
-
                     {p ? formatRichText(p.d) : null}
-
-
-
                   </p>
-
-
-
                 ),
-
-
-
               )}
-
-
-
             </div>
-
-
-
           );
 
 
@@ -4804,9 +4759,9 @@ if (g.t === "ul")
               </div>
               <div className="pt-0.5">
                 {g.title && (
-                  <h4 className="text-[16px] font-semibold text-slate-900 mb-1">
+                  <h3 className="text-[16px] font-semibold text-slate-900 mb-1">
                     {formatRichText(g.title)}
-                  </h4>
+                  </h3>
                 )}
                 {(g.desc || g.text) && (
                   <p className="text-[15px] text-slate-600 leading-relaxed">
@@ -4819,30 +4774,32 @@ if (g.t === "ul")
         }
 
         if (g.t === "h3" || g.t === "heading") {
+          const rawH3 = g.text || g.title || (Array.isArray(g.items) ? g.items[0] : "");
           return (
             <h3
               key={i}
               className={
-                "text-2xl sm:text-3xl font-bold tracking-tight mt-10 mb-4 " +
+                "text-2xl sm:text-3xl font-bold tracking-tight mt-8 mb-3 " +
                 (tone === "dark" ? "text-white" : "text-slate-900")
               }
             >
-              {formatRichText(g.text || g.title || (Array.isArray(g.items) ? g.items[0] : ""))}
+              {formatRichText(typeof rawH3 === "string" ? cleanMarkdownEscapes(rawH3).replace(/^#{1,6}\s+/, "") : rawH3)}
             </h3>
           );
         }
 
         if (g.t === "h4") {
+          const rawH4 = g.text || g.title || (Array.isArray(g.items) ? g.items[0] : "");
           return (
             <h4
               key={i}
               className={
-                "text-xl sm:text-2xl font-bold tracking-tight mt-8 mb-4 flex items-center gap-2.5 " +
+                "text-xl sm:text-2xl font-bold tracking-tight mt-6 mb-3 flex items-center gap-2.5 " +
                 (tone === "dark" ? "text-white" : "text-slate-900")
               }
             >
               <span className="w-1.5 h-6 rounded-full bg-blue-600 inline-block shrink-0 shadow-xs" />
-              <span>{formatRichText(g.text || g.title || (Array.isArray(g.items) ? g.items[0] : ""))}</span>
+              <span>{formatRichText(typeof rawH4 === "string" ? cleanMarkdownEscapes(rawH4).replace(/^#{1,6}\s+/, "") : rawH4)}</span>
             </h4>
           );
         }
@@ -4883,9 +4840,13 @@ if (g.t === "ul")
           return (
             <div
               key={i}
-              className="my-8 p-6 sm:p-8 rounded-3xl bg-white border border-slate-200/90 shadow-sm hover:shadow-md transition-all duration-300 relative overflow-hidden"
+              className={
+                hasImg
+                  ? "my-8 p-6 sm:p-8 rounded-3xl bg-white border border-slate-200/90 shadow-sm hover:shadow-md transition-all duration-300 relative overflow-hidden"
+                  : "my-6 p-6 sm:p-7 rounded-2xl bg-white border border-slate-200/80 shadow-xs relative overflow-hidden"
+              }
             >
-              {g.pattern && (
+              {hasImg && g.pattern && (
                 <div className="absolute top-0 right-0 w-24 h-24 pointer-events-none overflow-hidden opacity-90">
                   <svg viewBox="0 0 100 100" className="w-full h-full text-blue-500/15 fill-current">
                     <path d="M20,0 Q60,10 100,70 L100,0 Z" />
@@ -4926,20 +4887,14 @@ if (g.t === "ul")
                       </h3>
                     )}
                     {Array.isArray(g.items) && g.items.length > 0 && (
-                      <div className="space-y-3">
-                        {g.items.map((it, itIdx) => (
-                          <p key={itIdx} className="text-[15px] text-slate-600 leading-relaxed">
-                            {formatRichText(it)}
-                          </p>
-                        ))}
-                      </div>
+                      <Paragraphs items={g.items} className="space-y-3 text-[15px] text-slate-600 leading-relaxed" />
                     )}
                     {Array.isArray(g.bullets) && g.bullets.length > 0 && (
                       <ul className="mt-4 space-y-2 text-sm text-slate-600">
                         {g.bullets.map((b, bIdx) => (
                           <li key={bIdx} className="flex items-start gap-2">
                             <span className="text-[#F48C06] font-bold mt-0.5">•</span>
-                            <span>{formatRichText(b)}</span>
+                            <span>{formatRichText(typeof b === "string" ? cleanMarkdownEscapes(b).replace(/^[*\-•]\s+/, "") : b)}</span>
                           </li>
                         ))}
                       </ul>
@@ -4981,20 +4936,14 @@ if (g.t === "ul")
                     )}
                   </div>
                   {Array.isArray(g.items) && g.items.length > 0 && (
-                    <div className="space-y-3">
-                      {g.items.map((it, itIdx) => (
-                        <p key={itIdx} className="text-[15px] text-slate-600 leading-relaxed">
-                          {formatRichText(it)}
-                        </p>
-                      ))}
-                    </div>
+                    <Paragraphs items={g.items} className="space-y-3 text-[15px] text-slate-600 leading-relaxed" />
                   )}
                   {Array.isArray(g.bullets) && g.bullets.length > 0 && (
                     <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2.5 text-sm text-slate-600">
                       {g.bullets.map((b, bIdx) => (
-                        <li key={bIdx} className="flex items-start gap-2 bg-slate-50/80 p-2.5 rounded-xl border border-slate-100">
-                          <span className="text-[#F48C06] font-bold mt-0.5">•</span>
-                          <span>{formatRichText(b)}</span>
+                        <li key={bIdx} className="flex items-start gap-2.5 text-sm text-slate-600 leading-relaxed">
+                          <span className="w-1.5 h-1.5 rounded-full bg-blue-600 shrink-0 mt-2" />
+                          <span>{formatRichText(typeof b === "string" ? cleanMarkdownEscapes(b).replace(/^[*\-•]\s+/, "") : b)}</span>
                         </li>
                       ))}
                     </ul>
@@ -5209,6 +5158,7 @@ export const AbroadCoursePage = ({
     }
   }
   if (!courseBase) courseBase = page.name || "Course";
+  courseBase = stripHeadingNumbering(courseBase);
 
 
 
@@ -5415,7 +5365,7 @@ export const AbroadCoursePage = ({
 
 
 
-        <section className="py-16 sm:py-20">
+        <section className="py-10 sm:py-12">
 
 
 
@@ -5513,7 +5463,7 @@ export const AbroadCoursePage = ({
             s.groups?.find((g) => g && (g.t === "cards" || (Array.isArray(g.items) && g.items.some((it) => it && (it.img || it.image || it.name)))))?.items;
 
           return (
-            <section key={idx} className="py-16 sm:py-20 bg-slate-50" id={s.id || s.slot || "universities"}>
+            <section key={idx} className="py-10 sm:py-12 bg-slate-50" id={s.id || s.slot || "universities"}>
               <div className="max-w-6xl mx-auto px-6">
                 <EhpHead
                   eyebrow={s.eyebrow || "Top Universities"}
@@ -5558,7 +5508,7 @@ export const AbroadCoursePage = ({
 
 
 
-              className={"py-16 sm:py-20 " + (shade || "bg-slate-50") + " overflow-hidden"}
+              className={"py-10 sm:py-12 " + (shade || "bg-slate-50") + " overflow-hidden"}
 
 
 
@@ -5616,7 +5566,7 @@ export const AbroadCoursePage = ({
 
         if (s.slot === "eligibility") {
           return (
-            <section key={idx} className={"py-16 sm:py-20 " + shade} id="eligibility">
+            <section key={idx} className={"py-10 sm:py-12 " + shade} id="eligibility">
               <div className="max-w-6xl mx-auto px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12 items-start">
                   <div className="lg:col-span-2">
@@ -5646,7 +5596,7 @@ export const AbroadCoursePage = ({
 
 
 
-            <section key={idx} className={"py-16 sm:py-20 " + shade} id={s.id || s.slot}>
+            <section key={idx} className={"py-10 sm:py-12 " + shade} id={s.id || s.slot}>
 
 
 
@@ -5754,7 +5704,7 @@ export const AbroadCoursePage = ({
 
 
 
-          <section key={idx} className={"py-16 sm:py-20 " + shade}>
+          <section key={idx} className={"py-10 sm:py-12 " + shade}>
 
 
 
@@ -5771,7 +5721,7 @@ export const AbroadCoursePage = ({
               )}
               {s.groups && s.groups.length > 0 && (
                 boxed ? (
-                  <Panel className="max-w-4xl">
+                  <Panel className="w-full">
                     <AbroadGroups groups={s.groups} />
                   </Panel>
                 ) : (
@@ -5807,7 +5757,7 @@ export const AbroadCoursePage = ({
 
 
       {effectiveFaqs?.length > 0 && (
-        <section id="faq" className="py-16 sm:py-20">
+        <section id="faq" className="py-10 sm:py-12">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-10">
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-600 mb-1.5">
@@ -5844,7 +5794,7 @@ export const AbroadCoursePage = ({
 
 
 
-        title={page.ctaTitle || (page.name.toLowerCase().includes(inCountry.toLowerCase()) ? `Plan your ${page.name} journey with Edu Hawk Worldwide` : `Plan your ${page.name} journey to ${inCountry} with Edu Hawk Worldwide`)}
+        title={page.ctaTitle || (courseBase.toLowerCase().includes(inCountry.toLowerCase()) ? `Plan your ${courseBase} journey with Edu Hawk Worldwide` : `Plan your ${courseBase} journey to ${inCountry} with Edu Hawk Worldwide`)}
 
 
 

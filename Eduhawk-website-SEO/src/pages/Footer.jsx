@@ -445,9 +445,9 @@ export default function Footer() {
                   sizes="(max-width: 640px) 180px, 244px"
                 />
               <div>
-                <h3 className="text-white font-bold text-xl tracking-tight">
+                <p className="text-white font-bold text-xl tracking-tight">
                   Edu-Hawk Worldwide
-                </h3>
+                </p>
                 <p className="text-amber-400 text-xs uppercase tracking-widest mt-0.5">
                   Overseas Medical Education
                 </p>
@@ -501,9 +501,9 @@ export default function Footer() {
 
           {/* Popular Destinations */}
           <div>
-            <h4 className="text-amber-400 font-semibold uppercase tracking-wider text-xs mb-4">
+            <p className="text-amber-400 font-semibold uppercase tracking-wider text-xs mb-4">
               Popular Destinations
-            </h4>
+            </p>
             <div className="space-y-2 text-sm">
               {COUNTRIES.map((c) => (
                 <Link
@@ -522,9 +522,9 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-amber-400 font-semibold uppercase tracking-wider text-xs mb-4">
+            <p className="text-amber-400 font-semibold uppercase tracking-wider text-xs mb-4">
               Quick Links
-            </h4>
+            </p>
             <div className="space-y-2 text-sm">
               {[
                 { label: "Home", path: "/" },
@@ -546,9 +546,9 @@ export default function Footer() {
 
           {/* Newsletter + Contact */}
           <div>
-            <h4 className="text-amber-400 font-semibold uppercase tracking-wider text-xs mb-4">
+            <p className="text-amber-400 font-semibold uppercase tracking-wider text-xs mb-4">
               Stay Updated
-            </h4>
+            </p>
 
             <div className="mt-6 text-sm">
               <div className="text-gray-400 mb-1.5">Contact Us</div>

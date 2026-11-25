@@ -1,6 +1,45 @@
 import React, { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import SeoHead from "../../../../component/SeoHead.jsx";
 import nursingData from "../../../../data/study_abroad/usa/nursing.json";
+import {
+  GraduationCap,
+  MapPin,
+  CheckCircle2,
+  Building2,
+  Stethoscope,
+  Globe2,
+  DollarSign,
+  TrendingUp,
+  FileCheck,
+  Award,
+  ChevronDown,
+  ArrowRight,
+  ShieldCheck,
+  BookOpen,
+  Calendar,
+  Sparkles,
+  FileText,
+} from "lucide-react";
+
+import upennImg from "../../../../Images/Abroad/USA/Nursing/university-of-pennsylvania.webp";
+import jhuImg from "../../../../Images/Abroad/USA/Nursing/johns-hopkins-university.webp";
+import dukeImg from "../../../../Images/Abroad/USA/Nursing/duke-university.webp";
+import ucsfImg from "../../../../Images/Abroad/USA/Nursing/university-of-california-san-francisco.webp";
+import uwImg from "../../../../Images/Abroad/USA/Nursing/university-of-washington.webp";
+
+const universityImageMap = {
+  upenn: upennImg,
+  jhu: jhuImg,
+  duke: dukeImg,
+  ucsf: ucsfImg,
+  uw: uwImg,
+  "University of Pennsylvania": upennImg,
+  "Johns Hopkins University": jhuImg,
+  "Duke University": dukeImg,
+  "University of California, San Francisco": ucsfImg,
+  "University of Washington": uwImg,
+};
 
 const NursingAbroad = () => {
   const [openFaq, setOpenFaq] = useState(null);
@@ -11,9 +50,7 @@ const NursingAbroad = () => {
   };
 
   useEffect(() => {
-    const sections = pageRef.current?.querySelectorAll(
-      "section:not(.nursing-hero)",
-    );
+    const sections = pageRef.current?.querySelectorAll("section:not(.nursing-hero)");
     if (!sections) return;
 
     if (
@@ -33,7 +70,7 @@ const NursingAbroad = () => {
           }
         });
       },
-      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
+      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
     );
 
     sections.forEach((section) => {
@@ -44,49 +81,14 @@ const NursingAbroad = () => {
     return () => observer.disconnect();
   }, []);
 
-  const stats = (nursingData?.stats && nursingData.stats.length > 0)
-    ? nursingData.stats.map((s) => ({ label: s.l, value: s.n }))
-    : [
-        { label: "Programs", value: "BSc Nursing, GNM, MSc Nursing & Allied" },
-        { label: "Countries", value: "12+ destinations with good recognition" },
-        { label: "Support", value: "End-to-end guidance from profile to arrival" },
-        { label: "Approach", value: "Transparent fees, honest counselling & outcome focus" },
-      ];
-
-  const features = [
-    {
-      title: "Recognised universities only",
-      desc: "We shortlist universities that are well-recognised and accepted for further studies or licensing in India and other countries.",
-      color: "bg-indigo-50 text-indigo-600",
-    },
-    {
-      title: "Clear total cost breakdown",
-      desc: "Tuition, hostel, living expenses, insurance, visa and travel — you see the complete year-wise budget before applying.",
-      color: "bg-violet-50 text-violet-600",
-    },
-    {
-      title: "Complete application & visa support",
-      desc: "Documents, applications, offer letters, scholarship guidance and visa file preparation handled end-to-end.",
-      color: "bg-purple-50 text-purple-600",
-    },
-    {
-      title: "Accommodation & pre-departure help",
-      desc: "Hostel booking, flight planning, forex guidance and first-week orientation support before you leave India.",
-      color: "bg-orange-50 text-orange-600",
-    },
-    {
-      title: "Profile & eligibility guidance",
-      desc: "Honest evaluation of your Class 12 marks, English scores and budget to match the right country and university.",
-      color: "bg-indigo-50 text-indigo-600",
-    },
-    {
-      title: "Country comparison made simple",
-      desc: "Philippines, Germany, Canada, UK, Australia and more — compared on fees, clinical exposure, job opportunities and recognition.",
-      color: "bg-violet-50 text-violet-600",
-    },
+  const stats = nursingData?.stats || [
+    { n: "BSN & MSN", l: "Top Degree Pathways" },
+    { n: "NCLEX-RN", l: "State Licensure Track" },
+    { n: "$97,550", l: "Median Annual Wage (BLS)" },
+    { n: "100%", l: "Visa & Admission Support" },
   ];
 
-  const usaBenefits = [
+  const benefits = nursingData?.benefits || [
     {
       title: "Globally Recognised Education",
       desc: "Many U.S. universities offer nursing programs with strong academic and clinical components.",
@@ -109,7 +111,7 @@ const NursingAbroad = () => {
     },
   ];
 
-  const bsnSubjects = [
+  const bsnSubjects = nursingData?.courses?.bsn?.subjects || [
     "Nursing fundamentals",
     "Anatomy and physiology",
     "Pharmacology",
@@ -121,26 +123,59 @@ const NursingAbroad = () => {
     "Clinical practice",
   ];
 
-  const graduatePrograms = [
-    "Master of Science in Nursing",
-    "Doctor of Nursing Practice",
+  const graduatePrograms = nursingData?.courses?.graduate?.programs || [
+    "Master of Science in Nursing (MSN)",
+    "Doctor of Nursing Practice (DNP)",
     "Nursing Leadership",
     "Nursing Education",
     "Advanced Nursing Practice",
     "Specialised Nursing Programs",
   ];
 
-  const topUniversities = (nursingData?.universities && nursingData.universities.length > 0)
-    ? nursingData.universities.map((u) => u.name)
-    : [
-        "University of Pennsylvania",
-        "Johns Hopkins University",
-        "Duke University",
-        "University of California, San Francisco",
-        "University of Washington",
-      ];
+  const universities = nursingData?.universities || [
+    {
+      id: "upenn",
+      name: "University of Pennsylvania",
+      location: "Philadelphia, Pennsylvania",
+      image: "university-of-pennsylvania.webp",
+      tag: "Ivy League Institution",
+      desc: "Ranked among the premier nursing schools globally, Penn Nursing integrates rigorous coursework with advanced clinical exposure at the Hospital of the University of Pennsylvania.",
+    },
+    {
+      id: "jhu",
+      name: "Johns Hopkins University",
+      location: "Baltimore, Maryland",
+      image: "johns-hopkins-university.webp",
+      tag: "World-Renowned Healthcare Leader",
+      desc: "Consistently recognized as a global leader in nursing education and research, affiliated with the world-famous Johns Hopkins Hospital and health system.",
+    },
+    {
+      id: "duke",
+      name: "Duke University",
+      location: "Durham, North Carolina",
+      image: "duke-university.webp",
+      tag: "Top Clinical Simulation & Research",
+      desc: "Duke University School of Nursing is renowned for its clinical innovation, advanced simulation labs, accelerated BSN, and high NCLEX-RN passing rates.",
+    },
+    {
+      id: "ucsf",
+      name: "University of California, San Francisco",
+      location: "San Francisco, California",
+      image: "university-of-california-san-francisco.webp",
+      tag: "Health Sciences Pioneer",
+      desc: "UCSF School of Nursing focuses exclusively on health sciences and healthcare delivery, offering top graduate, MSN, and doctoral nursing programs.",
+    },
+    {
+      id: "uw",
+      name: "University of Washington",
+      location: "Seattle, Washington",
+      image: "university-of-washington.webp",
+      tag: "Excellence in Public Health Nursing",
+      desc: "A top-ranked public university offering comprehensive nursing degrees, high-impact clinical rotations across the Pacific Northwest, and global health research.",
+    },
+  ];
 
-  const comparisonPoints = [
+  const comparisonPoints = nursingData?.comparisonPoints || [
     "Nursing program curriculum",
     "Accreditation",
     "Clinical training",
@@ -153,26 +188,24 @@ const NursingAbroad = () => {
     "Career opportunities",
   ];
 
-  const undergradEligibility = [
+  const undergradEligibility = nursingData?.eligibility?.undergrad?.points || [
     "Completion of Class 12 or equivalent qualification",
-    "Appropriate academic background",
-    "Required science subjects, where specified",
-    "English-language proficiency",
-    "Academic transcripts",
-    "Meeting the university's minimum academic requirements",
+    "Appropriate academic background in science subjects (Biology, Chemistry, Physics)",
+    "English-language proficiency (IELTS / TOEFL / PTE / Duolingo)",
+    "Official academic transcripts",
+    "Meeting the university's minimum academic percentage or GPA",
   ];
 
-  const gradEligibility = [
-    "A recognised bachelor's degree",
-    "Nursing qualification, where required",
-    "Appropriate academic background",
-    "Nursing registration/licensure, where applicable",
-    "Professional experience for certain programs",
-    "English-language proficiency",
+  const gradEligibility = nursingData?.eligibility?.grad?.points || [
+    "A recognised bachelor's degree in nursing or relevant healthcare field",
+    "Nursing qualification and active nursing registration/licensure, where required",
+    "Appropriate academic background & minimum GPA",
+    "Professional clinical work experience for certain advanced programs",
+    "English-language proficiency test results",
     "Additional university-specific requirements",
   ];
 
-  const admissionAcademic = [
+  const academicReqs = nursingData?.requirements?.academic || [
     "Class 10 and Class 12 marksheets",
     "Academic transcripts",
     "Degree certificates, where applicable",
@@ -180,9 +213,14 @@ const NursingAbroad = () => {
     "Minimum GPA or academic percentage",
   ];
 
-  const englishTests = ["IELTS", "TOEFL", "PTE", "Duolingo English Test"];
+  const englishTests = nursingData?.requirements?.english || [
+    "IELTS",
+    "TOEFL",
+    "PTE",
+    "Duolingo English Test",
+  ];
 
-  const livingExpenses = [
+  const livingExpenses = nursingData?.cost?.livingExpenses || [
     "Accommodation",
     "Food",
     "Transportation",
@@ -195,11 +233,11 @@ const NursingAbroad = () => {
     "Licensing and examination fees",
   ];
 
-  const admissionSteps = [
+  const admissionSteps = nursingData?.admissionSteps || [
     {
       step: 1,
       title: "Profile Assessment",
-      desc: "Evaluate Academic Background + Science Subjects + English Proficiency + Budget + Career Goals",
+      desc: "Evaluate Academic Background + Science Subjects + English Proficiency + Budget + Career Goals.",
     },
     {
       step: 2,
@@ -229,7 +267,7 @@ const NursingAbroad = () => {
     {
       step: 7,
       title: "Financial & Visa Preparation",
-      desc: "Plan finances and complete the required U.S. student visa process.",
+      desc: "Plan finances and complete the required U.S. student visa process (Form I-20 & F-1 Visa).",
     },
     {
       step: 8,
@@ -238,16 +276,16 @@ const NursingAbroad = () => {
     },
   ];
 
-  const licensingPoints = [
-    "Credential evaluation",
+  const licensingPoints = nursingData?.licensing?.internationalNurses || [
+    "Credential evaluation (CGFNS or state equivalent)",
     "Education verification",
     "English-language requirements, where applicable",
     "State-specific documentation",
     "Eligibility determination",
-    "NCLEX examination",
+    "NCLEX-RN examination",
   ];
 
-  const workSettings = [
+  const workSettings = nursingData?.careers?.workSettings || [
     "Hospitals",
     "Outpatient clinics",
     "Physicians' offices",
@@ -258,7 +296,7 @@ const NursingAbroad = () => {
     "Government healthcare facilities",
   ];
 
-  const careerAreas = [
+  const careerAreas = nursingData?.careers?.specializations || [
     "Medical-Surgical Nursing",
     "Critical Care Nursing",
     "Emergency Nursing",
@@ -272,7 +310,7 @@ const NursingAbroad = () => {
     "Advanced Practice Nursing",
   ];
 
-  const academicDocs = [
+  const academicDocs = nursingData?.documents?.academic || [
     "Class 10 certificate and marksheet",
     "Class 12 certificate and marksheet",
     "Bachelor's degree and transcripts, where applicable",
@@ -281,122 +319,52 @@ const NursingAbroad = () => {
     "Course completion certificates",
   ];
 
-  const applicationDocs = [
+  const applicationDocs = nursingData?.documents?.application || [
     "Valid passport",
-    "English-language test score",
-    "Statement of Purpose",
-    "Letters of Recommendation",
+    "English-language test score (IELTS/TOEFL/PTE/Duolingo)",
+    "Statement of Purpose (SOP)",
+    "Letters of Recommendation (LOR)",
     "Resume/CV, where required",
     "Personal essay, where required",
     "Completed application forms",
     "Passport-size photographs, if requested",
   ];
 
-  const financialVisaDocs = [
+  const visaDocs = nursingData?.documents?.visa || [
     "Proof of financial support",
     "Financial/bank documents as required",
     "University admission letter",
     "Form I-20",
-    "Student visa application documents",
+    "Student visa application documents (DS-160, SEVIS fee receipt)",
     "Other documents required by the relevant authorities",
   ];
 
-  const eligibility = [
-    "Minimum 45–50% in Class 12 (PCB or any stream depending on the country and course)",
-    "Age 17 years or above at the time of admission",
-    "Valid passport and academic transcripts ready before deadlines",
-    "English proficiency (IELTS / PTE / Duolingo or Medium of Instruction certificate as required)",
-    "Proof of funds / financial documents for the visa process",
-    "Some countries may require additional entrance tests or interviews",
-  ];
-
-  const destinations = [
-    { name: "Philippines", highlight: true },
-    { name: "Germany", highlight: true },
-    { name: "Canada", highlight: true },
-    { name: "UK", highlight: true },
-    { name: "Australia", highlight: false },
-    { name: "USA", highlight: false },
-    { name: "Ireland", highlight: false },
-    { name: "New Zealand", highlight: false },
-  ];
-
-  const processSteps = [
+  const faqs = nursingData?.faqs || [
     {
-      step: 1,
-      title: "Free profile evaluation",
-      desc: "Share your Class 12 marks, English scores, budget and preferred countries. We give an honest assessment.",
+      q: "Can Indian students study nursing in the USA?",
+      a: "Yes. Indian students can apply to eligible nursing programs in the USA if they meet the academic, English-language and university-specific admission requirements.",
     },
     {
-      step: 2,
-      title: "University shortlisting",
-      desc: "We shortlist recognised universities that match your academic profile, budget and career goals in nursing.",
+      q: "After 12th grade, can I pursue a BSN in the United States?",
+      a: "Yes, eligible international students can explore Bachelor of Science in Nursing (BSN) programs after Class 12. However, admission requirements, prerequisite subjects and international student eligibility vary by university.",
     },
     {
-      step: 3,
-      title: "Application & admission",
-      desc: "Document preparation, application filing, offer letter and further process support till you secure the seat.",
+      q: "Is NCLEX-RN required to work as a nurse in the USA?",
+      a: "Generally, candidates seeking Registered Nurse licensure need to meet the relevant state Board of Nursing requirements and pass the NCLEX-RN. Licensing requirements vary by state.",
     },
     {
-      step: 4,
-      title: "Visa guidance",
-      desc: "Complete visa file preparation, financial documents checklist and interview guidance.",
+      q: "What is the average nursing salary in USA?",
+      a: "The U.S. Bureau of Labor Statistics reported a median annual wage of $97,550 for Registered Nurses in May 2025. Actual salary depends on location, experience, specialty, employer and work setting.",
     },
     {
-      step: 5,
-      title: "Pre-departure & arrival support",
-      desc: "Hostel allocation, flight guidance, airport pickup coordination and first-week settling support.",
+      q: "Can Indian nurses work in the USA?",
+      a: "Yes, Indian-trained nurses may pursue U.S. nursing licensure, but an Indian nursing qualification does not automatically provide authorization to practise in the USA. Candidates must satisfy the requirements of the relevant state Board of Nursing and complete the applicable licensing process.",
+    },
+    {
+      q: "How can Edu Hawk worldwide help me study abroad?",
+      a: "Edu Hawk worldwide assists students in exploring suitable universities, understanding admission standards, organizing application documents, and preparing for the study-abroad journey.",
     },
   ];
-
-  const faqs = (nursingData?.faq && nursingData.faq.length > 0)
-    ? nursingData.faq.map((f) => ({ q: f.question, a: f.answer }))
-    : [
-        {
-          q: "Is NEET required for Nursing abroad?",
-          a: "No. NEET is not mandatory for Nursing courses abroad. Admission is mainly based on Class 12 marks and English proficiency scores.",
-        },
-        {
-          q: "Which countries are best for Nursing abroad?",
-          a: "Philippines, Germany, Canada, UK and Australia are among the most preferred destinations. Philippines is popular for affordable fees, while Germany, Canada and UK offer strong job opportunities after graduation.",
-        },
-        {
-          q: "What is the total cost of Nursing abroad?",
-          a: "Total cost usually ranges between ₹12–45 lakhs depending on the country and university. Philippines is more affordable, while Canada, UK and Australia are higher. We provide a clear cost sheet before you apply.",
-        },
-        {
-          q: "Can I work while studying Nursing abroad?",
-          a: "Yes. Most popular countries allow part-time work (usually 20 hours per week during studies). This helps students manage living expenses.",
-        },
-        {
-          q: "When should I start the process?",
-          a: "Ideally 8–12 months before the intake. Early application helps with better university options, scholarships and smoother visa processing.",
-        },
-        {
-          q: "Can Indian students study nursing in the USA?",
-          a: "Yes. Indian students can apply to eligible nursing programs in the USA if they meet the academic, English-language and university-specific admission requirements.",
-        },
-        {
-          q: "After 12th grade, can I pursue a BSN in the United States?",
-          a: "Yes, eligible international students can explore Bachelor of Science in Nursing (BSN) programs after Class 12. However, admission requirements, prerequisite subjects and international student eligibility vary by university.",
-        },
-        {
-          q: "Is NCLEX-RN required to work as a nurse in the USA?",
-          a: "Generally, candidates seeking Registered Nurse licensure need to meet the relevant state Board of Nursing requirements and pass the NCLEX-RN. Licensing requirements vary by state.",
-        },
-        {
-          q: "What is the average nursing salary in USA?",
-          a: "The U.S. Bureau of Labor Statistics reported a median annual wage of $97,550 for Registered Nurses in May 2025. Actual salary depends on location, experience, specialty, employer and work setting.",
-        },
-        {
-          q: "Can Indian nurses work in the USA?",
-          a: "Yes, Indian-trained nurses may pursue U.S. nursing licensure, but an Indian nursing qualification does not automataically provide authorization to practise in the USA. Candidates must satisfy the requirements of the relevant state Board of Nursing and complete the applicable licensing process.",
-        },
-        {
-          q: "How can Edu Hawk worldwide help me study abroad?",
-          a: "Edu Hawk worldwide can help students explore suitable universities, understand admission requirements, organise application documents, and plan their study-abroad journey. Students should verify academic, financial, immigration, and licensing requirements with the relevant official authorities.",
-        },
-      ];
 
   return (
     <div
@@ -404,718 +372,633 @@ const NursingAbroad = () => {
       className="nursing-page font-sans text-slate-800 bg-white min-h-screen antialiased"
     >
       <SeoHead
-        title="Study Nursing Abroad for Indian Students | Edu Hawk"
-        description="Nursing is one of the most in-demand professions worldwide. Edu Hawk helps you choose nursing courses abroad with clear costs and complete admission support."
+        title={
+          nursingData?.seo?.title ||
+          "Study Nursing in USA for Indian Students | BSN, Top Universities, NCLEX & Fees"
+        }
+        description={
+          nursingData?.seo?.description ||
+          "Comprehensive guide for Indian students to study Nursing in the USA. Explore BSN & graduate programs, top universities, tuition fees, NCLEX-RN licensing, salary & career scope."
+        }
+        keywords={nursingData?.seo?.keywords?.join(", ")}
         path="/study-abroad/usa/nursing"
         ogType="website"
       />
+
       <style>{`
         @keyframes nursing-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
-          50% { transform: translate3d(0, -16px, 0); }
+          50% { transform: translate3d(0, -10px, 0); }
         }
-        @keyframes nursing-image-in {
-          from { opacity: 0; transform: translateX(24px) scale(.98); }
-          to { opacity: 1; transform: translateX(0) scale(1); }
+        .nursing-hero-image {
+          animation: nursing-float 7s ease-in-out infinite;
+          will-change: transform;
         }
-        @keyframes nursing-card-in {
-          from { opacity: 0; transform: translateY(16px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        .nursing-page .nursing-reveal {
+        .nursing-reveal {
           opacity: 0;
-          transform: translateY(24px);
-          transition: opacity .65s ease, transform .65s cubic-bezier(.2, .7, .2, 1);
+          transform: translateY(22px);
+          transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
         }
-        .nursing-page .nursing-reveal.is-visible {
+        .nursing-reveal.is-visible {
           opacity: 1;
           transform: translateY(0);
         }
-        .nursing-page .nursing-hero-glow {
-          animation: nursing-float 8s ease-in-out infinite;
-        }
-        .nursing-page .nursing-hero-image {
-          animation: nursing-image-in .8s ease-out .15s both;
-        }
-        .nursing-page .nursing-card {
-          animation: nursing-card-in .55s ease-out backwards;
-          animation-delay: var(--card-delay, 0ms);
-          transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
-        }
-        .nursing-page .nursing-card:hover {
-          transform: translateY(-4px);
-          box-shadow: 0 16px 35px rgba(15, 23, 42, .09);
-        }
-        .nursing-page .nursing-university-image {
-          transition: transform .7s cubic-bezier(.2, .7, .2, 1);
-        }
-        .nursing-page .nursing-card:hover .nursing-university-image {
-          transform: scale(1.08);
-        }
-        .nursing-page section h2 {
-          letter-spacing: -.025em;
-        }
-        @media (max-width: 1023px) {
-          .nursing-page .nursing-hero-image {
-            height: clamp(14rem, 52vw, 24rem);
-          }
-        }
-        @media (max-width: 639px) {
-          .nursing-page {
-            overflow-x: clip;
-          }
-          .nursing-page section:not(.nursing-hero) {
-            padding-top: 3rem;
-            padding-bottom: 3rem;
-          }
-          .nursing-page .max-w-6xl {
-            padding-left: 1rem;
-            padding-right: 1rem;
-          }
-          .nursing-page h1 {
-            font-size: clamp(2rem, 9vw, 2.5rem);
-            letter-spacing: -.035em;
-          }
-          .nursing-page h2 {
-            text-wrap: balance;
-          }
-          .nursing-page section a {
-            min-height: 2.75rem;
-          }
-          .nursing-page .nursing-hero-glow {
-            width: 18rem;
-            height: 18rem;
-          }
-          .nursing-page img:not(.nursing-hero-image) {
-            max-height: 24rem;
-          }
-        }
-        @media (hover: none) {
-          .nursing-page .nursing-card:hover {
-            transform: none;
-            box-shadow: none;
-          }
-        }
-        @media (prefers-reduced-motion: reduce) {
-          .nursing-page *,
-          .nursing-page *::before,
-          .nursing-page *::after {
-            animation-duration: .01ms !important;
-            animation-iteration-count: 1 !important;
-            scroll-behavior: auto !important;
-            transition-duration: .01ms !important;
-          }
-        }
       `}</style>
+
       {/* ================= HERO ================= */}
       <section className="nursing-hero bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 text-white pt-12 pb-14 sm:pt-16 sm:pb-20 relative overflow-hidden">
         <div className="nursing-hero-glow absolute top-[-30%] right-[-10%] w-[500px] h-[500px] bg-indigo-600/20 rounded-full blur-3xl pointer-events-none" />
-        
+
         <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <div>
-              <div className="text-sm text-white/50 mb-5">
-                Home <span className="mx-1.5">›</span> Study Abroad{" "}
-                <span className="mx-1.5">›</span> Nursing
+              <div className="text-sm text-white/50 mb-4 flex items-center gap-1.5 flex-wrap">
+                <Link to="/" className="hover:text-white transition-colors">Home</Link>
+                <span>›</span>
+                <Link to="/study-abroad" className="hover:text-white transition-colors">Study Abroad</Link>
+                <span>›</span>
+                <span className="text-white/80">USA</span>
+                <span>›</span>
+                <span className="text-indigo-300 font-medium">Nursing</span>
               </div>
-              
-              <div className="text-xs font-semibold tracking-wider uppercase text-indigo-300 mb-3">
-                Study Nursing · Abroad
+
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-semibold uppercase tracking-wider mb-4">
+                <Sparkles size={13} className="text-amber-300" />
+                <span>Premier US Healthcare Education</span>
               </div>
-              
+
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
-                <span className="bg-gradient-to-r from-indigo-400 to-amber-300 bg-clip-text text-transparent">
-                  Nursing Abroad
+                <span className="bg-gradient-to-r from-indigo-400 via-sky-300 to-amber-300 bg-clip-text text-transparent">
+                  Nursing in the USA
                 </span>{" "}
-                with confidence
+                for Indian Students
               </h1>
 
-              <p className="text-base sm:text-lg text-white/70 max-w-xl mb-8 leading-relaxed">
-                Studying Nursing abroad opens doors to advanced clinical training, global healthcare exposure, and high-demand international career opportunities, backed by Edu Hawk's end-to-end admission, university selection, and visa support.
+              <p className="text-base sm:text-lg text-white/80 max-w-xl mb-8 leading-relaxed font-light">
+                {nursingData?.hero?.subtitle ||
+                  "A comprehensive roadmap on Bachelor of Science in Nursing (BSN), top accredited universities, NCLEX-RN licensure, cost breakdown, and high-demand healthcare careers in the United States."}
               </p>
 
               <div className="flex flex-col sm:flex-row flex-wrap gap-3.5">
-                <a
-                  href="/contact"
-                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
+                <Link
+                  to="/contact"
+                  className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 sm:px-7 py-3.5 rounded-xl font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-500 transition-all shadow-lg shadow-indigo-600/30 hover:shadow-indigo-600/40"
                 >
-                  Book free counselling
-                </a>
+                  <span>Book Free Counselling</span>
+                  <ArrowRight size={18} />
+                </Link>
                 <a
                   href="#usa-universities"
-                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
+                  className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-xl font-semibold text-base border border-white/25 text-white hover:bg-white/10 hover:border-white transition-all"
                 >
-                  View universities
+                  View Top Universities
                 </a>
               </div>
             </div>
 
             <div className="relative mt-2 lg:mt-0">
-              <img
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
-                alt="Nursing students abroad"
-                className="nursing-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-                  srcSet="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 2x"
-                  sizes="100vw"
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10">
+                <img
+                  src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
+                  alt="Nursing students in USA"
+                  className="nursing-hero-image object-cover w-full h-64 sm:h-80 lg:h-[440px]"
+                  loading="eager"
                 />
-              <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
-                Trusted by 1000+ Indian students
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent pointer-events-none" />
+                <div className="absolute bottom-4 left-4 right-4 bg-slate-900/85 backdrop-blur-md p-4 rounded-xl border border-white/10">
+                  <div className="flex items-center justify-between text-xs sm:text-sm text-slate-200">
+                    <span className="font-semibold text-white">Median Registered Nurse Wage:</span>
+                    <span className="text-emerald-400 font-bold">$97,550 / year (BLS)</span>
+                  </div>
+                  <div className="text-xs text-slate-400 mt-1">180,800+ Annual Openings Projected in the US</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ================= STATS ================= */}
-      <section className="bg-slate-50 pt-12 pb-16">
+      {/* ================= STATS BAR ================= */}
+      <section className="bg-slate-50 border-b border-slate-200/80 py-10">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-9">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              At a glance
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Nursing Abroad at a glance
-            </h2>
-          </div>
-          
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
             {stats.map((item, i) => (
               <div
                 key={i}
-                className="nursing-card bg-white border border-slate-200 rounded-2xl p-5 shadow-sm"
-                style={{ "--card-delay": `${i * 80}ms` }}
+                className="bg-white border border-slate-200/90 rounded-2xl p-5 shadow-xs hover:border-indigo-300 transition-colors"
               >
-                <span className="block text-[13px] text-slate-500 font-medium mb-1.5">
-                  {item.label}
-                </span>
-                <strong className="text-[15px] text-slate-900 font-semibold leading-snug">
-                  {item.value}
-                </strong>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================= OVERVIEW + FEATURES ================= */}
-      <section className="py-16 sm:py-20" id="overview">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-            <div>
-              <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-                Overview
-              </div>
-              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-                Nursing Courses Abroad with Edu Hawk
-              </h2>
-              
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Nursing is a highly respected and globally demanded profession. Studying Nursing abroad gives students access to advanced clinical training, modern healthcare systems and better career opportunities.
-              </p>
-              
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Countries like Philippines, Germany, Canada, UK and Australia are popular among Indian students because of quality education, clinical exposure and post-study work options.
-              </p>
-              
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-6">
-                At Edu Hawk, we help you choose the right destination based on your budget, academic profile and long-term goals — with complete transparency in fees and process.
-              </p>
-              
-              <a
-                href="/contact"
-                className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline"
-              >
-                Get free profile evaluation
-              </a>
-            </div>
-
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80"
-                loading="lazy"
-                alt="Nursing education abroad"
-                className="rounded-2xl shadow-xl object-cover w-full h-[390px]"
-                  srcSet="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80 1x, https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=900&q=80 2x"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              <div className="absolute -bottom-5 -left-5 bg-gradient-to-br from-indigo-600 to-violet-500 rounded-2xl p-6 text-white shadow-xl hidden sm:block">
-                <div className="text-3xl font-bold leading-none">12–45L</div>
-                <div className="text-sm opacity-90 mt-1">Approx. total budget range</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {features.map((f, i) => (
-              <div
-                key={i}
-                className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 hover:border-indigo-200"
-                style={{ "--card-delay": `${i * 70}ms` }}
-              >
-                <div className={`w-[42px] h-[42px] rounded-xl grid place-items-center mb-4 ${f.color}`}>
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4">
-                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                <div className="text-xs sm:text-sm text-slate-500 font-medium mb-1">
+                  {item.l}
                 </div>
-                <h3 className="text-[17px] font-semibold text-slate-900 mb-2">{f.title}</h3>
-                <p className="text-sm text-slate-500 leading-relaxed">{f.desc}</p>
+                <div className="text-xl sm:text-2xl font-bold text-indigo-950">
+                  {item.n}
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ================= 1. WHY STUDY NURSING IN USA ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="why-usa">
+      {/* ================= 1. WHY STUDY NURSING IN THE USA? ================= */}
+      <section className="py-10 sm:py-14" id="why-usa">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Study in USA
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
               Why Study Nursing in the USA?
+            </div>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+              Access One of the World's Most Advanced Healthcare Systems
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              Choosing to study nursing in the USA can provide access to a highly developed healthcare and education system.
+            <p className="text-slate-600 text-base leading-relaxed">
+              Choosing to study nursing in the USA provides access to cutting-edge clinical learning, internationally recognized credentials, and extensive career opportunities across state and private healthcare networks.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-8">
-            {usaBenefits.map((item, i) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {benefits.map((b, i) => (
               <div
                 key={i}
-                className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 hover:border-indigo-200"
-                style={{ "--card-delay": `${i * 70}ms` }}
+                className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs hover:border-indigo-200 hover:shadow-md transition-all group"
               >
-                <div className="w-[42px] h-[42px] rounded-xl grid place-items-center mb-4 bg-indigo-50 text-indigo-600">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4">
-                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                <div className="w-12 h-12 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center mb-5 group-hover:bg-indigo-600 group-hover:text-white transition-colors">
+                  {i === 0 && <Globe2 size={24} />}
+                  {i === 1 && <Building2 size={24} />}
+                  {i === 2 && <BookOpen size={24} />}
+                  {i === 3 && <Stethoscope size={24} />}
+                  {i === 4 && <TrendingUp size={24} />}
                 </div>
-                <h3 className="text-[17px] font-semibold text-slate-900 mb-2">{item.title}</h3>
-                <p className="text-sm text-slate-500 leading-relaxed">{item.desc}</p>
+                <h3 className="font-bold text-slate-900 text-lg mb-2 group-hover:text-indigo-600 transition-colors">
+                  {b.title}
+                </h3>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  {b.desc}
+                </p>
               </div>
             ))}
           </div>
 
-          <p className="text-slate-500 text-[15px] leading-relaxed mb-3">
-            Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.
-          </p>
-          <p className="text-slate-500 text-[15px] leading-relaxed">
-            Through Edu Hawk study abroad guidance, students can explore these opportunities and understand the requirements involved in pursuing nursing education overseas.
-          </p>
+          {/* Edu Hawk Worldwide Guidance Banner */}
+          <div className="bg-gradient-to-r from-indigo-900 to-slate-900 text-white rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="space-y-2">
+              <div className="inline-flex items-center gap-2 text-amber-300 text-xs font-semibold uppercase tracking-wider">
+                <ShieldCheck size={16} /> Edu Hawk Worldwide Support
+              </div>
+              <h3 className="text-xl sm:text-2xl font-bold text-white">
+                Exploring Nursing Opportunities in the United States?
+              </h3>
+              <p className="text-slate-300 text-sm max-w-2xl leading-relaxed">
+                Edu Hawk assists students in exploring international study options, comprehending university admission standards, and preparing end-to-end for the overseas education journey.
+              </p>
+            </div>
+            <Link
+              to="/contact"
+              className="shrink-0 px-6 py-3 rounded-xl bg-white text-indigo-950 font-bold hover:bg-amber-300 transition-colors shadow-md text-sm whitespace-nowrap"
+            >
+              Get Free Evaluation
+            </Link>
+          </div>
         </div>
       </section>
 
-      {/* ================= 2. NURSING COURSES IN USA ================= */}
-      <section className="py-16 sm:py-20" id="usa-courses">
+      {/* ================= 2. NURSING COURSES IN THE USA ================= */}
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-courses">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Programs in USA
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Nursing Pathways
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Nursing Courses in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              There are several nursing courses in USA for students at different stages of their education.
+            <p className="text-slate-600 text-base leading-relaxed">
+              There are several nursing courses in the USA designed for international students at different stages of their academic journey.
             </p>
           </div>
 
-          <div className="space-y-6">
-            <div className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-indigo-100">
-              <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-lg bg-indigo-50 text-indigo-600 grid place-items-center text-sm font-bold">1</span>
-                Bachelor of Science in Nursing (BSN)
-              </h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                The Bachelor of Science in Nursing (BSN) is one of the major undergraduate nursing pathways in the USA. Students receive education in areas such as:
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4">
-                {bsnSubjects.map((sub, i) => (
-                  <div key={i} className="flex items-center gap-2.5 text-[15px] text-slate-700 bg-slate-50 rounded-lg px-3.5 py-2.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 flex-shrink-0"></span>
-                    {sub}
-                  </div>
-                ))}
-              </div>
-              <p className="text-slate-500 text-[15px] leading-relaxed">
-                Program structure and admission requirements vary between universities.
-              </p>
-            </div>
-
-            <div className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-indigo-100">
-              <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-lg bg-violet-50 text-violet-600 grid place-items-center text-sm font-bold">2</span>
-                Associate Degree in Nursing (ADN)
-              </h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed">
-                An Associate Degree in Nursing (ADN) is another pathway into professional nursing education in the USA. Students considering this route should carefully evaluate the university, clinical training, transfer opportunities and state licensing requirements.
-              </p>
-            </div>
-
-            <div className="nursing-card bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 hover:border-indigo-100">
-              <h3 className="text-xl font-bold text-slate-900 mb-3 flex items-center gap-2">
-                <span className="w-8 h-8 rounded-lg bg-purple-50 text-purple-600 grid place-items-center text-sm font-bold">3</span>
-                Graduate Nursing Programs
-              </h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Students can look into graduate-level programs like the following if they already have a suitable undergraduate or nursing degree:
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {graduatePrograms.map((prog, i) => (
-                  <div key={i} className="flex items-center gap-2.5 text-[15px] text-slate-700 bg-slate-50 rounded-lg px-3.5 py-2.5">
-                    <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 flex-shrink-0"></span>
-                    {prog}
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= DESTINATIONS ================= */}
-      <section className="py-16 sm:py-20" id="destinations">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-8">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Where to study
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-              Popular destinations for Nursing
-            </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              We help you compare fees, clinical exposure, job opportunities, safety and recognition so you can choose the right country.
-            </p>
-          </div>
-
-          <div className="flex flex-wrap gap-2.5 mb-10">
-            {destinations.map((d, i) => (
-              <span
-                key={i}
-                className={`inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium border ${
-                  d.highlight
-                    ? "bg-indigo-50 border-indigo-200 text-indigo-700"
-                    : "bg-white border-slate-200 text-slate-800"
-                }`}
-              >
-                {d.highlight && (
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" className="mr-1.5">
-                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
-                )}
-                {d.name}
-              </span>
-            ))}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80"
-                alt="Study Nursing in Philippines"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  srcSet="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 1x, https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80 2x"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
-                <div>
-                  <h4 className="text-white font-semibold text-lg">Philippines</h4>
-                  <p className="text-white/80 text-sm">Most popular & affordable</p>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
+            {/* BSN */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-7 shadow-xs lg:col-span-2">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                  <GraduationCap size={22} />
                 </div>
-              </div>
-            </div>
-            
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80"
-                alt="Study Nursing in Germany"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  srcSet="https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80 1x, https://images.unsplash.com/photo-1562774053-701939374585?w=700&q=80 2x"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
                 <div>
-                  <h4 className="text-white font-semibold text-lg">Germany</h4>
-                  <p className="text-white/80 text-sm">Strong job opportunities</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="nursing-card relative rounded-2xl overflow-hidden h-60 group shadow-md">
-              <img
-                src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80"
-                alt="Study Nursing in Canada"
-                loading="lazy"
-                className="nursing-university-image w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  srcSet="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80 1x, https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=700&q=80 2x"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/75 to-transparent flex items-end p-5">
-                <div>
-                  <h4 className="text-white font-semibold text-lg">Canada</h4>
-                  <p className="text-white/80 text-sm">High demand & PR pathway</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= 3. TOP UNIVERSITIES ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-universities">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Universities
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Top Universities for Nursing in the USA
-            </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              The USA is home to several internationally recognised universities offering nursing and healthcare programs.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {topUniversities.map((uni, i) => (
-              <div
-                key={i}
-                className="nursing-card group relative overflow-hidden rounded-2xl border border-indigo-100 bg-gradient-to-br from-white via-white to-indigo-50/70 px-5 py-6 shadow-sm hover:border-indigo-200"
-                style={{ "--card-delay": `${i * 90}ms` }}
-              >
-                <div className="absolute -right-7 -top-7 h-24 w-24 rounded-full bg-indigo-100/60 transition-transform duration-500 group-hover:scale-150" />
-                <div className="relative flex items-start gap-4">
-                  <div className="grid h-11 w-11 flex-shrink-0 place-items-center rounded-xl bg-indigo-600 text-white shadow-md shadow-indigo-600/20">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8">
-                      <path d="M12 3 3 7.5 12 12l9-4.5L12 3Z" strokeLinejoin="round" />
-                      <path d="M7 10v5c2.8 2.7 7.2 2.7 10 0v-5M21 8v6" strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                  </div>
-                  <span className="relative pt-1 text-[15px] font-semibold leading-relaxed text-slate-800 group-hover:text-indigo-700 transition-colors">
-                    {uni}
+                  <h3 className="font-bold text-xl text-slate-900">
+                    Bachelor of Science in Nursing (BSN)
+                  </h3>
+                  <span className="text-xs text-indigo-600 font-semibold uppercase tracking-wider">
+                    Primary 4-Year Undergraduate Pathway
                   </span>
                 </div>
               </div>
-            ))}
+              <p className="text-slate-600 text-sm leading-relaxed mb-5">
+                The Bachelor of Science in Nursing (BSN) is one of the major undergraduate nursing pathways in the USA. It provides thorough theoretical knowledge, hands-on laboratory simulation, and supervised clinical practice.
+              </p>
+
+              <h4 className="font-semibold text-slate-900 text-sm mb-3">
+                Key Subjects Covered in BSN Curriculum:
+              </h4>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5">
+                {bsnSubjects.map((sub, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-slate-700">
+                    <CheckCircle2 size={16} className="text-emerald-500 shrink-0" />
+                    <span>{sub}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-xs text-slate-500 italic">
+                * Note: Program structure and admission requirements vary between universities.
+              </p>
+            </div>
+
+            {/* ADN & Graduate */}
+            <div className="space-y-6">
+              {/* ADN */}
+              <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-9 h-9 rounded-lg bg-amber-50 text-amber-600 flex items-center justify-center">
+                    <Award size={20} />
+                  </div>
+                  <h3 className="font-bold text-lg text-slate-900">
+                    Associate Degree in Nursing (ADN)
+                  </h3>
+                </div>
+                <p className="text-slate-600 text-sm leading-relaxed">
+                  An Associate Degree in Nursing (ADN) is another 2-year pathway into professional nursing education in the USA. Students considering this route should carefully evaluate university clinical training, transfer credits to BSN, and state licensing regulations.
+                </p>
+              </div>
+
+              {/* Graduate Programs */}
+              <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs">
+                <div className="flex items-center gap-3 mb-3">
+                  <div className="w-9 h-9 rounded-lg bg-sky-50 text-sky-600 flex items-center justify-center">
+                    <Stethoscope size={20} />
+                  </div>
+                  <h3 className="font-bold text-lg text-slate-900">
+                    Graduate Nursing Programs
+                  </h3>
+                </div>
+                <p className="text-slate-600 text-sm leading-relaxed mb-3">
+                  For students with a recognized undergraduate nursing degree, graduate tracks include:
+                </p>
+                <div className="space-y-1.5">
+                  {graduatePrograms.map((prog, i) => (
+                    <div key={i} className="flex items-center gap-2 text-xs sm:text-sm text-slate-700">
+                      <span className="w-1.5 h-1.5 rounded-full bg-sky-500 shrink-0" />
+                      <span>{prog}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ================= 3. TOP UNIVERSITIES FOR NURSING IN THE USA ================= */}
+      <section className="py-10 sm:py-14" id="usa-universities">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Featured US Institutions
+            </div>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+              Top Universities for Nursing in the USA
+            </h2>
+            <p className="text-slate-600 text-base leading-relaxed">
+              The USA is home to several internationally recognised universities offering world-class nursing and healthcare education. Explore five premier institutions with accredited clinical programs:
+            </p>
           </div>
 
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-            <h3 className="text-lg font-bold text-slate-900 mb-3">
-              How to choose the right university
-            </h3>
-            <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-              The best nursing university in USA is not necessarily the university with the highest overall ranking. Indian students should compare:
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-4">
-              {comparisonPoints.map((point, i) => (
-                <div key={i} className="flex items-center gap-2.5 text-[15px] text-slate-700">
-                  <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 flex-shrink-0"></span>
-                  {point}
+          {/* University Cards with WebP Images */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {universities.map((uni, i) => {
+              const imgSrc = universityImageMap[uni.id] || universityImageMap[uni.name] || upennImg;
+              return (
+                <div
+                  key={uni.id || i}
+                  className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xs hover:border-indigo-300 hover:shadow-xl transition-all duration-300 group flex flex-col"
+                >
+                  <div className="relative h-48 overflow-hidden bg-slate-100">
+                    <img
+                      src={imgSrc}
+                      alt={uni.name}
+                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent pointer-events-none" />
+                    <span className="absolute top-3 left-3 bg-indigo-900/85 backdrop-blur-md text-white text-xs font-semibold px-2.5 py-1 rounded-full border border-white/15">
+                      {uni.tag}
+                    </span>
+                  </div>
+
+                  <div className="p-5 flex-1 flex flex-col justify-between">
+                    <div>
+                      <h3 className="font-bold text-slate-900 text-lg group-hover:text-indigo-600 transition-colors mb-1.5">
+                        {uni.name}
+                      </h3>
+                      <div className="flex items-center text-xs text-slate-500 mb-3.5">
+                        <MapPin size={14} className="mr-1 text-indigo-500 shrink-0" />
+                        <span>{uni.location}</span>
+                      </div>
+                      <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                        {uni.desc}
+                      </p>
+                    </div>
+
+                    <div className="pt-3 border-t border-slate-100 flex items-center justify-between">
+                      <span className="text-xs font-medium text-emerald-600 flex items-center gap-1">
+                        <CheckCircle2 size={13} /> Accredited Nursing School
+                      </span>
+                      <Link
+                        to="/contact"
+                        className="text-xs font-semibold text-indigo-600 hover:text-indigo-800 flex items-center gap-1 group-hover:translate-x-0.5 transition-transform"
+                      >
+                        Enquire <ArrowRight size={13} />
+                      </Link>
+                    </div>
+                  </div>
                 </div>
+              );
+            })}
+          </div>
+
+          {/* How to Choose Guide */}
+          <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8">
+            <h3 className="text-xl font-bold text-slate-900 mb-3">
+              How to Choose the Right University in the USA
+            </h3>
+            <p className="text-slate-600 text-sm leading-relaxed mb-5">
+              The best nursing university in the USA is not necessarily the institution with the highest overall global ranking. Indian students should evaluate and compare:
+            </p>
+
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 mb-6">
+              {comparisonPoints.map((point, i) => (
+                <li
+                  key={i}
+                  className="flex items-center gap-2 text-xs sm:text-sm text-slate-700"
+                >
+                  <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 shrink-0" />
+                  <span>{point}</span>
+                </li>
               ))}
-            </div>
-            <p className="text-slate-500 text-[15px] leading-relaxed">
-              Always check the latest requirements directly with the university before applying. With Edu Hawk university selection guidance, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.
+            </ul>
+
+            <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              Always check the latest admission and prerequisite criteria directly with the university before applying. With <strong>Edu Hawk university selection guidance</strong>, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.
             </p>
           </div>
         </div>
       </section>
 
-      {/* ================= 4. ELIGIBILITY FOR USA ================= */}
-      <section className="py-16 sm:py-20" id="usa-eligibility">
+      {/* ================= 4. ELIGIBILITY TO STUDY NURSING IN THE USA ================= */}
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-eligibility">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              USA Eligibility
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Eligibility Criteria
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Eligibility to Study Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              The nursing eligibility in the USA depends on the program and university.
+            <p className="text-slate-600 text-base leading-relaxed">
+              Nursing eligibility in the USA depends on whether you are applying for an undergraduate (BSN) or graduate (MSN/DNP) degree.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Eligibility for Undergraduate Nursing</h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                International students generally need:
+            {/* Undergrad */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                  <GraduationCap size={22} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900">
+                  Eligibility for Undergraduate Nursing (BSN)
+                </h3>
+              </div>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                International students seeking undergraduate admission generally require:
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-3 mb-5">
                 {undergradEligibility.map((item, i) => (
-                  <li key={i} className="flex gap-3 text-[15px] text-slate-700">
-                    <span className="flex-shrink-0 w-[22px] h-[22px] rounded-full bg-indigo-50 text-indigo-600 grid place-items-center mt-0.5">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-                        <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
+                  <li key={i} className="flex items-start gap-3 text-sm text-slate-700">
+                    <CheckCircle2 size={18} className="text-indigo-600 shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
-              <p className="text-slate-500 text-[15px] leading-relaxed mt-4">
-                For Indian students, universities may consider Class 10 and Class 12 qualifications and subjects such as Biology, Chemistry and other sciences, depending on the selected nursing program.
-              </p>
+              <div className="bg-indigo-50/70 border border-indigo-100 rounded-xl p-3.5 text-xs text-indigo-900 leading-relaxed">
+                <strong>For Indian students:</strong> Universities consider Class 10 & 12 marksheets with subjects such as Biology, Chemistry, and other sciences depending on the specific nursing school.
+              </div>
             </div>
 
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Eligibility for Graduate Nursing</h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Applicants may need:
+            {/* Graduate */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center">
+                  <Award size={22} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900">
+                  Eligibility for Graduate Nursing (MSN / DNP)
+                </h3>
+              </div>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                Applicants pursuing advanced practice nursing or leadership programs typically need:
               </p>
-              <ul className="space-y-3">
+              <ul className="space-y-3 mb-5">
                 {gradEligibility.map((item, i) => (
-                  <li key={i} className="flex gap-3 text-[15px] text-slate-700">
-                    <span className="flex-shrink-0 w-[22px] h-[22px] rounded-full bg-indigo-50 text-indigo-600 grid place-items-center mt-0.5">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-                        <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
+                  <li key={i} className="flex items-start gap-3 text-sm text-slate-700">
+                    <CheckCircle2 size={18} className="text-sky-600 shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
+              <div className="bg-slate-100/80 border border-slate-200 rounded-xl p-3.5 text-xs text-slate-700 leading-relaxed">
+                <strong>Registered Nurse Status:</strong> Prior clinical experience and active licensure verification are often mandated for specialty nurse practitioner (NP) tracks.
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ================= 5. ADMISSION REQUIREMENTS ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-admission-req">
+      {/* ================= 5. NURSING ADMISSION REQUIREMENTS IN THE USA ================= */}
+      <section className="py-10 sm:py-14" id="usa-admission-req">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Admission Requirements
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Prerequisites
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Nursing Admission Requirements in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              The nursing admission requirements in USA vary according to the university and program.
+            <p className="text-slate-600 text-base leading-relaxed">
+              Admission requirements vary according to individual university departments and state licensing board standards.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Academic Requirements</h3>
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center">
+                  <FileCheck size={22} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900">Academic Requirements</h3>
+              </div>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                Applicants need to demonstrate consistent academic performance in prerequisite subjects:
+              </p>
               <ul className="space-y-3">
-                {admissionAcademic.map((item, i) => (
-                  <li key={i} className="flex gap-3 text-[15px] text-slate-700">
-                    <span className="flex-shrink-0 w-[22px] h-[22px] rounded-full bg-indigo-50 text-indigo-600 grid place-items-center mt-0.5">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-                        <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
+                {academicReqs.map((item, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm text-slate-700">
+                    <CheckCircle2 size={18} className="text-violet-600 shrink-0 mt-0.5" />
                     <span>{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">English-Language Requirements</h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Depending on the university, accepted tests may include:
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center">
+                  <Globe2 size={22} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900">English-Language Requirements</h3>
+              </div>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                International students must verify English language proficiency. Commonly accepted tests:
               </p>
-              <div className="flex flex-wrap gap-2.5 mb-4">
+              <div className="flex flex-wrap gap-2.5 mb-5">
                 {englishTests.map((test, i) => (
                   <span
                     key={i}
-                    className="inline-flex items-center px-4 py-2 rounded-lg text-sm font-medium bg-indigo-50 border border-indigo-200 text-indigo-700"
+                    className="px-3.5 py-1.5 rounded-lg bg-amber-50 border border-amber-200/80 text-amber-900 text-xs sm:text-sm font-semibold"
                   >
                     {test}
                   </span>
                 ))}
               </div>
-              <p className="text-slate-500 text-[15px] leading-relaxed">
-                The required score differs by university and program.
+              <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
+                * Note: Minimum required band/scores vary by university and program level. Edu Hawk helps identify universities offering test waivers or specific benchmark cut-offs.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ================= 6. COST ================= */}
-      <section className="py-16 sm:py-20" id="usa-cost">
+      {/* ================= 6. COST OF STUDYING NURSING IN THE USA ================= */}
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-cost">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              USA Cost
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Financial Overview
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Cost of Studying Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              The cost of nursing in USA depends on several factors, including the university, program, location and duration of study.
+            <p className="text-slate-600 text-base leading-relaxed">
+              The overall cost depends on university type (public vs private), location, degree level, and duration of study.
             </p>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-3">Tuition Fees</h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed">
-                Tuition varies considerably between public and private universities and between undergraduate and graduate nursing programs.
+            {/* Tuition Fees */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                  <DollarSign size={22} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900">Tuition Fees</h3>
+              </div>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                Tuition varies considerably between state universities (in-state vs out-of-state rates) and private universities, as well as between BSN and graduate nursing programs.
               </p>
+              <div className="bg-slate-50 border border-slate-200 rounded-xl p-4 space-y-2 text-sm text-slate-700">
+                <div className="flex justify-between border-b border-slate-200 pb-2">
+                  <span className="font-medium">Public Universities (Out-of-State)</span>
+                  <span className="font-semibold text-slate-900">$20,000 – $40,000 / year</span>
+                </div>
+                <div className="flex justify-between border-b border-slate-200 py-2">
+                  <span className="font-medium">Private Universities</span>
+                  <span className="font-semibold text-slate-900">$35,000 – $65,000 / year</span>
+                </div>
+                <div className="flex justify-between pt-2">
+                  <span className="font-medium">Scholarships & Grants</span>
+                  <span className="font-semibold text-emerald-600">Available on merit</span>
+                </div>
+              </div>
             </div>
 
-            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
-              <h3 className="text-lg font-bold text-slate-900 mb-3">Living Expenses</h3>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-                Students should budget for:
-              </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                {livingExpenses.map((item, i) => (
-                  <div key={i} className="flex items-center gap-2.5 text-[15px] text-slate-700">
-                    <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 flex-shrink-0"></span>
-                    {item}
-                  </div>
-                ))}
+            {/* Living Expenses */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                  <Building2 size={22} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900">Living & Clinical Expenses</h3>
               </div>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                Students should factor both standard living expenses and nursing-specific clinical costs:
+              </p>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-700">
+                {livingExpenses.map((exp, i) => (
+                  <li key={i} className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 shrink-0" />
+                    <span>{exp}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
 
-          <div className="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-8">
-            <h3 className="text-lg font-bold text-slate-900 mb-3">How Much Does It Cost to Study Nursing in USA?</h3>
-            <p className="text-slate-500 text-[15px] leading-relaxed">
-              Instead of considering tuition alone, students should calculate the total cost of studying nursing in USA, including tuition, accommodation, insurance, transportation and other university-related expenses. Scholarships and university-based financial assistance may be available depending on the institution and student's eligibility.
+          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8">
+            <h3 className="text-lg font-bold text-slate-900 mb-2">
+              Calculating the Total Cost of Nursing Education
+            </h3>
+            <p className="text-slate-600 text-sm leading-relaxed">
+              Instead of considering tuition alone, students should calculate the total cost of studying nursing in the USA, including tuition, accommodation, health insurance, transportation, clinical background checks, and exam fees. University-based financial assistance and scholarships may be available depending on institutional policy and individual student profile.
             </p>
           </div>
         </div>
       </section>
 
-      {/* ================= 7. ADMISSION PROCESS ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-admission">
+      {/* ================= 7. NURSING ADMISSION PROCESS IN THE USA ================= */}
+      <section className="py-10 sm:py-14" id="usa-admission">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10 text-center">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              USA Admission Process
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Step-by-Step Roadmap
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Nursing Admission Process in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] max-w-2xl mx-auto">
-              The nursing admission process in USA generally involves several stages.
+            <p className="text-slate-600 text-base leading-relaxed">
+              Applying for nursing in the USA involves several structured stages from profile assessment to US student visa acquisition:
             </p>
           </div>
 
-          <div className="max-w-3xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
             {admissionSteps.map((s, i) => (
-              <div key={i} className="flex gap-5 pb-8 relative">
-                {i < admissionSteps.length - 1 && (
-                  <div className="absolute left-5 top-10 bottom-0 w-0.5 bg-slate-200 -translate-x-1/2" />
-                )}
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-600 text-white font-bold text-base grid place-items-center relative z-10 shadow-md shadow-indigo-600/30">
-                  {s.step}
-                </div>
-                <div className="pt-1">
-                  <h3 className="text-[17px] font-semibold text-slate-900 mb-1">{s.title}</h3>
-                  <p className="text-sm text-slate-500 leading-relaxed">{s.desc}</p>
+              <div
+                key={s.step}
+                className="bg-white border border-slate-200 rounded-2xl p-5 shadow-xs relative flex flex-col justify-between hover:border-indigo-300 transition-colors"
+              >
+                <div>
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="w-8 h-8 rounded-full bg-indigo-600 text-white font-bold text-sm flex items-center justify-center">
+                      {s.step}
+                    </span>
+                    <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                      Stage 0{s.step}
+                    </span>
+                  </div>
+                  <h3 className="font-bold text-slate-900 text-base mb-2">
+                    {s.title}
+                  </h3>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                    {s.desc}
+                  </p>
                 </div>
               </div>
             ))}
@@ -1123,285 +1006,270 @@ const NursingAbroad = () => {
         </div>
       </section>
 
-      {/* ================= 8. LICENSING ================= */}
-      <section className="py-16 sm:py-20" id="usa-licensing">
+      {/* ================= 8. NURSING LICENSING IN THE USA (NCLEX-RN) ================= */}
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-licensing">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Licensing
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Licensure & Regulations
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
-              Nursing Licensing in the USA
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
+              Nursing Licensing in the USA (NCLEX-RN)
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              Understanding nursing licensing in USA is essential for international students. Studying nursing does not automatically mean that a student is licensed to practise as a nurse. Nursing licensure is regulated by individual U.S. states, and requirements can differ between states.
+            <p className="text-slate-600 text-base leading-relaxed">
+              Understanding nursing licensing in the USA is essential for international students. Studying nursing does not automatically confer a license to practice. Licensure is governed by individual state Boards of Nursing.
             </p>
           </div>
 
-          <div className="bg-slate-900 text-white rounded-2xl p-6 sm:p-8 mb-6">
-            <h3 className="text-lg font-bold mb-3">NCLEX-RN</h3>
-            <p className="text-white/80 text-[15px] leading-relaxed">
-              Students seeking Registered Nurse licensure generally need to meet the requirements of the relevant state Board of Nursing and pass the National Council Licensure Examination for Registered Nurses (NCLEX-RN). The examination is used by U.S. nursing regulatory bodies as part of the registered nurse licensure process.
-            </p>
-          </div>
-
-          <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 mb-6">
-            <h3 className="text-lg font-bold text-slate-900 mb-4">Internationally Educated Nurses</h3>
-            <p className="text-slate-500 text-[15px] leading-relaxed mb-4">
-              Nurses who completed their education outside the USA may have additional requirements, which can include:
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {licensingPoints.map((item, i) => (
-                <div key={i} className="flex items-center gap-2.5 text-[15px] text-slate-700">
-                  <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 flex-shrink-0"></span>
-                  {item}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
+            {/* NCLEX-RN */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                  <ShieldCheck size={22} />
                 </div>
-              ))}
+                <h3 className="text-xl font-bold text-slate-900">
+                  The NCLEX-RN Examination
+                </h3>
+              </div>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                Students seeking Registered Nurse (RN) licensure must satisfy the requirements of the relevant state Board of Nursing and pass the National Council Licensure Examination for Registered Nurses (<strong>NCLEX-RN</strong>).
+              </p>
+              <p className="text-slate-600 text-sm leading-relaxed">
+                The NCLEX-RN assesses the essential clinical decision-making, pharmacology, and patient safety skills required to practice safe and effective nursing care in the US healthcare system.
+              </p>
+            </div>
+
+            {/* Internationally Educated Nurses */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-sky-50 text-sky-600 flex items-center justify-center">
+                  <Globe2 size={22} />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900">
+                  Internationally Educated Nurses
+                </h3>
+              </div>
+              <p className="text-slate-600 text-sm leading-relaxed mb-4">
+                Nurses who completed their qualifications outside the USA must fulfill additional requirements prior to authorization:
+              </p>
+              <ul className="space-y-2">
+                {licensingPoints.map((pt, i) => (
+                  <li key={i} className="flex items-center gap-2.5 text-xs sm:text-sm text-slate-700">
+                    <CheckCircle2 size={16} className="text-sky-600 shrink-0" />
+                    <span>{pt}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
 
-          <div className="bg-indigo-50 border border-indigo-100 rounded-2xl p-6">
-            <h3 className="text-lg font-bold text-slate-900 mb-2">Important for Indian Students</h3>
-            <p className="text-slate-600 text-[15px] leading-relaxed">
-              If your long-term goal is to work as a nurse in USA, you should identify your intended state and review its Board of Nursing requirements before selecting your education pathway.
+          {/* Important for Indian Students */}
+          <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 sm:p-8">
+            <h3 className="text-lg font-bold text-amber-950 mb-2 flex items-center gap-2">
+              <Sparkles size={18} className="text-amber-700" />
+              Important for Indian Students:
+            </h3>
+            <p className="text-amber-900 text-sm leading-relaxed">
+              If your long-term goal is to work as a registered nurse in the USA, identify your intended state and review its state Board of Nursing regulations before finalizing your education and clinical pathway. Edu Hawk provides complete clarity on state-by-state licensing criteria.
             </p>
           </div>
         </div>
       </section>
 
-      {/* ================= 9. SALARY & CAREERS ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-careers">
+      {/* ================= 9. SALARY AND JOB OPPORTUNITIES IN THE USA ================= */}
+      <section className="py-10 sm:py-14" id="usa-careers">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Careers
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Career Outlook & Salary
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Nursing Salary and Job Opportunities in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              The nursing job market in USA offers opportunities across a wide range of healthcare settings.
+            <p className="text-slate-600 text-base leading-relaxed">
+              The nursing job market in the United States offers robust demand, strong job security, and competitive remuneration across public and private healthcare facilities.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10">
-            {workSettings.map((setting, i) => (
-              <div
-                key={i}
-                className="bg-white border border-slate-200 rounded-xl px-4 py-3.5 text-[15px] text-slate-700 hover:border-indigo-200 hover:shadow-sm transition-all"
-              >
-                {setting}
-              </div>
-            ))}
-          </div>
-
-          <div className="bg-gradient-to-br from-indigo-600 to-violet-600 rounded-2xl p-8 text-white text-center shadow-xl mb-10">
-            <div className="text-sm font-medium opacity-90 mb-2">Registered Nurse Median Salary (USA)</div>
-            <div className="text-4xl sm:text-5xl font-bold mb-3">$97,550</div>
-            <p className="text-white/85 text-[15px] max-w-xl mx-auto leading-relaxed">
-              According to the U.S. Bureau of Labor Statistics, the median annual wage for Registered Nurses was $97,550 in May 2025. Actual salary varies by state, city, experience, specialty, employer and work setting. BLS projects 6% employment growth from 2025 to 2035 with approximately 180,800 openings per year on average.
-            </p>
-          </div>
-
-          <h3 className="text-xl font-bold text-slate-900 mb-5">Nursing Career Opportunities</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {careerAreas.map((area, i) => (
-              <div
-                key={i}
-                className="bg-white border border-slate-200 rounded-xl px-5 py-4 flex items-center gap-3 hover:border-indigo-200 hover:shadow-md transition-all"
-              >
-                <div className="w-9 h-9 rounded-lg bg-indigo-50 text-indigo-600 grid place-items-center flex-shrink-0">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2">
-                    <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+          {/* BLS Stats Card */}
+          <div className="bg-gradient-to-br from-indigo-950 to-slate-900 text-white rounded-3xl p-6 sm:p-10 mb-10 shadow-xl">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+              <div>
+                <span className="text-xs font-semibold uppercase tracking-wider text-indigo-300">
+                  BLS Official Data (May 2025)
+                </span>
+                <div className="text-3xl sm:text-4xl font-extrabold text-amber-300 mt-1 mb-2">
+                  $97,550
                 </div>
-                <span className="text-[15px] font-medium text-slate-800">{area}</span>
+                <div className="text-sm text-slate-300">
+                  Median Annual Wage for Registered Nurses in the USA
+                </div>
               </div>
-            ))}
+              <div>
+                <span className="text-xs font-semibold uppercase tracking-wider text-indigo-300">
+                  Employment Growth (2025-2035)
+                </span>
+                <div className="text-3xl sm:text-4xl font-extrabold text-emerald-400 mt-1 mb-2">
+                  +6%
+                </div>
+                <div className="text-sm text-slate-300">
+                  Projected growth rate across US hospitals and clinical practices
+                </div>
+              </div>
+              <div>
+                <span className="text-xs font-semibold uppercase tracking-wider text-indigo-300">
+                  Annual Job Openings
+                </span>
+                <div className="text-3xl sm:text-4xl font-extrabold text-sky-400 mt-1 mb-2">
+                  ~180,800
+                </div>
+                <div className="text-sm text-slate-300">
+                  Average yearly job openings projected nationwide
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Work Settings */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">
+                Where Registered Nurses Work in the USA:
+              </h3>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                {workSettings.map((set, i) => (
+                  <li key={i} className="flex items-center gap-2 text-sm text-slate-700">
+                    <Building2 size={16} className="text-indigo-600 shrink-0" />
+                    <span>{set}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Nursing Specializations */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xs">
+              <h3 className="text-xl font-bold text-slate-900 mb-4">
+                Nursing Career Specializations:
+              </h3>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+                {careerAreas.map((spec, i) => (
+                  <li key={i} className="flex items-center gap-2 text-xs sm:text-sm text-slate-700">
+                    <CheckCircle2 size={15} className="text-emerald-500 shrink-0" />
+                    <span>{spec}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* ================= 10. DOCUMENTS ================= */}
-      <section className="py-16 sm:py-20" id="usa-documents">
+      {/* ================= 10. DOCUMENTS REQUIRED TO STUDY NURSING IN THE USA ================= */}
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-documents">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              Documents
+          <div className="max-w-3xl mb-12">
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Application Checklist
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-4">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 mb-4">
               Documents Required to Study Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] leading-relaxed w-full">
-              The documents required to study nursing in USA vary by university and program.
+            <p className="text-slate-600 text-base leading-relaxed">
+              The documents required to study nursing in the USA vary by university and program level:
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            <div className="bg-white border border-slate-200 rounded-2xl p-6">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Academic Documents</h3>
-              <ul className="space-y-3">
-                {academicDocs.map((doc, i) => (
-                  <li key={i} className="flex gap-3 text-[14px] text-slate-700">
-                    <span className="flex-shrink-0 w-[20px] h-[20px] rounded-full bg-indigo-50 text-indigo-600 grid place-items-center mt-0.5">
-                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-                        <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
-                    <span>{doc}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-2xl p-6">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Application Documents</h3>
-              <ul className="space-y-3">
-                {applicationDocs.map((doc, i) => (
-                  <li key={i} className="flex gap-3 text-[14px] text-slate-700">
-                    <span className="flex-shrink-0 w-[20px] h-[20px] rounded-full bg-indigo-50 text-indigo-600 grid place-items-center mt-0.5">
-                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-                        <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
-                    <span>{doc}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="bg-white border border-slate-200 rounded-2xl p-6">
-              <h3 className="text-lg font-bold text-slate-900 mb-4">Financial & Visa Documents</h3>
-              <ul className="space-y-3">
-                {financialVisaDocs.map((doc, i) => (
-                  <li key={i} className="flex gap-3 text-[14px] text-slate-700">
-                    <span className="flex-shrink-0 w-[20px] h-[20px] rounded-full bg-indigo-50 text-indigo-600 grid place-items-center mt-0.5">
-                      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-                        <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
-                    <span>{doc}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= GENERAL ELIGIBILITY ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="eligibility">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-                Eligibility
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Academic */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-indigo-50 text-indigo-600 flex items-center justify-center">
+                  <FileText size={20} />
+                </div>
+                <h3 className="font-bold text-lg text-slate-900">Academic Records</h3>
               </div>
-              <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-                Who can apply for Nursing abroad?
-              </h2>
-              <p className="text-slate-500 text-[15px] leading-relaxed mb-6">
-                Basic requirements for most popular destinations. Exact criteria can vary by university and country.
-              </p>
-              
-              <ul className="space-y-3.5">
-                {eligibility.map((item, i) => (
-                  <li key={i} className="flex gap-3 text-[15px] text-slate-800 leading-snug">
-                    <span className="flex-shrink-0 w-[22px] h-[22px] rounded-full bg-indigo-50 text-indigo-600 grid place-items-center mt-0.5">
-                      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.8">
-                        <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-                      </svg>
-                    </span>
-                    <span>{item}</span>
+              <ul className="space-y-2.5">
+                {academicDocs.map((doc, i) => (
+                  <li key={i} className="flex items-start gap-2 text-xs sm:text-sm text-slate-700">
+                    <CheckCircle2 size={15} className="text-indigo-600 shrink-0 mt-0.5" />
+                    <span>{doc}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
-            <div className="bg-slate-900 text-white rounded-2xl p-8">
-              <h3 className="text-xl font-bold mb-2.5">
-                Not sure if you are eligible?
-              </h3>
-              <p className="text-white/70 text-[15px] leading-relaxed mb-5">
-                Share your Class 12 marks and preferred countries. We will tell you honestly which options are realistic for your profile and budget.
-              </p>
-              <a
-                href="/contact"
-                className="inline-flex items-center justify-center px-5 py-2.5 rounded-[10px] font-semibold text-[15px] bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline"
-              >
-                Book free eligibility check
-              </a>
+            {/* Application */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-violet-50 text-violet-600 flex items-center justify-center">
+                  <FileCheck size={20} />
+                </div>
+                <h3 className="font-bold text-lg text-slate-900">Application File</h3>
+              </div>
+              <ul className="space-y-2.5">
+                {applicationDocs.map((doc, i) => (
+                  <li key={i} className="flex items-start gap-2 text-xs sm:text-sm text-slate-700">
+                    <CheckCircle2 size={15} className="text-violet-600 shrink-0 mt-0.5" />
+                    <span>{doc}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Financial & Visa */}
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 shadow-xs">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                  <DollarSign size={20} />
+                </div>
+                <h3 className="font-bold text-lg text-slate-900">Financial & Visa</h3>
+              </div>
+              <ul className="space-y-2.5">
+                {visaDocs.map((doc, i) => (
+                  <li key={i} className="flex items-start gap-2 text-xs sm:text-sm text-slate-700">
+                    <CheckCircle2 size={15} className="text-emerald-600 shrink-0 mt-0.5" />
+                    <span>{doc}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
-      
-
-      {/* ================= PROCESS ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="process">
-        <div className="max-w-6xl mx-auto px-6">
+      {/* ================= 11. FREQUENTLY ASKED QUESTIONS ================= */}
+      <section className="py-10 sm:py-14" id="faq">
+        <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              How it works
+            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
+              Got Questions?
             </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 mb-3">
-              Your journey with Edu Hawk
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">
+              Frequently Asked Questions About Nursing in the USA
             </h2>
-            <p className="text-slate-500 text-[15px] max-w-xl mx-auto">
-              From the first counselling call to your arrival at the university, we stay with you at every step.
-            </p>
           </div>
-          
-          <div className="max-w-2xl mx-auto">
-            {processSteps.map((s, i) => (
+
+          <div className="space-y-4">
+            {faqs.map((faq, i) => (
               <div
                 key={i}
-                className="nursing-card flex gap-5 pb-9 relative"
-                style={{ "--card-delay": `${i * 80}ms` }}
+                className="bg-white border border-slate-200 rounded-2xl overflow-hidden shadow-xs transition-colors"
               >
-                {i < processSteps.length - 1 && (
-                  <div className="absolute left-5 top-10 bottom-0 w-0.5 bg-slate-200 -translate-x-1/2" />
-                )}
-                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-indigo-600 text-white font-bold text-base grid place-items-center relative z-10">
-                  {s.step}
-                </div>
-                <div>
-                  <h3 className="text-[17px] font-semibold text-slate-900 mb-1">{s.title}</h3>
-                  <p className="text-sm text-slate-500 leading-relaxed">{s.desc}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ================= FAQ ================= */}
-      <section className="py-16 sm:py-20" id="faq">
-        <div className="max-w-6xl mx-auto px-6">
-          <div className="text-center mb-10">
-            <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-1.5">
-              FAQ
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Frequently asked questions
-            </h2>
-          </div>
-          
-          <div className="max-w-3xl mx-auto space-y-3">
-            {faqs.map((faq, i) => (
-              <div key={i} className="bg-white border border-slate-200 rounded-xl overflow-hidden">
                 <button
                   onClick={() => toggleFaq(i)}
-                  className="w-full px-5 py-4 font-semibold text-[15px] text-left text-slate-900 flex justify-between items-center gap-3 hover:bg-slate-50 transition-colors bg-transparent border-none cursor-pointer font-sans"
+                  className="w-full px-6 py-5 font-bold text-base text-left text-slate-900 flex justify-between items-center gap-4 hover:bg-slate-50 transition-colors bg-transparent border-none cursor-pointer"
                 >
                   <span>{faq.q}</span>
-                  <span className="text-xl text-slate-400 font-normal flex-shrink-0">
-                    {openFaq === i ? "−" : "+"}
-                  </span>
+                  <ChevronDown
+                    size={20}
+                    className={`text-slate-400 shrink-0 transition-transform duration-300 ${
+                      openFaq === i ? "rotate-180 text-indigo-600" : ""
+                    }`}
+                  />
                 </button>
                 {openFaq === i && (
-                  <div className="px-5 pb-5 text-sm text-slate-500 leading-relaxed">
+                  <div className="px-6 pb-6 text-sm sm:text-base text-slate-600 leading-relaxed border-t border-slate-100 pt-4">
                     {faq.a}
                   </div>
                 )}
@@ -1411,32 +1279,40 @@ const NursingAbroad = () => {
         </div>
       </section>
 
-      {/* ================= CTA ================= */}
-      <section className="py-16 sm:py-20" id="consult">
+      {/* ================= CTA CONSULTATION ================= */}
+      <section className="py-10 sm:py-14" id="consult">
         <div className="max-w-6xl mx-auto px-6">
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 px-5 py-10 text-center text-white shadow-2xl shadow-indigo-950/15 sm:px-12 sm:py-14">
-            <div className="nursing-hero-glow absolute top-0 right-0 w-64 h-64 bg-indigo-600/20 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-            
-            <h2 className="text-2xl sm:text-3xl font-bold mb-3 relative">
-              Ready to start your Nursing journey?
-            </h2>
-            <p className="text-white/70 max-w-md mx-auto mb-8 leading-relaxed text-[15px] relative">
-              Book a free counselling session. We will assess your profile, share realistic options and give you a clear cost & process roadmap.
-            </p>
-            
-            <div className="relative flex flex-col justify-center gap-3.5 sm:flex-row sm:flex-wrap">
-              <a
-                href="/contact"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base bg-indigo-600 text-white hover:bg-indigo-700 transition-all no-underline shadow-lg shadow-indigo-600/25"
-              >
-                Book free counselling
-              </a>
-              <a
-                href="tel:+917632949984"
-                className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
-              >
-                Call +91 76329 49984
-              </a>
+          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 px-6 py-12 text-center text-white shadow-2xl sm:px-12 sm:py-16">
+            <div className="nursing-hero-glow absolute top-0 right-0 w-80 h-80 bg-indigo-600/25 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+
+            <div className="relative max-w-2xl mx-auto">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-semibold uppercase tracking-wider mb-4">
+                Start Your Nursing Career in USA
+              </div>
+
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
+                Ready to Apply for Nursing in the USA?
+              </h2>
+
+              <p className="text-slate-300 text-sm sm:text-base leading-relaxed mb-8">
+                Book a free 1-on-1 counselling session with Edu Hawk's international education advisors. We assess your Class 12 marks or bachelor's degree, shortlist accredited US universities, and assist with document preparation and visa filing.
+              </p>
+
+              <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3.5 rounded-xl font-bold text-base bg-indigo-600 text-white hover:bg-indigo-500 transition-all shadow-lg shadow-indigo-600/30"
+                >
+                  <span>Book Free Counselling</span>
+                  <ArrowRight size={18} />
+                </Link>
+                <a
+                  href="tel:+917632949984"
+                  className="inline-flex items-center justify-center px-8 py-3.5 rounded-xl font-bold text-base border border-white/30 text-white hover:bg-white/10 transition-all"
+                >
+                  Call +91 76329 49984
+                </a>
+              </div>
             </div>
           </div>
         </div>

@@ -361,14 +361,24 @@ const MbbsAbroad = () => {
                   </span>
                 </div>
 
-                {/* Hero Heading */}
-                <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-3 sm:mb-4 drop-shadow-2xl">
-                  {slide.title}
-                  <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4a853] via-[#f0c070] to-[#e0b76b]">
-                    {slide.highlight}
-                  </span>
-                </h1>
+                {/* Hero Heading - Primary H1 on First Slide, Paragraph on Secondary Slides */}
+                {idx === 0 ? (
+                  <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-3 sm:mb-4 drop-shadow-2xl">
+                    {slide.title}
+                    <br />
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4a853] via-[#f0c070] to-[#e0b76b]">
+                      {slide.highlight}
+                    </span>
+                  </h1>
+                ) : (
+                  <p className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-3 sm:mb-4 drop-shadow-2xl">
+                    {slide.title}
+                    <br />
+                    <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#d4a853] via-[#f0c070] to-[#e0b76b]">
+                      {slide.highlight}
+                    </span>
+                  </p>
+                )}
 
                 {/* Hero Description */}
                 <p className="text-sm sm:text-base md:text-lg lg:text-xl text-slate-100 font-medium mb-6 sm:mb-8 max-w-3xl mx-auto drop-shadow-lg leading-relaxed">

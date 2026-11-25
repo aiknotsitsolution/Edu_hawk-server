@@ -236,34 +236,34 @@ import cmsData from "../../data/medical_colleges/kyrgyzstan.json";
 
 //             <div className="space-y-6">
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   1. High-Quality Education
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Globally recognized universities with strong academic
 //                   standards.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   2. Affordable Tuition Fees
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Significantly lower than many Western countries.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   3. No Additional Entrance Exams
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   (NEET required for Indian students only)
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   4. English-Medium Programs
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   No language barrier for most international students.
 //                 </p>
@@ -376,9 +376,9 @@ import cmsData from "../../data/medical_colleges/kyrgyzstan.json";
 
 //             <div className="space-y-10">
 //               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-//                 <h4 className="text-xl font-bold text-blue-900 mb-4">
+//                 <h3 className="text-xl font-bold text-blue-900 mb-4">
 //                   1. Research and Select a University:
-//                 </h4>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Research the <strong>Russian universities</strong> that offer
 //                   MBBS courses. Some of the best universities for MBBS courses
@@ -396,9 +396,9 @@ import cmsData from "../../data/medical_colleges/kyrgyzstan.json";
 //               </div>
 
 //               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-//                 <h4 className="text-xl font-bold text-blue-900 mb-4">
+//                 <h3 className="text-xl font-bold text-blue-900 mb-4">
 //                   2. Check Eligibility
-//                 </h4>
+//                 </h3>
 //                 <ul className="list-disc pl-6 space-y-2 text-gray-700">
 //                   <li>Completed 10+2 with Physics, Chemistry, Biology</li>
 //                   <li>
@@ -410,9 +410,9 @@ import cmsData from "../../data/medical_colleges/kyrgyzstan.json";
 //               </div>
 
 //               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-//                 <h4 className="text-xl font-bold text-blue-900 mb-4">
+//                 <h3 className="text-xl font-bold text-blue-900 mb-4">
 //                   3. Apply Online
-//                 </h4>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Fill university application form → Submit scanned documents →
 //                   Receive admission/invitation letter (usually within 2–4
@@ -421,9 +421,9 @@ import cmsData from "../../data/medical_colleges/kyrgyzstan.json";
 //               </div>
 
 //               <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-//                 <h4 className="text-xl font-bold text-blue-900 mb-4">
+//                 <h3 className="text-xl font-bold text-blue-900 mb-4">
 //                   4. Visa & Travel
-//                 </h4>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Use invitation letter to apply for student visa at Russian
 //                   Embassy/Consulate → Book tickets → Arrive in Russia → Complete
@@ -874,9 +874,9 @@ const Kyrgyzstan = () => {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="p-6 text-center">
-                  <h4 className="text-xl font-bold text-blue-900">
+                  <h3 className="text-xl font-bold text-blue-900">
                     {uni.name}
-                  </h4>
+                  </h3>
                 </div>
               </div>
             ))}
@@ -892,37 +892,37 @@ const Kyrgyzstan = () => {
 
             <div className="space-y-6">
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   1. High-Quality Education
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   NMC & WHO recognized universities with modern infrastructure
                   and experienced faculty.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">2. Affordable Fees</h5>
+                <h3 className="text-xl font-semibold">2. Affordable Fees</h3>
                 <p className="text-gray-700">
                   Low tuition and living costs — total around ₹17–28 lakhs for
                   the full course.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">3. English Medium</h5>
+                <h3 className="text-xl font-semibold">3. English Medium</h3>
                 <p className="text-gray-700">
                   No language barrier for Indian and international students.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">4. Simple Admission</h5>
+                <h3 className="text-xl font-semibold">4. Simple Admission</h3>
                 <p className="text-gray-700">
                   No additional entrance exams (only NEET required).
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   5. Safe & Comfortable Living
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Good hostels, Indian mess, and pleasant environment.
                 </p>
@@ -960,9 +960,9 @@ const Kyrgyzstan = () => {
                 options, and essential amenities for international students.
               </p>
 
-              <h4 className="text-2xl font-semibold mt-8 mb-4">
+              <h3 className="text-2xl font-semibold mt-8 mb-4">
                 Hostel Facilities
-              </h4>
+              </h3>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
                   Most medical universities provide on-campus hostel facilities
@@ -982,9 +982,9 @@ const Kyrgyzstan = () => {
                 </li>
               </ul>
 
-              <h4 className="text-2xl font-semibold mt-8 mb-4">
+              <h3 className="text-2xl font-semibold mt-8 mb-4">
                 Room Facilities
-              </h4>
+              </h3>
               <p>
                 University hostel rooms generally include the following basic
                 amenities:
@@ -996,9 +996,9 @@ const Kyrgyzstan = () => {
                 <li>Wardrobes or cupboards</li>
               </ul>
 
-              <h4 className="text-2xl font-semibold mt-8 mb-4">
+              <h3 className="text-2xl font-semibold mt-8 mb-4">
                 Kitchen and Food Facilities
-              </h4>
+              </h3>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
                   Most hostels provide common kitchens where students can cook
@@ -1022,9 +1022,9 @@ const Kyrgyzstan = () => {
                 </li>
               </ul>
 
-              <h4 className="text-2xl font-semibold mt-8 mb-4">
+              <h3 className="text-2xl font-semibold mt-8 mb-4">
                 Average Living Cost for Students
-              </h4>
+              </h3>
               <p>
                 The cost of living in Kyrgyzstan is affordable compared to many
                 other countries.
@@ -1063,36 +1063,36 @@ const Kyrgyzstan = () => {
 
               <div className="space-y-10">
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                  <h4 className="text-xl font-bold text-blue-900 mb-4">
+                  <h3 className="text-xl font-bold text-blue-900 mb-4">
                     Stage 1: Application
-                  </h4>
+                  </h3>
                   <p>
                     Fill out the university application form and submit required
                     documents.
                   </p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                  <h4 className="text-xl font-bold text-blue-900 mb-4">
+                  <h3 className="text-xl font-bold text-blue-900 mb-4">
                     Stage 2: Admission Letter
-                  </h4>
+                  </h3>
                   <p>
                     Receive the official admission / invitation letter after
                     approval.
                   </p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                  <h4 className="text-xl font-bold text-blue-900 mb-4">
+                  <h3 className="text-xl font-bold text-blue-900 mb-4">
                     Stage 3: Visa Application
-                  </h4>
+                  </h3>
                   <p>
                     Apply for student visa at the Kyrgyzstan Embassy with the
                     invitation letter.
                   </p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-xl border border-blue-100">
-                  <h4 className="text-xl font-bold text-blue-900 mb-4">
+                  <h3 className="text-xl font-bold text-blue-900 mb-4">
                     Stage 4: Travel & Registration
-                  </h4>
+                  </h3>
                   <p>
                     Travel to Kyrgyzstan → University registration → Hostel
                     allocation → Start MBBS program after fee payment.

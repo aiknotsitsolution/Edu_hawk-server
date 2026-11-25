@@ -22,11 +22,6 @@ const branch = {
       biological sciences, medical practice, and technological innovation to
       develop novel approaches for resolving contemporary healthcare
       complications and facilitating advancement in medical scientific inquiry.
-      Students develop proficiency in the domains of medical apparatus design,
-      diagnostic instrumentation development, imaging system optimization, and the
-      engineering of sophisticated medical technologies. Opportunities for
-      hands-on laboratory work, rigorous scholarly research, and multidisciplinary
-      collaborative engagement are offered by educational institution
     </>
   ),
   heroSub:
@@ -227,7 +222,12 @@ const BiomedicalEngineeringUG = () => {
     ...branch,
     title: biomedicalEngineeringUGData?.seo?.title || branch.title,
     description: biomedicalEngineeringUGData?.seo?.description || branch.description,
-    heroSub: biomedicalEngineeringUGData?.hero?.subtitle || branch.heroSub,
+    heroSub: "",
+    overview: [
+      "Students develop proficiency in the domains of medical apparatus design, diagnostic instrumentation development, imaging system optimization, and the engineering of sophisticated medical technologies. Opportunities for hands-on laboratory work, rigorous scholarly research, and multidisciplinary collaborative engagement are offered by educational institution",
+      ...(biomedicalEngineeringUGData?.hero?.subtitle ? [biomedicalEngineeringUGData.hero.subtitle] : []),
+      branch.heroSub,
+    ].filter(Boolean),
     faqs: (biomedicalEngineeringUGData?.faq && biomedicalEngineeringUGData.faq.length > 0)
       ? biomedicalEngineeringUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

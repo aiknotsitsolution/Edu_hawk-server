@@ -551,7 +551,7 @@ const Navbar = () => {
           </div>
 
           {/* ================= DESKTOP NAVIGATION ================= */}
-          <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm lg:text-base font-medium">
+          <nav className="hidden lg:flex items-center gap-6 lg:gap-8 text-sm lg:text-base font-medium">
             <a href="/" className={navLinkClass("/")}>
               Home
               <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#F48C06] group-hover:w-full transition-all duration-300"></span>
@@ -641,9 +641,9 @@ const Navbar = () => {
                       <div className="pr-3 border-r border-gray-100">
                         <div className="flex items-center gap-2 mb-3">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
-                          <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
+                          <p className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
                             MBBS Abroad
-                          </h4>
+                          </p>
                         </div>
                         <ul className="space-y-0.5">
                           {[
@@ -687,9 +687,9 @@ const Navbar = () => {
                       <div className="px-3 border-r border-gray-100">
                         <div className="flex items-center gap-2 mb-3">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
-                          <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
+                          <p className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
                             Tech, Business & More
-                          </h4>
+                          </p>
                         </div>
                         <ul className="space-y-0.5">
                           {/* Engineering → UG & PG → Branches (click toggles submenu, no redirect) */}
@@ -985,9 +985,9 @@ const Navbar = () => {
                       <div className="px-3 border-r border-gray-100">
                         <div className="flex items-center gap-2 mb-3">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
-                          <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
+                          <p className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
                             Programs
-                          </h4>
+                          </p>
                         </div>
                         <ul className="space-y-0.5">
                           {getProgramsForCountry(selectedCountry).map((item) => (
@@ -1028,9 +1028,9 @@ const Navbar = () => {
                       <div className="pl-3 overflow-y-auto max-h-full">
                         <div className="flex items-center gap-2 mb-3">
                           <span className="w-1.5 h-1.5 rounded-full bg-[#F48C06]"></span>
-                          <h4 className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
+                          <p className="text-[11px] font-semibold tracking-wider text-gray-400 uppercase">
                             Tests & Online Exams
-                          </h4>
+                          </p>
                         </div>
 
                         <ul className="space-y-0.5">
@@ -1302,9 +1302,9 @@ const Navbar = () => {
                         <span className="inline-block px-2.5 py-1 bg-[#F48C06] text-white text-[10px] font-bold rounded-full uppercase tracking-wide mb-3">
                           Free
                         </span>
-                        <h3 className="text-[14px] font-semibold leading-snug mb-1.5">
+                        <p className="text-[14px] font-semibold leading-snug mb-1.5">
                           Studying in {selectedCountry}?
-                        </h3>
+                        </p>
                         <p className="text-xs text-gray-300 leading-relaxed">
                           Get a free profile evaluation from an Eduhawk
                           counsellor.
@@ -1413,7 +1413,7 @@ const Navbar = () => {
 
           {/* Mobile Hamburger */}
           <button
-            className="md:hidden text-[#2F327D] focus:outline-none"
+            className="lg:hidden text-[#2F327D] focus:outline-none"
             onClick={toggleMobileMenu}
             aria-label="Toggle menu"
           >
@@ -1439,7 +1439,7 @@ const Navbar = () => {
 
         {/* ================= MOBILE MENU ================= */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 border-t bg-white max-h-[80vh] overflow-y-auto">
+          <div className="lg:hidden py-4 border-t bg-white max-h-[80vh] overflow-y-auto">
             <div className="flex flex-col divide-y divide-gray-100 text-[15px] font-medium">
               <a href="/" className={`${navLinkClass("/")} block py-4 px-5`}>
                 Home

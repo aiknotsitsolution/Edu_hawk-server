@@ -219,34 +219,34 @@ import cmsData from "../../data/medical_colleges/georgia.json";
 
 //             <div className="space-y-6">
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   1. High-Quality Education
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Globally recognized universities with strong academic
 //                   standards.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   2. Affordable Tuition Fees
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   Significantly lower than many Western countries.
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   3. No Additional Entrance Exams
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   (NEET required for Indian students only)
 //                 </p>
 //               </div>
 //               <div>
-//                 <h5 className="text-xl font-semibold">
+//                 <h3 className="text-xl font-semibold">
 //                   4. English-Medium Programs
-//                 </h5>
+//                 </h3>
 //                 <p className="text-gray-700">
 //                   No language barrier for most international students.
 //                 </p>
@@ -869,9 +869,9 @@ const Georgia = () => {
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-6">
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   1. Low prices and high-quality education
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Georgia provides economical medical training as well as
                   dependable, high-quality education. NMC and WHO recognize a
@@ -880,9 +880,9 @@ const Georgia = () => {
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   2. Instruction in English
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   English is the primary medium of instruction in Georgian
                   medical colleges, making learning easier for Indian students.
@@ -891,9 +891,9 @@ const Georgia = () => {
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   3. Outstanding Environment and Infrastructure
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Georgia has a great structure and a pleasant overall climate.
                   Practical training and logical parts of education are
@@ -903,9 +903,9 @@ const Georgia = () => {
             </div>
             <div className="space-y-6">
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   4. Accommodations and Safety for Students
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Both hostels and apartments provide safe living arrangements
                   for students. Boys' and girls' hostels are separate, and some
@@ -913,18 +913,18 @@ const Georgia = () => {
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   5. Internships and Part-Time Employment
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   Universities help students obtain internships and part-time
                   work.
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   6. Opportunities and International Recognition
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   WHO and NMC recognize Georgia's MBBS degrees. Students can
                   acquire exposure to the world by taking part in international
@@ -932,9 +932,9 @@ const Georgia = () => {
                 </p>
               </div>
               <div>
-                <h5 className="text-xl font-semibold">
+                <h3 className="text-xl font-semibold">
                   7. No Exams for Admission Other Than NEET
-                </h5>
+                </h3>
                 <p className="text-gray-700">
                   No other entrance examinations are necessary; students only
                   need to pass NEET.
@@ -980,9 +980,9 @@ const Georgia = () => {
                 Medical universities in Georgia provide comfortable hostel and
                 food facilities for international students.
               </p>
-              <h4 className="text-2xl font-bold mt-8 mb-4">
+              <h3 className="text-2xl font-bold mt-8 mb-4">
                 Hostel Facilities
-              </h4>
+              </h3>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
                   Most universities provide hostel accommodation for
@@ -998,7 +998,7 @@ const Georgia = () => {
                 </li>
               </ul>
 
-              <h4 className="text-2xl font-bold mt-8 mb-4">Room Facilities</h4>
+              <h3 className="text-2xl font-bold mt-8 mb-4">Room Facilities</h3>
               <p>Hostel rooms generally include:</p>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Comfortable beds</li>
@@ -1008,9 +1008,9 @@ const Georgia = () => {
                 <li>Wardrobes or cupboards</li>
               </ul>
 
-              <h4 className="text-2xl font-bold mt-8 mb-4">
+              <h3 className="text-2xl font-bold mt-8 mb-4">
                 Kitchen and Food Facilities
-              </h4>
+              </h3>
               <ul className="list-disc pl-6 space-y-2">
                 <li>Hostels provide common kitchens for students.</li>
                 <li>Students can cook their own meals.</li>
@@ -1029,9 +1029,9 @@ const Georgia = () => {
                 </li>
               </ul>
 
-              <h4 className="text-2xl font-bold mt-8 mb-4">
+              <h3 className="text-2xl font-bold mt-8 mb-4">
                 Laundry and Daily Facilities
-              </h4>
+              </h3>
               <ul className="list-disc pl-6 space-y-2">
                 <li>
                   Hostels often provide laundry rooms or washing machine
@@ -1202,9 +1202,9 @@ const Georgia = () => {
               <li>Academic Study: 5 Years</li>
               <li>Internship / Clinical Training: 1 Year</li>
             </ul>
-            <h4 className="text-2xl font-bold text-center mt-10 mb-4">
+            <h3 className="text-2xl font-bold text-center mt-10 mb-4">
               Course Structure
-            </h4>
+            </h3>
             <ul className="list-disc pl-6 mx-auto max-w-2xl space-y-2">
               <li>The first years focus on basic medical sciences.</li>
               <li>
@@ -1365,9 +1365,9 @@ const Georgia = () => {
                     }}
                   />
                   <div className="p-6 text-center">
-                    <h4 className="text-xl font-bold text-blue-900">
-                      {uni.name}
-                    </h4>
+                    <h3 className="text-xl font-bold text-blue-900">
+                    {uni.name}
+                  </h3>
                   </div>
                 </div>
               ))}
@@ -1394,9 +1394,9 @@ const Georgia = () => {
                     onClick={() => toggleFAQ(index)}
                     className="w-full flex items-center justify-between px-6 py-5 text-left focus:outline-none focus:ring-2 focus:ring-blue-200"
                   >
-                    <h4 className="text-xl md:text-2xl font-semibold text-blue-900 leading-tight">
+                    <h3 className="text-xl md:text-2xl font-semibold text-blue-900 leading-tight">
                       {item.question}
-                    </h4>
+                    </h3>
 
                     <span className="text-3xl text-blue-600 flex-shrink-0 transition-transform duration-300">
                       {openIndex === index ? <FiMinus /> : <FiPlus />}
