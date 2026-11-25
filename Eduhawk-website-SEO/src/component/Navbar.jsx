@@ -551,7 +551,7 @@ const Navbar = () => {
           </div>
 
           {/* ================= DESKTOP NAVIGATION ================= */}
-          <nav className="hidden md:flex items-center gap-6 lg:gap-8 text-sm lg:text-base font-medium">
+          <nav className="hidden lg:flex items-center gap-6 lg:gap-8 text-sm lg:text-base font-medium">
             <a href="/" className={navLinkClass("/")}>
               Home
               <span className="absolute left-0 bottom-0 w-0 h-0.5 bg-[#F48C06] group-hover:w-full transition-all duration-300"></span>
@@ -1413,7 +1413,7 @@ const Navbar = () => {
 
           {/* Mobile Hamburger */}
           <button
-            className="md:hidden text-[#2F327D] focus:outline-none"
+            className="lg:hidden text-[#2F327D] focus:outline-none"
             onClick={toggleMobileMenu}
             aria-label="Toggle menu"
           >
@@ -1439,7 +1439,7 @@ const Navbar = () => {
 
         {/* ================= MOBILE MENU ================= */}
         {isMobileMenuOpen && (
-          <div className="md:hidden py-4 border-t bg-white max-h-[80vh] overflow-y-auto">
+          <div className="lg:hidden py-4 border-t bg-white max-h-[80vh] overflow-y-auto">
             <div className="flex flex-col divide-y divide-gray-100 text-[15px] font-medium">
               <a href="/" className={`${navLinkClass("/")} block py-4 px-5`}>
                 Home

@@ -501,7 +501,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 1. WHY STUDY NURSING IN THE USA? ================= */}
-      <section className="py-16 sm:py-20" id="why-usa">
+      <section className="py-10 sm:py-14" id="why-usa">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -562,7 +562,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 2. NURSING COURSES IN THE USA ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-courses">
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-courses">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -576,7 +576,7 @@ const NursingAbroad = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-start">
             {/* BSN */}
             <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-7 shadow-xs lg:col-span-2">
               <div className="flex items-center gap-3 mb-4">
@@ -599,14 +599,14 @@ const NursingAbroad = () => {
               <h4 className="font-semibold text-slate-900 text-sm mb-3">
                 Key Subjects Covered in BSN Curriculum:
               </h4>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mb-5">
                 {bsnSubjects.map((sub, i) => (
-                  <div key={i} className="flex items-center gap-2 text-sm text-slate-700 bg-slate-50 p-2.5 rounded-lg border border-slate-100">
+                  <li key={i} className="flex items-center gap-2 text-sm text-slate-700">
                     <CheckCircle2 size={16} className="text-emerald-500 shrink-0" />
                     <span>{sub}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
               <p className="text-xs text-slate-500 italic">
                 * Note: Program structure and admission requirements vary between universities.
               </p>
@@ -657,7 +657,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 3. TOP UNIVERSITIES FOR NURSING IN THE USA ================= */}
-      <section className="py-16 sm:py-20" id="usa-universities">
+      <section className="py-10 sm:py-14" id="usa-universities">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -733,17 +733,17 @@ const NursingAbroad = () => {
               The best nursing university in the USA is not necessarily the institution with the highest overall global ranking. Indian students should evaluate and compare:
             </p>
 
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 mb-6">
+            <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 mb-6">
               {comparisonPoints.map((point, i) => (
-                <div
+                <li
                   key={i}
-                  className="bg-white border border-slate-200/80 rounded-xl p-3 text-xs sm:text-sm font-medium text-slate-700 flex items-center gap-2"
+                  className="flex items-center gap-2 text-xs sm:text-sm text-slate-700"
                 >
                   <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 shrink-0" />
                   <span>{point}</span>
-                </div>
+                </li>
               ))}
-            </div>
+            </ul>
 
             <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
               Always check the latest admission and prerequisite criteria directly with the university before applying. With <strong>Edu Hawk university selection guidance</strong>, students can compare suitable institutions based on academic background, budget, preferred location, and long-term professional goals.
@@ -753,7 +753,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 4. ELIGIBILITY TO STUDY NURSING IN THE USA ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-eligibility">
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-eligibility">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -824,7 +824,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 5. NURSING ADMISSION REQUIREMENTS IN THE USA ================= */}
-      <section className="py-16 sm:py-20" id="usa-admission-req">
+      <section className="py-10 sm:py-14" id="usa-admission-req">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -869,14 +869,14 @@ const NursingAbroad = () => {
               <p className="text-slate-600 text-sm leading-relaxed mb-4">
                 International students must verify English language proficiency. Commonly accepted tests:
               </p>
-              <div className="grid grid-cols-2 gap-3 mb-5">
+              <div className="flex flex-wrap gap-2.5 mb-5">
                 {englishTests.map((test, i) => (
-                  <div
+                  <span
                     key={i}
-                    className="p-3 rounded-xl bg-amber-50/70 border border-amber-200 text-amber-900 text-sm font-semibold text-center"
+                    className="px-3.5 py-1.5 rounded-lg bg-amber-50 border border-amber-200/80 text-amber-900 text-xs sm:text-sm font-semibold"
                   >
                     {test}
-                  </div>
+                  </span>
                 ))}
               </div>
               <p className="text-slate-500 text-xs sm:text-sm leading-relaxed">
@@ -888,7 +888,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 6. COST OF STUDYING NURSING IN THE USA ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-cost">
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-cost">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -941,14 +941,14 @@ const NursingAbroad = () => {
               <p className="text-slate-600 text-sm leading-relaxed mb-4">
                 Students should factor both standard living expenses and nursing-specific clinical costs:
               </p>
-              <div className="grid grid-cols-2 gap-2 text-xs sm:text-sm text-slate-700">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs sm:text-sm text-slate-700">
                 {livingExpenses.map((exp, i) => (
-                  <div key={i} className="flex items-center gap-2 bg-slate-50 p-2 rounded-lg border border-slate-100">
+                  <li key={i} className="flex items-center gap-2">
                     <span className="w-1.5 h-1.5 rounded-full bg-indigo-500 shrink-0" />
                     <span>{exp}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           </div>
 
@@ -964,7 +964,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 7. NURSING ADMISSION PROCESS IN THE USA ================= */}
-      <section className="py-16 sm:py-20" id="usa-admission">
+      <section className="py-10 sm:py-14" id="usa-admission">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -1007,7 +1007,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 8. NURSING LICENSING IN THE USA (NCLEX-RN) ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-licensing">
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-licensing">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -1078,7 +1078,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 9. SALARY AND JOB OPPORTUNITIES IN THE USA ================= */}
-      <section className="py-16 sm:py-20" id="usa-careers">
+      <section className="py-10 sm:py-14" id="usa-careers">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -1137,14 +1137,14 @@ const NursingAbroad = () => {
               <h3 className="text-xl font-bold text-slate-900 mb-4">
                 Where Registered Nurses Work in the USA:
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                 {workSettings.map((set, i) => (
-                  <div key={i} className="flex items-center gap-2 text-sm text-slate-700 bg-slate-50 p-3 rounded-xl border border-slate-100">
+                  <li key={i} className="flex items-center gap-2 text-sm text-slate-700">
                     <Building2 size={16} className="text-indigo-600 shrink-0" />
                     <span>{set}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
 
             {/* Nursing Specializations */}
@@ -1152,21 +1152,21 @@ const NursingAbroad = () => {
               <h3 className="text-xl font-bold text-slate-900 mb-4">
                 Nursing Career Specializations:
               </h3>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
                 {careerAreas.map((spec, i) => (
-                  <div key={i} className="flex items-center gap-2 text-xs sm:text-sm text-slate-700 bg-slate-50 p-2.5 rounded-lg border border-slate-100">
+                  <li key={i} className="flex items-center gap-2 text-xs sm:text-sm text-slate-700">
                     <CheckCircle2 size={15} className="text-emerald-500 shrink-0" />
                     <span>{spec}</span>
-                  </div>
+                  </li>
                 ))}
-              </div>
+              </ul>
             </div>
           </div>
         </div>
       </section>
 
       {/* ================= 10. DOCUMENTS REQUIRED TO STUDY NURSING IN THE USA ================= */}
-      <section className="py-16 sm:py-20 bg-slate-50" id="usa-documents">
+      <section className="py-10 sm:py-14 bg-slate-50" id="usa-documents">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-3xl mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -1239,7 +1239,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= 11. FREQUENTLY ASKED QUESTIONS ================= */}
-      <section className="py-16 sm:py-20" id="faq">
+      <section className="py-10 sm:py-14" id="faq">
         <div className="max-w-4xl mx-auto px-6">
           <div className="text-center mb-12">
             <div className="text-xs font-semibold tracking-wider uppercase text-indigo-600 mb-2">
@@ -1280,7 +1280,7 @@ const NursingAbroad = () => {
       </section>
 
       {/* ================= CTA CONSULTATION ================= */}
-      <section className="py-16 sm:py-20" id="consult">
+      <section className="py-10 sm:py-14" id="consult">
         <div className="max-w-6xl mx-auto px-6">
           <div className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 px-6 py-12 text-center text-white shadow-2xl sm:px-12 sm:py-16">
             <div className="nursing-hero-glow absolute top-0 right-0 w-80 h-80 bg-indigo-600/25 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />

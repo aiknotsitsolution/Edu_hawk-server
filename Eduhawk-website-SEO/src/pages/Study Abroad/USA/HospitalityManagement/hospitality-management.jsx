@@ -176,8 +176,18 @@ const page = {
             "Academic scores which meet the admission standards of the university.",
             "English skills, if needed.",
             "Supporting documents and **academic transcripts**.",
-            "Valid international passport for study.",
-            "For Master’s Degree Programs",
+            "Valid international passport for study."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "For Master’s Degree Programs"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
             "A recognized undergraduate degree.",
             "Degree certificates and **academic transcripts**.",
             "If applicable, English language test scores.",
@@ -201,11 +211,22 @@ const page = {
         {
           "t": "p",
           "items": [
-            "International students might need to provide evidence of their English language skills in one of the following ways:",
-            "IELTS Academic TOEFL iBT",
+            "International students might need to provide evidence of their English language skills in one of the following ways:"
+          ]
+        },
+        {
+          "t": "pills",
+          "items": [
+            "IELTS Academic",
+            "TOEFL iBT",
             "PTE Academic",
-            "Where accepted Duolingo English Test",
-            "University-specific assessment or approved alternative",
+            "Duolingo English Test (where accepted)",
+            "University-specific assessment or approved alternative"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Required score varies with institution and program. Some courses may give exemptions for previous education or other criteria."
           ]
         }
@@ -217,17 +238,19 @@ const page = {
       "title": "Duration of the Course",
       "groups": [
         {
+          "t": "table",
+          "headers": ["Program Level", "Typical Duration"],
+          "rows": [
+            ["Bachelor's Degree", "About 4 years"],
+            ["Master’s Degrees / MBA in Hospitality", "1–2 years"],
+            ["Diploma", "Around 1–2 years"],
+            ["Certificate Course", "Weeks to months (a few)"],
+            ["Doctorate", "3–6 years or so"]
+          ]
+        },
+        {
           "t": "p",
           "items": [
-            "Bachelor's Degree",
-            "About 4 years",
-            "Master’s Degrees",
-            "MBA in Hospitality 1–2 years",
-            "Diploma Around 1-2 years",
-            "Certificate Course",
-            "Weeks to months (a few)",
-            "Doctorate",
-            "3-6 years or so",
             "These are rough estimates. Accelerated, part-time, online and joint-degree programs may have different deadlines."
           ]
         }
@@ -241,17 +264,24 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Total cost varies by institution, level of degree, campus location, and length of program.",
-            "Cost Estimated annual cost in USD",
-            "Tuition Price",
-            "15,000–45,000+",
-            "Accommodation 8,000–18,000",
-            "Personal and food expenses",
-            "3,000–7,000",
-            "Local transport 600-2,000",
-            "Books, supplies and other costs",
-            "500–1,500",
-            "These are broad planning estimates, not official university quotes. Private universities and specialized programs can be more expensive. Other course costs may be applicable including insurance, travel and deposits.\\"
+            "Total cost varies by institution, level of degree, campus location, and length of program."
+          ]
+        },
+        {
+          "t": "table",
+          "headers": ["Cost", "Estimated Annual Cost (USD)"],
+          "rows": [
+            ["Tuition Price", "$15,000–$45,000+"],
+            ["Accommodation", "$8,000–$18,000"],
+            ["Personal and food expenses", "$3,000–$7,000"],
+            ["Local transport", "$600–$2,000"],
+            ["Books, supplies and other costs", "$500–$1,500"]
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "These are broad planning estimates, not official university quotes. Private universities and specialized programs can be more expensive. Other course costs may be applicable including insurance, travel and deposits."
           ]
         }
       ]
@@ -299,9 +329,23 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Front Office Manager Hotel Operations Manager Guest Relations Manager Restaurant Manager Food and Beverage Manager Event Coordinator Conference and Banquet Manager Tourism Operations Executive",
-            "Hospitality Marketing Executive Resort Operations Manager",
-            "Revenue Management Analyst Hospitality Business Development Manager",
+            "Front Office Manager",
+            "Hotel Operations Manager",
+            "Guest Relations Manager",
+            "Restaurant Manager",
+            "Food and Beverage Manager",
+            "Event Coordinator",
+            "Conference and Banquet Manager",
+            "Tourism Operations Executive",
+            "Hospitality Marketing Executive",
+            "Resort Operations Manager",
+            "Revenue Management Analyst",
+            "Hospitality Business Development Manager"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Career progression is based on qualifications, relevant experience, employer requirements, location and individual performance. Industry experience is usually a prerequisite for top executive positions."
           ]
         }
@@ -324,7 +368,11 @@ const page = {
         },
         {
           "title": "Shortlisting Universities: Compare curriculum, fees, location of campus, internships and career resources.",
-          "text": "4. Document Preparation: Get transcripts, passport information, English exam scores and any essays or recommendations that are required."
+          "text": ""
+        },
+        {
+          "title": "Document Preparation: Get transcripts, passport information, English exam scores and any essays or recommendations that are required.",
+          "text": ""
         },
         {
           "title": "Complete Your Application Use the official admissions portal of the university.",

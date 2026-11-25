@@ -178,21 +178,14 @@ const PostgraduateEngineering = () => {
     />
 
     {/* HIGHLIGHTS */}
-    <section className="py-16 sm:py-20 bg-slate-50">
+    <section className="py-10 sm:py-12 bg-slate-50">
       <div className="max-w-6xl mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <div className="lg:col-span-7">
-            <StatGrid items={dynamicHighlights} />
-          </div>
-          <div className="lg:col-span-5">
-            <EligibilityCtaCard level="PG" />
-          </div>
-        </div>
+        <StatGrid items={dynamicHighlights} />
       </div>
     </section>
 
     {/* OVERVIEW */}
-    <section className="py-16 sm:py-20">
+    <section className="py-10 sm:py-12">
       <div className="max-w-6xl mx-auto px-6">
         <EhpHead eyebrow="Overview" title="Postgraduate Engineering in the USA for Indian Students" />
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
@@ -250,10 +243,17 @@ const PostgraduateEngineering = () => {
     </section>
 
     {/* APPLICATION PROCESS */}
-    <section className="py-16 sm:py-20 overflow-hidden">
+    <section className="py-10 sm:py-12 overflow-hidden">
       <div className="max-w-6xl mx-auto px-6">
         <EhpHead eyebrow="Step by step" title="Application & Visa Process" />
-        <StepTimeline steps={steps} />
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-12 items-start">
+          <div className="lg:col-span-2">
+            <StepTimeline steps={steps} />
+          </div>
+          <div className="lg:col-span-1 lg:sticky lg:top-24">
+            <EligibilityCtaCard level="PG" />
+          </div>
+        </div>
       </div>
     </section>
 
