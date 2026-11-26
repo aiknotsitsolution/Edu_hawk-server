@@ -449,14 +449,15 @@ export default function Footer() {
                   Edu-Hawk Worldwide
                 </p>
                 <p className="text-amber-400 text-xs uppercase tracking-widest mt-0.5">
-                  Overseas Medical Education
+                  Global Education &amp; Study Abroad Consultancy.
                 </p>
               </div>
             </div>
 
             <p className="text-gray-400 text-sm leading-relaxed mb-6 max-w-sm">
-              Trusted & ethical counselling for MBBS abroad — helping 1000+
-              Indian students globally since inception.
+              Your global education partner helping students explore international universities, discover the right courses, and pursue their academic ambitions worldwide.
+              <br /><br />
+              With personalized counselling, admission guidance, and student-focused support, we help make your study-abroad journey simpler, clearer, and more achievable.
             </p>
 
             <div className="flex gap-4 text-xl">
@@ -517,6 +518,22 @@ export default function Footer() {
                   <span>{c.name}</span>
                 </Link>
               ))}
+
+              <Link
+                to="/#destinations"
+                onClick={(e) => {
+                  const el = document.getElementById("destinations");
+                  if (el) {
+                    e.preventDefault();
+                    el.scrollIntoView({ behavior: "smooth" });
+                    window.history.pushState(null, "", "/#destinations");
+                  }
+                }}
+                className="inline-flex items-center gap-1.5 pt-2 text-xs font-bold text-amber-400 hover:text-amber-300 transition-colors duration-200 group cursor-pointer"
+              >
+                <span>View More Destinations</span>
+                <span className="transition-transform duration-200 group-hover:translate-x-1 font-extrabold">→</span>
+              </Link>
             </div>
           </div>
 

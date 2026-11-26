@@ -1,76 +1,299 @@
 {
   "seo": {
-    "title": "MBBS Abroad Counselling for Indian Students | EduHawk",
-    "description": "EduHawk is a premier MBBS abroad consultancy in India offering expert counselling, NMC recognized university selection, transparent fees, and end-to-end admission guidance."
+    "title": "Study Abroad Consultants in India | Edu-Hawk Worldwide",
+    "description": "Edu-Hawk Worldwide is your trusted partner for global education. Explore international universities, courses, scholarships, and expert study abroad counselling."
   },
-  "heroSlides": [
+  "hero": {
+    "tag": "STUDY ABROAD",
+    "mainHeading": "Your Global Education Journey Starts Here",
+    "sliderHeadings": [
+      "Your Future Has No Borders.",
+      "Learn Globally. Grow Beyond Limits.",
+      "Find Your Course. Choose Your Country. Shape Your Future.",
+      "Your Dream University Starts With the Right Guidance."
+    ],
+    "subtitle": "Explore international universities, discover courses that match your ambitions, and take the next step towards a global career with expert guidance from Edu-Hawk Worldwide.",
+    "supportingText": "From choosing the right country and university to admissions, visa assistance, and pre-departure support we guide you throughout your journey to study abroad.",
+    "ctaButtons": [
+      { "label": "Explore Study Destinations", "link": "#destinations" },
+      { "label": "Get Free Counselling", "action": "openModal" }
+    ]
+  },
+  "stats": [
     {
-      "id": 1,
-      "title": "Study MBBS in Russia",
-      "subtitle": "Top NMC-recognized universities • Affordable fees • Safe & Recognized",
-      "cta": "Get Free Counselling",
-      "image": "/uploads/home/hero-russia.webp"
+      "n": "1000+",
+      "l": "Students Guided",
+      "sub": "Supporting students in their international education journey"
     },
     {
-      "id": 2,
-      "title": "MBBS in Georgia – Modern & Affordable",
-      "subtitle": "English medium • European standards • Low cost of living",
-      "cta": "Explore Georgia Options",
-      "image": "/uploads/home/hero-georgia.webp"
+      "n": "20+",
+      "l": "Study Destinations",
+      "sub": "Explore opportunities across multiple countries"
     },
     {
-      "id": 3,
-      "title": "Kazakhstan & Kyrgyzstan – Best Value",
-      "subtitle": "₹15–32 Lakh total • No entrance exam • Direct admission",
-      "cta": "Compare Packages",
-      "image": "/uploads/home/hero-kazakhstan.webp"
+      "n": "Multiple Fields",
+      "l": "Courses & Programs",
+      "sub": "Options across medical, technical and business fields"
     },
     {
-      "id": 4,
-      "title": "Your Trusted MBBS Abroad Partner",
-      "subtitle": "1000+ students placed globally • Transparent process • End-to-end support",
-      "cta": "Start Your Journey Today",
-      "image": "/uploads/home/hero-trusted.webp"
+      "n": "End-to-End",
+      "l": "Student Support",
+      "sub": "Guidance from course selection to pre-departure"
     }
   ],
-  "stats": [
-    { "n": "1000+", "l": "Students Placed Globally" },
-    { "n": "20+", "l": "Countries Covered" },
-    { "n": "200+", "l": "Partner Medical Universities" },
-    { "n": "100%", "l": "Visa & Admission Success" }
-  ],
-  "mbbsOptions": [
-    { "country": "Bangladesh", "fees": "24 Lakhs to 41 Lakhs", "link": "/mbbs-abroad/bangladesh" },
-    { "country": "Russia", "fees": "24 Lakhs to 41 Lakhs", "link": "/mbbs-abroad/russia" },
-    { "country": "Uzbekistan", "fees": "16 Lakhs to 21 Lakhs", "link": "/mbbs-abroad/uzbekistan" },
-    { "country": "Kyrgyzstan", "fees": "14 Lakhs to 21 Lakhs", "link": "/mbbs-abroad/kyrgyzstan" },
-    { "country": "Egypt", "fees": "31 Lakhs to 36 Lakhs", "link": "/mbbs-abroad/egypt" },
-    { "country": "Kazakhstan", "fees": "16 Lakhs to 23 Lakhs", "link": "/mbbs-abroad/kazakhstan" },
-    { "country": "Tajikistan", "fees": "17 Lakhs to 25 Lakhs", "link": "/mbbs-abroad/tajikistan" },
-    { "country": "Nepal", "fees": "20 Lakhs to 35 Lakhs", "link": "/mbbs-abroad/nepal" },
-    { "country": "Georgia", "fees": "18 Lakhs to 28 Lakhs", "link": "/mbbs-abroad/georgia" },
-    { "country": "Vietnam", "fees": "21 Lakhs to 30 Lakhs", "link": "/mbbs-abroad/vietnam" }
-  ],
+  "about": {
+    "tag": "WHO WE ARE",
+    "title": "Your Trusted Partner for Global Education",
+    "paragraphs": [
+      "Edu-Hawk Worldwide helps students explore international education opportunities and make informed decisions about their academic and career futures.",
+      "We believe every student deserves the opportunity to access quality education, explore new cultures, and build a career without borders. Our experienced counselors provide personalized guidance based on your academic profile, interests, career goals, budget, and preferred destination.",
+      "From selecting the right course and university to application assistance and visa guidance, we simplify the process of studying abroad at every step."
+    ],
+    "button": {
+      "label": "Discover Edu-Hawk",
+      "link": "/about"
+    }
+  },
+  "studyPrograms": {
+    "tag": "EXPLORE YOUR OPTIONS",
+    "title": "Find the Course That Matches Your Ambition",
+    "description": "Whether you're planning your undergraduate studies, pursuing a professional degree, or advancing your qualifications with a postgraduate program, explore international opportunities across diverse academic fields.",
+    "programs": [
+      {
+        "name": "Medical & Healthcare",
+        "description": "MBBS, Dentistry, Nursing, Pharmacy, Public Health and allied health programs.",
+        "link": "/study-abroad/usa/nursing"
+      },
+      {
+        "name": "Engineering & Technology",
+        "description": "Computer Science, IT, AI, Mechanical, Civil, Aerospace and other engineering fields.",
+        "link": "/study-abroad/usa/ug/computer-engineering"
+      },
+      {
+        "name": "Business & Management",
+        "description": "MBA, BBA, Finance, Marketing, International Business and Management.",
+        "link": "/study-abroad/usa/mba"
+      },
+      {
+        "name": "Arts, Design & Architecture",
+        "description": "Architecture, Design, Creative Arts and other specialized programs.",
+        "link": "/study-abroad"
+      },
+      {
+        "name": "Law & Social Sciences",
+        "description": "Law, Psychology, Social Sciences, International Relations and more.",
+        "link": "/study-abroad"
+      },
+      {
+        "name": "Hospitality & Other Programs",
+        "description": "Hospitality, Tourism, Languages, Science, Research and diverse academic pathways.",
+        "link": "/study-abroad"
+      }
+    ],
+    "button": {
+      "label": "Explore All Courses",
+      "link": "/allcollege"
+    }
+  },
+  "studyDestinations": {
+    "tag": "EXPLORE THE WORLD",
+    "title": "Choose Your Destination. Discover New Possibilities.",
+    "description": "Explore education opportunities across leading study destinations. Compare universities, courses, tuition fees, admission requirements, and career pathways to find the country that fits your goals.",
+    "popularDestinations": [
+      { "name": "USA", "code": "usa", "path": "/study-abroad/usa/ug/computer-engineering" },
+      { "name": "UK", "code": "uk", "path": "/study-abroad/uk/ug/computer-engineering" },
+      { "name": "Canada", "code": "canada", "path": "/study-abroad/canada/ug/computer-engineering" },
+      { "name": "Australia", "code": "australia", "path": "/study-abroad/australia/ug/computer-engineering" },
+      { "name": "Germany", "code": "germany", "path": "/study-abroad/germany/ug/computer-engineering" },
+      { "name": "Italy", "code": "italy", "path": "/study-abroad/italy/ug/computer-engineering" },
+      { "name": "France", "code": "france", "path": "/study-abroad/france/ug/computer-engineering" },
+      { "name": "Ireland", "code": "ireland", "path": "/study-abroad/ireland/ug/computer-engineering" },
+      { "name": "Finland", "code": "finland", "path": "/study-abroad/finland/ug/computer-engineering" },
+      { "name": "Switzerland", "code": "switzerland", "path": "/study-abroad/switzerland/ug/computer-engineering" },
+      { "name": "Sweden", "code": "sweden", "path": "/study-abroad/sweden/ug/computer-engineering" },
+      { "name": "Denmark", "code": "denmark", "path": "/study-abroad/denmark/ug/computer-engineering" },
+      { "name": "Spain", "code": "spain", "path": "/study-abroad/spain/ug/computer-engineering" },
+      { "name": "Mauritius", "code": "mauritius", "path": "/study-abroad/mauritius/ug/computer-engineering" }
+    ],
+    "medicalDestinations": [
+      { "name": "Russia", "path": "/mbbs-abroad/russia" },
+      { "name": "Bangladesh", "path": "/mbbs-abroad/bangladesh" },
+      { "name": "Nepal", "path": "/mbbs-abroad/nepal" },
+      { "name": "Italy", "path": "/mbbs-abroad/italy" },
+      { "name": "Kazakhstan", "path": "/mbbs-abroad/kazakhstan" },
+      { "name": "Kyrgyzstan", "path": "/mbbs-abroad/kyrgyzstan" },
+      { "name": "Uzbekistan", "path": "/mbbs-abroad/uzbekistan" },
+      { "name": "Tajikistan", "path": "/mbbs-abroad/tajikistan" },
+      { "name": "Egypt", "path": "/mbbs-abroad/egypt" },
+      { "name": "Georgia", "path": "/mbbs-abroad/georgia" },
+      { "name": "Vietnam", "path": "/mbbs-abroad/vietnam" }
+    ],
+    "button": {
+      "label": "Explore All Countries",
+      "link": "/study-abroad"
+    }
+  },
+  "whyChoose": {
+    "tag": "THE EDU-HAWK ADVANTAGE",
+    "title": "Guidance That Goes Beyond Admissions",
+    "description": "Choosing to study abroad is a big decision. We're here to make it easier with personalized guidance, transparent information, and reliable support throughout your journey.",
+    "features": [
+      {
+        "title": "Personalized Counselling",
+        "description": "Guidance tailored to your academic background, budget, interests, and career goals."
+      },
+      {
+        "title": "University & Course Selection",
+        "description": "Find suitable universities and programs based on your profile and preferences."
+      },
+      {
+        "title": "Admission Assistance",
+        "description": "Support with applications, documentation, deadlines, and admission procedures."
+      },
+      {
+        "title": "Visa & Pre-Departure Guidance",
+        "description": "Guidance for visa documentation, travel preparation, and getting ready for life abroad."
+      },
+      {
+        "title": "Student-Focused Support",
+        "description": "We help students and families navigate the overseas education process with clarity and confidence."
+      }
+    ]
+  },
+  "howItWorks": {
+    "tag": "YOUR JOURNEY IN 5 STEPS",
+    "title": "From Dream to University",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Profile Evaluation",
+        "description": "Understand your qualifications, goals, eligibility, and budget."
+      },
+      {
+        "step": "02",
+        "title": "Course & Country Selection",
+        "description": "Shortlist courses, countries, and universities aligned with your ambitions."
+      },
+      {
+        "step": "03",
+        "title": "Application & Admission",
+        "description": "Prepare your documents and receive support with the application process."
+      },
+      {
+        "step": "04",
+        "title": "Visa Preparation",
+        "description": "Get guidance on visa requirements and the necessary formalities."
+      },
+      {
+        "step": "05",
+        "title": "Prepare & Depart",
+        "description": "Get ready for your international student journey with pre-departure guidance."
+      }
+    ]
+  },
+  "ourServices": {
+    "tag": "COMPLETE OVERSEAS EDUCATION SUPPORT",
+    "title": "Everything You Need to Move Forward",
+    "description": "We help simplify the international education journey with support designed around the needs of students and parents.",
+    "services": [
+      {
+        "title": "Study Abroad Counselling",
+        "description": "Personalized guidance to help you plan your education abroad."
+      },
+      {
+        "title": "University Selection",
+        "description": "Shortlisting universities and courses according to your profile."
+      },
+      {
+        "title": "Application Assistance",
+        "description": "Assistance with applications, documents, and admission requirements."
+      },
+      {
+        "title": "Visa Guidance",
+        "description": "Support with student visa procedures and documentation."
+      },
+      {
+        "title": "Financial Guidance",
+        "description": "Information about tuition, expenses, and available scholarships where applicable."
+      },
+      {
+        "title": "Pre-Departure Support",
+        "description": "Prepare for travel, accommodation planning, and settling into a new country."
+      }
+    ]
+  },
+  "scholarships": {
+    "tag": "MAKE GLOBAL EDUCATION MORE ACCESSIBLE",
+    "title": "Explore Scholarship Opportunities",
+    "description": "Your academic ambitions shouldn't be limited by uncertainty about finances. Explore university scholarships, merit-based awards, country-specific funding, and other financial opportunities that may be available for your chosen program.",
+    "subtext": "Our counselors help you understand scholarship eligibility, requirements, and application timelines.",
+    "button": {
+      "label": "Explore Scholarship Guidance",
+      "action": "openModal"
+    }
+  },
+  "promo": {
+    "title": "Your Future Deserves the Right Direction",
+    "paragraphs": [
+      "Every student has a unique dream, and every dream deserves a plan. Whether you want to pursue medicine, technology, business, science, or a specialized professional degree, the right course and university can help shape your future.",
+      "At Edu-Hawk Worldwide, we help you make informed decisions through personalized counselling, university guidance, and step-by-step assistance for international admissions."
+    ],
+    "buttons": [
+      { "label": "Start Your Journey", "action": "openModal" },
+      { "label": "Talk to a Counsellor", "link": "/contact" }
+    ]
+  },
   "faq": [
     {
-      "question": "How can I study MBBS abroad with low fees?",
-      "answer": "Edu-Hawk helps students compare affordable MBBS options in countries like Russia, Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan and Nepal based on fees, eligibility, and career goals."
+      "question": "Which courses can I study abroad?",
+      "answer": "You can explore a wide range of programs, including MBBS, Nursing, Engineering, Business, MBA, Computer Science, Law, Architecture, Bachelor's, Master's, and many other specialized courses."
     },
     {
-      "question": "What guidance do you provide for MBBS admission abroad?",
-      "answer": "We provide step-by-step counselling for university selection, application support, documentation, visa guidance, and pre-departure preparation for overseas education."
+      "question": "Which country is best for studying abroad?",
+      "answer": "The best country depends on your preferred course, academic profile, budget, language requirements, career goals, and future plans. Our counsellors can help you compare destinations."
     },
     {
-      "question": "Is MBBS abroad a good option for Indian students?",
-      "answer": "Yes, many Indian students choose foreign medical universities for quality medical education, internationally recognized programs, and cost-effective study options in lakhs."
+      "question": "Can I study abroad after Class 12?",
+      "answer": "Yes. Students can apply for eligible undergraduate, bachelor's, and other programs after completing Class 12, depending on course and country requirements."
     },
     {
-      "question": "Do I need to clear NEET for studying MBBS abroad?",
-      "answer": "Yes, NEET qualification is mandatory for Indian students who wish to pursue MBBS abroad and later practice medicine in India after clearing the FMGE/NExT exam."
+      "question": "Can I apply for scholarships?",
+      "answer": "Scholarships may be available depending on the university, course, academic performance, country, and funding criteria. Our team can guide you about applicable opportunities."
     },
     {
-      "question": "What is the total cost of studying MBBS abroad?",
-      "answer": "Total costs usually range from ₹15 Lakhs to ₹35 Lakhs depending on the chosen country, university tuition, hostel, and personal expenses."
+      "question": "Does Edu-Hawk help with admission and visa processes?",
+      "answer": "Yes, we provide guidance for course and university selection, admission applications, documentation, visa preparation, and pre-departure planning."
+    },
+    {
+      "question": "How much does studying abroad cost?",
+      "answer": "The cost varies based on country, university, course, tuition fees, accommodation, living expenses, and other requirements. We help you explore options according to your budget."
     }
-  ]
+  ],
+  "cta": {
+    "title": "Your Global Future Starts With One Conversation.",
+    "description": "The right guidance can turn your international education dream into a clear plan. Connect with our experts and discover opportunities that match your ambitions.",
+    "buttons": [
+      { "label": "Get Free Counselling", "action": "openModal" },
+      { "label": "Contact Our Team", "link": "/contact" }
+    ]
+  },
+  "contact": {
+    "title": "Let's Plan Your Future Abroad",
+    "description": "Have questions about courses, universities, countries, admissions, scholarships, or student visas? Our counselors are here to help you find the right direction.",
+    "fields": [
+      { "name": "name", "label": "Full Name", "placeholder": "Full Name" },
+      { "name": "email", "label": "Email Address", "placeholder": "Email Address" },
+      { "name": "phone", "label": "Phone Number", "placeholder": "Phone Number" },
+      { "name": "course", "label": "Interested Course", "placeholder": "Interested Course" },
+      { "name": "country", "label": "Preferred Destination", "placeholder": "Preferred Destination" },
+      { "name": "intake", "label": "Preferred Intake", "placeholder": "Preferred Intake" },
+      { "name": "message", "label": "Tell us about your plans", "placeholder": "Tell us about your plans" }
+    ],
+    "button": "Submit Your Enquiry"
+  },
+  "footer": {
+    "brand": "Edu-Hawk Worldwide",
+    "tagline": "Global Education & Study Abroad Consultancy.",
+    "description": "Your trusted partner for international education. Helping students explore global universities, discover opportunities, and build brighter futures through the right academic guidance."
+  }
 }

@@ -2,52 +2,73 @@ import { useState, useEffect, useRef } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-import icon1 from "../Images/icons/ux-design_2998253.svg";
-import icon2 from "../Images/icons/selling_12091247.svg";
-import icon3 from "../Images/icons/ux-design_2998253.svg";
-import icon4 from "../Images/icons/selling_12091247.svg";
 import personalized from "../assets/personalized.webp";
 import support from "../assets/support.webp";
 import checkup from "../assets/checkup.webp";
 import charges from "../assets/charges.webp";
-import Kathmandu from "../../src/Images/Kathmandu.webp";
-import Eduhawk from "../assets/Eduhawk.webp"; // ← adjust path if needed
-import heroRussia from "../Images/hero/hero-russia.webp";
-import heroGeorgia from "../Images/hero/hero-georgia.webp";
-import heroKazakhstan from "../Images/hero/hero-kazakhstan.webp";
-import heroTrusted from "../Images/hero/hero-trusted.webp";
+import Eduhawk from "../assets/Eduhawk.webp";
+import heroAbroad1 from "../Images/hero/study-abroad-hero-1.webp";
+import heroAbroad2 from "../Images/hero/study-abroad-hero-2.webp";
+import heroAbroad3 from "../Images/hero/study-abroad-hero-3.webp";
+import heroAbroad4 from "../Images/hero/study-abroad-hero-4.webp";
 import globalDreamsArtwork from "../assets/global-dreams-natural.webp";
-import { X, ChevronDown, User, Mail, Phone, MapPin, GraduationCap, Globe, ArrowRight, Star, Award, CheckCircle2, Sparkles, MessageCircle, Calendar, MessageSquare, Plane } from "lucide-react";
+import {
+  X,
+  ChevronDown,
+  User,
+  Mail,
+  Phone,
+  MapPin,
+  GraduationCap,
+  Globe,
+  ArrowRight,
+  Star,
+  Award,
+  CheckCircle2,
+  Sparkles,
+  MessageCircle,
+  Calendar,
+  MessageSquare,
+  Plane,
+  BookOpen,
+  ShieldCheck,
+  Compass,
+  DollarSign,
+  Clock,
+  HelpCircle,
+  FileText,
+  Users
+} from "lucide-react";
 
-import univercity from "../Images/university-image/singapore.webp";
-import topRanking1 from "../Images/Peking University Health Science Center.webp";
-import topRanking2 from "../Images/Russia/Altai State Medical University.jpg";
-import topRanking3 from "../Images/Tsinghua University School of Medicine.webp";
-import topRanking4 from "../Images/Kazakhstan/West Kazakhstan Marat Ospanov State Medical University.webp";
-import topRanking5 from "../Images/Saint Petersburg State Medical University (Pavlov First Saint Petersburg State Medical University).jpeg";
-import topRanking6 from "../Images/Pirogov Russian National Research Medical University (RNRMU).webp";
-import topRanking7 from "../Images/University of Santo Tomas Faculty of Medicine and Surgery.webp";
-import topRanking8 from "../Images/University of the Philippines Manila, College of Medicine.jpeg";
-
-import globalImage from "../Images/home_page_Image/class room.webp";
-import globalImage2 from "../Images/home_page_Image/class room 2.webp";
+import studyAbroadAbout from "../Images/home_page_Image/study-abroad-about.webp";
 import { Link } from "react-router-dom";
 import SeoHead from "../component/SeoHead.jsx";
 import homeData from "../data/home.json";
 
-const NAV_LINKS = ["Home", "About", "Services", "Countries", "Contact"];
+const HERO_SLIDE_IMAGES = [heroAbroad1, heroAbroad2, heroAbroad3, heroAbroad4];
 
-const HERO_SLIDE_IMAGES = [heroRussia, heroGeorgia, heroKazakhstan, heroTrusted];
-
-const HERO_SLIDES = (homeData.heroSlides || []).map((slide, idx) => ({
-  ...slide,
-  image: slide.image || HERO_SLIDE_IMAGES[idx % HERO_SLIDE_IMAGES.length],
-}));
-
-const FAQ_ITEMS = homeData.faq || [];
-const mbbsOptions = homeData.mbbsOptions || [];
+const ROTATING_HEADINGS = (homeData.hero && homeData.hero.sliderHeadings) || [
+  "Your Future Has No Borders.",
+  "Learn Globally. Grow Beyond Limits.",
+  "Find Your Course. Choose Your Country. Shape Your Future.",
+  "Your Dream University Starts With the Right Guidance."
+];
 
 const CONTACT_COUNTRY_OPTIONS = [
+  { name: "USA", flag: "🇺🇸" },
+  { name: "UK", flag: "🇬🇧" },
+  { name: "Canada", flag: "🇨🇦" },
+  { name: "Australia", flag: "🇦🇺" },
+  { name: "Germany", flag: "🇩🇪" },
+  { name: "Ireland", flag: "🇮🇪" },
+  { name: "Italy", flag: "🇮🇹" },
+  { name: "France", flag: "🇫🇷" },
+  { name: "Finland", flag: "🇫🇮" },
+  { name: "Switzerland", flag: "🇨🇭" },
+  { name: "Sweden", flag: "🇸🇪" },
+  { name: "Denmark", flag: "🇩🇰" },
+  { name: "Spain", flag: "🇪🇸" },
+  { name: "Mauritius", flag: "🇲🇺" },
   { name: "Russia", flag: "🇷🇺" },
   { name: "Georgia", flag: "🇬🇪" },
   { name: "Uzbekistan", flag: "🇺🇿" },
@@ -56,8 +77,7 @@ const CONTACT_COUNTRY_OPTIONS = [
   { name: "Nepal", flag: "🇳🇵" },
   { name: "Egypt", flag: "🇪🇬" },
   { name: "Bangladesh", flag: "🇧🇩" },
-  { name: "Philippines", flag: "🇵🇭" },
-  { name: "Armenia", flag: "🇦🇲" },
+  { name: "Vietnam", flag: "🇻🇳" },
   { name: "Other", flag: "🌍" },
 ];
 
@@ -119,19 +139,245 @@ const MODAL_QUALIFICATIONS = [
   "Other",
 ];
 
+const CountryFlag = ({ name, className = "w-full h-full object-cover" }) => {
+  switch (name) {
+    case "USA":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#B22234" />
+          <path d="M0 6.15h60M0 12.3h60M0 18.46h60M0 24.61h60M0 30.76h60M0 36.92h60" stroke="#fff" strokeWidth="3.07" />
+          <rect width="25" height="21.5" fill="#3C3B6E" />
+          <circle cx="5" cy="5.5" r="1.3" fill="#fff" />
+          <circle cx="12.5" cy="5.5" r="1.3" fill="#fff" />
+          <circle cx="20" cy="5.5" r="1.3" fill="#fff" />
+          <circle cx="8.5" cy="11" r="1.3" fill="#fff" />
+          <circle cx="16.5" cy="11" r="1.3" fill="#fff" />
+          <circle cx="5" cy="16.5" r="1.3" fill="#fff" />
+          <circle cx="12.5" cy="16.5" r="1.3" fill="#fff" />
+          <circle cx="20" cy="16.5" r="1.3" fill="#fff" />
+        </svg>
+      );
+    case "UK":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#012169" />
+          <path d="M0 0L60 40M60 0L0 40" stroke="#fff" strokeWidth="8" />
+          <path d="M0 0L60 40M60 0L0 40" stroke="#C8102E" strokeWidth="4" />
+          <path d="M30 0v40M0 20h60" stroke="#fff" strokeWidth="12" />
+          <path d="M30 0v40M0 20h60" stroke="#C8102E" strokeWidth="7" />
+        </svg>
+      );
+    case "Canada":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="15" height="40" fill="#D80621" />
+          <rect x="15" width="30" height="40" fill="#fff" />
+          <rect x="45" width="15" height="40" fill="#D80621" />
+          <path d="M30 8l2.2 4.8 4.2-1.2-1.8 4 3.8 2-3 2.5.8 4.5-4-2.2-2.2 6.6-2.2-6.6-4 2.2.8-4.5-3-2.5 3.8-2-1.8-4 4.2 1.2z" fill="#D80621" />
+        </svg>
+      );
+    case "Australia":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#00008B" />
+          <rect width="25" height="17" fill="#012169" />
+          <path d="M0 0L25 17M25 0L0 17" stroke="#fff" strokeWidth="3" />
+          <path d="M0 0L25 17M25 0L0 17" stroke="#C8102E" strokeWidth="1.5" />
+          <path d="M12.5 0v17M0 8.5h25" stroke="#fff" strokeWidth="5" />
+          <path d="M12.5 0v17M0 8.5h25" stroke="#C8102E" strokeWidth="3" />
+          <circle cx="12.5" cy="28" r="3.5" fill="#fff" />
+          <circle cx="45" cy="10" r="1.5" fill="#fff" />
+          <circle cx="38" cy="18" r="1.5" fill="#fff" />
+          <circle cx="48" cy="24" r="1.5" fill="#fff" />
+          <circle cx="43" cy="32" r="1.8" fill="#fff" />
+          <circle cx="48" cy="17" r="1" fill="#fff" />
+        </svg>
+      );
+    case "Germany":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="13.33" fill="#000" />
+          <rect y="13.33" width="60" height="13.34" fill="#DD0000" />
+          <rect y="26.67" width="60" height="13.33" fill="#FFCE00" />
+        </svg>
+      );
+    case "Italy":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="20" height="40" fill="#009246" />
+          <rect x="20" width="20" height="40" fill="#fff" />
+          <rect x="40" width="20" height="40" fill="#CE2B37" />
+        </svg>
+      );
+    case "France":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="20" height="40" fill="#002395" />
+          <rect x="20" width="20" height="40" fill="#fff" />
+          <rect x="40" width="20" height="40" fill="#ED2939" />
+        </svg>
+      );
+    case "Ireland":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="20" height="40" fill="#169B62" />
+          <rect x="20" width="20" height="40" fill="#fff" />
+          <rect x="40" width="20" height="40" fill="#FF883E" />
+        </svg>
+      );
+    case "Finland":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#fff" />
+          <rect x="18" width="9" height="40" fill="#003580" />
+          <rect y="15.5" width="60" height="9" fill="#003580" />
+        </svg>
+      );
+    case "Switzerland":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#D52B1E" />
+          <rect x="25" y="10" width="10" height="20" fill="#fff" />
+          <rect x="18" y="15" width="24" height="10" fill="#fff" />
+        </svg>
+      );
+    case "Sweden":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#006AA7" />
+          <rect x="18" width="8" height="40" fill="#FECC00" />
+          <rect y="16" width="60" height="8" fill="#FECC00" />
+        </svg>
+      );
+    case "Denmark":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#C60C30" />
+          <rect x="18" width="7" height="40" fill="#fff" />
+          <rect y="16.5" width="60" height="7" fill="#fff" />
+        </svg>
+      );
+    case "Spain":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="10" fill="#AA151B" />
+          <rect y="10" width="60" height="20" fill="#F1BF00" />
+          <rect y="30" width="60" height="10" fill="#AA151B" />
+          <circle cx="16" cy="20" r="4.5" fill="#AA151B" opacity="0.85" />
+        </svg>
+      );
+    case "Mauritius":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="10" fill="#EA2839" />
+          <rect y="10" width="60" height="10" fill="#1A2061" />
+          <rect y="20" width="60" height="10" fill="#FFD700" />
+          <rect y="30" width="60" height="10" fill="#00A551" />
+        </svg>
+      );
+    case "Russia":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="13.33" fill="#fff" />
+          <rect y="13.33" width="60" height="13.34" fill="#0039A6" />
+          <rect y="26.67" width="60" height="13.33" fill="#D52B1E" />
+        </svg>
+      );
+    case "Bangladesh":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#006A4E" />
+          <circle cx="27" cy="20" r="10" fill="#F42A41" />
+        </svg>
+      );
+    case "Nepal":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#003893" />
+          <path d="M12 4v32l24-16-16-16z" fill="#DC143C" />
+          <circle cx="20" cy="20" r="4" fill="#fff" />
+        </svg>
+      );
+    case "Kazakhstan":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#00AFCA" />
+          <circle cx="30" cy="18" r="6" fill="#FECB00" />
+          <path d="M22 25c4-2 12-2 16 0-3 2-13 2-16 0z" fill="#FECB00" />
+        </svg>
+      );
+    case "Kyrgyzstan":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#E8112D" />
+          <circle cx="30" cy="20" r="8" fill="#FFE000" />
+          <circle cx="30" cy="20" r="5" fill="#E8112D" />
+        </svg>
+      );
+    case "Uzbekistan":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="13" fill="#0099B5" />
+          <rect y="13" width="60" height="1" fill="#CE1126" />
+          <rect y="14" width="60" height="12" fill="#fff" />
+          <rect y="26" width="60" height="1" fill="#CE1126" />
+          <rect y="27" width="60" height="13" fill="#1EB53A" />
+          <circle cx="10" cy="7" r="3.5" fill="#fff" />
+          <circle cx="11.5" cy="7" r="3" fill="#0099B5" />
+        </svg>
+      );
+    case "Tajikistan":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="12" fill="#CC0000" />
+          <rect y="12" width="60" height="16" fill="#fff" />
+          <rect y="28" width="60" height="12" fill="#006600" />
+          <circle cx="30" cy="20" r="4" fill="#F8C300" />
+        </svg>
+      );
+    case "Egypt":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="13.33" fill="#CE1126" />
+          <rect y="13.33" width="60" height="13.34" fill="#fff" />
+          <rect y="26.67" width="60" height="13.33" fill="#000" />
+          <circle cx="30" cy="20" r="3.5" fill="#C09300" />
+        </svg>
+      );
+    case "Georgia":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#fff" />
+          <rect x="25" width="10" height="40" fill="#FF0000" />
+          <rect y="15" width="60" height="10" fill="#FF0000" />
+          <path d="M11 6h3v6h-3zM9.5 7.5h6v3h-6zM46 6h3v6h-3zM44.5 7.5h6v3h-6zM11 28h3v6h-3zM9.5 29.5h6v3h-6zM46 28h3v6h-3zM44.5 29.5h6v3h-6z" fill="#FF0000" />
+        </svg>
+      );
+    case "Vietnam":
+      return (
+        <svg viewBox="0 0 60 40" className={className}>
+          <rect width="60" height="40" fill="#DA251D" />
+          <polygon points="30,8 33.5,19 45,19 35.8,25.8 39.3,37 30,30.2 20.7,37 24.2,25.8 15,19 26.5,19" fill="#FFFF00" />
+        </svg>
+      );
+    default:
+      return (
+        <span className="text-xl">🌍</span>
+      );
+  }
+};
+
 const EMPTY_CONTACT_FORM = {
   name: "",
   email: "",
   phone: "",
-  city: "",
+  course: "",
   country: "",
-  neetStatus: "",
+  intake: "",
   message: "",
 };
 
 export default function HeroSection() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [activeNav, setActiveNav] = useState("Home");
   const [currentHeroSlide, setCurrentHeroSlide] = useState(0);
 
   const [modalForm, setModalForm] = useState(EMPTY_MODAL_FORM);
@@ -142,17 +388,33 @@ export default function HeroSection() {
   const [contactForm, setContactForm] = useState(EMPTY_CONTACT_FORM);
   const [contactErrors, setContactErrors] = useState({});
   const [isContactSubmitting, setIsContactSubmitting] = useState(false);
-  const [exploreMenuOpen, setExploreMenuOpen] = useState(false);
   const [openFaq, setOpenFaq] = useState(0);
-  const exploreMenuRef = useRef(null);
+  const [activeDestinationTab, setActiveDestinationTab] = useState("studyAbroad");
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsOpen(true);
-    }, 2500);
+    }, 3500);
     return () => clearTimeout(timer);
   }, []);
-  // Toast Notification Functions
+
+  useEffect(() => {
+    const handleHashScroll = () => {
+      if (window.location.hash === "#destinations") {
+        setTimeout(() => {
+          const el = document.getElementById("destinations");
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth" });
+          }
+        }, 150);
+      }
+    };
+
+    handleHashScroll();
+    window.addEventListener("hashchange", handleHashScroll);
+    return () => window.removeEventListener("hashchange", handleHashScroll);
+  }, []);
+
   const showSuccess = (message) => {
     toast.success(message, {
       position: "top-center",
@@ -176,7 +438,6 @@ export default function HeroSection() {
     });
   };
 
-  // Shared API call
   const submitToApi = async (payload) => {
     const res = await fetch("https://api.eduhawk.in/api/query/create", {
       method: "POST",
@@ -215,33 +476,19 @@ export default function HeroSection() {
 
   const validateContactForm = (form) => {
     const errors = {};
+    if (!form.name.trim()) errors.name = "Full Name is required.";
+    else if (form.name.trim().length < 2) errors.name = "Name must be at least 2 characters.";
 
-    if (!form.name.trim()) {
-      errors.name = "Name is required.";
-    } else if (form.name.trim().length < 2) {
-      errors.name = "Name must be at least 2 characters.";
-    }
+    if (!form.email.trim()) errors.email = "Email Address is required.";
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) errors.email = "Enter a valid email address.";
 
-    if (!form.email.trim()) {
-      errors.email = "Email is required.";
-    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
-      errors.email = "Enter a valid email address.";
-    }
+    if (!form.phone.trim()) errors.phone = "Phone Number is required.";
+    else if (!/^\d{10}$/.test(form.phone.replace(/\D/g, ""))) errors.phone = "Phone number must be 10 digits.";
 
-    if (!form.phone.trim()) {
-      errors.phone = "Phone number is required.";
-    } else if (!/^\d{10}$/.test(form.phone.replace(/\D/g, ""))) {
-      errors.phone = "Phone number must be 10 digits.";
-    }
-
-    if (!form.city) errors.city = "Please select your city.";
-    if (!form.country) errors.country = "Please select your country.";
-    if (!form.neetStatus) errors.neetStatus = "Please select your NEET status.";
-    if (!form.message.trim()) {
-      errors.message = "Message is required.";
-    } else if (form.message.trim().length < 10) {
-      errors.message = "Message must be at least 10 characters.";
-    }
+    if (!form.course.trim()) errors.course = "Please specify your Interested Course.";
+    if (!form.country) errors.country = "Please select your Preferred Destination.";
+    if (!form.message.trim()) errors.message = "Please tell us about your plans.";
+    else if (form.message.trim().length < 10) errors.message = "Message must be at least 10 characters.";
 
     return errors;
   };
@@ -311,7 +558,8 @@ export default function HeroSection() {
     }
   };
 
-  // Contact Form Submit Handler
+  
+
   const handleContactSubmit = async (e) => {
     e.preventDefault();
     const errors = validateContactForm(contactForm);
@@ -328,16 +576,20 @@ export default function HeroSection() {
         name: contactForm.name,
         email: contactForm.email,
         phone: contactForm.phone,
-        city: contactForm.city,
         country: contactForm.country,
-        neetStatus: contactForm.neetStatus,
-        message: contactForm.message,
+        course: contactForm.course,
+        interested: contactForm.course,
+        intake: contactForm.intake,
+        message: [
+          `Interested Course: ${contactForm.course}`,
+          `Preferred Destination: ${contactForm.country}`,
+          contactForm.intake ? `Preferred Intake: ${contactForm.intake}` : null,
+          `Plans/Message: ${contactForm.message}`,
+        ].filter(Boolean).join("\n"),
       };
       const data = await submitToApi(payload);
       if (data.success) {
-        showSuccess(
-          "Message sent successfully! We'll contact you within 24 hours.",
-        );
+        showSuccess("Enquiry submitted successfully! Our expert advisors will reach out shortly.");
         setContactForm(EMPTY_CONTACT_FORM);
         setContactErrors({});
       } else {
@@ -351,48 +603,46 @@ export default function HeroSection() {
     }
   };
 
-  // Hero Carousel Auto Slide
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentHeroSlide((prev) => (prev + 1) % HERO_SLIDES.length);
-    }, 5500);
+      setCurrentHeroSlide((prev) => (prev + 1) % ROTATING_HEADINGS.length);
+    }, 4500);
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (
-        exploreMenuRef.current &&
-        !exploreMenuRef.current.contains(event.target)
-      ) {
-        setExploreMenuOpen(false);
-      }
-    };
+  const seo = homeData.seo || {
+    title: "Study Abroad Consultants in India | Edu-Hawk Worldwide",
+    description: "Edu-Hawk Worldwide is your trusted partner for global education. Explore international universities, courses, scholarships, and expert study abroad counselling."
+  };
 
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
-  }, []);
+  const stats = homeData.stats || [];
+  const about = homeData.about || {};
+  const studyPrograms = homeData.studyPrograms || {};
+  const studyDestinations = homeData.studyDestinations || {};
+  const whyChoose = homeData.whyChoose || {};
+  const howItWorks = homeData.howItWorks || {};
+  const ourServices = homeData.ourServices || {};
+  const scholarships = homeData.scholarships || {};
+  const promo = homeData.promo || {};
+  const faqs = homeData.faq || [];
+  const cta = homeData.cta || {};
+  const contact = homeData.contact || {};
 
   return (
     <>
       <SeoHead
-        title="MBBS Abroad Guidance | Indian Students Admission 2026"
-        description="Study MBBS abroad with expert guidance, affordable fees, and trusted admission support in Russia, Georgia, Uzbekistan, Kazakhstan & Kyrgyzstan."
-        keywords="study mbbs abroad, mbbs abroad, mbbs admission abroad, mbbs counselling, medical education abroad, overseas education, foreign medical universities, guidance, lakhs study mbbs, study mbbs"
+        title={seo.title}
+        description={seo.description}
+        keywords="study abroad, global education, study abroad consultants, overseas education, international universities, study abroad courses, admissions assistance, student visa, scholarships abroad"
         path="/"
         ogType="website"
       >
-        {/* LCP hint: the first hero slide is the homepage LCP element.
-            Preload it so the browser starts fetching before JS discovers it. */}
-        <link rel="preload" as="image" href={heroRussia} fetchPriority="high" />
+        <link rel="preload" as="image" href={heroAbroad1} fetchPriority="high" />
       </SeoHead>
 
-      <div className="min-h-screen bg-white font-sans overflow-x-hidden w-full">
-        {/* Toast Container */}
+      <div className="min-h-screen bg-white font-sans overflow-x-hidden w-full text-slate-900">
         <ToastContainer />
-
-        {/* Page heading — first heading in DOM order, visually hidden */}
-        <h1 className="sr-only">MBBS Abroad Counselling for Indian Students</h1>
+        <h1 className="sr-only">Your Global Education Journey Starts Here | Edu-Hawk Worldwide</h1>
 
         {/* POPUP MODAL */}
         {isOpen && (
@@ -418,18 +668,18 @@ export default function HeroSection() {
                 </div>
 
                 <div className="relative z-10 flex-1 flex flex-col justify-start">
-                  {/* Logo in Frosted Glass Container (Centered, No Border) */}
+                  {/* Logo in Solid White Card for Maximum Clarity */}
                   <div className="flex flex-col items-center text-center mb-2.5">
-                    <div className="rounded-2xl bg-white/20 p-2.5 sm:p-3 shadow-lg backdrop-blur-md inline-flex items-center justify-center">
+                    <div className="rounded-2xl bg-white px-4 py-2 sm:px-5 sm:py-2.5 shadow-xl inline-flex items-center justify-center">
                       <img
                         src={Eduhawk}
                         alt="Edu-Hawk Worldwide"
                         width={280}
                         height={80}
-                        className="h-12 sm:h-14 w-auto object-contain brightness-110 drop-shadow-[0_2px_12px_rgba(255,255,255,0.3)]"
+                        className="h-11 sm:h-12 w-auto object-contain"
                       />
                     </div>
-                    <p className="text-blue-100/95 text-xs sm:text-[13px] italic tracking-wide mt-1.5 font-medium">
+                    <p className="text-blue-100/95 text-xs sm:text-[13px] italic tracking-wide mt-2 font-medium">
                       Start in India. Continue Abroad. Graduate Globally
                     </p>
                   </div>
@@ -479,7 +729,7 @@ export default function HeroSection() {
               </div>
 
               {/* Mobile Header Banner (shown only on small screens) */}
-              <div className="lg:hidden bg-gradient-to-r from-[#071d38] to-[#0c4077] text-white p-5 pr-12">
+              <div className="lg:hidden bg-gradient-to-r from-[#071d38] to-[#0c4077] text-white p-5 pr-12 shrink-0">
                 <div className="inline-block bg-[#b30d1b] text-white text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded mb-1">
                   Study Abroad
                 </div>
@@ -492,7 +742,7 @@ export default function HeroSection() {
               </div>
 
               {/* RIGHT – Form (Matches Requirements with Spacious Inputs & Teal Theme) */}
-              <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-5 sm:px-8 sm:py-5.5 flex flex-col justify-center bg-white">
+              <div className="flex-1 overflow-y-auto modal-no-scrollbar px-5 py-5 sm:px-8 sm:py-5.5 flex flex-col justify-start sm:justify-center bg-white">
                 <form onSubmit={handleModalSubmit} className="space-y-2.5 sm:space-y-3">
                   {/* Row 1: Full Name & Email in 2 columns */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-3.5">
@@ -749,719 +999,446 @@ export default function HeroSection() {
           </div>
         )}
 
-        {/* HERO CAROUSEL */}
+        
+
+        {/* 1. HERO SECTION */}
         <section className="relative">
-          <div className="relative w-full min-h-[580px] sm:min-h-[640px] lg:h-[78vh] lg:min-h-[660px] overflow-hidden">
-            {HERO_SLIDES.map((slide, index) => (
+          <div className="relative w-full min-h-[640px] sm:min-h-[580px] lg:h-[80vh] lg:min-h-[590px] lg:max-h-[680px] overflow-hidden">
+            {HERO_SLIDE_IMAGES.map((img, index) => (
               <div
                 key={index}
                 className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-                  index === currentHeroSlide ? "opacity-100" : "opacity-0"
+                  index === currentHeroSlide % HERO_SLIDE_IMAGES.length ? "opacity-100 z-10 pointer-events-auto" : "opacity-0 z-0 pointer-events-none"
                 }`}
               >
                 <img
-                  src={slide.image}
-                  alt={slide.title}
+                  src={img}
+                  alt="Study Abroad with Edu-Hawk Worldwide"
                   width={1920}
                   height={1281}
                   sizes="100vw"
                   loading={index === 0 ? "eager" : "lazy"}
-                  fetchPriority={index === 0 ? "high" : undefined}
-                  decoding={index === 0 ? "sync" : "async"}
-                  className="w-full h-full object-cover brightness-[0.85] aspect-auto"
-                  srcSet={`${slide.image} 1x, ${slide.image} 2x`}
+                  className="w-full h-full object-cover aspect-auto"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/45 to-black/30" />
-                <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10 pb-20 sm:pb-24">
-                  <div className="text-center max-w-5xl mx-auto">
-                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/45 backdrop-blur-md border border-white/20 text-white text-xs sm:text-sm font-semibold mb-3 sm:mb-5 shadow-xl">
-                      <span className="text-white/90">1000+ Placed • NMC &amp; WHO Recognized</span>
-                    </div>
-
-                    <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-3 md:mb-5 drop-shadow-2xl">
-                      Your MBBS Abroad Journey
-                      <br />
-                      <span className="text-[#d4a853]">{slide.title}</span>
-                    </h2>
-                    <p className="text-sm sm:text-base md:text-lg text-white/95 font-medium mb-5 md:mb-7 max-w-3xl mx-auto drop-shadow-lg">
-                      {slide.subtitle}
-                    </p>
-
-                    <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
-                      <button
-                        type="button"
-                        onClick={() => setIsOpen(true)}
-                        className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-6 sm:px-8 py-3 sm:py-3.5 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm cursor-pointer"
-                      >
-                        <span>{slide.cta || "Get Free Counselling"}</span>
-                        <ArrowRight size={16} />
-                      </button>
-                      <a
-                        href="#destinations"
-                        className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 text-white border border-white/30 backdrop-blur-md font-semibold px-5 sm:px-7 py-3 sm:py-3.5 rounded-xl transition-all duration-300 text-xs sm:text-sm cursor-pointer"
-                      >
-                        <span>Explore Countries</span>
-                        <ChevronDown size={16} />
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-[#071d38]/85 via-black/50 to-black/30" />
               </div>
             ))}
 
-            {/* Slide Indicators positioned safely above the floating stats card */}
-            <div className="absolute bottom-26 sm:bottom-30 md:bottom-34 left-0 right-0 flex justify-center gap-2.5 z-20 pointer-events-auto">
-              {HERO_SLIDES.map((slide, i) => (
-                <button
-                  key={i}
-                  type="button"
-                  aria-label={`Go to slide ${i + 1}: ${slide.country || ""}`}
-                  onClick={() => setCurrentHeroSlide(i)}
-                  className={`h-2 rounded-full transition-all duration-400 shadow-md ${
-                    i === currentHeroSlide
-                      ? "w-7 bg-[#d4a853] ring-2 ring-[#d4a853]/60"
-                      : "w-2 bg-white/60 hover:bg-white/90"
-                  }`}
-                />
-              ))}
-            </div>
-          </div>
-        </section>
+            <div className="absolute inset-0 z-20 flex items-center justify-center px-5 sm:px-10 pt-2 sm:pt-4 md:pt-6 pb-20 sm:pb-16 lg:pb-20">
+              <div className="text-center max-w-5xl mx-auto">
+                <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-3 md:mb-4 drop-shadow-md">
+                  Your Global Education Journey Starts Here
+                  <br />
+                  <span className="text-[#ffd06a] text-2xl sm:text-4xl md:text-5xl font-extrabold block mt-2 drop-shadow-md">
+                    {ROTATING_HEADINGS[currentHeroSlide % ROTATING_HEADINGS.length]}
+                  </span>
+                </h2>
 
-        {/* BANNER SECTION WITH FLOATING STATS CARD (Exactly 50% on Hero Image, 50% on Blue Banner, styled like About page) */}
-        <section className="bg-gradient-to-br from-[#0a2342] via-[#1a4a7a] to-[#0d3460] pt-0 pb-20 md:pb-28 px-5 sm:px-8 lg:px-12 text-center relative overflow-visible">
-          {/* STATS BAR: Exactly like About page, compact sleek height, 50/50 split */}
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-30 -translate-y-1/2 -mb-8 sm:-mb-10">
-            <div className="bg-white border border-[#d4a853]/30 rounded-2xl sm:rounded-3xl shadow-2xl py-4.5 px-4 sm:py-5 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">
-              {(homeData.stats || [
-                { n: "1000+", l: "Students Placed Globally" },
-                { n: "20+", l: "Countries Covered" },
-                { n: "200+", l: "Partner Medical Universities" },
-                { n: "100%", l: "Visa & Admission Success" },
-              ]).map((s, i) => (
-                <div key={i} className="flex flex-col items-center justify-center text-center p-1 sm:p-2 group">
-                  <div className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#d4a853] tracking-tight leading-none group-hover:scale-105 transition-transform">
-                    {s.n}
-                  </div>
-                  <div className="text-[#0a2342] font-bold text-[11px] sm:text-xs md:text-sm uppercase tracking-wider mt-1.5 sm:mt-2">
-                    {s.l}
-                  </div>
+                <p className="text-sm sm:text-base md:text-lg text-white font-medium mb-2.5 max-w-3xl mx-auto drop-shadow-sm leading-relaxed">
+                  Explore international universities, discover courses that match your ambitions, and take the next step towards a global career with expert guidance from Edu-Hawk Worldwide.
+                </p>
+
+                <p className="text-xs sm:text-sm md:text-base text-slate-100 max-w-2xl mx-auto mb-5 md:mb-6 font-normal drop-shadow-sm leading-relaxed">
+                  From choosing the right country and university to admissions, visa assistance, and pre-departure support we guide you throughout your journey to study abroad.
+                </p>
+
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-4 sm:mb-5">
+                  <a
+                    href="#destinations"
+                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-6 sm:px-8 py-3.5 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm cursor-pointer"
+                  >
+                    <span>Explore Study Destinations</span>
+                    <ArrowRight size={16} />
+                  </a>
+
+                  <button
+                    type="button"
+                    onClick={() => setIsOpen(true)}
+                    className="inline-flex items-center justify-center gap-2 bg-white/15 hover:bg-white/25 text-white border border-white/30 backdrop-blur-md font-semibold px-6 sm:px-8 py-3.5 rounded-xl transition-all duration-300 text-xs sm:text-sm cursor-pointer"
+                  >
+                    <span>Get Free Counselling</span>
+                    <Sparkles size={16} className="text-[#d4a853]" />
+                  </button>
                 </div>
-              ))}
-            </div>
-          </div>
-          {/* Decorative background glow circles contained so they never overflow the viewport */}
-          <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            <div className="absolute -top-20 -right-20 w-72 sm:w-96 h-72 sm:h-96 rounded-full bg-[#d4a853]/10" />
-            <div className="absolute -bottom-20 -left-20 w-64 sm:w-80 h-64 sm:h-80 rounded-full bg-[#d4a853]/5" />
-          </div>
 
-          <div className="max-w-5xl mx-auto relative">
-            <p className="text-[#d4a853] uppercase tracking-wider text-sm md:text-base font-medium mb-6">
-              🏥 NMC-Recognized Universities Abroad
-            </p>
-
-            <h2 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 md:mb-8">
-              Your MBBS Abroad Journey
-              <br />
-              <span className="text-[#d4a853]">Starts with Right Guidance</span>
-            </h2>
-
-            <p className="text-white/80 text-base sm:text-lg md:text-xl max-w-3xl mx-auto mb-10 md:mb-12 font-light leading-relaxed">
-              Trusted MBBS abroad consultants for Indian students. Transparent
-              counselling, no hidden charges, and end-to-end support from
-              application to post-arrival.
-            </p>
-
-            <div className="flex flex-col sm:flex-row justify-center items-center gap-5 md:gap-8">
-              <Link to="/landingpage" className="inline-block bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-4 rounded-lg shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-sm sm:text-base w-full sm:w-auto cursor-pointer">Book Free Counselling →</Link>
-
-              <div
-                ref={exploreMenuRef}
-                className="relative w-full sm:w-auto hover:cursor-pointer"
-                onMouseEnter={() => setExploreMenuOpen(true)}
-              >
-                <Link
-                  to="/allcollege"
-                  className="inline-flex justify-center items-center border-2 border-[#d4a853]/60 text-white px-10 py-4 rounded-lg font-medium hover:bg-[#d4a853]/10 hover:border-[#d4a853] transition-all duration-300 text-sm sm:text-base w-full sm:w-auto"
-                >
-                  Explore Countries
-                </Link>
-
-                <div
-                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-3 w-56 sm:w-64 max-w-[90vw] rounded-2xl border border-white/15 bg-slate-950/95 p-3 shadow-2xl backdrop-blur-xl transition-all duration-200 z-30 ${
-                    exploreMenuOpen ? "block opacity-100" : "hidden opacity-0"
-                  }`}
-                >
-                  <Link
-                    to="/allcollege"
-                    onClick={() => setExploreMenuOpen(false)}
-                    className="block w-full rounded-2xl bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] text-center font-semibold px-4 py-3 mb-3 transition hover:shadow-lg"
-                  >
-                    MBBS India
-                  </Link>
-                  <Link
-                    to="/mbbs-abroad/russia"
-                    onClick={() => setExploreMenuOpen(false)}
-                    className="block w-full rounded-2xl border border-white/20 bg-white/5 text-white text-center font-semibold px-4 py-3 transition hover:bg-white/10 hover:shadow-lg"
-                  >
-                    MBBS Abroad
-                  </Link>
+                {/* Slider Indicators - Integrated in content flow */}
+                <div className="flex justify-center gap-2.5 z-30 pointer-events-auto">
+                  {ROTATING_HEADINGS.map((_, i) => (
+                    <button
+                      key={i}
+                      type="button"
+                      aria-label={`Slide ${i + 1}`}
+                      onClick={() => setCurrentHeroSlide(i)}
+                      className={`h-2 rounded-full transition-all duration-400 shadow-md cursor-pointer ${
+                        i === currentHeroSlide % ROTATING_HEADINGS.length
+                          ? "w-8 bg-[#d4a853] ring-2 ring-[#d4a853]/60"
+                          : "w-2 bg-white/60 hover:bg-white/90"
+                      }`}
+                    />
+                  ))}
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ABOUT SECTION - (kept as in original) */}
-        <section className="py-8 md:py-10 px-5 sm:px-6 lg:px-10 bg-[#faf8f4]">
-          <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
+        {/* 2. STATS SECTION & 10. PROMOTIONAL SECTION */}
+        <section className="bg-gradient-to-br from-[#0a2342] via-[#1a4a7a] to-[#0d3460] pt-0 pb-16 md:pb-24 px-5 sm:px-8 lg:px-12 text-center relative overflow-visible">
+          {/* FLOATING STATS CARD */}
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 relative z-30 -translate-y-6 sm:-translate-y-1/2 -mb-6 sm:-mb-16 md:-mb-20">
+            <div className="bg-white border border-[#d4a853]/30 rounded-2xl sm:rounded-3xl shadow-2xl py-6 px-4 sm:py-6 sm:px-8 grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+              {stats.map((s, i) => {
+                const isLongText = (s.n || "").length > 6;
+                return (
+                  <div key={i} className="flex flex-col items-center justify-start text-center p-2 group">
+                    <div className={`h-10 sm:h-12 flex items-center justify-center font-black text-[#d4a853] tracking-tight leading-tight group-hover:scale-105 transition-transform ${
+                      isLongText
+                        ? "text-sm sm:text-lg lg:text-xl font-extrabold whitespace-nowrap sm:whitespace-normal"
+                        : "text-2xl sm:text-3xl lg:text-4xl"
+                    }`}>
+                      {s.n}
+                    </div>
+                    <div className="text-[#0a2342] font-bold text-xs sm:text-sm uppercase tracking-wider mt-2">
+                      {s.l}
+                    </div>
+                    {s.sub && (
+                      <div className="text-slate-500 text-[11px] sm:text-xs mt-1 leading-snug max-w-[200px]">
+                        {s.sub}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="max-w-5xl mx-auto relative pt-1 sm:pt-3">
+            <p className="text-[#d4a853] uppercase tracking-wider text-xs sm:text-sm font-semibold mb-4">
+              ✨ Direction That Shapes Global Careers
+            </p>
+
+            {/* 10. Replace medical-only promotional section */}
+            <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight mb-5 md:mb-6">
+              {promo.title || "Your Future Deserves the Right Direction"}
+            </h2>
+
+            <div className="space-y-4 text-white/85 text-sm sm:text-base md:text-lg max-w-3xl mx-auto mb-8 font-light leading-relaxed">
+              {(promo.paragraphs || [
+                "Every student has a unique dream, and every dream deserves a plan. Whether you want to pursue medicine, technology, business, science, or a specialized professional degree, the right course and university can help shape your future.",
+                "At Edu-Hawk Worldwide, we help you make informed decisions through personalized counselling, university guidance, and step-by-step assistance for international admissions."
+              ]).map((para, i) => (
+                <p key={i}>{para}</p>
+              ))}
+            </div>
+
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+              <button
+                type="button"
+                onClick={() => setIsOpen(true)}
+                className="inline-block bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-8 py-3.5 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 text-xs sm:text-sm cursor-pointer"
+              >
+                Start Your Journey →
+              </button>
+
+              <Link
+                to="/contact"
+                className="inline-flex justify-center items-center border-2 border-[#d4a853]/60 text-white px-8 py-3.5 rounded-xl font-medium hover:bg-[#d4a853]/10 hover:border-[#d4a853] transition-all duration-300 text-xs sm:text-sm"
+              >
+                Talk to a Counsellor
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* 3. ABOUT SECTION */}
+        <section className="py-16 md:py-20 px-5 sm:px-6 lg:px-10 bg-[#faf8f4]">
+          <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 lg:gap-14 items-center">
             <div>
               <div className="w-14 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mb-4 h-1" />
-              <p className="text-[#d4a853] uppercase tracking-widest text-xs font-medium mb-3">
-                Who We Are
+              <p className="text-[#d4a853] uppercase tracking-widest text-xs font-bold mb-2">
+                {about.tag || "WHO WE ARE"}
               </p>
-              <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#0a2342] leading-tight mb-5">
-                MBBS counselling &amp;
-                <br />
-                consultancy services.
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0a2342] leading-tight mb-5">
+                {about.title || "Your Trusted Partner for Global Education"}
               </h2>
-              <p className="text-gray-700 leading-relaxed mb-4 text-base">
-                <strong className="text-[#0a2342] font-semibold hover:text-[#426a91] transition-colors duration-200">
-                  <a
-                    href="https://eduhawk.in/about"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Edu-Hawk Worldwide
-                  </a>
-                </strong>{" "}
-                is a professional team of experienced education advisors
-                specializing in MBBS counselling abroad services. We guide
-                Indian students toward admission in NMC-recognized medical
-                universities through transparent &amp; ethical counselling.
-              </p>
-              <p className="text-gray-700 leading-relaxed mb-4 text-base">
-                As trusted overseas{" "}
-                <Link to="/mbbs-abroad/italy">
-                  <strong>medical education </strong>
+
+              <div className="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+                {(about.paragraphs || [
+                  "Edu-Hawk Worldwide helps students explore international education opportunities and make informed decisions about their academic and career futures.",
+                  "We believe every student deserves the opportunity to access quality education, explore new cultures, and build a career without borders. Our experienced counselors provide personalized guidance based on your academic profile, interests, career goals, budget, and preferred destination.",
+                  "From selecting the right course and university to application assistance and visa guidance, we simplify the process of studying abroad at every step."
+                ]).map((p, i) => (
+                  <p key={i}>{p}</p>
+                ))}
+              </div>
+
+              <div className="mt-7">
+                <Link
+                  to="/about"
+                  className="inline-flex items-center gap-2 bg-[#0a2342] text-white hover:bg-[#143765] font-semibold px-6 py-3 rounded-xl transition-all duration-300 text-sm shadow-md"
+                >
+                  <span>Discover Edu-Hawk</span>
+                  <ArrowRight size={16} />
                 </Link>
-  consultants, we provide
-                personalized guidance based on your academic profile, budget,
-                and long-term career goals — ensuring the right country,
-                university, and eligibility for practice in India.
-              </p>
-              <p className="text-gray-700 leading-relaxed text-base">
-                We believe MBBS abroad should be a{" "}
-                <em>planned and safe decision</em>, supported by correct
-                guidance, honest counselling — no hidden charges, only genuine
-                information.
-              </p>
+              </div>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 place-items-center">
-              {[
-                {
-                  icon: (
-                    <img
-                      src={personalized}
-                      loading="lazy"
-                      alt="Personalized Counselling"
-                      width={246}
-                      height={197}
-                      className="w-12 h-12"
-                  srcSet={`${personalized} 1x, ${personalized} 2x`}
-                  sizes="100vw"
+            <div className="relative">
+              <div className="rounded-2xl overflow-hidden shadow-2xl">
+                <img
+                  src={studyAbroadAbout}
+                  alt="Edu-Hawk Global Education Students"
+                  className="w-full h-80 sm:h-96 object-cover"
                 />
-                  ),
-                  title: "Personalized Counselling",
-                  desc: "Guidance matched to your profile & budget",
-                },
-                {
-                  icon: (
-                    <img
-                      src={checkup}
-                      loading="lazy"
-                      alt="NMC Recognized"
-                      width={200}
-                      height={200}
-                      className="w-12 h-12"
-                  srcSet={`${checkup} 1x, ${checkup} 2x`}
-                  sizes="100vw"
-                />
-                  ),
-                  title: "NMC Recognized Only",
-                  desc: "Only recognized universities recommended",
-                },
-                {
-                  icon: (
-                    <img
-                      src={charges}
-                      loading="lazy"
-                      alt="No Hidden Charges"
-                      width={512}
-                      height={512}
-                      className="w-12 h-12"
-                  srcSet={`${charges} 1x, ${charges} 2x`}
-                  sizes="100vw"
-                />
-                  ),
-                  title: "No Hidden Charges",
-                  desc: "100% transparent fee structure",
-                },
-                {
-                  icon: (
-                    <img
-                      src={support}
-                      loading="lazy"
-                      alt="End-to-End Support"
-                      width={512}
-                      height={512}
-                      className="w-12 h-12"
-                  srcSet={`${support} 1x, ${support} 2x`}
-                  sizes="100vw"
-                />
-                  ),
-                  title: "End-to-End Support",
-                  desc: "Application to post-arrival assistance",
-                },
-              ].map((item, i) => (
-                <div
-                  key={i}
-                  className="bg-white rounded-xl p-5 border border-[#e8d5b0]/60 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 text-center max-w-xs w-full"
-                >
-                  <div className="flex justify-center mb-3">{item.icon}</div>
-                  <h3 className="font-bold text-[#0a2342] mb-2 text-base">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">
-                    {item.desc}
-                  </p>
+              </div>
+              <div className="absolute -bottom-4 -left-4 bg-white p-3.5 sm:p-4 rounded-xl shadow-lg border border-[#d4a853]/30 max-w-[245px] hidden sm:block">
+                <div className="flex items-center gap-2.5 mb-1.5">
+                  <div className="w-8 h-8 rounded-lg bg-[#d4a853]/20 flex items-center justify-center text-[#0a2342] shrink-0">
+                    <ShieldCheck size={18} className="text-[#d4a853]" />
+                  </div>
+                  <div>
+                    <div className="font-bold text-[#0a2342] text-xs sm:text-[13px] leading-tight">Trusted &amp; Transparent</div>
+                    <div className="text-slate-500 text-[10.5px]">Zero Hidden Charges</div>
+                  </div>
                 </div>
-              ))}
+                <p className="text-slate-600 text-[11px] leading-snug">
+                  Personalized roadmap from initial course shortlisting to post-arrival settlement.
+                </p>
+              </div>
             </div>
           </div>
         </section>
 
-        {/* WHAT WE PROVIDE SECTION */}
-        <div className="container mx-auto px-4 py-12 md:py-10">
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
-            <div className="md:col-span-4">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden max-w-sm mx-auto md:max-w-none">
-                <img
-                  src={univercity}
-                  loading="lazy"
-                  alt="MBBS Admission Abroad"
-                  width={3264}
-                  height={2448}
-                  className="w-full h-48 object-cover"
-                  srcSet={`${univercity} 1x, ${univercity} 2x`}
-                  sizes="100vw"
-                />
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">
-                    MBBS Admission in Abroad
-                  </h3>
-                  <p className="text-gray-600 mb-6">
-                    Expert Assistance for MBBS Admission in Renowned Abroad
-                    Institutions.
-                  </p>
-                  <a
-                    href="/contact"
-                    className="inline-block bg-blue-900 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-800 transition"
-                  >
-                    Get In Touch
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <div className="md:col-span-8">
-              <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-                <div className="bg-blue-950 text-white text-center py-4 font-semibold text-lg">
-                  WHAT WE PROVIDE
-                </div>
-                <div className="p-6">
-                  <blockquote className="text-gray-700 italic mb-6">
-                    <p className="mb-4">
-                      With our assistance, you can bid farewell to the
-                      complexities often associated with
-                      <strong className="text-[#0a2342] font-semibold hover:text-[#426a91] transition-colors duration-200 p-2">
-                        <Link
-                          to="/study-abroad"
-                          className="hover:text-[#426a91] transition-colors duration-200"
-                        >
-                          MBBS admission abroad
-                        </Link>
-                      </strong>
-                      We streamline the entire process, sparing you from any
-                      unnecessary hassle and ensuring a seamless experience
-                      every step of the way.
-                    </p>
-                    <footer className="text-gray-500 text-sm not-italic">
-                      Trust us to be your reliable partner in realizing your
-                      aspirations for MBBS admission in foreign universities.
-                      Let's embark on this transformative journey together.{" "}
-                      <cite className="font-medium">— EDU HAWK</cite>
-                    </footer>
-                  </blockquote>
-                  <ul className="space-y-3 text-gray-700">
-                    {[
-                      "Discover Global Opportunities: Pursue MBBS Education Beyond Borders",
-                      "Expert Guidance for Your MBBS Journey: Navigate the Admission Process with Ease",
-                      "Benefits of Studying Abroad: Enhance Your Medical Education Experience",
-                      "Unlocking Doors to Medical Excellence: Your Key to College Admission Success",
-                      "Counseling Compass: Directing You Towards Your Medical School Destiny",
-                    ].map((item, i) => (
-                      <li key={i} className="flex items-start">
-                        <span className="text-blue-600 mr-3">→</span>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* SERVICES SECTION */}
-        <div className="bg-gray-50 py-16">
-          <div className="container mx-auto px-4 md:px-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-              {[
-                {
-                  icon: icon1,
-                  alt: "Application Process",
-                  title: "Application Process",
-                  desc: "We believe that your entire MBBS journey is our responsibility—from the beginning until you settle in your new college. We provide complete student assistance, including application support, invitation letters, pre-departure briefings, and post-arrival support. Our goal is not just admission but helping students choose the right pathways and prepare for FMGE/NExT eligibility in India. We provide one-to-one personalised guidance to every student, understanding that each student has different goals and needs...",
-                },
-                {
-                  icon: icon2,
-                  alt: "Perfect Counselling",
-                  title: "Perfect Counselling",
-                  desc: "Begin your journey towards your dreams with Edu Hawk Worldwide, your trusted partner for MBBS abroad. If you are planning to study MBBS abroad, our expert MBBS abroad counselling team guides you at every step. We help you choose the right country and university based on your budget, NEET score, and career goals. Our MBBS abroad counseling also supports you with admissions, the visa process, education loans, and insurance guidance. With proper planning and transparent advice, you can confidently study MBBS abroad and build a successful medical career. Your dream of MBBS abroad begins here with the right guidance.",
-                },
-                {
-                  icon: icon3,
-                  alt: "Accurate Information",
-                  title: "Accurate Information",
-                  desc: "At Edu Hawk Worldwide, we are committed to providing accurate and reliable information for students planning to study abroad. We carefully collect verified details about universities, including campus environment, eligibility criteria, qualifications, application process, admission requirements, and arrival procedures. Our team uses trusted sources to ensure every piece of information is clear and up-to-date. We understand that choosing the right university is a big decision, so we focus on transparency and clarity. With complete and precise guidance, we help you make confident and informed choices for your educational journey.",
-                },
-                {
-                  icon: icon4,
-                  alt: "Proper Assistance",
-                  title: "Proper Assistance",
-                  desc: "At Edu Hawk Worldwide, we provide complete support for students planning to study MBBS abroad. Our expert MBBS abroad counselling ensures you receive step-by-step guidance throughout the process. From helping you study MBBS abroad to final university enrollment, we stay with you at every stage. Our services for MBBS abroad include admission assistance, visa processing, travel arrangements, scholarship guidance, and accommodation support. Through professional MBBS abroad counselling, we also guide you during departure and arrival procedures so your transition is smooth. If you face any challenge while planning to study MBBS abroad, our expert is always ready to support you. Your success in MBBS abroad is our top priority.",
-                },
-              ].map((item, i) => (
-                <div key={i} className="text-center md:text-left">
-                  <img
-                    src={item.icon}
-                    loading="lazy"
-                    alt={item.alt}
-                    width={512}
-                    height={512}
-                    className="w-24 h-24 mx-auto md:mx-0 mb-6"
-                  srcSet={`${item.icon} 1x, ${item.icon} 2x`}
-                  sizes="100vw"
-                />
-                  <h3 className="text-2xl font-bold text-gray-800 mb-4">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-600 leading-relaxed">{item.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-        {/* TOP MEDICAL COLLEGES */}
-        {/* <div className="container mx-auto px-4 py-16">
-          <h4 className="text-3xl font-bold text-center text-gray-800 mb-10">
-            TOP MEDICAL COLLEGES
-          </h4>
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
-            {[
-              {
-                name: "Peking University Health Science Center",
-                img: topRanking1,
-              },
-              {
-                name: "Shanghai Jiao Tong University School of Medicine",
-                img: topRanking2,
-              },
-              {
-                name: "Tsinghua University School of Medicine",
-                img: topRanking3,
-              },
-              {
-                name: "First Moscow State Medical University (Sechenov)",
-                img: topRanking4,
-              },
-              {
-                name: "Saint Petersburg State Medical University",
-                img: topRanking5,
-              },
-              {
-                name: "Pirogov Russian National Research Medical University",
-                img: topRanking6,
-              },
-              {
-                name: "University of Santo Tomas Faculty of Medicine",
-                img: topRanking7,
-              },
-              {
-                name: "University of the Philippines Manila, College of Medicine",
-                img: topRanking8,
-              },
-            ].map((college, index) => (
-              <div
-                key={index}
-                className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300"
-              >
-                <img
-                  src={college.img}
-                  alt={college.name}
-                  width={400}
-                  height={224}
-                  className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-4 w-full">
-                    <a
-                      href="#"
-                      className="text-white font-medium text-sm block hover:underline"
-                    >
-                      {college.name}
-                    </a>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div> */}
-        <div className="container mx-auto px-4 py-16">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">
-            TOP MEDICAL COLLEGES
-          </h2>
-
-          <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-6">
-            {[
-              {
-                name: "Altai State Medical University",
-                img: topRanking2,
-                path: "/mbbs-abroad/russia",
-              },
-              {
-                name: "Dhaka National Medical College",
-                img: "https://educationvibes.in/uploads/university_banner/mbbs_abroad/dhaka-national-medical-college.webp",
-                path: "/mbbs-abroad/bangladesh",
-              },
-              {
-                name: "Kathmandu Medical College",
-                img: Kathmandu,
-                path: "/mbbs-abroad/nepal",
-              },
-              {
-                name: "International Medical College",
-                img: "https://upload.wikimedia.org/wikipedia/commons/b/b9/International_higher_school_of_medicine_central_campus.jpg",
-                path: "/mbbs-abroad/kyrgyzstan",
-              },
-              {
-                name: "West Kazakhstan Marat Ospanov State Medical University",
-                img: topRanking4,
-                path: "/mbbs-abroad/kazakhstan",
-              },
-              {
-                name: "Samarkand State Medical Institute",
-                img: "https://www.moksh16.com/uploads/images/samarkand1.webp",
-                path: "/mbbs-abroad/uzbekistan",
-              },
-              {
-                name: "Tajik National University",
-                img: "https://upload.wikimedia.org/wikipedia/commons/3/36/Tajik_National_University_%28Main_Building%29.jpg",
-                path: "/mbbs-abroad/tajikistan",
-              },
-              {
-                name: "Assiut University",
-                img: "https://oktamam.com/wp-content/uploads/2024/03/assiut-university.png",
-                path: "/mbbs-abroad/egypt",
-              },
-            ].map((college, index) => (
-              <Link
-                key={index}
-                to={college.path}
-                className="group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300 block"
-              >
-                <img
-                  src={college.img}
-                  loading="lazy"
-                  alt={college.name}
-                  width={400}
-                  height={224}
-                  className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-105"
-                  srcSet={`${college.img} 1x, ${college.img} 2x`}
-                  sizes="100vw"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-4 w-full">
-                    <p className="text-white font-medium text-sm hover:underline line-clamp-2">
-                      {college.name}
-                    </p>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-        {/* CLASSROOM CARDS */}
-        <section className="py-12 md:py-16 bg-gray-50">
-          <div className="container mx-auto px-5 sm:px-6 lg:px-8 max-w-7xl">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
-              {[
-                {
-                  img: globalImage,
-                  alt: "Medical university classroom",
-                  title: "Edu Hawk: Your Bridge to Global Education",
-                  desc: "Embarking on a journey to study MBBS abroad is a life-changing decision...",
-                },
-                {
-                  img: globalImage2,
-                  alt: "Modern medical lecture hall",
-                  title:
-                    "Redefining Application Excellence: The Edu Hawk Advantage",
-                  desc: "What truly sets Edu Hawk apart is our commitment to excellence...",
-                },
-              ].map((card, i) => (
-                <div
-                  key={i}
-                  className="group bg-white rounded-2xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2"
-                >
-                  <div className="relative overflow-hidden h-64 md:h-80">
-                    <img
-                      src={card.img}
-                      loading="lazy"
-                      alt={card.alt}
-                      width={800}
-                      height={512}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 aspect-auto"
-                  srcSet={`${card.img} 1x, ${card.img} 2x`}
-                  sizes="100vw"
-                />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-60" />
-                  </div>
-                  <div className="p-6 md:p-8">
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4 leading-tight">
-                      {card.title}
-                    </h3>
-                    <p className="text-gray-700 leading-relaxed text-base">
-                      {card.desc}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        {/* FEES TABLE */}
-        <section className="py-10 md:py-14 bg-white">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 mb-8 text-center md:text-left">
-              Other MBBS Options for Indian Students
-            </h2>
-            <div className="overflow-x-auto rounded-xl border border-gray-200 shadow-sm">
-              <table className="min-w-full divide-y divide-gray-200">
-                <thead className="bg-gradient-to-r from-blue-900 to-blue-800 text-white">
-                  <tr>
-                    <th className="px-6 py-4 text-left text-sm font-semibold uppercase tracking-wider">
-                      Country
-                    </th>
-                    <th className="px-6 py-4 text-left text-sm font-semibold uppercase tracking-wider">
-                      Average Tuition Fees (INR)
-                    </th>
-                  </tr>
-                </thead>
-                <tbody className="bg-white divide-y divide-gray-100">
-                  {mbbsOptions.map((option, index) => (
-                    <tr
-                      key={index}
-                      className="hover:bg-blue-50/50 transition-colors duration-150"
-                    >
-                      <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                        <a
-                          href={option.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="text-blue-700 hover:text-blue-900 hover:underline transition-colors"
-                        >
-                          Study MBBS in {option.country}
-                        </a>
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-700">
-                        {option.fees}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-            <p className="mt-6 text-sm text-gray-500 text-center md:text-left">
-              * Fees are approximate and may vary depending on university,
-              hostel, and other charges. Always verify latest information from
-              official sources.
-            </p>
-          </div>
-        </section>
-
-        {/* SEO CONTENT SECTION */}
-        <section className="py-16 md:py-20 px-5 sm:px-8 lg:px-12 bg-[#f8fafc]">
-          <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-10 md:mb-12">
-              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-medium mb-4">
-                MBBS Abroad Guidance
+        {/* 4. STUDY PROGRAMS SECTION */}
+        <section className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-white">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-12 md:mb-16">
+              <div className="w-16 h-1 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mx-auto mb-4" />
+              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-bold mb-3">
+                {studyPrograms.tag || "EXPLORE YOUR OPTIONS"}
               </p>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0a2342] mb-4">
-                Study MBBS Abroad with Expert Guidance
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] mb-4">
+                {studyPrograms.title || "Find the Course That Matches Your Ambition"}
               </h2>
-              <p className="text-gray-600 max-w-3xl mx-auto text-base md:text-lg leading-relaxed">
-                Edu-Hawk Worldwide helps Indian students plan their MBBS journey
-                with transparent counselling, trusted university advice, and
-                affordable study options in lakhs for medical education abroad.
+              <p className="text-slate-600 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed">
+                {studyPrograms.description || "Whether you're planning your undergraduate studies, pursuing a professional degree, or advancing your qualifications with a postgraduate program, explore international opportunities across diverse academic fields."}
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {[
-                {
-                  title: "MBBS Admission Abroad",
-                  desc: "Get support for MBBS admission abroad with eligibility guidance, university shortlisting, and application assistance.",
-                },
-                {
-                  title: "Medical Education Overseas",
-                  desc: "Explore medical education opportunities in foreign medical universities with recognized programs and strong academic support.",
-                },
-                {
-                  title: "Overseas Education for Indian Students",
-                  desc: "We simplify overseas education for Indian students with guidance on country selection, fees, and admission processes.",
-                },
-                {
-                  title: "Affordable Study in Lakhs",
-                  desc: "Compare cost-effective MBBS options in lakhs and choose the right path for your budget and career goals.",
-                },
-              ].map((card, index) => (
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
+              {(studyPrograms.programs || []).map((prog, index) => (
                 <div
                   key={index}
-                  className="group bg-white rounded-2xl p-6 shadow-sm border border-gray-200 transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-xl hover:border-[#d4a853]/50"
+                  className="bg-slate-50 border border-slate-200 rounded-2xl p-6 sm:p-7 shadow-xs hover:shadow-xl hover:border-[#d4a853]/60 hover:-translate-y-1.5 transition-all duration-300 flex flex-col justify-between h-full"
                 >
-                  <div className="mb-4 h-11 w-11 rounded-xl bg-gradient-to-br from-[#d4a853]/20 to-[#f0c070]/20 flex items-center justify-center text-xl shadow-inner">
-                    {index + 1}
+                  <div className="flex flex-col flex-1">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#0a2342] to-[#1a4a7a] text-[#d4a853] flex items-center justify-center font-bold text-lg mb-5 shadow-md shrink-0">
+                      {index === 0 && <Award size={24} />}
+                      {index === 1 && <GraduationCap size={24} />}
+                      {index === 2 && <Users size={24} />}
+                      {index === 3 && <Compass size={24} />}
+                      {index === 4 && <BookOpen size={24} />}
+                      {index === 5 && <Globe size={24} />}
+                    </div>
+
+                    <h3 className="text-xl font-bold text-[#0a2342] mb-3 min-h-[56px] flex items-start">
+                      <Link to={prog.link || "/study-abroad"} className="hover:text-[#d4a853] transition-colors">
+                        {prog.name}
+                      </Link>
+                    </h3>
+                    <p className="text-slate-600 text-sm leading-relaxed mb-6 flex-1">
+                      {prog.description}
+                    </p>
                   </div>
-                  <h3 className="text-xl font-semibold text-[#0a2342] mb-3">
-                    {card.title}
+
+                  <Link
+                    to={prog.link || "/study-abroad"}
+                    className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-[#0a2342] hover:text-[#d4a853] transition-colors mt-auto pt-2"
+                  >
+                    <span>View Opportunities</span>
+                    <ArrowRight size={14} />
+                  </Link>
+                </div>
+              ))}
+            </div>
+
+            <div className="text-center mt-12">
+              <Link
+                to="/study-abroad"
+                className="inline-flex items-center justify-center gap-2 bg-[#0a2342] hover:bg-[#153b6d] text-white font-bold px-8 py-3.5 rounded-xl shadow-lg transition-all text-xs uppercase tracking-wider"
+              >
+                <span>Explore All Courses</span>
+                <ArrowRight size={16} />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* 5. STUDY DESTINATIONS SECTION */}
+        <section id="destinations" className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-[#f8fafc] scroll-mt-20">
+          <div className="max-w-7xl mx-auto">
+            <div className="text-center mb-10 md:mb-14">
+              <div className="w-16 h-1 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mx-auto mb-4" />
+              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-bold mb-3">
+                {studyDestinations.tag || "EXPLORE THE WORLD"}
+              </p>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] mb-4">
+                {studyDestinations.title || "Choose Your Destination. Discover New Possibilities."}
+              </h2>
+              <p className="text-slate-600 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed">
+                {studyDestinations.description || "Explore education opportunities across leading study destinations. Compare universities, courses, tuition fees, admission requirements, and career pathways to find the country that fits your goals."}
+              </p>
+
+              {/* Destination Tabs */}
+              <div className="flex justify-center gap-3 mt-8">
+                <button
+                  type="button"
+                  onClick={() => setActiveDestinationTab("studyAbroad")}
+                  className={`px-6 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition-all cursor-pointer ${
+                    activeDestinationTab === "studyAbroad"
+                      ? "bg-[#0a2342] text-white shadow-md"
+                      : "bg-white text-slate-700 border border-slate-200 hover:bg-slate-100"
+                  }`}
+                >
+                  Global Study Destinations (14)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setActiveDestinationTab("medicalAbroad")}
+                  className={`px-6 py-2.5 rounded-xl font-bold text-xs uppercase tracking-wider transition-all cursor-pointer ${
+                    activeDestinationTab === "medicalAbroad"
+                      ? "bg-[#0a2342] text-white shadow-md"
+                      : "bg-white text-slate-700 border border-slate-200 hover:bg-slate-100"
+                  }`}
+                >
+                  Medical / MBBS Destinations (11)
+                </button>
+              </div>
+            </div>
+
+            {/* TAB CONTENT */}
+            {activeDestinationTab === "studyAbroad" && (
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 gap-4">
+                {(studyDestinations.popularDestinations || []).map((country, index) => (
+                  <Link
+                    key={index}
+                    to={country.path || `/study-abroad/${country.code}/ug/computer-engineering`}
+                    className="bg-white rounded-xl p-4 text-center border border-slate-200 shadow-sm hover:shadow-lg hover:border-[#d4a853] hover:-translate-y-1 transition-all duration-200 flex flex-col items-center justify-center group"
+                  >
+                    <div className="w-10 h-7 rounded-sm overflow-hidden flex items-center justify-center mb-2.5 group-hover:scale-110 transition-transform shadow-xs border border-slate-200">
+                      <CountryFlag name={country.name} />
+                    </div>
+                    <span className="font-bold text-sm text-[#0a2342] group-hover:text-[#d4a853] transition-colors">
+                      {country.name}
+                    </span>
+                    <span className="text-[11px] text-slate-400 mt-0.5">Explore Programs →</span>
+                  </Link>
+                ))}
+              </div>
+            )}
+
+            {activeDestinationTab === "medicalAbroad" && (
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                {(studyDestinations.medicalDestinations || []).map((country, index) => (
+                  <Link
+                    key={index}
+                    to={country.path}
+                    className="bg-white rounded-xl p-4 text-center border border-slate-200 shadow-sm hover:shadow-lg hover:border-[#d4a853] hover:-translate-y-1 transition-all duration-200 flex flex-col items-center justify-center group"
+                  >
+                    <div className="w-10 h-7 rounded-sm overflow-hidden flex items-center justify-center mb-2.5 group-hover:scale-110 transition-transform shadow-xs border border-slate-200">
+                      <CountryFlag name={country.name} />
+                    </div>
+                    <span className="font-bold text-sm text-[#0a2342] group-hover:text-[#d4a853] transition-colors">
+                      {country.name}
+                    </span>
+                    <span className="text-[11px] text-slate-400 mt-0.5">MBBS Guide →</span>
+                  </Link>
+                ))}
+              </div>
+            )}
+
+            <div className="text-center mt-12">
+              <Link
+                to="/study-abroad"
+                className="inline-flex items-center justify-center gap-2 bg-[#0a2342] hover:bg-[#153b6d] text-white font-bold px-8 py-3.5 rounded-xl shadow-lg transition-all text-xs uppercase tracking-wider"
+              >
+                <span>Explore All Countries</span>
+                <Globe size={16} />
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* 6. WHY CHOOSE EDU-HAWK? */}
+        <section className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-white">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-14">
+              <div className="w-16 h-1 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mx-auto mb-4" />
+              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-bold mb-3">
+                {whyChoose.tag || "THE EDU-HAWK ADVANTAGE"}
+              </p>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] mb-4">
+                {whyChoose.title || "Guidance That Goes Beyond Admissions"}
+              </h2>
+              <p className="text-slate-600 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed">
+                {whyChoose.description || "Choosing to study abroad is a big decision. We're here to make it easier with personalized guidance, transparent information, and reliable support throughout your journey."}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+              {(whyChoose.features || []).map((f, i) => (
+                <div
+                  key={i}
+                  className="bg-slate-50 border border-slate-200/80 rounded-2xl p-6 shadow-xs hover:shadow-xl hover:border-[#d4a853]/60 transition-all duration-300 flex flex-col justify-between h-full"
+                >
+                  <div className="flex flex-col flex-1">
+                    <div className="w-12 h-12 rounded-xl bg-[#0a2342] text-[#d4a853] flex items-center justify-center mb-5 shadow-xs shrink-0">
+                      {i === 0 && <Users size={22} />}
+                      {i === 1 && <GraduationCap size={22} />}
+                      {i === 2 && <FileText size={22} />}
+                      {i === 3 && <Plane size={22} />}
+                      {i === 4 && <ShieldCheck size={22} />}
+                    </div>
+                    <h3 className="font-bold text-lg text-[#0a2342] mb-2.5 min-h-[48px] flex items-start">
+                      {f.title}
+                    </h3>
+                    <p className="text-slate-600 text-sm leading-relaxed flex-1">
+                      {f.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* 7. HOW IT WORKS */}
+        <section className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-gradient-to-br from-[#0a2342] via-[#10335e] to-[#0a2342] text-white">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-14">
+              <div className="w-16 h-1 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mx-auto mb-4" />
+              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-bold mb-3">
+                {howItWorks.tag || "YOUR JOURNEY IN 5 STEPS"}
+              </p>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mb-4">
+                {howItWorks.title || "From Dream to University"}
+              </h2>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
+              {(howItWorks.steps || []).map((st, i) => (
+                <div
+                  key={i}
+                  className="bg-white/10 backdrop-blur-md border border-white/15 rounded-2xl p-5 sm:p-6 hover:bg-white/15 hover:border-[#d4a853]/50 transition-all duration-300 flex flex-col justify-start relative group"
+                >
+                  <div className="text-3xl font-black text-[#d4a853] mb-3">
+                    {st.step}
+                  </div>
+                  <h3 className="text-base font-bold text-white mb-2 leading-snug min-h-[44px] flex items-start">
+                    {st.title}
                   </h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">
-                    {card.desc}
+                  <p className="text-slate-300 text-xs leading-relaxed">
+                    {st.description}
                   </p>
                 </div>
               ))}
@@ -1469,40 +1446,108 @@ export default function HeroSection() {
           </div>
         </section>
 
-        
-        <section className="py-16 md:py-20 px-5 sm:px-8 lg:px-12 bg-white">
-          <div className="max-w-4xl mx-auto">
-            <div className="mb-8 text-center">
-              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-medium mb-3">
-                FAQs
+        {/* 8. OUR SERVICES SECTION */}
+        <section className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-white">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-14">
+              <div className="w-16 h-1 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mx-auto mb-4" />
+              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-bold mb-3">
+                {ourServices.tag || "COMPLETE OVERSEAS EDUCATION SUPPORT"}
               </p>
-              <h3 className="text-3xl sm:text-4xl font-bold text-[#0a2342]">
-                FAQs About MBBS Abroad and Study Guidance
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] mb-4">
+                {ourServices.title || "Everything You Need to Move Forward"}
+              </h2>
+              <p className="text-slate-600 max-w-3xl mx-auto text-sm sm:text-base leading-relaxed">
+                {ourServices.description || "We help simplify the international education journey with support designed around the needs of students and parents."}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {(ourServices.services || []).map((srv, i) => (
+                <div
+                  key={i}
+                  className="bg-slate-50 border border-slate-200 rounded-2xl p-6 hover:shadow-lg hover:border-[#d4a853]/60 transition-all duration-200"
+                >
+                  <div className="w-10 h-10 rounded-xl bg-[#d4a853]/20 flex items-center justify-center text-[#0a2342] font-bold mb-4">
+                    <CheckCircle2 size={20} className="text-[#d4a853]" />
+                  </div>
+                  <h3 className="font-bold text-base sm:text-lg text-[#0a2342] mb-2">
+                    {srv.title}
+                  </h3>
+                  <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
+                    {srv.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* 9. SCHOLARSHIPS SECTION */}
+        <section className="py-16 md:py-20 px-5 sm:px-8 lg:px-12 bg-[#faf8f4] border-y border-[#d4a853]/20">
+          <div className="max-w-5xl mx-auto text-center">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#d4a853]/15 text-[#0a2342] text-xs font-bold uppercase tracking-wider mb-4">
+              <DollarSign size={14} className="text-[#d4a853]" />
+              <span>{scholarships.tag || "MAKE GLOBAL EDUCATION MORE ACCESSIBLE"}</span>
+            </div>
+
+            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0a2342] mb-5">
+              {scholarships.title || "Explore Scholarship Opportunities"}
+            </h2>
+
+            <p className="text-slate-700 text-sm sm:text-base leading-relaxed max-w-3xl mx-auto mb-4">
+              {scholarships.description || "Your academic ambitions shouldn't be limited by uncertainty about finances. Explore university scholarships, merit-based awards, country-specific funding, and other financial opportunities that may be available for your chosen program."}
+            </p>
+
+            <p className="text-slate-500 text-xs sm:text-sm max-w-2xl mx-auto mb-8 font-medium">
+              {scholarships.subtext || "Our counselors help you understand scholarship eligibility, requirements, and application timelines."}
+            </p>
+
+            <button
+              type="button"
+              onClick={() => setIsOpen(true)}
+              className="inline-flex items-center gap-2 bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold px-8 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all text-xs uppercase tracking-wider cursor-pointer"
+            >
+              <span>Explore Scholarship Guidance</span>
+              <ArrowRight size={16} />
+            </button>
+          </div>
+        </section>
+
+        {/* 11. HOMEPAGE FAQS */}
+        <section className="py-16 md:py-24 px-5 sm:px-8 lg:px-12 bg-white">
+          <div className="max-w-4xl mx-auto">
+            <div className="mb-10 text-center">
+              <div className="w-16 h-1 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mx-auto mb-4" />
+              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-bold mb-3">
+                FREQUENTLY ASKED QUESTIONS
+              </p>
+              <h3 className="text-3xl sm:text-4xl font-extrabold text-[#0a2342]">
+                Everything You Need to Know About Studying Abroad
               </h3>
             </div>
 
             <div className="space-y-4">
-              {FAQ_ITEMS.map((item, index) => {
-                const isOpen = openFaq === index;
-
+              {faqs.map((item, index) => {
+                const isFaqOpen = openFaq === index;
                 return (
                   <div
                     key={index}
-                    className="border border-gray-200 rounded-2xl overflow-hidden bg-[#f8fafc] shadow-sm transition-all duration-300 hover:shadow-md"
+                    className="border border-slate-200 rounded-2xl overflow-hidden bg-slate-50/70 shadow-sm transition-all duration-300 hover:shadow-md"
                   >
                     <button
                       type="button"
-                      onClick={() => setOpenFaq(isOpen ? -1 : index)}
-                      aria-expanded={isOpen}
-                      className="w-full flex items-center justify-between gap-4 px-5 py-4 text-left transition-all duration-300 hover:bg-white"
+                      onClick={() => setOpenFaq(isFaqOpen ? -1 : index)}
+                      aria-expanded={isFaqOpen}
+                      className="w-full flex items-center justify-between gap-4 px-6 py-4.5 text-left transition-all duration-300 hover:bg-white cursor-pointer"
                     >
-                      <h4 className="font-semibold text-[#0a2342] text-base md:text-lg pr-4">
+                      <h4 className="font-bold text-[#0a2342] text-sm sm:text-base pr-4">
                         {item.question}
                       </h4>
-                      <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-[#0a2342] shadow-sm border border-gray-200 transition-all duration-300">
+                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-[#0a2342] shadow-sm border border-slate-200 transition-all duration-300">
                         <ChevronDown
-                          className={`h-5 w-5 transition-transform duration-300 ${
-                            isOpen ? "rotate-180" : "rotate-0"
+                          className={`h-4 w-4 transition-transform duration-300 ${
+                            isFaqOpen ? "rotate-180" : "rotate-0"
                           }`}
                         />
                       </span>
@@ -1510,13 +1555,11 @@ export default function HeroSection() {
 
                     <div
                       className={`grid transition-all duration-300 ease-in-out ${
-                        isOpen
-                          ? "grid-rows-[1fr] opacity-100"
-                          : "grid-rows-[0fr] opacity-0"
+                        isFaqOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-0"
                       }`}
                     >
                       <div className="overflow-hidden">
-                        <p className="px-5 pb-5 text-gray-600 text-sm leading-relaxed">
+                        <p className="px-6 pb-5 text-slate-600 text-xs sm:text-sm leading-relaxed border-t border-slate-200/60 pt-3">
                           {item.answer}
                         </p>
                       </div>
@@ -1528,249 +1571,220 @@ export default function HeroSection() {
           </div>
         </section>
 
-        {/* CONTACT SECTION */}
+        {/* 12. FINAL CTA SECTION */}
+        <section className="py-16 md:py-20 px-5 sm:px-8 lg:px-12 bg-gradient-to-r from-[#0a2342] via-[#123866] to-[#0a2342] text-white text-center">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-5 leading-tight">
+              {cta.title || "Your Global Future Starts With One Conversation."}
+            </h2>
+            <p className="text-white/85 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mb-8 font-light leading-relaxed">
+              {cta.description || "The right guidance can turn your international education dream into a clear plan. Connect with our experts and discover opportunities that match your ambitions."}
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+              <button
+                type="button"
+                onClick={() => setIsOpen(true)}
+                className="bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-8 py-3.5 rounded-xl shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm cursor-pointer"
+              >
+                Get Free Counselling
+              </button>
+              <Link
+                to="/contact"
+                className="border-2 border-white/40 text-white font-semibold px-8 py-3.5 rounded-xl hover:bg-white/10 transition-all text-xs sm:text-sm"
+              >
+                Contact Our Team
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* 13. CONTACT SECTION */}
         <section className="py-20 md:py-24 px-5 sm:px-8 lg:px-12 bg-white">
           <div className="max-w-6xl mx-auto">
-            <div className="text-center mb-16">
-              <div className="w-16 h-1 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mx-auto mb-5" />
-              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-medium mb-4">
-                Get In Touch
+            <div className="text-center mb-14">
+              <div className="w-16 h-1 bg-gradient-to-r from-[#d4a853] to-[#f0c070] mx-auto mb-4" />
+              <p className="text-[#d4a853] uppercase tracking-widest text-xs md:text-sm font-bold mb-3">
+                GET IN TOUCH
               </p>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#0a2342] mb-6">
-                Talk to Our Team
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] mb-4">
+                {contact.title || "Let's Plan Your Future Abroad"}
               </h2>
-              <p className="text-gray-600 max-w-xl mx-auto text-base md:text-lg leading-relaxed">
-                Have questions about building your MBBS career abroad? Our
-                counselling team is ready to help you plan the perfect path.
+              <p className="text-slate-600 max-w-xl mx-auto text-sm sm:text-base leading-relaxed">
+                {contact.description || "Have questions about courses, universities, countries, admissions, scholarships, or student visas? Our counselors are here to help you find the right direction."}
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-12 lg:gap-16">
-              <form onSubmit={handleContactSubmit} className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
+            <div className="grid md:grid-cols-2 gap-10 lg:gap-14">
+              <form onSubmit={handleContactSubmit} className="space-y-4">
+                <div className="grid md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="contact-name" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
-                      Full Name
+                    <label htmlFor="contact-name" className="block text-slate-700 font-semibold mb-1 text-xs uppercase tracking-wide">
+                      Full Name *
                     </label>
                     <input
-                      id="contact-name" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
-                      placeholder="John Doe"
+                      id="contact-name"
+                      type="text"
+                      className="w-full px-4 py-2.5 text-xs border border-slate-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-1 focus:ring-[#d4a853] bg-slate-50 transition"
+                      placeholder="Full Name"
                       value={contactForm.name}
-                      onChange={(e) =>
-                        updateContactField("name", e.target.value)
-                      }
+                      onChange={(e) => updateContactField("name", e.target.value)}
                     />
-                    {contactErrors.name && (
-                      <p className="mt-1 text-sm text-red-500">
-                        {contactErrors.name}
-                      </p>
-                    )}
+                    {contactErrors.name && <p className="mt-1 text-[11px] text-red-500">{contactErrors.name}</p>}
                   </div>
+
                   <div>
-                    <label htmlFor="contact-email" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
-                      Email
+                    <label htmlFor="contact-email" className="block text-slate-700 font-semibold mb-1 text-xs uppercase tracking-wide">
+                      Email Address *
                     </label>
                     <input
+                      id="contact-email"
                       type="email"
-                      id="contact-email" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
-                      placeholder="you@email.com"
+                      className="w-full px-4 py-2.5 text-xs border border-slate-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-1 focus:ring-[#d4a853] bg-slate-50 transition"
+                      placeholder="Email Address"
                       value={contactForm.email}
-                      onChange={(e) =>
-                        updateContactField("email", e.target.value)
-                      }
+                      onChange={(e) => updateContactField("email", e.target.value)}
                     />
-                    {contactErrors.email && (
-                      <p className="mt-1 text-sm text-red-500">
-                        {contactErrors.email}
-                      </p>
-                    )}
+                    {contactErrors.email && <p className="mt-1 text-[11px] text-red-500">{contactErrors.email}</p>}
                   </div>
                 </div>
 
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-2 gap-4">
                   <div>
-                    <label htmlFor="contact-phone" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
-                      Phone Number
+                    <label htmlFor="contact-phone" className="block text-slate-700 font-semibold mb-1 text-xs uppercase tracking-wide">
+                      Phone Number *
                     </label>
                     <input
-                      id="contact-phone" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
-                      placeholder="+91 00000 00000"
+                      id="contact-phone"
+                      type="tel"
+                      className="w-full px-4 py-2.5 text-xs border border-slate-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-1 focus:ring-[#d4a853] bg-slate-50 transition"
+                      placeholder="Phone Number"
                       value={contactForm.phone}
-                      onChange={(e) =>
-                        updateContactField("phone", e.target.value)
-                      }
+                      onChange={(e) => updateContactField("phone", e.target.value)}
                     />
-                    {contactErrors.phone && (
-                      <p className="mt-1 text-sm text-red-500">
-                        {contactErrors.phone}
-                      </p>
-                    )}
+                    {contactErrors.phone && <p className="mt-1 text-[11px] text-red-500">{contactErrors.phone}</p>}
                   </div>
 
-                  {/* Preferred Country */}
                   <div>
-                    <label htmlFor="contact-country" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
-                      Preferred Country
+                    <label htmlFor="contact-course" className="block text-slate-700 font-semibold mb-1 text-xs uppercase tracking-wide">
+                      Interested Course *
+                    </label>
+                    <input
+                      id="contact-course"
+                      type="text"
+                      className="w-full px-4 py-2.5 text-xs border border-slate-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-1 focus:ring-[#d4a853] bg-slate-50 transition"
+                      placeholder="Interested Course (e.g. MBBS, CS, MBA)"
+                      value={contactForm.course}
+                      onChange={(e) => updateContactField("course", e.target.value)}
+                    />
+                    {contactErrors.course && <p className="mt-1 text-[11px] text-red-500">{contactErrors.course}</p>}
+                  </div>
+                </div>
+
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div>
+                    <label htmlFor="contact-country" className="block text-slate-700 font-semibold mb-1 text-xs uppercase tracking-wide">
+                      Preferred Destination *
                     </label>
                     <select
-                      id="contact-country" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
+                      id="contact-country"
+                      className="w-full px-4 py-2.5 text-xs border border-slate-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-1 focus:ring-[#d4a853] bg-slate-50 transition"
                       value={contactForm.country}
-                      onChange={(e) =>
-                        updateContactField("country", e.target.value)
-                      }
+                      onChange={(e) => updateContactField("country", e.target.value)}
                     >
-                      <option value="">Select country</option>
-                      {CONTACT_COUNTRY_OPTIONS.map((c) => (
-                        <option key={c.name} value={c.name}>
+                      <option value="">Select Preferred Destination</option>
+                      {CONTACT_COUNTRY_OPTIONS.map((c, i) => (
+                        <option key={i} value={c.name}>
                           {c.flag} {c.name}
                         </option>
                       ))}
                     </select>
-                    {contactErrors.country && (
-                      <p className="mt-1 text-sm text-red-500">
-                        {contactErrors.country}
-                      </p>
-                    )}
-                  </div>
-                </div>
-
-                {/* New City Dropdown */}
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="contact-city" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
-                      Preferred City
-                    </label>
-                    <select
-                      id="contact-city" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
-                      value={contactForm.city || ""}
-                      onChange={(e) =>
-                        updateContactField("city", e.target.value)
-                      }
-                    >
-                      <option value="">Select city</option>
-                      <option value="Delhi">Delhi</option>
-                      <option value="Mumbai">Mumbai</option>
-                      <option value="Bangalore">Bangalore</option>
-                      <option value="Hyderabad">Hyderabad</option>
-                      <option value="Chennai">Chennai</option>
-                      <option value="Kolkata">Kolkata</option>
-                      <option value="Pune">Pune</option>
-                      <option value="Ahmedabad">Ahmedabad</option>
-                      <option value="Jaipur">Jaipur</option>
-                      <option value="Lucknow">Lucknow</option>
-                      <option value="Indore">Indore</option>
-                      <option value="Bhopal">Bhopal</option>
-                      <option value="Other">Other</option>
-                    </select>
-                    {contactErrors.city && (
-                      <p className="mt-1 text-sm text-red-500">
-                        {contactErrors.city}
-                      </p>
-                    )}
+                    {contactErrors.country && <p className="mt-1 text-[11px] text-red-500">{contactErrors.country}</p>}
                   </div>
 
                   <div>
-                    <label htmlFor="contact-neet" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
-                      NEET Status
+                    <label htmlFor="contact-intake" className="block text-slate-700 font-semibold mb-1 text-xs uppercase tracking-wide">
+                      Preferred Intake
                     </label>
                     <select
-                      id="contact-neet" className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition"
-                      value={contactForm.neetStatus}
-                      onChange={(e) =>
-                        updateContactField("neetStatus", e.target.value)
-                      }
+                      id="contact-intake"
+                      className="w-full px-4 py-2.5 text-xs border border-slate-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-1 focus:ring-[#d4a853] bg-slate-50 transition"
+                      value={contactForm.intake}
+                      onChange={(e) => updateContactField("intake", e.target.value)}
                     >
-                      <option value="">Select NEET status</option>
-                      <option value="Qualified">Qualified</option>
-                      <option value="Not Qualified">Not Qualified</option>
+                      <option value="">Preferred Intake</option>
+                      {MODAL_INTAKES.map((it, i) => (
+                        <option key={i} value={it}>{it}</option>
+                      ))}
                     </select>
-                    {contactErrors.neetStatus && (
-                      <p className="mt-1 text-sm text-red-500">
-                        {contactErrors.neetStatus}
-                      </p>
-                    )}
                   </div>
                 </div>
 
                 <div>
-                  <label htmlFor="contact-message" className="block text-gray-700 font-semibold mb-2 text-sm uppercase tracking-wide">
-                    Message
+                  <label htmlFor="contact-message" className="block text-slate-700 font-semibold mb-1 text-xs uppercase tracking-wide">
+                    Tell us about your plans *
                   </label>
                   <textarea
-                    id="contact-message" rows={5}
-                    minLength={10}
-                    className="w-full px-5 py-3 border border-gray-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-2 focus:ring-[#d4a853]/30 bg-gray-50 transition resize-y"
-                    placeholder="Tell us about your academic profile, budget, and any queries..."
+                    id="contact-message"
+                    rows={4}
+                    className="w-full px-4 py-2.5 text-xs border border-slate-300 rounded-lg focus:outline-none focus:border-[#d4a853] focus:ring-1 focus:ring-[#d4a853] bg-slate-50 transition resize-y"
+                    placeholder="Tell us about your plans"
                     value={contactForm.message}
-                    onChange={(e) =>
-                      updateContactField("message", e.target.value)
-                    }
+                    onChange={(e) => updateContactField("message", e.target.value)}
                   />
-                  <p className="mt-1 text-sm text-gray-500">
-                    Minimum 10 characters ({contactForm.message.length}/10)
-                  </p>
-                  {contactErrors.message && (
-                    <p className="mt-1 text-sm text-red-500">
-                      {contactErrors.message}
-                    </p>
-                  )}
+                  {contactErrors.message && <p className="mt-1 text-[11px] text-red-500">{contactErrors.message}</p>}
                 </div>
 
                 <button
                   type="submit"
                   disabled={isContactSubmitting}
-                  className={`bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-10 py-4 rounded-lg shadow-lg transition-all duration-300 ${
-                    isContactSubmitting
-                      ? "opacity-70 cursor-not-allowed"
-                      : "hover:shadow-2xl hover:-translate-y-1"
-                  }`}
+                  className="bg-gradient-to-r from-[#d4a853] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-8 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all text-xs cursor-pointer disabled:opacity-60"
                 >
-                  {isContactSubmitting ? "Sending..." : "Send Message →"}
+                  {isContactSubmitting ? "Submitting..." : (contact.button || "Submit Your Enquiry")}
                 </button>
               </form>
 
-              {/* Right Side Contact Info (same as before) */}
-              <div className="space-y-6">
+              {/* Contact Info */}
+              <div className="space-y-4">
                 {[
                   {
-                    icon: "📞",
+                    icon: <Phone size={20} />,
                     title: "Phone",
                     detail: "+91 9630736070",
                     sub: "Mon–Sat, 9 AM – 7 PM",
                   },
                   {
-                    icon: "📧",
+                    icon: <Mail size={20} />,
                     title: "Email",
                     detail: "admin@eduhawk.in",
                     sub: "We reply within 24 hours",
                   },
                   {
-                    icon: "📍",
+                    icon: <MapPin size={20} />,
                     title: "Office",
                     detail: "Bajrang House, N-5, next to Aakash Institute, South Extension I, Block N, New Delhi, Delhi 110003",
                     sub: "India, 110001",
                   },
                   {
-                    icon: "🕒",
+                    icon: <Clock size={20} />,
                     title: "Office Hours",
                     detail: "Mon–Fri: 10 AM – 6 PM",
                   },
                 ].map((item, i) => (
                   <div
                     key={i}
-                    className="flex gap-6 items-start p-6 bg-[#faf8f4] rounded-xl border border-[#e8d5b0]/70"
+                    className="flex gap-4 items-start p-5 bg-[#faf8f4] rounded-xl border border-[#e8d5b0]/70"
                   >
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#d4a853] to-[#f0c070] rounded-full flex items-center justify-center text-2xl shrink-0 text-[#0a2342]">
+                    <div className="w-12 h-12 bg-gradient-to-br from-[#d4a853] to-[#f0c070] rounded-xl flex items-center justify-center shrink-0 text-[#0a2342] shadow-sm">
                       {item.icon}
                     </div>
                     <div>
-                      <div className="text-[#d4a853] text-xs uppercase tracking-widest font-bold mb-1">
+                      <div className="text-[#d4a853] text-[10px] uppercase tracking-widest font-bold mb-0.5">
                         {item.title}
                       </div>
-                      <div className="font-semibold text-[#0a2342] text-lg">
+                      <div className="font-bold text-[#0a2342] text-sm sm:text-base">
                         {item.detail}
                       </div>
-                      <div className="text-gray-600 text-sm mt-1">
+                      <div className="text-slate-500 text-xs mt-0.5">
                         {item.sub}
                       </div>
                     </div>
@@ -1791,7 +1805,7 @@ export default function HeroSection() {
             <span>Call Now</span>
           </a>
           <a
-            href="https://wa.me/919630736070?text=Hi%20EduHawk,%20I%20am%20interested%20in%20MBBS%20Abroad"
+            href="https://wa.me/919630736070?text=Hi%20EduHawk,%20I%20am%20interested%20in%20Study%20Abroad"
             target="_blank"
             rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-1.5 py-2.5 px-3 rounded-xl bg-emerald-600 text-white font-semibold text-xs shadow-md"
