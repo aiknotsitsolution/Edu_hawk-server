@@ -461,7 +461,21 @@ const Biotechnology = () => {
         description={biotechnologyData?.seo?.description || "Study biotechnology in the USA for Indian students — BSc to MS and PhD programmes in genetic engineering, molecular biology and bioinformatics."}
         path="/study-abroad/usa/biotechnology"
         ogType="website"
-      />
+      >
+        {faqs?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
+      </SeoHead>
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }

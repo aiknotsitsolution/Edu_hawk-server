@@ -382,7 +382,21 @@ const NursingAbroad = () => {
         keywords={nursingData?.seo?.keywords?.join(", ")}
         path="/study-abroad/usa/nursing"
         ogType="website"
-      />
+      >
+        {faqs?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
+      </SeoHead>
 
       <style>{`
         @keyframes nursing-float {

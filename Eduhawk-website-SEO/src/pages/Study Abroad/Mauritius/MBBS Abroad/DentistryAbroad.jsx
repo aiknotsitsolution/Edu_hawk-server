@@ -97,7 +97,12 @@ const page = {
           "t": "p",
           "items": [
             "Dentistry is typically studied as a professional undergraduate degree, such as a Bachelor of Dental Surgery (BDS) degree or equivalent degree in dental surgery.",
-            "Some common fields of study in a dentistry degree include:",
+            "Some common fields of study in a dentistry degree include:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
             "Dental Physiology and Oral Anatomy",
             "Dental materials and preclinical dental science",
             "Oral Microbiology and Pathology",
@@ -105,9 +110,14 @@ const page = {
             "Oral & Maxillofacial Surgery",
             "Prosthodontics and orthodontics",
             "Preventive & Pediatric Dentistry",
-            "Patient Management and Clinical Practice",
+            "Patient Management and Clinical Practice"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "The dental degree lasts about five years (sometimes with a clinical internship). But ask the institution for the exact length and structure of the course.",
-            "Note: Historical mentions of dental colleges in Mauritius may not correspond to a program that is accepting new students in 2026\\. Please verify current intake and approval status before paying any application or tuition fees."
+            "Note: Historical mentions of dental colleges in Mauritius may not correspond to a program that is accepting new students in 2026. Please verify current intake and approval status before paying any application or tuition fees."
           ]
         }
       ]
@@ -203,12 +213,22 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Admission requirements differ by institution. Students interested in **Dentistry Eligibility in Mauritius** should check the official criteria for their chosen institution. In general, applicants should be ready to provide:",
+            "Admission requirements differ by institution. Students interested in **Dentistry Eligibility in Mauritius** should check the official criteria for their chosen institution. In general, applicants should be ready to provide:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
             "Successful completion of secondary education corresponding to the required pre-university qualification.",
             "Good academic results in Biology and Chemistry and possibly Physics or Mathematics.",
             "Proof of proficiency in the English language, if applicable.",
             "A valid passport and any student-entry paperwork you require.",
-            "Medical fitness paperwork, when required by the institution.",
+            "Medical fitness paperwork, when required by the institution."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "These are general preparation considerations and are not confirmed admission criteria for a specific current Mauritian dental program. Contact the institution to get their official criteria for eligibility for the intended intake."
           ]
         }
@@ -222,13 +242,23 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Dentistry Admission Requirements in Mauritius** may vary by institution and intended intake. Applicants may be asked to provide:",
+            "**Dentistry Admission Requirements in Mauritius** may vary by institution and intended intake. Applicants may be asked to provide:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
             "Secondary school transcripts and certificates.",
             "Photos and a copy of the passport.",
             "Application and supporting documents.",
             "English language test results, if required.",
             "Medical or vaccination documentation if asked.",
-            "Any results of entrance tests or documents from interviews required by the College.",
+            "Any results of entrance tests or documents from interviews required by the College."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "Ask for the full list of documents, deadlines and payment terms before submitting an application. Do not depend only on a verbal assurance of admission or recognition from an education agent."
           ]
         }
@@ -314,15 +344,25 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Graduates holding a recognized primary dental qualification and who fulfill the relevant licensing requirements can proceed to further training in:",
-            "Dentistry Orthodontics",
-            "Maxillofacial / Oral surgery",
-            "Periodontics",
+            "Graduates holding a recognized primary dental qualification and who fulfill the relevant licensing requirements can proceed to further training in:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Orthodontics & Dentofacial Orthopedics",
+            "Oral and Maxillofacial Surgery",
+            "Periodontics and Implantology",
             "Prosthodontics",
-            "Endodontics",
-            "Pediatric Dentistry",
-            "Oral Medicine and Radiology;",
-            "Public Health, Dentistry",
+            "Endodontics and Conservative Dentistry",
+            "Pediatric and Preventive Dentistry",
+            "Oral Medicine and Radiology",
+            "Dental Public Health"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
             "The eligibility for postgraduate training is determined by the university, qualification held, professional registration and any necessary clinical experience."
           ]
         }
@@ -336,14 +376,24 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The following career paths are open to qualified dental graduates:",
-            "Local licensing is required for general dental practice.",
-            "Community or hospital dental services .",
-            "Additional approved training followed by specialist clinical practice.",
-            "Dental research and teaching at academic level.",
-            "Health programs (oral public).",
-            "Dental public health and health services administration.",
-            "A degree does not give you the right to practice. Graduates must comply with the rules of professional registration of the country in which he/she intends to work."
+            "The following career paths are open to qualified dental graduates:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "General Dental Practice (subject to local licensing)",
+            "Community or Hospital Dental Services",
+            "Specialist Clinical Practice following advanced accredited training",
+            "Dental Research and University Academic Positions",
+            "Oral Healthcare and Public Health Programs",
+            "Dental Health Services Administration and Healthcare Management"
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "A degree does not give an automatic right to practice. Graduates must comply with the rules of professional registration of the country in which they intend to work."
           ]
         }
       ]
@@ -351,22 +401,32 @@ const page = {
     {
       "slot": "documents",
       "eyebrow": "Required Documentation",
-      "title": "Documents Needed for Apply",
+      "title": "Documents Needed to Apply",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Prepare the following documents, in accordance with the institution\u2019s official checklist:",
-            "Valid passport.",
+            "Prepare the following documents in accordance with the institution's official checklist:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Valid international passport with at least 12 months validity.",
             "Secondary school certificates and transcripts.",
-            "Evidence of Biology, Chemistry and other required subjects.",
-            "English language proficiency results, if applicable.",
-            "Photos of passport size.",
-            "Vaccination or medical records where relevant.",
-            "Application & Supporting Forms.",
-            "Any document required for entrance exam or interview.",
-            "Evidence of payment of the application fee where relevant.",
-            "Have certified copies and translations readily available if the institution or regulator requests them."
+            "Evidence of required grades in Biology, Chemistry and Mathematics/Physics.",
+            "English language proficiency results (IELTS/TOEFL) where applicable.",
+            "Passport-size photographs complying with visa standards.",
+            "Medical fitness certificate and vaccination records.",
+            "Completed application and supporting declaration forms.",
+            "Entrance examination scores or interview records where applicable.",
+            "Proof of payment of application and evaluation fees."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Have certified copies and official translations readily available if requested by the institution or regulator."
           ]
         }
       ]

@@ -1294,6 +1294,7 @@ export const isSubsectionHeading = (str) => {
   if (typeof str !== "string") return false;
   const s = cleanMarkdownEscapes(str).trim();
   if (s.length < 3 || s.length > 110) return false;
+  if (/https?:\/\//i.test(s)) return false;
 
   // Explicit Markdown heading: ## Heading, ### Subheading, #### Heading
   if (/^#{1,6}\s+\S/.test(s)) return true;
@@ -1432,7 +1433,15 @@ export const Paragraphs = ({ items, className, tone }) => {
         const cleanedRaw = typeof p === "string" ? cleanMarkdownEscapes(p).trim() : p;
         const isBullet = typeof cleanedRaw === "string" && /^[*\-•]\s+/.test(cleanedRaw);
         const cleanP = isBullet ? cleanedRaw.replace(/^[*\-•]\s+/, "") : cleanedRaw;
-        if (isBullet) {
+        const isHeading = typeof cleanP === "string" && isSubsectionHeading(cleanP);
+
+        // Detect if item is actually part of a consecutive run of list items rather than a true section heading
+        const prevP = i > 0 && typeof list[i - 1] === "string" ? cleanMarkdownEscapes(list[i - 1]).trim() : "";
+        const nextP = i < list.length - 1 && typeof list[i + 1] === "string" ? cleanMarkdownEscapes(list[i + 1]).trim() : "";
+        const prevEndsWithColon = /:\s*$/.test(prevP) || /(?:include|consist of|such as|following)\s*:?$/i.test(prevP);
+        const isConsecutiveItem = isHeading && (prevEndsWithColon || (i > 0 && isSubsectionHeading(prevP)) || (i < list.length - 1 && isSubsectionHeading(nextP))) && !/^#{1,6}\s+/.test(cleanP) && !/:\s*$/.test(cleanP);
+
+        if (isBullet || isConsecutiveItem) {
           return (
             <div key={i} className="flex items-start gap-2.5 my-1.5 pl-1">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-600 mt-2 flex-shrink-0" />
@@ -1442,8 +1451,6 @@ export const Paragraphs = ({ items, className, tone }) => {
             </div>
           );
         }
-
-        const isHeading = typeof cleanP === "string" && isSubsectionHeading(cleanP);
 
         if (isHeading) {
           const headingText = cleanP
@@ -2208,7 +2215,8 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
   const rawSrc = u.image || u.img || u.src || (u.img_var && u.img_var !== "null" ? u.img_var : null);
   const imgSrc = (rawSrc && rawSrc !== "null" && rawSrc !== "undefined") ? rawSrc : null;
   const cleanName = u.name ? cleanMarkdownEscapes(u.name).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
-  const cleanLocation = u.location ? cleanMarkdownEscapes(u.location).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
+  const rawLocation = u.location || u.city;
+  const cleanLocation = rawLocation ? cleanMarkdownEscapes(rawLocation).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
   const theme =
     u.artTheme ||
     (index % 4 === 0
@@ -2312,8 +2320,13 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
           )}
 
           {/* Key Metrics / Badges */}
-          {(u.duration || u.fee) && (
+          {Boolean(u.duration || u.fee || u.tuition || u.fees || u.qsRank || u.city || u.programs) && (
             <div className="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-2 text-xs">
+              {u.qsRank && (
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-purple-50 text-purple-700 font-medium border border-purple-100">
+                  {u.qsRank}
+                </span>
+              )}
               {u.duration && (
                 <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 font-medium border border-blue-100">
                   <svg className="w-3.5 h-3.5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -2323,33 +2336,46 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
                   {u.duration}
                 </span>
               )}
-              {u.fee && (
+              {(u.fee || u.tuition || u.fees) && (
                 <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-50 text-amber-900 font-medium border border-amber-200/80">
                   <svg className="w-3.5 h-3.5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  {u.fee}
+                  {u.fee || u.tuition || u.fees}
+                </span>
+              )}
+              {u.programs && (
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-50 text-slate-700 font-medium border border-slate-200">
+                  {u.programs}
                 </span>
               )}
             </div>
           )}
 
           {/* Features / Highlights */}
-          {Array.isArray(u.features) && u.features.length > 0 && (
-            <div className="mt-4 pt-3 border-t border-slate-100">
-              <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
-                Programme Highlights
+          {(() => {
+            const rawHighlights = Array.isArray(u.features) && u.features.length > 0
+              ? u.features
+              : (Array.isArray(u.highlights) && u.highlights.length > 0
+                ? u.highlights
+                : (typeof u.highlights === "string" ? [u.highlights] : null));
+            if (!rawHighlights || !rawHighlights.length) return null;
+            return (
+              <div className="mt-4 pt-3 border-t border-slate-100">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+                  Programme Highlights
+                </div>
+                <ul className="space-y-1.5 text-xs text-slate-600">
+                  {rawHighlights.slice(0, 3).map((f, fi) => (
+                    <li key={fi} className="flex items-start gap-2">
+                      <span className="text-blue-600 font-bold flex-shrink-0 mt-0.5">✓</span>
+                      <span className="leading-snug">{formatRichText(f)}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="space-y-1.5 text-xs text-slate-600">
-                {u.features.slice(0, 3).map((f, fi) => (
-                  <li key={fi} className="flex items-start gap-2">
-                    <span className="text-blue-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                    <span className="leading-snug">{formatRichText(f)}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+            );
+          })()}
         </div>
 
         {/* Footer / Official Portal Link */}
@@ -2382,8 +2408,11 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
 
 export const UniversityGrid = ({ unis, alt, className = "" }) => {
   const isFourItems = Array.isArray(unis) && unis.length === 4;
+  const isTwoItems = Array.isArray(unis) && unis.length === 2;
   const gridLayout = isFourItems
     ? "grid grid-cols-1 md:grid-cols-2 gap-6 "
+    : isTwoItems
+    ? "grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-6 "
     : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ";
 
   return (
@@ -2392,11 +2421,14 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
         unis.map((u, i) => {
           const rawSrc = u.image || u.img || u.src || (u.img_var && u.img_var !== "null" ? u.img_var : null);
           const imgSrc = (rawSrc && rawSrc !== "null" && rawSrc !== "undefined") ? rawSrc : null;
-          const hasRichContent = Boolean(u.fee || (u.desc && u.desc.length > 80));
+          const hasRichContent = Boolean(
+            u.fee || u.tuition || u.fees || u.programs || u.highlights || u.features || u.qsRank || u.duration || (u.desc && u.desc.length > 80)
+          );
 
           if (imgSrc && !hasRichContent) {
             const cleanName = u.name ? cleanMarkdownEscapes(u.name).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
-            const cleanLocation = u.location ? cleanMarkdownEscapes(u.location).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
+            const rawLocation = u.location || u.city;
+            const cleanLocation = rawLocation ? cleanMarkdownEscapes(rawLocation).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
             return (
               <div
                 key={u.name ?? i}
@@ -2466,7 +2498,7 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
 export const StepTimeline = ({ steps = [], center = true }) => (
   <div className="max-w-3xl mx-auto">
     {(steps || []).map((s, i) => {
-      const rawStep = (typeof s === "object" && s?.step) ? s.step : null;
+      const rawStep = (typeof s === "object" && (s?.step || s?.num)) ? (s.step || s.num) : null;
       const numMatch = rawStep ? String(rawStep).match(/\d+/) : null;
       const stepNum = numMatch ? parseInt(numMatch[0], 10) : (rawStep || i + 1);
       const title = typeof s === "object" ? (s.title || s.t) : null;
@@ -5065,6 +5097,28 @@ if (g.t === "ul")
           );
         }
 
+        if (g.t === "points") {
+          const pointItems = Array.isArray(g.items) ? g.items : [];
+          return (
+            <div key={i} className="my-5">
+              {g.title && (
+                <h4
+                  className={
+                    "text-lg sm:text-xl font-bold tracking-tight mb-3 flex items-center gap-2.5 " +
+                    (tone === "dark" ? "text-white" : "text-slate-900")
+                  }
+                >
+                  <span className="w-1.5 h-5 rounded-full bg-blue-600 inline-block shrink-0" />
+                  <span>{formatRichText(cleanMarkdownEscapes(g.title))}</span>
+                </h4>
+              )}
+              {pointItems.length > 0 && (
+                <CheckList items={pointItems} cols={pointItems.length >= 4 ? 2 : 1} tone={tone} />
+              )}
+            </div>
+          );
+        }
+
         return <Paragraphs key={i} items={g.items || []} />;
 
 
@@ -5182,7 +5236,12 @@ export const AbroadCoursePage = ({
     );
 
   const faqSection = page.sections?.find(isFaqSection);
-  const sectionFaqs = faqSection?.groups?.find((g) => g && (g.t === "faq" || g.t === "faqs"))?.items || [];
+  const sectionFaqs =
+    (Array.isArray(faqSection?.faqs) && faqSection.faqs.length > 0)
+      ? faqSection.faqs
+      : (Array.isArray(faqSection?.items) && faqSection.items.length > 0)
+        ? faqSection.items
+        : (faqSection?.groups?.find((g) => g && (g.t === "faq" || g.t === "faqs"))?.items || []);
   const effectiveFaqs = (page.faqs && page.faqs.length > 0) ? page.faqs : sectionFaqs;
   const effectiveFaqTitle = page.faqTitle || faqSection?.title || "Frequently Asked Questions";
 
@@ -5427,23 +5486,34 @@ export const AbroadCoursePage = ({
 
       {(() => {
         let renderedUnis = false;
-        return page.sections?.filter((s) => !isFaqSection(s))?.map((s, idx) => {
-
-
-
+        return page.sections?.filter((s) => !isFaqSection(s))?.map((rawS, idx) => {
         const shade = idx % 2 === 1 ? "bg-slate-50" : "";
+        let s = { ...rawS };
 
-
-
-
-
-
+        // Normalize cards placed at the section root
+        const cardsHasUnis = Array.isArray(s.cards) && s.cards.some((c) => c && (c.name || c.uni || c.university || c.img || c.image));
+        const isUniSlot = s.slot === "universities" || s.id === "universities" || s.slot === "unis" || s.id === "unis" || /(?:top\s+)?universit|institutions/i.test(s.title || s.eyebrow || "");
 
         const explicitSecUnis = (Array.isArray(s.unis) && s.unis.length > 0)
           ? s.unis
-          : ((Array.isArray(s.unis_data) && s.unis_data.length > 0) ? s.unis_data : null);
+          : ((Array.isArray(s.unis_data) && s.unis_data.length > 0)
+            ? s.unis_data
+            : (cardsHasUnis && isUniSlot ? s.cards : null));
+
+        // If section has general cards and no groups, wrap them into groups
+        if (Array.isArray(s.cards) && s.cards.length > 0 && !cardsHasUnis && (!s.groups || s.groups.length === 0)) {
+          if (!s.lead && (s.text || s.desc || s.subtitle)) {
+            s.lead = s.text || s.desc || s.subtitle;
+          }
+          s.groups = [{ t: "cards", items: s.cards }];
+        } else if (Array.isArray(s.cards) && s.cards.length > 0 && !isUniSlot && (!s.groups || s.groups.length === 0)) {
+          if (!s.lead && (s.text || s.desc || s.subtitle)) {
+            s.lead = s.text || s.desc || s.subtitle;
+          }
+          s.groups = [{ t: "cards", items: s.cards }];
+        }
+
         const hasExplicitUnis = Boolean(explicitSecUnis);
-        const isUniSlot = s.slot === "universities" || s.id === "universities";
         const pageUniPool = (Array.isArray(page.universities) && page.universities.length > 0)
           ? page.universities
           : ((Array.isArray(page.unis) && page.unis.length > 0) ? page.unis : null);
@@ -5468,7 +5538,7 @@ export const AbroadCoursePage = ({
                 <EhpHead
                   eyebrow={s.eyebrow || "Top Universities"}
                   title={s.title}
-                  desc={s.lead}
+                  desc={s.lead || s.desc || s.text || s.subtitle}
                   descClass="text-slate-500 text-[15px] leading-relaxed w-full space-y-3"
                 />
                 <UniversityGrid unis={sectionUnis} alt={(u) => (u.name || "University") + " campus"} />
@@ -5528,7 +5598,7 @@ export const AbroadCoursePage = ({
 
 
 
-                  items={s.lead}
+                  items={s.lead || s.desc || s.text || s.subtitle}
 
 
 
@@ -5712,12 +5782,18 @@ export const AbroadCoursePage = ({
 
 
 
-              <EhpHead eyebrow={s.eyebrow} title={s.title} desc={s.lead || s.desc} />
-              {(s.items || s.paras) && (!s.groups || s.groups.length === 0) && (
-                <Paragraphs
-                  items={s.items || s.paras}
-                  className="w-full text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
-                />
+              <EhpHead eyebrow={s.eyebrow} title={s.title} desc={s.lead || s.desc || s.text || s.subtitle} />
+              {(s.items || s.paras || s.content) && (!s.groups || s.groups.length === 0) && (
+                (s.slot === "checklist" || s.slot === "documents" || s.checklist || (Array.isArray(s.items) && s.items.length >= 4 && s.items.every((it) => typeof it === "string" && it.length < 180 && !it.includes("\n")))) ? (
+                  <div className="mt-4 mb-6">
+                    <CheckList items={s.items || s.paras || s.content} cols={2} />
+                  </div>
+                ) : (
+                  <Paragraphs
+                    items={s.items || s.paras || s.content}
+                    className="w-full text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
+                  />
+                )
               )}
               {s.groups && s.groups.length > 0 && (
                 boxed ? (

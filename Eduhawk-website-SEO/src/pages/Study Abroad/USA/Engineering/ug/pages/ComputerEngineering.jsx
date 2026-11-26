@@ -79,7 +79,7 @@ const branch = {
   englishLead: [
     "International candidates may be obligated to establish English language competency through a recognized standardized examination.",
     "Widely recognized assessments encompass:",
-    "The minimum score threshold differs across institutions. Certain universities may exempt applicants from this requirement under particular circumstances, including successful completion of prior academic course",
+    "The minimum score threshold differs across institutions. Certain universities may exempt applicants from this requirement under particular circumstances, including successful completion of prior academic coursework in English or secondary schooling in an English-speaking country.",
   ],
   englishTests: [
     "IELTS Academic",

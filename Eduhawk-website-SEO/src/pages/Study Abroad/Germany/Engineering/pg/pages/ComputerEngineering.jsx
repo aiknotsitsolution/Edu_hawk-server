@@ -43,7 +43,7 @@ const page = {
   sections: [
     {
       title: "Popular Postgraduate Computer Engineering Courses & Specialisations",
-      content: [
+      paras: [
         "Postgraduate Computer Engineering courses in Germany typically run for a duration of 1.5 to 2 years (3 to 4 semesters) and require completion of 90 or 120 ECTS credits. Curricula offer deep flexibility across hardware design, embedded firmware, and complex systems software.",
         "Popular postgraduate degree programs and specializations include:",
         "• Master of Science in Computer Engineering: Core training in advanced microarchitectures, digital system design, and hardware-software co-design.",
@@ -64,13 +64,13 @@ const page = {
       ]
     },
     {
-      slot: "unis",
+      slot: "universities",
       title: "Top German Universities for Postgraduate Computer Engineering",
       subtitle: "Leading technical universities and excellence clusters offering world-class laboratories, zero public tuition, and direct industry integration."
     },
     {
       title: "Eligibility Criteria for M.Sc. in Computer Engineering in Germany",
-      content: [
+      paras: [
         "Admission to German postgraduate engineering programs is strictly academic and merit-based. Because German master's degrees are consecutive (konsekutiv), applicants must possess an undergraduate degree directly relevant to Computer Engineering, Electrical Engineering, or Computer Science.",
         "Key eligibility benchmarks required by German universities:",
         "• Recognized Bachelor's Degree: A 4-year B.Tech / B.E. / B.Sc. in Computer Engineering, Computer Science, Electronics & Communication Engineering, or Electrical Engineering from a recognized university.",
@@ -84,7 +84,7 @@ const page = {
     },
     {
       title: "Application Dossier & Required Documentation",
-      content: [
+      paras: [
         "International applicants must prepare a comprehensive academic dossier for submission via Uni-Assist or direct university application portals:",
         "1. Valid International Passport (valid for at least 12 months beyond planned stay)",
         "2. Certified Official Bachelor's Degree Certificate and Consolidated Marksheets",
@@ -100,7 +100,7 @@ const page = {
     },
     {
       title: "Tuition Fees & Cost of Living Breakdown",
-      content: [
+      paras: [
         "Public higher education in Germany remains virtually tuition-free, making it one of the most cost-effective destinations in the world for advanced technical education.",
         "Estimated costs for international postgraduate students:",
         "• Public University Tuition: €0 per year across 15 of 16 German federal states (in Baden-Württemberg, non-EU students pay €1,500 per semester).",
@@ -118,7 +118,7 @@ const page = {
     },
     {
       title: "Accreditation, Quality Standards & Industry Recognition",
-      content: [
+      paras: [
         "All genuine German technical universities and universities of applied sciences are state-recognized and adhere strictly to the European Higher Education Area (Bologna Process).",
         "Key quality assurance benchmarks:",
         "• State Accreditation (Staatliche Anerkennung): Guarantees global validity of degree awards and unrestricted admission to doctoral (Ph.D.) research programs.",
@@ -129,7 +129,7 @@ const page = {
     },
     {
       title: "Career Outlook, Job Profiles & Salary Benchmarks",
-      content: [
+      paras: [
         "Graduates with a master's degree in computer engineering from Germany are in exceptionally high demand across automotive electronics, industrial robotics, semiconductor design, telecommunications, and software engineering.",
         "Prominent postgraduate career roles include:",
         "• Embedded Systems Engineer: Developing firmware, device drivers, and real-time control software for automotive, aerospace, and medical devices.",

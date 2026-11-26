@@ -440,7 +440,21 @@ const PublicHealth = () => {
         description="Explore public health courses in the USA for Indian students — bachelor’s to MPH and doctoral degrees in epidemiology, health policy and biostatistics."
         path="/study-abroad/usa/public-health"
         ogType="website"
-      />
+      >
+        {faqs?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
+      </SeoHead>
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }

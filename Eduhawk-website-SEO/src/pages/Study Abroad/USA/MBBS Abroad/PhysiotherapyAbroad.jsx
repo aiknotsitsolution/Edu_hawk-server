@@ -439,7 +439,21 @@ const PhysiotherapyAbroad = () => {
         description="Study physiotherapy in the USA for Indian students — the DPT degree, eligibility, admission process, costs and physiotherapy career pathways explained."
         path="/study-abroad/usa/physiotherapy"
         ogType="website"
-      />
+      >
+        {faqs?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
+      </SeoHead>
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }

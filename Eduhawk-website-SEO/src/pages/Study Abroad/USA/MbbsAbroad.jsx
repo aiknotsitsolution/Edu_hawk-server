@@ -323,6 +323,19 @@ const MbbsAbroad = () => {
         ogType="website"
       >
         <link rel="preload" as="image" href={heroTrusted} fetchPriority="high" />
+        {FAQ_ITEMS?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: FAQ_ITEMS.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
       </SeoHead>
 
       {/* ─── HERO MULTI-IMAGE CAROUSEL (Matching Home & About) ──────── */}

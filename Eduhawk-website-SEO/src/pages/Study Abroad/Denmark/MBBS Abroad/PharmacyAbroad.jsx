@@ -166,52 +166,42 @@ const page = {
       "unis": [
         {
           "name": "University of Copenhagen",
-          "location": "University of Copenhagen, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "The University of Copenhagen provides pharmaceutical education through its School of Pharmaceutical Sciences. * **Bachelor in Pharmacy:** A Danish-taught program. * **Master's in Pharmacy:** A Danish-taught program that builds on undergraduate education in pharmacy. * **MSc in Pharmaceutical Sciences (Global):** A two-year English-taught program focusing on pharmaceutical science and the development of medicines. The English-taught Pharmaceutical Sciences program is relevant for students who want to pursue a career in the pharmaceutical industry and research. It does not qualify graduates to work as pharmacists in community or hospital pharmacy.",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "The University of Copenhagen provides premier pharmaceutical education through its School of Pharmaceutical Sciences, offering Danish-taught professional pharmacy degrees and an English-taught MSc in Pharmaceutical Sciences.",
+          "link": "https://www.ku.dk/english/",
           "img": uniImg1
         },
         {
           "name": "Aarhus University",
-          "location": "Aarhus University, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "Aarhus University conducts education and research in pharmaceutical-related scientific disciplines such as medicinal chemistry and molecular sciences. Students interested in drug discovery and pharmaceutical research should look at its program catalogue to see whether their academic background meets the admission requirements.",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "Aarhus University conducts cutting-edge research in drug discovery, medicinal chemistry, and molecular sciences with comprehensive graduate laboratory facilities.",
+          "link": "https://international.au.dk/",
           "img": uniImg2
-        },
-        {
-          "name": "How to Select the Right University",
-          "location": "How to Select the Right University, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "When choosing a university, consider the language of instruction, curriculum, laboratory facilities, admission requirements, tuition fees and professional recognition of the program. Students who want to practise as pharmacists should ensure that the chosen qualification satisfies the relevant Danish authorization requirements. Before applying, compare **Pharmacy universities in Denmark** and check the official course information to understand program availability, academic conditions and professional opportunities.",
-          "img": uniImg3
         }
       ],
       "unis_data": [
         {
           "name": "University of Copenhagen",
-          "location": "University of Copenhagen, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "The University of Copenhagen provides pharmaceutical education through its School of Pharmaceutical Sciences. * **Bachelor in Pharmacy:** A Danish-taught program. * **Master's in Pharmacy:** A Danish-taught program that builds on undergraduate education in pharmacy. * **MSc in Pharmaceutical Sciences (Global):** A two-year English-taught program focusing on pharmaceutical science and the development of medicines. The English-taught Pharmaceutical Sciences program is relevant for students who want to pursue a career in the pharmaceutical industry and research. It does not qualify graduates to work as pharmacists in community or hospital pharmacy.",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "The University of Copenhagen provides premier pharmaceutical education through its School of Pharmaceutical Sciences, offering Danish-taught professional pharmacy degrees and an English-taught MSc in Pharmaceutical Sciences.",
+          "link": "https://www.ku.dk/english/",
           "img": uniImg1
         },
         {
           "name": "Aarhus University",
-          "location": "Aarhus University, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "Aarhus University conducts education and research in pharmaceutical-related scientific disciplines such as medicinal chemistry and molecular sciences. Students interested in drug discovery and pharmaceutical research should look at its program catalogue to see whether their academic background meets the admission requirements.",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "Aarhus University conducts cutting-edge research in drug discovery, medicinal chemistry, and molecular sciences with comprehensive graduate laboratory facilities.",
+          "link": "https://international.au.dk/",
           "img": uniImg2
-        },
-        {
-          "name": "How to Select the Right University",
-          "location": "How to Select the Right University, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "When choosing a university, consider the language of instruction, curriculum, laboratory facilities, admission requirements, tuition fees and professional recognition of the program. Students who want to practise as pharmacists should ensure that the chosen qualification satisfies the relevant Danish authorization requirements. Before applying, compare **Pharmacy universities in Denmark** and check the official course information to understand program availability, academic conditions and professional opportunities.",
-          "img": uniImg3
         }
       ],
       "note": [
-        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
-        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
+        "When choosing a university, consider the language of instruction, curriculum, laboratory facilities, and professional recognition of the program.",
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions. EU/EEA students may study tuition-free."
       ]
     },
     {

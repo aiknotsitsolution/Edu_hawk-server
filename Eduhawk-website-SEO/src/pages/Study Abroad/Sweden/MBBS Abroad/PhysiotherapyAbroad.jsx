@@ -194,13 +194,6 @@ const page = {
           "desc": "The University of Southern Sweden offers health-related education and research. Students interested in pursuing rehabilitation research, sports science or related postgraduate study should check the requirements of individual programs rather than assuming that a professional physiotherapy degree is available in English.",
           "image": uniImg4, "img": uniImg4
         },
-        {
-          "name": "How to Choose the Right Institution",
-          "location": "How to Choose the Right Institution, Sweden",
-          "fee": "SEK 90,000 \u2013 160,000 / Year",
-          "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Sweden**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
-          "image": uniImg1, "img": uniImg1
-        }
       ],
       "note": [
         "Students should verify the exact eligibility criteria, intake periods, program accreditation, and residence permit requirements before submitting their applications."
@@ -485,12 +478,6 @@ const page = {
       "desc": "The University of Southern Sweden offers health-related education and research. Students interested in pursuing rehabilitation research, sports science or related postgraduate study should check the requirements of individual programs rather than assuming that a professional physiotherapy degree is available in English.",
       "image": uniImg1, "img": uniImg1
     },
-    {
-      "name": "How to Choose the Right Institution",
-      "location": "How to Choose the Right Institution, Sweden",
-      "fee": "SEK 90,000 \u2013 160,000 / Year",
-      "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Sweden**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
-      "image": uniImg2, "img": uniImg2
     }
   ],
   "faqs": [

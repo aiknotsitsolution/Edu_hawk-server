@@ -242,8 +242,21 @@
       "slot": "admission",
       "eyebrow": "Application Journey",
       "title": "The Nursing Admission Procedure of the UK",
-      "lead": "",
-      "groups": []
+      "lead": "Applying for a nursing degree in the UK typically follows these seven key stages:",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            "Select a university and nursing specialty.",
+            "Confirm the academic and English language requirements.",
+            "Draft a personal statement, references and transcripts.",
+            "Apply via the university portal or UCAS.",
+            "Attend an evaluation or interview, if necessary.",
+            "Perform comprehensive background and health checks.",
+            "Accept the offer and arrange accommodation, money and immigration clearance."
+          ]
+        }
+      ]
     },
     {
       "slot": "careers",

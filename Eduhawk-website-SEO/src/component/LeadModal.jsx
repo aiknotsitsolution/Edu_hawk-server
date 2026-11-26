@@ -245,26 +245,26 @@ export default function LeadModal({ isOpen, onClose }) {
             {/* 4 Feature Bullet Points - Original text with clean White Silhouette Icons */}
             <ul className="space-y-4 sm:space-y-4.5 text-[13px] sm:text-sm font-semibold text-white">
               <li className="flex items-center gap-3.5">
-                <span className="w-7 flex items-center justify-center text-white shrink-0">
-                  <BsPatchCheckFill size={22} className="text-white drop-shadow-xs" />
+                <span className="w-8 flex items-center justify-center text-white shrink-0">
+                  <BsPatchCheckFill size={24} className="text-white drop-shadow-xs" />
                 </span>
                 <span>Top Accredited Universities Worldwide</span>
               </li>
               <li className="flex items-center gap-3.5">
-                <span className="w-7 flex items-center justify-center text-white shrink-0">
-                  <FaSearchDollar size={21} className="text-white drop-shadow-xs" />
+                <span className="w-8 flex items-center justify-center text-white shrink-0">
+                  <FaSearchDollar size={23} className="text-white drop-shadow-xs" />
                 </span>
                 <span>100% Transparent Fee &amp; Scholarship Match</span>
               </li>
               <li className="flex items-center gap-3.5">
-                <span className="w-7 flex items-center justify-center text-white shrink-0">
-                  <FaHandshake size={22} className="text-white drop-shadow-xs" />
+                <span className="w-8 flex items-center justify-center text-white shrink-0">
+                  <FaHandshake size={24} className="text-white drop-shadow-xs" />
                 </span>
                 <span>Fast-Track Admission &amp; Visa Support</span>
               </li>
               <li className="flex items-center gap-3.5">
-                <span className="w-7 flex items-center justify-center text-white shrink-0">
-                  <FaPlaneDeparture size={21} className="text-white drop-shadow-xs" />
+                <span className="w-8 flex items-center justify-center text-white shrink-0">
+                  <FaPlaneDeparture size={23} className="text-white drop-shadow-xs" />
                 </span>
                 <span>Pre-departure Guidance &amp; Forex Support</span>
               </li>
