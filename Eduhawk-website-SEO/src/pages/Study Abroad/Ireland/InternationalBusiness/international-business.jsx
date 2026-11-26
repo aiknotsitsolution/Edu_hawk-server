@@ -20,9 +20,9 @@ const page = {
   title: "Study International Business in Ireland | Top Universities, Fees & Visas 2026/27",
   description: "Complete guide to studying International Business in Ireland: undergraduate BSc/BA & postgraduate MSc degrees, top Irish business schools, 2026/27 tuition fees, Stamp 1G work permits, and multinational corporate career opportunities.",
   keywords: "Study International Business in Ireland, MSc International Business Ireland, BSc International Business with Languages, UCD International Business, UCC CUBS International Business, TU Dublin International Business, tuition fees Ireland 2026 2027, Stamp 1G post study work visa",
-  introTitle: "INTERNATIONAL BUSINESS COURSES IN IRELAND",
-  heroParas: [
-    "Ireland is the premier European gateway for studying International Business, uniquely positioned at the crossroads of European and transatlantic trade with regional headquarters for over 1,000 global multinational enterprises."
+  "introTitle": "International Business in Ireland for Indian Students",
+  "heroParas": [
+    "Pursue an accredited degree in International Business in Ireland, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and access post-study work opportunities under the Irish Third Level Graduate Scheme, subject to official immigration regulations."
   ],
   overview: [
     "International Business programs in Ireland equip students with advanced expertise in cross-border trade, multinational financial strategy, global supply chains, international marketing, and cross-cultural organizational leadership. Across Ireland's leading universities, students can pursue undergraduate qualifications (such as the 3-to-4-year Bachelor of Commerce International or BSc in International Business with Languages) or intensive 1-year postgraduate degrees (such as the Master of Science in International Business or International Management).",

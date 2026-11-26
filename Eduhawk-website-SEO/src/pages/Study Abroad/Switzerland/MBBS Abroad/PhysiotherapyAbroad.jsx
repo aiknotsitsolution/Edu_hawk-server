@@ -319,7 +319,7 @@ const page = {
         {
                 "t": "p",
                 "items": [
-                        "The tuition range is a wide estimate for planning purposes. Swiss university of applied sciences official fees for 2026-27 vary by institution and may be higher for overseas students. There may be additional fees for a semester or administrative fees.",
+                        "The tuition range is a wide estimate for planning purposes. Swiss university of applied sciences official fees vary by institution and may be higher for overseas students. There may be additional fees for a semester or administrative fees.",
                         "**Yearly Budget Estimate**",
                         "Tuition and living expenses for students are expected to be around CHF 20,000-40,000 or more per year. This is not a guarantyd cost estimate for any single university.",
                         "Before submitting your application, please check the official fee schedule, clinical placement costs, accommodation availability and financial evidence required for a Swiss student visa or residence permit.",

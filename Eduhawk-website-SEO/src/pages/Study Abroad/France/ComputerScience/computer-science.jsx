@@ -21,14 +21,14 @@ const page = {
   description: "Complete guide to Computer Science in France for Indian students: Top French universities, admission requirements, tuition fees (€178 – €3,950 / year public), scholarships, and 2-year post-study work visa.",
   keywords: "Studying Computer Science in France, France Computer Science Courses, Top universities for UG and PG in Computer Science in France, Bachelor’s Degree in Computer Science in France, Master’s Degree in Computer Science in France, Eligibility criteria to study computer science in France, Computer Science in France Admission Requirements, Computer Science Jobs and Career Opportunities in France",
   introTitle: "COMPUTER SCIENCE IN FRANCE",
-  heroParas: [
-    "Studying Computer Science in France offers international students world-class academic training across programming, artificial intelligence, cybersecurity, cloud computing, and software engineering. French public universities, Grandes Écoles, and CTI-accredited institutes deliver cutting-edge undergraduate Licence (BSc) and postgraduate Master’s programs closely integrated with European tech giants and leading research laboratories."
-  ],
-  overview: [
-    "France is home to one of Europe's most dynamic digital ecosystems, combining rigorous mathematical foundations with practical, industry-driven computer science education. Students can pursue standard academic pathways starting with a 3-year Licence Informatique (180 ECTS) or enter directly into 2-year Master of Science (120 ECTS) and 5-year Diplôme d'Ingénieur programs with a relevant undergraduate degree.",
-    "French universities maintain strong research partnerships with national institutes like Inria, CNRS, and CEA, as well as European technology leaders (Dassault Systèmes, Thales, Capgemini, Atos, and Ubisoft) and global hubs like Station F in Paris. Programs emphasize project-based learning, research seminars, and mandatory 4-to-6-month enterprise internships.",
-    "With affordable public university tuition fees, extensive English-taught Master's degrees, and a 2-year post-study work visa (APS/RECE) for Indian graduates, France is a premier destination for aspiring tech professionals. EduHawk Worldwide provides end-to-end consultancy for university shortlisting, portfolio preparation, Campus France interviews, and visa processing."
-  ],
+  "heroParas": [
+    "Accelerate your computing career in France at prestigious Grandes Écoles and research universities, benefiting from Europe's largest startup hub at Station F. Indian students gain elite software engineering training, affordable public tuition, and post-study work stay-back opportunities."
+],
+  "overview": [
+    "France combines centuries of mathematical and scientific distinction with a rapidly growing technology startup ecosystem, anchored by Paris and the world's largest startup campus, Station F. Studying Computer Science in France offers Indian students rigorous computational education alongside deep European research connections.",
+    "Higher education in France features both historic public research universities and prestigious engineering Grandes Écoles offering CTI-accredited engineering diplomas and English-taught Master of Science degrees. Specializations span Deep Learning, Computational Mathematics, Embedded Systems, Network Security, and Big Data Analytics, often incorporating corporate internships or paid apprenticeship (alternance) contracts.",
+    "Upon completing a recognized master's degree in France, Indian students can access post-study work authorization (Autorisation Provisoire de Séjour / APS or Carte de Séjour Recherche d'Emploi) for up to two years, paving the way for employment across France's thriving AI, aerospace, and software industries."
+],
   level: "Bachelor of Science (Licence / BSc) & Master of Science (MSc / Diplôme d'Ingénieur) in Computer Science",
   crumb: "Technology / Computer Science",
   stats: [

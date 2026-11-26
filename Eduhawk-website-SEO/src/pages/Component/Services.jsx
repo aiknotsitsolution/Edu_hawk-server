@@ -25,7 +25,6 @@ import {
   ArrowRight,
   Phone,
   MessageCircle,
-  Sparkles,
   ChevronDown,
   Headphones,
   Users,
@@ -229,7 +228,7 @@ export default function Services() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-3xl mx-auto mb-14">
               <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200/80">
-                <Sparkles size={14} className="text-amber-600" />
+                
                 End-to-End Admission Support
               </span>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">

@@ -18,17 +18,12 @@ const page = {
   keywords: "Information Technology in Finland, Bachelor's in Information Technology in Finland, Master's in Information Technology in Finland, Information Technology Universities in Finland, Study IT in Finland for Indian Students, Information Technology Courses in Finland Fees",
   introTitle: "Information Technology in Finland",
   heroParas: [
-    "Study **Information Technology in Finland** to experience a globally renowned Scandinavian innovation ecosystem, world-leading software research, practical industry traineeships, and vibrant international student life with **[Edu-Hawk Worldwide](/services)**."
+    "Pursue an applied Bachelor of Engineering in Information Technology in Finland, global leader in wireless communications, 5G/6G infrastructure, and industrial IoT, benefiting from active-learning labs and a 2-year post-study residence permit."
   ],
-  overview: [],
-  level: "Undergraduate & Master's",
-  crumb: "Engineering",
-
-  stats: [
-    { label: "Degree Awarded", value: "B.Sc. / B.Eng / M.Sc. in IT & Computing" },
-    { label: "Course Duration", value: "3 to 4 Years (UG) / 2 Years (PG)" },
-    { label: "Top Institutions", value: "UEF, Oulu, Aalto, Turku, Metropolia UAS" },
-    { label: "Teaching Language", value: "100% English Taught" }
+  overview: [
+    "Finland is internationally recognized for world-leading telecommunications engineering, secure digital communication networks, and advanced sensor systems. Studying Information Technology within an applied engineering framework in Finland provides Indian students with rigorous, hands-on technical education focused on designing, deploying, and maintaining resilient industrial computing networks and wireless communications infrastructure.",
+    "Finnish Universities of Applied Sciences (UAS) offer 4-year English-taught Bachelor of Engineering (BEng, 240 ECTS) degrees in Information Technology and Telecommunications Engineering. The academic curriculum bridges electronic hardware with systems software, covering wireless communications protocols, embedded Linux, network programming, IoT hardware interfacing, cloud networking, and cybersecurity operations, incorporating extensive practical laboratory work and mandatory industrial internships.",
+    "International engineering graduates in Finland enjoy high demand across telecommunications, clean-tech, and industrial automation sectors. Under Section 55 of the Finnish Aliens Act, international graduates can obtain an extended 2-year post-study residence permit for job seeking or entrepreneurship (usable in up to three parts within 5 years of graduation), provided baseline living funds (€560/month) and health insurance are maintained, facilitating smooth transition into permanent Nordic engineering roles."
   ],
 
   sections: [
@@ -517,7 +512,7 @@ const page = {
 const InformationTechnologyFinland = () => {
   return (
     <AbroadCoursePage
-      page={withCmsData(page, cmsData)}
+      page={{ ...withCmsData(page, cmsData), heroParas: page.heroParas, overview: page.overview }}
       heroImg={heroImg}
       heroBgImg={heroBgImg}
       sideImg={sideImg}

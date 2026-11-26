@@ -18,7 +18,7 @@ const page = {
   "keywords": "Study International Business in Spain, International Business in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "International Business in Spain for Indian Students",
   "heroParas": [
-    "Studying International Business in Spain for Indian Students is a chance to learn about global trade, international marketing, cross-cultural management, global finance, and international business strategy."
+    "Pursue an accredited degree in International Business in Spain, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore post-study work search residence permits under Spanish immigration guidelines."
   ],
   "overview": [
     "Studying International Business in Spain for Indian Students is a chance to learn about global trade, international marketing, cross-cultural management, global finance, and international business strategy. Spain's position in the European market makes it an attractive destination for students interested in multinational companies, international business, consulting, logistics, and global entrepreneurship.",

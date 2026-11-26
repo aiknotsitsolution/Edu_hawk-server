@@ -19,8 +19,8 @@ const page = {
   "description": "Study International Business in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "International Business in Italy, Study International Business Italy, Best Universities for International Business in Italy, Global Business Italy",
   "introTitle": "International Business in Italy for Indian Students",
-  heroParas: [
-    "Studying International Business in Italy provides students with deep insight into global trade dynamics, multinational market strategy, and European business law in a vibrant Mediterranean economic center."
+  "heroParas": [
+    "Pursue an accredited degree in International Business in Italy, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore post-study residence permit opportunities for work search under Italian immigration regulations."
   ],
   overview: [
     "Yes. Some of the universities in Italy offer business and management programs taught in English. The language of instruction of the particular degree is to be checked by students before applying."

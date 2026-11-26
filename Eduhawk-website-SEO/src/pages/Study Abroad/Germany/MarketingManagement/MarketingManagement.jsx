@@ -21,9 +21,9 @@ const page = {
   title: "Marketing Management in Germany for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to Marketing Management in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
   keywords: "Study Management in Germany for Indian Students, Best Universities for Marketing Management in Germany, Bachelor's and Master's in Marketing Management in Germany, Marketing Management Eligibility Requirements in Germany, Admission Requirements for Marketing Management in Germany, Study Marketing Management in English in Germany, Studienkolleg Requirements for Indian Students in Germany, IELTS and German Language Requirements for Marketing Courses in Germany, Marketing Management Tuition Fees in Germany, Cost of Living for Marketing Management Students in Germany, Marketing Management Scholarships in Germany for International Students, Germany Student Visa Requirements for Indian Marketing Management Students",
-  introTitle: "Why Study Marketing Management in Germany?",
-  heroParas: [
-    "Germany is Europe's commercial powerhouse and a global leader in brand strategy, digital consumer intelligence, and market analytics, offering globally recognized Bachelor's, Master's, and MBA degrees in Marketing Management with tuition-free options at prestigious public universities and an 18-month post-study work visa."
+  "introTitle": "Marketing Management in Germany for Indian Students",
+  "heroParas": [
+    "Study Marketing Management in Germany, combining data-driven market research, digital marketing technologies, and strategic B2B brand leadership across Europe's largest industrial economy. International graduates develop analytical marketing expertise and explore the 18-month post-study job seeker visa, subject to German immigration directives."
   ],
   overview: [
     "Germany is a magnet for international students who want to master **marketing, brand strategy, digital advertising, consumer insights, and global commerce**. With its powerhouse industrial economy and thriving tech-driven sectors, Germany provides unmatched opportunities to understand how multinational enterprises market products and build brand loyalty across international borders.",

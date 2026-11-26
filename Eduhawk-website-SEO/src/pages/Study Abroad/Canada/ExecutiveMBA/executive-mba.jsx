@@ -19,9 +19,9 @@ const page = {
   "title": "Executive MBA in Canada for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Executive MBA in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
   "keywords": "Study Executive MBA in Canada, Executive MBA in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
-  "introTitle": "Indian Students studying an Executive MBA in Canada",
+  "introTitle": "Executive MBA in Canada for Indian Students",
   "heroParas": [
-    "A postgraduate management program called a Executive Master of company Administration (Executive MBA or EMBA) is primarily intended for seasoned professionals, managers, company executives, and entrepreneurs who wish to improve their leadership and strategic decision-making skills"
+    "Elevate your executive career with an accredited Executive MBA (EMBA) in Canada, engineered for senior managers and business leaders driving organizational growth. International professionals develop advanced corporate strategy and explore executive immigration and work authorization pathways under official Canadian regulations."
   ],
   "overview": [
     "A postgraduate management program called a Executive Master of company Administration (Executive MBA or EMBA) is primarily intended for seasoned professionals, managers, company executives, and entrepreneurs who wish to improve their leadership and strategic decision-making skills",

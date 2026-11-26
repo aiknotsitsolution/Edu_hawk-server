@@ -19,8 +19,8 @@ const page = {
   "description": "Study Business Management in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Business Management in Italy, Study Business Management in Italy, Best Business Schools in Italy, Management Degrees in Italy, Business Management Fees in Italy",
   "introTitle": "Business Management in Italy for Indian Students",
-  heroParas: [
-    "Business Management in Italy combines rigorous European academic standards with practical case studies, corporate internships, and entrepreneurial leadership across world-renowned Italian universities."
+  "heroParas": [
+    "Study Business Management in Italy, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and explore post-study residence permit opportunities for work search under Italian immigration regulations."
   ],
   overview: [
     "Yes. Indian students can apply to eligible Bachelor's programs after completing Class 12 or its equivalent qualification, subject to the academic, language and selection requirements of the university."

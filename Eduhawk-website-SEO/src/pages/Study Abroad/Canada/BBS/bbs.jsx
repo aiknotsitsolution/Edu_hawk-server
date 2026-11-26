@@ -19,9 +19,9 @@ const page = {
   "title": "BBS in Canada for Indian Students | Edu-Hawk Worldwide",
   "description": "Study BBS in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
   "keywords": "Study BBS in Canada, BBS in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
-  "introTitle": "BBS for Indian Students in Canada",
+  "introTitle": "BBS in Canada for Indian Students",
   "heroParas": [
-    "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS)."
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Canada, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore Post-Graduation Work Permit (PGWP) pathways, subject to program duration and official IRCC eligibility criteria."
   ],
   "overview": [
     "In educational institutions that provide this degree title, an undergraduate degree in business fundamentals, management, accounting, finance, marketing, economics, and organizational operations is called a Bachelor of Business Studies (BBS).",

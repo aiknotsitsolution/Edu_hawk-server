@@ -78,7 +78,7 @@ const page = {
         {
           t: "p",
           items: [
-            "Study Physiotherapy as part of the professional education."
+            "Advance your career with accredited Physiotherapy degrees in Australia, integrating biomechanics, musculoskeletal rehabilitation, and extensive supervised clinical practice across public hospitals and private clinics. Prepare for professional registration with the Physiotherapy Board of Australia (AHPRA)."
           ]
         },
         {

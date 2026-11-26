@@ -23,7 +23,7 @@ const page = {
   "keywords": "Study Public Health in the UK, Public Health in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Public Health in the United Kingdom",
   "heroParas": [
-    "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them."
+    "Earn a prestigious Master of Public Health (MPH) in the UK from world-leading universities, specializing in epidemiology, health policy, and global health intervention. Indian students prepare for influential careers with the NHS, WHO, international NGOs, and global research bodies."
   ],
   "overview": [
     "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
@@ -57,7 +57,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Through disease prevention, health promotion, research, policy formulation and healthcare planning, the multidisciplinary area of public health aims to safeguard and enhance population health. A variety of undergraduate and graduate programs are available in the UK to assist students comprehend public health challenges and acquire the skills necessary to handle them."
+            "Earn a prestigious Master of Public Health (MPH) in the UK from world-leading universities, specializing in epidemiology, health policy, and global health intervention. Indian students prepare for influential careers with the NHS, WHO, international NGOs, and global research bodies."
           ]
         },
         {

@@ -1,11 +1,11 @@
 {
   "seo": {
-    "title": "Study Abroad Consultants in India | Edu-Hawk Worldwide",
-    "description": "Edu-Hawk Worldwide is your trusted partner for global education. Explore international universities, courses, scholarships, and expert study abroad counselling."
+    "title": "Study Abroad Consultants | Edu-Hawk Worldwide",
+    "description": "Edu-Hawk Worldwide offers expert study abroad counselling, university selection, admissions, visa and pre-departure support for MBBS, engineering, MBA and more."
   },
   "hero": {
     "tag": "STUDY ABROAD",
-    "mainHeading": "Your Global Education Journey Starts Here",
+    "mainHeading": "Study Abroad Consultants for MBBS, Engineering, MBA & More",
     "sliderHeadings": [
       "Your Future Has No Borders.",
       "Learn Globally. Grow Beyond Limits.",
@@ -13,10 +13,9 @@
       "Your Dream University Starts With the Right Guidance."
     ],
     "subtitle": "Explore international universities, discover courses that match your ambitions, and take the next step towards a global career with expert guidance from Edu-Hawk Worldwide.",
-    "supportingText": "From choosing the right country and university to admissions, visa assistance, and pre-departure support we guide you throughout your journey to study abroad.",
     "ctaButtons": [
-      { "label": "Explore Study Destinations", "link": "#destinations" },
-      { "label": "Get Free Counselling", "action": "openModal" }
+      { "label": "Explore Study Destinations", "link": "/study-abroad" },
+      { "label": "Get Free Counselling", "link": "/contact" }
     ]
   },
   "stats": [

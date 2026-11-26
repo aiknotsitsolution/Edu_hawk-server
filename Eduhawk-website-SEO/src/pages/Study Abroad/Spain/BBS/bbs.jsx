@@ -15,9 +15,9 @@ const page = {
   "title": "BBS in Spain for Indian Students | Edu-Hawk Worldwide",
   "description": "Study BBS in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities.",
   "keywords": "Study BBS in Spain, BBS in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
-  "introTitle": "Bachelor of Business Studies (BBS) in Spain for Indian Students",
+  "introTitle": "BBS in Spain for Indian Students",
   "heroParas": [
-    "The Bachelor of Business Studies (BBS) in Spain for Indian Students is a course for undergraduate students who want to build a strong foundation in business management, accounting, economics, marketing, finance and organizational behavior."
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Spain, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore post-study work search residence permits under Spanish immigration guidelines."
   ],
   "overview": [
     "The Bachelor of Business Studies (BBS) in Spain for Indian Students is a course for undergraduate students who want to build a strong foundation in business management, accounting, economics, marketing, finance and organizational behavior. The program prepares learners to understand how businesses operate, make strategic decisions, manage resources and respond to changing market conditions. If you want to Study Bachelor of Business Studies in Spain , you can explore related undergraduate business programs offered by Spanish universities.",

@@ -22,7 +22,7 @@ const page = {
   "keywords": "Study MBA in Sweden, MBA in Sweden for Indian Students, Best Universities in Sweden, Sweden MBA Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide",
   "introTitle": "MBA in Sweden for Indian Students",
   "heroParas": [
-    "**MBA in Sweden** is an attractive option for students and working professionals who want to develop business knowledge, leadership abilities and management skills. Sweden offers business education at different stages of an academic and professional journey. Students who have completed Class 12 can begin with a bachelor's degree in business or economics, graduates can pursue specialised master's programmes, and experienced professionals can consider an MBA or Executive MBA."
+    "Study an MBA in Sweden, renowned for sustainable leadership, technological innovation, and collaborative Scandinavian corporate culture. International students cultivate executive decision-making capabilities and explore post-study job search residence permits under Swedish migration rules."
   ],
   "overview": [
     "It is important to understand the difference between these qualifications. An **MBA is generally a postgraduate professional degree** designed for graduates, often with previous work experience. The traditional academic route is to complete a bachelor's degree followed by a specialised master's degree. Not every master's programme in management is an MBA.",

@@ -1,11 +1,12 @@
 {
   "hero": {
-    "title": "Computer Engineering in Spain for Indian Students",
-    "subtitle": "Computer Engineering in Spain for Indian Students offers an opportunity to gain technical knowledge and practical skills in computer hardware, software development, programming, computer architecture, networks and intelligent systems. Universities in Spain offer bachelor's degrees in Computer Engineering and similar fields of study, which train students to work in the technology sector, software industry, telecommunications sector, cyber security, and computing research."
+    "title": "Undergraduate Computer Engineering in Spain for Indian Students",
+    "subtitle": "Earn a 4-year Grado in Computer Engineering in Spain across dynamic tech hubs in Barcelona and Madrid, mastering digital electronics, embedded microcontrollers, and 12-month post-study job search authorization."
   },
   "overview": [
-    "Computer Engineering in Spain for Indian Students offers an opportunity to gain technical knowledge and practical skills in computer hardware, software development, programming, computer architecture, networks and intelligent systems. Universities in Spain offer bachelor's degrees in Computer Engineering and similar fields of study, which train students to work in the technology sector, software industry, telecommunications sector, cyber security, and computing research.",
-    "Studying Computer Engineering in Spain is a great choice for Indian students who want to gain a strong base in computing, engineering principles, software systems, and cutting-edge technologies."
+    "Spain offers a vibrant, modern engineering education system fully compliant with the European Bologna Process, with expanding microelectronics, telecommunications, and robotics clusters in Madrid, Barcelona, and Valencia. Studying undergraduate Computer Engineering in Spain provides Indian students with comprehensive training in hardware design and digital systems engineering.",
+    "Spanish public and private universities deliver 4-year Bachelor's degrees (*Grado en Ingeniería Informática / Computadores*, 240 ECTS). The academic program covers digital electronics, computer organization, microprocessor interfacing, embedded systems, and networks, providing extensive laboratory practice and industry capstone internships at competitive annual tuition rates (€1,500 to €6,500/year).",
+    "International graduates in Spain can apply for a 12-month non-renewable post-study residence permit for job seeking or entrepreneurship (*Permiso de Residencia para Búsqueda de Empleo*, Law 14/2013 / EU Directive 2016/801). This permit enables qualifying Level 6 graduates to transition smoothly into skilled employment as Hardware Test Engineers, Firmware Developers, and Systems Engineers across Spain's digital engineering sector."
   ],
   "universities": [
     {
@@ -177,30 +178,7 @@
       "eyebrow": "Course Overview",
       "title": "Who can Study Computer Engineering in Spain?",
       "lead": "To pursue a bachelor's degree in Computer Engineering in India, students need to fulfilll the academic and admission criteria of their chosen university.",
-      "groups": [
-        {
-          "t": "h4",
-          "text": "Some common eligibility factors include:"
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Qualification: Passed Class 12 from a recognized board.",
-            "Mathematics: A good grounding in mathematics is recommended and may be required.",
-            "Science subjects: Physics is especially useful but entry requirements vary between universities.",
-            "Academic Performance: Meet the university's admission score and selection requirements.",
-            "Recognition of Qualifications: Complete the process of assessment of Indian Schools' qualifications for admission to Spanish Universities.",
-            "Language requirements: Language requirements of the selected program in English, Spanish or Catalan language.",
-            "Other Admission Procedures: Take any required entrance exams, pre-enrolment or evaluation of credentials."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some public universities have selective admissions. Meeting the minimum eligibility requirements does not guaranty entry."
-          ]
-        }
-      ]
+      "groups": []
     },
     {
       "slot": "admission",
@@ -265,7 +243,7 @@
           "t": "ul",
           "items": [
             "Polytechnic University of Catalonia (UPC): Lists approximate annual tuition of €1,800 for non-EU students who are not EU residents for its bachelor's degree in Informatics Engineering.",
-            "Pompeu Fabra University (UPF): Has an approximate price of €6,800.32 for non-EU students or non-residents for its bachelor's degree in Computer Engineering for 2026–27."
+            "Pompeu Fabra University (UPF): Has an approximate price of €6,800.32 for non-EU students or non-residents for its bachelor's degree in Computer Engineering ."
           ]
         },
         {

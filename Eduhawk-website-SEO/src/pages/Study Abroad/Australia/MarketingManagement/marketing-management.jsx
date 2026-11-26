@@ -21,9 +21,9 @@ const page = {
   title: "Study Marketing Management in Australia for Indian Students | Edu-Hawk Worldwide",
   description: "Study Marketing Management in Australia for Indian students. Learn about top marketing schools (Melbourne, UTS, Adelaide, Wollongong), AMI accreditation, fees, and digital marketing careers.",
   keywords: "",
-  introTitle: "Marketing Management in Australia",
-  heroParas: [
-    "Planning and overseeing initiatives that assist companies in understanding consumers, promoting goods, developing brands, and accomplishing corporate goals are the main goals of marketing management."
+  "introTitle": "Marketing Management in Australia for Indian Students",
+  "heroParas": [
+    "Study Marketing Management in Australia, acquiring high-demand capabilities in digital brand strategy, consumer analytics, omnichannel campaigns, and market research. International students gain hands-on marketing expertise and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules."
   ],
   overview: [
     "Q2. Is it possible for Indian students to study marketing management in Australia?",

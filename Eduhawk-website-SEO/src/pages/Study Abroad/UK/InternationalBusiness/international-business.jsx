@@ -21,9 +21,9 @@ const page = {
   "title": "Study International Business in the UK for Indian Students | Edu-Hawk Worldwide",
   "description": "Complete guide to International Business in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
   "keywords": "Study International Business in the UK, International Business in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
-  "introTitle": "Study International Business in United Kingdom",
+  "introTitle": "International Business in the UK for Indian Students",
   "heroParas": [
-    "Students who are interested in global markets, international business, multinational corporations and cross-cultural management should look into studying International Business in the UK. UK universities provide business programmes that assist students in gaining the skills necessary to operate in an ever more interconnected global economy."
+    "Pursue an accredited degree in International Business in the UK, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore 2-year Graduate Route post-study work visa opportunities, subject to UK Home Office criteria."
   ],
   "overview": [
     "Here are some compelling reasons to study International Business in the UK:",

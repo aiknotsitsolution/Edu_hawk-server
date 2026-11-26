@@ -23,7 +23,7 @@ const page = {
   "keywords": "Study MBS in Sweden, MBS in Sweden for Indian Students, Best Universities in Sweden, Sweden MBS Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide",
   "introTitle": "MBS in Sweden for Indian Students",
   "heroParas": [
-    "**Business Studies in Sweden** offers international students opportunities to develop knowledge in business administration, economics, management, marketing and international trade. Students can begin with an undergraduate business degree after Class 12 and progress to a specialised master's programme after completing their bachelor's qualification."
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Sweden, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore post-study residence permits to seek employment under Swedish migration policy."
   ],
   "overview": [
     "The term **MBS (Master's in Business Studies)** may be used informally to describe postgraduate business studies. However, Swedish universities may use official degree titles such as MSc in Business Studies, Business and Management, or Business Administration.",

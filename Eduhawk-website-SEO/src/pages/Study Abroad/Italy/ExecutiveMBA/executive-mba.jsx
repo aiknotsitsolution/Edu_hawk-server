@@ -18,9 +18,9 @@ const page = {
   "title": "Executive MBA in Italy for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Executive MBA in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Executive MBA in Italy, EMBA in Italy for Indian Students, Best EMBA Universities in Italy, Executive MBA Fees in Italy",
-  "introTitle": "Executive MBA Italy for Indian Students",
-  heroParas: [
-    "An Executive MBA (EMBA) in Italy provides experienced professionals with transformative strategic leadership, global business perspectives, and high-value networking across European corporate boardrooms."
+  "introTitle": "Executive MBA in Italy for Indian Students",
+  "heroParas": [
+    "Enhance your executive leadership with an Executive MBA in Italy, combining strategic management rigor with Mediterranean business innovation and luxury enterprise strategy. Experienced managers acquire advanced governance capabilities in a dynamic European commercial centre."
   ],
   overview: [
     "Executive MBA programs are typically aimed at professionals who have a recognized bachelor's degree and relevant work experience. How many years will depend on the institution."

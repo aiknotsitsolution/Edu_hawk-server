@@ -21,11 +21,13 @@ const page = {
   "description": "Study Information Technology in Mauritius: Top universities, course duration, tuition fees in MUR & INR, eligibility criteria, admission process & visa requirements for Indian students.",
   "keywords": "Study Information Technology in Mauritius, Information Technology in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Information Technology Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Information Technology in Mauritius for Indian Students",
-  "heroParas": [
-    "Comprehensive guide to studying Information Technology in Mauritius for Indian students."
+  heroParas: [
+    "Discover quality, affordable Information Technology education in Mauritius at internationally affiliated universities and branch campuses from the UK, France, and Australia. Indian students benefit from a safe, multicultural environment, low living costs, and straightforward visa processing."
   ],
-  "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Mauritius for Information Technology in Mauritius."
+  overview: [
+    "Mauritius has established itself as the leading technology and financial services hub for the Indian Ocean and African region, hosting modern data centers and international business operations. Studying Information Technology in Mauritius provides Indian students with cost-effective access to internationally accredited British, French, and Australian degree programs within an English-speaking, tropical environment.",
+    "Mauritian public research universities and international branch campuses offer diverse undergraduate (3 to 4 years) and postgraduate (1 to 2 years) programs in Information Technology, Network Engineering, and Information Systems Management. Students develop hands-on expertise in network administration, enterprise cloud services, database management, and IT helpdesk operations, preparing for immediate employment across regional financial and technology centers.",
+    "With competitive annual tuition fees (typically $2,500 to $8,500 USD), affordable student accommodation, and a streamlined visa application process with no embassy interviews, Mauritius represents an accessible, high-value destination. Upon graduation, international students can transition into employment through the Economic Development Board (EDB) Young Professional Occupation Permit (YPOP) or standard Occupation Permit schemes subject to qualifying employer sponsorship."
   ],
   "level": "B.Sc. & M.Sc. in IT",
   "crumb": "Information Technology",
@@ -319,17 +321,17 @@ const page = {
             [
               "BSc (Hons) Computer Science \u2014 Open University of Mauritius",
               "3\u20136 years",
-              "US\\$6,700"
+              "US\$6,700"
             ],
             [
               "MSc Information Technology (Conversion) \u2014 Open University of Mauritius",
               "1\u20132 years",
-              "US\\$4,320"
+              "US\$4,320"
             ],
             [
               "MSc Applied Computing and Digital Technologies \u2014 Open University of Mauritius",
               "2\u20134 years",
-              "US\\$5,620"
+              "US\$5,620"
             ]
           ]
         },

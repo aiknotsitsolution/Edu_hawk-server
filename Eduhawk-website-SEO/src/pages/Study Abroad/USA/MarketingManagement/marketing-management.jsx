@@ -14,9 +14,9 @@ const page = {
   "title": "Marketing Management in USA for Indian Students | 2026 | Edu Hawk",
   "description": "Study Marketing Management in the USA. Course options, specialisations, eligibility, admission tests, tuition fees, scholarships, top universities, careers and visa process for Indian students.",
   "keywords": "Study Marketing Management in USA for Indian Students, Best Universities for Marketing Management in USA, Study Marketing Management Courses in USA, Marketing Management Admission Requirements in USA, Marketing Management Fees in USA for Indian Students, Marketing Management Scholarships for International Students, Marketing Management Eligibility After Class 12, Bachelor's in Marketing Management in USA, Master's in Marketing Management in USA, Digital Marketing Courses in USA for International Students, Marketing Management Specializations in USA, Marketing Management Without GMAT in USA, Career Opportunities After Marketing Management Degree, Marketing Management Course Duration in USA, USA Student Visa for Indian Marketing Management Students",
-  "introTitle": "Marketing Management in United States",
+  "introTitle": "Marketing Management in the USA for Indian Students",
   "heroParas": [
-    "Studying Marketing Management in the USA provides international students with advanced knowledge in digital marketing analytics, brand management, consumer psychology, and market strategy across leading corporate landscapes."
+    "Study Marketing Management in the United States, mastering consumer insights, data-driven digital marketing, brand positioning, and product marketing across Fortune 500 enterprises. International students develop transformative commercial expertise and explore Optional Practical Training (OPT) employment opportunities, subject to US immigration regulations."
   ],
   "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."

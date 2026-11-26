@@ -5303,7 +5303,7 @@ export const AbroadCoursePage = ({
 
 
 
-        imgAlt={`${page.name} in ${inCountry}`}
+        imgAlt={`${courseBase} in ${inCountry}`}
 
 
 

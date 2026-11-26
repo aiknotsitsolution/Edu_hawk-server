@@ -14,7 +14,6 @@ import {
   MessageCircle,
   CheckCircle2,
   Send,
-  Sparkles,
   ExternalLink,
   ShieldCheck,
   Building2,

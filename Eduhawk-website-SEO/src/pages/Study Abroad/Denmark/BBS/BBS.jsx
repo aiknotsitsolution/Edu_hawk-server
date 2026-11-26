@@ -22,7 +22,7 @@ const page = {
   "keywords": "Study BBS in Denmark, BBS in Denmark for Indian Students, Best Universities in Denmark, Denmark BBS Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
   "introTitle": "BBS in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying BBS in Denmark for Indian students."
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Denmark, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore post-study work establishment opportunities under Danish immigration frameworks."
   ],
   "overview": [
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for BBS."

@@ -21,10 +21,12 @@ const page = {
   "keywords": "",
   "introTitle": "Computer Engineering Bachelor's in Italy",
   heroParas: [
-    "A Bachelor’s in Computer Engineering in Italy offers robust foundational coursework in computer hardware, software engineering, operating systems, and computer networks at world-class European polytechnic universities."
+    "Pursue an English-taught Laurea in Computer Engineering in Italy at historic polytechnic universities, combining microelectronics, industrial automation, affordable public tuition, and regional DSU scholarship opportunities."
   ],
   overview: [
-    "Yes. Indian students can apply if their school qualification is in accordance with the university's entry requirements and they meet the language, entrance-test and document requirements."
+    "Italy's Northern industrial technology belt is celebrated for excellence in automotive electronics, industrial robotics, precision machinery, and aerospace systems. Studying undergraduate Computer Engineering (*Ingegneria Informatica*) in Italy offers Indian students rigorous engineering instruction focused on designing digital computing hardware and automated electronic control systems.",
+    "Leading Italian polytechnics—including Politecnico di Milano and Politecnico di Torino—offer English-taught 3-year Bachelor of Science (*Laurea*, 180 ECTS) programs in Computer and Electronic Engineering. The academic curriculum covers electrical circuits, digital systems design, computer architecture, microprocessors, and real-time software, with very accessible public tuition fees (€1,000 to €4,000/year) and widespread eligibility for need-based regional DSU scholarships.",
+    "Graduates obtain credentials recognized across the European Higher Education Area (EHEA), preparing them for international hardware engineering roles or direct continuation into advanced Master of Science (*Laurea Magistrale*) programs. Non-EU graduates who transition into qualifying employment can access Italian stay-back and work permit pathways under national immigration regulations."
   ],
   "level": "Undergraduate",
   "crumb": "Engineering",

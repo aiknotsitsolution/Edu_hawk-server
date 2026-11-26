@@ -20,10 +20,10 @@ const page = {
   title: "Study BBA in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study BBA in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study BBA in Switzerland, BBA in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland BBA Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
-  introTitle: "1\\. Why to Study BBA in Switzerland?",
-  heroParas: [
-    "Students seeking an international business education, practical learning and global career opportunities will find Switzerland an attractive destination. Bachelor of Business Administration (BBA) in Switzerland programs provide students with skills in management, marketing, finance, entrepreneurship, and business communication. The country has a robust international business environment with exposure to banking, hospitality, luxury brands, consulting and multinational companies."
-],
+  "introTitle": "BBA in Switzerland for Indian Students",
+  "heroParas": [
+    "Pursue an accredited Bachelor of Business Administration (BBA) in Switzerland, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure in Europe's premier destination for multinational headquarters, private banking, and international commerce."
+  ],
   overview: [
     "**BBA in Switzerland for Indian Students** is an opportunity to acquire international business knowledge and lay the foundation for future managerial careers. Edu-Hawk Worldwide can help students to explore possible under-graduation studies. **BBA in Switzerland for Indian Students** also offers students an opportunity to understand international business practices and explore global education options."
 ],

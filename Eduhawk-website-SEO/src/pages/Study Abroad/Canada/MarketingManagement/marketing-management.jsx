@@ -19,9 +19,9 @@ const page = {
   "title": "Marketing Management in Canada for Indian Students | Edu-Hawk Worldwide",
   "description": "Study Marketing Management in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
   "keywords": "Study Marketing Management in Canada, Marketing Management in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
-  "introTitle": "Marketing Management for Indian Students in Canada",
+  "introTitle": "Marketing Management in Canada for Indian Students",
   "heroParas": [
-    "Understanding consumers, spotting market opportunities, creating brands, advertising goods and services, and creating plans that support businesses in achieving their goals are all key components of marketing management."
+    "Pursue an accredited degree in Marketing Management in Canada, mastering brand development, digital consumer behavior, marketing analytics, and corporate communications. International students develop strategic commercial acumen and explore Post-Graduation Work Permit (PGWP) pathways, subject to program duration and official IRCC eligibility criteria."
   ],
   "overview": [
     "Understanding consumers, spotting market opportunities, creating brands, advertising goods and services, and creating plans that support businesses in achieving their goals are all key components of marketing management.",

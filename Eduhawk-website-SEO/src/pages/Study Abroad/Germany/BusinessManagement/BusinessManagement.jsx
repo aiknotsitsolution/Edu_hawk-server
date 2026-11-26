@@ -20,9 +20,9 @@ const page = {
   title: "Business Management in Germany for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to Master's in Business Management in Germany: Top business schools, English-taught M.Sc. programs, eligibility, tuition-free public universities, costs, and career opportunities.",
   keywords: "Master's in Business Management in Germany for Indian Students, Postgraduate Business Management Courses in Germany, Best Universities for Business Management in Germany, MBA and MSc Business Management Programmes in Germany, Business Management Specialisations in Germany, Eligibility Requirements for Master's in Business Management in Germany, Admission Requirements for Business Management in Germany, English-Taught Business Management Courses in Germany, IELTS and TOEFL Requirements for Business Management in Germany, Business Management Tuition Fees in Germany, Cost of Living for Master's Students in Germany, German Student Visa Requirements for Business Management Students",
-  introTitle: "Why Study Business Management in Germany?",
-  heroParas: [
-    "Germany is a premier destination for students seeking a postgraduate degree in Business Management, combining world-class academic standards and tuition-free public education with deep exposure to Europe's largest industrial and commercial market."
+  "introTitle": "Business Management in Germany for Indian Students",
+  "heroParas": [
+    "Study Business Management in Germany, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and explore the 18-month post-study job seeker visa, subject to German immigration directives."
   ],
   overview: [
     "Postgraduate Business Management education in Germany bridges advanced theoretical principles with hands-on corporate application, equipping future business leaders with cross-cultural leadership, strategic foresight, and analytical acumen.",

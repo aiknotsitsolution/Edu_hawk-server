@@ -5,8 +5,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Indian students pursuing a Bachelor of Business Administration (BBA) in Australia",
-    "subtitle": "A foundational understanding of company operations, management, marketing, finance, leadership, and entrepreneurship is the goal of the Bachelor of Business Administration (BBA), an undergraduate degree.",
+    "title": "BBA in Australia for Indian Students",
+    "subtitle": "Pursue an accredited Bachelor of Business Administration (BBA) in Australia, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/australia/bba_La_Trobe_University-image4.png"
   },
@@ -166,7 +166,8 @@
             "Universities have different course titles and subject combinations. Before applying, students should go over the official course outline."
           ]
         }
-      ]
+      ],
+      "lead": "Australian business faculties deliver world-class undergraduate management education, combining theoretical rigor with real-world case studies, corporate internships, and global career opportunities."
     },
     {
       "slot": "universities",

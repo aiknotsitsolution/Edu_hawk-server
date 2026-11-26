@@ -22,7 +22,6 @@ import {
   Phone,
   MessageCircle,
   FileText,
-  Sparkles,
   ChevronDown,
   ShieldCheck,
   BookOpen,
@@ -207,7 +206,7 @@ export default function About() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-3xl mx-auto mb-14">
               <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200/80">
-                <Sparkles size={14} className="text-amber-600" />
+                
                 {welcome.tag || "WELCOME TO EDU-HAWK WORLDWIDE"}
               </span>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">
@@ -379,7 +378,7 @@ export default function About() {
 
           <div className="relative z-10 max-w-4xl mx-auto">
             <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 text-xs font-bold uppercase tracking-wider mb-4">
-              <Sparkles size={14} className="text-amber-400" />
+              
               {finalCta.tag || "ADMISSIONS OPEN"}
             </span>
 

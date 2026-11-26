@@ -5,8 +5,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Indian students studying in Australia for a Bachelor of Business Studies (BBS)",
-    "subtitle": "A foundational understanding of management, marketing, finance, accounting, business operations, and organizational strategy is the goal of the Bachelor of Business Studies (BBS), an undergraduate-level business degree.",
+    "title": "BBS in Australia for Indian Students",
+    "subtitle": "Earn a comprehensive Bachelor of Business Studies (BBS) in Australia, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/australia/bbs_La_Trobe_University-image3.png"
   },
@@ -134,7 +134,8 @@
             "Although employment results rely on individual skills, practical experience, specialization, and labor market conditions, a business degree can enable a variety of professional routes."
           ]
         }
-      ]
+      ],
+      "lead": "Studying a Bachelor of Business Studies in Australia offers an interdisciplinary curriculum connecting foundational commercial theories with modern industry practice and global business applications."
     },
     {
       "slot": "universities",

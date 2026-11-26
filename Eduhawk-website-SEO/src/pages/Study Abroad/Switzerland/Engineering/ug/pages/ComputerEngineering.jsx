@@ -20,13 +20,13 @@ const page = {
   keywords: "Study Undergraduate Computer Engineering in Switzerland in Switzerland, Undergraduate Computer Engineering in Switzerland in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland Undergraduate Computer Engineering in Switzerland Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
   introTitle: "Bachelor\u2019s in Computer Engineering in Switzerland for Indian Students",
   heroParas: [
-    "**Bachelor\u2019s in Computer Engineering in Switzerland for Indian Students** provides Indian students with the opportunity to gain technical skills in computer systems, software development, digital electronics, embedded systems, computer networks and hardware-software integration. Swiss universities and universities of applied sciences are famous for their technical education, research facilities and practical learning approaches."
-],
+    "Pursue elite Computer Systems and Microelectronics engineering in Switzerland at continental Europe's top-ranked technical universities, benefiting from precision microengineering laboratories and affordable public semester fees."
+  ],
   overview: [
-    "The exact title of the degree can vary in Switzerland. Other related programs are Computer Science Engineering, Computer Science, Electrical and Information Engineering, and Information Technology. Students should check the curriculum carefully to ensure it contains their desired combination of hardware and software topics.",
-    "Please note for Indian applicants: many Swiss bachelor\u2019s degrees are taught in German, French or Italian, not English. Admission is also based on the applicant\u2019s school-leaving qualification, subject background, language proficiency and institution-specific requirements.",
-    "For Indian students exploring international technical education options, **Bachelor\u2019s in Computer Engineering in Switzerland for Indian Students** is an opportunity to consider with guidance from **Edu-Hawk Worldwide**."
-],
+    "Switzerland is globally celebrated for precision microtechnology, semiconductor research, and advanced robotic engineering, home to world-renowned research centers and multinational hardware corporations. Studying undergraduate Computer Engineering in Switzerland provides Indian students with unparalleled technical rigor and exposure to state-of-the-art microelectronic design facilities.",
+    "Swiss federal institutes and cantonal universities offer rigorous Bachelor of Science programs (3 years, 180 ECTS) in Electrical and Computer Engineering and Computer Systems. Academic coursework covers analog and digital electronics, microprocessor architecture, VLSI fundamentals, embedded systems, and signal processing, with remarkably low public tuition fees (CHF 500 to CHF 1,220 per semester) and access to cutting-edge research laboratories.",
+    "Graduates of Swiss undergraduate engineering programs are among the most respected technical professionals in Europe, frequently progressing to prestigious Master of Science research programs or securing engineering roles in precision automation, medical technology, and semiconductor design. Non-EU graduates can apply for a 6-month residence permit under Article 21(3) FNIA / AIG to seek employment of high economic or scientific interest."
+  ],
   level: "B.Sc. in Computer Engineering",
   crumb: "Engineering / UG Computer",
   stats: [
@@ -115,13 +115,13 @@ const page = {
                         "Availability of each specialization will vary by university and level of study. Some subjects are taught as single modules or at master\u2019s level rather than as separate bachelor\u2019s degrees.",
                         "There are several **Computer Engineering Universities in Switzerland** that offer computer engineering or related bachelor\u2019s degrees. Their degrees have different titles, admission requirements and languages of instruction.",
                         "Students comparing **Computer Engineering Universities in Switzerland** should review the official course structure, teaching language and eligibility requirements of each institution.",
-                        "**1\\. ETH Z\u00fcrich**",
+                        "**1. ETH Z\u00fcrich**",
                         "Offers a Bachelor\u2019s in Computer Science, with courses in programming, algorithms, computer architecture, digital circuits, networks and operating systems. The course normally takes three years and instruction is primarily in German.",
                         "Official website: BSc in Computer Science![][image1]",
-                        "**2\\. Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL)**",
+                        "**2. Ecole Polytechnique F\u00e9d\u00e9rale de Lausanne (EPFL)**",
                         "A premier technical institute offering education in computer science and allied engineering. Bachelor\u2019s programs are predominantly taught in French and applicants are required to meet specific academic and language requirements.",
                         "Official website: Bachelor admission requirements![][image2]",
-                        "**3\\. SUPSI**",
+                        "**3. SUPSI**",
                         "Offers B. Sc. in Computer Science Engineering with focus on software systems, ICT infrastructure and artificial intelligence. The full-time course is in Italian and lasts at least three years. The semester fee published is from CHF 1,000.",
                         "Official Website: Degree in Computer Science Engineering![][image3]",
                         "Note: These are options that matter, not a guarantee of admission. Please review the language of instruction, eligibility for international students and compatibility with your choice of computer engineering specialization before applying.",
@@ -383,7 +383,7 @@ const page = {
                         "Results of entrance examination, if needed",
                         "Certified translations (if applicable)",
                         "CV or motivational statement (if applicable)",
-                        "Application form \\+ payment confirmation",
+                        "Application form + payment confirmation",
                         "Financial proof Accommodation details Visa papers at the relevant stage",
                         "The university might request additional documents or documents in a particular format. Always use its official checklist.",
                         "Students should review **Computer Engineering Requirements in Switzerland** before applying to ensure that their academic qualifications and documents meet the selected institution's criteria.",

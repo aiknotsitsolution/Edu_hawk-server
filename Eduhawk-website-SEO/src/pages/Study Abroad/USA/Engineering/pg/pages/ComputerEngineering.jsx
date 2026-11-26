@@ -26,8 +26,12 @@ const branch = {
       cutting-edge technological innovations.
     </>
   ),
-  heroSub:
-    "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+  heroSub: "Advance into cutting-edge VLSI design, neuromorphic computing, and hardware acceleration for AI with an MS in Computer Engineering in the United States, accessing world-leading semiconductor labs and 3-year STEM OPT work authorization.",
+  overview: [
+    "Postgraduate Computer Engineering in the United States prepares advanced engineering scholars to spearhead innovation across the global semiconductor, hardware acceleration, and autonomous systems industries. Graduate programs combine rigorous theoretical computer architecture with experiential research in advanced microelectronic prototyping, System-on-Chip (SoC) development, and hardware-software co-design.",
+    "U.S. universities offer 1.5- to 2-year Master of Science (MS) and Master of Engineering (MEng) degrees with specialized research tracks in VLSI Circuit Design, Cryptographic Hardware Security, Embedded Machine Learning Accelerators, Heterogeneous Multicore Architectures, and Quantum Hardware Interfaces. Students conduct funded research in state-of-the-art cleanrooms and CAD laboratories (Cadence, Synopsys), completing master's theses or industry-sponsored capstone practicums with leading hardware enterprises.",
+    "Graduates of U.S. master's in computer engineering degrees secure high-impact roles as Silicon Architecture Engineers, ASIC/FPGA Design Specialists, Physical Verification Engineers, and Embedded Systems Research Scientists across Silicon Valley, Austin, and Boston. F-1 visa graduates of qualifying STEM-designated master's degree programs can access up to 36 months of Optional Practical Training (12 months post-completion OPT plus a 24-month STEM OPT extension), working with E-Verify employers under approved Form I-983 mentorship."
+  ],
 
   whyLead: [<strong>Principal advantages encompass:</strong>],
   whyPoints: [
@@ -38,9 +42,7 @@ const branch = {
     "Familiarity with semiconductor technology and high-performance computing systems.",
     "Career pathways within technology, electronics, computing, and research sectors.",
   ],
-  whyNote: [
-    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
-  ],
+  whyNote: [],
 
   coursesLead: [
     <>Indian students may select <strong>master's degree programs in Computer Engineering</strong> aligned with their academic preparation and professional aspirations.</>,

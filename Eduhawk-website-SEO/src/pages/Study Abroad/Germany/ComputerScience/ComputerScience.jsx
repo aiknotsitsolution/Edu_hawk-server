@@ -22,19 +22,14 @@ const page = {
   description: "Complete guide to Computer Science in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
   keywords: "Study Computer Science in Germany for Indian Students, Postgraduate Computer Science in Germany, Best German Universities for Computer Science, Computer Science MSc Programs in Germany, Computer Science Specializations in German, Master’s in Computer Science in Germany: Eligibility Criteria, Requirements to Study Computer Science in Germany, Computer Science Courses in Germany – taught in English, Computer Science in Germany IELTS and TOEFL Requirements, Germany Computer Science Fee Structure, Cost of Living for Masters Students in Germany, Conditions for German Student Visa for Computer Science Students",
   introTitle: "Why Study Computer Science in Germany?",
-  heroParas: [
-    "Germany is a global technological powerhouse and Europe's premier innovation hub, offering world-ranked Bachelor's and Master's degrees in Computer Science, Artificial Intelligence, and Software Engineering with tuition-free public university options, state-of-the-art research centers, and an 18-month post-study work visa."
-  ],
-  overview: [
-    "Graduate and undergraduate studies in **Computer Science (Informatik)** attract thousands of ambitious international students to Germany each year. The country stands at the forefront of global technological innovation, providing unmatched careers in **software engineering, artificial intelligence, cybersecurity, autonomous robotics, and data science** backed by world-class technical universities and a trillion-dollar industrial tech sector.",
-    "The primary advantages of studying Computer Science in Germany include:",
-    "* **World-Class Technical Education:** German universities provide mathematically rigorous computer science curricula combining fundamental algorithms with advanced software engineering paradigms.",
-    "* **Cutting-Edge Research Centers:** Direct collaboration with world-renowned research institutes including the Max Planck Institute for Informatics, Fraunhofer Society, DFKI (German Research Center for Artificial Intelligence), and CISPA.",
-    "* **Tuition-Free Public Higher Education:** Public universities across 15 of Germany's 16 federal states charge **€0 tuition fee** for all students regardless of nationality.",
-    "* **Booming Tech Industry & Ecosystem:** Germany is home to global software leaders (SAP, Software AG), automotive giants investing billions in autonomous driving (BMW, Mercedes-Benz, Volkswagen), industrial automation leaders (Siemens, Bosch), and vibrant startup hubs in Berlin and Munich.",
-    "* **Exceptional Post-Study Career Mobility:** International graduates are entitled to an 18-month post-study work visa, high starting salaries, and rapid pathways to the EU Blue Card and German Permanent Residence.",
-    "**Edu Hawk Worldwide Consultancy** assists international students in evaluating university prerequisites, building competitive technical dossiers, obtaining mandatory APS certification, and navigating the entire German admissions journey."
-  ],
+  "heroParas": [
+    "Unlock world-class engineering and computing education across Germany's elite TU9 technical universities with tuition-free public degree options. Indian students gain practical industry immersion in Europe's strongest industrial economy and access an 18-month post-study job seeker visa."
+],
+  "overview": [
+    "Germany is an international powerhouse for engineering and technology education, offering Indian students exceptional Computer Science (Informatik) programs that integrate mathematical rigor with practical industrial innovation. German universities are globally recognized for excellence in software systems, embedded architectures, industrial robotics, and artificial intelligence.",
+    "Public universities and TU9 institutes of technology across Germany deliver premier English-taught Bachelor's and Master's degree programs with zero tuition fees (charging only a nominal semester administrative fee of €150–€350). Students collaborate with global industry leaders like SAP, Siemens, BMW, and Bosch on cutting-edge research, hands-on laboratory courses, and paid master's thesis projects.",
+    "International graduates in Germany benefit from highly favorable immigration and career pathways. Under German immigration law, non-EU graduates can extend their residence permit for up to 18 months to seek qualified employment (Jobseeker Visa), followed by seamless transition to an EU Blue Card and expedited settlement opportunities."
+],
   level: "B.Sc. & M.Sc. in Computer Science / Informatics",
   crumb: "Informatics / Computer Science",
   stats: [

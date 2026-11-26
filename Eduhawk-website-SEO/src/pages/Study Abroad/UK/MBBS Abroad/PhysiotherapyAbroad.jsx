@@ -23,7 +23,7 @@ const page = {
   "keywords": "Study Physiotherapy in the UK, Physiotherapy in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Physiotherapy in the United Kingdom",
   "heroParas": [
-    "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help students understand human movement , physical function, injury healing, and the management of long-term health conditions, UK universities mix academic instruction with hands-on training."
+    "Earn an accredited Physiotherapy degree in the UK, combining comprehensive academic coursework with over 1,000 hours of clinical practice across NHS teaching hospitals. Indian students prepare for professional registration with the Health and Care Professions Council (HCPC) and the Chartered Society of Physiotherapy (CSP)."
   ],
   "overview": [
     "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
@@ -57,7 +57,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Students who wish to pursue careers in physiotherapy , rehabilitation, sports medicine , and patient care frequently choose the United Kingdom. In order to help students understand human movement , physical function, injury healing, and the management of long-term health conditions, UK universities mix academic instruction with hands-on training."
+            "Earn an accredited Physiotherapy degree in the UK, combining comprehensive academic coursework with over 1,000 hours of clinical practice across NHS teaching hospitals. Indian students prepare for professional registration with the Health and Care Professions Council (HCPC) and the Chartered Society of Physiotherapy (CSP)."
           ]
         },
         {

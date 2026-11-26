@@ -12,7 +12,6 @@ import {
   ArrowRight,
   Phone,
   MessageCircle,
-  Sparkles,
   Building2,
   BookOpen,
   Stethoscope,
@@ -463,7 +462,7 @@ const MbbsAbroad = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
             <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200/80">
-              <Sparkles size={14} className="text-amber-600" />
+              
               Academic Pathways
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">
@@ -725,7 +724,7 @@ const MbbsAbroad = () => {
               <div className="absolute -top-16 -right-16 w-44 h-44 bg-[#d4a853]/20 rounded-full blur-2xl pointer-events-none" />
 
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#d4a853]/20 text-[#f0c070] text-xs font-bold uppercase tracking-wider mb-4 border border-[#d4a853]/30">
-                <Sparkles size={13} />
+                
                 Instant Eligibility Check
               </span>
 
@@ -894,7 +893,7 @@ const MbbsAbroad = () => {
 
             <div className="relative z-10 max-w-3xl mx-auto">
               <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#d4a853]/20 text-[#f0c070] text-xs font-bold uppercase tracking-wider mb-4 border border-[#d4a853]/30">
-                <Sparkles size={13} />
+                
                 Get Started Today
               </span>
 

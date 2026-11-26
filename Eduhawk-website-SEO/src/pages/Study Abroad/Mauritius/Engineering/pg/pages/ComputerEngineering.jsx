@@ -159,14 +159,14 @@ const page = {
           "name": "University of Mauritius (UoM)",
           "location": "University of Mauritius (UoM)",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
-          "desc": "Official website: [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in Artificial Intelligence and Software Project Management. These may interest students pursuing advanced computing careers, but neither should be treated as a dedicated Computer Engineering qualification.",
+          "desc": "Official website: [https://www.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in Artificial Intelligence and Software Project Management. These may interest students pursuing advanced computing careers, but neither should be treated as a dedicated Computer Engineering qualification.",
           "img": uniImg1
         },
         {
           "name": "Open University of Mauritius",
           "location": "Open University of Mauritius",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
-          "desc": "Official website: [https\\://open.ac.mu](https://open.ac.mu) The Open University of Mauritius offers an MSc in Applied Computing and Digital Technologies, a related option for students seeking advanced IT knowledge. The curriculum includes cloud computing, wireless sensors and embedded systems, machine learning, mobile application development, cybersecurity and a dissertation project. The published duration is two to four years. The published fee for international students from non-SADC countries is US$5,620fortheprogramme.AtanillustrativeexchangerateofUS$1 \u2248 \u20b988, this is approximately \u20b94.95 lakh. Confirm the current fee, eligibility and intake directly with the university before applying. Students considering a **Master\u2019s in Computer Engineering in Mauritius for Indian Students** should also confirm whether this programme suits their intended specialisation.",
+          "desc": "Official website: [https://open.ac.mu](https://open.ac.mu) The Open University of Mauritius offers an MSc in Applied Computing and Digital Technologies, a related option for students seeking advanced IT knowledge. The curriculum includes cloud computing, wireless sensors and embedded systems, machine learning, mobile application development, cybersecurity and a dissertation project. The published duration is two to four years. The published fee for international students from non-SADC countries is US$5,620fortheprogramme.AtanillustrativeexchangerateofUS$1 \u2248 \u20b988, this is approximately \u20b94.95 lakh. Confirm the current fee, eligibility and intake directly with the university before applying. Students considering a **Master\u2019s in Computer Engineering in Mauritius for Indian Students** should also confirm whether this programme suits their intended specialisation.",
           "img": uniImg2
         }
       ],
@@ -175,14 +175,14 @@ const page = {
           "name": "University of Mauritius (UoM)",
           "location": "University of Mauritius (UoM)",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
-          "desc": "Official website: [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in Artificial Intelligence and Software Project Management. These may interest students pursuing advanced computing careers, but neither should be treated as a dedicated Computer Engineering qualification.",
+          "desc": "Official website: [https://www.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in Artificial Intelligence and Software Project Management. These may interest students pursuing advanced computing careers, but neither should be treated as a dedicated Computer Engineering qualification.",
           "img": uniImg1
         },
         {
           "name": "Open University of Mauritius",
           "location": "Open University of Mauritius",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
-          "desc": "Official website: [https\\://open.ac.mu](https://open.ac.mu) The Open University of Mauritius offers an MSc in Applied Computing and Digital Technologies, a related option for students seeking advanced IT knowledge. The curriculum includes cloud computing, wireless sensors and embedded systems, machine learning, mobile application development, cybersecurity and a dissertation project. The published duration is two to four years. The published fee for international students from non-SADC countries is US$5,620fortheprogramme.AtanillustrativeexchangerateofUS$1 \u2248 \u20b988, this is approximately \u20b94.95 lakh. Confirm the current fee, eligibility and intake directly with the university before applying. Students considering a **Master\u2019s in Computer Engineering in Mauritius for Indian Students** should also confirm whether this programme suits their intended specialisation.",
+          "desc": "Official website: [https://open.ac.mu](https://open.ac.mu) The Open University of Mauritius offers an MSc in Applied Computing and Digital Technologies, a related option for students seeking advanced IT knowledge. The curriculum includes cloud computing, wireless sensors and embedded systems, machine learning, mobile application development, cybersecurity and a dissertation project. The published duration is two to four years. The published fee for international students from non-SADC countries is US$5,620fortheprogramme.AtanillustrativeexchangerateofUS$1 \u2248 \u20b988, this is approximately \u20b94.95 lakh. Confirm the current fee, eligibility and intake directly with the university before applying. Students considering a **Master\u2019s in Computer Engineering in Mauritius for Indian Students** should also confirm whether this programme suits their intended specialisation.",
           "img": uniImg2
         }
       ],
@@ -330,7 +330,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Tuition is additional. For a relevant alternative, the Open University of Mauritius publishes a total programme fee of US\\$5,620 for its MSc in Applied Computing and Digital Technologies for international students from non-SADC countries. This is approximately \u20b94.95 lakh at the illustrative exchange rate above, so the indicative two-year total including tuition and living expenses would be around \u20b911.79\u2013\u20b916.35 lakh, excluding flights, insurance, visa-related expenses and other one-time charges. Confirm current fees and the exchange rate before budgeting.",
+            "Tuition is additional. For a relevant alternative, the Open University of Mauritius publishes a total programme fee of US$5,620 for its MSc in Applied Computing and Digital Technologies for international students from non-SADC countries. This is approximately \u20b94.95 lakh at the illustrative exchange rate above, so the indicative two-year total including tuition and living expenses would be around \u20b911.79\u2013\u20b916.35 lakh, excluding flights, insurance, visa-related expenses and other one-time charges. Confirm current fees and the exchange rate before budgeting.",
             "For official University of Mauritius tuition information, consult its [2026\u20132027 fees page](https://www.uom.ac.mu/index.php/study-at-uom/current-students/information-on-fees)."
           ]
         }
@@ -474,14 +474,14 @@ const page = {
       "name": "University of Mauritius (UoM)",
       "location": "University of Mauritius (UoM)",
       "fee": "MUR 160,000 \u2013 350,000 / Year",
-      "desc": "Official website: [https\\://www\\.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in Artificial Intelligence and Software Project Management. These may interest students pursuing advanced computing careers, but neither should be treated as a dedicated Computer Engineering qualification.",
+      "desc": "Official website: [https://www.uom.ac.mu](https://www.uom.ac.mu) The University of Mauritius offers postgraduate programmes in Artificial Intelligence and Software Project Management. These may interest students pursuing advanced computing careers, but neither should be treated as a dedicated Computer Engineering qualification.",
       "img": uniImg1
     },
     {
       "name": "Open University of Mauritius",
       "location": "Open University of Mauritius",
       "fee": "MUR 160,000 \u2013 350,000 / Year",
-      "desc": "Official website: [https\\://open.ac.mu](https://open.ac.mu) The Open University of Mauritius offers an MSc in Applied Computing and Digital Technologies, a related option for students seeking advanced IT knowledge. The curriculum includes cloud computing, wireless sensors and embedded systems, machine learning, mobile application development, cybersecurity and a dissertation project. The published duration is two to four years. The published fee for international students from non-SADC countries is US$5,620fortheprogramme.AtanillustrativeexchangerateofUS$1 \u2248 \u20b988, this is approximately \u20b94.95 lakh. Confirm the current fee, eligibility and intake directly with the university before applying. Students considering a **Master\u2019s in Computer Engineering in Mauritius for Indian Students** should also confirm whether this programme suits their intended specialisation.",
+      "desc": "Official website: [https://open.ac.mu](https://open.ac.mu) The Open University of Mauritius offers an MSc in Applied Computing and Digital Technologies, a related option for students seeking advanced IT knowledge. The curriculum includes cloud computing, wireless sensors and embedded systems, machine learning, mobile application development, cybersecurity and a dissertation project. The published duration is two to four years. The published fee for international students from non-SADC countries is US$5,620fortheprogramme.AtanillustrativeexchangerateofUS$1 \u2248 \u20b988, this is approximately \u20b94.95 lakh. Confirm the current fee, eligibility and intake directly with the university before applying. Students considering a **Master\u2019s in Computer Engineering in Mauritius for Indian Students** should also confirm whether this programme suits their intended specialisation.",
       "img": uniImg2
     }
   ],

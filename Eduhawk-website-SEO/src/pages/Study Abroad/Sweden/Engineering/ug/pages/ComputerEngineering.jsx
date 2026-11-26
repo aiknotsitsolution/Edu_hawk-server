@@ -117,7 +117,7 @@ const page = {
             "Digital electronics refers to the logic circuits, digital systems and electronic components used in computers and embedded devices.",
             "Students learn about the relationship between hardware and software, including processes, memory management, system resources, and computer-system design.",
             "The subjects learn how computers and devices communicate information. Students can learn about network protocols, communication technologies, wireless systems and network security.",
-            "Embedded systems are hardware \\+ software used to control devices such as sensors, industrial equipment, or smart products. There are courses that give you the chance to explore robotics and automation.",
+            "Embedded systems are hardware + software used to control devices such as sensors, industrial equipment, or smart products. There are courses that give you the chance to explore robotics and automation.",
             "Students can study the basics of AI, data analysis, machine learning, intelligent computing systems depending on the program and elective options.",
             "Computer security courses cover the protection of computer systems, networks and digital information from vulnerabilities and unauthorized access."
           ]
@@ -251,12 +251,12 @@ const page = {
             ],
             [
               "Cost of living year to year",
-              "SEK 108,000 \\- 156,000",
+              "SEK 108,000 - 156,000",
               "\u20b9 10.38 \u2013 15 lac"
             ],
             [
               "Estimated total first year",
-              "SEK 208 000 \\- 326 000",
+              "SEK 208 000 - 326 000",
               "\u20b919.99 \u2013 \u20b931.33 Lakh"
             ]
           ]
@@ -264,7 +264,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Conversion at indicative rate of 1 SEK \\= \u20b99.61. Actual exchange rates and university fees may differ. These are not guarantyd fees for KTH or any other specific program.",
+            "Conversion at indicative rate of 1 SEK = \u20b99.61. Actual exchange rates and university fees may differ. These are not guarantyd fees for KTH or any other specific program.",
             "Students should also budget for accommodation deposits, food, public transport, books, software, travel, application fees and residence-permit fees if applicable.",
             "For the most accurate budget, please refer to your chosen university\u2019s official tuition fee information, and the latest Swedish residence permit financial requirements."
           ]

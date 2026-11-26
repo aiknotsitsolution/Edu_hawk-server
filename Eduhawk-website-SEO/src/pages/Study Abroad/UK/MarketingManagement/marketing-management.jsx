@@ -18,9 +18,9 @@ const page = {
   "title": "Study Marketing Management in the UK for Indian Students | Edu-Hawk Worldwide",
   "description": "Complete guide to Marketing Management in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
   "keywords": "Study Marketing Management in the UK, Marketing Management in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
-  "introTitle": "Marketing Management UK for Indian Students",
+  "introTitle": "Marketing Management in the UK for Indian Students",
   "heroParas": [
-    "The United Kingdom is a popular destination for international students who are interested in studying business, marketing, advertising and management. Universities in the UK offer industry specific courses that help students to gain an understanding of consumer behavior, brand development, digital marketing, market research and business strategies."
+    "Pursue a career-accelerating degree in Marketing Management in the UK, mastering brand management, digital marketing analytics, consumer psychology, and international advertising strategy. International students gain world-class marketing credentials and explore 2-year Graduate Route post-study work visa opportunities, subject to UK Home Office criteria."
   ],
   "overview": [
     "Students can study various aspects of marketing like digital marketing, social media marketing, international marketing, strategic marketing and brand management.",

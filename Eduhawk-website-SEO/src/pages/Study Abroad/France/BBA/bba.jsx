@@ -20,9 +20,9 @@ const page = {
   title: "Study BBA in France for Indian Students | EduHawk",
   description: "Complete guide to Bachelor of Business Administration (BBA) in France for Indian students after 12th: Top French business schools (ESSEC, EDHEC, SKEMA), English-taught programs, tuition fees, eligibility, and career prospects.",
   keywords: "Study BBA in France, BBA in France for Indian Students, Bachelor of Business Administration in France, BBA Courses in France, Top Business Schools in France for BBA, Best Universities for BBA in France, BBA Eligibility in France, BBA Admission Requirements in France, BBA in France After Class 12, French-Taught BBA Programmes in France, English-Taught BBA Programmes in France, BBA Tuition Fees in France, Cost of Studying BBA in France, BBA Scholarships in France, Career Opportunities After BBA in France",
-  introTitle: "BBA IN FRANCE",
-  heroParas: [
-    "A **Bachelor of Business Administration (BBA or Global BBA) in France** is an elite undergraduate business qualification engineered to build robust foundations in international commerce, finance, strategic marketing, business analytics, and venture entrepreneurship. Taught extensively in 100% English across top triple-accredited Grandes Écoles and public universities, French BBA programs integrate multinational study exchange semesters and mandatory corporate internships throughout Europe."
+  "introTitle": "BBA in France for Indian Students",
+  "heroParas": [
+    "Pursue an accredited Bachelor of Business Administration (BBA) in France, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and access post-study stay-back authorizations under French immigration policy."
   ],
   overview: [
     "France is one of the world's most sought-after hubs for international business education, boasting prestigious business schools consistently ranked at the pinnacle of European and Financial Times tables. Programs emphasize experiential, hands-on learning, corporate consulting projects, and global semester exchanges spanning Asia, North America, and Europe.",

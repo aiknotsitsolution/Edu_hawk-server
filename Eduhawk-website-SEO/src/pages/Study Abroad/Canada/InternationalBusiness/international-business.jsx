@@ -18,9 +18,9 @@ const page = {
   "title": "International Business in Canada for Indian Students | Edu-Hawk Worldwide",
   "description": "Study International Business in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
   "keywords": "Study International Business in Canada, International Business in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
-  "introTitle": "International Business for Indian Students in Canada",
+  "introTitle": "International Business in Canada for Indian Students",
   "heroParas": [
-    "The study of how businesses function internationally is known as International business. International trade, worldwide markets, cross-cultural management, international marketing, supply chains, corporate strategy, and the difficulties of international expansion are all examined."
+    "Pursue an accredited degree in International Business in Canada, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore Post-Graduation Work Permit (PGWP) pathways, subject to program duration and official IRCC eligibility criteria."
   ],
   "overview": [
     "The study of how businesses function internationally is known as International business. International trade, worldwide markets, cross-cultural management, international marketing, supply chains, corporate strategy, and the difficulties of international expansion are all examined.",

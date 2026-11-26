@@ -21,9 +21,9 @@ const page = {
   "title": "Study Business Management in the UK for Indian Students | Edu-Hawk Worldwide",
   "description": "Complete guide to Business Management in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
   "keywords": "Study Business Management in the UK, Business Management in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
-  "introTitle": "Study Business Management in the United Kingdom",
+  "introTitle": "Business Management in the UK for Indian Students",
   "heroParas": [
-    "International students can gain the leadership, strategic thinking, communication, and decision-making skills needed in today's global corporate climate by studying business management in the UK. Academic instruction is combined with real-world projects, case studies, presentations, and industry-focused instruction in UK universities."
+    "Study Business Management in the UK, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and explore 2-year Graduate Route post-study work visa opportunities, subject to UK Home Office criteria."
   ],
   "overview": [
     "Obtain a degree that is recognized by organizations and employers all over the world."

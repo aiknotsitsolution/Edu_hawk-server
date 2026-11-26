@@ -17,7 +17,7 @@ const page = {
   "keywords": "Study MBS in Spain, MBS in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "MBS in Spain for Indian Students",
   "heroParas": [
-    "A Master of Business Studies (MBS) in Spain for Indian Students could be an opportunity to gain in-depth knowledge of business administration, management principles, finance, marketing, organizational behavior and business strategy."
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Spain, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore post-study work search residence permits under Spanish immigration guidelines."
   ],
   "overview": [
     "A Master of Business Studies (MBS) in Spain for Indian Students could be an opportunity to gain in-depth knowledge of business administration, management principles, finance, marketing, organizational behavior and business strategy. Students can experience an international academic environment in Spain and learn about European business practices, global markets and professional skills for a range of industries. Students interested in Master of Business Studies in Spain for Indian Students can explore different postgraduate qualifications according to their academic backgrounds and career goals. Studying Master of Business Studies in Spain can also help students develop an understanding of international business practices and management approaches.",

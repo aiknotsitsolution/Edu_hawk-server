@@ -14,9 +14,9 @@ const page = {
   "title": "MBS in USA for Indian Students | 2026 | Edu Hawk Worldwide",
   "description": "Study Master of Business Studies (MBS) in the USA. Eligibility, English requirements, tuition fees, scholarships, top universities, career opportunities and visa process for Indian students.",
   "keywords": "Study MBS in USA for Indian Students, Master of Business Studies in USA, Best Universities for Business Studies in USA, MBS Admission Requirements in USA for International Students, MBS Course Duration in USA, MBS Tuition Fees in USA for Indian Students, Business Master's Scholarships for Indian Students in USA, Master of Science in Management in USA, MBA and MBS Differences for Indian Students, Eligibility for Business Master's Programs in USA, GMAT and GRE Requirements for Business Master's in USA, English Language Tests for US Universities, Career Opportunities After Business Studies in USA, USA Student Visa for Indian Business Students",
-  "introTitle": "MBS in the US",
+  "introTitle": "MBS in the USA for Indian Students",
   "heroParas": [
-    "Studying a Master of Business Studies (MBS) in the USA equips graduates with specialized managerial acumen, strategic analytics, and professional development tailored to high-growth corporate and entrepreneurial careers."
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in the USA, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore Optional Practical Training (OPT) employment opportunities, subject to US immigration regulations."
   ],
   "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."

@@ -18,9 +18,9 @@ const page = {
   title: "International Business in Finland for Indian Students | Edu-Hawk Worldwide",
   description: "Study International Business in Finland: English-taught Bachelor's & Master's programmes at Aalto, Oulu, Haaga-Helia, HAMK, UEF. Compare tuition fees, ECTS structure, admission, and global career pathways.",
   keywords: "International Business in Finland, International Business courses in Finland, Study International Business in Finland, International Business universities in Finland, International Business fees in Finland, International Business in Finland for international students",
-  introTitle: "International Business in Finland",
-  heroParas: [
-    "**International Business in Finland** is an attractive study option for students who want to build careers in global trade, business management, marketing, entrepreneurship, finance, and international strategy. Finnish universities and universities of applied sciences offer English-taught programmes that combine business fundamentals with practical projects, analytical thinking, and exposure to international business environments with **[International Business in Finland](/study-abroad/finland/international-business)**."
+  "introTitle": "International Business in Finland for Indian Students",
+  "heroParas": [
+    "Pursue an accredited degree in International Business in Finland, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore post-graduation residence permit options for employment under Finnish immigration regulations."
   ],
   overview: [
     "Students can choose from bachelor's programmes such as **International Business** and **International Business Management**, as well as master's programmes focused on international business, sales management, and strategic leadership. Depending on the institution, students may earn a Bachelor of Business Administration (BBA), a Bachelor and Master of Science in Economics and Business Administration, or a Master of Science in Economics and Business Administration.",

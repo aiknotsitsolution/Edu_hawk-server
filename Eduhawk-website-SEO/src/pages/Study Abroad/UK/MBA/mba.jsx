@@ -21,9 +21,9 @@ const page = {
   "title": "Study MBA in the UK for Indian Students | Edu-Hawk Worldwide",
   "description": "Complete guide to MBA in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
   "keywords": "Study MBA in the UK, MBA in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
-  "introTitle": "Study MBA in the United Kingdom",
+  "introTitle": "MBA in the UK for Indian Students",
   "heroParas": [
-    "Professionals and students can enhance their leadership, strategic thinking, financial decision-making, and business management skills by pursuing a Master of Business Administration (MBA) in the UK. Professionals looking for career growth, a shift in industry, or entrepreneurial opportunities can enrolll in MBA programs offered by UK business institutions."
+    "Earn an internationally accredited Master of Business Administration (MBA) in the UK, featuring intensive 1-year study options and world-class management faculties. International students develop strategic executive expertise and explore 2-year Graduate Route post-study work visa opportunities, subject to UK Home Office criteria."
   ],
   "overview": [
     "Obtain a business degree that is valued by companies in a variety of sectors and nations."

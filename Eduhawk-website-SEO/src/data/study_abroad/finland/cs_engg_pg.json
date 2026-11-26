@@ -5,8 +5,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Finland",
-    "title": "Master",
-    "subtitle": "Study **Master",
+    "title": "Master's in Computer Science & Engineering in Finland for Indian Students",
+    "subtitle": "Pursue an English-taught Master of Science in Computer Science and Engineering in Finland, mastering advanced hardware-software co-design, embedded machine learning, and autonomous systems with a 2-year post-study residence permit.",
     "ctaText": "Book Free Counselling",
     "image": ""
   },
@@ -35,7 +35,11 @@
     "eligibility": "Recognised academic qualification + English proficiency",
     "medium": "100% English Taught"
   },
-  "overview": "Studying Computer Science Engineering - PG in Finland offers Indian students access to world-renowned Nordic education, innovative practical research, English-taught programmes, and excellent European career pathways.",
+  "overview": [
+    "Postgraduate Computer Science and Engineering in Finland equips graduate students with advanced mastery across the complete computing stack, from complex computational algorithms and distributed cloud software down to silicon-level hardware accelerators and embedded systems. Finland's thriving high-tech ecosystem offers unparalleled research opportunities in wireless systems, embedded AI, and green computing.",
+    "Finnish research universities—including Aalto University, the University of Oulu, and Tampere University—deliver 2-year English-taught Master of Science in Technology (DI / MSc Tech, 120 ECTS) degrees. Specializations include Hardware-Software Co-Design, Embedded Machine Learning Accelerators, Edge Computing Architectures, Distributed Systems, and Intelligent Robotics, concluding with an extensive master's research thesis conducted in partnership with leading Nordic technology enterprises.",
+    "International CSE graduates in Finland benefit from critical industrial demand across telecommunications, software engineering, and smart industrial automation. Under Section 55 of the Finnish Aliens Act, international graduates can obtain an extended 2-year post-study residence permit for job seeking or entrepreneurship (usable in up to three parts within 5 years of graduation), provided baseline living funds (€560/month) and health insurance are maintained, facilitating smooth transition into permanent Nordic engineering roles."
+  ],
   "universities": [
     {
       "name": "Top University in Finland",

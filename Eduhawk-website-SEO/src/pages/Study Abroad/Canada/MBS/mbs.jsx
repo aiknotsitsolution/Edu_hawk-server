@@ -21,7 +21,7 @@ const page = {
   "keywords": "Study MBS in Canada, MBS in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "MBS in Canada for Indian Students",
   "heroParas": [
-    "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields."
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Canada, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore Post-Graduation Work Permit (PGWP) pathways, subject to program duration and official IRCC eligibility criteria."
   ],
   "overview": [
     "In educational systems that provide this degree title, a Master of Business Studies (MBS) is a postgraduate business qualification. It might concentrate on marketing, finance, organizational strategy, management, business administration, or other related business fields.",

@@ -20,9 +20,9 @@ const page = {
   title: "Study Marketing Management in France for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to Marketing Management in France for Indian students: Top French business schools (HEC Paris, ESSEC, ESCP), degrees (BBA, MSc, MiM), tuition fees (€255 – €3,950 public vs €14k-€28k Grandes Écoles), luxury brand specializations, and 2-year post-study work visa.",
   keywords: "Study Marketing Management in France, Marketing Management in France for Indian Students, Marketing Management Courses in France, Bachelor's Degree in Marketing Management in France, Master's in Marketing Management in France, Best Universities for Marketing Management in France, Top Business Schools for Marketing in France, Marketing Management Eligibility Requirements in France, Marketing Management Admission Requirements in France, Cost of Studying Marketing Management in France, Marketing Management Tuition Fees in France, Marketing Management Scholarships in France for Indian Students, Digital Marketing Courses in France, Luxury Brand Management France",
-  introTitle: "MARKETING MANAGEMENT IN FRANCE",
-  heroParas: [
-    "Studying Marketing Management in France opens elite global pathways for Indian students in luxury brand strategy, digital consumer analytics, omnichannel marketing, and international advertising across top-tier triple-accredited (AACSB, EQUIS, AMBA) business schools and prestigious public universities."
+  "introTitle": "Marketing Management in France for Indian Students",
+  "heroParas": [
+    "Master global marketing management in France at prestigious Grandes Écoles renowned worldwide for luxury brand strategy, consumer engagement, and creative marketing innovation. International students cultivate executive marketing vision and access post-study stay-back opportunities under French immigration policy."
   ],
   overview: [
     "Studying Marketing Management in France is an exceptional choice for Indian students aiming for leadership careers in brand management, digital marketing, advertising, market research, and international business. French universities and Grandes Écoles blend deep strategic marketing theory with practical commercial frameworks, big-data consumer insights, and disruptive digital strategies.",

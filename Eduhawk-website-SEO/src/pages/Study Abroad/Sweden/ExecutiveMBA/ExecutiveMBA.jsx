@@ -22,7 +22,7 @@ const page = {
   "keywords": "Study Executive MBA in Sweden, Executive MBA in Sweden for Indian Students, Best Universities in Sweden, Sweden Executive MBA Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide",
   "introTitle": "Executive MBA in Sweden for Indian Students",
   "heroParas": [
-    "An **Executive Master of Business Administration (Executive MBA or EMBA) in Sweden** is designed for experienced professionals, managers, entrepreneurs, and business leaders who want to strengthen their leadership abilities, strategic thinking, and business decision-making skills while continuing their careers."
+    "Master executive leadership with an Executive MBA in Sweden, integrating sustainable corporate governance, Scandinavian organizational culture, and digital business innovation. Senior professionals develop strategic competencies in a world-leading Nordic knowledge economy."
   ],
   "overview": [
     "Swedish business schools offer executive education programmes covering **general management, corporate finance, innovation, organisational leadership, and international business**. Many programmes follow a part-time format, allowing participants to balance professional responsibilities with postgraduate education.",

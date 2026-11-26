@@ -241,7 +241,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "These are estimates for planning purposes and not firm fees. For the 2026 intake, the Catholic University of Valencia lists its Dentistry degree at €12,780, and UIC Barcelona lists first-year tuition for 2026–27 at €18,600, by reference.",
+            "These are estimates for planning purposes and not firm fees. For the 2026 intake, the Catholic University of Valencia lists its Dentistry degree at €12,780, and UIC Barcelona lists first-year tuition at €18,600, by reference.",
             "INR conversions are at illustrative rate of €1 &asymp; &#8377;108.60. University fees & real exchange rates may differ.",
             "Students should also budget separately for accommodation, food, transport, health insurance, visa formalities, dental instruments and other course related expenses. Ask the university for a full breakdown of fees before you accept an offer.",
             "Scholarships and financial aid might be available, but eligibility and funding vary widely from one institution to another and from one individual to another."

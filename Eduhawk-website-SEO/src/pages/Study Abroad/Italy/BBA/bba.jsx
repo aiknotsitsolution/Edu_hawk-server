@@ -19,8 +19,8 @@ const page = {
   "description": "Study BBA in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "BBA in Italy, Study BBA in Italy for Indian Students, Bachelor of Business Administration in Italy, Best BBA Universities in Italy, Cost of BBA in Italy",
   "introTitle": "BBA in Italy for Indian Students",
-  heroParas: [
-    "Studying a BBA in Italy provides international students with premier European business education, global commerce foundations, and direct corporate exposure across Europe's fourth-largest economy."
+  "heroParas": [
+    "Pursue an accredited Bachelor of Business Administration (BBA) in Italy, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore post-study residence permit opportunities for work search under Italian immigration regulations."
   ],
   overview: [
     "Yeah. Indian students can apply for eligible undergraduate business and management programs after Class 12, as long as they meet the university's academic, language and other admission criteria."

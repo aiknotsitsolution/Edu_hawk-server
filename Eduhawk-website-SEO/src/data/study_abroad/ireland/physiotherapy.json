@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Physiotherapy Ireland - Learn about Physiotherapy in Ireland",
-    "subtitle": "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training."
+    "subtitle": "Study Physiotherapy in Ireland at internationally ranked universities offering extensive hospital-based clinical internships and musculoskeletal training. Indian students prepare for registration with CORU and rewarding global rehabilitation careers."
   },
   "overview": [
     "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training.",
@@ -36,9 +36,9 @@
   ],
   "sections": [
     {
-      "slot": "why-study",
+      "slot": "why",
       "eyebrow": "Why Ireland",
-      "title": "Why study physiotherapy in Ireland?",
+      "title": "Key Advantages of Studying Physiotherapy in Ireland",
       "lead": "Ireland is a popular study destination for students interested in rehabilitation, movement science, injury rehabilitation and patient care. Study Physiotherapy programs offer classroom teaching, supervised clinical placements and hands-on training.",
       "groups": [
         {
@@ -70,9 +70,9 @@
       ]
     },
     {
-      "slot": "programs",
+      "slot": "courses",
       "eyebrow": "Academic Pathways",
-      "title": "Physiotherapy courses in Ireland",
+      "title": "Physiotherapy Degree Programs & Specializations in Ireland",
       "lead": "Physiotherapy degrees are offered by Irish universities at both undergraduate and graduate level, depending on your previous qualifications.",
       "groups": [
         {
@@ -86,17 +86,16 @@
             "The Professional Master of Physiotherapy is a graduate entry qualification for those with the appropriate bachelor degree.",
             "Some programs take approximately two years to complete.",
             "The aim of the graduate-entry MSc Physiotherapy (Pre-registration) is to prepare students for their first professional registration.",
-            "MSc Sports and Exercise Physiotherapy or equivalent:",
-            "Specialized courses, which may require a physiotherapy degree and previous clinical experience.",
+            "MSc Sports and Exercise Physiotherapy or equivalent: Specialized courses, which may require a physiotherapy degree and previous clinical experience.",
             "Students who want to do research or work in other health care fields are encouraged to take graduate degrees in movement science and rehabilitation."
           ]
         }
       ]
     },
     {
-      "slot": "universities",
+      "slot": "unis",
       "eyebrow": "Top Irish Universities",
-      "title": "Top Colleges and Physical Therapy Clinics in Ireland",
+      "title": "Top Universities and Physiotherapy Schools in Ireland",
       "lead": "",
       "groups": [],
       "unis": [

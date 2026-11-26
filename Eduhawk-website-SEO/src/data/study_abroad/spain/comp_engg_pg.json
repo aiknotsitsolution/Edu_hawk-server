@@ -1,11 +1,12 @@
 {
   "hero": {
-    "title": "Master's in Spain for Indian Students in Computer Engineering",
-    "subtitle": "Master's in Computer Engineering in Spain for Indian Students offers an opportunity to develop advanced skills in computer systems, software architecture, embedded systems, computer networks, artificial intelligence, cybersecurity, and high-performance computing. Universities in Spain offer postgraduate programs in computer engineering and related technology fields, combining theoretical knowledge with practical projects, research and industry-oriented learning. Students interested in a Master's in Computer Engineering in Spain can explore different specializations according to their academic background and professional ambitions."
+    "title": "Master's in Computer Engineering in Spain for Indian Students",
+    "subtitle": "Study an accredited Máster Universitario in Computer Engineering in Spain across technological centers in Madrid and Barcelona, mastering supercomputing architectures, embedded microelectronics, and a 12-month post-study job search permit."
   },
   "overview": [
-    "Higher studies in computing and technology is a great option for India students in Spain. Some of the important benefits are:",
-    "For Indian graduates, interested in advanced computing and technology, Study Computer Engineering in Spain can provide them with valuable international academic exposure. A Master's in Computer Engineering in Spain for Indian Students can also help learners explore advanced technical subjects and different areas of specialization."
+    "Spain is home to world-class computing hardware research facilities, notably the Barcelona Supercomputing Center (BSC-CNS), an international pioneer in European RISC-V open processor architecture development. Studying a master's in Computer Engineering in Spain provides Indian students with unique exposure to cutting-edge high-performance processor design and embedded systems research.",
+    "Spanish public universities offer 1- to 2-year official Master's degrees (*Máster Universitario en Ingeniería de Computadores / Informática*, 60–120 ECTS). Programs emphasize Microprocessor Architecture, Parallel and High-Performance Computing, Reconfigurable Computing (FPGA), Embedded Hardware Security, and Sensor Systems, providing hands-on laboratory projects and industrial internships at competitive annual tuition rates (€1,500 to €6,500/year).",
+    "International graduates in Spain can apply for a 12-month non-renewable post-study residence permit for job seeking or entrepreneurship (*Permiso de Residencia para Búsqueda de Empleo*, Law 14/2013 / EU Directive 2016/801). This permit allows graduates holding accredited Level 7 qualifications to transition smoothly into skilled employment as FPGA Engineers, Embedded Systems Developers, and Computer Hardware Designers across Spain's digital sector."
   ],
   "universities": [
     {
@@ -183,62 +184,14 @@
       "eyebrow": "Course Overview",
       "title": "Who Can Study a Master's in Computer Engineering in Spain?",
       "lead": "Indian students, in general, have the following requirements for a Master's in Computer Engineering in Spain:",
-      "groups": [
-        {
-          "t": "ul",
-          "items": [
-            "Degree of Bachelor: A recognized Bachelor's degree in Computer Engineering, Computer Science, Information Technology, Electronics or a related field.",
-            "Relevant academic knowledge: Previous knowledge of programming, mathematics, computer systems or engineering depending on the program.",
-            "Academic achievement: Academic transcripts that meet the minimum requirements of the university.",
-            "Language skills: English or Spanish language skills according to the language of instruction of the program.",
-            "Other requirements: Other prerequisite courses or academic requirements, if any, specified by the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Applicants from other undergraduate disciplines may be considered for selected programs subject to meeting the specific academic requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Eligibility for Computer Engineering Courses in Spain depends on the university and selected specialization. Students should carefully review the academic background, language proficiency and other entry conditions required for their preferred program."
-          ]
-        }
-      ]
+      "groups": []
     },
     {
       "slot": "overview",
       "eyebrow": "Course Overview",
       "title": "How to Access Computer Engineering in Spain",
       "lead": "On the following basis students can be assessed for Computer Engineering Admission in Spain:",
-      "groups": [
-        {
-          "t": "ul",
-          "items": [
-            "Academic achievements and undergraduate degree.",
-            "Relevance of prior coursework.",
-            "Technical knowledge, mathematics, programming.",
-            "English language proficiency, e.g. IELTS or TOEFL, where applicable.",
-            "Fluency in Spanish for Spanish-taught programs.",
-            "Statement of purpose, letters of recommendation or CV if needed.",
-            "Work experience or research background relevant to selected courses."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Language tests accepted, alternative proof of proficiency and minimum scores vary by institution. Specific requirements should be checked with your university of choice."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Students applying for a Master's in Computer Engineering in Spain for Indian Students should prepare their academic documents and verify the admission conditions before submitting an application. The Computer Engineering Admission in Spain process may differ between universities and postgraduate programs."
-          ]
-        }
-      ]
+      "groups": []
     },
     {
       "slot": "tuition",

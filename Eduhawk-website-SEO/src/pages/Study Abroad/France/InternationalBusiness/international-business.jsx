@@ -20,9 +20,9 @@ const page = {
   title: "Study International Business in France for Indian Students | EduHawk",
   description: "Complete guide to studying International Business in France: Top French business schools (IÉSEG, ESSEC, ESCP), Bachelor (BIB) and Master (MIB / MSc) programs, tuition fees, eligibility, and global career opportunities.",
   keywords: "Study International Business in France, International Business in France for Indian Students, International Business Courses in France, Bachelor’s Degree in International Business in France, Master’s in International Business in France, Best Business Schools for International Business in France, Top Universities for International Business in France, International Business Eligibility Requirements in France, International Business Admission Requirements in France, Cost of Studying International Business in France, International Business Tuition Fees in France, International Business Scholarships in France for Indian Students, English-Taught International Business Programmes in France, International Business Specialisations in France, Career Opportunities After International Business in France",
-  introTitle: "STUDY INTERNATIONAL BUSINESS IN FRANCE",
-  heroParas: [
-    "Studying **International Business in France**—across accredited Bachelor in International Business (BIB) and Master in International Business (MIB / MSc) degrees—prepares students for senior global leadership in multinational trade, cross-border marketing, international finance, geopolitical risk management, and global supply chain operations at top-tier French universities and triple-accredited Grandes Écoles."
+  "introTitle": "International Business in France for Indian Students",
+  "heroParas": [
+    "Pursue an accredited degree in International Business in France, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and access post-study stay-back authorizations under French immigration policy."
   ],
   overview: [
     "France is one of Europe's most influential commercial epicenters, home to global industry powerhouses in luxury goods, aerospace, automotive engineering, retail, banking, and digital technology. International business programs in France provide immersive cross-cultural business training taught entirely in 100% English.",

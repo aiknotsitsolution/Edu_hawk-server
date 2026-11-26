@@ -13,7 +13,7 @@ import McGillCollegeImg from "../../../../Images/Abroad/Canada/Dentistry/McGill_
 import cmsData from "../../../../data/study_abroad/canada/dentistry.json";
 
 const page = {
-  "name": "Dentistry in Canada",
+  "name": "Dentistry",
   "country": "Canada",
   "slug": "dentistry",
   "title": "Dentistry in Canada for Indian Students | Edu-Hawk Worldwide",
@@ -21,7 +21,7 @@ const page = {
   "keywords": "Study Dentistry in Canada, Dentistry in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Dentistry in Canada",
   "heroParas": [
-    "Students who want to study dentistry overseas frequently choose Canada. Opportunities to study professional dentistry education and oral health sciences are available in Canada, which is well-known for its excellent educational system, cutting-edge healthcare infrastructure, state-of-the-art dental facilities, and significant emphasis on clinical training."
+    "Pursue world-class dental education in Canada with internationally accredited Doctor of Dental Surgery (DDS) and Doctor of Dental Medicine (DMD) degrees. Benefit from state-of-the-art simulation laboratories, supervised patient care, and straightforward pathways to NDEB licensing."
   ],
   "overview": [
     "Students who want to study dentistry overseas frequently choose Canada. Opportunities to study professional dentistry education and oral health sciences are available in Canada, which is well-known for its excellent educational system, cutting-edge healthcare infrastructure, state-of-the-art dental facilities, and significant emphasis on clinical training.",
@@ -389,21 +389,52 @@ const page = {
 };
 
 export default function DentistryAbroadCanada() {
+  const universityImgMap = {
+    "University of Toronto": TorontoUniversityImg,
+    "Toronto University": TorontoUniversityImg,
+    "McGill University": McGillCollegeImg,
+    "McGill College": McGillCollegeImg,
+    "University of British Columbia": BritishColumbiaUniversityVancouverImg,
+    "British Columbia University, Vancouver": BritishColumbiaUniversityVancouverImg,
+    "University of Alberta": AlbertaUniversityImg,
+    "Alberta University": AlbertaUniversityImg,
+  };
+
   const dynamicPage = {
     ...page,
     title: cmsData?.seo?.title || page.title,
     description: cmsData?.seo?.description || page.description,
     introTitle: cmsData?.hero?.title || page.introTitle || page.name,
     heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    stats: (cmsData?.stats && cmsData.stats.length > 0) ? cmsData.stats : page.stats,
     overview: (cmsData?.overview && cmsData.overview.length > 0 && cmsData.overview[0] !== "")
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
       : page.overview,
-    sections: (cmsData?.sections && cmsData.sections.length > 0)
+    sections: (cmsData?.sections && cmsData.sections.length > 0
       ? cmsData.sections
-      : page.sections,
-    universities: (cmsData?.universities && cmsData.universities.length > 0)
+      : page.sections
+    ).map((s) => {
+      if (s.slot === "universities" || s.unis) {
+        const rawUnis = (s.unis && s.unis.length > 0) ? s.unis : (cmsData?.universities || page.universities || []);
+        return {
+          ...s,
+          unis: rawUnis.map((u) => ({
+            ...u,
+            img: universityImgMap[u.name] || u.img || u.image,
+            image: universityImgMap[u.name] || u.image || u.img,
+          })),
+        };
+      }
+      return s;
+    }),
+    universities: ((cmsData?.universities && cmsData.universities.length > 0)
       ? cmsData.universities
-      : page.universities,
+      : page.universities
+    ).map((u) => ({
+      ...u,
+      img: universityImgMap[u.name] || u.img || u.image,
+      image: universityImgMap[u.name] || u.image || u.img,
+    })),
     faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
       ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))
       : (cmsData?.faq && cmsData.faq.length > 0)
@@ -423,7 +454,7 @@ export default function DentistryAbroadCanada() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      showHeroStats={false}
+      showHeroStats={true}
       seoPath="/study-abroad/canada/dentistry"
     />
   );

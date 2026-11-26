@@ -1,6 +1,6 @@
 {
   "seo": {
-    "title": "Study Dentistry in Canada for Indian Students | DDS, DMD Fees & Universities",
+    "title": "Study Dentistry in Canada for Indian Students | Edu-Hawk Worldwide",
     "description": "Explore dentistry in Canada for Indian students. Learn about DDS, DMD programs, top dental colleges (Toronto, McGill, UBC, Alberta), eligibility, fees, NDEB licensing, and DAT requirements.",
     "keywords": [
       "Study Dentistry in Canada for Indian Students",
@@ -15,47 +15,64 @@
   "hero": {
     "badge": "Study Abroad · Canada",
     "title": "Study Dentistry in Canada",
-    "subtitle": "Students who want to study dentistry overseas frequently choose Canada. Opportunities to study professional dentistry education and oral health sciences are available in Canada, which is well-known for its excellent educational system, cutting-edge healthcare infrastructure, state-of-the-art dental facilities, and significant emphasis on clinical training.",
-    "ctaText": "Book Free Counselling",
-    "image": "/uploads/study_abroad/canada/canada_dentistry_Toronto_University-image2.png"
+    "subtitle": "Pursue world-class dental education in Canada with internationally accredited Doctor of Dental Surgery (DDS) and Doctor of Dental Medicine (DMD) degrees. Benefit from state-of-the-art simulation laboratories, supervised patient care, and straightforward pathways to NDEB licensing.",
+    "ctaText": "Book Free Counselling"
   },
+  "stats": [
+    {
+      "label": "Degree Choices",
+      "value": "Doctor of Dental Surgery (DDS) / DMD"
+    },
+    {
+      "label": "Course Duration",
+      "value": "4 Years Full-Time"
+    },
+    {
+      "label": "Top Dental Schools",
+      "value": "Toronto, McGill, UBC, Alberta"
+    },
+    {
+      "label": "Medium of Study",
+      "value": "English & French Taught"
+    }
+  ],
   "overview": [
+    "Students who want to study dentistry overseas frequently choose Canada. Opportunities to study professional dentistry education and oral health sciences are available in Canada, which is well-known for its excellent educational system, cutting-edge healthcare infrastructure, state-of-the-art dental facilities, and significant emphasis on clinical training.",
     "Students who study dentistry in Canada gain knowledge about oral health, dental therapy, diagnosis, and preventive dentistry. Doctor of Dental Surgery (DDS) and Doctor of Dental Medicine (DMD) programs are options for Indian students looking into dental universities in Canada, subject to admission restrictions particular to each institution.",
-    "Edu Hawk Worldwide Consultancy assists Indian students in researching overseas study possibilities, comprehending the prerequisites for admission to dentistry schools, evaluating university options, and getting ready for their worldwide educational trip.",
-    "Students can make well-informed decisions regarding dental school in Canada, tuition costs, eligibility, and future employment options with the right preparation and direction."
+    "Edu Hawk Worldwide Consultancy assists Indian students in researching overseas study possibilities, comprehending the prerequisites for admission to dentistry schools, evaluating university options, and getting ready for their worldwide educational trip."
   ],
   "universities": [
     {
-      "name": "University of Toronto",
+      "name": "Toronto University",
       "location": "Toronto, Ontario",
       "fee": "CAD $35,000 – $95,000 / Year",
-      "img": "/uploads/study_abroad/canada/canada_dentistry_Toronto_University-image2.png",
-      "image": "/uploads/study_abroad/canada/canada_dentistry_Toronto_University-image2.png",
-      "desc": "Faculty of Dentistry at the University of Toronto is the oldest and largest dental school in Canada, renowned for oral health research and clinical excellence."
+      "img": "/src/Images/Abroad/Canada/Dentistry/Toronto_University.webp",
+      "image": "/src/Images/Abroad/Canada/Dentistry/Toronto_University.webp",
+      "desc": "The Doctor of Dental Surgery (DDS) program, The duration is four years. Renowned for cutting-edge oral health research and clinical excellence."
     },
     {
-      "name": "McGill University",
+      "name": "McGill College",
       "location": "Montreal, Quebec",
       "fee": "CAD $30,000 – $85,000 / Year",
-      "img": "/uploads/study_abroad/canada/canada_dentistry_McGill_College-image4.png",
-      "image": "/uploads/study_abroad/canada/canada_dentistry_McGill_College-image4.png",
-      "desc": "McGill's Faculty of Dental Medicine and Oral Health Sciences offers world-class clinical teaching and community dental outreach programs."
+      "img": "/src/Images/Abroad/Canada/Dentistry/McGill_College.webp",
+      "image": "/src/Images/Abroad/Canada/Dentistry/McGill_College.webp",
+      "desc": "Situated in Montreal, Quebec. The Doctor of Dental Medicine (DMD) program, The duration is four years."
     },
     {
-      "name": "University of British Columbia",
+      "name": "British Columbia University, Vancouver",
       "location": "Vancouver, British Columbia",
       "fee": "CAD $35,000 – $90,000 / Year",
-      "img": "/uploads/study_abroad/canada/canada_dentistry_British_Columbia_University__Vancouver-image1.png",
-      "image": "/uploads/study_abroad/canada/canada_dentistry_British_Columbia_University__Vancouver-image1.png",
-      "desc": "UBC Faculty of Dentistry provides innovative simulation technology and rigorous multidisciplinary clinical education on its Vancouver campus."
+      "img": "/src/Images/Abroad/Canada/Dentistry/British_Columbia_University_Vancouver.webp",
+      "image": "/src/Images/Abroad/Canada/Dentistry/British_Columbia_University_Vancouver.webp",
+      "desc": "The site is British Columbia University, Vancouver. The Doctor of Dental Medicine (DMD) program, The duration is four years."
     },
     {
-      "name": "University of Alberta",
+      "name": "Alberta University",
       "location": "Edmonton, Alberta",
       "fee": "CAD $30,000 – $80,000 / Year",
-      "img": "/uploads/study_abroad/canada/canada_dentistry_Alberta_University-image3.png",
-      "image": "/uploads/study_abroad/canada/canada_dentistry_Alberta_University-image3.png",
-      "desc": "School of Dentistry at the University of Alberta offers comprehensive DDS training with cutting-edge oral health clinics and hospital affiliations."
+      "img": "/src/Images/Abroad/Canada/Dentistry/Alberta_University.webp",
+      "image": "/src/Images/Abroad/Canada/Dentistry/Alberta_University.webp",
+      "desc": "The address is Edmonton, Alberta. The Doctor of Dental Surgery (DDS) program, The duration is four years."
     }
   ],
   "sections": [
@@ -73,7 +90,7 @@
           "t": "dl",
           "pairs": [
             {
-              "t": "Reputable Dental Colleges",
+              "t": "Reputable Canadian Dental Colleges",
               "d": "Learn through reputable Canadian dental colleges that offer demanding academic and practical training."
             },
             {
@@ -82,23 +99,23 @@
             },
             {
               "t": "Supervised Clinical Expertise",
-              "d": "Gain clinical expertise by providing patient care under the direct supervision of licensed dental practitioners."
+              "d": "Gain clinical expertise by providing patient care under supervision."
             },
             {
               "t": "Dental Research Initiatives",
-              "d": "Explore dental research initiatives, oral health sciences, biomaterials innovation, and new treatment methods."
+              "d": "Explore dental research initiatives, oral health sciences, and new treatment methods."
             },
             {
               "t": "Diverse Employment Options",
-              "d": "Examine employment options in clinical dentistry, research, education, and public health, contingent on obtaining a provincial license."
+              "d": "Examine employment options in clinical dentistry, research, education, and public health, contingent on obtaining a license."
             },
             {
               "t": "International Exposure",
-              "d": "Learn in a multicultural setting and hone your abilities to serve a wide range of patient demographics."
+              "d": "Learn in a multicultural setting and hone your abilities to serve a range of patient demographics."
             },
             {
               "t": "Opportunities for Specialization",
-              "d": "Explore additional advanced training in prosthodontics, periodontics, orthodontics, endodontics, and pediatric dentistry."
+              "d": "Explore additional training in prosthodontics, periodontics, orthodontics, and other dental disciplines."
             }
           ]
         },
@@ -126,26 +143,26 @@
           "rows": [
             [
               "Doctor of Dental Surgery (DDS)",
-              "4 Years Full-Time"
+              "4 Years"
             ],
             [
-              "Doctor of Dental Medicine (DMD)",
-              "4 Years Full-Time"
+              "DMD (Doctor of Dental Medicine)",
+              "4 Years"
             ],
             [
               "Dental-Related Sciences Bachelor's Degree",
               "3 – 4 Years"
             ],
             [
-              "Dental Sciences Master's Degree",
+              "Dental Sciences Master's",
               "1 – 3 Years"
             ],
             [
-              "Master's in Orthodontics, Periodontics or Prosthodontics",
+              "Master's Degree in Prosthodontics, Periodontics, or Orthodontics",
               "3 – 6 Years"
             ],
             [
-              "PhD in Dental Sciences / Dental Hygiene Oral Health Programs",
+              "PhD in Dental Sciences or Oral Health Programs for Dental Hygiene",
               "2 – 3 Years"
             ]
           ]
@@ -159,36 +176,36 @@
       "lead": "The following institutions can be explored by students looking for the top dental schools in Canada, and they can confirm their current admissions procedures, program availability, and eligibility for overseas applicants.",
       "unis": [
         {
-          "name": "University of Toronto",
+          "name": "Toronto University",
           "location": "Toronto, Ontario",
           "fee": "CAD $35,000 – $95,000 / Year",
-          "img": "/uploads/study_abroad/canada/canada_dentistry_Toronto_University-image2.png",
-          "image": "/uploads/study_abroad/canada/canada_dentistry_Toronto_University-image2.png",
-          "desc": "Faculty of Dentistry at the University of Toronto is the oldest and largest dental school in Canada, renowned for oral health research and clinical excellence."
+          "img": "/src/Images/Abroad/Canada/Dentistry/Toronto_University.webp",
+          "image": "/src/Images/Abroad/Canada/Dentistry/Toronto_University.webp",
+          "desc": "The Doctor of Dental Surgery (DDS) program, The duration is four years. Renowned for cutting-edge oral health research and clinical excellence."
         },
         {
-          "name": "McGill University",
+          "name": "McGill College",
           "location": "Montreal, Quebec",
           "fee": "CAD $30,000 – $85,000 / Year",
-          "img": "/uploads/study_abroad/canada/canada_dentistry_McGill_College-image4.png",
-          "image": "/uploads/study_abroad/canada/canada_dentistry_McGill_College-image4.png",
-          "desc": "McGill's Faculty of Dental Medicine and Oral Health Sciences offers world-class clinical teaching and community dental outreach programs."
+          "img": "/src/Images/Abroad/Canada/Dentistry/McGill_College.webp",
+          "image": "/src/Images/Abroad/Canada/Dentistry/McGill_College.webp",
+          "desc": "Situated in Montreal, Quebec. The Doctor of Dental Medicine (DMD) program, The duration is four years."
         },
         {
-          "name": "University of British Columbia",
+          "name": "British Columbia University, Vancouver",
           "location": "Vancouver, British Columbia",
           "fee": "CAD $35,000 – $90,000 / Year",
-          "img": "/uploads/study_abroad/canada/canada_dentistry_British_Columbia_University__Vancouver-image1.png",
-          "image": "/uploads/study_abroad/canada/canada_dentistry_British_Columbia_University__Vancouver-image1.png",
-          "desc": "UBC Faculty of Dentistry provides innovative simulation technology and rigorous multidisciplinary clinical education on its Vancouver campus."
+          "img": "/src/Images/Abroad/Canada/Dentistry/British_Columbia_University_Vancouver.webp",
+          "image": "/src/Images/Abroad/Canada/Dentistry/British_Columbia_University_Vancouver.webp",
+          "desc": "The site is British Columbia University, Vancouver. The Doctor of Dental Medicine (DMD) program, The duration is four years."
         },
         {
-          "name": "University of Alberta",
+          "name": "Alberta University",
           "location": "Edmonton, Alberta",
           "fee": "CAD $30,000 – $80,000 / Year",
-          "img": "/uploads/study_abroad/canada/canada_dentistry_Alberta_University-image3.png",
-          "image": "/uploads/study_abroad/canada/canada_dentistry_Alberta_University-image3.png",
-          "desc": "School of Dentistry at the University of Alberta offers comprehensive DDS training with cutting-edge oral health clinics and hospital affiliations."
+          "img": "/src/Images/Abroad/Canada/Dentistry/Alberta_University.webp",
+          "image": "/src/Images/Abroad/Canada/Dentistry/Alberta_University.webp",
+          "desc": "The address is Edmonton, Alberta. The Doctor of Dental Surgery (DDS) program, The duration is four years."
         }
       ],
       "groups": []
@@ -206,27 +223,27 @@
         {
           "t": "ul",
           "items": [
-            "Completion of the necessary secondary education and prerequisite coursework at the university level constitutes the primary academic qualification.",
+            "Completion of the necessary secondary education and prerequisite coursework at the university level constitutes the academic qualification.",
             "Prior to admission to many dental schools, students must complete at least two or three years of university coursework. Certain prerequisite courses or a full bachelor's degree are required for some.",
-            "It may be necessary to take biology, chemistry, biochemistry, physiology, and other core science courses.",
-            "Academic Performance: Because entrance to Canadian dentistry schools is highly competitive, a strong university GPA is crucial.",
-            "Depending on the university, the Dental Admission Test (DAT) may be mandatory.",
-            "It may be necessary to take the TOEFL iBT, IELTS Academic, or another recognized test to demonstrate English language proficiency.",
-            "The selection procedure may include interviews, situational judgment tests (such as CASPer), personal statements, and academic references."
+            "It may be necessary to take biology, chemistry, biochemistry, physiology, and other science courses.",
+            "Academic Performance: Because entrance to Canadian dentistry schools is competitive, a high university GPA is crucial.",
+            "Depending on the university, the Dental Admission Test (DAT) may be necessary.",
+            "It may be necessary to take the TOEFL iBT, IELTS Academic, or another recognized test to demonstrate English proficiency.",
+            "The selection procedure may include interviews, situational judgment tests, personal statements, and references."
           ]
         },
         {
           "t": "p",
           "items": [
             "Certain dentistry schools only accept applicants who are citizens or permanent residents of Canada.",
-            "The standard requirements for direct admission into Canadian DDS/DMD programs are typically not met by Class 12 PCB alone, which is significant for Indian students. Students should verify whether international applicants are eligible and review the necessary undergraduate university courses."
+            "The standard requirements for direct admission into Canadian DDS/DMD programs are typically not met by Class 12 PCB alone, which is significant for Indian students. Students should verify whether international applicants are eligible and review the necessary undergraduate courses."
           ]
         }
       ]
     },
     {
-      "slot": "documents",
-      "eyebrow": "Application Requirements",
+      "slot": "requirements",
+      "eyebrow": "Requirements Overview",
       "title": "Dental Admission Requirements in Canada",
       "lead": "Before beginning their applications, students who intend to apply to dental schools in Canada should review the following requirements.",
       "groups": [
@@ -235,31 +252,35 @@
           "pairs": [
             {
               "t": "Academic Transcripts",
-              "d": "Records from grades 10 and 12, together with official university undergraduate transcripts when relevant."
+              "d": "Records from grades 10 and 12, together with university transcripts when relevant."
             },
             {
-              "t": "University Coursework Prerequisites",
-              "d": "Specific prerequisite courses and credits that the dentistry school requires, with competitive academic achievement."
+              "t": "University Requirements",
+              "d": "Courses and credits that the dentistry school requires, with competitive academic achievement at the university level."
             },
             {
-              "t": "Dental Admission Test (DAT)",
-              "d": "Required by most Canadian dental schools; confirm approved test dates, testing cycles, and minimum section scores."
+              "t": "GPA & DAT",
+              "d": "Some colleges require it; confirm approved test dates and formats."
             },
             {
-              "t": "English Language Proficiency",
-              "d": "TOEFL iBT, IELTS Academic, or an approved official test score satisfying faculty thresholds."
+              "t": "English Proficiency",
+              "d": "TOEFL iBT, IELTS Academic, or an approved substitute, if necessary."
             },
             {
-              "t": "Personal Statement / Letter of Intent",
-              "d": "When requested, a detailed explanation of your motivation, character, and interest in pursuing dentistry."
+              "t": "Personal Statement",
+              "d": "When asked, an explanation of your motivation and interest in dentistry."
             },
             {
-              "t": "Interview & Multiple Mini Interviews (MMI)",
-              "d": "May evaluate interpersonal communication, ethical judgment, problem-solving, and personal motivation."
+              "t": "Interview",
+              "d": "May evaluate interpersonal, communication, judgment, and motivation abilities."
             },
             {
-              "t": "Citizenship and Residency Status",
-              "d": "Confirm international student quota availability; certain dental schools restrict admission to Canadian citizens or permanent residents."
+              "t": "Scholarly or Other Sources",
+              "d": "Letters of evaluation, references, and relevant academic background."
+            },
+            {
+              "t": "Citizenship/Residency Status",
+              "d": "Only Canadian citizens or permanent residents are eligible for certain programs."
             }
           ]
         }
@@ -273,7 +294,7 @@
       "groups": [
         {
           "t": "h4",
-          "text": "Projected Annual Costs (CAD)"
+          "text": "Projected Annual Costs"
         },
         {
           "t": "table",
@@ -284,33 +305,33 @@
           ],
           "rows": [
             [
-              "Annual International Tuition Costs",
-              "CAD $25,000 – $100,000+",
+              "Tuition Costs",
+              "CAD 25,000 – 100,000+",
               "₹15,00,000 – ₹60,00,000+"
             ],
             [
-              "Lodging & Accommodation",
-              "CAD $10,000 – $24,000",
+              "Lodging",
+              "CAD 10,000 – 24,000",
               "₹6,00,000 – ₹14,40,000"
             ],
             [
-              "Food and Groceries",
-              "CAD $3,600 – $7,200",
+              "Food and groceries",
+              "CAD 3,600 – 7,200",
               "₹2,16,000 – ₹4,32,000"
             ],
             [
-              "Local Transportation",
-              "CAD $1,000 – $2,400",
+              "Transportation",
+              "1,000 – 2,400 CAD",
               "₹60,000 – ₹1,44,000"
             ],
             [
-              "Books, Tools, and Clinical Materials",
-              "CAD $1,000 – $4,000",
+              "Books, Tools, and Materials",
+              "CAD 1,000 – 4,000",
               "₹60,000 – ₹2,40,000"
             ],
             [
-              "Personal Expenses and Health Insurance",
-              "CAD $2,000 – $5,000",
+              "Personal Expenses and Insurance",
+              "CAD 2,000 – 5,000",
               "₹1,20,000 – ₹3,00,000"
             ]
           ]
@@ -322,11 +343,11 @@
         {
           "t": "ul",
           "items": [
-            "Clinical supplies, safety gear, and specialized dental instruments may be needed for dental programs.",
-            "Metropolitan cities like Toronto and Vancouver frequently have greater living and accommodation expenses.",
-            "International students enrolled in professional dental programs may not be eligible for government student loans or specific domestic scholarships.",
-            "Budgeting should be planned for the entire 4-year program, not just the first year's tuition.",
-            "International travel, visa processing fees, and study permit-related costs must also be factored in."
+            "Clinical supplies, safety gear, and specialized devices may be needed for dental programs.",
+            "Cities like Toronto and Vancouver frequently have greater living expenses.",
+            "International students enrolled in professional dental programs may not be eligible for many scholarships or other forms of financial aid.",
+            "Budgeting should be done for the entire program, not just the first year.",
+            "Travel fees and study permit-related costs must also be factored in by international students."
           ]
         },
         {
@@ -339,47 +360,47 @@
     },
     {
       "slot": "admission",
-      "eyebrow": "Step-by-Step Procedure",
+      "eyebrow": "Admission Roadmap",
       "title": "Admission Procedure for Dentistry in Canada",
-      "lead": "Indian students who want to study dentistry in Canada should be well-prepared and follow this structured application roadmap:",
+      "lead": "Indian students who want to study dentistry in Canada should be well-prepared and aware of the application process.",
       "groups": [
         {
           "t": "steps",
           "items": [
             {
               "step": 1,
-              "title": "Research Dental Schools",
-              "desc": "Identify Canadian universities that offer accredited DDS/DMD programs and verify whether they accept international overseas students."
+              "title": "Look at Dental Schools",
+              "desc": "Find Canadian universities that offer DDS/DMD programs and find out if they take overseas students."
             },
             {
               "step": 2,
-              "title": "Fulfill Academic & Coursework Requirements",
-              "desc": "Complete the necessary university-level GPA, prerequisite science subjects (Biology, Chemistry, Biochemistry), and course credits before applying."
+              "title": "Fulfill Academic Requirements",
+              "desc": "fulfill the necessary GPA, subject, and credit requirements at the university level. Before applying, Indian students might need to complete further undergraduate coursework."
             },
             {
               "step": 3,
-              "title": "Complete Admission Evaluations (DAT & English)",
-              "desc": "Take the Dental Admission Test (DAT) and achieve required scores in reading comprehension, science, and perceptual ability; complete IELTS or TOEFL."
+              "title": "Get Ready for Admission Evaluations",
+              "desc": "Take the necessary DAT or other tests, and if necessary, finish the English language exam."
             },
             {
               "step": 4,
-              "title": "Submit University Applications & Dossier",
-              "desc": "Submit your online application with certified academic transcripts, letters of recommendation, and personal statements."
+              "title": "Send in the Application",
+              "desc": "Using the appropriate application system, provide references, academic records, personal statements, and other necessary papers."
             },
             {
               "step": 5,
-              "title": "Participate in Interviews & Situational Judgments",
-              "desc": "Attend structured interviews, Multiple Mini Interviews (MMI), or CASPer assessments upon invitation from the admissions committee."
+              "title": "Finish the assessments and interviews",
+              "desc": "Attend any further tests or interviews that the institution invites you to."
             },
             {
               "step": 6,
-              "title": "Accept Offer & Secure Seat Deposit",
-              "desc": "Thoroughly review the admission offer, conditions, tuition deposit due dates, and refund policies before formally accepting."
+              "title": "Take the Offer",
+              "desc": "Examine the enrollment requirements, deadlines, tuition deposit, and admission offer."
             },
             {
               "step": 7,
-              "title": "Submit Study Permit & Visa Application",
-              "desc": "Apply for a Canadian Study Permit with your official Letter of Acceptance (LOA), Provincial Attestation Letter (PAL if required), and proof of financial support."
+              "title": "Submit a Study Permit Application",
+              "desc": "Examine the latest requirements for Canadian study permits and get the required immigration and financial paperwork ready."
             }
           ]
         }
@@ -387,9 +408,9 @@
     },
     {
       "slot": "scope",
-      "eyebrow": "Licensing & Certification",
+      "eyebrow": "Licensing & Registration",
       "title": "Canadian Dental Licensing: Enrollment and Professional Acknowledgment",
-      "lead": "A license to practice dentistry is distinct from a dental degree. Completing dental school provides the academic qualification, but licensure is mandatory to practice independently in Canada.",
+      "lead": "A license to practice dentistry is not the same as a dental degree. It is not always possible to practice independently in Canada after graduating from dentistry school.",
       "groups": [
         {
           "t": "h4",
@@ -398,26 +419,21 @@
         {
           "t": "ul",
           "items": [
-            "Obtain a qualifying dental degree (DDS or DMD) from a program accredited by the Commission on Dental Accreditation of Canada (CDAC).",
-            "Fulfill the National Dental Examining Board of Canada (NDEB) certification examination standards.",
-            "Acquire the official NDEB certificate of qualification upon passing national written and clinical exams.",
-            "Apply for professional license and registration with the provincial or territorial dental regulatory authority where you plan to practice.",
-            "Fulfill additional provincial requirements, such as jurisprudence exams, professional liability insurance, and language criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "While provincial and territorial dental regulatory authorities grant practice licenses, the NDEB oversees the national certification assessment process."
+            "Obtain a qualifying dental degree from a program that has received the necessary accreditation.",
+            "Fulfill the National Dental Examining Board of Canada's (NDEB) certification standards.",
+            "Acquire the necessary NDEB certification.",
+            "Apply for a license and registration with the dental regulating body in the province or territory where you plan to work.",
+            "Fulfill any other provincial criteria, such as those pertaining to professional obligations, appropriate language, or jurisprudence.",
+            "While provincial and territorial authorities grant licenses, the NDEB oversees the national certification procedure."
           ]
         }
       ]
     },
     {
       "slot": "careers",
-      "eyebrow": "Career Pathways",
+      "eyebrow": "Career Opportunities",
       "title": "Canadian Dentistry Salary and Job Opportunities",
-      "lead": "Career options in clinical practice, research, teaching, and public health are available in dentistry. In Canada, a dentist's remuneration is determined by location, type of practice, experience, licensing, and credentials.",
+      "lead": "Career options in clinical practice, research, teaching, and public health are available in dentistry. In Canada, a dentist's pay is determined by their location, type of practice, experience, licensing, and credentials.",
       "groups": [
         {
           "t": "h4",
@@ -427,28 +443,28 @@
           "t": "dl",
           "pairs": [
             {
-              "t": "General Dental Practitioner",
-              "d": "Provides routine comprehensive dental care, diagnosis, preventive treatment, and restorations in private or group practice."
+              "t": "General Dentist",
+              "d": "Provides routine dental care and diagnoses oral health issues."
             },
             {
-              "t": "Dental Specialist",
-              "d": "Concentrates on orthodontics, periodontics, endodontics, prosthodontics, or oral surgery after accredited specialty training and board certification."
+              "t": "Specialist Dentist",
+              "d": "After further training and registration, concentrates on orthodontics, periodontics, endodontics or other recognized specializations."
             },
             {
               "t": "Public Health Dentist",
-              "d": "Focuses on community oral health initiatives, preventive school programs, and underserved population health policies."
+              "d": "Focuses on preventative care and community oral health initiatives."
             },
             {
-              "t": "Academic Dentist & Clinical Instructor",
-              "d": "Teaches dental students in simulation clinics and conducts university-based clinical instruction."
+              "t": "Academic Dentist",
+              "d": "May do research in addition to teaching dental students."
             },
             {
               "t": "Dental Researcher",
-              "d": "Researches advanced biomaterials, tissue regeneration, oral epidemiology, and modern therapeutics."
+              "d": "Researches dental materials, oral illnesses, and therapies."
             },
             {
-              "t": "Dental Clinic Owner / Principal",
-              "d": "Oversees and operates a private dental clinic after fulfilling all commercial and provincial healthcare standards."
+              "t": "Owner of a Dental Clinic",
+              "d": "Oversees a dental practice after fulfilling professional and commercial standards."
             }
           ]
         }
@@ -456,25 +472,33 @@
     },
     {
       "slot": "documents",
-      "eyebrow": "Checklist",
-      "title": "Documents Needed for Dental Studies in Canada",
-      "lead": "Depending on their educational history and the requirements of the university, applicants to Canadian dentistry schools often need to prepare the following documents:",
+      "eyebrow": "Document Checklist",
+      "title": "Documents Needed",
+      "lead": "Depending on their educational history and the requirements of the university, applicants to Canadian dentistry schools need often prepare the following documents:",
       "groups": [
         {
           "t": "ul",
           "items": [
-            "Valid passport and government-issued identity documents.",
-            "Certificates and mark sheets for Class 10 and Class 12.",
-            "Official university undergraduate transcripts and degree certificates (if completed).",
-            "Proof of completion of required university prerequisite science courses.",
-            "Results of approved English language competency tests (IELTS Academic or TOEFL iBT).",
-            "Dental Admission Test (DAT) official score report.",
-            "Statement of Intent or Personal Statement detailing your motivations and clinical exposure.",
-            "Academic and professional letters of recommendation.",
-            "Detailed Curriculum Vitae (CV) or activity record.",
-            "Documented proof of sufficient financial support for tuition and living expenses.",
-            "Official Letter of Acceptance (LOA) from an accredited Canadian university.",
-            "Provincial Attestation Letter (PAL) and completed immigration forms for the Canadian Study Permit."
+            "A valid passport and identity documents.",
+            "Certificates and mark sheets for Class 10.",
+            "Certificates and mark sheets for Class 12.",
+            "Transcripts from universities and, if relevant, degree certificates.",
+            "Proof that you have finished the required university courses.",
+            "The results of any necessary English language competency tests.",
+            "If necessary, the results of the Dental Admission Test (DAT).",
+            "When asked, a statement of intent or a personal statement.",
+            "Letters of recommendation, if necessary.",
+            "A curriculum vitae or activity log, upon request.",
+            "Records from interviews or other assessments, if relevant.",
+            "Evidence of funding in order to obtain a study permission.",
+            "An admission letter from a Canadian university that qualifies.",
+            "Examine application materials for permits and other necessary immigration forms."
+          ]
+        },
+        {
+          "t": "p",
+          "items": [
+            "Edu Hawk Worldwide Consultancy can help you plan your dental education in Canada. Edu Hawk Worldwide Consultancy assists students in understanding dental institution admission requirements, investigating dentistry study possibilities overseas, and getting ready for their international educational adventure. To find out more about studying dentistry in Canada, university selection, eligibility, application processes, and educational planning, get in touch with Edu Hawk."
           ]
         }
       ]
@@ -483,23 +507,23 @@
   "faqs": [
     {
       "q": "After Class 12, are Indian students able to study dental studies in Canada?",
-      "a": "Generally speaking, not straight into a professional DDS/DMD program. Many dental schools in Canada need multiple years of undergraduate university coursework or prerequisite science courses at the university level. Additionally, applicants need to confirm their eligibility as overseas international students."
+      "a": "Generally speaking, not straight into a professional DDS/DMD program. Many dental schools in Canada need many years of undergraduate coursework or prerequisite courses at the university level. Additionally, applicants need to confirm their eligibility as overseas students."
     },
     {
       "q": "Does studying dentistry in Canada need NEET?",
-      "a": "No, NEET is not a prerequisite for admission to Canadian DDS/DMD programs. Admission is governed by university GPA, prerequisite science credits, DAT scores, and interviews. If Indian students intend to return to India to practice, they should independently review Indian dental regulatory guidelines."
+      "a": "For Canadian DDS/DMD programs, NEET is typically not a prerequisite for admission. Academic and admission exam requirements are imposed by Canadian universities. If Indian students intend to return to India to practice, they should independently review the relevant Indian rules."
     },
     {
       "q": "In Canada, how long does it take to become a dentist?",
-      "a": "After completing the necessary undergraduate university prerequisites (typically 2 to 4 years), a professional DDS/DMD program takes 4 years of full-time study. Total duration is typically 6 to 8 years including undergraduate preparation and NDEB licensing examinations."
+      "a": "After completing the necessary qualifications, a professional DDS/DMD program typically takes four years. When examinations, licensing requirements, and undergraduate preparation are taken into account, the overall period may be longer."
     },
     {
       "q": "How much does it cost to study dentistry in Canada?",
-      "a": "Tuition for international dental students ranges from CAD $30,000 to over CAD $95,000 per year depending on the university. In addition, living expenses, accommodation, insurance, and specialized dental clinical kits cost approximately CAD $20,000 to CAD $35,000 annually."
+      "a": "The price varies greatly depending on the university and type of student. It is necessary to take into account tuition, housing, living expenditures, insurance, and dental equipment. The official fee schedule for the university and intake of their choice should be reviewed by applicants."
     },
     {
       "q": "Is it possible for an Indian BDS graduate to work as a dentist in Canada?",
-      "a": "Yes, it is possible. However, an Indian BDS degree does not automatically grant a Canadian license. Graduates of non-accredited international dental programs must complete the NDEB Equivalency Process (AFK, ACJ, NDECC exams) or complete a 2-year accredited Qualifying/Degree Completion Program at a Canadian dental school."
+      "a": "Indeed, it is possible, however a Canadian license is not automatically granted by an Indian BDS degree. Graduates of non-accredited programs typically have to fulfill the licensing criteria of their selected province or territory, receive certification, and finish the relevant NDEB equivalence or qualifying-program track."
     }
   ]
 }

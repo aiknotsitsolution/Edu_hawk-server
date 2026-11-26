@@ -18,9 +18,9 @@ const page = {
   title: "Business Management in Finland for Indian Students | Edu-Hawk Worldwide",
   description: "Study Business Management in Finland: Bachelor's & Master's programmes at Oulu, LUT, Aalto, Haaga-Helia, and Metropolia. Compare tuition fees (€10,000–€15,000), eligibility, and careers.",
   keywords: "Business Management in Finland, Bachelor’s in Business Management in Finland, Master’s in Business Management in Finland, Business Management Universities in Finland, Study Business Management in Finland for Indian Students, Business Management Courses in Finland Fees",
-  introTitle: "Business Management in Finland – Bachelor’s and Master’s Courses",
-  heroParas: [
-    "A **[Business Management degree in Finland](/study-abroad/finland/business-management)** offers students comprehensive knowledge in international trade, entrepreneurship, marketing and leadership. Finnish business schools emphasise analytical thinking, sustainability, innovation and practical problem-solving, teaching students how organisations operate, develop business strategies and manage teams in international environments."
+  "introTitle": "Business Management in Finland for Indian Students",
+  "heroParas": [
+    "Study Business Management in Finland, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and explore post-graduation residence permit options for employment under Finnish immigration regulations."
   ],
   overview: [
     "A Bachelor’s in Business Management in Finland can help students build a foundation in management, marketing, finance, economics and entrepreneurship. A Master’s in Business Management in Finland allows graduates to deepen their knowledge of strategic management, international business, business analytics and organisational leadership.",

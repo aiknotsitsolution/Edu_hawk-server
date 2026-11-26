@@ -14,9 +14,9 @@ const page = {
   "title": "MBA in USA for Indian Students | 2026 | Edu Hawk Worldwide",
   "description": "Study MBA in the USA for Indian students. Programs and specialisations, duration, eligibility, GMAT and GRE, tuition, scholarships, top business schools, careers and F-1 student visa process with Edu Hawk Worldwide.",
   "keywords": "Study MBA in USA for Indian Students, Best MBA Universities in USA, MBA Admission Requirements in USA for Indian Students, Top MBA Colleges in America, MBA Courses and Specializations in USA, MBA Tuition Fees in USA for Indian Students, MBA Scholarships for Indian Students in USA, One-Year MBA Programs in USA for International Students, MBA Eligibility After Graduation in India, GMAT and GRE Requirements for MBA in USA, English Language Tests for MBA Admission in USA, MBA Without Work Experience in USA, Career Opportunities After MBA in USA, MBA in Finance and Business Analytics in USA, USA Student Visa for Indian MBA Students",
-  "introTitle": "MBA in the United States",
+  "introTitle": "MBA in the USA for Indian Students",
   "heroParas": [
-    "Pursuing an MBA in the USA offers international students prestigious graduate management education, transformative leadership development, high-impact networking, and access to top global recruiters and Optional Practical Training (OPT)."
+    "Pursue a premier Master of Business Administration (MBA) in the United States, offering case-based pedagogy, corporate consulting engagements, and unparalleled executive networks. International students gain transformative management skills and explore Optional Practical Training (OPT) employment authorizations, subject to US immigration regulations."
   ],
   "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."

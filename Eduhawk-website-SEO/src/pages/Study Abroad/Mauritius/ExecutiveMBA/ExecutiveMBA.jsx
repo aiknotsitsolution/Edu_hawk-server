@@ -22,7 +22,7 @@ const page = {
   "keywords": "Study Executive MBA in Mauritius, Executive MBA in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Executive MBA Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Executive MBA in Mauritius for Indian Students",
   "heroParas": [
-    "An Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate business qualification targeted principally at professionals, managers, entrepreneurs and business leaders who desire to enhance their leadership, strategic planning and decision making skills. **Executive MBA in Mauritius** is an option for working professionals who want to strengthen their business knowledge and develop leadership capabilities while progressing in their careers."
+    "Study an Executive MBA in Mauritius, tailored for professionals and entrepreneurs looking to steer corporate strategy across emerging African and Asian markets. International executives develop cross-border management skills in a stable, established regional financial centre."
   ],
   "overview": [
     "Mauritius also has Executive MBA programs for students wishing to pursue higher business studies. Amity Institute of Higher Education, for example, lists a 16-month, full-time Executive MBA, while the University of Mauritius lists a two-year, part-time MBA and specialized MBA programs. These are different program formats and applicants are advised to compare entry requirements, fees, teaching schedules and recognition before making a choice. Students researching an **Executive MBA in Mauritius for Indian Students** should also check international admission conditions and the exact qualification awarded."

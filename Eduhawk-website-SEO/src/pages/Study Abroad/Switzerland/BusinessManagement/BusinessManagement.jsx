@@ -19,10 +19,10 @@ const page = {
   title: "Study Business Management in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study Business Management in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study Business Management in Switzerland, Business Management in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland Business Management Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
-  introTitle: "Switzerland Business Management for Indian Students",
-  heroParas: [
-    "**Business Management in Switzerland for Indian Students** offers opportunities to develop business knowledge, leadership skills and international career prospects."
-],
+  "introTitle": "Business Management in Switzerland for Indian Students",
+  "heroParas": [
+    "Study Business Management in Switzerland, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen in Europe's premier destination for multinational headquarters, private banking, and international commerce."
+  ],
   overview: [
     "Switzerland is internationally renowned for academic excellence, state-of-the-art research infrastructure, and world-class faculty. Studying Business Management provides Indian students with cutting-edge theoretical foundations and strong practical exposure.",
     "Graduates benefit from degrees accredited across Europe and globally, offering excellent career pathways in Switzerland, Europe, and international markets."
@@ -90,7 +90,7 @@ const page = {
       slot: "universities",
       eyebrow: "Top Institutions",
       title: "Best Universities for Business Management in Switzerland",
-      lead: "Explore leading Swiss universities offering accredited Business Management programs, modern facilities, and global career pathways.",
+      lead: "Business Management programs in Switzerland provide rigorous, multidisciplinary management training connecting core business fundamentals with modern corporate consulting and leadership practices.",
       unis: [
         {
           name: "University of Lausanne!",

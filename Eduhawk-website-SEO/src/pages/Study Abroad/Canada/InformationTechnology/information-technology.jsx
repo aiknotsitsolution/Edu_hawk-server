@@ -20,13 +20,13 @@ const page = {
   "description": "Study Information Technology in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
   "keywords": "Study Information Technology in Canada, Information Technology in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Study Information Technology in Canada",
-  "heroParas": [
-    "The usage, administration, creation, and security of computer systems, software, networks, databases, and digital infrastructure are the main topics of information technology (IT). It equips students to assist firms with data management, cybersecurity, cloud platforms, information systems, and technology solutions."
+  heroParas: [
+    "Advance your enterprise tech career in Canada with industry-accredited Information Technology degrees featuring paid co-op work terms. Indian students master enterprise cloud management, network administration, and cybersecurity while accessing up to 3 years of Post-Graduation Work Permit (PGWP) eligibility."
   ],
-  "overview": [
-    "The usage, administration, creation, and security of computer systems, software, networks, databases, and digital infrastructure are the main topics of information technology (IT). It equips students to assist firms with data management, cybersecurity, cloud platforms, information systems, and technology solutions.",
-    "Information Systems, Applied Computing, Network Engineering, Cybersecurity, Cloud Computing, and IT Management** are among the fields in which Canada provides **undergraduate and postgraduate Information Technology programs, Following secondary school, students have the option of pursuing a bachelor's degree or a master's degree after earning an appropriate undergraduate degree.",
-    "Before choosing a program, students should evaluate the course material, hands-on training, co-ops, tuition costs, entrance requirements, and career results."
+  overview: [
+    "Studying Information Technology in Canada provides international students with applied, industry-aligned training at the intersection of enterprise business operations and modern digital infrastructure. Canadian institutions emphasize hands-on competency across enterprise networking, hybrid cloud deployment, relational and distributed database administration, and operational cyber defense.",
+    "Canadian universities and technological institutes deliver 4-year Bachelor of Information Technology (BIT) and 1- to 2-year Master of Science in Information Technology (MSc IT) or Applied Computing programs. Curricula feature structured cooperative education (co-op) terms, enabling students to gain 12 to 16 months of paid industry experience managing enterprise networks, IT service desk operations, and secure cloud migrations across major tech corridors in Toronto, Vancouver, Montreal, and Ottawa.",
+    "Graduates of Canadian IT programs step directly into high-demand roles such as Cloud Infrastructure Specialist, Database Administrator, IT Systems Consultant, and Cybersecurity Analyst. Under Immigration, Refugees and Citizenship Canada (IRCC) regulations, graduates of qualifying full-time post-secondary degree programs at designated learning institutions (DLIs) may be eligible for a Post-Graduation Work Permit (PGWP) for up to three years (the exact duration depends on program length, institution eligibility, and meeting language and study conditions). While university degree graduates are exempt from specific field-of-study restrictions, PGWP issuance is not automatic and requires meeting all IRCC status, study continuity, and application requirements."
   ],
   "level": "Undergraduate & Postgraduate",
   "crumb": "Technology & Computing",

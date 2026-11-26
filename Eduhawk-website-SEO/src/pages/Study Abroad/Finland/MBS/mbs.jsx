@@ -17,9 +17,9 @@ const page = {
   title: "MBS in Finland for International Students | Edu-Hawk Worldwide",
   description: "Study MBS (Master of Business Studies / M.Sc. in Business) in Finland: Explore top universities (Aalto, LUT, UEF, Metropolia), English-taught programmes, tuition fees, eligibility, and careers.",
   keywords: "Master of Business Studies in Finland, MBS in Finland for international students, Business master’s programmes in Finland, Study business in Finland, Business management courses in Finland, Cost of studying business in Finland",
-  introTitle: "Master of Business Studies (MBS) in Finland",
-  heroParas: [
-    "A **[Master of Business Studies (MBS) in Finland](/study-abroad/finland/mbs)** is a useful search term for students looking to pursue advanced education in business management, finance, marketing, entrepreneurship and international business. However, Finnish universities generally award qualifications under official titles such as Master of Science in Economics and Business Administration or Master of Business Administration (MBA) rather than a degree specifically titled MBS."
+  "introTitle": "MBS in Finland for Indian Students",
+  "heroParas": [
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Finland, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore post-graduation residence permit options for employment under Finnish immigration regulations."
   ],
   overview: [
     "Finland offers English-taught business master’s programmes with a strong focus on analytical thinking, international markets, sustainable business practices and practical projects.",

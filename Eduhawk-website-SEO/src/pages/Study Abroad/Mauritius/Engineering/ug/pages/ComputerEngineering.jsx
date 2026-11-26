@@ -156,22 +156,22 @@ const page = {
       "lead": "Explore leading universities and institutions in Mauritius offering accredited Computer Engineering (UG) programmes, modern campuses, and international student support.",
       "unis": [
         {
-          "name": "\\. VIT Mauritius",
-          "location": "\\. VIT Mauritius",
+          "name": ". VIT Mauritius",
+          "location": ". VIT Mauritius",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Offers a four-year Bachelor of Engineering (Honours) in Computer Engineering, with related specialisations in Data Science and Artificial Intelligence and Machine Learning. The programme includes programming, electrical and electronics engineering, embedded systems and a final-year project or internship.",
           "img": uniImg1
         },
         {
-          "name": "\\. University of Mauritius",
-          "location": "\\. University of Mauritius",
+          "name": ". University of Mauritius",
+          "location": ". University of Mauritius",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Offers related computing and engineering programmes, including Computer Science, Applied Computing and Software Engineering. These are alternatives to investigate if you are open to a computing-focused degree rather than a dedicated computer engineering qualification.",
           "img": uniImg2
         },
         {
-          "name": "\\. University of Technology, Mauritius",
-          "location": "\\. University of Technology, Mauritius",
+          "name": ". University of Technology, Mauritius",
+          "location": ". University of Technology, Mauritius",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Students can investigate related technology and computing courses. Confirm the current programme catalogue before treating any course as a direct computer engineering degree. VIT Mauritius is the clearest direct computer engineering option identified in the official programme listings. The University of Mauritius and University of Technology, Mauritius, are included as related alternatives, not as confirmed providers of the same degree. Students comparing **Computer Engineering Universities in Mauritius** should distinguish dedicated computer engineering degrees from related computing programmes.",
           "img": uniImg3
@@ -179,22 +179,22 @@ const page = {
       ],
       "unis_data": [
         {
-          "name": "\\. VIT Mauritius",
-          "location": "\\. VIT Mauritius",
+          "name": ". VIT Mauritius",
+          "location": ". VIT Mauritius",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Offers a four-year Bachelor of Engineering (Honours) in Computer Engineering, with related specialisations in Data Science and Artificial Intelligence and Machine Learning. The programme includes programming, electrical and electronics engineering, embedded systems and a final-year project or internship.",
           "img": uniImg1
         },
         {
-          "name": "\\. University of Mauritius",
-          "location": "\\. University of Mauritius",
+          "name": ". University of Mauritius",
+          "location": ". University of Mauritius",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Offers related computing and engineering programmes, including Computer Science, Applied Computing and Software Engineering. These are alternatives to investigate if you are open to a computing-focused degree rather than a dedicated computer engineering qualification.",
           "img": uniImg2
         },
         {
-          "name": "\\. University of Technology, Mauritius",
-          "location": "\\. University of Technology, Mauritius",
+          "name": ". University of Technology, Mauritius",
+          "location": ". University of Technology, Mauritius",
           "fee": "MUR 160,000 \u2013 350,000 / Year",
           "desc": "Students can investigate related technology and computing courses. Confirm the current programme catalogue before treating any course as a direct computer engineering degree. VIT Mauritius is the clearest direct computer engineering option identified in the official programme listings. The University of Mauritius and University of Technology, Mauritius, are included as related alternatives, not as confirmed providers of the same degree. Students comparing **Computer Engineering Universities in Mauritius** should distinguish dedicated computer engineering degrees from related computing programmes.",
           "img": uniImg3
@@ -488,22 +488,22 @@ const page = {
   ],
   "universities": [
     {
-      "name": "\\. VIT Mauritius",
-      "location": "\\. VIT Mauritius",
+      "name": ". VIT Mauritius",
+      "location": ". VIT Mauritius",
       "fee": "MUR 160,000 \u2013 350,000 / Year",
       "desc": "Offers a four-year Bachelor of Engineering (Honours) in Computer Engineering, with related specialisations in Data Science and Artificial Intelligence and Machine Learning. The programme includes programming, electrical and electronics engineering, embedded systems and a final-year project or internship.",
       "img": uniImg1
     },
     {
-      "name": "\\. University of Mauritius",
-      "location": "\\. University of Mauritius",
+      "name": ". University of Mauritius",
+      "location": ". University of Mauritius",
       "fee": "MUR 160,000 \u2013 350,000 / Year",
       "desc": "Offers related computing and engineering programmes, including Computer Science, Applied Computing and Software Engineering. These are alternatives to investigate if you are open to a computing-focused degree rather than a dedicated computer engineering qualification.",
       "img": uniImg2
     },
     {
-      "name": "\\. University of Technology, Mauritius",
-      "location": "\\. University of Technology, Mauritius",
+      "name": ". University of Technology, Mauritius",
+      "location": ". University of Technology, Mauritius",
       "fee": "MUR 160,000 \u2013 350,000 / Year",
       "desc": "Students can investigate related technology and computing courses. Confirm the current programme catalogue before treating any course as a direct computer engineering degree. VIT Mauritius is the clearest direct computer engineering option identified in the official programme listings. The University of Mauritius and University of Technology, Mauritius, are included as related alternatives, not as confirmed providers of the same degree. Students comparing **Computer Engineering Universities in Mauritius** should distinguish dedicated computer engineering degrees from related computing programmes.",
       "img": uniImg3

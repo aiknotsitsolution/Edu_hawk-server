@@ -22,7 +22,7 @@ const page = {
   "keywords": "Study BBS in Sweden, BBS in Sweden for Indian Students, Best Universities in Sweden, Sweden BBS Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide",
   "introTitle": "BBS in Sweden for Indian Students",
   "heroParas": [
-    "A **Bachelor of Business Studies (BBS)** is an undergraduate degree for students interested in **business administration, marketing, finance, economics, entrepreneurship, and management**. Sweden offers several related bachelor's programmes for international students, including Indian students who want to develop business knowledge in an international academic environment."
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Sweden, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore post-study residence permits to seek employment under Swedish migration policy."
   ],
   "overview": [
     "However, the exact degree title **BBS** may not be available at every Swedish university. Similar undergraduate programmes are commonly offered under titles such as **Business and Economics, International Business, and International Management**.",

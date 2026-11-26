@@ -18,13 +18,13 @@ const page = {
   "keywords": "Study Computer Science in Spain, Computer Science in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Indian Students Study Computer Engineering in Spain",
   "heroParas": [
-    "Computer Engineering in Spain for Indian Students provides great academic opportunities at bachelor's and master's level. The fundamental and advanced topics covered by these programs are computer hardware, software development, computer architecture, operating systems, computer networks, embedded systems, cybersecurity, artificial intelligence, and cloud computing."
-  ],
+    "Study Computer Science in Spain across vibrant technological hubs in Barcelona and Madrid, offering Bologna-compliant European degrees and a high quality of life. International students gain modern software skills and access a 1-year post-study job search residence permit."
+],
   "overview": [
-    "Computer Engineering in Spain for Indian Students provides great academic opportunities at bachelor's and master's level. The fundamental and advanced topics covered by these programs are computer hardware, software development, computer architecture, operating systems, computer networks, embedded systems, cybersecurity, artificial intelligence, and cloud computing. Students may choose to study for an undergraduate degree, to gain the basic engineering skills, or to go on to postgraduate study to specialize in the advanced computing technologies. Students who want to Study Computer Engineering in Spain can select programs that mix theoretical knowledge with practical technical training.",
-    "A Bachelor's in Computer Engineering in Spain lasts four years and is worth 240 ECTS credits. The duration of a Master's in Computer Engineering typically ranges from one to two years, varying based on the university, the structure of the program, and the credit requirements. The language of instruction will be either English or Spanish depending on the program chosen.",
-    "Edu-Hawk Worldwide can help Indian students in selecting the right university, knowing the admission requirements and planning their study journey in Spain. Students searching for Computer Engineering Courses in Spain are given information on the selection of the suitable undergraduate and postgraduate courses."
-  ],
+    "Spain is rapidly emerging as one of Southern Europe's most attractive technology and innovation centers, featuring bustling startup clusters and major tech events in Barcelona and Madrid. Studying Computer Science in Spain provides Indian students with high-quality European university degrees compliant with the Bologna Process.",
+    "Spanish universities and polytechnics deliver 4-year Grado (Bachelor's) and 1- to 2-year Máster programs in Computer Science and Software Engineering. The curriculum emphasizes object-oriented programming, cloud computing, cybersecurity architecture, web applications, and data science, supported by reasonable tuition fees and multicultural university campuses.",
+    "International graduates in Spain can apply for a 12-month post-study residence permit for job seeking or entrepreneurship (Permiso de Residencia para Búsqueda de Empleo). This permit enables graduates to transition into professional technology employment across Spain's expanding software, financial, and digital services sectors."
+],
   "level": "Bachelor & Master of Science",
   "crumb": "Technology & Computing",
   "stats": [

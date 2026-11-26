@@ -18,13 +18,13 @@ const page = {
   "description": "Study Information Technology in Spain: Top universities, English-taught programs, tuition fees (€2,000–€18,000/yr), scholarships, eligibility criteria, and post-study work permit opportunities.",
   "keywords": "Study Information Technology in Spain, Information Technology in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "IT in Spain for Indian Students",
-  "heroParas": [
-    "Information Technology in Spain for Indian Students provides a chance to become an expert in software development, database management, cloud computing, cybersecurity, networking, information systems, and digital transformation."
+  heroParas: [
+    "Study Information Technology in Spain across vibrant technological hubs in Barcelona and Madrid, offering Bologna-compliant European degrees and high quality of life. Indian students master enterprise cloud, database, and network management alongside a 12-month post-study job search permit."
   ],
-  "overview": [
-    "Information Technology in Spain for Indian Students provides a chance to become an expert in software development, database management, cloud computing, cybersecurity, networking, information systems, and digital transformation. Undergraduate and postgraduate programs at Spanish universities cover computing and technology, providing students with basic IT skills or allowing them to specialize in advanced digital technologies. Students who want to Study Information Technology in Spain can explore programs that combine theoretical knowledge with practical learning.",
-    "Bachelor's in Information Technology programs in Spain take about four years on average, depending on the structure of the degree. A Master's in Information Technology generally takes 1 to 2 years to complete. Some universities offer these subjects under Computer Science, Information Systems, Software Engineering or Telecommunications. Students should compare program content rather than just the course name.",
-    "Edu-Hawk Worldwide helps Indian students to explore the right programs, know the university requirements and plan their study journey in Spain. Students looking for Information Technology Courses in Spain can receive guidance in exploring suitable undergraduate and postgraduate options."
+  overview: [
+    "Spain is rapidly emerging as a leading southern European digital tech and telecommunications gateway, with thriving enterprise technology centers in Madrid, Barcelona, and Valencia. Studying Information Technology in Spain provides Indian students with Bologna-compliant education combining foundational computing theory with practical enterprise systems administration.",
+    "Spanish public and private universities deliver English-taught and bilingual Bachelor's (4 years, 240 ECTS) and Master's (1 to 2 years, 60–120 ECTS) degrees in Information Technology and Information Systems Management. Programs cover enterprise cloud operations, network security, database administration, and IT service delivery, providing students with direct corporate connections and accessible annual tuition (€1,500 to €6,500/year).",
+    "International graduates in Spain can apply for a 12-month non-renewable post-study residence permit for job seeking or entrepreneurship (Permiso de Residencia para Búsqueda de Empleo, Law 14/2013 / EU Directive 2016/801). This permit allows graduates holding accredited Level 6, 7, or 8 qualifications to transition smoothly into skilled employment as Systems Administrators, Network Specialists, and Cloud Operations Analysts across Spain's digital sector."
   ],
   "level": "Bachelor & Master of Science",
   "crumb": "Technology & IT",
@@ -409,7 +409,7 @@ const page = {
             "Local transport.",
             "Medical insurance.",
             "Books and academic publications.",
-            "Cost of student visa.",
+            "Student Visa Fees & Requirements",
             "Personal and other living expenses."
           ]
         },

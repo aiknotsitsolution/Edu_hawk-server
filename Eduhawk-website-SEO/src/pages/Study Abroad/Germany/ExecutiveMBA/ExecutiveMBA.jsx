@@ -20,9 +20,9 @@ const page = {
   title: "Executive MBA in Germany for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to Executive MBA (EMBA) in Germany for working professionals: Top triple-accredited business schools, flexible modular formats, eligibility, tuition fees, and senior executive career advancement.",
   keywords: "Study Executive MBA in Germany for Indian Students, Best Executive MBA Universities in Germany, Executive MBA Courses and Specialisations in Germany, Executive MBA Eligibility Requirements in Germany, Executive MBA Admission Requirements for International Students in Germany, Executive MBA Work Experience Requirements in Germany, Executive MBA Without GMAT in Germany, Executive MBA Tuition Fees in Germany, Executive MBA Scholarships and Employer Sponsorship in Germany, Career Opportunities After Executive MBA in Germany, Executive MBA Graduate Salary in Germany, Executive MBA for Working Professionals in Germany, Germany Visa Requirements for Indian Executive MBA Students",
-  introTitle: "Why Study an Executive MBA in Germany?",
-  heroParas: [
-    "Germany is a premier destination for experienced managers seeking an Executive Master of Business Administration (EMBA), designed to accelerate strategic leadership, corporate innovation, and international executive influence."
+  "introTitle": "Executive MBA in Germany for Indian Students",
+  "heroParas": [
+    "Accelerate your C-suite trajectory with an accredited Executive MBA in Germany, blending industrial management precision, digital transformation, and strategic corporate governance. Experienced managers develop advanced executive capabilities in Europe's economic powerhouse."
   ],
   overview: [
     "The German Executive MBA is specifically tailored for seasoned managers and high-potential leaders seeking to refine their strategic decision-making, corporate governance, and transformational leadership capabilities.",

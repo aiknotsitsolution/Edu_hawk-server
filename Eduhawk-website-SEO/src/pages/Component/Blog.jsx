@@ -20,7 +20,6 @@ import {
 
 import {
   Search,
-  Sparkles,
   BookOpen,
   ArrowRight,
   Clock,
@@ -464,7 +463,7 @@ const Blog = () => {
 
             <div className="relative z-10 flex min-h-[340px] flex-col items-center justify-center px-6 py-14 text-center text-white">
               <span className="mb-4 inline-flex items-center gap-1.5 rounded-full border border-amber-300/30 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-amber-300 backdrop-blur-md">
-                <Sparkles size={14} className="text-amber-400" />
+                
                 Free Admission Evaluation
               </span>
 

@@ -20,10 +20,12 @@ const page = {
   "keywords": "Information Technology in Italy, Study IT in Italy, Best IT Universities in Italy, Bachelor's in IT Italy, Master's in IT Italy",
   "introTitle": "IT in Italy for Indian Students",
   heroParas: [
-    "Information Technology in Italy delivers comprehensive training in cloud architecture, enterprise data systems, web development, and digital security at world-renowned European universities."
+    "Study Information Technology in Italy at historic polytechnics and public research universities with affordable tuition fees and regional DSU scholarship opportunities. Indian students gain accredited European qualifications in network engineering and a 12-month post-study job search permit."
   ],
   overview: [
-    "Yes. Students who have completed Class 12 or equivalent are eligible to apply for Bachelor's programs in Information Engineering or related IT fields, subject to academic, language and selection requirements."
+    "Italy combines historic academic prestige with modern industrial innovation, particularly across its Northern manufacturing, aerospace, and commercial technology belts. Studying Information Technology in Italy offers Indian students rigorous, European-accredited education focused on enterprise computing systems, network telecommunications, and industrial digital transformation.",
+    "Italian polytechnics and public universities deliver English-taught 3-year Bachelor's (Laurea) and 2-year Master of Science (Laurea Magistrale) programs in Information Technology and Telecommunications Engineering. Studies focus on enterprise network administration, cloud infrastructure, database systems, and industrial cybersecurity, with very affordable public tuition (€1,000 to €4,000/year) and widespread eligibility for need-based regional DSU scholarships.",
+    "Graduates of Italian universities obtain credentials fully recognized throughout the European Higher Education Area (EHEA). Non-EU Master's and doctoral graduates are eligible to apply for a 12-month post-study residence permit (Permesso di Soggiorno per Ricerca Lavoro o Imprenditorialità, Art. 39-bis.1 TUI) to seek skilled IT employment across Italy's Northern industrial technology corridor and European enterprise networks."
   ],
   "level": "Undergraduate & Postgraduate",
   "crumb": "Technology & Computing",

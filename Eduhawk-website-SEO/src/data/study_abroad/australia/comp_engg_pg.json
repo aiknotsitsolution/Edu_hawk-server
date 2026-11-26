@@ -5,8 +5,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Australia's postgraduate computer engineering program",
-    "subtitle": "Advanced computing systems, computer hardware, software integration, embedded systems, networking, and intelligent technologies are the main topics of postgraduate computer engineering studies in Australia . These courses assist students in gaining technical proficiency for jobs in telecommunications, electronics, computing, and other technology-related fields.",
+    "title": "Master's in Computer Engineering in Australia for Indian Students",
+    "subtitle": "Earn an Engineers Australia accredited Master of Engineering in Computer Systems across prestigious Go8 universities, mastering advanced microelectronics, autonomous robotics, and up to 3 years of post-study stay-back under the AI-ECTA agreement.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/australia/comp_engg_pg_Monash_University-image1.png"
   },
@@ -36,28 +36,16 @@
     "medium": "English"
   },
   "overview": [
-    "Advanced computing systems, computer hardware, software integration, embedded systems, networking, and intelligent technologies are the main topics of postgraduate computer engineering studies in Australia . These courses assist students in gaining technical proficiency for jobs in telecommunications, electronics, computing, and other technology-related fields.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
+    "Postgraduate Computer Engineering in Australia equips graduate engineers with advanced technical and research leadership to architect next-generation computing hardware, sensor platforms, and intelligent embedded networks. Australian universities integrate rigorous academic coursework with large-scale engineering research projects in modern electronic nanofabrication and embedded computing laboratories.",
+    "Australian institutions deliver 2-year Master of Engineering (Computer / Telecommunications) degrees accredited by Engineers Australia and aligned with international Washington Accord standards. Specialized study areas include Advanced Digital Logic, Embedded Linux & RTOS, IoT Hardware Architecture, Neural Network Hardware Acceleration, and Wireless System-on-Chip Design, culminating in a comprehensive master's research thesis or corporate industry project.",
+    "Graduates enter rewarding careers as Senior Embedded Systems Engineers, Silicon Verification Specialists, and Hardware Infrastructure Consultants across major technology hubs like Sydney, Melbourne, and Brisbane. Under the Australian Department of Home Affairs Temporary Graduate visa (Subclass 485 – Post-Higher Education Work stream), eligible Indian passport holders benefit from enhanced stay-back under the Australia-India AI-ECTA agreement: 3 years for Master's graduates (coursework or research), 3 years for Bachelor's with First Class Honours in STEM/ICT, 2 years for standard Bachelor's, and up to 4 years for doctoral graduates (standard age limit is 35 or under, with statutory exceptions up to under 50 for eligible Master's by research and doctoral degree holders; grant is non-automatic)."
   ],
   "sections": [
     {
       "slot": "overview",
       "eyebrow": "Course Scope",
       "title": "OVERVIEW OF THE COURSE",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Advanced computing systems, computer hardware, software integration, embedded systems, networking, and intelligent technologies are the main topics of postgraduate computer engineering studies in Australia . These courses assist students in gaining technical proficiency for jobs in telecommunications, electronics, computing, and other technology-related fields."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
-          ]
-        }
-      ]
+      "groups": []
     },
     {
       "slot": "why-study",
@@ -78,7 +66,7 @@
         {
           "t": "p",
           "items": [
-            "3. COMMON COURSE CHOICES"
+            "COMMON COURSE CHOICES"
           ]
         },
         {
@@ -108,7 +96,7 @@
         {
           "t": "p",
           "items": [
-            "4. COMPUTER ENGINEERING SKILLS"
+            "COMPUTER ENGINEERING SKILLS"
           ]
         },
         {
@@ -229,7 +217,7 @@
         {
           "t": "p",
           "items": [
-            "7. LANGUAGE AND ENGLISH REQUIREMENTS"
+            "LANGUAGE AND ENGLISH REQUIREMENTS"
           ]
         },
         {
@@ -253,7 +241,7 @@
         {
           "t": "p",
           "items": [
-            "8. EXAMS FOR ENTRANCE"
+            "EXAMS FOR ENTRANCE"
           ]
         },
         {
@@ -581,7 +569,7 @@
         {
           "t": "p",
           "items": [
-            "Edu Hawk Worldwide Consultancy helps Indian students organize their postgraduate studies in Australia."
+            ""
           ]
         },
         {

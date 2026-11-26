@@ -1,34 +1,34 @@
 {
   "hero": {
-    "title": "Bachelor’s and Master’s in Information Technology in Mauritius for Indian Students",
-    "subtitle": "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications."
+    "title": "Study Information Technology in Mauritius for Indian Students",
+    "subtitle": "Discover quality, affordable Information Technology education in Mauritius at internationally affiliated universities and branch campuses from the UK, France, and Australia. Indian students benefit from a safe, multicultural environment, low living costs, and straightforward visa processing."
   },
   "overview": [
-    "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifications.",
-    "Studying in Mauritius offers Indian students a unique blend of British, French, and Australian curriculum degrees in a multicultural, English-speaking, safe island paradise with affordable living costs.",
-    "Edu Hawk Worldwide Consultancy assists Indian students through direct university applications, Mauritius student visa processing without complicated interviews, accommodation support, and global credit transfer pathways."
+    "Mauritius has established itself as the leading technology and financial services hub for the Indian Ocean and African region, hosting modern data centers and international business operations. Studying Information Technology in Mauritius provides Indian students with cost-effective access to internationally accredited British, French, and Australian degree programs within an English-speaking, tropical environment.",
+    "Mauritian public research universities and international branch campuses offer diverse undergraduate (3 to 4 years) and postgraduate (1 to 2 years) programs in Information Technology, Network Engineering, and Information Systems Management. Students develop hands-on expertise in network administration, enterprise cloud services, database management, and IT helpdesk operations, preparing for immediate employment across regional financial and technology centers.",
+    "With competitive annual tuition fees (typically $2,500 to $8,500 USD), affordable student accommodation, and a streamlined visa application process with no embassy interviews, Mauritius represents an accessible, high-value destination. Upon graduation, international students can transition into employment through the Economic Development Board (EDB) Young Professional Occupation Permit (YPOP) or standard Occupation Permit schemes subject to qualifying employer sponsorship."
   ],
   "universities": [
     {
       "name": "University of Mauritius (UoM)",
-      "location": "Réduit, Mauritius",
-      "fee": "$2,500 – $4,500 / Year",
+      "location": "R\u00e9duit, Mauritius",
+      "fee": "$2,500 \u2013 $4,500 / Year",
       "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
       "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
       "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
     },
     {
-      "name": "Université des Mascareignes (UdM)",
+      "name": "Universit\u00e9 des Mascareignes (UdM)",
       "location": "Beau-Bassin, Mauritius",
-      "fee": "$2,000 – $4,000 / Year",
+      "fee": "$2,000 \u2013 $4,000 / Year",
       "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
       "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
-      "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+      "desc": "Partnered with Universit\u00e9 de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
     },
     {
       "name": "Middlesex University Mauritius",
       "location": "Flic-en-Flac, Mauritius",
-      "fee": "$5,500 – $8,500 / Year",
+      "fee": "$5,500 \u2013 $8,500 / Year",
       "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
       "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
       "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
@@ -36,7 +36,7 @@
     {
       "name": "Curtin Mauritius",
       "location": "Moka, Mauritius",
-      "fee": "$5,000 – $8,000 / Year",
+      "fee": "$5,000 \u2013 $8,000 / Year",
       "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
       "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
       "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
@@ -51,24 +51,24 @@
       "unis": [
         {
           "name": "University of Mauritius (UoM)",
-          "location": "Réduit, Mauritius",
-          "fee": "$2,500 – $4,500 / Year",
+          "location": "R\u00e9duit, Mauritius",
+          "fee": "$2,500 \u2013 $4,500 / Year",
           "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
           "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
           "desc": "UoM is the premier public research university of Mauritius, offering internationally recognized undergraduate and postgraduate degrees in science, engineering, and agriculture."
         },
         {
-          "name": "Université des Mascareignes (UdM)",
+          "name": "Universit\u00e9 des Mascareignes (UdM)",
           "location": "Beau-Bassin, Mauritius",
-          "fee": "$2,000 – $4,000 / Year",
+          "fee": "$2,000 \u2013 $4,000 / Year",
           "img": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
           "image": "/uploads/study_abroad/mauritius/maur_BBA_image1.png",
-          "desc": "Partnered with Université de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
+          "desc": "Partnered with Universit\u00e9 de Limoges (France), UdM delivers dual European-Mauritian accredited diplomas with bilingual instruction and industry internships."
         },
         {
           "name": "Middlesex University Mauritius",
           "location": "Flic-en-Flac, Mauritius",
-          "fee": "$5,500 – $8,500 / Year",
+          "fee": "$5,500 \u2013 $8,500 / Year",
           "img": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
           "image": "/uploads/study_abroad/mauritius/maur_BBA_image2.png",
           "desc": "A branch campus of Middlesex University London, delivering British honors degrees with global validation, modern coastal campus, and international faculty."
@@ -76,7 +76,7 @@
         {
           "name": "Curtin Mauritius",
           "location": "Moka, Mauritius",
-          "fee": "$5,000 – $8,000 / Year",
+          "fee": "$5,000 \u2013 $8,000 / Year",
           "img": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
           "image": "/uploads/study_abroad/mauritius/maur_Architecture_image1.png",
           "desc": "An international campus of Curtin University Australia, providing accredited Australian business, IT, and humanities degrees in state-of-the-art facilities."
@@ -87,8 +87,8 @@
   ],
   "faqs": [],
   "seo": {
-    "title": "Bachelor’s and Master’s in Information Technology in Mauritius for Indian Students | Edu-Hawk Worldwide",
-    "description": "Explore top internationally affiliated universities and leading higher education campuses in Mauritius offering British, French, and Australian degree qualifica",
+    "title": "Study Information Technology in Mauritius for Indian Students | Edu-Hawk Worldwide",
+    "description": "Discover quality, affordable Information Technology education in Mauritius at internationally affiliated universities and branch campuses from the UK, Fran",
     "keywords": "Study in Mauritius, Top Universities in Mauritius, Edu Hawk Worldwide"
   }
 }

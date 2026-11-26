@@ -17,7 +17,7 @@ const page = {
   "keywords": "Study Executive MBA in Spain, Executive MBA in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "Executive MBA in Spain for Indian Students",
   "heroParas": [
-    "The Executive MBA in Spain for Indian Students is a postgraduate management program designed for working professionals, experienced managers, entrepreneurs and business leaders who want to upgrade their leadership and strategic decision-making skills."
+    "Elevate your management capabilities with an Executive MBA in Spain at globally ranked business schools known for entrepreneurial leadership and international strategy. Experienced executives gain transformative strategic frameworks in vibrant corporate centres such as Madrid and Barcelona."
   ],
   "overview": [
     "The Executive MBA in Spain for Indian Students is a postgraduate management program designed for working professionals, experienced managers, entrepreneurs and business leaders who want to upgrade their leadership and strategic decision-making skills.",

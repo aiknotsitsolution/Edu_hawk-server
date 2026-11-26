@@ -20,10 +20,10 @@ const page = {
   title: "Study MBA in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study MBA in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study MBA in Switzerland, MBA in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland MBA Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
-  introTitle: "MBA in Switzerland for Indian Students",
-  heroParas: [
-    "**MBA in Switzerland for Indian Students** gives opportunities to experience international business, leadership skills and build professional networks."
-],
+  "introTitle": "MBA in Switzerland for Indian Students",
+  "heroParas": [
+    "Pursue a prestigious MBA in Switzerland, Europe's premier destination for multinational corporate headquarters, private banking, and international governance. International students acquire advanced executive leadership acumen and global commercial networks."
+  ],
   overview: [
     "Switzerland is internationally renowned for academic excellence, state-of-the-art research infrastructure, and world-class faculty. Studying MBA provides Indian students with cutting-edge theoretical foundations and strong practical exposure.",
     "Graduates benefit from degrees accredited across Europe and globally, offering excellent career pathways in Switzerland, Europe, and international markets."
@@ -94,7 +94,7 @@ const page = {
       slot: "universities",
       eyebrow: "Top Institutions",
       title: "Best Universities and Business Schools for an MBA in Switzerland",
-      lead: "Explore leading Swiss universities offering accredited MBA programs, modern facilities, and global career pathways.",
+      lead: "Swiss business schools offer world-class management curricula taught in high-caliber international settings with unmatched corporate immersion in banking, hospitality, pharmaceuticals, and global trade.",
       unis: [
         {
           name: "MBA Universities in Switzerland",

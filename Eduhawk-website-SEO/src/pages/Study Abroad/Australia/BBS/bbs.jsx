@@ -21,9 +21,9 @@ const page = {
   title: "Study BBS in Australia for Indian Students | Edu-Hawk Worldwide",
   description: "Study Bachelor of Business Studies (BBS) in Australia for Indian students. Compare top universities (Wollongong, UTS, La Trobe, QUT), admission requirements, fees, and career outcomes.",
   keywords: "",
-  introTitle: "Indian students studying in Australia for a Bachelor of Business Studies (BBS)",
-  heroParas: [
-    "Not all Australian universities provide the precise title of Bachelor of Business Studies. Related degrees including the Bachelor of Business, Bachelor of Business Administration, and Bachelor of Commerce are available to students."
+  "introTitle": "BBS in Australia for Indian Students",
+  "heroParas": [
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Australia, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules."
   ],
   overview: [
     "Q2. How long does BBS last in Australia?",

@@ -25,8 +25,12 @@ const branch = {
       design projects, and professional internship placements.
     </>
   ),
-  heroSub:
-    "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey.",
+  heroSub: "Pursue an ABET-accredited Bachelor of Science in Computer Engineering in the United States, bridging digital hardware design, embedded systems, and systems programming across elite tech universities and Silicon Valley innovation clusters.",
+  overview: [
+    "Undergraduate Computer Engineering in the United States provides a rigorous academic foundation integrating electrical engineering principles with computer science fundamentals. Students investigate the physical and logical architectures of computing systems, learning to design microprocessors, develop embedded hardware, and interface complex digital circuits with modern operating systems.",
+    "American universities deliver 4-year Bachelor of Science (BS) in Computer Engineering and Electrical & Computer Engineering (ECE) programs featuring intensive laboratory curricula. Undergraduates master digital logic design, computer organization, FPGA synthesis using VHDL/Verilog, microcontrollers (ARM and RISC-V), and low-level C/C++ systems programming, participating in multidisciplinary engineering capstone projects with corporate industry mentors.",
+    "Graduates of U.S. undergraduate computer engineering programs enter high-growth careers as Embedded Firmware Engineers, Hardware Design Engineers, ASIC Verification Specialists, and Systems Software Developers. Under U.S. immigration regulations, F-1 visa graduates of qualifying STEM-designated Bachelor's degrees can access up to 36 months of Optional Practical Training (12 months standard OPT plus a 24-month STEM extension), working with E-Verify employers under approved Form I-983 mentorship."
+  ],
 
   whyLead: ["Principal advantages encompass:"],
   whyPoints: [
@@ -37,9 +41,7 @@ const branch = {
     "Diverse academic trajectories and **cross-disciplinary educational approaches**.",
     "Comprehensive career pathways spanning **hardware architecture**, **software systems**, **semiconductor engineering**, and computational technologies.",
   ],
-  whyNote: [
-    "Edu Hawk worldwide assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey..",
-  ],
+  whyNote: [],
 
   coursesLead: [
     "Undergraduate students possess the opportunity to pursue academic programs encompassing **computer hardware**, **digital systems**, **software**, and **computer architecture** disciplines.",

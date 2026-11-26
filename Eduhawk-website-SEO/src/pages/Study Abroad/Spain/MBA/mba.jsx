@@ -17,7 +17,7 @@ const page = {
   "keywords": "Study MBA in Spain, MBA in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "MBA in Spain for Indian Students",
   "heroParas": [
-    "If you are an Indian student and you want to do an MBA in Spain , you will get the opportunity to gain the skills that are essential for leadership, strategic thinking, finance management, marketing, entrepreneurship, and international business."
+    "Earn an internationally accredited MBA in Spain at world-class European business schools renowned for entrepreneurship and global corporate strategy. International students develop multilingual business expertise and explore post-study work opportunities under Spanish immigration regulations."
   ],
   "overview": [
     "If you are an Indian student and you want to do an MBA in Spain , you will get the opportunity to gain the skills that are essential for leadership, strategic thinking, finance management, marketing, entrepreneurship, and international business. Spain has business schools and universities that offer MBA programs for students who want to advance their careers, move into management or start their own companies.",

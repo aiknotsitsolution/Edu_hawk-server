@@ -6,8 +6,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Italy",
-    "title": "Executive MBA Italy for Indian Students",
-    "subtitle": "The Executive MBA in Italy for Indian Students is for working professionals, experienced managers, entrepreneurs and business leaders who want to boost their leadership and strategic management skills while continuing their career progression. Executive education in Italian business schools covers business strategy, finance, marketing, innovation, organizational leadership and international management.",
+    "title": "Executive MBA in Italy for Indian Students",
+    "subtitle": "Enhance your executive leadership with an Executive MBA in Italy, combining strategic management rigor with Mediterranean business innovation and luxury enterprise strategy. Experienced managers acquire advanced governance capabilities in a dynamic European commercial centre.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/italy/executive_mba_Luiss_Business_School-image3.png"
   },
@@ -107,7 +107,8 @@
             "An Executive MBA is usually best suited to people who already have a career in business and want to advance it, rather than to those who are just starting a business career."
           ]
         }
-      ]
+      ],
+      "lead": "Italian Executive MBA programs emphasize strategic decision-making, design thinking, and international business management for forward-thinking corporate executives."
     },
     {
       "slot": "programs",

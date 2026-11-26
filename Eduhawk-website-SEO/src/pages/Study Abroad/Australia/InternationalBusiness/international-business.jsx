@@ -21,9 +21,9 @@ const page = {
   title: "Study International Business in Australia for Indian Students | Edu-Hawk Worldwide",
   description: "Study International Business in Australia. Explore top business universities (RMIT, UWA, Monash, Sydney), cross-border trade, global strategy, fees, and career pathways.",
   keywords: "Study International Business in Australia International Business in Australia for Indian Students Study Bachelor of International Business in Australia Study Master of International Business in Australia International Business Courses in Australia International Business After 12th in Australia Study International Business in Australia After Graduation International Business in Australia with Scholarships International Business at Australian Universities International Business in Australia - Fees and Admission Requirements",
-  introTitle: "International Business in Australia for Indian Students",
-  heroParas: [
-    "A business-focused academic discipline, international business examines how businesses function in global marketplaces. Global supply chains, international trade, international marketing, cross-cultural management, international financing, and corporate strategy are all covered."
+  "introTitle": "International Business in Australia for Indian Students",
+  "heroParas": [
+    "Pursue an accredited degree in International Business in Australia, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules."
   ],
   overview: [
     "Students gain knowledge about how businesses enter overseas markets, oversee worldwide operations, form multinational alliances, and adapt to cultural, legal, and economic disparities.",

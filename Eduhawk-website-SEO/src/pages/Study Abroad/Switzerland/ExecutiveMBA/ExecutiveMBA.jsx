@@ -20,10 +20,10 @@ const page = {
   title: "Study Executive MBA in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study Executive MBA in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study Executive MBA in Switzerland, Executive MBA in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland Executive MBA Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
-  introTitle: "1\\. Why do an Executive MBA in Switzerland?",
-  heroParas: [
-    "Switzerland is an attractive destination for experienced professionals seeking to improve their leadership, strategic thinking and business management skills. The Executive MBA (EMBA) in Switzerland is aimed at working professionals, managers, entrepreneurs and senior executives who wish to advance their careers while still working. Students will have the opportunity to experience international business, develop leadership skills, build networks, and gain insight into global sectors including finance, consulting, technology, pharmaceuticals and luxury brand management."
-],
+  "introTitle": "Executive MBA in Switzerland for Indian Students",
+  "heroParas": [
+    "Attain world-class executive stature with an Executive MBA in Switzerland, Europe's premier hub for global business leadership, private banking, and multinational enterprise. Senior executives gain transformative management vision and access elite global business networks."
+  ],
   overview: [
     "An **Executive MBA in Switzerland for Indian Students** can be beneficial for Indian professionals seeking to advance their leadership skills and acquire a global business perspective. **Edu-Hawk Worldwide** can help applicants find the right executive education options. **Executive MBA in Switzerland** is a good option for Indian students who are professionals and want to enhance their management skills and explore international business opportunities. **Executive MBA in Switzerland for Indian Students** also provides an opportunity to understand international business practices and develop professional networks."
 ],

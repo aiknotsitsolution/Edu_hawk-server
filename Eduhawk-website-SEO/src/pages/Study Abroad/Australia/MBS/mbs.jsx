@@ -21,9 +21,9 @@ const page = {
   title: "Study MBS in Australia for Indian Students | Edu-Hawk Worldwide",
   description: "Study Master of Business Studies (MBS) in Australia for Indian students. Learn about top universities (ANU, Wollongong, UTS, QUT), fees, eligibility, and post-study opportunities.",
   keywords: "Study Master of Business Studies in Australia for Indian Students Study Business Studies in Australia: Best Universities and Fees Study Master's in Business in Australia with Scholarships Study Business Studies in Australia: Eligibility and Admission Requirements Study Business Management and Commerce in Australia for Indian Students Study Business Studies in Australia: Career Opportunities After Graduation Study Business Studies in Australia: IELTS and GMAT Requirements Study Business Studies in Australia: Admission Process and Student Visa",
-  introTitle: "Indian Students Pursuing a Master of Business Studies in Australia",
-  heroParas: [
-    "Developing knowledge of business operations, management, finance, marketing, organizational strategy, and decision-making is the main goal of the Master of Business Studies (MBS), a postgraduate-level business degree."
+  "introTitle": "MBS in Australia for Indian Students",
+  "heroParas": [
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Australia, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules."
   ],
   overview: [
     "The Master of Business, Master of Commerce, Master of Management, and specialized business master's degrees are examples of Australian postgraduate programs that offer comparable business education to students interested in this sector.",

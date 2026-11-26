@@ -21,11 +21,13 @@ const page = {
   "description": "Study Information Technology in Sweden: Top universities, course duration, tuition fees in SEK & INR, eligibility criteria, admission process & visa requirements for Indian students.",
   "keywords": "Study Information Technology in Sweden, Information Technology in Sweden for Indian Students, Best Universities in Sweden, Sweden Information Technology Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide",
   "introTitle": "Information Technology in Sweden for Indian Students",
-  "heroParas": [
-    "Comprehensive guide to studying Information Technology in Sweden for Indian students."
+  heroParas: [
+    "Join Sweden's world-famous tech innovation ecosystem at top-ranked institutes of technology like KTH and Chalmers. Indian students master sustainable enterprise IT infrastructure, cloud architectures, and access post-study residence permits to seek skilled employment."
   ],
-  "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Information Technology in Sweden."
+  overview: [
+    "Sweden is globally celebrated as an innovation and digital technology powerhouse, pioneering sustainable cloud computing, green data centers, and advanced telecommunications. Studying Information Technology in Sweden provides Indian students with direct exposure to an egalitarian, English-speaking professional culture committed to open-source innovation, system resilience, and enterprise digital sustainability.",
+    "Leading Swedish institutions—including KTH Royal Institute of Technology, Chalmers University of Technology, and the University of Gothenburg—deliver world-class English-taught Master's degrees in Information Technology, Network Services, and Enterprise Information Systems. Curricula emphasize distributed cloud platforms, enterprise network security, database administration, and digital service management, backed by close partnerships with Sweden's telecommunications and software giants.",
+    "Under Swedish Migration Agency (Migrationsverket) regulations, international graduates completing an accredited Bachelor's or Master's degree in Sweden can apply for a post-study residence permit for up to 12 months to seek employment or explore business startup opportunities, provided they satisfy self-sufficiency maintenance funds (SEK 10,656/month for applications submitted in 2026) and comprehensive health insurance requirements. Doctoral graduates may be granted up to 18 months for job seeking, or can apply for Swedish permanent residency if they have held doctoral study permits for at least 4 of the past 7 years, completed their PhD, and satisfy statutory employment, income self-sufficiency, and conduct criteria."
   ],
   "level": "B.Sc. & M.Sc. in IT",
   "crumb": "Information Technology",

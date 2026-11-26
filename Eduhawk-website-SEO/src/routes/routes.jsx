@@ -989,224 +989,41 @@ export const router = createBrowserRouter([
       },
 
       {
-        path: "/courses/mbbs",
-        element: <MbbsAbroad />,
-      },
-      {
-        path: "/courses/medical-abroad",
-        element: <MedicalAbroad />,
-      },
-      {
-        path: "/courses/dentistry",
-        element: <DentistryAbroad />,
-      },
-      {
-        path: "/courses/nursing",
-        element: <NursingAbroad />,
-      },
-
-       {
-        path: "/courses/pharmacy",
-        element: <PharmacyAbroad />,
-      },
-
-
-
-       {
-        path: "/courses/physiotherapy",
-        element: <PhysiotherapyAbroad />,
-      },
-
-
-       {
-        path: "courses/public-health",
-        element: <PublicHealthAbroad />,
-      },
-
-      {
-        path: "courses/biotechnology",
-        element: <BiotechnologyAbroad />,
-      },
-
-
-      
-      {
-        path: "courses/engineering",
-        element: <Engineering/>,
-      },
-      {
-        path: "courses/computer-science",
-        element: <ComputerScienceUSA />,
-      },
-      {
         path: "study-abroad/usa/computer-science",
         element: <ComputerScienceUSA />,
-      },
-      {
-        path: "courses/information-technology",
-        element: <InformationTechnologyUSA />,
       },
       {
         path: "study-abroad/usa/information-technology",
         element: <InformationTechnologyUSA />,
       },
-
-         {
-        path: "courses/business-management",
-        element: <BusinessManagementAbroad/>,
-      },
-
-
-        {
-        path: "courses/mba",
-        element: <MbaAbroad/>,
-      },
-      {
-        path: "courses/mbs",
-        element: <MbsAbroad/>,
-      },
-      {
-        path: "courses/bba",
-        element: <BbaAbroad/>,
-      },
-      {
-        path: "courses/bbs",
-        element: <BbsAbroad/>,
-      },
-      {
-        path: "courses/executive-mba",
-        element: <ExecutiveMbaAbroad/>,
-      },
-      {
-        path: "courses/international-business",
-        element: <InternationalBusinessAbroad/>,
-      },
-      {
-        path: "courses/marketing-management",
-        element: <MarketingManagementAbroad/>,
-      },
-      {
-        path: "courses/hospitality-management",
-        element: <HospitalityManagementAbroad/>,
-      },
-      {
-        path: "courses/architecture",
-        element: <ArchitectureAbroad/>,
-      },
-      {
-        path: "courses/law",
-        element: <LawAbroad/>,
-      },
       {
         path: "study-abroad/language-courses",
-        element: <LanguageCoursesAbroad/>,
+        element: <LanguageCoursesAbroad />,
       },
       {
         path: "study-abroad/summer-courses",
-        element: <SummerCoursesAbroad/>,
+        element: <SummerCoursesAbroad />,
       },
       {
         path: "study-abroad/winter-courses",
-        element: <WinterCoursesAbroad/>,
+        element: <WinterCoursesAbroad />,
       },
       {
         path: "study-abroad/working-professionals",
         element: <ExecutiveMbaAbroad />,
-      },
-
-       {
-        path: "courses/accounting-finance",
-        element: <AccountingFinance/>,
-      },
-
-      {
-        path: "courses/ug/engineering",
-        element: <UndergraduateEngineering />,
       },
       {
         path: "study-abroad/usa/ug/engineering",
         element: <UndergraduateEngineering />,
       },
       {
-        path: "courses/ug/computer-engineering",
-        element: <ComputerEngineeringUG />,
-      },
-      {
-        path: "courses/ug/mechanical-engineering",
-        element: <MechanicalEngineeringUG />,
-      },
-      {
-        path: "courses/ug/civil-engineering",
-        element: <CivilEngineeringUG />,
-      },
-      {
-        path: "courses/ug/electrical-engineering",
-        element: <ElectricalEngineeringUG />,
-      },
-      {
-        path: "courses/ug/electronics-communication",
-        element: <ElectronicsCommunicationUG />,
-      },
-      {
-        path: "courses/ug/chemical-engineering",
-        element: <ChemicalEngineeringUG />,
-      },
-      {
-        path: "courses/ug/aerospace-engineering",
-        element: <AerospaceEngineeringUG />,
-      },
-      {
-        path: "courses/ug/biomedical-engineering",
-        element: <BiomedicalEngineeringUG />,
-      },
-      {
-        path: "courses/ug/automobile-engineering",
-        element: <AutomobileEngineeringUG />,
-      },
-
-      {
-        path: "courses/pg/engineering",
-        element: <PostgraduateEngineering />,
-      },
-      {
         path: "study-abroad/usa/pg/engineering",
         element: <PostgraduateEngineering />,
       },
+      // Safe redirect for any legacy /courses URLs
       {
-        path: "courses/pg/computer-engineering",
-        element: <ComputerEngineeringPG />,
-      },
-      {
-        path: "courses/pg/mechanical-engineering",
-        element: <MechanicalEngineeringPG />,
-      },
-      {
-        path: "courses/pg/civil-engineering",
-        element: <CivilEngineeringPG />,
-      },
-      {
-        path: "courses/pg/electrical-engineering",
-        element: <ElectricalEngineeringPG />,
-      },
-      {
-        path: "courses/pg/electronics-communication",
-        element: <ElectronicsCommunicationPG />,
-      },
-      {
-        path: "courses/pg/chemical-engineering",
-        element: <ChemicalEngineeringPG />,
-      },
-      {
-        path: "courses/pg/aerospace-engineering",
-        element: <AerospaceEngineeringPG />,
-      },
-      {
-        path: "courses/pg/biomedical-engineering",
-        element: <BiomedicalEngineeringPG />,
-      },
-      {
-        path: "courses/pg/automobile-engineering",
-        element: <AutomobileEngineeringPG />,
+        path: "courses/*",
+        element: <Navigate to="/study-abroad" replace />,
       },
 
 
@@ -3502,18 +3319,7 @@ export const routeList = [
   "/services",
   "/contact",
   "/allcollege",
-  "/courses/mbbs",
-  "/courses/medical-abroad",
-  "/courses/dentistry",
-  "/courses/nursing",
-  "/courses/pharmacy",
-  "/courses/physiotherapy",
-  "/courses/public-health",
-  "/courses/biotechnology",
-  "/courses/engineering",
-  "/courses/computer-science",
   "/study-abroad/usa/computer-science",
-  "/courses/information-technology",
   "/study-abroad/usa/information-technology",
   "/study-abroad/usa/ug/engineering",
   "/study-abroad/usa/pg/engineering",
@@ -3556,42 +3362,10 @@ export const routeList = [
   "/study-abroad/usa/pg/aerospace-engineering",
   "/study-abroad/usa/pg/biomedical-engineering",
   "/study-abroad/usa/pg/automobile-engineering",
-  "/courses/business-management",
-  "/courses/mba",
-  "/courses/mbs",
-  "/courses/bba",
-  "/courses/bbs",
-  "/courses/executive-mba",
-  "/courses/international-business",
-  "/courses/marketing-management",
-  "/courses/hospitality-management",
-  "/courses/architecture",
-  "/courses/law",
   "/study-abroad/language-courses",
   "/study-abroad/summer-courses",
   "/study-abroad/winter-courses",
   "/study-abroad/working-professionals",
-  "/courses/accounting-finance",
-  "/courses/ug/engineering",
-  "/courses/ug/computer-engineering",
-  "/courses/ug/mechanical-engineering",
-  "/courses/ug/civil-engineering",
-  "/courses/ug/electrical-engineering",
-  "/courses/ug/electronics-communication",
-  "/courses/ug/chemical-engineering",
-  "/courses/ug/aerospace-engineering",
-  "/courses/ug/biomedical-engineering",
-  "/courses/ug/automobile-engineering",
-  "/courses/pg/engineering",
-  "/courses/pg/computer-engineering",
-  "/courses/pg/mechanical-engineering",
-  "/courses/pg/civil-engineering",
-  "/courses/pg/electrical-engineering",
-  "/courses/pg/electronics-communication",
-  "/courses/pg/chemical-engineering",
-  "/courses/pg/aerospace-engineering",
-  "/courses/pg/biomedical-engineering",
-  "/courses/pg/automobile-engineering",
   // Finland Routes
   "/study-abroad/finland/architecture",
   "/study-abroad/finland/bba",
