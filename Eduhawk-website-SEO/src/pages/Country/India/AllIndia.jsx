@@ -6108,7 +6108,7 @@ const AllIndia = () => {
   return (
     <>
       <SeoHead
-        title={cmsData?.seo?.title || "MBBS Colleges in India 2026-27 | Government & Private Medical College List"}
+        title={cmsData?.seo?.title || "MBBS Colleges in IndiaGovernment & Private Medical College List"}
         description={cmsData?.seo?.description || "Explore MBBS colleges across India by state, management type (Government, Private, Trust, Society) and seat matrix. Complete guidance for NEET-UG aspirants."}
         keywords={cmsData?.seo?.keywords || "mbbs in india, medical colleges in india, aiims, govt medical colleges, neet ug counselling"}
         path="/allcollege"
@@ -6124,9 +6124,6 @@ const AllIndia = () => {
 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-14 relative z-10">
             <div className="text-center max-w-4xl mx-auto">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-amber-300 text-xs sm:text-sm font-semibold tracking-wide uppercase mb-4 shadow-sm">
-                <span>AY 2026-27 Admission Directory</span>
-              </div>
               <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight text-white uppercase leading-tight">
                 State Wise MBBS Colleges & Seats
               </h1>
