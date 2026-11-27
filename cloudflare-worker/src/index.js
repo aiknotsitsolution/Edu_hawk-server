@@ -23,7 +23,9 @@ const ALLOWED_ORIGINS = new Set([
   "http://127.0.0.1:5173",
   "http://127.0.0.1:3000",
   "localhost:5173",
-  "localhost:3000"
+  "localhost:3000",
+  "https://demo.decapcms.org",
+  "demo.decapcms.org"
 ]);
 
 const OAUTH_AUTHORIZE_URL = "https://github.com/login/oauth/authorize";
@@ -220,7 +222,7 @@ export default {
 function renderPostMessageHtml(status, content, targetOrigin) {
   const contentString = JSON.stringify(content);
   const message = `authorization:github:${status}:${contentString}`;
-  const originConstraint = targetOrigin && targetOrigin !== "*" ? targetOrigin : "*";
+  const originConstraint = "*";
 
   const html = `<!doctype html>
 <html lang="en">
