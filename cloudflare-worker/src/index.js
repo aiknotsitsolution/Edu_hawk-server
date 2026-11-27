@@ -14,10 +14,16 @@ const ALLOWED_ORIGINS = new Set([
   "https://www.eduhawk.in",
   "https://edu-hawkstudyabbroad2.vercel.app",
   "https://eduhawkwebsite.vercel.app",
+  "eduhawk.in",
+  "www.eduhawk.in",
+  "edu-hawkstudyabbroad2.vercel.app",
+  "eduhawkwebsite.vercel.app",
   "http://localhost:5173",
   "http://localhost:3000",
   "http://127.0.0.1:5173",
-  "http://127.0.0.1:3000"
+  "http://127.0.0.1:3000",
+  "localhost:5173",
+  "localhost:3000"
 ]);
 
 const OAUTH_AUTHORIZE_URL = "https://github.com/login/oauth/authorize";
@@ -76,16 +82,22 @@ export default {
       // Origin validation
       let targetOrigin = null;
       if (siteId) {
+        let normalized = siteId.trim();
+        if (!normalized.startsWith("http://") && !normalized.startsWith("https://")) {
+          normalized = (normalized.includes("localhost") || normalized.includes("127.0.0.1"))
+            ? `http://${normalized}`
+            : `https://${normalized}`;
+        }
         try {
-          const parsed = new URL(siteId);
+          const parsed = new URL(normalized);
           targetOrigin = parsed.origin;
         } catch {
-          targetOrigin = siteId;
+          targetOrigin = normalized;
         }
       }
 
       // Check against strict allowlist
-      if (!targetOrigin || !ALLOWED_ORIGINS.has(targetOrigin)) {
+      if (!targetOrigin || (!ALLOWED_ORIGINS.has(targetOrigin) && !ALLOWED_ORIGINS.has(siteId))) {
         return new Response(`Forbidden: Origin '${targetOrigin}' is not in the EduHawk allowed origins list.`, {
           status: 403,
           headers: { "Content-Type": "text/plain" }
