@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead.jsx";
+import { RelatedStudyAbroadCourses } from "../../../../component/CoursePageKit.jsx";
 import publicHealthData from "../../../../data/study_abroad/usa/public_health.json";
 
 const PublicHealth = () => {
@@ -43,7 +44,7 @@ const PublicHealth = () => {
     ? publicHealthData.stats.map((s) => ({ label: s.l, value: s.n }))
     : [
         { label: "Programs", value: "BPH, MPH, MSPH, DrPH & PhD options" },
-        { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
+        { label: "Country", value: "United States (USA)" },
         { label: "Support", value: "Complete guidance from profile to arrival" },
         { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
       ];
@@ -565,7 +566,7 @@ const PublicHealth = () => {
                 <span className="mx-1.5">›</span> Public Health
               </div>
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-300 mb-3">
-                Study Public Health · Abroad
+                Study Public Health · USA
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
@@ -619,7 +620,7 @@ const PublicHealth = () => {
               At a glance
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Public Health Abroad at a glance
+              Public Health in the USA at a glance
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -1431,15 +1432,17 @@ const PublicHealth = () => {
                 Book free counselling
               </a>
               <a
-                href="tel:+917632949984"
+                href="tel:+919630736070"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
               >
-                Call +91 76329 49984
+                Call +91 96307 36070
               </a>
             </div>
           </div>
         </div>
       </section>
+
+      <RelatedStudyAbroadCourses seoPath="/study-abroad/usa/public-health" country="USA" />
     </div>
   );
 };

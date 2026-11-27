@@ -15,7 +15,7 @@ import uniImg4 from "../../../../Images/Abroad/Germany/PublicHealth/Research_opp
 import cmsData from "../../../../data/study_abroad/germany/public_health.json";
 
 const page = {
-  name: "Public Health in Germany",
+  name: "Public Health",
   country: "Germany",
   slug: "public-health",
   title: "Public Health in Germany for Indian Students | Edu-Hawk Worldwide",

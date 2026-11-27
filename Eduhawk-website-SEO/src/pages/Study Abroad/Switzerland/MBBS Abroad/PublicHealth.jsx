@@ -162,7 +162,7 @@ const page = {
           name: "University of Zurich",
           location: "Zurich | Programme-dependent",
           fee: "CHF 1,000 \u2013 CHF 4,000 / Year",
-          desc: "Participates in the joint Master of Public Health programme. Its wider academic environment may also be relevant to applicants interested in epidemiology, health services, and population-health research. Which programme should you consider? The University of Geneva\u2019s MSc in Global Health is a full-time, English-taught option open to applicants from different academic backgrounds. The joint Master of Public Health is primarily designed for professionals who already have a master\u2019s-level qualification and relevant work experience. These are different pathways, so compare their eligibility rules before applying.",
+          desc: "Participates in the joint Master of Public Health programme and offers an MSc in Global Health alongside research in epidemiology, health services, and population health.",
           img: uniImg3
         }
       ],
@@ -481,7 +481,7 @@ const page = {
         "a": "Possible career paths include public health research, epidemiology, health policy, programme management, health data analysis, and work with NGOs or international health organisations. Employment depends on your qualifications, experience, language skills, and work authorisation."
     }
 ],
-  faqTitle: "11. Frequently Asked Questions"
+  faqTitle: "Frequently Asked Questions About Public Health in Switzerland"
 };
 
 export default function PublicHealthSwitzerland() {

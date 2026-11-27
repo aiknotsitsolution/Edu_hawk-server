@@ -20,14 +20,14 @@ const page = {
   keywords: "Study Public Health in Finland, Public Health in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland",
   introTitle: "Public Health in Finland",
   heroParas: [
-    "**[Study Public Health in Finland](/courses/mbbs)** to learn from a world-renowned Nordic healthcare and research system that places strong national emphasis on disease prevention, health promotion, and evidence-based policy making."
+    "**[Study Public Health in Finland](/study-abroad/finland/public-health)** to learn from a world-renowned Nordic healthcare and research system that places strong national emphasis on disease prevention, health promotion, and evidence-based policy making."
   ],
   overview: [
     "For Indian students, an English-taught **Public Health Master's in Finland** offers comprehensive education in epidemiology, global health, health policy, nutritional health, and environmental health. The curriculum prepares graduates to address pressing population-level healthcare challenges across international NGOs, government agencies, and research institutes.",
     "Finland offers internationally oriented, English-taught programmes such as the **Master's Degree Programme in Public Health** at the **University of Eastern Finland (UEF)**, a 2-year, 120 ECTS programme. With **[Edu-Hawk Worldwide](/services)**, students can explore international education opportunities and receive guidance on university selection, eligibility, documentation, and admission planning."
   ],
   level: "Master's & Post-Graduate",
-  crumb: "MBBS Abroad",
+  crumb: "Healthcare & Public Health",
 
   stats: [
     { label: "Degree Awarded", value: "Master of Public Health (MPH)" },
@@ -45,7 +45,7 @@ const page = {
         {
           t: "p",
           items: [
-            "**[Study Public Health in Finland](/courses/mbbs)** to learn from a world-renowned Nordic healthcare and research system that places strong national emphasis on disease prevention, health promotion, and evidence-based policy making.",
+            "**[Study Public Health in Finland](/study-abroad/finland/public-health)** to learn from a world-renowned Nordic healthcare and research system that places strong national emphasis on disease prevention, health promotion, and evidence-based policy making.",
             "For Indian students, an English-taught **Public Health Master's in Finland** offers comprehensive education in epidemiology, global health, health policy, nutritional health, and environmental health. The curriculum prepares graduates to address pressing population-level healthcare challenges across international NGOs, government agencies, and research institutes.",
             "Finland offers internationally oriented, English-taught programmes such as the **Master's Degree Programme in Public Health** at the **University of Eastern Finland (UEF)**, a 2-year, 120 ECTS programme. With **[Edu-Hawk Worldwide](/services)**, students can explore international education opportunities and receive guidance on university selection, eligibility, documentation, and admission planning.",
             "**Benefits of Studying Public Health in Finland**"
@@ -361,7 +361,7 @@ const page = {
           t: "p",
           items: [
             "Graduates with clinical backgrounds (such as Indian doctors, dentists, or nurses) can combine their clinical expertise with public health management, significantly broadening international healthcare career horizons.",
-            "Explore related options like **[Dentistry in Finland](/study-abroad/finland/dentistry)**, **[Nursing in Finland](/study-abroad/finland/nursing)**, and **[MBBS Abroad](/courses/mbbs)**."
+            "Explore related options like **[Dentistry in Finland](/study-abroad/finland/dentistry)**, **[Nursing in Finland](/study-abroad/finland/nursing)**, and **[Pharmacy in Finland](/study-abroad/finland/pharmacy)**."
           ]
         }
       ]

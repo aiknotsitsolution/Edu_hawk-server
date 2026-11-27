@@ -17,12 +17,12 @@
       "desc": "Master in Public Health and Health Management from the University of Valencia The official program is 60 ECTS credits and lasts one year. The language of instruction is Spanish and therefore, Indian applicants need to check the language requirements and academic eligibility criteria before applying. Official site: Public health and health management."
     },
     {
-      "name": "University of Barcelona Autonomous",
-      "location": "Spain",
+      "name": "Universitat Autònoma de Barcelona (UAB)",
+      "location": "Barcelona, Spain",
       "fee": "€1,500 – €8,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_public_health_University_of_Barcelona_Autonomous-image2.png",
       "image": "/uploads/study_abroad/spain/spain_public_health_University_of_Barcelona_Autonomous-image2.png",
-      "desc": "The University of Granada has a Master's Degree in Research and Advances in Preventive Medicine and Public Health. The program comprises subjects in epidemiology, statistics, health promotion and disease prevention. The program is listed as 60 ECTS credits. It's worth checking out for students interested in health care research and preventive medicine. Research and Advances in Preventive Medicine and Public Health. Official website."
+      "desc": "Universitat Autònoma de Barcelona (UAB) offers an interuniversity Master's Degree in Public Health in collaboration with Pompeu Fabra University (UPF), focusing on epidemiology, health policy, biostatistics, and community health research."
     },
     {
       "name": "University of Granada",
@@ -70,51 +70,20 @@
       "lead": "Public Health in Spain for Indian Students is one area where students can find programs at different levels of academic study. Many are offered as dedicated programs at masters level with specializations in epidemiology, global health, preventive medicine and health care administration.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "CourseTypical Duration TimeSuitable For"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Bachelors in Related Health or Science Field3-4 YearsStudents After Class 12"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master of Public Health1-2 yearsGraduates of eligible disciplines"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "MSc in Epidemiology1-2 yearsStudents interested in researching diseases and data"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Preventive Medicine and Public HealthDepending on the programStudents interested in disease prevention and research"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public Health and Health Management1 year in some programsStudents interested in healthcare systems and administration"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Global Health1-2 yearsStudents interested in global health issues"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "PhD in Public Health or Related FieldUsually takes 3 to 5 yearsBest for students who want to do advanced research."
+          "t": "table",
+          "headers": [
+            "Course",
+            "Typical Duration",
+            "Suitable For"
+          ],
+          "rows": [
+            ["Bachelors in Related Health or Science Field", "3–4 Years", "Students After Class 12"],
+            ["Master of Public Health (MPH)", "1–2 years", "Graduates of eligible disciplines"],
+            ["MSc in Epidemiology", "1–2 years", "Students interested in researching diseases and data"],
+            ["Preventive Medicine and Public Health", "Depending on the program", "Students interested in disease prevention and research"],
+            ["Public Health and Health Management", "1 year in some programs", "Students interested in healthcare systems and administration"],
+            ["Global Health", "1–2 years", "Students interested in global health issues"],
+            ["PhD in Public Health or Related Field", "3 to 5 years", "Best for students who want to do advanced research"]
           ]
         },
         {
@@ -154,12 +123,12 @@
           "desc": "Master in Public Health and Health Management from the University of Valencia The official program is 60 ECTS credits and lasts one year. The language of instruction is Spanish and therefore, Indian applicants need to check the language requirements and academic eligibility criteria before applying. Official site: Public health and health management."
         },
         {
-          "name": "University of Barcelona Autonomous",
-          "location": "Spain",
+          "name": "Universitat Autònoma de Barcelona (UAB)",
+          "location": "Barcelona, Spain",
           "fee": "€1,500 – €8,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_public_health_University_of_Barcelona_Autonomous-image2.png",
           "image": "/uploads/study_abroad/spain/spain_public_health_University_of_Barcelona_Autonomous-image2.png",
-          "desc": "The University of Granada has a Master's Degree in Research and Advances in Preventive Medicine and Public Health. The program comprises subjects in epidemiology, statistics, health promotion and disease prevention. The program is listed as 60 ECTS credits. It's worth checking out for students interested in health care research and preventive medicine. Research and Advances in Preventive Medicine and Public Health. Official website."
+          "desc": "Universitat Autònoma de Barcelona (UAB) offers postgraduate programmes in Public Health, Epidemiology, and Preventive Medicine with strong hospital and research institute partnerships."
         },
         {
           "name": "University of Granada",
@@ -264,21 +233,15 @@
       "lead": "Public Health Fees in Spain is an essential consideration for Indian students planning their post graduate education budget. Tuition varies by university, program type, residency category, and academic year.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Type of InstitutionSample Annual TuitionApprox INR"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public University€1,000–€8,000₹1.09–₹8.69 lakh"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Private University€6,000–€20,000+₹5.52 lac to ₹17.72 lac+"
+          "t": "table",
+          "headers": [
+            "Type of Institution",
+            "Sample Annual Tuition",
+            "Approx. INR"
+          ],
+          "rows": [
+            ["Public University", "€1,000 – €8,000", "₹1.09 – ₹8.69 lakh"],
+            ["Private University", "€6,000 – €20,000+", "₹5.52 lakh – ₹17.72 lakh+"]
           ]
         },
         {
@@ -456,45 +419,18 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "CareerExample Gross Yearly Salary"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public Health Project Assistant€20,000–28,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public Health Research Coordinator€24,000-€36,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Health Data Analyst or Epidemiologist€25,000–€40,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Health Program Manager&pound;30,000-&pound;45,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Research or Health Policy Specialist28,000 - 45,000 €"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Senior Public Health Consultant&pound;40,000 - &pound;60,000+"
+          "t": "table",
+          "headers": [
+            "Career Role",
+            "Example Gross Yearly Salary"
+          ],
+          "rows": [
+            ["Public Health Project Assistant", "€20,000 – €28,000"],
+            ["Public Health Research Coordinator", "€24,000 – €36,000"],
+            ["Health Data Analyst or Epidemiologist", "€25,000 – €40,000"],
+            ["Health Program Manager", "€30,000 – €45,000"],
+            ["Research or Health Policy Specialist", "€28,000 – €45,000"],
+            ["Senior Public Health Consultant", "€40,000 – €60,000+"]
           ]
         },
         {
@@ -545,26 +481,14 @@
             "Passport in date.",
             "Certificate of Class 10 and Class 12 (if applicable).",
             "Certificate of Bachelor's Degree and transcripts.",
-            "Spanish certified translations, if necessary."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
-      "title": "Recognition of qualifications or equivalency documents when requested.",
-      "lead": "",
-      "groups": [
-        {
-          "t": "ul",
-          "items": [
+            "Spanish certified translations, if necessary.",
+            "Recognition of qualifications or equivalency documents when requested.",
             "Results of an English or Spanish language test.",
             "Letter of purpose/motivation.",
             "Curriculum vitae (CV) or résumé.",
             "Letters of recommendation if required.",
             "Certificates of work or research experience if any.",
-            "Supporting financial documents and the visa proof of funds;",
+            "Supporting financial documents and the visa proof of funds.",
             "Health insurance and other documents required by the Spanish visa authorities."
           ]
         },

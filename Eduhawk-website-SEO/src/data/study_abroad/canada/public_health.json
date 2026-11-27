@@ -49,7 +49,7 @@
     "medium": "English & French Taught"
   },
   "overview": [
-    "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",
+    "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",
     "Learn from universities that provide interdisciplinary training, research, and education in public health.",
     "Practical Learning: Certain public health courses in Canada offer opportunities for practical research, fieldwork, internships, and community initiatives."
   ],
@@ -92,7 +92,7 @@
       "slot": "why-study",
       "eyebrow": "Why Canada",
       "title": "Why Study Public Health in Canada ?",
-      "lead": "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs in Canada available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",
+      "lead": "Disease prevention, health promotion, epidemiology, healthcare systems, environmental health, and population well-being are among the many public health programs available in Canada. These courses equip students to comprehend public health issues and create evidence-based solutions.",
       "groups": [
         {
           "t": "h4",
@@ -163,31 +163,7 @@
         {
           "t": "p",
           "items": [
-            "McGill University"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The University of Alberta"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Waterloo University"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Saskatchewan University"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For information on available public health programs , eligibility for international students, tuition costs, course structure, and application dates, visit the official websites of each university before submitting an application. Admission requirements and program availability may differ depending on intake and qualifications."
+            "For information on available public health programs, eligibility for international students, tuition costs, course structure, and application dates, visit the official websites of each university before submitting an application. Admission requirements and program availability may differ depending on intake and qualifications."
           ]
         }
       ],
@@ -297,8 +273,8 @@
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
+      "slot": "admission-requirements",
+      "eyebrow": "Admission Requirements",
       "title": "Canada's Public Health Admission Requirements",
       "lead": "Academic credentials, English language ability, experience, and program-specific standards are all taken into consideration by universities when evaluating applications. The following could be among the admission requirements for public health in Canada for overseas students:",
       "groups": [
@@ -571,12 +547,28 @@
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Health Promotion Specialist | Creates programs to raise health consciousness and promote better habits. |",
-            "Health Policy Analyst | Investigates population health challenges, healthcare systems, and health policy. |",
-            "Research Coordinator | Oversees project activities, research documentation, and public health studies. |",
-            "Academic or University Researcher | Teaches public health or does research, frequently requiring postgraduate credentials. |"
+          "t": "table",
+          "headers": [
+            "Role",
+            "Responsibilities & Scope"
+          ],
+          "rows": [
+            [
+              "Health Promotion Specialist",
+              "Creates programs to raise health consciousness and promote better habits."
+            ],
+            [
+              "Health Policy Analyst",
+              "Investigates population health challenges, healthcare systems, and health policy."
+            ],
+            [
+              "Research Coordinator",
+              "Oversees project activities, research documentation, and public health studies."
+            ],
+            [
+              "Academic or University Researcher",
+              "Teaches public health or does research, frequently requiring postgraduate credentials."
+            ]
           ]
         },
         {
@@ -632,9 +624,9 @@
   "faq": [
     {
       "q": "After Class 12, are Indian students able to pursue a career in public health in Canada?",
-      "a": "Yes, . Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree.",
+      "a": "Yes, applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree.",
       "question": "After Class 12, are Indian students able to pursue a career in public health in Canada?",
-      "answer": "Yes, . Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree."
+      "answer": "Yes, applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree."
     },
     {
       "q": "Does studying public health in Canada require NEET?",
@@ -664,9 +656,9 @@
   "faqs": [
     {
       "q": "After Class 12, are Indian students able to pursue a career in public health in Canada?",
-      "a": "Yes, . Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree.",
+      "a": "Yes, applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree.",
       "question": "After Class 12, are Indian students able to pursue a career in public health in Canada?",
-      "answer": "Yes, . Applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree."
+      "answer": "Yes, applications for bachelor's degrees in public health, health sciences, or health studies are accepted from Indian students. The majority of MPH programs demand a bachelor's degree."
     },
     {
       "q": "Does studying public health in Canada require NEET?",

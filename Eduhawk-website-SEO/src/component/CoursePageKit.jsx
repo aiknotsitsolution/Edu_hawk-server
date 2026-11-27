@@ -3307,7 +3307,7 @@ const STUDY_ABROAD_COURSE_GROUPS = [
   },
 ];
 
-const RelatedStudyAbroadCourses = ({ seoPath = "", country = "" }) => {
+export const RelatedStudyAbroadCourses = ({ seoPath = "", country = "" }) => {
   const { pathname } = useLocation();
   const rawPath = (seoPath || pathname || "").replace(/^\/+|\/+$/g, "");
   const match = rawPath.match(/^study-abroad\/([a-z0-9-]+)\/(.+)$/i);

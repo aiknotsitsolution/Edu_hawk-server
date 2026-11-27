@@ -32,7 +32,7 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG) / 3 Years (UG)"
+      "value": "2 Years (MPH / M.Sc.) / 3 Years (UG)"
     },
     {
       "label": "Top Institutions",

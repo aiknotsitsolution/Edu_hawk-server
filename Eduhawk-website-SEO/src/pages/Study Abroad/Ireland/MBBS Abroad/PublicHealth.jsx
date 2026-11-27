@@ -194,17 +194,48 @@ const page = {
           ]
         },
         {
-          t: "p",
-          items: [
-            "| Expense Category | Annual Indicative Cost Range | Key Budgeting Notes |",
-            "| :--- | :--- | :--- |",
-            "| **Full-Time MPH Tuition (UCC)** | €16,700 / year (2026–2027) | Plus standard non-EU fee charge (€210) |",
-            "| **Full-Time MPH Tuition (Galway / RCSI)** | €17,500 – €24,000 / year | 1-year full-time postgraduate curriculum |",
-            "| **Student Living Expenses (Cork / Galway)** | €9,500 – €13,000 / year | Accommodation, food, transit, and utilities |",
-            "| **Student Living Expenses (Dublin)** | €12,000 – €16,000 / year | Moderate to higher private/student housing rentals |",
-            "| **Books & Study Software** | €300 – €500 / year | Digital textbook subscriptions and statistical software |",
-            "| **Private Health Insurance** | €160 – €300 / year | Mandatory international student medical insurance policy |",
-            "| **Irish Residence Permit (IRP)** | €300 registration fee | Mandatory immigration registration fee upon arrival |"
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Annual Indicative Cost Range",
+            "Key Budgeting Notes"
+          ],
+          rows: [
+            [
+              "**Full-Time MPH Tuition (UCC)**",
+              "€16,700 / year (2026–2027)",
+              "Plus standard non-EU fee charge (€210)"
+            ],
+            [
+              "**Full-Time MPH Tuition (Galway / RCSI)**",
+              "€17,500 – €24,000 / year",
+              "1-year full-time postgraduate curriculum"
+            ],
+            [
+              "**Student Living Expenses (Cork / Galway)**",
+              "€9,500 – €13,000 / year",
+              "Accommodation, food, transit, and utilities"
+            ],
+            [
+              "**Student Living Expenses (Dublin)**",
+              "€12,000 – €16,000 / year",
+              "Moderate to higher private/student housing rentals"
+            ],
+            [
+              "**Books & Study Software**",
+              "€300 – €500 / year",
+              "Digital textbook subscriptions and statistical software"
+            ],
+            [
+              "**Private Health Insurance**",
+              "€160 – €300 / year",
+              "Mandatory international student medical insurance policy"
+            ],
+            [
+              "**Irish Residence Permit (IRP)**",
+              "€300 registration fee",
+              "Mandatory immigration registration fee upon arrival"
+            ]
           ]
         },
         {

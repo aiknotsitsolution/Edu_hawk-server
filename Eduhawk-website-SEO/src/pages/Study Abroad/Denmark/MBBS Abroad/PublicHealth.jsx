@@ -28,7 +28,7 @@ const page = {
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Public Health."
   ],
   "level": "Master of Public Health (MPH)",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Public Health",
   "stats": [
     {
       "val": "DKK 60K-130K",
@@ -39,7 +39,7 @@ const page = {
       "label": "Medium of Study"
     },
     {
-      "val": "3-4 Years",
+      "val": "3 Years (BSc) / 2 Years (MPH)",
       "label": "Course Duration"
     },
     {
