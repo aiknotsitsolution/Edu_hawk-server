@@ -28,7 +28,7 @@ const page = {
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Biotechnology."
   ],
   "level": "Bachelor & Master of Biotechnology",
-  "crumb": "MBBS Abroad",
+  "crumb": "Science & Biotechnology",
   "stats": [
     {
       "val": "DKK 60K-130K",

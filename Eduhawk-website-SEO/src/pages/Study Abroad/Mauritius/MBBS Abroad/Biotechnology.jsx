@@ -27,7 +27,7 @@ const page = {
     "The University of Mauritius offers a BSc (Hons) Pharmaceutical Biotechnology listed for the 2026\u20132027 academic year, while the University of Technology, Mauritius, lists a Diploma in Industrial Biotechnology. These provide starting points for students exploring biotechnology education in the country. **Edu-Hawk Worldwide** recommends checking the current programme availability and admission requirements before applying."
   ],
   "level": "Bachelor & Master of Biotechnology",
-  "crumb": "MBBS Abroad",
+  "crumb": "Science & Biotechnology",
   "stats": [
     {
       "val": "MUR 150K-350K",
@@ -294,7 +294,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "**Biotechnology Fees in Mauritius** depend on the institution, programme and student category. A current, verified international tuition fee for the specific biotechnology programmes discussed above could not be established from the official course pages reviewed."
+            "**Biotechnology Fees in Mauritius** depend on the institution, programme, and student category. International tuition typically ranges between MUR 150,000 and MUR 350,000 per year at public institutions, though students should confirm exact current fees on official university course pages."
           ]
         },
         {

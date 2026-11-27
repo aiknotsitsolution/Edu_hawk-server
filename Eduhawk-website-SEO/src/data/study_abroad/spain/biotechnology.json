@@ -10,27 +10,27 @@
   "universities": [
     {
       "name": "Universidad Autónoma de Madrid",
-      "location": "Spain",
+      "location": "Madrid, Spain",
       "fee": "€1,500 – €8,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
       "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
-      "desc": "It offers a one-year Master's in Biotechnology and 60 ECTS credits. The teaching languages of the program are Spanish and English. Aims: Professional development and research preparation. Master of Biotechnology Official Website These are examples of relevant programs; they are not a ranking. Always check the latest intake, course language, fees and eligibility directly with each university. Edu-Hawk Worldwide helps students explore international university options and plan their study abroad journey according to their academic background and future goals."
+      "desc": "Offers a one-year Master's in Biotechnology (60 ECTS) taught in Spanish and English, focusing on molecular research, biopharmaceutical development, and industry preparation."
     },
     {
       "name": "Universitat Autònoma de Barcelona",
-      "location": "Spain",
+      "location": "Barcelona, Spain",
       "fee": "€1,500 – €8,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_Aut_noma_de_Barcelona-image3.png",
       "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_Aut_noma_de_Barcelona-image3.png",
-      "desc": "Offers a 4 year Bachelor's Degree in Biotechnology, worth 240 ECTS credits. The course includes biological sciences, molecular biotechnology, industrial applications and environmental sustainability. Teaching is mainly in Catalan and Spanish, with some in English. Official site: Degree in Biotechnology"
+      "desc": "Offers a 4-year Bachelor's Degree in Biotechnology (240 ECTS) and specialized postgraduate tracks covering molecular genetics, microbial bioprocessing, and industrial biotechnology."
     },
     {
       "name": "Universitat de Barcelona",
-      "location": "Spain",
+      "location": "Barcelona, Spain",
       "fee": "€1,500 – €8,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
       "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
-      "desc": "Offers a 4 year Bachelor's Degree in Biotechnology, worth 240 ECTS credits. The course includes biological sciences, molecular biotechnology, industrial applications and environmental sustainability. Teaching is mainly in Catalan and Spanish, with some in English. Official site: Degree in Biotechnology"
+      "desc": "One of Spain's top research universities, offering a 240-ECTS Bachelor's in Biotechnology and master's programmes in biomedical research, bioinformatics, and pharmaceutical sciences."
     }
   ],
   "sections": [
@@ -64,51 +64,16 @@
       "lead": "Biotechnology Courses in Spain are offered at both undergraduate and postgraduate levels.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "CourseNormal DurationBest Suited For"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Bachelor's in Biotechnology4 yearsStudents after Class 12"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master of Science in Biotechnology1-2 yearsDegree in biotechnology or related science"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "MSc Biomedical Biotechnology1-2 yearsStudents interested in medical/biomedical research"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master of Health Biotechnology1 year in some programsHealth care applications for graduates who are interested"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master of Science in Pharmaceutical Biotechnology1-2 yearsStudents studying drug development and pharmaceutical research"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "MSc Molecular and Cellular Biotechnology1–2 yearsStudents who are interested in molecular biology and cellular processes"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "PhD in Biotechnologies3-5 years normallyResearch students at an advanced level"
+          "t": "table",
+          "headers": ["Course", "Normal Duration", "Best Suited For"],
+          "rows": [
+            ["Bachelor's in Biotechnology", "4 years", "Students after Class 12"],
+            ["Master of Science in Biotechnology", "1–2 years", "Degree in biotechnology or related science"],
+            ["MSc Biomedical Biotechnology", "1–2 years", "Students interested in medical/biomedical research"],
+            ["Master of Health Biotechnology", "1 year (some programs)", "Healthcare applications for science graduates"],
+            ["MSc in Pharmaceutical Biotechnology", "1–2 years", "Students studying drug development and pharmaceutical research"],
+            ["MSc Molecular and Cellular Biotechnology", "1–2 years", "Students interested in molecular biology and cellular processes"],
+            ["PhD in Biotechnology", "3–5 years (typical)", "Research students at an advanced level"]
           ]
         },
         {
@@ -147,27 +112,27 @@
       "unis": [
         {
           "name": "Universidad Autónoma de Madrid",
-          "location": "Spain",
+          "location": "Madrid, Spain",
           "fee": "€1,500 – €8,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
           "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
-          "desc": "It offers a one-year Master's in Biotechnology and 60 ECTS credits. The teaching languages of the program are Spanish and English. Aims: Professional development and research preparation. Master of Biotechnology Official Website These are examples of relevant programs; they are not a ranking. Always check the latest intake, course language, fees and eligibility directly with each university. Edu-Hawk Worldwide helps students explore international university options and plan their study abroad journey according to their academic background and future goals."
+          "desc": "Offers a one-year Master's in Biotechnology (60 ECTS) taught in Spanish and English, focusing on molecular research, biopharmaceutical development, and industry preparation."
         },
         {
           "name": "Universitat Autònoma de Barcelona",
-          "location": "Spain",
+          "location": "Barcelona, Spain",
           "fee": "€1,500 – €8,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_Aut_noma_de_Barcelona-image3.png",
           "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_Aut_noma_de_Barcelona-image3.png",
-          "desc": "Offers a 4 year Bachelor's Degree in Biotechnology, worth 240 ECTS credits. The course includes biological sciences, molecular biotechnology, industrial applications and environmental sustainability. Teaching is mainly in Catalan and Spanish, with some in English. Official site: Degree in Biotechnology"
+          "desc": "Offers a 4-year Bachelor's Degree in Biotechnology (240 ECTS) and specialized postgraduate tracks covering molecular genetics, microbial bioprocessing, and industrial biotechnology."
         },
         {
           "name": "Universitat de Barcelona",
-          "location": "Spain",
+          "location": "Barcelona, Spain",
           "fee": "€1,500 – €8,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
           "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
-          "desc": "Offers a 4 year Bachelor's Degree in Biotechnology, worth 240 ECTS credits. The course includes biological sciences, molecular biotechnology, industrial applications and environmental sustainability. Teaching is mainly in Catalan and Spanish, with some in English. Official site: Degree in Biotechnology"
+          "desc": "One of Spain's top research universities, offering a 240-ECTS Bachelor's in Biotechnology and master's programmes in biomedical research, bioinformatics, and pharmaceutical sciences."
         }
       ]
     },
@@ -240,11 +205,19 @@
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
-      "title": "Recognition of qualifications, equivalency or translated documents upon request.",
-      "lead": "Indian students might have to follow the relevant foreign-secondary-qualification recognition and university admission procedures in Spain for undergraduate admission. The process depends on the qualifications of the applicant and the institution.",
-      "groups": []
+      "slot": "recognition",
+      "eyebrow": "Credential Recognition",
+      "title": "Recognition of Qualifications & Equivalency",
+      "lead": "Indian students may need to follow Spain's foreign secondary-qualification recognition and university admission procedures for undergraduate entry, depending on their qualifications and institution.",
+      "groups": [
+        {
+          "t": "ul",
+          "items": [
+            "Verify whether UNEDassis or institutional credential evaluation is required for your Class 12 board.",
+            "Provide certified Spanish translations and apostilled copies of academic transcripts upon request."
+          ]
+        }
+      ]
     },
     {
       "slot": "tuition",
@@ -253,27 +226,17 @@
       "lead": "Biotechnology Fees in Spain vary by university, program, region and student fee category.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Type of UniversitySample Annual TuitionApprox. in INR p.a."
+          "t": "table",
+          "headers": ["Type of University", "Sample Annual Tuition", "Approx. in INR p.a."],
+          "rows": [
+            ["Public University", "€1,000 – €8,000", "₹1.09 – ₹8.69 lakh"],
+            ["Private University", "€6,000 – €15,000+", "₹6.52 – ₹16.29 lakh+"]
           ]
         },
         {
           "t": "p",
           "items": [
-            "Public university€1,000–€8,000₹1.09-₹8.69 lakh"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Private University€6,000 - €15,000+₹6.52 - ₹16.29 lakh+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are broad planning estimates, not guarantyd fees. Some universities charge non-EU students a different rate and some courses may fall outside of these ranges."
+            "These are broad planning estimates, not guaranteed fees. Some universities charge non-EU students a different rate and some courses may fall outside of these ranges."
           ]
         },
         {
@@ -361,51 +324,21 @@
       "lead": "Biotechnology degrees can lead to careers in research, pharmaceuticals, healthcare technology, agriculture, food science, and industrial production.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Job TitleIllustrative Gross Annual Base Salary"
+          "t": "table",
+          "headers": ["Job Title", "Illustrative Gross Annual Base Salary"],
+          "rows": [
+            ["Laboratory Technician", "€20,000 – €28,000"],
+            ["Biotechnology Research Assistant", "€22,000 – €32,000"],
+            ["Quality Control Analyst", "€23,000 – €34,000"],
+            ["Bioprocess / Production Specialist", "€25,000 – €38,000"],
+            ["Research Scientist", "€28,000 – €45,000"],
+            ["Senior Biotechnology Specialist", "€40,000 – €60,000+"]
           ]
         },
         {
           "t": "p",
           "items": [
-            "Laboratory Technician€20,000-€28,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Biotechnology Research Assistant22,000 - 32,000 €"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Quality Control Analyst€23,000-€34,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Bioprocess/Production Specialist€25,000 - €38,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Research Scientist28000-45000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Senior Biotechnology Specialist€40,000 – €60,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are broad, illustrative salary ranges; they are not verified salary statistics or guarantyd earnings. Salaries will depend on location, employer, experience, specialization and qualifications. Master's or PhD may be required for research scientist and senior positions."
+            "These are broad, illustrative salary ranges; they are not verified salary statistics or guaranteed earnings. Salaries will depend on location, employer, experience, specialization and qualifications. Master's or PhD may be required for research scientist and senior positions."
           ]
         },
         {

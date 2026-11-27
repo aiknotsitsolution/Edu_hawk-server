@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import SeoHead from "../../../../component/SeoHead.jsx";
+import { RelatedStudyAbroadCourses } from "../../../../component/CoursePageKit.jsx";
 import biotechnologyData from "../../../../data/study_abroad/usa/biotechnology.json";
 import sideImg from "../../../../Images/Abroad/USA/Biotechnology/side.webp";
 
@@ -642,7 +643,7 @@ const Biotechnology = () => {
               At a glance
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Biotechnology Abroad at a glance
+              Biotechnology in the USA at a glance
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -1449,6 +1450,7 @@ const Biotechnology = () => {
         </div>
       </section>
 
+      <RelatedStudyAbroadCourses seoPath="/study-abroad/usa/biotechnology" country="USA" />
     </div>
   );
 };

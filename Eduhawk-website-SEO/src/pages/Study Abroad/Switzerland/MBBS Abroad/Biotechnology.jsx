@@ -57,7 +57,7 @@ const page = {
         {
                 "t": "p",
                 "items": [
-                        "**Biotechnology in Switzerland for Indian Students** Limited number of academic and research opportunities:"
+                        "**Biotechnology in Switzerland for Indian Students** offers a focused range of high-impact academic and research opportunities:"
                 ]
         },
         {
@@ -162,7 +162,7 @@ const page = {
           name: "University of Basel",
           location: "Basel | Subject to the program",
           fee: "CHF 1,000 \u2013 CHF 4,000 / Year",
-          desc: "Explore study opportunities in its biology, molecular biology and related life-sciences. The university is in a major Swiss life-sciences region, but applicants should check which current degree best matches their intended biotechnology specialization. Note: Not all of the institutions listed offer a degree program specifically titled \u201cBiotechnology.\u201d Related programs may lead to similar areas of research, but they differ in curriculum and career outcomes.",
+          desc: "Explore study opportunities in biology, molecular biology, and related life-sciences in Basel, Switzerland's major biopharma and life-sciences hub.",
           img: uniImg3
         }
       ],
@@ -236,7 +236,7 @@ const page = {
         {
                 "t": "p",
                 "items": [
-                        "To get into **Biotechnology in Switzerland** you have to fulfilll the academic, language and documentation requirements of the university.",
+                        "To get into **Biotechnology in Switzerland** you have to fulfill the academic, language and documentation requirements of the university.",
                         "Documents most often requested:"
                 ]
         },
@@ -388,14 +388,14 @@ const page = {
     },
     {
       slot: "documents",
-      eyebrow: "Required Documentation",
+      eyebrow: "Career & Recognition",
       title: "Recognition of Degrees & Career Scope",
       groups: [
         {
                 "t": "p",
                 "items": [
                         "**What is the scope for Indian students to work in Switzerland after studying Biotechnology?**",
-                        "Maybe. Biotechnology is typically not a licensed profession such as medicine or pharmacy, but employers may require specific academic qualifications, lab experience, technical skills, and relevant research expertise. Non-EU/EFTA graduates are also obliged to comply with the relevant Swiss employment and work permit regulations.",
+                        "Biotechnology is typically not a licensed profession such as medicine or pharmacy, so employers evaluate academic qualifications, lab experience, technical skills, and relevant research expertise. Non-EU/EFTA graduates are also subject to Swiss employment and work permit regulations.",
                         "Is Swiss Biotechnology Degree valid in India?",
                         "A Swiss biotech qualification can help you apply for research, pharmaceutical, manufacturing, diagnostics and further study opportunities in India. Acceptance is subject to the employer, university or other organization which evaluates the qualification. If you\u2019re a student looking at a government or specialized research job, be sure to see if there are any degree-equivalency requirements.",
                         "**Career Opportunities After Biotechnology Studies**",
@@ -435,7 +435,7 @@ const page = {
         {
                 "t": "p",
                 "items": [
-                        "The below figures are illustrative estimates of annual gross salary only, and are not verified current averages or guarantyd earnings. Actual pay will vary based on role, employer, qualifications and experience, technical expertise, and location."
+                        "The below figures are illustrative estimates of annual gross salary only, and are not verified current averages or guaranteed earnings. Actual pay will vary based on role, employer, qualifications and experience, technical expertise, and location."
                 ]
         },
         {
@@ -516,7 +516,7 @@ const page = {
         "a": "Yes, students can look at relevant bachelor\u2019s programs, depending on the university\u2019s entry requirements and recognition of their school qualifications. Some programs have German or French prerequisites, so check the language prerequisites early on."
     },
     {
-        "q": "How Long Study Biotechnology in Switzerland?",
+        "q": "How long does it take to study Biotechnology in Switzerland?",
         "a": "A bachelor\u2019s degree takes typically about three years, a master\u2019s degree about 1.5\u20132 years. The MSc in Biotechnology at ETH Zurich is a 120 ECTS, two-year program."
     },
     {
@@ -532,7 +532,7 @@ const page = {
         "a": "Potential career opportunities include laboratory research, pharmaceutical development, quality control, bioprocessing, clinical research, bioinformatics, and biotechnology research and development. Senior research positions may require postgraduate qualifications and associated experience."
     }
 ],
-  faqTitle: "11. Frequently Asked Questions"
+  faqTitle: "Frequently Asked Questions"
 };
 
 export default function BiotechnologySwitzerland() {

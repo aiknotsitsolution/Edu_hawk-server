@@ -36,7 +36,7 @@ const page = {
     "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Biotechnology in Sweden."
   ],
   "level": "Bachelor & Master of Biotechnology",
-  "crumb": "MBBS Abroad",
+  "crumb": "Science & Biotechnology",
   "stats": [
     {
       "val": "SEK 80K-150K",
@@ -123,9 +123,9 @@ const page = {
             "At the bachelor level, students learn biology, chemistry, mathematics, genetics, microbiology and laboratory methods. Students develop scientific problem solving skills and an understanding of how biological systems can be applied to medicine, agriculture, industry and environmental applications.",
             "**Master\u2019s in Bio-Technology**",
             "The Master\u2019s programs provide students the opportunity to specialize in advanced biotechnology and related fields. Depending on the university, options may be molecular biotechnology, industrial biotechnology, medical biotechnology and bioinformatics.",
-            "**Biotechnology in Medecine**",
+            "**Biotechnology in Medicine**",
             "This is the use of biology in medicine. Topics may include the mechanisms of disease, molecular diagnosis, drug discovery, cell processes and the development of novel therapeutic approaches.",
-            "**Industrial Biotechnol.**",
+            "**Industrial Biotechnology**",
             "Industrial biotechnology is the study of how microorganisms, enzymes and biological processes can be used to produce products more efficiently. Applications include bio-based chemicals, sustainable materials, food production and renewable energy.",
             "**Molecular Biology and Gene Engineering**",
             "These fields study genes and proteins, cells and biological mechanisms. Students learn techniques used in genetic analysis, molecular research, biotechnology development, and biomedical laboratories.",
@@ -264,7 +264,7 @@ const page = {
           "t": "p",
           "items": [
             "Some courses may require a specific number of credits in math, chemistry, biology or other technical subjects. Students must read the official program page carefully and check their previous coursework satisfies these conditions.",
-            "The application period for several master's programs in biotechnology at KTH opens on 16 October 2026 and the deadline for the 2027 intake is 15 January 2027\There are other deadlines for documents and fees, so applicants should check the details for the course they wish to study. **Edu-Hawk Worldwide** can assist students in understanding the application process and **Biotechnology Admission Requirements in Sweden**."
+            "The application period for several master's programs in biotechnology at KTH opens on 16 October 2026 and the deadline for the 2027 intake is 15 January 2027. There are other deadlines for documents and fees, so applicants should check the details for the course they wish to study. **Edu-Hawk Worldwide** can assist students in understanding the application process and **Biotechnology Admission Requirements in Sweden**."
           ]
         }
       ]
@@ -280,9 +280,9 @@ const page = {
             "The total cost of studying biotechnology in Sweden will vary depending on the university, the program, accommodation and your own lifestyle. Students planning **Biotechnology in Sweden for Indian Students** should understand the expected **Biotechnology Fees in Sweden** before applying.",
             "**Tuition Fee**",
             "Students from outside the EU/EEA and Switzerland normally have to pay tuition fees, unless they qualify for an exemption. The precise amount will vary depending on the university and the course.",
-            "For a rough estimate to help with initial planning, many science and engineering master\u2019s programs might be budgeted around SEK 100,000\u2013200,000 per academic year for international students. This is only a ballpark figure and is not a guarantyd fee for all biotech programs. Check the official program fee always.",
+            "For a rough estimate to help with initial planning, many science and engineering master\u2019s programs might be budgeted around SEK 100,000\u2013200,000 per academic year for international students. This is only a ballpark figure and is not a guaranteed fee for all biotech programs. Check the official program fee always.",
             "**Cost of Living**",
-            "Students should be allowed to:"
+            "Students should also budget for:"
           ]
         },
         {
@@ -309,7 +309,7 @@ const page = {
           "items": [
             "Application fees where applicable.",
             "Tests in English language.",
-            "Go to Sweden.",
+            "Travel and arrival expenses in Sweden.",
             "Fees for residence permits, where applicable.",
             "Translation and certification of documents.",
             "Initial deposits for security."
@@ -336,7 +336,7 @@ const page = {
             "**Shortlist Universities** Compare course modules, laboratory facilities, research projects, duration of program and language of instruction.",
             "**Verify eligibility.** Check the academic requirements, the subject requirements and the English language requirements.",
             "**Prepare the paperwork.** Collect academic certificates, transcripts, identification, language-test results and other required items.",
-            "**Apply via the official portal.** Apply through the designated university admissions platform. Indicate state programs in order of preference in accordance with the relevant instructions.",
+            "**Apply via the official portal.** Apply through the designated university admissions platform (UniversityAdmissions.se). Rank your preferred programmes in order of preference in accordance with the instructions.",
             "**Submit documents and pay the required fee.** Please respect the deadlines and documentation guidelines of your application round.",
             "**See the admission decision.** If your application is successful you will need to accept your place and enroll according to the procedures of the university.",
             "**Sort out finances and immigration procedures.** Check deadlines for tuition payment, accommodation options and residence permit requirements where applicable.",
@@ -405,7 +405,7 @@ const page = {
             "**Clinical Research Professional:** Provides support to research studies and clinical development activities, depending on the qualifications of the position.",
             "**What to Expect in Terms of Salary**",
             "Biotechnology salaries in Sweden range widely depending on the position, education, experience, location and industry. Laboratory employees at the entry level may earn less than research scientists, experienced specialists and professionals in technical or managerial positions.",
-            "Students should take a look at current Swedish job ads and salary statistics for the specific job title they want to pursue, to get realistic salary expectations. A degree from a Swedish university does not guaranty a certain salary or outcome of employment."
+            "Students should take a look at current Swedish job ads and salary statistics for the specific job title they want to pursue, to get realistic salary expectations. A degree from a Swedish university does not guarantee a certain salary or employment outcome."
           ]
         }
       ]

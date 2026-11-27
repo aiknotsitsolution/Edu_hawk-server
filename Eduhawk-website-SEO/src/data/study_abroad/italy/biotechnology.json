@@ -587,7 +587,7 @@
         {
           "t": "p",
           "items": [
-            "Requisiti in lingua inglese o italiana"
+            "English or Italian language requirements"
           ]
         },
         {
@@ -636,21 +636,24 @@
       "unis": [
         {
           "name": "Milan University",
-          "location": "Italy",
+          "location": "Milan, Italy",
           "fee": "€1,000 – €4,000 / Year",
-          "image": "/uploads/study_abroad/italy/biotechnology_Milan_University-image3.png"
+          "image": "/uploads/study_abroad/italy/biotechnology_Milan_University-image3.png",
+          "desc": "Offers English-taught master's programmes in Molecular Biotechnology and Bioinformatics as well as Biotechnology for the Bioeconomy, combining genomics, proteomics, and laboratory research."
         },
         {
           "name": "University of Rome - Tor Vergata",
-          "location": "Italy",
+          "location": "Rome, Italy",
           "fee": "€1,000 – €4,000 / Year",
-          "image": "/uploads/study_abroad/italy/biotechnology_University_of_Rome_-_Tor_Vergata-image2.png"
+          "image": "/uploads/study_abroad/italy/biotechnology_University_of_Rome_-_Tor_Vergata-image2.png",
+          "desc": "Offers an English-taught Master's programme in Biotechnology for Industry and Health, focusing on biomedical applications, bioprocessing, and pharmaceutical development."
         },
         {
           "name": "Università di Bologna",
-          "location": "Italy",
+          "location": "Bologna, Italy",
           "fee": "€1,000 – €4,000 / Year",
-          "image": "/uploads/study_abroad/italy/biotechnology_Universita_di_Bologna-image1.png"
+          "image": "/uploads/study_abroad/italy/biotechnology_Universita_di_Bologna-image1.png",
+          "desc": "One of Europe's oldest research universities, offering programmes in Molecular and Industrial Biotechnology, Pharmaceutical Biotechnology, and Genomics."
         }
       ],
       "groups": []
@@ -945,21 +948,11 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "University Type Approximate Tuition fee per year Approximate INR Equivalent"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public Universities €900 - €4000 ₹97,200 - ₹4,32,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Private Institutions €6,000-€20,000+ ₹6,48,000-₹21,60,000+"
+          "t": "table",
+          "headers": ["University Type", "Approximate Tuition / Year", "Approximate INR Equivalent"],
+          "rows": [
+            ["Public Universities", "€900 – €4,000", "₹97,200 – ₹4,32,000"],
+            ["Private Institutions", "€6,000 – €20,000+", "₹6,48,000 – ₹21,60,000+"]
           ]
         },
         {
@@ -999,14 +992,14 @@
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Expense Monthly Cost Estimate",
-            "Accommodation: 300-600 €",
-            "Food & Groceries €150-€250",
-            "Local transport €25-60",
-            "Utilities and Personal Expenses €100-€200",
-            "Total Estimated €700-€1,100"
+          "t": "table",
+          "headers": ["Expense", "Monthly Cost Estimate"],
+          "rows": [
+            ["Accommodation", "€300 – €600"],
+            ["Food & Groceries", "€150 – €250"],
+            ["Local Transport", "€25 – €60"],
+            ["Utilities & Personal Expenses", "€100 – €200"],
+            ["Total Estimated", "€700 – €1,100"]
           ]
         },
         {
@@ -1505,21 +1498,24 @@
   "universities": [
     {
       "name": "Milan University",
-      "location": "Italy",
+      "location": "Milan, Italy",
       "fee": "€1,000 – €4,000 / Year",
-      "image": "/uploads/study_abroad/italy/biotechnology_Milan_University-image3.png"
+      "image": "/uploads/study_abroad/italy/biotechnology_Milan_University-image3.png",
+      "desc": "Offers English-taught master's programmes in Molecular Biotechnology and Bioinformatics as well as Biotechnology for the Bioeconomy, combining genomics, proteomics, and laboratory research."
     },
     {
       "name": "University of Rome - Tor Vergata",
-      "location": "Italy",
+      "location": "Rome, Italy",
       "fee": "€1,000 – €4,000 / Year",
-      "image": "/uploads/study_abroad/italy/biotechnology_University_of_Rome_-_Tor_Vergata-image2.png"
+      "image": "/uploads/study_abroad/italy/biotechnology_University_of_Rome_-_Tor_Vergata-image2.png",
+      "desc": "Offers an English-taught Master's programme in Biotechnology for Industry and Health, focusing on biomedical applications, bioprocessing, and pharmaceutical development."
     },
     {
       "name": "Università di Bologna",
-      "location": "Italy",
+      "location": "Bologna, Italy",
       "fee": "€1,000 – €4,000 / Year",
-      "image": "/uploads/study_abroad/italy/biotechnology_Universita_di_Bologna-image1.png"
+      "image": "/uploads/study_abroad/italy/biotechnology_Universita_di_Bologna-image1.png",
+      "desc": "One of Europe's oldest research universities, offering programmes in Molecular and Industrial Biotechnology, Pharmaceutical Biotechnology, and Genomics."
     }
   ],
   "faq": [

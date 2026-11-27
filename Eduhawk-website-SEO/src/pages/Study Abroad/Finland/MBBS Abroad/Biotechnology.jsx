@@ -12,7 +12,7 @@ import u1Img from "../../../../Images/Abroad/Finland/Biotechnology/University_of
 const sideImg = labImg;
 
 const page = {
-  name: "Biotechnology in Finland",
+  name: "Biotechnology",
   country: "Finland",
   slug: "biotechnology",
   title: "Biotechnology in Finland for Indian Students | Edu-Hawk Worldwide",
@@ -27,7 +27,7 @@ const page = {
     "Prominent English-taught master's programmes are offered at world-class institutions like **Aalto University** and the **University of Helsinki**. With **[Edu-Hawk Worldwide](/services)**, students can explore international biotechnology pathways, compare curricula, and plan university applications systematically."
   ],
   level: "Master's & Post-Graduate",
-  crumb: "MBBS Abroad",
+  crumb: "Science & Biotechnology",
 
   stats: [
     { label: "Degree Awarded", value: "M.Sc. (Tech) / M.Sc. in Biotech" },
@@ -46,8 +46,6 @@ const page = {
           t: "p",
           items: [
             "Study Biotechnology in Finland to gain cutting-edge education in a research-driven Nordic ecosystem renowned for modern laboratory facilities, scientific entrepreneurship, and clean bio-innovations.",
-            "For Indian students, studying Biotechnology in Finland is an outstanding educational pathway spanning life sciences, pharmaceuticals, healthcare technologies, food science, and environmental sustainability. Finnish universities focus on bridging foundational scientific discoveries with scalable commercial bioprocesses.",
-            "Prominent English-taught master's programmes are offered at world-class institutions like **Aalto University** and the **University of Helsinki**. With **[Edu-Hawk Worldwide](/services)**, students can explore international biotechnology pathways, compare curricula, and plan university applications systematically.",
             "**Benefits of Studying Biotechnology in Finland**"
           ]
         },
