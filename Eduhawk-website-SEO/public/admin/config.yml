@@ -1,7 +1,15 @@
 backend:
   name: github
   repo: aiknotsitsolution/Edu_hawk-server
-  branch: main
+  branch: master
+  base_url: https://eduhawk-cms-auth.aiknotsit.workers.dev
+  auth_endpoint: auth
+
+publish_mode: editorial_workflow
+
+site_url: "https://eduhawk.in"
+display_url: "https://eduhawk.in"
+logo_url: "/eduhawk_logo.png"
 
 local_backend: true
 
