@@ -36,7 +36,7 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG)"
+      "value": "4 Years (UG) / 1 to 2 Years (PG)"
     },
     {
       "label": "Top Institutions",
@@ -145,7 +145,7 @@ const page = {
               "name": "Universidad Autónoma de Madrid",
               "location": "Spain",
               "fee": "€2,000 – €18,000 / Year",
-              "desc": "Offers a four-year Nursing degree for 240 ECTS credits. El programa se imparte en español. For the 2026-27 academic year, the university's standard fee category charges a first enrollment fee of about €1,241, while non-EU students pay €8,186.",
+              "desc": "Offers a four-year Nursing degree for 240 ECTS credits. El programa se imparte en español. For the academic year, the university's standard fee category charges a first enrollment fee of about €1,241, while non-EU students pay €8,186.",
               "img": Universidad_Autonoma_de_MadridImg
             },
             {
@@ -255,7 +255,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "These ranges are indicative of planning costs and not confirmed fees at each university. For example, the Autonomous University of Madrid lists approximately 8,186€ for the first enrollment of non-EU students in its Nursing degree for 2026–27.",
+            "These ranges are indicative of planning costs and not confirmed fees at each university. For example, the Autonomous University of Madrid lists approximately 8,186€ for the first enrollment of non-EU students in its Nursing degree .",
             "INR conversions are based on an illustrative exchange rate of €1 &asymp; &#8377;108.60. Actual fees and exchange rates may vary.",
             "Other costs may include accommodation, food, transport, health insurance, visa formalities, study materials and clinical placement requirements. Look out for extra administration charges on university fee estimates.",
             "Scholarships and financial aid may be available, but eligibility for international students depends on the institution and the funding program. Students who are Planning Nursing in Spain for Indian students should prepare a complete budget that includes tuition fees and living expenses."

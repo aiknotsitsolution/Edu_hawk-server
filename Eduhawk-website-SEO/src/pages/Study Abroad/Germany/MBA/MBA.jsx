@@ -21,9 +21,9 @@ const page = {
   title: "MBA in Germany for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to studying MBA in Germany for international students: Top accredited business schools, full-time and executive MBA options, admission criteria, tuition costs, scholarships, and 18-month post-study work visa.",
   keywords: "Study MBA in Germany for Indian Students, Best MBA Universities in Germany, MBA Courses and Specialisations in Germany, Full-Time and Executive MBA Programmes in Germany, MBA Eligibility Requirements in Germany, MBA Admission Requirements for International Students in Germany, MBA Work Experience Requirements in Germany, IELTS and TOEFL Requirements for MBA in Germany, GMAT and GRE Requirements for MBA in Germany, MBA Tuition Fees in Germany for Indian Students, Cost of Living for MBA Students in Germany, MBA Scholarships in Germany for International Students, AACSB, EQUIS and AMBA Accredited Business Schools in Germany, Career Opportunities and Salary After MBA in Germany, German Student Visa Requirements for Indian MBA Students",
-  introTitle: "Why Study MBA in Germany?",
-  heroParas: [
-    "Germany appeals to students from abroad seeking a Master of Business Administration (MBA), offering world-class business education, dynamic leadership skills, and direct industry connections across Europe's largest powerhouse economy."
+  "introTitle": "MBA in Germany for Indian Students",
+  "heroParas": [
+    "Study an accredited MBA in Germany, integrating quantitative management rigor, industrial innovation, and corporate leadership across Europe's leading economy. International graduates gain strategic business expertise and explore the 18-month post-study job seeker visa, subject to German immigration directives."
   ],
   overview: [
     "Germany is a premier European destination for aspiring executives and entrepreneurs seeking an internationally accredited Master of Business Administration (MBA).",

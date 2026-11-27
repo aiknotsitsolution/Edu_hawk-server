@@ -22,11 +22,13 @@ const page = {
   "keywords": "Study Computer Science in Denmark, Computer Science in Denmark for Indian Students, Best Universities in Denmark, Denmark Computer Science Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
   "introTitle": "Computer Science in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Computer Science in Denmark for Indian students."
-  ],
+    "Experience progressive Scandinavian Computer Science education in Denmark, combining collaborative problem-based learning with world-leading digital infrastructure. International students benefit from English-taught degree tracks and post-study job-seeking residence permits to launch European technology careers."
+],
   "overview": [
-    "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Computer Science."
-  ],
+    "Denmark is recognized as one of the world's most digitally advanced and happiest societies, pioneering human-centered technological solutions, clean-tech software, and progressive Scandinavian education. Studying Computer Science in Denmark offers Indian students an active, project-based learning model focused on real-world industry problem solving.",
+    "Danish research universities deliver cutting-edge, English-taught Bachelor's (3 years) and Master's (2 years) degree programs. Curricula emphasize advanced algorithms, cloud architecture, artificial intelligence, software design, and digital security, enriched by close corporate partnerships with Denmark's thriving IT, biotech, and renewable energy sectors.",
+    "Under regulations administered by the Danish Agency for International Recruitment and Integration (SIRI), international graduates from state-approved higher education programmes in Denmark can obtain a post-study job-seeking residence permit. For student permit applications submitted on or after 1 October 2026, the standard job-seeking residence permit is granted for 1 year (12 months) upon completion of an accredited Bachelor's or Master's programme (up to 3 years for PhD graduates; transitional provisions provided up to 3 years for Master's applications submitted prior to 1 October 2026). Work rights during the job-seeking period are subject to statutory conditions, supporting graduates as they transition into qualified employment under Denmark's Pay Limit Scheme, Fast Track, or Positive List."
+],
   "level": "B.Sc. & M.Sc. in Computer Science",
   "crumb": "Computer Science",
   "stats": [

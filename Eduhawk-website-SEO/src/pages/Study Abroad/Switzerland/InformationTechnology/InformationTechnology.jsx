@@ -15,18 +15,18 @@ const page = {
   name: "Study Information Technology in Switzerland",
   country: "Switzerland",
   slug: "information-technology",
-  title: "Study Information Technology in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
+  title: "Study Information Technology in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study Information Technology in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study Information Technology in Switzerland, Information Technology in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland Information Technology Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
   introTitle: "Master in Information Technology in Switzerland for Indian Students",
   heroParas: [
-    "**Master\u2019s in Information Technology in Switzerland for Indian Students** is a viable option for graduates keen on pursuing higher education in computing, software systems, and digital technologies."
-],
+    "Pursue elite Information Technology and Enterprise Systems education in Switzerland at continental Europe's highest-ranked technical universities with remarkably low public semester fees. Indian students access state-of-the-art enterprise laboratories and multinational European corporate headquarters."
+  ],
   overview: [
-    "A **Master in Information Technology in Switzerland for Indian Students** can help graduates gain advanced skills in software systems, information management, data analytics, cybersecurity, artificial intelligence, cloud computing and digital transformation. Swiss universities have related degrees with names like Informatics, Information Systems, Software Engineering, Computer Science and not always with the exact name \u201dMaster\u2019s in Information Technology\u201d.",
-    "These programs can be suitable for graduates in IT, Computer Science, Computer Engineering and related disciplines who wish to pursue careers in technology, software development, IT consulting, enterprise systems or research. **Edu-Hawk Worldwide** can help students understand the available study pathways and prepare for the application process.",
-    "Currency conversion used throughout: CHF 1 \u2248 Rs 110\\. This is a planning rate only and not a rate guaranty for the exchange."
-],
+    "Switzerland is a global center for secure data hosting, financial technology systems, and international corporate headquarters. Studying Information Technology in Switzerland gives Indian students access to world-class academic institutions renowned for precision engineering, enterprise systems reliability, and high-performance digital infrastructure.",
+    "Swiss cantonal universities and federal institutes of technology offer rigorous English-taught Master of Science in Information Technology and Information Systems programs (1.5 to 2 years). Studies focus on enterprise cloud architecture, secure network engineering, distributed database administration, and IT governance, with very affordable public tuition (CHF 500 to CHF 1,220 per semester) and unparalleled corporate access to multinational tech research headquarters.",
+    "Graduates of Swiss IT programs are highly sought after by multinational financial institutions, pharmaceutical leaders, and international enterprise technology centers in Zurich, Geneva, and Basel. Under Article 21, paragraph 3 of the Foreign Nationals and Integration Act (FNIA / AIG), non-EU graduates can apply for a residence permit for up to 6 months to secure qualified employment of high economic or scientific interest, facilitating transitions to employer-sponsored Swiss work authorization."
+  ],
   level: "B.Sc. & M.Sc. in Information Technology",
   crumb: "Information Technology",
   stats: [
@@ -157,7 +157,7 @@ const page = {
                 "t": "p",
                 "items": [
                         "Graduate Programs in Computer Science, Data Science, Cyber Security and Robotics, Systems and Control. \u201cRelevant options are those students interested in technical IT careers and advanced computing.\u201d",
-                        "Official master\u2019s programs![][image1]"
+                        "Official Master's degree programs in advanced computing and information systems."
                 ]
         }
 ]
@@ -171,7 +171,7 @@ const page = {
                 "t": "p",
                 "items": [
                         "The MSc in Informatics allows students to specialize in Information Systems, Software Development, Computer Systems, Artificial Intelligence or Data Science. The program is structured in four full-time semesters and 120 ECTS.",
-                        "MSc Information Science![][image2]"
+                        "MSc Information Science and Applied Computing programs."
                 ]
         }
 ]

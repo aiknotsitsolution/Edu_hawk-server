@@ -22,9 +22,8 @@ const page = {
   description: "Study Master's in Computer Engineering in Australia for Indian students. Learn about top universities (UNSW, Melbourne, Monash, Queensland), eligibility, fees, Engineers Australia accreditation, and career opportunities.",
   keywords: "Study Postgraduate Computer Engineering in Australia Best Universities for Computer Engineering Master's in Australia Master of Computer Engineering in Australia Eligibility Requirements for Indian Students Computer Engineering Master's Fees in Australia Scholarships for Indian Students Engineers Australia Accreditation Career Opportunities After Master's in Computer Engineering",
   introTitle: "Australia&#39;s postgraduate computer engineering program",
-  heroParas: ["Australia&#39;s postgraduate computer engineering program"],
-  overview: [
-    "Australian universities deliver globally recognized postgraduate computer engineering education accredited by Engineers Australia under the Washington Accord. Students gain advanced design skills, research expertise, and international employment opportunities."
+  heroParas: [
+    "Earn an Engineers Australia accredited Master of Engineering in Computer Systems across prestigious Go8 universities, mastering advanced microelectronics, autonomous robotics, and up to 3 years of post-study stay-back under the AI-ECTA agreement."
   ],
   level: "Postgraduate",
   crumb: "Engineering",

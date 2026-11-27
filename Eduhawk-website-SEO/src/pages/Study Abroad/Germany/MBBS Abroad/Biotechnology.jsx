@@ -15,7 +15,7 @@ import uniImg4 from "../../../../Images/Abroad/Germany/Biotechnology/Technical_b
 import cmsData from "../../../../data/study_abroad/germany/biotechnology.json";
 
 const page = {
-  name: "Biotechnology in Germany",
+  name: "Biotechnology",
   country: "Germany",
   slug: "biotechnology",
   title: "Biotechnology in Germany for Indian Students | Edu-Hawk Worldwide",
@@ -388,7 +388,7 @@ export default function BiotechnologyGermanyPage() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      seoPath="/study-abroad/germany/mbbs-abroad/biotechnology"
+      seoPath="/study-abroad/germany/biotechnology"
     />
   );
 }

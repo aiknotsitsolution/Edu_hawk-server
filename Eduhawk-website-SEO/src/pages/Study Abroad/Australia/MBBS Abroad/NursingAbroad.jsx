@@ -30,7 +30,7 @@ const page = {
     "International students who wish to work in healthcare and nursing in Australia can pursue world-class education. Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments."
   ],
   overview: [
-    "Students can gain professional education, hands-on learning opportunities, and exposure to a multicultural healthcare setting by studying nursing in Australia.",
+    "Pursue accredited Nursing programs in Australia, featuring state-of-the-art simulation laboratories and extensive supervised hospital clinical placements. Indian students acquire internationally respected qualifications leading to professional registration with the Nursing and Midwifery Board of Australia (NMBA).",
     "Australian nursing programs assist students acquire the information and practical skills needed for professional nursing practice by combining academic instruction, simulation-based training, and supervised clinical assignments.",
     "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey."
   ],
@@ -53,7 +53,7 @@ const page = {
         {
           t: "p",
           items: [
-            "Students can gain professional education, hands-on learning opportunities, and exposure to a multicultural healthcare setting by studying nursing in Australia."
+            "Pursue accredited Nursing programs in Australia, featuring state-of-the-art simulation laboratories and extensive supervised hospital clinical placements. Indian students acquire internationally respected qualifications leading to professional registration with the Nursing and Midwifery Board of Australia (NMBA)."
           ]
         },
         {

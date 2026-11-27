@@ -21,9 +21,9 @@ const page = {
   title: "Study Business Management in Australia for Indian Students | Edu-Hawk Worldwide",
   description: "Study Business Management in Australia. Compare top business schools (South Australia, Macquarie, Griffith, La Trobe), eligibility, fees, career opportunities, and admissions.",
   keywords: "",
-  introTitle: "Indian Students Guide to Business Management in Australia",
-  heroParas: [
-    "Yes, Indian students who fulfill the academic, English language, and other entrance requirements of the university are able to apply to postgraduate business and management programs in Australia."
+  "introTitle": "Business Management in Australia for Indian Students",
+  "heroParas": [
+    "Study Business Management in Australia, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules."
   ],
   overview: [
     "Q2. How long does an Australian master's degree in business management take?",

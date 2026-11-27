@@ -20,14 +20,14 @@ const page = {
   "keywords": "Study Pharmacy in the UK, Pharmacy in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Pharmacy in the UK for Indian Students",
   "heroParas": [
-    "The UK is a popular destination for international students wishing to study higher education in pharmacy, pharmaceutical sciences and healthcare. Pharmacy programs at UK universities are professionally oriented and combine scientific knowledge, practical laboratory training and clinical experience."
+    "Earn an accredited Master of Pharmacy (MPharm) degree in the UK, featuring integrated clinical placements, patient consultation training, and cutting-edge pharmaceutical sciences. Indian students prepare for foundation training and registration with the General Pharmaceutical Council (GPhC)."
   ],
   "overview": [
     "Pharmacy in the UK for Indian students provides knowledge about medicines, their development, safe use and effects on the human body. Students have the opportunity to explore a range of areas including clinical pharmacy, pharmaceutical technology, pharmacology, drug research and healthcare services.",
     "Edu Hawk worldwide study abroad guidance helps students to explore these opportunities and understand the requirements involved in pursuing education overseas."
   ],
   "level": "Master of Pharmacy (MPharm)",
-  "crumb": "Healthcare / Pharmacy",
+  "crumb": "Healthcare & Pharmacy",
   "stats": [
     {
       "label": "Degree Choices",
@@ -35,11 +35,11 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG)"
+      "value": "4 Years (MPharm) / 1 to 2 Years (MSc)"
     },
     {
       "label": "Top Institutions",
-      "value": "University of Birmingham: Pharmacy and pharmaceutical sciences opportunities., Newcastle University: Offers an MPharm program with professional and clinical learning."
+      "value": "Newcastle University, University of Birmingham, University of Strathclyde"
     },
     {
       "label": "Post-Study Work",
@@ -55,7 +55,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The UK is a popular destination for international students wishing to study higher education in pharmacy, pharmaceutical sciences and healthcare. Pharmacy programs at UK universities are professionally oriented and combine scientific knowledge, practical laboratory training and clinical experience."
+            "Earn an accredited Master of Pharmacy (MPharm) degree in the UK, featuring integrated clinical placements, patient consultation training, and cutting-edge pharmaceutical sciences. Indian students prepare for foundation training and registration with the General Pharmaceutical Council (GPhC)."
           ]
         },
         {
@@ -160,21 +160,26 @@ const page = {
       "slot": "universities",
       "eyebrow": "Top Institutions",
       "title": "Best Universities to Study Pharmacy in the UK",
-      "groups": [
+      "unis": [
         {
-          "t": "universities",
-          "items": [
-            {
-              "name": "University of Birmingham: Pharmacy and pharmaceutical sciences opportunities.",
-              "desc": "Prominent UK institution known for academic excellence, state-of-the-art facilities, and strong industry linkages.",
-              "imgKey": null
-            },
-            {
-              "name": "Newcastle University: Offers an MPharm program with professional and clinical learning.",
-              "desc": "University of Strathclyde: Provides the opportunity to study pharmacy and engage in pharmaceutical research. Robert Gordon University: For those wishing to enter professional pharmacy practice, there is an MPharm program.",
-              "imgKey": null
-            }
-          ]
+          "name": "Newcastle University",
+          "desc": "Offers an MPharm program with professional and clinical learning.",
+          "imgKey": null
+        },
+        {
+          "name": "Robert Gordon University",
+          "desc": "For those wishing to enter professional pharmacy practice, there is an MPharm program.",
+          "imgKey": null
+        },
+        {
+          "name": "University of Birmingham",
+          "desc": "Pharmacy and pharmaceutical sciences opportunities.",
+          "imgKey": null
+        },
+        {
+          "name": "University of Strathclyde",
+          "desc": "Provides the opportunity to study pharmacy and engage in pharmaceutical research.",
+          "imgKey": null
         }
       ]
     },
@@ -589,19 +594,35 @@ const page = {
   ],
   "universities": [
     {
-      "name": "University of Birmingham: Pharmacy and pharmaceutical sciences opportunities.",
+      "name": "Newcastle University",
       "city": "United Kingdom",
       "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "",
+      "fee": "£15,000 – £38,000 / yr",
+      "desc": "Offers an MPharm program with professional and clinical learning.",
       "imgFile": null
     },
     {
-      "name": "Newcastle University: Offers an MPharm program with professional and clinical learning.",
+      "name": "Robert Gordon University",
       "city": "United Kingdom",
       "rank": "Top Ranked UK University",
-      "fee": "£16,000 - £35,000 / yr",
-      "desc": "University of Strathclyde: Provides the opportunity to study pharmacy and engage in pharmaceutical research. Robert Gordon University: For those wishing to enter professional pharmacy practice, there is an MPharm program.",
+      "fee": "£15,000 – £38,000 / yr",
+      "desc": "For those wishing to enter professional pharmacy practice, there is an MPharm program.",
+      "imgFile": null
+    },
+    {
+      "name": "University of Birmingham",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£15,000 – £38,000 / yr",
+      "desc": "Pharmacy and pharmaceutical sciences opportunities.",
+      "imgFile": null
+    },
+    {
+      "name": "University of Strathclyde",
+      "city": "United Kingdom",
+      "rank": "Top Ranked UK University",
+      "fee": "£15,000 – £38,000 / yr",
+      "desc": "Provides the opportunity to study pharmacy and engage in pharmaceutical research.",
       "imgFile": null
     }
   ],

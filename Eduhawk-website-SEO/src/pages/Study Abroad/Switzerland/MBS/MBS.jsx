@@ -21,10 +21,10 @@ const page = {
   title: "Study MBS in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study MBS in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study MBS in Switzerland, MBS in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland MBS Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
-  introTitle: "1\\. Why pursue MBS in Switzerland?",
-  heroParas: [
-    "Switzerland attracts students who wish to study at an advanced level in the fields of business, management, finance and international trade. Taking a Masters of Business Studies (MBS) or another similar postgraduate business qualification in Switzerland can help students build up leadership, analytical thinking, strategic planning and decision-making skills. The country\u2019s international business environment is an exposure to banking, consulting, hospitality, luxury brands, multinationals and others."
-],
+  "introTitle": "MBS in Switzerland for Indian Students",
+  "heroParas": [
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Switzerland, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies in Europe's premier destination for multinational headquarters, private banking, and international commerce."
+  ],
   overview: [
     "**MBS in Switzerland for Indian Students** is a chance to know about global business education and acquire skills for the global career. Edu-Hawk Worldwide can assist students in comprehending the study options available to them and plan their applications. **MBS in Switzerland for Indian Students** can be a suitable pathway for graduates interested in developing their business and management knowledge."
 ],

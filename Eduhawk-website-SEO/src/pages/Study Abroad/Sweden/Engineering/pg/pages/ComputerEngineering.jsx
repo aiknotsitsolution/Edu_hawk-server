@@ -400,7 +400,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The primary international application period for entry in Autumn 2027 will run from 16 October 2026 through 15 January 2027\The deadline for the supporting document and application fee is 1 February 2027 and master's admission results are expected on 1 April 2027\\.",
+            "The primary international application period for entry in Autumn 2027 will run from 16 October 2026 through 15 January 2027\The deadline for the supporting document and application fee is 1 February 2027 and master's admission results are expected on 1 April 2027.",
             "Official Application Platform: University Admissions in Sweden",
             "Students interested in **studying Computer Engineering in Sweden** should follow the application instructions and deadlines carefully to complete the admission process."
           ]

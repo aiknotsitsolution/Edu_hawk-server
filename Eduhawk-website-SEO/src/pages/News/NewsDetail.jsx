@@ -11,7 +11,6 @@ import {
   ArrowLeft,
   Building2,
   FileText,
-  Sparkles,
   User,
 } from "lucide-react";
 
@@ -213,7 +212,7 @@ export default function NewsDetail() {
           {/* Category & Region Badges */}
           <div className="flex flex-wrap items-center gap-2.5 mb-4">
             <span className="inline-flex items-center gap-1 px-3.5 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold uppercase tracking-wider">
-              <Sparkles size={12} className="text-[#F48C06]" />
+              
               {news.category || "Official Notice"}
             </span>
 

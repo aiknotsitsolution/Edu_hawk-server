@@ -22,7 +22,7 @@ const page = {
   "keywords": "Study Executive MBA in Denmark, Executive MBA in Denmark for Indian Students, Best Universities in Denmark, Denmark Executive MBA Admission, Cost of Studying in Denmark, Edu-Hawk Worldwide",
   "introTitle": "Executive MBA in Denmark for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Executive MBA in Denmark for Indian students."
+    "Lead organizational transformation with an Executive MBA in Denmark, combining Scandinavian corporate governance, sustainable business models, and collaborative executive leadership. Experienced managers gain strategic agility in one of Europe's most digitized and innovative economies."
   ],
   "overview": [
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Executive MBA."

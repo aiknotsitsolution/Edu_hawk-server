@@ -305,7 +305,8 @@ const page = {
 export default function PublicHealthinFrancePage() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: "Public Health",
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])

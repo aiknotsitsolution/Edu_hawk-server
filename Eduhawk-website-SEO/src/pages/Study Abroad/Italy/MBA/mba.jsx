@@ -18,8 +18,8 @@ const page = {
   "description": "Study MBA in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "MBA in Italy, Study MBA in Italy for Indian Students, Best MBA Colleges in Italy, SDA Bocconi MBA, MBA in Italy Fees",
   "introTitle": "MBA in Italy for Indian Students",
-  heroParas: [
-    "An MBA in Italy offers a globally accredited management credential, intensive leadership development, and strategic access to Europe's luxury, automotive, and industrial manufacturing champions."
+  "heroParas": [
+    "Pursue an accredited MBA in Italy, combining international business management with design innovation, luxury brand strategy, and Mediterranean commerce. International students gain global leadership exposure and explore post-study stay-back options under Italian immigration frameworks."
   ],
   overview: [
     "Yes. Indian students can apply to eligible Italian business schools if they meet the academic, professional, language and other admission requirements of the program."

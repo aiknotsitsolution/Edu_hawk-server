@@ -285,7 +285,7 @@ const page = {
           "t": "ul",
           "items": [
             "Polytechnic University of Catalonia (UPC): Lists approximate annual tuition of €1,800 for non-EU students who are not EU residents for its bachelor's degree in Informatics Engineering.",
-            "Pompeu Fabra University (UPF): Has an approximate price of €6,800.32 for non-EU students or non-residents for its bachelor's degree in Computer Engineering for 2026–27."
+            "Pompeu Fabra University (UPF): Has an approximate price of €6,800.32 for non-EU students or non-residents for its bachelor's degree in Computer Engineering ."
           ]
         },
         {

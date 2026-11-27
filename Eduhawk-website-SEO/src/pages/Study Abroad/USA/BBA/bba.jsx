@@ -13,9 +13,9 @@ const page = {
   "title": "BBA in USA for Indian Students | 2026 | Edu Hawk Worldwide",
   "description": "Study Bachelor of Business Administration (BBA) in the USA after Class 12. Course options, duration, eligibility, entrance tests, tuition fees, scholarships, top universities, careers and visa process.",
   "keywords": "Study BBA in USA for Indian Students, Best Universities for BBA in USA, BBA Admission Requirements in USA for Indian Students, BBA Courses and Specializations in USA, BBA Tuition Fees in USA for Indian Students, BBA Scholarships for International Students in USA, Bachelor of Business Administration in USA After 12th, BBA Eligibility Criteria for Indian Students, SAT and ACT Requirements for BBA in USA, English Language Tests for US Universities, Top Undergraduate Business Schools in America, Career Opportunities After BBA in USA, BBA in Finance and Marketing in USA, Cost of Living in USA for Indian BBA Students, USA Student Visa for Indian BBA Students",
-  "introTitle": "BBA in USA",
+  "introTitle": "BBA in the USA for Indian Students",
   "heroParas": [
-    "Studying a Bachelor of Business Administration (BBA) in the USA offers international students rigorous business education, diverse concentrations in finance, marketing, and management, and direct exposure to Fortune 500 corporate environments."
+    "Pursue an accredited Bachelor of Business Administration (BBA) in the USA, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore Optional Practical Training (OPT) employment opportunities, subject to US immigration regulations."
   ],
   "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."

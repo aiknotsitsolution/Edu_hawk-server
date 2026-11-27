@@ -19,8 +19,8 @@ const page = {
   "description": "Study MBS in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "MBS in Italy, Master of Business Studies Italy, Study Business Studies Italy, Business Universities in Italy",
   "introTitle": "MBS in Italy for Indian Students",
-  heroParas: [
-    "A Master of Business Studies (MBS) in Italy offers focused postgraduate specialization in quantitative finance, organizational strategy, and international economic management."
+  "heroParas": [
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Italy, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore post-study residence permit opportunities for work search under Italian immigration regulations."
   ],
   overview: [
     "Yes. Indian students can apply to suitable postgraduate business and management programs in Italy if they meet the academic, language and other programme-specific admission requirements."

@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Pharmacy in the UK for Indian Students",
-    "subtitle": "The UK is a popular destination for international students wishing to study higher education in pharmacy, pharmaceutical sciences and healthcare. Pharmacy programs at UK universities are professionally oriented and combine scientific knowledge, practical laboratory training and clinical experience."
+    "subtitle": "Earn an accredited Master of Pharmacy (MPharm) degree in the UK, featuring integrated clinical placements, patient consultation training, and cutting-edge pharmaceutical sciences. Indian students prepare for foundation training and registration with the General Pharmaceutical Council (GPhC)."
   },
   "overview": [
     "The UK is a popular destination for international students wishing to study higher education in pharmacy, pharmaceutical sciences and healthcare. Pharmacy programs at UK universities are professionally oriented and combine scientific knowledge, practical laboratory training and clinical experience.",
@@ -15,7 +15,7 @@
       "fee": "£15,000 – £38,000 / Year",
       "img": "/uploads/study_abroad/uk/uk_pharmacy_Newcastle_University-image3.png",
       "image": "/uploads/study_abroad/uk/uk_pharmacy_Newcastle_University-image3.png",
-      "desc": "University of Strathclyde: Provides the opportunity to study pharmacy and engage in pharmaceutical research."
+      "desc": "Offers an MPharm program with professional and clinical learning."
     },
     {
       "name": "Robert Gordon University",
@@ -23,7 +23,7 @@
       "fee": "£15,000 – £38,000 / Year",
       "img": "/uploads/study_abroad/uk/uk_pharmacy_Robert_Gordon_University-image1.png",
       "image": "/uploads/study_abroad/uk/uk_pharmacy_Robert_Gordon_University-image1.png",
-      "desc": "Robert Gordon University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+      "desc": "For those wishing to enter professional pharmacy practice, there is an MPharm program."
     },
     {
       "name": "University of Birmingham",
@@ -31,7 +31,7 @@
       "fee": "£15,000 – £38,000 / Year",
       "img": "/uploads/study_abroad/uk/uk_pharmacy_University_of_Birmingham-image4.png",
       "image": "/uploads/study_abroad/uk/uk_pharmacy_University_of_Birmingham-image4.png",
-      "desc": "University of Birmingham is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+      "desc": "Pharmacy and pharmaceutical sciences opportunities."
     },
     {
       "name": "University of Strathclyde",
@@ -39,7 +39,7 @@
       "fee": "£15,000 – £38,000 / Year",
       "img": "/uploads/study_abroad/uk/uk_pharmacy_University_of_Strathclyde-image2.png",
       "image": "/uploads/study_abroad/uk/uk_pharmacy_University_of_Strathclyde-image2.png",
-      "desc": "Eligibility for Undergraduates - 12 Class or equivalent qualification from a recognized board . - Good academic performance in the relevant science subjects. - Chemistry is usually a required subject for MPharm entry. - Biology, Mathematics or Physics may also be required depending on the university - English language proficiency test, if needed. - Fulfilling the health, fitness to practise and age requirements of the university. Indian applicants should verify that their Class 12 qualification meets the direct-entry requirements of their chosen university. Eligibility for Postgraduate Admission - A recognized bachelor's degree in pharmacy, pharmaceutical sciences, chemistry, biology or another relevant subject, depending on the program. - Academic qualifications or equivalents required. - Academic or professional experience (if mentioned). - Proficiency in the English language. - Further documents or research proposals for selected programs."
+      "desc": "Provides the opportunity to study pharmacy and engage in pharmaceutical research."
     }
   ],
   "sections": [
@@ -47,20 +47,8 @@
       "slot": "why-study",
       "eyebrow": "Why UK",
       "title": "Why Study Pharmacy in the UK?",
-      "lead": "The UK is a popular destination for international students wishing to study higher education in pharmacy, pharmaceutical sciences and healthcare. Pharmacy programs at UK universities are professionally oriented and combine scientific knowledge, practical laboratory training and clinical experience.",
+      "lead": "Studying pharmacy in the UK offers high-caliber professional education, cutting-edge drug discovery research, and structured clinical placements accredited by the General Pharmaceutical Council.",
       "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Pharmacy in the UK for Indian students provides knowledge about medicines, their development, safe use and effects on the human body. Students have the opportunity to explore a range of areas including clinical pharmacy, pharmaceutical technology, pharmacology, drug research and healthcare services."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Edu Hawk worldwide study abroad guidance helps students to explore these opportunities and understand the requirements involved in pursuing education overseas."
-          ]
-        },
         {
           "t": "h4",
           "text": "Advantages of Studying Pharmacy in the UK"
@@ -124,15 +112,15 @@
         {
           "t": "p",
           "items": [
-            "The Bachelor of Pharmacy (BPharm) is the primary professional qualification for students who wish to qualify as pharmacists in Great Britain."
+            "The Master of Pharmacy (MPharm) is the primary professional qualification for students who wish to qualify as pharmacists in Great Britain."
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Bachelor of Pharmacy (MPharm)",
-            "BPharm with Foundation Year",
-            "Pharma Science",
+            "Master of Pharmacy (MPharm)",
+            "MPharm with Foundation Year",
+            "Pharmaceutical Science",
             "Pharmacology",
             "Medicinal Chemistry",
             "Pharmaceutical and Cosmetic Science"
@@ -141,7 +129,7 @@
         {
           "t": "p",
           "items": [
-            "The availability and duration of courses differ between universities. A degree in pharmaceutical science and pharmacology is not automatically equivalent to an accredited"
+            "The availability and duration of courses differ between universities. A degree in pharmaceutical science and pharmacology is not automatically equivalent to an accredited MPharm degree for pharmacist registration."
           ]
         },
         {
@@ -163,7 +151,8 @@
             "MSc Pharmaceutical Science",
             "MSc Pharmacology",
             "Drug Discovery and Development (MSc)",
-            "MSc Pharmaceutical Technology MSc Drug Development",
+            "MSc Pharmaceutical Technology",
+            "MSc Drug Development",
             "MPhil in Pharmaceutical Sciences",
             "PhD in Pharmacy or Pharmaceutical Sciences"
           ]
@@ -175,20 +164,7 @@
       "eyebrow": "Top UK Universities",
       "title": "Best Universities to Study Pharmacy in the UK",
       "lead": "A number of universities in the UK offer courses in pharmacy and pharmaceutical sciences.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Some universities to look at:"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "University of Birmingham: Pharmacy and pharmaceutical sciences opportunities."
-          ]
-        }
-      ],
+      "groups": [],
       "unis": [
         {
           "name": "Newcastle University",
@@ -196,7 +172,7 @@
           "fee": "£15,000 – £38,000 / Year",
           "img": "/uploads/study_abroad/uk/uk_pharmacy_Newcastle_University-image3.png",
           "image": "/uploads/study_abroad/uk/uk_pharmacy_Newcastle_University-image3.png",
-          "desc": "University of Strathclyde: Provides the opportunity to study pharmacy and engage in pharmaceutical research."
+          "desc": "Offers an MPharm program with professional and clinical learning."
         },
         {
           "name": "Robert Gordon University",
@@ -204,7 +180,7 @@
           "fee": "£15,000 – £38,000 / Year",
           "img": "/uploads/study_abroad/uk/uk_pharmacy_Robert_Gordon_University-image1.png",
           "image": "/uploads/study_abroad/uk/uk_pharmacy_Robert_Gordon_University-image1.png",
-          "desc": "Robert Gordon University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+          "desc": "For those wishing to enter professional pharmacy practice, there is an MPharm program."
         },
         {
           "name": "University of Birmingham",
@@ -212,7 +188,7 @@
           "fee": "£15,000 – £38,000 / Year",
           "img": "/uploads/study_abroad/uk/uk_pharmacy_University_of_Birmingham-image4.png",
           "image": "/uploads/study_abroad/uk/uk_pharmacy_University_of_Birmingham-image4.png",
-          "desc": "University of Birmingham is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
+          "desc": "Pharmacy and pharmaceutical sciences opportunities."
         },
         {
           "name": "University of Strathclyde",
@@ -220,7 +196,7 @@
           "fee": "£15,000 – £38,000 / Year",
           "img": "/uploads/study_abroad/uk/uk_pharmacy_University_of_Strathclyde-image2.png",
           "image": "/uploads/study_abroad/uk/uk_pharmacy_University_of_Strathclyde-image2.png",
-          "desc": "Eligibility for Undergraduates - 12 Class or equivalent qualification from a recognized board . - Good academic performance in the relevant science subjects. - Chemistry is usually a required subject for MPharm entry. - Biology, Mathematics or Physics may also be required depending on the university - English language proficiency test, if needed. - Fulfilling the health, fitness to practise and age requirements of the university. Indian applicants should verify that their Class 12 qualification meets the direct-entry requirements of their chosen university. Eligibility for Postgraduate Admission - A recognized bachelor's degree in pharmacy, pharmaceutical sciences, chemistry, biology or another relevant subject, depending on the program. - Academic qualifications or equivalents required. - Academic or professional experience (if mentioned). - Proficiency in the English language. - Further documents or research proposals for selected programs."
+          "desc": "Provides the opportunity to study pharmacy and engage in pharmaceutical research."
         }
       ]
     },
@@ -309,7 +285,7 @@
       "a": "The normal MPharm course in Great Britain is a four year course. Some universities offer a foundation year route which is longer."
     },
     {
-      "q": "( What is the primary pharmacy degree in the UK?",
+      "q": "What is the primary pharmacy degree in the UK?",
       "a": "For those students who follow the UK university path to becoming a pharmacist, the Master of Pharmacy (MPharm) degree is the main professional degree."
     },
     {

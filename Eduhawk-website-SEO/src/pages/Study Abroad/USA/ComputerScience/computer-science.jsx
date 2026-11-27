@@ -20,13 +20,14 @@ const page = {
   keywords:
     "Study Bachelor's in Computer Science in USA for Indian Students, MS in Computer Science in USA, Computer Science Courses in USA for International Students, Computer Science Admission Requirements in USA, Computer Science Tuition Fees in USA for Indian Students, Computer Science Scholarships for Indian Students in USA, Top Computer Science Colleges in America, Computer Science Eligibility After 12th in India, GRE Requirements for MS in Computer Science in USA, English Language Tests for US Universities, Career Opportunities After Computer Science in USA, Artificial Intelligence and Data Science Courses in USA, USA Student Visa for Indian Computer Science Students",
   introTitle: "Study Computer Science in the United States",
-  heroParas: [
-    "The **United States'** cutting-edge technology ecosystem, internationally renowned universities, research facilities, and industry-focused education make it a popular choice for international students pursuing **[Computer Science in the USA](/study-abroad/usa/computer-science)**. Artificial Intelligence, Machine Learning, Cybersecurity, Data Science, Software Engineering, Cloud Computing, and Computer Systems are just a few of the many specialties available to students."
-  ],
-  overview: [
-    "Depending on their prior education and future goals, students can choose among undergraduate, graduate, doctoral, and specific diploma or certificate programs. U.S. universities offer access to an internationally acknowledged academic curriculum, cutting-edge technology expertise, world-class research facilities, and practical industry internships.",
-    "Edu Hawk Worldwide Consultancy helps students prepare for their international education journey, understand university admission requirements, and investigate international study possibilities."
-  ],
+  "heroParas": [
+    "Pursue Computer Science in the United States across world-leading Ivy League institutions, elite research universities, and Silicon Valley innovation hubs. International students access cutting-edge artificial intelligence labs, lucrative industry internships, and 3-year STEM OPT post-study work authorization."
+],
+  "overview": [
+    "Studying Computer Science in the United States offers Indian students unparalleled exposure to the epicenter of global technology innovation, venture capital, and software research. American university curricula are internationally recognized for their rigorous theoretical depth—ranging from advanced computational theory and algorithm engineering to distributed systems and programming paradigms—coupled with immense real-world application.",
+    "Students can choose from versatile undergraduate (Bachelor of Science) and graduate (Master of Science and Ph.D.) degree pathways. American institutions provide extensive flexibility, allowing students to tailor their academic concentration in high-demand domains such as Artificial Intelligence, Machine Learning, Deep Learning, Cybersecurity, Cloud Computing, Big Data Architecture, and Human-Computer Interaction.",
+    "Graduates of eligible U.S. computer science degree programs benefit from world-class industry recruitment and exceptional practical training opportunities. Under current U.S. immigration regulations, F-1 visa students completing a qualified STEM degree can apply for up to 36 months of Optional Practical Training (OPT)—comprising 12 months of initial OPT plus a 24-month STEM OPT extension—enabling valuable professional experience at leading multinational corporations and cutting-edge startups."
+],
   level: "Undergraduate & Postgraduate",
   crumb: "Engineering & Technology",
 

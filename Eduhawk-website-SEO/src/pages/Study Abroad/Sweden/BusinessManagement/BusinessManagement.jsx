@@ -21,7 +21,7 @@ const page = {
   "keywords": "Study Business Management in Sweden, Business Management in Sweden for Indian Students, Best Universities in Sweden, Sweden Business Management Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide",
   "introTitle": "Business Management in Sweden for Indian Students",
   "heroParas": [
-    "**Business Management in Sweden** is an attractive study option for students who want to develop skills in leadership, marketing, finance, entrepreneurship, international business and organisational strategy. Swedish universities combine academic learning with practical assignments, teamwork, case studies and business-oriented projects."
+    "Study Business Management in Sweden, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and explore post-study residence permits to seek employment under Swedish migration policy."
   ],
   "overview": [
     "Students can choose a bachelor's degree after completing their secondary education or pursue a master's degree after obtaining a recognised undergraduate qualification. Programme titles may vary between institutions and can include Business and Economics, International Business Management, Business and Management, or Management.",

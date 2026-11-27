@@ -23,11 +23,13 @@ const page = {
   "keywords": "Study Computer Science in the UK, Computer Science in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Computer Science in the United Kingdom",
   "heroParas": [
-    "International students who want to Study Computer Science prefer to study in the United Kingdom. UK institutions provide a mix of academic knowledge, practical programming skills, research opportunities, and industry-focused learning to prepare students for careers in the global technology sector."
-  ],
+    "Experience world-renowned computing education at leading UK Russell Group universities, home to the pioneers of algorithmic theory and modern artificial intelligence. International students gain British Computer Society (BCS) accredited qualifications and access the UK Graduate Route post-study work visa."
+],
   "overview": [
-    "Software development, artificial intelligence, cybersecurity, data science, cloud computing, computer systems and new digital technologies are just a few of the many fields that are part of computer science."
-  ],
+    "The United Kingdom holds a celebrated heritage in computing science—from Alan Turing's mathematical foundations to the forefront of modern artificial intelligence. Pursuing Computer Science in the UK offers Indian students a rigorous academic framework blending theoretical computational principles, advanced algorithm analysis, and high-level software engineering.",
+    "UK universities offer intensive 3-year Bachelor of Science (BSc) degrees and highly focused 1-year Master of Science (MSc) programs, as well as integrated 4-year MEng pathways accredited by the British Computer Society (BCS). Curricula feature specialized research in Autonomous Systems, Machine Intelligence, Cryptography, Distributed Ledgers, Computer Vision, and High-Performance Computing, with direct ties to premier tech ecosystems such as London's Silicon Roundabout and Cambridge's Silicon Fen.",
+    "Upon successful completion of a recognized UK degree, international graduates can apply in-country for the UK Graduate Route visa without requiring employer sponsorship. Under current UK Visas and Immigration (UKVI) Appendix Graduate rules, eligible Bachelor's and Master's graduates applying on or before 31 December 2026 are granted a 2-year unsponsored work visa, transitioning to 18 months for applications submitted on or after 1 January 2027 (doctoral and PhD graduates receive 3 years regardless of application date). Applicants must hold a valid Student visa and have completed their degree at an approved sponsor with a track record of compliance, facilitating direct entry into the UK's thriving tech and AI sectors before transitioning to sponsored Skilled Worker status."
+],
   "level": "BSc & MSc Computer Science",
   "crumb": "Computer & IT / Computer Science",
   "stats": [

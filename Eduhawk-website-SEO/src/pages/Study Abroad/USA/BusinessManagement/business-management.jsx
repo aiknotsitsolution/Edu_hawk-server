@@ -15,9 +15,9 @@ const page = {
   "title": "Business Management in USA for Indian Students | 2026 | Edu Hawk Worldwide",
   "description": "Study Business Management in the USA for Indian students — undergraduate, postgraduate and doctoral programs. Courses, duration, eligibility, English and entrance requirements, tuition fees, scholarships, top universities, careers and F-1 visa process.",
   "keywords": "Study Business Management in USA for Indian Students, Best Universities for Business Management in USA, Bachelor's in Business Management in USA, MBA in USA for Indian Students, Business Management Courses in USA for International Students, Business Management Admission Requirements in USA, Business Management Tuition Fees in USA for Indian Students, Business Management Scholarships for Indian Students in USA, Top Business Schools in America",
-  "introTitle": "Business Management in the USA",
+  "introTitle": "Business Management in the USA for Indian Students",
   "heroParas": [
-    "Studying Business Management in the USA equips international students with strategic leadership skills, global business acumen, and hands-on corporate problem-solving expertise across top American business institutions."
+    "Study Business Management in the USA, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and explore Optional Practical Training (OPT) employment opportunities, subject to US immigration regulations."
   ],
   "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."

@@ -21,9 +21,9 @@ const page = {
   title: "International Business in Germany for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to International Business in Germany for international students: Top German universities, admission requirements, zero-tuition public education, living expenses, and 18-month post-study work visa.",
   keywords: "Study International Business in Germany for Indian Students, Best Universities for International Business in Germany, Bachelor's and Master's in International Business in Germany, International Business Eligibility Requirements in Germany, Admission Requirements for International Business in Germany, Study International Business in English in Germany, Studienkolleg Requirements for Indian Students in Germany, IELTS and German Language Requirements for International Business, International Business Tuition Fees in Germany, Cost of Living for International Business Students in Germany, International Business Scholarships in Germany for International Students, International Business Graduate Salary in Germany, Germany Student Visa Requirements for Indian International Business Students",
-  introTitle: "Why Study International Business in Germany?",
-  heroParas: [
-    "Germany is Europe's foremost export powerhouse and global commercial hub, offering internationally accredited Bachelor's, Master's, and MBA degrees in International Business with English-taught options, virtually zero tuition at premier public institutions, and an 18-month post-study work visa."
+  "introTitle": "International Business in Germany for Indian Students",
+  "heroParas": [
+    "Pursue an accredited degree in International Business in Germany, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore the 18-month post-study job seeker visa, subject to German immigration directives."
   ],
   overview: [
     "Germany is one of the world's leading **business and export-oriented economies** and attracts students who are interested in **international commerce, worldwide management, and cross-border business operations**.",

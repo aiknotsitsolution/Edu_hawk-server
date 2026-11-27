@@ -19,9 +19,9 @@ const page = {
   "title": "BBA in Canada for Indian Students | Edu-Hawk Worldwide",
   "description": "Study BBA in Canada: Top universities, English-taught programs, tuition fees (CAD $18,000–$45,000/yr), scholarships, eligibility criteria, and post-graduation work permit (PGWP) opportunities.",
   "keywords": "Study BBA in Canada, BBA in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
-  "introTitle": "Indian students Study BBA in Canada",
+  "introTitle": "BBA in Canada for Indian Students",
   "heroParas": [
-    "An undergraduate degree called a Bachelor of Business Administration (BBA) is intended to familiarize students with business concepts, management techniques, finance, marketing, accounting, and organizational operations."
+    "Pursue an accredited Bachelor of Business Administration (BBA) in Canada, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore Post-Graduation Work Permit (PGWP) pathways, subject to program duration and official IRCC eligibility criteria."
   ],
   "overview": [
     "An undergraduate degree called a Bachelor of Business Administration (BBA) is intended to familiarize students with business concepts, management techniques, finance, marketing, accounting, and organizational operations.",

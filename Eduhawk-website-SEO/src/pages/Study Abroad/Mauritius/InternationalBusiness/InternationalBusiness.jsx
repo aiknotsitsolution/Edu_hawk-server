@@ -21,7 +21,7 @@ const page = {
   "keywords": "Study International Business in Mauritius, International Business in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius International Business Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "International Business in Mauritius for Indian Students",
   "heroParas": [
-    "Studying **International Business in Mauritius** can help students gain knowledge of global trade, international marketing, business strategy, finance and cross-cultural management. The University of Mauritius offers undergraduate and postgraduate business programs including BSc (Hons) International Business Management and MSc International Business Management. **International Business in Mauritius** offers students the opportunity to explore business education at both bachelor's and master's levels."
+    "Pursue an accredited degree in International Business in Mauritius, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills in a politically stable, regional financial hub connecting African and Asian commercial markets."
   ],
   "overview": [
     "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Mauritius for International Business in Mauritius."

@@ -35,11 +35,11 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG)"
+      "value": "5 Years (BDS) / 4 Years (Graduate Entry)"
     },
     {
       "label": "Top Institutions",
-      "value": "London's King's College"
+      "value": "King's College London, Birmingham, Liverpool, Manchester"
     },
     {
       "label": "Post-Study Work",

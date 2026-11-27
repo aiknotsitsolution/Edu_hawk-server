@@ -1,85 +1,156 @@
 {
   "seo": {
-    "title": "MBBS Abroad Consultancy in India | About EduHawk",
-    "description": "EduHawk is a leading MBBS abroad consultancy in India providing admission guidance, university selection, and visa assistance for Indian students."
+    "title": "About Us | Edu-Hawk Worldwide - Global Education & Study Abroad",
+    "description": "Edu-Hawk Worldwide is your trusted partner for global education, helping students explore international universities, courses, admissions, and visas."
   },
   "heroSlides": [
     {
       "id": 1,
-      "title": "Your Dream Medical Career Starts Here",
-      "subtitle": "Expert MBBS Abroad Counselling • NMC Recognized Universities • Transparent Process",
-      "cta": "Book Free Counselling",
+      "tag": "Study Abroad | Admissions | Career Guidance",
+      "title": "Your Dream. Your Degree. Your Global Future.",
+      "subtitle": "Explore international education opportunities with expert guidance, personalized counselling, and support at every step.",
+      "primaryCta": "Book Free Counselling",
+      "secondaryCta": "Explore Study Destinations",
       "image": "/uploads/about/about-hero-1.webp"
     },
     {
       "id": 2,
-      "title": "Study MBBS in Russia & Georgia",
-      "subtitle": "Top Universities • Affordable Fees • Complete End-to-End Support",
-      "cta": "Get Started Today",
+      "tag": "Explore Universities Across the Globe",
+      "title": "Discover the World Through Education",
+      "subtitle": "From undergraduate programs to advanced degrees, find opportunities that match your interests, ambitions, and career goals.",
+      "primaryCta": "Explore Programs",
       "image": "/uploads/about/about-hero-1.webp"
     },
     {
       "id": 3,
-      "title": "Admission Made Simple & Secure",
-      "subtitle": "No Hidden Charges • Personalized Guidance • 1000+ Happy Students",
-      "cta": "Free Consultation Now",
+      "tag": "Your Journey. Our Guidance.",
+      "title": "The Right Guidance Makes All the Difference.",
+      "subtitle": "Personalized counselling, transparent guidance, and end-to-end support to make your overseas education journey simpler.",
+      "primaryCta": "Get Started",
       "image": "/uploads/about/about-hero-3.webp"
     }
   ],
   "stats": [
-    {
-      "n": "1000+",
-      "l": "Students Placed Globally"
-    },
-    {
-      "n": "20+",
-      "l": "Countries"
-    },
-    {
-      "n": "200+",
-      "l": "Partner Universities"
-    },
-    {
-      "n": "100%",
-      "l": "Visa & End-to-End Guidance"
-    }
+    { "n": "1000+", "l": "Students Guided" },
+    { "n": "20+", "l": "Countries" },
+    { "n": "200+", "l": "University Connections" },
+    { "n": "End-to-End", "l": "Student Assistance" }
   ],
   "welcome": {
-    "image": "/uploads/about/about-us-page.webp",
-    "p2": "We’re here to guide you through every decision — big or small — on the path to college success and the right global career opportunities.",
-    "p3": "Together, we turn the challenge of admissions into an opportunity for growth, learning, and success.",
-    "badge": "EDU HAWK – Where Innovation Meets Excellence",
-    "p1_link_text": "study MBBS abroad.",
-    "subtitle": "Where innovation meets excellence in overseas medical education.",
-    "title": "Welcome to EDU HAWK",
-    "quote": "\"Where Dreams Take Flight – College Counselling Done Right\"",
-    "ctaText": "Join Us Today →",
-    "p1_before": "At Eduhawk, we understand the complex world of college admissions and the challenges students and families face. Our mission is to simplify this journey through personalized guidance, trusted support, and expert counseling for students planning to"
+    "tag": "WELCOME TO EDU-HAWK WORLDWIDE",
+    "title": "Empowering Students to Achieve Global Dreams",
+    "paragraphs": [
+      "Edu-Hawk Worldwide is dedicated to helping students explore international education opportunities and build a future through global learning. We understand that choosing a university, course, and country is one of the most important decisions in a student's life.",
+      "Our team works closely with students to understand their academic background, aspirations, interests, and financial plans. With personalized counselling and reliable information, we help students discover suitable universities and programs across the world.",
+      "From the first counselling session to applications, admission formalities, visa guidance, and pre-departure preparation, we aim to make your study-abroad journey more informed, organized, and confident."
+    ],
+    "commitments": [
+      "Transparent guidance",
+      "Personalized course and university selection",
+      "Student-focused counselling",
+      "Admission and application support",
+      "Visa and pre-departure assistance"
+    ],
+    "ctaText": "Start Your Journey Today — Call +91 96307 36070",
+    "phone": "+91 96307 36070"
   },
-  "banner": {
-    "backgroundImage": "/uploads/about/fixed-banner.webp",
-    "title": "Start Your Global Journey Today ",
-    "subtitle": "Free profile evaluation • No-obligation consultation",
-    "ctaText": "Talk to an Expert →",
-    "whatsappPhone": "919630736070"
+  "whyChooseUs": {
+    "tag": "WHY STUDENTS CHOOSE US",
+    "title": "Your Trusted Partner in Global Education",
+    "lead": "We believe international education is more than earning a degree—it's about expanding horizons, building independence, and preparing for a successful future.",
+    "pillars": [
+      {
+        "title": "Personalized Counselling",
+        "description": "Every student is different. We guide you based on your academic profile, career aspirations, preferred course, budget, and destination."
+      },
+      {
+        "title": "Global University Opportunities",
+        "description": "Explore universities and programs across multiple countries to find the opportunities best suited to your goals."
+      },
+      {
+        "title": "Transparent Process",
+        "description": "We aim to make admission requirements, application procedures, and costs clear so you can make informed decisions."
+      },
+      {
+        "title": "Complete Student Support",
+        "description": "From your initial enquiry to admission, visa preparation, and pre-departure guidance, we help you navigate the process."
+      },
+      {
+        "title": "Career-Focused Guidance",
+        "description": "Explore educational pathways that align with your long-term career ambitions and future opportunities."
+      }
+    ]
+  },
+  "process": {
+    "tag": "YOUR STUDY ABROAD JOURNEY",
+    "title": "Making Your International Education Journey Simple",
+    "lead": "We provide structured guidance to help you move forward at every stage of your overseas education journey.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Understand Your Goals",
+        "description": "We begin by understanding your preferred course, academic profile, budget, and future plans."
+      },
+      {
+        "step": "02",
+        "title": "Find the Right University",
+        "description": "Explore suitable universities, countries, programs, and admission requirements."
+      },
+      {
+        "step": "03",
+        "title": "Application Assistance",
+        "description": "Receive guidance on applications, academic documents, deadlines, and admission procedures."
+      },
+      {
+        "step": "04",
+        "title": "Visa & Preparation",
+        "description": "Prepare for the visa process, travel arrangements, and the transition to studying abroad."
+      },
+      {
+        "step": "05",
+        "title": "Begin Your Global Experience",
+        "description": "Get ready to start your academic journey, experience a new culture, and grow personally and professionally."
+      }
+    ]
+  },
+  "finalCta": {
+    "tag": "ADMISSIONS OPEN",
+    "title": "Your Future Is Waiting Beyond Borders.",
+    "body": "A world of opportunities is waiting for you. Whether you are planning for a Bachelor's, Master's, medical, technical, or professional program, let us help you take the first step towards your dream university.",
+    "subtext": "Get personalized guidance and discover the right international education pathway for you.",
+    "primaryCta": "Book Free Counselling",
+    "secondaryCta": "Talk to Our Experts"
   },
   "faq": {
-    "sidebarImage": "/uploads/about-service.webp",
-    "title": "Frequently Asked Questions",
-    "subtitle": "Quick answers to the most common questions about MBBS abroad with EDU HAWK",
-    "sidebarHeading": "Where Dreams Take Flight:\nCollege Counseling Done Right",
+    "title": "Frequently Asked Questions About Studying Abroad",
     "items": [
       {
-        "question": "Is MBBS abroad from these countries valid in India?",
-        "answer": "Yes, all universities we recommend are NMC (National Medical Commission) recognized. After completing MBBS, students can appear for the FMGE/NEXT exam to practice in India."
+        "question": "What courses can Edu-Hawk Worldwide help me study abroad?",
+        "answer": "We guide students across various fields including MBBS, Nursing, Dentistry, Pharmacy, Engineering, Business, MBA, Computer Science, Architecture, Law, Bachelor's, Master's, and other academic programs."
       },
       {
-        "question": "What is the total cost of MBBS abroad?",
-        "answer": "The total cost (including tuition, hostel, food & miscellaneous) usually ranges between ₹15 Lakh to ₹50 Lakh depending on the country and university. We provide complete transparent fee breakdowns."
+        "question": "Which countries can I choose for higher education?",
+        "answer": "Students can explore destinations such as the USA, UK, Canada, Australia, Germany, Italy, France, Ireland, Finland, Spain, Switzerland, Sweden, Denmark, Mauritius, and other countries, depending on course availability and eligibility."
       },
       {
-        "question": "How long does the admission process take?",
-        "answer": "The entire process usually takes 2–6 months depending on the country, university, and how early you start. We recommend starting as early as possible after NEET results."
+        "question": "Can I apply after Class 12?",
+        "answer": "Yes, students who have completed Class 12 can explore eligible bachelor's, undergraduate, and other programs based on the admission requirements of the course and university."
+      },
+      {
+        "question": "Does Edu-Hawk provide university selection assistance?",
+        "answer": "Yes, we help students shortlist universities and programs based on their academic background, interests, budget, career plans, and admission eligibility."
+      },
+      {
+        "question": "Do you help with student visas?",
+        "answer": "Yes, we provide guidance on student visa procedures, document preparation, and related requirements for the selected destination."
+      },
+      {
+        "question": "Can I get scholarships for studying abroad?",
+        "answer": "Scholarships and financial assistance vary by country, university, course, and student eligibility. We help students explore applicable scholarship options."
+      },
+      {
+        "question": "Why should I choose Edu-Hawk Worldwide?",
+        "answer": "We offer personalized guidance, international education options, application assistance, transparent counselling, and support to help students make informed decisions about studying abroad."
       }
     ]
   }

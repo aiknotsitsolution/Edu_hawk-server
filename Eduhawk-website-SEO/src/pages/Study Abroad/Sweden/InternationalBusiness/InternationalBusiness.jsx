@@ -22,7 +22,7 @@ const page = {
   "keywords": "Study International Business in Sweden, International Business in Sweden for Indian Students, Best Universities in Sweden, Sweden International Business Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide",
   "introTitle": "International Business in Sweden for Indian Students",
   "heroParas": [
-    "**International Business in Sweden** is an attractive study option for students who want to build careers in international trade, global marketing, business development and multinational management. A degree in this field helps students understand how companies operate across countries, manage international customers and respond to different markets, business practices and cultural environments."
+    "Pursue an accredited degree in International Business in Sweden, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore post-study residence permits to seek employment under Swedish migration policy."
   ],
   "overview": [
     "Indian students can choose a bachelor's degree after completing Class 12 or pursue a master's degree after graduation. Several Swedish universities offer English-taught programmes in international business, international management and global trade.",

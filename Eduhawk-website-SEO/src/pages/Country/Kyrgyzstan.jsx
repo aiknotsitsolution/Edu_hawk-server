@@ -625,7 +625,7 @@ const Kyrgyzstan = () => {
     <>
     
       <SeoHead
-        title={cmsData?.seo?.title || "MBBS in Kyrgyzstan for Indian Students | Fees & Admission 2026-27"}
+        title={cmsData?.seo?.title || "MBBS in Kyrgyzstan for Indian Students | Fees & Admission"}
         description={cmsData?.seo?.description || "Study MBBS in Kyrgyzstan at low cost with top NMC recognized universities. Get details on fees, eligibility, admission process and medical colleges."}
         keywords={cmsData?.seo?.keywords || "mbbs in kyrgyzstan, kyrgyzstan mbbs fees, study mbbs kyrgyzstan, kyrgyzstan medical colleges"}
         path="/mbbs-abroad/kyrgyzstan"

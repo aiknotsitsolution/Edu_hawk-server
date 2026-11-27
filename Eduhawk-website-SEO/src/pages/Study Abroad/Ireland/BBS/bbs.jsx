@@ -20,9 +20,9 @@ const page = {
   title: "Study Bachelor of Business Studies (BBS) in Ireland | Fees, Colleges & Visas 2026/27",
   description: "Complete guide to studying Bachelor of Business Studies (BBS) in Ireland: top universities, DCU & Galway business schools, INTRA internships, NFQ Level 8 degrees, 2026/27 tuition fees, and 1-year Stamp 1G post-study work visa.",
   keywords: "Study BBS in Ireland, Bachelor of Business Studies Ireland, DCU BBS, Shannon College Hotel Management Galway, Trinity BBS, BBS tuition fees Ireland 2026 2027, undergraduate business Ireland, INTRA placement Ireland, Stamp 1G visa BBS",
-  introTitle: "BACHELOR OF BUSINESS STUDIES IN IRELAND",
-  heroParas: [
-    "Ireland provides an internationally acclaimed pathway for students pursuing a Bachelor of Business Studies (BBS), merging rigorous commerce education with corporate work placements across Europe's leading commercial capital."
+  "introTitle": "BBS in Ireland for Indian Students",
+  "heroParas": [
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Ireland, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and access post-study work opportunities under the Irish Third Level Graduate Scheme, subject to official immigration regulations."
   ],
   overview: [
     "A Bachelor of Business Studies (BBS) in Ireland is a premier NFQ Level 8 Honours undergraduate degree designed to provide students with a comprehensive foundation across management, marketing, financial accounting, managerial economics, corporate finance, and business analytics. Across leading Irish universities and technological universities, BBS curricula combine rigorous foundational business theory with specialized final-year tracks and integrated cooperative work placements (INTRA internships).",

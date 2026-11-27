@@ -15,9 +15,9 @@ const page = {
   "title": "Executive MBA in USA for Indian Working Professionals | 2026 | Edu Hawk",
   "description": "Study Executive MBA (EMBA) in the USA for working professionals. Specialisations, duration, eligibility, entrance exams, tuition, scholarships, top universities, careers and visa process.",
   "keywords": "Study Executive MBA in USA for Indian Students, Best Executive MBA Universities in USA, Executive MBA Admission Requirements in USA, Executive MBA Fees in USA for Indian Students, Executive MBA Scholarships for International Students in USA, Executive MBA Course Duration in USA, Executive MBA Eligibility for Indian Professionals, Executive MBA Without GMAT in USA, Executive MBA Work Experience Requirements in USA, Top Executive MBA Programs in America, Executive MBA Specializations in USA, Career Opportunities After Executive MBA in USA, Executive MBA for Working Professionals in USA, Executive MBA in USA for International Managers, USA Student Visa for Indian Executive MBA Students",
-  "introTitle": "Master of Business Administration (MBA) in the USA",
+  "introTitle": "Executive MBA in the USA for Indian Students",
   "heroParas": [
-    "Pursuing an Executive MBA in the USA provides mid-career professionals and senior executives with advanced strategic leadership skills, elite global networking, and C-suite managerial frameworks at top-ranked business schools."
+    "Achieve transformative leadership excellence with an Executive MBA in the United States, delivered by top-tier AACSB-accredited business schools. Mid-career managers and senior executives master corporate strategy, enterprise governance, and global market disruption."
   ],
   "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."

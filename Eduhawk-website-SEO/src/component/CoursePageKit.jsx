@@ -1294,6 +1294,7 @@ export const isSubsectionHeading = (str) => {
   if (typeof str !== "string") return false;
   const s = cleanMarkdownEscapes(str).trim();
   if (s.length < 3 || s.length > 110) return false;
+  if (/https?:\/\//i.test(s)) return false;
 
   // Explicit Markdown heading: ## Heading, ### Subheading, #### Heading
   if (/^#{1,6}\s+\S/.test(s)) return true;
@@ -1305,8 +1306,8 @@ export const isSubsectionHeading = (str) => {
   if (/^[A-Z]\.\s+[A-Za-z0-9]/.test(s) && !/[.!?]$/.test(s)) return true;
   if (/^\d+\.\s+[A-Za-z0-9]/.test(s) && !/[.!?]$/.test(s)) return true;
 
-  // Ends with colon: "Admission Requirements:", "Key Advantages:"
-  if (/:\s*$/.test(s) && !/^(Note|Please note|Important|Tip|Disclaimer):\s*$/i.test(s)) return true;
+  // Ends with colon: "Admission Requirements:", "Key Advantages:" (keep short; skip long lead-in sentences)
+  if (/:\s*$/.test(s) && s.length <= 55 && !/^(Note|Please note|Important|Tip|Disclaimer):\s*$/i.test(s)) return true;
 
   // Specific recognized heading topics
   if (
@@ -1432,7 +1433,15 @@ export const Paragraphs = ({ items, className, tone }) => {
         const cleanedRaw = typeof p === "string" ? cleanMarkdownEscapes(p).trim() : p;
         const isBullet = typeof cleanedRaw === "string" && /^[*\-•]\s+/.test(cleanedRaw);
         const cleanP = isBullet ? cleanedRaw.replace(/^[*\-•]\s+/, "") : cleanedRaw;
-        if (isBullet) {
+        const isHeading = typeof cleanP === "string" && isSubsectionHeading(cleanP);
+
+        // Detect if item is actually part of a consecutive run of list items rather than a true section heading
+        const prevP = i > 0 && typeof list[i - 1] === "string" ? cleanMarkdownEscapes(list[i - 1]).trim() : "";
+        const nextP = i < list.length - 1 && typeof list[i + 1] === "string" ? cleanMarkdownEscapes(list[i + 1]).trim() : "";
+        const prevEndsWithColon = /:\s*$/.test(prevP) || /(?:include|consist of|such as|following)\s*:?$/i.test(prevP);
+        const isConsecutiveItem = isHeading && (prevEndsWithColon || (i > 0 && isSubsectionHeading(prevP)) || (i < list.length - 1 && isSubsectionHeading(nextP))) && !/^#{1,6}\s+/.test(cleanP) && !/:\s*$/.test(cleanP);
+
+        if (isBullet || isConsecutiveItem) {
           return (
             <div key={i} className="flex items-start gap-2.5 my-1.5 pl-1">
               <span className="w-1.5 h-1.5 rounded-full bg-blue-600 mt-2 flex-shrink-0" />
@@ -1442,8 +1451,6 @@ export const Paragraphs = ({ items, className, tone }) => {
             </div>
           );
         }
-
-        const isHeading = typeof cleanP === "string" && isSubsectionHeading(cleanP);
 
         if (isHeading) {
           const headingText = cleanP
@@ -2208,7 +2215,8 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
   const rawSrc = u.image || u.img || u.src || (u.img_var && u.img_var !== "null" ? u.img_var : null);
   const imgSrc = (rawSrc && rawSrc !== "null" && rawSrc !== "undefined") ? rawSrc : null;
   const cleanName = u.name ? cleanMarkdownEscapes(u.name).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
-  const cleanLocation = u.location ? cleanMarkdownEscapes(u.location).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
+  const rawLocation = u.location || u.city;
+  const cleanLocation = rawLocation ? cleanMarkdownEscapes(rawLocation).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
   const theme =
     u.artTheme ||
     (index % 4 === 0
@@ -2312,8 +2320,13 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
           )}
 
           {/* Key Metrics / Badges */}
-          {(u.duration || u.fee) && (
+          {Boolean(u.duration || u.fee || u.tuition || u.fees || u.qsRank || u.city || u.programs) && (
             <div className="mt-4 pt-3 border-t border-slate-100 flex flex-wrap gap-2 text-xs">
+              {u.qsRank && (
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-purple-50 text-purple-700 font-medium border border-purple-100">
+                  {u.qsRank}
+                </span>
+              )}
               {u.duration && (
                 <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 font-medium border border-blue-100">
                   <svg className="w-3.5 h-3.5 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
@@ -2323,33 +2336,46 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
                   {u.duration}
                 </span>
               )}
-              {u.fee && (
+              {(u.fee || u.tuition || u.fees) && (
                 <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-amber-50 text-amber-900 font-medium border border-amber-200/80">
                   <svg className="w-3.5 h-3.5 text-amber-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
-                  {u.fee}
+                  {u.fee || u.tuition || u.fees}
+                </span>
+              )}
+              {u.programs && (
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md bg-slate-50 text-slate-700 font-medium border border-slate-200">
+                  {u.programs}
                 </span>
               )}
             </div>
           )}
 
           {/* Features / Highlights */}
-          {Array.isArray(u.features) && u.features.length > 0 && (
-            <div className="mt-4 pt-3 border-t border-slate-100">
-              <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
-                Programme Highlights
+          {(() => {
+            const rawHighlights = Array.isArray(u.features) && u.features.length > 0
+              ? u.features
+              : (Array.isArray(u.highlights) && u.highlights.length > 0
+                ? u.highlights
+                : (typeof u.highlights === "string" ? [u.highlights] : null));
+            if (!rawHighlights || !rawHighlights.length) return null;
+            return (
+              <div className="mt-4 pt-3 border-t border-slate-100">
+                <div className="text-[11px] font-bold uppercase tracking-wider text-slate-400 mb-2">
+                  Programme Highlights
+                </div>
+                <ul className="space-y-1.5 text-xs text-slate-600">
+                  {rawHighlights.slice(0, 3).map((f, fi) => (
+                    <li key={fi} className="flex items-start gap-2">
+                      <span className="text-blue-600 font-bold flex-shrink-0 mt-0.5">✓</span>
+                      <span className="leading-snug">{formatRichText(f)}</span>
+                    </li>
+                  ))}
+                </ul>
               </div>
-              <ul className="space-y-1.5 text-xs text-slate-600">
-                {u.features.slice(0, 3).map((f, fi) => (
-                  <li key={fi} className="flex items-start gap-2">
-                    <span className="text-blue-600 font-bold flex-shrink-0 mt-0.5">✓</span>
-                    <span className="leading-snug">{formatRichText(f)}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
+            );
+          })()}
         </div>
 
         {/* Footer / Official Portal Link */}
@@ -2382,8 +2408,11 @@ export const SolidUniversityCard = ({ uni, index = 0, className = "" }) => {
 
 export const UniversityGrid = ({ unis, alt, className = "" }) => {
   const isFourItems = Array.isArray(unis) && unis.length === 4;
+  const isTwoItems = Array.isArray(unis) && unis.length === 2;
   const gridLayout = isFourItems
     ? "grid grid-cols-1 md:grid-cols-2 gap-6 "
+    : isTwoItems
+    ? "grid grid-cols-1 md:grid-cols-2 max-w-4xl mx-auto gap-6 "
     : "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ";
 
   return (
@@ -2392,11 +2421,14 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
         unis.map((u, i) => {
           const rawSrc = u.image || u.img || u.src || (u.img_var && u.img_var !== "null" ? u.img_var : null);
           const imgSrc = (rawSrc && rawSrc !== "null" && rawSrc !== "undefined") ? rawSrc : null;
-          const hasRichContent = Boolean(u.fee || (u.desc && u.desc.length > 80));
+          const hasRichContent = Boolean(
+            u.fee || u.tuition || u.fees || u.programs || u.highlights || u.features || u.qsRank || u.duration || (u.desc && u.desc.length > 80)
+          );
 
           if (imgSrc && !hasRichContent) {
             const cleanName = u.name ? cleanMarkdownEscapes(u.name).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
-            const cleanLocation = u.location ? cleanMarkdownEscapes(u.location).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
+            const rawLocation = u.location || u.city;
+            const cleanLocation = rawLocation ? cleanMarkdownEscapes(rawLocation).replace(/^(\.?|\d+\.\s*)\s*/, "") : "";
             return (
               <div
                 key={u.name ?? i}
@@ -2466,7 +2498,7 @@ export const UniversityGrid = ({ unis, alt, className = "" }) => {
 export const StepTimeline = ({ steps = [], center = true }) => (
   <div className="max-w-3xl mx-auto">
     {(steps || []).map((s, i) => {
-      const rawStep = (typeof s === "object" && s?.step) ? s.step : null;
+      const rawStep = (typeof s === "object" && (s?.step || s?.num)) ? (s.step || s.num) : null;
       const numMatch = rawStep ? String(rawStep).match(/\d+/) : null;
       const stepNum = numMatch ? parseInt(numMatch[0], 10) : (rawStep || i + 1);
       const title = typeof s === "object" ? (s.title || s.t) : null;
@@ -3183,6 +3215,182 @@ const RelatedBranches = ({ level, currentSlug, country = "USA" }) => {
 
 
 
+};
+
+/* Internal-linking block for AbroadCoursePage: mirrors RelatedBranches
+   so every country/course page links cleanly to its sibling courses and parent hub. */
+const STUDY_ABROAD_COURSE_GROUPS = [
+  {
+    id: "healthcare",
+    title: "Healthcare & Life Sciences Courses",
+    items: [
+      { slug: "dentistry", name: "Dentistry" },
+      { slug: "nursing", name: "Nursing" },
+      { slug: "pharmacy", name: "Pharmacy" },
+      { slug: "physiotherapy", name: "Physiotherapy" },
+      { slug: "public-health", name: "Public Health" },
+      { slug: "biotechnology", name: "Biotechnology" },
+    ],
+  },
+  {
+    id: "ug-engineering",
+    title: "Undergraduate Engineering Specialisations",
+    parentSlug: "ug/engineering",
+    parentName: "Undergraduate Engineering",
+    items: [
+      { slug: "ug/computer-engineering", name: "Computer Engineering" },
+      { slug: "ug/mechanical-engineering", name: "Mechanical Engineering" },
+      { slug: "ug/civil-engineering", name: "Civil Engineering" },
+      { slug: "ug/electrical-engineering", name: "Electrical Engineering" },
+      { slug: "ug/electronics-communication", name: "Electronics & Communication" },
+      { slug: "ug/chemical-engineering", name: "Chemical Engineering" },
+      { slug: "ug/aerospace-engineering", name: "Aerospace Engineering" },
+      { slug: "ug/biomedical-engineering", name: "Biomedical Engineering" },
+      { slug: "ug/automobile-engineering", name: "Automobile Engineering" },
+    ],
+  },
+  {
+    id: "pg-engineering",
+    title: "Postgraduate Engineering Specialisations",
+    parentSlug: "pg/engineering",
+    parentName: "Postgraduate Engineering",
+    items: [
+      { slug: "pg/computer-engineering", name: "Computer Engineering" },
+      { slug: "pg/mechanical-engineering", name: "Mechanical Engineering" },
+      { slug: "pg/civil-engineering", name: "Civil Engineering" },
+      { slug: "pg/electrical-engineering", name: "Electrical Engineering" },
+      { slug: "pg/electronics-communication", name: "Electronics & Communication" },
+      { slug: "pg/chemical-engineering", name: "Chemical Engineering" },
+      { slug: "pg/aerospace-engineering", name: "Aerospace Engineering" },
+      { slug: "pg/biomedical-engineering", name: "Biomedical Engineering" },
+      { slug: "pg/automobile-engineering", name: "Automobile Engineering" },
+    ],
+  },
+  {
+    id: "tech",
+    title: "Computer Science, IT & Engineering Courses",
+    items: [
+      { slug: "computer-science", name: "Computer Science" },
+      { slug: "information-technology", name: "Information Technology" },
+      { slug: "ug/computer-engineering", name: "UG Computer Engineering" },
+      { slug: "pg/computer-engineering", name: "PG Computer Engineering" },
+      { slug: "ug/engineering", name: "UG Engineering" },
+      { slug: "pg/engineering", name: "PG Engineering" },
+    ],
+  },
+  {
+    id: "business",
+    title: "Business & Management Courses",
+    parentSlug: "business-management",
+    parentName: "Business & Management",
+    items: [
+      { slug: "mba", name: "MBA" },
+      { slug: "executive-mba", name: "Executive MBA" },
+      { slug: "bba", name: "BBA" },
+      { slug: "bbs", name: "BBS" },
+      { slug: "mbs", name: "MBS" },
+      { slug: "international-business", name: "International Business" },
+      { slug: "marketing-management", name: "Marketing Management" },
+      { slug: "hospitality-management", name: "Hospitality Management" },
+    ],
+  },
+  {
+    id: "professional",
+    title: "Other Popular Courses & Programmes",
+    items: [
+      { slug: "architecture", name: "Architecture" },
+      { slug: "law", name: "Law" },
+      { slug: "language-courses", name: "Language Courses" },
+      { slug: "summer-courses", name: "Summer Courses" },
+      { slug: "winter-courses", name: "Winter Courses" },
+    ],
+  },
+];
+
+export const RelatedStudyAbroadCourses = ({ seoPath = "", country = "" }) => {
+  const { pathname } = useLocation();
+  const rawPath = (seoPath || pathname || "").replace(/^\/+|\/+$/g, "");
+  const match = rawPath.match(/^study-abroad\/([a-z0-9-]+)\/(.+)$/i);
+  if (!match) return null;
+
+  const countrySlug = match[1].toLowerCase();
+  const courseSlug = match[2].toLowerCase();
+  const inCountry = country || (countrySlug === "usa" ? "the USA" : countrySlug === "uk" ? "the UK" : countrySlug.charAt(0).toUpperCase() + countrySlug.slice(1));
+
+  const group = STUDY_ABROAD_COURSE_GROUPS.find(
+    (g) =>
+      g.parentSlug === courseSlug ||
+      g.items.some((item) => item.slug === courseSlug)
+  );
+  if (!group) return null;
+
+  const isOnParent = group.parentSlug === courseSlug;
+  const parentLink = isOnParent || !group.parentSlug
+    ? {
+        to: "/study-abroad",
+        title: "All Study Abroad Destinations",
+        desc: `Explore more countries, courses, and admission pathways beyond ${inCountry}.`,
+      }
+    : {
+        to: `/study-abroad/${countrySlug}/${group.parentSlug}`,
+        title: `${group.parentName} in ${inCountry}`,
+        desc: `Browse ${group.parentName.toLowerCase()} programmes, eligibility, fees, and career pathways in one place.`,
+      };
+
+  const siblings = group.items.filter((item) => item.slug !== courseSlug);
+
+  return (
+    <section className="py-10 sm:py-12 bg-slate-50">
+      <div className="max-w-6xl mx-auto px-6">
+        <EhpHead
+          eyebrow="Explore more"
+          title={`Other ${group.title} in ${inCountry}`}
+          desc={[
+            `Compare related programmes in ${inCountry}, or explore more study abroad options for Indian students.`,
+          ]}
+          descClass="text-slate-500 text-[15px] leading-relaxed w-full"
+        />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link
+            to={parentLink.to}
+            className="group ehp-card bg-white border border-blue-200 rounded-xl p-5 no-underline"
+          >
+            <div className="flex items-center justify-between mb-2">
+              <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                {parentLink.title}
+              </h3>
+              <span className="text-slate-300 group-hover:text-blue-600 transition-colors">
+                →
+              </span>
+            </div>
+            <p className="text-sm text-slate-500 leading-relaxed">
+              {parentLink.desc}
+            </p>
+          </Link>
+
+          {siblings.map((item) => (
+            <Link
+              key={item.slug}
+              to={`/study-abroad/${countrySlug}/${item.slug}`}
+              className="group ehp-card bg-white border border-slate-200 rounded-xl p-5 no-underline"
+            >
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                  {item.name}
+                </h3>
+                <span className="text-slate-300 group-hover:text-blue-600 transition-colors">
+                  →
+                </span>
+              </div>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                {item.name} in {inCountry} — eligibility, fees, universities and careers.
+              </p>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 
@@ -5065,6 +5273,28 @@ if (g.t === "ul")
           );
         }
 
+        if (g.t === "points") {
+          const pointItems = Array.isArray(g.items) ? g.items : [];
+          return (
+            <div key={i} className="my-5">
+              {g.title && (
+                <h4
+                  className={
+                    "text-lg sm:text-xl font-bold tracking-tight mb-3 flex items-center gap-2.5 " +
+                    (tone === "dark" ? "text-white" : "text-slate-900")
+                  }
+                >
+                  <span className="w-1.5 h-5 rounded-full bg-blue-600 inline-block shrink-0" />
+                  <span>{formatRichText(cleanMarkdownEscapes(g.title))}</span>
+                </h4>
+              )}
+              {pointItems.length > 0 && (
+                <CheckList items={pointItems} cols={pointItems.length >= 4 ? 2 : 1} tone={tone} />
+              )}
+            </div>
+          );
+        }
+
         return <Paragraphs key={i} items={g.items || []} />;
 
 
@@ -5182,7 +5412,12 @@ export const AbroadCoursePage = ({
     );
 
   const faqSection = page.sections?.find(isFaqSection);
-  const sectionFaqs = faqSection?.groups?.find((g) => g && (g.t === "faq" || g.t === "faqs"))?.items || [];
+  const sectionFaqs =
+    (Array.isArray(faqSection?.faqs) && faqSection.faqs.length > 0)
+      ? faqSection.faqs
+      : (Array.isArray(faqSection?.items) && faqSection.items.length > 0)
+        ? faqSection.items
+        : (faqSection?.groups?.find((g) => g && (g.t === "faq" || g.t === "faqs"))?.items || []);
   const effectiveFaqs = (page.faqs && page.faqs.length > 0) ? page.faqs : sectionFaqs;
   const effectiveFaqTitle = page.faqTitle || faqSection?.title || "Frequently Asked Questions";
 
@@ -5303,7 +5538,7 @@ export const AbroadCoursePage = ({
 
 
 
-        imgAlt={`${page.name} in ${inCountry}`}
+        imgAlt={`${courseBase} in ${inCountry}`}
 
 
 
@@ -5427,23 +5662,34 @@ export const AbroadCoursePage = ({
 
       {(() => {
         let renderedUnis = false;
-        return page.sections?.filter((s) => !isFaqSection(s))?.map((s, idx) => {
-
-
-
+        return page.sections?.filter((s) => !isFaqSection(s))?.map((rawS, idx) => {
         const shade = idx % 2 === 1 ? "bg-slate-50" : "";
+        let s = { ...rawS };
 
-
-
-
-
-
+        // Normalize cards placed at the section root
+        const cardsHasUnis = Array.isArray(s.cards) && s.cards.some((c) => c && (c.name || c.uni || c.university || c.img || c.image));
+        const isUniSlot = s.slot === "universities" || s.id === "universities" || s.slot === "unis" || s.id === "unis" || /(?:top\s+)?universit|institutions/i.test(s.title || s.eyebrow || "");
 
         const explicitSecUnis = (Array.isArray(s.unis) && s.unis.length > 0)
           ? s.unis
-          : ((Array.isArray(s.unis_data) && s.unis_data.length > 0) ? s.unis_data : null);
+          : ((Array.isArray(s.unis_data) && s.unis_data.length > 0)
+            ? s.unis_data
+            : (cardsHasUnis && isUniSlot ? s.cards : null));
+
+        // If section has general cards and no groups, wrap them into groups
+        if (Array.isArray(s.cards) && s.cards.length > 0 && !cardsHasUnis && (!s.groups || s.groups.length === 0)) {
+          if (!s.lead && (s.text || s.desc || s.subtitle)) {
+            s.lead = s.text || s.desc || s.subtitle;
+          }
+          s.groups = [{ t: "cards", items: s.cards }];
+        } else if (Array.isArray(s.cards) && s.cards.length > 0 && !isUniSlot && (!s.groups || s.groups.length === 0)) {
+          if (!s.lead && (s.text || s.desc || s.subtitle)) {
+            s.lead = s.text || s.desc || s.subtitle;
+          }
+          s.groups = [{ t: "cards", items: s.cards }];
+        }
+
         const hasExplicitUnis = Boolean(explicitSecUnis);
-        const isUniSlot = s.slot === "universities" || s.id === "universities";
         const pageUniPool = (Array.isArray(page.universities) && page.universities.length > 0)
           ? page.universities
           : ((Array.isArray(page.unis) && page.unis.length > 0) ? page.unis : null);
@@ -5468,7 +5714,7 @@ export const AbroadCoursePage = ({
                 <EhpHead
                   eyebrow={s.eyebrow || "Top Universities"}
                   title={s.title}
-                  desc={s.lead}
+                  desc={s.lead || s.desc || s.text || s.subtitle}
                   descClass="text-slate-500 text-[15px] leading-relaxed w-full space-y-3"
                 />
                 <UniversityGrid unis={sectionUnis} alt={(u) => (u.name || "University") + " campus"} />
@@ -5528,7 +5774,7 @@ export const AbroadCoursePage = ({
 
 
 
-                  items={s.lead}
+                  items={s.lead || s.desc || s.text || s.subtitle}
 
 
 
@@ -5712,12 +5958,18 @@ export const AbroadCoursePage = ({
 
 
 
-              <EhpHead eyebrow={s.eyebrow} title={s.title} desc={s.lead || s.desc} />
-              {(s.items || s.paras) && (!s.groups || s.groups.length === 0) && (
-                <Paragraphs
-                  items={s.items || s.paras}
-                  className="w-full text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
-                />
+              <EhpHead eyebrow={s.eyebrow} title={s.title} desc={s.lead || s.desc || s.text || s.subtitle} />
+              {(s.items || s.paras || s.content) && (!s.groups || s.groups.length === 0) && (
+                (s.slot === "checklist" || s.slot === "documents" || s.checklist || (Array.isArray(s.items) && s.items.length >= 4 && s.items.every((it) => typeof it === "string" && it.length < 180 && !it.includes("\n")))) ? (
+                  <div className="mt-4 mb-6">
+                    <CheckList items={s.items || s.paras || s.content} cols={2} />
+                  </div>
+                ) : (
+                  <Paragraphs
+                    items={s.items || s.paras || s.content}
+                    className="w-full text-slate-500 text-[15px] leading-relaxed space-y-4 mb-6"
+                  />
+                )
               )}
               {s.groups && s.groups.length > 0 && (
                 boxed ? (
@@ -5757,7 +6009,7 @@ export const AbroadCoursePage = ({
 
 
       {effectiveFaqs?.length > 0 && (
-        <section id="faq" className="py-10 sm:py-12">
+        <section id="faq" className="py-10 sm:py-12 scroll-mt-24">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-10">
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-600 mb-1.5">
@@ -5785,6 +6037,10 @@ export const AbroadCoursePage = ({
 
 
 
+
+      {/* INTERNAL LINKING — related courses */}
+
+      <RelatedStudyAbroadCourses seoPath={seoPath} country={inCountry} />
 
       {/* CTA */}
 

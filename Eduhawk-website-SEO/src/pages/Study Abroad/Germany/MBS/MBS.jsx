@@ -21,9 +21,9 @@ const page = {
   title: "MBS in Germany for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to Master of Business Studies (MBS / M.Sc. Management) in Germany: Top business faculties, consecutive admission criteria, tuition-free public education, costs, and high-impact career pathways.",
   keywords: "Master of Business Studies in Germany for Indian Students, Best Universities for Business Studies in Germany, Master of Business Studies Courses in Germany, MSc Business Administration in Germany, MSc International Business in Germany, Master of Business Studies Eligibility in Germany, Admission Requirements for Business Master's in Germany, IELTS and TOEFL Requirements for Business Studies in Germany, Master of Business Studies Fees in Germany for Indian Students, Cost of Living for Students in Germany, Business Master's Scholarships in Germany for International Students, Germany Student Visa Requirements for Indian Business Students",
-  introTitle: "Why Study for a Master of Business Studies in Germany?",
-  heroParas: [
-    "Germany is a premier destination for students seeking a Master of Business Studies (MBS) or Master of Science in Management, combining tuition-free public education with direct industry immersion in Europe's most powerful economy."
+  "introTitle": "MBS in Germany for Indian Students",
+  "heroParas": [
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Germany, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore the 18-month post-study job seeker visa, subject to German immigration directives."
   ],
   overview: [
     "Postgraduate business education in Germany offers rigorous academic research alongside practical corporate integration across marketing, management analytics, corporate finance, and strategic operations.",

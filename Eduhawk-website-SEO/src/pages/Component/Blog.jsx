@@ -20,7 +20,6 @@ import {
 
 import {
   Search,
-  Sparkles,
   BookOpen,
   ArrowRight,
   Clock,
@@ -190,11 +189,6 @@ const Blog = () => {
           <div className="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-teal-400/10 blur-3xl pointer-events-none z-0" />
 
           <div className="relative z-10 max-w-4xl mx-auto text-center">
-            <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-amber-300 text-xs sm:text-sm font-semibold mb-4 shadow-xl">
-              <BookOpen size={14} className="text-amber-400" />
-              Edu-Hawk Knowledge Hub &amp; Guides
-            </span>
-
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-4 drop-shadow-2xl">
               Latest Insights on MBBS Abroad
             </h2>
@@ -469,7 +463,7 @@ const Blog = () => {
 
             <div className="relative z-10 flex min-h-[340px] flex-col items-center justify-center px-6 py-14 text-center text-white">
               <span className="mb-4 inline-flex items-center gap-1.5 rounded-full border border-amber-300/30 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-amber-300 backdrop-blur-md">
-                <Sparkles size={14} className="text-amber-400" />
+                
                 Free Admission Evaluation
               </span>
 

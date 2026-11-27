@@ -28,10 +28,10 @@ const page = {
     "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Public Health in Sweden."
   ],
   "level": "MPH / Master of Public Health",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Public Health",
   "stats": [
     {
-      "val": "SEK 80K-150K",
+      "val": "SEK 140K–200K",
       "label": "Tuition / Year"
     },
     {
@@ -39,7 +39,7 @@ const page = {
       "label": "Part-Time Work"
     },
     {
-      "val": "3-4 Years",
+      "val": "2 Years (120 ECTS MPH)",
       "label": "Course Duration"
     },
     {
@@ -121,10 +121,10 @@ const page = {
           "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "KTH Royal Institute of Technology",
-          "location": "Stockholm, Sweden",
-          "fee": "SEK 120,000 \u2013 160,000 / Year",
-          "desc": "Sweden's leading technical university, ranked among Europe's top polytechnics for engineering, computer science, and innovation.",
+          "name": "University of Gothenburg",
+          "location": "Gothenburg, Sweden",
+          "fee": "SEK 95,000 \u2013 150,000 / Year",
+          "desc": "Offers a two-year English-taught Master's Programme in Public Health Science focusing on epidemiology, health equality, and global health.",
           "image": uniImg2, "img": uniImg2
         },
         {
@@ -142,10 +142,10 @@ const page = {
           "image": uniImg1, "img": uniImg1
         },
         {
-          "name": "Chalmers University of Technology",
-          "location": "Gothenburg, Sweden",
-          "fee": "SEK 130,000 \u2013 170,000 / Year",
-          "desc": "Globally recognized for cutting-edge engineering, sustainable technology, automotive systems, and industry partnerships.",
+          "name": "Ume\u00e5 University",
+          "location": "Ume\u00e5, Sweden",
+          "fee": "SEK 90,000 \u2013 145,000 / Year",
+          "desc": "Internationally recognized for its Department of Epidemiology and Global Health, offering specialized Master's programmes in Public Health.",
           "image": uniImg2, "img": uniImg2
         }
       ],

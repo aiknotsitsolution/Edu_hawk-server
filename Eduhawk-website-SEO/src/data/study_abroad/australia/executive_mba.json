@@ -5,8 +5,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Indian Students Pursuing an Executive MBA in Australia",
-    "subtitle": "A postgraduate business degree called an Executive Master of Business Administration (also known as an Executive MBA or EMBA) is primarily intended for seasoned professionals, managers, company executives, and entrepreneurs who wish to improve their strategic management and leadership skills.",
+    "title": "Executive MBA in Australia for Indian Students",
+    "subtitle": "Advance your corporate leadership with an Executive MBA (EMBA) in Australia, tailored for mid-career managers, directors, and executives seeking C-suite advancement. International professionals master strategic governance and organizational transformation while expanding their Asia-Pacific corporate networks.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/australia/executive_mba_Deakin_University-image4.png"
   },
@@ -163,7 +163,8 @@
             "Executive education frequently focuses on these topics. Not all Australian universities provide a distinct Executive MBA in every area of expertise."
           ]
         }
-      ]
+      ],
+      "lead": "Australian Executive MBA programs offer flexible, high-impact learning formats designed for senior professionals to balance demanding executive responsibilities with transformative leadership education."
     },
     {
       "slot": "universities",

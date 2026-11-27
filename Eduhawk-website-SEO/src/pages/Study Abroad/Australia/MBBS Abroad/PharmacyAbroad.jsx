@@ -78,7 +78,7 @@ const page = {
         {
           t: "p",
           items: [
-            "Advantages of Studying Pharmacy in Australia"
+            "Pursue accredited Pharmacy programs in Australia, combining advanced pharmaceutical chemistry, pharmacotherapy, and clinical patient care in modern hospital and community settings. Indian students prepare for registration with the Pharmacy Board of Australia and diverse healthcare careers."
           ]
         },
         {

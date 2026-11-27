@@ -18,9 +18,9 @@ const page = {
   title: "MBA in Finland for Indian Students | Edu-Hawk Worldwide",
   description: "Study MBA in Finland: Top institutions (Aalto EE, TAMK, HAMK, Metropolia, LAB), English-taught programmes, fees (€11,700–€37,800), eligibility, and post-study opportunities.",
   keywords: "MBA in Finland, MBA Universities in Finland, MBA in Finland for Indian Students, Study MBA in Finland, MBA Courses in Finland Fees, Master of Business Administration in Finland",
-  introTitle: "MBA in Finland",
-  heroParas: [
-    "An **[MBA in Finland](/study-abroad/finland/mba)** offers professionals a strong platform to develop their business knowledge, leadership abilities and strategic decision-making skills in a country known for innovation, entrepreneurship, sustainable business practices and technology-driven industries. Finnish MBA programmes combine business theory with practical learning, management projects and real-world problem-solving."
+  "introTitle": "MBA in Finland for Indian Students",
+  "heroParas": [
+    "Earn an accredited MBA in Finland, combining Nordic innovation, technology entrepreneurship, and sustainable corporate strategy. International students gain modern managerial competencies and explore post-study residence permit options for employment under Finnish immigration rules."
   ],
   overview: [
     "An MBA in Finland can help professionals strengthen their expertise in business administration, international management, marketing, finance, entrepreneurship and organisational leadership. Depending on the institution, students can choose full-time, part-time, blended or online study formats.",

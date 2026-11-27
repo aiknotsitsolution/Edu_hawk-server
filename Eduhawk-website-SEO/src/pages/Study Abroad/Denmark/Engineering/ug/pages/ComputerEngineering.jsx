@@ -239,7 +239,7 @@ const page = {
         {
           "t": "ul",
           "items": [
-            "Marksheets and certificates of Class 10 and Class 12\\.",
+            "Marksheets and certificates of Class 10 and Class 12.",
             "Copies of academic transcripts and certified translations, if applicable.",
             "A valid passport.",
             "Test results in English or Danish language, as appropriate.",

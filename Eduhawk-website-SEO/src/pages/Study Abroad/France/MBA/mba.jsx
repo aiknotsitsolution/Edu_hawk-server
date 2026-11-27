@@ -20,9 +20,9 @@ const page = {
   title: "Study MBA in France for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to MBA in France for Indian students: Top business schools (INSEAD, HEC Paris, ESSEC), admission requirements, tuition fees, scholarships, and 2-year post-study work visa.",
   keywords: "Study MBA in France, MBA in France for Indian Students, MBA Courses in France, Best MBA Business Schools in France, Top Business Schools in France, MBA Eligibility in France for Indian Students, MBA Admission Requirements in France, MBA Tuition Fees in France, Cost of Studying MBA in France, Cost of Living in France for MBA Students, MBA Scholarships in France, Full-Time MBA Programmes in France, Executive MBA in France, International MBA in France, MBA Admission Process in France for Indian Students, MBA Work Experience Requirements in France, GMAT and GRE Requirements for MBA in France, MBA Accreditation in France, MBA Salary in France, Jobs After MBA in France, Career Prospects After MBA in France, Documents Required for MBA Admission in France",
-  introTitle: "MBA IN FRANCE",
-  heroParas: [
-    "Pursuing an MBA in France gives ambitious professionals and business leaders access to world-class executive training, accelerated 10 to 16-month programs, and unparalleled corporate mobility across Europe. Featuring global powerhouses like INSEAD, HEC Paris, ESSEC, and ESCP—consistently ranked among the top 10 globally by the Financial Times—French MBA programs combine intensive leadership development with prestigious alumni networks and lucrative post-MBA career outcomes."
+  "introTitle": "MBA in France for Indian Students",
+  "heroParas": [
+    "Pursue a prestigious Master of Business Administration (MBA) in France at internationally accredited business schools renowned for corporate networking and global brand leadership. International students acquire executive management acumen and explore post-study stay-back opportunities under French immigration policy."
   ],
   overview: [
     "France is one of the world's most sought-after destinations for Master of Business Administration (MBA) studies. The country pioneered management education in Europe and hosts institutions holding triple international accreditation (AACSB, EQUIS, AMBA). Programs are delivered entirely in English with cohorts representing over 60 nationalities, fostering a genuinely multicultural executive learning environment.",

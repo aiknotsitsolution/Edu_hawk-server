@@ -14,9 +14,9 @@ const page = {
   "title": "International Business in USA for Indian Students | 2026 | Edu Hawk",
   "description": "Study International Business in the USA. Course options, specialisations, eligibility, English requirements, tuition fees, scholarships, top universities, careers and visa process for Indian students.",
   "keywords": "International Business in USA for Indian Students, Best Universities for International Business in USA, International Business Courses in USA, International Business Admission Requirements in USA, International Business Fees in USA for Indian Students, International Business Scholarships for International Students, International Business Eligibility After Class 12, Bachelor's in International Business in USA, Master's in International Business in USA, International Business Specializations in USA, International Business Without GMAT in USA, Top International Business Programs in America",
-  "introTitle": "International Business in USA",
+  "introTitle": "International Business in the USA for Indian Students",
   "heroParas": [
-    "Studying International Business in the USA prepares global students to navigate cross-border trade, multinational corporate strategy, and global supply chains in the world's most dynamic commercial economy."
+    "Pursue an accredited degree in International Business in the USA, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills and explore Optional Practical Training (OPT) employment opportunities, subject to US immigration regulations."
   ],
   "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."

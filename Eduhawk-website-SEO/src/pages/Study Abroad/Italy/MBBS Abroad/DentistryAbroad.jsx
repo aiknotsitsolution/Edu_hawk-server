@@ -31,15 +31,15 @@ const page = {
   "stats": [
     {
       "label": "Degree Choices",
-      "value": "Undergraduate & Graduate Entry"
+      "value": "Odontoiatria e Protesi Dentaria"
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG) / 3 Years (UG)"
+      "value": "6 Years (360 ECTS)"
     },
     {
       "label": "Top Institutions",
-      "value": "Milano, Sapienza University of Rome, Bologna"
+      "value": "Milan-Bicocca, Sapienza Rome, Tor Vergata, Siena"
     },
     {
       "label": "Medium of Study",
@@ -403,6 +403,7 @@ export default function DentistryAbroadItaly() {
     description: cmsData?.seo?.description || page.description,
     introTitle: cmsData?.hero?.title || page.introTitle,
     heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    highlights: cmsData?.highlights || page.highlights,
     overview: cmsData?.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : cmsData.overview.split('\n\n'))
       : page.overview,
@@ -410,10 +411,7 @@ export default function DentistryAbroadItaly() {
       ? cmsData.sections
       : page.sections,
     universities: (cmsData?.universities && cmsData.universities.length > 0)
-      ? cmsData.universities.map((u, idx) => ({
-          ...u,
-          image: page.universities?.[idx]?.image || u.image
-        }))
+      ? cmsData.universities
       : page.universities,
     faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
       ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))

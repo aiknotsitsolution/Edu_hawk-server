@@ -28,7 +28,7 @@ const page = {
     "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Pharmacy in Sweden."
   ],
   "level": "B.Pharm & M.Pharm",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Pharmacy",
   "stats": [
     {
       "val": "SEK 80K-150K",
@@ -39,11 +39,11 @@ const page = {
       "label": "Part-Time Work"
     },
     {
-      "val": "3-4 Years",
+      "val": "3-5 Years",
       "label": "Course Duration"
     },
     {
-      "val": "English",
+      "val": "Swedish (UG) / English (MSc)",
       "label": "Medium of Study"
     }
   ],
@@ -73,7 +73,7 @@ const page = {
     {
       "slot": "why",
       "eyebrow": "Why Sweden",
-      "title": "Why are you studying Pharmacy in Sweden?",
+      "title": "Why Study Pharmacy in Sweden?",
       "groups": [
         {
           "t": "p",
@@ -404,7 +404,7 @@ const page = {
       "a": "Yes. Indian students can apply if they meet academic, subject specific and language requirements. Most professional pharmacy programs require knowledge of Swedish. **Pharmacy in Sweden for Indian Students** requires careful planning of academic qualifications and language preparation."
     },
     {
-      "q": "Q2. Are there pharmacies in English in Sweden?",
+      "q": "Are Pharmacy programmes in Sweden taught in English?",
       "a": "Some pharmaceutical science and related research programs may be taught in English language. Uppsala University offers the main professional programs in pharmacy in Swedish. A degree in pharmaceutical science taught in English does not necessarily lead to a licence to practise as a pharmacist."
     },
     {

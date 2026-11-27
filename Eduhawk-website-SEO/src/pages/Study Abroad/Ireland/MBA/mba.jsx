@@ -20,9 +20,9 @@ const page = {
   title: "Study MBA in Ireland for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to Master of Business Administration (MBA) in Ireland for Indian students: Top Triple Crown business schools (Trinity, Smurfit, DCU), eligibility, work experience criteria, tuition fees (€18,300 – €37,300), executive salaries, and 2-year post-study work visa (Stamp 1G).",
   keywords: "Study MBA in Ireland for Indian Students, Top Universities for MBA in Ireland, Full-Time MBA Courses in Ireland for International Students, Executive MBA Programmes in Ireland, MBA Eligibility Requirements in Ireland, MBA Admission Requirements for Indian Students, MBA Tuition Fees in Ireland 2026/27, Cost of Studying MBA in Ireland for International Students, IELTS Requirements for MBA Admission in Ireland, MBA Scholarships for International Students in Ireland, MBA Jobs and Career Opportunities in Ireland, MBA Graduate Salary and Career Opportunities in Ireland",
-  introTitle: "MBA IN IRELAND",
-  heroParas: [
-    "An MBA in Ireland offers high-potential professionals immersive strategic leadership, international business development, and innovation mastery within Europe's primary corporate gateway. Taught by world-ranked, triple-accredited business faculties (AMBA, AACSB, EQUIS) across 1-year intensive Full-Time and 2-year Executive MBA formats, candidates engage in live company consulting projects with Fortune 500 multinationals headquartered in Dublin and benefit from Ireland's 2-year Stamp 1G post-study work authorization to accelerate executive careers."
+  "introTitle": "MBA in Ireland for Indian Students",
+  "heroParas": [
+    "Earn a high-impact MBA in Ireland, Europe's thriving hub for global technology, finance, and pharmaceutical headquarters. International students acquire strategic executive skills and explore post-study work opportunities through the Irish Third Level Graduate Scheme, subject to official immigration regulations."
   ],
   overview: [
     "Pursuing an MBA in Ireland is a transformative career milestone that elevates mid-career professionals, entrepreneurs, and managers into strategic executive leadership. Ireland’s uniquely international corporate landscape—serving as the European operational headquarters for over 1,000 global multinationals across software, fintech, pharmaceuticals, medical devices, and management consulting—provides an unmatched ecosystem for experiential management learning.",

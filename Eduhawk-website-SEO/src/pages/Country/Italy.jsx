@@ -29,7 +29,7 @@ const Italy = () => {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       <SeoHead
-        title={cmsData?.seo?.title || "MBBS in Italy 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        title={cmsData?.seo?.title || "MBBS in ItalyAdmissions, Fees & Universities | Edu Hawk"}
         description={cmsData?.seo?.description || "Explore MBBS in Italy for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
         keywords={cmsData?.seo?.keywords || "mbbs in italy, study mbbs italy, italy medical colleges, imat exam, mbbs abroad italy"}
         path="/mbbs-abroad/italy"
@@ -128,10 +128,10 @@ const Italy = () => {
           </div>
         </div>
 
-        {/* MBBS in Italy for Indian Students 2026-27 */}
+        {/* MBBS in Italy for Indian Students */}
         <div className="mb-20">
           <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-8">
-            MBBS in Italy for Indian Students 2026-27
+            MBBS in Italy for Indian Students
           </h2>
           <div className="prose prose-lg max-w-none text-gray-700 leading-relaxed">
             <p>

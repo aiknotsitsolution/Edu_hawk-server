@@ -20,7 +20,7 @@ const page = {
   title: "Nursing in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study Nursing in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study Nursing in Switzerland, Nursing in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland Nursing Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
-  introTitle: "Indian Students Nursing in Switzerland",
+  introTitle: "Nursing in Switzerland",
   heroParas: [
     "**Nursing in Switzerland for Indian Students** gives you a chance to explore a healthcare education system focusing on patient safety, practical clinical experience, evidence-based care and professional development. The nursing programs train students to assist patients in hospitals, community healthcare services, rehabilitation centers, elderly care facilities and other medical environments."
 ],
@@ -266,7 +266,7 @@ const page = {
     {
       slot: "fees",
       eyebrow: "Tuition & Living Costs",
-      title: "Nursing fees in Swiss",
+      title: "Nursing Fees in Switzerland",
       groups: [
         {
                 "t": "p",
@@ -498,13 +498,14 @@ const page = {
         "a": "Tuition in some public institutions can be relatively moderate but expenses of living including accommodation, food, insurance and other costs are high. Students are asked to determine their total annual budget before submitting an application."
     }
 ],
-  faqTitle: "11. Frequently Asked Questions"
+  faqTitle: "Frequently Asked Questions About Nursing in Switzerland"
 };
 
 export default function NursingAbroadSwitzerland() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: "Nursing",
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])

@@ -21,9 +21,9 @@ const page = {
   title: "Study BBA in Australia for Indian Students | Edu-Hawk Worldwide",
   description: "Study Bachelor of Business Administration (BBA) in Australia. Learn about top colleges (Macquarie, Wollongong, UTS, La Trobe), eligibility after 12th, fees, and career pathways.",
   keywords: "",
-  introTitle: "Indian students pursuing a Bachelor of Business Administration (BBA) in Australia",
-  heroParas: [
-    "Yes, Indian students who fulfill the academic and English language requirements of the university may apply to approved undergraduate business programs."
+  "introTitle": "BBA in Australia for Indian Students",
+  "heroParas": [
+    "Pursue an accredited Bachelor of Business Administration (BBA) in Australia, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules."
   ],
   overview: [
     "Q2. Do all Australian universities offer BBA programs?",

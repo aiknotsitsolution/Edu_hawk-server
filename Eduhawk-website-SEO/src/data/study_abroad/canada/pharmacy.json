@@ -120,7 +120,7 @@
         {
           "t": "p",
           "items": [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey."
           ]
         }
       ]
@@ -157,32 +157,7 @@
       "eyebrow": "Top Canadian Universities",
       "title": "Canada's Top Pharmacy Universities",
       "lead": "Students searching for the best pharmacy universities in Canada can explore establishments renowned for pharmaceutical sciences, professional pharmacy education, and associated research.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "University of Toronto"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "University of Waterloo"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "University of Alberta"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Dalhousie University"
-          ]
-        }
-      ],
+      "groups": [],
       "unis": [
         {
           "name": "Dalhousie University",
@@ -275,7 +250,7 @@
         {
           "t": "ul",
           "items": [
-            "A minimum of years of post-secondary education or university credits.",
+            "A minimum of 1–2 years of post-secondary education or university credits.",
             "Biology, chemistry, mathematics, and statistics are examples of prerequisite courses.",
             "A strong academic record.",
             "Proficiency in English, if applicable.",
@@ -309,8 +284,8 @@
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
+      "slot": "admission-requirements",
+      "eyebrow": "Admission Requirements",
       "title": "Canada's Pharmacy Admission Requirements",
       "lead": "Before submitting their applications, prospective students should be aware of the pharmacy admission requirements in Canada for overseas students .",
       "groups": [
@@ -673,9 +648,9 @@
       "answer": "The city, course, and school all affect how much it costs to study pharmacy in Canada. Tuition and living expenses combined may cost between CAD 37,100 and CAD 105,100 or more annually, according to a general planning estimate. Before creating a budget, review the university's current fee schedule."
     },
     {
-      "q": "Question 5. Is it possible for Indian BPharm graduates to work as pharmacists in Canada?",
+      "q": "Is it possible for Indian BPharm graduates to work as pharmacists in Canada?",
       "a": "Possibly, however a Canadian pharmacy license is not a given for an Indian BPharm degree. Graduates must adhere to the relevant provincial registration and internationally educated pharmacist certification procedures, which may involve credential evaluation, tests, hands-on training, and other prerequisites.",
-      "question": "Question 5. Is it possible for Indian BPharm graduates to work as pharmacists in Canada?",
+      "question": "Is it possible for Indian BPharm graduates to work as pharmacists in Canada?",
       "answer": "Possibly, however a Canadian pharmacy license is not a given for an Indian BPharm degree. Graduates must adhere to the relevant provincial registration and internationally educated pharmacist certification procedures, which may involve credential evaluation, tests, hands-on training, and other prerequisites."
     }
   ],
@@ -705,9 +680,9 @@
       "answer": "The city, course, and school all affect how much it costs to study pharmacy in Canada. Tuition and living expenses combined may cost between CAD 37,100 and CAD 105,100 or more annually, according to a general planning estimate. Before creating a budget, review the university's current fee schedule."
     },
     {
-      "q": "Question 5. Is it possible for Indian BPharm graduates to work as pharmacists in Canada?",
+      "q": "Is it possible for Indian BPharm graduates to work as pharmacists in Canada?",
       "a": "Possibly, however a Canadian pharmacy license is not a given for an Indian BPharm degree. Graduates must adhere to the relevant provincial registration and internationally educated pharmacist certification procedures, which may involve credential evaluation, tests, hands-on training, and other prerequisites.",
-      "question": "Question 5. Is it possible for Indian BPharm graduates to work as pharmacists in Canada?",
+      "question": "Is it possible for Indian BPharm graduates to work as pharmacists in Canada?",
       "answer": "Possibly, however a Canadian pharmacy license is not a given for an Indian BPharm degree. Graduates must adhere to the relevant provincial registration and internationally educated pharmacist certification procedures, which may involve credential evaluation, tests, hands-on training, and other prerequisites."
     }
   ]

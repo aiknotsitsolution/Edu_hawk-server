@@ -150,7 +150,7 @@
       "slot": "programs",
       "eyebrow": "Academic Pathways",
       "title": "Canadian Nursing Programs",
-      "lead": "International students can enrolll in undergraduate, graduate, research, and diploma nursing programs at Canadian universities. Depending on their academic background, desired area of specialization, and career goals, students might investigate several nursing programs.",
+      "lead": "International students can enroll in undergraduate, graduate, research, and diploma nursing programs at Canadian universities. Depending on their academic background, desired area of specialization, and career goals, students might investigate several nursing programs.",
       "groups": [
         {
           "t": "p",
@@ -239,7 +239,7 @@
         {
           "t": "p",
           "items": [
-            "Certificate in Postgraduate Nursing - varies"
+            "Certificate in Postgraduate Nursing – duration varies by institution."
           ]
         }
       ]
@@ -312,8 +312,8 @@
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
+      "slot": "admission-requirements",
+      "eyebrow": "Admission Requirements",
       "title": "Canada's Nursing Admission Requirements",
       "lead": "Before beginning their applications, students wishing to apply to Canadian nursing universities should understand the following requirements for admission.",
       "groups": [
@@ -324,7 +324,7 @@
             "academic credentials and grades.",
             "Academic Achievement",
             "The institution sets minimum scores and required grades.",
-            "Proficiency in English , iIf necessary, take the TOEFL iBT, IELTS Academic or a recognized substitute.",
+            "Proficiency in English — if necessary, take the TOEFL iBT, IELTS Academic or a recognized substitute.",
             "A valid passport, necessary for candidates from overseas.",
             "Individual Statement, Some institutions require it.",
             "Recommendation Letters, necessary in some situations.",
@@ -496,9 +496,9 @@
           "text": "Provinces and nursing specialties have different requirements."
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "9 . Pay and career opportunities for Nurses in Canada"
+            "Pay and Career Opportunities for Nurses in Canada"
           ]
         },
         {

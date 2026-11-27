@@ -301,7 +301,8 @@ const page = {
 export default function PhysiotherapyinFrancePage() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: "Physiotherapy",
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])

@@ -29,14 +29,14 @@ const page = {
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Physiotherapy."
   ],
   "level": "BPT / Physiotherapy",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Physiotherapy",
   "stats": [
     {
       "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "English",
+      "val": "Danish (BSc) / English (MSc)",
       "label": "Medium of Study"
     },
     {
@@ -170,52 +170,42 @@ const page = {
       "unis": [
         {
           "name": "University College Copenhagen (KP)",
-          "location": "University College Copenhagen (KP), Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate academic education with practical training and clinical experience.",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate rigorous academic education with practical training and clinical hospital experience.",
+          "link": "https://www.kp.dk/en/",
           "img": uniImg1
         },
         {
           "name": "VIA University College",
-          "location": "VIA University College, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "VIA University College is a professional higher education institution that offers courses in healthcare and other fields. Future students should consult its current physiotherapy program details, language of instruction and admission criteria.",
+          "location": "Aarhus & Horsens, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "VIA University College is a leading Danish university of applied sciences offering accredited physiotherapy education with hands-on clinical internships and international student support.",
+          "link": "https://en.via.dk/",
           "img": uniImg2
-        },
-        {
-          "name": "How to Choose the Right Institution",
-          "location": "How to Choose the Right Institution, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Denmark**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
-          "img": uniImg3
         }
       ],
       "unis_data": [
         {
           "name": "University College Copenhagen (KP)",
-          "location": "University College Copenhagen (KP), Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate academic education with practical training and clinical experience.",
+          "location": "Copenhagen, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "University College Copenhagen provides professional healthcare education, including physiotherapy. Its programs integrate rigorous academic education with practical training and clinical hospital experience.",
+          "link": "https://www.kp.dk/en/",
           "img": uniImg1
         },
         {
           "name": "VIA University College",
-          "location": "VIA University College, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "VIA University College is a professional higher education institution that offers courses in healthcare and other fields. Future students should consult its current physiotherapy program details, language of instruction and admission criteria.",
+          "location": "Aarhus & Horsens, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "VIA University College is a leading Danish university of applied sciences offering accredited physiotherapy education with hands-on clinical internships and international student support.",
+          "link": "https://en.via.dk/",
           "img": uniImg2
-        },
-        {
-          "name": "How to Choose the Right Institution",
-          "location": "How to Choose the Right Institution, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "Compare the curriculum, language requirements, clinical placement arrangements, tuition fees, location and whether the qualification meets the requirements for professional practice. When reviewing **Physiotherapy universities in Denmark**, applicants should also confirm the latest course availability and international admission conditions directly with the institutions.",
-          "img": uniImg3
         }
       ],
       "note": [
-        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
-        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
+        "Compare curriculum, clinical placement arrangements, tuition fees, and whether the degree satisfies Danish authorization requirements.",
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions. EU/EEA students may study tuition-free."
       ]
     },
     {

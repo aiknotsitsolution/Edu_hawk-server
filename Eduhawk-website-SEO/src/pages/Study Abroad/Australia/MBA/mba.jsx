@@ -21,9 +21,9 @@ const page = {
   title: "Study MBA in Australia for Indian Students | Edu-Hawk Worldwide",
   description: "Study Master of Business Administration (MBA) in Australia for Indian students. Learn about top MBA universities (Curtin, South Australia, La Trobe, ANU), eligibility, fees, and career outcomes.",
   keywords: "Study MBA in Australia for Indian Students Study MBA in Australia: Best Universities and Fees Study Master of Business Administration in Australia with Scholarships Study MBA in Australia Without GMAT Study MBA in Australia: Eligibility and Admission Requirements Study MBA in Australia with Work Experience Requirements Study MBA in Australia: Jobs and Career Opportunities Study MBA in Australia: IELTS Requirements and Student Visa",
-  introTitle: "Indian students pursuing a Master of Business Administration (MBA) in Australia",
-  heroParas: [
-    "A postgraduate business degree, the Master of Business Administration (MBA) is intended to foster management decision-making, strategic thinking, leadership, and business growth abilities. Professionals and graduates who wish to grow in their jobs, transition into management, change industries, or start their own enterprises can benefit from it, depending on the program."
+  "introTitle": "MBA in Australia for Indian Students",
+  "heroParas": [
+    "Pursue a globally recognized Master of Business Administration (MBA) in Australia, offering industry-integrated coursework, executive mentorship, and hands-on consulting projects. International students develop strategic leadership skills and explore post-study work opportunities via Australia's Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration criteria."
   ],
   overview: [
     "Full-time, part-time, executive, and flexible study options are among the MBA programs offered by Australian universities. While some programs offer avenues for candidates with less work experience, others concentrate on seasoned experts.",

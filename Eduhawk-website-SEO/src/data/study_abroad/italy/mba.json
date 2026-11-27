@@ -7,7 +7,7 @@
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "MBA in Italy for Indian Students",
-    "subtitle": "MBA in Italy for Indian Students",
+    "subtitle": "Pursue an accredited MBA in Italy, combining international business management with design innovation, luxury brand strategy, and Mediterranean commerce. International students gain global leadership exposure and explore post-study stay-back options under Italian immigration frameworks.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/italy/mba_Graduate_School_of_Management_POLIMI-image1.png"
   },
@@ -329,7 +329,8 @@
             "Please check the business school for current intake, tuition fee, teaching language, admission criteria, accreditation or recognition information before applying. Rankings and program offerings can vary from year to year."
           ]
         }
-      ]
+      ],
+      "lead": "Italian business schools are renowned for blending managerial excellence with creative innovation, entrepreneurship, and international trade across Europe's industrial manufacturing belt."
     },
     {
       "slot": "eligibility",

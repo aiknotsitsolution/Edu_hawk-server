@@ -23,18 +23,12 @@ const page = {
   keywords: "Study Computer Engineering in Germany for Indian Student Master’s, Post-Graduate Courses in Computer Engineering in Germany, Top Computer Engineering Universities in Germany, MSc Computer Engineering Courses in Germany, Master of Science in Embedded Systems Engineering in Germany, Computer Systems Engineering Studies in Germany, Eligibility Requirements for Computer Engineering in Germany, Admission Requirements for Master’s in Computer Engineering in Germany, Computer Engineering courses in Germany in English language, Requirements of IELTS and TOEFL for Computer Engineering in Germany, Computer Engineering Fees in Germany, Cost of living for Master students in Germany",
   introTitle: "Why Study Postgraduate Computer Engineering in Germany?",
   heroParas: [
-    "Germany is a premier global destination for postgraduate computer engineering, combining advanced research in microelectronics, embedded systems, high-performance computing, and artificial intelligence hardware with tuition-free public university education and an 18-month post-study work visa."
+    "Pursue an elite English-taught Master of Science in Computer Engineering (Technische Informatik) in Germany across top TU9 technical universities with tuition-free public study options and an 18-month post-study job seeker visa."
   ],
   overview: [
-    "German universities provide an exceptional environment for students who want to design, develop, and optimize computing systems bridging the gap between physical silicon and high-level software.",
-    "Key advantages of pursuing an M.Sc. in Computer Engineering in Germany include:",
-    "• World-Renowned Technical Education: Rigorous curricula across computer architecture, distributed computing, cyber-physical systems, and microelectronics.",
-    "• High-Tech Industrial Ecosystem: Germany is Europe's semiconductor hub ('Silicon Saxony' in Dresden) and home to industrial heavyweights like Infineon, Bosch, Siemens, and SAP.",
-    "• State-of-the-Art Research Centers: Opportunities to collaborate on projects with the German Research Center for Artificial Intelligence (DFKI), Fraunhofer, and Max Planck Institutes.",
-    "• Tuition-Free Public Education: Over 90% of public universities charge zero tuition fees, requiring only a nominal semester contribution (€150–€400).",
-    "• Multidisciplinary Research: Leading-edge specializations across robotics, hardware-software co-design, cloud infrastructure, and quantum computing.",
-    "• High Global Demand & 18-Month Work Visa: International graduates qualify for an 18-month job seeker visa with rapid transition to the EU Blue Card.",
-    "Edu-Hawk Worldwide assists prospective students with technical profile evaluation, APS certification, ECTS credit mapping, university applications, and visa documentation."
+    "Germany is continental Europe's undisputed leader in industrial automation, automotive electronics, and semiconductor manufacturing, currently expanding major silicon fabrication mega-fabs in Dresden and Magdeburg. Studying a Master of Science in Computer Engineering (*Technische Informatik*) in Germany gives Indian students direct immersion in Europe's most powerful electronics and hardware engineering ecosystem.",
+    "German public universities offer 2-year English-taught Master of Science programs with zero tuition fees (nominal semester administrative fees only). Academic curricula cover Advanced Embedded Systems, Real-Time Operating Systems, Hardware-Software Co-Design, Automotive Electronic Control Units (ECUs), and VLSI Design Verification, integrating collaborative research projects with industrial titans like Bosch, Infineon, Siemens, and BMW.",
+    "International engineering graduates in Germany benefit from critical demand across the automotive, semiconductor, and industrial automation sectors. Under Section 20, Paragraph 3, Number 1 of the German Residence Act (§ 20 Abs. 3 Nr. 1 AufenthG), non-EU graduates can extend their residence permit for up to 18 months to seek qualified employment commensurate with their degree, followed by a transition to an EU Blue Card (§ 18g AufenthG) with lowered salary thresholds for engineering bottleneck professions (*Mangelberufe*), subject to a qualifying employment contract and official approval."
   ],
   level: "M.Sc. in Computer Engineering / Embedded Systems",
   crumb: "Engineering / PG Computer Engineering",
@@ -49,7 +43,7 @@ const page = {
   sections: [
     {
       title: "Popular Postgraduate Computer Engineering Courses & Specialisations",
-      content: [
+      paras: [
         "Postgraduate Computer Engineering courses in Germany typically run for a duration of 1.5 to 2 years (3 to 4 semesters) and require completion of 90 or 120 ECTS credits. Curricula offer deep flexibility across hardware design, embedded firmware, and complex systems software.",
         "Popular postgraduate degree programs and specializations include:",
         "• Master of Science in Computer Engineering: Core training in advanced microarchitectures, digital system design, and hardware-software co-design.",
@@ -70,13 +64,13 @@ const page = {
       ]
     },
     {
-      slot: "unis",
+      slot: "universities",
       title: "Top German Universities for Postgraduate Computer Engineering",
       subtitle: "Leading technical universities and excellence clusters offering world-class laboratories, zero public tuition, and direct industry integration."
     },
     {
       title: "Eligibility Criteria for M.Sc. in Computer Engineering in Germany",
-      content: [
+      paras: [
         "Admission to German postgraduate engineering programs is strictly academic and merit-based. Because German master's degrees are consecutive (konsekutiv), applicants must possess an undergraduate degree directly relevant to Computer Engineering, Electrical Engineering, or Computer Science.",
         "Key eligibility benchmarks required by German universities:",
         "• Recognized Bachelor's Degree: A 4-year B.Tech / B.E. / B.Sc. in Computer Engineering, Computer Science, Electronics & Communication Engineering, or Electrical Engineering from a recognized university.",
@@ -90,7 +84,7 @@ const page = {
     },
     {
       title: "Application Dossier & Required Documentation",
-      content: [
+      paras: [
         "International applicants must prepare a comprehensive academic dossier for submission via Uni-Assist or direct university application portals:",
         "1. Valid International Passport (valid for at least 12 months beyond planned stay)",
         "2. Certified Official Bachelor's Degree Certificate and Consolidated Marksheets",
@@ -106,7 +100,7 @@ const page = {
     },
     {
       title: "Tuition Fees & Cost of Living Breakdown",
-      content: [
+      paras: [
         "Public higher education in Germany remains virtually tuition-free, making it one of the most cost-effective destinations in the world for advanced technical education.",
         "Estimated costs for international postgraduate students:",
         "• Public University Tuition: €0 per year across 15 of 16 German federal states (in Baden-Württemberg, non-EU students pay €1,500 per semester).",
@@ -124,7 +118,7 @@ const page = {
     },
     {
       title: "Accreditation, Quality Standards & Industry Recognition",
-      content: [
+      paras: [
         "All genuine German technical universities and universities of applied sciences are state-recognized and adhere strictly to the European Higher Education Area (Bologna Process).",
         "Key quality assurance benchmarks:",
         "• State Accreditation (Staatliche Anerkennung): Guarantees global validity of degree awards and unrestricted admission to doctoral (Ph.D.) research programs.",
@@ -135,7 +129,7 @@ const page = {
     },
     {
       title: "Career Outlook, Job Profiles & Salary Benchmarks",
-      content: [
+      paras: [
         "Graduates with a master's degree in computer engineering from Germany are in exceptionally high demand across automotive electronics, industrial robotics, semiconductor design, telecommunications, and software engineering.",
         "Prominent postgraduate career roles include:",
         "• Embedded Systems Engineer: Developing firmware, device drivers, and real-time control software for automotive, aerospace, and medical devices.",

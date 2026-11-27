@@ -20,9 +20,9 @@ const page = {
   title: "Study BBA & Bachelor of Business in Ireland | Top Universities & Fees 2026/27",
   description: "Complete guide to studying BBA, Bachelor of Commerce, and Business degrees in Ireland for international students: top business schools, NFQ Level 7/8 degrees, 2026/27 fees, Stamp 1G post-study work visa, and career pathways.",
   keywords: "Study BBA in Ireland, Bachelor of Business Ireland, Bachelor of Commerce Ireland, BComm Dublin, BESS Trinity College, UCD Quinn School of Business, BBA eligibility Ireland, BBA tuition fees Ireland 2026 2027, Stamp 1G graduate visa Ireland, business studies Ireland",
-  introTitle: "BACHELOR OF BUSINESS ADMINISTRATION IN IRELAND",
-  heroParas: [
-    "Ireland is an exceptional European hub for international undergraduates pursuing business and administration degrees, home to the European headquarters of over 1,000 multinational tech, pharmaceutical, and financial powerhouses in Dublin's Silicon Docks."
+  "introTitle": "BBA in Ireland for Indian Students",
+  "heroParas": [
+    "Pursue an accredited Bachelor of Business Administration (BBA) in Ireland, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and access post-study work opportunities under the Irish Third Level Graduate Scheme, subject to official immigration regulations."
   ],
   overview: [
     "In Ireland, undergraduate business education is offered through distinguished degree titles including the Bachelor of Business Administration (BBA), Bachelor of Commerce (BComm), Bachelor of Business Studies (BBS), and specialized BSc degrees in Business & Management. These degrees establish comprehensive foundations across strategic management, marketing, financial accounting, managerial economics, international business, and entrepreneurship.",

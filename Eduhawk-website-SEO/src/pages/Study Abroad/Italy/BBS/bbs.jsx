@@ -19,8 +19,8 @@ const page = {
   "description": "Study BBS in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "BBS in Italy, Study BBS in Italy, Bachelor of Business Studies in Italy, Business Universities in Italy, Cost of BBS in Italy",
   "introTitle": "BBS in Italy for Indian Students",
-  heroParas: [
-    "Studying a Bachelor of Business Studies (BBS) in Italy equips students with strong fundamentals in finance, global commerce, and strategic enterprise management at affordable European public tuition rates."
+  "heroParas": [
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Italy, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore post-study residence permit opportunities for work search under Italian immigration regulations."
   ],
   overview: [
     "Yes. Students from India can apply for eligible undergraduate business and management programs after Class 12 provided they meet the university's academic, language and other admission requirements."

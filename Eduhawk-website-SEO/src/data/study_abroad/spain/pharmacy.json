@@ -9,12 +9,12 @@
   ],
   "universities": [
     {
-      "name": "UCAM - Catholic University of Murcia=",
-      "location": "Spain",
-      "fee": "€1,500 – €8,000 / Year",
+      "name": "UCAM - Catholic University of Murcia",
+      "location": "Murcia, Spain",
+      "fee": "€9,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_pharmacy_UCAM_-_Catholic_University_of_Murcia_image2.png",
       "image": "/uploads/study_abroad/spain/spain_pharmacy_UCAM_-_Catholic_University_of_Murcia_image2.png",
-      "desc": "Pharmacy. Complutense University of Madrid. 5 years. 300 ECTS credits. Laboratory-based education and supervised practical placements. Admission rules published by the university detail Spanish-language proficiency requirements for applicants from non-Spanish speaking education systems. It is an option worth considering for students interested in pharmaceutical sciences and professional Pharmacy education. Official Website: Information about the Pharmacy degree."
+      "desc": "Private university in Murcia offering a 5-year Pharmacy degree (300 ECTS) with modern pharmaceutical laboratories and international student support."
     },
     {
       "name": "University Complutense of Madrid",
@@ -71,45 +71,43 @@
       "lead": "Students interested in Pharmacy in Spain for Indian Students can choose from undergraduate Pharmacy degrees and postgraduate programs in specialized pharmaceutical areas. The following Pharmacy courses in Spain offer different academic and professional pathways.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "CourseAverage DurationCore Topics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Bachelor of Pharmacy5 yearsMedicines, pharmaceutical sciences, patient care and pharmacy practice"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "M. Pharm.1-2 yearsHigher studies in pharmacy"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master's in PharmacologyVaries by programHow drugs act, their safety and therapeutic effects"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Masters in Clinical ResearchVaries by programClinical trials, evaluation of medicine"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Biotechnology, MastersVaries by programBiological research and pharmaceutical innovation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master's in Drug DevelopmentVaries by programProcesses of drug discovery, formulation and development"
+          "t": "table",
+          "headers": [
+            "Course",
+            "Average Duration",
+            "Core Topics"
+          ],
+          "rows": [
+            [
+              "Bachelor of Pharmacy (Grado en Farmacia)",
+              "5 years",
+              "Medicines, pharmaceutical sciences, patient care and pharmacy practice"
+            ],
+            [
+              "M.Pharm.",
+              "1–2 years",
+              "Higher studies in pharmacy"
+            ],
+            [
+              "Master's in Pharmacology",
+              "Varies by program",
+              "How drugs act, their safety and therapeutic effects"
+            ],
+            [
+              "Masters in Clinical Research",
+              "Varies by program",
+              "Clinical trials, evaluation of medicine"
+            ],
+            [
+              "Masters in Biotechnology",
+              "Varies by program",
+              "Biological research and pharmaceutical innovation"
+            ],
+            [
+              "Master's in Drug Development",
+              "Varies by program",
+              "Processes of drug discovery, formulation and development"
+            ]
           ]
         },
         {
@@ -134,12 +132,12 @@
       "groups": [],
       "unis": [
         {
-          "name": "UCAM - Catholic University of Murcia=",
-          "location": "Spain",
-          "fee": "€1,500 – €8,000 / Year",
+          "name": "UCAM - Catholic University of Murcia",
+          "location": "Murcia, Spain",
+          "fee": "€9,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_pharmacy_UCAM_-_Catholic_University_of_Murcia_image2.png",
           "image": "/uploads/study_abroad/spain/spain_pharmacy_UCAM_-_Catholic_University_of_Murcia_image2.png",
-          "desc": "Pharmacy. Complutense University of Madrid. 5 years. 300 ECTS credits. Laboratory-based education and supervised practical placements. Admission rules published by the university detail Spanish-language proficiency requirements for applicants from non-Spanish speaking education systems. It is an option worth considering for students interested in pharmaceutical sciences and professional Pharmacy education. Official Website: Information about the Pharmacy degree."
+          "desc": "Private university in Murcia offering a 5-year Pharmacy degree (300 ECTS) with modern pharmaceutical laboratories and international student support."
         },
         {
           "name": "University Complutense of Madrid",
@@ -224,25 +222,27 @@
     {
       "slot": "tuition",
       "eyebrow": "Tuition & Living Costs",
-      "title": "Pharmacy Fees Spain",
+      "title": "Pharmacy Fees in Spain",
       "lead": "Indian students preparing their international education budget should be aware of Pharmacy Fees in Spain. The total cost of studying Pharmacy in Spain will depend on whether you attend a public or private university, your student-fee category and the university's tuition policy.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Type of UniversityIllustrative Annual TuitionApproximate INR"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public University€1,000-€8,500₹1.09 lakh – ₹9.23 lakh"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Private University€6,000-€15,000+₹6.52-₹16.29 lakh+"
+          "t": "table",
+          "headers": [
+            "Type of University",
+            "Illustrative Annual Tuition",
+            "Approximate INR"
+          ],
+          "rows": [
+            [
+              "Public University",
+              "€1,000 – €8,500",
+              "₹1.09 lakh – ₹9.23 lakh"
+            ],
+            [
+              "Private University",
+              "€6,000 – €15,000+",
+              "₹6.52 – ₹16.29 lakh+"
+            ]
           ]
         },
         {
@@ -310,7 +310,7 @@
             },
             {
               "step": 3,
-              "title": "Fulfilll Language Requirements",
+              "title": "Fulfill Language Requirements",
               "desc": "Consider the required level of Spanish proficiency and if lectures, assessments and practical placements are run in additional languages."
             },
             {
@@ -389,37 +389,34 @@
     {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
-      "title": "Pharmacy in Spain Salary and Job Prospects After",
+      "title": "Salary and Job Prospects After Pharmacy in Spain",
       "lead": "Upon achieving the relevant qualification and meeting the requirements for professional registration, graduates can seek employment in healthcare, pharmaceutical manufacturing, research and associated industries. Students considering Pharmacy in Spain for Indian Students should understand the professional requirements and career opportunities available after graduation.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Career StageExample Gross Annual Salary"
+          "t": "table",
+          "headers": [
+            "Career Stage",
+            "Example Gross Annual Salary"
+          ],
+          "rows": [
+            [
+              "Junior Pharmacy Positions",
+              "€22,000 – €30,000"
+            ],
+            [
+              "Seasoned Pharmacist or Pharmaceutical Professional",
+              "€30,000 – €45,000"
+            ],
+            [
+              "Senior, specialist or industry roles",
+              "€45,000 – €65,000+"
+            ]
           ]
         },
         {
           "t": "p",
           "items": [
-            "Junior Pharmacy Positions€22,000–€30,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Seasoned Pharmacist or Pharmaceutical Professional€30,000-€45,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Senior, specialist or industry roles€45,000-€65,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are illustrative, high-level estimates, not verified salary statistics or guarantyd earnings. Your actual income will depend on your employer, location, professional registration, experience, specialization and type of work."
+            "These are illustrative, high-level estimates, not verified salary statistics or guaranteed earnings. Your actual income will depend on your employer, location, professional registration, experience, specialization and type of work."
           ]
         },
         {

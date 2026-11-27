@@ -14,7 +14,6 @@ import {
   MessageCircle,
   CheckCircle2,
   Send,
-  Sparkles,
   ExternalLink,
   ShieldCheck,
   Building2,
@@ -234,11 +233,6 @@ export default function Contact() {
           <div className="absolute inset-0 bg-gradient-to-t from-[#071d38]/95 via-[#071d38]/70 to-[#071d38]/40" />
 
           <div className="relative z-10 max-w-4xl mx-auto px-5 text-center py-16 sm:py-20">
-            <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-black/40 backdrop-blur-md border border-white/20 text-amber-300 text-xs sm:text-sm font-semibold mb-4 shadow-xl">
-              <Sparkles size={14} className="text-amber-400" />
-              24/7 Student & Parent Support
-            </span>
-
             <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-4 drop-shadow-2xl">
               {contactData.hero?.title || "Get in Touch with Edu-Hawk Experts"}
             </h2>

@@ -14,7 +14,7 @@ import uniImg2 from "../../../../Images/Abroad/Ireland/Biotechnology/University_
 import uniImg3 from "../../../../Images/Abroad/Ireland/Biotechnology/University_of_Galway.webp";
 
 const page = {
-  name: "Biotechnology in Ireland",
+  name: "Biotechnology",
   country: "Ireland",
   slug: "study-abroad/ireland/biotechnology",
   title: "Study Biotechnology in Ireland for Indian Students | Edu-Hawk Worldwide",
@@ -30,7 +30,7 @@ const page = {
     "Edu-Hawk Worldwide assists Indian students through every stage of their overseas education journey—from selecting top-ranked institutions like University College Cork, UCD, and the University of Galway to evaluating eligibility, structuring Statements of Purpose (SOP), navigating tuition fees and scholarships, and securing the Irish student visa."
   ],
   level: "BSc (Hons) NFQ Level 8 & MSc / MEngSc NFQ Level 9",
-  crumb: "Science & Healthcare / Biotechnology in Ireland",
+  crumb: "Science & Biotechnology",
   stats: [
     {
       label: "Degree Choices",
@@ -198,17 +198,16 @@ const page = {
           ]
         },
         {
-          t: "p",
-          items: [
-            "| Expense Category | Annual Indicative Cost Range | Key Budgeting Notes |",
-            "| :--- | :--- | :--- |",
-            "| **Undergraduate Tuition (BSc)** | €13,500 – €26,000 / year | 4-year program, non-EU fee schedule |",
-            "| **Postgraduate Tuition (MSc)** | €16,000 – €28,500 / year | 1-year intensive program with lab access |",
-            "| **Student Living Expenses** | €10,000 – €15,000 / year | Includes housing, food, groceries, and utilities |",
-            "| **Accommodation (Dublin)** | €800 – €1,200 / month | Purpose-built student accommodation / private rentals |",
-            "| **Accommodation (Cork/Galway)** | €550 – €850 / month | Regional campuses offer significantly lower rental costs |",
-            "| **Medical Insurance** | €160 – €300 / year | Mandatory private medical insurance for Irish visa |",
-            "| **Irish Residence Permit (IRP)** | €300 registration fee | Paid upon arrival during immigration appointment |"
+          t: "table",
+          headers: ["Expense Category", "Annual Indicative Cost Range", "Key Budgeting Notes"],
+          rows: [
+            ["**Undergraduate Tuition (BSc)**", "€13,500 – €26,000 / year", "4-year program, non-EU fee schedule"],
+            ["**Postgraduate Tuition (MSc)**", "€16,000 – €28,500 / year", "1-year intensive program with lab access"],
+            ["**Student Living Expenses**", "€10,000 – €15,000 / year", "Includes housing, food, groceries, and utilities"],
+            ["**Accommodation (Dublin)**", "€800 – €1,200 / month", "Purpose-built student accommodation / private rentals"],
+            ["**Accommodation (Cork/Galway)**", "€550 – €850 / month", "Regional campuses offer significantly lower rental costs"],
+            ["**Medical Insurance**", "€160 – €300 / year", "Mandatory private medical insurance for Irish visa"],
+            ["**Irish Residence Permit (IRP)**", "€300 registration fee", "Paid upon arrival during immigration appointment"]
           ]
         },
         {

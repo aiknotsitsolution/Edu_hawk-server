@@ -5,8 +5,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Indian Students Pursuing a Master of Business Studies in Australia",
-    "subtitle": "Developing knowledge of business operations, management, finance, marketing, organizational strategy, and decision-making is the main goal of the Master of Business Studies (MBS), a postgraduate-level business degree .",
+    "title": "MBS in Australia for Indian Students",
+    "subtitle": "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Australia, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore post-study work opportunities via the Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration rules.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/australia/mbs_Sydney_University_of_Technology-image3.png"
   },
@@ -167,7 +167,8 @@
             "Project planning, budgeting, risk management, scheduling, and project delivery are all covered in the Master of Project Management program."
           ]
         }
-      ]
+      ],
+      "lead": "A Master of Business Studies in Australia provides advanced, research-informed commercial coursework, equipping graduates with analytical frameworks to address complex international business challenges."
     },
     {
       "slot": "universities",

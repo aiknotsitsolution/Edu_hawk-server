@@ -16,9 +16,9 @@ const page = {
   title: "Executive MBA in Finland for International Students | Edu-Hawk Worldwide",
   description: "Executive MBA in Finland for international students: Top executive business schools (Aalto EE, Hanken & SSE, Turku TSE EXE), programme fees, modular formats, eligibility, and leadership career pathways.",
   keywords: "Executive MBA in Finland, Executive MBA in Finland for international students, EMBA in Finland fees, Executive MBA universities in Finland, Study Executive MBA in Finland, Executive MBA eligibility in Finland",
-  introTitle: "Executive MBA in Finland for International Students",
-  heroParas: [
-    "An **[Executive MBA in Finland](/study-abroad/finland/executive-mba)** for international students is designed for experienced professionals, managers, entrepreneurs and business leaders who want to strengthen their leadership abilities and advance their careers. Finnish executive education programmes focus on strategic management, organisational development, financial decision-making, innovation and leadership in international business environments."
+  "introTitle": "Executive MBA in Finland for Indian Students",
+  "heroParas": [
+    "Advance your leadership acumen with an Executive MBA in Finland, focusing on strategic innovation, technological leadership, and sustainable corporate transformation. Mid-career professionals and managers gain modern executive frameworks in a globally leading Nordic research ecosystem."
   ],
   overview: [
     "Finland offers executive education options through institutions such as Aalto University, Hanken & SSE Executive Education and Turku School of Economics Executive Education. These programmes are generally designed to be completed alongside professional responsibilities, allowing participants to apply their learning to real business challenges.",

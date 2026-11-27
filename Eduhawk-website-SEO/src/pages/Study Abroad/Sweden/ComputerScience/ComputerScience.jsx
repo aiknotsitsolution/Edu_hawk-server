@@ -22,11 +22,13 @@ const page = {
   "keywords": "Study Computer Science in Sweden, Computer Science in Sweden for Indian Students, Best Universities in Sweden, Sweden Computer Science Admission, Cost of Studying in Sweden, Edu-Hawk Worldwide",
   "introTitle": "Computer Science in Sweden for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Computer Science in Sweden for Indian students."
-  ],
+    "Join Sweden's world-famous tech unicorn ecosystem—birthplace of Spotify, Klarna, and King—at top-ranked institutes of technology like KTH and Chalmers. Indian students master sustainable software innovation and access post-study residence permits to seek skilled employment."
+],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Computer Science in Sweden."
-  ],
+    "Sweden is globally celebrated as the tech unicorn factory of Europe, having generated more billion-dollar tech startups per capita than any European nation. Studying Computer Science in Sweden gives Indian students direct immersion into a forward-thinking culture of sustainability, open-source collaboration, and digital innovation.",
+    "Leading Swedish institutions—such as KTH Royal Institute of Technology, Chalmers University of Technology, and Lund University—offer world-class Master's degree programs taught in English. Fields of study cover Machine Learning, Autonomous Systems, Cyber Security, Software Engineering, and High-Performance Distributed Computing, integrating rigorous academia with hands-on corporate collaboration.",
+    "Under Swedish Migration Agency (Migrationsverket) regulations, international graduates completing an accredited Bachelor's or Master's degree in Sweden can apply for a post-study residence permit for up to 12 months to seek employment or investigate starting a business, provided they satisfy self-sufficiency maintenance funds (approx. SEK 10,500/month) and comprehensive health insurance requirements. Doctoral graduates may be granted up to 18 months for job seeking, or can apply for Swedish permanent residency if they have held doctoral study permits for at least 4 of the past 7 years, completed their PhD, and satisfy statutory employment, income self-sufficiency, and conduct criteria."
+],
   "level": "B.Sc. & M.Sc. in Computer Science",
   "crumb": "Computer Science",
   "stats": [

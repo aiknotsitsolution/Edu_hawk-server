@@ -47,7 +47,7 @@ const PharmacyAbroad = () => {
     ? pharmacyData.stats.map((s) => ({ label: s.l, value: s.n }))
     : [
         { label: "Programs", value: "B.Pharm, Pharm.D, M.Pharm & related courses" },
-        { label: "Countries", value: "UK, Canada, Australia, USA, Ireland & more" },
+        { label: "Country", value: "United States (USA)" },
         { label: "Support", value: "Complete guidance from profile to arrival" },
         { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
       ];
@@ -433,7 +433,21 @@ const PharmacyAbroad = () => {
         description="Learn about pharmacy courses in the USA for Indian students, including the PharmD degree, eligibility, admission requirements, costs and licensing pathways."
         path="/study-abroad/usa/pharmacy"
         ogType="website"
-      />
+      >
+        {faqs?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
+      </SeoHead>
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -529,7 +543,7 @@ const PharmacyAbroad = () => {
                 <span className="mx-1.5">›</span> Pharmacy
               </div>
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-300 mb-3">
-                Study Pharmacy · Abroad
+                Study Pharmacy · USA
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
@@ -561,12 +575,10 @@ const PharmacyAbroad = () => {
 
             <div className="relative mt-2 lg:mt-0">
               <img
-                src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=900&q=80"
+                src={Michigan_Ann_Arbor}
                 alt="Pharmacy students in USA"
                 className="pharmacy-hero-image rounded-2xl shadow-2xl object-cover w-full h-56 sm:h-72 lg:h-[440px]"
-                  srcSet="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=900&q=80 1x, https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=900&q=80 2x"
-                  sizes="100vw"
-                />
+              />
               <div className="absolute bottom-5 left-5 bg-white/15 backdrop-blur-md px-4 py-2.5 rounded-xl text-sm font-medium">
                 Trusted by 1000+ Indian students
               </div>
@@ -583,7 +595,7 @@ const PharmacyAbroad = () => {
               At a glance
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Pharmacy Abroad at a glance
+              Pharmacy in the USA at a glance
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -1356,7 +1368,7 @@ const PharmacyAbroad = () => {
                 href="tel:+917632949984"
                 className="w-full sm:w-auto inline-flex items-center justify-center px-6 sm:px-7 py-3.5 rounded-[10px] font-semibold text-base border-[1.5px] border-white/30 text-white hover:bg-white/10 hover:border-white transition-all no-underline"
               >
-                Call +91 76329 49984
+                Call +91 96307 36070
               </a>
             </div>
           </div>

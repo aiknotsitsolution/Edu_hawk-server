@@ -20,14 +20,14 @@ const page = {
   keywords: "Study Physiotherapy in Finland, Physiotherapy in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland",
   introTitle: "Physiotherapy in Finland",
   heroParas: [
-    "**[Study Physiotherapy in Finland](/courses/mbbs)** to access a modern, practical, and internationally oriented healthcare education in an advanced public healthcare system with evidence-based clinical rehabilitation training."
+    "**[Study Physiotherapy in Finland](/study-abroad/finland/physiotherapy)** to access a modern, practical, and internationally oriented healthcare education in an advanced public healthcare system with evidence-based clinical rehabilitation training."
   ],
   overview: [
     "For Indian students, **Physiotherapy in Finland for Indian Students** is an excellent study option combining academic learning with supervised hospital clinical experience. Students develop professional competencies across human anatomy, biomechanics, functional assessment, therapeutic exercise, and specialized rehabilitation.",
     "English-taught Physiotherapy programmes are available at top universities of applied sciences. For example, **Metropolia University of Applied Sciences** offers an international Bachelor of Health Care in Physiotherapy (210 ECTS, 3.5 years) designed for international cohorts. With **[Edu-Hawk Worldwide](/services)**, students can explore physiotherapy opportunities abroad and plan university applications systematically."
   ],
   level: "Undergraduate",
-  crumb: "MBBS Abroad",
+  crumb: "Healthcare & Physiotherapy",
 
   stats: [
     { label: "Degree Awarded", value: "Bachelor of Health Care (Physiotherapy)" },
@@ -45,7 +45,7 @@ const page = {
         {
           t: "p",
           items: [
-            "**[Study Physiotherapy in Finland](/courses/mbbs)** to access a modern, practical, and internationally oriented healthcare education. Finland is renowned for its strong higher education system, advanced public healthcare infrastructure, and evidence-based clinical rehabilitation training.",
+            "**[Study Physiotherapy in Finland](/study-abroad/finland/physiotherapy)** to access a modern, practical, and internationally oriented healthcare education. Finland is renowned for its strong higher education system, advanced public healthcare infrastructure, and evidence-based clinical rehabilitation training.",
             "For Indian students, **Physiotherapy in Finland for Indian Students** is an excellent study option combining academic learning with supervised hospital clinical experience. Students develop professional competencies across human anatomy, biomechanics, functional assessment, therapeutic exercise, and specialized rehabilitation.",
             "English-taught Physiotherapy programmes are available at top universities of applied sciences. For example, **Metropolia University of Applied Sciences** offers an international Bachelor of Health Care in Physiotherapy (210 ECTS, 3.5 years) designed for international cohorts. With **[Edu-Hawk Worldwide](/services)**, students can explore physiotherapy opportunities abroad and plan university applications systematically.",
             "**Benefits of Studying Physiotherapy in Finland**"
@@ -351,7 +351,7 @@ const page = {
           t: "p",
           items: [
             "Therefore, students planning a long-term physiotherapy career in Finland should invest in Finnish language learning alongside their professional education.",
-            "Also explore related medical disciplines like **[Dentistry in Finland](/study-abroad/finland/dentistry)**, **[Nursing in Finland](/study-abroad/finland/nursing)**, and **[MBBS Abroad](/courses/mbbs)**."
+            "Also explore related medical disciplines like **[Dentistry in Finland](/study-abroad/finland/dentistry)**, **[Nursing in Finland](/study-abroad/finland/nursing)**, and **[Pharmacy in Finland](/study-abroad/finland/pharmacy)**."
           ]
         }
       ]
@@ -388,7 +388,7 @@ const page = {
           t: "p",
           items: [
             "Metropolia describes physiotherapists as healthcare professionals who work across hospitals, health centres, private wellbeing and rehabilitation services, as entrepreneurs, and in athletic sports clubs.",
-            "**Pharmacist / Physiotherapist Salary in Finland**",
+            "**Physiotherapist Salary in Finland**",
             "The **physiotherapist salary in Finland** varies according to professional experience, clinical specialisation, employer (public municipal healthcare vs private clinics), shift arrangements, and collective bargaining agreements.",
             "For international graduates, developing **Finnish language proficiency** significantly improves clinical employment prospects because physiotherapists communicate directly with patients and multidisciplinary rehabilitation teams."
           ]

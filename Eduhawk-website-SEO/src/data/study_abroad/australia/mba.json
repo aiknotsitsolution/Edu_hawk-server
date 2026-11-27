@@ -5,8 +5,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Australia",
-    "title": "Indian students pursuing a Master of Business Administration (MBA) in Australia",
-    "subtitle": "A postgraduate business degree, the Master of Business Administration (MBA) is intended to foster management decision-making, strategic thinking, leadership, and business growth abilities. Professionals and graduates who wish to grow in their jobs, transition into management, change industries, or start their own enterprises can benefit from it, depending on the program.",
+    "title": "MBA in Australia for Indian Students",
+    "subtitle": "Pursue a globally recognized Master of Business Administration (MBA) in Australia, offering industry-integrated coursework, executive mentorship, and hands-on consulting projects. International students develop strategic leadership skills and explore post-study work opportunities via Australia's Temporary Graduate visa (subclass 485), subject to CRICOS program duration and Australian immigration criteria.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/australia/mba_Curtin_University-image1.png"
   },
@@ -119,7 +119,8 @@
             "While an Australian MBA can help with professional growth, it does not ensure a job offer, promotion, pay raise, or migration outcome."
           ]
         }
-      ]
+      ],
+      "lead": "Australian business schools deliver internationally accredited management education in modern, multicultural learning environments, connecting academic rigor with industry networking and strong career development opportunities."
     },
     {
       "slot": "universities",

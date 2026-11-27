@@ -28,7 +28,7 @@ const page = {
     "The Allied Health Professionals Council (AHPC) of Mauritius regulates physiotherapists and publishes professional registration requirements. Before applying, students should confirm the current course intake, fees, clinical placement arrangements and recognition of the qualification. **Edu-Hawk Worldwide** encourages students to verify these details before selecting a programme."
   ],
   "level": "BPT & MPT Physiotherapy",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Physiotherapy",
   "stats": [
     {
       "val": "MUR 150K-350K",

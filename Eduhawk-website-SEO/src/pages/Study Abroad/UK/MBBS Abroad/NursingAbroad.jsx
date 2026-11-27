@@ -23,7 +23,7 @@ const page = {
   "keywords": "Study Nursing in the UK, Nursing in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
   "introTitle": "Study Nursing in the UK",
   "heroParas": [
-    "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings."
+    "Earn an accredited Nursing degree in the UK, combining academic excellence with 2,300 hours of clinical practice across NHS trust hospitals. Indian students gain direct qualification eligibility for registration with the Nursing and Midwifery Council (NMC) and valuable Post-Study Work opportunities."
   ],
   "overview": [
     "Respected nursing education in the world Clinical placements"
@@ -37,11 +37,11 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "3 to 4 Years (UG)"
+      "value": "3 to 4 Years (UG) / 1 to 2 Years (MSc)"
     },
     {
       "label": "Top Institutions",
-      "value": "Southampton University, Birmingham University, Nottingham University"
+      "value": "Southampton, Birmingham, Nottingham, Glasgow"
     },
     {
       "label": "Post-Study Work",
@@ -57,7 +57,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings."
+            "Earn an accredited Nursing degree in the UK, combining academic excellence with 2,300 hours of clinical practice across NHS trust hospitals. Indian students gain direct qualification eligibility for registration with the Nursing and Midwifery Council (NMC) and valuable Post-Study Work opportunities."
           ]
         },
         {

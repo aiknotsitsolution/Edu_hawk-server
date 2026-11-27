@@ -20,9 +20,9 @@ const page = {
   title: "BBS in Germany for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to studying Bachelor of Business Studies (BBS) in Germany for international students: Top public universities, Studienkolleg pathways, zero-tuition fees, living expenses, and career prospects.",
   keywords: "Study BBS in Germany for Indian Students, Bachelor of Business Studies Courses in Germany, Best Universities for Business Studies in Germany, BBS Eligibility Requirements in Germany, BBS Admission Requirements for International Students in Germany, Study Business Administration in Germany After Class 12, Studienkolleg Requirements for Indian Students in Germany, IELTS and German Language Requirements for Business Studies in Germany, BBS Tuition Fees in Germany for Indian Students, Career Opportunities After Bachelor of Business Studies in Germany, BBS Graduate Salary in Germany, Germany Student Visa Requirements for Indian BBS Students",
-  introTitle: "Why Study Bachelor of Business Studies in Germany?",
-  heroParas: [
-    "Germany attracts ambitious international students seeking a Bachelor of Business Studies (BBS) or equivalent undergraduate management degree, combining tuition-free public education with deep practical industry integration."
+  "introTitle": "BBS in Germany for Indian Students",
+  "heroParas": [
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Germany, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore the 18-month post-study job seeker visa, subject to German immigration directives."
   ],
   overview: [
     "A Bachelor of Business Studies in Germany equips undergraduates with thorough knowledge of business economics, financial management, international trade, and commercial enterprise operations.",

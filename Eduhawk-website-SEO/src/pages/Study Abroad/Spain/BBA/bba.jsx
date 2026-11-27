@@ -17,7 +17,7 @@ const page = {
   "keywords": "Study BBA in Spain, BBA in Spain for Indian Students, Best Universities in Spain, Cost of Studying in Spain",
   "introTitle": "BBA in Spain for Indian Students",
   "heroParas": [
-    "BBA in Spain for Indian Students is an undergraduate program for those who want to pursue a career in business administration, management, marketing, finance, entrepreneurship or international trade. The program covers core business subjects including organizational management, accounting, economics, business communication and strategic decision-making."
+    "Pursue an accredited Bachelor of Business Administration (BBA) in Spain, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore post-study work search residence permits under Spanish immigration guidelines."
   ],
   "overview": [
     "BBA in Spain for Indian Students is an undergraduate program for those who want to pursue a career in business administration, management, marketing, finance, entrepreneurship or international trade. The program covers core business subjects including organizational management, accounting, economics, business communication and strategic decision-making. Students interested in Studying BBA in Spain can gain an understanding of business operations and develop skills relevant to different industries.",

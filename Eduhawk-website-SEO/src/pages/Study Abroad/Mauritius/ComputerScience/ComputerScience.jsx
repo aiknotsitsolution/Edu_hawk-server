@@ -21,11 +21,13 @@ const page = {
   "keywords": "Study Computer Science in Mauritius, Computer Science in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius Computer Science Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "Computer Science in Mauritius for Indian Students",
   "heroParas": [
-    "Comprehensive guide to studying Computer Science in Mauritius for Indian students."
-  ],
+    "Discover quality, affordable Computer Science education in Mauritius at internationally affiliated universities and branch campuses from the UK, France, and Australia. Indian students benefit from a safe, multicultural environment, low living costs, and straightforward visa processing."
+],
   "overview": [
-    "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Mauritius for Computer Science in Mauritius."
-  ],
+    "Mauritius is rapidly transforming into a regional technology and financial services hub for the Indian Ocean and African region. Pursuing Computer Science in Mauritius offers Indian students a unique, cost-effective opportunity to earn internationally recognized qualifications from renowned British, French, and Australian university branch campuses.",
+    "Institutions like the University of Mauritius, Université des Mascareignes, Middlesex University Mauritius, and Curtin Mauritius offer comprehensive undergraduate and postgraduate computing degrees. Programs cover programming fundamentals, database management, software engineering, network administration, and cloud technologies, taught in an English-speaking academic environment.",
+    "With competitive annual tuition fees (typically $2,500 to $8,500 USD), affordable student accommodation, and a streamlined visa application process with no complicated embassy interviews, Mauritius represents an accessible, high-value destination for students launching an international technology education."
+],
   "level": "B.Sc. & M.Sc. in Computer Science",
   "crumb": "Computer Science",
   "stats": [

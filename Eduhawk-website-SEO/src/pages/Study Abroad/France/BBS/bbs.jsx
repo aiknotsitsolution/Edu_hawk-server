@@ -20,9 +20,9 @@ const page = {
   title: "Study BBS in France for Indian Students | EduHawk",
   description: "Complete guide to Bachelor of Business Studies (BBS) and Bachelor in Management in France for Indian students: Top business schools (ESSEC, EDHEC, Emlyon), tuition fees, admission requirements, and career opportunities.",
   keywords: "Study BBS in France, BBS in France for Indian Students, Bachelor of Business Studies in France, BBS Courses in France, Best Business Schools in France for BBS, Top Universities for Business Studies in France, BBS Eligibility in France, BBS Admission Requirements in France, BBS in France After Class 12, Cost of Studying BBS in France, BBS Tuition Fees in France, BBS Scholarships in France, Bachelor in Management in France, BBA and International Business Courses in France, Career Opportunities After BBS in France",
-  introTitle: "BBS IN FRANCE",
-  heroParas: [
-    "A **Bachelor of Business Studies (BBS) in France**—offered under titles such as Bachelor in Management, Bachelor of Business Administration (BBA), and International Business—is a versatile undergraduate qualification designed to cultivate foundational expertise in commercial operations, strategic management, managerial accounting, economics, and international marketing across France's top public universities and Grandes Écoles."
+  "introTitle": "BBS in France for Indian Students",
+  "heroParas": [
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in France, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and access post-study stay-back authorizations under French immigration policy."
   ],
   overview: [
     "In the French higher education landscape, undergraduate business studies are commonly structured as a **Bachelor in Management**, **BBA**, or **Licence en Gestion**. These programs bridge academic business theory with practical European corporate exposure, offering English-taught tracks that welcome international and Indian students directly after high school.",

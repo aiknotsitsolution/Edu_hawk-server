@@ -627,7 +627,7 @@ const Uzbekistan = () => {
   return (
     <div className="min-h-screen bg-gray-50 font-sans">
       <SeoHead
-        title={cmsData?.seo?.title || "MBBS in Uzbekistan 2026-27 | Admissions, Fees & Universities | Edu Hawk"}
+        title={cmsData?.seo?.title || "MBBS in UzbekistanAdmissions, Fees & Universities | Edu Hawk"}
         description={cmsData?.seo?.description || "Explore MBBS in Uzbekistan for Indian students: eligibility, admission process, top medical universities, documents and food & accommodation costs."}
         keywords={cmsData?.seo?.keywords || "mbbs in uzbekistan, uzbekistan mbbs fees, study mbbs uzbekistan, uzbekistan medical universities"}
         path="/mbbs-abroad/uzbekistan"

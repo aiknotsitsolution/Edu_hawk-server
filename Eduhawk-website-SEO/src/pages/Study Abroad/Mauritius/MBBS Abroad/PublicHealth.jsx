@@ -27,7 +27,7 @@ const page = {
     "The Master of Public Health (MPH) is a relevant postgraduate option for graduates in medicine, nursing, pharmacy, biology, environmental sciences and other eligible disciplines. The University of Mauritius has published an MPH programme, while the Open University of Mauritius has documented an MPH offered in collaboration with Imperial College London. Applicants must verify the current intake, programme arrangements and fees before applying. **Edu-Hawk Worldwide** encourages students to check the latest admission and programme details before making a decision."
   ],
   "level": "MPH / Master of Public Health",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Public Health",
   "stats": [
     {
       "val": "MUR 150K-350K",
@@ -38,7 +38,7 @@ const page = {
       "label": "Medium of Study"
     },
     {
-      "val": "3-4 Years",
+      "val": "21–39 Months (MPH)",
       "label": "Course Duration"
     },
     {

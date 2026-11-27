@@ -1,7 +1,7 @@
 {
   "hero": {
-    "title": "UK Study Biotechnology",
-    "subtitle": "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health."
+    "title": "Biotechnology",
+    "subtitle": "Pursue world-class Biotechnology degrees in the UK at leading Russell Group and research-intensive universities, renowned for genetic discovery and biopharmaceutical innovation. Gain comprehensive laboratory expertise and access to the UK's thriving £90+ billion life sciences sector."
   },
   "overview": [
     "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health.",
@@ -38,7 +38,7 @@
     {
       "slot": "why-study",
       "eyebrow": "Why UK",
-      "title": "Why to Study Biotechnology in the UK ?",
+      "title": "Why Study Biotechnology in the UK?",
       "lead": "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health.",
       "groups": [
         {
@@ -177,7 +177,7 @@
             "Master's degree in Medical Biotechnologies",
             "Master Program in Industrial Biotechnology",
             "Master of Science in Pharmaceutical Biotechnology",
-            "Master of Applied in Biotechnology",
+            "Master of Applied Biotechnology",
             "Master of Science in Bioinformatics",
             "Master's degree in molecular biology",
             "Molecular Biology and Genetic Engineering Master's degree in Genomics",
@@ -209,7 +209,7 @@
           "t": "ul",
           "items": [
             "Research Master in Biotechnology",
-            "A PhD in the philosophy of biotechnology",
+            "PhD in Biotechnology",
             "Doctor of Philosophy in Molecular Biology",
             "Ph.D. in Genomics and Genetics",
             "PhD in Synthetic Biology",
@@ -425,27 +425,15 @@
           "pairs": [
             {
               "t": "Undergraduate degree in biotechnology or a similar field",
-              "d": "£18,000–£35,000"
+              "d": "£18,000–£35,000 / year"
             },
             {
               "t": "Master's degree in biotechnology or a similar discipline",
-              "d": "£20,000–£40,000"
+              "d": "£20,000–£40,000 / year"
             },
             {
               "t": "Biotechnology or life sciences research degree",
-              "d": "£20,000–£40,000 or more"
-            },
-            {
-              "t": "Groceries and food",
-              "d": "£180–£300"
-            },
-            {
-              "t": "Internet and mobile",
-              "d": "£20–£50"
-            },
-            {
-              "t": "Study materials and personal expenditures",
-              "d": "£100–£250"
+              "d": "£20,000–£40,000+ / year"
             }
           ]
         },
@@ -456,10 +444,14 @@
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Lodging | £600–£1,200 |",
-            "Local transportation costs between £60 and £160."
+          "t": "table",
+          "headers": ["Expense Category", "Estimated Monthly Cost"],
+          "rows": [
+            ["Accommodation / Lodging", "£600 – £1,200"],
+            ["Groceries and food", "£180 – £300"],
+            ["Local transportation", "£60 – £160"],
+            ["Internet and mobile", "£20 – £50"],
+            ["Study materials and personal expenses", "£100 – £250"]
           ]
         },
         {

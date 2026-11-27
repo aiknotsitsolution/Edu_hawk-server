@@ -18,9 +18,9 @@ const page = {
   "title": "Study BBS in the UK for Indian Students | Edu-Hawk Worldwide",
   "description": "Complete guide to BBS in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
   "keywords": "Study BBS in the UK, BBS in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
-  "introTitle": "Study Bachelor of Business Studies (BBS) in the UK",
+  "introTitle": "BBS in the UK for Indian Students",
   "heroParas": [
-    "Developing understanding of business operations, management, marketing, finance, economics, and organizational strategy is the main goal of the Bachelor of Business Studies (BBS) undergraduate business degree. Undergraduate programs in the UK that offer comparable academic foundations are available to those interested in careers in business."
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in the UK, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore 2-year Graduate Route post-study work visa opportunities, subject to UK Home Office criteria."
   ],
   "overview": [
     "Studying business at a UK university with a recognized degree-awarding status will provide you with internationally recognized qualifications."

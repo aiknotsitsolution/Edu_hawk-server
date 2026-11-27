@@ -14,7 +14,7 @@ import uniImg3 from "../../../../Images/Abroad/France/Biotechnology/Universit_Pa
 import cmsData from "../../../../data/study_abroad/france/biotechnology.json";
 
 const page = {
-  name: "Biotechnology in France",
+  name: "Biotechnology",
   country: "France",
   slug: "biotechnology",
   title: "Study Biotechnology in France for Indian Students | Edu-Hawk Worldwide",

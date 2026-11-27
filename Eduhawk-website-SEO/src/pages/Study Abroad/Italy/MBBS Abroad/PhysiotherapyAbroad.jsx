@@ -30,19 +30,19 @@ const page = {
   "stats": [
     {
       "label": "Degree Choices",
-      "value": "Undergraduate"
+      "value": "Laurea in Fisioterapia (UG)"
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG) / 3 Years (UG)"
+      "value": "3 Years (180 ECTS)"
     },
     {
       "label": "Top Institutions",
-      "value": "Milano, Sapienza University of Rome, Bologna"
+      "value": "University of Bologna, University of Milan, University of Genoa"
     },
     {
       "label": "Medium of Study",
-      "value": "English & Italian Taught"
+      "value": "Generally Italian"
     }
   ],
   "sections": [
@@ -235,6 +235,7 @@ export default function PhysiotherapyAbroadItaly() {
     description: cmsData?.seo?.description || page.description,
     introTitle: cmsData?.hero?.title || page.introTitle,
     heroParas: cmsData?.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
+    highlights: cmsData?.highlights || page.highlights,
     overview: cmsData?.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : cmsData.overview.split('\n\n'))
       : page.overview,
@@ -242,10 +243,7 @@ export default function PhysiotherapyAbroadItaly() {
       ? cmsData.sections
       : page.sections,
     universities: (cmsData?.universities && cmsData.universities.length > 0)
-      ? cmsData.universities.map((u, idx) => ({
-          ...u,
-          image: page.universities?.[idx]?.image || u.image
-        }))
+      ? cmsData.universities
       : page.universities,
     faqs: (cmsData?.faqs && cmsData.faqs.length > 0)
       ? cmsData.faqs.map(f => ({ q: f.q || f.question, a: f.a || f.answer, question: f.q || f.question, answer: f.a || f.answer }))

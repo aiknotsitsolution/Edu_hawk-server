@@ -20,10 +20,12 @@ const page = {
   "keywords": "Computer Engineering in Italy, Master's in Computer Engineering Italy, Study Computer Engineering Italy, Computer Engineering Fees in Italy",
   "introTitle": "Computer Engineering in Italy for Indian Students",
   heroParas: [
-    "A Master’s in Computer Engineering in Italy combines computer architecture, embedded hardware design, artificial intelligence, and cybersecurity in Europe's top-tier technical universities."
+    "Pursue an English-taught Laurea Magistrale in Computer Engineering in Italy at world-renowned polytechnics, mastering embedded systems, industrial robotics, affordable tuition, and a 12-month post-study job search permit."
   ],
   overview: [
-    "Yes. Indian students with relevant bachelor's degrees can apply for admission to the university if they meet its academic, language and programme-specific admission requirements."
+    "Italy's advanced industrial economy relies extensively on sophisticated embedded computing systems, precision microcontrollers, and automated robotics across its Northern manufacturing belt. Pursuing a master's degree in Computer Engineering (*Laurea Magistrale in Ingegneria Informatica*) in Italy gives Indian students world-class engineering training in designing intelligent hardware-software systems.",
+    "Leading Italian polytechnics—including Politecnico di Milano, Politecnico di Torino, and the University of Bologna—offer 2-year English-taught Master of Science degrees (120 ECTS). The curriculum covers Advanced Microprocessor Architectures, Embedded Systems & Real-Time OS, Hardware-Software Co-Design, Cyber-Physical Systems, and Industrial Robotics, with very accessible public tuition (€1,000 to €4,000/year) and widespread eligibility for need-based regional DSU scholarships.",
+    "Graduates obtain credentials recognized throughout the European Higher Education Area (EHEA). Non-EU Master's and doctoral graduates are eligible to apply for a 12-month post-study residence permit (*Permesso di Soggiorno per Ricerca Lavoro o Imprenditorialità*, Art. 39-bis.1 TUI) to seek skilled engineering employment across Italy's Northern industrial technology corridor and European hardware enterprises."
   ],
   "level": "Postgraduate",
   "crumb": "Engineering",

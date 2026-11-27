@@ -27,8 +27,8 @@
   },
   "hero": {
     "badge": "Study Abroad · Canada",
-    "title": "Indian Students studying Computer Engineering in Canada",
-    "subtitle": "Indian Students studying Computer Engineering in Canada",
+    "title": "Master's in Computer Engineering in Canada for Indian Students",
+    "subtitle": "Pursue an MASc or MEng in Computer Engineering in Canada across top research universities, conducting advanced research in SoC architecture, embedded AI, and quantum computing with up to 3 years of PGWP work authorization.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/canada/canada_comp_engg_pg_McGill_University_in_Quebec-image2.png"
   },
@@ -58,9 +58,9 @@
     "medium": "English & French Taught"
   },
   "overview": [
-    "Students interested in computer architecture, robotics, embedded systems, software-hardware interaction, computer hardware, and intelligent technologies frequently travel to Canada. In Canada, computer engineering integrates computer science and electrical engineering concepts to create, develop, test and enhance computer systems.",
-    "Depending on their prior credentials and professional aspirations, students can pursue undergraduate or graduate degrees. Engineering labs, research projects, design courses, and, at some schools, co-ops are among ways that Canadian universities provide learning opportunities.",
-    "Learn about digital systems, embedded computers, microprocessors, and computer architecture through advanced technical education."
+    "Pursuing a master's degree in Computer Engineering in Canada places graduate students at the forefront of advanced hardware research, quantum computing development, and embedded systems engineering. Canadian research institutions maintain close partnerships with global semiconductor leaders and government research agencies, offering world-class infrastructure for advanced physical and logical computing systems.",
+    "Canadian universities deliver research-focused Master of Applied Science (MASc, 2 years) and professional Master of Engineering (MEng, 1 to 1.5 years) programs. Core specializations span VLSI Systems Design, Embedded Machine Learning, High-Performance Computer Architecture, Fault-Tolerant Computing, and Robotics Hardware, with MASc students receiving graduate research assistantships and publishing in premier IEEE and ACM engineering conferences.",
+    "Graduates step directly into senior engineering roles such as Hardware Systems Architect, Semiconductor Test Engineer, and FPGA Verification Lead across Canada's growing hardware technology corridors in Toronto, Vancouver, Montreal, and Ottawa. Under Immigration, Refugees and Citizenship Canada (IRCC) regulations, graduates of qualifying full-time post-secondary degree programs at designated learning institutions (DLIs) may be eligible for a Post-Graduation Work Permit (PGWP) for up to three years (the exact duration depends on program length, institution eligibility, and meeting language and study conditions; issuance is non-automatic)."
   ],
   "universities": [
     {
@@ -129,9 +129,7 @@
         },
         {
           "t": "p",
-          "items": [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
-          ]
+          "items": []
         }
       ]
     },
@@ -643,10 +641,10 @@
       "answer": "Depending on their program, school, academic background, and current IRCC standards, some graduates may be eligible for a Post-Graduation Work Permit (PGWP). A work permit, job, or permanent residence are not always assured by a Canadian degree."
     },
     {
-      "q": "How Can Studying Abroad Be Assisted by Edu Hawk Worldwide Consultancy?",
-      "a": "Edu Hawk Worldwide Consultancy helps students organize their application materials, comprehend university admission requirements, investigate overseas study possibilities, and get ready for their study abroad experience.",
-      "question": "How Can Studying Abroad Be Assisted by Edu Hawk Worldwide Consultancy?",
-      "answer": "Edu Hawk Worldwide Consultancy helps students organize their application materials, comprehend university admission requirements, investigate overseas study possibilities, and get ready for their study abroad experience."
+      "q": "How Can Studying Abroad Be Assisted by",
+      "a": "",
+      "question": "How Can Studying Abroad Be Assisted by",
+      "answer": ""
     }
   ],
   "faqs": [
@@ -681,10 +679,10 @@
       "answer": "Depending on their program, school, academic background, and current IRCC standards, some graduates may be eligible for a Post-Graduation Work Permit (PGWP). A work permit, job, or permanent residence are not always assured by a Canadian degree."
     },
     {
-      "q": "How Can Studying Abroad Be Assisted by Edu Hawk Worldwide Consultancy?",
-      "a": "Edu Hawk Worldwide Consultancy helps students organize their application materials, comprehend university admission requirements, investigate overseas study possibilities, and get ready for their study abroad experience.",
-      "question": "How Can Studying Abroad Be Assisted by Edu Hawk Worldwide Consultancy?",
-      "answer": "Edu Hawk Worldwide Consultancy helps students organize their application materials, comprehend university admission requirements, investigate overseas study possibilities, and get ready for their study abroad experience."
+      "q": "How Can Studying Abroad Be Assisted by",
+      "a": "",
+      "question": "How Can Studying Abroad Be Assisted by",
+      "answer": ""
     }
   ]
 }

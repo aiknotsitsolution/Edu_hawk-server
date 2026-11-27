@@ -20,9 +20,9 @@ const page = {
   title: "Study Business Management in France for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to Business Management in France for Indian students: Top French business schools (HEC, ESSEC, ESCP), admission requirements, tuition fees, scholarships, and 2-year post-study work visa.",
   keywords: "Study Business Management in France, Business Management course in France, Courses in Business Management in France, Top PG Colleges in Business Management in France, Eligibility to Study PG Business Management In France, The Cost of Studying Business Management in France, Business Management Scholarships for International Students in France, Business Management Jobs and Career Opportunities in France",
-  introTitle: "BUSINESS MANAGEMENT IN FRANCE",
-  heroParas: [
-    "Studying Business Management in France offers international students an elite, globally recognized business education across corporate strategy, finance, luxury brand management, and entrepreneurship. French Grandes Écoles and university management institutes consistently dominate global rankings (Financial Times), offering prestigious Master in Management (MiM), MBA, and specialized MSc degrees taught in English with multi-campus European mobility."
+  "introTitle": "Business Management in France for Indian Students",
+  "heroParas": [
+    "Study Business Management in France, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and access post-study stay-back authorizations under French immigration policy."
   ],
   overview: [
     "France is a premier destination for business and management education, combining historic academic prestige with modern business innovation. International students can choose between highly subsidized public university management faculties (IAE networks) and world-renowned, triple-accredited Grandes Écoles such as HEC Paris, ESSEC Business School, ESCP, and EDHEC.",

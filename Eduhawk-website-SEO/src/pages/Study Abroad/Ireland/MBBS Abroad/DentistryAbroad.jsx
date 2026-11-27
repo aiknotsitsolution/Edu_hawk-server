@@ -200,16 +200,43 @@ const page = {
           ]
         },
         {
-          t: "p",
-          items: [
-            "| Expense Category | Annual Indicative Cost Range | Key Budgeting Notes |",
-            "| :--- | :--- | :--- |",
-            "| **Undergraduate BDS Tuition** | €50,000 – €62,000 / year | Non-EU international student tuition rate |",
-            "| **Clinical Kit & Equipment** | €2,000 – €3,500 (one-off) | Dental instruments, scrubs, magnifying loupes, models |",
-            "| **Living Expenses (Dublin)** | €12,000 – €16,000 / year | Housing, food, transport, and utilities |",
-            "| **Living Expenses (Cork)** | €9,500 – €13,000 / year | Moderate rental costs in regional student accommodations |",
-            "| **Medical & Malpractice Insurance** | €250 – €450 / year | Required for student clinical practice in hospital wards |",
-            "| **Irish Residence Permit (IRP)** | €300 registration fee | Mandatory immigration registration fee upon arrival |"
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Annual Indicative Cost Range",
+            "Key Budgeting Notes"
+          ],
+          rows: [
+            [
+              "**Undergraduate BDS Tuition**",
+              "€50,000 – €62,000 / year",
+              "Non-EU international student tuition rate"
+            ],
+            [
+              "**Clinical Kit & Equipment**",
+              "€2,000 – €3,500 (one-off)",
+              "Dental instruments, scrubs, magnifying loupes, models"
+            ],
+            [
+              "**Living Expenses (Dublin)**",
+              "€12,000 – €16,000 / year",
+              "Housing, food, transport, and utilities"
+            ],
+            [
+              "**Living Expenses (Cork)**",
+              "€9,500 – €13,000 / year",
+              "Moderate rental costs in regional student accommodations"
+            ],
+            [
+              "**Medical & Malpractice Insurance**",
+              "€250 – €450 / year",
+              "Required for student clinical practice in hospital wards"
+            ],
+            [
+              "**Irish Residence Permit (IRP)**",
+              "€300 registration fee",
+              "Mandatory immigration registration fee upon arrival"
+            ]
           ]
         },
         {

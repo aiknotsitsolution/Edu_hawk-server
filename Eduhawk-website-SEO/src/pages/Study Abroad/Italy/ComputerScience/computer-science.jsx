@@ -19,12 +19,14 @@ const page = {
   "description": "Study Computer Science in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
   "keywords": "Computer Science in Italy, Study Computer Science in Italy, Best Computer Science Universities in Italy, MS in Computer Science in Italy, Computer Science Fees in Italy",
   "introTitle": "Computer Science Engineering in Italy for Indian Students",
-  heroParas: [
-    "Studying Computer Science in Italy provides international students with strong algorithmic foundations, advanced software engineering training, and exposure to Europe's rapidly expanding digital and tech innovation hubs."
-  ],
-  overview: [
-    "Yes. Indian students who have successfully completed Class 12 or an equivalent qualification are eligible to apply for Bachelor's programs. They have to meet the academic, language and entrance-test requirements of the university they have chosen."
-  ],
+  "heroParas": [
+    "Pursue high-quality Computer Science education at historic Italian polytechnics and public universities with very affordable tuition fees and regional DSU scholarships. Indian students gain internationally recognized European degrees and a 12-month post-study work search permit."
+],
+  "overview": [
+    "Italy offers a rich combination of historic academic prestige and modern technological excellence at world-ranked polytechnics and public universities. Computer Science programs in Italy emphasize foundational mathematics, algorithmic analysis, hardware-software integration, and applied software engineering.",
+    "Italian universities offer 3-year Laurea (Bachelor's) and 2-year Laurea Magistrale (Master's) degrees taught in English. Students develop specialized competence in Artificial Intelligence, High-Performance Computing, Robotics, Cybersecurity, and Data Science, benefiting from highly affordable public university tuition (€1,000 to €4,000/year) and substantial need-based regional DSU scholarships that can cover tuition and living costs.",
+    "Graduates of Italian universities obtain credentials valid throughout the European Higher Education Area (EHEA). Non-EU master's and doctoral graduates are eligible for a 12-month post-study residence permit (Permesso di Soggiorno per Ricerca Lavoro) to seek skilled employment across Italy's Northern industrial technology belt and European enterprises."
+],
   "level": "Undergraduate & Postgraduate",
   "crumb": "Technology & Computing",
   "stats": [

@@ -21,9 +21,9 @@ const page = {
   title: "BBA in Germany for Indian Students | Edu-Hawk Worldwide",
   description: "Complete guide to studying Bachelor of Business Administration (BBA) in Germany: Top business faculties, Studienkolleg requirements after 12th, tuition-free public universities, costs, and career opportunities.",
   keywords: "Study BBA in Germany for Indian Students, Best Universities for BBA in Germany, Undergraduate Business Courses in Germany, BBA Eligibility Requirements in Germany, BBA Admission Requirements for International Students in Germany, Study Business Administration in Germany After Class 12, Studienkolleg Requirements for Indian Students in Germany, IELTS and German Language Requirements for BBA in Germany, BBA Tuition Fees in Germany for Indian Students, Cost of Living for BBA Students in Germany, BBA Scholarships in Germany for International Students, Accreditation and Recognition of Business Universities in Germany, Career Opportunities After BBA in Germany",
-  introTitle: "Why Study BBA in Germany?",
-  heroParas: [
-    "Germany attracts international undergraduates seeking a Bachelor of Business Administration (BBA) or Bachelor of Science in Management, combining tuition-free public education with direct industry immersion across Europe's largest powerhouse economy."
+  "introTitle": "BBA in Germany for Indian Students",
+  "heroParas": [
+    "Pursue an accredited Bachelor of Business Administration (BBA) in Germany, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore the 18-month post-study job seeker visa, subject to German immigration directives."
   ],
   overview: [
     "An undergraduate business degree in Germany delivers exceptional academic training, grounding students in quantitative economics, digital marketing, corporate finance, and strategic management.",

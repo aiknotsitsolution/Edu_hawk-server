@@ -346,7 +346,8 @@ const page = {
 export default function DentistryAbroadGermanyPage() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: "Dentistry",
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])
@@ -376,7 +377,7 @@ export default function DentistryAbroadGermanyPage() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      seoPath="/study-abroad/germany/mbbs-abroad/dentistry"
+      seoPath="/study-abroad/germany/dentistry"
     />
   );
 }

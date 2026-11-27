@@ -15,9 +15,9 @@ const page = {
   "title": "BBS in USA for Indian Students | 2026 | Edu Hawk Worldwide",
   "description": "Study Bachelor of Business Studies (BBS) in the USA after Class 12. Specialisations, duration, eligibility, entrance exams, tuition fees, universities, careers and visa process for Indian students.",
   "keywords": "Study BBS in USA for Indian Students, Bachelor of Business Studies in USA, Best Universities for Business Studies in USA, BBS Admission Requirements in USA for Indian Students, Business Studies Courses in USA After 12th",
-  "introTitle": "BBS in the U.S.",
+  "introTitle": "BBS in the USA for Indian Students",
   "heroParas": [
-    "Studying a Bachelor of Business Studies (BBS) in the USA equips international students with broad-based management skills, quantitative analytical training, and practical corporate internship opportunities across premier American institutions."
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in the USA, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen and explore Optional Practical Training (OPT) employment opportunities, subject to US immigration regulations."
   ],
   "overview": [
     "Edu Hawk Worldwide helps you shortlist universities, understand admission requirements and plan your complete study-abroad journey."

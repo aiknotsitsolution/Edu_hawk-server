@@ -28,7 +28,7 @@ const page = {
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Biotechnology."
   ],
   "level": "Bachelor & Master of Biotechnology",
-  "crumb": "MBBS Abroad",
+  "crumb": "Science & Biotechnology",
   "stats": [
     {
       "val": "DKK 60K-130K",
@@ -166,39 +166,43 @@ const page = {
       "lead": "Explore leading universities and institutions in Denmark offering accredited Biotechnology programmes, modern campuses, and international student support.",
       "unis": [
         {
-          "name": "\\. University of Aarhus",
-          "location": "\\. University of Aarhus, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "Aarhus University provides education and research within biological sciences, molecular biology and biochemistry. Areas to explore: Molecular biology, biological research and related life sciences. Website: [https\\://international.au.dk/](https://international.au.dk/)",
+          "name": "Aarhus University",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "Aarhus University provides education and research within biological sciences, molecular biology, and biochemistry with modern life-science laboratories.",
+          "link": "https://international.au.dk/",
           "img": uniImg1
         },
         {
-          "name": "\\. University of Aalborg",
-          "location": "\\. University of Aalborg, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "Aalborg University is characterised by interdisciplinary and project-organised learning. Students may look at relevant programmes in biotechnology, biology and bioengineering, if available. Website: [https\\://www\\.aau.dk/en](https://www.aau.dk/en) You might want to compare course content, laboratory facilities, research opportunities, tuition fees, language of teaching and relevance to your future career. When shortlisting **Biotechnology universities in Denmark**, applicants should also verify whether the selected programme accepts international students and whether the degree is available in English. **Edu-Hawk Worldwide** can help students understand university options and organise their study abroad application planning.",
+          "name": "Aalborg University",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "Aalborg University is characterised by interdisciplinary problem-based learning (PBL) across biotechnology, biology, and bioengineering disciplines.",
+          "link": "https://www.aau.dk/en",
           "img": uniImg2
         }
       ],
       "unis_data": [
         {
-          "name": "\\. University of Aarhus",
-          "location": "\\. University of Aarhus, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "Aarhus University provides education and research within biological sciences, molecular biology and biochemistry. Areas to explore: Molecular biology, biological research and related life sciences. Website: [https\\://international.au.dk/](https://international.au.dk/)",
+          "name": "Aarhus University",
+          "location": "Aarhus, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "Aarhus University provides education and research within biological sciences, molecular biology, and biochemistry with modern life-science laboratories.",
+          "link": "https://international.au.dk/",
           "img": uniImg1
         },
         {
-          "name": "\\. University of Aalborg",
-          "location": "\\. University of Aalborg, Denmark",
-          "fee": "DKK 60,000 \u2013 120,000 / Year",
-          "desc": "Aalborg University is characterised by interdisciplinary and project-organised learning. Students may look at relevant programmes in biotechnology, biology and bioengineering, if available. Website: [https\\://www\\.aau.dk/en](https://www.aau.dk/en) You might want to compare course content, laboratory facilities, research opportunities, tuition fees, language of teaching and relevance to your future career. When shortlisting **Biotechnology universities in Denmark**, applicants should also verify whether the selected programme accepts international students and whether the degree is available in English. **Edu-Hawk Worldwide** can help students understand university options and organise their study abroad application planning.",
+          "name": "Aalborg University",
+          "location": "Aalborg, Denmark",
+          "fee": "DKK 60,000 – 120,000 / Year",
+          "desc": "Aalborg University is characterised by interdisciplinary problem-based learning (PBL) across biotechnology, biology, and bioengineering disciplines.",
+          "link": "https://www.aau.dk/en",
           "img": uniImg2
         }
       ],
       "note": [
-        "Tuition fees are indicative and subject to annual review by Danish higher education institutions.",
-        "EU/EEA students may study tuition-free; international fees apply to non-EU/EEA citizens."
+        "When shortlisting biotechnology universities in Denmark, applicants should verify whether the programme is taught in English and accepts international students.",
+        "Tuition fees are indicative and subject to annual review by Danish higher education institutions. EU/EEA students may study tuition-free."
       ]
     },
     {

@@ -322,7 +322,7 @@ export default function Landingpage() {
     <div className="font-['Sora'] bg-slate-50 text-slate-950 overflow-x-hidden">
       <SeoHead
         title="MBBS Abroad Consultant | Edu-Hawk Worldwide"
-        description="Your dream of MBBS abroad starts here. India's trusted MBBS abroad consultancy: NMC recognized universities, low fees, no donation. 2026-27 admissions open."
+        description="Your dream of MBBS abroad starts here. India's trusted MBBS abroad consultancy: NMC recognized universities, low fees, no donation. admissions open."
         path="/landingpage"
       >
         {/* Fonts loaded via proper <link> in head (preconnect hints) instead of a
@@ -435,9 +435,6 @@ export default function Landingpage() {
         ))}
         <div className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/70 z-10" />
         <div className="max-w-5xl mx-auto px-6 lg:px-10 relative z-20">
-          <div className="inline-flex items-center gap-2 px-6 py-2 bg-white/20 backdrop-blur-md text-white rounded-full text-sm font-semibold mb-6 border border-white/30">
-            2026-27 ADMISSIONS OPEN
-          </div>
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tighter mb-6 text-white">
             Your Dream of{" "}
             <span className="font-['Playfair_Display'] italic bg-gradient-to-r from-cyan-300 via-white to-violet-300 bg-clip-text text-transparent">

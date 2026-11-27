@@ -7,7 +7,7 @@
   "hero": {
     "badge": "Study Abroad - Italy",
     "title": "Public Health in Italy",
-    "subtitle": "Introduction",
+    "subtitle": "Pursue accredited Public Health programs in Italy, combining epidemiology, public healthcare management, and international health policy. Gain valuable perspectives on Mediterranean health demographics and European public health frameworks.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/italy/public_health_University_of_Bologna-image1.png"
   },
@@ -159,21 +159,14 @@
       "slot": "universities",
       "eyebrow": "Top Italian Universities",
       "title": "Top Universities in Italy",
-      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "lead": "Explore top public research universities in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
       "unis": [
         {
           "name": "University of Bologna",
           "location": "Italy",
           "fee": "€1,000 – €3,500 / Year",
           "image": "/uploads/study_abroad/italy/public_health_University_of_Bologna-image1.png",
-          "desc": "The University of Bologna offers master's-level programmes relevant to healthcare systems and policy. Its Health Economics and Management programme for the 2026/27 academic year is taught in English and includes areas such as healthcare management, health economics and policy. The university also offers Economics and Public Policy , with a health economics, management and policy pathway. These options may be suitable for students interested in healthcare administration, policy development, health economics or management of healthcare institutions. These fields are linked. Not a replacement for checking a dedicated public health degree. Official programme pages: Health Economics and Management: https://www.unibo.it/en/study/second-cycle-degree/programme/2026/6759 Economics and Public Policy: https://www.unibo.it/en/study/second-cycle-degree/programme/2026/6758"
-        },
-        {
-          "name": "Other Italian universities",
-          "location": "Italy",
-          "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
-          "image": "/uploads/study_abroad/italy/public_health_University_of_Bologna-image1.png",
-          "desc": "Students might also want to look at related programs in health sciences, epidemiology, medical statistics, healthcare management and public policy at universities like Sapienza University of Rome and the University of Milan. You will need to check the official course page of each university for availability of a specific public health qualification, the language of instruction, entry requirements and when it is offered each year. Important: This list is a starting point for research, not a guarantee that every university currently offers a dedicated English-taught public health degree."
+          "desc": "The University of Bologna offers master's-level programmes relevant to healthcare systems and policy. Its Health Economics and Management programme for the 2026/27 academic year is taught in English and includes areas such as healthcare management, health economics and policy. The university also offers Economics and Public Policy, with a health economics, management and policy pathway. These options may be suitable for students interested in healthcare administration, policy development, health economics or management of healthcare institutions."
         }
       ],
       "groups": []
@@ -253,8 +246,8 @@
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
+      "slot": "admission-requirements",
+      "eyebrow": "Admission Requirements",
       "title": "Admission Requirements for Public Health in Italy",
       "groups": [
         {
@@ -308,153 +301,48 @@
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "Estimated tuition fees"
+            "Estimated Tuition Fees"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Institution type"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimated annual tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+          "t": "table",
+          "headers": [
+            "Institution type",
+            "Estimated annual tuition",
             "Approximate INR equivalent"
+          ],
+          "rows": [
+            ["Public universities", "€900 – €4,000", "₹97,200 – ₹4,32,000"],
+            ["Private institutions", "€6,000 – €20,000+", "₹6,48,000 – ₹21,60,000+"]
           ]
         },
         {
           "t": "p",
           "items": [
-            "Public universities"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€900-€4,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹97,200-₹4,32,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Private institutions"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€6,000-€20,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹6,48,000-₹21,60,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are indicative costs for Italian higher education and not confirmed fees for every public health course. Actual tuition may be higher or lower and some universities offer income-based reductions or waivers."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "These are indicative costs for Italian higher education and not confirmed fees for every public health course. Actual tuition may be higher or lower and some universities offer income-based reductions or waivers.",
             "Illustrative conversion: €1 = ₹108. Tuition and living expenses should be reconfirmed for the intended academic year."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "Estimated living expenses"
+            "Estimated Living Expenses"
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Expense"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+          "t": "table",
+          "headers": [
+            "Expense",
             "Estimated monthly cost"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Accommodation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€300-€600"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Food and groceries"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€150-€250"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Local transport"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€25-€60"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Utilities and personal expenses"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€100-€200"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimated total"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€700-€1,100"
+          ],
+          "rows": [
+            ["Accommodation", "€300 – €600"],
+            ["Food and groceries", "€150 – €250"],
+            ["Local transport", "€25 – €60"],
+            ["Utilities and personal expenses", "€100 – €200"],
+            ["Estimated total", "€700 – €1,100"]
           ]
         },
         {
@@ -511,8 +399,8 @@
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
+      "slot": "recognition",
+      "eyebrow": "Degree Recognition",
       "title": "Certification, Licensing and Professional Requirements",
       "groups": [
         {
@@ -648,14 +536,7 @@
       "location": "Italy",
       "fee": "€1,000 – €3,500 / Year",
       "image": "/uploads/study_abroad/italy/public_health_University_of_Bologna-image1.png",
-      "desc": "The University of Bologna offers master's-level programmes relevant to healthcare systems and policy. Its Health Economics and Management programme for the 2026/27 academic year is taught in English and includes areas such as healthcare management, health economics and policy. The university also offers Economics and Public Policy , with a health economics, management and policy pathway. These options may be suitable for students interested in healthcare administration, policy development, health economics or management of healthcare institutions. These fields are linked. Not a replacement for checking a dedicated public health degree. Official programme pages: Health Economics and Management: https://www.unibo.it/en/study/second-cycle-degree/programme/2026/6759 Economics and Public Policy: https://www.unibo.it/en/study/second-cycle-degree/programme/2026/6758"
-    },
-    {
-      "name": "Other Italian universities",
-      "location": "Italy",
-      "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
-      "image": "/uploads/study_abroad/italy/public_health_University_of_Bologna-image1.png",
-      "desc": "Students might also want to look at related programs in health sciences, epidemiology, medical statistics, healthcare management and public policy at universities like Sapienza University of Rome and the University of Milan. You will need to check the official course page of each university for availability of a specific public health qualification, the language of instruction, entry requirements and when it is offered each year. Important: This list is a starting point for research, not a guarantee that every university currently offers a dedicated English-taught public health degree."
+      "desc": "The University of Bologna offers master's-level programmes relevant to healthcare systems and policy. Its Health Economics and Management programme for the 2026/27 academic year is taught in English and includes areas such as healthcare management, health economics and policy. The university also offers Economics and Public Policy, with a health economics, management and policy pathway. These options may be suitable for students interested in healthcare administration, policy development, health economics or management of healthcare institutions."
     }
   ],
   "faq": [

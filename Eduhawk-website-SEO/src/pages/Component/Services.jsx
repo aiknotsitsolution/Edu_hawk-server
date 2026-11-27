@@ -25,7 +25,6 @@ import {
   ArrowRight,
   Phone,
   MessageCircle,
-  Sparkles,
   ChevronDown,
   Headphones,
   Users,
@@ -149,12 +148,6 @@ export default function Services() {
 
               <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10 pb-28 sm:pb-36">
                 <div className="text-center max-w-5xl mx-auto">
-                  <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/45 backdrop-blur-md border border-white/20 text-white text-xs sm:text-sm font-semibold mb-4 sm:mb-6 shadow-xl">
-                    <span className="text-white/90">
-                      1000+ Placed • 100% Visa Support • NMC Approved
-                    </span>
-                  </div>
-
                   <h2 className="text-3xl sm:text-5xl md:text-6xl font-extrabold text-white leading-tight mb-4 md:mb-6 drop-shadow-2xl">
                     {slide.title}
                   </h2>
@@ -235,7 +228,7 @@ export default function Services() {
           <div className="max-w-7xl mx-auto">
             <div className="text-center max-w-3xl mx-auto mb-14">
               <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200/80">
-                <Sparkles size={14} className="text-amber-600" />
+                
                 End-to-End Admission Support
               </span>
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">

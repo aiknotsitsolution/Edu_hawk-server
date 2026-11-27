@@ -34,15 +34,15 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG) / 3 Years (UG)"
+      "value": "5 Years (300 ECTS)"
     },
     {
       "label": "Top Institutions",
-      "value": "Milano, Sapienza University of Rome, Bologna"
+      "value": "Sapienza Rome, Bologna, Milan"
     },
     {
       "label": "Medium of Study",
-      "value": "English & Italian Taught"
+      "value": "Italian & Select English"
     }
   ],
   "sections": [

@@ -43,7 +43,7 @@ const PhysiotherapyAbroad = () => {
     ? physiotherapyData.stats.map((s) => ({ label: s.l, value: s.n }))
     : [
         { label: "Programs", value: "DPT, Pre-PT pathways, MSc & research options" },
-        { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
+        { label: "Country", value: "United States (USA)" },
         { label: "Support", value: "Complete guidance from profile to arrival" },
         { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
       ];
@@ -439,7 +439,21 @@ const PhysiotherapyAbroad = () => {
         description="Study physiotherapy in the USA for Indian students — the DPT degree, eligibility, admission process, costs and physiotherapy career pathways explained."
         path="/study-abroad/usa/physiotherapy"
         ogType="website"
-      />
+      >
+        {faqs?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
+      </SeoHead>
       <style>{`
         @keyframes pharmacy-float {
           0%, 100% { transform: translate3d(0, 0, 0); }
@@ -550,7 +564,7 @@ const PhysiotherapyAbroad = () => {
                 <span className="mx-1.5">›</span> Physiotherapy
               </div>
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-300 mb-3">
-                Study Physiotherapy · Abroad
+                Study Physiotherapy · USA
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
@@ -604,7 +618,7 @@ const PhysiotherapyAbroad = () => {
               At a glance
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Physiotherapy Abroad at a glance
+              Physiotherapy in the USA at a glance
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

@@ -20,9 +20,9 @@ const page = {
   title: "Study MBS in France for Indian Students | EduHawk",
   description: "Complete guide to Master of Business Studies (MBS), Master in Management (MiM), and MSc in Business in France for Indian students: Top business schools (Paris Dauphine, HEC Paris, ESSEC), tuition fees, admission requirements, and career opportunities.",
   keywords: "Study MBS in France, MBS in France for Indian Students, Master of Business Studies in France, MBS Courses in France, Best Business Schools in France for MBS, Top Universities for Business Studies in France, MBS Eligibility in France, MBS Admission Requirements in France, MBS Tuition Fees in France, Cost of Studying MBS in France, MBS Scholarships in France, Master's in Management in France, Master's in International Business in France, Career Opportunities After MBS in France",
-  introTitle: "MBS IN FRANCE FOR INDIAN STUDENTS",
-  heroParas: [
-    "A **Master of Business Studies (MBS in France)**—offered as Master in Management (MiM), MSc in International Business, or Master in Business Administration—is a globally acclaimed postgraduate qualification engineered to advance expertise in strategic leadership, corporate finance, market expansion, digital disruption, and cross-border commercial trade across France's top public universities and triple-accredited Grandes Écoles."
+  "introTitle": "MBS in France for Indian Students",
+  "heroParas": [
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in France, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and access post-study stay-back authorizations under French immigration policy."
   ],
   overview: [
     "In France, postgraduate business programs are widely categorized under the **Master in Management (MiM)**, **MSc in International Business**, or specialized **Master of Science (MSc)** degrees. France is globally acknowledged as a premier hub for management education, consistently dominating the top tiers of the Financial Times European Business School rankings.",

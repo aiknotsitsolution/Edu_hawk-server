@@ -22,7 +22,7 @@ const page = {
   "keywords": "Study MBA in Mauritius, MBA in Mauritius for Indian Students, Best Universities in Mauritius, Mauritius MBA Admission, Cost of Studying in Mauritius, Edu-Hawk Worldwide",
   "introTitle": "MBA in Mauritius for Indian Students",
   "heroParas": [
-    "An **MBA in Mauritius for Indian Students** is a postgraduate business qualification for graduates and professionals who wish to improve their leadership, strategic thinking, financial management and decision making skills. Students can opt for general MBA programs or specializations in marketing, finance, human resources, international business and business analytics. Choosing to **Study MBA in Mauritius** gives students an opportunity to explore business education in an international environment while developing management and leadership skills."
+    "Study a globally recognized MBA in Mauritius, strategically positioned at the crossroads of African, Asian, and international commerce. International students gain cross-border managerial capabilities in an established regional financial and educational hub."
   ],
   "overview": [
     "Some of the institutions offering MBA in Mauritius are Middlesex University Mauritius, The Open University of Mauritius, University of Mauritius, and Amity Institute of Higher Education. The length of the program, tuition fees, the way the courses are delivered and entry requirements vary, so students should compare each before applying. Students exploring an **MBA in Mauritius for Indian Students** should also compare the course structure, recognition, specialization options and international student fees before selecting a university."
@@ -140,7 +140,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Not all institutions offer specializations. For instance, the University of Mauritius lists its MBA and specialist options in Human Capital Management, Financial Services and Marketing for the academic year 2026-27. Amity also has an MBA and Executive MBA, with specialized MBA tracks online.",
+            "Not all institutions offer specializations. For instance, the University of Mauritius lists its MBA and specialist options in Human Capital Management, Financial Services and Marketing for the academic year. Amity also has an MBA and Executive MBA, with specialized MBA tracks online.",
             "Students comparing **MBA Programs in Mauritius** should check whether their preferred specialization is available in the chosen intake. The duration, delivery format, tuition fees and admission requirements can differ between institutions. Understanding these differences helps Indian students choose suitable **MBA Programs in Mauritius** according to their academic background and career objectives."
           ]
         }

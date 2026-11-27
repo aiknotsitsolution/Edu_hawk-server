@@ -120,7 +120,7 @@ const page = {
         {
           "t": "p",
           "items": [
-            "Yes. Politecnico di Milano has a two-year English-taught Master's in Aeronautical Engineering and the University of Bologna has an English-taught Master's in Aerospace Engineering. Politecnico di Torino 2026-27 program says Italian is language."
+            "Yes. Politecnico di Milano has a two-year English-taught Master's in Aeronautical Engineering and the University of Bologna has an English-taught Master's in Aerospace Engineering. Politecnico di Torino program says Italian is language."
           ]
         }
       ]

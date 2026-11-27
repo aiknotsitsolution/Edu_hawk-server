@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import SeoHead from "../../../component/SeoHead.jsx";
+import LeadModal from "../../../component/LeadModal.jsx";
+import { FaWhatsapp } from "react-icons/fa";
 import {
   GraduationCap,
   Globe,
@@ -10,7 +12,6 @@ import {
   ArrowRight,
   Phone,
   MessageCircle,
-  Sparkles,
   Building2,
   BookOpen,
   Stethoscope,
@@ -39,7 +40,7 @@ import egyptFlag from "../../../Images/country flag png/Egypt.svg";
 const HERO_SLIDES = [
   {
     image: heroTrusted,
-    badge: "2026-27 Global Admissions Open",
+    badge: "Global Admissions Open",
     title: "Global Study Abroad Hub",
     highlight: "Your Gateway to Premier Overseas Education",
     desc: "Compare accredited medical colleges in Russia, Georgia, Kazakhstan, and premier STEM & Business universities across the USA & Finland. 100% transparent fee structures & NMC compliance.",
@@ -74,6 +75,7 @@ const MbbsAbroad = () => {
 
   const [currentHeroSlide, setCurrentHeroSlide] = useState(0);
   const [openFaq, setOpenFaq] = useState(0);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     const heroInterval = setInterval(() => {
@@ -314,13 +316,26 @@ const MbbsAbroad = () => {
   return (
     <div className="font-sans text-slate-800 bg-white min-h-screen antialiased selection:bg-amber-100 selection:text-amber-900">
       <SeoHead
-        title="Study Abroad Hub 2026-27 | MBBS Abroad & Global Universities | Edu Hawk"
+        title="Study Abroad HubMBBS Abroad & Global Universities | Edu Hawk"
         description="Explore top NMC-recognised MBBS abroad destinations (Russia, Georgia, Kazakhstan, Uzbekistan) and premier STEM/MBA hubs in USA & Finland. Free 1-on-1 counselling."
         keywords="study abroad, study mbbs abroad, mbbs abroad consultants, study in usa, study in finland, mbbs in russia, mbbs in georgia, overseas education consultants india"
         path={canonicalPath}
         ogType="website"
       >
         <link rel="preload" as="image" href={heroTrusted} fetchPriority="high" />
+        {FAQ_ITEMS?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: FAQ_ITEMS.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
       </SeoHead>
 
       {/* ─── HERO MULTI-IMAGE CAROUSEL (Matching Home & About) ──────── */}
@@ -352,15 +367,6 @@ const MbbsAbroad = () => {
 
             <div className="absolute inset-0 flex items-center justify-center px-5 sm:px-10 pb-28 sm:pb-36">
               <div className="text-center max-w-5xl mx-auto">
-                {/* Admissions Open Badge */}
-                <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/45 backdrop-blur-md border border-[#d4a853]/40 text-white text-xs sm:text-sm font-semibold mb-4 sm:mb-6 shadow-xl">
-                  <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse" />
-                  <span className="text-amber-300 font-bold">{slide.badge}</span>
-                  <span className="hidden sm:inline text-white/80">
-                    • 1000+ Placed • NMC &amp; WHO Recognized
-                  </span>
-                </div>
-
                 {/* Hero Heading - Primary H1 on First Slide, Paragraph on Secondary Slides */}
                 {idx === 0 ? (
                   <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-3 sm:mb-4 drop-shadow-2xl">
@@ -387,13 +393,24 @@ const MbbsAbroad = () => {
 
                 {/* Hero Action Buttons */}
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 sm:gap-5">
-                  <Link
-                    to={slide.ctaLink || "/landingpage"}
-                    className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-8 py-3.5 sm:py-4 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm w-full sm:w-auto cursor-pointer"
-                  >
-                    <span>{slide.cta}</span>
-                    <ArrowRight size={17} />
-                  </Link>
+                  {slide.ctaLink === "/landingpage" ? (
+                    <button
+                      type="button"
+                      onClick={() => setIsModalOpen(true)}
+                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-8 py-3.5 sm:py-4 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm w-full sm:w-auto cursor-pointer"
+                    >
+                      <span>{slide.cta}</span>
+                      <ArrowRight size={17} />
+                    </button>
+                  ) : (
+                    <Link
+                      to={slide.ctaLink || "#streams"}
+                      className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-8 py-3.5 sm:py-4 rounded-xl shadow-2xl hover:shadow-3xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm w-full sm:w-auto cursor-pointer"
+                    >
+                      <span>{slide.cta}</span>
+                      <ArrowRight size={17} />
+                    </Link>
+                  )}
 
                   <a
                     href="#destinations"
@@ -458,7 +475,7 @@ const MbbsAbroad = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-3xl mx-auto mb-14">
             <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-amber-50 text-amber-900 text-xs font-bold uppercase tracking-wider mb-3 border border-amber-200/80">
-              <Sparkles size={14} className="text-amber-600" />
+              
               Academic Pathways
             </span>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-[#0a2342] leading-tight mb-4">
@@ -720,7 +737,7 @@ const MbbsAbroad = () => {
               <div className="absolute -top-16 -right-16 w-44 h-44 bg-[#d4a853]/20 rounded-full blur-2xl pointer-events-none" />
 
               <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#d4a853]/20 text-[#f0c070] text-xs font-bold uppercase tracking-wider mb-4 border border-[#d4a853]/30">
-                <Sparkles size={13} />
+                
                 Instant Eligibility Check
               </span>
 
@@ -748,13 +765,14 @@ const MbbsAbroad = () => {
               </div>
 
               <div className="space-y-3">
-                <Link
-                  to="/landingpage"
+                <button
+                  type="button"
+                  onClick={() => setIsModalOpen(true)}
                   className="w-full py-3.5 px-5 rounded-xl font-bold text-sm text-center bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] hover:shadow-xl transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer uppercase tracking-wider"
                 >
                   <span>Book Free Eligibility Check</span>
                   <ArrowRight size={16} />
-                </Link>
+                </button>
 
                 <a
                   href="https://wa.me/917632949984?text=Hi%20Eduhawk%20team,%20I%20want%20to%20check%20my%20eligibility%20for%20studying%20abroad."
@@ -762,7 +780,7 @@ const MbbsAbroad = () => {
                   rel="noopener noreferrer"
                   className="w-full py-3 px-5 rounded-xl font-semibold text-xs sm:text-sm text-center bg-white/10 hover:bg-white/20 text-white border border-white/20 transition-all duration-300 flex items-center justify-center gap-2 cursor-pointer"
                 >
-                  <MessageCircle size={15} className="text-emerald-400" />
+                  <FaWhatsapp size={17} className="text-emerald-400" />
                   <span>Chat on WhatsApp Directly</span>
                 </a>
               </div>
@@ -888,7 +906,7 @@ const MbbsAbroad = () => {
 
             <div className="relative z-10 max-w-3xl mx-auto">
               <span className="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-[#d4a853]/20 text-[#f0c070] text-xs font-bold uppercase tracking-wider mb-4 border border-[#d4a853]/30">
-                <Sparkles size={13} />
+                
                 Get Started Today
               </span>
 
@@ -901,13 +919,14 @@ const MbbsAbroad = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 sm:gap-4">
-                <Link
-                  to="/landingpage"
+                <button
+                  type="button"
+                  onClick={() => setIsModalOpen(true)}
                   className="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-[#d4a853] via-[#e0b76b] to-[#f0c070] text-[#0a2342] font-bold uppercase tracking-wider px-8 py-3.5 sm:py-4 rounded-xl shadow-xl hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300 text-xs sm:text-sm w-full sm:w-auto cursor-pointer"
                 >
                   <span>Book Free Consultation</span>
                   <ArrowRight size={17} />
-                </Link>
+                </button>
 
                 <a
                   href="https://wa.me/917632949984?text=Hi%20Eduhawk,%20I%20want%20to%20know%20more%20about%20study%20abroad%20options."
@@ -915,7 +934,7 @@ const MbbsAbroad = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-7 py-3.5 sm:py-4 rounded-xl transition-all duration-300 text-xs sm:text-sm w-full sm:w-auto shadow-md"
                 >
-                  <MessageCircle size={17} />
+                  <FaWhatsapp size={19} />
                   <span>WhatsApp Us</span>
                 </a>
 
@@ -948,10 +967,13 @@ const MbbsAbroad = () => {
           rel="noopener noreferrer"
           className="flex-1 inline-flex items-center justify-center gap-2 py-3 px-3 rounded-xl bg-emerald-600 text-white font-bold text-xs shadow-md"
         >
-          <MessageCircle size={14} />
+          <FaWhatsapp size={16} />
           <span>WhatsApp</span>
         </a>
       </div>
+
+      {/* Lead Capture Modal */}
+      <LeadModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 };

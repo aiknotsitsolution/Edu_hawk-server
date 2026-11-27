@@ -21,9 +21,9 @@ const page = {
   title: "Executive MBA in Australia for Indian Professionals | Edu-Hawk Worldwide",
   description: "Pursue an Executive MBA (EMBA) in Australia. Compare top universities (Monash, Griffith, Melbourne, Deakin), executive entry requirements, fees, and leadership prospects.",
   keywords: "",
-  introTitle: "Indian Students Pursuing an Executive MBA in Australia",
-  heroParas: [
-    "A postgraduate business degree called an Executive MBA is mainly intended for seasoned executives who wish to hone their leadership, strategic management, and executive decision-making abilities."
+  "introTitle": "Executive MBA in Australia for Indian Students",
+  "heroParas": [
+    "Advance your corporate leadership with an Executive MBA (EMBA) in Australia, tailored for mid-career managers, directors, and executives seeking C-suite advancement. International professionals master strategic governance and organizational transformation while expanding their Asia-Pacific corporate networks."
   ],
   overview: [
     "Q2. In Australia, who should think about pursuing an Executive MBA?",

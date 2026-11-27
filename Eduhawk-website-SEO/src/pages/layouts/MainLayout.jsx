@@ -372,7 +372,7 @@ const MainLayout = () => {
       )}
 
       {/* Floating Buttons */}
-      <div className="fixed bottom-6 right-6 flex gap-4 z-50">
+      <div className="fixed bottom-20 sm:bottom-6 right-4 sm:right-6 flex gap-3 sm:gap-4 z-50">
         
         {/* WhatsApp Button with Blinking Border */}
         <div className="relative">

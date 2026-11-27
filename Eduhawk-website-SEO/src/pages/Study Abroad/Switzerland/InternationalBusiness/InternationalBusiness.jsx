@@ -20,10 +20,10 @@ const page = {
   title: "Study International Business in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study International Business in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study International Business in Switzerland, International Business in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland International Business Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
-  introTitle: "International Business in Switzerland for Indian Students",
-  heroParas: [
-    "Switzerland is a magnet for students who want to study global trade, international management, finance and cross-border business operations. Students studying International Business in Switzerland are trained to gain skills in international finance, global marketing, business strategy, negotiation and intercultural communication. The country\u2019s international business environment exposes you to multinational companies, financial institutions, consulting firms and global supply chain. Students can opt for undergraduate or postgraduate programs based on their academic qualifications and career objectives."
-],
+  "introTitle": "International Business in Switzerland for Indian Students",
+  "heroParas": [
+    "Pursue an accredited degree in International Business in Switzerland, mastering global market expansion, multinational corporate strategy, cross-border supply chains, and foreign trade. International students acquire cross-cultural leadership skills in Europe's premier destination for multinational headquarters, private banking, and international commerce."
+  ],
   overview: [
     "**International Business in Switzerland for Indian Students** will give you the knowledge of global business practices and international management skills. Edu-Hawk Worldwide can assist students in course selection and the application process. **International Business in Switzerland for Indian Students** also provides students with an opportunity to explore international academic options and develop skills for global business careers."
 ],
@@ -82,7 +82,7 @@ const page = {
       slot: "universities",
       eyebrow: "Top Institutions",
       title: "Best Universities in Switzerland for International Business",
-      lead: "Explore leading Swiss universities offering accredited International Business programs, modern facilities, and global career pathways.",
+      lead: "Studying International Business in Switzerland equips students with specialized analytical and strategic frameworks to navigate complex foreign trade policies, global currency dynamics, and cross-border commercial partnerships.",
       unis: [
         {
           name: "University of St. Gallen !",

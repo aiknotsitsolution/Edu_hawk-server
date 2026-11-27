@@ -18,9 +18,9 @@ const page = {
   "title": "Study Executive MBA in the UK for Indian Students | Edu-Hawk Worldwide",
   "description": "Complete guide to Executive MBA in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
   "keywords": "Study Executive MBA in the UK, Executive MBA in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
-  "introTitle": "Study Executive MBA in UK",
+  "introTitle": "Executive MBA in the UK for Indian Students",
   "heroParas": [
-    "Executive Master of Business Administration (Executive MBA or EMBA) is a postgraduate management program aimed primarily at experienced professionals, managers, entrepreneurs, and business executives who wish to advance their careers while still working. Studying a Executive MBA in the UK will give you leadership skills, strategic thinking and global business knowledge."
+    "Accelerate your transition into senior corporate leadership with an Executive MBA in the UK, delivered by world-renowned business faculties. Experienced executives master strategic organizational change and corporate finance while expanding high-caliber international networks in London and across the UK."
   ],
   "overview": [
     "The key reasons to pursue an Executive MBA in the UK are:",

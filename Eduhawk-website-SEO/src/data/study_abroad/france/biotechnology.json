@@ -1,10 +1,10 @@
 {
   "hero": {
-    "title": "Biotechnology in France for International Students",
-    "subtitle": "Students interested in Study biotechnology\\\\, \\\\life sciences\\\\, \\\\genetic engineering\\\\, \\\\pharmaceutical research\\\\ and \\\\industrial innovation\\\\ will find France a most attractive destination."
+    "title": "Biotechnology",
+    "subtitle": "Earn a prestigious Biotechnology qualification in France, combining rigorous biochemical sciences, bio-industrial internships, and advanced pharmaceutical technology. Explore vibrant research opportunities across Europe's prominent biotechnology networks and healthcare innovation institutes."
   },
   "overview": [
-    "Students interested in Study biotechnology\\\\, \\\\life sciences\\\\, \\\\genetic engineering\\\\, \\\\pharmaceutical research\\\\ and \\\\industrial innovation\\\\ will find France a most attractive destination.",
+    "Students interested in studying biotechnology, life sciences, genetic engineering, pharmaceutical research, and industrial innovation will find France a most attractive destination.",
     "Biotechnology is the collective use of biology, chemistry, genetics and technology to create products and processes for use in healthcare, agriculture, food production and environmental protection.",
     "Studying Biotechnology in France can assist students in acquiring scientific knowledge and practical skills for careers in research, biopharmaceutical manufacturing, diagnostics and product development."
   ],
@@ -354,21 +354,12 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Bachelor / Licence \\| €178 / year \\| €2,902 / year \\|"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master \\| €255 per year \\| €3,950 per year \\|"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "PhD / Doctorate \\| €398 per year \\| €398 per year \\|"
+          "t": "table",
+          "headers": ["Degree Level", "EU / National Fee", "Differentiated International Fee"],
+          "rows": [
+            ["Bachelor / Licence", "€178 / year", "€2,902 / year"],
+            ["Master", "€255 / year", "€3,950 / year"],
+            ["PhD / Doctorate", "€398 / year", "€398 / year"]
           ]
         },
         {

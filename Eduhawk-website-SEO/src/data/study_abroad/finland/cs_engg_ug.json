@@ -5,8 +5,8 @@
   },
   "hero": {
     "badge": "Study Abroad - Finland",
-    "title": "Computer Science Engineering in Finland",
-    "subtitle": "Experience world-class academic training and global career pathways in Finland with Edu-Hawk Worldwide.",
+    "title": "Undergraduate Computer Science & Engineering in Finland for Indian Students",
+    "subtitle": "Study an integrated Bachelor of Science in Computer Science and Engineering in Finland across top technical universities like Aalto and Oulu, combining computational algorithms with digital hardware and embedded systems.",
     "ctaText": "Book Free Counselling",
     "image": ""
   },
@@ -35,7 +35,11 @@
     "eligibility": "Recognised academic qualification + English proficiency",
     "medium": "100% English Taught"
   },
-  "overview": "Studying Computer Science Engineering - UG in Finland offers Indian students access to world-renowned Nordic education, innovative practical research, English-taught programmes, and excellent European career pathways.",
+  "overview": [
+    "Undergraduate Computer Science and Engineering (CSE) in Finland provides a unified academic curriculum bridging computational theory, algorithm design, and modern digital hardware engineering. Finnish universities emphasize active problem-based learning, training students to architect both high-performance software applications and the physical electronic systems that power them.",
+    "Finnish universities deliver English-taught 3-year Bachelor of Science in Technology (BSc Tech, 180 ECTS) programs in Computer Science and Engineering. Students master core computing theory, discrete mathematics, digital logic design, computer architecture, data structures, microprocessor interfacing, and software engineering, collaborating directly in multidisciplinary project teams with Nordic technology consortiums and university research labs.",
+    "Graduates of Finnish CSE programs are positioned for diverse career pathways spanning software engineering, embedded systems development, and digital hardware design. Under Section 55 of the Finnish Aliens Act, international graduates can obtain an extended 2-year post-study residence permit for job seeking or entrepreneurship (usable in up to three parts within 5 years of graduation), provided baseline living funds (€560/month) and health insurance are maintained, facilitating smooth transition into permanent Nordic technology roles."
+  ],
   "universities": [
     {
       "name": "Top University in Finland",

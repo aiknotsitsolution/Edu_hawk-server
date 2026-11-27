@@ -18,9 +18,9 @@ const page = {
   "title": "Study MBS in the UK for Indian Students | Edu-Hawk Worldwide",
   "description": "Complete guide to MBS in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
   "keywords": "Study MBS in the UK, MBS in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
-  "introTitle": "Study Master of Business Studies (MBS) in UK",
+  "introTitle": "MBS in the UK for Indian Students",
   "heroParas": [
-    "Developing understanding of business operations, management concepts, organizational strategy, finance, marketing, and entrepreneurship is the main goal of the Master of Business Studies (MBS) postgraduate business degree. Students who want to pursue professions in business might look into postgraduate programs in the UK that support these professional and academic objectives."
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in the UK, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore 2-year Graduate Route post-study work visa opportunities, subject to UK Home Office criteria."
   ],
   "overview": [
     "Key l Advantages of Pursuing Master's Programs in Business in the UK",

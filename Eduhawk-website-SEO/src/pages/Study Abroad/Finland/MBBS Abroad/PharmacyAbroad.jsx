@@ -20,14 +20,14 @@ const page = {
   keywords: "Study Pharmacy in Finland, Pharmacy in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland",
   introTitle: "Pharmacy in Finland",
   heroParas: [
-    "**[Study Pharmacy in Finland](/courses/mbbs)** to gain comprehensive pharmaceutical knowledge in a research-oriented European education system combining drug development, medication safety, and practical healthcare applications."
+    "**[Study Pharmacy in Finland](/study-abroad/finland/pharmacy)** to gain comprehensive pharmaceutical knowledge in a research-oriented European education system combining drug development, medication safety, and practical healthcare applications."
   ],
   overview: [
     "For Indian students interested in **Pharmacy abroad**, Finland provides valuable exposure to modern pharmaceutical research and advanced healthcare practices. The country is renowned for its stringent pharmaceutical quality standards and innovative biotechnology research ecosystems.",
     "The **University of Helsinki's Faculty of Pharmacy** covers areas ranging from drug discovery and pharmaceutical research to patient-centred hospital pharmacy. With **[Edu-Hawk Worldwide](/services)**, students can explore international pharmaceutical education opportunities and receive guidance on university selection, eligibility, documentation, and admission planning."
   ],
   level: "Undergraduate & Master's",
-  crumb: "MBBS Abroad",
+  crumb: "Healthcare & Pharmacy",
 
   stats: [
     { label: "Degree Awarded", value: "B.Sc. & M.Sc. in Pharmacy" },
@@ -45,7 +45,7 @@ const page = {
         {
           t: "p",
           items: [
-            "**[Study Pharmacy in Finland](/courses/mbbs)** to gain comprehensive pharmaceutical knowledge in a research-oriented European education system. Finnish pharmacy education combines pharmaceutical sciences, drug development, medication safety, and practical healthcare applications.",
+            "**[Study Pharmacy in Finland](/study-abroad/finland/pharmacy)** to gain comprehensive pharmaceutical knowledge in a research-oriented European education system. Finnish pharmacy education combines pharmaceutical sciences, drug development, medication safety, and practical healthcare applications.",
             "For Indian students interested in **Pharmacy abroad**, Finland provides valuable exposure to modern pharmaceutical research and advanced healthcare practices. The country is renowned for its stringent pharmaceutical quality standards and innovative biotechnology research ecosystems.",
             "The **University of Helsinki's Faculty of Pharmacy** covers areas ranging from drug discovery and pharmaceutical research to patient-centred hospital pharmacy. With **[Edu-Hawk Worldwide](/services)**, students can explore international pharmaceutical education opportunities and receive guidance on university selection, eligibility, documentation, and admission planning.",
             "**Benefits of Studying Pharmacy in Finland**"
@@ -357,7 +357,7 @@ const page = {
           t: "p",
           items: [
             "The University of Helsinki notes that applicants with pharmacy degrees completed abroad may be required to complete supplementary studies, and sufficient Finnish or Swedish proficiency is required for those studies.",
-            "Students should consult **Valvira** for updated licensing regulations before making career decisions. Also check our guides on **[Nursing in Finland](/study-abroad/finland/nursing)** and **[MBBS Abroad](/courses/mbbs)**."
+            "Students should consult **Valvira** for updated licensing regulations before making career decisions. Also check our guides on **[Nursing in Finland](/study-abroad/finland/nursing)** and **[Dentistry in Finland](/study-abroad/finland/dentistry)**."
           ]
         }
       ]

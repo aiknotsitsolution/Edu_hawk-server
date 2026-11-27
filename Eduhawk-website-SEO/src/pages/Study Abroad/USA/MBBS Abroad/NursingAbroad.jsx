@@ -18,7 +18,6 @@ import {
   ShieldCheck,
   BookOpen,
   Calendar,
-  Sparkles,
   FileText,
 } from "lucide-react";
 
@@ -383,7 +382,21 @@ const NursingAbroad = () => {
         keywords={nursingData?.seo?.keywords?.join(", ")}
         path="/study-abroad/usa/nursing"
         ogType="website"
-      />
+      >
+        {faqs?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
+      </SeoHead>
 
       <style>{`
         @keyframes nursing-float {
@@ -423,7 +436,7 @@ const NursingAbroad = () => {
               </div>
 
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/20 border border-indigo-400/30 text-indigo-300 text-xs font-semibold uppercase tracking-wider mb-4">
-                <Sparkles size={13} className="text-amber-300" />
+                
                 <span>Premier US Healthcare Education</span>
               </div>
 
@@ -1067,7 +1080,7 @@ const NursingAbroad = () => {
           {/* Important for Indian Students */}
           <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 sm:p-8">
             <h3 className="text-lg font-bold text-amber-950 mb-2 flex items-center gap-2">
-              <Sparkles size={18} className="text-amber-700" />
+              
               Important for Indian Students:
             </h3>
             <p className="text-amber-900 text-sm leading-relaxed">

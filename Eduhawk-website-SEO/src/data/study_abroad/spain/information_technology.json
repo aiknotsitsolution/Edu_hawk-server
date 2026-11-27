@@ -1,33 +1,34 @@
 {
   "hero": {
-    "title": "IT in Spain for Indian Students",
-    "subtitle": "Information Technology in Spain for Indian Students provides a chance to become an expert in software development, database management, cloud computing, cybersecurity, networking, information systems, and digital transformation. Undergraduate and postgraduate programs at Spanish universities cover computing and technology, providing students with basic IT skills or allowing them to specialize in advanced digital technologies. Students who want to Study Information Technology in Spain can explore programs that combine theoretical knowledge with practical learning."
+    "title": "Study Information Technology in Spain for Indian Students",
+    "subtitle": "Study Information Technology in Spain across vibrant technological hubs in Barcelona and Madrid, offering Bologna-compliant European degrees and high quality of life. Indian students master enterprise cloud, database, and network management alongside a 12-month post-study job search permit."
   },
   "overview": [
-    "Students who study Information Technology in Spain learn technical knowledge and prepare for opportunities across a wide range of industries. Some of the main advantages are:",
-    "These benefits make Information Technology in Spain for Indian Students an attractive option for students interested in computing, software and digital innovation. A degree in this field can help students develop technical knowledge and practical skills for different areas of the IT industry."
+    "Spain is rapidly emerging as a leading southern European digital tech and telecommunications gateway, with thriving enterprise technology centers in Madrid, Barcelona, and Valencia. Studying Information Technology in Spain provides Indian students with Bologna-compliant education combining foundational computing theory with practical enterprise systems administration.",
+    "Spanish public and private universities deliver English-taught and bilingual Bachelor's (4 years, 240 ECTS) and Master's (1 to 2 years, 60\u2013120 ECTS) degrees in Information Technology and Information Systems Management. Programs cover enterprise cloud operations, network security, database administration, and IT service delivery, providing students with direct corporate connections and accessible annual tuition (\u20ac1,500 to \u20ac6,500/year).",
+    "International graduates in Spain can apply for a 12-month non-renewable post-study residence permit for job seeking or entrepreneurship (Permiso de Residencia para B\u00fasqueda de Empleo, Law 14/2013 / EU Directive 2016/801). This permit allows graduates holding accredited Level 6, 7, or 8 qualifications to transition smoothly into skilled employment as Systems Administrators, Network Specialists, and Cloud Operations Analysts across Spain's digital sector."
   ],
   "universities": [
     {
       "name": "Universitat de Barcelona",
       "location": "Barcelona, Catalonia, Spain",
-      "fee": "€1,500 – €4,500 / Year",
+      "fee": "\u20ac1,500 \u2013 \u20ac4,500 / Year",
       "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
       "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
       "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
     },
     {
-      "name": "Universidad Autónoma de Madrid",
+      "name": "Universidad Aut\u00f3noma de Madrid",
       "location": "Madrid, Spain",
-      "fee": "€2,000 – €5,500 / Year",
+      "fee": "\u20ac2,000 \u2013 \u20ac5,500 / Year",
       "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
       "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
       "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
     },
     {
-      "name": "Universitat Politècnica de Catalunya",
+      "name": "Universitat Polit\u00e8cnica de Catalunya",
       "location": "Barcelona, Catalonia, Spain",
-      "fee": "€2,500 – €6,500 / Year",
+      "fee": "\u20ac2,500 \u2013 \u20ac6,500 / Year",
       "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
       "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
       "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
@@ -35,7 +36,7 @@
     {
       "name": "Universidad Complutense de Madrid",
       "location": "Madrid, Spain",
-      "fee": "€2,000 – €5,000 / Year",
+      "fee": "\u20ac2,000 \u2013 \u20ac5,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
       "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
       "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
@@ -254,23 +255,23 @@
         {
           "name": "Universitat de Barcelona",
           "location": "Barcelona, Catalonia, Spain",
-          "fee": "€1,500 – €4,500 / Year",
+          "fee": "\u20ac1,500 \u2013 \u20ac4,500 / Year",
           "img": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
           "image": "/uploads/study_abroad/spain/spain_biotechnology_Universitat_de_Barcelona-image1.png",
           "desc": "The University of Barcelona is one of the top-ranked public universities in Spain, known for its extensive research output and clinical training."
         },
         {
-          "name": "Universidad Autónoma de Madrid",
+          "name": "Universidad Aut\u00f3noma de Madrid",
           "location": "Madrid, Spain",
-          "fee": "€2,000 – €5,500 / Year",
+          "fee": "\u20ac2,000 \u2013 \u20ac5,500 / Year",
           "img": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
           "image": "/uploads/study_abroad/spain/spain_biotechnology_Universidad_Aut_noma_de_Madrid-image2.png",
           "desc": "UAM is celebrated for its modern Cantoblanco campus, distinguished faculty, and internationally accredited degree programs."
         },
         {
-          "name": "Universitat Politècnica de Catalunya",
+          "name": "Universitat Polit\u00e8cnica de Catalunya",
           "location": "Barcelona, Catalonia, Spain",
-          "fee": "€2,500 – €6,500 / Year",
+          "fee": "\u20ac2,500 \u2013 \u20ac6,500 / Year",
           "img": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
           "image": "/uploads/study_abroad/spain/spain_aero_engg_ug_Polytechnic_University_of_Catalonia-image2.png",
           "desc": "UPC BarcelonaTech is a premier European polytechnic institution specializing in architecture, engineering, and digital technologies."
@@ -278,7 +279,7 @@
         {
           "name": "Universidad Complutense de Madrid",
           "location": "Madrid, Spain",
-          "fee": "€2,000 – €5,000 / Year",
+          "fee": "\u20ac2,000 \u2013 \u20ac5,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
           "image": "/uploads/study_abroad/spain/spain_pharmacy_University_Complutense_of_Madrid-image3.png",
           "desc": "One of the oldest and most prestigious universities in the world, offering comprehensive health sciences, humanities, and business programs."
@@ -473,7 +474,7 @@
         {
           "t": "p",
           "items": [
-            "CV or résuméUsually program specificMay be required"
+            "CV or r\u00e9sum\u00e9Usually program specificMay be required"
           ]
         },
         {
@@ -535,13 +536,13 @@
         {
           "t": "p",
           "items": [
-            "Public universities€1,000–€8,000₹1.09 lakh–₹8.69 lakh"
+            "Public universities\u20ac1,000\u2013\u20ac8,000\u20b91.09 lakh\u2013\u20b98.69 lakh"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Private universities€6,000–€25,000+₹6.52 lakh+–₹27.15 lakh+"
+            "Private universities\u20ac6,000\u2013\u20ac25,000+\u20b96.52 lakh+\u2013\u20b927.15 lakh+"
           ]
         },
         {
@@ -571,7 +572,7 @@
     {
       "slot": "tuition",
       "eyebrow": "Tuition & Living Costs",
-      "title": "Cost of student visa.",
+      "title": "Student Visa Fees & Requirements",
       "lead": "",
       "groups": [
         {
@@ -690,61 +691,61 @@
         {
           "t": "p",
           "items": [
-            "IT Support Specialist€20,000–€30,000"
+            "IT Support Specialist\u20ac20,000\u2013\u20ac30,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Systems Administrator€24,000–€38,000"
+            "Systems Administrator\u20ac24,000\u2013\u20ac38,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Software Developer€25,000–€42,000"
+            "Software Developer\u20ac25,000\u2013\u20ac42,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Network Engineer€25,000–€40,000"
+            "Network Engineer\u20ac25,000\u2013\u20ac40,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Database Administrator€27,000–€42,000"
+            "Database Administrator\u20ac27,000\u2013\u20ac42,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Data Analyst€25,000–€42,000"
+            "Data Analyst\u20ac25,000\u2013\u20ac42,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Cloud Engineer€30,000–€50,000"
+            "Cloud Engineer\u20ac30,000\u2013\u20ac50,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Cyber Security Engineer€30,000–€48,000"
+            "Cyber Security Engineer\u20ac30,000\u2013\u20ac48,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "IT Business Analyst€28,000–€45,000"
+            "IT Business Analyst\u20ac28,000\u2013\u20ac45,000"
           ]
         },
         {
           "t": "p",
           "items": [
-            "IT Project Manager€35,000+–€55,000+"
+            "IT Project Manager\u20ac35,000+\u2013\u20ac55,000+"
           ]
         },
         {
@@ -825,7 +826,7 @@
     },
     {
       "q": "4. What are the tuition fees for Information Technology in Spain?",
-      "a": "Public university tuition is, roughly speaking, between €1,000 and €8,000 per year, while private university tuition is between €6,000 and €25,000 or more. Students are advised to verify the exact Information Technology Fees in Spain with the university of their choice."
+      "a": "Public university tuition is, roughly speaking, between \u20ac1,000 and \u20ac8,000 per year, while private university tuition is between \u20ac6,000 and \u20ac25,000 or more. Students are advised to verify the exact Information Technology Fees in Spain with the university of their choice."
     },
     {
       "q": "5. What opportunities do you have after studying Information Technology in Spain?",
@@ -833,8 +834,8 @@
     }
   ],
   "seo": {
-    "title": "IT in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Students who study Information Technology in Spain learn technical knowledge and prepare for opportunities across a wide range of industries. Some of the main a",
+    "title": "Study Information Technology in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Information Technology in Spain across vibrant technological hubs in Barcelona and Madrid, offering Bologna-compliant European degrees and high quali",
     "keywords": "Study in Spain, Best Universities in Spain, Edu Hawk Worldwide"
   }
 }

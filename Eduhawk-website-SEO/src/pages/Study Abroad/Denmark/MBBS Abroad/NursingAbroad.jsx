@@ -28,14 +28,14 @@ const page = {
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Nursing."
   ],
   "level": "B.Sc. & M.Sc. in Nursing",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Nursing",
   "stats": [
     {
       "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "English",
+      "val": "Danish (UG) / English (PG)",
       "label": "Medium of Study"
     },
     {

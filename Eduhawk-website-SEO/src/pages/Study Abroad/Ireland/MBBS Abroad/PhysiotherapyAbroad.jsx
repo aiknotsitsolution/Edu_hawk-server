@@ -193,17 +193,48 @@ const page = {
           ]
         },
         {
-          t: "p",
-          items: [
-            "| Expense Category | Annual Indicative Cost Range | Key Budgeting Notes |",
-            "| :--- | :--- | :--- |",
-            "| **Undergraduate BSc Physiotherapy Tuition** | €25,000 – €35,000 / year | E.g., Trinity College Dublin approx. €26,880 / year (2026–2027) |",
-            "| **Graduate Entry MSc Tuition** | €25,000 – €32,000 / year | 2-year fast-track pre-registration program |",
-            "| **Living Expenses (Dublin)** | €12,000 – €16,000 / year | Purpose-built student accommodation, meals, and transport |",
-            "| **Living Expenses (Limerick)** | €8,500 – €12,000 / year | Affordable regional campus accommodation in Limerick |",
-            "| **Clinical Uniform & Plinth Kit** | €300 – €500 (one-off) | Clinical polo tunics, reflex hammer, goniometer, stethoscope |",
-            "| **Private Health Insurance** | €160 – €300 / year | Mandatory international student medical insurance policy |",
-            "| **Irish Residence Permit (IRP)** | €300 registration fee | Mandatory immigration registration fee upon arrival |"
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Annual Indicative Cost Range",
+            "Key Budgeting Notes"
+          ],
+          rows: [
+            [
+              "**Undergraduate BSc Physiotherapy Tuition**",
+              "€25,000 – €35,000 / year",
+              "E.g., Trinity College Dublin approx. €26,880 / year (2026–2027)"
+            ],
+            [
+              "**Graduate Entry MSc Tuition**",
+              "€25,000 – €32,000 / year",
+              "2-year fast-track pre-registration program"
+            ],
+            [
+              "**Living Expenses (Dublin)**",
+              "€12,000 – €16,000 / year",
+              "Purpose-built student accommodation, meals, and transport"
+            ],
+            [
+              "**Living Expenses (Limerick)**",
+              "€8,500 – €12,000 / year",
+              "Affordable regional campus accommodation in Limerick"
+            ],
+            [
+              "**Clinical Uniform & Plinth Kit**",
+              "€300 – €500 (one-off)",
+              "Clinical polo tunics, reflex hammer, goniometer, stethoscope"
+            ],
+            [
+              "**Private Health Insurance**",
+              "€160 – €300 / year",
+              "Mandatory international student medical insurance policy"
+            ],
+            [
+              "**Irish Residence Permit (IRP)**",
+              "€300 registration fee",
+              "Mandatory immigration registration fee upon arrival"
+            ]
           ]
         }
       ]

@@ -127,7 +127,6 @@ import {
   Globe2,
   ShieldCheck,
   BookOpen,
-  Sparkles,
   Phone,
   MessageCircle,
   Lightbulb,
@@ -320,7 +319,7 @@ export default function TestDetailPage() {
                   href="/contact"
                   className="inline-flex items-center gap-2 bg-[#F48C06] hover:bg-[#e07d04] text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg hover:shadow-orange-500/25 transition-all transform hover:-translate-y-0.5"
                 >
-                  <Sparkles className="w-5 h-5" />
+                  
                   <span>Book Free Exam Consultation</span>
                 </a>
                 <a
@@ -525,7 +524,7 @@ export default function TestDetailPage() {
                 {/* Recommendation Output */}
                 <div className="bg-gradient-to-r from-orange-50 to-blue-50 border border-orange-200 rounded-xl p-5">
                   <h3 className="text-sm font-bold text-[#2F327D] mb-3 flex items-center gap-2">
-                    <Sparkles className="w-4 h-4 text-orange-600" />
+                    
                     Recommended Examinations for Your Goal:
                   </h3>
                   <div className="space-y-2">
@@ -801,7 +800,7 @@ export default function TestDetailPage() {
             {/* Quick Consultation Booking Card */}
             <div className="bg-gradient-to-br from-[#1e293b] to-[#0f172a] text-white p-6 rounded-2xl shadow-xl">
               <div className="w-12 h-12 rounded-xl bg-orange-500 flex items-center justify-center text-white mb-4 shadow-lg shadow-orange-500/30">
-                <Sparkles className="w-6 h-6" />
+                
               </div>
               <h3 className="text-lg font-bold text-white mb-2">Ace Your Study Abroad Exam</h3>
               <p className="text-xs text-gray-300 leading-relaxed mb-6">

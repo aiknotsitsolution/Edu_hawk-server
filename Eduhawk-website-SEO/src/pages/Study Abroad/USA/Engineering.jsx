@@ -132,7 +132,21 @@ const Engineering = () => {
         path="/courses/engineering"
         ogType="website"
         twitterCard="summary_large_image"
-      />
+      >
+        {faqs?.length > 0 && (
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: faqs.map((f) => ({
+                "@type": "Question",
+                name: f.q,
+                acceptedAnswer: { "@type": "Answer", text: f.a },
+              })),
+            })}
+          </script>
+        )}
+      </SeoHead>
       {/* Hero with Image */}
       <section className="relative h-[520px] md:h-[580px] flex items-center overflow-hidden">
         <img

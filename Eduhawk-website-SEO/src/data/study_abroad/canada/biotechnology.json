@@ -22,8 +22,8 @@
   },
   "hero": {
     "badge": "Study Abroad · Canada",
-    "title": "Indian Students Can Study Biotechnology in Canada",
-    "subtitle": "Indian Students Can Study Biotechnology in Canada",
+    "title": "Biotechnology",
+    "subtitle": "Canada offers globally recognized Bachelor's, Master's, and PhD programmes in Biotechnology, Molecular Biology, and Bioinformatics with hands-on co-op laboratory training and post-graduation work permit (PGWP) pathways for Indian students.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/canada/canada_biotechnology_Toronto_Metropolitan_University-image1.png"
   },
@@ -137,23 +137,17 @@
             "Biotechnology Bachelor of Technology - 3–4 years",
             "Biotechnology Diploma - About 2 years",
             "Biotechnology Advanced Diploma - About 2 - 3 years",
-            "Biotechnology Master of Science - About 1` 2 years",
-            "Molecular biology master's degree - about 1-2 years",
-            "Master of Applied Science in Biomedical Engineering or a Related Field"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "- About 1-2 years"
+            "Biotechnology Master of Science - About 1–2 years",
+            "Molecular Biology Master's Degree - About 1–2 years",
+            "Master of Applied Science in Biomedical Engineering or a Related Field - About 1–2 years"
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Master of Science in Bioinformatics- About 1-2 years",
-            "Pharmaceutical Sciences Master of Science - About 1-2 years",
-            "Doctor of Philosophy in Biotechnology or a Related Field - About 4-6 years"
+            "Master of Science in Bioinformatics - About 1–2 years",
+            "Pharmaceutical Sciences Master of Science - About 1–2 years",
+            "Doctor of Philosophy in Biotechnology or a Related Field - About 4–6 years"
           ]
         }
       ]
@@ -504,7 +498,7 @@
             },
             {
               "step": 5,
-              "title": ". Prepare the results of the language test.",
+              "title": "Prepare the results of the language test",
               "desc": "If the institution requires it, take an approved English proficiency test."
             },
             {

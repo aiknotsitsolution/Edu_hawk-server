@@ -15,9 +15,9 @@ const page = {
   title: "BBA in Finland for International Students | Edu-Hawk Worldwide",
   description: "Study BBA in Finland: Explore top universities (Haaga-Helia, Oulu), English-taught programmes, 3.5-year duration (210 ECTS), tuition fees, admission requirements, and career opportunities.",
   keywords: "BBA in Finland, Bachelor of Business Administration in Finland, BBA in Finland for international students, Study business in Finland after 12th, BBA universities in Finland, BBA fees in Finland",
-  introTitle: "BBA in Finland",
-  heroParas: [
-    "A **[BBA in Finland](/study-abroad/finland/bba)** is a popular option for students who want to build a career in international business, management, marketing, finance, sales or entrepreneurship. Finnish universities of applied sciences offer practical, career-oriented business education, with programmes that combine classroom learning, business projects, teamwork and industry experience."
+  "introTitle": "BBA in Finland for Indian Students",
+  "heroParas": [
+    "Pursue an accredited Bachelor of Business Administration (BBA) in Finland, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore post-graduation residence permit options for employment under Finnish immigration regulations."
   ],
   overview: [
     "International students can explore English-taught Bachelor of Business Administration in Finland programmes, particularly in International Business and related fields. These degrees help students develop business communication, analytical thinking, leadership and problem-solving skills for an increasingly global job market.",

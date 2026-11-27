@@ -82,12 +82,12 @@
       "desc": "The Master of Science in Physiotherapy program lasts for about two years. University of Dalhousie in Halifax is one of Canada's top recognized institutions offering advanced academic and research programs."
     },
     {
-      "name": "University of the West London",
+      "name": "University of Western Ontario (Western University)",
       "location": "Canada",
       "fee": "CAD $18,000 – $45,000 / Year",
       "img": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_the_West_London-image2.png",
       "image": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_the_West_London-image2.png",
-      "desc": "The Master of Physical Therapy program, The duration is roughly two years. University of the West London is one of Canada's top recognized institutions offering advanced academic and research programs."
+      "desc": "The Master of Physical Therapy program duration is roughly two years. Western University (London, Ontario) is one of Canada's top recognized institutions offering advanced academic and research programs."
     }
   ],
   "sections": [
@@ -129,7 +129,7 @@
         {
           "t": "p",
           "items": [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey."
           ]
         }
       ]
@@ -216,12 +216,12 @@
           "desc": "The Master of Science in Physiotherapy program lasts for about two years. University of Dalhousie in Halifax is one of Canada's top recognized institutions offering advanced academic and research programs."
         },
         {
-          "name": "University of the West London",
+          "name": "University of Western Ontario (Western University)",
           "location": "Canada",
           "fee": "CAD $18,000 – $45,000 / Year",
           "img": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_the_West_London-image2.png",
           "image": "/uploads/study_abroad/canada/canada_physiotherapy_University_of_the_West_London-image2.png",
-          "desc": "The Master of Physical Therapy program, The duration is roughly two years. University of the West London is one of Canada's top recognized institutions offering advanced academic and research programs."
+          "desc": "The Master of Physical Therapy program duration is roughly two years. Western University (London, Ontario) is one of Canada's top recognized institutions offering advanced academic and research programs."
         }
       ]
     },
@@ -292,8 +292,8 @@
       ]
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
+      "slot": "admission-requirements",
+      "eyebrow": "Admission Requirements",
       "title": "Physiotherapy Admission Requirements in Canada",
       "lead": "Before submitting their applications, applicants should be aware of the physiotherapy entrance requirements in Canada for international students.",
       "groups": [
@@ -529,7 +529,7 @@
             "filled out the application for a university.",
             "If necessary, provide a statement of intent or a personal statement.",
             "referral letters, upon request.",
-            "Eleven. If necessary, a curriculum vitae or documentation of pertinent medical experience.",
+            "If necessary, a curriculum vitae or documentation of pertinent medical experience.",
             "Additional interview or application materials, as needed.",
             "Evidence of scholarship .",
             "acceptance letter from a Canadian university that qualifies.",

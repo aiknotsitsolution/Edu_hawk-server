@@ -380,7 +380,7 @@ export default function NursingAbroadGermanyPage() {
       heroBgImg={heroBgImg}
       sideImg={sideImg}
       ctaBgImg={ctaBgImg}
-      seoPath="/study-abroad/germany/mbbs-abroad/nursing"
+      seoPath="/study-abroad/germany/nursing"
     />
   );
 }

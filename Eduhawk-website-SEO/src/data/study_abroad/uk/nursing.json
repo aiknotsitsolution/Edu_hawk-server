@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Study Nursing in the UK",
-    "subtitle": "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings."
+    "subtitle": "Earn an accredited Nursing degree in the UK, combining academic excellence with 2,300 hours of clinical practice across NHS trust hospitals. Indian students gain direct qualification eligibility for registration with the Nursing and Midwifery Council (NMC) and valuable Post-Study Work opportunities."
   },
   "overview": [
     "The UK has a good reputation for nursing education due to its quality healthcare education, excellent clinical facilities and chances to gain practical experience. Students acquire essential patient-care skills and experience working in hospitals and community health care settings.",
@@ -97,14 +97,7 @@
       "eyebrow": "Top UK Universities",
       "title": "The UK's Best Universities for Nursing",
       "lead": "",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Among the universities to look at are:"
-          ]
-        }
-      ],
+      "groups": [],
       "unis": [
         {
           "name": "Birmingham University",
@@ -143,7 +136,7 @@
     {
       "slot": "overview",
       "eyebrow": "Course Overview",
-      "title": "Requirements of British Nursing Students",
+      "title": "Requirements for International Nursing Students",
       "lead": "",
       "groups": [
         {
@@ -242,8 +235,21 @@
       "slot": "admission",
       "eyebrow": "Application Journey",
       "title": "The Nursing Admission Procedure of the UK",
-      "lead": "",
-      "groups": []
+      "lead": "Applying for a nursing degree in the UK typically follows these seven key stages:",
+      "groups": [
+        {
+          "t": "steps",
+          "items": [
+            "Select a university and nursing specialty.",
+            "Confirm the academic and English language requirements.",
+            "Draft a personal statement, references and transcripts.",
+            "Apply via the university portal or UCAS.",
+            "Attend an evaluation or interview, if necessary.",
+            "Perform comprehensive background and health checks.",
+            "Accept the offer and arrange accommodation, money and immigration clearance."
+          ]
+        }
+      ]
     },
     {
       "slot": "careers",

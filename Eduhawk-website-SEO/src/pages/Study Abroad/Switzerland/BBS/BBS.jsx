@@ -20,10 +20,10 @@ const page = {
   title: "Study BBS in Switzerland in Switzerland for Indian Students | Edu-Hawk Worldwide",
   description: "Study BBS in Switzerland: Top universities, course duration, tuition fees, eligibility criteria, admission process & visa requirements for Indian students.",
   keywords: "Study BBS in Switzerland, BBS in Switzerland for Indian Students, Best Universities in Switzerland, Switzerland BBS Admission, Cost of Studying in Switzerland, Edu-Hawk Worldwide",
-  introTitle: "1\\. Why study BBS in Switzerland?",
-  heroParas: [
-    "Switzerland is a great place for students who want to study international business and have the chance for a global career. Bachelor of Business Studies (BBS) in Switzerland offers students to learn about management, marketing, finance, accounting, entrepreneurship, and business communication. International business students can learn about global markets and prepare for careers in multinational companies, consulting, banking and business development."
-],
+  "introTitle": "BBS in Switzerland for Indian Students",
+  "heroParas": [
+    "Earn a comprehensive Bachelor of Business Studies (BBS) in Switzerland, integrating core management principles, business economics, quantitative analysis, and corporate strategy. International students build strong business acumen in Europe's premier destination for multinational headquarters, private banking, and international commerce."
+  ],
   overview: [
     "**BBS in Switzerland for Indian Students** provides an opportunity to gain international business education and establish a foundation for a global career. **Edu-Hawk Worldwide** helps students find the best undergraduate business programs. **BBS in Switzerland for Indian Students** can also assist students to explore international academic opportunities and prepare for the future business careers."
 ],

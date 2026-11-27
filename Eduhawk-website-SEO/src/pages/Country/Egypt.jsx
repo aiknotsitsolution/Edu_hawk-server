@@ -12,7 +12,7 @@ const Egypt = () => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
-  // FAQ data – realistic & updated for 2026-27 context
+  // FAQ data – realistic & updated
   const faqData = [
     {
       question: "Is MBBS in Egypt valid for Indian students?",
@@ -54,9 +54,9 @@ const Egypt = () => {
         "Yes, most universities provide hostel facilities (shared rooms, furnished, with kitchens/laundry). Many hostels/messes offer Indian food options, self-cooking is common, and Indian restaurants/mess facilities exist near campuses in cities like Cairo and Alexandria.",
     },
     {
-      question: "When does MBBS admission start in Egypt for 2026-27?",
+      question: "When does MBBS admission start in Egypt?",
       answer:
-        "Admissions usually open after NEET results (July–September) and continue till January/February 2026–27 for most universities. Apply early through official channels or authorized portals.",
+        "Admissions usually open after NEET results (July–September) and continue till January/February for most universities. Apply early through official channels or authorized portals.",
     },
   ];
 
@@ -554,7 +554,7 @@ const Egypt = () => {
           <div className="py-16 bg-gray-50">
             <div className="container mx-auto px-4 max-w-4xl">
               <h2 className="text-3xl md:text-4xl font-bold text-blue-900 text-center mb-12">
-                Frequently Asked Questions – MBBS in Egypt 2026-27
+                Frequently Asked Questions – MBBS in Egypt
               </h2>
 
               <div className="space-y-5">

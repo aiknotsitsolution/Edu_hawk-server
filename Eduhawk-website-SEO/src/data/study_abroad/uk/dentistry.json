@@ -12,7 +12,7 @@
     {
       "name": "Birmingham University",
       "location": "United Kingdom",
-      "fee": "£15,000 – £38,000 / Year",
+      "fee": "£35,000 – £60,000+ / Year",
       "img": "/uploads/study_abroad/uk/uk_dentistry_Birmingham_University-image4.png",
       "image": "/uploads/study_abroad/uk/uk_dentistry_Birmingham_University-image4.png",
       "desc": "Examine its undergraduate dental surgery program for information on clinical education, admissions requirements, academic requirements, and foreign application policies."
@@ -20,15 +20,15 @@
     {
       "name": "Liverpool University",
       "location": "United Kingdom",
-      "fee": "£15,000 – £38,000 / Year",
+      "fee": "£35,000 – £60,000+ / Year",
       "img": "/uploads/study_abroad/uk/uk_dentistry_Liverpool_University-image2.png",
       "image": "/uploads/study_abroad/uk/uk_dentistry_Liverpool_University-image2.png",
       "desc": "Examine current admissions data, academic prerequisites, and clinical training schedules for undergraduate dentistry."
     },
     {
-      "name": "London's King's College",
+      "name": "King's College London",
       "location": "United Kingdom",
-      "fee": "£15,000 – £38,000 / Year",
+      "fee": "£35,000 – £60,000+ / Year",
       "img": "/uploads/study_abroad/uk/uk_dentistry_London_s_King_s_College-image1.png",
       "image": "/uploads/study_abroad/uk/uk_dentistry_London_s_King_s_College-image1.png",
       "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility."
@@ -36,7 +36,7 @@
     {
       "name": "Manchester University",
       "location": "United Kingdom",
-      "fee": "£15,000 – £38,000 / Year",
+      "fee": "£35,000 – £60,000+ / Year",
       "img": "/uploads/study_abroad/uk/uk_dentistry_Manchester_University-image3.png",
       "image": "/uploads/study_abroad/uk/uk_dentistry_Manchester_University-image3.png",
       "desc": "Check the current undergraduate course title, admission requirements, and international cost structure to learn more about dentistry education through the university's dental school."
@@ -215,7 +215,7 @@
         {
           "name": "Birmingham University",
           "location": "United Kingdom",
-          "fee": "£15,000 – £38,000 / Year",
+          "fee": "£35,000 – £60,000+ / Year",
           "img": "/uploads/study_abroad/uk/uk_dentistry_Birmingham_University-image4.png",
           "image": "/uploads/study_abroad/uk/uk_dentistry_Birmingham_University-image4.png",
           "desc": "Examine its undergraduate dental surgery program for information on clinical education, admissions requirements, academic requirements, and foreign application policies."
@@ -223,15 +223,15 @@
         {
           "name": "Liverpool University",
           "location": "United Kingdom",
-          "fee": "£15,000 – £38,000 / Year",
+          "fee": "£35,000 – £60,000+ / Year",
           "img": "/uploads/study_abroad/uk/uk_dentistry_Liverpool_University-image2.png",
           "image": "/uploads/study_abroad/uk/uk_dentistry_Liverpool_University-image2.png",
           "desc": "Examine current admissions data, academic prerequisites, and clinical training schedules for undergraduate dentistry."
         },
         {
-          "name": "London's King's College",
+          "name": "King's College London",
           "location": "United Kingdom",
-          "fee": "£15,000 – £38,000 / Year",
+          "fee": "£35,000 – £60,000+ / Year",
           "img": "/uploads/study_abroad/uk/uk_dentistry_London_s_King_s_College-image1.png",
           "image": "/uploads/study_abroad/uk/uk_dentistry_London_s_King_s_College-image1.png",
           "desc": "Discover undergraduate dentistry at the Oral & Craniofacial Sciences Faculty of Dentistry. Examine its current BDS course specifics, entrance requirements, and international eligibility."
@@ -239,7 +239,7 @@
         {
           "name": "Manchester University",
           "location": "United Kingdom",
-          "fee": "£15,000 – £38,000 / Year",
+          "fee": "£35,000 – £60,000+ / Year",
           "img": "/uploads/study_abroad/uk/uk_dentistry_Manchester_University-image3.png",
           "image": "/uploads/study_abroad/uk/uk_dentistry_Manchester_University-image3.png",
           "desc": "Check the current undergraduate course title, admission requirements, and international cost structure to learn more about dentistry education through the university's dental school."
@@ -730,7 +730,7 @@
         {
           "t": "ul",
           "items": [
-            "Verification of Acceptance for Research (CAS)",
+            "Confirmation of Acceptance for Studies (CAS)",
             "Evidence of funds",
             "Documents used to apply for a student visa",
             "When necessary, proof of English competency",

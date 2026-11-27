@@ -1,93 +1,15 @@
 {
   "hero": {
-    "title": "Biotechnology in Finland for Indian Students",
-    "subtitle": "Biotechnology in Finland is an excellent study option for Indian students interested in life sciences, healthcare, pharmaceuticals, food technology, environmental science and industrial innovation. Finland offers internationally recognised Biotechnology courses with strong research and practical components, including English-taught master's programmes at universities such as Aalto University and the University of Helsinki. Students can develop expertise in areas such as molecular biology, microbiology, bioinformatics, bioprocessing, drug development and biomanufacturing, preparing them for careers in biotechnology companies, pharmaceutical industries, research organisations and academia."
+    "title": "Biotechnology",
+    "subtitle": "Pursue innovative Biotechnology degrees in Finland, offering state-of-the-art laboratory facilities, bio-informatics training, and advanced biomaterials research. Gain globally competitive expertise in health biotechnology and environmental bio-processes in a research-intensive educational system."
   },
   "overview": [
-    "Biotechnology in Finland is an excellent study option for Indian students interested in life sciences, healthcare, pharmaceuticals, food technology, environmental science and industrial innovation. Finland offers internationally recognised Biotechnology courses with strong research and practical components, including English-taught master's programmes at universities such as Aalto University and the University of Helsinki. Students can develop expertise in areas such as molecular biology, microbiology, bioinformatics, bioprocessing, drug development and biomanufacturing, preparing them for careers in biotechnology companies, pharmaceutical industries, research organisations and academia.",
-    "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships."
+    "Biotechnology in Finland is an excellent study option for Indian students interested in life sciences, healthcare, pharmaceuticals, food technology, environmental science and industrial innovation. Finland offers internationally recognised Biotechnology courses with strong research and practical components, including English-taught master's programmes at Aalto University and the University of Helsinki.",
+    "Students can develop expertise in molecular biology, microbiology, bioinformatics, bioprocessing, drug development and biomanufacturing, preparing for careers in biotechnology companies, pharmaceutical industries, research organisations and academia."
   ],
-  "universities": [
-    {
-      "name": "Aalto University",
-      "location": "Espoo, Greater Helsinki, Finland",
-      "fee": "€12,000 – €15,000 / Year",
-      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-      "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
-    },
-    {
-      "name": "University of Helsinki",
-      "location": "Helsinki, Finland",
-      "fee": "€13,000 – €18,000 / Year",
-      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-      "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
-    },
-    {
-      "name": "University of Oulu",
-      "location": "Oulu, Finland",
-      "fee": "€10,000 – €13,000 / Year",
-      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-      "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
-    },
-    {
-      "name": "Tampere University",
-      "location": "Tampere, Finland",
-      "fee": "€10,000 – €12,000 / Year",
-      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-      "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
-    }
-  ],
-  "sections": [
-    {
-      "slot": "universities",
-      "eyebrow": "Top Finnish Universities",
-      "title": "Top Universities to Consider in Finland",
-      "lead": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships.",
-      "unis": [
-        {
-          "name": "Aalto University",
-          "location": "Espoo, Greater Helsinki, Finland",
-          "fee": "€12,000 – €15,000 / Year",
-          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-          "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
-        },
-        {
-          "name": "University of Helsinki",
-          "location": "Helsinki, Finland",
-          "fee": "€13,000 – €18,000 / Year",
-          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-          "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
-        },
-        {
-          "name": "University of Oulu",
-          "location": "Oulu, Finland",
-          "fee": "€10,000 – €13,000 / Year",
-          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-          "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
-        },
-        {
-          "name": "Tampere University",
-          "location": "Tampere, Finland",
-          "fee": "€10,000 – €12,000 / Year",
-          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-          "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
-        }
-      ],
-      "groups": []
-    }
-  ],
-  "faqs": [],
   "seo": {
     "title": "Biotechnology in Finland for Indian Students | Edu-Hawk Worldwide",
-    "description": "Biotechnology in Finland is an excellent study option for Indian students interested in life sciences, healthcare, pharmaceuticals, food technology, environment",
-    "keywords": "Study in Finland, Top Universities in Finland, Edu Hawk Worldwide"
+    "description": "Study Biotechnology in Finland: English-taught Master's programmes at Aalto University and University of Helsinki, life sciences research, laboratory training, fees and admissions for Indian students.",
+    "keywords": "Study Biotechnology in Finland, Biotechnology in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland"
   }
 }

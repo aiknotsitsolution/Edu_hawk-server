@@ -18,9 +18,9 @@ const page = {
   "title": "Study BBA in the UK for Indian Students | Edu-Hawk Worldwide",
   "description": "Complete guide to BBA in the UK for Indian students: Top UK universities, eligibility criteria, tuition fees (£14,000–£35,000/yr), scholarships, and 2-year post-study work visa (Graduate Route).",
   "keywords": "Study BBA in the UK, BBA in the UK for Indian Students, Best Universities in the UK, Cost of Studying in the UK, Edu-Hawk Worldwide",
-  "introTitle": "Study Bachelor of Business Administration (BBA) in the UK",
+  "introTitle": "BBA in the UK for Indian Students",
   "heroParas": [
-    "Developing understanding of business operations, management, marketing, finance, economics, leadership, and organizational strategy is the main goal of the Bachelor of Business Administration (BBA) undergraduate business degree. Undergraduate programs at UK universities that offer a solid foundation in business administration are available to those who want to pursue careers in business and management."
+    "Pursue an accredited Bachelor of Business Administration (BBA) in the UK, establishing foundational expertise across finance, marketing, organizational management, and international business. Indian students gain practical corporate exposure and explore 2-year Graduate Route post-study work visa opportunities, subject to UK Home Office criteria."
   ],
   "overview": [
     "Internationally Recognized Qualifications: Attend a UK university that has the authority to offer degrees in business."

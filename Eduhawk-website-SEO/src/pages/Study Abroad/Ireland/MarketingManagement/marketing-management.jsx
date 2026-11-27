@@ -20,9 +20,9 @@ const page = {
   title: "Study Marketing Management in Ireland | Fees, Universities & Visas 2026/27",
   description: "Complete guide to studying Marketing Management in Ireland: top business schools, undergraduate BSc & postgraduate MSc in Digital Marketing, 2026/27 tuition fees, Stamp 1G graduate work visa, and Silicon Docks corporate careers.",
   keywords: "Study Marketing Management in Ireland, MSc Marketing Ireland, Digital Marketing Courses Ireland, Trinity MSc Marketing, TU Dublin Marketing, University of Galway Marketing Management, Marketing tuition fees Ireland 2026 2027, Stamp 1G post study work visa",
-  introTitle: "MARKETING MANAGEMENT COURSES IN IRELAND",
-  heroParas: [
-    "Ireland is Europe's premier technology and digital commercial capital, offering world-class Marketing Management degrees deeply integrated with multinational brand headquarters across Dublin's Silicon Docks."
+  "introTitle": "Marketing Management in Ireland for Indian Students",
+  "heroParas": [
+    "Earn an accredited degree in Marketing Management in Ireland, Europe's leading hub for global digital technology, social media headquarters, and multinational finance. International students acquire advanced digital marketing skills and explore post-study work opportunities under the Irish Third Level Graduate Scheme, subject to official immigration regulations."
   ],
   overview: [
     "Marketing Management in Ireland combines cutting-edge consumer psychology, brand strategy, digital campaign execution, omnichannel retail operations, and data analytics. Irish higher education institutions deliver both 3-to-4-year undergraduate degrees (such as the Bachelor of Business in Marketing Management) and 1-year intensive postgraduate degrees (such as the Master of Science in Marketing, Digital Marketing, or Management & Marketing).",

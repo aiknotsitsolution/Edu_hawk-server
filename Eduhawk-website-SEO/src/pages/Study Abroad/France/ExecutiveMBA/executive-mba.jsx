@@ -20,9 +20,9 @@ const page = {
   title: "Study Executive MBA in France for Indian Students | EduHawk",
   description: "Complete guide to Executive MBA in France for experienced professionals: Top French business schools (INSEAD, ESCP, ESSEC), modular EMBA formats, tuition fees, eligibility, and leadership career pathways.",
   keywords: "Study Executive MBA in France, Executive MBA in France for Indian Students, Executive MBA Courses in France, Best Business Schools for Executive MBA in France, Top Executive MBA Programmes in France, Executive MBA Eligibility in France, Executive MBA Admission Requirements in France, Executive MBA Work Experience Requirements in France, Executive MBA Fees in France, Cost of Studying Executive MBA in France, ESCP Business School Executive MBA, ESSEC Online Executive MBA",
-  introTitle: "EXECUTIVE MBA IN FRANCE",
-  heroParas: [
-    "An **Executive Master of Business Administration (Executive MBA or EMBA) in France** is a premier postgraduate management qualification tailored for seasoned professionals, corporate managers, senior executives, and visionary entrepreneurs. France hosts world-renowned triple-accredited business schools delivering flexible modular, part-time, and blended learning formats with high-caliber global cohorts and strategic leadership training."
+  "introTitle": "Executive MBA in France for Indian Students",
+  "heroParas": [
+    "Transform your corporate career with an internationally ranked Executive MBA in France, delivered by prestigious triple-accredited Grandes Écoles. Senior professionals cultivate global leadership capabilities and strategic vision across European and international markets."
   ],
   overview: [
     "France is globally celebrated as a premier epicenter for executive education, home to top-tier institutions consistently ranked at the pinnacle of Financial Times global rankings. Depending on the institution, programs offer modular on-campus residencies, part-time weekend tracks, and blended online learning frameworks engineered specifically for active executives.",

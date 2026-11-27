@@ -21,7 +21,7 @@ const page = {
   "keywords": "Study Business Management in Canada, Business Management in Canada for Indian Students, Best Universities in Canada, Cost of Studying in Canada",
   "introTitle": "Business Management in Canada for Indian Students",
   "heroParas": [
-    "Studying Business Management in Canada offers Indian students world-class North American academic excellence, cutting-edge research facilities, multicultural campuses, and lucrative post-graduation work permit (PGWP) opportunities."
+    "Study Business Management in Canada, acquiring comprehensive expertise across organizational strategy, financial analysis, operational leadership, and corporate governance. International students master real-world business acumen and explore Post-Graduation Work Permit (PGWP) pathways, subject to program duration and official IRCC eligibility criteria."
   ],
   "overview": [
     "Studying Business Management in Canada offers Indian students world-class North American academic excellence, cutting-edge research facilities, multicultural campuses, and lucrative post-graduation work permit (PGWP) opportunities."

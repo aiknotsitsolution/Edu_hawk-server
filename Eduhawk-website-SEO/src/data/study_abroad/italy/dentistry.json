@@ -1,13 +1,13 @@
 {
   "seo": {
     "title": "Dentistry in Italy for Indian Students | Edu-Hawk Worldwide",
-    "description": "Study Dentistry in Italy: Top universities, English-taught programs, tuition fees (€1,000–€4,000/yr), scholarships, eligibility criteria, and post-study work opportunities.",
-    "keywords": "Note: Tuition fees, admission procedures, entrance exams, university seats and licensing regulations are subject to change. Students should verify all requirements for the academic year they plan to enter through official university and government sources."
+    "description": "Study Dentistry in Italy (Odontoiatria e Protesi Dentaria): 6-year 360 ECTS degree, top universities (Milan-Bicocca, Sapienza Rome, Tor Vergata, Siena), fees, eligibility, and admission.",
+    "keywords": "Study Dentistry in Italy, Dentistry in Italy, Dentistry in Italy for Indian Students, Dentistry Courses in Italy, Dentistry Fees in Italy, Dentistry Admission in Italy"
   },
   "hero": {
     "badge": "Study Abroad - Italy",
-    "title": "Dentistry in Italy - The Complete Guide for International Students",
-    "subtitle": "Dentistry in Italy is an option for students interested in oral healthcare, dental science, clinical training and professional development in Europe. The six-year single-cycle degree in Dental Medicine and Dental Prosthodontics offered by Italian universities is based on the integration of scientific foundations and practical and clinical education. The common name for the qualification in Italy is Odontoiatria e Protesi Dentaria.",
+    "title": "Dentistry in Italy – The Complete Guide for International Students",
+    "subtitle": "Pursue a 6-year, 360 ECTS single-cycle degree in Dentistry and Dental Prosthodontics (Odontoiatria e Protesi Dentaria) combining medical sciences, simulation labs, and supervised clinical training.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/italy/dentistry_University_of_Milan-Bicocca_-_Milano-image4.png"
   },
@@ -31,9 +31,9 @@
   ],
   "highlights": {
     "degree": "Odontoiatria e Protesi Dentaria (Dentistry)",
-    "duration": "1 to 2 Years (PG) / 3 Years (UG)",
+    "duration": "6 Years (360 ECTS)",
     "fee": "€1,000 – €4,000 / Year (Public) | €6,000 – €20,000 / Year (Private)",
-    "eligibility": "Recognised academic qualification + English / Italian proficiency",
+    "eligibility": "Class 12 (PCB) + NEET (if applicable) + Entrance Exam",
     "medium": "English / Italian"
   },
   "overview": [
@@ -60,44 +60,14 @@
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "International Education: Italian universities meet European standards for higher education and offer a structured dental education."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "English-taught Programs: International students can find dentistry programs taught in English at several universities."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Affordable Education: Depending on the university and student's eligibility, public universities may have comparatively affordable tuition fees."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Advanced Clinical Facilities: Students are exposed to dental laboratories, modern equipment and healthcare technologies."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Practical Training: The program includes laboratory work, simulation training and supervised clinical experience."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "European Exposure: Students get to experience international academic culture and meet students from different countries."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "International Education: Italian universities meet European standards for higher education and offer a structured dental education.",
+            "English-taught Programs: International students can find dentistry programs taught in English at several universities.",
+            "Affordable Education: Depending on the university and student's eligibility, public universities may have comparatively affordable tuition fees.",
+            "Advanced Clinical Facilities: Students are exposed to dental laboratories, modern equipment and healthcare technologies.",
+            "Practical Training: The program includes laboratory work, simulation training and supervised clinical experience.",
+            "European Exposure: Students get to experience international academic culture and meet students from different countries.",
             "Specialization Opportunities: Graduates can advance their education in orthodontics, oral surgery, prosthodontics and other dental fields."
           ]
         },
@@ -117,96 +87,31 @@
         {
           "t": "p",
           "items": [
-            "In Italy, Dentistry Courses are delivered via an integrated university degree program called Dentistry and Dental Prosthodontics (Odontoiatria e Protesi Dentaria)."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "In Italy, Dentistry Courses are delivered via an integrated university degree program called Dentistry and Dental Prosthodontics (Odontoiatria e Protesi Dentaria).",
             "The program normally lasts six years and involves 360 ECTS credits. Students learn basic medical sciences, dental sciences, laboratory techniques and clinical dentistry."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "Topics Discussed:"
+            "Topics Discussed"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Anatomy & Human Physiology"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Biochemistry & Microbiology"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Oral Biology and Oral Pathology"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Dental Materials"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Conservative Dental Practice"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Root Canal Therapy"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Periodontics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Orthodontics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Prosthodontics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Oral & Maxillofacial Surgery"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Child Dentistry"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Preventive Dentistry"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "Anatomy & Human Physiology",
+            "Biochemistry & Microbiology",
+            "Oral Biology and Oral Pathology",
+            "Dental Materials",
+            "Conservative Dental Practice",
+            "Root Canal Therapy",
+            "Periodontics",
+            "Orthodontics",
+            "Prosthodontics",
+            "Oral & Maxillofacial Surgery",
+            "Child Dentistry",
+            "Preventive Dentistry",
             "Clinical Dentistry and Patient Care"
           ]
         },
@@ -221,15 +126,36 @@
     {
       "slot": "universities",
       "eyebrow": "Top Italian Universities",
-      "title": "Top Universities in Italy",
-      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "title": "Top Universities for Dentistry in Italy",
+      "lead": "Explore leading Italian universities offering accredited single-cycle Dentistry and Dental Prosthodontics (Odontoiatria e Protesi Dentaria) programmes with clinical hospital training.",
       "unis": [
         {
-          "name": "Requirements for Studying Dentistry in Italy",
-          "location": "Italy",
+          "name": "University of Milan-Bicocca",
+          "location": "Milan, Italy",
           "fee": "€1,000 – €4,000 / Year",
-          "image": "/uploads/study_abroad/italy/dentistry_University_of_Milan-Bicocca_-_Milano-image4.png",
-          "desc": "Indian students looking to study Dentistry in Italy have to fulfill the academic and admission criteria of the university they want to join. Academic Qualifications Class 12 or equivalent recognized qualification. Physics, Chemistry and Biology normally required. Minimum academic requirements set by the university for students. Applicants should have a valid qualifying school certificate. In India, for studying dentistry abroad, NEET qualification is required wherever applicable under Indian regulations. Language Requirements For programs taught in English: Proficiency in English may be required. Universities may accept IELTS, TOEFL or other accepted qualifications. Some universities may require English proficiency at B2 level or equivalent. For programs taught in Italian: Knowledge of the Italian language is normally required. Depending on the university, an Italian certificate at B2 level may be required. Entrance Exam Admission may be subject to an entrance examination or the national admission procedure applicable. The requirements for taking the exam depend on the university, the language of the course and the academic year. Students are advised to check the official admission notice for the examination pattern, eligibility criteria and application deadlines."
+          "desc": "Public university in Milan offering structured clinical dental education and modern simulation laboratories.",
+          "image": "/uploads/study_abroad/italy/dentistry_University_of_Milan-Bicocca_-_Milano-image4.png"
+        },
+        {
+          "name": "Sapienza University of Rome",
+          "location": "Rome, Italy",
+          "fee": "€1,000 – €3,500 / Year",
+          "desc": "One of Europe's largest and oldest public research universities with established dental hospital training.",
+          "image": "/uploads/study_abroad/italy/dentistry_University_of_Rome_-_Sapienza_Roma-image1.png"
+        },
+        {
+          "name": "University of Rome Tor Vergata",
+          "location": "Rome, Italy",
+          "fee": "€1,000 – €4,000 / Year",
+          "desc": "Public research university in Rome known for international healthcare programmes and clinical rotations.",
+          "image": "/uploads/study_abroad/italy/dentistry_University_of_Rome_Tor_Vergata_-_Rome-image2.png"
+        },
+        {
+          "name": "University of Siena",
+          "location": "Siena, Italy",
+          "fee": "Approx. €4,496 / Year",
+          "desc": "Historic Italian public university offering an English-taught Dentistry and Dental Prosthodontics degree.",
+          "image": "/uploads/study_abroad/italy/dentistry_University_of_Siena_-_Siena-image3.png"
         }
       ],
       "groups": []
@@ -237,114 +163,72 @@
     {
       "slot": "eligibility",
       "eyebrow": "Admission Criteria",
-      "title": "What are the entry requirements for dentistry in Italy?",
+      "title": "Entry & Eligibility Requirements for Dentistry in Italy",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Students who want to be admitted to Dentistry in Italy must meet the requirements of the university they have chosen."
+            "Indian students looking to study Dentistry in Italy must fulfill the academic, language, and admission criteria of the university they want to join."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "Admission Criteria:"
+            "Academic & Admission Criteria"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Recognized Class 12 or equivalent qualification."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Compulsory subjects are Physics, Chemistry and Biology."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Minimum academic marks set by the university."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "NEET qualification where required by Indian regulations."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "English or Italian language skills."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Pass the required entrance examination or admission process."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Full academic and ID documents submitted."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "Recognized Class 12 or equivalent qualification.",
+            "Compulsory subjects: Physics, Chemistry and Biology.",
+            "Minimum academic marks set by the university.",
+            "NEET qualification wherever required under Indian regulations for studying dentistry abroad.",
+            "English or Italian language proficiency.",
+            "Pass the required entrance examination or national admission procedure.",
+            "Full academic and ID documents submitted.",
             "Meeting international student admission and visa criteria."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "English Medium Programs"
+            "Language Requirements"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "For English-taught programs: Proficiency in English may be required (e.g., IELTS, TOEFL, or B2 level equivalent depending on the university).",
+            "For Italian-taught programs: Knowledge of the Italian language is normally required, often at B2 level or equivalent."
+          ]
+        },
+        {
+          "t": "h3",
+          "items": [
+            "English Medium Programs Checklist"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Students interested in English-taught programs of Dentistry and Dental Prosthodontics should consult:"
+            "Students interested in English-taught programs of Dentistry and Dental Prosthodontics should prepare for:"
+          ]
+        },
+        {
+          "t": "ul",
+          "items": [
+            "Certificate of English proficiency.",
+            "Registration for the entrance examination.",
+            "Confirmation of academic qualifications.",
+            "Pre-enrolment on Universitaly, when required.",
+            "Other university-specific requirements."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Certificate of English proficiency."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Registration for entrance examination."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Confirmation of academic qualifications."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Pre-enrolment on Universitaly, when required."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Other university requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The admission procedures may differ between public and private universities."
+            "The admission procedures may differ between public and private universities. Students are advised to check the official admission notice for the examination pattern, eligibility criteria and application deadlines."
           ]
         }
       ]
@@ -357,24 +241,15 @@
         {
           "t": "p",
           "items": [
-            "Italy has a wide range of study options for international students. The total cost depends on the university, city, accommodation, lifestyle and program."
+            "Italy has a wide range of study options for international students. The total cost depends on the university, city, accommodation, lifestyle and program.",
+            "The following estimates are given in Indian Rupees. Estimated conversion: €1 = ₹100 (indicative, not a fixed exchange rate)."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "The following estimates are given in Indian Rupees."
+            "Tuition Fee"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Estimated conversion: €1 = ₹100. This conversion is indicative and not a fixed exchange rate."
-          ]
-        },
-        {
-          "t": "h4",
-          "text": "Tuition Fee"
         },
         {
           "t": "table",
@@ -396,24 +271,16 @@
         {
           "t": "p",
           "items": [
-            "University fees at public universities may be subject to university regulations, income assessment, fee categories and applicable concessions."
+            "University fees at public universities may be subject to university regulations, income assessment, fee categories and applicable concessions.",
+            "For example, the University of Siena's published tuition fee estimate for its English-taught dentistry program is around €4,496 per year, or roughly ₹4.50 lakh.",
+            "UniCamillus has published its tuition fees for its Italian-language program in Dentistry and Dental Prosthodontics at €16,000 per year (roughly ₹16 lakh per year excluding additional expenses)."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "For example, the University of Siena's published 2026-27 tuition fee estimate for its English-taught dentistry program is around €4,496 per year, or roughly ₹4.50 lakh."
+            "Cost of Living"
           ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "UniCamillus has published its tuition fees for the 2026-27 academic year for its Italian-language program in Dentistry and Dental Prosthodontics, setting an annual fee of €16,000, which is roughly ₹16 lakh per year excluding additional expenses."
-          ]
-        },
-        {
-          "t": "h4",
-          "text": "Cost of living"
         },
         {
           "t": "table",
@@ -451,8 +318,10 @@
           ]
         },
         {
-          "t": "h4",
-          "text": "Total Estimated Cost (6 years)"
+          "t": "h3",
+          "items": [
+            "Total Estimated Cost (6 Years)"
+          ]
         },
         {
           "t": "table",
@@ -471,20 +340,14 @@
             ],
             [
               "Overall Estimated",
-              "₹55.80 lakh-₹1.03 crore"
+              "₹55.80 lakh - ₹1.03 crore"
             ]
           ]
         },
         {
           "t": "p",
           "items": [
-            "These estimates do not include travel, visa charges, insurance, dental instruments, clinical materials and other additional expenses."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Actual costs will vary depending on the university and city you choose."
+            "These estimates do not include travel, visa charges, insurance, dental instruments, clinical materials and other additional expenses. Actual costs will vary depending on the university and city you choose."
           ]
         }
       ]
@@ -556,105 +419,53 @@
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "Professional Registrations"
+            "Professional Registration"
           ]
         },
         {
           "t": "p",
           "items": [
-            "To be eligible for work as a dentist in Italy, graduates need to meet the necessary requirements for qualification, licensing and professional registration."
+            "To be eligible for work as a dentist in Italy, graduates need to meet the necessary requirements for qualification, licensing and professional registration, such as:"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Such as:"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Completion of the approved Dentistry and Dental Prosthodontics course."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Meeting any relevant professional qualification requirements."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Going through the necessary procedure of professional registration."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Registration with the competent Italian professional body."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Meet Italian language and patient communication needs."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "Completion of the approved Dentistry and Dental Prosthodontics course.",
+            "Meeting any relevant professional qualification requirements.",
+            "Going through the necessary procedure of professional registration.",
+            "Registration with the competent Italian professional body.",
+            "Meeting Italian language and patient communication needs.",
             "Adhering to professional standards and healthcare regulations."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "Can Indian Students Intern in India?"
+            "Practising in India After Dentistry in Italy"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Indian students desirous of returning to India shall fulfill applicable National Medical Commission and dental regulatory requirements."
+            "Indian students desirous of returning to India must fulfill applicable dental regulatory and licensing requirements. Students should check before enrolling:"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Students should check before enrolling:"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Recognition requirements for the chosen university and program."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Course length, clinical training and qualification criteria."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Relevant exams and registration requirements for the profession."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "Recognition requirements for the chosen university and program.",
+            "Course length, clinical training and qualification criteria.",
+            "Relevant exams and registration requirements for the profession.",
             "Eligibility for registration and to practice dentistry in India."
           ]
         },
         {
           "t": "p",
           "items": [
-            "Having a dentistry degree from abroad does not equate to permission to practice in India."
+            "Having a dentistry degree from abroad does not equate to automatic permission to practice in India."
           ]
         }
       ]
@@ -667,72 +478,26 @@
         {
           "t": "p",
           "items": [
-            "Dentistry provides career opportunities in hospitals, dental clinics, private practice, healthcare organizations and academic institutions."
+            "Dentistry provides career opportunities in hospitals, dental clinics, private practice, healthcare organizations and academic institutions. After obtaining the required qualification and professional registration, graduates can seek employment opportunities in Italy or abroad, subject to local licensing regulations."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "After obtaining the required qualification and professional registration, graduates can seek employment opportunities in Italy or abroad, subject to local licensing regulations."
+            "Job Roles"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Job Openings"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Dentist - General"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Dental surgeon"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Specialist in Orthodontics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Endodontist"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Specialist in Periodontics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Expert in Prosthodontics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Pediatric Dentist"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Dental Scientist"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "General Dentist",
+            "Dental Surgeon",
+            "Specialist in Orthodontics",
+            "Endodontist",
+            "Specialist in Periodontics",
+            "Specialist in Prosthodontics",
+            "Pediatric Dentist",
+            "Dental Scientist",
             "Dental Lecturer or Academic"
           ]
         },
@@ -743,8 +508,10 @@
           ]
         },
         {
-          "t": "h4",
-          "text": "Dentist Salary Estimates in Italy"
+          "t": "h3",
+          "items": [
+            "Dentist Salary Estimates in Italy"
+          ]
         },
         {
           "t": "table",
@@ -770,17 +537,12 @@
         {
           "t": "p",
           "items": [
-            "These are illustrative, broad estimates and not guaranteed salary offers. Actual earnings are based on experience, professional registration, employment type, city and specialization."
+            "These are illustrative, broad estimates and not guaranteed salary offers. Actual earnings are based on experience, professional registration, employment type, city and specialization.",
+            "Independent dentists may earn different amounts than those who work for a salary, because their income is dependent on the number of patients, operating costs and business expenses."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Independent dentists may earn different amounts than those who work for a salary, because their income is dependent on the number of patients, the operating costs and the costs of the business."
-          ]
-        },
-        {
-          "t": "p",
+          "t": "h3",
           "items": [
             "Jobs in India"
           ]
@@ -792,38 +554,13 @@
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Private dental surgeries"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Health centers and hospitals"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Dental Schools"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Research institutes"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Organizations for dental health care"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "Private dental surgeries",
+            "Health centers and hospitals",
+            "Dental schools",
+            "Research institutes",
+            "Organizations for dental health care",
             "Specialist post-graduate education"
           ]
         },
@@ -838,180 +575,85 @@
     {
       "slot": "documents",
       "eyebrow": "Required Documents",
-      "title": "Documents needed for studying Dentistry in Italy",
+      "title": "Documents Needed for Studying Dentistry in Italy",
       "groups": [
         {
           "t": "p",
           "items": [
-            "Indian students must have the following documents ready for university admission and student visa process."
+            "Indian students must have the following documents ready for university admission and the student visa process."
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
             "Academic Documents"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Class 10 Marksheet and Certificate"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Class 12 Marksheet and Certificate"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "School Leaving Certificate, if any"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "NEET Scorecard, wherever applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Academic Records"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "Class 10 Marksheet and Certificate",
+            "Class 12 Marksheet and Certificate",
+            "School Leaving Certificate, if any",
+            "NEET Scorecard, wherever applicable",
+            "Academic Records",
             "Qualification Equivalence Documents (if required)"
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
             "Personal Papers"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Valid Passport"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Passport size Photographs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "Valid Passport",
+            "Passport-size Photographs",
             "Birth Certificate (if needed)"
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
             "Documents for Admission"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "University Application Form"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Statement of Purpose, if applicable"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Certificate of English Language Proficiency"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Certificate of Italian language if necessary"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Entrance Test Registration / Result"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Letter of Admission to University"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "University Application Form",
+            "Statement of Purpose, if applicable",
+            "Certificate of English Language Proficiency",
+            "Certificate of Italian Language (if necessary)",
+            "Entrance Test Registration / Result",
+            "Letter of Admission to University",
             "Pre-Enrolment Confirmation (if applicable)"
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
             "Financial and Visa Documents"
           ]
         },
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "Evidence of Financial Resources"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Bank Statements or Sponsor Documents"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Proof of accommodation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Medical Insurance"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Application Form for Student Visa"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Documents for Visa Appointment"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+            "Evidence of Financial Resources",
+            "Bank Statements or Sponsor Documents",
+            "Proof of Accommodation",
+            "Medical Insurance",
+            "Application Form for Student Visa",
+            "Documents for Visa Appointment",
             "Further documents requested by the Embassy or Consulate of Italy"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Document requirements may vary depending on the university, the student's nationality and the academic year. Before applying, students are advised to check the official instructions from the university and the visa."
+            "Document requirements may vary depending on the university, the student's nationality and the academic year. Before applying, students are advised to check the official instructions from the university and the visa authorities."
           ]
         }
       ]
@@ -1019,17 +661,38 @@
   ],
   "universities": [
     {
-      "name": "Requirements for Studying Dentistry in Italy",
-      "location": "Italy",
+      "name": "University of Milan-Bicocca",
+      "location": "Milan, Italy",
       "fee": "€1,000 – €4,000 / Year",
-      "image": "/uploads/study_abroad/italy/dentistry_University_of_Milan-Bicocca_-_Milano-image4.png",
-      "desc": "Indian students looking to study Dentistry in Italy have to fulfill the academic and admission criteria of the university they want to join. Academic Qualifications Class 12 or equivalent recognized qualification. Physics, Chemistry and Biology normally required. Minimum academic requirements set by the university for students. Applicants should have a valid qualifying school certificate. In India, for studying dentistry abroad, NEET qualification is required wherever applicable under Indian regulations. Language Requirements For programs taught in English: Proficiency in English may be required. Universities may accept IELTS, TOEFL or other accepted qualifications. Some universities may require English proficiency at B2 level or equivalent. For programs taught in Italian: Knowledge of the Italian language is normally required. Depending on the university, an Italian certificate at B2 level may be required. Entrance Exam Admission may be subject to an entrance examination or the national admission procedure applicable. The requirements for taking the exam depend on the university, the language of the course and the academic year. Students are advised to check the official admission notice for the examination pattern, eligibility criteria and application deadlines."
+      "desc": "Public university in Milan offering structured clinical dental education and modern simulation laboratories.",
+      "image": "/uploads/study_abroad/italy/dentistry_University_of_Milan-Bicocca_-_Milano-image4.png"
+    },
+    {
+      "name": "Sapienza University of Rome",
+      "location": "Rome, Italy",
+      "fee": "€1,000 – €3,500 / Year",
+      "desc": "One of Europe's largest and oldest public research universities with established dental hospital training.",
+      "image": "/uploads/study_abroad/italy/dentistry_University_of_Rome_-_Sapienza_Roma-image1.png"
+    },
+    {
+      "name": "University of Rome Tor Vergata",
+      "location": "Rome, Italy",
+      "fee": "€1,000 – €4,000 / Year",
+      "desc": "Public research university in Rome known for international healthcare programmes and clinical rotations.",
+      "image": "/uploads/study_abroad/italy/dentistry_University_of_Rome_Tor_Vergata_-_Rome-image2.png"
+    },
+    {
+      "name": "University of Siena",
+      "location": "Siena, Italy",
+      "fee": "Approx. €4,496 / Year",
+      "desc": "Historic Italian public university offering an English-taught Dentistry and Dental Prosthodontics degree.",
+      "image": "/uploads/study_abroad/italy/dentistry_University_of_Siena_-_Siena-image3.png"
     }
   ],
   "faq": [
     {
       "question": "How many years does it take to finish Dentistry in Italy?",
-      "answer": "The study of dentistry and dental prosthodontics takes 6 years and includes theoretical education, practical training and clinical experience."
+      "answer": "The study of dentistry and dental prosthodontics takes 6 years (360 ECTS credits) and includes theoretical education, practical training and clinical experience."
     },
     {
       "question": "Can Indian students study Dentistry in Italy in English?",
@@ -1045,13 +708,13 @@
     },
     {
       "question": "After completing Dentistry in Italy, can I practice in India?",
-      "answer": "Students can pursue dental practice in India after meeting the relevant Indian qualification recognition, licensing, registration and professional requirements. Before enrolling, they should verify the current regulations with the appropriate Indian authorities. Are you considering studying Dentistry in Italy ? Edu-Hawk Worldwide can help you with university selection, eligibility assessment, admission guidance, documentation, entrance examination preparation and student visa support. Advance your international dental education and explore the opportunities that Italy has to offer you. Edu-Hawk Global +91 90103 075512 | +91 76329 49884 www.eduhawk.in eduhawk.global@gmail.com"
+      "answer": "Students can pursue dental practice in India after meeting the relevant Indian qualification recognition, licensing, registration and professional requirements. Before enrolling, they should verify the current regulations with the appropriate Indian authorities."
     }
   ],
   "faqs": [
     {
       "q": "How many years does it take to finish Dentistry in Italy?",
-      "a": "The study of dentistry and dental prosthodontics takes 6 years and includes theoretical education, practical training and clinical experience."
+      "a": "The study of dentistry and dental prosthodontics takes 6 years (360 ECTS credits) and includes theoretical education, practical training and clinical experience."
     },
     {
       "q": "Can Indian students study Dentistry in Italy in English?",
@@ -1067,7 +730,7 @@
     },
     {
       "q": "After completing Dentistry in Italy, can I practice in India?",
-      "a": "Students can pursue dental practice in India after meeting the relevant Indian qualification recognition, licensing, registration and professional requirements. Before enrolling, they should verify the current regulations with the appropriate Indian authorities. Are you considering studying Dentistry in Italy ? Edu-Hawk Worldwide can help you with university selection, eligibility assessment, admission guidance, documentation, entrance examination preparation and student visa support. Advance your international dental education and explore the opportunities that Italy has to offer you. Edu-Hawk Global +91 90103 075512 | +91 76329 49884 www.eduhawk.in eduhawk.global@gmail.com"
+      "a": "Students can pursue dental practice in India after meeting the relevant Indian qualification recognition, licensing, registration and professional requirements. Before enrolling, they should verify the current regulations with the appropriate Indian authorities."
     }
   ]
 }

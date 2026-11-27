@@ -20,8 +20,8 @@
   },
   "hero": {
     "badge": "Study Abroad · Canada",
-    "title": "Indian Students Guide to Studying Computer Engineering in Canada",
-    "subtitle": "Indian Students Guide to Studying Computer Engineering in Canada",
+    "title": "Undergraduate Computer Engineering in Canada for Indian Students",
+    "subtitle": "Earn a CEAB-accredited Bachelor of Applied Science or Engineering in Canada with paid co-op placements, mastering digital circuits, embedded firmware, and microprocessor architecture across leading Canadian research institutions.",
     "ctaText": "Book Free Counselling",
     "image": "/uploads/study_abroad/canada/canada_comp_engg_ug_McGill_University-image4.png"
   },
@@ -51,9 +51,9 @@
     "medium": "English & French Taught"
   },
   "overview": [
-    "Indian students interested in computer engineering in Canada , which includes computer hardware, software systems, embedded technology, computer networks, robotics, and intelligent computing frequently travel to Canada. Electrical engineering, computer architecture, programming, mathematics and hardware-software integration are all combined in undergraduate computer engineering curricula.",
-    "Build a solid foundation in computer architecture, digital systems, electronics, programming and engineering mathematics with a quality education.",
-    "Practical Learning through undergraduate computer engineering programs in Canada take part in lab sessions, design projects, hardware development and system testing."
+    "Studying undergraduate Computer Engineering in Canada combines rigorous engineering theory with extensive practical laboratory training accredited by the Canadian Engineering Accreditation Board (CEAB). The curriculum equips students to bridge the gap between physical electronic hardware and software applications, focusing on the design and implementation of modern computing devices.",
+    "Canadian institutions offer 4-year Bachelor of Engineering (BEng) and Bachelor of Applied Science (BASc) programs featuring integrated cooperative education (co-op) terms. Students gain 12 to 20 months of paid professional engineering experience, studying core disciplines including circuit analysis, microcomputer interfacing, real-time operating systems, digital signal processing, and robotics across major tech hubs such as Toronto, Waterloo, Vancouver, and Montreal.",
+    "Graduates step directly into rewarding engineering roles including Hardware Systems Specialist, Embedded Software Developer, and Semiconductor Test Engineer. Under Immigration, Refugees and Citizenship Canada (IRCC) regulations, graduates of qualifying full-time post-secondary degree programs at designated learning institutions (DLIs) may be eligible for a Post-Graduation Work Permit (PGWP) for up to three years (dependent on program length, institution eligibility, and meeting language and study conditions; issuance is non-automatic)."
   ],
   "universities": [
     {
@@ -114,9 +114,7 @@
         },
         {
           "t": "p",
-          "items": [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
-          ]
+          "items": []
         }
       ]
     },

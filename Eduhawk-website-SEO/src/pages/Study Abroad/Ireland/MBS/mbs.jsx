@@ -20,9 +20,9 @@ const page = {
   title: "Study Master of Business Studies (MBS) in Ireland | Fees, Colleges & Work Visa 2026/27",
   description: "Complete guide to Master of Business Studies (MBS) in Ireland: top business schools, NFQ Level 9 qualifications, tuition fees (€13,500 – €24,500), 2-year Stamp 1G post-study work visa, and professional accounting/finance pathways.",
   keywords: "Study MBS in Ireland, Master of Business Studies Ireland, TU Dublin MBS Accounting, UCD Smurfit MBS, UCC Business postgraduate, MBS tuition fees Ireland 2026 2027, Level 9 Master Ireland, Stamp 1G post study work visa, MBS vs MBA Ireland",
-  introTitle: "MASTER OF BUSINESS STUDIES IN IRELAND",
-  heroParas: [
-    "A Master of Business Studies (MBS) in Ireland offers an intensive, industry-aligned NFQ Level 9 postgraduate qualification, preparing ambitious graduates for specialist executive and financial leadership roles across Europe's multinational business capital."
+  "introTitle": "MBS in Ireland for Indian Students",
+  "heroParas": [
+    "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in Ireland, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and access post-study work opportunities under the Irish Third Level Graduate Scheme, subject to official immigration regulations."
   ],
   overview: [
     "The Master of Business Studies (MBS) is a prestigious postgraduate business credential widely awarded across Ireland's universities and technological universities. Unlike general management MBA programs that mandate years of prior executive experience, the MBS focuses on specialized, in-depth academic mastery across functional commerce disciplines including Professional Accounting, Corporate Finance, Strategic Marketing, International Management, and Business Analytics.",
