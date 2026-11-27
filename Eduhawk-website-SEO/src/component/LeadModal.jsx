@@ -179,7 +179,6 @@ export default function LeadModal({ isOpen, onClose }) {
         setModalForm(EMPTY_MODAL_FORM);
         setModalErrors({});
         setConsentGiven(false);
-        setShowOptionalFields(false);
         onClose();
       } else {
         toast.error(data.message || "Submission failed. Please try again.", {
@@ -283,7 +282,7 @@ export default function LeadModal({ isOpen, onClose }) {
         </div>
 
         {/* RIGHT – Form */}
-        <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-6 sm:px-9 sm:py-8 lg:px-10 lg:py-9 flex flex-col justify-center bg-white">
+        <div className="flex-1 overflow-y-auto modal-no-scrollbar px-6 py-6 sm:px-9 sm:py-8 lg:px-10 lg:py-9 flex flex-col justify-start lg:justify-center bg-white">
           <form onSubmit={handleModalSubmit} className="space-y-3.5 sm:space-y-4">
             {/* Row 1: Full Name & Email */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4">

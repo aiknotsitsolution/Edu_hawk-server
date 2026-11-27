@@ -526,9 +526,17 @@ const Query = () => {
       Name: item.name || item.username || "Anonymous",
       Email: item.email,
       Phone: item.phone || "-",
-      City: item.city || "-",
-      Country: item.country || "-",
-      NEET: item.neetStatus || "-",
+      Course:
+        item.course ||
+        item.message?.match(/Interested Course:\s*([^\n]+)/)?.[1] ||
+        item.interested ||
+        "-",
+      Country:
+        item.country ||
+        item.message?.match(/Destination Country:\s*([^\n]+)/)?.[1] ||
+        "-",
+      "Follow-up":
+        item.message?.match(/Preferred Follow-up:\s*([^\n]+)/)?.[1] || "-",
       Message: item.message || item.query || "No message",
       Date: new Date(item.createdAt).toLocaleDateString("en-IN"),
     }));
@@ -569,9 +577,9 @@ const Query = () => {
       "Name",
       "Email",
       "Phone",
-      "City",
+      "Course",
       "Country",
-      "NEET",
+      "Follow-up",
       "Message",
       "Date",
     ];
@@ -580,9 +588,14 @@ const Query = () => {
       item.name || item.username || "Anonymous",
       item.email,
       item.phone || "-",
-      item.city || "-",
-      item.country || "-",
-      item.neetStatus || "-",
+      item.course ||
+        item.message?.match(/Interested Course:\s*([^\n]+)/)?.[1] ||
+        item.interested ||
+        "-",
+      item.country ||
+        item.message?.match(/Destination Country:\s*([^\n]+)/)?.[1] ||
+        "-",
+      item.message?.match(/Preferred Follow-up:\s*([^\n]+)/)?.[1] || "-",
       (item.message || item.query || "No message").length > 45
         ? (item.message || item.query).substring(0, 42) + "..."
         : item.message || item.query || "No message",
@@ -718,17 +731,24 @@ const Query = () => {
       },
     },
     {
-      name: "Intake",
+      name: "Follow-up",
       sortable: true,
-      width: "135px",
+      width: "130px",
       cell: (row) => {
-        const intake =
+        const followUp =
+          row.message?.match(/Preferred Follow-up:\s*([^\n]+)/)?.[1] ||
           row.intake ||
-          (row.message && row.message.match(/Preferred Intake:\s*([^\n]+)/)?.[1]) ||
           row.city;
-        return intake ? (
-          <span className="inline-flex rounded-full bg-slate-100 border border-slate-200/60 px-2.5 py-1 text-xs font-medium text-slate-700">
-            {intake}
+        const isWhatsapp = followUp?.toLowerCase().includes("whatsapp");
+        return followUp ? (
+          <span
+            className={`inline-flex rounded-full border px-2.5 py-1 text-xs font-medium ${
+              isWhatsapp
+                ? "bg-emerald-50 border-emerald-200/60 text-emerald-700"
+                : "bg-slate-100 border-slate-200/60 text-slate-700"
+            }`}
+          >
+            {followUp}
           </span>
         ) : (
           <span className="text-slate-400">—</span>
