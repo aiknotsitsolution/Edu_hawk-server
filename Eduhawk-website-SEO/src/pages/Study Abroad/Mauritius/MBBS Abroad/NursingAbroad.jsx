@@ -30,7 +30,7 @@ const page = {
     "The Nursing Council of Mauritius regulates the nursing and midwifery professions and publishes guidance on nursing schools, training and registration. Students should verify a programme through official sources before enrolling."
   ],
   "level": "B.Sc. & M.Sc. in Nursing",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Nursing",
   "stats": [
     {
       "val": "MUR 150K-350K",

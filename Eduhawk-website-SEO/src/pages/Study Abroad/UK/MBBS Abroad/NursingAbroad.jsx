@@ -37,11 +37,11 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "3 to 4 Years (UG)"
+      "value": "3 to 4 Years (UG) / 1 to 2 Years (MSc)"
     },
     {
       "label": "Top Institutions",
-      "value": "Southampton University, Birmingham University, Nottingham University"
+      "value": "Southampton, Birmingham, Nottingham, Glasgow"
     },
     {
       "label": "Post-Study Work",

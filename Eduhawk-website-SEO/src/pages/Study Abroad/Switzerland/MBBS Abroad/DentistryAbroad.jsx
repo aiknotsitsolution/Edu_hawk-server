@@ -419,13 +419,14 @@ const page = {
       a: "Not automatically. Students must verify foreign qualification recognition, internship guidelines, and screening examination prerequisites with the National Dental Commission (NDC) in India before enrolling."
     }
   ],
-  faqTitle: "11. Frequently Asked Questions About Dentistry in Switzerland"
+  faqTitle: "Frequently Asked Questions About Dentistry in Switzerland"
 };
 
 export default function DentistryAbroadSwitzerland() {
   const dynamicPage = {
     ...page,
-    name: cmsData.hero?.title || page.name,
+    name: "Dentistry",
+    introTitle: cmsData.hero?.title || page.introTitle,
     heroParas: cmsData.hero?.subtitle ? [cmsData.hero.subtitle] : page.heroParas,
     overview: cmsData.overview
       ? (Array.isArray(cmsData.overview) ? cmsData.overview : [cmsData.overview])

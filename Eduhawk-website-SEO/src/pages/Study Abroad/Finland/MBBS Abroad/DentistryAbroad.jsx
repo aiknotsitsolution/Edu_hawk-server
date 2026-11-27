@@ -14,7 +14,7 @@ import u3Img from "../../../../Images/Abroad/Finland/Dentistry/University_of_Eas
 const sideImg = u1Img;
 
 const page = {
-  name: "Dentistry in Finland",
+  name: "Dentistry",
   country: "Finland",
   slug: "dentistry",
   title: "Dentistry in Finland for Indian Students | Edu-Hawk Worldwide",
@@ -29,7 +29,7 @@ const page = {
     "Finnish dental education combines **theoretical knowledge**, **simulation-based learning**, and **clinical patient training**. At the **University of Oulu**, for example, students progress from foundational studies to clinical training and practical work in dental healthcare settings."
   ],
   level: "Undergraduate & Licentiate",
-  crumb: "MBBS Abroad",
+  crumb: "Healthcare & Dentistry",
 
   stats: [
     { label: "Degree Awarded", value: "Licentiate of Dentistry" },

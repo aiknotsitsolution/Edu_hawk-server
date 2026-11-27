@@ -28,7 +28,7 @@ const page = {
     "The Dental Council of Mauritius regulates dental practice and is in charge of recognition and equivalence of qualifications for dental registration. The official website is a must starting for eligibility and professional recognition."
   ],
   "level": "BDS / Dental Surgery",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Dentistry",
   "stats": [
     {
       "val": "MUR 150K-350K",
@@ -39,7 +39,7 @@ const page = {
       "label": "Medium of Study"
     },
     {
-      "val": "3-4 Years",
+      "val": "5 Years (BDS)",
       "label": "Course Duration"
     },
     {
@@ -125,8 +125,8 @@ const page = {
     {
       "slot": "universities",
       "eyebrow": "Top Institutions",
-      "title": "Best Universities and Dental Colleges in Mauritius",
-      "lead": "Explore leading universities and institutions in Mauritius offering accredited Dentistry programmes, modern campuses, and international student support.",
+      "title": "Universities in Mauritius",
+      "lead": "Explore leading universities in Mauritius; applicants should verify directly with the Dental Council of Mauritius and the institution whether an approved dental degree is currently offered.",
       "unis": [
         {
           "name": "University of Mauritius (UoM)",
@@ -303,7 +303,7 @@ const page = {
               "Instruments, Uniforms, Supplies, and Laboratory Fees"
             ],
             [
-              "Travel and insurance \\>",
+              "Travel and insurance",
               "flights and visa costs, health insurance"
             ]
           ]

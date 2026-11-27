@@ -1306,8 +1306,8 @@ export const isSubsectionHeading = (str) => {
   if (/^[A-Z]\.\s+[A-Za-z0-9]/.test(s) && !/[.!?]$/.test(s)) return true;
   if (/^\d+\.\s+[A-Za-z0-9]/.test(s) && !/[.!?]$/.test(s)) return true;
 
-  // Ends with colon: "Admission Requirements:", "Key Advantages:"
-  if (/:\s*$/.test(s) && !/^(Note|Please note|Important|Tip|Disclaimer):\s*$/i.test(s)) return true;
+  // Ends with colon: "Admission Requirements:", "Key Advantages:" (keep short; skip long lead-in sentences)
+  if (/:\s*$/.test(s) && s.length <= 55 && !/^(Note|Please note|Important|Tip|Disclaimer):\s*$/i.test(s)) return true;
 
   // Specific recognized heading topics
   if (
@@ -3215,6 +3215,182 @@ const RelatedBranches = ({ level, currentSlug, country = "USA" }) => {
 
 
 
+};
+
+/* Internal-linking block for AbroadCoursePage: mirrors RelatedBranches
+   so every country/course page links cleanly to its sibling courses and parent hub. */
+const STUDY_ABROAD_COURSE_GROUPS = [
+  {
+    id: "healthcare",
+    title: "Healthcare & Life Sciences Courses",
+    items: [
+      { slug: "dentistry", name: "Dentistry" },
+      { slug: "nursing", name: "Nursing" },
+      { slug: "pharmacy", name: "Pharmacy" },
+      { slug: "physiotherapy", name: "Physiotherapy" },
+      { slug: "public-health", name: "Public Health" },
+      { slug: "biotechnology", name: "Biotechnology" },
+    ],
+  },
+  {
+    id: "ug-engineering",
+    title: "Undergraduate Engineering Specialisations",
+    parentSlug: "ug/engineering",
+    parentName: "Undergraduate Engineering",
+    items: [
+      { slug: "ug/computer-engineering", name: "Computer Engineering" },
+      { slug: "ug/mechanical-engineering", name: "Mechanical Engineering" },
+      { slug: "ug/civil-engineering", name: "Civil Engineering" },
+      { slug: "ug/electrical-engineering", name: "Electrical Engineering" },
+      { slug: "ug/electronics-communication", name: "Electronics & Communication" },
+      { slug: "ug/chemical-engineering", name: "Chemical Engineering" },
+      { slug: "ug/aerospace-engineering", name: "Aerospace Engineering" },
+      { slug: "ug/biomedical-engineering", name: "Biomedical Engineering" },
+      { slug: "ug/automobile-engineering", name: "Automobile Engineering" },
+    ],
+  },
+  {
+    id: "pg-engineering",
+    title: "Postgraduate Engineering Specialisations",
+    parentSlug: "pg/engineering",
+    parentName: "Postgraduate Engineering",
+    items: [
+      { slug: "pg/computer-engineering", name: "Computer Engineering" },
+      { slug: "pg/mechanical-engineering", name: "Mechanical Engineering" },
+      { slug: "pg/civil-engineering", name: "Civil Engineering" },
+      { slug: "pg/electrical-engineering", name: "Electrical Engineering" },
+      { slug: "pg/electronics-communication", name: "Electronics & Communication" },
+      { slug: "pg/chemical-engineering", name: "Chemical Engineering" },
+      { slug: "pg/aerospace-engineering", name: "Aerospace Engineering" },
+      { slug: "pg/biomedical-engineering", name: "Biomedical Engineering" },
+      { slug: "pg/automobile-engineering", name: "Automobile Engineering" },
+    ],
+  },
+  {
+    id: "tech",
+    title: "Computer Science, IT & Engineering Courses",
+    items: [
+      { slug: "computer-science", name: "Computer Science" },
+      { slug: "information-technology", name: "Information Technology" },
+      { slug: "ug/computer-engineering", name: "UG Computer Engineering" },
+      { slug: "pg/computer-engineering", name: "PG Computer Engineering" },
+      { slug: "ug/engineering", name: "UG Engineering" },
+      { slug: "pg/engineering", name: "PG Engineering" },
+    ],
+  },
+  {
+    id: "business",
+    title: "Business & Management Courses",
+    parentSlug: "business-management",
+    parentName: "Business & Management",
+    items: [
+      { slug: "mba", name: "MBA" },
+      { slug: "executive-mba", name: "Executive MBA" },
+      { slug: "bba", name: "BBA" },
+      { slug: "bbs", name: "BBS" },
+      { slug: "mbs", name: "MBS" },
+      { slug: "international-business", name: "International Business" },
+      { slug: "marketing-management", name: "Marketing Management" },
+      { slug: "hospitality-management", name: "Hospitality Management" },
+    ],
+  },
+  {
+    id: "professional",
+    title: "Other Popular Courses & Programmes",
+    items: [
+      { slug: "architecture", name: "Architecture" },
+      { slug: "law", name: "Law" },
+      { slug: "language-courses", name: "Language Courses" },
+      { slug: "summer-courses", name: "Summer Courses" },
+      { slug: "winter-courses", name: "Winter Courses" },
+    ],
+  },
+];
+
+const RelatedStudyAbroadCourses = ({ seoPath = "", country = "" }) => {
+  const { pathname } = useLocation();
+  const rawPath = (seoPath || pathname || "").replace(/^\/+|\/+$/g, "");
+  const match = rawPath.match(/^study-abroad\/([a-z0-9-]+)\/(.+)$/i);
+  if (!match) return null;
+
+  const countrySlug = match[1].toLowerCase();
+  const courseSlug = match[2].toLowerCase();
+  const inCountry = country || (countrySlug === "usa" ? "the USA" : countrySlug === "uk" ? "the UK" : countrySlug.charAt(0).toUpperCase() + countrySlug.slice(1));
+
+  const group = STUDY_ABROAD_COURSE_GROUPS.find(
+    (g) =>
+      g.parentSlug === courseSlug ||
+      g.items.some((item) => item.slug === courseSlug)
+  );
+  if (!group) return null;
+
+  const isOnParent = group.parentSlug === courseSlug;
+  const parentLink = isOnParent || !group.parentSlug
+    ? {
+        to: "/study-abroad",
+        title: "All Study Abroad Destinations",
+        desc: `Explore more countries, courses, and admission pathways beyond ${inCountry}.`,
+      }
+    : {
+        to: `/study-abroad/${countrySlug}/${group.parentSlug}`,
+        title: `${group.parentName} in ${inCountry}`,
+        desc: `Browse ${group.parentName.toLowerCase()} programmes, eligibility, fees, and career pathways in one place.`,
+      };
+
+  const siblings = group.items.filter((item) => item.slug !== courseSlug);
+
+  return (
+    <section className="py-10 sm:py-12 bg-slate-50">
+      <div className="max-w-6xl mx-auto px-6">
+        <EhpHead
+          eyebrow="Explore more"
+          title={`Other ${group.title} in ${inCountry}`}
+          desc={[
+            `Compare related programmes in ${inCountry}, or explore more study abroad options for Indian students.`,
+          ]}
+          descClass="text-slate-500 text-[15px] leading-relaxed w-full"
+        />
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link
+            to={parentLink.to}
+            className="group ehp-card bg-white border border-blue-200 rounded-xl p-5 no-underline"
+          >
+            <div className="flex items-center justify-between mb-2">
+              <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                {parentLink.title}
+              </h3>
+              <span className="text-slate-300 group-hover:text-blue-600 transition-colors">
+                →
+              </span>
+            </div>
+            <p className="text-sm text-slate-500 leading-relaxed">
+              {parentLink.desc}
+            </p>
+          </Link>
+
+          {siblings.map((item) => (
+            <Link
+              key={item.slug}
+              to={`/study-abroad/${countrySlug}/${item.slug}`}
+              className="group ehp-card bg-white border border-slate-200 rounded-xl p-5 no-underline"
+            >
+              <div className="flex items-center justify-between mb-2">
+                <h3 className="font-semibold text-slate-900 group-hover:text-blue-600 transition-colors">
+                  {item.name}
+                </h3>
+                <span className="text-slate-300 group-hover:text-blue-600 transition-colors">
+                  →
+                </span>
+              </div>
+              <p className="text-sm text-slate-500 leading-relaxed">
+                {item.name} in {inCountry} — eligibility, fees, universities and careers.
+              </p>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 };
 
 
@@ -5833,7 +6009,7 @@ export const AbroadCoursePage = ({
 
 
       {effectiveFaqs?.length > 0 && (
-        <section id="faq" className="py-10 sm:py-12">
+        <section id="faq" className="py-10 sm:py-12 scroll-mt-24">
           <div className="max-w-6xl mx-auto px-6">
             <div className="text-center mb-10">
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-600 mb-1.5">
@@ -5861,6 +6037,10 @@ export const AbroadCoursePage = ({
 
 
 
+
+      {/* INTERNAL LINKING — related courses */}
+
+      <RelatedStudyAbroadCourses seoPath={seoPath} country={inCountry} />
 
       {/* CTA */}
 

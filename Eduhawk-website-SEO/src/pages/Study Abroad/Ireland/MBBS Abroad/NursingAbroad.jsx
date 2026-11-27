@@ -193,17 +193,48 @@ const page = {
           ]
         },
         {
-          t: "p",
-          items: [
-            "| Expense Category | Annual Indicative Cost Range | Key Budgeting Notes |",
-            "| :--- | :--- | :--- |",
-            "| **Undergraduate Nursing Tuition** | €23,000 – €30,000 / year | E.g., UCC BSc Nursing approx. €24,400 / year (2026–2027) |",
-            "| **Postgraduate Nursing Tuition** | €16,000 – €26,000 / year | 1-year clinical specialty Master's program |",
-            "| **Student Living Expenses** | €10,000 – €15,000 / year | Covers accommodation, meals, transport, and utilities |",
-            "| **Clinical Uniforms & Equipment** | €400 – €700 (one-off) | HSE-standard nursing tunics, stethoscope, fob watch, shoes |",
-            "| **Occupational Health Screening** | €200 – €350 (one-off) | Blood titers, vaccinations, and physician sign-off |",
-            "| **Private Health Insurance** | €160 – €300 / year | Mandatory international medical insurance policy |",
-            "| **Irish Residence Permit (IRP)** | €300 registration fee | Paid at immigration appointment upon arrival |"
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Annual Indicative Cost Range",
+            "Key Budgeting Notes"
+          ],
+          rows: [
+            [
+              "**Undergraduate Nursing Tuition**",
+              "€23,000 – €30,000 / year",
+              "E.g., UCC BSc Nursing approx. €24,400 / year (2026–2027)"
+            ],
+            [
+              "**Postgraduate Nursing Tuition**",
+              "€16,000 – €26,000 / year",
+              "1-year clinical specialty Master's program"
+            ],
+            [
+              "**Student Living Expenses**",
+              "€10,000 – €15,000 / year",
+              "Covers accommodation, meals, transport, and utilities"
+            ],
+            [
+              "**Clinical Uniforms & Equipment**",
+              "€400 – €700 (one-off)",
+              "HSE-standard nursing tunics, stethoscope, fob watch, shoes"
+            ],
+            [
+              "**Occupational Health Screening**",
+              "€200 – €350 (one-off)",
+              "Blood titers, vaccinations, and physician sign-off"
+            ],
+            [
+              "**Private Health Insurance**",
+              "€160 – €300 / year",
+              "Mandatory international medical insurance policy"
+            ],
+            [
+              "**Irish Residence Permit (IRP)**",
+              "€300 registration fee",
+              "Paid at immigration appointment upon arrival"
+            ]
           ]
         },
         {

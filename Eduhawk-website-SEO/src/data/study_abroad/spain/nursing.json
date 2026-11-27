@@ -15,7 +15,7 @@
       "fee": "€1,500 – €8,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_nursing_Universidad_Aut_noma_de_Madrid-image1.png",
       "image": "/uploads/study_abroad/spain/spain_nursing_Universidad_Aut_noma_de_Madrid-image1.png",
-      "desc": "Offers a four-year Nursing degree for 240 ECTS credits. El programa se imparte en espa&ntilde;ol. For the academic year, the university's standard fee category charges a first enrollment fee of about €1,241, while non-EU students pay €8,186. Official program: Degree in Nursing"
+      "desc": "Offers a four-year Nursing degree for 240 ECTS credits taught in Spanish. Standard first-year enrollment fee is about €1,241, while non-EU students pay €8,186."
     },
     {
       "name": "University of Alicante",
@@ -98,51 +98,48 @@
       "lead": "Spanish universities offer undergraduate nursing degrees in Spain and postgraduate specializations in various healthcare fields. Indian students can explore the following Nursing courses in Spain, depending on their academic qualifications and career aspirations.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "CourseTypical durationPrimary focus"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Bachelor's Degree in Nursing4 yearsGeneral nursing and clinical practice"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master's in Nursing Science1–2 years, depending on the programAdvanced nursing knowledge and research"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Critical Care NursingVaries by programCare for critically ill patients"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Pediatric NursingVaries by programHealthcare for infants, children and adolescents"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Community Health NursingVaries by programCommunity health and disease prevention"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Geriatric NursingVaries by programCare for older adults"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public HealthVaries by programPopulation health, prevention and healthcare planning"
+          "t": "table",
+          "headers": [
+            "Course",
+            "Typical duration",
+            "Primary focus"
+          ],
+          "rows": [
+            [
+              "Bachelor's Degree in Nursing",
+              "4 years",
+              "General nursing and clinical practice"
+            ],
+            [
+              "Master's in Nursing Science",
+              "1–2 years, depending on the program",
+              "Advanced nursing knowledge and research"
+            ],
+            [
+              "Critical Care Nursing",
+              "Varies by program",
+              "Care for critically ill patients"
+            ],
+            [
+              "Pediatric Nursing",
+              "Varies by program",
+              "Healthcare for infants, children and adolescents"
+            ],
+            [
+              "Community Health Nursing",
+              "Varies by program",
+              "Community health and disease prevention"
+            ],
+            [
+              "Geriatric Nursing",
+              "Varies by program",
+              "Care for older adults"
+            ],
+            [
+              "Public Health",
+              "Varies by program",
+              "Population health, prevention and healthcare planning"
+            ]
           ]
         },
         {
@@ -166,7 +163,7 @@
           "fee": "€1,500 – €8,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_nursing_Universidad_Aut_noma_de_Madrid-image1.png",
           "image": "/uploads/study_abroad/spain/spain_nursing_Universidad_Aut_noma_de_Madrid-image1.png",
-          "desc": "Offers a four-year Nursing degree for 240 ECTS credits. El programa se imparte en espa&ntilde;ol. For the academic year, the university's standard fee category charges a first enrollment fee of about €1,241, while non-EU students pay €8,186. Official program: Degree in Nursing"
+          "desc": "Offers a four-year Nursing degree for 240 ECTS credits taught in Spanish. Standard first-year enrollment fee is about €1,241, while non-EU students pay €8,186."
         },
         {
           "name": "University of Alicante",
@@ -281,21 +278,23 @@
       "lead": "The price of studying Nursing in Spain depends on the university, the region and the student's category. Some public universities may charge non-EU students a lot more than EU or domestic fee categories. Indian applicants should not make a decision based on the lowest advertized public tuition only.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Type of universityIndicative annual tuitionApprox. in INR"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public university€1,000-€8,500₹1.09-₹9.23 lakh"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Private university€6,000-€15,000+₹6.52-₹16.29 lakh+"
+          "t": "table",
+          "headers": [
+            "Type of university",
+            "Indicative annual tuition",
+            "Approx. in INR"
+          ],
+          "rows": [
+            [
+              "Public university",
+              "€1,000 – €8,500",
+              "₹1.09 – ₹9.23 lakh"
+            ],
+            [
+              "Private university",
+              "€6,000 – €15,000+",
+              "₹6.52 – ₹16.29 lakh+"
+            ]
           ]
         },
         {
@@ -410,33 +409,30 @@
       "lead": "Graduates who have completed an appropriate qualification and meet the professional registration and language requirements may seek employment in hospitals, clinics, community health services and other health care settings. Indian students thinking of Nursing in Spain for Indian students should be aware that the career prospects vary according to the professional recognition, language skills and job requirements.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Career stageSample gross annual salary"
+          "t": "table",
+          "headers": [
+            "Career stage",
+            "Sample gross annual salary"
+          ],
+          "rows": [
+            [
+              "Entry-level nurse",
+              "€22,000 – €28,000"
+            ],
+            [
+              "Experienced nurse",
+              "€28,000 – €38,000"
+            ],
+            [
+              "Advanced or specialized roles",
+              "€35,000 – €45,000+"
+            ]
           ]
         },
         {
           "t": "p",
           "items": [
-            "Entry-level nurse€22,000–€28,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Experienced nurse€28,000–€38,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Advanced or specialized roles€35,000–€45,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are rough illustrative estimates, not verified salary statistics or guarantyd earnings. Your real salary depends on region, employer, your experience, shift allowances, collective agreements and specialization."
+            "These are rough illustrative estimates, not verified salary statistics or guaranteed earnings. Your real salary depends on region, employer, your experience, shift allowances, collective agreements and specialization."
           ]
         },
         {
@@ -516,7 +512,7 @@
       "a": "Tuition is highly variable. Public-university fees may be relatively affordable for some student categories, but fees for non-EU students can be higher. Private programs may be more costly. Always consult the official fee schedule for Indian applicants."
     },
     {
-      "q": "What is the difference between a financial advisor and a financial planner? Can I work in Spain after Nursing?",
+      "q": "Can I work in Spain after Nursing?",
       "a": "Graduates may explore nursing employment after gaining the relevant professional qualification, registration, language and immigration requirements. A degree does not guaranty a job or permission to work."
     },
     {

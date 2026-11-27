@@ -31,7 +31,7 @@ const page = {
   "stats": [
     {
       "label": "Degree Choices",
-      "value": "Undergraduate"
+      "value": "BSc & MSc Nursing"
     },
     {
       "label": "Course Duration",

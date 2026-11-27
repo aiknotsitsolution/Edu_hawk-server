@@ -11,27 +11,27 @@
   "universities": [
     {
       "name": "The Catholic University of Valencia",
-      "location": "Spain",
-      "fee": "€1,500 – €8,000 / Year",
+      "location": "Valencia, Spain",
+      "fee": "€12,780 / Year",
       "img": "/uploads/study_abroad/spain/spain_dentistry_The_Catholic_University_of_Valencia-image4.png",
       "image": "/uploads/study_abroad/spain/spain_dentistry_The_Catholic_University_of_Valencia-image4.png",
-      "desc": "Provides a 5-year Dentistry degree with 300 ECTS. The university lists Spanish, Valencian and English as languages of instruction; applicants should check the language mix for their cohort. Official Program: Degree in Dentistry"
+      "desc": "Private university in Valencia offering a 5-year Dentistry degree (300 ECTS) with Spanish and English-taught pathway options for international students."
     },
     {
       "name": "Universitat de Barcelona",
-      "location": "Spain",
-      "fee": "€1,500 – €8,000 / Year",
+      "location": "Barcelona, Spain",
+      "fee": "€1,500 – €5,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_dentistry_Universitat_de_Barcelona-image3.png",
       "image": "/uploads/study_abroad/spain/spain_dentistry_Universitat_de_Barcelona-image3.png",
-      "desc": "Offers a five-year Dentistry degree in Spain worth 300 ECTS. The published curriculum is taught mainly in Catalan, with Spanish and a little English also included, so it is important to check language expectations before applying. Official program: Degree in Dentistry"
+      "desc": "Leading public research university offering a 5-year Dentistry degree (300 ECTS) taught mainly in Catalan and Spanish with strong hospital clinical training."
     },
     {
       "name": "University of València",
-      "location": "Spain",
-      "fee": "€1,500 – €8,000 / Year",
+      "location": "Valencia, Spain",
+      "fee": "€1,500 – €5,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_dentistry_University_of_Val_ncia-image2.png",
       "image": "/uploads/study_abroad/spain/spain_dentistry_University_of_Val_ncia-image2.png",
-      "desc": "Provides a 5-year Dentistry degree with 300 ECTS. The university lists Spanish, Valencian and English as languages of instruction; applicants should check the language mix for their cohort. Official Program: Degree in Dentistry"
+      "desc": "Public university in Valencia offering a 5-year Grado en Odontología (300 ECTS) with modern dental clinics and instruction in Spanish, Valencian, and English."
     }
   ],
   "sections": [
@@ -86,39 +86,38 @@
       "lead": "We offer Dentistry courses in Spain at undergraduate and postgraduate levels. The title of the course and entry requirements differ from university to university.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "CourseTypical length of timePrimary focus"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Bachelor Degree in Dentistry5 yrsOral health diagnosis prevention treatment and clinical practice"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master of OrthodonticsTypically 1 to 3 yearsStraightening teeth and correcting bite problems."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master Degree in PeriodontologyVaries according to programPeriodontal Treatment and Gum Health"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master of Science in Oral Surgery & ImplantologyDepends on the programOral Surgery and Dental Implants"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Advanced Dental StudiesProgram dependentProfessional development and special clinical knowledge."
+          "t": "table",
+          "headers": [
+            "Course",
+            "Typical length of time",
+            "Primary focus"
+          ],
+          "rows": [
+            [
+              "Bachelor Degree in Dentistry",
+              "5 years (300 ECTS)",
+              "Oral health diagnosis, prevention, treatment and clinical practice"
+            ],
+            [
+              "Master of Orthodontics",
+              "Typically 1 to 3 years",
+              "Straightening teeth and correcting bite problems"
+            ],
+            [
+              "Master Degree in Periodontology",
+              "Varies according to program",
+              "Periodontal treatment and gum health"
+            ],
+            [
+              "Master of Science in Oral Surgery & Implantology",
+              "Depends on the program",
+              "Oral surgery and dental implants"
+            ],
+            [
+              "Advanced Dental Studies",
+              "Program dependent",
+              "Professional development and specialized clinical knowledge"
+            ]
           ]
         },
         {
@@ -138,27 +137,27 @@
       "unis": [
         {
           "name": "The Catholic University of Valencia",
-          "location": "Spain",
-          "fee": "€1,500 – €8,000 / Year",
+          "location": "Valencia, Spain",
+          "fee": "€12,780 / Year",
           "img": "/uploads/study_abroad/spain/spain_dentistry_The_Catholic_University_of_Valencia-image4.png",
           "image": "/uploads/study_abroad/spain/spain_dentistry_The_Catholic_University_of_Valencia-image4.png",
-          "desc": "Provides a 5-year Dentistry degree with 300 ECTS. The university lists Spanish, Valencian and English as languages of instruction; applicants should check the language mix for their cohort. Official Program: Degree in Dentistry"
+          "desc": "Private university in Valencia offering a 5-year Dentistry degree (300 ECTS) with Spanish and English-taught pathway options for international students."
         },
         {
           "name": "Universitat de Barcelona",
-          "location": "Spain",
-          "fee": "€1,500 – €8,000 / Year",
+          "location": "Barcelona, Spain",
+          "fee": "€1,500 – €5,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_dentistry_Universitat_de_Barcelona-image3.png",
           "image": "/uploads/study_abroad/spain/spain_dentistry_Universitat_de_Barcelona-image3.png",
-          "desc": "Offers a five-year Dentistry degree in Spain worth 300 ECTS. The published curriculum is taught mainly in Catalan, with Spanish and a little English also included, so it is important to check language expectations before applying. Official program: Degree in Dentistry"
+          "desc": "Leading public research university offering a 5-year Dentistry degree (300 ECTS) taught mainly in Catalan and Spanish with strong hospital clinical training."
         },
         {
           "name": "University of València",
-          "location": "Spain",
-          "fee": "€1,500 – €8,000 / Year",
+          "location": "Valencia, Spain",
+          "fee": "€1,500 – €5,000 / Year",
           "img": "/uploads/study_abroad/spain/spain_dentistry_University_of_Val_ncia-image2.png",
           "image": "/uploads/study_abroad/spain/spain_dentistry_University_of_Val_ncia-image2.png",
-          "desc": "Provides a 5-year Dentistry degree with 300 ECTS. The university lists Spanish, Valencian and English as languages of instruction; applicants should check the language mix for their cohort. Official Program: Degree in Dentistry"
+          "desc": "Public university in Valencia offering a 5-year Grado en Odontología (300 ECTS) with modern dental clinics and instruction in Spanish, Valencian, and English."
         }
       ]
     },
@@ -254,21 +253,23 @@
       "lead": "The cost of studying Dentistry in Spain can vary a lot between public and private schools. Fees at public universities may also vary for non-EU students, and private universities generally charge higher fees.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Type of universityFor instance, annual tuitionApprox. INR"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public university5,000₹1.09 to ₹5.43 lakhs"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Private University€12,000-€25,000+₹13.03-₹27.15 lakh+"
+          "t": "table",
+          "headers": [
+            "Type of university",
+            "Annual tuition (EUR)",
+            "Approx. INR"
+          ],
+          "rows": [
+            [
+              "Public university",
+              "€1,000 – €5,000",
+              "₹1.09 to ₹5.43 lakhs"
+            ],
+            [
+              "Private university",
+              "€12,000 – €25,000+",
+              "₹13.03 – ₹27.15 lakh+"
+            ]
           ]
         },
         {
@@ -280,7 +281,7 @@
         {
           "t": "p",
           "items": [
-            "INR conversions are at illustrative rate of €1 &asymp; ₹108.60. University fees & real exchange rates may differ."
+            "INR conversions are at an illustrative rate of €1 ≈ ₹108.60. University fees and real exchange rates may differ."
           ]
         },
         {
@@ -300,7 +301,7 @@
     {
       "slot": "admission",
       "eyebrow": "Application Journey",
-      "title": "How to Get Dental Care in Spain",
+      "title": "Admission Process for Dentistry in Spain",
       "lead": "",
       "groups": [
         {
@@ -344,7 +345,7 @@
         {
           "t": "p",
           "items": [
-            "University of Barcelona +Indian students check the following before enrollment:"
+            "Indian students should check the following before enrollment:"
           ]
         },
         {
@@ -365,7 +366,7 @@
         {
           "t": "p",
           "items": [
-            "NITI Aayog +2 Official Reference: Dental Council of India / National Dental Commission website"
+            "Official Reference: Dental Council of India / National Dental Commission website"
           ]
         }
       ]
@@ -377,33 +378,30 @@
       "lead": "Graduates, after completing an accredited Dentistry degree in Spain and satisfying the professional registration requirements, may pursue opportunities in dental clinics, hospitals, private practices, research and further specialization.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Stage in careerExample of gross annual salary"
+          "t": "table",
+          "headers": [
+            "Stage in career",
+            "Example of gross annual salary"
+          ],
+          "rows": [
+            [
+              "Junior dentist",
+              "€25,000 – €35,000"
+            ],
+            [
+              "Dentist (experienced)",
+              "€35,000 – €50,000"
+            ],
+            [
+              "Specialist or Established Practitioner",
+              "€50,000 – €80,000+"
+            ]
           ]
         },
         {
           "t": "p",
           "items": [
-            "Junior dentist€25,000–€35,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Dentist (experienced)€35,000-€50,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Specialist or Established Practitioner€50,000 - €80,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are large representative numbers, not audited salary figures or guarantyd income. Your earnings will depend on where you work, your experience, your employment arrangements, your specialization and whether you are a dentist in practice or an employee."
+            "These are large representative numbers, not audited salary figures or guaranteed income. Your earnings will depend on where you work, your experience, your employment arrangements, your specialization and whether you are a dentist in practice or an employee."
           ]
         },
         {
@@ -411,19 +409,14 @@
           "text": "Possible career paths include:"
         },
         {
-          "t": "p",
-          "items": [
-            "General Dentistry:"
-          ]
-        },
-        {
           "t": "ul",
           "items": [
+            "General dentistry practice.",
             "Orthodontics following suitable specialist training.",
             "Periodontology and dental implants.",
-            "Oral surgery, subject to the relevant training and professional requirements . \"",
+            "Oral surgery, subject to the relevant training and professional requirements.",
             "Academic and dental research.",
-            "Public health, dental"
+            "Public health dentistry."
           ]
         },
         {

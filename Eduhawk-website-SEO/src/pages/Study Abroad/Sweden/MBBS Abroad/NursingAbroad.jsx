@@ -28,7 +28,7 @@ const page = {
     "Explore top accredited institutions, tuition costs, eligibility, and visa procedures in Sweden for Nursing in Sweden."
   ],
   "level": "B.Sc. & M.Sc. in Nursing",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Nursing",
   "stats": [
     {
       "val": "SEK 80K-150K",
@@ -43,7 +43,7 @@ const page = {
       "label": "Course Duration"
     },
     {
-      "val": "English",
+      "val": "Swedish (UG) / English (PG)",
       "label": "Medium of Study"
     }
   ],

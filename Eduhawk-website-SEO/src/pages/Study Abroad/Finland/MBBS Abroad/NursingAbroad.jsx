@@ -20,14 +20,14 @@ const page = {
   keywords: "Study Nursing in Finland, Nursing in Finland for Indian Students, Universities in Finland, Cost of Studying in Finland",
   introTitle: "Nursing in Finland",
   heroParas: [
-    "If you are planning to **[Study Nursing in Finland](/courses/mbbs)**, the country offers internationally oriented nursing programmes, modern clinical training, and pathways towards working as a registered nurse. Finland has English-taught and bilingual nursing programmes designed to combine theoretical education with practical healthcare experience."
+    "If you are planning to **[Study Nursing in Finland](/study-abroad/finland/nursing)**, the country offers internationally oriented nursing programmes, modern clinical training, and pathways towards working as a registered nurse. Finland has English-taught and bilingual nursing programmes designed to combine theoretical education with practical healthcare experience."
   ],
   overview: [
     "For Indian students, **studying nursing in Finland** can provide exposure to a modern European healthcare system, simulation-based learning, and multicultural clinical environments. However, applicants should carefully understand tuition fees, Finnish language requirements, eligibility criteria, and professional licensing before choosing a programme.",
     "**[Edu-Hawk Worldwide](/services)** helps students explore international education opportunities and understand the university selection, admission, and study-abroad planning process."
   ],
   level: "Undergraduate",
-  crumb: "MBBS Abroad",
+  crumb: "Healthcare & Nursing",
 
   stats: [
     { label: "Degree Awarded", value: "Bachelor of Health Care (Nursing)" },
@@ -45,7 +45,7 @@ const page = {
         {
           t: "p",
           items: [
-            "**[Study Nursing in Finland](/courses/mbbs)** to gain professional healthcare education in a modern European healthcare environment. Finnish nursing programmes combine theoretical learning with simulation, practical skills, and extensive clinical placements.",
+            "**[Study Nursing in Finland](/study-abroad/finland/nursing)** to gain professional healthcare education in a modern European healthcare environment. Finnish nursing programmes combine theoretical learning with simulation, practical skills, and extensive clinical placements.",
             "For Indian students, **Nursing in Finland for Indian Students** can be an attractive option because several universities of applied sciences offer programmes with English-language instruction alongside Finnish-language development. This provides exposure to a modern European healthcare system, simulation-based learning, and multicultural clinical environments.",
             "**Laurea University of Applied Sciences**, for example, includes **90 ECTS of clinical placements** in its Bachelor of Nursing programme and prepares students for registered nursing practice. With **[Edu-Hawk Worldwide](/services)**, students can explore nursing education opportunities abroad and understand the important steps involved in planning their international education journey.",
             "**Benefits of Studying Nursing in Finland**"

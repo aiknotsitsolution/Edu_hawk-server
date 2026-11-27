@@ -4,14 +4,14 @@
     "subtitle": "Students interested in studying dentistry come to Ireland. Irish dental schools blend classroom education, clinical training and patient care."
   },
   "overview": [
-    "2. University College Cork (UCC) - The five-year Bachelor of Dental Surgery (BDS) The program is offered.3. RCSI University of Medicine and Health Sciences - The BDS program has been introduced.",
-    "4. The University of Galway provides chances for biomedical research and health studies, however students should confirm whether any particular dental qualifications are offered."
+    "Students interested in studying dentistry come to Ireland for its blend of classroom education, simulation-based training, and supervised clinical patient care.",
+    "Undergraduate Bachelor of Dental Surgery (BDS) programmes at leading Irish dental schools typically run for five years, with graduate-entry and specialist postgraduate options also available."
   ],
   "universities": [
     {
       "name": "RCSI University of Medicine and Health Sciences",
       "location": "Ireland",
-      "fee": "€16,000 – €35,000 / Year",
+      "fee": "€50,000 – €60,000 / Year",
       "img": "/uploads/study_abroad/ireland/ireland_dentistry_RCSI_University_of_Medicine_and_Health_Sciences-image3.png",
       "image": "/uploads/study_abroad/ireland/ireland_dentistry_RCSI_University_of_Medicine_and_Health_Sciences-image3.png",
       "desc": "RCSI University of Medicine and Health Sciences is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
@@ -19,7 +19,7 @@
     {
       "name": "The University of Galway",
       "location": "Ireland",
-      "fee": "€16,000 – €35,000 / Year",
+      "fee": "€50,000 – €60,000 / Year",
       "img": "/uploads/study_abroad/ireland/ireland_dentistry_The_University_of_Galway-image4.png",
       "image": "/uploads/study_abroad/ireland/ireland_dentistry_The_University_of_Galway-image4.png",
       "desc": "The University of Galway is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
@@ -27,7 +27,7 @@
     {
       "name": "Trinity College Dublin",
       "location": "Ireland",
-      "fee": "€16,000 – €35,000 / Year",
+      "fee": "€50,000 – €60,000 / Year",
       "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
       "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
       "desc": "Trinity College Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
@@ -35,7 +35,7 @@
     {
       "name": "University College Cork",
       "location": "Ireland",
-      "fee": "€16,000 – €35,000 / Year",
+      "fee": "€50,000 – €60,000 / Year",
       "img": "/uploads/study_abroad/ireland/ireland_dentistry_University_College_Cork-image2.png",
       "image": "/uploads/study_abroad/ireland/ireland_dentistry_University_College_Cork-image2.png",
       "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
@@ -45,13 +45,16 @@
     {
       "slot": "programs",
       "eyebrow": "Academic Pathways",
-      "title": "Trinity College Dublin (TCD) - A five-year undergraduate program in dental science is offered.",
-      "lead": "2. University College Cork (UCC) - The five-year Bachelor of Dental Surgery (BDS) The program is offered.3. RCSI University of Medicine and Health Sciences - The BDS program has been introduced.",
+      "title": "Dentistry Universities & Courses in Ireland",
+      "lead": "Irish universities offer five-year undergraduate dental programmes as well as graduate-entry and postgraduate pathways:",
       "groups": [
         {
-          "t": "p",
+          "t": "ul",
           "items": [
-            "4. The University of Galway provides chances for biomedical research and health studies, however students should confirm whether any particular dental qualifications are offered."
+            "Trinity College Dublin (TCD) — Offers a five-year undergraduate programme in Dental Science.",
+            "University College Cork (UCC) — Offers a five-year Bachelor of Dental Surgery (BDS) programme.",
+            "RCSI University of Medicine and Health Sciences — Offers an accredited BDS programme.",
+            "The University of Galway — Provides opportunities for biomedical research and health studies; students should confirm whether any particular dental qualifications are offered."
           ]
         }
       ]
@@ -166,14 +169,14 @@
     {
       "slot": "universities",
       "eyebrow": "Top Irish Universities",
-      "title": "Admission process for Dental School in Ireland",
-      "lead": "",
+      "title": "Top Universities for Dentistry in Ireland",
+      "lead": "Explore leading accredited universities in Ireland offering Dental Science and BDS programmes with clinical hospital training.",
       "groups": [],
       "unis": [
         {
           "name": "RCSI University of Medicine and Health Sciences",
           "location": "Ireland",
-          "fee": "€16,000 – €35,000 / Year",
+          "fee": "€50,000 – €60,000 / Year",
           "img": "/uploads/study_abroad/ireland/ireland_dentistry_RCSI_University_of_Medicine_and_Health_Sciences-image3.png",
           "image": "/uploads/study_abroad/ireland/ireland_dentistry_RCSI_University_of_Medicine_and_Health_Sciences-image3.png",
           "desc": "RCSI University of Medicine and Health Sciences is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
@@ -181,7 +184,7 @@
         {
           "name": "The University of Galway",
           "location": "Ireland",
-          "fee": "€16,000 – €35,000 / Year",
+          "fee": "€50,000 – €60,000 / Year",
           "img": "/uploads/study_abroad/ireland/ireland_dentistry_The_University_of_Galway-image4.png",
           "image": "/uploads/study_abroad/ireland/ireland_dentistry_The_University_of_Galway-image4.png",
           "desc": "The University of Galway is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
@@ -189,7 +192,7 @@
         {
           "name": "Trinity College Dublin",
           "location": "Ireland",
-          "fee": "€16,000 – €35,000 / Year",
+          "fee": "€50,000 – €60,000 / Year",
           "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
           "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
           "desc": "Trinity College Dublin is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
@@ -197,7 +200,7 @@
         {
           "name": "University College Cork",
           "location": "Ireland",
-          "fee": "€16,000 – €35,000 / Year",
+          "fee": "€50,000 – €60,000 / Year",
           "img": "/uploads/study_abroad/ireland/ireland_dentistry_University_College_Cork-image2.png",
           "image": "/uploads/study_abroad/ireland/ireland_dentistry_University_College_Cork-image2.png",
           "desc": "University College Cork is one of Ireland's premier accredited institutions offering European degrees, high-impact clinical and technology labs, and strong international student support."
@@ -228,7 +231,7 @@
         {
           "t": "p",
           "items": [
-            "The Council of Ireland for Dentistry regulates the profession of dentistry. According to the RCSI BDS program brochures, registration and certification of graduates are contingent on them meeting the dental requirements of the program. Prospective students are advised to check the latest official position before enrolling in the dental course."
+            "The Dental Council of Ireland regulates the profession of dentistry. According to the RCSI BDS program brochures, registration and certification of graduates are contingent on them meeting the dental requirements of the program. Prospective students are advised to check the latest official position before enrolling in the dental course."
           ]
         },
         {
@@ -363,8 +366,8 @@
     }
   ],
   "seo": {
-    "title": "Why study Dentistry in Ireland? | Edu-Hawk Worldwide",
-    "description": "2. University College Cork (UCC) - The five-year Bachelor of Dental Surgery (BDS) The program is offered.3. RCSI University of Medicine and Health Sciences - Th",
-    "keywords": "Study in Ireland, Top Irish Universities, Edu Hawk Worldwide"
+    "title": "Study Dentistry in Ireland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Dentistry in Ireland: 5-year BDS / Dental Science programmes at TCD, UCC, and RCSI, eligibility, tuition fees, admission process, and Dental Council of Ireland registration.",
+    "keywords": "Study Dentistry in Ireland, Top Irish Universities, Dentistry in Ireland for Indian Students, Edu-Hawk Worldwide"
   }
 }

@@ -34,7 +34,7 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG) / 3 to 4 Years (UG)"
+      "value": "5 Years (300 ECTS)"
     },
     {
       "label": "Top Institutions",
