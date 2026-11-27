@@ -193,17 +193,48 @@ const page = {
           ]
         },
         {
-          t: "p",
-          items: [
-            "| Expense Category | Annual Indicative Cost Range | Key Budgeting Notes |",
-            "| :--- | :--- | :--- |",
-            "| **Undergraduate MPharm Tuition** | €20,000 – €28,000 / year | Non-EU international tuition rate (Years 1 to 4) |",
-            "| **MPharm 5th Year Tuition** | €16,000 – €24,000 | Professional master's year with 8-month paid placement |",
-            "| **BSc Pharmaceutical Science Tuition** | €16,000 – €24,000 / year | 4-year non-clinical scientific degree |",
-            "| **Living Expenses (Dublin)** | €12,000 – €16,000 / year | University accommodation, meals, transit, and utilities |",
-            "| **Living Expenses (Cork)** | €9,500 – €13,000 / year | Regional campus living offering reduced accommodation costs |",
-            "| **Private Health Insurance** | €160 – €300 / year | Mandatory international student medical insurance |",
-            "| **Irish Residence Permit (IRP)** | €300 registration fee | Mandatory immigration registration fee upon arrival |"
+          t: "table",
+          headers: [
+            "Expense Category",
+            "Annual Indicative Cost Range",
+            "Key Budgeting Notes"
+          ],
+          rows: [
+            [
+              "**Undergraduate MPharm Tuition**",
+              "€20,000 – €28,000 / year",
+              "Non-EU international tuition rate (Years 1 to 4)"
+            ],
+            [
+              "**MPharm 5th Year Tuition**",
+              "€16,000 – €24,000",
+              "Professional master's year with 8-month paid placement"
+            ],
+            [
+              "**BSc Pharmaceutical Science Tuition**",
+              "€16,000 – €24,000 / year",
+              "4-year non-clinical scientific degree"
+            ],
+            [
+              "**Living Expenses (Dublin)**",
+              "€12,000 – €16,000 / year",
+              "University accommodation, meals, transit, and utilities"
+            ],
+            [
+              "**Living Expenses (Cork)**",
+              "€9,500 – €13,000 / year",
+              "Regional campus living offering reduced accommodation costs"
+            ],
+            [
+              "**Private Health Insurance**",
+              "€160 – €300 / year",
+              "Mandatory international student medical insurance"
+            ],
+            [
+              "**Irish Residence Permit (IRP)**",
+              "€300 registration fee",
+              "Mandatory immigration registration fee upon arrival"
+            ]
           ]
         },
         {

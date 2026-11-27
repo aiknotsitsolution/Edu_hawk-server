@@ -158,7 +158,7 @@ const page = {
           name: "ETH Zurich",
           location: "Zurich | Wissenschaft & Forschung",
           fee: "CHF 1,000 \u2013 CHF 4,000 / Year",
-          desc: "Web site official. Important: These institutions provide different types of study and research opportunities and are not all interchangeable routes to a pharmacy qualification. Check the official course catalog and the university's admission office before you apply.",
+          desc: "Offers specialized pharmaceutical sciences and research tracks in Zurich; applicants should verify exact pharmacy degree pathways and federal licensing eligibility on the official university portal.",
           img: uniImg3
         }
       ],
@@ -252,7 +252,7 @@ const page = {
     {
       slot: "fees",
       eyebrow: "Tuition & Living Costs",
-      title: "Charges in pharmacies in Switzerland",
+      title: "Pharmacy Tuition & Living Costs in Switzerland",
       groups: [
         {
                 "t": "p",
@@ -385,7 +385,7 @@ const page = {
         {
                 "t": "p",
                 "items": [
-                        "Potential earnings vary depending on role, experience, location, employer and professional registration. These are broad illustrative ranges for planning annual gross salary, and are not verified current salary averages or guarantyd offers."
+                        "Potential earnings vary depending on role, experience, location, employer and professional registration. These are broad illustrative ranges for planning annual gross salary, and are not verified current salary averages or guaranteed offers."
                 ]
         },
         {
@@ -481,7 +481,7 @@ const page = {
         "a": "Recognition does not come by itself. Students who wish to practice in India should check the status of their specific qualification with the Pharmacy Council of India and the relevant State Pharmacy Council before registering."
     }
 ],
-  faqTitle: "11. Frequently Asked Questions"
+  faqTitle: "Frequently Asked Questions About Pharmacy in Switzerland"
 };
 
 export default function PharmacyAbroadSwitzerland() {

@@ -27,7 +27,7 @@ const page = {
     "Edu Hawk worldwide study abroad guidance helps students to explore these opportunities and understand the requirements involved in pursuing education overseas."
   ],
   "level": "Master of Pharmacy (MPharm)",
-  "crumb": "Healthcare / Pharmacy",
+  "crumb": "Healthcare & Pharmacy",
   "stats": [
     {
       "label": "Degree Choices",
@@ -35,7 +35,7 @@ const page = {
     },
     {
       "label": "Course Duration",
-      "value": "1 to 2 Years (PG)"
+      "value": "4 Years (MPharm) / 1 to 2 Years (MSc)"
     },
     {
       "label": "Top Institutions",

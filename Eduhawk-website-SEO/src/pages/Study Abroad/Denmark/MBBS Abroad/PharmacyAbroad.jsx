@@ -28,14 +28,14 @@ const page = {
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Pharmacy."
   ],
   "level": "B.Pharm & M.Pharm",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Pharmacy",
   "stats": [
     {
       "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "English",
+      "val": "Danish (BSc) / English (MSc)",
       "label": "Medium of Study"
     },
     {

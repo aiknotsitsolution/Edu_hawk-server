@@ -28,7 +28,7 @@ const page = {
     "The Pharmacy Council of Mauritius regulates the pharmacy profession, including pharmacist registration, approved training and professional standards. Its guidance is especially important for students planning to work in Mauritius after graduation. **Edu-Hawk Worldwide** encourages students to verify course recognition and professional requirements before making an admission decision."
   ],
   "level": "B.Pharm & M.Pharm",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Pharmacy",
   "stats": [
     {
       "val": "MUR 150K-350K",
@@ -39,7 +39,7 @@ const page = {
       "label": "Medium of Study"
     },
     {
-      "val": "3-4 Years",
+      "val": "4 Years (BPharm)",
       "label": "Course Duration"
     },
     {

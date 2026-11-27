@@ -60,7 +60,7 @@
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
             "Single-Cycle Degree in Pharmacy"
           ]
@@ -72,99 +72,19 @@
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Programme feature"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+          "t": "table",
+          "headers": [
+            "Programme feature",
             "Typical information"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Degree"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Single-cycle Master's degree in Pharmacy"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Duration"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Generally 5 years"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Credits"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Commonly 300 ECTS"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Study format"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Full-time"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Teaching language"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Italian or English, depending on the programme"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Subjects"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Pharmaceutical sciences, chemistry, pharmacology and medicines"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Admission"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "University-specific selection requirements"
+          ],
+          "rows": [
+            ["Degree", "Single-cycle Master's degree in Pharmacy"],
+            ["Duration", "Generally 5 years"],
+            ["Credits", "Commonly 300 ECTS"],
+            ["Study format", "Full-time"],
+            ["Teaching language", "Italian or English, depending on the programme"],
+            ["Subjects", "Pharmaceutical sciences, chemistry, pharmacology and medicines"],
+            ["Admission", "University-specific selection requirements"]
           ]
         },
         {
@@ -223,9 +143,9 @@
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
-            "3. Pharmacy Universities in Italy"
+            "Pharmacy Universities in Italy"
           ]
         },
         {
@@ -385,7 +305,7 @@
       "slot": "universities",
       "eyebrow": "Top Italian Universities",
       "title": "Top Universities in Italy",
-      "lead": "Explore top public research universities and polytechnics in Italy offering English-taught degrees, historic campuses, and generous regional scholarships.",
+      "lead": "Explore leading Italian public universities offering single-cycle Pharmacy (Laurea Magistrale in Farmacia) and Pharmaceutical Sciences programmes.",
       "unis": [
         {
           "name": "Sapienza University of Rome",
@@ -395,13 +315,13 @@
         },
         {
           "name": "University of Bologna - Rimini Campus",
-          "location": "Bologna, Italy",
+          "location": "Rimini / Bologna, Italy",
           "fee": "€1,000 – €3,500 / Year",
           "image": "/uploads/study_abroad/italy/pharmacy_University_of_Bologna_-_Rimini_Campus-image1.png"
         },
         {
           "name": "University of Milan",
-          "location": "Italy",
+          "location": "Milan, Italy",
           "fee": "€1,000 – €4,000 / Year",
           "image": "/uploads/study_abroad/italy/pharmacy_University_of_Milan-image3.png"
         }
@@ -409,8 +329,8 @@
       "groups": []
     },
     {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
+      "slot": "admission-requirements",
+      "eyebrow": "Admission Requirements",
       "title": "Admission Requirements",
       "groups": [
         {
@@ -495,7 +415,7 @@
           ]
         },
         {
-          "t": "p",
+          "t": "h3",
           "items": [
             "Estimated Tuition in Indian Rupees"
           ]
@@ -503,103 +423,23 @@
         {
           "t": "p",
           "items": [
-            "The following examples use an illustrative exchange rate of €1 = ₹108.60 . Actual exchange rates and bank charges may vary."
+            "The following examples use an illustrative exchange rate of €1 = ₹108.60. Actual exchange rates and bank charges may vary."
           ]
         },
         {
-          "t": "p",
-          "items": [
-            "Example annual tuition"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
+          "t": "table",
+          "headers": [
+            "Example annual tuition",
             "Approximate cost in INR"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€900"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹97,740"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€1,500"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹1,62,900"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€2,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹2,17,200"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€3,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹3,25,800"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€4,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹4,34,400"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€6,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹6,51,600"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "€10,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "₹10,86,000"
+          ],
+          "rows": [
+            ["€900", "₹97,740"],
+            ["€1,500", "₹1,62,900"],
+            ["€2,000", "₹2,17,200"],
+            ["€3,000", "₹3,25,800"],
+            ["€4,000", "₹4,34,400"],
+            ["€6,000", "₹6,51,600"],
+            ["€10,000", "₹10,86,000"]
           ]
         },
         {
@@ -660,7 +500,7 @@
             "Prepare documents: Organise your passport, academic certificates, transcripts and language evidence.",
             "Submit the application: Follow the official university portal and meet the published deadline.",
             "Complete selection requirements: Take the required examination or follow the university's selection instructions.",
-            "Complete pre-enrolment: Follow the applicable procedures for international students, including Universality where required.",
+            "Complete pre-enrolment: Follow the applicable procedures for international students, including Universitaly where required.",
             "Arrange your visa: Review the current instructions of the competent Italian consulate.",
             "Plan your arrival: Arrange accommodation, insurance and any remaining enrolment requirements."
           ]
@@ -699,7 +539,7 @@
         {
           "t": "p",
           "items": [
-            "The Italian Ministry of Health also offers a formal recognition mechanism for pharmacy qualifications gained outside of the EU. This approach may necessitate special documents and may not always guaranty recognition."
+            "The Italian Ministry of Health also offers a formal recognition mechanism for pharmacy qualifications gained outside of the EU. This approach may necessitate special documents and may not always guarantee recognition."
           ]
         },
         {
@@ -768,7 +608,7 @@
         {
           "t": "p",
           "items": [
-            "Career options are determined by the degree, practical experience, language skills, location, and professional needs. A pharmacy degree does not guaranty employment, pay, or authorization to practice in Italy or another nation."
+            "Career options are determined by the degree, practical experience, language skills, location, and professional needs. A pharmacy degree does not guarantee employment, pay, or authorization to practice in Italy or another nation."
           ]
         }
       ]

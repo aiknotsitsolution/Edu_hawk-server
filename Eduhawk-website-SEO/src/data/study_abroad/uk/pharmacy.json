@@ -112,15 +112,15 @@
         {
           "t": "p",
           "items": [
-            "The Bachelor of Pharmacy (BPharm) is the primary professional qualification for students who wish to qualify as pharmacists in Great Britain."
+            "The Master of Pharmacy (MPharm) is the primary professional qualification for students who wish to qualify as pharmacists in Great Britain."
           ]
         },
         {
           "t": "ul",
           "items": [
-            "Bachelor of Pharmacy (MPharm)",
-            "BPharm with Foundation Year",
-            "Pharma Science",
+            "Master of Pharmacy (MPharm)",
+            "MPharm with Foundation Year",
+            "Pharmaceutical Science",
             "Pharmacology",
             "Medicinal Chemistry",
             "Pharmaceutical and Cosmetic Science"
@@ -129,7 +129,7 @@
         {
           "t": "p",
           "items": [
-            "The availability and duration of courses differ between universities. A degree in pharmaceutical science and pharmacology is not automatically equivalent to an accredited"
+            "The availability and duration of courses differ between universities. A degree in pharmaceutical science and pharmacology is not automatically equivalent to an accredited MPharm degree for pharmacist registration."
           ]
         },
         {
@@ -151,7 +151,8 @@
             "MSc Pharmaceutical Science",
             "MSc Pharmacology",
             "Drug Discovery and Development (MSc)",
-            "MSc Pharmaceutical Technology MSc Drug Development",
+            "MSc Pharmaceutical Technology",
+            "MSc Drug Development",
             "MPhil in Pharmaceutical Sciences",
             "PhD in Pharmacy or Pharmaceutical Sciences"
           ]
