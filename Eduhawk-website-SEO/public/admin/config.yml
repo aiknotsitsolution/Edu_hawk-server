@@ -51,6 +51,13 @@ collections:
             fields:
               - { label: "Value (e.g. 1000+)", name: "n", widget: "string" }
               - { label: "Label (e.g. Students Placed Globally)", name: "l", widget: "string" }
+          - label: "About Section"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Section Tag", name: "tag", widget: "string" }
+              - { label: "Section Title", name: "title", widget: "string" }
+              - { label: "About Image", name: "image", widget: "image", required: false }
           - label: "MBBS Country Packages & Options"
             name: "mbbsOptions"
             widget: "list"
@@ -98,31 +105,27 @@ collections:
             name: "welcome"
             widget: "object"
             fields:
-              - { label: "Top Badge", name: "badge", widget: "string" }
+              - { label: "Top Badge", name: "tag", widget: "string" }
               - { label: "Main Heading", name: "title", widget: "string" }
-              - { label: "Subtitle", name: "subtitle", widget: "string" }
               - { label: "Welcome Section Image", name: "image", widget: "image", required: false }
-              - { label: "Paragraph 1 (Before Link)", name: "p1_before", widget: "text" }
-              - { label: "Paragraph 1 (Link Text)", name: "p1_link_text", widget: "string" }
-              - { label: "Paragraph 2", name: "p2", widget: "text" }
-              - { label: "Paragraph 3", name: "p3", widget: "text" }
               - { label: "Button Text", name: "ctaText", widget: "string" }
-              - { label: "Quote", name: "quote", widget: "string" }
+              - { label: "Phone", name: "phone", widget: "string" }
           - label: "Call-to-Action Banner"
-            name: "banner"
+            name: "finalCta"
             widget: "object"
             fields:
+              - { label: "Tag Badge", name: "tag", widget: "string" }
               - { label: "Banner Title", name: "title", widget: "string" }
-              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Body Text", name: "body", widget: "text" }
+              - { label: "Subtext", name: "subtext", widget: "string" }
+              - { label: "Primary CTA", name: "primaryCta", widget: "string" }
+              - { label: "Secondary CTA", name: "secondaryCta", widget: "string" }
               - { label: "Banner Background Image", name: "backgroundImage", widget: "image", required: false }
-              - { label: "Button Text", name: "ctaText", widget: "string" }
-              - { label: "WhatsApp Phone Number", name: "whatsappPhone", widget: "string" }
           - label: "FAQ Section"
             name: "faq"
             widget: "object"
             fields:
               - { label: "FAQ Title", name: "title", widget: "string" }
-              - { label: "FAQ Subtitle", name: "subtitle", widget: "string" }
               - { label: "Sidebar Tagline", name: "sidebarHeading", widget: "text" }
               - { label: "Sidebar Illustration Image", name: "sidebarImage", widget: "image", required: false }
               - label: "Questions & Answers"
@@ -150,6 +153,7 @@ collections:
             fields:
               - { label: "Heading", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Hero Image", name: "image", widget: "image", required: false }
               - { label: "Button CTA Text", name: "ctaText", widget: "string" }
           - label: "Key Statistics"
             name: "stats"
@@ -182,6 +186,7 @@ collections:
             fields:
               - { label: "Heading", name: "title", widget: "string" }
               - { label: "Subtitle", name: "subtitle", widget: "text" }
+              - { label: "Hero Image", name: "image", widget: "image", required: false }
           - label: "Contact Info"
             name: "contactInfo"
             widget: "object"

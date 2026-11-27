@@ -55,7 +55,7 @@ export default function About() {
 
   const heroSlides = (aboutData.heroSlides || []).map((slide, idx) => ({
     ...slide,
-    image: HERO_IMAGES[idx % HERO_IMAGES.length],
+    image: slide.image || HERO_IMAGES[idx % HERO_IMAGES.length],
   }));
 
   const downloadPDF = () => {
@@ -261,7 +261,7 @@ export default function About() {
               <div className="lg:col-span-5 relative">
                 <div className="relative rounded-3xl overflow-hidden shadow-2xl bg-slate-100">
                   <img
-                    src={AboutImage}
+                    src={aboutData?.welcome?.image || AboutImage}
                     loading="lazy"
                     width={600}
                     height={600}
@@ -371,7 +371,7 @@ export default function About() {
         <section
           className="relative py-20 md:py-24 px-5 sm:px-8 lg:px-12 bg-cover bg-center text-center text-white"
           style={{
-            backgroundImage: `url(${FixedBanner})`,
+            backgroundImage: `url(${aboutData?.finalCta?.backgroundImage || FixedBanner})`,
           }}
         >
           <div className="absolute inset-0 bg-gradient-to-r from-[#071d38]/90 via-[#0a2b52]/85 to-[#0c3666]/90" />
@@ -473,7 +473,7 @@ export default function About() {
                 <div className="w-full lg:w-2/5 flex flex-col items-center lg:items-start gap-6">
                   <div className="rounded-3xl overflow-hidden shadow-xl bg-slate-200">
                     <img
-                      src={imageAbout2}
+                      src={aboutData?.faq?.sidebarImage || imageAbout2}
                       loading="lazy"
                       width={612}
                       height={408}
@@ -482,7 +482,7 @@ export default function About() {
                     />
                   </div>
                   <h3 className="text-xl md:text-2xl font-serif font-bold tracking-tight text-[#0a2342] text-center lg:text-left whitespace-pre-line leading-snug">
-                    Where Dreams Take Flight:{"\n"}Global Education Done Right
+                    {aboutData?.faq?.sidebarHeading || "Where Dreams Take Flight:\nGlobal Education Done Right"}
                   </h3>
                 </div>
               </div>

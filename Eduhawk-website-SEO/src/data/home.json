@@ -3,6 +3,36 @@
     "title": "Study Abroad Consultants | Edu-Hawk Worldwide",
     "description": "Edu-Hawk Worldwide offers expert study abroad counselling, university selection, admissions, visa and pre-departure support for MBBS, engineering, MBA and more."
   },
+  "heroSlides": [
+    {
+      "id": 1,
+      "title": "Your Future Has No Borders.",
+      "subtitle": "Explore international universities, discover courses that match your ambitions, and take the next step towards a global career with expert guidance from Edu-Hawk Worldwide.",
+      "cta": "Explore Study Destinations",
+      "image": "/uploads/home/study-abroad-hero-1.webp"
+    },
+    {
+      "id": 2,
+      "title": "Learn Globally. Grow Beyond Limits.",
+      "subtitle": "Explore international universities, discover courses that match your ambitions, and take the next step towards a global career with expert guidance from Edu-Hawk Worldwide.",
+      "cta": "Get Free Counselling",
+      "image": "/uploads/home/study-abroad-hero-2.webp"
+    },
+    {
+      "id": 3,
+      "title": "Find Your Course. Choose Your Country. Shape Your Future.",
+      "subtitle": "Explore international universities, discover courses that match your ambitions, and take the next step towards a global career with expert guidance from Edu-Hawk Worldwide.",
+      "cta": "Explore Study Destinations",
+      "image": "/uploads/home/study-abroad-hero-3.webp"
+    },
+    {
+      "id": 4,
+      "title": "Your Dream University Starts With the Right Guidance.",
+      "subtitle": "Explore international universities, discover courses that match your ambitions, and take the next step towards a global career with expert guidance from Edu-Hawk Worldwide.",
+      "cta": "Get Free Counselling",
+      "image": "/uploads/home/study-abroad-hero-4.webp"
+    }
+  ],
   "hero": {
     "tag": "STUDY ABROAD",
     "mainHeading": "Study Abroad Consultants for MBBS, Engineering, MBA & More",
@@ -43,6 +73,7 @@
   "about": {
     "tag": "WHO WE ARE",
     "title": "Your Trusted Partner for Global Education",
+    "image": "/uploads/home/study-abroad-about.webp",
     "paragraphs": [
       "Edu-Hawk Worldwide helps students explore international education opportunities and make informed decisions about their academic and career futures.",
       "We believe every student deserves the opportunity to access quality education, explore new cultures, and build a career without borders. Our experienced counselors provide personalized guidance based on your academic profile, interests, career goals, budget, and preferred destination.",
