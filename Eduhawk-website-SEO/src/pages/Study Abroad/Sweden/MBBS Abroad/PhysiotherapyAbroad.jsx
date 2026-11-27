@@ -477,7 +477,6 @@ const page = {
       "fee": "SEK 90,000 \u2013 160,000 / Year",
       "desc": "The University of Southern Sweden offers health-related education and research. Students interested in pursuing rehabilitation research, sports science or related postgraduate study should check the requirements of individual programs rather than assuming that a professional physiotherapy degree is available in English.",
       "image": uniImg1, "img": uniImg1
-    },
     }
   ],
   "faqs": [

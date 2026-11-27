@@ -29,14 +29,14 @@ const page = {
     "Explore top accredited Danish universities, tuition costs, eligibility, and visa procedures for Physiotherapy."
   ],
   "level": "BPT / Physiotherapy",
-  "crumb": "MBBS Abroad",
+  "crumb": "Healthcare & Physiotherapy",
   "stats": [
     {
       "val": "DKK 60K-130K",
       "label": "Tuition / Year"
     },
     {
-      "val": "English",
+      "val": "Danish (BSc) / English (MSc)",
       "label": "Medium of Study"
     },
     {

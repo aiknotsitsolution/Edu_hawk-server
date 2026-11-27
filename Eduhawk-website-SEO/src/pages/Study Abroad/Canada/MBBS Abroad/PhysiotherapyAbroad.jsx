@@ -41,7 +41,7 @@ const page = {
     },
     {
       "label": "Top Institutions",
-      "value": "Manitoba University, the West London, Dalhousie in Halifax"
+      "value": "University of Manitoba, Western University, Dalhousie University, University of Alberta"
     },
     {
       "label": "Medium of Study",

@@ -43,7 +43,7 @@ const PhysiotherapyAbroad = () => {
     ? physiotherapyData.stats.map((s) => ({ label: s.l, value: s.n }))
     : [
         { label: "Programs", value: "DPT, Pre-PT pathways, MSc & research options" },
-        { label: "Countries", value: "USA, UK, Canada, Australia, Ireland & more" },
+        { label: "Country", value: "United States (USA)" },
         { label: "Support", value: "Complete guidance from profile to arrival" },
         { label: "Approach", value: "Transparent fees, honest counselling & career focus" },
       ];
@@ -564,7 +564,7 @@ const PhysiotherapyAbroad = () => {
                 <span className="mx-1.5">›</span> Physiotherapy
               </div>
               <div className="text-xs font-semibold tracking-wider uppercase text-blue-300 mb-3">
-                Study Physiotherapy · Abroad
+                Study Physiotherapy · USA
               </div>
               <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Study{" "}
@@ -618,7 +618,7 @@ const PhysiotherapyAbroad = () => {
               At a glance
             </div>
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900">
-              Physiotherapy Abroad at a glance
+              Physiotherapy in the USA at a glance
             </h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">

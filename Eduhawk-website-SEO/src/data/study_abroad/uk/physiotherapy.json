@@ -52,7 +52,7 @@
         {
           "t": "p",
           "items": [
-            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey.."
+            "Edu Hawk worldwide consultancy assists students in exploring international study options, comprehending university admission standards, and getting ready for the overseas education journey."
           ]
         },
         {
@@ -75,7 +75,7 @@
         {
           "t": "p",
           "items": [
-            "Students can make well-informed decisions regarding their dental education and future career with the right preparation and direction."
+            "Students can make well-informed decisions regarding their physiotherapy education and future career with the right preparation and direction."
           ]
         }
       ]
@@ -374,17 +374,21 @@
       "lead": "The university, course length, location, and way of life all affect how much studying physiotherapy will cost.",
       "groups": [
         {
-          "t": "p",
+          "t": "h3",
           "items": [
             "A. Estimated Cost of Tuition"
           ]
         },
         {
-          "t": "ul",
-          "items": [
-            "Physiotherapy undergraduate degree | £18,000–£32,000 |",
-            "Postgraduate degree in rehabilitation or physiotherapy | £18,000–£35,000 |",
-            "Physiotherapy or rehabilitation research degree | £18,000–£35,000 or more |"
+          "t": "table",
+          "headers": [
+            "Programme Level",
+            "Indicative Annual Tuition"
+          ],
+          "rows": [
+            ["Physiotherapy undergraduate degree", "£18,000–£32,000"],
+            ["Postgraduate degree in rehabilitation or physiotherapy", "£18,000–£35,000"],
+            ["Physiotherapy or rehabilitation research degree", "£18,000–£35,000 or more"]
           ]
         },
         {

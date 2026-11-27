@@ -1,93 +1,15 @@
 {
   "hero": {
-    "title": "1\\. Why Study Physiotherapy in Finland?",
-    "subtitle": "Pursue high-standard Physiotherapy education in Finland, focusing on physical functional capacity, neurological rehabilitation, and health technology. Benefit from innovative clinical simulation environments and progressive Nordic healthcare methodologies."
+    "title": "Physiotherapy in Finland",
+    "subtitle": "Study Physiotherapy in Finland to gain comprehensive rehabilitation and clinical movement-science training in a modern European healthcare system."
   },
   "overview": [
-    "Studying Physiotherapy in Finland can be an excellent option for international students looking for a modern, practical and internationally oriented healthcare education. Finland is known for its strong higher education system, advanced healthcare infrastructure and emphasis on practical learning.",
-    "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships."
+    "For Indian students interested in Physiotherapy abroad, Finland offers structured Bachelor of Health Care (Physiotherapy) programmes at leading Universities of Applied Sciences, combining anatomy, biomechanics, and supervised clinical placements.",
+    "Edu-Hawk Worldwide assists students in exploring Physiotherapy in Finland, understanding language and admission requirements, and planning their study-abroad journey."
   ],
-  "universities": [
-    {
-      "name": "Aalto University",
-      "location": "Espoo, Greater Helsinki, Finland",
-      "fee": "€12,000 – €15,000 / Year",
-      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-      "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
-    },
-    {
-      "name": "University of Helsinki",
-      "location": "Helsinki, Finland",
-      "fee": "€13,000 – €18,000 / Year",
-      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-      "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
-    },
-    {
-      "name": "University of Oulu",
-      "location": "Oulu, Finland",
-      "fee": "€10,000 – €13,000 / Year",
-      "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-      "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-      "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
-    },
-    {
-      "name": "Tampere University",
-      "location": "Tampere, Finland",
-      "fee": "€10,000 – €12,000 / Year",
-      "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-      "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-      "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
-    }
-  ],
-  "sections": [
-    {
-      "slot": "universities",
-      "eyebrow": "Top Finnish Universities",
-      "title": "Top Universities to Consider in Finland",
-      "lead": "Explore world-class Finnish research universities and universities of applied sciences (UAS) offering English-taught degrees, high innovation ranking, and generous scholarships.",
-      "unis": [
-        {
-          "name": "Aalto University",
-          "location": "Espoo, Greater Helsinki, Finland",
-          "fee": "€12,000 – €15,000 / Year",
-          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-          "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
-        },
-        {
-          "name": "University of Helsinki",
-          "location": "Helsinki, Finland",
-          "fee": "€13,000 – €18,000 / Year",
-          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-          "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
-        },
-        {
-          "name": "University of Oulu",
-          "location": "Oulu, Finland",
-          "fee": "€10,000 – €13,000 / Year",
-          "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-          "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
-          "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
-        },
-        {
-          "name": "Tampere University",
-          "location": "Tampere, Finland",
-          "fee": "€10,000 – €12,000 / Year",
-          "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-          "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
-          "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
-        }
-      ],
-      "groups": []
-    }
-  ],
-  "faqs": [],
   "seo": {
-    "title": "1\\. Why Study Physiotherapy in Finland? | Edu-Hawk Worldwide",
-    "description": "Studying Physiotherapy in Finland can be an excellent option for international students looking for a modern, practical and internationally oriented healthcare ",
-    "keywords": "Study in Finland, Top Universities in Finland, Edu Hawk Worldwide"
+    "title": "Physiotherapy in Finland for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Physiotherapy in Finland: Bachelor of Health Care (Physiotherapy), top UAS universities (Metropolia UAS, JAMK UAS), clinical placements, fees, and Valvira licensing.",
+    "keywords": "Study Physiotherapy in Finland, Physiotherapy in Finland for Indian Students, Metropolia UAS Physiotherapy, JAMK UAS Physiotherapy"
   }
 }

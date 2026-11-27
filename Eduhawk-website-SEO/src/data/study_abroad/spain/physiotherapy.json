@@ -1,334 +1,58 @@
 {
+  "seo": {
+    "title": "Physiotherapy in Spain for Indian Students | Edu-Hawk Worldwide",
+    "description": "Study Physiotherapy in Spain (Grado en Fisioterapia): 4-year 240 ECTS degree, top universities (Complutense Madrid, Alcalá, UCAM), tuition fees, eligibility, and clinical training.",
+    "keywords": "Study Physiotherapy in Spain, Physiotherapy in Spain for Indian Students, Grado en Fisioterapia, Best Physiotherapy Universities in Spain"
+  },
   "hero": {
-    "title": "Pharmacy in Spain for Indian Students",
-    "subtitle": "Pharmacy in Spain for Indian Students is a chance to earn a European healthcare degree, pharmaceutical laboratory experience, and learn about career options in community pharmacy, hospitals, pharmaceutical companies, research, and drug development. Spain is an attractive destination for students who wish to pursue an international career in pharmaceutical sciences and at the same time experience European education and healthcare systems."
+    "title": "Physiotherapy in Spain for Indian Students",
+    "subtitle": "Study Physiotherapy in Spain (Grado en Fisioterapia) to earn a 4-year, 240 ECTS European rehabilitation degree combining biomechanics, musculoskeletal therapy, and supervised hospital clinical placements."
   },
   "overview": [
-    "Choosing to study Pharmacy in Spain provides Indian students with international academic exposure while gaining knowledge regarding medicines, healthcare, pharmaceutical research and drug development. The country offers structured academic programs which include both theoretical education and practical laboratory experience.",
-    "The Spanish pharmacy profession is subject to regulation. Students who intend to practise as a pharmacist should choose an officially accredited qualifying degree and be aware of the relevant requirements for professional registration."
+    "Physiotherapy in Spain for Indian students offers a structured European healthcare education focused on human movement, musculoskeletal rehabilitation, neurorehabilitation, sports therapy, and patient recovery.",
+    "In Spain, the standard undergraduate physiotherapy qualification is the Grado en Fisioterapia, which typically spans 4 years (240 ECTS credits) and integrates academic coursework with extensive supervised clinical practice.",
+    "Edu-Hawk Worldwide helps Indian students compare Spanish universities, verify language and academic eligibility, prepare documents, and plan their student visa application."
   ],
   "universities": [
     {
-      "name": "UCAM - Catholic University of Murcia",
-      "location": "Spain",
-      "fee": "€1,500 – €8,000 / Year",
-      "img": "/uploads/study_abroad/spain/spain_physiotherapy_UCAM_-_Catholic_University_of_Murcia-image2.png",
-      "image": "/uploads/study_abroad/spain/spain_physiotherapy_UCAM_-_Catholic_University_of_Murcia-image2.png",
-      "desc": "Pharmacy. Complutense University of Madrid. 5 years. 300 ECTS credits. Laboratory-based education and supervised practical placements. Admission rules published by the university detail Spanish-language proficiency requirements for applicants from non-Spanish speaking education systems. It is an option worth considering for students interested in pharmaceutical sciences and professional Pharmacy education. Official Website: Information about the Pharmacy degree."
-    },
-    {
       "name": "University Complutense of Madrid",
-      "location": "Spain",
-      "fee": "€1,500 – €8,000 / Year",
+      "location": "Madrid, Spain",
+      "fee": "€1,500 – €6,500 / Year",
       "img": "/uploads/study_abroad/spain/spain_physiotherapy_University_Complutense_of_Madrid-image1.png",
       "image": "/uploads/study_abroad/spain/spain_physiotherapy_University_Complutense_of_Madrid-image1.png",
-      "desc": "Pharmacy. Complutense University of Madrid. 5 years. 300 ECTS credits. Laboratory-based education and supervised practical placements. Admission rules published by the university detail Spanish-language proficiency requirements for applicants from non-Spanish speaking education systems. It is an option worth considering for students interested in pharmaceutical sciences and professional Pharmacy education. Official Website: Information about the Pharmacy degree."
+      "desc": "Leading Spanish public university offering a 4-year Grado en Fisioterapia (240 ECTS) with extensive hospital clinical placements in Madrid."
     },
     {
-      "name": "University of Alcala",
-      "location": "Spain",
-      "fee": "€1,500 – €8,000 / Year",
+      "name": "University of Alcalá",
+      "location": "Alcalá de Henares, Spain",
+      "fee": "€1,500 – €6,000 / Year",
       "img": "/uploads/study_abroad/spain/spain_physiotherapy_University_of_Alcala-image3.png",
       "image": "/uploads/study_abroad/spain/spain_physiotherapy_University_of_Alcala-image3.png",
-      "desc": "Pharmacy. Complutense University of Madrid. 5 years. 300 ECTS credits. Laboratory-based education and supervised practical placements. Admission rules published by the university detail Spanish-language proficiency requirements for applicants from non-Spanish speaking education systems. It is an option worth considering for students interested in pharmaceutical sciences and professional Pharmacy education. Official Website: Information about the Pharmacy degree."
+      "desc": "Historic public university near Madrid offering a 4-year Physiotherapy degree with strong emphasis on manual therapy, rehabilitation labs, and clinical rotations."
+    },
+    {
+      "name": "UCAM - Catholic University of Murcia",
+      "location": "Murcia, Spain",
+      "fee": "€6,000 – €12,000 / Year",
+      "img": "/uploads/study_abroad/spain/spain_physiotherapy_UCAM_-_Catholic_University_of_Murcia-image2.png",
+      "image": "/uploads/study_abroad/spain/spain_physiotherapy_UCAM_-_Catholic_University_of_Murcia-image2.png",
+      "desc": "Private university in Murcia known for sports science and Physiotherapy programmes with modern rehabilitation clinics and international student support."
     }
   ],
   "sections": [
     {
       "slot": "why-study",
       "eyebrow": "Why Spain",
-      "title": "Why Study Pharmacy in Spain?",
-      "lead": "Choosing to study Pharmacy in Spain provides Indian students with international academic exposure while gaining knowledge regarding medicines, healthcare, pharmaceutical research and drug development. The country offers structured academic programs which include both theoretical education and practical laboratory experience.",
+      "title": "Why Study Physiotherapy in Spain?",
+      "lead": "Spain combines European higher-education standards with practical clinical training in rehabilitation hospitals, sports clinics, and community healthcare.",
       "groups": [
-        {
-          "t": "h4",
-          "text": "Key advantages of studying Pharmacy in Spain are:"
-        },
         {
           "t": "ul",
           "items": [
-            "European Education: Enrich your academic experience through a university qualification within Spain's higher education system and international exposure.",
-            "Hands-On Laboratory Training: Study pharmaceutical chemistry, drug formulation, pharmacology and the quality of medicines.",
-            "Five Year Degree Route: The normal Pharmacy degree tends to consist of five academic years and 300 ECTS credits.",
-            "Exposure to Clinical and Community Pharmacy: Most programs have supervised practical placements.",
-            "Career Diversity: Investigate community pharmacy, hospital pharmacy, pharmaceutical manufacturing, research, and regulatory affairs.",
-            "Research Opportunities: Learn knowledge that can be applied to drug discovery, biotechnology, and pharmaceutical development.",
-            "Higher Education: Postgraduate courses in clinical research, pharmacology, biotechnology or pharmaceutical sciences."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The Spanish pharmacy profession is subject to regulation. Students who intend to practise as a pharmacist should choose an officially accredited qualifying degree and be aware of the relevant requirements for professional registration."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "overview",
-      "eyebrow": "Course Overview",
-      "title": "Pharmacy Studies in Spain",
-      "lead": "Students interested in Pharmacy in Spain for Indian Students can choose from undergraduate Pharmacy degrees and postgraduate programs in specialized pharmaceutical areas.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "CourseAverage DurationCore Topics"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Bachelor of Pharmacy5 yearsMedicines, pharmaceutical sciences, patient care and pharmacy practice"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "M. Pharm.1-2 yearsHigher studies in pharmacy"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master's in PharmacologyVaries by programHow drugs act, their safety and therapeutic effects"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Masters in Clinical ResearchVaries by programClinical trials, evaluation of medicine"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Biotechnology, MastersVaries by programBiological research and pharmaceutical innovation"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Master's in Drug DevelopmentVaries by programProcesses of drug discovery, formulation and development"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The usual path for students who want to become pharmacists is to study for a five-year undergraduate degree. Students should be aware that the standard Spanish professional Pharmacy qualification is called Grado en Farmacia, not assuming it follows the same degree structure as Indian BPharm programs."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some postgraduate programs take graduates from related scientific disciplines, others require a Pharmacy degree or relevant experience ."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "universities",
-      "eyebrow": "Top Spanish Universities",
-      "title": "Best Pharmacy Schools in Spain",
-      "lead": "Several recognized Spanish institutions offer Pharmacy degree programs, offering scientific education, laboratory training, and practical learning opportunities. Students looking for Pharmacy Universities in Spain can find out about their course content, tuition fees, language of instruction, entrance requirements and opportunities for practical training.",
-      "groups": [],
-      "unis": [
-        {
-          "name": "UCAM - Catholic University of Murcia",
-          "location": "Spain",
-          "fee": "€1,500 – €8,000 / Year",
-          "img": "/uploads/study_abroad/spain/spain_physiotherapy_UCAM_-_Catholic_University_of_Murcia-image2.png",
-          "image": "/uploads/study_abroad/spain/spain_physiotherapy_UCAM_-_Catholic_University_of_Murcia-image2.png",
-          "desc": "Pharmacy. Complutense University of Madrid. 5 years. 300 ECTS credits. Laboratory-based education and supervised practical placements. Admission rules published by the university detail Spanish-language proficiency requirements for applicants from non-Spanish speaking education systems. It is an option worth considering for students interested in pharmaceutical sciences and professional Pharmacy education. Official Website: Information about the Pharmacy degree."
-        },
-        {
-          "name": "University Complutense of Madrid",
-          "location": "Spain",
-          "fee": "€1,500 – €8,000 / Year",
-          "img": "/uploads/study_abroad/spain/spain_physiotherapy_University_Complutense_of_Madrid-image1.png",
-          "image": "/uploads/study_abroad/spain/spain_physiotherapy_University_Complutense_of_Madrid-image1.png",
-          "desc": "Pharmacy. Complutense University of Madrid. 5 years. 300 ECTS credits. Laboratory-based education and supervised practical placements. Admission rules published by the university detail Spanish-language proficiency requirements for applicants from non-Spanish speaking education systems. It is an option worth considering for students interested in pharmaceutical sciences and professional Pharmacy education. Official Website: Information about the Pharmacy degree."
-        },
-        {
-          "name": "University of Alcala",
-          "location": "Spain",
-          "fee": "€1,500 – €8,000 / Year",
-          "img": "/uploads/study_abroad/spain/spain_physiotherapy_University_of_Alcala-image3.png",
-          "image": "/uploads/study_abroad/spain/spain_physiotherapy_University_of_Alcala-image3.png",
-          "desc": "Pharmacy. Complutense University of Madrid. 5 years. 300 ECTS credits. Laboratory-based education and supervised practical placements. Admission rules published by the university detail Spanish-language proficiency requirements for applicants from non-Spanish speaking education systems. It is an option worth considering for students interested in pharmaceutical sciences and professional Pharmacy education. Official Website: Information about the Pharmacy degree."
-        }
-      ]
-    },
-    {
-      "slot": "eligibility",
-      "eyebrow": "Admission Criteria",
-      "title": "Pharmacy Study Eligibility in Spain",
-      "lead": "Students who are planning Pharmacy in Spain for Indian Students generally need to fulfilll the academic prerequisites for entry into a Spanish undergraduate degree.",
-      "groups": [
-        {
-          "t": "h4",
-          "text": "Typical eligibility factors include:"
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Class 12 Qualification: Having completed secondary education equivalent to the Spanish university-entry qualification.",
-            "Science Background: Physics, Chemistry, Biology and Mathematics may be appropriate depending on the university and the admission route.",
-            "Academic Score: Admission is based on the academic score and the selection process of the institution.",
-            "Credential Recognition: Indian school credentials may need to be evaluated for equivalency or go through other university entrance requirements.",
-            "Entry requirements: Some routes are subject to recognized entrance examinations or further assessments.",
-            "Language Skills: Spanish is frequently a requirement and the university may have a minimum level of language proficiency.",
-            "Documents: Must submit academic transcripts, passport and supporting certificates as requested."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "There's no one entrance requirement or admission percentage that's good for all Spanish universities. Students should check the exact criteria for the institution they wish to apply to before starting the application process."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Application Journey",
-      "title": "Pharmacy Admission Requirements in Spain",
-      "lead": "Admission includes the submission of academic documents and meeting the entry requirements of the university. Indian students are advised to prepare their documents in advance to avoid any delays.",
-      "groups": [
-        {
-          "t": "h4",
-          "text": "The following documents may be requested by Universities:"
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Class 10 and Class 12 Certificate and Mark Sheet.",
-            "Passport.",
-            "Academic equivalency or credential recognition documents, where required.",
-            "Results of university entrance examinations, if any.",
-            "Spanish language proficiency certificate, if applicable.",
-            "Completed university application form.",
-            "Certified translations and apostille or legalization where required.",
-            "Passport size photographs.",
-            "Other university academic documents required."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Some universities may also ask you to attend an interview or to provide further information about your education background. Always use the official University Admissions Checklist."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "tuition",
-      "eyebrow": "Tuition & Living Costs",
-      "title": "Pharmacy Fees Spain",
-      "lead": "Indian students preparing their international education budget should be aware of Pharmacy Fees in Spain. The total cost will depend on whether you attend a public or private university, your student-fee category and the university's tuition policy.",
-      "groups": [
-        {
-          "t": "p",
-          "items": [
-            "Type of UniversityIllustrative Annual TuitionApproximate INR"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Public University€ 1,000-€ 8,500₹ 1.09 lakh – ₹ 9.23 lakh"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Private University€6,000-€15,000+₹6.52-₹16.29 lakh+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are illustrative planning estimates, not confirmed fees for every institution. For instance, the published Pharmacy brochure from UCAM shows a fee of €9,000/year, while public-university fees may vary widely depending on the type of student."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Conversions from INR use an illustrative exchange rate of €1 &asymp; ₹108.60. Actual exchange rates and tuition charges may vary."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Extra Costs for Indian Students"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Besides tuition, students should budget for:"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Charges for hostel and accommodation.",
-            "Food and living expenses.",
-            "Local transport.",
-            "Medical Insurance.",
-            "Student visa processing.",
-            "laboratory and study materials.",
-            "University administration fees."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "There may be scholarships and financial aid available, but the eligibility, amount of funding, and deadlines will vary depending on the university and the individual program. Students should ask the colleges they want to attend about the scholarships available."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "admission",
-      "eyebrow": "Application Journey",
-      "title": "Process of Pharmacy Admission in Spain",
-      "lead": "Students wishing to study Pharmacy in Spain should go through a proper admission procedure to choose the right university and apply successfully.",
-      "groups": [
-        {
-          "t": "steps",
-          "items": [
-            {
-              "step": 1,
-              "title": "Choose a University",
-              "desc": "Compare the curriculum, tuition fees, language of instruction, practical training and admission criteria of your preferred universities."
-            },
-            {
-              "step": 2,
-              "title": "Confirm Academic Eligibility",
-              "desc": "Find out how your Indian Class 12 qualification is assessed and whether you'll need to sit an entrance exam or if the credential will be recognized."
-            },
-            {
-              "step": 3,
-              "title": "Fulfilll Language Requirements",
-              "desc": "Consider the required level of Spanish proficiency and if lectures, assessments and practical placements are run in additional languages."
-            },
-            {
-              "step": 4,
-              "title": "Apply",
-              "desc": "Submit the required academic records, passport, language evidence and other supporting documents to the university by the application deadline."
-            },
-            {
-              "step": 5,
-              "title": "Obtain Your Student Visa",
-              "desc": "Once admitted, check current Spanish student visa requirements and arrange insurance, accommodation and travel."
-            }
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Edu-Hawk Worldwide assists hopeful international students with choosing universities, planning admissions, handling documentation, and navigating the broader study abroad process."
+            "4-Year 240 ECTS Degree: Structured Grado en Fisioterapia curriculum aligned with European healthcare standards.",
+            "Supervised Clinical Placements: Hands-on training in musculoskeletal, neurological, cardiorespiratory, and sports rehabilitation.",
+            "Postgraduate Specialisations: Master's pathways in sports physiotherapy, manual therapy, neurological rehabilitation, and osteopathy.",
+            "Affordable Public Tuition: Public universities offer comparatively lower tuition than many private European institutions."
           ]
         }
       ]
@@ -336,52 +60,89 @@
     {
       "slot": "programs",
       "eyebrow": "Academic Pathways",
-      "title": "Pharmacy Degree Validation and Certification in Spain",
-      "lead": "The Grado en Farmacia in Spain is a professional qualifying university degree. The standard program consists of 300 ECTS credits and has practical training.",
+      "title": "Physiotherapy Courses in Spain",
+      "lead": "Spanish universities offer undergraduate and postgraduate physiotherapy programmes tailored to clinical practice and rehabilitation research.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Indian students should verify the following before applying:"
+          "t": "table",
+          "headers": ["Course", "Average Duration", "Core Focus"],
+          "rows": [
+            ["Grado en Fisioterapia (BSc Physiotherapy)", "4 years (240 ECTS)", "Anatomy, biomechanics, therapeutic exercise, and clinical placements"],
+            ["Master's in Sports Physiotherapy", "1 – 2 years", "Athletic injury prevention, recovery, and sports rehabilitation"],
+            ["Master's in Neurological Rehabilitation", "1 – 2 years", "Stroke, spinal cord, and neuromuscular recovery"],
+            ["Master's in Manual & Musculoskeletal Therapy", "1 – 2 years", "Orthopedic assessment and hands-on manual techniques"]
           ]
+        }
+      ]
+    },
+    {
+      "slot": "universities",
+      "eyebrow": "Top Spanish Universities",
+      "title": "Best Physiotherapy Universities in Spain",
+      "lead": "Explore leading public and private universities in Spain offering accredited Physiotherapy degrees.",
+      "groups": [],
+      "unis": [
+        {
+          "name": "University Complutense of Madrid",
+          "location": "Madrid, Spain",
+          "fee": "€1,500 – €6,500 / Year",
+          "img": "/uploads/study_abroad/spain/spain_physiotherapy_University_Complutense_of_Madrid-image1.png",
+          "image": "/uploads/study_abroad/spain/spain_physiotherapy_University_Complutense_of_Madrid-image1.png",
+          "desc": "Leading Spanish public university offering a 4-year Grado en Fisioterapia (240 ECTS) with extensive hospital clinical placements in Madrid."
         },
+        {
+          "name": "University of Alcalá",
+          "location": "Alcalá de Henares, Spain",
+          "fee": "€1,500 – €6,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_physiotherapy_University_of_Alcala-image3.png",
+          "image": "/uploads/study_abroad/spain/spain_physiotherapy_University_of_Alcala-image3.png",
+          "desc": "Historic public university near Madrid offering a 4-year Physiotherapy degree with strong emphasis on manual therapy, rehabilitation labs, and clinical rotations."
+        },
+        {
+          "name": "UCAM - Catholic University of Murcia",
+          "location": "Murcia, Spain",
+          "fee": "€6,000 – €12,000 / Year",
+          "img": "/uploads/study_abroad/spain/spain_physiotherapy_UCAM_-_Catholic_University_of_Murcia-image2.png",
+          "image": "/uploads/study_abroad/spain/spain_physiotherapy_UCAM_-_Catholic_University_of_Murcia-image2.png",
+          "desc": "Private university in Murcia known for sports science and Physiotherapy programmes with modern rehabilitation clinics and international student support."
+        }
+      ]
+    },
+    {
+      "slot": "eligibility",
+      "eyebrow": "Admission Criteria",
+      "title": "Eligibility for Physiotherapy in Spain",
+      "lead": "Indian students must satisfy academic, science-subject, credential-recognition, and language requirements.",
+      "groups": [
         {
           "t": "ul",
           "items": [
-            "That the university and the specific program are officially recognized.",
-            "That the course meets the applicable educational requirements for the practice of pharmacy in Spain.",
-            "That laboratory and practical placements are required are included.",
-            "That the qualification may be assessed under the rules of the country where the graduate intends to practice."
+            "Completion of Class 12 (or equivalent) with Biology and Chemistry.",
+            "Academic credential homologation / UNEDasiss assessment where required by Spanish public universities.",
+            "Spanish language proficiency (B2 level or equivalent) for Spanish-taught clinical programmes, or English proof where an English track is offered.",
+            "Valid passport and complete academic transcripts."
+          ]
+        }
+      ]
+    },
+    {
+      "slot": "tuition",
+      "eyebrow": "Tuition & Living Costs",
+      "title": "Physiotherapy Fees in Spain",
+      "lead": "Tuition fees depend on whether you attend a public or private university and your student-fee category.",
+      "groups": [
+        {
+          "t": "table",
+          "headers": ["Type of University", "Illustrative Annual Tuition", "Approximate INR (€1 ≈ ₹108.60)"],
+          "rows": [
+            ["Public University", "€1,500 – €6,500", "₹1.63 lakh – ₹7.06 lakh"],
+            ["Private University", "€6,000 – €12,000+", "₹6.52 lakh – ₹13.03 lakh+"]
           ]
         },
         {
           "t": "p",
           "items": [
-            "Approval of a Spanish Pharmacy Degree in India"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "For students planning to return to India, a Spanish Pharmacy degree does not automatically guaranty registration as a pharmacist in India."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Please verify the latest requirements of the Pharmacy Council of India for foreign pharmacy qualifications before admission. This includes any recognition, examination and registration conditions that may apply."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Official Reference : Pharmacy Council of India."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "It is important to understand the international degree recognition while planning Pharmacy in Spain for Indian Students, especially if you are planning to build a professional career in India after your graduation."
+            "Students should also budget for accommodation, food, transport, health insurance, and visa charges."
           ]
         }
       ]
@@ -389,96 +150,22 @@
     {
       "slot": "careers",
       "eyebrow": "Career Opportunities",
-      "title": "Pharmacy in Spain Salary and Job Prospects After",
-      "lead": "Upon achieving the relevant qualification and meeting the requirements for professional registration, graduates can seek employment in healthcare, pharmaceutical manufacturing, research and associated industries.",
+      "title": "Salary and Job Prospects After Physiotherapy in Spain",
+      "lead": "Graduates who complete an accredited degree and meet professional registration and language requirements can pursue careers in hospitals, rehabilitation centres, and sports clinics.",
       "groups": [
         {
-          "t": "p",
-          "items": [
-            "Career StageExample Gross Annual Salary"
+          "t": "table",
+          "headers": ["Career Stage", "Indicative Gross Annual Salary"],
+          "rows": [
+            ["Entry-Level Physiotherapist", "€20,000 – €26,000"],
+            ["Experienced Physiotherapist", "€26,000 – €36,000"],
+            ["Specialist / Sports Clinic Lead", "€36,000 – €50,000+"]
           ]
         },
         {
           "t": "p",
           "items": [
-            "Junior Pharmacy Positions€22,000–€30,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Seasoned Pharmacist or Pharmaceutical Professional€30,000-€45,000"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Senior, specialist or industry roles€45,000-€65,000+"
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "These are illustrative, high-level estimates, not verified salary statistics or guarantyd earnings. Your actual income will depend on your employer, location, professional registration, experience, specialization and type of work."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "Possible Careers"
-          ]
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Community pharmacist: Help patients with medication use and dispensing.",
-            "Hospital Pharmacist: Take part in medicine management and the healthcare team.",
-            "Pharmaceutical Industry: Employment in production, quality assurance or quality control.",
-            "Clinical Research Support clinical trials and medicine development.",
-            "Regulatory Affairs: Support in the management of medicine approvals and compliance.",
-            "Pharmacovigilance: Monitor and assess the safety of medicines.",
-            "Research and Academia: Get into pharmaceutical science, drug discovery or further study."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "To work as a registered pharmacist you require the relevant professional authorization. Other positions in the pharmaceutical industry may have different requirements."
-          ]
-        }
-      ]
-    },
-    {
-      "slot": "documents",
-      "eyebrow": "Documentation Checklist",
-      "title": "Documents to study Pharmacy in Spain",
-      "lead": "Students applying for university programs should prepare academic, identification and supporting documents according to the university and the visa route chosen.",
-      "groups": [
-        {
-          "t": "h4",
-          "text": "Common checklist for documents:"
-        },
-        {
-          "t": "ul",
-          "items": [
-            "Class 10 certificate & Mark sheet.",
-            "12th certificate and mark sheet.",
-            "Passport valid.",
-            "Academic equivalency or credential recognition documents, if applicable.",
-            "Results of entrance examinations, if applicable.",
-            "Spanish language proficiency certificate, if necessary.",
-            "Filled out university application form.",
-            "Passport size photos.",
-            "Certified translations and legalized or apostilled papers, if necessary.",
-            "University admission letter.",
-            "Proof of financial means and accommodation, if required for the visa.",
-            "Health insurance and other required visa documents."
-          ]
-        },
-        {
-          "t": "p",
-          "items": [
-            "The final checklist is dependent on the university, the admission pathway and the immigration requirements. Students should verify all requirements before submitting documents or paying any application fees."
+            "These are illustrative planning ranges, not guaranteed salaries. Actual earnings depend on region, employer, clinical experience, and professional registration."
           ]
         }
       ]
@@ -486,37 +173,24 @@
   ],
   "faqs": [
     {
-      "q": "How long is the Pharmacy degree in Spain?",
-      "a": "In Spain, the usual undergraduate degree in Pharmacy is five years of study (300 ECTS credits). The program includes pharmaceutical sciences, laboratory training and practical placements."
+      "q": "How long is the Physiotherapy degree in Spain?",
+      "a": "In Spain, the undergraduate Grado en Fisioterapia typically takes 4 years (240 ECTS credits) including supervised clinical placements."
     },
     {
-      "q": "Can Indian students study Pharmacy in Spain in the English language?",
-      "a": "Although some programs may offer English-language components, many Pharmacy degrees in Spain are primarily taught in Spanish or a regional language. Students should check the language of instruction for the full degree, exams and practical placements before applying."
+      "q": "Can Indian students study Physiotherapy in Spain?",
+      "a": "Yes, Indian students with Class 12 science subjects can apply if they meet academic, credential evaluation, and language requirements."
     },
     {
-      "q": "Pharmacy Fee in Spain for Indian Students?",
-      "a": "Tuition varies by institution and student type. As a very rough planning estimate, public universities may charge €1,000-€8,500 annually. Private universities may charge €6,000-€15,000 or more. Students should confirm the current fees directly with their chosen university."
+      "q": "Are Physiotherapy courses in Spain taught in English?",
+      "a": "Most undergraduate physiotherapy programmes are taught primarily in Spanish because clinical placements involve direct patient care, though select private universities offer bilingual or English-supported tracks."
     },
     {
-      "q": "After completing Pharmacy in Spain, can I work in India?",
-      "a": "Indian students must meet first the applicable Indian requirements of recognition of foreign pharmacy qualifications and professional registration. 2. A Pharmacy degree from Spain does not entitle one to practice pharmacy in India."
+      "q": "What are the tuition fees for Physiotherapy in Spain?",
+      "a": "Public universities typically charge around €1,500 to €6,500 per year for non-EU students, while private universities generally range from €6,000 to €12,000+ per year."
     },
     {
-      "q": "Do I need to give NEET to study Pharmacy in Spain?",
-      "a": "Do not assume that all NEET is required or all NEET is not required. Check the Spanish university's entry criteria and the latest Indian regulations relevant to your intended qualification and future professional registration."
-    },
-    {
-      "q": "What universities in Spain offer Pharmacy courses?",
-      "a": "Examples of universities offering Pharmacy degree programs are Complutense University of Madrid, the University of Alcal&aacute; and the Catholic University of Murcia (UCAM). Before selecting a university, students should look at the structure of the courses, the tuition fees, language requirements, and practical training."
-    },
-    {
-      "q": "What is the best way to learn? Is Spain a good option for Indian students to study Pharmacy?",
-      "a": "Studying Pharmacy in Spain can provide international academic exposure, practical pharmaceutical education and opportunities to explore different healthcare and pharmaceutical career pathways. &raquo; Students should also consider tuition, Spanish-language proficiency, professional recognition and future career plans before applying."
+      "q": "Can I practice in India after studying Physiotherapy in Spain?",
+      "a": "Not automatically. Graduates must verify foreign qualification recognition and registration rules with the relevant Indian healthcare/physiotherapy regulatory authorities before enrolling."
     }
-  ],
-  "seo": {
-    "title": "Pharmacy in Spain for Indian Students | Edu-Hawk Worldwide",
-    "description": "Choosing to study Pharmacy in Spain provides Indian students with international academic exposure while gaining knowledge regarding medicines, healthcare, pharm",
-    "keywords": "Pharmacy in Spain for Indian Students, Study Pharmacy in Spain, Pharmacy Universities in Spain, Pharmacy Study Eligibility in Spain, Pharmacy Admission Requirements in Spain, Pharmacy Fees in Spain, Edu-Hawk Worldwide"
-  }
+  ]
 }

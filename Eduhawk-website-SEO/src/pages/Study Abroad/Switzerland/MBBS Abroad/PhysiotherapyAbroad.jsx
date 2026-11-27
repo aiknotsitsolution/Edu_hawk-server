@@ -54,7 +54,7 @@ const page = {
     {
       slot: "why",
       eyebrow: "Why Switzerland",
-      title: "Why to Study Physiotherapy in Switzerland?",
+      title: "Why Study Physiotherapy in Switzerland?",
       groups: [
         {
                 "t": "p",
@@ -321,7 +321,7 @@ const page = {
                 "items": [
                         "The tuition range is a wide estimate for planning purposes. Swiss university of applied sciences official fees vary by institution and may be higher for overseas students. There may be additional fees for a semester or administrative fees.",
                         "**Yearly Budget Estimate**",
-                        "Tuition and living expenses for students are expected to be around CHF 20,000-40,000 or more per year. This is not a guarantyd cost estimate for any single university.",
+                        "Tuition and living expenses for students are expected to be around CHF 20,000-40,000 or more per year. This is not a guaranteed cost estimate for any single university.",
                         "Before submitting your application, please check the official fee schedule, clinical placement costs, accommodation availability and financial evidence required for a Swiss student visa or residence permit.",
                         "**Physiotherapy Fees in Switzerland** should be compared across institutions before choosing a university. Indian students should also consider accommodation, food, health insurance and other living expenses."
                 ]
@@ -406,7 +406,7 @@ const page = {
         {
                 "t": "p",
                 "items": [
-                        "The figures below are indicative annual gross salary estimates, and are not verified current averages or guarantyd earnings. The actual salary depends on the employer, the canton, your experience and language skills, as well as your qualifications and professional recognition."
+                        "The figures below are indicative annual gross salary estimates, and are not verified current averages or guaranteed earnings. The actual salary depends on the employer, the canton, your experience and language skills, as well as your qualifications and professional recognition."
                 ]
         },
         {
@@ -482,7 +482,7 @@ const page = {
         "a": "You can look at the routes available but each institution decides on eligibility. Some programs require specific school qualifications, additional practical modules, aptitude tests or other requirements. Contact the admissions office before you apply."
     },
     {
-        "q": "How long is a physiotherapy degree in Switzerland? It normally takes 3 to 4 years.",
+        "q": "How long is a physiotherapy degree in Switzerland?",
         "a": "A Bachelor of Science (Physiotherapy) is generally a three-year full-time degree. The total length of the course may vary depending on extra modules or practical requirements."
     },
     {
@@ -498,7 +498,7 @@ const page = {
         "a": "You may be, if you meet the applicable professional recognition, language, employment and immigration requirements. A degree alone does not give the right to work or practice."
     }
 ],
-  faqTitle: "11. Frequently Asked Questions"
+  faqTitle: "Frequently Asked Questions About Physiotherapy in Switzerland"
 };
 
 export default function PhysiotherapyAbroadSwitzerland() {
