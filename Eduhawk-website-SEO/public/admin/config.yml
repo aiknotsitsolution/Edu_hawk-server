@@ -2,7 +2,7 @@ backend:
   name: github
   repo: aiknotsitsolution/Edu_hawk-server
   branch: master
-  base_url: https://eduhawk-cms-auth.aiknotsit.workers.dev
+  base_url: https://eduhawk-cms-auth.eduhawk-cms.workers.dev
   auth_endpoint: auth
 
 publish_mode: editorial_workflow
