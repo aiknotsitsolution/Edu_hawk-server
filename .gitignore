@@ -11,6 +11,8 @@ npm-debug.log*
 scratch/
 *.py
 *.txt
+.wrangler/
+**/.wrangler/
 
 # OS / Editor
 .DS_Store

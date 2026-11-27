@@ -208,7 +208,7 @@ export default function Contact() {
         path="/contact"
         ogType="website"
       >
-        <link rel="preload" as="image" href={contactHero} fetchPriority="high" />
+        <link rel="preload" as="image" href={contactData.hero?.image || contactHero} fetchPriority="high" />
       </SeoHead>
 
       <div className="min-h-screen bg-white font-sans text-slate-800">
@@ -220,14 +220,14 @@ export default function Contact() {
         {/* ─── HERO HEADER ─────────────────────────────────────────────────── */}
         <section className="relative min-h-[420px] sm:min-h-[480px] lg:h-[55vh] flex items-center justify-center overflow-hidden bg-[#071d38]">
           <img
-            src={contactHero}
+            src={contactData.hero?.image || contactHero}
             alt="Edu Hawk Worldwide corporate office"
             width={1920}
             height={1282}
             loading="eager"
             fetchPriority="high"
             className="absolute inset-0 h-full w-full object-cover brightness-[0.75] scale-105"
-            srcSet={`${contactHero} 1x, ${contactHero} 2x`}
+            srcSet={contactData.hero?.image ? undefined : `${contactHero} 1x, ${contactHero} 2x`}
             sizes="100vw"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[#071d38]/95 via-[#071d38]/70 to-[#071d38]/40" />

@@ -39,6 +39,7 @@
   "welcome": {
     "tag": "WELCOME TO EDU-HAWK WORLDWIDE",
     "title": "Empowering Students to Achieve Global Dreams",
+    "image": "/uploads/about/about-us-page.webp",
     "paragraphs": [
       "Edu-Hawk Worldwide is dedicated to helping students explore international education opportunities and build a future through global learning. We understand that choosing a university, course, and country is one of the most important decisions in a student's life.",
       "Our team works closely with students to understand their academic background, aspirations, interests, and financial plans. With personalized counselling and reliable information, we help students discover suitable universities and programs across the world.",
@@ -119,10 +120,13 @@
     "body": "A world of opportunities is waiting for you. Whether you are planning for a Bachelor's, Master's, medical, technical, or professional program, let us help you take the first step towards your dream university.",
     "subtext": "Get personalized guidance and discover the right international education pathway for you.",
     "primaryCta": "Book Free Counselling",
-    "secondaryCta": "Talk to Our Experts"
+    "secondaryCta": "Talk to Our Experts",
+    "backgroundImage": "/uploads/about/fixed-banner.webp"
   },
   "faq": {
     "title": "Frequently Asked Questions About Studying Abroad",
+    "sidebarHeading": "Where Dreams Take Flight:\nGlobal Education Done Right",
+    "sidebarImage": "/uploads/about/about-service.webp",
     "items": [
       {
         "question": "What courses can Edu-Hawk Worldwide help me study abroad?",

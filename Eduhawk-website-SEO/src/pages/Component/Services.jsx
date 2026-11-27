@@ -68,7 +68,7 @@ export default function Services() {
 
   const heroSlides = [
     {
-      img: HERO_IMAGES[0],
+      img: servicesData.hero?.image || HERO_IMAGES[0],
       title:
         servicesData.hero?.title ||
         "Comprehensive Study Abroad & Medical Admission Services",

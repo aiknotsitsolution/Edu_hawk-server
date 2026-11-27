@@ -45,7 +45,9 @@ import SeoHead from "../component/SeoHead.jsx";
 import LeadModal from "../component/LeadModal.jsx";
 import homeData from "../data/home.json";
 
-const HERO_SLIDE_IMAGES = [heroAbroad1, heroAbroad2, heroAbroad3, heroAbroad4];
+const STATIC_HERO_IMAGES = [heroAbroad1, heroAbroad2, heroAbroad3, heroAbroad4];
+const CMS_HERO_IMAGES = (homeData.heroSlides && homeData.heroSlides.map(s => s.image).filter(Boolean)) || [];
+const HERO_SLIDE_IMAGES = CMS_HERO_IMAGES.length > 0 ? CMS_HERO_IMAGES : STATIC_HERO_IMAGES;
 
 const ROTATING_HEADINGS = (homeData.hero && homeData.hero.sliderHeadings) || [
   "Your Future Has No Borders.",
@@ -503,7 +505,7 @@ export default function HeroSection() {
         path="/"
         ogType="website"
       >
-        <link rel="preload" as="image" href={heroAbroad1} fetchPriority="high" />
+        <link rel="preload" as="image" href={HERO_SLIDE_IMAGES[0] || heroAbroad1} fetchPriority="high" />
       </SeoHead>
 
       <div className="min-h-screen bg-white font-sans overflow-x-hidden w-full text-slate-900">
@@ -696,7 +698,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src={studyAbroadAbout}
+                  src={homeData?.about?.image || studyAbroadAbout}
                   alt="Edu-Hawk Global Education Students"
                   className="w-full h-80 sm:h-96 object-cover"
                 />
