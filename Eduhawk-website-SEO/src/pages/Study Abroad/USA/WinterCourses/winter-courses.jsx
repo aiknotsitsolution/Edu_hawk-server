@@ -339,10 +339,30 @@ const imgDims = { w: 900, h: 760 };
 const WinterCoursesAbroad = () => {
   const dynamicPage = {
     ...page,
-    title: page.title,
-    description: page.description,
-    heroParas: page.heroParas,
-    overview: page.overview,
+    title: winterCoursesData?.seo?.title || page.title,
+    description: winterCoursesData?.seo?.description || page.description,
+    introTitle: winterCoursesData?.hero?.title || page.introTitle,
+    heroParas: winterCoursesData?.hero?.subtitle
+      ? [winterCoursesData.hero.subtitle]
+      : page.heroParas,
+    overview: Array.isArray(winterCoursesData?.overview)
+      ? winterCoursesData.overview
+      : typeof winterCoursesData?.overview === "string"
+      ? winterCoursesData.overview.split("\n\n").filter(Boolean)
+      : page.overview,
+    sections: page.sections.map((section) => {
+      if (section.slot === "universities" && winterCoursesData?.universities && winterCoursesData.universities.length > 0) {
+        return {
+          ...section,
+          unis: winterCoursesData.universities.map((u, i) => ({
+            name: u.name,
+            desc: u.desc || u.fee || section.unis?.[i]?.desc || "",
+            img: u.image || u.img || section.unis?.[i]?.img,
+          })),
+        };
+      }
+      return section;
+    }),
     faqs: (winterCoursesData?.faq && winterCoursesData.faq.length > 0)
       ? winterCoursesData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,
