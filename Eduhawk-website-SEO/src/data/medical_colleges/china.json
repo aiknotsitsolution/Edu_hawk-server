@@ -7,11 +7,10 @@
   "hero": {
     "badge": "MBBS Admissions Open",
     "title": "STUDY MBBS IN CHINA",
-    "subtitle": "Explore MBBS Opportunities in China 2026–2027. World-class medical infrastructure, mega hospital campuses, and globally ranked universities.",
+    "subtitle": "Explore MBBS Opportunities in China. World-class medical infrastructure, mega hospital campuses, and globally ranked universities.",
     "image": "/uploads/colleges/china_flag.svg",
     "ctaText": "Apply for China MBBS"
   },
-  "flag": "/uploads/colleges/china_flag.svg",
   "stats": [
     {
       "n": "6 Years",
@@ -41,7 +40,6 @@
     "ielts": "Not Required"
   },
   "overview": "China boasts some of the most technologically advanced medical institutions in the world. Attached hospitals routinely have 2,000 to 5,000 beds, giving Indian medical students exposure to high-volume clinical cases and state-of-the-art robotic medical technology.",
-  "universitiesHeading": "Top Medical Universities in China",
   "universities": [
     {
       "name": "Nanjing Medical University",
@@ -95,5 +93,7 @@
       "question": "What is the duration of MBBS in China?",
       "answer": "The course duration is 6 years, consisting of 5 years academic medicine plus 1 year rotatory hospital internship."
     }
-  ]
+  ],
+  "flag": "/uploads/colleges/china_flag.svg",
+  "universitiesHeading": "Top Medical Universities in China"
 }
