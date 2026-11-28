@@ -451,6 +451,26 @@ const HospitalityManagementAbroad = () => {
     description: hospitalityManagementData?.seo?.description || page.description,
     heroParas: hospitalityManagementData?.hero?.subtitle ? [hospitalityManagementData.hero.subtitle] : page.heroParas,
     overview: hospitalityManagementData?.overview ? (Array.isArray(hospitalityManagementData.overview) ? hospitalityManagementData.overview : hospitalityManagementData.overview.split('\n\n')) : page.overview,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && hospitalityManagementData?.universities && hospitalityManagementData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: hospitalityManagementData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (hospitalityManagementData?.universities && hospitalityManagementData.universities.length > 0)
+      ? hospitalityManagementData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
     faqs: (hospitalityManagementData?.faq && hospitalityManagementData.faq.length > 0)
       ? hospitalityManagementData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

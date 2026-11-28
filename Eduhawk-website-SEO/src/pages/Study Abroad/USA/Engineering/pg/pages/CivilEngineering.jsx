@@ -260,6 +260,14 @@ const PostgraduateCivilEngineering = () => {
     title: civilEngineeringPGData?.seo?.title || branch.title,
     description: civilEngineeringPGData?.seo?.description || branch.description,
     heroSub: civilEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    universities: (civilEngineeringPGData?.universities && civilEngineeringPGData.universities.length > 0)
+      ? civilEngineeringPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (civilEngineeringPGData?.faq && civilEngineeringPGData.faq.length > 0)
       ? civilEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Audit and helper scripts (never commit)
+UI-UX-AUDIT/
+scripts/
+

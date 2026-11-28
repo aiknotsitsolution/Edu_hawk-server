@@ -246,6 +246,14 @@ const PostgraduateBiomedicalEngineering = () => {
     title: biomedicalEngineeringPGData?.seo?.title || branch.title,
     description: biomedicalEngineeringPGData?.seo?.description || branch.description,
     heroSub: biomedicalEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    universities: (biomedicalEngineeringPGData?.universities && biomedicalEngineeringPGData.universities.length > 0)
+      ? biomedicalEngineeringPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (biomedicalEngineeringPGData?.faq && biomedicalEngineeringPGData.faq.length > 0)
       ? biomedicalEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

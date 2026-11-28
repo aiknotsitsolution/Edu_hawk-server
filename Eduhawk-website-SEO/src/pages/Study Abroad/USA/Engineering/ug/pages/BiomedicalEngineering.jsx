@@ -223,6 +223,14 @@ const BiomedicalEngineeringUG = () => {
     title: biomedicalEngineeringUGData?.seo?.title || branch.title,
     description: biomedicalEngineeringUGData?.seo?.description || branch.description,
     heroSub: "",
+    universities: (biomedicalEngineeringUGData?.universities && biomedicalEngineeringUGData.universities.length > 0)
+      ? biomedicalEngineeringUGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     overview: [
       "Students develop proficiency in the domains of medical apparatus design, diagnostic instrumentation development, imaging system optimization, and the engineering of sophisticated medical technologies. Opportunities for hands-on laboratory work, rigorous scholarly research, and multidisciplinary collaborative engagement are offered by educational institution",
       ...(biomedicalEngineeringUGData?.hero?.subtitle ? [biomedicalEngineeringUGData.hero.subtitle] : []),

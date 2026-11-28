@@ -252,11 +252,18 @@ export default function Contact() {
                 <span>+91 96307 36070</span>
               </a>
               <a
-                href="mailto:admin@eduhawk.in"
+                href={`mailto:${contactData.contactInfo?.email || "info@eduhawk.in"}`}
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/25 text-white text-xs sm:text-sm font-semibold transition"
               >
                 <Mail size={14} className="text-amber-400" />
-                <span>admin@eduhawk.in</span>
+                <span>{contactData.contactInfo?.email || "info@eduhawk.in"}</span>
+              </a>
+              <a
+                href={`mailto:${contactData.contactInfo?.admissionsEmail || "admissions@eduhawk.in"}`}
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/25 text-white text-xs sm:text-sm font-semibold transition"
+              >
+                <Mail size={14} className="text-teal-300" />
+                <span>{contactData.contactInfo?.admissionsEmail || "admissions@eduhawk.in"}</span>
               </a>
 
             </div>
@@ -554,22 +561,75 @@ export default function Contact() {
                       </div>
                     </a>
 
-                    <a
-                      href="mailto:admin@eduhawk.in"
-                      className="flex items-center gap-3 p-3 rounded-xl bg-slate-50 hover:bg-amber-50/60 border border-slate-100 hover:border-amber-200 transition group"
-                    >
-                      <div className="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-amber-600 shadow-2xs group-hover:scale-105 transition">
-                        <Mail size={16} />
-                      </div>
-                      <div>
-                        <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
-                          Official Email
+                    <div className="space-y-2.5">
+                      <a
+                        href={`mailto:${contactData.contactInfo?.email || "info@eduhawk.in"}`}
+                        className="flex items-center gap-3 p-3 rounded-xl bg-slate-50 hover:bg-amber-50/60 border border-slate-100 hover:border-amber-200 transition group"
+                      >
+                        <div className="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-amber-600 shadow-2xs group-hover:scale-105 transition">
+                          <Mail size={16} />
                         </div>
-                        <div className="font-bold text-[#0a2342]">
-                          admin@eduhawk.in
+                        <div>
+                          <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+                            General Enquiries
+                          </div>
+                          <div className="font-bold text-[#0a2342]">
+                            {contactData.contactInfo?.email || "info@eduhawk.in"}
+                          </div>
                         </div>
-                      </div>
-                    </a>
+                      </a>
+
+                      <a
+                        href={`mailto:${contactData.contactInfo?.admissionsEmail || "admissions@eduhawk.in"}`}
+                        className="flex items-center gap-3 p-3 rounded-xl bg-slate-50 hover:bg-amber-50/60 border border-slate-100 hover:border-amber-200 transition group"
+                      >
+                        <div className="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-amber-600 shadow-2xs group-hover:scale-105 transition">
+                          <Mail size={16} />
+                        </div>
+                        <div>
+                          <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+                            Admissions & Guidance
+                          </div>
+                          <div className="font-bold text-[#0a2342]">
+                            {contactData.contactInfo?.admissionsEmail || "admissions@eduhawk.in"}
+                          </div>
+                        </div>
+                      </a>
+
+                      <a
+                        href={`mailto:${contactData.contactInfo?.schoolRelationsEmail || "schoolrelations@eduhawk.in"}`}
+                        className="flex items-center gap-3 p-3 rounded-xl bg-slate-50 hover:bg-amber-50/60 border border-slate-100 hover:border-amber-200 transition group"
+                      >
+                        <div className="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-amber-600 shadow-2xs group-hover:scale-105 transition">
+                          <Mail size={16} />
+                        </div>
+                        <div>
+                          <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+                            School Relations
+                          </div>
+                          <div className="font-bold text-[#0a2342]">
+                            {contactData.contactInfo?.schoolRelationsEmail || "schoolrelations@eduhawk.in"}
+                          </div>
+                        </div>
+                      </a>
+
+                      <a
+                        href={`mailto:${contactData.contactInfo?.partnershipsEmail || "partnerships@eduhawk.in"}`}
+                        className="flex items-center gap-3 p-3 rounded-xl bg-slate-50 hover:bg-amber-50/60 border border-slate-100 hover:border-amber-200 transition group"
+                      >
+                        <div className="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-amber-600 shadow-2xs group-hover:scale-105 transition">
+                          <Mail size={16} />
+                        </div>
+                        <div>
+                          <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">
+                            Global Partnerships
+                          </div>
+                          <div className="font-bold text-[#0a2342]">
+                            {contactData.contactInfo?.partnershipsEmail || "partnerships@eduhawk.in"}
+                          </div>
+                        </div>
+                      </a>
+                    </div>
 
                     <div className="flex items-center gap-3 p-3 rounded-xl bg-slate-50 border border-slate-100">
                       <div className="w-9 h-9 rounded-lg bg-white border border-slate-200 flex items-center justify-center text-amber-600 shadow-2xs">

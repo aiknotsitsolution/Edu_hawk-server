@@ -1,13 +1,26 @@
 {
   "hero": {
     "title": "Study Physiotherapy in USA for Indian Students",
-    "subtitle": "Study physiotherapy in the USA for Indian students — explore the Doctor of Physical Therapy (DPT) degree, top CAPTE-accredited US universities, eligibility, admission process, costs, and NPTE licensing pathways."
+    "subtitle": "Study physiotherapy in the USA for Indian students — explore the Doctor of Physical Therapy (DPT) degree, top CAPTE-accredited US universities, eligibility, admission process, costs, and NPTE licensing pathways.",
+    "badge": "Study Abroad - USA"
   },
   "stats": [
-    { "l": "Primary Degree", "n": "Doctor of Physical Therapy (DPT)" },
-    { "l": "Course Duration", "n": "3 Years (DPT) / 2 Years (MS)" },
-    { "l": "Top Institutions", "n": "USC, Delaware, Pittsburgh, Washington Univ." },
-    { "l": "Licensing", "n": "NPTE (FSBPT)" }
+    {
+      "l": "Primary Degree",
+      "n": "Doctor of Physical Therapy (DPT)"
+    },
+    {
+      "l": "Course Duration",
+      "n": "3 Years (DPT) / 2 Years (MS)"
+    },
+    {
+      "l": "Top Institutions",
+      "n": "USC, Delaware, Pittsburgh, Washington Univ."
+    },
+    {
+      "l": "Licensing",
+      "n": "NPTE (FSBPT)"
+    }
   ],
   "faq": [
     {

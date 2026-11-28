@@ -595,7 +595,7 @@ const page = {
           items: [
             "Start in India. Continue Abroad. Graduate Globally.",
             "Connect with Edu-Hawk Worldwide and take the next step toward your engineering education abroad.",
-            "Website: eduhawk.in | Email: eduhawk.global@gmail.com"
+            "Website: eduhawk.in | Email: admissions@eduhawk.in"
           ]
         }
       ]

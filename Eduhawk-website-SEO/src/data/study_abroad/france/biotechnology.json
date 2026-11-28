@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Biotechnology",
-    "subtitle": "Earn a prestigious Biotechnology qualification in France, combining rigorous biochemical sciences, bio-industrial internships, and advanced pharmaceutical technology. Explore vibrant research opportunities across Europe's prominent biotechnology networks and healthcare innovation institutes."
+    "subtitle": "Earn a prestigious Biotechnology qualification in France, combining rigorous biochemical sciences, bio-industrial internships, and advanced pharmaceutical technology. Explore vibrant research opportunities across Europe's prominent biotechnology networks and healthcare innovation institutes.",
+    "badge": "Study Abroad - France"
   },
   "overview": [
     "Students interested in studying biotechnology, life sciences, genetic engineering, pharmaceutical research, and industrial innovation will find France a most attractive destination.",
@@ -355,11 +356,27 @@
         },
         {
           "t": "table",
-          "headers": ["Degree Level", "EU / National Fee", "Differentiated International Fee"],
+          "headers": [
+            "Degree Level",
+            "EU / National Fee",
+            "Differentiated International Fee"
+          ],
           "rows": [
-            ["Bachelor / Licence", "€178 / year", "€2,902 / year"],
-            ["Master", "€255 / year", "€3,950 / year"],
-            ["PhD / Doctorate", "€398 / year", "€398 / year"]
+            [
+              "Bachelor / Licence",
+              "€178 / year",
+              "€2,902 / year"
+            ],
+            [
+              "Master",
+              "€255 / year",
+              "€3,950 / year"
+            ],
+            [
+              "PhD / Doctorate",
+              "€398 / year",
+              "€398 / year"
+            ]
           ]
         },
         {

@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "MBS in the USA for Indian Students",
-    "subtitle": "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in the USA, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore Optional Practical Training (OPT) employment opportunities, subject to US immigration regulations."
+    "subtitle": "Advance your strategic expertise with an accredited Master of Business Studies (MBS) in the USA, designed for graduates seeking specialized management insights, financial analysis, and corporate consulting capabilities. International professionals develop advanced commercial competencies and explore Optional Practical Training (OPT) employment opportunities, subject to US immigration regulations.",
+    "badge": "Study Abroad - USA"
   },
   "overview": [
     "Studying in the USA offers Indian students unmatched academic prestige, cutting-edge research facilities, flexible curriculums, and access to the world's largest job market.",
@@ -9,36 +10,28 @@
   ],
   "universities": [
     {
-      "name": "Massachusetts Institute of Technology (MIT)",
-      "location": "Cambridge, Massachusetts, USA",
-      "fee": "$58,000 – $62,000 / Year",
-      "img": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
-      "image": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology_M.I.T..webp",
-      "desc": "MIT is a world leader in science and engineering education, renowned for groundbreaking research, venture creation, and technological innovation."
+      "name": "Harvard University",
+      "location": "USA",
+      "fee": "$40,000 – $62,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+      "image": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
+      "desc": "Harvard University is highly regarded for academic excellence, extensive alumni network, and practical industry training."
     },
     {
       "name": "Stanford University",
-      "location": "Stanford, California, USA",
-      "fee": "$59,000 – $64,000 / Year",
-      "img": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
-      "image": "/uploads/study_abroad/usa/usa_Stanford_University.webp",
-      "desc": "Located in the heart of Silicon Valley, Stanford is internationally celebrated for entrepreneurship, computing, engineering, and medical sciences."
+      "location": "USA",
+      "fee": "$40,000 – $62,000 / Year",
+      "img": "/uploads/study_abroad/usa/stanford.webp",
+      "image": "/uploads/study_abroad/usa/stanford.webp",
+      "desc": "Stanford University is highly regarded for academic excellence, extensive alumni network, and practical industry training."
     },
     {
-      "name": "Harvard University",
-      "location": "Cambridge, Massachusetts, USA",
-      "fee": "$56,000 – $60,000 / Year",
-      "img": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
-      "image": "/uploads/study_abroad/usa/usa_Harvard_University.webp",
-      "desc": "The oldest higher education institution in the United States, globally recognized for academic distinction, world-class faculties, and influential alumni network."
-    },
-    {
-      "name": "University of California, Berkeley",
-      "location": "Berkeley, California, USA",
-      "fee": "$44,000 – $48,000 / Year",
-      "img": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
-      "image": "/uploads/study_abroad/usa/usa_University_of_California-Berkeley.webp",
-      "desc": "UC Berkeley is America's premier public research university, leading globally in computer science, engineering, business, and physical sciences."
+      "name": "Massachusetts Institute of Technology",
+      "location": "USA",
+      "fee": "$40,000 – $62,000 / Year",
+      "img": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology.webp",
+      "image": "/uploads/study_abroad/usa/usa_Massachusetts_Institute_of_Technology.webp",
+      "desc": "Massachusetts Institute of Technology is highly regarded for academic excellence, extensive alumni network, and practical industry training."
     }
   ],
   "sections": [

@@ -229,6 +229,14 @@ const ComputerEngineeringUG = () => {
     title: computerEngineeringUGData?.seo?.title || branch.title,
     description: computerEngineeringUGData?.seo?.description || branch.description,
     heroSub: computerEngineeringUGData?.hero?.subtitle || branch.heroSub,
+    universities: (computerEngineeringUGData?.universities && computerEngineeringUGData.universities.length > 0)
+      ? computerEngineeringUGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (computerEngineeringUGData?.faq && computerEngineeringUGData.faq.length > 0)
       ? computerEngineeringUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

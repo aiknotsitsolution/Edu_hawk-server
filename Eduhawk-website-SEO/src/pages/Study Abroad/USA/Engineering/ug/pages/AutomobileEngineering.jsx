@@ -230,6 +230,14 @@ const AutomobileEngineeringUG = () => {
     title: automobileEngineeringUGData?.seo?.title || branch.title,
     description: automobileEngineeringUGData?.seo?.description || branch.description,
     heroSub: automobileEngineeringUGData?.hero?.subtitle || branch.heroSub,
+    universities: (automobileEngineeringUGData?.universities && automobileEngineeringUGData.universities.length > 0)
+      ? automobileEngineeringUGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (automobileEngineeringUGData?.faq && automobileEngineeringUGData.faq.length > 0)
       ? automobileEngineeringUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

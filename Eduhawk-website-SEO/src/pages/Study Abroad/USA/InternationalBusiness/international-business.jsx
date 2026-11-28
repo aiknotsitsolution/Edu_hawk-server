@@ -485,6 +485,26 @@ const InternationalBusinessAbroad = () => {
     description: internationalBusinessData?.seo?.description || page.description,
     heroParas: internationalBusinessData?.hero?.subtitle ? [internationalBusinessData.hero.subtitle] : page.heroParas,
     overview: internationalBusinessData?.overview ? (Array.isArray(internationalBusinessData.overview) ? internationalBusinessData.overview : internationalBusinessData.overview.split('\n\n')) : page.overview,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && internationalBusinessData?.universities && internationalBusinessData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: internationalBusinessData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (internationalBusinessData?.universities && internationalBusinessData.universities.length > 0)
+      ? internationalBusinessData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
     faqs: (internationalBusinessData?.faq && internationalBusinessData.faq.length > 0)
       ? internationalBusinessData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

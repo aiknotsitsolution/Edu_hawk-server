@@ -220,6 +220,14 @@ const PostgraduateElectronicsCommunication = () => {
     title: electronicsCommunicationPGData?.seo?.title || branch.title,
     description: electronicsCommunicationPGData?.seo?.description || branch.description,
     heroSub: electronicsCommunicationPGData?.hero?.subtitle || branch.heroSub,
+    universities: (electronicsCommunicationPGData?.universities && electronicsCommunicationPGData.universities.length > 0)
+      ? electronicsCommunicationPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (electronicsCommunicationPGData?.faq && electronicsCommunicationPGData.faq.length > 0)
       ? electronicsCommunicationPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

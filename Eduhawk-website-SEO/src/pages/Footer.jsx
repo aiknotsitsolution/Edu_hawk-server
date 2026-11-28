@@ -180,7 +180,7 @@
 //             <div className="mt-6 text-sm">
 //               <div className="text-gray-400 mb-1.5">Contact Us</div>
 //               <div className="text-white">+91 9630736070</div>
-//               <div className="text-white mt-1">admin@eduhawk.in</div>
+//               <div className="text-white mt-1">info@eduhawk.in</div>
 //               <div className="text-gray-400 mt-3 text-xs">
 
 //       <a
@@ -570,7 +570,17 @@ export default function Footer() {
             <div className="mt-6 text-sm">
               <div className="text-gray-400 mb-1.5">Contact Us</div>
               <div className="text-white">+91 9630736070</div>
-              <div className="text-white mt-1">admin@eduhawk.in</div>
+              <div className="mt-1">
+                <a href="mailto:info@eduhawk.in" className="text-white hover:text-amber-400 transition-colors">
+                  info@eduhawk.in
+                </a>
+              </div>
+              <div className="text-xs text-slate-300 mt-1">
+                Admissions:{" "}
+                <a href="mailto:admissions@eduhawk.in" className="text-amber-400 hover:underline">
+                  admissions@eduhawk.in
+                </a>
+              </div>
               <div className="text-gray-400 mt-3 text-xs">
                 <a
                   href="https://www.google.com/maps/place/Edu+Hawk+Worldwide+-+MBBS+Abroad+Consultants+in+Delhi/@28.5686707,77.0719455,17z"

@@ -372,7 +372,7 @@ const page = {
           desc: "Connect with Edu-Hawk Worldwide and take the next step towards your international education goals.",
           website: "eduhawk.in",
           websiteHref: "https://eduhawk.in",
-          email: "eduhawk.global@gmail.com",
+          email: "admissions@eduhawk.in",
           ctaText: "Get Free Summer Study Guidance",
           ctaHref: "/contact"
         }

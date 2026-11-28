@@ -165,7 +165,7 @@ const page = {
           "t": "p",
           "items": [
             "www.eduhawk.in",
-            "eduhawk.global@gmail.com"
+            "admissions@eduhawk.in"
           ]
         }
       ]

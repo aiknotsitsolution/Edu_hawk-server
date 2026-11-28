@@ -299,6 +299,26 @@ const MbsAbroad = () => {
     description: mBSData?.seo?.description || page.description,
     heroParas: page.heroParas,
     overview: mBSData?.overview ? (Array.isArray(mBSData.overview) ? mBSData.overview : mBSData.overview.split('\n\n')) : page.overview,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && mBSData?.universities && mBSData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: mBSData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (mBSData?.universities && mBSData.universities.length > 0)
+      ? mBSData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
     faqs: (mBSData?.faq && mBSData.faq.length > 0)
       ? mBSData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

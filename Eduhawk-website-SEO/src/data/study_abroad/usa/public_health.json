@@ -1,13 +1,26 @@
 {
   "hero": {
     "title": "Study Public Health in USA for Indian Students",
-    "subtitle": "Explore Master of Public Health (MPH) and PhD programmes in the USA — top CEPH-accredited universities, epidemiology & biostatistics tracks, tuition fees, scholarships, and STEM OPT career pathways."
+    "subtitle": "Explore Master of Public Health (MPH) and PhD programmes in the USA — top CEPH-accredited universities, epidemiology & biostatistics tracks, tuition fees, scholarships, and STEM OPT career pathways.",
+    "badge": "Study Abroad - USA"
   },
   "stats": [
-    { "l": "Primary Degree", "n": "Master of Public Health (MPH)" },
-    { "l": "Course Duration", "n": "2 Years (MPH) / 4 Years (BS)" },
-    { "l": "Top Institutions", "n": "Johns Hopkins, Harvard, Columbia, Emory" },
-    { "l": "Work Pathway", "n": "OPT (Up to 3 Years STEM)" }
+    {
+      "l": "Primary Degree",
+      "n": "Master of Public Health (MPH)"
+    },
+    {
+      "l": "Course Duration",
+      "n": "2 Years (MPH) / 4 Years (BS)"
+    },
+    {
+      "l": "Top Institutions",
+      "n": "Johns Hopkins, Harvard, Columbia, Emory"
+    },
+    {
+      "l": "Work Pathway",
+      "n": "OPT (Up to 3 Years STEM)"
+    }
   ],
   "seo": {
     "title": "Study Public Health in USA for Indian Students | Edu-Hawk Worldwide",

@@ -1,13 +1,26 @@
 {
   "hero": {
     "title": "Study Pharmacy in USA for Indian Students",
-    "subtitle": "Learn about pharmacy courses in the USA for Indian students, including the Doctor of Pharmacy (PharmD) degree, MS in Pharmaceutical Sciences, eligibility, admission requirements, costs and licensing pathways."
+    "subtitle": "Learn about pharmacy courses in the USA for Indian students, including the Doctor of Pharmacy (PharmD) degree, MS in Pharmaceutical Sciences, eligibility, admission requirements, costs and licensing pathways.",
+    "badge": "Study Abroad - USA"
   },
   "stats": [
-    { "l": "Primary Degree", "n": "Doctor of Pharmacy (PharmD)" },
-    { "l": "Course Duration", "n": "4 Years (PharmD) / 2 Years (MS)" },
-    { "l": "Top Institutions", "n": "UCSF, Michigan, UNC, UT Austin" },
-    { "l": "Licensing", "n": "NAPLEX / FPGEC (NABP)" }
+    {
+      "l": "Primary Degree",
+      "n": "Doctor of Pharmacy (PharmD)"
+    },
+    {
+      "l": "Course Duration",
+      "n": "4 Years (PharmD) / 2 Years (MS)"
+    },
+    {
+      "l": "Top Institutions",
+      "n": "UCSF, Michigan, UNC, UT Austin"
+    },
+    {
+      "l": "Licensing",
+      "n": "NAPLEX / FPGEC (NABP)"
+    }
   ],
   "seo": {
     "title": "Study Pharmacy in USA for Indian Students | Edu-Hawk Worldwide",

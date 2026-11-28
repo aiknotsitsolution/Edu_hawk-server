@@ -1,18 +1,19 @@
 {
   "hero": {
     "title": "Study Information Technology in Finland for Indian Students",
-    "subtitle": "Pursue cutting-edge Information Technology and Network Systems in Finland, global pioneer in telecommunications, cybersecurity, and Nordic public digital infrastructure. Indian students benefit from English-taught degrees, generous scholarships, and a 2-year post-study residence permit."
+    "subtitle": "Pursue cutting-edge Information Technology and Network Systems in Finland, global pioneer in telecommunications, cybersecurity, and Nordic public digital infrastructure. Indian students benefit from English-taught degrees, generous scholarships, and a 2-year post-study residence permit.",
+    "badge": "Study Abroad - Finland"
   },
   "overview": [
     "Finland is internationally celebrated for world-leading digital infrastructure, high public innovation rankings, and pioneering telecommunications technology. Studying Information Technology in Finland offers Indian students a practical, active-learning education centered on building secure communication networks, smart enterprise services, and resilient Nordic digital systems.",
     "Finnish research universities and Universities of Applied Sciences (UAS) offer English-taught 3.5- to 4-year Bachelor of Engineering in IT degrees and 2-year Master of Science in Information Technology programs. Curricula feature specialized study tracks in Cloud Networking, Industrial IoT Infrastructure, Cybersecurity Operations, and Enterprise Database Administration, integrating corporate projects with leading Finnish technology and clean-tech enterprises.",
-    "International IT graduates in Finland enjoy welcoming immigration pathways and strong demand for skilled infrastructure specialists. Under Section 55 of the Finnish Aliens Act, international graduates can obtain an extended 2-year post-study residence permit for job seeking or entrepreneurship (usable in up to three parts within 5 years of graduation), provided baseline living funds (\u20ac560/month) and health insurance are maintained, facilitating smooth transition into permanent Nordic engineering roles."
+    "International IT graduates in Finland enjoy welcoming immigration pathways and strong demand for skilled infrastructure specialists. Under Section 55 of the Finnish Aliens Act, international graduates can obtain an extended 2-year post-study residence permit for job seeking or entrepreneurship (usable in up to three parts within 5 years of graduation), provided baseline living funds (€560/month) and health insurance are maintained, facilitating smooth transition into permanent Nordic engineering roles."
   ],
   "universities": [
     {
       "name": "Aalto University",
       "location": "Espoo, Greater Helsinki, Finland",
-      "fee": "\u20ac12,000 \u2013 \u20ac15,000 / Year",
+      "fee": "€12,000 – €15,000 / Year",
       "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
       "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
       "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
@@ -20,7 +21,7 @@
     {
       "name": "University of Helsinki",
       "location": "Helsinki, Finland",
-      "fee": "\u20ac13,000 \u2013 \u20ac18,000 / Year",
+      "fee": "€13,000 – €18,000 / Year",
       "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
       "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
       "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
@@ -28,7 +29,7 @@
     {
       "name": "University of Oulu",
       "location": "Oulu, Finland",
-      "fee": "\u20ac10,000 \u2013 \u20ac13,000 / Year",
+      "fee": "€10,000 – €13,000 / Year",
       "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
       "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
       "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
@@ -36,7 +37,7 @@
     {
       "name": "Tampere University",
       "location": "Tampere, Finland",
-      "fee": "\u20ac10,000 \u2013 \u20ac12,000 / Year",
+      "fee": "€10,000 – €12,000 / Year",
       "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
       "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
       "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."
@@ -52,7 +53,7 @@
         {
           "name": "Aalto University",
           "location": "Espoo, Greater Helsinki, Finland",
-          "fee": "\u20ac12,000 \u2013 \u20ac15,000 / Year",
+          "fee": "€12,000 – €15,000 / Year",
           "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
           "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
           "desc": "Aalto University is a leading multidisciplinary research university celebrated worldwide for engineering, design innovation, business entrepreneurship, and startup ecosystems."
@@ -60,7 +61,7 @@
         {
           "name": "University of Helsinki",
           "location": "Helsinki, Finland",
-          "fee": "\u20ac13,000 \u2013 \u20ac18,000 / Year",
+          "fee": "€13,000 – €18,000 / Year",
           "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
           "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
           "desc": "Finland's oldest and highest-ranked institution (founded 1640), globally recognized among the top 1% of research universities for sciences, medicine, and education."
@@ -68,7 +69,7 @@
         {
           "name": "University of Oulu",
           "location": "Oulu, Finland",
-          "fee": "\u20ac10,000 \u2013 \u20ac13,000 / Year",
+          "fee": "€10,000 – €13,000 / Year",
           "img": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
           "image": "/uploads/study_abroad/finland/fin_University_of_Oulu.webp",
           "desc": "An international science university pioneering 6G wireless technology, arctic innovation, sustainable energy, and multidisciplinary research."
@@ -76,7 +77,7 @@
         {
           "name": "Tampere University",
           "location": "Tampere, Finland",
-          "fee": "\u20ac10,000 \u2013 \u20ac12,000 / Year",
+          "fee": "€10,000 – €12,000 / Year",
           "img": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
           "image": "/uploads/study_abroad/finland/fin_Aalto_University.webp",
           "desc": "One of Finland's most multidisciplinary universities, known for cutting-edge technology, social sciences, photonics, and signal processing."

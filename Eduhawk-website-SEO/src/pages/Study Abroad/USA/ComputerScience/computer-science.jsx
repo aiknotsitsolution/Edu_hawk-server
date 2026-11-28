@@ -502,7 +502,7 @@ const page = {
           tagline: "Start in India. Continue Abroad. Graduate Globally.",
           description: "Connect with Edu-Hawk Worldwide and take the next step towards your international education goals.",
           website: "eduhawk.in",
-          email: "eduhawk.global@gmail.com",
+          email: "admissions@eduhawk.in",
           ctaText: "Connect With Us",
           ctaLink: "/contact"
         }

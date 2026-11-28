@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Study Information Technology in the UK for Indian Students",
-    "subtitle": "Master enterprise digital infrastructure in the United Kingdom with British Computer Society (BCS) accredited Information Technology degrees. Indian students gain specialized skills in cloud networking, cyber operations, and IT service management alongside the UK Graduate Route post-study work visa."
+    "subtitle": "Master enterprise digital infrastructure in the United Kingdom with British Computer Society (BCS) accredited Information Technology degrees. Indian students gain specialized skills in cloud networking, cyber operations, and IT service management alongside the UK Graduate Route post-study work visa.",
+    "badge": "Study Abroad - UK"
   },
   "overview": [
     "The United Kingdom is a premier global hub for enterprise technology, financial services, and digital telecommunications. Pursuing Information Technology in the UK gives Indian students comprehensive training in architecting, administering, and protecting mission-critical digital systems that underpin global corporate and governmental operations.",
@@ -12,7 +13,7 @@
     {
       "name": "Birmingham University",
       "location": "United Kingdom",
-      "fee": "\u00a315,000 \u2013 \u00a338,000 / Year",
+      "fee": "£15,000 – £38,000 / Year",
       "img": "/uploads/study_abroad/uk/uk_information_technology_Birmingham_University-image2.png",
       "image": "/uploads/study_abroad/uk/uk_information_technology_Birmingham_University-image2.png",
       "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
@@ -20,7 +21,7 @@
     {
       "name": "Glasgow University",
       "location": "United Kingdom",
-      "fee": "\u00a315,000 \u2013 \u00a338,000 / Year",
+      "fee": "£15,000 – £38,000 / Year",
       "img": "/uploads/study_abroad/uk/uk_information_technology_Glasgow_University-image1.png",
       "image": "/uploads/study_abroad/uk/uk_information_technology_Glasgow_University-image1.png",
       "desc": "Glasgow University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
@@ -28,7 +29,7 @@
     {
       "name": "Manchester University",
       "location": "United Kingdom",
-      "fee": "\u00a315,000 \u2013 \u00a338,000 / Year",
+      "fee": "£15,000 – £38,000 / Year",
       "img": "/uploads/study_abroad/uk/uk_information_technology_Manchester_University-image4.png",
       "image": "/uploads/study_abroad/uk/uk_information_technology_Manchester_University-image4.png",
       "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
@@ -36,7 +37,7 @@
     {
       "name": "Nottingham University",
       "location": "United Kingdom",
-      "fee": "\u00a315,000 \u2013 \u00a338,000 / Year",
+      "fee": "£15,000 – £38,000 / Year",
       "img": "/uploads/study_abroad/uk/uk_information_technology_Nottingham_University-image3.png",
       "image": "/uploads/study_abroad/uk/uk_information_technology_Nottingham_University-image3.png",
       "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
@@ -199,7 +200,7 @@
         {
           "name": "Birmingham University",
           "location": "United Kingdom",
-          "fee": "\u00a315,000 \u2013 \u00a338,000 / Year",
+          "fee": "£15,000 – £38,000 / Year",
           "img": "/uploads/study_abroad/uk/uk_information_technology_Birmingham_University-image2.png",
           "image": "/uploads/study_abroad/uk/uk_information_technology_Birmingham_University-image2.png",
           "desc": "Birmingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
@@ -207,7 +208,7 @@
         {
           "name": "Glasgow University",
           "location": "United Kingdom",
-          "fee": "\u00a315,000 \u2013 \u00a338,000 / Year",
+          "fee": "£15,000 – £38,000 / Year",
           "img": "/uploads/study_abroad/uk/uk_information_technology_Glasgow_University-image1.png",
           "image": "/uploads/study_abroad/uk/uk_information_technology_Glasgow_University-image1.png",
           "desc": "Glasgow University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
@@ -215,7 +216,7 @@
         {
           "name": "Manchester University",
           "location": "United Kingdom",
-          "fee": "\u00a315,000 \u2013 \u00a338,000 / Year",
+          "fee": "£15,000 – £38,000 / Year",
           "img": "/uploads/study_abroad/uk/uk_information_technology_Manchester_University-image4.png",
           "image": "/uploads/study_abroad/uk/uk_information_technology_Manchester_University-image4.png",
           "desc": "Manchester University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
@@ -223,7 +224,7 @@
         {
           "name": "Nottingham University",
           "location": "United Kingdom",
-          "fee": "\u00a315,000 \u2013 \u00a338,000 / Year",
+          "fee": "£15,000 – £38,000 / Year",
           "img": "/uploads/study_abroad/uk/uk_information_technology_Nottingham_University-image3.png",
           "image": "/uploads/study_abroad/uk/uk_information_technology_Nottingham_University-image3.png",
           "desc": "Nottingham University is one of the United Kingdom's leading institutions offering globally recognized degrees and world-class academic excellence."
@@ -262,7 +263,7 @@
           "items": [
             "In order to apply for an MSc or similar postgraduate degree, students often need:",
             "A recognized degree in information technology, computer science, information systems, software engineering, engineering, business information systems, or another field approved by the university is known as a bachelor's degree.",
-            "Minimum Academic Marks: While competitive programs may require higher marks, many universities consider applicants with roughly 55%\u201365% or an equivalent qualification.",
+            "Minimum Academic Marks: While competitive programs may require higher marks, many universities consider applicants with roughly 55%–65% or an equivalent qualification.",
             "Technical understanding: Depending on the course, it may be necessary to have relevant understanding of computers, information systems, networking, databases, or programming.",
             "English-Language Proficiency: A recognized English language exam or, if necessary, an authorized substitute."
           ]
@@ -357,19 +358,19 @@
           "pairs": [
             {
               "t": "Information Technology Undergraduate",
-              "d": "\u00a315,000\u2013\u00a330,000+"
+              "d": "£15,000–£30,000+"
             },
             {
               "t": "Information Technology Postgraduate",
-              "d": "\u00a318,000\u2013\u00a335,000+"
+              "d": "£18,000–£35,000+"
             },
             {
               "t": "Books and study guides",
-              "d": "\u00a3300\u2013\u00a3800"
+              "d": "£300–£800"
             },
             {
               "t": "Individual costs",
-              "d": "\u00a31,000\u2013\u00a32,400"
+              "d": "£1,000–£2,400"
             }
           ]
         },
@@ -388,10 +389,10 @@
         {
           "t": "ul",
           "items": [
-            "Accommodations: \u00a36,000 to \u00a312,000",
-            "Food and groceries: \u00a32,000\u2013\u00a33,600",
-            "Local transportation costs between \u00a3600 and \u00a31,500.",
-            "The estimated overall cost of living is between \u00a39,900 and \u00a320,300."
+            "Accommodations: £6,000 to £12,000",
+            "Food and groceries: £2,000–£3,600",
+            "Local transportation costs between £600 and £1,500.",
+            "The estimated overall cost of living is between £9,900 and £20,300."
           ]
         },
         {
@@ -625,19 +626,19 @@
           "pairs": [
             {
               "t": "IT Professional or Graduate",
-              "d": "\u00a324,000\u2013\u00a332,000"
+              "d": "£24,000–£32,000"
             },
             {
               "t": "Professional with two to five years of experience",
-              "d": "\u00a332,000 to \u00a348,000"
+              "d": "£32,000 to £48,000"
             },
             {
               "t": "Skilled IT Expert",
-              "d": "\u00a340,000\u2013\u00a365,000"
+              "d": "£40,000–£65,000"
             },
             {
               "t": "IT manager or senior specialist",
-              "d": "\u00a355,000\u2013\u00a385,000+"
+              "d": "£55,000–£85,000+"
             }
           ]
         },
@@ -765,7 +766,7 @@
     },
     {
       "q": "How much does it cost to study information technology in the UK?",
-      "a": "The annual cost of international undergraduate tuition might be anywhere from \u00a315,000 to \u00a330,000 or more, while postgraduate tuition can be anywhere from \u00a318,000 to \u00a335,000 or more. Living costs are extra and differ depending on the city and way of living."
+      "a": "The annual cost of international undergraduate tuition might be anywhere from £15,000 to £30,000 or more, while postgraduate tuition can be anywhere from £18,000 to £35,000 or more. Living costs are extra and differ depending on the city and way of living."
     },
     {
       "q": "What kinds of jobs are accessible in the UK after studying information technology?",

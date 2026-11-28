@@ -830,7 +830,7 @@ export default function Landingpage() {
             </p>
             <div className="space-y-6 text-lg">
               <div className="flex gap-4 items-center">📞 +91 9630736070</div>
-              <div className="flex gap-4 items-center">✉️ admin@eduhawk.in</div>
+              <div className="flex gap-4 items-center">✉️ admissions@eduhawk.in</div>
               <div className="flex gap-4 items-center">
                 📍 Bhopal, Madhya Pradesh
               </div>
@@ -939,7 +939,7 @@ export default function Landingpage() {
               </p>
               <div className="space-y-2 text-sm">
                 <p>📞 +91 9630736070</p>
-                <p>✉️ admin@eduhawk.in</p>
+                <p>✉️ admissions@eduhawk.in</p>
               </div>
             </div>
 

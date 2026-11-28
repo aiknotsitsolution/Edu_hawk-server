@@ -446,6 +446,26 @@ const MbaAbroad = () => {
     description: mBAData?.seo?.description || page.description,
     heroParas: mBAData?.hero?.subtitle ? [mBAData.hero.subtitle] : page.heroParas,
     overview: mBAData?.overview ? (Array.isArray(mBAData.overview) ? mBAData.overview : mBAData.overview.split('\n\n')) : page.overview,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && mBAData?.universities && mBAData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: mBAData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (mBAData?.universities && mBAData.universities.length > 0)
+      ? mBAData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
     faqs: (mBAData?.faq && mBAData.faq.length > 0)
       ? mBAData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

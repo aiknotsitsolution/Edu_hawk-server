@@ -231,6 +231,14 @@ const ElectricalEngineeringUG = () => {
     title: electricalEngineeringUGData?.seo?.title || branch.title,
     description: electricalEngineeringUGData?.seo?.description || branch.description,
     heroSub: electricalEngineeringUGData?.hero?.subtitle || branch.heroSub,
+    universities: (electricalEngineeringUGData?.universities && electricalEngineeringUGData.universities.length > 0)
+      ? electricalEngineeringUGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (electricalEngineeringUGData?.faq && electricalEngineeringUGData.faq.length > 0)
       ? electricalEngineeringUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

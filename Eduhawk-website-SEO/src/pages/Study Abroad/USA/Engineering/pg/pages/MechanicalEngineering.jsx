@@ -247,6 +247,14 @@ const PostgraduateMechanicalEngineering = () => {
     title: mechanicalEngineeringPGData?.seo?.title || branch.title,
     description: mechanicalEngineeringPGData?.seo?.description || branch.description,
     heroSub: mechanicalEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    universities: (mechanicalEngineeringPGData?.universities && mechanicalEngineeringPGData.universities.length > 0)
+      ? mechanicalEngineeringPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (mechanicalEngineeringPGData?.faq && mechanicalEngineeringPGData.faq.length > 0)
       ? mechanicalEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

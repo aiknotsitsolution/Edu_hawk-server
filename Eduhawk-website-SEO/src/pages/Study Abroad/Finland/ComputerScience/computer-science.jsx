@@ -419,7 +419,7 @@ const page = {
           tagline: "Start in India. Continue Abroad. Graduate Globally.",
           desc: "Connect with Edu-Hawk Worldwide and take the next step towards your international education goals in Finland.",
           phone: "+91 96307 36070",
-          email: "eduhawk.global@gmail.com",
+          email: "admissions@eduhawk.in",
           site: "eduhawk.in",
           buttonText: "Connect With Us",
           buttonLink: "https://api.whatsapp.com/send?phone=919630736070"

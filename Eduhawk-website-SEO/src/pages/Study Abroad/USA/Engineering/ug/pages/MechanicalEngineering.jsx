@@ -245,6 +245,14 @@ const MechanicalEngineeringUG = () => {
     title: mechanicalEngineeringUGData?.seo?.title || branch.title,
     description: mechanicalEngineeringUGData?.seo?.description || branch.description,
     heroSub: mechanicalEngineeringUGData?.hero?.subtitle || branch.heroSub,
+    universities: (mechanicalEngineeringUGData?.universities && mechanicalEngineeringUGData.universities.length > 0)
+      ? mechanicalEngineeringUGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (mechanicalEngineeringUGData?.faq && mechanicalEngineeringUGData.faq.length > 0)
       ? mechanicalEngineeringUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

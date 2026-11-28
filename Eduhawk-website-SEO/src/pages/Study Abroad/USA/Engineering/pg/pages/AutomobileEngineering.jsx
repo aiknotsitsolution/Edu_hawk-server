@@ -249,6 +249,14 @@ const PostgraduateAutomobileEngineering = () => {
     title: automobileEngineeringPGData?.seo?.title || branch.title,
     description: automobileEngineeringPGData?.seo?.description || branch.description,
     heroSub: automobileEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    universities: (automobileEngineeringPGData?.universities && automobileEngineeringPGData.universities.length > 0)
+      ? automobileEngineeringPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (automobileEngineeringPGData?.faq && automobileEngineeringPGData.faq.length > 0)
       ? automobileEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

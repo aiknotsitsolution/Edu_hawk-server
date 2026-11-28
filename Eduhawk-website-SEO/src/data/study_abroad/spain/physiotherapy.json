@@ -6,7 +6,8 @@
   },
   "hero": {
     "title": "Physiotherapy in Spain for Indian Students",
-    "subtitle": "Study Physiotherapy in Spain (Grado en Fisioterapia) to earn a 4-year, 240 ECTS European rehabilitation degree combining biomechanics, musculoskeletal therapy, and supervised hospital clinical placements."
+    "subtitle": "Study Physiotherapy in Spain (Grado en Fisioterapia) to earn a 4-year, 240 ECTS European rehabilitation degree combining biomechanics, musculoskeletal therapy, and supervised hospital clinical placements.",
+    "badge": "Study Abroad - Spain"
   },
   "overview": [
     "Physiotherapy in Spain for Indian students offers a structured European healthcare education focused on human movement, musculoskeletal rehabilitation, neurorehabilitation, sports therapy, and patient recovery.",
@@ -65,12 +66,32 @@
       "groups": [
         {
           "t": "table",
-          "headers": ["Course", "Average Duration", "Core Focus"],
+          "headers": [
+            "Course",
+            "Average Duration",
+            "Core Focus"
+          ],
           "rows": [
-            ["Grado en Fisioterapia (BSc Physiotherapy)", "4 years (240 ECTS)", "Anatomy, biomechanics, therapeutic exercise, and clinical placements"],
-            ["Master's in Sports Physiotherapy", "1 – 2 years", "Athletic injury prevention, recovery, and sports rehabilitation"],
-            ["Master's in Neurological Rehabilitation", "1 – 2 years", "Stroke, spinal cord, and neuromuscular recovery"],
-            ["Master's in Manual & Musculoskeletal Therapy", "1 – 2 years", "Orthopedic assessment and hands-on manual techniques"]
+            [
+              "Grado en Fisioterapia (BSc Physiotherapy)",
+              "4 years (240 ECTS)",
+              "Anatomy, biomechanics, therapeutic exercise, and clinical placements"
+            ],
+            [
+              "Master's in Sports Physiotherapy",
+              "1 – 2 years",
+              "Athletic injury prevention, recovery, and sports rehabilitation"
+            ],
+            [
+              "Master's in Neurological Rehabilitation",
+              "1 – 2 years",
+              "Stroke, spinal cord, and neuromuscular recovery"
+            ],
+            [
+              "Master's in Manual & Musculoskeletal Therapy",
+              "1 – 2 years",
+              "Orthopedic assessment and hands-on manual techniques"
+            ]
           ]
         }
       ]
@@ -133,10 +154,22 @@
       "groups": [
         {
           "t": "table",
-          "headers": ["Type of University", "Illustrative Annual Tuition", "Approximate INR (€1 ≈ ₹108.60)"],
+          "headers": [
+            "Type of University",
+            "Illustrative Annual Tuition",
+            "Approximate INR (€1 ≈ ₹108.60)"
+          ],
           "rows": [
-            ["Public University", "€1,500 – €6,500", "₹1.63 lakh – ₹7.06 lakh"],
-            ["Private University", "€6,000 – €12,000+", "₹6.52 lakh – ₹13.03 lakh+"]
+            [
+              "Public University",
+              "€1,500 – €6,500",
+              "₹1.63 lakh – ₹7.06 lakh"
+            ],
+            [
+              "Private University",
+              "€6,000 – €12,000+",
+              "₹6.52 lakh – ₹13.03 lakh+"
+            ]
           ]
         },
         {
@@ -155,11 +188,23 @@
       "groups": [
         {
           "t": "table",
-          "headers": ["Career Stage", "Indicative Gross Annual Salary"],
+          "headers": [
+            "Career Stage",
+            "Indicative Gross Annual Salary"
+          ],
           "rows": [
-            ["Entry-Level Physiotherapist", "€20,000 – €26,000"],
-            ["Experienced Physiotherapist", "€26,000 – €36,000"],
-            ["Specialist / Sports Clinic Lead", "€36,000 – €50,000+"]
+            [
+              "Entry-Level Physiotherapist",
+              "€20,000 – €26,000"
+            ],
+            [
+              "Experienced Physiotherapist",
+              "€26,000 – €36,000"
+            ],
+            [
+              "Specialist / Sports Clinic Lead",
+              "€36,000 – €50,000+"
+            ]
           ]
         },
         {

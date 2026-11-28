@@ -239,6 +239,14 @@ const PostgraduateChemicalEngineering = () => {
     title: chemicalEngineeringPGData?.seo?.title || branch.title,
     description: chemicalEngineeringPGData?.seo?.description || branch.description,
     heroSub: chemicalEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    universities: (chemicalEngineeringPGData?.universities && chemicalEngineeringPGData.universities.length > 0)
+      ? chemicalEngineeringPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (chemicalEngineeringPGData?.faq && chemicalEngineeringPGData.faq.length > 0)
       ? chemicalEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

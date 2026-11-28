@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Biotechnology in Spain for Indian Students",
-    "subtitle": "Pursue advanced Biotechnology education in Spain, integrating molecular genetics, cellular biology, and industrial bioprocess engineering. Benefit from modern research laboratories, Mediterranean life-science centers, and globally recognized European university credentials."
+    "subtitle": "Pursue advanced Biotechnology education in Spain, integrating molecular genetics, cellular biology, and industrial bioprocess engineering. Benefit from modern research laboratories, Mediterranean life-science centers, and globally recognized European university credentials.",
+    "badge": "Study Abroad - Spain"
   },
   "overview": [
     "Biotechnology in Spain for Indian Students provides the Indian students with the opportunity to explore modern biological sciences, genetics, molecular biology, microbiology, pharmaceutical research and biotechnological innovation. Universities in Spain offer undergraduate and postgraduate courses in biotechnology and related disciplines, with specializations including biomedical research, industrial biotechnology and bioinformatics and molecular biology.",
@@ -65,15 +66,47 @@
       "groups": [
         {
           "t": "table",
-          "headers": ["Course", "Normal Duration", "Best Suited For"],
+          "headers": [
+            "Course",
+            "Normal Duration",
+            "Best Suited For"
+          ],
           "rows": [
-            ["Bachelor's in Biotechnology", "4 years", "Students after Class 12"],
-            ["Master of Science in Biotechnology", "1–2 years", "Degree in biotechnology or related science"],
-            ["MSc Biomedical Biotechnology", "1–2 years", "Students interested in medical/biomedical research"],
-            ["Master of Health Biotechnology", "1 year (some programs)", "Healthcare applications for science graduates"],
-            ["MSc in Pharmaceutical Biotechnology", "1–2 years", "Students studying drug development and pharmaceutical research"],
-            ["MSc Molecular and Cellular Biotechnology", "1–2 years", "Students interested in molecular biology and cellular processes"],
-            ["PhD in Biotechnology", "3–5 years (typical)", "Research students at an advanced level"]
+            [
+              "Bachelor's in Biotechnology",
+              "4 years",
+              "Students after Class 12"
+            ],
+            [
+              "Master of Science in Biotechnology",
+              "1–2 years",
+              "Degree in biotechnology or related science"
+            ],
+            [
+              "MSc Biomedical Biotechnology",
+              "1–2 years",
+              "Students interested in medical/biomedical research"
+            ],
+            [
+              "Master of Health Biotechnology",
+              "1 year (some programs)",
+              "Healthcare applications for science graduates"
+            ],
+            [
+              "MSc in Pharmaceutical Biotechnology",
+              "1–2 years",
+              "Students studying drug development and pharmaceutical research"
+            ],
+            [
+              "MSc Molecular and Cellular Biotechnology",
+              "1–2 years",
+              "Students interested in molecular biology and cellular processes"
+            ],
+            [
+              "PhD in Biotechnology",
+              "3–5 years (typical)",
+              "Research students at an advanced level"
+            ]
           ]
         },
         {
@@ -227,10 +260,22 @@
       "groups": [
         {
           "t": "table",
-          "headers": ["Type of University", "Sample Annual Tuition", "Approx. in INR p.a."],
+          "headers": [
+            "Type of University",
+            "Sample Annual Tuition",
+            "Approx. in INR p.a."
+          ],
           "rows": [
-            ["Public University", "€1,000 – €8,000", "₹1.09 – ₹8.69 lakh"],
-            ["Private University", "€6,000 – €15,000+", "₹6.52 – ₹16.29 lakh+"]
+            [
+              "Public University",
+              "€1,000 – €8,000",
+              "₹1.09 – ₹8.69 lakh"
+            ],
+            [
+              "Private University",
+              "€6,000 – €15,000+",
+              "₹6.52 – ₹16.29 lakh+"
+            ]
           ]
         },
         {
@@ -325,14 +370,35 @@
       "groups": [
         {
           "t": "table",
-          "headers": ["Job Title", "Illustrative Gross Annual Base Salary"],
+          "headers": [
+            "Job Title",
+            "Illustrative Gross Annual Base Salary"
+          ],
           "rows": [
-            ["Laboratory Technician", "€20,000 – €28,000"],
-            ["Biotechnology Research Assistant", "€22,000 – €32,000"],
-            ["Quality Control Analyst", "€23,000 – €34,000"],
-            ["Bioprocess / Production Specialist", "€25,000 – €38,000"],
-            ["Research Scientist", "€28,000 – €45,000"],
-            ["Senior Biotechnology Specialist", "€40,000 – €60,000+"]
+            [
+              "Laboratory Technician",
+              "€20,000 – €28,000"
+            ],
+            [
+              "Biotechnology Research Assistant",
+              "€22,000 – €32,000"
+            ],
+            [
+              "Quality Control Analyst",
+              "€23,000 – €34,000"
+            ],
+            [
+              "Bioprocess / Production Specialist",
+              "€25,000 – €38,000"
+            ],
+            [
+              "Research Scientist",
+              "€28,000 – €45,000"
+            ],
+            [
+              "Senior Biotechnology Specialist",
+              "€40,000 – €60,000+"
+            ]
           ]
         },
         {

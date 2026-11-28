@@ -14,6 +14,14 @@ scratch/
 .wrangler/
 **/.wrangler/
 
+# Audit & Scripts folders (never commit)
+UI-UX-AUDIT/
+**/UI-UX-AUDIT/
+Eduhawk-website-SEO/UI-UX-AUDIT/
+Eduhawk-website-SEO/scripts/
+vite-project/UI-UX-AUDIT/
+
+
 # OS / Editor
 .DS_Store
 Thumbs.db

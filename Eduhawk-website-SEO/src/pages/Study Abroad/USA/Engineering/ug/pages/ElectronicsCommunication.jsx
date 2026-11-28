@@ -286,6 +286,14 @@ const ElectronicsCommunicationUG = () => {
     title: electronicsCommunicationUGData?.seo?.title || branch.title,
     description: electronicsCommunicationUGData?.seo?.description || branch.description,
     heroSub: "",
+    universities: (electronicsCommunicationUGData?.universities && electronicsCommunicationUGData.universities.length > 0)
+      ? electronicsCommunicationUGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     overview: [
       ...(electronicsCommunicationUGData?.hero?.subtitle ? [electronicsCommunicationUGData.hero.subtitle] : []),
       branch.heroSub,

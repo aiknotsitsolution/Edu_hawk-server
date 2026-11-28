@@ -1266,7 +1266,7 @@ export default function HeroSection() {
                   {
                     icon: <Mail size={20} />,
                     title: "Email",
-                    detail: "admin@eduhawk.in",
+                    detail: "info@eduhawk.in",
                     sub: "We reply within 24 hours",
                   },
                   {

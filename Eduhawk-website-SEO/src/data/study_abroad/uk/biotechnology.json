@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Biotechnology",
-    "subtitle": "Pursue world-class Biotechnology degrees in the UK at leading Russell Group and research-intensive universities, renowned for genetic discovery and biopharmaceutical innovation. Gain comprehensive laboratory expertise and access to the UK's thriving £90+ billion life sciences sector."
+    "subtitle": "Pursue world-class Biotechnology degrees in the UK at leading Russell Group and research-intensive universities, renowned for genetic discovery and biopharmaceutical innovation. Gain comprehensive laboratory expertise and access to the UK's thriving £90+ billion life sciences sector.",
+    "badge": "Study Abroad - UK"
   },
   "overview": [
     "\"Biotechnology,\" a rapidly growing field, utilizes biology, chemistry, genetics, and technology to create products and processes that improve industrial production, agriculture, environmental sustainability, and human health.",
@@ -445,13 +446,31 @@
         },
         {
           "t": "table",
-          "headers": ["Expense Category", "Estimated Monthly Cost"],
+          "headers": [
+            "Expense Category",
+            "Estimated Monthly Cost"
+          ],
           "rows": [
-            ["Accommodation / Lodging", "£600 – £1,200"],
-            ["Groceries and food", "£180 – £300"],
-            ["Local transportation", "£60 – £160"],
-            ["Internet and mobile", "£20 – £50"],
-            ["Study materials and personal expenses", "£100 – £250"]
+            [
+              "Accommodation / Lodging",
+              "£600 – £1,200"
+            ],
+            [
+              "Groceries and food",
+              "£180 – £300"
+            ],
+            [
+              "Local transportation",
+              "£60 – £160"
+            ],
+            [
+              "Internet and mobile",
+              "£20 – £50"
+            ],
+            [
+              "Study materials and personal expenses",
+              "£100 – £250"
+            ]
           ]
         },
         {

@@ -385,11 +385,27 @@ const BbaAbroad = () => {
     ...page,
     title: bBAData?.seo?.title || page.title,
     description: bBAData?.seo?.description || page.description,
+    introTitle: bBAData?.hero?.title || page.introTitle,
     heroParas: bBAData?.hero?.subtitle ? [bBAData.hero.subtitle] : page.heroParas,
     overview: bBAData?.overview ? (Array.isArray(bBAData.overview) ? bBAData.overview : bBAData.overview.split('\n\n')) : page.overview,
-    faqs: (bBAData?.faq && bBAData.faq.length > 0)
-      ? bBAData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
-      : page.faqs,
+    sections: page.sections.map(sec => {
+      if (sec.slot === 'universities' && bBAData?.universities && bBAData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: bBAData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: page.sections.find(s => s.slot === 'universities')?.unis?.[idx]?.img || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    faqs: (bBAData?.faqs && bBAData.faqs.length > 0)
+      ? bBAData.faqs.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+      : (bBAData?.faq && bBAData.faq.length > 0)
+        ? bBAData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
+        : page.faqs,
   };
 
   return (

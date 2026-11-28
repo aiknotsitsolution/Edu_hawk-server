@@ -134,8 +134,8 @@ const CookiesPolicy = () => {
               </p>
               <p>
                 <span className="font-medium">Email:</span>{" "}
-                <a href="mailto:admin@eduhawk.in" className="text-blue-600 hover:underline">
-                  admin@eduhawk.in
+                <a href="mailto:info@eduhawk.in" className="text-blue-600 hover:underline">
+                  info@eduhawk.in
                 </a>
               </p>
               <p>

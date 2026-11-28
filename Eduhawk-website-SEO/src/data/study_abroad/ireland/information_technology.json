@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Study Information Technology in Ireland for Indian Students",
-    "subtitle": "Study Information Technology in Ireland, the premier European data center and enterprise cloud hub. International students gain NFQ-accredited IT qualifications, direct corporate pathways in Dublin's Silicon Docks, and up to 24 months of post-study stay-back via the Stamp 1G graduate scheme."
+    "subtitle": "Study Information Technology in Ireland, the premier European data center and enterprise cloud hub. International students gain NFQ-accredited IT qualifications, direct corporate pathways in Dublin's Silicon Docks, and up to 24 months of post-study stay-back via the Stamp 1G graduate scheme.",
+    "badge": "Study Abroad - Ireland"
   },
   "overview": [
     "Ireland serves as the primary European operational base for the world's leading technology and cloud infrastructure providers, including AWS, Microsoft, Google, Meta, and Oracle. Pursuing Information Technology in Ireland places Indian students at the geographic epicenter of European enterprise cloud platforms, international data networks, and global cyber defense centers.",
@@ -12,7 +13,7 @@
     {
       "name": "Trinity College Dublin",
       "location": "Dublin, Ireland",
-      "fee": "\u20ac18,000 \u2013 \u20ac35,000 / Year",
+      "fee": "€18,000 – €35,000 / Year",
       "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
       "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
       "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
@@ -20,7 +21,7 @@
     {
       "name": "University College Dublin (UCD)",
       "location": "Dublin, Ireland",
-      "fee": "\u20ac16,000 \u2013 \u20ac32,000 / Year",
+      "fee": "€16,000 – €32,000 / Year",
       "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
       "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
       "desc": "UCD is Ireland's largest university with a dynamic international community, renowned for innovative graduate programs and extensive industry links."
@@ -123,7 +124,7 @@
         {
           "name": "Trinity College Dublin",
           "location": "Dublin, Ireland",
-          "fee": "\u20ac18,000 \u2013 \u20ac35,000 / Year",
+          "fee": "€18,000 – €35,000 / Year",
           "img": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
           "image": "/uploads/study_abroad/ireland/ireland_dentistry_Trinity_College_Dublin-image1.png",
           "desc": "Trinity College Dublin is Ireland's leading university and ranked among the top in Europe, offering globally recognized degrees and world-class research facilities."
@@ -131,7 +132,7 @@
         {
           "name": "University College Dublin (UCD)",
           "location": "Dublin, Ireland",
-          "fee": "\u20ac16,000 \u2013 \u20ac32,000 / Year",
+          "fee": "€16,000 – €32,000 / Year",
           "img": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
           "image": "/uploads/study_abroad/ireland/ireland_biotechnology_University_College_Dublin-image2.png",
           "desc": "UCD is Ireland's largest university with a dynamic international community, renowned for innovative graduate programs and extensive industry links."
@@ -154,7 +155,7 @@
         {
           "t": "p",
           "items": [
-            "The university offers a BSc in Computer Science & Information Technology. Its published total non-EU fee for 2026/27 is \u20ac27,640 per year and includes the student levy."
+            "The university offers a BSc in Computer Science & Information Technology. Its published total non-EU fee for 2026/27 is €27,640 per year and includes the student levy."
           ]
         },
         {
@@ -327,7 +328,7 @@
         {
           "t": "p",
           "items": [
-            "Business Information Systems | University College Cork | \u20ac21,700 |"
+            "Business Information Systems | University College Cork | €21,700 |"
           ]
         },
         {
@@ -335,11 +336,11 @@
           "pairs": [
             {
               "t": "\\\\University of Galway, Computer Science and Information Technology\\\\ \\",
-              "d": "\\\\\u20ac27,500 \\+ \u20ac140 levy\\\\"
+              "d": "\\\\€27,500 \\+ €140 levy\\\\"
             },
             {
               "t": "University of Galway - published fee including levy\\\\ \\",
-              "d": "\\\\\u20ac27,640"
+              "d": "\\\\€27,640"
             }
           ]
         },
@@ -543,10 +544,10 @@
         {
           "t": "ul",
           "items": [
-            "Junior IT support positions: about \u20ac28,000-\u20ac38,000.",
-            "Junior system/net jobs. ~ \u20ac32-45k.",
-            "Entry-level cloud or cybersecurity jobs: around \u20ac40,000-\u20ac60,000.",
-            "Senior IT specialists and professionals: \u20ac55,000-\u20ac80,000 or more for some roles."
+            "Junior IT support positions: about €28,000-€38,000.",
+            "Junior system/net jobs. ~ €32-45k.",
+            "Entry-level cloud or cybersecurity jobs: around €40,000-€60,000.",
+            "Senior IT specialists and professionals: €55,000-€80,000 or more for some roles."
           ]
         },
         {
@@ -627,7 +628,7 @@
     },
     {
       "q": "How much is the tuition fee for Information Technology in Ireland?\\\\",
-      "a": "\\\\Examples of 2026/27 undergraduate courses include \\\\UCC's Business Information Systems course at \u20ac21,700 per year \\\\and the University of Galway's Computer Science and Information Technology course at \u20ac27,640 per year. The cost will vary between institutions and levels of qualification."
+      "a": "\\\\Examples of 2026/27 undergraduate courses include \\\\UCC's Business Information Systems course at €21,700 per year \\\\and the University of Galway's Computer Science and Information Technology course at €27,640 per year. The cost will vary between institutions and levels of qualification."
     },
     {
       "q": "Is IT a good course in Ireland?\\\\",

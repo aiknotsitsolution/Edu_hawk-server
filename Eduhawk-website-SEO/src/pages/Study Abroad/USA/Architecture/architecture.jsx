@@ -547,6 +547,26 @@ const ArchitectureAbroad = () => {
     description: architectureData?.seo?.description || page.description,
     heroParas: architectureData?.hero?.subtitle ? [architectureData.hero.subtitle] : page.heroParas,
     overview: architectureData?.overview ? (Array.isArray(architectureData.overview) ? architectureData.overview : architectureData.overview.split('\n\n')) : page.overview,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && architectureData?.universities && architectureData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: architectureData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (architectureData?.universities && architectureData.universities.length > 0)
+      ? architectureData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
     faqs: (architectureData?.faq && architectureData.faq.length > 0)
       ? architectureData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

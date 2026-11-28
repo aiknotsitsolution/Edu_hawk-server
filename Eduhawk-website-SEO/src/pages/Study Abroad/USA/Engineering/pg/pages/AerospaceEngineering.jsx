@@ -245,6 +245,14 @@ const PostgraduateAerospaceEngineering = () => {
     title: aerospaceEngineeringPGData?.seo?.title || branch.title,
     description: aerospaceEngineeringPGData?.seo?.description || branch.description,
     heroSub: aerospaceEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    universities: (aerospaceEngineeringPGData?.universities && aerospaceEngineeringPGData.universities.length > 0)
+      ? aerospaceEngineeringPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (aerospaceEngineeringPGData?.faq && aerospaceEngineeringPGData.faq.length > 0)
       ? aerospaceEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

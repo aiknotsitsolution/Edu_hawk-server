@@ -252,6 +252,14 @@ const PostgraduateElectricalEngineering = () => {
     title: electricalEngineeringPGData?.seo?.title || branch.title,
     description: electricalEngineeringPGData?.seo?.description || branch.description,
     heroSub: electricalEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    universities: (electricalEngineeringPGData?.universities && electricalEngineeringPGData.universities.length > 0)
+      ? electricalEngineeringPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (electricalEngineeringPGData?.faq && electricalEngineeringPGData.faq.length > 0)
       ? electricalEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

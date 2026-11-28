@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Study Information Technology in Switzerland for Indian Students",
-    "subtitle": "Pursue elite Information Technology and Enterprise Systems education in Switzerland at continental Europe's highest-ranked technical universities with remarkably low public semester fees. Indian students access state-of-the-art enterprise laboratories and multinational European corporate headquarters."
+    "subtitle": "Pursue elite Information Technology and Enterprise Systems education in Switzerland at continental Europe's highest-ranked technical universities with remarkably low public semester fees. Indian students access state-of-the-art enterprise laboratories and multinational European corporate headquarters.",
+    "badge": "Study Abroad - Switzerland"
   },
   "overview": [
     "Switzerland is a global center for secure data hosting, financial technology systems, and international corporate headquarters. Studying Information Technology in Switzerland gives Indian students access to world-class academic institutions renowned for precision engineering, enterprise systems reliability, and high-performance digital infrastructure.",
@@ -18,7 +19,7 @@
       "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
     },
     {
-      "name": "EPFL (\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+      "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
       "location": "Lausanne, Switzerland",
       "fee": "CHF 780 / Semester",
       "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",
@@ -58,7 +59,7 @@
           "desc": "ETH Zurich ranks among the top universities worldwide for technology and natural sciences, producing 22 Nobel laureates including Albert Einstein."
         },
         {
-          "name": "EPFL (\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne)",
+          "name": "EPFL (École Polytechnique Fédérale de Lausanne)",
           "location": "Lausanne, Switzerland",
           "fee": "CHF 780 / Semester",
           "img": "/uploads/study_abroad/switzerland/switz_Architecture_image2.png",

@@ -11,12 +11,20 @@ const organizationSchema = {
   logo: "https://www.eduhawk.in/Eduhawk.png",
   description:
     "Edu-Hawk Worldwide helps Indian students secure MBBS admissions abroad in NMC-recognized universities with expert counselling and complete support.",
-  contactPoint: {
-    "@type": "ContactPoint",
-    contactType: "customer support",
-    telephone: "+91-7632949984",
-    email: "admin@eduhawk.in",
-  },
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      contactType: "customer support",
+      telephone: "+91-7632949984",
+      email: "info@eduhawk.in",
+    },
+    {
+      "@type": "ContactPoint",
+      contactType: "admissions",
+      telephone: "+91-9630736070",
+      email: "admissions@eduhawk.in",
+    },
+  ],
   address: {
     "@type": "PostalAddress",
     addressCountry: "IN",

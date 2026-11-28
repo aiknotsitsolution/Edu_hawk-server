@@ -1,26 +1,27 @@
 {
   "hero": {
     "title": "Study Information Technology in France for Indian Students",
-    "subtitle": "Advance your enterprise technology career in France at prestigious Grandes \u00c9coles and research universities, benefiting from Europe's booming cloud and cybersecurity initiatives. Indian students gain specialized IT training, affordable tuition, and up to 2 years of post-study stay-back under the Franco-Indian partnership."
+    "subtitle": "Advance your enterprise technology career in France at prestigious Grandes Écoles and research universities, benefiting from Europe's booming cloud and cybersecurity initiatives. Indian students gain specialized IT training, affordable tuition, and up to 2 years of post-study stay-back under the Franco-Indian partnership.",
+    "badge": "Study Abroad - France"
   },
   "overview": [
     "France is driving major European technological sovereignty initiatives in cloud infrastructure, telecommunications, and digital security. Studying Information Technology in France offers Indian students high-caliber technical instruction across enterprise network management, cloud architectures, and operational cyber defense, enriched by Europe's thriving startup and corporate technology sectors.",
     "French public universities and specialized engineering institutions offer English-taught 3-year Bachelor's and 2-year Master of Science in Information Technology (MSc IT) programs. Academic curricula emphasize enterprise database management, distributed cloud platforms, network protocol engineering, IT governance, and cybersecurity operations, with students benefiting from subsidized public tuition and mandatory corporate internship semesters.",
-    "Upon completing a recognized Master's degree in France, Indian students can access post-study work authorization under the Carte de S\u00e9jour Recherche d'Emploi ou Cr\u00e9ation d'Entreprise (RECE). Supported by the Franco-Indian bilateral partnership on student mobility, Indian Master's alumni are eligible for up to a 2-year post-study stay-back period, providing ample time to launch careers as Cloud Engineers, Systems Specialists, and Network Administrators in Paris, Lyon, or Toulouse."
+    "Upon completing a recognized Master's degree in France, Indian students can access post-study work authorization under the Carte de Séjour Recherche d'Emploi ou Création d'Entreprise (RECE). Supported by the Franco-Indian bilateral partnership on student mobility, Indian Master's alumni are eligible for up to a 2-year post-study stay-back period, providing ample time to launch careers as Cloud Engineers, Systems Specialists, and Network Administrators in Paris, Lyon, or Toulouse."
   ],
   "universities": [
     {
       "name": "Sorbonne University",
       "location": "France",
-      "fee": "\u20ac2,770 \u2013 \u20ac3,770 / Year",
+      "fee": "€2,770 – €3,770 / Year",
       "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
       "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
-      "desc": "Paris : The Master Informatique of Sorbonne Universit\u00e9 offers specializations in software technology, networks, cybersecurity, distributed systems, artificial intelligence and data."
+      "desc": "Paris : The Master Informatique of Sorbonne Université offers specializations in software technology, networks, cybersecurity, distributed systems, artificial intelligence and data."
     },
     {
       "name": "Grenoble Alpes University, Grenoble",
       "location": "France",
-      "fee": "\u20ac2,770 \u2013 \u20ac3,770 / Year",
+      "fee": "€2,770 – €3,770 / Year",
       "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
       "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
       "desc": "offers a two:year Master Informatique, including the Master of Science in Informatics at Grenoble (MoSIG) taught in English and open to international applicants. The university also offers computer engineering tracks."
@@ -28,7 +29,7 @@
     {
       "name": "Paris",
       "location": "France",
-      "fee": "\u20ac2,770 \u2013 \u20ac3,770 / Year",
+      "fee": "€2,770 – €3,770 / Year",
       "img": "/uploads/study_abroad/france/france_Universit_Paris.webp",
       "image": "/uploads/study_abroad/france/france_Universit_Paris.webp",
       "desc": "Saclay University : Region of Paris:Saclay : has master's:level computing programs, including Distributed, Parallel and Quantum Computing. This pathway, taught in English, is relevant to students interested in high:performance computing, distributed systems, and advanced computing applications."
@@ -170,15 +171,15 @@
         {
           "name": "Sorbonne University",
           "location": "France",
-          "fee": "\u20ac2,770 \u2013 \u20ac3,770 / Year",
+          "fee": "€2,770 – €3,770 / Year",
           "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
           "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
-          "desc": "Paris : The Master Informatique of Sorbonne Universit\u00e9 offers specializations in software technology, networks, cybersecurity, distributed systems, artificial intelligence and data."
+          "desc": "Paris : The Master Informatique of Sorbonne Université offers specializations in software technology, networks, cybersecurity, distributed systems, artificial intelligence and data."
         },
         {
           "name": "Grenoble Alpes University, Grenoble",
           "location": "France",
-          "fee": "\u20ac2,770 \u2013 \u20ac3,770 / Year",
+          "fee": "€2,770 – €3,770 / Year",
           "img": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
           "image": "/uploads/study_abroad/france/france_Sorbonne_University.webp",
           "desc": "offers a two:year Master Informatique, including the \\\\Master of Science in Informatics at Grenoble (MoSIG)\\\\ taught in English and open to international applicants. The university also offers computer engineering tracks."
@@ -186,7 +187,7 @@
         {
           "name": "Paris",
           "location": "France",
-          "fee": "\u20ac2,770 \u2013 \u20ac3,770 / Year",
+          "fee": "€2,770 – €3,770 / Year",
           "img": "/uploads/study_abroad/france/france_Universit_Paris.webp",
           "image": "/uploads/study_abroad/france/france_Universit_Paris.webp",
           "desc": "Saclay University : Region of Paris:Saclay : has master's:level computing programs, including \\\\Distributed, Parallel and Quantum Computing\\. This pathway, taught in English, is relevant to students interested in high:performance computing, distributed systems, and advanced computing applications."
@@ -346,19 +347,19 @@
         {
           "t": "p",
           "items": [
-            "Bachelor's Degree (Licence) | \u20ac178 | \u20ac2,902"
+            "Bachelor's Degree (Licence) | €178 | €2,902"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Master's Degree | \u20ac255 | \u20ac3,950"
+            "Master's Degree | €255 | €3,950"
           ]
         },
         {
           "t": "p",
           "items": [
-            "Doctorate | \u20ac398 | \u20ac398"
+            "Doctorate | €398 | €398"
           ]
         },
         {
@@ -609,7 +610,7 @@
     },
     {
       "q": "What's the cost of a master's in IT in France?",
-      "a": "The regular registration fee for a master's degree at a public university for the academic year 2026\u20132027, according to the fee information, is \u20ac255 per year for students from the EU/EEA/Switzerland and \u20ac3,950 for non-EU students with differentiated fees."
+      "a": "The regular registration fee for a master's degree at a public university for the academic year 2026–2027, according to the fee information, is €255 per year for students from the EU/EEA/Switzerland and €3,950 for non-EU students with differentiated fees."
     },
     {
       "q": "What bachelor's degree is required for an IT master's in France?",
@@ -626,7 +627,7 @@
   ],
   "seo": {
     "title": "Study Information Technology in France for Indian Students | Edu-Hawk Worldwide",
-    "description": "Advance your enterprise technology career in France at prestigious Grandes \u00c9coles and research universities, benefiting from Europe's booming cloud and cyb",
-    "keywords": "Study Information Technology in France for Indian Students, Postgraduate Information Technology Courses in France for International Students, Best Universities for Information Technology PG in France, Master's Degree in Information Technology in France, Information Technology PG Eligibility Requirements in France, Information Technology Admission Requirements for Indian Students, Information Technology PG Tuition Fees in France, Cost of Studying Information Technology in France, English-Taught Information Technology Master's Programmes in France, Data Science and Artificial Intelligence Courses in France, Information Technology at Sorbonne Universit\u00e9 and Universit\u00e9 Grenoble Alpes, Information Technology Jobs and Career Opportunities in France, <"
+    "description": "Advance your enterprise technology career in France at prestigious Grandes Écoles and research universities, benefiting from Europe's booming cloud and cyb",
+    "keywords": "Study Information Technology in France for Indian Students, Postgraduate Information Technology Courses in France for International Students, Best Universities for Information Technology PG in France, Master's Degree in Information Technology in France, Information Technology PG Eligibility Requirements in France, Information Technology Admission Requirements for Indian Students, Information Technology PG Tuition Fees in France, Cost of Studying Information Technology in France, English-Taught Information Technology Master's Programmes in France, Data Science and Artificial Intelligence Courses in France, Information Technology at Sorbonne Université and Université Grenoble Alpes, Information Technology Jobs and Career Opportunities in France, <"
   }
 }

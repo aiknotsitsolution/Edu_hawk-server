@@ -577,7 +577,7 @@ const page = {
           tagline: "Start in India. Continue Abroad. Graduate Globally.",
           description: "Connect with Edu-Hawk Worldwide and take the next step towards your international education goals.",
           website: "eduhawk.in",
-          email: "eduhawk.global@gmail.com",
+          email: "admissions@eduhawk.in",
           ctaText: "Connect With Us",
           ctaLink: "/contact"
         }
@@ -638,6 +638,26 @@ const InformationTechnologyUSA = () => {
     faqs: (itData?.faq && itData.faq.length > 0)
       ? itData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && itData?.universities && itData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: itData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (itData?.universities && itData.universities.length > 0)
+      ? itData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
   };
 
   return (

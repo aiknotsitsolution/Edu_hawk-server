@@ -576,6 +576,26 @@ const LanguageCoursesAbroad = () => {
     description: languageCoursesData?.seo?.description || page.description,
     heroParas: languageCoursesData?.hero?.subtitle ? [languageCoursesData.hero.subtitle] : page.heroParas,
     overview: languageCoursesData?.overview ? (Array.isArray(languageCoursesData.overview) ? languageCoursesData.overview : languageCoursesData.overview.split('\n\n')) : page.overview,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && languageCoursesData?.universities && languageCoursesData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: languageCoursesData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (languageCoursesData?.universities && languageCoursesData.universities.length > 0)
+      ? languageCoursesData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
     faqs: (languageCoursesData?.faq && languageCoursesData.faq.length > 0)
       ? languageCoursesData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

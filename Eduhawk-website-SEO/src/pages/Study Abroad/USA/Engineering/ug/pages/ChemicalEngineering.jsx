@@ -225,6 +225,14 @@ const ChemicalEngineeringUG = () => {
     title: chemicalEngineeringUGData?.seo?.title || branch.title,
     description: chemicalEngineeringUGData?.seo?.description || branch.description,
     heroSub: chemicalEngineeringUGData?.hero?.subtitle || branch.heroSub,
+    universities: (chemicalEngineeringUGData?.universities && chemicalEngineeringUGData.universities.length > 0)
+      ? chemicalEngineeringUGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (chemicalEngineeringUGData?.faq && chemicalEngineeringUGData.faq.length > 0)
       ? chemicalEngineeringUGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,

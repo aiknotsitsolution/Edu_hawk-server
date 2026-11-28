@@ -375,6 +375,26 @@ const BbsAbroad = () => {
     description: bBSData?.seo?.description || page.description,
     heroParas: bBSData?.hero?.subtitle ? [bBSData.hero.subtitle] : page.heroParas,
     overview: bBSData?.overview ? (Array.isArray(bBSData.overview) ? bBSData.overview : bBSData.overview.split('\n\n')) : page.overview,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && bBSData?.universities && bBSData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: bBSData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (bBSData?.universities && bBSData.universities.length > 0)
+      ? bBSData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
     faqs: (bBSData?.faq && bBSData.faq.length > 0)
       ? bBSData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

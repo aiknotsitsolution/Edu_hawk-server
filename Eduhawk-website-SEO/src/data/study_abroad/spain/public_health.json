@@ -1,7 +1,8 @@
 {
   "hero": {
     "title": "Public Health in Spain for Indian Students",
-    "subtitle": "Public Health in Spain for Indian Students provides an opportunity to study disease prevention, health promotion, epidemiology, healthcare policy and community health management in a European healthcare setting. Spain is an interesting destination for students who want to develop knowledge of population health, health care systems, medical research and international health challenges."
+    "subtitle": "Public Health in Spain for Indian Students provides an opportunity to study disease prevention, health promotion, epidemiology, healthcare policy and community health management in a European healthcare setting. Spain is an interesting destination for students who want to develop knowledge of population health, health care systems, medical research and international health challenges.",
+    "badge": "Study Abroad - Spain"
   },
   "overview": [
     "The decision to Study Public Health in Spain gives students the academic knowledge and practical understanding of population health, healthcare systems, disease prevention and global health issues.",
@@ -77,13 +78,41 @@
             "Suitable For"
           ],
           "rows": [
-            ["Bachelors in Related Health or Science Field", "3–4 Years", "Students After Class 12"],
-            ["Master of Public Health (MPH)", "1–2 years", "Graduates of eligible disciplines"],
-            ["MSc in Epidemiology", "1–2 years", "Students interested in researching diseases and data"],
-            ["Preventive Medicine and Public Health", "Depending on the program", "Students interested in disease prevention and research"],
-            ["Public Health and Health Management", "1 year in some programs", "Students interested in healthcare systems and administration"],
-            ["Global Health", "1–2 years", "Students interested in global health issues"],
-            ["PhD in Public Health or Related Field", "3 to 5 years", "Best for students who want to do advanced research"]
+            [
+              "Bachelors in Related Health or Science Field",
+              "3–4 Years",
+              "Students After Class 12"
+            ],
+            [
+              "Master of Public Health (MPH)",
+              "1–2 years",
+              "Graduates of eligible disciplines"
+            ],
+            [
+              "MSc in Epidemiology",
+              "1–2 years",
+              "Students interested in researching diseases and data"
+            ],
+            [
+              "Preventive Medicine and Public Health",
+              "Depending on the program",
+              "Students interested in disease prevention and research"
+            ],
+            [
+              "Public Health and Health Management",
+              "1 year in some programs",
+              "Students interested in healthcare systems and administration"
+            ],
+            [
+              "Global Health",
+              "1–2 years",
+              "Students interested in global health issues"
+            ],
+            [
+              "PhD in Public Health or Related Field",
+              "3 to 5 years",
+              "Best for students who want to do advanced research"
+            ]
           ]
         },
         {
@@ -240,8 +269,16 @@
             "Approx. INR"
           ],
           "rows": [
-            ["Public University", "€1,000 – €8,000", "₹1.09 – ₹8.69 lakh"],
-            ["Private University", "€6,000 – €20,000+", "₹5.52 lakh – ₹17.72 lakh+"]
+            [
+              "Public University",
+              "€1,000 – €8,000",
+              "₹1.09 – ₹8.69 lakh"
+            ],
+            [
+              "Private University",
+              "€6,000 – €20,000+",
+              "₹5.52 lakh – ₹17.72 lakh+"
+            ]
           ]
         },
         {
@@ -425,12 +462,30 @@
             "Example Gross Yearly Salary"
           ],
           "rows": [
-            ["Public Health Project Assistant", "€20,000 – €28,000"],
-            ["Public Health Research Coordinator", "€24,000 – €36,000"],
-            ["Health Data Analyst or Epidemiologist", "€25,000 – €40,000"],
-            ["Health Program Manager", "€30,000 – €45,000"],
-            ["Research or Health Policy Specialist", "€28,000 – €45,000"],
-            ["Senior Public Health Consultant", "€40,000 – €60,000+"]
+            [
+              "Public Health Project Assistant",
+              "€20,000 – €28,000"
+            ],
+            [
+              "Public Health Research Coordinator",
+              "€24,000 – €36,000"
+            ],
+            [
+              "Health Data Analyst or Epidemiologist",
+              "€25,000 – €40,000"
+            ],
+            [
+              "Health Program Manager",
+              "€30,000 – €45,000"
+            ],
+            [
+              "Research or Health Policy Specialist",
+              "€28,000 – €45,000"
+            ],
+            [
+              "Senior Public Health Consultant",
+              "€40,000 – €60,000+"
+            ]
           ]
         },
         {

@@ -560,7 +560,7 @@ const page = {
           tagline: "Start in India. Continue Abroad. Graduate Globally.",
           desc: "Planning to pursue a Master's in Automobile Engineering in Finland? Edu-Hawk Worldwide can help you understand the study abroad process and prepare for your international education journey. Connect with Edu-Hawk Worldwide and take the next step toward your engineering education abroad.",
           phone: "+91 96307 36070",
-          email: "eduhawk.global@gmail.com",
+          email: "admissions@eduhawk.in",
           site: "eduhawk.in",
           buttonText: "Connect With Us",
           buttonLink: "https://api.whatsapp.com/send?phone=919630736070"

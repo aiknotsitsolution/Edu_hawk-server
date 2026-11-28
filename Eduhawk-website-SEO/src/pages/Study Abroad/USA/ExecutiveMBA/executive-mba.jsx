@@ -392,6 +392,26 @@ const ExecutiveMbaAbroad = () => {
     description: executiveMBAData?.seo?.description || page.description,
     heroParas: executiveMBAData?.hero?.subtitle ? [executiveMBAData.hero.subtitle] : page.heroParas,
     overview: executiveMBAData?.overview ? (Array.isArray(executiveMBAData.overview) ? executiveMBAData.overview : executiveMBAData.overview.split('\n\n')) : page.overview,
+    sections: (page.sections || []).map(sec => {
+      if ((sec.slot === 'universities' || sec.slot === 'unis') && executiveMBAData?.universities && executiveMBAData.universities.length > 0) {
+        return {
+          ...sec,
+          unis: executiveMBAData.universities.map((u, idx) => ({
+            name: u.name,
+            desc: u.desc || '',
+            img: (sec.unis?.[idx]?.img || sec.unis?.[idx]?.image) || u.image || u.img
+          }))
+        };
+      }
+      return sec;
+    }),
+    universities: (executiveMBAData?.universities && executiveMBAData.universities.length > 0)
+      ? executiveMBAData.universities.map((u, idx) => ({
+          ...u,
+          image: page.universities?.[idx]?.image || u.image,
+          img: page.universities?.[idx]?.img || u.img
+        }))
+      : page.universities,
     faqs: (executiveMBAData?.faq && executiveMBAData.faq.length > 0)
       ? executiveMBAData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : page.faqs,

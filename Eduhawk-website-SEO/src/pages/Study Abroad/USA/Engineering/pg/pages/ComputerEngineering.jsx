@@ -242,6 +242,14 @@ const PostgraduateComputerEngineering = () => {
     title: computerEngineeringPGData?.seo?.title || branch.title,
     description: computerEngineeringPGData?.seo?.description || branch.description,
     heroSub: computerEngineeringPGData?.hero?.subtitle || branch.heroSub,
+    universities: (computerEngineeringPGData?.universities && computerEngineeringPGData.universities.length > 0)
+      ? computerEngineeringPGData.universities.map((u, idx) => ({
+          name: u.name,
+          location: u.location || branch.universities?.[idx]?.location || '',
+          img: branch.universities?.[idx]?.img || u.image || u.img,
+          desc: u.desc || ''
+        }))
+      : branch.universities,
     faqs: (computerEngineeringPGData?.faq && computerEngineeringPGData.faq.length > 0)
       ? computerEngineeringPGData.faq.map(f => ({ q: f.question || f.q, a: f.answer || f.a }))
       : branch.faqs,
